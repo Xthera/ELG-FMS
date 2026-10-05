@@ -1,0 +1,240 @@
+name: Top Holding - All Funds Recovery
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prudential-holdings-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ============================================================
+      # 1. CHECKOUT
+      # ============================================================
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ============================================================
+      # 2. PYTHON
+      # ============================================================
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ============================================================
+      # 3. DEPENDENCIES
+      # ============================================================
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install openpyxl pypdf playwright
+
+      # ============================================================
+      # 4. PLAYWRIGHT
+      # ============================================================
+
+      - name: Install Playwright Chromium
+        run: |
+          python -m playwright install --with-deps chromium
+
+      # ============================================================
+      # 5. VERIFY REQUIRED FILES
+      # ============================================================
+
+      - name: Verify repository files
+        run: |
+          echo "=========================================="
+          echo "VERIFYING REQUIRED FILES"
+          echo "=========================================="
+
+          test -f "Funds Links.xlsm"
+          test -f "scripts/test_prudential_holdings.py"
+          test -f "scripts/update_prudential_holdings.py"
+
+          echo ""
+          echo "Required files found."
+
+      # ============================================================
+      # 6. RUN FROZEN BASELINE
+      #
+      # IMPORTANT:
+      # This executes the existing frozen baseline.
+      # We do NOT modify the baseline script.
+      # ============================================================
+
+      - name: Run frozen Prudential holdings baseline
+        run: |
+          echo "=========================================="
+          echo "RUNNING FROZEN BASELINE"
+          echo "=========================================="
+
+          python -u scripts/test_prudential_holdings.py
+
+      # ============================================================
+      # 7. VERIFY BASELINE OUTPUT
+      # ============================================================
+
+      - name: Verify baseline output
+        run: |
+          echo "=========================================="
+          echo "VERIFYING BASELINE OUTPUT"
+          echo "=========================================="
+
+          test -f "output_holdings/run_summary.json"
+
+          echo ""
+          echo "Baseline run_summary.json found."
+
+          python - <<'PY'
+          import json
+
+          path = "output_holdings/run_summary.json"
+
+          with open(path, encoding="utf-8") as f:
+              data = json.load(f)
+
+          print("Baseline status:")
+          print(data.get("status"))
+
+          print()
+          print("Successful funds:")
+          print(data.get("successfulFunds"))
+
+          print()
+          print("Failed funds:")
+          print(data.get("failedFunds"))
+
+          print()
+          print("Failed rows:")
+
+          for item in data.get("failed", []):
+              print(
+                  f" - Row {item.get('excelRow')}: "
+                  f"{item.get('error', 'Unknown error')}"
+              )
+          PY
+
+      # ============================================================
+      # 8. RUN RECOVERY
+      #
+      # Recovery reads:
+      #
+      # output_holdings/run_summary.json
+      #
+      # and processes ONLY failed funds.
+      # ============================================================
+
+      - name: Run failed-fund recovery test
+        run: |
+          echo "=========================================="
+          echo "RUNNING FAILED-FUND RECOVERY"
+          echo "=========================================="
+
+          python -u scripts/update_prudential_holdings.py
+
+      # ============================================================
+      # 9. DISPLAY RECOVERY RESULTS
+      # ============================================================
+
+      - name: Show recovery summary
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "PRUDENTIAL HOLDINGS RECOVERY SUMMARY"
+          echo "=========================================="
+
+          if [ -f "output_holdings_recovery/run_summary.json" ]; then
+
+            python - <<'PY'
+          import json
+
+          path = "output_holdings_recovery/run_summary.json"
+
+          with open(path, encoding="utf-8") as f:
+              data = json.load(f)
+
+          print("Status:")
+          print(data.get("status"))
+
+          print()
+          print("Baseline failures:")
+          print(data.get("failedFundsFromBaseline"))
+
+          print()
+          print("Matched recovery targets:")
+          print(data.get("matchedRecoveryTargets"))
+
+          print()
+          print("Recovery successful:")
+          print(data.get("successfulFunds"))
+
+          print()
+          print("Recovery failed:")
+          print(data.get("failedFunds"))
+
+          print()
+          print("Recovered funds:")
+
+          for item in data.get("recovered", []):
+              print(
+                  f" - Row {item.get('excelRow')}: "
+                  f"{item.get('fundName')} "
+                  f"({item.get('topHoldingsCount')} holdings)"
+              )
+
+          print()
+          print("Still failed:")
+
+          for item in data.get("failed", []):
+              print(
+                  f" - Row {item.get('excelRow')}: "
+                  f"{item.get('error', 'Unknown error')}"
+              )
+          PY
+
+          else
+            echo "Recovery summary was not created."
+          fi
+
+      # ============================================================
+      # 10. SHOW OUTPUT STRUCTURE
+      # ============================================================
+
+      - name: Show generated recovery files
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "RECOVERY OUTPUT FILES"
+          echo "=========================================="
+
+          if [ -d "output_holdings_recovery" ]; then
+            find output_holdings_recovery -type f -print | sort
+          else
+            echo "No recovery output directory found."
+          fi
+
+      # ============================================================
+      # 11. UPLOAD BASELINE + RECOVERY RESULTS
+      #
+      # This creates a GitHub Actions artifact only.
+      #
+      # NOTHING IS COMMITTED TO THE REPOSITORY.
+      # ============================================================
+
+      - name: Upload holdings test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: prudential-holdings-baseline-recovery-test
+          path: |
+            output_holdings/
+            output_holdings_recovery/
+          if-no-files-found: warn
+          retention-days: 14

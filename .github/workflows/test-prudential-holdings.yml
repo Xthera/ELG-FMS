@@ -1,0 +1,127 @@
+name: Top Holdings - All Funds
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-prudential-holdings:
+
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 60
+
+    steps:
+
+      # ------------------------------------------------------------
+      # 1. Checkout repository
+      # ------------------------------------------------------------
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ------------------------------------------------------------
+      # 2. Set up Python 3.12
+      # ------------------------------------------------------------
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ------------------------------------------------------------
+      # 3. Install Python dependencies
+      # ------------------------------------------------------------
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r scripts/requirements.txt
+
+      # ------------------------------------------------------------
+      # 4. Install Playwright Chromium
+      # ------------------------------------------------------------
+      - name: Install Playwright Chromium
+        run: |
+          python -m playwright install --with-deps chromium
+
+      # ------------------------------------------------------------
+      # 5. Verify required files
+      # ------------------------------------------------------------
+      - name: Verify required files
+        run: |
+          echo "============================================================"
+          echo "REPOSITORY CHECK"
+          echo "============================================================"
+
+          echo "Current directory:"
+          pwd
+
+          echo
+          echo "Repository contents:"
+          ls -la
+
+          echo
+          echo "Scripts directory:"
+          ls -la scripts
+
+          echo
+          echo "Checking required files..."
+
+          test -f "Funds Links.xlsm"
+          test -f "scripts/test_prudential_holdings.py"
+          test -f "scripts/requirements.txt"
+
+          echo
+          echo "All required files found."
+
+      # ------------------------------------------------------------
+      # 6. Run all-fund Prudential Top Holdings extraction
+      # ------------------------------------------------------------
+      - name: Run all-fund Prudential Top Holdings extraction
+        run: |
+          python -u scripts/test_prudential_holdings.py
+
+      # ------------------------------------------------------------
+      # 7. Display run summary
+      # ------------------------------------------------------------
+      - name: Display run summary
+        if: always()
+        run: |
+          echo "============================================================"
+          echo "FINAL RUN SUMMARY"
+          echo "============================================================"
+
+          if [ -f "output_factsheets/run_summary.json" ]; then
+            cat output_factsheets/run_summary.json
+          elif [ -f "output_holdings/run_summary.json" ]; then
+            cat output_holdings/run_summary.json
+          else
+            echo "No run_summary.json found."
+          fi
+
+          echo
+          echo "============================================================"
+          echo "DIRECTORY CHECK"
+          echo "============================================================"
+
+          if [ -d "output_factsheets" ]; then
+            echo "output_factsheets:"
+            find output_factsheets -maxdepth 2 -type f | sort
+          fi
+
+          if [ -d "output_holdings" ]; then
+            echo
+            echo "output_holdings:"
+            find output_holdings -maxdepth 2 -type f | sort
+          fi
+
+      # ------------------------------------------------------------
+      # 8. Upload all-fund Prudential holdings test output
+      # ------------------------------------------------------------
+      - name: Upload all-fund holdings test output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: prudential-top-holdings-all-funds-${{ github.run_number }}
+          path: |
+            output_factsheets/
+            output_holdings/
+          if-no-files-found: warn
+          retention-days: 14
