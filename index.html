@@ -1,0 +1,1740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="VGrat FMS — Prudential Singapore fund market performance, market news and monitoring dashboard."
+    >
+
+    <meta
+        name="theme-color"
+        content="#0b1118"
+    >
+
+    <title>VGrat FMS — Market Performance</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+    <!--
+        Chart.js 4.4.1
+        Used only by the optional chart layer.
+        The dashboard remains functional if charts fail.
+    -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"
+        defer
+    ></script>
+</head>
+
+
+<body>
+
+    <!-- ======================================================
+         APPLICATION SHELL
+    ======================================================= -->
+
+    <div
+        id="app"
+        class="app-shell"
+    >
+
+
+        <!-- ==================================================
+             HEADER
+        =================================================== -->
+
+        <header class="site-header">
+
+            <div class="header-inner">
+
+
+                <!-- MENU TOGGLE -->
+
+                <button
+                    id="nav-toggle"
+                    type="button"
+                    class="nav-toggle"
+                    aria-controls="main-nav"
+                    aria-expanded="true"
+                    aria-label="Minimise menu"
+                    title="Minimise menu"
+                >
+
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        aria-hidden="true"
+                    >
+                        <path
+                            d="M2 4h12M2 8h12M2 12h12"
+                            stroke="currentColor"
+                            stroke-width="1.6"
+                            stroke-linecap="round"
+                        />
+                    </svg>
+
+                </button>
+
+
+                <!-- BRAND -->
+
+                <a
+                    href="#"
+                    class="brand"
+                    data-view-target="performance"
+                    aria-label="VGrat FMS Market Performance"
+                >
+
+                    <span class="brand-mark">
+                        VG
+                    </span>
+
+                    <span class="brand-copy">
+
+                        <span class="brand-name">
+                            VGrat FMS
+                        </span>
+
+                        <span class="brand-subtitle">
+                            Financial Market System
+                        </span>
+
+                    </span>
+
+                </a>
+
+
+                <!-- HEADER ACTIONS -->
+
+                <div class="header-actions">
+
+
+                    <!-- DATA STATUS -->
+
+                    <div
+                        id="app-status"
+                        class="data-status is-loading"
+                        aria-live="polite"
+                        aria-busy="true"
+                        title="Loading VGrat FMS data."
+                    >
+
+                        <span class="status-dot"></span>
+
+                        <span
+                            id="app-status-text"
+                            class="status-text"
+                        >
+                            Loading data…
+                        </span>
+
+                    </div>
+
+
+                    <!-- THEME TOGGLE -->
+
+                    <button
+                        id="theme-toggle"
+                        class="theme-toggle"
+                        type="button"
+                        aria-label="Switch to light mode"
+                        aria-pressed="false"
+                    >
+
+                        <span
+                            class="theme-icon"
+                            aria-hidden="true"
+                        >
+                            ☾
+                        </span>
+
+                        <span class="theme-label">
+                            Dark
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- ==================================================
+             APP BODY (left navigation + content)
+        =================================================== -->
+
+        <div class="app-body">
+
+
+        <!-- ==================================================
+             MAIN NAVIGATION
+        =================================================== -->
+
+        <nav
+            id="main-nav"
+            class="main-nav"
+            aria-label="Primary navigation"
+        >
+
+            <div class="main-nav-inner">
+
+
+                <button
+                    type="button"
+                    title="Market Performance"
+                    class="nav-link active"
+                    data-view-target="performance"
+                    aria-current="page"
+                >
+
+                    <span class="nav-link-icon">
+                        ↗
+                    </span>
+
+                    <span class="nav-link-label">
+                        Market Performance
+                    </span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    title="Market News"
+                    class="nav-link"
+                    data-view-target="news"
+                    aria-current="false"
+                >
+
+                    <span class="nav-link-icon">
+                        ◈
+                    </span>
+
+                    <span class="nav-link-label">
+                        Market News
+                    </span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    title="Fund Explorer"
+                    class="nav-link"
+                    data-view-target="fund-explorer"
+                    aria-current="false"
+                >
+
+                    <span class="nav-link-icon">
+                        ▦
+                    </span>
+
+                    <span class="nav-link-label">
+                        Fund Explorer
+                    </span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    title="Monitoring"
+                    class="nav-link"
+                    data-view-target="monitoring"
+                    aria-current="false"
+                >
+
+                    <span class="nav-link-icon">
+                        ◎
+                    </span>
+
+                    <span class="nav-link-label">
+                        Monitoring
+                    </span>
+
+                </button>
+
+            </div>
+
+        </nav>
+
+
+        <!-- ==================================================
+             MAIN CONTENT
+        =================================================== -->
+
+        <main class="main-content">
+
+
+            <!-- =================================================
+                 MARKET PERFORMANCE VIEW
+            ================================================== -->
+
+            <section
+                id="market-performance-view"
+                class="page-view is-active"
+                data-view-panel="performance"
+                aria-labelledby="performance-page-title"
+            >
+
+
+                <!-- PAGE HEADER -->
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            PRUDENTIAL SINGAPORE
+                        </div>
+
+                        <h1
+                            id="performance-page-title"
+                            class="page-title"
+                        >
+                            Market Performance
+                        </h1>
+
+                        <p class="page-description">
+                            Actual BID performance across the full
+                            Prudential Singapore fund universe.
+                        </p>
+
+                    </div>
+
+
+                    <div class="page-header-side">
+
+                        <div class="page-header-meta">
+
+                        <span class="meta-label">
+                            Latest BID observation
+                        </span>
+
+                        <strong
+                            id="latest-valuation-date"
+                            class="meta-value"
+                        >
+                            —
+                        </strong>
+
+                    </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FUND COMPARISON CHART -->
+
+                <section
+                    class="performance-card compare-card"
+                    aria-labelledby="fund-compare-title"
+                >
+
+                    <div class="card-header compare-header">
+
+                        <div>
+
+                            <div class="card-eyebrow">
+                                COMPARE FUNDS
+                            </div>
+
+                            <h2
+                                id="fund-compare-title"
+                                class="card-title"
+                            >
+                                Price performance
+                            </h2>
+
+                            <div
+                                id="fund-compare-range-label"
+                                class="compare-range-label"
+                            ></div>
+
+                        </div>
+
+
+                        <div
+                            class="compare-range-selector"
+                            role="tablist"
+                            aria-label="Comparison range"
+                        >
+
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="1M"
+                                title="1 month"
+                                role="tab"
+                                aria-selected="false"
+                            >1M</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="3M"
+                                title="3 months"
+                                role="tab"
+                                aria-selected="false"
+                            >3M</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="6M"
+                                title="6 months"
+                                role="tab"
+                                aria-selected="false"
+                            >6M</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="1Y"
+                                title="1 year"
+                                role="tab"
+                                aria-selected="false"
+                            >1Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="3Y"
+                                title="3 years"
+                                role="tab"
+                                aria-selected="false"
+                            >3Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="5Y"
+                                title="5 years"
+                                role="tab"
+                                aria-selected="false"
+                            >5Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="10Y"
+                                title="10 years"
+                                role="tab"
+                                aria-selected="false"
+                            >10Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="SI"
+                                title="Since inception"
+                                role="tab"
+                                aria-selected="false"
+                            >SI</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="compare-toolbar">
+
+                        <div class="compare-picker">
+
+                            <input
+                                id="fund-compare-search"
+                                type="search"
+                                autocomplete="off"
+                                placeholder="Add a fund to compare…"
+                                aria-label="Search funds to add to the comparison"
+                                aria-controls="fund-compare-suggestions"
+                                aria-expanded="false"
+                                role="combobox"
+                            >
+
+                            <ul
+                                id="fund-compare-suggestions"
+                                class="compare-suggestions"
+                                role="listbox"
+                                hidden
+                            ></ul>
+
+                        </div>
+
+                        <span
+                            id="fund-compare-count"
+                            class="compare-count"
+                        ></span>
+
+                    </div>
+
+
+                    <div
+                        id="fund-compare-canvas-wrap"
+                        class="compare-chart-wrap"
+                    >
+
+                        <canvas
+                            id="fund-compare-chart"
+                            role="img"
+                            aria-label="Rebased price performance of the selected funds. The table below lists each fund's change over the range."
+                        ></canvas>
+
+                    </div>
+
+
+                    <div
+                        id="fund-compare-empty"
+                        class="compare-empty"
+                        hidden
+                    >
+                        Add a fund above to start comparing.
+                    </div>
+
+
+                    <div class="table-wrap">
+
+                        <table class="data-table compare-table">
+
+                            <thead>
+
+                                <tr>
+                                    <th scope="col">Fund</th>
+                                    <th scope="col">Code</th>
+                                    <th scope="col">Start</th>
+                                    <th scope="col">Change</th>
+                                    <th scope="col">Latest BID</th>
+                                    <th scope="col"><span class="sr-only">Remove</span></th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody id="fund-compare-table-body"></tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+
+                <!-- PERIOD TOOLBAR -->
+
+                <div class="period-toolbar">
+
+                <!-- PERFORMANCE PERIOD SELECTOR -->
+
+                <div
+                    class="period-selector period-selector-compact"
+                    role="tablist"
+                    aria-label="Performance period"
+                >
+
+                    <button
+                        type="button"
+                        class="period-tab active"
+                        data-period="DD"
+                        title="Day over Day"
+                        role="tab"
+                        aria-selected="true"
+                    >
+
+                        <span class="period-tab-code">
+                            D-D
+                        </span>
+
+                        <span class="period-tab-description">
+                            Day over Day
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="period-tab"
+                        data-period="WW"
+                        title="Week over Week"
+                        role="tab"
+                        aria-selected="false"
+                    >
+
+                        <span class="period-tab-code">
+                            W-W
+                        </span>
+
+                        <span class="period-tab-description">
+                            Week over Week
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="period-tab"
+                        data-period="MM"
+                        title="Month over Month"
+                        role="tab"
+                        aria-selected="false"
+                    >
+
+                        <span class="period-tab-code">
+                            M-M
+                        </span>
+
+                        <span class="period-tab-description">
+                            Month over Month
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="period-tab"
+                        data-period="YY"
+                        title="Year over Year"
+                        role="tab"
+                        aria-selected="false"
+                    >
+
+                        <span class="period-tab-code">
+                            Y-Y
+                        </span>
+
+                        <span class="period-tab-description">
+                            Year over Year
+                        </span>
+
+                    </button>
+
+
+                <button
+                    type="button"
+                    class="period-tab"
+                    data-period="SI"
+                    title="Since Inception"
+                    role="tab"
+                    aria-selected="false"
+                >
+
+                    <span class="period-tab-code">
+                        S-I
+                    </span>
+
+                    <span class="period-tab-description">
+                        Since Inception
+                    </span>
+
+                </button>
+
+                </div>
+
+                </div>
+
+
+                <!-- SELECTED PERIOD SUMMARY -->
+
+                <section
+                    class="performance-summary"
+                    aria-label="Performance summary"
+                >
+
+
+                    <div class="summary-card">
+
+                        <div class="summary-card-label">
+                            Eligible funds
+                        </div>
+
+                        <div
+                            id="eligible-fund-count"
+                            class="summary-card-value"
+                        >
+                            —
+                        </div>
+
+                        <div
+                            id="performance-eligible-count"
+                            class="summary-card-meta"
+                        >
+                            Loading…
+                        </div>
+
+                    </div>
+
+
+                    <div class="summary-card">
+
+                        <div class="summary-card-label">
+                            Strongest performer
+                        </div>
+
+                        <div
+                            id="top-winner-return"
+                            class="summary-card-value return-positive"
+                        >
+                            —
+                        </div>
+
+                        <div
+                            id="top-winner-name"
+                            class="summary-card-meta summary-card-name"
+                        >
+                            —
+                        </div>
+
+                    </div>
+
+
+                    <div class="summary-card">
+
+                        <div class="summary-card-label">
+                            Weakest performer
+                        </div>
+
+                        <div
+                            id="top-loser-return"
+                            class="summary-card-value return-negative"
+                        >
+                            —
+                        </div>
+
+                        <div
+                            id="top-loser-name"
+                            class="summary-card-meta summary-card-name"
+                        >
+                            —
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- PERFORMANCE AS-OF INFORMATION -->
+
+                <div class="performance-context">
+
+                    <span
+                        id="performance-as-of"
+                    >
+                        Latest BID: —
+                    </span>
+
+                    <span class="context-separator">
+                        •
+                    </span>
+
+                    <span
+                        id="performance-target-date"
+                    >
+                        Comparison target: —
+                    </span>
+
+                </div>
+
+
+                <!-- PERFORMANCE TABLES -->
+
+                <div class="performance-grid">
+
+
+                    <!-- WINNERS -->
+
+                    <section
+                        class="performance-card"
+                        aria-labelledby="winners-title"
+                    >
+
+                        <div class="card-header">
+
+                            <div>
+
+                                <div class="card-eyebrow">
+                                    TOP 10
+                                </div>
+
+                                <h2
+                                    id="winners-title"
+                                    class="card-title"
+                                >
+                                    Winners
+                                </h2>
+
+                            </div>
+
+                            <span class="card-indicator positive">
+                                ▲
+                            </span>
+
+                        </div>
+
+
+                        <div class="table-wrap">
+
+                            <table
+                                class="data-table performance-table"
+                            >
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th
+                                            scope="col"
+                                            class="rank-column"
+                                        >
+                                            #
+                                        </th>
+
+                                        <th scope="col">
+                                            Fund
+                                        </th>
+
+                                        <th scope="col">
+                                            Code
+                                        </th>
+
+                                        <th scope="col">
+                                            Return
+                                        </th>
+
+                                        <th scope="col">
+                                            BID
+                                        </th>
+
+                                    </tr>
+
+                                </thead>
+
+
+                                <tbody
+                                    id="winners-table-body"
+                                >
+
+                                    <tr>
+
+                                        <td
+                                            colspan="5"
+                                            class="loading-state"
+                                        >
+                                            Loading performance…
+                                        </td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </section>
+
+
+                    <!-- LOSERS -->
+
+                    <section
+                        class="performance-card"
+                        aria-labelledby="losers-title"
+                    >
+
+                        <div class="card-header">
+
+                            <div>
+
+                                <div class="card-eyebrow">
+                                    BOTTOM 10
+                                </div>
+
+                                <h2
+                                    id="losers-title"
+                                    class="card-title"
+                                >
+                                    Losers
+                                </h2>
+
+                            </div>
+
+                            <span class="card-indicator negative">
+                                ▼
+                            </span>
+
+                        </div>
+
+
+                        <div class="table-wrap">
+
+                            <table
+                                class="data-table performance-table"
+                            >
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th
+                                            scope="col"
+                                            class="rank-column"
+                                        >
+                                            #
+                                        </th>
+
+                                        <th scope="col">
+                                            Fund
+                                        </th>
+
+                                        <th scope="col">
+                                            Code
+                                        </th>
+
+                                        <th scope="col">
+                                            Return
+                                        </th>
+
+                                        <th scope="col">
+                                            BID
+                                        </th>
+
+                                    </tr>
+
+                                </thead>
+
+
+                                <tbody
+                                    id="losers-table-body"
+                                >
+
+                                    <tr>
+
+                                        <td
+                                            colspan="5"
+                                            class="loading-state"
+                                        >
+                                            Loading performance…
+                                        </td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 MARKET NEWS VIEW
+            ================================================== -->
+
+            <section
+                id="market-news-view"
+                class="page-view"
+                data-view-panel="news"
+                aria-labelledby="news-page-title"
+                hidden
+            >
+
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            MARKET INTELLIGENCE
+                        </div>
+
+                        <h1
+                            id="news-page-title"
+                            class="page-title"
+                        >
+                            Market News
+                        </h1>
+
+                        <p class="page-description">
+                            AI-analyzed market news relevant to
+                            investment monitoring.
+                        </p>
+
+                    </div>
+
+
+                    <div class="page-header-meta">
+
+                        <span
+                            id="market-news-window"
+                            class="meta-label"
+                        >
+                            14-day rolling window
+                        </span>
+
+                        <strong
+                            id="market-news-generated"
+                            class="meta-value"
+                        >
+                            —
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- NEWS TABS -->
+
+                <div
+                    class="news-tabs"
+                    role="tablist"
+                    aria-label="Market news view"
+                >
+
+                    <button
+                        type="button"
+                        class="news-tab active"
+                        data-news-tab="current"
+                        role="tab"
+                        aria-selected="true"
+                    >
+                        Current
+                    </button>
+
+                    <button
+                        type="button"
+                        class="news-tab"
+                        data-news-tab="history"
+                        role="tab"
+                        aria-selected="false"
+                    >
+                        History
+                    </button>
+
+                </div>
+
+
+                <!-- CURRENT NEWS -->
+
+                <div
+                    id="market-news-current"
+                    data-market-news-current
+                    class="market-news-current"
+                >
+
+
+                    <!-- NEWS TOOLBAR -->
+
+                    <div class="news-toolbar">
+
+                        <div class="news-search">
+
+                            <label
+                                for="market-news-search"
+                                class="sr-only"
+                            >
+                                Search market news
+                            </label>
+
+                            <input
+                                id="market-news-search"
+                                type="search"
+                                placeholder="Search news…"
+                                autocomplete="off"
+                            >
+
+                        </div>
+
+
+                        <div class="news-filter-group">
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Asset class
+                                </span>
+
+                                <select
+                                    id="market-news-asset"
+                                >
+
+                                    <option value="ALL">
+                                        All asset classes
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Geography
+                                </span>
+
+                                <select
+                                    id="market-news-geography"
+                                >
+
+                                    <option value="ALL">
+                                        All geographies
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Sector
+                                </span>
+
+                                <select
+                                    id="market-news-sector"
+                                >
+
+                                    <option value="ALL">
+                                        All sectors
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Category
+                                </span>
+
+                                <select
+                                    id="market-news-category"
+                                >
+
+                                    <option value="ALL">
+                                        All categories
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Importance
+                                </span>
+
+                                <select
+                                    id="market-news-importance"
+                                >
+
+                                    <option value="ALL">
+                                        All importance
+                                    </option>
+
+                                    <option value="HIGH">
+                                        High
+                                    </option>
+
+                                    <option value="MEDIUM">
+                                        Medium
+                                    </option>
+
+                                    <option value="LOW">
+                                        Low
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Sentiment
+                                </span>
+
+                                <select
+                                    id="market-news-sentiment"
+                                >
+
+                                    <option value="ALL">
+                                        All sentiment
+                                    </option>
+
+                                    <option value="POSITIVE">
+                                        Positive
+                                    </option>
+
+                                    <option value="NEUTRAL">
+                                        Neutral
+                                    </option>
+
+                                    <option value="NEGATIVE">
+                                        Negative
+                                    </option>
+
+                                    <option value="MIXED">
+                                        Mixed
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control filter-control-fund"
+                            >
+
+                                <span>
+                                    Fund
+                                </span>
+
+                                <select
+                                    id="market-news-fund"
+                                >
+
+                                    <option value="ALL">
+                                        All funds
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- NEWS OVERVIEW (charts) -->
+
+                    <details
+                        id="news-overview"
+                        class="news-overview"
+                        open
+                    >
+
+                        <summary class="news-overview-summary">
+
+                            <span class="news-overview-title">
+                                News overview
+                            </span>
+
+                            <span class="news-overview-hint">
+                                Charts follow the filters above
+                            </span>
+
+                            <span
+                                class="news-overview-chevron"
+                                aria-hidden="true"
+                            >
+                                ▾
+                            </span>
+
+                        </summary>
+
+
+                        <section
+                            class="news-analytics"
+                            aria-label="Market news analytics"
+                        >
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            SENTIMENT
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            News Sentiment
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-sentiment-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            CATEGORIES
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            News Categories
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-category-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            IMPORTANCE
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            Importance
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-importance-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            ASSET CLASSES
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            Asset Class Mentions
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-asset-class-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            GEOGRAPHY
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            Geographic Mentions
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-geography-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            SECTORS
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            Sector Mentions
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-sector-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </details>
+
+
+                    <!-- NEWS SUMMARY -->
+
+                    <div class="news-summary-bar">
+
+                        <span
+                            id="market-news-count"
+                        >
+                            —
+                        </span>
+
+                        <button
+                            id="market-news-clear"
+                            type="button"
+                            class="news-clear-filters"
+                            hidden
+                        >
+                            Clear filters
+                        </button>
+
+                    </div>
+
+
+                    <!-- NEWS ARTICLES -->
+
+                    <div
+                        id="market-news-articles"
+                        class="news-list"
+                    >
+
+                        <div
+                            class="loading-state"
+                        >
+                            Loading Market News…
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- =================================================
+                     NEWS HISTORY
+                ================================================== -->
+
+                <div
+                    id="market-news-history"
+                    data-market-news-history
+                    class="market-news-history"
+                    hidden
+                >
+
+                    <div class="history-toolbar">
+
+                        <div class="history-month-nav">
+
+                            <button
+                                type="button"
+                                class="history-nav-button"
+                                data-history-month="-1"
+                                aria-label="Previous month"
+                                title="Previous month"
+                            >‹</button>
+
+                            <span
+                                id="history-month-label"
+                                class="history-month-label"
+                            >
+                                —
+                            </span>
+
+                            <button
+                                type="button"
+                                class="history-nav-button"
+                                data-history-month="1"
+                                aria-label="Next month"
+                                title="Next month"
+                            >›</button>
+
+                        </div>
+
+
+                        <label class="filter-control filter-control-fund">
+
+                            <span>
+                                Fund
+                            </span>
+
+                            <select id="history-fund">
+                                <option value="ALL">
+                                    All funds
+                                </option>
+                            </select>
+
+                        </label>
+
+                    </div>
+
+
+                    <div
+                        id="history-days"
+                        class="history-days"
+                        role="tablist"
+                        aria-label="Archived dates"
+                    ></div>
+
+
+                    <div
+                        id="history-status"
+                        class="news-summary-bar"
+                    ></div>
+
+
+                    <div
+                        id="history-articles"
+                        class="news-list"
+                    ></div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 FUND EXPLORER VIEW
+            ================================================== -->
+
+            <section
+                id="fund-explorer-view"
+                class="page-view"
+                data-view-panel="fund-explorer"
+                aria-labelledby="fund-explorer-page-title"
+                hidden
+            >
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            PRUDENTIAL SINGAPORE
+                        </div>
+
+                        <h1
+                            id="fund-explorer-page-title"
+                            class="page-title"
+                        >
+                            Fund Explorer
+                        </h1>
+
+                        <p class="page-description">
+                            Explore the complete Prudential fund
+                            universe and individual fund details.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="placeholder-panel">
+
+                    <div class="placeholder-icon">
+                        ▦
+                    </div>
+
+                    <h2>
+                        Fund Explorer
+                    </h2>
+
+                    <p>
+                        Fund search, filters, fund profiles,
+                        historical BID charts and holdings will
+                        be built here.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 MONITORING VIEW
+            ================================================== -->
+
+            <section
+                id="monitoring-view"
+                class="page-view"
+                data-view-panel="monitoring"
+                aria-labelledby="monitoring-page-title"
+                hidden
+            >
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            PORTFOLIO INTELLIGENCE
+                        </div>
+
+                        <h1
+                            id="monitoring-page-title"
+                            class="page-title"
+                        >
+                            Monitoring
+                        </h1>
+
+                        <p class="page-description">
+                            Monitor selected funds, performance
+                            movements and market developments.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="placeholder-panel">
+
+                    <div class="placeholder-icon">
+                        ◎
+                    </div>
+
+                    <h2>
+                        Monitoring
+                    </h2>
+
+                    <p>
+                        Fund watchlists, performance alerts,
+                        market-news relevance and monitoring
+                        signals will be built here.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 APPLICATION ERROR
+            ================================================== -->
+
+            <div
+                id="application-error"
+                class="application-error"
+                data-application-error
+                aria-live="assertive"
+            ></div>
+
+
+        </main>
+
+        </div>
+
+
+        <!-- ==================================================
+             FOOTER
+        =================================================== -->
+
+        <footer class="site-footer">
+
+            <div class="footer-inner">
+
+                <div class="footer-brand">
+                    VGrat FMS
+                </div>
+
+                <div class="footer-source">
+                    Prudential Singapore fund data
+                </div>
+
+                <div
+                    id="app-version"
+                    class="footer-version"
+                >
+                    v1.0.0
+                </div>
+
+            </div>
+
+        </footer>
+
+
+    </div>
+
+
+    <!-- ======================================================
+         APPLICATION
+    ======================================================= -->
+
+    <script
+        type="module"
+        src="js/app.js"
+    ></script>
+
+</body>
+</html>
