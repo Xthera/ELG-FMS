@@ -5,6 +5,23 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "c49d2dd8d69261e50ebb479fe49b289b73343c758db033106743471bd7b9c6ad",
+      "source": "CNBC",
+      "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
+      "publishedAtSgt": "2026-10-05T23:47:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But the results of the first round are recalibrating how investors are pricing what the final decision will be. U.S.-listed shares of Itau Unibanco gained 15%, and Banco Bradesco surged 19%. Investors broadly saw Bolsonaro as more favorable to markets, as the candidate is promising greater fiscal discipline.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T00:34:57+08:00"
+    },
+    {
       "id": "8ade6a00ee9444f24dc75c68e53360a44e3aa91d8fcce62f7fbfcc6faf90de39",
       "source": "CNBC",
       "title": "China shuts hundreds of banks as Beijing moves to shore up its financial system",
@@ -114,6 +131,6 @@
       "collectedAtSgt": "2026-10-05T05:26:43+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-05T21:38:14+08:00"
+  "articleCount": 8,
+  "updatedAtSgt": "2026-10-06T00:34:57+08:00"
 }

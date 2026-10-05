@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-05T21:38:14+08:00",
+  "generatedAtSgt": "2026-10-06T00:34:57+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,23 @@
   "source": "CNBC",
   "articleCount": 82,
   "articles": [
+    {
+      "id": "c49d2dd8d69261e50ebb479fe49b289b73343c758db033106743471bd7b9c6ad",
+      "source": "CNBC",
+      "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
+      "publishedAtSgt": "2026-10-05T23:47:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But the results of the first round are recalibrating how investors are pricing what the final decision will be. U.S.-listed shares of Itau Unibanco gained 15%, and Banco Bradesco surged 19%. Investors broadly saw Bolsonaro as more favorable to markets, as the candidate is promising greater fiscal discipline.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T00:34:57+08:00"
+    },
     {
       "id": "8ade6a00ee9444f24dc75c68e53360a44e3aa91d8fcce62f7fbfcc6faf90de39",
       "source": "CNBC",
@@ -1249,21 +1266,6 @@
       "relevanceScore": 81,
       "relevanceReason": "technology_business_or_infrastructure",
       "summary": "The artificial intelligence spending boom is showing little sign of slowing, with investment across the hyperscaler ecosystem potentially reaching $1 trillion next year, according to JPMorgan Chase CEO Jamie Dimon. Spending across the hyperscaler ecosystem has more than doubled from about $300 billion last year to around $700 billion this year, a surge Dimon said is boosting economic growth while potentially adding to inflation.",
-      "feeds": [
-        "finance"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:51+08:00"
-    },
-    {
-      "id": "ae747e1d354fdf3082a0c3be228831416a00ea92e18fb02b03aec6d206e76862",
-      "source": "CNBC",
-      "title": "‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
-      "publishedAtSgt": "2026-09-21T23:04:04+08:00",
-      "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "\"Everyone is very quickly raising prices faster than I've ever seen in 20 years.\" On the retail side, unexpected pressure from energy and raw materials costs will \"fully offset\" the benefit of $730 million in tariff refunds, Home Depot CFO Richard McPhail said last month. operations to warehousing, distribution, and tariff-mitigation solutions for other companies, which offer \"much better margins.\" \"There's no doubt that there's margin pressure for suppliers,\" Paul McCarthy, CEO of vehicle...",
       "feeds": [
         "finance"
       ],
