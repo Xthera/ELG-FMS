@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-17",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "e4eff5052a63ad689bcb7ec38293b208ab34298aa0442a54967306bad292dba2",
+      "source": "CNBC",
+      "title": "Bank of England defies Fed’s rate-hike lead, leaving rates unchanged",
+      "publishedAtSgt": "2026-09-17T20:27:10+08:00",
+      "url": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"But the longer this volatility persists, the bigger the impact it will have on inflation, and the more likely it is we will need to raise Bank Rate to ensure that inflation falls back to our 2% target.\" But MPC members who voted to raise rates pointed to uncertainty arising from the Iran war and a need to get ahead of its potential economic ramifications.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:55+08:00"
+    },
+    {
+      "id": "be89f76d69e6b3594d13270da156d842bfb06144ff0f743e28de6c36a0c895bf",
+      "source": "CNBC",
+      "title": "UK inflation jumps to 3.1% as energy costs soar",
+      "publishedAtSgt": "2026-09-17T15:36:04+08:00",
+      "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Inflation rose to 2.9% in July, as a government-regulated price cap on energy costs was revised sharply upward. The country's inflation rate rose to 2.9% in July, as a government-regulated price cap on energy costs was revised sharply upward. Markets are pricing in more than an 80% chance of the central bank holding its key interest rate steady at 3.75%, according to LSEG data, but are anticipating a hike at its next meeting in November.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:55+08:00"
+    },
+    {
+      "id": "84ae8551cbb6f9c1b04ada9590573ee573c684cea23e55c6b827e932a618102b",
+      "source": "CNBC",
+      "title": "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household",
+      "publishedAtSgt": "2026-09-17T01:32:22+08:00",
+      "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html",
+      "category": "MARKET",
+      "relevanceScore": 58,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Deloitte found that a 20% gain in crude oil prices translates to an estimated increase in inflation of about three-tenths of a percentage point. That surge is driven in large part by bond investors' concerns about the war's impact on inflation and the U.S. That has helped drive the \"K\"-shaped economy, a term used to describe the uneven economic recovery for different income classes since the pandemic.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:55+08:00"
+    }
+  ],
+  "articleCount": 3,
+  "updatedAtSgt": "2026-10-02T12:09:55+08:00"
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-19",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "1d15d9a1b3f11b85c0b5f214b55515c553f2962588bfb5f9fe4b30b4ad44311b",
+      "source": "CNBC",
+      "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
+      "publishedAtSgt": "2026-09-19T02:28:31+08:00",
+      "url": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Warsh described Wednesday's decision to lift the central bank's benchmark rate by a quarter percentage point not specifically as a tightening of policy but rather as removing \"a dose of accommodation.\" Further, he said the move was possible because of a U.S. While the language may sound like central bank semantics, it gets to the heart of what markets are debating now: How far will the Warsh Fed go if it has only removed a \"dose\" of help, and what are the guidelines it will be using to...",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:52+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-02T12:09:52+08:00"
+}

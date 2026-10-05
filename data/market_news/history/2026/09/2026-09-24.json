@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-24",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "0ac4218ac5fe55cb86de1bd69dd543a6858aa841ae1bfa11f771990abe8ab8b4",
+      "source": "CNBC",
+      "title": "China confirms first AI talks with U.S. have taken place, hints at trade truce extension",
+      "publishedAtSgt": "2026-09-24T22:16:27+08:00",
+      "url": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "BEIJING—China's Commerce Ministry confirmed Thursday that its senior trade negotiators had held their first talks with the U.S. Spokesperson He Yadong told reporters the two sides also discussed plans for reducing tariffs, and extending trade arrangements agreed in Kuala Lumpur last October.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:50+08:00"
+    },
+    {
+      "id": "243f68871f37c3d9ab99f078f53e6addc4f250d4f1a25e10123505a23200f68d",
+      "source": "CNBC",
+      "title": "Switzerland is keeping rates at 0% — for now",
+      "publishedAtSgt": "2026-09-24T19:34:56+08:00",
+      "url": "https://www.cnbc.com/2026/09/24/swiss-national-bank-interest-rates-inflation.html",
+      "category": "MARKET",
+      "relevanceScore": 58,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Switzerland's central bank kept its key interest rate at 0% on Thursday, defying the tightening cycle that has begun among many of its major peers. \"Consequently, foreign capital inflows support the Swiss franc, the strong Swiss Franc by extension curbs imported inflation and low inflation provides enough arguments for the central bank to maintain lower rates than the Fed, the Bank of England or the European central Bank.\" The SNB has previously intervened in foreign exchange markets to...",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:53+08:00"
+    },
+    {
+      "id": "07028f72c38995842ad7266d96a6d0c1e1ba6afa7701b80de64d22661e101d6d",
+      "source": "CNBC",
+      "title": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
+      "publishedAtSgt": "2026-09-24T12:55:59+08:00",
+      "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Xi and Trump agreed to a one-year trade truce at a meeting in South Korea last October. and China should discuss their differences on trade issues on the basis of mutual benefit, without actively imposing restrictions, said Dong Shaopeng, senior researcher at Renmin University of China. He expected the trade truce could be continually improved and extended.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:51+08:00"
+    }
+  ],
+  "articleCount": 3,
+  "updatedAtSgt": "2026-10-02T12:09:53+08:00"
+}

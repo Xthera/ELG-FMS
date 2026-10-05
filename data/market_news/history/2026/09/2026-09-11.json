@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-11",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "9a083cb065beb89b09c48adbba6d699b16f78ca3434a8604f6fa7c64b9beb1ee",
+      "source": "CNBC",
+      "title": "Inflation persisted in August, potentially locking in a Fed interest rate hike",
+      "publishedAtSgt": "2026-09-11T21:46:36+08:00",
+      "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "\"There's no guarantee that the Fed will hike next week, but it's hard to see how the central bank can justify leaving rates on hold,\" said Chris Zaccarelli, chief investment officer for Northlight Asset Management. Stock market futures nonetheless surged as oil prices plunged in morning trade. Heading into the CPI release, markets already were pricing in a nearly 70% probability that the central bank would vote to increase its benchmark interest rate by a quarter percentage point.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:57+08:00"
+    },
+    {
+      "id": "73e441bf8cb236691113f03cdfb59e8d178cc09c20bcec88fb41db0bf228745a",
+      "source": "CNBC",
+      "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+      "publishedAtSgt": "2026-09-11T03:18:05+08:00",
+      "url": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "A report due out Friday morning will be the last piece of the inflation puzzle the Federal Reserve will get before making its decision on interest rates next week. If the Dow Jones consensus is correct, the report will show that costs for all measured goods and services rose 0.4% last month, putting the annual inflation rate at 3.4%. However, excluding food and energy prices, the respective outlooks for core inflation are 0.2% and 2.4%.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:58+08:00"
+    },
+    {
+      "id": "e2947ce7cb15cf4da6df6561f2c29ba7e49d853d893aaf3af418d9d59ef39a04",
+      "source": "CNBC",
+      "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
+      "publishedAtSgt": "2026-09-11T00:55:17+08:00",
+      "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "They also nudged chances of another increase in December to close to 60% as inflation dynamics are proving stubborn and more likely to generate a central bank reaction. Finally, the European Central Bank announced a quarter percentage point hike and raised its inflation forecast on worries that the Iran war would have deeper economic impacts and inflict a longer-term hit on consumer prices.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:58+08:00"
+    }
+  ],
+  "articleCount": 3,
+  "updatedAtSgt": "2026-10-02T12:09:58+08:00"
+}

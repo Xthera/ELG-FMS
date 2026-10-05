@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-06",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "3e55600860a26e36cc58d02ddb3ebf3d448c3273a5ba96299e612a6629aed6c8",
+      "source": "CNBC",
+      "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+      "publishedAtSgt": "2026-09-06T03:12:53+08:00",
+      "url": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "In the past week, the president, vice president, Treasury secretary and one of the president's senior economic counselors have all urged the Fed not to raise rates and, in some cases, to cut them — an unusually broad public pressure campaign even by the standards of Trump's long-running criticism of the central bank.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:00+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-02T12:10:00+08:00"
+}

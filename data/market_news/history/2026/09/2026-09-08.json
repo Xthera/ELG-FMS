@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-08",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "f500f013178369d4cefc7240f61527ad96c73a03071a1fdb7752c30fb9864463",
+      "source": "CNBC",
+      "title": "China's imports in August miss estimates as calls for rebalancing trade grow",
+      "publishedAtSgt": "2026-09-08T12:45:07+08:00",
+      "url": "https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "China's trade growth picked up in August, though imports missed expectations, a sign that domestic demand remains tepid as the world's second-largest economy faces mounting pressure to rebalance trade. Exports have become the primary growth driver for China's economy, as surging demand for high-tech components amid a global build-out of AI infrastructure has helped cushion the drag from geopolitical shocks, sluggish domestic demand and a slump in investment.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:59+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-02T12:09:59+08:00"
+}
