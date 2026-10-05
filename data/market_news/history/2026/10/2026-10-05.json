@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-05",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "bf968b02160024fc0d379a565125b0155e1f51c98d589e56e92ad86415ad12ec",
+      "source": "CNBC",
+      "title": "Surging Treasury yields don’t signal a U.S. 'fiscal apocalypse' — yet",
+      "publishedAtSgt": "2026-10-05T10:24:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/treasury-yields-fiscal-concerns-not-crisis-yet.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Therefore, we are some way away from a fiscal crisis.\" The negative feedback loop becomes more dangerous when nominal economic growth falls to low levels, causing debt relative to the size of the economy to rise persistently, Reese said. TD pointed to stronger economic growth, expectations for Federal Reserve rate hikes, higher oil prices, corporate bond issuance and repositioning by fast-money investors alongside fiscal concerns, as factors driving yields higher.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-05T12:45:12+08:00"
+    },
+    {
+      "id": "2e98323f01b596216c6a46a9d8ec89ab3a81f366c83cc1eb6ba2f4f6394fa623",
+      "source": "CNBC",
+      "title": "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
+      "publishedAtSgt": "2026-10-05T04:28:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/04/trump-5000-checks-cash-payments-midterms.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "On Friday, Trump announced one-time $90 payments to 20.8 million Medicare beneficiaries. Trump hasn't provided any details on who would authorize the payments and where the money would come from. Together, the flurry of offers of direct cash payments comes as Republicans head into the final stretch of a midterm campaign dominated by concerns about prices and the economy.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-05T05:26:43+08:00"
+    }
+  ],
+  "articleCount": 2,
+  "updatedAtSgt": "2026-10-05T12:45:12+08:00"
+}
