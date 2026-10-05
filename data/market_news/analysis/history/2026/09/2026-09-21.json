@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-21",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 2,
+  "analyses": [
+    {
+      "articleId": "ae747e1d354fdf3082a0c3be228831416a00ea92e18fb02b03aec6d206e76862",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "American companies are experiencing severe margin pressure due to a combination of tariffs, soaring fuel costs, and higher interest rates, leading to accelerated price increases and offset tariff refunds.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Retail",
+        "Transportation",
+        "Supply Chain"
+      ],
+      "investorImpact": "The compounding pressures of tariffs, fuel costs, and interest rates indicate margin compression across American corporations, which may negatively impact corporate earnings and equity valuations.",
+      "reasoning": "Classified as ECONOMIC because it highlights broader macroeconomic cost pressures affecting corporate profit margins across multiple sectors. High importance due to its direct impact on corporate earnings and inflation.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
+      "publishedAtSgt": "2026-09-21T23:04:04+08:00",
+      "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:09:51+08:00"
+    },
+    {
+      "articleId": "bd8494b014237a9b9453750de9a9cfb04e846c0fd6b435767955370a8e6d0967",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Japanese markets reacted in an unusual manner following the central bank's benchmark interest rate hike to a 31-year high, with the currency, bond yields, and stock market moving in the opposite direction of conventional theory.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Currencies"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors with exposure to Japanese equities, fixed income, and the yen should note the counterintuitive market reaction, which defies traditional macroeconomic correlation models and requires careful reassessment of currency and bond positioning.",
+      "reasoning": "The article is classified under MARKET as it details specific, counterintuitive asset price movements in stocks, bonds, and currency following a major monetary policy shift by the Bank of Japan, making it highly significant for fund monitoring and cross-asset strategy.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Why Japan’s markets flipped the usual script after central bank rate hike",
+      "publishedAtSgt": "2026-09-21T09:02:25+08:00",
+      "url": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:09:54+08:00"
+    }
+  ]
+}
