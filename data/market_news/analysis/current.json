@@ -1,9 +1,9 @@
 {
-  "generatedAtSgt": "2026-10-06T00:50:28.431394+08:00",
+  "generatedAtSgt": "2026-10-06T06:45:54.446356+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 76,
+  "articleCount": 75,
   "analyses": [
     {
       "articleId": "bf968b02160024fc0d379a565125b0155e1f51c98d589e56e92ad86415ad12ec",
@@ -2276,35 +2276,6 @@
       "collectorCategory": "GEOPOLITICAL",
       "collectorRelevanceScore": 71,
       "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-02T12:09:51+08:00"
-    },
-    {
-      "articleId": "0980250f2f52a0c38f86c5c5b949dfa8ad54a69b13d7be58244e1b1815438e9f",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "JPMorgan Chase CEO Jamie Dimon projects that artificial intelligence spending across the hyperscaler ecosystem could reach $1 trillion next year, surging from $700 billion this year and $300 billion last year, which he notes boosts economic growth while potentially adding to inflation.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology",
-        "Financials"
-      ],
-      "investorImpact": "Massive capital expenditure in artificial intelligence by hyperscalers drives growth within the technology sector, but investors must also weigh the macroeconomic risks of inflationary pressures driven by high spending.",
-      "reasoning": "Jamie Dimon's high-profile forecast regarding trillion-dollar AI infrastructure spending provides significant insight into technology sector growth trends and broader economic impacts, making it highly relevant for market and fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Jamie Dimon says hyperscaler AI spending could hit $1 trillion next year",
-      "publishedAtSgt": "2026-09-22T09:30:01+08:00",
-      "url": "https://www.cnbc.com/2026/09/21/jamie-dimon-jpm-jpmorgan-indiaconference.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 81,
-      "collectorRelevanceReason": "technology_business_or_infrastructure",
       "collectedAtSgt": "2026-10-02T12:09:51+08:00"
     }
   ]
