@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-06",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "3b0ee24a4b9eba633fedb132a55636bdccae62c1cf38e85dc6fa07b4efba37d7",
+      "source": "CNBC",
+      "title": "Stocks are hitting records despite surging yields. Cramer explains why",
+      "publishedAtSgt": "2026-10-06T06:18:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/cramer-ai-stocks-treasury-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer said Monday that a handful of artificial intelligence giants are masking pressure from surging Treasury yields, creating an unusual disconnect between the stock and bond markets. Lower oil would typically ease inflation concerns and take some pressure off yields, but on Monday rates still went higher. Those are the kind of stocks income-seeking investors typically seek out, but now bonds offer more relatively attractive payouts than they did months earlier.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-06T06:30:22+08:00"
+    },
+    {
+      "id": "eaa40706ef9d21f613c3f5870442f77145c31ece18180cdb5194899c2fe0affb",
+      "source": "CNBC",
+      "title": "Nokia CEO says data centers would be built '2x faster' without supply constraints",
+      "publishedAtSgt": "2026-10-06T06:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/nokia-ai-data-center-buildout.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Nokia's growing role as a \"picks and shovels\" player in the AI boom appears to have won over investors, with the stock up around 130% over the past year. Companies are using debt, joint ventures and other complex financing mechanisms to raise investment for these projects, which depend on sustained demand for AI services over the long term.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-06T06:30:22+08:00"
+    },
+    {
+      "id": "20a058ad4ec7a2d744b4c7bb756c5c57096088d270d590609db986ca25ad62e2",
+      "source": "CNBC",
+      "title": "AstraZeneca CEO says Summit drug could drive next generation of cancer combinations after $2 billion investment",
+      "publishedAtSgt": "2026-10-06T03:44:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/astrazeneca-ceo-says-summit-drug-could-drive-future-cancer-combos.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "AstraZeneca CEO Pascal Soriot told CNBC on Monday that Summit Therapeutics' lead drug could help power next-generation cancer treatment combinations that could be the \"future of cancer care.\" Soriot's comments in an exclusive interview with CNBC come a week after the pharmaceutical giant announced a $2 billion equity investment and clinical collaboration with the biotech company to test potential cancer drug combinations.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-06T06:30:22+08:00"
+    },
+    {
+      "id": "e5d8535da02fb064e23fd8c8460e23f9a7509ed9355f43c9cae3aa5eb586cc2c",
+      "source": "CNBC",
+      "title": "Starbucks recovery plan is working. Here's how Mike Khouw says to trade the coffee giant",
+      "publishedAtSgt": "2026-10-06T02:40:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/starbucks-recovery-plan-is-working-heres-how-mike-khouw-says-to-trade-the-coffee-giant.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Starbucks shares are making strides, up 12% this year, but it's well off its recent highs and has been dead money over the last five years. Improving execution underneath and a demanding valuation overhead make selling the November 85/105 strangle attractive: collect premium while the turnaround works through a modest growth environment and a fairly ambitious valuation.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T06:30:21+08:00"
+    }
+  ],
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-06T06:30:22+08:00"
+}
