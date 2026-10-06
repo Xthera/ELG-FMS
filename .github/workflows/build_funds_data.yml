@@ -1,0 +1,627 @@
+name: Build Funds Data
+
+on:
+  # ============================================================
+  # DAILY RUN - 6:00 AM SINGAPORE TIME
+  #
+  # Singapore = UTC+8
+  # 00:00 SGT = 16:00 UTC on the previous day
+  # ============================================================
+  schedule:
+    - cron: "00 16,4 * * *"
+
+  # ============================================================
+  # MANUAL RUN
+  # ============================================================
+  workflow_dispatch:
+    inputs:
+      allow_unresolved:
+        description: "Publish funds still unresolved after Recovery 3 as 'unresolved' instead of failing the build"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+# ==============================================================
+# IMPORTANT:
+#
+# This concurrency group ONLY controls copies of the
+# Build Funds Data workflow.
+#
+# It does NOT block:
+#   - Research Fund Exposure
+#   - Market News
+#   - Other workflows
+#
+# Therefore all 3 pipelines can run simultaneously.
+# ==============================================================
+concurrency:
+  group: build-funds-data
+  cancel-in-progress: false
+
+jobs:
+
+  build-funds-data:
+
+    name: Holdings pipeline -> PruAccess -> Build -> Commit
+
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 180
+
+    steps:
+
+      # ========================================================
+      # 1. CHECKOUT
+      # ========================================================
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      # ========================================================
+      # 2. SET UP PYTHON
+      # ========================================================
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      # ========================================================
+      # 3. INSTALL DEPENDENCIES
+      # ========================================================
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Install Playwright Chromium
+        run: |
+          python -m playwright install --with-deps chromium
+
+      # ========================================================
+      # 4. VERIFY REQUIRED FILES
+      # ========================================================
+      - name: Debug - list repo root and fund files
+        run: |
+          echo "=========================================="
+          echo "REPOSITORY CHECK"
+          echo "=========================================="
+          echo
+          echo "Current directory:"
+          pwd
+          echo
+          echo "=== repo root ==="
+          ls -la
+          echo
+          echo "=== git-tracked files matching 'fund' ==="
+          git ls-files | grep -i fund || echo "(no match)"
+          echo
+          echo "=== spreadsheet files ==="
+          find . -maxdepth 4 -type f \
+            \( -iname "*.xlsm" -o -iname "*.xlsx" \) \
+            -print
+
+      - name: Verify pipeline files
+        run: |
+          set -e
+
+          test -f "Funds Links.xlsm"
+          test -f "scripts/test_prudential_holdings.py"
+          test -f "scripts/update_prudential_holdings.py"
+          test -f "scripts/test_prudential_holdings_recovery2.py"
+          test -f "scripts/test_prudential_holdings_recovery3.py"
+          test -f "scripts/test_pruaccess.py"
+          test -f "build_funds_data.py"
+
+          echo
+          echo "All required files found."
+
+      # ========================================================
+      # 5. SHOW RUN TIME
+      # ========================================================
+      - name: Show run time
+        run: |
+          echo "=========================================="
+          echo "VGRAT FMS DAILY DATA PIPELINE"
+          echo "=========================================="
+          echo
+          echo "UTC time:"
+          date -u '+%Y-%m-%d %H:%M:%S UTC'
+          echo
+          echo "Singapore time:"
+          TZ=Asia/Singapore date '+%Y-%m-%d %H:%M:%S SGT'
+          echo
+          echo "Singapore date:"
+          TZ=Asia/Singapore date '+%Y-%m-%d'
+          echo
+          echo "Trigger:"
+          echo "${{ github.event_name }}"
+          echo "=========================================="
+
+      # ========================================================
+      # 6. SYNC WITH LATEST MAIN BEFORE RUNNING THE PIPELINE
+      #
+      # The pipeline always starts from the newest repository
+      # state.
+      #
+      # This is safe when other workflows are running because
+      # this workflow does not claim exclusive access to main.
+      # ========================================================
+      - name: Sync with latest main before build
+        run: |
+          set -e
+
+          echo "Fetching latest main..."
+          git fetch origin main
+
+          echo
+          echo "Current HEAD:"
+          git rev-parse HEAD
+
+          echo
+          echo "Latest origin/main:"
+          git rev-parse origin/main
+
+          echo
+          echo "Resetting working tree to latest origin/main..."
+          git reset --hard origin/main
+
+          echo
+          echo "Repository synchronized with origin/main."
+
+      # ========================================================
+      # 7. HOLDINGS - STEP 1: BASELINE
+      # ========================================================
+      - name: "Holdings 1/4 - Baseline"
+        run: |
+          python -u scripts/test_prudential_holdings.py
+
+      - name: Verify baseline output
+        run: |
+          test -f "output_holdings/run_summary.json"
+          test -f "output_holdings/all_holdings.json"
+          echo "Baseline output verified."
+
+      # ========================================================
+      # 8. HOLDINGS - STEP 2: RECOVERY 1
+      # ========================================================
+      - name: "Holdings 2/4 - Recovery 1"
+        run: |
+          python -u scripts/update_prudential_holdings.py
+
+      # ========================================================
+      # 9. HOLDINGS - STEP 3: RECOVERY 2
+      # ========================================================
+      - name: "Holdings 3/4 - Recovery 2"
+        run: |
+          python -u scripts/test_prudential_holdings_recovery2.py
+
+      # ========================================================
+      # 10. HOLDINGS - STEP 4: RECOVERY 3
+      # ========================================================
+      - name: "Holdings 4/4 - Recovery 3"
+        continue-on-error: true
+        run: |
+          python -u scripts/test_prudential_holdings_recovery3.py
+
+      # Recovery 3 can legitimately exit non-zero when some funds
+      # remain unresolved. The final build decides whether unresolved
+      # funds are allowed to be published.
+
+      # ========================================================
+      # 11. PRUACCESS - BID HISTORY
+      # ========================================================
+      - name: "PruAccess - BID history"
+        continue-on-error: true
+        run: |
+          python -u scripts/test_pruaccess.py
+
+      # test_pruaccess.py can exit non-zero when individual funds fail.
+      # The build step handles the final unresolved-fund decision.
+
+      # ========================================================
+      # 12. DISPLAY ALL INTERMEDIATE SUMMARIES
+      # ========================================================
+      - name: Display pipeline summaries
+        if: always()
+        run: |
+          for f in \
+            output_holdings/run_summary.json \
+            output_holdings_recovery/run_summary.json \
+            output_holdings_recovery_2/run_summary.json \
+            output_holdings_recovery_3/run_summary.json \
+            output_pruaccess/run_summary.json
+          do
+            echo
+            echo "============================================================"
+            echo "$f"
+            echo "============================================================"
+
+            if [ -f "$f" ]; then
+              cat "$f"
+            else
+              echo "(not found)"
+            fi
+          done
+
+      # ========================================================
+      # 13. BUILD FINAL DATA
+      #
+      # Reads:
+      #
+      #   output_holdings/
+      #   output_holdings_recovery/
+      #   output_holdings_recovery_2/
+      #   output_holdings_recovery_3/
+      #   output_pruaccess/
+      #
+      # Produces:
+      #
+      #   data/funds.json
+      #   data/bid_history.json
+      # ========================================================
+      - name: Build funds data
+        env:
+          ALLOW_UNRESOLVED: ${{ github.event.inputs.allow_unresolved || 'false' }}
+        run: |
+          echo "=========================================="
+          echo "BUILD FUNDS DATA"
+          echo "=========================================="
+          echo "ALLOW_UNRESOLVED=$ALLOW_UNRESOLVED"
+          echo
+
+          python -u build_funds_data.py
+
+      # ========================================================
+      # 14. SHOW BUILD OUTPUT
+      # ========================================================
+      - name: Show build output
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "DATA DIRECTORY"
+          echo "=========================================="
+
+          ls -la data/ || true
+
+          echo
+          echo "=========================================="
+          echo "FUNDS.JSON SUMMARY"
+          echo "=========================================="
+
+          python - <<'PY'
+          import json
+          import pathlib
+
+          path = pathlib.Path("data/funds.json")
+
+          if path.exists():
+              data = json.loads(path.read_text(encoding="utf-8"))
+
+              print(json.dumps(
+                  data.get("summary", {}),
+                  indent=2
+              ))
+
+              print()
+              print("fundCount:", data.get("fundCount"))
+              print("generatedAtUtc:", data.get("generatedAtUtc"))
+
+          else:
+              print("data/funds.json not found.")
+          PY
+
+      # ========================================================
+      # 15. RECORD REFRESH COMPLETION TIME
+      # ========================================================
+      - name: Record refresh completion time
+        if: success()
+        run: |
+          REFRESH_TIME=$(TZ=Asia/Singapore date '+%Y-%m-%d %H:%M:%S SGT')
+          REFRESH_DATE=$(TZ=Asia/Singapore date '+%Y-%m-%d')
+
+          echo "REFRESH_TIME=$REFRESH_TIME" >> "$GITHUB_ENV"
+          echo "REFRESH_DATE=$REFRESH_DATE" >> "$GITHUB_ENV"
+
+          echo
+          echo "=========================================="
+          echo "REFRESH COMPLETED"
+          echo "=========================================="
+          echo "Date: $REFRESH_DATE"
+          echo "Time: $REFRESH_TIME"
+          echo "=========================================="
+
+      # ========================================================
+      # 16. VALIDATE GENERATED DATA
+      # ========================================================
+      - name: Validate generated data
+        run: |
+          set -e
+
+          test -f "data/funds.json"
+          test -f "data/bid_history.json"
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          files = [
+              Path("data/funds.json"),
+              Path("data/bid_history.json"),
+          ]
+
+          for path in files:
+              print(f"Validating {path}...")
+
+              with path.open("r", encoding="utf-8") as f:
+                  data = json.load(f)
+
+              if not isinstance(data, dict):
+                  raise SystemExit(
+                      f"{path} is not a valid JSON object."
+                  )
+
+              if "funds" not in data:
+                  raise SystemExit(
+                      f"{path} does not contain a funds array."
+                  )
+
+              if not isinstance(data["funds"], list):
+                  raise SystemExit(
+                      f"{path} funds field is not a list."
+                  )
+
+              print(
+                  f"{path}: valid "
+                  f"({len(data['funds'])} records)"
+              )
+
+          print()
+          print("All generated data files are valid.")
+          PY
+
+      # ========================================================
+      # 17. UPLOAD PIPELINE DIAGNOSTICS
+      # ========================================================
+      - name: Upload pipeline diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-funds-data-diagnostics-${{ github.run_number }}
+          path: |
+            output_holdings/
+            output_holdings_recovery/
+            output_holdings_recovery_2/
+            output_holdings_recovery_3/
+            output_pruaccess/
+            data/
+          if-no-files-found: warn
+          retention-days: 30
+
+      # ========================================================
+      # 18. COMMIT AND PUSH GENERATED DATA
+      #
+      # ========================================================
+      #
+      # IMPORTANT:
+      #
+      # This workflow may finish while another workflow has already
+      # pushed something to main.
+      #
+      # We therefore NEVER blindly push our old commit.
+      #
+      # Instead, on every attempt:
+      #
+      #   1. Fetch latest main
+      #   2. Reset to latest main
+      #   3. Rebuild funds.json + bid_history.json
+      #   4. Validate
+      #   5. Commit only those two files
+      #   6. Push
+      #
+      # If another workflow wins the race:
+      #
+      #   -> discard our generated-data commit
+      #   -> fetch newest main
+      #   -> rebuild
+      #   -> retry
+      #
+      # This prevents merge/rebase conflicts inside generated JSON.
+      #
+      # It also means a concurrent workflow such as:
+      #
+      #   Research Fund Exposure
+      #
+      # can safely publish data/fund_exposure.json without this
+      # workflow overwriting it.
+      # ========================================================
+      - name: Commit and push updated funds data
+        env:
+          ALLOW_UNRESOLVED: ${{ github.event.inputs.allow_unresolved || 'false' }}
+        run: |
+          set -e
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          MAX_ATTEMPTS=5
+          ATTEMPT=1
+
+          while [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; do
+
+            echo
+            echo "============================================================"
+            echo "PUBLISH ATTEMPT $ATTEMPT / $MAX_ATTEMPTS"
+            echo "============================================================"
+
+            # ----------------------------------------------------
+            # Fetch latest main.
+            # ----------------------------------------------------
+            git fetch origin main
+
+            # ----------------------------------------------------
+            # Reset to the newest main.
+            #
+            # This discards only this workflow's local generated
+            # commit. It does NOT discard the pipeline output files
+            # needed by build_funds_data.py.
+            # ----------------------------------------------------
+            git reset --hard origin/main
+
+            echo
+            echo "Repository HEAD:"
+            git rev-parse HEAD
+
+            echo
+            echo "origin/main:"
+            git rev-parse origin/main
+
+            # ----------------------------------------------------
+            # Rebuild final data from newest main.
+            # ----------------------------------------------------
+            echo
+            echo "Rebuilding funds data from latest origin/main..."
+            echo "ALLOW_UNRESOLVED=$ALLOW_UNRESOLVED"
+
+            python -u build_funds_data.py
+
+            # ----------------------------------------------------
+            # Validate regenerated files.
+            # ----------------------------------------------------
+            test -f "data/funds.json"
+            test -f "data/bid_history.json"
+
+            python - <<'PY'
+          import json
+          from pathlib import Path
+
+          files = [
+              Path("data/funds.json"),
+              Path("data/bid_history.json"),
+          ]
+
+          for path in files:
+              print(f"Validating {path}...")
+
+              with path.open("r", encoding="utf-8") as f:
+                  data = json.load(f)
+
+              if not isinstance(data, dict):
+                  raise SystemExit(
+                      f"{path} is not a valid JSON object."
+                  )
+
+              if "funds" not in data:
+                  raise SystemExit(
+                      f"{path} does not contain a funds array."
+                  )
+
+              if not isinstance(data["funds"], list):
+                  raise SystemExit(
+                      f"{path} funds field is not a list."
+                  )
+
+              print(
+                  f"{path}: valid "
+                  f"({len(data['funds'])} records)"
+              )
+
+          print()
+          print("Regenerated data validation passed.")
+          PY
+
+            # ----------------------------------------------------
+            # Stage ONLY the two files owned by this workflow.
+            #
+            # data/fund_exposure.json is intentionally NOT staged.
+            # ----------------------------------------------------
+            git add data/funds.json
+            git add data/bid_history.json
+
+            # ----------------------------------------------------
+            # Nothing changed.
+            # ----------------------------------------------------
+            if git diff --cached --quiet; then
+              echo
+              echo "No changes to published funds data."
+              echo "Nothing to commit."
+              exit 0
+            fi
+
+            # ----------------------------------------------------
+            # Commit.
+            # ----------------------------------------------------
+            COMMIT_TIME=$(TZ=Asia/Singapore date '+%Y-%m-%d %H:%M:%S SGT')
+
+            git commit \
+              -m "chore: update funds data ($COMMIT_TIME)"
+
+            # ----------------------------------------------------
+            # Push.
+            # ----------------------------------------------------
+            echo
+            echo "Pushing generated funds data..."
+
+            if git push origin HEAD:main; then
+
+              echo
+              echo "=========================================="
+              echo "VGRAT FMS DATA REFRESH PUBLISHED"
+              echo "=========================================="
+              echo
+              echo "Completed:"
+              TZ=Asia/Singapore date '+%Y-%m-%d %H:%M:%S SGT'
+              echo
+              echo "Published:"
+              echo "  data/funds.json"
+              echo "  data/bid_history.json"
+              echo
+              echo "=========================================="
+
+              exit 0
+            fi
+
+            # ----------------------------------------------------
+            # Another workflow changed main.
+            #
+            # DO NOT REBASE generated JSON.
+            #
+            # The next loop iteration fetches the new main,
+            # resets, rebuilds, and tries again.
+            # ----------------------------------------------------
+            echo
+            echo "Push rejected because origin/main changed."
+            echo "Another workflow likely published while this"
+            echo "pipeline was running."
+            echo
+            echo "Discarding this generated-data commit."
+            echo "The next attempt will rebuild from latest main."
+
+            git fetch origin main
+            git reset --hard origin/main
+
+            ATTEMPT=$((ATTEMPT + 1))
+
+            if [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; then
+              echo
+              echo "Waiting 5 seconds before retry..."
+              sleep 5
+            fi
+
+          done
+
+          echo
+          echo "============================================================"
+          echo "ERROR: Could not publish generated funds data."
+          echo "============================================================"
+          echo
+          echo "main changed during all $MAX_ATTEMPTS publish attempts."
+          echo "No unsafe force-push or generated-file rebase was performed."
+          echo
+
+          exit 1
