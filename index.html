@@ -2491,6 +2491,17 @@
                         </fieldset>
 
                         <fieldset class="report-group calc-group">
+                            <legend>Investment Booster</legend>
+
+                            <p id="calc-booster-rules" class="settings-help calc-help"></p>
+
+                            <div id="calc-booster-list" class="calc-booster-list"></div>
+
+                            <button id="calc-booster-add" type="button" class="news-clear-filters calc-booster-add">+ Add Investment Booster</button>
+
+                        </fieldset>
+
+                        <fieldset class="report-group calc-group">
                             <legend>Investment Return</legend>
 
                             <div class="report-grid calc-grid">
@@ -2525,6 +2536,14 @@
                                     <small id="calc-div-age-note" class="calc-field-note"></small>
                                 </label>
 
+                                <label id="calc-div-booster-field" class="filter-control report-field" hidden>
+                                    <span>Investment Booster dividends</span>
+                                    <select id="calc-div-booster">
+                                        <option value="reinvest" selected>Reinvested</option>
+                                        <option value="payout">Paid out</option>
+                                    </select>
+                                </label>
+
                                 <label id="calc-div-flex-field" class="filter-control report-field" hidden>
                                     <span>Flex Account dividends</span>
                                     <select id="calc-div-flex">
@@ -2535,6 +2554,20 @@
                             </div>
 
                             <p id="calc-div-note" class="settings-help calc-help" hidden></p>
+
+                            <label id="calc-booster-pay-field" class="calc-check" hidden>
+                                <input id="calc-booster-pay" type="checkbox">
+                                <span>Pay regular premiums by withdrawing from the Investment Booster (Additional Investment Account)</span>
+                            </label>
+                            <div id="calc-booster-withdraw-field" class="report-grid calc-grid" hidden>
+                                <label class="report-field">
+                                    <span>Withdrawal each premium date (S$)</span>
+                                    <input id="calc-booster-withdraw" type="number" step="any" inputmode="decimal">
+                                    <small id="calc-booster-withdraw-note" class="calc-field-note"></small>
+                                </label>
+                            </div>
+
+                            <p id="calc-booster-pay-note" class="settings-help calc-help" hidden>On each premium date, the amount above is withdrawn from the Additional Investment Account while it has enough value. It pays the premium first; anything above the premium is paid to you. Withdrawals from this account have no withdrawal charge and do not change the sum assured or Wealth Assure Value. The minimum withdrawal is S$1,000 and at least S$1,000 must stay in the policy. Any premium the booster can't cover is paid in cash.</p>
 
                             <p class="settings-help calc-help">The expected return rate grows the account value. The BID price stays at today's price throughout, so units bought and dividends (units held × the latest dividend per unit) are worked out at that price. Fund charges are already reflected in the BID price, so nothing more is deducted.</p>
                         </fieldset>
