@@ -1,28 +1,19 @@
 #!/usr/bin/env python3
 
 """
-VGrat FMS - Prudential Promotions Extractor
-============================================
+Prudential Singapore Promotions Extractor
+=========================================
 
-Extracts Prudential Singapore promotions from:
+Source:
+    https://www.prudential.com.sg/en/promos-and-rewards/promotions/
 
-https://www.prudential.com.sg/en/promos-and-rewards/promotions/
+Purpose:
+    Discover Prudential Singapore promotion pages and extract
+    structured promotion information into data/promotions.json.
 
-The extractor:
-
-1. Downloads the Prudential promotions landing page.
-2. Identifies promotion cards / links.
-3. Follows each promotion detail page.
-4. Extracts:
-   - promotion title
-   - summary
-   - URL
-   - promotion period
-   - page text
-   - eligible plans
-   - discount / reward information
-   - status
-5. Writes structured JSON.
+The extractor intentionally discovers promotion URLs from the
+live Prudential promotions page rather than maintaining a
+hardcoded promotion list.
 
 Output:
     data/promotions.json
@@ -47,21 +38,36 @@ from bs4 import BeautifulSoup
 
 
 # ============================================================
-# CONFIGURATION
+# PATHS
 # ============================================================
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 
-OUTPUT_DIR = ROOT / "data"
-OUTPUT_FILE = OUTPUT_DIR / "promotions.json"
+DATA_DIR = ROOT / "data"
+OUTPUT_FILE = DATA_DIR / "promotions.json"
+
+
+# ============================================================
+# SOURCE
+# ============================================================
 
 SOURCE_URL = (
-    "https://www.prudential.com.sg/en/promos-and-rewards/promotions/"
+    "https://www.prudential.com.sg/"
+    "en/promos-and-rewards/promotions/"
 )
+
+SOURCE_NAME = "Prudential Singapore"
 
 BASE_URL = "https://www.prudential.com.sg"
 
+
+# ============================================================
+# HTTP CONFIGURATION
+# ============================================================
+
 REQUEST_TIMEOUT = 30
+
+REQUEST_DELAY_SECONDS = 0.5
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -72,8 +78,9 @@ USER_AGENT = (
 HEADERS = {
     "User-Agent": USER_AGENT,
     "Accept": (
-        "text/html,application/xhtml+xml,application/xml;"
-        "q=0.9,image/avif,image/webp,*/*;q=0.8"
+        "text/html,application/xhtml+xml,"
+        "application/xml;q=0.9,image/avif,"
+        "image/webp,*/*;q=0.8"
     ),
     "Accept-Language": "en-SG,en;q=0.9",
     "Cache-Control": "no-cache",
@@ -84,8 +91,8 @@ HEADERS = {
 # SESSION
 # ============================================================
 
-session = requests.Session()
-session.headers.update(HEADERS)
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
 
 
 # ============================================================
@@ -93,38 +100,18 @@ session.headers.update(HEADERS)
 # ============================================================
 
 def log(message: str) -> None:
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[{timestamp}] {message}", flush=True)
-
-
-# ============================================================
-# HTTP
-# ============================================================
-
-def fetch(url: str) -> str:
-    """
-    Download a page and return HTML.
-    """
-
-    log(f"GET {url}")
-
-    response = session.get(
-        url,
-        timeout=REQUEST_TIMEOUT,
+    timestamp = datetime.now().strftime(
+        "%Y-%m-%d %H:%M:%S"
     )
 
-    response.raise_for_status()
-
-    log(
-        f"HTTP {response.status_code} "
-        f"({len(response.content):,} bytes)"
+    print(
+        f"[{timestamp}] {message}",
+        flush=True,
     )
-
-    return response.text
 
 
 # ============================================================
-# TEXT CLEANING
+# TEXT UTILITIES
 # ============================================================
 
 def clean_text(value: str | None) -> str:
@@ -133,14 +120,34 @@ def clean_text(value: str | None) -> str:
 
     value = value.replace("\xa0", " ")
 
-    value = re.sub(r"\s+", " ", value)
+    value = re.sub(
+        r"[ \t\r\n]+",
+        " ",
+        value,
+    )
 
     return value.strip()
 
 
-def unique_preserve_order(values):
-    result = []
+def clean_multiline_text(value: str | None) -> str:
+    if not value:
+        return ""
 
+    value = value.replace("\xa0", " ")
+
+    lines = []
+
+    for line in value.splitlines():
+        line = clean_text(line)
+
+        if line:
+            lines.append(line)
+
+    return "\n".join(lines)
+
+
+def unique_preserve_order(values: list[str]) -> list[str]:
+    result = []
     seen = set()
 
     for value in values:
@@ -149,7 +156,7 @@ def unique_preserve_order(values):
         if not value:
             continue
 
-        key = value.lower()
+        key = value.casefold()
 
         if key in seen:
             continue
@@ -161,36 +168,438 @@ def unique_preserve_order(values):
 
 
 # ============================================================
-# URL HANDLING
+# URL UTILITIES
 # ============================================================
 
 def normalize_url(url: str) -> str:
-    """
-    Convert relative Prudential URLs into absolute URLs.
-    """
-
-    url = url.strip()
-
     if not url:
         return ""
 
-    absolute = urljoin(BASE_URL, url)
+    url = url.strip()
+
+    absolute = urljoin(
+        BASE_URL,
+        url,
+    )
 
     parsed = urlparse(absolute)
 
-    # Remove fragments.
-    absolute = parsed._replace(fragment="").geturl()
+    # Remove URL fragments.
+    parsed = parsed._replace(
+        fragment=""
+    )
 
-    return absolute
+    return parsed.geturl()
 
 
 def is_prudential_url(url: str) -> bool:
+    try:
+        parsed = urlparse(url)
+
+        hostname = (
+            parsed.hostname or ""
+        ).lower()
+
+        return (
+            parsed.scheme in (
+                "http",
+                "https",
+            )
+            and (
+                hostname == "prudential.com.sg"
+                or hostname.endswith(
+                    ".prudential.com.sg"
+                )
+            )
+        )
+
+    except Exception:
+        return False
+
+
+def is_promotions_listing_url(url: str) -> bool:
     parsed = urlparse(url)
 
-    return (
-        parsed.scheme in ("http", "https")
-        and parsed.netloc.lower().endswith("prudential.com.sg")
+    path = parsed.path.rstrip("/").lower()
+
+    return path in (
+        "/en/promos-and-rewards/promotions",
+        "/en/products/promotions",
+        "/products/promotions",
     )
+
+
+def looks_like_promotion_url(url: str) -> bool:
+    if not is_prudential_url(url):
+        return False
+
+    parsed = urlparse(url)
+
+    path = parsed.path.lower()
+
+    if is_promotions_listing_url(url):
+        return False
+
+    promotion_paths = (
+        "/en/products/promotions/",
+        "/en/promos-and-rewards/promotions/",
+        "/products/promotions/",
+    )
+
+    return any(
+        path.startswith(prefix)
+        for prefix in promotion_paths
+    )
+
+
+# ============================================================
+# HTTP
+# ============================================================
+
+def fetch_page(url: str) -> str:
+    log(f"GET {url}")
+
+    response = SESSION.get(
+        url,
+        timeout=REQUEST_TIMEOUT,
+    )
+
+    response.raise_for_status()
+
+    if not response.text.strip():
+        raise RuntimeError(
+            "Received an empty HTML response"
+        )
+
+    log(
+        f"HTTP {response.status_code} | "
+        f"{len(response.content):,} bytes"
+    )
+
+    return response.text
+
+
+# ============================================================
+# HTML UTILITIES
+# ============================================================
+
+def soup_from_html(html: str) -> BeautifulSoup:
+    return BeautifulSoup(
+        html,
+        "html.parser",
+    )
+
+
+def extract_page_title(
+    soup: BeautifulSoup,
+) -> str:
+    h1 = soup.find("h1")
+
+    if h1:
+        value = clean_text(
+            h1.get_text(
+                " ",
+                strip=True,
+            )
+        )
+
+        if value:
+            return value
+
+    title = soup.find("title")
+
+    if title:
+        value = clean_text(
+            title.get_text(
+                " ",
+                strip=True,
+            )
+        )
+
+        if value:
+            value = re.sub(
+                r"\s*\|\s*Prudential.*$",
+                "",
+                value,
+                flags=re.I,
+            )
+
+            return value.strip()
+
+    return ""
+
+
+def extract_page_text(
+    soup: BeautifulSoup,
+) -> str:
+    """
+    Extract readable text while removing website
+    navigation and technical elements.
+    """
+
+    # Work on a copy so that other extraction operations
+    # are not affected.
+    working = BeautifulSoup(
+        str(soup),
+        "html.parser",
+    )
+
+    for tag in working.find_all(
+        [
+            "script",
+            "style",
+            "noscript",
+            "svg",
+            "nav",
+            "footer",
+            "form",
+            "iframe",
+        ]
+    ):
+        tag.decompose()
+
+    # Remove obvious cookie / accessibility overlays.
+    for tag in working.find_all(
+        attrs={
+            "aria-hidden": "true"
+        }
+    ):
+        tag.decompose()
+
+    text = working.get_text(
+        "\n",
+        strip=True,
+    )
+
+    return clean_multiline_text(text)
+
+
+def extract_headings(
+    soup: BeautifulSoup,
+) -> list[str]:
+    headings = []
+
+    for tag in soup.find_all(
+        [
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+        ]
+    ):
+        value = clean_text(
+            tag.get_text(
+                " ",
+                strip=True,
+            )
+        )
+
+        if value:
+            headings.append(value)
+
+    return unique_preserve_order(
+        headings
+    )
+
+
+# ============================================================
+# LISTING PAGE
+# ============================================================
+
+def extract_listing_promotions(
+    html: str,
+) -> list[dict]:
+    """
+    Discover promotion cards from the Prudential
+    promotions landing page.
+
+    We inspect links rather than relying on a fragile
+    CSS class because CMS markup can change.
+    """
+
+    soup = soup_from_html(html)
+
+    discovered = []
+
+    seen_urls = set()
+
+    for link in soup.find_all(
+        "a",
+        href=True,
+    ):
+        href = normalize_url(
+            link.get("href", "")
+        )
+
+        if not looks_like_promotion_url(
+            href
+        ):
+            continue
+
+        if href in seen_urls:
+            continue
+
+        seen_urls.add(href)
+
+        anchor_text = clean_text(
+            link.get_text(
+                " ",
+                strip=True,
+            )
+        )
+
+        # ----------------------------------------------------
+        # Try to find the containing promotion card.
+        # ----------------------------------------------------
+
+        container = None
+
+        for parent in link.parents:
+
+            if parent.name not in (
+                "div",
+                "article",
+                "li",
+                "section",
+            ):
+                continue
+
+            text = clean_text(
+                parent.get_text(
+                    " ",
+                    strip=True,
+                )
+            )
+
+            if len(text) >= 20:
+                container = parent
+
+            # Stop after reaching a reasonable card.
+            if len(text) >= 80:
+                break
+
+        card_text = ""
+
+        if container is not None:
+            card_text = clean_text(
+                container.get_text(
+                    " ",
+                    strip=True,
+                )
+            )
+
+        title = anchor_text
+
+        # ----------------------------------------------------
+        # If the anchor says "Learn more", inspect headings
+        # in the card.
+        # ----------------------------------------------------
+
+        if (
+            not title
+            or title.casefold() in {
+                "learn more",
+                "read more",
+                "find out more",
+                "click here",
+            }
+        ):
+            if container is not None:
+
+                heading = container.find(
+                    [
+                        "h1",
+                        "h2",
+                        "h3",
+                        "h4",
+                        "strong",
+                    ]
+                )
+
+                if heading:
+                    title = clean_text(
+                        heading.get_text(
+                            " ",
+                            strip=True,
+                        )
+                    )
+
+        # ----------------------------------------------------
+        # Look for card description.
+        # ----------------------------------------------------
+
+        summary = ""
+
+        if container is not None:
+
+            candidates = []
+
+            for tag in container.find_all(
+                [
+                    "p",
+                    "div",
+                    "span",
+                ]
+            ):
+
+                value = clean_text(
+                    tag.get_text(
+                        " ",
+                        strip=True,
+                    )
+                )
+
+                if (
+                    value
+                    and value != title
+                    and len(value) >= 15
+                    and len(value) <= 500
+                ):
+                    candidates.append(value)
+
+            if candidates:
+                # Prefer the shortest useful text after
+                # excluding navigation phrases.
+                candidates = [
+                    x
+                    for x in candidates
+                    if x.casefold()
+                    not in {
+                        "learn more",
+                        "read more",
+                    }
+                ]
+
+                if candidates:
+                    summary = min(
+                        candidates,
+                        key=len,
+                    )
+
+        # ----------------------------------------------------
+        # Avoid obvious false positives.
+        # ----------------------------------------------------
+
+        if not title:
+            continue
+
+        if title.casefold() in {
+            "learn more",
+            "read more",
+            "terms and conditions",
+            "terms & conditions",
+        }:
+            continue
+
+        discovered.append(
+            {
+                "title": title,
+                "summary": summary,
+                "url": href,
+            }
+        )
+
+    return discovered
 
 
 # ============================================================
@@ -214,6 +623,7 @@ MONTHS = (
 
 MONTH_PATTERN = "|".join(MONTHS)
 
+
 DATE_RANGE_PATTERNS = [
     re.compile(
         rf"\b("
@@ -234,301 +644,217 @@ DATE_RANGE_PATTERNS = [
 ]
 
 
-def parse_date(value: str) -> str | None:
+def parse_date(
+    value: str,
+) -> str | None:
+
     value = clean_text(value)
 
-    formats = [
+    formats = (
         "%d %B %Y",
         "%d %b %Y",
         "%B %d %Y",
         "%B %d, %Y",
         "%b %d %Y",
         "%b %d, %Y",
-    ]
+    )
 
     for fmt in formats:
+
         try:
-            return datetime.strptime(value, fmt).date().isoformat()
+            parsed = datetime.strptime(
+                value,
+                fmt,
+            ).date()
+
+            return parsed.isoformat()
+
         except ValueError:
-            pass
+            continue
 
     return None
 
 
-def extract_promotion_period(text: str) -> dict:
-    """
-    Extract the first explicit promotion period found.
+def extract_date_ranges(
+    text: str,
+) -> list[dict]:
 
-    If the promotion contains multiple periods, preserve them
-    separately under additionalPeriods.
-    """
-
-    periods = []
+    ranges = []
 
     for pattern in DATE_RANGE_PATTERNS:
 
-        for match in pattern.finditer(text):
+        for match in pattern.finditer(
+            text
+        ):
 
-            start_raw = clean_text(match.group(1))
-            end_raw = clean_text(match.group(2))
+            start = parse_date(
+                match.group(1)
+            )
 
-            start = parse_date(start_raw)
-            end = parse_date(end_raw)
+            end = parse_date(
+                match.group(2)
+            )
 
             if not start or not end:
                 continue
 
-            period = {
+            item = {
                 "start": start,
                 "end": end,
             }
 
-            if period not in periods:
-                periods.append(period)
+            if item not in ranges:
+                ranges.append(item)
+
+    ranges.sort(
+        key=lambda item: (
+            item["start"],
+            item["end"],
+        )
+    )
+
+    return ranges
+
+
+def determine_status(
+    periods: list[dict],
+    today: date,
+) -> str:
 
     if not periods:
-        return {
-            "promotionPeriod": None,
-            "additionalPeriods": [],
-        }
-
-    return {
-        "promotionPeriod": periods[0],
-        "additionalPeriods": periods[1:],
-    }
-
-
-# ============================================================
-# STATUS
-# ============================================================
-
-def determine_status(period: dict | None) -> str:
-    if not period:
         return "unknown"
 
-    try:
-        start = date.fromisoformat(period["start"])
-        end = date.fromisoformat(period["end"])
-    except Exception:
-        return "unknown"
+    for period in periods:
 
-    today = date.today()
+        try:
+            start = date.fromisoformat(
+                period["start"]
+            )
 
-    if today < start:
+            end = date.fromisoformat(
+                period["end"]
+            )
+
+        except ValueError:
+            continue
+
+        if start <= today <= end:
+            return "active"
+
+    # If all periods are in the future.
+    future = False
+
+    for period in periods:
+
+        try:
+            start = date.fromisoformat(
+                period["start"]
+            )
+
+            if start > today:
+                future = True
+
+        except ValueError:
+            pass
+
+    if future:
         return "upcoming"
 
-    if today > end:
-        return "expired"
-
-    return "active"
+    return "expired"
 
 
 # ============================================================
-# PROMOTION TITLE DETECTION
+# STRUCTURED TEXT EXTRACTION
 # ============================================================
 
-PROMOTION_KEYWORDS = (
-    "promotion",
-    "reward",
-    "campaign",
-    "lucky draw",
-    "discount",
-    "smart moves",
-    "celebrating",
-    "protect today",
-    "thank you",
-    "bonds",
-)
+def extract_lines(
+    text: str,
+) -> list[str]:
+
+    return [
+        clean_text(line)
+        for line in text.splitlines()
+        if clean_text(line)
+    ]
 
 
-def looks_like_promotion_title(value: str) -> bool:
-    text = clean_text(value).lower()
+def find_matching_lines(
+    lines: list[str],
+    keywords: tuple[str, ...],
+) -> list[str]:
 
-    if not text:
-        return False
+    matches = []
 
-    return any(
-        keyword in text
-        for keyword in PROMOTION_KEYWORDS
+    for line in lines:
+
+        lowered = line.casefold()
+
+        if any(
+            keyword.casefold() in lowered
+            for keyword in keywords
+        ):
+            matches.append(line)
+
+    return unique_preserve_order(
+        matches
     )
 
 
-# ============================================================
-# LANDING PAGE EXTRACTION
-# ============================================================
+def extract_payment_modes(
+    text: str,
+) -> list[str]:
 
-def extract_listing_promotions(html: str) -> list[dict]:
-    """
-    Extract promotion cards from the landing page.
+    modes = []
 
-    This intentionally does not depend on one fragile CSS class.
-    Prudential's CMS markup can change, so we inspect links and
-    surrounding card content.
-    """
+    mode_patterns = {
+        "monthly": r"\bmonthly\b",
+        "quarterly": r"\bquarterly\b",
+        "half-yearly": (
+            r"\bhalf[- ]yearly\b"
+        ),
+        "annually": (
+            r"\bannually\b|\bannual\b"
+        ),
+    }
 
-    soup = BeautifulSoup(html, "html.parser")
+    for name, pattern in mode_patterns.items():
 
-    promotions = []
-
-    seen_urls = set()
-
-    # --------------------------------------------------------
-    # First pass:
-    # Find links that appear to point to promotion pages.
-    # --------------------------------------------------------
-
-    for link in soup.find_all("a", href=True):
-
-        href = normalize_url(link.get("href", ""))
-
-        if not href:
-            continue
-
-        if not is_prudential_url(href):
-            continue
-
-        parsed = urlparse(href)
-
-        path = parsed.path.lower()
-
-        # Promotion detail pages normally live under these
-        # Prudential areas.
-        if "/promotion" not in path and "/promos-and-rewards/" not in path:
-            continue
-
-        # Don't treat the landing page itself as a promotion.
-        normalized_path = path.rstrip("/")
-
-        if normalized_path in (
-            "/en/promos-and-rewards/promotions",
-            "/products/promotions",
+        if re.search(
+            pattern,
+            text,
+            flags=re.I,
         ):
-            continue
+            modes.append(name)
 
-        if href in seen_urls:
-            continue
-
-        title = clean_text(link.get_text(" ", strip=True))
-
-        # ----------------------------------------------------
-        # If the anchor itself has no useful title, inspect
-        # the surrounding card.
-        # ----------------------------------------------------
-
-        container = (
-            link.find_parent(
-                ["article", "li", "section", "div"],
-                limit=4,
-            )
-        )
-
-        card_text = ""
-
-        if container:
-            card_text = clean_text(
-                container.get_text(" ", strip=True)
-            )
-
-        summary = ""
-
-        if card_text:
-            if title:
-                summary = card_text.replace(title, "", 1).strip()
-
-            if len(summary) > 500:
-                summary = summary[:500].rstrip() + "..."
-
-        # Ignore obvious navigation / legal links.
-        combined = f"{title} {summary}".lower()
-
-        if not looks_like_promotion_title(combined):
-            continue
-
-        seen_urls.add(href)
-
-        promotions.append(
-            {
-                "title": title,
-                "summary": summary,
-                "url": href,
-            }
-        )
-
-    return promotions
+    return modes
 
 
-# ============================================================
-# DETAIL PAGE EXTRACTION
-# ============================================================
+def extract_eligible_plans(
+    text: str,
+) -> list[str]:
 
-def extract_page_text(soup: BeautifulSoup) -> str:
     """
-    Extract readable page text while removing navigation,
-    scripts, styles and form elements.
+    Conservative extraction.
+
+    We only return plan names that appear verbatim
+    in the page text.
     """
 
-    soup_copy = BeautifulSoup(str(soup), "html.parser")
-
-    for tag in soup_copy(
-        [
-            "script",
-            "style",
-            "noscript",
-            "svg",
-            "nav",
-            "footer",
-            "form",
-        ]
-    ):
-        tag.decompose()
-
-    text = soup_copy.get_text("\n", strip=True)
-
-    lines = []
-
-    for line in text.splitlines():
-        line = clean_text(line)
-
-        if line:
-            lines.append(line)
-
-    return "\n".join(lines)
-
-
-def extract_headings(soup: BeautifulSoup) -> list[str]:
-    headings = []
-
-    for tag in soup.find_all(
-        ["h1", "h2", "h3", "h4"]
-    ):
-        text = clean_text(
-            tag.get_text(" ", strip=True)
-        )
-
-        if text:
-            headings.append(text)
-
-    return unique_preserve_order(headings)
-
-
-def extract_eligible_plans(text: str) -> list[str]:
-    """
-    Attempts to extract common Prudential plan names.
-
-    This is intentionally conservative. It does not invent
-    products from generic wording.
-    """
-
-    known_patterns = [
+    patterns = [
         r"PRUActive Term",
         r"PRUActive Protect II",
         r"PRUActive Life V",
         r"PRUActive Family Care",
         r"PRUVantage Assure II",
         r"PRUVantage Wealth III",
+        r"PRUVantage Wealth II",
         r"PRUVantage Prosper",
+        r"PRUVantage Legacy Index",
         r"PRUHospital Care360",
-        r"PRUShield EasySwitch",
+        r"PRULife Vantage Achiever Prime II",
+        r"PRU Wealth Plus",
+        r"PRU Wealth",
+        r"PRUUnited Wealth",
         r"PRULink StrategicInvest Income Fund",
         r"PRUPrime CIO Conservative Fund",
         r"PRUPrime CIO Balanced Fund",
@@ -537,266 +863,221 @@ def extract_eligible_plans(text: str) -> list[str]:
 
     found = []
 
-    for pattern in known_patterns:
+    for pattern in patterns:
 
-        if re.search(
+        matches = re.findall(
             pattern,
             text,
             flags=re.I,
-        ):
-            match = re.search(
-                pattern,
-                text,
-                flags=re.I,
-            )
+        )
 
-            if match:
-                found.append(match.group(0))
+        for match in matches:
+            found.append(match)
 
-    return unique_preserve_order(found)
-
-
-def extract_rewards_and_discounts(text: str) -> list[str]:
-    """
-    Extract sentences containing common promotion value terms.
-    """
-
-    sentences = re.split(
-        r"(?<=[.!?])\s+",
-        clean_text(text),
+    return unique_preserve_order(
+        found
     )
+
+
+def extract_reward_lines(
+    lines: list[str],
+) -> list[str]:
 
     keywords = (
         "%",
         "discount",
         "reward",
+        "bonus units",
         "voucher",
-        "bonus",
         "cashback",
         "miles",
         "complimentary",
+        "premium",
         "promotion bonus",
     )
 
-    matches = []
+    return find_matching_lines(
+        lines,
+        keywords,
+    )
 
-    for sentence in sentences:
 
-        sentence = clean_text(sentence)
-
-        if not sentence:
-            continue
-
-        lowered = sentence.lower()
-
-        if any(
-            keyword.lower() in lowered
-            for keyword in keywords
-        ):
-            if len(sentence) <= 500:
-                matches.append(sentence)
-
-    return unique_preserve_order(matches)
-
+# ============================================================
+# DETAIL PAGE
+# ============================================================
 
 def extract_detail_page(
     promotion: dict,
+    today: date,
 ) -> dict:
 
     url = promotion["url"]
 
+    result = {
+        "title": promotion.get(
+            "title",
+            "",
+        ),
+        "summary": promotion.get(
+            "summary",
+            "",
+        ),
+        "url": url,
+        "promotionPeriods": [],
+        "status": "unknown",
+        "eligiblePlans": [],
+        "paymentModes": [],
+        "rewardsAndDiscounts": [],
+        "headings": [],
+        "details": "",
+        "extractionStatus": "pending",
+        "error": None,
+    }
+
     try:
-        html = fetch(url)
+        html = fetch_page(url)
+
+        soup = soup_from_html(html)
+
+        title = extract_page_title(
+            soup
+        )
+
+        if title:
+            result["title"] = title
+
+        text = extract_page_text(
+            soup
+        )
+
+        lines = extract_lines(
+            text
+        )
+
+        periods = extract_date_ranges(
+            text
+        )
+
+        result["promotionPeriods"] = periods
+
+        result["status"] = determine_status(
+            periods,
+            today,
+        )
+
+        result["eligiblePlans"] = (
+            extract_eligible_plans(
+                text
+            )
+        )
+
+        result["paymentModes"] = (
+            extract_payment_modes(
+                text
+            )
+        )
+
+        result["rewardsAndDiscounts"] = (
+            extract_reward_lines(
+                lines
+            )
+        )
+
+        result["headings"] = (
+            extract_headings(
+                soup
+            )
+        )
+
+        result["details"] = text
+
+        result["extractionStatus"] = (
+            "success"
+        )
+
+        result["error"] = None
 
     except Exception as exc:
 
+        result["extractionStatus"] = (
+            "error"
+        )
+
+        result["error"] = str(exc)
+
         log(
-            f"ERROR fetching promotion: "
-            f"{url} -> {exc}"
+            f"ERROR: {url} -> {exc}"
         )
 
-        promotion["extractionStatus"] = "error"
-        promotion["error"] = str(exc)
-
-        return promotion
-
-    soup = BeautifulSoup(
-        html,
-        "html.parser",
-    )
-
-    page_text = extract_page_text(soup)
-
-    headings = extract_headings(soup)
-
-    period_data = extract_promotion_period(
-        page_text
-    )
-
-    status = determine_status(
-        period_data["promotionPeriod"]
-    )
-
-    plans = extract_eligible_plans(
-        page_text
-    )
-
-    rewards = extract_rewards_and_discounts(
-        page_text
-    )
-
-    # --------------------------------------------------------
-    # Prefer H1 as authoritative title.
-    # --------------------------------------------------------
-
-    h1 = soup.find("h1")
-
-    if h1:
-        h1_text = clean_text(
-            h1.get_text(" ", strip=True)
-        )
-
-        if h1_text:
-            promotion["title"] = h1_text
-
-    promotion.update(
-        {
-            "promotionPeriod": period_data[
-                "promotionPeriod"
-            ],
-            "additionalPeriods": period_data[
-                "additionalPeriods"
-            ],
-            "status": status,
-            "eligiblePlans": plans,
-            "rewardsAndDiscounts": rewards,
-            "headings": headings,
-            "details": page_text,
-            "extractionStatus": "success",
-        }
-    )
-
-    return promotion
+    return result
 
 
 # ============================================================
-# MAIN
+# DEDUPLICATION
 # ============================================================
 
-def main() -> int:
+def deduplicate_promotions(
+    promotions: list[dict],
+) -> list[dict]:
 
-    log("=" * 70)
-    log("VGrat FMS - PRUDENTIAL PROMOTIONS EXTRACTOR")
-    log("=" * 70)
+    result = []
 
-    log(f"Source: {SOURCE_URL}")
+    seen = set()
 
-    # --------------------------------------------------------
-    # Download landing page
-    # --------------------------------------------------------
+    for promotion in promotions:
 
-    try:
-        html = fetch(SOURCE_URL)
-
-    except Exception as exc:
-
-        log(f"FATAL: Unable to download promotions page: {exc}")
-
-        return 1
-
-    # --------------------------------------------------------
-    # Extract promotion cards
-    # --------------------------------------------------------
-
-    promotions = extract_listing_promotions(
-        html
-    )
-
-    log(
-        f"Found {len(promotions)} promotion links"
-    )
-
-    if not promotions:
-
-        log(
-            "WARNING: No promotions were extracted."
+        url = normalize_url(
+            promotion.get(
+                "url",
+                "",
+            )
         )
 
-        return 1
+        if not url:
+            continue
 
-    # --------------------------------------------------------
-    # Extract each detail page
-    # --------------------------------------------------------
+        key = url.casefold()
 
-    extracted = []
+        if key in seen:
+            continue
 
-    for index, promotion in enumerate(
-        promotions,
-        start=1,
-    ):
+        seen.add(key)
 
-        log(
-            f"[{index}/{len(promotions)}] "
-            f"{promotion.get('title', '')}"
-        )
+        promotion["url"] = url
 
-        result = extract_detail_page(
+        result.append(
             promotion
         )
 
-        extracted.append(result)
+    return result
 
-        # Be polite to Prudential's servers.
-        if index < len(promotions):
-            time.sleep(0.5)
 
-    # --------------------------------------------------------
-    # Sort:
-    #
-    # active first
-    # upcoming second
-    # unknown third
-    # expired last
-    # --------------------------------------------------------
+# ============================================================
+# JSON OUTPUT
+# ============================================================
 
-    status_order = {
-        "active": 0,
-        "upcoming": 1,
-        "unknown": 2,
-        "expired": 3,
-    }
+def write_output(
+    promotions: list[dict],
+    retrieved_date: str,
+    retrieved_timestamp: str,
+) -> None:
 
-    extracted.sort(
-        key=lambda item: (
-            status_order.get(
-                item.get("status"),
-                99,
-            ),
-            item.get("title", "").lower(),
-        )
-    )
-
-    # --------------------------------------------------------
-    # Build output
-    # --------------------------------------------------------
-
-    output = {
-        "source": "Prudential Singapore",
-        "sourceUrl": SOURCE_URL,
-        "retrievedDate": date.today().isoformat(),
-        "retrievedTimestamp": datetime.now().astimezone().isoformat(),
-        "promotionCount": len(extracted),
-        "promotions": extracted,
-    }
-
-    # --------------------------------------------------------
-    # Write JSON
-    # --------------------------------------------------------
-
-    OUTPUT_DIR.mkdir(
+    DATA_DIR.mkdir(
         parents=True,
         exist_ok=True,
     )
+
+    output = {
+        "schemaVersion": "1.0",
+        "source": {
+            "name": SOURCE_NAME,
+            "url": SOURCE_URL,
+        },
+        "retrievedDate": retrieved_date,
+        "retrievedTimestamp": retrieved_timestamp,
+        "promotionCount": len(promotions),
+        "promotions": promotions,
+    }
 
     with OUTPUT_FILE.open(
         "w",
@@ -812,44 +1093,260 @@ def main() -> int:
 
         file.write("\n")
 
+
+# ============================================================
+# MAIN
+# ============================================================
+
+def main() -> int:
+
+    log("=" * 72)
+    log(
+        "PRUDENTIAL SINGAPORE "
+        "PROMOTIONS EXTRACTOR"
+    )
+    log("=" * 72)
+
     # --------------------------------------------------------
-    # Summary
+    # Singapore calendar date.
     # --------------------------------------------------------
 
-    active = sum(
-        1
-        for item in extracted
-        if item.get("status") == "active"
+    from zoneinfo import ZoneInfo
+
+    singapore_now = datetime.now(
+        ZoneInfo("Asia/Singapore")
     )
 
-    upcoming = sum(
-        1
-        for item in extracted
-        if item.get("status") == "upcoming"
+    retrieved_date = (
+        singapore_now.date().isoformat()
     )
 
-    expired = sum(
-        1
-        for item in extracted
-        if item.get("status") == "expired"
+    retrieved_timestamp = (
+        singapore_now.isoformat()
     )
 
-    errors = sum(
-        1
-        for item in extracted
-        if item.get("extractionStatus") == "error"
+    today = singapore_now.date()
+
+    log(
+        f"Singapore date: "
+        f"{retrieved_date}"
     )
 
-    log("=" * 70)
-    log("EXTRACTION COMPLETE")
-    log("=" * 70)
+    log(
+        f"Source: {SOURCE_URL}"
+    )
 
-    log(f"Total promotions : {len(extracted)}")
-    log(f"Active           : {active}")
-    log(f"Upcoming         : {upcoming}")
-    log(f"Expired          : {expired}")
-    log(f"Errors           : {errors}")
-    log(f"Output           : {OUTPUT_FILE}")
+    # --------------------------------------------------------
+    # Landing page.
+    # --------------------------------------------------------
+
+    try:
+        landing_html = fetch_page(
+            SOURCE_URL
+        )
+
+    except Exception as exc:
+
+        log(
+            f"FATAL: Could not retrieve "
+            f"promotions page: {exc}"
+        )
+
+        return 1
+
+    # --------------------------------------------------------
+    # Discover promotion URLs.
+    # --------------------------------------------------------
+
+    promotions = (
+        extract_listing_promotions(
+            landing_html
+        )
+    )
+
+    promotions = (
+        deduplicate_promotions(
+            promotions
+        )
+    )
+
+    log(
+        f"Discovered "
+        f"{len(promotions)} "
+        f"promotion page(s)"
+    )
+
+    if not promotions:
+
+        log(
+            "FATAL: No promotion pages "
+            "were discovered."
+        )
+
+        return 1
+
+    # --------------------------------------------------------
+    # Detail pages.
+    # --------------------------------------------------------
+
+    extracted = []
+
+    for index, promotion in enumerate(
+        promotions,
+        start=1,
+    ):
+
+        log(
+            f"[{index}/{len(promotions)}] "
+            f"{promotion.get('title', '')}"
+        )
+
+        result = extract_detail_page(
+            promotion,
+            today,
+        )
+
+        extracted.append(
+            result
+        )
+
+        if (
+            index < len(promotions)
+            and REQUEST_DELAY_SECONDS > 0
+        ):
+            time.sleep(
+                REQUEST_DELAY_SECONDS
+            )
+
+    # --------------------------------------------------------
+    # Stable sorting.
+    #
+    # Active
+    # Upcoming
+    # Unknown
+    # Expired
+    # --------------------------------------------------------
+
+    status_order = {
+        "active": 0,
+        "upcoming": 1,
+        "unknown": 2,
+        "expired": 3,
+    }
+
+    extracted.sort(
+        key=lambda item: (
+            status_order.get(
+                item.get(
+                    "status",
+                    "unknown",
+                ),
+                99,
+            ),
+            item.get(
+                "title",
+                "",
+            ).casefold(),
+            item.get(
+                "url",
+                "",
+            ),
+        )
+    )
+
+    # --------------------------------------------------------
+    # Write output.
+    # --------------------------------------------------------
+
+    write_output(
+        extracted,
+        retrieved_date,
+        retrieved_timestamp,
+    )
+
+    # --------------------------------------------------------
+    # Statistics.
+    # --------------------------------------------------------
+
+    success_count = sum(
+        1
+        for item in extracted
+        if item.get(
+            "extractionStatus"
+        ) == "success"
+    )
+
+    error_count = sum(
+        1
+        for item in extracted
+        if item.get(
+            "extractionStatus"
+        ) == "error"
+    )
+
+    active_count = sum(
+        1
+        for item in extracted
+        if item.get(
+            "status"
+        ) == "active"
+    )
+
+    upcoming_count = sum(
+        1
+        for item in extracted
+        if item.get(
+            "status"
+        ) == "upcoming"
+    )
+
+    expired_count = sum(
+        1
+        for item in extracted
+        if item.get(
+            "status"
+        ) == "expired"
+    )
+
+    log("-" * 72)
+    log("EXTRACTION SUMMARY")
+    log("-" * 72)
+    log(
+        f"Promotions discovered : "
+        f"{len(extracted)}"
+    )
+    log(
+        f"Successful             : "
+        f"{success_count}"
+    )
+    log(
+        f"Errors                 : "
+        f"{error_count}"
+    )
+    log(
+        f"Active                 : "
+        f"{active_count}"
+    )
+    log(
+        f"Upcoming               : "
+        f"{upcoming_count}"
+    )
+    log(
+        f"Expired                : "
+        f"{expired_count}"
+    )
+    log(
+        f"Output                 : "
+        f"{OUTPUT_FILE}"
+    )
+    log("=" * 72)
+
+    # --------------------------------------------------------
+    # Do not fail merely because an individual page failed.
+    #
+    # The landing page and other promotions can still be
+    # successfully updated.
+    # --------------------------------------------------------
 
     return 0
 
