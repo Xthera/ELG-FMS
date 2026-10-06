@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-06T21:38:02+08:00",
+  "generatedAtSgt": "2026-10-07T03:32:01+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,83 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "3b5ee8e780034b249c1fc4edf14e390e5510206c9cfa4b229392d4f180d728bf",
+      "source": "CNBC",
+      "title": "Meta may ditch the idea of a cloud business for Muse. We think that’s a good trade",
+      "publishedAtSgt": "2026-10-07T02:59:37+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/06/meta-may-ditch-the-idea-of-a-cloud-business-for-muse-we-think-thats-a-good-trade.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Shares struggled for much of the year as the Facebook and Instagram parent poured increasingly large sums into AI infrastructure without giving Wall Street enough evidence of how those investments would generate new revenue. The next year may still be dominated by AI spending rather than AI revenue, but we'd much rather see Meta use its computing power to build its own next growth engine than rent it out to someone else.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-07T03:31:58+08:00"
+    },
+    {
+      "id": "4fb0fd6c5c40afd2a53109f38277a059b47d10e5ace43071e2b8b0e0f4f5705c",
+      "source": "CNBC",
+      "title": "What Marvell's rosy long-term guidance means for our AI chip stocks",
+      "publishedAtSgt": "2026-10-07T02:51:01+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The news sent shares of other stocks that power and electrify AI data centers higher, including GE Vernova and Eaton . Marvell Technology shares rose over 6% on Tuesday in reaction to upbeat near-term and long-term guidance at its investor day. The company also sees strong growth in its custom chip business, which counts Amazon and Alphabet among its major customers.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-07T03:31:57+08:00"
+    },
+    {
+      "id": "2dd4ccf6b9e72bf7cc56ef1679db906ae3f565f22b2040895da61ac175a77e1e",
+      "source": "CNBC",
+      "title": "Meta joins with group of companies to tame ‘chaos’ of doing business with AI bots",
+      "publishedAtSgt": "2026-10-07T02:48:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/meta-joins-companies-to-tame-chaos-of-doing-business-with-ai-bots.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "A month after Meta's launch of Muse, the personal agent that quickly turned into a viral sensation, a group of companies is coming together to try to simplify the process of bringing the technology into the business world. Meta, Walmart, Stripe and a handful of other companies are publishing what they're calling a \"personal agent protocol.\" It's an open standard meant to dictate how artificial intelligence agents can interact with businesses.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-07T03:31:57+08:00"
+    },
+    {
+      "id": "b444a883e42c0d53beb26896f2851f1bab794606588b0ebc24ff05ab7395068b",
+      "source": "CNBC",
+      "title": "Boomers' dividend stocks take beating as bond yields rise, with retirement income on the line",
+      "publishedAtSgt": "2026-10-07T02:41:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/dividend-stocks-bond-yields-retirement-income.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "strong_market_title",
+      "summary": "Dividend stocks like utilities are being pummeled amid bond market chaos and the rise of the 10-year U.S. So investors might want to look more closely at funds that seek dividend growth versus those that are more focused on high yield. For older clients, this means focusing on a broader investment universe, including growth stocks and international, with some degree of dividend stocks and international stocks to supplement.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-07T03:31:57+08:00"
+    },
+    {
+      "id": "a54e6929a6fb0ccc033e7ce58dcfd497102474e9458b128507ef0d1b4dd9142f",
+      "source": "CNBC",
+      "title": "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it",
+      "publishedAtSgt": "2026-10-07T01:22:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/salesforce-shares-sit-at-the-epicenter-of-ai-confusion-heres-how-to-trade-it.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "If ever there was a stock that personified the promise and peril of the AI trade, it's Salesforce. The stock bottomed in late June, down more than 40% from the start of the year on fears that AI agents would make traditional software subscriptions obsolete. Like many other legacy SaaS names, Salesforce has reported strong financials, but many investors remain unconvinced the business can grow through an AI driven overhaul of enterprise software.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T03:31:57+08:00"
+    },
     {
       "id": "40584932f000f4b641cbdc413ae294a801d9f10e55091085b9011d21f2969af9",
       "source": "CNBC",
@@ -1476,81 +1553,6 @@
         "business"
       ],
       "collectedAtSgt": "2026-10-02T12:09:47+08:00"
-    },
-    {
-      "id": "9db156358285a6994d103097440b2531e75c9261c1f9fc47bbdf3c2982012c07",
-      "source": "CNBC",
-      "title": "Here's what happens to the economy when Treasury yields soar like they are now",
-      "publishedAtSgt": "2026-09-25T21:48:19+08:00",
-      "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Similarly, the 2-year note, which typically responds to Fed rate expectations and signals rates for home equity, auto loans and other debt, climbed more than 13 basis points past 4.9% as traders priced in a strong possibility that the central bank would follow its hike last week with another in October. economy where it hurts the most — consumers, who drive almost 70% of all economic activity and hold nearly $19 trillion in total debt.",
-      "feeds": [
-        "economy"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:54+08:00"
-    },
-    {
-      "id": "e94653b7802622bf689a4df355329ef74914b5e9e3633af24e112eab88371c20",
-      "source": "CNBC",
-      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
-      "publishedAtSgt": "2026-09-25T19:08:05+08:00",
-      "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Treasury yields continued their upward march Thursday as investors sought to price in a variety of factors: inflation still hovering well above the Fed's 2% goal, another bump up in energy prices and the impact of a global hyperscaler financial arms race and accompanying debt issuance. \"The bias has to be towards restoring price stability, and they should take what's going on seriously.\" Markets expect the central bank will indeed take a firmer hand on inflation.",
-      "feeds": [
-        "economy"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:53+08:00"
-    },
-    {
-      "id": "aec0e303f79eef554f78a553bdcc07de19a7bf88d729c2e09f4ed08a54b7a23b",
-      "source": "CNBC",
-      "title": "MGM Resorts shares sink 11% after Barry Diller's People Inc. rescinds takeover offer",
-      "publishedAtSgt": "2026-09-25T04:11:24+08:00",
-      "url": "https://www.cnbc.com/2026/09/24/barry-diller-people-mgm-resorts.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "has rescinded its proposal to buy MGM Resorts International, sending shares of the casino giant down roughly 11% on Thursday. The update comes nearly four months after Diller's company offered to purchase MGM Resorts for $48.30 per share. — formerly known as IAC — attributed the decision to the complicated nature of the deal.",
-      "feeds": [
-        "business"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
-    },
-    {
-      "id": "5572d3ae399be347ad259b72d498bad1a4953626dec50d777feb3868883d6be4",
-      "source": "CNBC",
-      "title": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
-      "publishedAtSgt": "2026-09-25T01:12:04+08:00",
-      "url": "https://www.cnbc.com/2026/09/24/philadelphia-feds-anna-paulson-says-modest-rate-moves-likely-ahead-to-tame-inflation.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Looking ahead, if conditions evolve as I expect, some modest further tightening may be warranted.\" Though the summer showed some moderating in price pressures, she said underlying inflation is still running around 2.5%-3%, \"well above our 2% target, and the gap has shown little signs of closing.\" \"The best I can say about underlying inflation this year is that it hasn't gotten worse,\" Paulson said in prepared remarks for a fintech conference in her home district.",
-      "feeds": [
-        "finance"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:50+08:00"
-    },
-    {
-      "id": "0ac4218ac5fe55cb86de1bd69dd543a6858aa841ae1bfa11f771990abe8ab8b4",
-      "source": "CNBC",
-      "title": "China confirms first AI talks with U.S. have taken place, hints at trade truce extension",
-      "publishedAtSgt": "2026-09-24T22:16:27+08:00",
-      "url": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "BEIJING—China's Commerce Ministry confirmed Thursday that its senior trade negotiators had held their first talks with the U.S. Spokesperson He Yadong told reporters the two sides also discussed plans for reducing tariffs, and extending trade arrangements agreed in Kuala Lumpur last October.",
-      "feeds": [
-        "finance"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:50+08:00"
     }
   ]
 }
