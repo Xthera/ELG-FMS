@@ -1,0 +1,1556 @@
+{
+  "generatedAtSgt": "2026-10-06T21:38:02+08:00",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "windowDays": 14,
+  "maxArticles": 100,
+  "source": "CNBC",
+  "articleCount": 100,
+  "articles": [
+    {
+      "id": "40584932f000f4b641cbdc413ae294a801d9f10e55091085b9011d21f2969af9",
+      "source": "CNBC",
+      "title": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
+      "publishedAtSgt": "2026-10-06T21:17:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Iran has stepped up its attacks on tankers transiting the Strait of Hormuz, threatening a fragile rebound of crude oil exports from the Persian Gulf. Crude oil shipments through Hormuz fluctuate daily, sometimes matching or even exceeding levels before the Iran war, according to data from Kpler, a firm that tracks tankers and global trade flows.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-06T21:38:00+08:00"
+    },
+    {
+      "id": "bc2b2399c75e33ae10e5dd8722120db4555c398ca8d4089921a307a83ea33f55",
+      "source": "CNBC",
+      "title": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
+      "publishedAtSgt": "2026-10-06T21:07:57+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "trade deficit widened sharply in August amid an influx of goods related to the artificial intelligence buildout and the vagaries of import tariffs, the Commerce Department reported Tuesday. Imports swelled 4.3% for the month, pushing the total imbalance to $105.6 billion. That marked a 13.7% jump from July and was ahead of the Dow Jones consensus estimate for $102 billion.",
+      "feeds": [
+        "latest",
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-06T21:38:00+08:00"
+    },
+    {
+      "id": "7e30c13388cce84beb5937d52cfbc3b3e4f26a6cd2e4de6229569e1b9ce0aa13",
+      "source": "CNBC",
+      "title": "This startup wants to reduce liquidation risk from margin calls on prediction markets",
+      "publishedAtSgt": "2026-10-06T21:01:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/this-firm-aims-to-reduce-liquidation-risk-from-margin-calls-on-prediction-markets.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "It allows institutions to decide in advance how much capital to deploy, including setting limits on daily transactions executed by artificial intelligence agents and trading algorithms. The latest product comes as prediction market products face a roadblock: Perpetual futures — derivative contracts that never expire — trade nonstop, while traditional banking systems do not. Disclosure: CNBC and Kalshi have a commercial relationship that includes customer acquisition and a minority investment.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-06T21:38:01+08:00"
+    },
+    {
+      "id": "2154a29b716fe6c3d34780010eb8452ba457c9b1c0707207bf67f4d85d0f2d98",
+      "source": "CNBC",
+      "title": "DeepSeek considers doubling latest funding round to up to $15 billion, sources say",
+      "publishedAtSgt": "2026-10-06T20:59:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "China's DeepSeek is considering expanding its latest funding round to as much as 100 billion yuan ($14.9 billion), double its earlier target, with state-backed funds and corporate investors jostling for stakes, people familiar with the matter told CNBC. The AI startup has fielded strong interest from state-backed funds, investment arms of listed Chinese companies and venture capital firms, according to the two people, who asked not to be named because they were not authorized to discuss the...",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-06T21:38:01+08:00"
+    },
+    {
+      "id": "859ff367e12db63c4145f505c147d120e7c25d0ec45bca5f3f6e19c697bf9940",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "publishedAtSgt": "2026-10-06T20:47:59+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/06/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Who knew that oil prices and bond yields could actually go down? The maker of custom AI chips and networking gear could raise its long-term financial targets substantially, with big reverberations through the hyperscaler and chip worlds. They expect a strong quarter, led by Google Cloud revenue growth of 142% year over year, with some benefit from fledgling external sales of its custom AI chips known as TPUs.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-06T21:38:02+08:00"
+    },
+    {
+      "id": "18be524555ba6dc3f19014d71f14d777eb59724d36fb8dfe3e0ff1159945f29e",
+      "source": "CNBC",
+      "title": "Paramount-WBD merger, Musk's return to trillionaire, AI researchers' warning and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-06T20:46:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yield kicked off the week with a fresh 24-year high, but investors weren't spooked. Stocks closed the session higher, with artificial intelligence names boosting the technology-heavy Nasdaq Composite to intraday and closing records. SpaceX shares jumped almost 8%, lifting the stock to its highest level since June and returning CEO Elon Musk to trillionaire status.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-06T21:38:02+08:00"
+    },
+    {
+      "id": "9806875c4810a0a461699c92a8dd78052f2831ebf61bf0be6f16ad1365739234",
+      "source": "CNBC",
+      "title": "Car buyers are stretching loans to afford payments — it's a 'potential warning light,' analyst says",
+      "publishedAtSgt": "2026-10-06T20:15:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/car-loans-are-getting-longer-as-monthly-payments-hit-record-highs.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Monthly payments are rising because buyers are borrowing significantly more money overall,\" said Joseph Yoon, consumer insights analyst at Edmunds. \"But that gap could become harder to sustain if energy costs remain elevated and the conflict in the Middle East remains unresolved.\" High oil prices in the global market have driven U.S.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-06T21:38:01+08:00"
+    },
+    {
+      "id": "6a3dcb7019d4405c801b82fcab79ad65c04e1dc6951d5c4fcff327f6a8f2cd4f",
+      "source": "CNBC",
+      "title": "Unsure how long this AI bull has? Bonds now offer a cushion at the best values in years",
+      "publishedAtSgt": "2026-10-06T19:08:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/unsure-how-long-this-ai-bull-has-bonds-now-offer-a-cushion-at-the-best-values-in-years.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The S&P forward P/E has compressed from 23 a year ago to 19 today, which can be read as a signal both that investors are reluctant to pay up for current record profit margins and next year's decelerating growth — and that rising government-bond yields are relevant to the aggregate cost of capital for companies.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-06T21:38:01+08:00"
+    },
+    {
+      "id": "41877e23ea510b7bb2a9375971a9dba5414a938caeb6ca7be409d9f66f2dc391",
+      "source": "CNBC",
+      "title": "Barbie maker Mattel faces investor pressure to consider a sale amid stagnating growth",
+      "publishedAtSgt": "2026-10-06T18:07:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/mattel-barbie-ariel-sale-investor-pressure.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Mattel is reportedly facing pressure from an investor to consider a sale amid struggling sales and growing buyer interest in the Barbie maker. American investment firm Ariel Investments, a major shareholder in the toymaker, said that as the struggling business seeks a turnaround, it should consider a sale to the right buyer, according to a letter from Chairman and Co-CEO John Rogers sent to Mattel's board of directors, seen by Reuters and the Wall Street Journal.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T18:36:54+08:00"
+    },
+    {
+      "id": "04e4bb509b0c3954292d71a62fa5779e6c20503c3b81ac67f8457c333c278487",
+      "source": "CNBC",
+      "title": "Paramount's hard-fought takeover of Warner Bros. Discovery closes Tuesday. Here's how we got here",
+      "publishedAtSgt": "2026-10-06T18:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/paramount-wbd-deal-timeline.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The combined company, what amounts to one of the largest media conglomerates in history, will be newly named Skydance and trade under the ticker symbol \"SKYD.\" It will bring together two of the most storied film studios and control nearly one-third of basic cable programming. Shares of both companies jump on the day of the news, and WBD shares notch their best day ever to that point.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-06T18:36:54+08:00"
+    },
+    {
+      "id": "d98aedd2384327f4d04f99c777ec399746c402a9019e3f50acd5f39a5ff11b6f",
+      "source": "CNBC",
+      "title": "Britain is on 'thin ice,' warns ex-Bank of England chief economist — and it must act to 'appease financial markets'",
+      "publishedAtSgt": "2026-10-06T15:28:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/burnham-healey-budget-tax-bonds-gilts.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Speaking to CNBC's Steve Sedgwick, Andy Haldane — a member of the central bank's Monetary Policy Committee until 2021 — said there were \"perils\" running into the budget update, currently scheduled for Oct. That's why the ice is thin.\" Haldane said Burnham's push to end the U.K.'s so-called triple lock mechanism — where the state pension rises at the same rate as the highest of inflation, average earnings growth, or 2.5% — was a \"good first instalment.\" But he added that welfare remains a...",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T15:37:08+08:00"
+    },
+    {
+      "id": "9f11e4416bdedce1a4f72ce014d3565bf06e399a9d4c70091b2e4a45e5ac891c",
+      "source": "CNBC",
+      "title": "Treasury yields are broadly flat as investors anticipate FOMC minutes",
+      "publishedAtSgt": "2026-10-06T15:05:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/treasury-yields-fed-fomc-minutes.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields were broadly flat on Tuesday morning after reaching fresh highs in the previous session, as investors looked ahead to the release of minutes from the Federal Reserve's last meeting. Similarly, the 30-year Treasury bond rose less than a basis point to 5.665%, after also rising to levels not seen since May 2002. The 2-Year Treasury note yield was down 1 basis point to 4.818%.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T15:37:07+08:00"
+    },
+    {
+      "id": "4e55bc8b0bea7205b9919d1bb3e4a2bdd1aacd15540f406017d9f16b4b81eb59",
+      "source": "CNBC",
+      "title": "How quant funds beat the market by being 'early, contrarian and right'",
+      "publishedAtSgt": "2026-10-06T14:57:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/trend-following-hedge-funds-beat-stock-market.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Hedge fund strategies that rely on complex algorithms and machine learning technology to build trades are beating the stock market this year. They aim to identify and trade large and consistent trends — both upward and downward — across equities, bonds, commodities, and currencies, to profit from that ongoing momentum.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T15:37:07+08:00"
+    },
+    {
+      "id": "0eb17c57a962800057fc4e9a29667964a1d0543916129a33f5a65398657bf359",
+      "source": "CNBC",
+      "title": "World Bank warns of AI concentration risks as it lifts East Asia and Pacific growth outlook to 4.5%",
+      "publishedAtSgt": "2026-10-06T12:07:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The World Bank has raised its growth forecast for the East Asia and Pacific region on the back of artificial intelligence-related exports, while warning that its reliance on the AI boom leaves it vulnerable to a potential global tech spending reversal. Trade growth, excluding AI-related goods, has been \"weak or negative,\" the bank said.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T12:37:10+08:00"
+    },
+    {
+      "id": "003e58793ed8569a4838424ae33c44b75e5bde8ee54b82066786af6927bd8e86",
+      "source": "CNBC",
+      "title": "Little room for ‘giving and taking’: India’s finance minister confirms trade impasse with the U.S.",
+      "publishedAtSgt": "2026-10-06T10:39:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/india-us-trade-deal-deal-sitharaman.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "India's Finance Minister Nirmala Sitharaman said trade talks with the U.S. Trade Representative Jamieson Greer last week said a trade agreement was not 'imminent' even as the negotiations were ongoing. Last week, Indian Prime Minister Narendra Modi had reviewed bilateral trade, defense, energy and critical technologies during a call with U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T12:37:10+08:00"
+    },
+    {
+      "id": "91a7d45e1914090f954bde88418133361df168c646743666f7d2243c68f7dbb4",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: China shuts down record 670 banks, new worries over oil and AI",
+      "publishedAtSgt": "2026-10-06T09:12:40+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/cnbc-daily-open-china-shuts-down-record-670-banks-new-worries-over-oil-and-ai-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Beijing has moved to close a record 670 of its banks in a bid to shore up its financial system, amid ongoing concerns over an economic slowdown in the country. Oil traders are concerned about supply disruptions after Saudi Aramco's CEO said that it could take two years to rebuild global oil stockpiles as the Iran-U.S.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T09:34:43+08:00"
+    },
+    {
+      "id": "8928c9bc7bfe8c912c469e885527332303828c239194661aa6950321939fe6e5",
+      "source": "CNBC",
+      "title": "Russian gold floods Hong Kong as Western sanctions redraw bullion trade",
+      "publishedAtSgt": "2026-10-06T07:14:39+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/russia-gold-hong-kong-china-western-sanctions.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Hong Kong imported 112.7 tonnes of Russian-origin gold in the first seven months of 2026, according to precious metals investment firm BullionVault's analysis of data from the Hong Kong Census and Statistics Department. Imports have already surpassed the record 92.1 tonnes imported during all of 2025, and compares with just 3.3 tonnes in 2021, before Russia's invasion of Ukraine.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T09:34:42+08:00"
+    },
+    {
+      "id": "3b0ee24a4b9eba633fedb132a55636bdccae62c1cf38e85dc6fa07b4efba37d7",
+      "source": "CNBC",
+      "title": "Stocks are hitting records despite surging yields. Cramer explains why",
+      "publishedAtSgt": "2026-10-06T06:18:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/cramer-ai-stocks-treasury-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer said Monday that a handful of artificial intelligence giants are masking pressure from surging Treasury yields, creating an unusual disconnect between the stock and bond markets. Lower oil would typically ease inflation concerns and take some pressure off yields, but on Monday rates still went higher. Those are the kind of stocks income-seeking investors typically seek out, but now bonds offer more relatively attractive payouts than they did months earlier.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-06T06:24:29+08:00"
+    },
+    {
+      "id": "eaa40706ef9d21f613c3f5870442f77145c31ece18180cdb5194899c2fe0affb",
+      "source": "CNBC",
+      "title": "Nokia CEO says data centers would be built '2x faster' without supply constraints",
+      "publishedAtSgt": "2026-10-06T06:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/nokia-ai-data-center-buildout.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Nokia's growing role as a \"picks and shovels\" player in the AI boom appears to have won over investors, with the stock up around 130% over the past year. Companies are using debt, joint ventures and other complex financing mechanisms to raise investment for these projects, which depend on sustained demand for AI services over the long term.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-06T06:24:30+08:00"
+    },
+    {
+      "id": "20a058ad4ec7a2d744b4c7bb756c5c57096088d270d590609db986ca25ad62e2",
+      "source": "CNBC",
+      "title": "AstraZeneca CEO says Summit drug could drive next generation of cancer combinations after $2 billion investment",
+      "publishedAtSgt": "2026-10-06T03:44:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/astrazeneca-ceo-says-summit-drug-could-drive-future-cancer-combos.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "AstraZeneca CEO Pascal Soriot told CNBC on Monday that Summit Therapeutics' lead drug could help power next-generation cancer treatment combinations that could be the \"future of cancer care.\" Soriot's comments in an exclusive interview with CNBC come a week after the pharmaceutical giant announced a $2 billion equity investment and clinical collaboration with the biotech company to test potential cancer drug combinations.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-06T06:24:29+08:00"
+    },
+    {
+      "id": "e5d8535da02fb064e23fd8c8460e23f9a7509ed9355f43c9cae3aa5eb586cc2c",
+      "source": "CNBC",
+      "title": "Starbucks recovery plan is working. Here's how Mike Khouw says to trade the coffee giant",
+      "publishedAtSgt": "2026-10-06T02:40:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/starbucks-recovery-plan-is-working-heres-how-mike-khouw-says-to-trade-the-coffee-giant.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Starbucks shares are making strides, up 12% this year, but it's well off its recent highs and has been dead money over the last five years. Improving execution underneath and a demanding valuation overhead make selling the November 85/105 strangle attractive: collect premium while the turnaround works through a modest growth environment and a fairly ambitious valuation.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T06:24:28+08:00"
+    },
+    {
+      "id": "c49d2dd8d69261e50ebb479fe49b289b73343c758db033106743471bd7b9c6ad",
+      "source": "CNBC",
+      "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
+      "publishedAtSgt": "2026-10-05T23:47:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But the results of the first round are recalibrating how investors are pricing what the final decision will be. U.S.-listed shares of Itau Unibanco gained 15%, and Banco Bradesco surged 19%. Investors broadly saw Bolsonaro as more favorable to markets, as the candidate is promising greater fiscal discipline.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T00:31:52+08:00"
+    },
+    {
+      "id": "8ade6a00ee9444f24dc75c68e53360a44e3aa91d8fcce62f7fbfcc6faf90de39",
+      "source": "CNBC",
+      "title": "China shuts hundreds of banks as Beijing moves to shore up its financial system",
+      "publishedAtSgt": "2026-10-05T21:23:46+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/china-banks-consolidation-economy.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "China is accelerating its consolidation of smaller, mostly rural banks in a bid to shore up its financial system, amid ongoing concerns over an economic slowdown in the country. Meanwhile, non-performing loans among such lenders rose to 2.8% in the same period, ahead of the sector average of 1.5%, with greater exposure to smaller companies, property developers and local government funding vehicles. The move comes amid ongoing signs of strain in the world's second-largest economy.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-05T21:41:21+08:00"
+    },
+    {
+      "id": "241c5cf0d86650ba1375731cc6a9ff298741e45d0118fd31be141344561b0c87",
+      "source": "CNBC",
+      "title": "Treasury yields rise as traders await data, Fed minutes this week",
+      "publishedAtSgt": "2026-10-05T21:09:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields rebounded on Monday following their sharp sell-off last week as investors awaited the release of new economic data and notes from the Federal Reserve's September meeting. Investors have grappled with a bond market selloff over the past few weeks, while a lackluster monthly jobs report on Friday helped to bring yields down and alleviated concerns about another rate hike.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-05T21:41:21+08:00"
+    },
+    {
+      "id": "8f15338c42c95ef38b931e667b792bc0f9b5e44c0aa2f23cd1dc820808eaf48f",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+      "publishedAtSgt": "2026-10-05T20:59:40+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/05/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Tame oil and bond yields this morning are not helping. Marvell holds an investor day tomorrow, and what management says could move our chip stocks. With the AI trade back on, defensive stocks have fallen a bit out of favor.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-05T21:41:22+08:00"
+    },
+    {
+      "id": "d1b17dc6c3bcb681aba0d2ec835b01fc05043cdfd8009952d5c111cc5f75f9fa",
+      "source": "CNBC",
+      "title": "Why airfares could rise even more, but airline profits won't",
+      "publishedAtSgt": "2026-10-05T20:06:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/airfare-prices-airline-profits.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But should oil prices fall, investors will be watchful of whether airlines increase capacity in a big way, which could end up driving fares lower. \"We expect higher booked fares should result in similar unit revenue trends in the fourth quarter for most airlines, but elevated domestic capacity growth at American and United (+10% and +9% in current schedules) will likely be the most watched guidance by investors,\" Barclays airline analyst Brandon Oglenski said in a note Sept.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-05T21:41:21+08:00"
+    },
+    {
+      "id": "a1e5f095f883bd2df77405cdc0310057daef989665242f28a1fd6cf547af60a6",
+      "source": "CNBC",
+      "title": "Cut spending to curb runaway borrowing costs, Goldman's Gutman tells governments",
+      "publishedAtSgt": "2026-10-05T18:33:45+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/goldman-sachs-fiscal-deficit-bond-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 58,
+      "relevanceReason": "supporting_market_description",
+      "summary": "A more stable policy backdrop encompassing lower government spending and stronger economic growth is needed to curb surging borrowing costs, Anthony Gutman, co-CEO of Goldman Sachs International, said on Monday. Speaking with CNBC's \"Squawk Box Europe,\" Gutman said rising government bond yields are a challenge across the Western world, highlighting recent turmoil in U.S. We need lower fiscal deficits, and we need more durable economic growth,\" Gutman said.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-05T21:41:22+08:00"
+    },
+    {
+      "id": "bf968b02160024fc0d379a565125b0155e1f51c98d589e56e92ad86415ad12ec",
+      "source": "CNBC",
+      "title": "Surging Treasury yields don’t signal a U.S. 'fiscal apocalypse' — yet",
+      "publishedAtSgt": "2026-10-05T10:24:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/treasury-yields-fiscal-concerns-not-crisis-yet.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Therefore, we are some way away from a fiscal crisis.\" The negative feedback loop becomes more dangerous when nominal economic growth falls to low levels, causing debt relative to the size of the economy to rise persistently, Reese said. TD pointed to stronger economic growth, expectations for Federal Reserve rate hikes, higher oil prices, corporate bond issuance and repositioning by fast-money investors alongside fiscal concerns, as factors driving yields higher.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-05T12:45:12+08:00"
+    },
+    {
+      "id": "2e98323f01b596216c6a46a9d8ec89ab3a81f366c83cc1eb6ba2f4f6394fa623",
+      "source": "CNBC",
+      "title": "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
+      "publishedAtSgt": "2026-10-05T04:28:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/04/trump-5000-checks-cash-payments-midterms.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "On Friday, Trump announced one-time $90 payments to 20.8 million Medicare beneficiaries. Trump hasn't provided any details on who would authorize the payments and where the money would come from. Together, the flurry of offers of direct cash payments comes as Republicans head into the final stretch of a midterm campaign dominated by concerns about prices and the economy.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-05T05:26:43+08:00"
+    },
+    {
+      "id": "1062414f59ff578e98df8787ce1310e124e20018d65d1abeded5ee92df90ca56",
+      "source": "CNBC",
+      "title": "Here are 3 things we're watching in the stock market in the week ahead",
+      "publishedAtSgt": "2026-10-04T23:33:05+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/04/here-are-3-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "We certainly expect the oil and bond markets to continue their heavy influence on how stocks trade this week. Though we don't own the name, the company is a direct competitor to Broadcom in the custom semiconductor space, and it has an exciting optical networking business that's important for future generations of Nvidia technology and AI computing more broadly.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-05T01:07:33+08:00"
+    },
+    {
+      "id": "47ef9f01e413c9ca1fd1336b6dc6570427ecc9d9bfa78a8fc8904d6266a93dcb",
+      "source": "CNBC",
+      "title": "Top Wall Street analysts are upbeat about the prospects for these 3 stocks",
+      "publishedAtSgt": "2026-10-04T21:24:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/04/top-analysts-are-upbeat-about-the-prospects-for-these-3-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Markets remained on edge with higher oil prices and Treasury yields weighing on investor sentiment and triggering fears of additional interest rate hikes. In this climate, investors with a long-term horizon can track recommendations from top Wall Street analysts to find stocks with solid growth prospects. CRWV stock performance has been underwhelming as investors worry about high capital spending, the analyst noted.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-05T01:07:33+08:00"
+    },
+    {
+      "id": "451ac4b844ee4f498375d4bd491466405a775b8b47ea593bf5fe27fce809d2cf",
+      "source": "CNBC",
+      "title": "A 'weird' IPO pull, a tainted reputation and the stalled breakout moment for AI wearables",
+      "publishedAtSgt": "2026-10-04T21:22:39+08:00",
+      "url": "https://www.cnbc.com/2026/10/04/ai-wearables-oura-ipo-privacy.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "I was also scared to go on dates after that as openly as I did before.\" Apple, Google, Meta and a swarm of other tech contenders are betting that new artificial intelligence wearables in the form of glasses, rings, charms and pendants can push the market toward its category-defining moment. But as the gadgets have grown in notoriety, they've also been met with privacy backlash and doubts about whether the technology is beneficial enough to become a fixture in everyday life.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-05T01:07:32+08:00"
+    },
+    {
+      "id": "f0d845d0a9b8f2ed41ecb44f8f99a22a7bb2f5dddcfc7190b21b50ae27b9f1d5",
+      "source": "CNBC",
+      "title": "More tankers struck in the Middle East as Iran reiterates conditions for reopening the Strait of Hormuz",
+      "publishedAtSgt": "2026-10-04T20:35:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "At least two vessels were struck over the weekend in waters near Oman and Iran, the United Kingdom Maritime Trade Operations Centre reported, as Tehran reiterated its position on Sunday that the Strait of Hormuz would not reopen unless its conditions for ending the war with the U.S. On Saturday, the UKMTO, a British maritime security alert service, said it received a report of a crude oil tanker being hit by an unknown projectile four nautical miles east of Oman.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-05T01:07:33+08:00"
+    },
+    {
+      "id": "89a4d9ee0be2e8f2a3f433a9fda45b2c08490c5c193949ceb6821340d92df60b",
+      "source": "CNBC",
+      "title": "Berkshire buys more Lennar shares, but pace of purchases slows",
+      "publishedAtSgt": "2026-10-03T20:55:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/03/berkshire-buys-more-lennar-shares-but-pace-of-purchases-slows.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "In an SEC filing late Wednesday, Berkshire disclosed it bought a total of $53.6 million of Lennar's Class A shares and another $329,000 of the super-voting B shares on Monday, Tuesday, and Wednesday. That puts the position at a total of 26.6 million shares valued at $2.1 billion based on Friday's closing prices.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-04T02:19:20+08:00"
+    },
+    {
+      "id": "b1ded2d49629424e71829a345c6f825f471329f851494334d707442cc673da2e",
+      "source": "CNBC",
+      "title": "America’s data center fight is a preview of what's to come for the rest of the world",
+      "publishedAtSgt": "2026-10-03T13:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "As the AI boom becomes a major part of political debate, the public backlash against data centers in the U.S. Constraints have been rising in the Nordics, where investors were drawn to large tracts of land and renewable energy. In June, its government named AI data centers as one of three major investment projects, alongside semiconductors and physical AI.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-03T15:16:17+08:00"
+    },
+    {
+      "id": "3c6dcc5729b7e16ee6eee0007e469d618b4e01647994270d7c204bbeb7a8118f",
+      "source": "CNBC",
+      "title": "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration",
+      "publishedAtSgt": "2026-10-03T05:45:06+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Cerebras stock plummeted nearly 20% this week to its lowest price since the company's monster IPO in May, after a report that chip giant Nvidia will power a crucial piece of OpenAI's latest model. The stock, which closed on Friday at $166.43, was also under pressure this week due to the expiration of post-IPO restrictions on some insider shares. Investors were excited by the prospect of an alternative to Nvidia to power AI.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-03T06:11:29+08:00"
+    },
+    {
+      "id": "fb7646c902efeb1030184186aea652b650a017706f3b679042ac0a347e822e61",
+      "source": "CNBC",
+      "title": "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
+      "publishedAtSgt": "2026-10-03T02:58:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The benchmark 10-year Treasury yield rose almost 5 basis points to 5.281%. Earlier this week, the yield reached its highest levels since 2002. The recent rise in yields reflects concerns about stubborn inflation and hawkish central bank commentary, fueling expectations that interest rates could remain elevated for longer.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-03T03:12:51+08:00"
+    },
+    {
+      "id": "e753696db4c45c743e5a8205496e44ee57c9b705b25e902d7127316df5341092",
+      "source": "CNBC",
+      "title": "Your health insurance premiums may take a big jump in 2027 — here's why",
+      "publishedAtSgt": "2026-10-03T00:26:57+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/health-insurance-premiums-2027-inflation-aca-obamacare.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "inflation rate push up costs across the healthcare system, experts said. Employers generally subsidize the cost of health insurance for their workers by covering a large portion of their monthly premium payments. \"It doesn't always just show up through the premiums.\" Growth in the cost of deductibles and family premiums has each outpaced inflation over the past decade, rising 54% and 53%, respectively, versus an overall inflation rate of 36%, according to KFF.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-03T03:12:50+08:00"
+    },
+    {
+      "id": "1a4a7a77ca11b9e96a5df5a132216c36b712859d615b724a578e1e345e5231ca",
+      "source": "CNBC",
+      "title": "1.7 million skilled trade jobs will open annually through 2035, report says—experts don't know who will fill them",
+      "publishedAtSgt": "2026-10-03T00:15:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/1point7-million-skilled-trade-jobs-to-open-annually-through-2035-report-says.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Skilled trade workers are already in high demand, and researchers say the industry will continue to see steady job growth in the decade to come. The State of America's Skilled Trades report, published Wednesday, found that 1.7 million skilled trade jobs will open each year through 2035.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-03T03:12:51+08:00"
+    },
+    {
+      "id": "4852b5e8391bb5451bd9e5cb96aa7237e5e2eae77053e85666e6c9fc970232f1",
+      "source": "CNBC",
+      "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
+      "publishedAtSgt": "2026-10-02T23:49:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "supplied around half of the EU's diesel imports in August, according to the International Energy Agency, underscoring the 27-nation bloc's exposure to a potential U.S. \"We have every interest in working together on lowering the prices, be it on diesel or also other products from oil and gas supplies,\" Sefcovic told reporters in Milwaukee at the G20 trade ministers meeting, according to Reuters.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
+    },
+    {
+      "id": "ff2a0dc70dc554370462c949e463562182f8b005163a5bbeaa7bea0ac5ef5cda",
+      "source": "CNBC",
+      "title": "The sector in the cross hairs of the bond sell-off looks poised for a bounce, says Mike Khouw",
+      "publishedAtSgt": "2026-10-02T23:34:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/the-sector-in-the-cross-hairs-of-the-bond-sell-off-looks-poised-for-a-bounce-says-mike-khouw.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Utilities' dividends are also attractive to income-focused investors, and rising rates presents competition for them as bond yields become more attractive relative to dividend paying stocks. While yield spreads relative to Treasuries have turned negative and heavy capex requirements are expected to slow short-term dividend growth, the underlying valuation now offers a far better entry point than earlier this year.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
+    },
+    {
+      "id": "2783a5308c36bc49cb7013e8746673dfc23864c0922897065d08410fde82e304",
+      "source": "CNBC",
+      "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
+      "publishedAtSgt": "2026-10-02T21:29:27+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors now think the odds are extremely unlikely that the Federal Reserve raises interest rates again in October, following a weaker-than-expected September employment report. CME's FedWatch tool, based on trading in 30-day interest rate futures, shows only a 17% chance that the Fed increases rates by a quarter percentage point.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
+    },
+    {
+      "id": "476710c8ba3b27f3c0916191464df90bdfe44843426ef3f522c9a4f3b8f60b02",
+      "source": "CNBC",
+      "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+      "publishedAtSgt": "2026-10-02T21:11:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The report comes with Federal Reserve officials weighing the state of the economy and how it should impact their next interest rate move. Following statements in recent days from central bank policymakers, markets have recalibrated expectations and now expect the rate-setting Federal Open Market Committee to hold off until December for their next hike. The most recent indicator of the central bank's preferred gauge showed core inflation at a 3% annual rate.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T21:14:11+08:00"
+    },
+    {
+      "id": "5074a0df4cdf553d9613d088c24023ccca893599e50e236919572ebf410ba082",
+      "source": "CNBC",
+      "title": "'The hottest skill on Wall Street’: Demand for this AI ability jumped 1,721% as banks embrace agents",
+      "publishedAtSgt": "2026-10-02T19:03:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/ai-skills-most-in-demand-at-jpmorgan-chase-citigroup-capital-one.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Before artificial intelligence can take Wall Street jobs, it is first creating them. Posts for AI-related roles at banks including JPMorgan Chase, Citigroup and Capital One surged 49% this year compared with 2025 to 139,819 listings, according to an analysis by enterprise hiring data firm Draup that was provided exclusively to CNBC. Other growth areas within AI include those responsible for creating guardrails around the emerging systems, including demand for risk and control infrastructure.",
+      "feeds": [
+        "finance",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T21:14:11+08:00"
+    },
+    {
+      "id": "475ceebd20bc829b1d77522b2eddac69ae297a6488b22babb0f3fe2c5e0f7665",
+      "source": "CNBC",
+      "title": "Google has been playing catch up with OpenAI and Anthropic. Does its new flagship model really compete at the frontier?",
+      "publishedAtSgt": "2026-10-02T19:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 53,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "2026 has been a turbulent year for Google's AI hopes and dreams. Gemini 3, which launched towards the end of 2025, put Google very much in the frontier AI conversation. But for much of the rest of this year, it's Anthropic and OpenAI that have been at the forefront of AI advances.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T21:14:11+08:00"
+    },
+    {
+      "id": "ac415691020cebb602b4ca96d93bb35d468906c6b8c81ff256e6fa72179f3588",
+      "source": "CNBC",
+      "title": "The secret signs the bond sell-off might be ending",
+      "publishedAtSgt": "2026-10-02T18:37:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/the-secret-signs-the-bond-sell-off-might-be-ending.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "bond market firmed Thursday and the iShares 20+ Year Treasury Bond ETF (TLT) posted its best intraday rally in at least a month, some less notable but equally important action for bond bulls happened in two corners of the options market. The utilities trade wasn't the only under-the-radar options trade that suggests the bond sell-off is slowing. Later in the day, in the bond pits at the Chicago Mercantile Exchange, someone placed a $4.4 million bond trade that short-term rates will reverse.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T21:14:11+08:00"
+    },
+    {
+      "id": "d6e3d4197c2892f8248dbcd5d22f420ec83e452b77cdcf47200360c852b71c0e",
+      "source": "CNBC",
+      "title": "Nike shares plummet 10% after weak revenue outlook and layoff plans underway",
+      "publishedAtSgt": "2026-10-02T18:11:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/nike-nke-stock-q1-earnings-layoffs.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nike's shares plummeted in premarket trading Friday, falling for a second straight day after it reported falling revenue and plans to lay off staff in 2027. The sportswear giant said Thursday that its fiscal first-quarter revenues were down 4% to $11.2 billion, citing declines in Greater China, which was partially offset by growth in its North America segment. Its shares were last down 10.36% in premarket trading on Friday and have declined nearly 45% since the beginning of the year.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-02T18:12:22+08:00"
+    },
+    {
+      "id": "091f1cdf4fb5919a981069856e0ff533aeac66332eb103a16e9189fa3e87d691",
+      "source": "CNBC",
+      "title": "Eurozone inflation hits its highest level in three years at 3.8% as energy costs soar",
+      "publishedAtSgt": "2026-10-02T17:39:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/eurozone-inflation-ecb.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Last month's print is up from the 3.2% recorded in August, above the 3.6% forecast by markets and well ahead of the European Central Bank's 2% target. Energy inflation reached its highest level since January 2023, at 18.8%, as the ongoing Middle East conflict continues to drive prices higher. \"A central bank mindful of the experience of 2022 will not want to wait for second-round effects to become entrenched before acting.\"",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T18:12:22+08:00"
+    },
+    {
+      "id": "fd035a9110053768a93823894b92df39c5d006f73dc864e7d6966240595df86e",
+      "source": "CNBC",
+      "title": "Oil prices fall over 3% on report of potential diesel, crude stock release; Brent back below $100",
+      "publishedAtSgt": "2026-10-02T17:34:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/oil-wti-brent-diesel-stock-release-europe.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices were sharply lower on Friday morning, extending losses from earlier in the session, following reports of a potential move to release diesel and crude stocks to ease a global supply shortage. The report, which cited a single unnamed source familiar with details of the discussion, said France had proposed that EU nations release 50 million barrels of diesel and International Energy Agency members release 50 million barrels of crude oil.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T18:12:22+08:00"
+    },
+    {
+      "id": "de220180bd1ce76af205bf905bc2fd0e4923154909891b0c6d4540e0df817f90",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: Bond yield whiplash grips global economy",
+      "publishedAtSgt": "2026-10-02T14:36:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/bond-yields-global-economy.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "As CNBC's Steve Sedgwick reminded us in the newsroom, the European Central Bank has a tool to stop disorderly bond sell-offs and spread widening. Oil prices have stabilized in early trade on Friday after spiking during Thursday's session. — Leonie Kidd Danish jewelry giant Pandora has opened its $150 million manufacturing facility in Vietnam, betting on further growth in Asia as the company diversifies production beyond its longtime base in Thailand.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T15:13:53+08:00"
+    },
+    {
+      "id": "9f3e19cb195f3b357565eebc6d8c9c7d2f751180b943ed14693dd1f4f52d2cba",
+      "source": "CNBC",
+      "title": "War, $100 oil and a bond sell-off reshaped markets in the third quarter",
+      "publishedAtSgt": "2026-10-02T13:29:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/q3-markets-stocks-oil-iran-war.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Strait of Hormuz remained blocked, fueling fears for energy markets and of inflation, but equities broadly notched returns in the third quarter. In September, AI and tech stocks struggled amid calls from prominent AI figures — including Anthropic chief Dario Amodei and OpenAI CEO Sam Altman — to slow down how fast the technology is developed amid safety concerns.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T15:13:55+08:00"
+    },
+    {
+      "id": "c76418e21ce9c16998f9605652a403ea657083b37e5eaa77417485352d6d7e18",
+      "source": "CNBC",
+      "title": "U.S. trade representative Greer says deal with India not 'imminent' after Modi-Trump call",
+      "publishedAtSgt": "2026-10-02T12:07:54+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/us-india-trade-modi-trump-russia-oil.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "On Wednesday, Modi said his conversation with Trump was \"productive,\" and the two leaders not only reviewed bilateral trade, defense, energy and critical technologies but also discussed \"ongoing efforts to advance global peace and security.\" While the Iran war has threatened India's energy security, pushing it to increase its reliance on Russian oil, the U.S. had imposed a 25% punitive tariff on India last August for buying Russian oil, raising the duties on imports from New Delhi to 50%.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
+    },
+    {
+      "id": "46e095948ef3cb00725cc7281648c6db7a0658673dd053b47106073ebfc075f9",
+      "source": "CNBC",
+      "title": "U.S. market regulator seeks to make it easier for funds, advisers to hold crypto",
+      "publishedAtSgt": "2026-10-02T11:49:50+08:00",
+      "url": "https://www.cnbc.com/2026/10/02/sec-bitcoin-crypto-proposal.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "Securities and Exchange Commission has proposed new rules that would make it easier for investment advisers and regulated funds to hold cryptocurrencies on behalf of clients, as U.S. The proposal, announced Thursday stateside, would establish a tailored framework governing how registered investment advisers, investment companies and business development companies hold custody of crypto assets.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
+    },
+    {
+      "id": "13a4c2044762d3796acd2581bb1f9801dc2dbb662bb38202aa5cd39cc164b28a",
+      "source": "CNBC",
+      "title": "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
+      "publishedAtSgt": "2026-10-02T08:06:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/spacex-to-launch-google-ai-chips-to-orbit-with-planet-labs-satellites.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 83,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Alphabet launched its homegrown AI chips into orbit on Thursday in a SpaceX Falcon 9 rocket, a step towards making data centers in space a reality. SpaceX has promoted supercomputers in space as the next frontier in artificial intelligence infrastructure, touting \"infinite real estate\" in orbit as a means of escaping the data center backlash on the ground.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:46+08:00"
+    },
+    {
+      "id": "0dc5990f3cf02faeed8af6c4dc3b6949a51c5ae6b5fa7022ed8c9e3b7095f35b",
+      "source": "CNBC",
+      "title": "AI is a boon for 3 internet traffic cop stocks. Cramer says only 1 is a buy right now",
+      "publishedAtSgt": "2026-10-02T07:04:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/jim-cramer-akamai-ai-traffic.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer said Thursday that the explosion of web traffic from AI agents is creating a new growth opportunity for companies that help keep the internet running smoothly. That also means it's creating money-making opportunities for investors. Akamai trades at less than 16 times this year's expected earnings, and he argued investors are \"basically getting the latest Anthropic partnership for free.\" Fastly is also repositioning itself for the AI era, shifting from a traditional content...",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:00+08:00"
+    },
+    {
+      "id": "517467b18d8692906b75fcad30423f034da733e54ab0fc18dbdbc024b28aca72",
+      "source": "CNBC",
+      "title": "Software roared back last quarter. Cramer says these stocks can keep climbing",
+      "publishedAtSgt": "2026-10-02T06:18:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/jim-cramer-software-stocks-q3.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer said Thursday that enterprise software's comeback was the defining stock market story of the third quarter. Software stocks roared back from their artificial intelligence-driven sell off, while chip names cooled after a massive first-half run. Salesforce rallied 46% during the quarter as investors grew more confident that AI could be a growth driver rather than a threat to its business.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
+    },
+    {
+      "id": "1233c7746a69bcb61923ef432ea7441b643fa0bab0e4cd8f9f069ff144ffe807",
+      "source": "CNBC",
+      "title": "Accenture stock rallies after earnings beat expectations",
+      "publishedAtSgt": "2026-10-02T05:40:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "In an exclusive interview on CNBC's \"Squawk on the Street,\" Accenture CEO Julie Sweet said AI has served as a key growth driver for the business as it accumulates partners in key AI sectors such as data centers and capital infrastructure. \"We've just finished the year with $85 billion of new business going into next year, and that is driven by our growth strategy to focus on big transformational deals and making sure we're the winner in AI and data,\" Sweet told CNBC.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
+    },
+    {
+      "id": "19e1186d960d0e3f973d11de844caadf850433744b648a9e192f08b7df7b75f7",
+      "source": "CNBC",
+      "title": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
+      "publishedAtSgt": "2026-10-02T05:34:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "Shares of Nike fell roughly 3% in extended trading Thursday. \"Overall, there's a lack of energy in the lifestyle space right now, which is impacting traffic,\" he said on the call. \"Yes, the consumer is cautious, but as the leader in the industry, it's on us to bring more creativity to sportswear.\" The sneaker giant also announced a restructuring plan to \"position Nike for long-term growth.\" The strategy is expected to result in layoffs beginning in 2027, though the company did not provide any...",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
+    },
+    {
+      "id": "a802718e48934b3dd2421870709dc5a2e102ef0020f36e4f9a4473db9f83b29d",
+      "source": "CNBC",
+      "title": "Mattel shares rise after reports of takeover interest from Authentic Brands Group",
+      "publishedAtSgt": "2026-10-02T05:32:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/mattel-authentic-brands-takeover-interest.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Mattel rose nearly 20% on Thursday after the Wall Street Journal reported that the toymaker had attracted takeover interest from Authentic Brands Group. The brand licensing company has privately discussed an offer that could value Mattel at more than $20 per share, or about $6 billion, the Journal reported, citing people familiar with the matter. Shares of Mattel closed down 4% on Wednesday.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
+    },
+    {
+      "id": "851a469449d67aa11830a0ed1d94f3a836945b7b0fbe1bb0339e7ff322189912",
+      "source": "CNBC",
+      "title": "Treasury yields fall from multiyear highs",
+      "publishedAtSgt": "2026-10-02T05:17:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The yield on the 30-year Treasury bond also hit its highest in 24 years before dropping more than 2 basis points to 5.613%. People don't typically trade gilts versus bunds as much, but just as a barometer of, say, market concern, I think that's one to watch.\" Bonds had been moving in lockstep with oil prices, which have been turbulent as the U.S.-Israel war with Iran obstructed crude exports from the Middle East.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
+    },
+    {
+      "id": "5eaedaa8f38a57e82cdb1612eac8609054644f6d6502d4f7980cdd27c58ff3b9",
+      "source": "CNBC",
+      "title": "Europe’s winter energy crunch may already be underway. Two U.S. stocks that may benefit",
+      "publishedAtSgt": "2026-10-02T04:41:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/europes-winter-energy-crunch-may-already-be-underway-two-us-stocks-that-may-benefit.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "What I'm hearing from energy insiders Oil flows through Hormuz are rising, more ships are safely getting through the Strait, and oil prices seem to be coming down — at least for now. TotalEnergies CEO Patrick Pouyanné — arguably the most important CEO in global oil and gas — spoke with us this week about Europe's energy challenges, prices, and more in a Power Insider interview.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
+    },
+    {
+      "id": "6f0bfecde0cbdb8479a588065b92c7f0d018de10060fdbcd5b8af1162d714f5b",
+      "source": "CNBC",
+      "title": "Treasury sanctions operation targets Iran's auto, rail industries in latest economic attack",
+      "publishedAtSgt": "2026-10-02T02:37:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/treasury-sanctions-iran-auto-rail.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "In a separate release, the department announced additional sanctions on the A7 Network, described as a \"shadow banking network with ties to Russia used by the Iranian regime to evade sanctions.\" The actions are the latest to come from \"Operation Economic Outcast,\" the beefed-up sanctions effort that President Donald Trump and Treasury Secretary Scott Bessent touted as Iran's \"economic D-Day\" when it was unveiled in late August.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
+    },
+    {
+      "id": "1a8ce7928ae2d63535f65b885c73cfd150a07b7a551a61cfd71bcb115d600129",
+      "source": "CNBC",
+      "title": "Russia launches massive strikes on Ukraine’s energy grid, forcing power cuts ahead of winter",
+      "publishedAtSgt": "2026-10-02T00:09:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/russia-ukraine-war-energy-power-winter.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Russia has launched a widely anticipated attack on Ukraine's power grid, hitting key facilities in Kyiv and other major cities across the country, marking one of the biggest energy assaults in months. Ukrainian officials and national security experts have been warning about the prospect of a Russian air campaign on its energy infrastructure ahead of winter, fearing another extremely difficult cold snap at a time when the country faces an acute air defense shortage.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:03+08:00"
+    },
+    {
+      "id": "17d0cda9bd94cc6c1783a083eb417223310f11dca2b1f5bf65344b1a2ee2f639",
+      "source": "CNBC",
+      "title": "Health insurer points finger at AI as nearly $1 billion in questionable hospital charges appear",
+      "publishedAtSgt": "2026-10-01T23:07:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/health-care-costs-insurance-claims-billing-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "AI is moving deeper into an already expensive and administratively complex U.S. And for all the talk of AI as a productivity tool that will lead to efficiencies and serve as a deflationary force, some of the early evidence is raising questions about whether these tools will make an already costly system more expensive.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:00+08:00"
+    },
+    {
+      "id": "6ddf48fccfdf9f91a844f6d22681f01f1890d9d913c6834c75cae339e1c30d71",
+      "source": "CNBC",
+      "title": "Kalshi, Polymarket trading volumes on some products raise questions amid massive growth",
+      "publishedAtSgt": "2026-10-01T22:24:36+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/kalshi-polymarket-trading-volume-scrutiny.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It's seen on markets related to elections, sports and central bank decisions. Both developments create concerns among some observers that the companies are overseeing inflated volumes or, at worst, are experiencing wash trading, in which traders collude to buy and sell an asset to create a false sense of economic activity.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
+    },
+    {
+      "id": "311c972d5a9d19d7689547f8476616b69a06f6bdaf2820d2811cfda20d09362e",
+      "source": "CNBC",
+      "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+      "publishedAtSgt": "2026-10-01T21:59:54+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Micron reported better-than-expected quarterly results on Wednesday as the memory maker continues to benefit from soaring demand for AI infrastructure. Micron's stock has soared more than 500% in the past year, benefiting from a worldwide supply crunch caused by historic levels of demand for memory chips needed for artificial intelligence models and workloads.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
+    },
+    {
+      "id": "793f941cc982bdac7a7ee5b82f498f73de5671f86fe1f07dd39712b77ad60b7e",
+      "source": "CNBC",
+      "title": "The U.S. just made it much easier for retail investors to access private markets",
+      "publishedAtSgt": "2026-10-01T21:38:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/private-credit-sec-retail-investors.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Securities and Exchange Commission has greenlit sweeping plans to widen access to private markets to individual investors — just as the industry's rush into retail faces sharper scrutiny. SEC chairman Paul Atkins said investor demand for private market investment opportunities is growing, adding that exposure to \"one of the great engines of American enterprise\" should \"not be reserved for the wealthiest or for those deemed to be the most sophisticated.\" The proposals, approved Wednesday by...",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:03+08:00"
+    },
+    {
+      "id": "7b56d6d91b7c08e6e04bea1286985c544ecfcc2d172b57284a24ce9412fb2a62",
+      "source": "CNBC",
+      "title": "The Dow's rough month, Micron's revenue surge, Google launches Gemini 4 and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-01T20:45:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The stock is coming off a monster rally of more than 500% over the last 12 months as it reaps the benefits of the AI boom's memory supply crunch. The Fed official told Liesman that inflation is \"running at around a 3% rate,\" saying of Wednesday's report, \"I didn't think the inflation data today really changed that story for me very much.\" Speaking of the Fed: The central bank's inspector general said yesterday that while there were management failures in the Fed's renovation of its...",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:00+08:00"
+    },
+    {
+      "id": "81dfb0f7abd7410807d5bb85b2e9c93213e94eb717888f9c5bfe512ee1ae8f81",
+      "source": "CNBC",
+      "title": "Bargain Britain lures foreign buyers as hostile takeovers surge",
+      "publishedAtSgt": "2026-10-01T18:53:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/hostile-takeovers-mergers-acquisitions-uk.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "U.K.-listed stocks are in the crosshairs of foreign buyers, as persistently depressed valuations drive a surge in public takeovers. — the G7's fastest-growing economy — topped £75 billion ($99 billion) in the period to the end of the third quarter. M&A at Deutsche Bank, said the valuation gap between U.K.-listed companies and their publicly-traded U.S.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:02+08:00"
+    },
+    {
+      "id": "46fdb2b8070169e7c55713f9da449d7662a290e12153a3845a3423532e7610c7",
+      "source": "CNBC",
+      "title": "Shares of Indian auto companies slide as sales soften in September, after hitting record highs in August",
+      "publishedAtSgt": "2026-10-01T14:33:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/india-auto-shares-bajaj-maruti-mahindra.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks of Indian auto companies fell on Thursday as September data revealed acute softening of sales, just a month after passenger vehicles, three-wheelers, and two-wheelers hit a record high in August. Shares of Bajaj Auto, one of India's leading two-wheeler companies, declined over 8% after the company reported a 12% year-on-year drop in domestic sales in September.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:03+08:00"
+    },
+    {
+      "id": "b01e5766df10a411e52bb954cb21ff43ca3d2daad5d703353658430c71d73dc0",
+      "source": "CNBC",
+      "title": "Inside India newsletter: Foreign insurers get the red-carpet treatment — and policy uncertainty",
+      "publishedAtSgt": "2026-10-01T08:23:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/india-insurance-prudential-aviva-axa.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Welcome to the latest edition of \"Inside India\" — your one-stop destination for stories and developments from the world's fastest-growing large economy. A day after the new rules were proposed, India's largest online platform for insurance policies PB Fintech saw shares crash 36%, HDFC Life fell more than 6% and ICICI Life Insurance dropped 4%.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
+    },
+    {
+      "id": "6bc1bc5f56036c8ba67788bfafe9b97f61b97db8e2130b163d1b4a2ed59bfa8f",
+      "source": "CNBC",
+      "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
+      "publishedAtSgt": "2026-10-01T07:44:28+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "I didn't think the inflation data today really changed that story for me very much.\" Kashkari said other economic data released Wednesday on consumer spending and gross domestic product showed the economy is \"resilient.\" During a roundtable a few years ago, Kashkari said he heard from a labor union leader that inflation was \"worse\" than a recession for their members.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:46+08:00"
+    },
+    {
+      "id": "ce3abfae14184355f19716d9336d955f5e6d2bc133edc676660cd166b2c3a1b6",
+      "source": "CNBC",
+      "title": "Cramer says 'frozen' conditions are holding many stocks back. Here's what could change that",
+      "publishedAtSgt": "2026-10-01T07:00:52+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/jim-cramer-frozen-markets-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer said Wednesday that investors shouldn't jump ship despite signs of slowing activity across key parts of the economy. Shares of Morgan Stanley and Goldman Sachs — the premier investment banks on Wall Street — both declined roughly 12% in the month of September and set their highs for the year in July.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "id": "1c1a298668eca3bfedca3f10f89f21e0e1cf0f4aad3cec22ed54c74ad4f80ae8",
+      "source": "CNBC",
+      "title": "Trump's meeting with tech leaders leaves AI safety more unsettled than ever",
+      "publishedAtSgt": "2026-10-01T06:26:49+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/after-trump-meeting-with-tech-leaders-ai-safety-in-more-chaotic-state.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "After President Donald Trump's lunch with AI leaders on Tuesday, the leading artificial intelligence companies are right where they were before: policing themselves. Mark Warner, D-Va., said Tuesday that he's introduced legislation to require \"rigorous testing and evaluation\" of leading AI technology and to strengthen security and reporting \"before the most powerful models are deployed.\" \"The companies building the most powerful AI systems are warning us that the technology is advancing faster...",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:02+08:00"
+    },
+    {
+      "id": "1796cd95e0dbd119e157a729dc0ae8277fc034f50223972530a93cfdce056b0e",
+      "source": "CNBC",
+      "title": "Blue Origin's first outside funding round is 'oversubscribed' and not closed yet, CEO says",
+      "publishedAtSgt": "2026-10-01T05:55:01+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/blue-origin-funding-round.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Blue Origin CEO Dave Limp said the company's first-ever outside capital raise is not closed yet and is drawing heavy investor interest, describing the funding round as \"oversubscribed.\" \"I'm so amazed the investor community embraces space this much. Last week, the Wall Street Journal reported that the company had already raised $10 billion at a valuation of $140 billion.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "id": "7f7ce7f4baeea72bebc4c974b5acc3f9b1a7d7d598960814a7061839c424a83c",
+      "source": "CNBC",
+      "title": "Meta stock enjoys best month since 2022 on AI momentum",
+      "publishedAtSgt": "2026-10-01T05:36:47+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/meta-stock-best-month-2013-ai.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "Meta's stock just wrapped its best month since 2022 as investors cheer the social media giant's recent momentum in artificial intelligence. The company's shares closed at $725.18 Wednesday, representing a 27% increase from the closing price of $572.34 at the end of August. 8 debut of its Muse personal AI agent app, which became a major hit and topped rival OpenAI's ChatGPT in Apple iOS downloads.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "id": "0102f9a2b8aebfba5561ea65fd3e369811490758b582c470001131c07ed8e06d",
+      "source": "CNBC",
+      "title": "Grindr expands beyond dating with $250 million telehealth acquisition of PurposeMed",
+      "publishedAtSgt": "2026-10-01T04:45:01+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/grindr-purposemed-freddie-telehealth-acquisition.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The LGBTQ-focused dating platform will pay $190 million in cash and $60 million in Grindr common stock, according to the terms of the agreement. \"My hope and dream here is that we'll take the 10% growth in PrEP that we see today per year, and maybe double that,\" Arison said. \"If you did that, you're getting about 300,000 more people on PrEP over the next five years, and that's roughly about 5,000 patients not getting HIV.\" The expansion into healthcare also comes as investors have focused on...",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "id": "00029fb08626c767c21f36ea28298305e50afcc7120a9e9b47c818c089d06a17",
+      "source": "CNBC",
+      "title": "Stellantis CEO reconfirms 2026 guidance, says turnaround plan continues as automaker's shares hit new low",
+      "publishedAtSgt": "2026-10-01T04:15:48+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/stellantis-guidance-turnaround-plan.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "shares of the embattled automaker trade at an all-time low. The stock ended Tuesday at a new closing low for the company's U.S. shares, contributing to a roughly 60% loss so far this year.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:46+08:00"
+    },
+    {
+      "id": "ad8b69469d3a5c6f00ca3a111ce6ebe2411dd75b7fe1ccb48705ce50f4c37fcb",
+      "source": "CNBC",
+      "title": "Fed’s preferred gauge showed core inflation at 3.0% in August, much lighter than expected",
+      "publishedAtSgt": "2026-09-30T23:14:57+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "\"This is good news for investors worried about the recent surge in bond yields, and it bolsters the case for not hiking in October,\" said David Russell, global head of market strategy at TradeStation. Both PCE levels are still considerably higher than the central bank's 2% target, raising the possibility that the Fed will follow up its September interest rate hike with another increase at either of its remaining meetings this year — in October or, more likely, December.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
+    },
+    {
+      "id": "b47415b24012c7266d330c692e2ddbe177516d4294bceb3dc9307662a14efdee",
+      "source": "CNBC",
+      "title": "An inside man at the Fed, OpenAI debuts Dots, an IPO trend and more in Morning Squawk",
+      "publishedAtSgt": "2026-09-30T23:01:15+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investigators believed that he passed information about the central bank to a Chinese government spy. OpenAI's potential IPO was also front of mind for investors and company executives in San Francisco on Tuesday. The 30-year Treasury bond yield continued its ascent yesterday, hitting its highest level going back to 2002 and weighing down stocks.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "id": "00b4678727e70c0653156c1bd9208b74e09210590eba978d7fe2516fb1e89e3c",
+      "source": "CNBC",
+      "title": "Robinhood unveils weekend hours, AI agents to allow users to trade nonstop",
+      "publishedAtSgt": "2026-09-30T21:56:14+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/robinhood-unveils-weekend-hours-ai-agents-to-allow-users-to-trade-nonstop.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The brokerage is expanding trading hours, adding crypto perpetuals and AI-powered automated trading tools to appeal to more active traders, it announced Tuesday evening at its HOOD Summit in Houston, Texas. The new offerings reflect Robinhood's evolution beyond its commission-free stock-trading roots as it seeks to become a more comprehensive platform for active traders.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:02+08:00"
+    },
+    {
+      "id": "02dafeeefb638245121b0e466e6a7b82ce6fa07b678e0499fefdf642b3fbd3dc",
+      "source": "CNBC",
+      "title": "Holiday retail sales are expected to top $1 trillion as inflation boosts growth",
+      "publishedAtSgt": "2026-09-30T20:48:46+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/holiday-retail-sales-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "According to Bain & Company's annual forecast, holiday retail sales are expected to top $1 trillion for the first time, marking a 4.5% growth. Bain also noted that the headline spending increase is underscored by rising inflation, which accounts for most of the growth, making actual unit growth thinner than it appears. Still, the company noted that while the appetite to explore through new technology is strong, most people are still not buying products directly through AI platforms.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:46+08:00"
+    },
+    {
+      "id": "8f282b831095eccbe524e372fb701f837fe08c0b294e2434d4db109edf6edb5d",
+      "source": "CNBC",
+      "title": "OpenAI follows Meta into the red-hot market for personal agents. But will users pay?",
+      "publishedAtSgt": "2026-09-30T20:04:46+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/openai-follows-meta-into-the-red-hot-market-for-personal-agents.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "Following Meta's blockbuster release of its Muse AI agent earlier this month, OpenAI jumped into the personal agent market on Tuesday with Dots, setting the stage for what could be the next big battle in the artificial intelligence market. Since the release of Muse three weeks ago, investors have rallied around Meta, sending the stock up 29% in September, on pace for its best month since 2013.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "id": "841bf24ce028961592ce93977898becc887f08b314e8cf492ab6fb47fecf154b",
+      "source": "CNBC",
+      "title": "China has three new criteria for humanoid robot IPOs. Few, if any, meet them",
+      "publishedAtSgt": "2026-09-30T10:50:35+08:00",
+      "url": "https://www.cnbc.com/2026/09/29/china-criteria-humanoid-robot-ipos.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It's a sign of how one of the hottest sectors of the market is cooling, as investors globally assess whether artificial intelligence stocks are in a bubble. The tech, often called \"physical AI\" in China, has been seen as a way for early-stage investors to benefit from the surge of interest in artificial intelligence models. The ratio of valuation to revenue — especially for Chinese AI startups Moonshot and DeepSeek — was far higher than their U.S.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:48+08:00"
+    },
+    {
+      "id": "ec5b14fa7fc342f87f9dc2e6e2a72d1ef2279d69391c2f81f5a78a724c14473a",
+      "source": "CNBC",
+      "title": "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
+      "publishedAtSgt": "2026-09-30T04:51:43+08:00",
+      "url": "https://www.cnbc.com/2026/09/29/the-feds-main-inflation-measure-will-be-released-wednesday-heres-what-to-expect.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The personal consumption expenditures price index, the primary inflation gauge for central bank policymakers, is expected to show increases of 0.3% at both the all-items and core levels, the latter of which excludes food and energy costs, according to the Dow Jones consensus. Fed Chairman Kevin Warsh said at his news conference earlier this month that hiring data along with business investment and private sector earnings show the economy in good shape.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
+    },
+    {
+      "id": "74cdc859ac4aec7814b82ea243d94ce9f586b5d9b17354d50532603e3d9357e8",
+      "source": "CNBC",
+      "title": "America's Canadian import restrictions come into force. Here are the products barred from entry",
+      "publishedAtSgt": "2026-09-29T23:57:43+08:00",
+      "url": "https://www.cnbc.com/2026/09/29/canada-import-ban-trade-war.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The White House banned imports of some Canadian vehicles, dairy and alcohol products on Tuesday, as officials sent mixed signals on the prospect of a trade deal. The products are estimated to total around $19.9 billion of Canadian imports by the American Action Forum. The Bank of Canada warned this month that new tariffs had made the country's growth prospects more uncertain and increased upside risks to inflation.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
+    },
+    {
+      "id": "877621d125745e125534f79d8a61be05cff432d9d5a53fde196b47748d95476d",
+      "source": "CNBC",
+      "title": "Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
+      "publishedAtSgt": "2026-09-29T22:37:07+08:00",
+      "url": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors seeking municipal bond exposure routinely use exchange-traded funds and other indexed products to avoid picking individual debt. \"President Trump's energy secretary wouldn't be allowed to hold this type of bond, in my opinion, but because presidents are exempt from typical conflict-of-interest laws, [Trump] has,\" Painter told CNBC.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:48+08:00"
+    },
+    {
+      "id": "5b3eccb3a0ec6b939179316792f8b84d9055fb4d15b7b1fe61c766e8ea345028",
+      "source": "CNBC",
+      "title": "Nearly half the stocks in the S&P 500 are at cross purposes with the rest of the market",
+      "publishedAtSgt": "2026-09-29T01:53:31+08:00",
+      "url": "https://www.cnbc.com/2026/09/28/nearly-half-of-the-stocks-in-the-sp-500-are-working-against-it.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Semiconductor makers, hardware companies and other AI infrastructure beneficiaries have benefited from enormous capital spending, while companies outside the AI trade have struggled to keep up. That's been pronounced this year: higher oil prices, higher energy stocks and then the rest of the market trades lower,\" said Turnquist, seeing energy as an important part of the negative-beta story, alongside more defensive sectors.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:48+08:00"
+    },
+    {
+      "id": "fdc37d4078f6164344955f48e262146deed0172c4b7af46bcc4e2ded87da74a3",
+      "source": "CNBC",
+      "title": "Ex-Disney CEO Bob Chapek says he raised concerns with the board 'weekly' during Iger power battle",
+      "publishedAtSgt": "2026-09-29T00:02:17+08:00",
+      "url": "https://www.cnbc.com/2026/09/28/disney-bob-chapek-bob-iger-power-battle-board.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Former Disney CEO Bob Chapek said Monday he voiced concerns about then-Executive Chairman Bob Iger to the company's board \"weekly\" during his brief tenure as head of the House of Mouse. Chapek has remained tight-lipped about his firing from the media giant nearly four years ago, but opened up about his experience in a new tell-all memoir, \"Behind the Castle Walls: My Thirty Years at the Happiest Place on Earth,\" and in an interview with CNBC's \"Squawk Box.\" Once head of Disney's theme park and...",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
+    },
+    {
+      "id": "99c129dbe4bdc114b716fe4499b9028db3ea73dda68d5fd705eb90c46dd75b67",
+      "source": "CNBC",
+      "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
+      "publishedAtSgt": "2026-09-28T16:31:33+08:00",
+      "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The detailed lists includes mostly imports of toys, sports equipment and Christmas decorations by the U.S., while American agricultural products accounted for much of the far longer list of imports by China. Washington has sought to reduce its record trade deficit with Beijing, as the Asian country exports far more to the U.S. goods trade deficit with China was more than $202 billion last year.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:49+08:00"
+    },
+    {
+      "id": "a17db37a1d2faa134e597f9fe260b8b8b887ecd075518e8745733045347840c4",
+      "source": "CNBC",
+      "title": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
+      "publishedAtSgt": "2026-09-28T12:04:16+08:00",
+      "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The earnings report also points to an increasingly bifurcated economy, with strong earnings growth in high-tech sectors, such as AI and robotics, whereas consumer-related industries like clothing, autos and furniture showed declining profits. Growth in the world's second-largest economy softened to its slowest in more than three years in the second quarter, as a multiyear property downturn continued to depress consumer demand and investment in real estate and infrastructure.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:52+08:00"
+    },
+    {
+      "id": "43c8a5c721178fb20abbacad701c08fafd4e62ee1e1418f34c8363ce0801f5b7",
+      "source": "CNBC",
+      "title": "Debt-hungry AI companies face increased risk as bond yields spike",
+      "publishedAtSgt": "2026-09-27T23:35:34+08:00",
+      "url": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "JPMorgan Chase estimated in June that $4.1 trillion in AI-related debt will be issued through 2030, as data center companies and others tied to the artificial intelligence boom race to build up capacity to meet what many industry experts view as insatiable demand for AI services.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:49+08:00"
+    },
+    {
+      "id": "1cadc10a62db385691afa73eeba5d2948668694fb713e9b3fdbd013eb4e14a27",
+      "source": "CNBC",
+      "title": "This may be the ‘missing piece’ for investors looking to boost AI exposure",
+      "publishedAtSgt": "2026-09-26T23:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/09/26/ai-portfolios-may-need-china-to-grab-the-biggest-gains.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors looking to boost their exposure to artificial intelligence should target China, according to Matthews Asia portfolio manager Andrew Mattock. He said investors will need a more deliberate approach because broad emerging market strategies won't be that effective. \"The big piece that you are missing… is the Chinese piece.\" He noted that companies from South Korea and Taiwan comprise almost half of the iShares MSCI Emerging Markets ETF (EEM) while the iShares MSCI China ETF (MCHI) lacks a...",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:50+08:00"
+    },
+    {
+      "id": "61ea3c09d6cdb4805f262b6d6e2b80b10c1cc83c01f5062afaac8a9c26bc49d9",
+      "source": "CNBC",
+      "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
+      "publishedAtSgt": "2026-09-26T21:30:06+08:00",
+      "url": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors were rattled this week as the benchmark 10-year Treasury yield soared to its highest level since 2007, but sticky inflation is just one of the factors behind this latest surge. The 10-year yield's rapid climb above 5% shows how quickly investors' expectations have shifted toward additional tightening from the Federal Reserve in light of stubborn inflation. \"I think this year it has more to do with the bond issuance than the inflation story,\" he told CNBC.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:50+08:00"
+    },
+    {
+      "id": "4ff36f7a8af21a91101a9114ddae9e22d65b4504a1c7554b159f7bd9e60a9ea8",
+      "source": "CNBC",
+      "title": "Coca-Cola hires Rob Gehring from Monster Energy to run its North American operations",
+      "publishedAtSgt": "2026-09-26T05:02:20+08:00",
+      "url": "https://www.cnbc.com/2026/09/25/monster-coca-cola-rob-gehring.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Rob Gehring, the head of Monster Energy's Americas business, will leave to run Coca-Cola's North America unit, the companies said Friday. The move comes as Coke tries to maintain growth while U.S. Coke shares have climbed more than 25% this year, while Monster's stock has risen more than 12%.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
+    },
+    {
+      "id": "9db156358285a6994d103097440b2531e75c9261c1f9fc47bbdf3c2982012c07",
+      "source": "CNBC",
+      "title": "Here's what happens to the economy when Treasury yields soar like they are now",
+      "publishedAtSgt": "2026-09-25T21:48:19+08:00",
+      "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Similarly, the 2-year note, which typically responds to Fed rate expectations and signals rates for home equity, auto loans and other debt, climbed more than 13 basis points past 4.9% as traders priced in a strong possibility that the central bank would follow its hike last week with another in October. economy where it hurts the most — consumers, who drive almost 70% of all economic activity and hold nearly $19 trillion in total debt.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:54+08:00"
+    },
+    {
+      "id": "e94653b7802622bf689a4df355329ef74914b5e9e3633af24e112eab88371c20",
+      "source": "CNBC",
+      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+      "publishedAtSgt": "2026-09-25T19:08:05+08:00",
+      "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields continued their upward march Thursday as investors sought to price in a variety of factors: inflation still hovering well above the Fed's 2% goal, another bump up in energy prices and the impact of a global hyperscaler financial arms race and accompanying debt issuance. \"The bias has to be towards restoring price stability, and they should take what's going on seriously.\" Markets expect the central bank will indeed take a firmer hand on inflation.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:53+08:00"
+    },
+    {
+      "id": "aec0e303f79eef554f78a553bdcc07de19a7bf88d729c2e09f4ed08a54b7a23b",
+      "source": "CNBC",
+      "title": "MGM Resorts shares sink 11% after Barry Diller's People Inc. rescinds takeover offer",
+      "publishedAtSgt": "2026-09-25T04:11:24+08:00",
+      "url": "https://www.cnbc.com/2026/09/24/barry-diller-people-mgm-resorts.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "has rescinded its proposal to buy MGM Resorts International, sending shares of the casino giant down roughly 11% on Thursday. The update comes nearly four months after Diller's company offered to purchase MGM Resorts for $48.30 per share. — formerly known as IAC — attributed the decision to the complicated nature of the deal.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
+    },
+    {
+      "id": "5572d3ae399be347ad259b72d498bad1a4953626dec50d777feb3868883d6be4",
+      "source": "CNBC",
+      "title": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
+      "publishedAtSgt": "2026-09-25T01:12:04+08:00",
+      "url": "https://www.cnbc.com/2026/09/24/philadelphia-feds-anna-paulson-says-modest-rate-moves-likely-ahead-to-tame-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Looking ahead, if conditions evolve as I expect, some modest further tightening may be warranted.\" Though the summer showed some moderating in price pressures, she said underlying inflation is still running around 2.5%-3%, \"well above our 2% target, and the gap has shown little signs of closing.\" \"The best I can say about underlying inflation this year is that it hasn't gotten worse,\" Paulson said in prepared remarks for a fintech conference in her home district.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:50+08:00"
+    },
+    {
+      "id": "0ac4218ac5fe55cb86de1bd69dd543a6858aa841ae1bfa11f771990abe8ab8b4",
+      "source": "CNBC",
+      "title": "China confirms first AI talks with U.S. have taken place, hints at trade truce extension",
+      "publishedAtSgt": "2026-09-24T22:16:27+08:00",
+      "url": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "BEIJING—China's Commerce Ministry confirmed Thursday that its senior trade negotiators had held their first talks with the U.S. Spokesperson He Yadong told reporters the two sides also discussed plans for reducing tariffs, and extending trade arrangements agreed in Kuala Lumpur last October.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:50+08:00"
+    }
+  ]
+}
