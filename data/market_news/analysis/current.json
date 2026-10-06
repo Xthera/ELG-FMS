@@ -1,10 +1,67 @@
 {
-  "generatedAtSgt": "2026-10-07T03:47:37.354316+08:00",
+  "generatedAtSgt": "2026-10-07T06:47:22.465827+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 107,
+  "articleCount": 109,
   "analyses": [
+    {
+      "articleId": "857992382577f984b8efe3d20a80cc554f046ac42c8731c87243cb023148513e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "The S&P 500 reached a new record, supported by resilient corporate profits despite mixed economic conditions, oil and bond yield correlations, and strong investor appetite for technology highlighted by SpaceX's $75 billion IPO.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors should note that corporate profit resilience continues to drive equity markets to new highs despite mixed economic indicators and yield volatility.",
+      "reasoning": "The article is classified under MARKET as it discusses the S&P 500 reaching record highs, driven by corporate profits and large technology IPO activity, making it relevant for equity market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
+      "publishedAtSgt": "2026-10-07T06:23:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 59,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-07T06:31:50+08:00"
+    },
+    {
+      "articleId": "c5291e591512ab33062a898d0faaa96517826e2161c077370c2a6556125769a0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "CNBC's Jim Cramer highlighted that established blue-chip tech giants represent some of the best opportunities for investors looking to capitalize on the ongoing artificial intelligence boom.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Provides perspective for equity investors on how to approach artificial intelligence investments by favoring established large-cap companies with strong fundamentals.",
+      "reasoning": "The article discusses investment strategy in the context of the AI market boom, making it relevant for market and technology sentiment monitoring, though it offers broad commentary rather than breaking financial data.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Cramer says these blue-chip stocks are among the best ways to invest in the AI boom",
+      "publishedAtSgt": "2026-10-07T06:13:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/jim-cramer-ai-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-07T06:31:50+08:00"
+    },
     {
       "articleId": "3b5ee8e780034b249c1fc4edf14e390e5510206c9cfa4b229392d4f180d728bf",
       "relevant": true,
