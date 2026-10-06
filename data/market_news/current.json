@@ -1,12 +1,45 @@
 {
-  "generatedAtSgt": "2026-10-06T09:31:24+08:00",
+  "generatedAtSgt": "2026-10-06T12:33:48+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
   "maxArticles": 100,
   "source": "CNBC",
-  "articleCount": 87,
+  "articleCount": 89,
   "articles": [
+    {
+      "id": "0eb17c57a962800057fc4e9a29667964a1d0543916129a33f5a65398657bf359",
+      "source": "CNBC",
+      "title": "World Bank warns of AI concentration risks as it lifts East Asia and Pacific growth outlook to 4.5%",
+      "publishedAtSgt": "2026-10-06T12:07:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The World Bank has raised its growth forecast for the East Asia and Pacific region on the back of artificial intelligence-related exports, while warning that its reliance on the AI boom leaves it vulnerable to a potential global tech spending reversal. Trade growth, excluding AI-related goods, has been \"weak or negative,\" the bank said.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T12:33:48+08:00"
+    },
+    {
+      "id": "003e58793ed8569a4838424ae33c44b75e5bde8ee54b82066786af6927bd8e86",
+      "source": "CNBC",
+      "title": "Little room for ‘giving and taking’: India’s finance minister confirms trade impasse with the U.S.",
+      "publishedAtSgt": "2026-10-06T10:39:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/india-us-trade-deal-deal-sitharaman.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "India's Finance Minister Nirmala Sitharaman said trade talks with the U.S. Trade Representative Jamieson Greer last week said a trade agreement was not 'imminent' even as the negotiations were ongoing. Last week, Indian Prime Minister Narendra Modi had reviewed bilateral trade, defense, energy and critical technologies during a call with U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T12:33:48+08:00"
+    },
     {
       "id": "91a7d45e1914090f954bde88418133361df168c646743666f7d2243c68f7dbb4",
       "source": "CNBC",
