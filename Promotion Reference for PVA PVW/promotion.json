@@ -1,0 +1,221 @@
+{
+  "_about": "Promotion bonus units for PRUVantage Assure II and PRUVantage Wealth III (SGD). The Plan Calculator reads this file; delete it (or this folder) and the calculator applies no promotion units. Rates are % of first-year base premium invested in the named funds. Source: Promotion Table C, 'Protect Today, Build Your Future' (images in this folder).",
+  "name": "Protect Today, Build Your Future",
+  "period": {
+    "start": "2026-10-01",
+    "end": "2026-12-31"
+  },
+  "fundGroups": {
+    "cioFunds": {
+      "label": "PRUPrime CIO Funds",
+      "codes": [
+        "PCBF",
+        "PCCF",
+        "PCGF"
+      ]
+    },
+    "strategicInvestIncome": {
+      "label": "PRULink StrategicInvest Income Fund",
+      "codes": [
+        "PSIF"
+      ]
+    }
+  },
+  "notes": [
+    "Bonus units are a percentage of the base-plan premium received in the first policy year (excluding supplementary benefits and Investment Booster top-ups), on the part of the premium invested in the eligible funds at inception.",
+    "Units are added to the Growth and/or Flex Account according to the account allocation at inception.",
+    "A clawback may apply for switches out of the PRUPrime CIO Funds / StrategicInvest Income Fund on or before day 180 from policy inception.",
+    "Proposal must be submitted, and the policy must start, within the promotion period."
+  ],
+  "plans": {
+    "PVA": {
+      "name": "PRUVantage Assure II",
+      "image": "PRUVantage-Assure-II.avif",
+      "terms": {
+        "5": [
+          {
+            "minAnnualPremium": 20000,
+            "cioFunds": 2.0,
+            "strategicInvestIncome": 1.0
+          },
+          {
+            "minAnnualPremium": 40000,
+            "cioFunds": 3.5,
+            "strategicInvestIncome": 1.75
+          },
+          {
+            "minAnnualPremium": 100000,
+            "cioFunds": 5.5,
+            "strategicInvestIncome": 2.75
+          },
+          {
+            "minAnnualPremium": 150000,
+            "cioFunds": 10.0,
+            "strategicInvestIncome": 5.0
+          },
+          {
+            "minAnnualPremium": 300000,
+            "cioFunds": 15.0,
+            "strategicInvestIncome": 7.5
+          },
+          {
+            "minAnnualPremium": 500000,
+            "cioFunds": 20.0,
+            "strategicInvestIncome": 10.0
+          }
+        ],
+        "10": [
+          {
+            "minAnnualPremium": 8000,
+            "cioFunds": 6.0,
+            "strategicInvestIncome": 3.0
+          },
+          {
+            "minAnnualPremium": 15000,
+            "cioFunds": 8.5,
+            "strategicInvestIncome": 4.25
+          },
+          {
+            "minAnnualPremium": 25000,
+            "cioFunds": 12.0,
+            "strategicInvestIncome": 6.0
+          },
+          {
+            "minAnnualPremium": 150000,
+            "cioFunds": 25.0,
+            "strategicInvestIncome": 12.5
+          },
+          {
+            "minAnnualPremium": 200000,
+            "cioFunds": 35.0,
+            "strategicInvestIncome": 17.5
+          },
+          {
+            "minAnnualPremium": 300000,
+            "cioFunds": 45.0,
+            "strategicInvestIncome": 22.5
+          }
+        ],
+        "15": [
+          {
+            "minAnnualPremium": 5000,
+            "cioFunds": 10.0,
+            "strategicInvestIncome": 5.0
+          },
+          {
+            "minAnnualPremium": 10000,
+            "cioFunds": 15.0,
+            "strategicInvestIncome": 7.5
+          },
+          {
+            "minAnnualPremium": 15000,
+            "cioFunds": 25.0,
+            "strategicInvestIncome": 12.5
+          },
+          {
+            "minAnnualPremium": 150000,
+            "cioFunds": 30.0,
+            "strategicInvestIncome": 15.0
+          },
+          {
+            "minAnnualPremium": 200000,
+            "cioFunds": 40.0,
+            "strategicInvestIncome": 20.0
+          },
+          {
+            "minAnnualPremium": 300000,
+            "cioFunds": 50.0,
+            "strategicInvestIncome": 25.0
+          }
+        ]
+      }
+    },
+    "PVW": {
+      "name": "PRUVantage Wealth III (SGD)",
+      "image": "PRUVantage-Wealth-III.avif",
+      "terms": {
+        "3": [
+          {
+            "minAnnualPremium": 75000,
+            "cioFunds": 2.0,
+            "strategicInvestIncome": 1.0
+          },
+          {
+            "minAnnualPremium": 100000,
+            "cioFunds": 4.0,
+            "strategicInvestIncome": 2.0
+          },
+          {
+            "minAnnualPremium": 150000,
+            "cioFunds": 6.0,
+            "strategicInvestIncome": 3.0
+          },
+          {
+            "minAnnualPremium": 300000,
+            "cioFunds": 9.0,
+            "strategicInvestIncome": 4.5
+          },
+          {
+            "minAnnualPremium": 500000,
+            "cioFunds": 12.0,
+            "strategicInvestIncome": 6.0
+          }
+        ],
+        "5": [
+          {
+            "minAnnualPremium": 48000,
+            "cioFunds": 4.0,
+            "strategicInvestIncome": 2.0
+          },
+          {
+            "minAnnualPremium": 60000,
+            "cioFunds": 7.0,
+            "strategicInvestIncome": 3.5
+          },
+          {
+            "minAnnualPremium": 150000,
+            "cioFunds": 10.0,
+            "strategicInvestIncome": 5.0
+          },
+          {
+            "minAnnualPremium": 300000,
+            "cioFunds": 15.0,
+            "strategicInvestIncome": 7.5
+          },
+          {
+            "minAnnualPremium": 500000,
+            "cioFunds": 20.0,
+            "strategicInvestIncome": 10.0
+          }
+        ],
+        "10": [
+          {
+            "minAnnualPremium": 36000,
+            "cioFunds": 15.0,
+            "strategicInvestIncome": 7.5
+          },
+          {
+            "minAnnualPremium": 50000,
+            "cioFunds": 18.0,
+            "strategicInvestIncome": 9.0
+          },
+          {
+            "minAnnualPremium": 150000,
+            "cioFunds": 25.0,
+            "strategicInvestIncome": 12.5
+          },
+          {
+            "minAnnualPremium": 200000,
+            "cioFunds": 35.0,
+            "strategicInvestIncome": 17.5
+          },
+          {
+            "minAnnualPremium": 300000,
+            "cioFunds": 45.0,
+            "strategicInvestIncome": 22.5
+          }
+        ]
+      }
+    }
+  }
+}
