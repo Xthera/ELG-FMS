@@ -9187,3 +9187,129 @@ html[data-theme="light"] .palette-swatch {
     color: var(--negative, #ef6b73);
     font-size: 0.75em;
 }
+
+/* Plan Calculator: Investment Booster rows */
+.calc-booster-list {
+    display: grid;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.calc-booster-row {
+    display: grid;
+    grid-template-columns: minmax(190px, 220px) minmax(140px, 200px) 1fr auto;
+    align-items: start;
+    gap: 12px;
+}
+
+.calc-booster-charge {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-top: 26px;
+    color: var(--text-muted);
+    font-size: calc(12px * var(--font-scale, 1));
+}
+
+.calc-booster-row .compare-remove {
+    margin-top: 26px;
+}
+
+.calc-booster-add {
+    margin-top: 12px;
+}
+
+.calc-booster-add[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#calc-booster-account:not(:empty) {
+    margin-top: 12px;
+}
+
+@media (max-width: 699px) and (pointer: coarse), (max-height: 500px) and (max-width: 1000px) and (pointer: coarse) {
+    .calc-booster-row {
+        grid-template-columns: 1fr 1fr auto;
+    }
+
+    .calc-booster-charge {
+        grid-column: 1 / -1;
+        grid-row: 2;
+    }
+}
+
+/* Popup table: keep wide illustrations (boosters + dividends) inside the popup */
+.calc-dialog .calc-table th,
+.calc-dialog .calc-table td {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.calc-dialog .calc-table thead th {
+    min-width: 0;
+}
+
+/* Each Investment Booster: its own card with age, amount and funds */
+.calc-booster-card {
+    padding: 12px 14px;
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+}
+
+.calc-booster-funds:not(:empty) {
+    margin-top: 12px;
+}
+
+/* Tick box (pay premiums from the booster) */
+.calc-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 14px;
+    color: var(--text-primary);
+    font-size: calc(14px * var(--font-scale, 1));
+    cursor: pointer;
+}
+
+.calc-check[hidden] {
+    display: none;
+}
+
+.calc-check input {
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+    flex-shrink: 0;
+    accent-color: var(--accent);
+}
+
+.calc-booster-agecol {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.calc-booster-start {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text-secondary);
+    font-size: calc(12px * var(--font-scale, 1));
+    cursor: pointer;
+}
+
+.calc-booster-start input {
+    width: 15px;
+    height: 15px;
+    accent-color: var(--accent);
+}
+
+.calc-booster-row input:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.calc-dialog .calc-table tbody td:first-child {
+    white-space: nowrap;
+}
