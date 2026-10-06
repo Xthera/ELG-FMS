@@ -5,6 +5,38 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "41877e23ea510b7bb2a9375971a9dba5414a938caeb6ca7be409d9f66f2dc391",
+      "source": "CNBC",
+      "title": "Barbie maker Mattel faces investor pressure to consider a sale amid stagnating growth",
+      "publishedAtSgt": "2026-10-06T18:07:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/mattel-barbie-ariel-sale-investor-pressure.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Mattel is reportedly facing pressure from an investor to consider a sale amid struggling sales and growing buyer interest in the Barbie maker. American investment firm Ariel Investments, a major shareholder in the toymaker, said that as the struggling business seeks a turnaround, it should consider a sale to the right buyer, according to a letter from Chairman and Co-CEO John Rogers sent to Mattel's board of directors, seen by Reuters and the Wall Street Journal.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T18:33:18+08:00"
+    },
+    {
+      "id": "04e4bb509b0c3954292d71a62fa5779e6c20503c3b81ac67f8457c333c278487",
+      "source": "CNBC",
+      "title": "Paramount's hard-fought takeover of Warner Bros. Discovery closes Tuesday. Here's how we got here",
+      "publishedAtSgt": "2026-10-06T18:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/paramount-wbd-deal-timeline.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The combined company, what amounts to one of the largest media conglomerates in history, will be newly named Skydance and trade under the ticker symbol \"SKYD.\" It will bring together two of the most storied film studios and control nearly one-third of basic cable programming. Shares of both companies jump on the day of the news, and WBD shares notch their best day ever to that point.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-06T18:33:17+08:00"
+    },
+    {
       "id": "d98aedd2384327f4d04f99c777ec399746c402a9019e3f50acd5f39a5ff11b6f",
       "source": "CNBC",
       "title": "Britain is on 'thin ice,' warns ex-Bank of England chief economist — and it must act to 'appease financial markets'",
@@ -177,6 +209,6 @@
       "collectedAtSgt": "2026-10-06T06:30:21+08:00"
     }
   ],
-  "articleCount": 11,
-  "updatedAtSgt": "2026-10-06T15:33:32+08:00"
+  "articleCount": 13,
+  "updatedAtSgt": "2026-10-06T18:33:18+08:00"
 }
