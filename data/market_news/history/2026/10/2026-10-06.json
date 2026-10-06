@@ -5,6 +5,53 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "d98aedd2384327f4d04f99c777ec399746c402a9019e3f50acd5f39a5ff11b6f",
+      "source": "CNBC",
+      "title": "Britain is on 'thin ice,' warns ex-Bank of England chief economist — and it must act to 'appease financial markets'",
+      "publishedAtSgt": "2026-10-06T15:28:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/burnham-healey-budget-tax-bonds-gilts.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Speaking to CNBC's Steve Sedgwick, Andy Haldane — a member of the central bank's Monetary Policy Committee until 2021 — said there were \"perils\" running into the budget update, currently scheduled for Oct. That's why the ice is thin.\" Haldane said Burnham's push to end the U.K.'s so-called triple lock mechanism — where the state pension rises at the same rate as the highest of inflation, average earnings growth, or 2.5% — was a \"good first instalment.\" But he added that welfare remains a...",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T15:33:32+08:00"
+    },
+    {
+      "id": "9f11e4416bdedce1a4f72ce014d3565bf06e399a9d4c70091b2e4a45e5ac891c",
+      "source": "CNBC",
+      "title": "Treasury yields are broadly flat as investors anticipate FOMC minutes",
+      "publishedAtSgt": "2026-10-06T15:05:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/treasury-yields-fed-fomc-minutes.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields were broadly flat on Tuesday morning after reaching fresh highs in the previous session, as investors looked ahead to the release of minutes from the Federal Reserve's last meeting. Similarly, the 30-year Treasury bond rose less than a basis point to 5.665%, after also rising to levels not seen since May 2002. The 2-Year Treasury note yield was down 1 basis point to 4.818%.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T15:33:31+08:00"
+    },
+    {
+      "id": "4e55bc8b0bea7205b9919d1bb3e4a2bdd1aacd15540f406017d9f16b4b81eb59",
+      "source": "CNBC",
+      "title": "How quant funds beat the market by being 'early, contrarian and right'",
+      "publishedAtSgt": "2026-10-06T14:57:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/trend-following-hedge-funds-beat-stock-market.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Hedge fund strategies that rely on complex algorithms and machine learning technology to build trades are beating the stock market this year. They aim to identify and trade large and consistent trends — both upward and downward — across equities, bonds, commodities, and currencies, to profit from that ongoing momentum.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T15:33:31+08:00"
+    },
+    {
       "id": "0eb17c57a962800057fc4e9a29667964a1d0543916129a33f5a65398657bf359",
       "source": "CNBC",
       "title": "World Bank warns of AI concentration risks as it lifts East Asia and Pacific growth outlook to 4.5%",
@@ -130,6 +177,6 @@
       "collectedAtSgt": "2026-10-06T06:30:21+08:00"
     }
   ],
-  "articleCount": 8,
-  "updatedAtSgt": "2026-10-06T12:33:48+08:00"
+  "articleCount": 11,
+  "updatedAtSgt": "2026-10-06T15:33:32+08:00"
 }
