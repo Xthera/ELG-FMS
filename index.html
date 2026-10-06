@@ -1,0 +1,2865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="ELG FMS — Prudential Singapore fund market performance, market news and monitoring dashboard."
+    >
+
+    <meta
+        name="theme-color"
+        content="#0b1118"
+    >
+
+    <title>ELG FMS — Market Performance</title>
+
+    <link rel="icon" href="assets/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+    <!-- Apply the saved text size before the page draws -->
+    <script>
+        try {
+            var saved = localStorage.getItem("vgrat-fms-font-size");
+            var named = { small: 0.9, "default": 1, large: 1.15, xlarge: 1.3 };
+            var scale = named[saved] || parseFloat(saved);
+            if (scale >= 0.8 && scale <= 1.4) {
+                document.documentElement.style.setProperty("--font-scale", String(scale));
+            }
+            var theme = localStorage.getItem("vgrat-fms-theme") || "dark";
+            var base = { dark: "dark", dim: "dark", midnight: "dark", light: "light", sepia: "light" };
+            if (theme === "auto") {
+                base.auto = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+            }
+            if (base[theme]) {
+                document.documentElement.setAttribute("data-theme", base[theme]);
+                if (/^(dim|midnight|sepia)$/.test(theme)) {
+                    document.documentElement.setAttribute("data-variant", theme);
+                }
+            }
+            var accent = localStorage.getItem("vgrat-fms-accent");
+            if (/^(steel|ocean|gold|teal|violet|rose)$/.test(accent || "")) {
+                document.documentElement.setAttribute("data-accent", accent);
+            }
+        } catch (error) {}
+    </script>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+    <!--
+        Chart.js 4.4.1
+        Used only by the optional chart layer.
+        The dashboard remains functional if charts fail.
+    -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"
+        defer
+    ></script>
+</head>
+
+
+<body>
+
+    <!-- ======================================================
+         APPLICATION SHELL
+    ======================================================= -->
+
+    <div
+        id="app"
+        class="app-shell"
+    >
+
+
+        <!-- ==================================================
+             HEADER
+        =================================================== -->
+
+        <header class="site-header">
+
+            <div class="header-inner">
+
+
+                <!-- MENU TOGGLE -->
+
+                <button
+                    id="nav-toggle"
+                    type="button"
+                    class="nav-toggle"
+                    aria-controls="main-nav"
+                    aria-expanded="true"
+                    aria-label="Minimise menu"
+                    title="Minimise menu"
+                >
+
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        aria-hidden="true"
+                    >
+                        <path
+                            d="M2 4h12M2 8h12M2 12h12"
+                            stroke="currentColor"
+                            stroke-width="1.6"
+                            stroke-linecap="round"
+                        />
+                    </svg>
+
+                </button>
+
+
+                <!-- BRAND -->
+
+                <a
+                    href="#"
+                    class="brand"
+                    data-view-target="performance"
+                    aria-label="ELG FMS Market Performance"
+                >
+
+                    <span class="brand-mark">
+                        <img src="assets/logo.png" alt="" width="40" height="40" decoding="async">
+                    </span>
+
+                    <span class="brand-copy">
+
+                        <span class="brand-name">
+                            ELG FMS
+                        </span>
+
+                        <span class="brand-subtitle">
+                            Funds Monitoring System
+                        </span>
+
+                    </span>
+
+                </a>
+
+
+                <!-- HEADER ACTIONS -->
+
+                <div class="header-actions">
+
+
+                    <!-- DATA STATUS -->
+
+                    <div
+                        id="app-status"
+                        class="data-status is-loading"
+                        aria-live="polite"
+                        aria-busy="true"
+                        title="Loading ELG FMS data."
+                    >
+
+                        <span class="status-dot"></span>
+
+                        <span
+                            id="app-status-text"
+                            class="status-text"
+                        >
+                            Loading data…
+                        </span>
+
+                    </div>
+
+
+                    <!-- REFRESH DATA -->
+
+                    <button
+                        id="refresh-data"
+                        class="theme-toggle refresh-button"
+                        type="button"
+                        aria-label="Refresh data"
+                        title="Reload the latest published data (stays on this page)"
+                    >
+
+                        <span
+                            class="refresh-icon"
+                            aria-hidden="true"
+                        >↻</span>
+
+                        <span class="refresh-label">
+                            Refresh
+                        </span>
+
+                    </button>
+
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- ==================================================
+             APP BODY (left navigation + content)
+        =================================================== -->
+
+        <div class="app-body">
+
+
+        <!-- ==================================================
+             MAIN NAVIGATION
+        =================================================== -->
+
+        <nav
+            id="main-nav"
+            class="main-nav"
+            aria-label="Primary navigation"
+        >
+
+            <div class="main-nav-inner">
+
+
+                <button
+                    type="button"
+                    title="Market Performance"
+                    class="nav-link active"
+                    data-view-target="performance"
+                    aria-current="page"
+                >
+
+                    <span class="nav-link-icon">
+                        ↗
+                    </span>
+
+                    <span class="nav-link-label">
+                        Market Performance
+                    </span>
+
+                    <span class="nav-link-short" aria-hidden="true">Market</span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    title="Market News"
+                    class="nav-link"
+                    data-view-target="news"
+                    aria-current="false"
+                >
+
+                    <span class="nav-link-icon">
+                        ◈
+                    </span>
+
+                    <span class="nav-link-label">
+                        Market News
+                    </span>
+
+                    <span class="nav-link-short" aria-hidden="true">News</span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    title="Fund Explorer"
+                    class="nav-link"
+                    data-view-target="fund-explorer"
+                    aria-current="false"
+                >
+
+                    <span class="nav-link-icon">
+                        ▦
+                    </span>
+
+                    <span class="nav-link-label">
+                        Fund Explorer
+                    </span>
+
+                    <span class="nav-link-short" aria-hidden="true">Funds</span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    title="Monitoring"
+                    class="nav-link"
+                    data-view-target="monitoring"
+                    aria-current="false"
+                >
+
+                    <span class="nav-link-icon">
+                        ◎
+                    </span>
+
+                    <span class="nav-link-label">
+                        Monitoring
+                    </span>
+
+                    <span class="nav-link-short" aria-hidden="true">Monitor</span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    title="Report Generation"
+                    class="nav-link"
+                    data-view-target="reports"
+                    aria-current="false"
+                >
+
+                    <span class="nav-link-icon">
+                        ▤
+                    </span>
+
+                    <span class="nav-link-label">
+                        Report Generation
+                    </span>
+
+                    <span class="nav-link-short" aria-hidden="true">Report</span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    title="Plan Calculator"
+                    class="nav-link"
+                    data-view-target="calculator"
+                    aria-current="false"
+                >
+
+                    <span class="nav-link-icon">
+                        ⊞
+                    </span>
+
+                    <span class="nav-link-label">
+                        Plan Calculator
+                    </span>
+
+                    <span class="nav-link-short" aria-hidden="true">Calc</span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    title="Settings"
+                    class="nav-link nav-link-bottom"
+                    data-view-target="settings"
+                    aria-current="false"
+                >
+
+                    <span class="nav-link-icon">
+                        ⚙
+                    </span>
+
+                    <span class="nav-link-label">
+                        Settings
+                    </span>
+
+                    <span class="nav-link-short" aria-hidden="true">Settings</span>
+
+                </button>
+
+            </div>
+
+        </nav>
+
+
+        <!-- ==================================================
+             MAIN CONTENT
+        =================================================== -->
+
+        <main class="main-content">
+
+
+            <!-- =================================================
+                 MARKET PERFORMANCE VIEW
+            ================================================== -->
+
+            <section
+                id="market-performance-view"
+                class="page-view is-active"
+                data-view-panel="performance"
+                aria-labelledby="performance-page-title"
+            >
+
+
+                <!-- PAGE HEADER -->
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            PRUDENTIAL SINGAPORE
+                        </div>
+
+                        <h1
+                            id="performance-page-title"
+                            class="page-title"
+                        >
+                            Market Performance
+                        </h1>
+
+                        <p class="page-description">
+                            Actual BID performance across the full
+                            Prudential Singapore fund universe.
+                        </p>
+
+                    </div>
+
+
+                    <div class="page-header-side">
+
+                        <div class="page-header-meta">
+
+                        <span class="meta-label">
+                            Latest BID observation
+                        </span>
+
+                        <strong
+                            id="latest-valuation-date"
+                            class="meta-value"
+                        >
+                            —
+                        </strong>
+
+                    </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FUND COMPARISON CHART -->
+
+                <section
+                    class="performance-card compare-card"
+                    aria-labelledby="fund-compare-title"
+                >
+
+                    <div class="card-header compare-header">
+
+                        <div>
+
+                            <div class="card-eyebrow">
+                                COMPARE FUNDS
+                            </div>
+
+                            <h2
+                                id="fund-compare-title"
+                                class="card-title"
+                            >
+                                Price performance
+                            </h2>
+
+                            <div
+                                id="fund-compare-range-label"
+                                class="compare-range-label"
+                            ></div>
+
+                        </div>
+
+
+                        <div
+                            class="compare-range-selector"
+                            role="tablist"
+                            aria-label="Comparison range"
+                        >
+
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="1M"
+                                title="1 month"
+                                role="tab"
+                                aria-selected="false"
+                            >1M</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="3M"
+                                title="3 months"
+                                role="tab"
+                                aria-selected="false"
+                            >3M</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="6M"
+                                title="6 months"
+                                role="tab"
+                                aria-selected="false"
+                            >6M</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="1Y"
+                                title="1 year"
+                                role="tab"
+                                aria-selected="false"
+                            >1Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="3Y"
+                                title="3 years"
+                                role="tab"
+                                aria-selected="false"
+                            >3Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="5Y"
+                                title="5 years"
+                                role="tab"
+                                aria-selected="false"
+                            >5Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="10Y"
+                                title="10 years"
+                                role="tab"
+                                aria-selected="false"
+                            >10Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="SI"
+                                title="Since inception"
+                                role="tab"
+                                aria-selected="false"
+                            >SI</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-compare-range="CUSTOM"
+                                title="Choose your own dates"
+                                role="tab"
+                                aria-selected="false"
+                            >Custom</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="compare-custom"
+                        class="fund-chart-custom compare-custom"
+                        hidden
+                    >
+                        <label>
+                            <span>From</span>
+                            <input id="compare-custom-from" type="date">
+                        </label>
+                        <label>
+                            <span>To</span>
+                            <input id="compare-custom-to" type="date">
+                        </label>
+                        <span id="compare-custom-error" class="fund-chart-error" role="alert"></span>
+                    </div>
+
+
+                    <div class="compare-toolbar">
+
+                        <div class="compare-picker">
+
+                            <input
+                                id="fund-compare-search"
+                                type="search"
+                                autocomplete="off"
+                                placeholder="Add a fund to compare…"
+                                aria-label="Search funds to add to the comparison"
+                                aria-controls="fund-compare-suggestions"
+                                aria-expanded="false"
+                                role="combobox"
+                            >
+
+                            <ul
+                                id="fund-compare-suggestions"
+                                class="compare-suggestions"
+                                role="listbox"
+                                hidden
+                            ></ul>
+
+                        </div>
+
+                        <span
+                            id="fund-compare-count"
+                            class="compare-count"
+                        ></span>
+
+                    </div>
+
+
+                    <div
+                        id="fund-compare-canvas-wrap"
+                        class="compare-chart-wrap"
+                    >
+
+                        <canvas
+                            id="fund-compare-chart"
+                            role="img"
+                            aria-label="Rebased price performance of the selected funds. The table below lists each fund's change over the range."
+                        ></canvas>
+
+                    </div>
+
+
+                    <div
+                        id="fund-compare-empty"
+                        class="compare-empty"
+                        hidden
+                    >
+                        Add a fund above to start comparing.
+                    </div>
+
+
+                    <div class="table-wrap">
+
+                        <table class="data-table compare-table">
+
+                            <colgroup>
+                                <col class="compare-col-fund">
+                                <col class="compare-col-code">
+                                <col class="compare-col-start">
+                                <col class="compare-col-change">
+                                <col class="compare-col-bid">
+                                <col class="compare-col-remove">
+                            </colgroup>
+
+                            <thead>
+
+                                <tr>
+                                    <th scope="col">Fund</th>
+                                    <th scope="col">Code</th>
+                                    <th scope="col">Start</th>
+                                    <th scope="col">Change</th>
+                                    <th scope="col" title="BID price at the end of the selected range">End BID</th>
+                                    <th scope="col"><span class="sr-only">Remove</span></th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody id="fund-compare-table-body"></tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+
+                <!-- PERIOD TOOLBAR -->
+
+                <div class="period-toolbar">
+
+                <!-- PERFORMANCE PERIOD SELECTOR -->
+
+                <div
+                    class="period-selector period-selector-compact"
+                    role="tablist"
+                    aria-label="Performance period"
+                >
+
+                    <button
+                        type="button"
+                        class="period-tab"
+                        data-period="DD"
+                        title="Day over Day"
+                        role="tab"
+                        aria-selected="false"
+                    >
+
+                        <span class="period-tab-code">
+                            D-D
+                        </span>
+
+                        <span class="period-tab-description">
+                            Day over Day
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="period-tab"
+                        data-period="WW"
+                        title="Week over Week"
+                        role="tab"
+                        aria-selected="false"
+                    >
+
+                        <span class="period-tab-code">
+                            W-W
+                        </span>
+
+                        <span class="period-tab-description">
+                            Week over Week
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="period-tab active"
+                        data-period="MM"
+                        title="Month over Month"
+                        role="tab"
+                        aria-selected="true"
+                    >
+
+                        <span class="period-tab-code">
+                            M-M
+                        </span>
+
+                        <span class="period-tab-description">
+                            Month over Month
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="period-tab"
+                        data-period="YY"
+                        title="Year over Year"
+                        role="tab"
+                        aria-selected="false"
+                    >
+
+                        <span class="period-tab-code">
+                            Y-Y
+                        </span>
+
+                        <span class="period-tab-description">
+                            Year over Year
+                        </span>
+
+                    </button>
+
+
+                <button
+                    type="button"
+                    class="period-tab"
+                    data-period="SI"
+                    title="Since Inception"
+                    role="tab"
+                    aria-selected="false"
+                >
+
+                    <span class="period-tab-code">
+                        S-I
+                    </span>
+
+                    <span class="period-tab-description">
+                        Since Inception
+                    </span>
+
+                </button>
+
+                </div>
+
+                </div>
+
+
+                <!-- SELECTED PERIOD SUMMARY -->
+
+                <section
+                    class="performance-summary"
+                    aria-label="Performance summary"
+                >
+
+
+                    <div class="summary-card">
+
+                        <div class="summary-card-label">
+                            Eligible funds
+                        </div>
+
+                        <div
+                            id="eligible-fund-count"
+                            class="summary-card-value"
+                        >
+                            —
+                        </div>
+
+                        <div
+                            id="performance-eligible-count"
+                            class="summary-card-meta"
+                        >
+                            Loading…
+                        </div>
+
+                    </div>
+
+
+                    <div class="summary-card">
+
+                        <div class="summary-card-label">
+                            Strongest performer
+                        </div>
+
+                        <div
+                            id="top-winner-return"
+                            class="summary-card-value return-positive"
+                        >
+                            —
+                        </div>
+
+                        <div
+                            id="top-winner-name"
+                            class="summary-card-meta summary-card-name"
+                        >
+                            —
+                        </div>
+
+                    </div>
+
+
+                    <div class="summary-card">
+
+                        <div class="summary-card-label">
+                            Weakest performer
+                        </div>
+
+                        <div
+                            id="top-loser-return"
+                            class="summary-card-value return-negative"
+                        >
+                            —
+                        </div>
+
+                        <div
+                            id="top-loser-name"
+                            class="summary-card-meta summary-card-name"
+                        >
+                            —
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- PERFORMANCE AS-OF INFORMATION -->
+
+                <div class="performance-context">
+
+                    <span
+                        id="performance-as-of"
+                    >
+                        Latest BID: —
+                    </span>
+
+                    <span class="context-separator">
+                        •
+                    </span>
+
+                    <span
+                        id="performance-target-date"
+                    >
+                        Comparison target: —
+                    </span>
+
+                </div>
+
+
+                <!-- PERFORMANCE TABLES -->
+
+                <div class="performance-grid">
+
+
+                    <!-- WINNERS -->
+
+                    <section
+                        class="performance-card"
+                        aria-labelledby="winners-title"
+                    >
+
+                        <div class="card-header">
+
+                            <div>
+
+                                <div class="card-eyebrow">
+                                    TOP 10
+                                </div>
+
+                                <h2
+                                    id="winners-title"
+                                    class="card-title"
+                                >
+                                    Winners
+                                </h2>
+
+                            </div>
+
+                            <span class="card-indicator positive">
+                                ▲
+                            </span>
+
+                        </div>
+
+
+                        <div class="table-wrap">
+
+                            <table
+                                class="data-table performance-table"
+                            >
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th
+                                            scope="col"
+                                            class="rank-column"
+                                        >
+                                            #
+                                        </th>
+
+                                        <th scope="col">
+                                            Fund
+                                        </th>
+
+                                        <th scope="col">
+                                            Code
+                                        </th>
+
+                                        <th scope="col">
+                                            Return
+                                        </th>
+
+                                        <th scope="col">
+                                            BID
+                                        </th>
+
+                                    </tr>
+
+                                </thead>
+
+
+                                <tbody
+                                    id="winners-table-body"
+                                >
+
+                                    <tr>
+
+                                        <td
+                                            colspan="5"
+                                            class="loading-state"
+                                        >
+                                            Loading performance…
+                                        </td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </section>
+
+
+                    <!-- LOSERS -->
+
+                    <section
+                        class="performance-card"
+                        aria-labelledby="losers-title"
+                    >
+
+                        <div class="card-header">
+
+                            <div>
+
+                                <div class="card-eyebrow">
+                                    BOTTOM 10
+                                </div>
+
+                                <h2
+                                    id="losers-title"
+                                    class="card-title"
+                                >
+                                    Losers
+                                </h2>
+
+                            </div>
+
+                            <span class="card-indicator negative">
+                                ▼
+                            </span>
+
+                        </div>
+
+
+                        <div class="table-wrap">
+
+                            <table
+                                class="data-table performance-table"
+                            >
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th
+                                            scope="col"
+                                            class="rank-column"
+                                        >
+                                            #
+                                        </th>
+
+                                        <th scope="col">
+                                            Fund
+                                        </th>
+
+                                        <th scope="col">
+                                            Code
+                                        </th>
+
+                                        <th scope="col">
+                                            Return
+                                        </th>
+
+                                        <th scope="col">
+                                            BID
+                                        </th>
+
+                                    </tr>
+
+                                </thead>
+
+
+                                <tbody
+                                    id="losers-table-body"
+                                >
+
+                                    <tr>
+
+                                        <td
+                                            colspan="5"
+                                            class="loading-state"
+                                        >
+                                            Loading performance…
+                                        </td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 MARKET NEWS VIEW
+            ================================================== -->
+
+            <section
+                id="market-news-view"
+                class="page-view"
+                data-view-panel="news"
+                aria-labelledby="news-page-title"
+                hidden
+            >
+
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            MARKET INTELLIGENCE
+                        </div>
+
+                        <h1
+                            id="news-page-title"
+                            class="page-title"
+                        >
+                            Market News
+                        </h1>
+
+                        <p class="page-description">
+                            AI-analyzed market news relevant to
+                            investment monitoring.
+                        </p>
+
+                    </div>
+
+
+                    <div class="page-header-meta">
+
+                        <span
+                            id="market-news-window"
+                            class="meta-label"
+                        >
+                            14-day rolling window
+                        </span>
+
+                        <strong
+                            id="market-news-generated"
+                            class="meta-value"
+                        >
+                            —
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- NEWS TABS -->
+
+                <div
+                    class="news-tabs"
+                    role="tablist"
+                    aria-label="Market news view"
+                >
+
+                    <button
+                        type="button"
+                        class="news-tab active"
+                        data-news-tab="current"
+                        role="tab"
+                        aria-selected="true"
+                    >
+                        Current
+                    </button>
+
+                    <button
+                        type="button"
+                        class="news-tab"
+                        data-news-tab="history"
+                        role="tab"
+                        aria-selected="false"
+                    >
+                        History
+                    </button>
+
+                </div>
+
+
+                <!-- CURRENT NEWS -->
+
+                <div
+                    id="market-news-current"
+                    data-market-news-current
+                    class="market-news-current"
+                >
+
+
+                    <!-- NEWS TOOLBAR -->
+
+                    <div class="news-toolbar">
+
+                        <div class="news-search">
+
+                            <label
+                                for="market-news-search"
+                                class="sr-only"
+                            >
+                                Search market news
+                            </label>
+
+                            <input
+                                id="market-news-search"
+                                type="search"
+                                placeholder="Search news…"
+                                autocomplete="off"
+                            >
+
+                        </div>
+
+
+                        <div class="news-filter-group">
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Asset class <em class="filter-scope filter-scope-funds">[Funds]</em>
+                                </span>
+
+                                <select
+                                    id="market-news-asset"
+                                    multiple
+                                >
+
+                                    <option value="ALL">
+                                        All
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Geography <em class="filter-scope filter-scope-funds">[Funds]</em>
+                                </span>
+
+                                <select
+                                    id="market-news-geography"
+                                    multiple
+                                >
+
+                                    <option value="ALL">
+                                        All
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Sector <em class="filter-scope filter-scope-funds">[Funds]</em>
+                                </span>
+
+                                <select
+                                    id="market-news-sector"
+                                    multiple
+                                >
+
+                                    <option value="ALL">
+                                        All
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Category <em class="filter-scope filter-scope-news">[News]</em>
+                                </span>
+
+                                <select
+                                    id="market-news-category"
+                                    multiple
+                                >
+
+                                    <option value="ALL">
+                                        All
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Importance <em class="filter-scope filter-scope-news">[News]</em>
+                                </span>
+
+                                <select
+                                    id="market-news-importance"
+                                    multiple
+                                >
+
+                                    <option value="ALL">
+                                        All
+                                    </option>
+
+                                    <option value="HIGH">
+                                        High
+                                    </option>
+
+                                    <option value="MEDIUM">
+                                        Medium
+                                    </option>
+
+                                    <option value="LOW">
+                                        Low
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control"
+                            >
+
+                                <span>
+                                    Sentiment <em class="filter-scope filter-scope-news">[News]</em>
+                                </span>
+
+                                <select
+                                    id="market-news-sentiment"
+                                    multiple
+                                >
+
+                                    <option value="ALL">
+                                        All
+                                    </option>
+
+                                    <option value="POSITIVE">
+                                        Positive
+                                    </option>
+
+                                    <option value="NEUTRAL">
+                                        Neutral
+                                    </option>
+
+                                    <option value="NEGATIVE">
+                                        Negative
+                                    </option>
+
+                                    <option value="MIXED">
+                                        Mixed
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control filter-control-fund"
+                            >
+
+                                <span>
+                                    Fund
+                                </span>
+
+                                <select
+                                    id="market-news-fund"
+                                    multiple
+                                >
+
+                                    <option value="ALL">
+                                        All funds
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- NEWS OVERVIEW (charts) -->
+
+                    <details
+                        id="news-overview"
+                        class="news-overview"
+                    >
+
+                        <summary class="news-overview-summary">
+
+                            <span class="news-overview-title">
+                                News overview
+                            </span>
+
+                            <span class="news-overview-hint">
+                                Charts follow the filters above
+                            </span>
+
+                            <span
+                                class="news-overview-chevron"
+                                aria-hidden="true"
+                            >
+                                ▾
+                            </span>
+
+                        </summary>
+
+
+                        <section
+                            class="news-analytics"
+                            aria-label="Market news analytics"
+                        >
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            SENTIMENT
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            News Sentiment
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-sentiment-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            CATEGORIES
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            News Categories
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-category-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            IMPORTANCE
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            Importance
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-importance-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            ASSET CLASSES
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            Asset Class Mentions
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-asset-class-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            GEOGRAPHY
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            Geographic Mentions
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-geography-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+
+                            <div class="analytics-card">
+
+                                <div class="card-header">
+
+                                    <div>
+
+                                        <div class="card-eyebrow">
+                                            SECTORS
+                                        </div>
+
+                                        <h2 class="card-title">
+                                            Sector Mentions
+                                        </h2>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-container">
+                                    <canvas
+                                        id="news-sector-chart"
+                                    ></canvas>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </details>
+
+
+                    <!-- NEWS SUMMARY -->
+
+                    <div class="news-summary-bar">
+
+                        <span
+                            id="market-news-count"
+                        >
+                            —
+                        </span>
+
+                        <button
+                            id="market-news-clear"
+                            type="button"
+                            class="news-clear-filters"
+                            hidden
+                        >
+                            Clear filters
+                        </button>
+
+                    </div>
+
+
+                    <!-- NEWS ARTICLES -->
+
+                    <div
+                        id="market-news-articles"
+                        class="news-list"
+                    >
+
+                        <div
+                            class="loading-state"
+                        >
+                            Loading Market News…
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- =================================================
+                     NEWS HISTORY
+                ================================================== -->
+
+                <div
+                    id="market-news-history"
+                    data-market-news-history
+                    class="market-news-history"
+                    hidden
+                >
+
+                    <div class="history-toolbar">
+
+                        <div class="history-month-nav">
+
+                            <button
+                                type="button"
+                                class="history-nav-button"
+                                data-history-month="-1"
+                                aria-label="Previous month"
+                                title="Previous month"
+                            >‹</button>
+
+                            <span
+                                id="history-month-label"
+                                class="history-month-label"
+                            >
+                                —
+                            </span>
+
+                            <button
+                                type="button"
+                                class="history-nav-button"
+                                data-history-month="1"
+                                aria-label="Next month"
+                                title="Next month"
+                            >›</button>
+
+                        </div>
+
+
+                        <label class="filter-control filter-control-fund">
+
+                            <span>
+                                Fund
+                            </span>
+
+                            <select id="history-fund">
+                                <option value="ALL">
+                                    All funds
+                                </option>
+                            </select>
+
+                        </label>
+
+                    </div>
+
+
+                    <div
+                        id="history-days"
+                        class="history-days"
+                        role="tablist"
+                        aria-label="Archived dates"
+                    ></div>
+
+
+                    <div
+                        id="history-status"
+                        class="news-summary-bar"
+                    ></div>
+
+
+                    <div
+                        id="history-articles"
+                        class="news-list"
+                    ></div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 FUND EXPLORER VIEW
+            ================================================== -->
+
+            <section
+                id="fund-explorer-view"
+                class="page-view"
+                data-view-panel="fund-explorer"
+                aria-labelledby="fund-explorer-page-title"
+                hidden
+            >
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            PRUDENTIAL SINGAPORE
+                        </div>
+
+                        <h1
+                            id="fund-explorer-page-title"
+                            class="page-title"
+                        >
+                            Fund Explorer
+                        </h1>
+
+                        <p class="page-description">
+                            Explore the complete Prudential fund
+                            universe and individual fund details.
+                        </p>
+
+                    </div>
+
+
+                    <div class="page-header-meta">
+
+                        <span class="meta-label">
+                            Data updated
+                        </span>
+
+                        <strong
+                            id="explorer-updated"
+                            class="meta-value"
+                        >
+                            —
+                        </strong>
+
+                        <span
+                            id="explorer-valuation"
+                            class="meta-sub"
+                        ></span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FILTERS -->
+
+                <div class="explorer-toolbar">
+
+                    <div class="explorer-search-row">
+
+                        <div class="news-search">
+                            <label for="explorer-search" class="sr-only">Search funds</label>
+                            <input
+                                id="explorer-search"
+                                type="search"
+                                placeholder="Search fund name or code…"
+                                autocomplete="off"
+                                data-explorer-filter
+                            >
+                        </div>
+
+                        <div class="news-search explorer-holding-picker">
+                            <label for="explorer-holding" class="sr-only">Find funds holding a company</label>
+                            <input
+                                id="explorer-holding"
+                                type="search"
+                                placeholder="Funds holding… (e.g. Nvidia)"
+                                autocomplete="off"
+                                role="combobox"
+                                aria-expanded="false"
+                                aria-controls="explorer-holding-options"
+                                data-explorer-filter
+                            >
+                            <ul id="explorer-holding-options" class="compare-suggestions" role="listbox" hidden></ul>
+                        </div>
+
+                    </div>
+
+                    <div class="explorer-filter-group">
+
+                        <label class="filter-control">
+                            <span>Asset class</span>
+                            <select id="explorer-asset" data-explorer-filter multiple>
+                                <option value="ALL">All asset classes</option>
+                            </select>
+                        </label>
+
+                        <label class="filter-control">
+                            <span>Risk level</span>
+                            <select id="explorer-risk" data-explorer-filter multiple>
+                                <option value="ALL">All risk levels</option>
+                            </select>
+                        </label>
+
+                        <label class="filter-control">
+                            <span>Geography</span>
+                            <select id="explorer-geography" data-explorer-filter multiple>
+                                <option value="ALL">All geographies</option>
+                            </select>
+                        </label>
+
+                        <label class="filter-control">
+                            <span>Sector</span>
+                            <select id="explorer-sector" data-explorer-filter multiple>
+                                <option value="ALL">All sectors</option>
+                            </select>
+                        </label>
+
+                        <label class="filter-control">
+                            <span>Dividend</span>
+                            <select id="explorer-dividend" data-explorer-filter multiple>
+                                <option value="ALL">All funds</option>
+                                <option value="YES">Pays dividend</option>
+                                <option value="NO">No dividend</option>
+                            </select>
+                        </label>
+
+                        <label class="filter-control" data-payment-filter hidden>
+                            <span>Payment mode</span>
+                            <select id="explorer-payment" data-explorer-filter multiple>
+                                <option value="ALL">All payment modes</option>
+                            </select>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <div class="news-summary-bar explorer-summary-bar">
+
+                    <span id="explorer-count">Loading funds…</span>
+
+                    <label class="explorer-sort-mobile">
+                        <span>Sort</span>
+                        <select id="explorer-sort-mobile" aria-label="Sort funds">
+                            <option value="name:asc">Name A–Z</option>
+                            <option value="ytd:desc">YTD (best first)</option>
+                            <option value="m1:desc">1M (best first)</option>
+                            <option value="y1:desc">1Y (best first)</option>
+                            <option value="y3:desc">3Y (best first)</option>
+                            <option value="ytd:asc">YTD (worst first)</option>
+                            <option value="y1:asc">1Y (worst first)</option>
+                            <option value="risk:asc">Risk (low to high)</option>
+                            <option value="bid:desc">BID price (high to low)</option>
+                        </select>
+                    </label>
+
+                    <button
+                        id="explorer-clear"
+                        type="button"
+                        class="news-clear-filters"
+                        hidden
+                    >
+                        Clear filters
+                    </button>
+
+                </div>
+
+
+                <!-- FUND TABLE -->
+
+                <section class="performance-card explorer-card" aria-label="Fund list">
+
+                    <div class="table-wrap">
+
+                        <table class="data-table explorer-table">
+
+                            <thead>
+                                <tr>
+                                    <th scope="col" data-explorer-sort="name" tabindex="0" aria-sort="ascending">Fund <span class="sort-arrow"></span></th>
+                                    <th scope="col" class="explorer-payment-head">Payment mode</th>
+                                    <th scope="col" data-explorer-sort="asset" tabindex="0">Asset class <span class="sort-arrow"></span></th>
+                                    <th scope="col" data-explorer-sort="risk" tabindex="0">Risk <span class="sort-arrow"></span></th>
+                                    <th scope="col" data-explorer-sort="bid" tabindex="0">BID price <span class="sort-arrow"></span></th>
+                                    <th scope="col" data-explorer-sort="ytd" tabindex="0">YTD <span class="sort-arrow"></span></th>
+                                    <th scope="col" data-explorer-sort="m1" tabindex="0">1M <span class="sort-arrow"></span></th>
+                                    <th scope="col" data-explorer-sort="y1" tabindex="0">1Y <span class="sort-arrow"></span></th>
+                                    <th scope="col" data-explorer-sort="y3" tabindex="0">3Y <span class="sort-arrow"></span></th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="explorer-table-body">
+                                <tr>
+                                    <td colspan="8" class="loading-state">Loading funds…</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+                <p class="fund-source-note explorer-note">
+                    Returns are Prudential's published cumulative figures as at
+                    each fund's valuation date. Click a fund for its full profile.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 MONITORING VIEW
+            ================================================== -->
+
+            <section
+                id="monitoring-view"
+                class="page-view"
+                data-view-panel="monitoring"
+                aria-labelledby="monitoring-page-title"
+                hidden
+            >
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            PORTFOLIO INTELLIGENCE
+                        </div>
+
+                        <h1
+                            id="monitoring-page-title"
+                            class="page-title"
+                        >
+                            Monitoring
+                        </h1>
+
+                        <p class="page-description">
+                            Monitor selected funds, performance
+                            movements and market developments.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <p id="monitoring-loading" class="news-summary-bar">Loading price history…</p>
+
+
+                <!-- WATCHLIST -->
+
+                <section class="performance-card monitor-card" aria-labelledby="watchlist-title">
+
+                    <div class="card-header">
+                        <div>
+                            <div class="card-eyebrow">MY FUNDS</div>
+                            <h2 id="watchlist-title" class="card-title">Watchlist &amp; alerts</h2>
+                            <div id="watchlist-summary" class="compare-range-label"></div>
+                        </div>
+                    </div>
+
+                    <div class="compare-toolbar">
+                        <div class="compare-picker watchlist-picker">
+                            <input
+                                id="watchlist-search"
+                                type="search"
+                                autocomplete="off"
+                                placeholder="Add a fund to your watchlist…"
+                                aria-label="Search funds to watch"
+                            >
+                            <ul id="watchlist-suggestions" class="compare-suggestions" role="listbox" hidden></ul>
+                        </div>
+                    </div>
+
+                    <div class="table-wrap">
+                        <table class="data-table monitor-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"><span class="sr-only">Watching</span></th>
+                                    <th scope="col">Fund</th>
+                                    <th scope="col">Latest BID</th>
+                                    <th scope="col">1D</th>
+                                    <th scope="col">1W</th>
+                                    <th scope="col">1M</th>
+                                    <th scope="col">From 52W high</th>
+                                    <th scope="col">Alerts</th>
+                                </tr>
+                            </thead>
+                            <tbody id="watchlist-body"></tbody>
+                        </table>
+                    </div>
+
+                    <details class="monitor-rules">
+                        <summary>Alert rules</summary>
+
+                        <div class="monitor-rules-body">
+                            <p class="settings-help">Alerts appear on watched funds when a rule is met. Saved in this browser.</p>
+
+                            <label class="monitor-rule">
+                                <input type="checkbox" data-rule-enabled="dayMove">
+                                <select class="monitor-rule-direction" data-rule-direction="dayMove" aria-label="Direction"><option value="down">Fall</option><option value="up">Rise</option><option value="both">Rise or fall</option></select>
+                                <span>in 1 day of at least</span>
+                                <input type="number" min="0.1" step="0.5" class="monitor-rule-value" data-rule-value="dayMove" aria-label="1-day move threshold">
+                                <span class="monitor-rule-unit">%</span>
+                            </label>
+
+                            <label class="monitor-rule">
+                                <input type="checkbox" data-rule-enabled="weekDrop">
+                                <select class="monitor-rule-direction" data-rule-direction="weekDrop" aria-label="Direction"><option value="down">Fall</option><option value="up">Rise</option><option value="both">Rise or fall</option></select>
+                                <span>over 1 week of at least</span>
+                                <input type="number" min="0.1" step="0.5" class="monitor-rule-value" data-rule-value="weekDrop" aria-label="1-week move threshold">
+                                <span class="monitor-rule-unit">%</span>
+                            </label>
+
+                            <label class="monitor-rule">
+                                <input type="checkbox" data-rule-enabled="monthDrop">
+                                <select class="monitor-rule-direction" data-rule-direction="monthDrop" aria-label="Direction"><option value="down">Fall</option><option value="up">Rise</option><option value="both">Rise or fall</option></select>
+                                <span>over 1 month of at least</span>
+                                <input type="number" min="0.1" step="0.5" class="monitor-rule-value" data-rule-value="monthDrop" aria-label="1-month move threshold">
+                                <span class="monitor-rule-unit">%</span>
+                            </label>
+
+                            <label class="monitor-rule">
+                                <input type="checkbox" data-rule-enabled="fromHigh">
+                                <select class="monitor-rule-direction" data-rule-direction="fromHigh" aria-label="Direction"><option value="down">Below its 52-week high</option><option value="up">Above its 52-week low</option><option value="both">Below 52W high or above 52W low</option></select>
+                                <span>by at least</span>
+                                <input type="number" min="0.1" step="1" class="monitor-rule-value" data-rule-value="fromHigh" aria-label="52-week threshold">
+                                <span class="monitor-rule-unit">%</span>
+                            </label>
+
+                            <label class="monitor-rule">
+                                <input type="checkbox" data-rule-enabled="newHigh">
+                                <span>New 52-week high</span>
+                            </label>
+
+                            <label class="monitor-rule">
+                                <input type="checkbox" data-rule-enabled="newLow">
+                                <span>New 52-week low</span>
+                            </label>
+                            <button id="alert-rules-reset" type="button" class="news-clear-filters">Reset to defaults</button>
+                        </div>
+                    </details>
+
+                </section>
+
+
+                <!-- UNUSUAL MOVES -->
+
+                <section class="performance-card monitor-card" aria-labelledby="unusual-title">
+
+                    <div class="card-header">
+                        <div>
+                            <div class="card-eyebrow">ALL FUNDS</div>
+                            <h2 id="unusual-title" class="card-title">Unusual moves</h2>
+                            <div id="unusual-asof" class="compare-range-label"></div>
+                        </div>
+
+                        <label class="filter-control monitor-sensitivity">
+                            <span>Flag moves bigger than</span>
+                            <select id="unusual-sensitivity">
+                                <option value="2">2× usual</option>
+                                <option value="2.5">2.5× usual</option>
+                                <option value="3">3× usual</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div id="unusual-hidden-bar" class="unusual-hidden-bar" hidden></div>
+
+                    <div id="unusual-lists" class="monitor-lists"></div>
+
+                    <p class="fund-source-note monitor-note">
+                        "Usual" move = how much the fund's BID typically changes from one price to the next
+                        over the past 12 months. Based on actual BID prices only. Click any fund for its profile.
+                    </p>
+
+                </section>
+
+            </section>
+
+
+            <!-- =================================================
+                 REPORT GENERATION VIEW
+            ================================================== -->
+
+            <section
+                id="reports-view"
+                class="page-view"
+                data-view-panel="reports"
+                aria-labelledby="reports-page-title"
+                hidden
+            >
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            CLIENT REPORTS
+                        </div>
+
+                        <h1
+                            id="reports-page-title"
+                            class="page-title"
+                        >
+                            Report Generation
+                        </h1>
+
+                        <p class="page-description">
+                            Show a client how an investment would have grown, using the funds' actual BID prices.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <section id="report-setup" class="performance-card report-card" aria-labelledby="report-setup-title">
+
+                    <div class="card-header">
+                        <div>
+                            <div class="card-eyebrow">INVESTMENT GROWTH</div>
+                            <h2 id="report-setup-title" class="card-title">Report setup</h2>
+                        </div>
+                    </div>
+
+                    <p id="report-loading" class="news-summary-bar report-loading">Loading price history…</p>
+
+                    <form id="report-form" class="report-form" novalidate hidden autocomplete="off">
+
+                        <!-- STEP 1 -->
+                        <fieldset class="report-group report-step" data-report-step="1">
+                            <legend><span class="report-step-no">1</span>Client &amp; adviser</legend>
+
+                            <div class="report-grid report-grid-3">
+                                <label class="report-field">
+                                    <span>Client name <b class="report-required" aria-hidden="true">*</b></span>
+                                    <input id="report-client" type="text" autocomplete="off" placeholder="e.g. Mr Tan Wei Ming" required aria-required="true">
+                                </label>
+
+                                <label class="report-field">
+                                    <span>Prepared by <b class="report-required" aria-hidden="true">*</b></span>
+                                    <input id="report-adviser" type="text" autocomplete="off" placeholder="Your name" required aria-required="true">
+                                </label>
+
+                                <label class="report-field">
+                                    <span>Adviser contact <i class="report-optional">(optional)</i></span>
+                                    <input id="report-contact" type="text" autocomplete="off" placeholder="Phone or email">
+                                </label>
+                            </div>
+
+                            <p class="settings-help report-step-hint" data-step-hint="1">Fill in the client name and your name to continue.</p>
+                        </fieldset>
+
+                        <!-- STEP 2 -->
+                        <fieldset class="report-group report-step" data-report-step="2" hidden>
+                            <legend><span class="report-step-no">2</span>Payment mode</legend>
+
+                            <div id="report-payment-options" class="report-payment-options" role="radiogroup" aria-label="Payment mode"></div>
+
+                            <p class="settings-help report-step-hint" data-step-hint="2">Choose how the client will pay. Only funds that accept it can be added.</p>
+                        </fieldset>
+
+                        <!-- STEP 3 -->
+                        <fieldset class="report-group report-step" data-report-step="3" hidden>
+                            <legend><span class="report-step-no">3</span>Premium</legend>
+
+                            <div class="report-grid report-grid-6">
+                                <label class="report-field">
+                                    <span>Initial lump sum</span>
+                                    <input id="report-lump" type="number" min="0" step="100" inputmode="decimal" placeholder="e.g. 10000">
+                                </label>
+
+                                <label class="report-field">
+                                    <span>Regular top-up</span>
+                                    <input id="report-topup" type="number" min="0" step="50" inputmode="decimal" placeholder="e.g. 500">
+                                </label>
+
+                                <label class="filter-control report-field">
+                                    <span>Top-up frequency</span>
+                                    <select id="report-frequency">
+                                        <option value="monthly">Monthly</option>
+                                        <option value="quarterly">Quarterly</option>
+                                        <option value="half-yearly">Half-yearly</option>
+                                        <option value="yearly">Yearly</option>
+                                        <option value="none">No top-ups</option>
+                                    </select>
+                                </label>
+
+                                <label class="report-field">
+                                    <span>Payment term (years)</span>
+                                    <input id="report-term" type="number" min="1" max="99" step="1" inputmode="numeric" placeholder="Until end date">
+                                </label>
+
+                                <label class="report-field">
+                                    <span>Start date</span>
+                                    <input id="report-start" type="date">
+                                </label>
+
+                                <label class="report-field">
+                                    <span>End date</span>
+                                    <input id="report-end" type="date">
+                                </label>
+                            </div>
+
+                            <p id="report-date-note" class="settings-help report-date-note"></p>
+
+                            <p class="settings-help report-step-hint" data-step-hint="3">Enter an initial lump sum or a regular top-up (at least one must be above 0), with a start date before the end date. Payment term is optional: leave it empty to pay top-ups until the end date.</p>
+                        </fieldset>
+
+                        <!-- STEP 4 -->
+                        <fieldset class="report-group report-step" data-report-step="4" hidden>
+                            <legend><span class="report-step-no">4</span>Funds &amp; allocation</legend>
+
+                            <p id="report-payment-note" class="settings-help report-payment-note"></p>
+
+                            <p id="report-date-adjust" class="settings-help report-date-adjust" hidden></p>
+
+                            <div class="report-picker-row">
+                                <div class="compare-picker report-picker">
+                                    <input
+                                        id="report-fund-search"
+                                        type="search"
+                                        autocomplete="off"
+                                        placeholder="Add a fund to the portfolio…"
+                                        aria-label="Search funds to add"
+                                    >
+                                    <ul id="report-fund-suggestions" class="compare-suggestions" role="listbox" hidden></ul>
+                                </div>
+
+                                <button id="report-split" type="button" class="news-clear-filters">Split equally</button>
+
+                                <span id="report-allocation-total" class="report-total">Total 0%</span>
+                            </div>
+
+                            <div class="table-wrap">
+                                <table class="data-table report-funds-table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Fund</th>
+                                            <th scope="col">Allocation</th>
+                                            <th scope="col"><span class="sr-only">Remove</span></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="report-funds-body"></tbody>
+                                </table>
+                            </div>
+
+                            <p class="settings-help report-step-hint" data-step-hint="4">Allocations go up in steps of 5% and must total 100%.</p>
+
+                        </fieldset>
+
+                        <!-- STEP 5 -->
+                        <fieldset class="report-group report-step" data-report-step="5" hidden>
+                            <legend><span class="report-step-no">5</span>Investment booster</legend>
+
+                            <p class="settings-help report-booster-question">Add one-off extra investments on top of the premium?</p>
+
+                            <div id="report-booster-choice" class="report-payment-options report-booster-choice" role="radiogroup" aria-label="Investment booster">
+                                <button type="button" class="report-payment-option" role="radio" aria-checked="false" data-report-booster="no">
+                                    <span class="report-payment-name">No</span>
+                                    <span class="report-payment-desc">Premium only</span>
+                                </button>
+                                <button type="button" class="report-payment-option" role="radio" aria-checked="false" data-report-booster="yes">
+                                    <span class="report-payment-name">Yes</span>
+                                    <span class="report-payment-desc">Add one or more boosters</span>
+                                </button>
+                            </div>
+
+                            <div id="report-booster-list" class="report-booster-list" hidden></div>
+
+                            <button id="report-booster-add" type="button" class="news-clear-filters report-booster-add" hidden>+ Add another booster</button>
+
+                            <div id="report-dividend-choice" class="report-dividend-choice" hidden>
+                                <p class="settings-help report-booster-question">Some chosen funds pay dividends. How should the report treat them?</p>
+
+                                <div class="report-payment-options report-booster-choice" role="radiogroup" aria-label="Dividends">
+                                    <button type="button" class="report-payment-option active" role="radio" aria-checked="true" data-report-dividend="cash">
+                                        <span class="report-payment-name">Paid out as cash</span>
+                                        <span class="report-payment-desc">Payouts are added up and counted in the gain</span>
+                                    </button>
+                                    <button type="button" class="report-payment-option" role="radio" aria-checked="false" data-report-dividend="reinvest">
+                                        <span class="report-payment-name">Reinvested</span>
+                                        <span class="report-payment-desc">Payouts buy more units of the same fund</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <p class="settings-help report-step-hint" data-step-hint="5">Choose No to continue, or Yes and fill in each booster's date, amount and fund allocation (total 100%).</p>
+
+                            <p id="report-error" class="report-error" role="alert" hidden></p>
+
+                            <div class="report-actions">
+                                <button type="submit" class="report-generate" disabled>Generate report</button>
+                                <span class="settings-help">Amounts are in the funds' currency. Nothing you enter is saved or sent anywhere.</span>
+                            </div>
+                        </fieldset>
+
+                    </form>
+
+                </section>
+
+
+                <!-- Report preview popup (A4 "PDF view") -->
+                <dialog id="report-output" class="report-dialog" aria-labelledby="report-dialog-title">
+
+                    <div class="report-toolbar">
+                        <div class="report-toolbar-title">
+                            <strong id="report-dialog-title">Report preview</strong>
+                            <span class="settings-help">A4 · this is how the PDF will look</span>
+                        </div>
+                        <div class="report-toolbar-actions">
+                            <button id="report-print" type="button" class="report-generate">⎙ Print / Save as PDF</button>
+                            <button type="button" class="report-close" data-report-close aria-label="Close preview" title="Close">×</button>
+                        </div>
+                    </div>
+
+                    <div class="report-paper-area">
+                        <article id="report-sheet" class="report-sheet" aria-label="Investment growth report"></article>
+                    </div>
+
+                </dialog>
+
+            </section>
+
+
+            <!-- =================================================
+                 SETTINGS VIEW
+            ================================================== -->
+
+            <section
+                id="calculator-view"
+                class="page-view"
+                data-view-panel="calculator"
+                aria-labelledby="calculator-page-title"
+                hidden
+            >
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            PRUVANTAGE ASSURE II · PRUVANTAGE WEALTH III
+                        </div>
+
+                        <h1
+                            id="calculator-page-title"
+                            class="page-title"
+                        >
+                            Plan Calculator
+                        </h1>
+
+                    </div>
+
+                </div>
+
+
+                <section class="performance-card report-card calc-card calc-setup-card" aria-label="Plan setup">
+
+                    <div class="report-form calc-form">
+
+                        <fieldset class="report-group calc-group">
+                            <legend>Plan</legend>
+
+                            <div id="calc-plan-choice" class="report-payment-options calc-plan-choice" role="radiogroup" aria-label="Plan">
+                                <button type="button" class="report-payment-option active" role="radio" aria-checked="true" data-calc-plan="PVA">
+                                    <span class="report-payment-name">PRUVantage Assure II</span>
+                                </button>
+                                <button type="button" class="report-payment-option" role="radio" aria-checked="false" data-calc-plan="PVW">
+                                    <span class="report-payment-name">PRUVantage Wealth III (SGD)</span>
+                                </button>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="report-group calc-group">
+                            <legend>Life Assured &amp; Premium</legend>
+
+                            <div class="report-grid calc-grid calc-grid-row">
+                                <label class="report-field">
+                                    <span>Date of birth</span>
+                                    <input id="calc-dob" type="date">
+                                    <small id="calc-age-limits" class="calc-field-note"></small>
+                                </label>
+
+                                <div id="calc-pva-only" class="calc-pva-only">
+                                    <label class="filter-control report-field">
+                                        <span>Sex</span>
+                                        <select id="calc-sex">
+                                            <option value="M">Male</option>
+                                            <option value="F">Female</option>
+                                        </select>
+                                    </label>
+
+                                    <label class="filter-control report-field">
+                                        <span>Smoker</span>
+                                        <select id="calc-smoker">
+                                            <option value="N">Non-smoker</option>
+                                            <option value="Y">Smoker</option>
+                                        </select>
+                                    </label>
+                                </div>
+
+                                <label class="report-field">
+                                    <span>Policy start date</span>
+                                    <input id="calc-start" type="date">
+                                </label>
+
+                                <label class="filter-control report-field">
+                                    <span>Premium term</span>
+                                    <select id="calc-term"></select>
+                                </label>
+
+                                <label class="filter-control report-field">
+                                    <span>Pay frequency</span>
+                                    <select id="calc-frequency">
+                                        <option value="1" selected>Yearly</option>
+                                        <option value="2">Half-yearly</option>
+                                        <option value="4">Quarterly</option>
+                                        <option value="12">Monthly</option>
+                                    </select>
+                                </label>
+
+                                <label class="report-field">
+                                    <span>Regular premium (S$)</span>
+                                    <input id="calc-premium" type="number" min="0" step="any" inputmode="decimal" value="24000">
+                                    <small id="calc-premium-limits" class="calc-field-note"></small>
+                                </label>
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset class="report-group calc-group">
+                            <legend>Accounts &amp; Funds</legend>
+
+                            <div class="report-grid calc-grid calc-grid-split">
+                                <label class="filter-control report-field">
+                                    <span>Growth Account %</span>
+                                    <select id="calc-growth">
+                                        <option value="100" selected>100%</option>
+                                        <option value="95">95%</option>
+                                        <option value="90">90%</option>
+                                        <option value="85">85%</option>
+                                        <option value="80">80%</option>
+                                        <option value="75">75%</option>
+                                        <option value="70">70%</option>
+                                        <option value="65">65%</option>
+                                        <option value="60">60%</option>
+                                        <option value="55">55%</option>
+                                        <option value="50">50%</option>
+                                        <option value="45">45%</option>
+                                        <option value="40">40%</option>
+                                        <option value="35">35%</option>
+                                        <option value="30">30%</option>
+                                        <option value="25">25%</option>
+                                        <option value="20">20%</option>
+                                        <option value="15">15%</option>
+                                        <option value="10">10%</option>
+                                        <option value="5">5%</option>
+                                        <option value="0">0%</option>
+                                    </select>
+                                </label>
+
+                                <label class="report-field">
+                                    <span>Flex Account %</span>
+                                    <input id="calc-flex" type="text" value="0%" readonly tabindex="-1" aria-live="polite">
+                                </label>
+                            </div>
+
+                            <p id="calc-split-note" class="settings-help calc-help"></p>
+
+                            <div id="calc-accounts" class="calc-accounts"></div>
+
+                            <div id="calc-welcome" class="calc-welcome" hidden></div>
+
+                            <p id="calc-list-note" class="settings-help calc-help"></p>
+                        </fieldset>
+
+                        <fieldset class="report-group calc-group">
+                            <legend>Investment Return</legend>
+
+                            <div class="report-grid calc-grid">
+                                <label class="report-field">
+                                    <span>Expected return rate (% a year)</span>
+                                    <input id="calc-return" type="number" step="0.25" inputmode="decimal" value="4">
+                                </label>
+
+                                <label class="filter-control report-field">
+                                    <span>Show</span>
+                                    <select id="calc-years">
+                                        <option value="10">10 years</option>
+                                        <option value="20">20 years</option>
+                                        <option value="30" selected>30 years</option>
+                                        <option value="40">40 years</option>
+                                        <option value="50">50 years</option>
+                                        <option value="age100">To age 100</option>
+                                    </select>
+                                </label>
+
+                                <label id="calc-div-growth-field" class="filter-control report-field" hidden>
+                                    <span>Growth Account dividends</span>
+                                    <select id="calc-div-growth">
+                                        <option value="reinvest" selected>Reinvested</option>
+                                        <option value="payout">Paid out</option>
+                                    </select>
+                                </label>
+
+                                <label id="calc-div-age-field" class="report-field" hidden>
+                                    <span>Payout starts at age</span>
+                                    <input id="calc-div-age" type="number" step="1" inputmode="numeric">
+                                    <small id="calc-div-age-note" class="calc-field-note"></small>
+                                </label>
+
+                                <label id="calc-div-flex-field" class="filter-control report-field" hidden>
+                                    <span>Flex Account dividends</span>
+                                    <select id="calc-div-flex">
+                                        <option value="reinvest" selected>Reinvested</option>
+                                        <option value="payout">Paid out</option>
+                                    </select>
+                                </label>
+                            </div>
+
+                            <p id="calc-div-note" class="settings-help calc-help" hidden></p>
+
+                            <p class="settings-help calc-help">The expected return rate grows the account value. The BID price stays at today's price throughout, so units bought and dividends (units held × the latest dividend per unit) are worked out at that price. Fund charges are already reflected in the BID price, so nothing more is deducted.</p>
+                        </fieldset>
+
+                        <div id="calc-promo-status" class="calc-promo-status"></div>
+
+                        <div id="calc-missing" class="calc-missing" hidden></div>
+
+                        <div class="report-actions calc-actions">
+                            <button id="calc-generate" type="button" class="report-generate" disabled>Generate</button>
+                            <span class="settings-help">Fill in every field, then click Generate to see the projected values.</span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- Projected values popup (opens on Generate) -->
+                <dialog id="calc-results-dialog" class="report-dialog calc-dialog" aria-labelledby="calc-results-title">
+
+                    <div class="report-toolbar">
+                        <div class="report-toolbar-title">
+                            <strong id="calc-results-title">Projected values</strong>
+                            <span id="calc-results-subtitle" class="settings-help"></span>
+                        </div>
+                        <div class="report-toolbar-actions">
+                            <button type="button" class="report-close" data-calc-close aria-label="Close projected values" title="Close">×</button>
+                        </div>
+                    </div>
+
+                    <div class="calc-dialog-body">
+                        <div id="calc-results" class="calc-results"></div>
+                    </div>
+
+                </dialog>
+
+            </section>
+
+
+            <section
+                id="settings-view"
+                class="page-view"
+                data-view-panel="settings"
+                aria-labelledby="settings-page-title"
+                hidden
+            >
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            PREFERENCES
+                        </div>
+
+                        <h1
+                            id="settings-page-title"
+                            class="page-title"
+                        >
+                            Settings
+                        </h1>
+
+                        <p class="page-description">
+                            Adjust how ELG FMS looks on this device.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <section class="performance-card settings-card" aria-labelledby="settings-display-title">
+
+                    <div class="card-header">
+                        <div>
+                            <div class="card-eyebrow">DISPLAY</div>
+                            <h2 id="settings-display-title" class="card-title">Appearance</h2>
+                        </div>
+                    </div>
+
+                    <div class="settings-body">
+
+                        <div class="settings-row">
+
+                            <h3 class="settings-label">Text size</h3>
+
+                            <p class="settings-help">
+                                Applies to every page, table and chart. Saved in this browser.
+                            </p>
+
+                            <div class="settings-slider">
+
+                                <span class="settings-slider-end settings-slider-small" aria-hidden="true">A</span>
+
+                                <input
+                                    id="font-size-slider"
+                                    type="range"
+                                    min="80"
+                                    max="140"
+                                    step="5"
+                                    value="100"
+                                    aria-label="Text size"
+                                    aria-valuetext="100%"
+                                >
+
+                                <span class="settings-slider-end settings-slider-large" aria-hidden="true">A</span>
+
+                                <output
+                                    id="font-size-value"
+                                    for="font-size-slider"
+                                    class="settings-slider-value"
+                                >100%</output>
+
+                                <button
+                                    id="font-size-reset"
+                                    type="button"
+                                    class="news-clear-filters settings-reset"
+                                >
+                                    Reset
+                                </button>
+
+                            </div>
+
+                            <p class="settings-preview">
+                                Preview: PRULink Asian Equity Fund · BID 3.75635 · +0.57% today
+                            </p>
+
+                        </div>
+
+
+                        <div class="settings-row">
+
+                            <h3 class="settings-label">Theme</h3>
+
+                            <p class="settings-help">
+                                Saved in this browser.
+                            </p>
+
+                            <div class="settings-options theme-options" role="group" aria-label="Theme">
+
+                                <button type="button" class="settings-option theme-option" data-theme-option="auto" aria-pressed="false">
+                                    <span class="theme-preview theme-preview-auto" aria-hidden="true"><span class="theme-preview-card"></span></span>
+                                    <span class="theme-option-text">
+                                        <span class="settings-option-name">◑&nbsp; Follow device</span>
+                                        <span class="theme-option-desc">Matches your phone / computer</span>
+                                    </span>
+                                </button>
+
+                                <button type="button" class="settings-option theme-option" data-theme-option="dark" aria-pressed="false">
+                                    <span class="theme-preview" aria-hidden="true" style="--p-bg: #0a0f15; --p-card: #101821; --p-text: #edf2f6; --p-line: #2a3947;"><span class="theme-preview-card"></span></span>
+                                    <span class="theme-option-text">
+                                        <span class="settings-option-name">☾&nbsp; Dark</span>
+                                        <span class="theme-option-desc">Default dark</span>
+                                    </span>
+                                </button>
+
+                                <button type="button" class="settings-option theme-option" data-theme-option="dim" aria-pressed="false">
+                                    <span class="theme-preview" aria-hidden="true" style="--p-bg: #1c232c; --p-card: #252f3a; --p-text: #e6ebf0; --p-line: #3f4d5d;"><span class="theme-preview-card"></span></span>
+                                    <span class="theme-option-text">
+                                        <span class="settings-option-name">◐&nbsp; Dim</span>
+                                        <span class="theme-option-desc">Softer slate grey</span>
+                                    </span>
+                                </button>
+
+                                <button type="button" class="settings-option theme-option" data-theme-option="midnight" aria-pressed="false">
+                                    <span class="theme-preview" aria-hidden="true" style="--p-bg: #000000; --p-card: #0a0a0a; --p-text: #f2f2f2; --p-line: #262626;"><span class="theme-preview-card"></span></span>
+                                    <span class="theme-option-text">
+                                        <span class="settings-option-name">●&nbsp; Midnight</span>
+                                        <span class="theme-option-desc">Pure black, OLED</span>
+                                    </span>
+                                </button>
+
+                                <button type="button" class="settings-option theme-option" data-theme-option="light" aria-pressed="false">
+                                    <span class="theme-preview" aria-hidden="true" style="--p-bg: #f3f6f8; --p-card: #ffffff; --p-text: #18232d; --p-line: #ccd5dc;"><span class="theme-preview-card"></span></span>
+                                    <span class="theme-option-text">
+                                        <span class="settings-option-name">☀&nbsp; Light</span>
+                                        <span class="theme-option-desc">Clean white</span>
+                                    </span>
+                                </button>
+
+                                <button type="button" class="settings-option theme-option" data-theme-option="sepia" aria-pressed="false">
+                                    <span class="theme-preview" aria-hidden="true" style="--p-bg: #f1e8d6; --p-card: #fbf6ec; --p-text: #3b2f22; --p-line: #d4c4a7;"><span class="theme-preview-card"></span></span>
+                                    <span class="theme-option-text">
+                                        <span class="settings-option-name">❧&nbsp; Sepia</span>
+                                        <span class="theme-option-desc">Warm paper</span>
+                                    </span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="settings-row">
+
+                            <h3 class="settings-label">Colour palette</h3>
+
+                            <p class="settings-help">
+                                Accent colour for highlights, selected tabs and buttons. Works with Dark and Light. Saved in this browser.
+                            </p>
+
+                            <div class="palette-options" role="group" aria-label="Colour palette">
+
+                                <button type="button" class="palette-option" data-accent-option="steel" aria-pressed="false" style="--swatch-dark: #8fb6d9; --swatch-light: #426f96;">
+                                    <span class="palette-swatch" aria-hidden="true"></span>
+                                    <span>Steel</span>
+                                    <span class="palette-check" aria-hidden="true">✓</span>
+                                </button>
+                                <button type="button" class="palette-option" data-accent-option="ocean" aria-pressed="false" style="--swatch-dark: #5aa9ff; --swatch-light: #1f6fd1;">
+                                    <span class="palette-swatch" aria-hidden="true"></span>
+                                    <span>Ocean</span>
+                                    <span class="palette-check" aria-hidden="true">✓</span>
+                                </button>
+                                <button type="button" class="palette-option" data-accent-option="gold" aria-pressed="false" style="--swatch-dark: #d9ad55; --swatch-light: #9a6b12;">
+                                    <span class="palette-swatch" aria-hidden="true"></span>
+                                    <span>ELG Gold</span>
+                                    <span class="palette-check" aria-hidden="true">✓</span>
+                                </button>
+                                <button type="button" class="palette-option" data-accent-option="teal" aria-pressed="false" style="--swatch-dark: #4cc2c9; --swatch-light: #0d7c83;">
+                                    <span class="palette-swatch" aria-hidden="true"></span>
+                                    <span>Teal</span>
+                                    <span class="palette-check" aria-hidden="true">✓</span>
+                                </button>
+                                <button type="button" class="palette-option" data-accent-option="violet" aria-pressed="false" style="--swatch-dark: #a99cf5; --swatch-light: #5b49c7;">
+                                    <span class="palette-swatch" aria-hidden="true"></span>
+                                    <span>Violet</span>
+                                    <span class="palette-check" aria-hidden="true">✓</span>
+                                </button>
+                                <button type="button" class="palette-option" data-accent-option="rose" aria-pressed="false" style="--swatch-dark: #ef8fb6; --swatch-light: #b8336a;">
+                                    <span class="palette-swatch" aria-hidden="true"></span>
+                                    <span>Rose</span>
+                                    <span class="palette-check" aria-hidden="true">✓</span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="update-schedule" class="performance-card settings-card" aria-labelledby="settings-schedule-title">
+
+                    <div class="card-header">
+                        <div>
+                            <div class="card-eyebrow">DATA</div>
+                            <h2 id="settings-schedule-title" class="card-title">Update schedule</h2>
+                        </div>
+                    </div>
+
+                    <div class="settings-body">
+
+                        <p class="settings-help schedule-intro">
+                            Time left until the next automatic update. Times are Singapore time (SGT).
+                            GitHub can start scheduled runs a few minutes late.
+                        </p>
+
+                        <ul id="update-schedule-list" class="schedule-list"></ul>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+
+            <!-- =================================================
+                 APPLICATION ERROR
+            ================================================== -->
+
+            <div
+                id="application-error"
+                class="application-error"
+                data-application-error
+                aria-live="assertive"
+            ></div>
+
+
+        </main>
+
+        </div>
+
+
+        <!-- ==================================================
+             FOOTER
+        =================================================== -->
+
+        <footer class="site-footer">
+
+            <div class="footer-inner">
+
+                <div class="footer-brand">
+                    ELG FMS
+                </div>
+
+                <div class="footer-source">
+                    Prudential Singapore fund data
+                </div>
+
+                <div
+                    id="app-version"
+                    class="footer-version"
+                >
+                    v1.1.0
+                </div>
+
+            </div>
+
+        </footer>
+
+
+    </div>
+
+
+    <!-- ======================================================
+         APPLICATION
+    ======================================================= -->
+
+    <script
+        type="module"
+        src="js/app.js"
+    ></script>
+
+</body>
+</html>
