@@ -243,6 +243,11 @@ const PLANS = {
 };
 
 
+/* Investment Booster (Lump Sum), both product information packs */
+const BOOSTER_PREMIUM_CHARGE = 0.03;
+const BOOSTER_MIN = { PVA: 1000, PVW: 10000 };
+const MIN_WITHDRAWAL = 1000;       // partial withdrawal minimum, and minimum left in the policy
+
 const calc = {
     initialized: false,
     funds: [],
@@ -255,7 +260,8 @@ const calc = {
     promo: null,
     promoStatus: "loading",               // loading | ok | none | error
     plan: "PVA",
-    accounts: { growth: [], flex: [] },   // [{ code, weight }]
+    accounts: { growth: [], flex: [] },   // [{ code, weight }]; Investment Booster i uses "b<i>"
+    boosters: [],                          // Investment Booster rows: [{ age, amount }] as typed
     timer: null
 };
 
@@ -668,9 +674,33 @@ function project(input, grossReturn, promotion) {
 
         if (sleeve.price) sleeve.units += amount / sleeve.price;
     };
-    const payingOut = (account, y) => account === "flex"
-        ? input.dividends?.flex === "payout"
-        : input.dividends?.growth === "payout" && y >= 11 && input.age + y - 1 >= (input.dividends.growthStartAge ?? input.age + 10);
+    const payingOut = (account, y) => account === "booster"
+        ? input.dividends?.booster === "payout"
+        : account === "flex"
+            ? input.dividends?.flex === "payout"
+            : input.dividends?.growth === "payout" && y >= 11 && input.age + y - 1 >= (input.dividends.growthStartAge ?? input.age + 10);
+
+    // Investment Booster (Lump Sum) -> Additional Investment Account (AIA).
+    // Product rules: 3% premium charge, 97% buys units at the BID price;
+    // no Welcome / Loyalty Bonus, no administration charge, no surrender
+    // charge; the AIA value is added on top of the death benefit.
+    // One set of fund sleeves per booster, each with its own funds
+    const aia = (input.boosterShares ?? []).map(item => ({
+        ...item,
+        value: 0,
+        units: 0,
+        price: item.code ? bidPrice(item.code) : null,
+        dividend: item.code ? dividendInfo(item.code) : null
+    }));
+    const aiaTotal = () => aia.reduce((sum, sleeve) => sum + sleeve.value, 0);
+    const boosters = (input.boosters ?? [])
+        .map((item, index) => ({ ...item, index }))
+        .filter(item => item.amount > 0 && Number.isInteger(item.age));
+    let boostersPaid = 0;
+    let premiumsFromBooster = 0;
+    let cashFromBooster = 0;      // withdrawn above the premium, paid to the client
+    let gfDividendsPaid = 0;
+    let aiaDividendsPaidTotal = 0;
 
     let wealthAssure = 0;
     let paid = 0;
@@ -685,7 +715,22 @@ function project(input, grossReturn, promotion) {
         const age = input.age + y - 1;
 
         if (m % 12 === 0) {
-            year = { year: y, age, premium: 0, welcome: 0, promotion: 0, loyalty: 0, adminCharge: 0, assuranceCharge: 0, dividendsReinvested: 0, dividendsPaid: 0, payouts: 0, payoutFrequency: null };
+            year = { year: y, age, premium: 0, welcome: 0, promotion: 0, loyalty: 0, adminCharge: 0, assuranceCharge: 0, dividendsReinvested: 0, dividendsPaid: 0, payouts: 0, payoutFrequency: null, booster: 0, boosterCharge: 0, premiumFromBooster: 0, boosterWithdrawn: 0, boosterCashOut: 0,
+                // dividends paid out by source: Growth + Flex Accounts / Investment Booster (AIA)
+                gfDividendsPaid: 0, gfPayouts: 0, gfFrequency: null, aiaDividendsPaid: 0, aiaPayouts: 0, aiaFrequency: null };
+
+            // Investment Booster paid at the start of the policy year at that age
+            if (!lapsed && aia.length) {
+                for (const booster of boosters.filter(item => item.age === age)) {
+                    const charge = booster.amount * BOOSTER_PREMIUM_CHARGE;
+
+                    aia.filter(sleeve => sleeve.boosterIndex === booster.index)
+                        .forEach(sleeve => buy(sleeve, (booster.amount - charge) * sleeve.share));
+                    boostersPaid += booster.amount;
+                    year.booster += booster.amount;
+                    year.boosterCharge += charge;
+                }
+            }
         }
 
         // Regular premium paid at the start of each period (yearly,
@@ -713,6 +758,27 @@ function project(input, grossReturn, promotion) {
 
             paid += regular;
             year.premium += regular;
+
+            // Withdrawal from the Investment Booster account on each premium date:
+            // it pays the premium, and anything above the premium goes to the client
+            if (input.payFromBooster && aia.length) {
+                const wanted = input.boosterWithdraw ?? regular;
+                const available = aiaTotal();
+                const roomLeft = available + total() - MIN_WITHDRAWAL;
+                const withdraw = Math.min(wanted, available, roomLeft);
+
+                if (withdraw >= MIN_WITHDRAWAL && available > 0) {
+                    const factor = 1 - withdraw / available;
+                    const toPremium = Math.min(withdraw, regular);
+
+                    aia.forEach(sleeve => { sleeve.value *= factor; sleeve.units *= factor; });
+                    premiumsFromBooster += toPremium;
+                    cashFromBooster += withdraw - toPremium;
+                    year.premiumFromBooster += toPremium;
+                    year.boosterWithdrawn += withdraw;
+                    year.boosterCashOut += withdraw - toPremium;
+                }
+            }
         }
 
         const sumAssured = plan.hasSumAssured ? Math.min(1.03 + 0.03 * (y - 1), 1.60) * paid : null;
@@ -740,11 +806,14 @@ function project(input, grossReturn, promotion) {
             }
 
             grow(monthly);
+            aia.forEach(sleeve => { sleeve.value *= monthly; });
 
             // Dividends at the end of each payout month
             let paidThisMonth = false;
+            let gfPaidThisMonth = false;
+            let aiaPaidThisMonth = false;
 
-            for (const sleeve of sleeves) {
+            for (const sleeve of [...sleeves, ...aia]) {
                 const info = sleeve.dividend;
 
                 if (!info || (m + 1) % info.everyMonths !== 0) continue;
@@ -752,9 +821,24 @@ function project(input, grossReturn, promotion) {
                 // Dividend = units held × dividend per unit (at the static BID price)
                 const amount = sleeve.units * info.perUnit;
 
+                if (!(amount > 0)) continue;   // no units held yet (e.g. booster not paid in)
+
                 if (payingOut(sleeve.account, y)) {
                     year.dividendsPaid += amount;
                     dividendsPaidTotal += amount;
+                    const freqOf = current => current && current !== info.frequencyLabel ? "mixed" : info.frequencyLabel;
+
+                    if (sleeve.account === "booster") {
+                        aiaDividendsPaidTotal += amount;
+                        year.aiaDividendsPaid += amount;
+                        year.aiaFrequency = freqOf(year.aiaFrequency);
+                        aiaPaidThisMonth = true;
+                    } else {
+                        gfDividendsPaid += amount;
+                        year.gfDividendsPaid += amount;
+                        year.gfFrequency = freqOf(year.gfFrequency);
+                        gfPaidThisMonth = true;
+                    }
                     paidThisMonth = true;
                     year.payoutFrequency = year.payoutFrequency && year.payoutFrequency !== info.frequencyLabel ? "mixed" : info.frequencyLabel;
                 } else {
@@ -764,6 +848,8 @@ function project(input, grossReturn, promotion) {
             }
 
             if (paidThisMonth) year.payouts += 1;
+            if (gfPaidThisMonth) year.gfPayouts += 1;
+            if (aiaPaidThisMonth) year.aiaPayouts += 1;
 
             if (m % 12 === 11 && y >= loyaltyFrom) {
                 const bonus = total() * 0.005;
@@ -778,31 +864,45 @@ function project(input, grossReturn, promotion) {
 
             if (account <= 0) {
                 scale(0);
+                aia.forEach(sleeve => { sleeve.value = 0; sleeve.units = 0; });
                 lapsed = true;
             }
         }
 
         if (m % 12 === 11) {
-            const account = total();
-            // PVW guarantee: 101% (105% accidental) of premiums paid less dividend payments
-            const guaranteedBase = Math.max(0, paid - dividendsPaidTotal);
+            const gfAccount = total();
+            const aiaAccount = aiaTotal();
+            const account = gfAccount + aiaAccount;
+            // PVW guarantee: 101% (105% accidental) of regular premiums paid
+            // less dividend payments from the Growth / Flex Accounts
+            const guaranteedBase = Math.max(0, paid - gfDividendsPaid);
+            // Death benefit: the Growth + Flex benefit, plus the AIA value
             const deathBenefit = lapsed
                 ? 0
-                : plan.hasSumAssured
-                    ? Math.max(sumAssured, wealthAssure, account)
-                    : Math.max(1.01 * guaranteedBase, account);
+                : (plan.hasSumAssured
+                    ? Math.max(sumAssured, wealthAssure, gfAccount)
+                    : Math.max(1.01 * guaranteedBase, gfAccount)) + aiaAccount;
 
             rows.push({
                 ...year,
                 paid,
+                boostersPaid,
+                premiumsFromBooster,
+                cashFromBooster,
+                // money paid in from the client's pocket: cash premiums + boosters
+                invested: paid - premiumsFromBooster + boostersPaid,
+                gfAccount,
+                aiaAccount,
                 dividendsPaidTotal,
+                gfDividendsPaidTotal: gfDividendsPaid,
+                aiaDividendsPaidTotal,
                 guaranteedDeath: plan.hasSumAssured ? null : 1.01 * guaranteedBase,
                 sumAssured,
                 wealthAssure: plan.hasSumAssured ? wealthAssure : null,
                 account,
-                surrenderValue: account * (1 - (surrender[y - 1] ?? 0)),
+                surrenderValue: gfAccount * (1 - (surrender[y - 1] ?? 0)) + aiaAccount,
                 deathBenefit,
-                accidentalDeath: plan.hasSumAssured || lapsed ? null : Math.max(1.05 * guaranteedBase, account),
+                accidentalDeath: plan.hasSumAssured || lapsed ? null : Math.max(1.05 * guaranteedBase, gfAccount) + aiaAccount,
                 lapsed
             });
         }
@@ -903,7 +1003,7 @@ function readInput() {
     }
 
 
-    return {
+    const input = {
         plan,
         term,
         regular,
@@ -925,8 +1025,27 @@ function readInput() {
             flex: qs("#calc-div-flex")?.value === "payout" ? "payout" : "reinvest"
         },
         returns,
-        years: yearsChoice === "age100" ? Math.max(1, 100 - age + 1) : Number(yearsChoice) || 30
+        payFromBooster: Boolean(qs("#calc-booster-pay")?.checked) && calc.boosters.length > 0,
+        boosterWithdraw: qs("#calc-booster-withdraw")?.value.trim() ? Number(qs("#calc-booster-withdraw").value) : null,
+        years: yearsChoice === "age100" ? Math.max(1, 100 - age + 1) : Number(yearsChoice) || 30,
+        boosters: calc.boosters.map(row => ({
+            atStart: Boolean(row.atStart),
+            age: row.atStart ? age : String(row.age ?? "").trim() === "" ? null : Number(row.age),
+            amount: String(row.amount ?? "").trim() === "" ? null : Number(row.amount)
+        })),
+        boosterShares: calc.boosters.flatMap((row, i) => boosterFunds(i)
+            .map(item => ({ code: item.code, account: "booster", boosterIndex: i, share: (Number(item.weight) || 0) / 100 })))
     };
+    input.dividends.booster = qs("#calc-div-booster")?.value === "payout" ? "payout" : "reinvest";
+
+    // No upper age for a booster: show enough years to include the latest one
+    if (Number.isInteger(age)) {
+        const latest = Math.max(0, ...input.boosters.map(row => Number.isInteger(row.age) && row.age >= age ? row.age : 0));
+
+        if (latest) input.years = Math.max(input.years, latest - age + 1);
+    }
+
+    return input;
 }
 
 
@@ -979,6 +1098,15 @@ function ageNextBirthday(dob, onDate) {
 
     return last < 0 ? null : last + 1;
 }
+
+/* Funds chosen for Investment Booster i (its own "b<i>" account) */
+function boosterFunds(i) {
+    calc.accounts[`b${i}`] ??= [];
+
+    return calc.accounts[`b${i}`];
+}
+
+const isBoosterAccount = account => /^b\d+$/.test(String(account));
 
 function accountTotal(account) {
     return calc.accounts[account].reduce((sum, item) => sum + (Number(item.weight) || 0), 0);
@@ -1039,6 +1167,47 @@ function validate(input) {
         }
     }
 
+    // Investment Booster (Lump Sum)
+    if (input.boosters.length) {
+        const minBooster = BOOSTER_MIN[input.plan];
+        const firstAge = Number.isInteger(input.age) ? input.age : null;
+
+        input.boosters.forEach((row, i) => {
+            const label = input.boosters.length > 1 ? `Investment Booster ${i + 1}` : "Investment Booster";
+
+            if (row.age === null) problems.push(`${label}: enter the age it is paid at.`);
+            else if (!Number.isInteger(row.age) || (firstAge !== null && row.age < firstAge)) {
+                problems.push(`${label}: the age must be a whole number from ${firstAge ?? "the age at the start"} (age next birthday). There is no upper age limit.`);
+            }
+
+            if (row.amount === null) problems.push(`${label}: enter the amount.`);
+            else if (!(row.amount >= minBooster)) problems.push(`${label}: the minimum is ${money(minBooster)}.`);
+        });
+
+        input.boosters.forEach((row, i) => {
+            const label = input.boosters.length > 1 ? `Investment Booster ${i + 1}` : "Investment Booster";
+            const items = boosterFunds(i);
+            const total = accountTotal(`b${i}`);
+
+            if (!items.length) problems.push(`${label}: add at least one fund.`);
+            else if (Math.abs(total - 100) > 0.001) problems.push(`${label}: funds add up to ${total}%. They need to total 100%.`);
+
+            if (items.some(item => !(Number(item.weight) > 0) || Number(item.weight) % ALLOCATION_STEP !== 0)) {
+                problems.push(`${label}: fund allocations must be at least 5%, in steps of 5%.`);
+            }
+        });
+    }
+
+    if (input.payFromBooster && input.premium > 0) {
+        const each = input.boosterWithdraw ?? input.premium / input.frequency;
+
+        if (!(each >= MIN_WITHDRAWAL)) {
+            problems.push(input.boosterWithdraw === null
+                ? `Each premium (${moneyExact(input.premium / input.frequency)}) is below the ${money(MIN_WITHDRAWAL)} minimum withdrawal. Enter a withdrawal amount of at least ${money(MIN_WITHDRAWAL)}, choose a less frequent payment, or untick the box.`
+                : `The withdrawal from the Investment Booster must be at least ${money(MIN_WITHDRAWAL)} each time.`);
+        }
+    }
+
     if (!input.returns.length) problems.push("Enter the expected return rate.");
     else if (input.returns.some(value => !Number.isFinite(value) || value < -20 || value > 30)) {
         problems.push("The expected return rate must be between −20% and 30% a year.");
@@ -1053,6 +1222,7 @@ function allowedFor(account, input = { plan: calc.plan, term: Number(qs("#calc-t
     const list = calc.allowed[input.plan] ?? [];
 
     if (account === "growth") return plan.growthAllowed(input.term) ? list : [];
+    if (isBoosterAccount(account)) return list;   // Investment Booster: all allowed funds
 
     return plan.flexDividendOnly(input.term) ? list.filter(paysDividend) : list;
 }
@@ -1084,6 +1254,8 @@ function renderPlanChoice() {
 
     // Smoker / sex only matter for PVA assurance charges
     qs("#calc-pva-only")?.toggleAttribute("hidden", !plan.hasSumAssured);
+
+    renderBoosterRows();
 
     renderTermRules();
 }
@@ -1126,7 +1298,7 @@ function renderTermRules() {
     }
 
     // Drop funds that are no longer allowed in an account
-    for (const account of ["growth", "flex"]) {
+    for (const account of ["growth", "flex", ...calc.boosters.map((row, i) => `b${i}`)]) {
         const allowed = allowedFor(account, input);
 
         calc.accounts[account] = calc.accounts[account].filter(item => allowed.includes(item.code));
@@ -1171,7 +1343,9 @@ function updateLimitWarnings() {
 }
 
 function accountMarkup(account, share) {
-    const label = account === "growth" ? "Growth Account" : "Flex Account";
+    const label = account === "growth" ? "Growth Account" : account === "flex" ? "Flex Account" : `Investment Booster ${Number(String(account).slice(1)) + 1}`;
+    const isBooster = isBoosterAccount(account);
+    const boosterNo = isBooster ? Number(account.slice(1)) + 1 : null;
     const items = calc.accounts[account];
     const total = accountTotal(account);
     const allowedCount = allowedFor(account).length;
@@ -1179,7 +1353,7 @@ function accountMarkup(account, share) {
     return `
         <div class="calc-account" data-calc-account="${account}">
             <div class="calc-account-head">
-                <strong>${label} · ${Math.round(share * 100)}%</strong>
+                <strong>${isBooster ? `Booster ${boosterNo} funds · Additional Investment Account` : `${label} · ${Math.round(share * 100)}%`}</strong>
                 <span class="settings-help">${allowedCount} allowed fund${allowedCount === 1 ? "" : "s"}${account === "flex" && PLANS[calc.plan].flexDividendOnly(Number(qs("#calc-term")?.value)) ? " (dividend-paying only)" : ""}</span>
             </div>
 
@@ -1201,7 +1375,7 @@ function accountMarkup(account, share) {
                             <th scope="col">Fund</th>
                             <th scope="col">BID price</th>
                             <th scope="col">Allocation</th>
-                            <th scope="col" class="calc-units-head">Units bought<div class="calc-th-note">each premium, before bonuses</div></th>
+                            <th scope="col" class="calc-units-head">Units bought<div class="calc-th-note">${isBooster ? "this booster, after 3% charge" : "each premium, before bonuses"}</div></th>
                             <th scope="col"><span class="sr-only">Remove</span></th>
                         </tr>
                     </thead>
@@ -1210,7 +1384,7 @@ function accountMarkup(account, share) {
                             <tr>
                                 <td>
                                     <div class="fund-name">${escapeHtml(fundName(item.code))}</div>
-                                    <div class="fund-meta">${escapeHtml(item.code)}${dividendTag(item.code)}${promoTag(item.code)}</div>
+                                    <div class="fund-meta">${escapeHtml(item.code)}${dividendTag(item.code)}${isBooster ? "" : promoTag(item.code)}</div>
                                 </td>
                                 <td class="calc-charge-cell">${bidPrice(item.code) === null ? "—" : `S$${bidPrice(item.code).toFixed(4)}`}${bidDate(item.code) ? `<div class="fund-meta">${escapeHtml(bidDate(item.code))}</div>` : ""}</td>
                                 <td class="report-weight-cell">
@@ -1290,6 +1464,99 @@ function renderAccounts() {
     if (growthPct < 100) parts.push(accountMarkup("flex", 1 - growthPct / 100));
 
     box.innerHTML = parts.join("");
+
+    // Each Investment Booster's own funds (Additional Investment Account)
+    calc.boosters.forEach((row, i) => {
+        const holder = qs(`[data-booster-funds="${i}"]`);
+
+        boosterFunds(i);
+
+        if (holder) holder.innerHTML = accountMarkup(`b${i}`, 1);
+    });
+}
+
+/* Investment Booster rows: age (next birthday) and amount */
+function renderBoosterRows() {
+    const list = qs("#calc-booster-list");
+    const rules = qs("#calc-booster-rules");
+    const minBooster = BOOSTER_MIN[calc.plan];
+
+    if (rules) {
+        rules.textContent = `A one-off lump sum paid at any age during the policy, into the Additional Investment Account. `
+            + `Minimum ${money(minBooster)} each, no maximum. A 3% premium charge is taken from each booster and 97% buys units at the BID price. `
+            + `Boosters get no Welcome Bonus, Loyalty Bonus or promotion units, have no administration charge and no surrender charge, and their account value is added to the death benefit.`;
+    }
+
+    if (!list) return;
+
+    list.innerHTML = calc.boosters.map((row, i) => `
+        <div class="calc-booster-card">
+        <div class="calc-booster-row" data-booster-row="${i}">
+            <div class="calc-booster-agecol">
+                <label class="report-field">
+                    <span>Booster ${i + 1} · at age (next birthday)</span>
+                    <input type="number" step="1" inputmode="numeric" value="${escapeHtml(row.age)}" data-booster-age="${i}" aria-label="Age for Investment Booster ${i + 1}" ${row.atStart ? "disabled" : ""}>
+                </label>
+                <label class="calc-booster-start"><input type="checkbox" data-booster-start="${i}" ${row.atStart ? "checked" : ""}> At plan start</label>
+            </div>
+            <label class="report-field">
+                <span>Amount (S$)</span>
+                <input type="number" step="any" inputmode="decimal" value="${escapeHtml(row.amount)}" data-booster-amount="${i}" aria-label="Amount for Investment Booster ${i + 1}">
+            </label>
+            <div class="calc-booster-charge" data-booster-charge="${i}"></div>
+            <button type="button" class="compare-remove" data-booster-remove="${i}" aria-label="Remove Investment Booster ${i + 1}" title="Remove">×</button>
+        </div>
+        <div class="calc-booster-funds" data-booster-funds="${i}"></div>
+        </div>
+    `).join("");
+
+    qs("#calc-booster-add")?.toggleAttribute("disabled", calc.boosters.length >= 10);
+}
+
+/* Live notes on each booster row: charge, units, and highlight bad values */
+function updateBoosterRows(input) {
+    const minBooster = BOOSTER_MIN[input.plan];
+    const firstAge = Number.isInteger(input.age) ? input.age : null;
+
+    input.boosters.forEach((row, i) => {
+        const ageBox = qs(`[data-booster-age="${i}"]`);
+        const amountBox = qs(`[data-booster-amount="${i}"]`);
+        const note = qs(`[data-booster-charge="${i}"]`);
+        // "At plan start": paid with the first premium, at the starting age
+        if (ageBox && row.atStart) {
+            ageBox.disabled = true;
+            ageBox.value = firstAge ?? "";
+        } else if (ageBox) {
+            ageBox.disabled = false;
+        }
+
+        const ageOk = row.age !== null && Number.isInteger(row.age) && (firstAge === null || row.age >= firstAge);
+        const amountOk = row.amount !== null && row.amount >= minBooster;
+
+        ageBox?.classList.toggle("calc-input-off", row.age !== null && !ageOk);
+        amountBox?.classList.toggle("calc-input-off", row.amount !== null && !amountOk);
+
+        if (note) {
+            const range = firstAge !== null ? `From age ${firstAge}, no upper age limit` : "Enter the date of birth for the age range";
+
+            note.innerHTML = amountOk
+                ? `<span>${range} · min ${money(minBooster)}</span><span>Premium charge ${money(row.amount * BOOSTER_PREMIUM_CHARGE)} · invested ${money(row.amount * (1 - BOOSTER_PREMIUM_CHARGE))}</span>`
+                : `<span>${range} · min ${money(minBooster)}</span>`;
+        }
+    });
+
+    // Units each booster buys in its own funds, after the 3% charge
+    input.boosters.forEach((row, i) => {
+        const invested = (row.amount > 0 ? row.amount : 0) * (1 - BOOSTER_PREMIUM_CHARGE);
+
+        boosterFunds(i).forEach((item, index) => {
+            const cell = qs(`[data-calc-units="b${i}:${index}"]`);
+            const price = bidPrice(item.code);
+            const amount = invested * (Number(item.weight) || 0) / 100;
+
+            if (cell) cell.innerHTML = invested > 0 && price ? `${formatUnits(amount / price)}<div class="fund-meta">${money(amount)}</div>` : "—";
+        });
+    });
 }
 
 function renderSuggestions(account) {
@@ -1373,6 +1640,7 @@ function render() {
 
     renderWelcome(input, units);
     renderDividendOptions(input);
+    updateBoosterRows(input);
 
     if (missing) {
         missing.hidden = !problems.length;
@@ -1431,6 +1699,34 @@ function renderDividendOptions(input) {
     }
     qs("#calc-div-flex-field")?.toggleAttribute("hidden", !flexOn);
 
+    const boosterOn = input.boosterShares.some(item => item.share > 0 && paysDividend(item.code));
+
+    qs("#calc-booster-pay-field")?.toggleAttribute("hidden", !calc.boosters.length);
+    qs("#calc-booster-pay-note")?.toggleAttribute("hidden", !(calc.boosters.length && qs("#calc-booster-pay")?.checked));
+    qs("#calc-booster-withdraw-field")?.toggleAttribute("hidden", !(calc.boosters.length && qs("#calc-booster-pay")?.checked));
+
+    const withdrawNote = qs("#calc-booster-withdraw-note");
+    const withdrawBox = qs("#calc-booster-withdraw");
+
+    if (withdrawNote && withdrawBox) {
+        const each = input.premium / input.frequency;
+        const wanted = input.boosterWithdraw;
+
+        if (withdrawBox.placeholder !== String(Math.round(each * 100) / 100)) withdrawBox.placeholder = each > 0 ? String(Math.round(each * 100) / 100) : "";
+
+        withdrawNote.textContent = wanted === null
+            ? `Blank = the premium (${moneyExact(each)}). Min ${money(MIN_WITHDRAWAL)}.`
+            : wanted > each
+                ? `${moneyExact(each)} pays the premium · ${moneyExact(wanted - each)} paid to you each time`
+                : wanted < each
+                    ? `${moneyExact(each - wanted)} of each premium paid in cash`
+                    : "Pays the premium exactly";
+        withdrawNote.classList.toggle("is-off", wanted !== null && !(wanted >= MIN_WITHDRAWAL));
+        withdrawBox.classList.toggle("calc-input-off", wanted !== null && !(wanted >= MIN_WITHDRAWAL));
+    }
+
+    qs("#calc-div-booster-field")?.toggleAttribute("hidden", !boosterOn);
+
     const note = qs("#calc-div-note");
 
     if (!note) return;
@@ -1442,6 +1738,7 @@ function renderDividendOptions(input) {
     }
 
     if (flexOn) lines.push("Flex Account: dividends can be reinvested or paid out, with no restriction.");
+    if (boosterOn) lines.push("Investment Booster (Additional Investment Account): dividends can be reinvested (no premium charge) or paid out at any time.");
 
     note.hidden = !lines.length;
     note.innerHTML = lines.map(escapeHtml).join("<br>");
@@ -1646,20 +1943,47 @@ function renderResults() {
     const flexBand = band(plan.welcome.flex[input.term], input.premium) ?? [0, 0, 0];
 
     const termRow = base[input.term - 1];
-    const hasDividendFunds = input.shares.some(item => item.share > 0 && dividendInfo(item.code));
+    const hasDividendFunds = [...input.shares, ...input.boosterShares].some(item => item.share > 0 && dividendInfo(item.code));
+    const boosterHasDividends = input.boosterShares.some(item => item.share > 0 && dividendInfo(item.code));
     const reinvestedTotal = base.reduce((sum, row) => sum + row.dividendsReinvested, 0);
     const paidOutTotal = base.reduce((sum, row) => sum + row.dividendsPaid, 0);
     const showPaid = paidOutTotal > 0;
-    const frequencies = [...new Set(base.map(row => row.payoutFrequency).filter(Boolean))];
-    const payoutLabel = frequencies.length === 1 && frequencies[0] !== "mixed" ? frequencies[0] : null;
-    const scenarioHead = scenarios.map(s => `<th colspan="${2 + (showPaid ? 3 : 0)}" class="calc-scenario-head">At expected return rate of ${pct(s.rate)} a year</th>`).join("");
+    const boosterTotal = base.reduce((sum, row) => sum + row.booster, 0);
+    const boosterChargeTotal = base.reduce((sum, row) => sum + row.boosterCharge, 0);
+    const hasBoosters = boosterTotal > 0;
+    const fromBoosterTotal = base.reduce((sum, row) => sum + row.premiumFromBooster, 0);
+    const withdrawnTotal = base.reduce((sum, row) => sum + row.boosterWithdrawn, 0);
+    const cashOutTotal = base.reduce((sum, row) => sum + row.boosterCashOut, 0);
+    const showFromBooster = withdrawnTotal > 0;
+    // Dividends paid out, by source
+    const gfPaidTotal = base.reduce((sum, row) => sum + row.gfDividendsPaid, 0);
+    const aiaPaidTotal = base.reduce((sum, row) => sum + row.aiaDividendsPaid, 0);
+    const showGfPaid = gfPaidTotal > 0;
+    const showAiaPaid = aiaPaidTotal > 0;
+    const frequencyLabel = key => {
+        const list = [...new Set(base.map(row => row[key]).filter(Boolean))];
+
+        return list.length === 1 && list[0] !== "mixed" ? `each ${list[0]} payout` : "each payout";
+    };
+    const perPayoutCell = (amount, count) => count
+        ? `${money(amount / count)}<div class="calc-th-note">×${count} · ${money(amount)} a year</div>`
+        : "—";
+    const showBothPaid = showGfPaid && showAiaPaid;
+    // Total net value shows whenever dividends are paid out or a booster is held
+    const showNet = showPaid || hasBoosters;
+    const netOf = r => r.account + r.dividendsPaidTotal + r.cashFromBooster;
+    const paidCols = (showGfPaid ? 1 : 0) + (showAiaPaid ? 1 : 0) + (showBothPaid ? 1 : 0) + (showPaid ? 1 : 0) + (showNet ? 1 : 0);
+    const scenarioHead = scenarios.map(s => `<th colspan="${1 + (hasBoosters ? 1 : 0) + paidCols}" class="calc-scenario-head">At expected return rate of ${pct(s.rate)} a year</th>`).join("");
     const scenarioCols = scenarios.map(() => `
         <th>Account value</th>
-        <th>Death benefit</th>
+        ${hasBoosters ? `<th>Investment Booster</th>` : ""}
         ${showPaid ? `
-            <th>Dividend paid out<div class="calc-th-note">${payoutLabel ? `each ${payoutLabel} payout` : "each payout"}</div></th>
-            <th>Dividends paid out<div class="calc-th-note">to date</div></th>
-            <th>Total net value<div class="calc-th-note">account value + dividends paid out</div></th>` : ""}
+            ${showGfPaid ? `<th>Growth + Flex dividend paid out<div class="calc-th-note">${frequencyLabel("gfFrequency")}</div></th>` : ""}
+            ${showAiaPaid ? `<th>Investment Booster dividend paid out<div class="calc-th-note">${frequencyLabel("aiaFrequency")}</div></th>` : ""}
+            ${showBothPaid ? `<th>Total dividend paid out<div class="calc-th-note">${frequencyLabel("payoutFrequency")}, both accounts</div></th>` : ""}
+            <th>Dividends paid out<div class="calc-th-note">to date${showGfPaid && showAiaPaid ? ", both accounts" : ""}</div></th>
+` : ""}
+        ${showNet ? `<th>Total net value<div class="calc-th-note">${hasBoosters ? `Growth + Flex + Investment Booster value + dividends paid out${cashOutTotal > 0 ? " + booster withdrawals paid to you" : ""}` : "account value + dividends paid out"}</div></th>` : ""}
     `).join("");
 
     out.innerHTML = `
@@ -1667,7 +1991,7 @@ function renderResults() {
             <div class="calc-tile">
                 <span>Total premiums</span>
                 <strong>${money(totalPremium)}</strong>
-                <em>${money(input.regular)} ${FREQUENCIES[input.frequency]} for ${input.term} years${input.frequency > 1 ? ` (annualised ${money(input.premium)})` : ""}</em>
+                <em>${money(input.regular)} ${FREQUENCIES[input.frequency]} for ${input.term} years${input.frequency > 1 ? ` (annualised ${money(input.premium)})` : ""}${hasBoosters ? `<br>+ ${money(boosterTotal)} Investment Booster (3% charge ${money(boosterChargeTotal)})` : ""}${showFromBooster ? `<br>${money(fromBoosterTotal)} of premiums paid from the booster${cashOutTotal > 0 ? `, ${money(cashOutTotal)} withdrawn to you` : ""}` : ""}</em>
             </div>
             <div class="calc-tile">
                 <span>Welcome Bonus</span>
@@ -1695,7 +2019,11 @@ function renderResults() {
                 <span>Expected return rate</span>
                 <strong>${input.returns[0]}% a year</strong>
                 <em>${hasDividendFunds
-                    ? `Account value growth, plus dividends over ${base.length} years: ${[reinvestedTotal > 0.5 ? `${money(reinvestedTotal)} reinvested` : "", paidOutTotal > 0.5 ? `${money(paidOutTotal)} paid out` : ""].filter(Boolean).join(", ")}`
+                    ? `Account value growth, plus dividends over ${base.length} years: ${[
+                        reinvestedTotal > 0.5 ? `${money(reinvestedTotal)} reinvested` : "",
+                        showGfPaid ? `${money(gfPaidTotal)} paid out from Growth + Flex` : "",
+                        showAiaPaid ? `${money(aiaPaidTotal)} paid out from Investment Booster` : ""
+                    ].filter(Boolean).join(", ")}`
                     : "Account value growth, net of fund charges"}</em>
             </div>
         </div>
@@ -1703,7 +2031,7 @@ function renderResults() {
         <h3 class="calc-section-title">Projection chart</h3>
         <div class="calc-chart-card">
             <div class="calc-chart-legend" aria-hidden="true">
-                ${chartSeries(plan, showPaid).map(item => `<span><i class="calc-swatch ${item.dashed ? "is-dashed" : ""}" style="--swatch:${item.color}"></i>${escapeHtml(item.label)}</span>`).join("")}
+                ${chartSeries(plan, showPaid || hasBoosters, hasBoosters, showGfPaid, showAiaPaid).map(item => `<span><i class="calc-swatch ${item.dashed ? "is-dashed" : ""}" style="--swatch:${item.color}"></i>${escapeHtml(item.label)}</span>`).join("")}
             </div>
             ${gainMilestones(base, input.term)}
             <div class="calc-chart-wrap">
@@ -1716,8 +2044,9 @@ function renderResults() {
             <table class="data-table calc-table">
                 <thead>
                     <tr>
-                        <th rowspan="2">End of year / age</th>
-                        <th rowspan="2">Premiums paid to date</th>
+                        <th rowspan="2">End of Policy Year / Age</th>
+                        <th rowspan="2">${hasBoosters ? "Paid in to date" : "Premiums paid to date"}</th>
+                        ${showFromBooster ? `<th rowspan="2">Withdrawn from booster</th>` : ""}
                         ${plan.hasSumAssured ? `<th rowspan="2">Sum assured<div class="calc-th-note">guaranteed</div></th>` : `<th rowspan="2">Guaranteed death benefit</th>`}
                         ${scenarioHead}
                     </tr>
@@ -1726,19 +2055,23 @@ function renderResults() {
                 <tbody>
                     ${base.map((row, i) => `
                         <tr class="${row.year === input.term ? "calc-row-term" : ""}">
-                            <td>${row.year} / ${row.age}</td>
-                            <td>${money(row.paid)}</td>
+                            <td>Policy Year ${row.year} / Age ${row.age}</td>
+                            <td>${money(row.invested)}</td>
+                            ${showFromBooster ? `<td>${row.boosterWithdrawn ? `${money(row.boosterWithdrawn)}${row.boosterCashOut ? `<div class="calc-th-note">${money(row.premiumFromBooster)} premium<br>${money(row.boosterCashOut)} to you</div>` : ""}` : "—"}</td>` : ""}
                             <td>${plan.hasSumAssured ? money(row.sumAssured) : money(row.guaranteedDeath)}</td>
                             ${scenarios.map(s => {
                                 const r = s.rows[i];
 
                                 return `
-                                    <td>${r.lapsed ? "Lapsed" : money(r.account)}</td>
-                                    <td>${r.lapsed ? "—" : money(r.deathBenefit)}</td>
+                                    <td>${r.lapsed ? "Lapsed" : money(r.gfAccount)}</td>
+                                    ${hasBoosters ? `<td>${r.lapsed ? "—" : r.aiaAccount ? money(r.aiaAccount) : "—"}</td>` : ""}
                                     ${showPaid ? `
-                                        <td>${r.payouts ? `${money(r.dividendsPaid / r.payouts)}<div class="calc-th-note">×${r.payouts} · ${money(r.dividendsPaid)} a year</div>` : "—"}</td>
-                                        <td>${r.dividendsPaidTotal ? money(r.dividendsPaidTotal) : "—"}</td>
-                                        <td><strong>${money(r.account + r.dividendsPaidTotal)}</strong></td>` : ""}
+                                        ${showGfPaid ? `<td>${perPayoutCell(r.gfDividendsPaid, r.gfPayouts)}</td>` : ""}
+                                        ${showAiaPaid ? `<td>${perPayoutCell(r.aiaDividendsPaid, r.aiaPayouts)}</td>` : ""}
+                                        ${showBothPaid ? `<td><strong>${r.payouts ? money(r.dividendsPaid / r.payouts) : "—"}</strong>${r.payouts ? `<div class="calc-th-note">×${r.payouts} · ${money(r.dividendsPaid)} a year</div>` : ""}</td>` : ""}
+                                        <td>${r.dividendsPaidTotal ? money(r.dividendsPaidTotal) : "—"}${showGfPaid && showAiaPaid && r.gfDividendsPaidTotal > 0.5 && r.aiaDividendsPaidTotal > 0.5 ? `<div class="calc-th-note">G+F ${money(r.gfDividendsPaidTotal)}<br>Booster ${money(r.aiaDividendsPaidTotal)}</div>` : ""}</td>
+` : ""}
+                                    ${showNet ? `<td><strong>${r.lapsed ? "—" : money(netOf(r))}</strong></td>` : ""}
                                 `;
                             }).join("")}
                         </tr>
@@ -1753,27 +2086,35 @@ function renderResults() {
                 <table class="data-table calc-table">
                     <thead>
                         <tr>
-                            <th>Year / age</th>
+                            <th>End of Policy Year / Age</th>
                             <th>Premium</th>
+                            ${hasBoosters ? "<th>Investment Booster</th><th>Booster premium charge (3%)</th>" : ""}
+                            ${showFromBooster ? "<th>Premium paid from booster</th>" : ""}
+                            ${cashOutTotal > 0 ? "<th>Booster withdrawal paid to you</th>" : ""}
                             <th>Welcome Bonus</th>
                             <th>Promotion units</th>
                             <th>Loyalty Bonus</th>
                             <th>Admin charge</th>
                             ${plan.hasSumAssured ? "<th>Assurance charge</th>" : ""}
-                            ${hasDividendFunds ? "<th>Dividends reinvested</th><th>Dividends paid out</th>" : ""}
+                            ${hasDividendFunds ? `<th>Dividends reinvested</th>${boosterHasDividends ? "<th>Dividends paid out<div class=\"calc-th-note\">Growth + Flex</div></th><th>Dividends paid out<div class=\"calc-th-note\">Investment Booster</div></th>" : "<th>Dividends paid out</th>"}` : ""}
                         </tr>
                     </thead>
                     <tbody>
                         ${base.map(row => `
                             <tr>
-                                <td>${row.year} / ${row.age}</td>
+                                <td>Policy Year ${row.year} / Age ${row.age}</td>
                                 <td>${row.premium ? money(row.premium) : "—"}</td>
+                                ${hasBoosters ? `<td>${row.booster ? money(row.booster) : "—"}</td><td>${row.boosterCharge ? money(row.boosterCharge) : "—"}</td>` : ""}
+                                ${showFromBooster ? `<td>${row.premiumFromBooster ? money(row.premiumFromBooster) : "—"}</td>` : ""}
+                                ${cashOutTotal > 0 ? `<td>${row.boosterCashOut ? money(row.boosterCashOut) : "—"}</td>` : ""}
                                 <td>${row.welcome ? money(row.welcome) : "—"}</td>
                                 <td>${row.promotion ? money(row.promotion) : "—"}</td>
                                 <td>${row.loyalty ? money(row.loyalty) : "—"}</td>
                                 <td>${row.adminCharge ? money(row.adminCharge) : "—"}</td>
                                 ${plan.hasSumAssured ? `<td>${row.assuranceCharge ? money(row.assuranceCharge) : "—"}</td>` : ""}
-                                ${hasDividendFunds ? `<td>${row.dividendsReinvested ? money(row.dividendsReinvested) : "—"}</td><td>${row.dividendsPaid ? money(row.dividendsPaid) : "—"}</td>` : ""}
+                                ${hasDividendFunds ? `<td>${row.dividendsReinvested ? money(row.dividendsReinvested) : "—"}</td>${boosterHasDividends
+                                    ? `<td>${row.gfDividendsPaid ? money(row.gfDividendsPaid) : "—"}</td><td>${row.aiaDividendsPaid ? money(row.aiaDividendsPaid) : "—"}</td>`
+                                    : `<td>${row.dividendsPaid ? money(row.dividendsPaid) : "—"}</td>`}` : ""}
                             </tr>
                         `).join("")}
                     </tbody>
@@ -1790,7 +2131,8 @@ function renderResults() {
             charge is deducted separately.
             ${hasDividendFunds ? `Dividend-paying funds pay their latest declared dividend per unit at their usual frequency, on the units held. ${dividendNotes(input)}` : ""}
             Administration charge:
-            ${pct(plan.admin[input.term][0], 1)} a year of the account value for the first ${plan.admin[input.term][1]} years.
+            ${pct(plan.admin[input.term][0], 1)} a year of the Growth and Flex Account value for the first ${plan.admin[input.term][1]} years.
+            ${hasBoosters ? `Investment Booster (Lump Sum): each one is paid at the start of the policy year at that age into the Additional Investment Account; a 3% premium charge is deducted and 97% buys units. It gets no Welcome Bonus, Loyalty Bonus or promotion units and has no administration or surrender charge. Its value is added to the death benefit${plan.hasSumAssured ? " (it does not change the sum assured, the Wealth Assure Value or the assurance charge)" : " (the 101% guarantee covers regular premiums only)"}.` : ""}
             ${plan.hasSumAssured ? `Assurance charges use the ${input.sex === "F" ? "female" : "male"} ${input.smoker ? "smoker" : "non-smoker"} rates on the sum at risk.` : "There is no assurance charge."}
 
             ${promotion?.applies ? `Promotion units (“${escapeHtml(promotion.name)}”) are credited with the first-year premium; a clawback may apply if the promotion funds are switched out on or before day 180.` : ""}
@@ -1809,15 +2151,15 @@ function renderResults() {
     out.closest(".calc-dialog-body")?.scrollTo(0, 0);
 
     // Draw after the popup is open so the chart can size itself
-    drawProjectionChart(plan, base, showPaid);
+    drawProjectionChart(plan, base, showPaid || hasBoosters, hasBoosters, showGfPaid, showAiaPaid);
 }
 
 /* % gain of total net value (account value + dividends paid out)
    over the premiums paid to date */
 function netGain(row) {
-    if (!row || !(row.paid > 0)) return null;
+    if (!row || !(row.invested > 0)) return null;
 
-    return (row.account + row.dividendsPaidTotal) / row.paid - 1;
+    return (row.account + row.dividendsPaidTotal + (row.cashFromBooster ?? 0)) / row.invested - 1;
 }
 
 function signedPct(value) {
@@ -1831,14 +2173,14 @@ function gainMilestones(rows, term) {
 
     return `
         <div class="calc-gain-row">
-            <span class="calc-gain-title">Total net value vs premiums paid</span>
+            <span class="calc-gain-title">Total net value vs total paid in</span>
             ${years.map(year => {
                 const row = rows[year - 1];
                 const gain = netGain(row);
 
                 return `
                     <span class="calc-gain-chip ${gain !== null && gain < 0 ? "is-down" : "is-up"}">
-                        <em>Year ${year} · age ${row.age}${year === term ? " · end of premium term" : ""}</em>
+                        <em>Policy Year ${year} / Age ${row.age}${year === term ? " · end of premium term" : ""}</em>
                         <strong>${signedPct(gain)}</strong>
                     </span>
                 `;
@@ -1852,23 +2194,25 @@ function cssVar(name, fallback) {
     return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || fallback;
 }
 
-function chartSeries(plan, showPaid) {
+function chartSeries(plan, showPaid, hasBoosters = false, showGfPaid = showPaid, showAiaPaid = false) {
     const list = [
         { key: "account", label: "Account value", color: cssVar("--series-1", "#3987e5") }
     ];
 
     if (showPaid) {
-        list.push({ key: "dividends", label: "Dividends paid out to date", color: cssVar("--series-2", "#d95926") });
-        list.push({ key: "net", label: "Total net value (account value + dividends paid out)", color: cssVar("--series-3", "#199e70") });
+        // Each source keeps its own colour, whichever ones are shown
+        if (showGfPaid) list.push({ key: "gfDividends", label: "Dividends paid out to date · Growth + Flex", color: cssVar("--series-2", "#d95926") });
+        if (showAiaPaid) list.push({ key: "aiaDividends", label: "Dividends paid out to date · Investment Booster", color: cssVar("--series-4", "#c98500") });
+        list.push({ key: "net", label: hasBoosters ? "Total net value (incl. Investment Booster, dividends and withdrawals paid out)" : "Total net value (account value + dividends paid out)", color: cssVar("--series-3", "#199e70") });
     }
 
     // Reference line, not a category: neutral ink, dashed
-    list.push({ key: "paid", label: "Premiums paid to date", color: cssVar("--text-muted", "#8b98a5"), dashed: true });
+    list.push({ key: "paid", label: hasBoosters ? "Paid in to date (premiums + boosters)" : "Premiums paid to date", color: cssVar("--text-muted", "#8b98a5"), dashed: true });
 
     return list;
 }
 
-function drawProjectionChart(plan, rows, showPaid) {
+function drawProjectionChart(plan, rows, showPaid, hasBoosters = false, showGfPaid = showPaid, showAiaPaid = false) {
     if (!window.Chart) return;
 
     const text = cssVar("--text-primary", "#e6edf3");
@@ -1878,13 +2222,14 @@ function drawProjectionChart(plan, rows, showPaid) {
     const border = cssVar("--border-medium", "rgba(255,255,255,0.15)");
 
     const valueOf = {
-        account: row => row.lapsed ? 0 : row.account,
-        dividends: row => row.dividendsPaidTotal,
-        net: row => row.account + row.dividendsPaidTotal,
-        paid: row => row.paid
+        account: row => row.lapsed ? 0 : row.gfAccount,
+        gfDividends: row => row.gfDividendsPaidTotal,
+        aiaDividends: row => row.aiaDividendsPaidTotal,
+        net: row => row.account + row.dividendsPaidTotal + (row.cashFromBooster ?? 0),
+        paid: row => row.invested
     };
 
-    const series = chartSeries(plan, showPaid);
+    const series = chartSeries(plan, showPaid, hasBoosters, showGfPaid, showAiaPaid);
     const compact = value => {
         const abs = Math.abs(value);
 
@@ -1955,14 +2300,14 @@ function drawProjectionChart(plan, rows, showPaid) {
                         title: items => {
                             const row = rows[items[0]?.dataIndex];
 
-                            return row ? `End of policy year ${row.year} · age ${row.age}` : "";
+                            return row ? `End of Policy Year ${row.year} / Age ${row.age}` : "";
                         },
                         label: item => ` ${item.dataset.label}: ${money(item.raw)}`,
                         footer: items => {
                             const row = rows[items[0]?.dataIndex];
                             const gain = netGain(row);
 
-                            return gain === null ? "" : `Gain vs premiums paid: ${signedPct(gain)}`;
+                            return gain === null ? "" : `Gain vs total paid in: ${signedPct(gain)}`;
                         }
                     },
                     footerColor: text
@@ -2001,8 +2346,14 @@ function dividendNotes(input) {
             : "Flex Account dividends are reinvested.");
     }
 
-    if (!PLANS[input.plan].hasSumAssured && parts.some(text => text.includes("paid out"))) {
-        parts.push("The guaranteed death benefit is 101% of premiums paid less dividend payments.");
+    if (input.boosterShares.some(item => item.share > 0 && dividendInfo(item.code))) {
+        parts.push(input.dividends.booster === "payout"
+            ? "Investment Booster (Additional Investment Account) dividends are paid out in cash and shown separately from the Growth + Flex payouts."
+            : "Investment Booster (Additional Investment Account) dividends are reinvested, with no premium charge.");
+    }
+
+    if (!PLANS[input.plan].hasSumAssured && parts.some(text => text.includes("paid out") && !text.startsWith("Investment Booster"))) {
+        parts.push("The guaranteed death benefit is 101% of regular premiums paid less Growth + Flex dividend payments.");
     }
 
     if (PLANS[input.plan].hasSumAssured && parts.some(text => text.includes("paid out"))) {
@@ -2089,7 +2440,7 @@ function bindEvents() {
         render();
     });
 
-    for (const selector of ["#calc-premium", "#calc-frequency", "#calc-dob", "#calc-sex", "#calc-smoker", "#calc-start", "#calc-return", "#calc-years", "#calc-div-growth", "#calc-div-flex", "#calc-div-age"]) {
+    for (const selector of ["#calc-premium", "#calc-frequency", "#calc-dob", "#calc-sex", "#calc-smoker", "#calc-start", "#calc-return", "#calc-years", "#calc-div-growth", "#calc-div-flex", "#calc-div-age", "#calc-div-booster", "#calc-booster-pay", "#calc-booster-withdraw"]) {
         qs(selector)?.addEventListener("input", schedule);
         qs(selector)?.addEventListener("change", schedule);
     }
@@ -2119,119 +2470,174 @@ function bindEvents() {
         renderResults();
     });
 
-    const box = qs("#calc-accounts");
     const pair = value => {
         const [account, rest] = String(value).split(/:(.*)/s);
 
         return [account, rest];
     };
 
-    box?.addEventListener("focusin", event => {
-        const search = event.target.closest("[data-calc-search]");
+    // Fund boxes: Growth / Flex Accounts, and the Investment Booster account
+    for (const box of [qs("#calc-accounts"), qs("#calc-booster-list")]) {
+        box?.addEventListener("focusin", event => {
+            const search = event.target.closest("[data-calc-search]");
 
-        if (search) renderSuggestions(search.dataset.calcSearch);
-    });
+            if (search) renderSuggestions(search.dataset.calcSearch);
+        });
 
-    box?.addEventListener("input", event => {
-        const search = event.target.closest("[data-calc-search]");
+        box?.addEventListener("input", event => {
+            const search = event.target.closest("[data-calc-search]");
 
-        if (search) {
-            renderSuggestions(search.dataset.calcSearch);
-            return;
-        }
+            if (search) {
+                renderSuggestions(search.dataset.calcSearch);
+                return;
+            }
 
-        const weight = event.target.closest("[data-calc-weight]");
+            const weight = event.target.closest("[data-calc-weight]");
 
-        if (weight) {
+            if (weight) {
+                const [account, index] = pair(weight.dataset.calcWeight);
+                const item = calc.accounts[account][Number(index)];
+
+                if (item) item.weight = Math.max(0, Number(weight.value) || 0);
+
+                const total = accountTotal(account);
+                const chip = qs(`[data-calc-total="${account}"]`);
+
+                if (chip) {
+                    chip.textContent = `Total ${total}%`;
+                    chip.classList.toggle("is-ok", Math.abs(total - 100) < 0.001);
+                    chip.classList.toggle("is-off", Math.abs(total - 100) >= 0.001);
+                }
+
+                schedule();
+            }
+        });
+
+        box?.addEventListener("change", event => {
+            const weight = event.target.closest("[data-calc-weight]");
+
+            if (!weight) return;
+
             const [account, index] = pair(weight.dataset.calcWeight);
             const item = calc.accounts[account][Number(index)];
 
-            if (item) item.weight = Math.max(0, Number(weight.value) || 0);
+            if (item) item.weight = Math.min(100, Math.max(ALLOCATION_STEP, Math.round((Number(weight.value) || 0) / ALLOCATION_STEP) * ALLOCATION_STEP));
 
-            const total = accountTotal(account);
-            const chip = qs(`[data-calc-total="${account}"]`);
-
-            if (chip) {
-                chip.textContent = `Total ${total}%`;
-                chip.classList.toggle("is-ok", Math.abs(total - 100) < 0.001);
-                chip.classList.toggle("is-off", Math.abs(total - 100) >= 0.001);
-            }
-
-            schedule();
-        }
-    });
-
-    box?.addEventListener("change", event => {
-        const weight = event.target.closest("[data-calc-weight]");
-
-        if (!weight) return;
-
-        const [account, index] = pair(weight.dataset.calcWeight);
-        const item = calc.accounts[account][Number(index)];
-
-        if (item) item.weight = Math.min(100, Math.max(ALLOCATION_STEP, Math.round((Number(weight.value) || 0) / ALLOCATION_STEP) * ALLOCATION_STEP));
-
-        renderAccounts();
-        render();
-    });
-
-    box?.addEventListener("focusout", event => {
-        const search = event.target.closest("[data-calc-search]");
-
-        if (!search) return;
-
-        setTimeout(() => {
-            const list = qs(`[data-calc-suggestions="${search.dataset.calcSearch}"]`);
-
-            if (list) list.hidden = true;
-        }, 150);
-    });
-
-    box?.addEventListener("mousedown", event => {
-        const option = event.target.closest("[data-calc-add]");
-
-        if (!option) return;
-
-        event.preventDefault();
-
-        const [account, code] = pair(option.dataset.calcAdd);
-
-        if (calc.accounts[account].some(item => item.code === code)) return;
-
-        calc.accounts[account].push({ code, weight: 0 });
-        splitEqually(account);
-        renderAccounts();
-        render();
-    });
-
-    box?.addEventListener("click", event => {
-        const remove = event.target.closest("[data-calc-remove]");
-
-        if (remove) {
-            const [account, index] = pair(remove.dataset.calcRemove);
-
-            calc.accounts[account].splice(Number(index), 1);
             renderAccounts();
             render();
+        });
+
+        box?.addEventListener("focusout", event => {
+            const search = event.target.closest("[data-calc-search]");
+
+            if (!search) return;
+
+            setTimeout(() => {
+                const list = qs(`[data-calc-suggestions="${search.dataset.calcSearch}"]`);
+
+                if (list) list.hidden = true;
+            }, 150);
+        });
+
+        box?.addEventListener("mousedown", event => {
+            const option = event.target.closest("[data-calc-add]");
+
+            if (!option) return;
+
+            event.preventDefault();
+
+            const [account, code] = pair(option.dataset.calcAdd);
+
+            if (calc.accounts[account].some(item => item.code === code)) return;
+
+            calc.accounts[account].push({ code, weight: 0 });
+            splitEqually(account);
+            renderAccounts();
+            render();
+        });
+
+        box?.addEventListener("click", event => {
+            const remove = event.target.closest("[data-calc-remove]");
+
+            if (remove) {
+                const [account, index] = pair(remove.dataset.calcRemove);
+
+                calc.accounts[account].splice(Number(index), 1);
+                renderAccounts();
+                render();
+                return;
+            }
+
+            const split = event.target.closest("[data-calc-split]");
+
+            if (split) {
+                splitEqually(split.dataset.calcSplit);
+                renderAccounts();
+                render();
+            }
+        });
+
+        box?.addEventListener("keydown", event => {
+            if (event.key !== "Escape") return;
+
+            const search = event.target.closest("[data-calc-search]");
+            const list = search ? qs(`[data-calc-suggestions="${search.dataset.calcSearch}"]`) : null;
+
+            if (list) list.hidden = true;
+        });
+    }
+
+    // Investment Booster rows
+    qs("#calc-booster-add")?.addEventListener("click", () => {
+        if (calc.boosters.length >= 10) return;
+
+        // The first booster defaults to the point of purchase
+        calc.boosters.push({ age: "", amount: "", atStart: calc.boosters.length === 0 });
+        renderBoosterRows();
+        renderAccounts();
+        render();
+        qs(`[data-booster-age="${calc.boosters.length - 1}"]`)?.focus();
+    });
+
+    const boosterList = qs("#calc-booster-list");
+
+    boosterList?.addEventListener("input", event => {
+        const age = event.target.closest("[data-booster-age]");
+        const amount = event.target.closest("[data-booster-amount]");
+
+        const start = event.target.closest("[data-booster-start]");
+
+        if (start) {
+            const row = calc.boosters[Number(start.dataset.boosterStart)];
+
+            row.atStart = start.checked;
+
+            if (!start.checked) row.age = qs(`[data-booster-age="${start.dataset.boosterStart}"]`)?.value ?? "";
+
+            schedule();
             return;
         }
 
-        const split = event.target.closest("[data-calc-split]");
+        if (age) calc.boosters[Number(age.dataset.boosterAge)].age = age.value;
+        if (amount) calc.boosters[Number(amount.dataset.boosterAmount)].amount = amount.value;
 
-        if (split) {
-            splitEqually(split.dataset.calcSplit);
-            renderAccounts();
-            render();
-        }
+        if (age || amount) schedule();
     });
 
-    box?.addEventListener("keydown", event => {
-        if (event.key !== "Escape") return;
+    boosterList?.addEventListener("click", event => {
+        const remove = event.target.closest("[data-booster-remove]");
 
-        const search = event.target.closest("[data-calc-search]");
-        const list = search ? qs(`[data-calc-suggestions="${search.dataset.calcSearch}"]`) : null;
+        if (!remove) return;
 
-        if (list) list.hidden = true;
+        const removed = Number(remove.dataset.boosterRemove);
+
+        // Shift the later boosters' funds down one place
+        for (let i = removed; i < calc.boosters.length - 1; i += 1) calc.accounts[`b${i}`] = boosterFunds(i + 1);
+        delete calc.accounts[`b${calc.boosters.length - 1}`];
+        calc.boosters.splice(removed, 1);
+        renderBoosterRows();
+        renderAccounts();
+        render();
     });
 }
 
