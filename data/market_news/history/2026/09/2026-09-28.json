@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-28",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "99c129dbe4bdc114b716fe4499b9028db3ea73dda68d5fd705eb90c46dd75b67",
+      "source": "CNBC",
+      "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
+      "publishedAtSgt": "2026-09-28T16:31:33+08:00",
+      "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The detailed lists includes mostly imports of toys, sports equipment and Christmas decorations by the U.S., while American agricultural products accounted for much of the far longer list of imports by China. Washington has sought to reduce its record trade deficit with Beijing, as the Asian country exports far more to the U.S. goods trade deficit with China was more than $202 billion last year.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:49+08:00"
+    },
+    {
+      "id": "a17db37a1d2faa134e597f9fe260b8b8b887ecd075518e8745733045347840c4",
+      "source": "CNBC",
+      "title": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
+      "publishedAtSgt": "2026-09-28T12:04:16+08:00",
+      "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The earnings report also points to an increasingly bifurcated economy, with strong earnings growth in high-tech sectors, such as AI and robotics, whereas consumer-related industries like clothing, autos and furniture showed declining profits. Growth in the world's second-largest economy softened to its slowest in more than three years in the second quarter, as a multiyear property downturn continued to depress consumer demand and investment in real estate and infrastructure.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:52+08:00"
+    }
+  ],
+  "articleCount": 2,
+  "updatedAtSgt": "2026-10-02T12:09:52+08:00"
+}

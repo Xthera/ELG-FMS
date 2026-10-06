@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-15",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "4b3067228641dc5fae6d1014aa9a10583c59b6fa8b527cdc7071951ad9fd31ab",
+      "source": "CNBC",
+      "title": "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
+      "publishedAtSgt": "2026-09-15T03:47:42+08:00",
+      "url": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Both trends followed Warsh's comments a few weeks ago that the Fed would be forced into action unless there are more concrete signs that inflation is easing back to the central bank's 2% target. Economists generally agree that much of this year's increase has come from tariffs and an energy supply shock from the Iran war, both of which have uncertain impacts on the long-range trajectory of inflation.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:56+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-02T12:09:56+08:00"
+}

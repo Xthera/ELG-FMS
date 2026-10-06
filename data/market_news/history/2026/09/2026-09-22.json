@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-22",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "0980250f2f52a0c38f86c5c5b949dfa8ad54a69b13d7be58244e1b1815438e9f",
+      "source": "CNBC",
+      "title": "Jamie Dimon says hyperscaler AI spending could hit $1 trillion next year",
+      "publishedAtSgt": "2026-09-22T09:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/09/21/jamie-dimon-jpm-jpmorgan-indiaconference.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The artificial intelligence spending boom is showing little sign of slowing, with investment across the hyperscaler ecosystem potentially reaching $1 trillion next year, according to JPMorgan Chase CEO Jamie Dimon. Spending across the hyperscaler ecosystem has more than doubled from about $300 billion last year to around $700 billion this year, a surge Dimon said is boosting economic growth while potentially adding to inflation.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:51+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-02T12:09:51+08:00"
+}

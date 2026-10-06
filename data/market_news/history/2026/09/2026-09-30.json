@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-30",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "ad8b69469d3a5c6f00ca3a111ce6ebe2411dd75b7fe1ccb48705ce50f4c37fcb",
+      "source": "CNBC",
+      "title": "Fed’s preferred gauge showed core inflation at 3.0% in August, much lighter than expected",
+      "publishedAtSgt": "2026-09-30T23:14:57+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "\"This is good news for investors worried about the recent surge in bond yields, and it bolsters the case for not hiking in October,\" said David Russell, global head of market strategy at TradeStation. Both PCE levels are still considerably higher than the central bank's 2% target, raising the possibility that the Fed will follow up its September interest rate hike with another increase at either of its remaining meetings this year — in October or, more likely, December.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
+    },
+    {
+      "id": "b47415b24012c7266d330c692e2ddbe177516d4294bceb3dc9307662a14efdee",
+      "source": "CNBC",
+      "title": "An inside man at the Fed, OpenAI debuts Dots, an IPO trend and more in Morning Squawk",
+      "publishedAtSgt": "2026-09-30T23:01:15+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investigators believed that he passed information about the central bank to a Chinese government spy. OpenAI's potential IPO was also front of mind for investors and company executives in San Francisco on Tuesday. The 30-year Treasury bond yield continued its ascent yesterday, hitting its highest level going back to 2002 and weighing down stocks.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "id": "00b4678727e70c0653156c1bd9208b74e09210590eba978d7fe2516fb1e89e3c",
+      "source": "CNBC",
+      "title": "Robinhood unveils weekend hours, AI agents to allow users to trade nonstop",
+      "publishedAtSgt": "2026-09-30T21:56:14+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/robinhood-unveils-weekend-hours-ai-agents-to-allow-users-to-trade-nonstop.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The brokerage is expanding trading hours, adding crypto perpetuals and AI-powered automated trading tools to appeal to more active traders, it announced Tuesday evening at its HOOD Summit in Houston, Texas. The new offerings reflect Robinhood's evolution beyond its commission-free stock-trading roots as it seeks to become a more comprehensive platform for active traders.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:02+08:00"
+    },
+    {
+      "id": "02dafeeefb638245121b0e466e6a7b82ce6fa07b678e0499fefdf642b3fbd3dc",
+      "source": "CNBC",
+      "title": "Holiday retail sales are expected to top $1 trillion as inflation boosts growth",
+      "publishedAtSgt": "2026-09-30T20:48:46+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/holiday-retail-sales-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "According to Bain & Company's annual forecast, holiday retail sales are expected to top $1 trillion for the first time, marking a 4.5% growth. Bain also noted that the headline spending increase is underscored by rising inflation, which accounts for most of the growth, making actual unit growth thinner than it appears. Still, the company noted that while the appetite to explore through new technology is strong, most people are still not buying products directly through AI platforms.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:46+08:00"
+    },
+    {
+      "id": "8f282b831095eccbe524e372fb701f837fe08c0b294e2434d4db109edf6edb5d",
+      "source": "CNBC",
+      "title": "OpenAI follows Meta into the red-hot market for personal agents. But will users pay?",
+      "publishedAtSgt": "2026-09-30T20:04:46+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/openai-follows-meta-into-the-red-hot-market-for-personal-agents.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "Following Meta's blockbuster release of its Muse AI agent earlier this month, OpenAI jumped into the personal agent market on Tuesday with Dots, setting the stage for what could be the next big battle in the artificial intelligence market. Since the release of Muse three weeks ago, investors have rallied around Meta, sending the stock up 29% in September, on pace for its best month since 2013.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "id": "841bf24ce028961592ce93977898becc887f08b314e8cf492ab6fb47fecf154b",
+      "source": "CNBC",
+      "title": "China has three new criteria for humanoid robot IPOs. Few, if any, meet them",
+      "publishedAtSgt": "2026-09-30T10:50:35+08:00",
+      "url": "https://www.cnbc.com/2026/09/29/china-criteria-humanoid-robot-ipos.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It's a sign of how one of the hottest sectors of the market is cooling, as investors globally assess whether artificial intelligence stocks are in a bubble. The tech, often called \"physical AI\" in China, has been seen as a way for early-stage investors to benefit from the surge of interest in artificial intelligence models. The ratio of valuation to revenue — especially for Chinese AI startups Moonshot and DeepSeek — was far higher than their U.S.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:48+08:00"
+    },
+    {
+      "id": "ec5b14fa7fc342f87f9dc2e6e2a72d1ef2279d69391c2f81f5a78a724c14473a",
+      "source": "CNBC",
+      "title": "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
+      "publishedAtSgt": "2026-09-30T04:51:43+08:00",
+      "url": "https://www.cnbc.com/2026/09/29/the-feds-main-inflation-measure-will-be-released-wednesday-heres-what-to-expect.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The personal consumption expenditures price index, the primary inflation gauge for central bank policymakers, is expected to show increases of 0.3% at both the all-items and core levels, the latter of which excludes food and energy costs, according to the Dow Jones consensus. Fed Chairman Kevin Warsh said at his news conference earlier this month that hiring data along with business investment and private sector earnings show the economy in good shape.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
+    }
+  ],
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-02T23:53:12+08:00"
+}

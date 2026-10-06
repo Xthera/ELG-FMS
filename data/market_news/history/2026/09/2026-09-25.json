@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-25",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "9db156358285a6994d103097440b2531e75c9261c1f9fc47bbdf3c2982012c07",
+      "source": "CNBC",
+      "title": "Here's what happens to the economy when Treasury yields soar like they are now",
+      "publishedAtSgt": "2026-09-25T21:48:19+08:00",
+      "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Similarly, the 2-year note, which typically responds to Fed rate expectations and signals rates for home equity, auto loans and other debt, climbed more than 13 basis points past 4.9% as traders priced in a strong possibility that the central bank would follow its hike last week with another in October. economy where it hurts the most — consumers, who drive almost 70% of all economic activity and hold nearly $19 trillion in total debt.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:54+08:00"
+    },
+    {
+      "id": "e94653b7802622bf689a4df355329ef74914b5e9e3633af24e112eab88371c20",
+      "source": "CNBC",
+      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+      "publishedAtSgt": "2026-09-25T19:08:05+08:00",
+      "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields continued their upward march Thursday as investors sought to price in a variety of factors: inflation still hovering well above the Fed's 2% goal, another bump up in energy prices and the impact of a global hyperscaler financial arms race and accompanying debt issuance. \"The bias has to be towards restoring price stability, and they should take what's going on seriously.\" Markets expect the central bank will indeed take a firmer hand on inflation.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:53+08:00"
+    },
+    {
+      "id": "aec0e303f79eef554f78a553bdcc07de19a7bf88d729c2e09f4ed08a54b7a23b",
+      "source": "CNBC",
+      "title": "MGM Resorts shares sink 11% after Barry Diller's People Inc. rescinds takeover offer",
+      "publishedAtSgt": "2026-09-25T04:11:24+08:00",
+      "url": "https://www.cnbc.com/2026/09/24/barry-diller-people-mgm-resorts.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "has rescinded its proposal to buy MGM Resorts International, sending shares of the casino giant down roughly 11% on Thursday. The update comes nearly four months after Diller's company offered to purchase MGM Resorts for $48.30 per share. — formerly known as IAC — attributed the decision to the complicated nature of the deal.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
+    },
+    {
+      "id": "5572d3ae399be347ad259b72d498bad1a4953626dec50d777feb3868883d6be4",
+      "source": "CNBC",
+      "title": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
+      "publishedAtSgt": "2026-09-25T01:12:04+08:00",
+      "url": "https://www.cnbc.com/2026/09/24/philadelphia-feds-anna-paulson-says-modest-rate-moves-likely-ahead-to-tame-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Looking ahead, if conditions evolve as I expect, some modest further tightening may be warranted.\" Though the summer showed some moderating in price pressures, she said underlying inflation is still running around 2.5%-3%, \"well above our 2% target, and the gap has shown little signs of closing.\" \"The best I can say about underlying inflation this year is that it hasn't gotten worse,\" Paulson said in prepared remarks for a fintech conference in her home district.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-02T12:09:50+08:00"
+    }
+  ],
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-02T12:09:54+08:00"
+}
