@@ -1,12 +1,43 @@
 {
-  "generatedAtSgt": "2026-10-06T06:30:29+08:00",
+  "generatedAtSgt": "2026-10-06T09:31:24+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
   "maxArticles": 100,
   "source": "CNBC",
-  "articleCount": 86,
+  "articleCount": 87,
   "articles": [
+    {
+      "id": "91a7d45e1914090f954bde88418133361df168c646743666f7d2243c68f7dbb4",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: China shuts down record 670 banks, new worries over oil and AI",
+      "publishedAtSgt": "2026-10-06T09:12:40+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/cnbc-daily-open-china-shuts-down-record-670-banks-new-worries-over-oil-and-ai-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Beijing has moved to close a record 670 of its banks in a bid to shore up its financial system, amid ongoing concerns over an economic slowdown in the country. Oil traders are concerned about supply disruptions after Saudi Aramco's CEO said that it could take two years to rebuild global oil stockpiles as the Iran-U.S.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T09:31:24+08:00"
+    },
+    {
+      "id": "8928c9bc7bfe8c912c469e885527332303828c239194661aa6950321939fe6e5",
+      "source": "CNBC",
+      "title": "Russian gold floods Hong Kong as Western sanctions redraw bullion trade",
+      "publishedAtSgt": "2026-10-06T07:14:39+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/russia-gold-hong-kong-china-western-sanctions.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Hong Kong imported 112.7 tonnes of Russian-origin gold in the first seven months of 2026, according to precious metals investment firm BullionVault's analysis of data from the Hong Kong Census and Statistics Department. Imports have already surpassed the record 92.1 tonnes imported during all of 2025, and compares with just 3.3 tonnes in 2021, before Russia's invasion of Ukraine.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-06T09:31:24+08:00"
+    },
     {
       "id": "3b0ee24a4b9eba633fedb132a55636bdccae62c1cf38e85dc6fa07b4efba37d7",
       "source": "CNBC",
@@ -1312,21 +1343,6 @@
       "relevanceScore": 71,
       "relevanceReason": "geopolitical_with_direct_economic_impact",
       "summary": "Xi and Trump agreed to a one-year trade truce at a meeting in South Korea last October. and China should discuss their differences on trade issues on the basis of mutual benefit, without actively imposing restrictions, said Dong Shaopeng, senior researcher at Renmin University of China. He expected the trade truce could be continually improved and extended.",
-      "feeds": [
-        "finance"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:51+08:00"
-    },
-    {
-      "id": "0980250f2f52a0c38f86c5c5b949dfa8ad54a69b13d7be58244e1b1815438e9f",
-      "source": "CNBC",
-      "title": "Jamie Dimon says hyperscaler AI spending could hit $1 trillion next year",
-      "publishedAtSgt": "2026-09-22T09:30:01+08:00",
-      "url": "https://www.cnbc.com/2026/09/21/jamie-dimon-jpm-jpmorgan-indiaconference.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "The artificial intelligence spending boom is showing little sign of slowing, with investment across the hyperscaler ecosystem potentially reaching $1 trillion next year, according to JPMorgan Chase CEO Jamie Dimon. Spending across the hyperscaler ecosystem has more than doubled from about $300 billion last year to around $700 billion this year, a surge Dimon said is boosting economic growth while potentially adding to inflation.",
       "feeds": [
         "finance"
       ],
