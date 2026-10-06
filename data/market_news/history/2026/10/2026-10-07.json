@@ -5,6 +5,38 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "857992382577f984b8efe3d20a80cc554f046ac42c8731c87243cb023148513e",
+      "source": "CNBC",
+      "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
+      "publishedAtSgt": "2026-10-07T06:23:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
+      "category": "MARKET",
+      "relevanceScore": 59,
+      "relevanceReason": "supporting_market_description",
+      "summary": "\"At the end of the day, oil and bond yields can be correlated, but so is the stock market and profits. And if the profits are there, which they have been, the stock market is going to be resilient, even if the economy is a bit more mixed,\" Shawn Snyder, economic strategist at Potomac Fund Management, told CNBC. Investor appetite for ambitious technology bets also became evident in June, when SpaceX raised $75 billion in the largest IPO ever and began trading on June 12.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T06:31:50+08:00"
+    },
+    {
+      "id": "c5291e591512ab33062a898d0faaa96517826e2161c077370c2a6556125769a0",
+      "source": "CNBC",
+      "title": "Cramer says these blue-chip stocks are among the best ways to invest in the AI boom",
+      "publishedAtSgt": "2026-10-07T06:13:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/jim-cramer-ai-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer said Tuesday that some of the best ways to invest in the artificial intelligence boom are established tech giants with multiple opportunities to capitalize on the technology. Rather than backing away from a trade that continues to drive much of the market's gains, Cramer said he favors blue-chip companies with strong businesses and management teams that can find new ways to benefit from AI.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-07T06:31:50+08:00"
+    },
+    {
       "id": "3b5ee8e780034b249c1fc4edf14e390e5510206c9cfa4b229392d4f180d728bf",
       "source": "CNBC",
       "title": "Meta may ditch the idea of a cloud business for Muse. We think that’s a good trade",
@@ -82,6 +114,6 @@
       "collectedAtSgt": "2026-10-07T03:31:57+08:00"
     }
   ],
-  "articleCount": 5,
-  "updatedAtSgt": "2026-10-07T03:31:58+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-07T06:31:50+08:00"
 }
