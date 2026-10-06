@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-04",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "1062414f59ff578e98df8787ce1310e124e20018d65d1abeded5ee92df90ca56",
+      "source": "CNBC",
+      "title": "Here are 3 things we're watching in the stock market in the week ahead",
+      "publishedAtSgt": "2026-10-04T23:33:05+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/04/here-are-3-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "We certainly expect the oil and bond markets to continue their heavy influence on how stocks trade this week. Though we don't own the name, the company is a direct competitor to Broadcom in the custom semiconductor space, and it has an exciting optical networking business that's important for future generations of Nvidia technology and AI computing more broadly.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-05T01:07:33+08:00"
+    },
+    {
+      "id": "47ef9f01e413c9ca1fd1336b6dc6570427ecc9d9bfa78a8fc8904d6266a93dcb",
+      "source": "CNBC",
+      "title": "Top Wall Street analysts are upbeat about the prospects for these 3 stocks",
+      "publishedAtSgt": "2026-10-04T21:24:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/04/top-analysts-are-upbeat-about-the-prospects-for-these-3-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Markets remained on edge with higher oil prices and Treasury yields weighing on investor sentiment and triggering fears of additional interest rate hikes. In this climate, investors with a long-term horizon can track recommendations from top Wall Street analysts to find stocks with solid growth prospects. CRWV stock performance has been underwhelming as investors worry about high capital spending, the analyst noted.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-05T01:07:33+08:00"
+    },
+    {
+      "id": "451ac4b844ee4f498375d4bd491466405a775b8b47ea593bf5fe27fce809d2cf",
+      "source": "CNBC",
+      "title": "A 'weird' IPO pull, a tainted reputation and the stalled breakout moment for AI wearables",
+      "publishedAtSgt": "2026-10-04T21:22:39+08:00",
+      "url": "https://www.cnbc.com/2026/10/04/ai-wearables-oura-ipo-privacy.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "I was also scared to go on dates after that as openly as I did before.\" Apple, Google, Meta and a swarm of other tech contenders are betting that new artificial intelligence wearables in the form of glasses, rings, charms and pendants can push the market toward its category-defining moment. But as the gadgets have grown in notoriety, they've also been met with privacy backlash and doubts about whether the technology is beneficial enough to become a fixture in everyday life.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-05T01:07:32+08:00"
+    },
+    {
+      "id": "f0d845d0a9b8f2ed41ecb44f8f99a22a7bb2f5dddcfc7190b21b50ae27b9f1d5",
+      "source": "CNBC",
+      "title": "More tankers struck in the Middle East as Iran reiterates conditions for reopening the Strait of Hormuz",
+      "publishedAtSgt": "2026-10-04T20:35:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "At least two vessels were struck over the weekend in waters near Oman and Iran, the United Kingdom Maritime Trade Operations Centre reported, as Tehran reiterated its position on Sunday that the Strait of Hormuz would not reopen unless its conditions for ending the war with the U.S. On Saturday, the UKMTO, a British maritime security alert service, said it received a report of a crude oil tanker being hit by an unknown projectile four nautical miles east of Oman.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-05T01:07:33+08:00"
+    }
+  ],
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-05T01:07:33+08:00"
+}
