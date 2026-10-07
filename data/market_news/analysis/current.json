@@ -1,10 +1,131 @@
 {
-  "generatedAtSgt": "2026-10-08T00:52:42.864820+08:00",
+  "generatedAtSgt": "2026-10-08T03:48:31.755933+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 118,
+  "articleCount": 122,
   "analyses": [
+    {
+      "articleId": "0876b463a9777873103ef8f66800210374168371a51d41bc9e6ad2f4230d831b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Constellation Brands, owner of Modelo, reported that beer depletions declined slightly during the quarter, signaling softer consumer demand despite shipment growth, as the company uses creative strategies to attract beer drinkers.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Staples",
+        "Food, Beverage & Tobacco"
+      ],
+      "investorImpact": "Indicates softening consumer demand in the beverage sector, which may affect the earnings and growth outlook for consumer staples companies like Constellation Brands.",
+      "reasoning": "Classified as MARKET because it discusses consumer demand trends, sales metrics, and stock performance for a major corporate entity in the beverage industry.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Modelo owner Constellation is getting creative to bring back beer drinkers as overall demand weakens",
+      "publishedAtSgt": "2026-10-08T03:14:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/constellation-brands-earnings-beer-demand.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
+    },
+    {
+      "articleId": "0b7931a8be02be61f0184f735b2786a52edeec9629ee69b83cd542fb52b22935",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Microsoft is launching the Surface Laptop Ultra priced at $2,599, featuring an Nvidia AI chip, to enhance local artificial intelligence capabilities on consumer devices and reduce reliance on cloud infrastructure.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Consumer Electronics",
+        "Semiconductors"
+      ],
+      "investorImpact": "The product launch highlights ongoing hardware integration of AI chips, providing positive signals for companies developing on-device AI capabilities and specialized hardware like Nvidia and Microsoft.",
+      "reasoning": "Classified as TECHNOLOGY due to its focus on new AI hardware development and consumer tech advancements. The sentiment is positive as it shows continued commercialization of edge AI workloads, and it is relevant for fund monitoring given the exposure to mega-cap tech and semiconductor supply chains.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
+      "publishedAtSgt": "2026-10-08T02:55:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 83,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
+    },
+    {
+      "articleId": "efec4a58773d665c524112a9d53651d0a0223ac331deed2591896d49029b2aba",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "The stock market closed at record highs as investors bet that AI capital expenditures will remain resilient despite higher bond yields, with forecasts pointing to continued gains for the S&P 500.",
+      "assetClasses": [
+        "Equities",
+        "Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "The positive outlook on corporate earnings and AI investments suggests continued upside for equity markets, encouraging investors to maintain risk-on positioning.",
+      "reasoning": "The article discusses major stock market performance and corporate earnings forecasts, directly impacting market sentiment and asset allocation strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
+      "publishedAtSgt": "2026-10-08T02:19:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
+    },
+    {
+      "articleId": "2436a58842b160e5ee2f096b3c26a635307a7821ea4fab8238b909c6fb7308b8",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "Apollo and various banks are in talks to finance SpaceX's massive $40 billion Nvidia GPU purchase, mirroring high-demand bond sales and high-cost AI infrastructure funding seen across major tech giants like Meta, Amazon, and Google.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials",
+        "Telecommunications"
+      ],
+      "investorImpact": "Highlights the massive capital expenditure and increasing debt financing required for AI infrastructure buildouts by major tech and private entities, impacting fixed-income markets and technology sector valuations.",
+      "reasoning": "Classified as MARKET due to the involvement of major financial institutions like Apollo in multi-billion dollar debt/financing talks for tech infrastructure, holding significant implications for credit markets and institutional portfolios.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
+      "publishedAtSgt": "2026-10-08T00:32:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/spacex-nvidia-chips-apollo-financing.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
+    },
     {
       "articleId": "c115ad42df074921bf481b238dd2f349887081688c73a5f48d560d41a94628d8",
       "relevant": true,
