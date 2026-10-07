@@ -5,6 +5,36 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "82603bc50af84126603713e90ee936a57b85d55a7fb345bb759828733424ba90",
+      "source": "CNBC",
+      "title": "France is caught between angry students and unforgiving bond markets",
+      "publishedAtSgt": "2026-10-07T21:23:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/french-student-protests-budget-deadlock.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The unrest in France has highlighted and intensified the economic and political challenges facing the country. The French budget deficit topped 5.1% of GDP last year. Bank of France Governor Emmanuel Moulin, who sits on the European Central Bank's Governing Council, threw cold water on the notion that France might soon need assistance from European Central Bank policymakers in Frankfurt.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T21:35:55+08:00"
+    },
+    {
+      "id": "20d2dbf98b8817b92ff81c653b85e8ebb5adb37ac883bf6e5d7d92889ff827b5",
+      "source": "CNBC",
+      "title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
+      "publishedAtSgt": "2026-10-07T20:35:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/home-heating-oil-costs-winter.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Americans who heat their homes with oil are expected to face sharply higher costs this winter, even as households that rely on natural gas or propane may get some relief. Home heating oil prices are expected to average $5.26 a gallon during the winter heating season, up 34% from last winter, according to details in the U.S. Energy Information Administration's annual Winter Fuels Outlook released Tuesday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-07T21:35:54+08:00"
+    },
+    {
       "id": "4cc006f7f306dfdd48d59d4238886269bcfcff9feb1300a4dfa1611867175d8d",
       "source": "CNBC",
       "title": "Treasury yields rise as oil moves higher, traders await key U.S. bond sale",
@@ -242,6 +272,6 @@
       "collectedAtSgt": "2026-10-07T03:31:57+08:00"
     }
   ],
-  "articleCount": 15,
-  "updatedAtSgt": "2026-10-07T18:34:30+08:00"
+  "articleCount": 17,
+  "updatedAtSgt": "2026-10-07T21:35:55+08:00"
 }
