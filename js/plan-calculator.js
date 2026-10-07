@@ -1369,7 +1369,7 @@ function accountMarkup(account, share) {
             </div>
 
             <div class="table-wrap">
-                <table class="data-table report-funds-table">
+                <table class="data-table report-funds-table calc-stack-table">
                     <thead>
                         <tr>
                             <th scope="col">Fund</th>
@@ -1386,12 +1386,12 @@ function accountMarkup(account, share) {
                                     <div class="fund-name">${escapeHtml(fundName(item.code))}</div>
                                     <div class="fund-meta">${escapeHtml(item.code)}${dividendTag(item.code)}${isBooster ? "" : promoTag(item.code)}</div>
                                 </td>
-                                <td class="calc-charge-cell">${bidPrice(item.code) === null ? "—" : `S$${bidPrice(item.code).toFixed(4)}`}${bidDate(item.code) ? `<div class="fund-meta">${escapeHtml(bidDate(item.code))}</div>` : ""}</td>
-                                <td class="report-weight-cell">
+                                <td class="calc-charge-cell" data-label="BID price">${bidPrice(item.code) === null ? "—" : `S$${bidPrice(item.code).toFixed(4)}`}${bidDate(item.code) ? `<div class="fund-meta">${escapeHtml(bidDate(item.code))}</div>` : ""}</td>
+                                <td class="report-weight-cell" data-label="Allocation">
                                     <input type="number" min="5" max="100" step="5" value="${item.weight}" data-calc-weight="${account}:${index}" aria-label="Allocation % for ${escapeHtml(fundName(item.code))}">
                                     <span>%</span>
                                 </td>
-                                <td class="calc-units-cell" data-calc-units="${account}:${index}">—</td>
+                                <td class="calc-units-cell" data-label="Units bought" data-calc-units="${account}:${index}">—</td>
                                 <td class="report-remove-cell">
                                     <button type="button" class="compare-remove" data-calc-remove="${account}:${index}" aria-label="Remove ${escapeHtml(fundName(item.code))}" title="Remove">×</button>
                                 </td>
@@ -1834,7 +1834,7 @@ function renderWelcome(input, units = fundUnits(input)) {
             <span>Total ${money(total)}</span>
         </div>
         <div class="table-wrap">
-            <table class="data-table calc-welcome-table">
+            <table class="data-table calc-welcome-table calc-stack-table">
                 <thead>
                     <tr>
                         <th scope="col">Fund</th>
@@ -1849,12 +1849,12 @@ function renderWelcome(input, units = fundUnits(input)) {
                     ${rows.map(row => `
                         <tr>
                             <td><div class="fund-name">${escapeHtml(row.name)}</div><div class="fund-meta">${escapeHtml(row.meta)}</div></td>
-                            <td>${row.baseUnits === null ? "—" : formatUnits(row.baseUnits)}<div class="calc-th-note">${money(row.base)}</div></td>
-                            ${row.amounts.map((amount, i) => `<td>${unitCell(row.units[i], amount, row.rates[i])}</td>`).join("")}
-                            <td><strong>${row.units.every(v => v !== null) ? `${formatUnits(sum(row.units))} units` : money(sum(row.amounts))}</strong>${row.units.every(v => v !== null) ? `<div class="calc-th-note">${money(sum(row.amounts))}</div>` : ""}</td>
+                            <td data-label="Units bought">${row.baseUnits === null ? "—" : formatUnits(row.baseUnits)}<div class="calc-th-note">${money(row.base)}</div></td>
+                            ${row.amounts.map((amount, i) => `<td data-label="Year ${i + 1}">${unitCell(row.units[i], amount, row.rates[i])}</td>`).join("")}
+                            <td data-label="Total bonus"><strong>${row.units.every(v => v !== null) ? `${formatUnits(sum(row.units))} units` : money(sum(row.amounts))}</strong>${row.units.every(v => v !== null) ? `<div class="calc-th-note">${money(sum(row.amounts))}</div>` : ""}</td>
                         </tr>
                     `).join("")}
-                    ${rows.length > 1 ? `<tr class="calc-welcome-total"><td>Total value</td><td>${money(input.regular)}</td>${yearTotals.map(v => `<td>${money(v)}</td>`).join("")}<td><strong>${money(total)}</strong></td></tr>` : ""}
+                    ${rows.length > 1 ? `<tr class="calc-welcome-total"><td>Total value</td><td data-label="Each premium">${money(input.regular)}</td>${yearTotals.map((v, i) => `<td data-label="Year ${i + 1}">${money(v)}</td>`).join("")}<td data-label="Total bonus"><strong>${money(total)}</strong></td></tr>` : ""}
                 </tbody>
             </table>
         </div>
@@ -1889,7 +1889,7 @@ function promotionUnitsMarkup(input, units) {
             <span>Total ${money(total)}</span>
         </div>
         <div class="table-wrap">
-            <table class="data-table calc-welcome-table">
+            <table class="data-table calc-welcome-table calc-stack-table">
                 <thead>
                     <tr>
                         <th scope="col">Fund</th>
@@ -1902,9 +1902,9 @@ function promotionUnitsMarkup(input, units) {
                     ${rows.map(item => `
                         <tr>
                             <td><div class="fund-name">${escapeHtml(fundName(item.code))}</div><div class="fund-meta">${escapeHtml(item.code)} · ${item.account === "growth" ? "Growth Account" : "Flex Account"}</div></td>
-                            <td>${formatUnits(item.perUnits)}<div class="calc-th-note">${money(item.perAmount)}</div></td>
-                            <td>${pct(item.rate)}</td>
-                            <td><strong>${item.units === null ? money(item.amount * item.rate) : `${formatUnits(item.units * item.rate)} units`}</strong>${item.units === null ? "" : `<div class="calc-th-note">${money(item.amount * item.rate)}</div>`}</td>
+                            <td data-label="Units bought">${formatUnits(item.perUnits)}<div class="calc-th-note">${money(item.perAmount)}</div></td>
+                            <td data-label="Rate">${pct(item.rate)}</td>
+                            <td data-label="Year 1 bonus"><strong>${item.units === null ? money(item.amount * item.rate) : `${formatUnits(item.units * item.rate)} units`}</strong>${item.units === null ? "" : `<div class="calc-th-note">${money(item.amount * item.rate)}</div>`}</td>
                         </tr>
                     `).join("")}
                 </tbody>
