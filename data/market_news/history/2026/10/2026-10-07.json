@@ -5,6 +5,38 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "5d20cb98b9eabf860fc9fd9c78c1348fd792f9b38f9d1bc51aaf05b3795633c1",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: AI rally defies bond market rout",
+      "publishedAtSgt": "2026-10-07T14:28:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/daily-open-ai-rally-bond-market-rout.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The AI bulls are trampling the bond market canaries in the coal mine. Temasek, Singapore's state-owned investment giant, has cautioned that a reversal in the AI trade poses the biggest risk to markets right now. Inflation in India has been rising for 10 straight months, while economic growth has remained strong despite external challenges.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T15:35:17+08:00"
+    },
+    {
+      "id": "8bef1830b0236a99635de826b197d5c9f5c513072ae93423b14707cae2e8052f",
+      "source": "CNBC",
+      "title": "India’s central bank hikes rates for the first time since 2023 as inflation risks build",
+      "publishedAtSgt": "2026-10-07T13:11:55+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "India's economic growth has been strong despite global challenges, Sanjay Malhotra, RBI governor, said in his address on Wednesday, while adding that \"inflation and its outlook are not benign, as they were last year.\" The monetary policy committee decided to change the policy stance \"to calibrated tightening,\" Malhotra said. The central bank expects India's core inflation to be at 4.4% for the financial year ending March 2027 and headline inflation at 5.2%.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T15:35:17+08:00"
+    },
+    {
       "id": "bf08ea2a60b1277b2f99d2d8f446d9cd2a7c7cc823387cb410c262fef22691c7",
       "source": "CNBC",
       "title": "Oil rises as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery",
@@ -161,6 +193,6 @@
       "collectedAtSgt": "2026-10-07T03:31:57+08:00"
     }
   ],
-  "articleCount": 10,
-  "updatedAtSgt": "2026-10-07T12:34:48+08:00"
+  "articleCount": 12,
+  "updatedAtSgt": "2026-10-07T15:35:17+08:00"
 }

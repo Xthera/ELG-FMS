@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-07T12:34:48+08:00",
+  "generatedAtSgt": "2026-10-07T15:35:17+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,38 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "5d20cb98b9eabf860fc9fd9c78c1348fd792f9b38f9d1bc51aaf05b3795633c1",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: AI rally defies bond market rout",
+      "publishedAtSgt": "2026-10-07T14:28:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/daily-open-ai-rally-bond-market-rout.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The AI bulls are trampling the bond market canaries in the coal mine. Temasek, Singapore's state-owned investment giant, has cautioned that a reversal in the AI trade poses the biggest risk to markets right now. Inflation in India has been rising for 10 straight months, while economic growth has remained strong despite external challenges.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T15:35:17+08:00"
+    },
+    {
+      "id": "8bef1830b0236a99635de826b197d5c9f5c513072ae93423b14707cae2e8052f",
+      "source": "CNBC",
+      "title": "India’s central bank hikes rates for the first time since 2023 as inflation risks build",
+      "publishedAtSgt": "2026-10-07T13:11:55+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "India's economic growth has been strong despite global challenges, Sanjay Malhotra, RBI governor, said in his address on Wednesday, while adding that \"inflation and its outlook are not benign, as they were last year.\" The monetary policy committee decided to change the policy stance \"to calibrated tightening,\" Malhotra said. The central bank expects India's core inflation to be at 4.4% for the financial year ending March 2027 and headline inflation at 5.2%.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T15:35:17+08:00"
+    },
     {
       "id": "bf08ea2a60b1277b2f99d2d8f446d9cd2a7c7cc823387cb410c262fef22691c7",
       "source": "CNBC",
@@ -1527,36 +1559,6 @@
         "finance"
       ],
       "collectedAtSgt": "2026-10-02T12:09:48+08:00"
-    },
-    {
-      "id": "fdc37d4078f6164344955f48e262146deed0172c4b7af46bcc4e2ded87da74a3",
-      "source": "CNBC",
-      "title": "Ex-Disney CEO Bob Chapek says he raised concerns with the board 'weekly' during Iger power battle",
-      "publishedAtSgt": "2026-09-29T00:02:17+08:00",
-      "url": "https://www.cnbc.com/2026/09/28/disney-bob-chapek-bob-iger-power-battle-board.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Former Disney CEO Bob Chapek said Monday he voiced concerns about then-Executive Chairman Bob Iger to the company's board \"weekly\" during his brief tenure as head of the House of Mouse. Chapek has remained tight-lipped about his firing from the media giant nearly four years ago, but opened up about his experience in a new tell-all memoir, \"Behind the Castle Walls: My Thirty Years at the Happiest Place on Earth,\" and in an interview with CNBC's \"Squawk Box.\" Once head of Disney's theme park and...",
-      "feeds": [
-        "business"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
-    },
-    {
-      "id": "99c129dbe4bdc114b716fe4499b9028db3ea73dda68d5fd705eb90c46dd75b67",
-      "source": "CNBC",
-      "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
-      "publishedAtSgt": "2026-09-28T16:31:33+08:00",
-      "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "The detailed lists includes mostly imports of toys, sports equipment and Christmas decorations by the U.S., while American agricultural products accounted for much of the far longer list of imports by China. Washington has sought to reduce its record trade deficit with Beijing, as the Asian country exports far more to the U.S. goods trade deficit with China was more than $202 billion last year.",
-      "feeds": [
-        "finance"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:49+08:00"
     }
   ]
 }
