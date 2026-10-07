@@ -5,6 +5,71 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "0876b463a9777873103ef8f66800210374168371a51d41bc9e6ad2f4230d831b",
+      "source": "CNBC",
+      "title": "Modelo owner Constellation is getting creative to bring back beer drinkers as overall demand weakens",
+      "publishedAtSgt": "2026-10-08T03:14:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/constellation-brands-earnings-beer-demand.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "However, the company said beer depletions, a measure of sales from distributors to retailers and other customers, declined slightly during the quarter, indicating consumer demand was softer than shipment growth suggests. Kirk has a buy rating and $209 price target on the stock, compared with the roughly $116 a share price as of Wednesday.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
+    },
+    {
+      "id": "0b7931a8be02be61f0184f735b2786a52edeec9629ee69b83cd542fb52b22935",
+      "source": "CNBC",
+      "title": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
+      "publishedAtSgt": "2026-10-08T02:55:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 83,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Microsoft said its new laptop containing an Nvidia AI chip will start at $2,599, as the software maker tries to bring more artificial intelligence capabilities to its consumer devices. As the AI boom matures and chip technology advances, tech giants including Microsoft, Apple and Google are aiming to allow users to run more AI workloads from their devices rather than relying on the cloud.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
+    },
+    {
+      "id": "efec4a58773d665c524112a9d53651d0a0223ac331deed2591896d49029b2aba",
+      "source": "CNBC",
+      "title": "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
+      "publishedAtSgt": "2026-10-08T02:19:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The market closed at record highs Tuesday as investors bet that AI capex — a major force for the markets and economy — won't be derailed by higher bond yields. \"Investors should remain positioned for market upside, and we forecast the S&P 500 to reach 8,400 by June next year,\" said Ulrike Hoffmann-Burchardi, CIO Americas and Global Head of Equities for UBS Chief Investment Office in a note on Wednesday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
+    },
+    {
+      "id": "2436a58842b160e5ee2f096b3c26a635307a7821ea4fab8238b909c6fb7308b8",
+      "source": "CNBC",
+      "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
+      "publishedAtSgt": "2026-10-08T00:32:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/spacex-nvidia-chips-apollo-financing.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC was told at the time that SpaceX's bond sale saw incredibly high demand, highlighting strong interest from fixed-income investors. While a bond deal of this size is notable, it follows a series of bond issuances from Meta, Amazon and Google as the cost to fund the AI buildout gets more expensive.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
+    },
+    {
       "id": "c115ad42df074921bf481b238dd2f349887081688c73a5f48d560d41a94628d8",
       "source": "CNBC",
       "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
@@ -22,6 +87,6 @@
       "collectedAtSgt": "2026-10-08T00:36:57+08:00"
     }
   ],
-  "articleCount": 1,
-  "updatedAtSgt": "2026-10-08T00:36:57+08:00"
+  "articleCount": 5,
+  "updatedAtSgt": "2026-10-08T03:32:58+08:00"
 }
