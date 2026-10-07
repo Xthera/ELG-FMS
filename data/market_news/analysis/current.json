@@ -1,10 +1,69 @@
 {
-  "generatedAtSgt": "2026-10-08T03:48:31.755933+08:00",
+  "generatedAtSgt": "2026-10-08T06:46:42.585720+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 122,
+  "articleCount": 124,
   "analyses": [
+    {
+      "articleId": "4507a16d6594e0abefbc0f219d477425015f43aa51b50173fdf744b1b73e9253",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Levi Strauss raised its profit outlook due to tariff refunds, but lowered its full-year net revenue growth guidance to the bottom of its previous range at 7%, leading to flat share performance in extended trading.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Apparel"
+      ],
+      "investorImpact": "Investors should note the divergence between improved profitability from one-off tariff refunds and weaker underlying revenue growth, indicating softening top-line demand for apparel retailers.",
+      "reasoning": "Classified as MARKET due to corporate earnings and guidance updates affecting equity performance. Sentiment is MIXED because higher profit guidance contrasts with lower revenue growth outlooks.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
+      "publishedAtSgt": "2026-10-08T05:31:40+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-08T06:31:12+08:00"
+    },
+    {
+      "articleId": "a38801f88bd2c8de4584795f39c18fb1e1ffdb8ad7ca4e139d9b44d639d6c170",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer remains bullish on Nvidia following reports that SpaceX plans to purchase more Nvidia GPUs, highlighting strong demand and productivity associated with Nvidia's technology.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Demonstrates sustained enterprise demand for AI hardware and high-performance chips, supporting medium-term sentiment for semiconductor investments.",
+      "reasoning": "The article discusses major corporate GPU purchases affecting a prominent chip stock, making it relevant for technology sector monitoring and equity markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SpaceX’s plans to buy more Nvidia GPUs is keeping Jim Cramer bullish on the chip stock",
+      "publishedAtSgt": "2026-10-08T04:24:48+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/07/spacexs-plans-to-buy-more-nvidia-gpus-is-keeping-jim-cramer-bullish-on-the-chip-stock-.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-08T06:31:13+08:00"
+    },
     {
       "articleId": "0876b463a9777873103ef8f66800210374168371a51d41bc9e6ad2f4230d831b",
       "relevant": true,
