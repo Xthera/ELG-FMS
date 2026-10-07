@@ -1,10 +1,73 @@
 {
-  "generatedAtSgt": "2026-10-07T12:50:17.511062+08:00",
+  "generatedAtSgt": "2026-10-07T15:50:53.291900+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 112,
+  "articleCount": 114,
   "analyses": [
+    {
+      "articleId": "5d20cb98b9eabf860fc9fd9c78c1348fd792f9b38f9d1bc51aaf05b3795633c1",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "The AI rally continues to push higher despite a broader bond market rout. Singapore's Temasek warns that a reversal in the AI trade represents the primary market risk, while India experiences 10 straight months of rising inflation alongside strong economic growth.",
+      "assetClasses": [
+        "Equities",
+        "Bonds"
+      ],
+      "geographies": [
+        "Global",
+        "Singapore",
+        "India"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors face conflicting signals from a surging AI-driven equity market coupled with a bond market rout and rising inflation in emerging markets like India, increasing portfolio volatility risk.",
+      "reasoning": "Classified as MARKET due to the focus on equity rallies versus bond routs and major institutional warnings on AI trade concentration, providing critical context for multi-asset portfolios.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CNBC Daily Open: AI rally defies bond market rout",
+      "publishedAtSgt": "2026-10-07T14:28:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/daily-open-ai-rally-bond-market-rout.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-07T15:35:17+08:00"
+    },
+    {
+      "articleId": "8bef1830b0236a99635de826b197d5c9f5c513072ae93423b14707cae2e8052f",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "India's central bank hiked interest rates for the first time since 2023, shifting its policy stance to calibrated tightening due to non-benign inflation risks. RBI Governor Sanjay Malhotra noted robust economic growth alongside headline inflation expected at 5.2% and core inflation at 4.4% for the financial year ending March 2027.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Currencies"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Banking",
+        "Financials"
+      ],
+      "investorImpact": "The shift toward monetary tightening and interest rate hikes in India increases borrowing costs for corporations and consumers, potentially weighing on equity valuations and domestic demand while offering higher yields for fixed income investors.",
+      "reasoning": "Classified as ECONOMIC because it details monetary policy action and inflation targets by a major central bank. It is highly important and fund monitoring relevant due to its direct impact on Indian asset prices, currency valuations, and domestic macroeconomic conditions.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "India’s central bank hikes rates for the first time since 2023 as inflation risks build",
+      "publishedAtSgt": "2026-10-07T13:11:55+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-07T15:35:17+08:00"
+    },
     {
       "articleId": "bf08ea2a60b1277b2f99d2d8f446d9cd2a7c7cc823387cb410c262fef22691c7",
       "relevant": true,
