@@ -1,10 +1,75 @@
 {
-  "generatedAtSgt": "2026-10-07T09:48:41.023667+08:00",
+  "generatedAtSgt": "2026-10-07T12:50:17.511062+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 110,
+  "articleCount": 112,
   "analyses": [
+    {
+      "articleId": "bf08ea2a60b1277b2f99d2d8f446d9cd2a7c7cc823387cb410c262fef22691c7",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Oil prices rose as renewed trader concerns over Houthi attacks on Saudi Arabia and Iranian moves targeting tankers in the Strait of Hormuz eclipsed the recovery in oil pumped through the East-West Pipeline.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Saudi Arabia",
+        "Middle East"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Geopolitical tensions and threats to shipping lanes in the Middle East drive up oil prices, creating potential upside for energy sector equities while increasing cost pressures for broader markets.",
+      "reasoning": "The article discusses direct supply route threats and geopolitical escalations impacting global oil prices, which is critical for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil rises as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery",
+      "publishedAtSgt": "2026-10-07T12:24:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/oil-prices-today-brent-wti-hormuz.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-07T12:34:48+08:00"
+    },
+    {
+      "articleId": "966b707e980554a555ab6453f4d3b7e55fcf8353ead5020ac6b05c9438b6b99e",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Singapore's Foreign Minister Vivian Balakrishnan stated that President Donald Trump is not completely wrong in asserting that disruptions to energy flows through the Strait of Hormuz primarily constitute an Asian problem, given that Asian economies heavily rely on energy shipped through the critical waterway.",
+      "assetClasses": [
+        "Commodities",
+        "Equities",
+        "Energy"
+      ],
+      "geographies": [
+        "Asia",
+        "Singapore",
+        "Middle East"
+      ],
+      "sectors": [
+        "Energy",
+        "Transportation",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Potential disruptions in the Strait of Hormuz pose severe risks to energy supplies destined for Asian markets, which could drive up oil prices, increase shipping costs, and pressure margins for energy-intensive sectors across Asia.",
+      "reasoning": "The article highlights critical geopolitical risks to global energy supply chains, specifically impacting Asian economies due to their reliance on Middle Eastern oil shipped through the Strait of Hormuz. This is highly relevant for monitoring commodity markets, regional equities, and energy sector exposure.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump isn't ‘completely wrong’: Hormuz disruption is Asia’s problem, says Singapore's foreign minister",
+      "publishedAtSgt": "2026-10-07T10:10:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/hormuz-iran-war-singapore-vivian-balakrishnan.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-07T12:34:48+08:00"
+    },
     {
       "articleId": "125ab71a8d3397be59d510c69403a6a5c5fa5d3045d188f5d5be24630b595367",
       "relevant": true,
