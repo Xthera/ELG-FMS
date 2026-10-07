@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-07T09:33:11+08:00",
+  "generatedAtSgt": "2026-10-07T12:34:48+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,38 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "bf08ea2a60b1277b2f99d2d8f446d9cd2a7c7cc823387cb410c262fef22691c7",
+      "source": "CNBC",
+      "title": "Oil rises as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery",
+      "publishedAtSgt": "2026-10-07T12:24:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/oil-prices-today-brent-wti-hormuz.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil pumped through the East-West Pipeline had reached 5.8 million barrels as of Tuesday morning, according to Saudi Energy Minister Prince Abdulaziz bin Salman. Iran's move to step up attacks on tankers which are transiting through the Strait of Hormuz has also led to renewed worries over oil supplies among traders, as it threatens to disrupt the fragile rebound in oil exports through the crucial waterway.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T12:34:48+08:00"
+    },
+    {
+      "id": "966b707e980554a555ab6453f4d3b7e55fcf8353ead5020ac6b05c9438b6b99e",
+      "source": "CNBC",
+      "title": "Trump isn't ‘completely wrong’: Hormuz disruption is Asia’s problem, says Singapore's foreign minister",
+      "publishedAtSgt": "2026-10-07T10:10:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/hormuz-iran-war-singapore-vivian-balakrishnan.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "President Donald Trump isn’t “completely wrong” in suggesting that the disruption to energy flows via the Strait of Hormuz is Asia's problem, Singapore Foreign Minister Vivian Balakrishnan said. Asian economies are among the biggest customers of energy shipped through the Strait of Hormuz, the narrow waterway connecting the Persian Gulf with the Arabian Sea, making any prolonged disruption particularly consequential for the region.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T12:34:48+08:00"
+    },
     {
       "id": "125ab71a8d3397be59d510c69403a6a5c5fa5d3045d188f5d5be24630b595367",
       "source": "CNBC",
@@ -1521,36 +1553,6 @@
       "relevanceScore": 71,
       "relevanceReason": "geopolitical_with_direct_economic_impact",
       "summary": "The detailed lists includes mostly imports of toys, sports equipment and Christmas decorations by the U.S., while American agricultural products accounted for much of the far longer list of imports by China. Washington has sought to reduce its record trade deficit with Beijing, as the Asian country exports far more to the U.S. goods trade deficit with China was more than $202 billion last year.",
-      "feeds": [
-        "finance"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:49+08:00"
-    },
-    {
-      "id": "a17db37a1d2faa134e597f9fe260b8b8b887ecd075518e8745733045347840c4",
-      "source": "CNBC",
-      "title": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
-      "publishedAtSgt": "2026-09-28T12:04:16+08:00",
-      "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The earnings report also points to an increasingly bifurcated economy, with strong earnings growth in high-tech sectors, such as AI and robotics, whereas consumer-related industries like clothing, autos and furniture showed declining profits. Growth in the world's second-largest economy softened to its slowest in more than three years in the second quarter, as a multiyear property downturn continued to depress consumer demand and investment in real estate and infrastructure.",
-      "feeds": [
-        "economy"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:52+08:00"
-    },
-    {
-      "id": "43c8a5c721178fb20abbacad701c08fafd4e62ee1e1418f34c8363ce0801f5b7",
-      "source": "CNBC",
-      "title": "Debt-hungry AI companies face increased risk as bond yields spike",
-      "publishedAtSgt": "2026-09-27T23:35:34+08:00",
-      "url": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
-      "category": "MARKET",
-      "relevanceScore": 93,
-      "relevanceReason": "strong_market_title",
-      "summary": "JPMorgan Chase estimated in June that $4.1 trillion in AI-related debt will be issued through 2030, as data center companies and others tied to the artificial intelligence boom race to build up capacity to meet what many industry experts view as insatiable demand for AI services.",
       "feeds": [
         "finance"
       ],

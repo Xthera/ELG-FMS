@@ -5,6 +5,38 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "bf08ea2a60b1277b2f99d2d8f446d9cd2a7c7cc823387cb410c262fef22691c7",
+      "source": "CNBC",
+      "title": "Oil rises as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery",
+      "publishedAtSgt": "2026-10-07T12:24:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/oil-prices-today-brent-wti-hormuz.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil pumped through the East-West Pipeline had reached 5.8 million barrels as of Tuesday morning, according to Saudi Energy Minister Prince Abdulaziz bin Salman. Iran's move to step up attacks on tankers which are transiting through the Strait of Hormuz has also led to renewed worries over oil supplies among traders, as it threatens to disrupt the fragile rebound in oil exports through the crucial waterway.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T12:34:48+08:00"
+    },
+    {
+      "id": "966b707e980554a555ab6453f4d3b7e55fcf8353ead5020ac6b05c9438b6b99e",
+      "source": "CNBC",
+      "title": "Trump isn't ‘completely wrong’: Hormuz disruption is Asia’s problem, says Singapore's foreign minister",
+      "publishedAtSgt": "2026-10-07T10:10:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/hormuz-iran-war-singapore-vivian-balakrishnan.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "President Donald Trump isn’t “completely wrong” in suggesting that the disruption to energy flows via the Strait of Hormuz is Asia's problem, Singapore Foreign Minister Vivian Balakrishnan said. Asian economies are among the biggest customers of energy shipped through the Strait of Hormuz, the narrow waterway connecting the Persian Gulf with the Arabian Sea, making any prolonged disruption particularly consequential for the region.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T12:34:48+08:00"
+    },
+    {
       "id": "125ab71a8d3397be59d510c69403a6a5c5fa5d3045d188f5d5be24630b595367",
       "source": "CNBC",
       "title": "CNBC Daily Open: Fragile rebound in oil exports threatened by Iran attacks in Hormuz",
@@ -129,6 +161,6 @@
       "collectedAtSgt": "2026-10-07T03:31:57+08:00"
     }
   ],
-  "articleCount": 8,
-  "updatedAtSgt": "2026-10-07T09:33:11+08:00"
+  "articleCount": 10,
+  "updatedAtSgt": "2026-10-07T12:34:48+08:00"
 }
