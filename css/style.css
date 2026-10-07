@@ -9313,3 +9313,132 @@ html[data-theme="light"] .palette-swatch {
 .calc-dialog .calc-table tbody td:first-child {
     white-space: nowrap;
 }
+
+/* Plan Calculator: keep fund boxes inside the screen on phones */
+.calc-accounts,
+.calc-booster-list {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.calc-account,
+.calc-booster-card,
+.calc-booster-funds,
+.calc-welcome {
+    min-width: 0;
+    max-width: 100%;
+}
+
+.calc-account .table-wrap,
+.calc-welcome .table-wrap {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+@media (max-width: 699px) and (pointer: coarse), (max-height: 500px) and (max-width: 1000px) and (pointer: coarse) {
+    .calc-account,
+    .calc-booster-card,
+    .calc-welcome {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .calc-account .report-picker-row {
+        flex-wrap: wrap;
+    }
+
+    .calc-account .report-picker {
+        flex: 1 1 100%;
+        min-width: 0;
+    }
+
+    .calc-account .report-funds-table th,
+    .calc-account .report-funds-table td,
+    .calc-welcome-table th,
+    .calc-welcome-table td {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .calc-account .report-funds-table .fund-name {
+        font-size: calc(13px * var(--font-scale, 1));
+    }
+
+    .calc-account .report-weight-cell input {
+        width: 56px;
+    }
+
+    .calc-welcome-table td:first-child {
+        min-width: 140px;
+    }
+}
+
+/* Phones: fund and bonus tables become stacked cards (label + value) */
+@media (max-width: 699px) and (pointer: coarse), (max-height: 500px) and (max-width: 1000px) and (pointer: coarse) {
+    .calc-stack-table,
+    .calc-stack-table tbody,
+    .calc-stack-table tr,
+    .calc-stack-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .calc-stack-table thead {
+        display: none;
+    }
+
+    .calc-stack-table {
+        min-width: 0 !important;
+    }
+
+    .calc-stack-table tr {
+        position: relative;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .calc-stack-table td {
+        padding: 3px 0 !important;
+        border: 0 !important;
+        text-align: left !important;
+    }
+
+    .calc-stack-table td[data-label] {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+    }
+
+    .calc-stack-table td[data-label]::before {
+        content: attr(data-label);
+        flex: 1 0 auto;
+        color: var(--text-muted);
+        font-size: calc(12px * var(--font-scale, 1));
+    }
+
+    .calc-stack-table td[data-label] > * {
+        text-align: right;
+    }
+
+    .calc-stack-table td:first-child {
+        padding-right: 34px !important;
+    }
+
+    .calc-stack-table .report-remove-cell {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        width: auto;
+    }
+
+    .calc-stack-table .report-weight-cell {
+        align-items: center;
+    }
+
+    .calc-stack-table .report-weight-cell input {
+        margin-left: auto;
+    }
+
+    .calc-welcome-table td:first-child {
+        min-width: 0;
+    }
+}
