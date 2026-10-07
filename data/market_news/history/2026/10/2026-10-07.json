@@ -5,6 +5,55 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "4cc006f7f306dfdd48d59d4238886269bcfcff9feb1300a4dfa1611867175d8d",
+      "source": "CNBC",
+      "title": "Treasury yields rise as oil moves higher, traders await key U.S. bond sale",
+      "publishedAtSgt": "2026-10-07T18:08:22+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bond yields have been selling off over the past six weeks as investors were concerned about inflation and rising energy prices. The Treasury also plans to sell $39 billion of 10-year notes in an auction on Wednesday that will test whether yields are now attractive enough to draw buyers or investors will demand an even bigger premium, amid concerns about inflation, debt levels and term risk. The yield on the 10-year French bond surged 12 basis points to trade at 4.876%.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T18:34:30+08:00"
+    },
+    {
+      "id": "1498e808724b52989796187945a82295b0c4ecd144c41ee9d2522628f355f344",
+      "source": "CNBC",
+      "title": "'Get your house in order': IMF chief's stark warning for France over surging bond yields",
+      "publishedAtSgt": "2026-10-07T17:57:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/imf-france-debt-student-protests-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors now demand a higher yield than they do for bonds issued by the Italian government, with French 10-year bond yields rising by more than 100 basis points since the start of the year. We have the strength of the European Central Bank. \"As difficult as it is, there has to be active communication to explain to people why getting to a better place is actually in their interest, and I think we need more voices to speak about it, not only from government but also from trade unions, from the...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T18:34:30+08:00"
+    },
+    {
+      "id": "38e36bb45f28ce8a74229f4543d580b212c2aaae584a59df96c1a2c470183236",
+      "source": "CNBC",
+      "title": "Google ordered to halt work on two data centers in ‘Texas of Europe’",
+      "publishedAtSgt": "2026-10-07T17:26:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Google has been ordered to halt work on two data centers it's developing in Finland, a month after the tech giant committed to investing $15 billion in AI infrastructure in the country. Finland has emerged as a key location for data centers amid the AI boom, with hyperscalers and developers eyeing its available land and power, which is in short supply throughout most of Europe.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T18:34:30+08:00"
+    },
+    {
       "id": "5d20cb98b9eabf860fc9fd9c78c1348fd792f9b38f9d1bc51aaf05b3795633c1",
       "source": "CNBC",
       "title": "CNBC Daily Open: AI rally defies bond market rout",
@@ -193,6 +242,6 @@
       "collectedAtSgt": "2026-10-07T03:31:57+08:00"
     }
   ],
-  "articleCount": 12,
-  "updatedAtSgt": "2026-10-07T15:35:17+08:00"
+  "articleCount": 15,
+  "updatedAtSgt": "2026-10-07T18:34:30+08:00"
 }
