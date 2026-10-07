@@ -1,10 +1,41 @@
 {
-  "generatedAtSgt": "2026-10-07T06:47:22.465827+08:00",
+  "generatedAtSgt": "2026-10-07T09:48:41.023667+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 109,
+  "articleCount": 110,
   "analyses": [
+    {
+      "articleId": "125ab71a8d3397be59d510c69403a6a5c5fa5d3045d188f5d5be24630b595367",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Iran's escalation of attacks on oil tankers transiting through the Strait of Hormuz threatens the recent fragile rebound in global oil exports, raising renewed supply concerns among traders.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "Iran"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Investors in energy markets and commodities face heightened volatility and potential supply shocks, which could drive oil prices higher and impact transportation and manufacturing costs globally.",
+      "reasoning": "The article details geopolitical conflict directly affecting critical energy supply routes, making it highly relevant for macroeconomic and sector-specific fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CNBC Daily Open: Fragile rebound in oil exports threatened by Iran attacks in Hormuz",
+      "publishedAtSgt": "2026-10-07T09:11:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/trump-hormuz-oil-diesel-iran-anthropic-ai.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-07T09:33:11+08:00"
+    },
     {
       "articleId": "857992382577f984b8efe3d20a80cc554f046ac42c8731c87243cb023148513e",
       "relevant": true,
