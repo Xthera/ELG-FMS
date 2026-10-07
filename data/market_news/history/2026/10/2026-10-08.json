@@ -5,6 +5,38 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "4507a16d6594e0abefbc0f219d477425015f43aa51b50173fdf744b1b73e9253",
+      "source": "CNBC",
+      "title": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
+      "publishedAtSgt": "2026-10-08T05:31:40+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Levi Strauss on Wednesday increased its profit outlook after it received tariff refunds, but gave less rosy revenue guidance. The company also lowered its net revenue growth guidance for the full year to 7%, the bottom of its previously provided range of a 7% to 7.5% increase. Shares of Levi were roughly flat in extended trading after initially rising.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T06:31:12+08:00"
+    },
+    {
+      "id": "a38801f88bd2c8de4584795f39c18fb1e1ffdb8ad7ca4e139d9b44d639d6c170",
+      "source": "CNBC",
+      "title": "SpaceX’s plans to buy more Nvidia GPUs is keeping Jim Cramer bullish on the chip stock",
+      "publishedAtSgt": "2026-10-08T04:24:48+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/07/spacexs-plans-to-buy-more-nvidia-gpus-is-keeping-jim-cramer-bullish-on-the-chip-stock-.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The FT said the deal could include $10 billion in bank loans and an additional $30 billion in investment-grade debt. So, that tells you something about the productivity of Nvidia's technology and the rentability of it.\" While dropping roughly 2.5% in Wednesday's tough market for tech stocks, SpaceX has been on the march lately — up nearly 60% since its all-time low of roughly $105 on Aug.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-08T06:31:13+08:00"
+    },
+    {
       "id": "0876b463a9777873103ef8f66800210374168371a51d41bc9e6ad2f4230d831b",
       "source": "CNBC",
       "title": "Modelo owner Constellation is getting creative to bring back beer drinkers as overall demand weakens",
@@ -87,6 +119,6 @@
       "collectedAtSgt": "2026-10-08T00:36:57+08:00"
     }
   ],
-  "articleCount": 5,
-  "updatedAtSgt": "2026-10-08T03:32:58+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-08T06:31:13+08:00"
 }
