@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-07T06:31:50+08:00",
+  "generatedAtSgt": "2026-10-07T09:33:11+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,21 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "125ab71a8d3397be59d510c69403a6a5c5fa5d3045d188f5d5be24630b595367",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: Fragile rebound in oil exports threatened by Iran attacks in Hormuz",
+      "publishedAtSgt": "2026-10-07T09:11:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/trump-hormuz-oil-diesel-iran-anthropic-ai.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "In stepping up attacks on tankers transiting through the Strait of Hormuz, Iran is threatening the recent precarious rebound in oil exports. Iran's move to step up attacks on tankers which are transiting through the Strait of Hormuz has led to renewed concerns over oil supplies among traders, as it threatens to disrupt the fragile rebound in oil exports through the crucial waterway.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T09:33:11+08:00"
+    },
     {
       "id": "857992382577f984b8efe3d20a80cc554f046ac42c8731c87243cb023148513e",
       "source": "CNBC",
@@ -1540,21 +1555,6 @@
         "finance"
       ],
       "collectedAtSgt": "2026-10-02T12:09:49+08:00"
-    },
-    {
-      "id": "1cadc10a62db385691afa73eeba5d2948668694fb713e9b3fdbd013eb4e14a27",
-      "source": "CNBC",
-      "title": "This may be the ‘missing piece’ for investors looking to boost AI exposure",
-      "publishedAtSgt": "2026-09-26T23:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/09/26/ai-portfolios-may-need-china-to-grab-the-biggest-gains.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Investors looking to boost their exposure to artificial intelligence should target China, according to Matthews Asia portfolio manager Andrew Mattock. He said investors will need a more deliberate approach because broad emerging market strategies won't be that effective. \"The big piece that you are missing… is the Chinese piece.\" He noted that companies from South Korea and Taiwan comprise almost half of the iShares MSCI Emerging Markets ETF (EEM) while the iShares MSCI China ETF (MCHI) lacks a...",
-      "feeds": [
-        "finance"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:50+08:00"
     }
   ]
 }

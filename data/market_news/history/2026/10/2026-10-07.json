@@ -5,6 +5,21 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "125ab71a8d3397be59d510c69403a6a5c5fa5d3045d188f5d5be24630b595367",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: Fragile rebound in oil exports threatened by Iran attacks in Hormuz",
+      "publishedAtSgt": "2026-10-07T09:11:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/trump-hormuz-oil-diesel-iran-anthropic-ai.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "In stepping up attacks on tankers transiting through the Strait of Hormuz, Iran is threatening the recent precarious rebound in oil exports. Iran's move to step up attacks on tankers which are transiting through the Strait of Hormuz has led to renewed concerns over oil supplies among traders, as it threatens to disrupt the fragile rebound in oil exports through the crucial waterway.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-07T09:33:11+08:00"
+    },
+    {
       "id": "857992382577f984b8efe3d20a80cc554f046ac42c8731c87243cb023148513e",
       "source": "CNBC",
       "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
@@ -114,6 +129,6 @@
       "collectedAtSgt": "2026-10-07T03:31:57+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-07T06:31:50+08:00"
+  "articleCount": 8,
+  "updatedAtSgt": "2026-10-07T09:33:11+08:00"
 }
