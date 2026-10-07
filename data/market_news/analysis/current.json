@@ -1,10 +1,105 @@
 {
-  "generatedAtSgt": "2026-10-07T15:50:53.291900+08:00",
+  "generatedAtSgt": "2026-10-07T18:49:59.258882+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 114,
+  "articleCount": 117,
   "analyses": [
+    {
+      "articleId": "4cc006f7f306dfdd48d59d4238886269bcfcff9feb1300a4dfa1611867175d8d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Treasury yields and oil prices are rising as traders await a key $39 billion 10-year note U.S. bond auction. Concerns over inflation, rising energy prices, debt levels, and term risk are driving the bond sell-off, while international yields such as the 10-year French bond have also surged.",
+      "assetClasses": [
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States",
+        "France"
+      ],
+      "sectors": [
+        "Energy",
+        "Financials"
+      ],
+      "investorImpact": "Rising Treasury yields and increasing energy prices signal ongoing inflation and debt concerns, pressuring fixed income valuations and elevating borrowing costs for equities and broader markets.",
+      "reasoning": "The article discusses key macroeconomic market developments, specifically rising bond yields and upcoming Treasury auctions, which are critical for monitoring fixed income portfolios and broader financial market sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury yields rise as oil moves higher, traders await key U.S. bond sale",
+      "publishedAtSgt": "2026-10-07T18:08:22+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-07T18:34:30+08:00"
+    },
+    {
+      "articleId": "1498e808724b52989796187945a82295b0c4ecd144c41ee9d2522628f355f344",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The IMF chief issued a stark warning to France regarding surging bond yields, noting that French 10-year bond yields have risen by more than 100 basis points since the start of the year and that investors now demand higher yields than for Italian government bonds.",
+      "assetClasses": [
+        "Fixed Income",
+        "Government Bonds"
+      ],
+      "geographies": [
+        "France",
+        "Italy",
+        "Europe"
+      ],
+      "sectors": [
+        "Government",
+        "Financial Services"
+      ],
+      "investorImpact": "Rising French bond yields and sovereign debt concerns create risks for European fixed income markets and broader European financial stability, requiring closer monitoring of sovereign debt spreads.",
+      "reasoning": "The article discusses significant sovereign bond yield movements and IMF warnings regarding French debt, making it highly relevant for market and economic risk monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "'Get your house in order': IMF chief's stark warning for France over surging bond yields",
+      "publishedAtSgt": "2026-10-07T17:57:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/imf-france-debt-student-protests-yields.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-07T18:34:30+08:00"
+    },
+    {
+      "articleId": "38e36bb45f28ce8a74229f4543d580b212c2aaae584a59df96c1a2c470183236",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Google has been ordered to halt construction on two data centers in Finland despite a recent $15 billion AI infrastructure investment commitment, highlighting potential regulatory or infrastructural bottlenecks in key European markets for data center expansion.",
+      "assetClasses": [
+        "Equities",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "Finland",
+        "Europe"
+      ],
+      "sectors": [
+        "Technology",
+        "Real Estate",
+        "Utilities"
+      ],
+      "investorImpact": "Investors in hyperscale cloud providers and European digital infrastructure may face increased project execution risks and delays as regulatory hurdles or power/resource constraints impact major AI investments.",
+      "reasoning": "The article details a significant disruption to a major tech infrastructure project by a leading cloud provider in an important European market, classifying it as TECHNOLOGY with a NEGATIVE sentiment due to the halt in construction.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Google ordered to halt work on two data centers in ‘Texas of Europe’",
+      "publishedAtSgt": "2026-10-07T17:26:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 82,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-07T18:34:30+08:00"
+    },
     {
       "articleId": "5d20cb98b9eabf860fc9fd9c78c1348fd792f9b38f9d1bc51aaf05b3795633c1",
       "relevant": true,
