@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "f8adf627601199801f0e7d6186aba090e3781da0130a3b197ef7c8494702516c",
+      "source": "CNBC",
+      "title": "Stocks made a record high. Two big bearish trades point to skepticism",
+      "publishedAtSgt": "2026-10-07T21:59:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/stocks-made-a-record-high-two-big-bearish-trades-point-to-skepticism.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"The vol is fairly low.\" Cboe's VIX Index did slip below 15 at one point Tuesday, meaning options generally got cheaper, but the put spread was the biggest trade in SPY on a day where options volume was more than 20% higher than the 30-day average. The bulky trade, which starts making money if the S&P 500 drops more than 18%, was about four times bigger than the next-biggest trade, a net $11 million call spread, SpotGamma data show.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T00:37:01+08:00"
+    },
+    {
       "id": "82603bc50af84126603713e90ee936a57b85d55a7fb345bb759828733424ba90",
       "source": "CNBC",
       "title": "France is caught between angry students and unforgiving bond markets",
@@ -272,6 +288,6 @@
       "collectedAtSgt": "2026-10-07T03:31:57+08:00"
     }
   ],
-  "articleCount": 17,
-  "updatedAtSgt": "2026-10-07T21:35:55+08:00"
+  "articleCount": 18,
+  "updatedAtSgt": "2026-10-08T00:37:01+08:00"
 }

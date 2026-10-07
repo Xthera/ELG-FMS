@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "c115ad42df074921bf481b238dd2f349887081688c73a5f48d560d41a94628d8",
+      "source": "CNBC",
+      "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
+      "publishedAtSgt": "2026-10-08T00:18:22+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The central bank's Survey of Consumer Expectations indicated that the median view for inflation over the next 12 months rose to 3.9%, up 0.3 percentage point from August and the highest level since May 2023, when the figure was at 4.1%. The results come with Fed officials grappling over the proper setting of monetary policy as inflation holds well above the central bank's 2% target. Surging energy costs are at the core of the inflation problem.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T00:36:57+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-08T00:36:57+08:00"
+}

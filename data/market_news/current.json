@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-07T21:35:55+08:00",
+  "generatedAtSgt": "2026-10-08T00:37:01+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,39 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "c115ad42df074921bf481b238dd2f349887081688c73a5f48d560d41a94628d8",
+      "source": "CNBC",
+      "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
+      "publishedAtSgt": "2026-10-08T00:18:22+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The central bank's Survey of Consumer Expectations indicated that the median view for inflation over the next 12 months rose to 3.9%, up 0.3 percentage point from August and the highest level since May 2023, when the figure was at 4.1%. The results come with Fed officials grappling over the proper setting of monetary policy as inflation holds well above the central bank's 2% target. Surging energy costs are at the core of the inflation problem.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T00:36:57+08:00"
+    },
+    {
+      "id": "f8adf627601199801f0e7d6186aba090e3781da0130a3b197ef7c8494702516c",
+      "source": "CNBC",
+      "title": "Stocks made a record high. Two big bearish trades point to skepticism",
+      "publishedAtSgt": "2026-10-07T21:59:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/stocks-made-a-record-high-two-big-bearish-trades-point-to-skepticism.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"The vol is fairly low.\" Cboe's VIX Index did slip below 15 at one point Tuesday, meaning options generally got cheaper, but the put spread was the biggest trade in SPY on a day where options volume was more than 20% higher than the 30-day average. The bulky trade, which starts making money if the S&P 500 drops more than 18%, was about four times bigger than the next-biggest trade, a net $11 million call spread, SpotGamma data show.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T00:37:01+08:00"
+    },
     {
       "id": "82603bc50af84126603713e90ee936a57b85d55a7fb345bb759828733424ba90",
       "source": "CNBC",
@@ -1533,36 +1566,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-02T12:10:02+08:00"
-    },
-    {
-      "id": "02dafeeefb638245121b0e466e6a7b82ce6fa07b678e0499fefdf642b3fbd3dc",
-      "source": "CNBC",
-      "title": "Holiday retail sales are expected to top $1 trillion as inflation boosts growth",
-      "publishedAtSgt": "2026-09-30T20:48:46+08:00",
-      "url": "https://www.cnbc.com/2026/09/30/holiday-retail-sales-inflation.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 102,
-      "relevanceReason": "strong_economic_title",
-      "summary": "According to Bain & Company's annual forecast, holiday retail sales are expected to top $1 trillion for the first time, marking a 4.5% growth. Bain also noted that the headline spending increase is underscored by rising inflation, which accounts for most of the growth, making actual unit growth thinner than it appears. Still, the company noted that while the appetite to explore through new technology is strong, most people are still not buying products directly through AI platforms.",
-      "feeds": [
-        "business"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:46+08:00"
-    },
-    {
-      "id": "8f282b831095eccbe524e372fb701f837fe08c0b294e2434d4db109edf6edb5d",
-      "source": "CNBC",
-      "title": "OpenAI follows Meta into the red-hot market for personal agents. But will users pay?",
-      "publishedAtSgt": "2026-09-30T20:04:46+08:00",
-      "url": "https://www.cnbc.com/2026/09/30/openai-follows-meta-into-the-red-hot-market-for-personal-agents.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 52,
-      "relevanceReason": "supporting_technology_description",
-      "summary": "Following Meta's blockbuster release of its Muse AI agent earlier this month, OpenAI jumped into the personal agent market on Tuesday with Dots, setting the stage for what could be the next big battle in the artificial intelligence market. Since the release of Muse three weeks ago, investors have rallied around Meta, sending the stock up 29% in September, on pace for its best month since 2013.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
     }
   ]
 }
