@@ -1,10 +1,69 @@
 {
-  "generatedAtSgt": "2026-10-09T06:21:37.294754+08:00",
+  "generatedAtSgt": "2026-10-09T06:48:54.000718+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 140,
+  "articleCount": 142,
   "analyses": [
+    {
+      "articleId": "1c5e4c09377a497166fd6adaf00ecb7d2fa5096117642eca2d7560e5295ba92f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Shares of AT&T, Verizon and T-Mobile tumbled in extended trading following a SpaceX deal to acquire a spectrum license. SpaceX is valued at over $2 trillion after its record IPO in June.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Telecommunications",
+        "Technology"
+      ],
+      "investorImpact": "The deal signals increased competitive pressure from SpaceX on traditional telecom incumbents, leading to an immediate negative reaction in the share prices of AT&T, Verizon, and T-Mobile.",
+      "reasoning": "Classified as MARKET due to the direct impact on major publicly traded equities in the telecommunications sector. It is important and fund-relevant given the sharp downward price movement of multiple major industry players following SpaceX's strategic move.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
+      "publishedAtSgt": "2026-10-09T06:30:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-09T06:33:24+08:00"
+    },
+    {
+      "articleId": "d6fff1a9cbc4e448676a7d0cff6011fc01273bb9f47e72c52650b7fa84d878d0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Global bond market yields have surged due to expectations of central bank interest rate hikes and heavy corporate borrowing for artificial intelligence infrastructure. Fed funds futures indicate a high likelihood of a rate increase at the upcoming December meeting.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "Rising Treasury yields and potential rate hikes increase borrowing costs for corporations and consumers, pressuring equity valuations and signaling higher discount rates for future cash flows.",
+      "reasoning": "The article is classified under MARKET because it directly addresses Treasury yields, central bank rate expectations, and bond market dynamics, which have broad implications for multi-asset portfolios and fixed-income strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+      "publishedAtSgt": "2026-10-09T04:06:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-09T06:33:24+08:00"
+    },
     {
       "articleId": "0c22ce18ebd364dee9263dfbe0cf5c527371dfc3cf724055099c673cd3fafcf5",
       "relevant": true,
