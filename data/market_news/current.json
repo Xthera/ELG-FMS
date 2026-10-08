@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-08T09:33:31+08:00",
+  "generatedAtSgt": "2026-10-08T12:34:27+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "f9bf5e13d0fb5b1e78236578465aad507b92b37e7a0e6a3c0d3e5820e4caaaf1",
+      "source": "CNBC",
+      "title": "Oil gains as Middle East hostilities, potential escalation stoke supply worries",
+      "publishedAtSgt": "2026-10-08T12:07:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil rose Thursday as Middle East worries keep markets on edge, with the U.S. military operations in Iran in the coming weeks. \"Any escalation affecting traffic through Hormuz or Saudi energy infrastructure would threaten physical supply and could lift prices further,\" Cho added.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T12:34:27+08:00"
+    },
     {
       "id": "7757b47376c9b848108e0bbad134190c7803e6307ea86f8a89086de14f86ee32",
       "source": "CNBC",
@@ -1560,22 +1576,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-02T12:10:03+08:00"
-    },
-    {
-      "id": "b01e5766df10a411e52bb954cb21ff43ca3d2daad5d703353658430c71d73dc0",
-      "source": "CNBC",
-      "title": "Inside India newsletter: Foreign insurers get the red-carpet treatment — and policy uncertainty",
-      "publishedAtSgt": "2026-10-01T08:23:44+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/india-insurance-prudential-aviva-axa.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Welcome to the latest edition of \"Inside India\" — your one-stop destination for stories and developments from the world's fastest-growing large economy. A day after the new rules were proposed, India's largest online platform for insurance policies PB Fintech saw shares crash 36%, HDFC Life fell more than 6% and ICICI Life Insurance dropped 4%.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
     }
   ]
 }

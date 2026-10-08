@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "f9bf5e13d0fb5b1e78236578465aad507b92b37e7a0e6a3c0d3e5820e4caaaf1",
+      "source": "CNBC",
+      "title": "Oil gains as Middle East hostilities, potential escalation stoke supply worries",
+      "publishedAtSgt": "2026-10-08T12:07:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil rose Thursday as Middle East worries keep markets on edge, with the U.S. military operations in Iran in the coming weeks. \"Any escalation affecting traffic through Hormuz or Saudi energy infrastructure would threaten physical supply and could lift prices further,\" Cho added.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T12:34:27+08:00"
+    },
+    {
       "id": "7757b47376c9b848108e0bbad134190c7803e6307ea86f8a89086de14f86ee32",
       "source": "CNBC",
       "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
@@ -184,6 +200,6 @@
       "collectedAtSgt": "2026-10-08T00:36:57+08:00"
     }
   ],
-  "articleCount": 11,
-  "updatedAtSgt": "2026-10-08T09:33:31+08:00"
+  "articleCount": 12,
+  "updatedAtSgt": "2026-10-08T12:34:27+08:00"
 }
