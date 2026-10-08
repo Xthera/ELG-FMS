@@ -5,6 +5,23 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "3ecdc02f4e023db8ab371782807689a09835ad6a4ee9db47b05b5b5b029035b9",
+      "source": "CNBC",
+      "title": "AI startup Manus raises $500 million in first funding round since Meta breakup",
+      "publishedAtSgt": "2026-10-08T14:59:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "AI agent startup Manus has raised more than $500 million in its first funding round since Meta was forced to abandon its acquisition of the company. Butterfly Effect, Manus' parent company, said Thursday that the round was led by private equity firm Boyu Capital and venture investor IDG Capital, with follow-on investment from existing shareholders Tencent, HSG and ZhenFund. The company did not disclose its post-funding valuation.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T15:36:36+08:00"
+    },
+    {
       "id": "f9bf5e13d0fb5b1e78236578465aad507b92b37e7a0e6a3c0d3e5820e4caaaf1",
       "source": "CNBC",
       "title": "Oil gains as Middle East hostilities, potential escalation stoke supply worries",
@@ -200,6 +217,6 @@
       "collectedAtSgt": "2026-10-08T00:36:57+08:00"
     }
   ],
-  "articleCount": 12,
-  "updatedAtSgt": "2026-10-08T12:34:27+08:00"
+  "articleCount": 13,
+  "updatedAtSgt": "2026-10-08T15:36:36+08:00"
 }
