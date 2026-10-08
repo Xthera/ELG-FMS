@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-09",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "647ba5b0c7f10e0ab80ba0f47cb5fd731f517514c14be1d14b1194ee7faf1709",
+      "source": "CNBC",
+      "title": "10-year Treasury yield is little changed as Fed's Waller says more hikes needed, investors await 30-year auction",
+      "publishedAtSgt": "2026-10-09T00:22:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The yield on the 10-year Treasury was relatively unchanged on Thursday as traders digested comments from a top Federal Reserve official while awaiting another long-dated bond auction. Fed Governor Christopher Waller said on Thursday that more hikes are needed to bring inflation down after around 5-and-a-half years above the central bank's 2% target, but suggested rates did not need to rise immediately.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T00:37:42+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-09T00:37:42+08:00"
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-08T21:37:35+08:00",
+  "generatedAtSgt": "2026-10-09T00:37:46+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,52 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "647ba5b0c7f10e0ab80ba0f47cb5fd731f517514c14be1d14b1194ee7faf1709",
+      "source": "CNBC",
+      "title": "10-year Treasury yield is little changed as Fed's Waller says more hikes needed, investors await 30-year auction",
+      "publishedAtSgt": "2026-10-09T00:22:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The yield on the 10-year Treasury was relatively unchanged on Thursday as traders digested comments from a top Federal Reserve official while awaiting another long-dated bond auction. Fed Governor Christopher Waller said on Thursday that more hikes are needed to bring inflation down after around 5-and-a-half years above the central bank's 2% target, but suggested rates did not need to rise immediately.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T00:37:42+08:00"
+    },
+    {
+      "id": "07316d447733a039798ce804ee0894f965701d170a56222392c4c5e60f1cda16",
+      "source": "CNBC",
+      "title": "Jim Cramer says he's in a buying mood. Here are some stocks he's considering",
+      "publishedAtSgt": "2026-10-08T23:18:03+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/08/jim-cramer-says-hes-in-a-buying-mood-here-are-some-stocks-hes-considering.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Other stocks that Jim mentioned as ones he may want to \"pick at\" are Kimberly-Clark , Bank of New York , Boeing , and FedEx . (See here for a full list of the stocks in Jim Cramer's Charitable Trust.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T00:37:46+08:00"
+    },
+    {
+      "id": "0f468e01a482ef5b210fdd5c74a7dd60cdc0a607301ab28f07773fee73efdee1",
+      "source": "CNBC",
+      "title": "Options traders start calling bottom on bond rout after 'bullet bid' 10-year auction",
+      "publishedAtSgt": "2026-10-08T21:29:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/options-traders-start-calling-bottom-on-bond-rout-after-bullet-bid-10-year-auction.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury bond sell-off might seem crazy, but a handful of options traders look increasingly willing to do it. Trading in the iShares 20+ Year Treasury Bond ETF (TLT) Wednesday was very call-heavy on volume that was 50% above the 30-day average, according to data compiled from Cboe LiveVol and SpotGamma. What's more is the most popular trade in the monthly Oct.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T00:37:46+08:00"
+    },
     {
       "id": "3c1fe6a71a11056a6544e7fde3fd35808791319d142b1eaf41a241c851226ae3",
       "source": "CNBC",
@@ -1533,54 +1579,6 @@
       "feeds": [
         "latest",
         "business",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
-    },
-    {
-      "id": "a802718e48934b3dd2421870709dc5a2e102ef0020f36e4f9a4473db9f83b29d",
-      "source": "CNBC",
-      "title": "Mattel shares rise after reports of takeover interest from Authentic Brands Group",
-      "publishedAtSgt": "2026-10-02T05:32:19+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/mattel-authentic-brands-takeover-interest.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of Mattel rose nearly 20% on Thursday after the Wall Street Journal reported that the toymaker had attracted takeover interest from Authentic Brands Group. The brand licensing company has privately discussed an offer that could value Mattel at more than $20 per share, or about $6 billion, the Journal reported, citing people familiar with the matter. Shares of Mattel closed down 4% on Wednesday.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
-    },
-    {
-      "id": "851a469449d67aa11830a0ed1d94f3a836945b7b0fbe1bb0339e7ff322189912",
-      "source": "CNBC",
-      "title": "Treasury yields fall from multiyear highs",
-      "publishedAtSgt": "2026-10-02T05:17:31+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The yield on the 30-year Treasury bond also hit its highest in 24 years before dropping more than 2 basis points to 5.613%. People don't typically trade gilts versus bunds as much, but just as a barometer of, say, market concern, I think that's one to watch.\" Bonds had been moving in lockstep with oil prices, which have been turbulent as the U.S.-Israel war with Iran obstructed crude exports from the Middle East.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
-    },
-    {
-      "id": "5eaedaa8f38a57e82cdb1612eac8609054644f6d6502d4f7980cdd27c58ff3b9",
-      "source": "CNBC",
-      "title": "Europe’s winter energy crunch may already be underway. Two U.S. stocks that may benefit",
-      "publishedAtSgt": "2026-10-02T04:41:38+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/europes-winter-energy-crunch-may-already-be-underway-two-us-stocks-that-may-benefit.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "What I'm hearing from energy insiders Oil flows through Hormuz are rising, more ships are safely getting through the Strait, and oil prices seem to be coming down — at least for now. TotalEnergies CEO Patrick Pouyanné — arguably the most important CEO in global oil and gas — spoke with us this week about Europe's energy challenges, prices, and more in a Power Insider interview.",
-      "feeds": [
-        "latest",
         "world"
       ],
       "collectedAtSgt": "2026-10-02T12:09:44+08:00"

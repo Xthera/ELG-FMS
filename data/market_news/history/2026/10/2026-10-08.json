@@ -5,6 +5,37 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "07316d447733a039798ce804ee0894f965701d170a56222392c4c5e60f1cda16",
+      "source": "CNBC",
+      "title": "Jim Cramer says he's in a buying mood. Here are some stocks he's considering",
+      "publishedAtSgt": "2026-10-08T23:18:03+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/08/jim-cramer-says-hes-in-a-buying-mood-here-are-some-stocks-hes-considering.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Other stocks that Jim mentioned as ones he may want to \"pick at\" are Kimberly-Clark , Bank of New York , Boeing , and FedEx . (See here for a full list of the stocks in Jim Cramer's Charitable Trust.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T00:37:46+08:00"
+    },
+    {
+      "id": "0f468e01a482ef5b210fdd5c74a7dd60cdc0a607301ab28f07773fee73efdee1",
+      "source": "CNBC",
+      "title": "Options traders start calling bottom on bond rout after 'bullet bid' 10-year auction",
+      "publishedAtSgt": "2026-10-08T21:29:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/options-traders-start-calling-bottom-on-bond-rout-after-bullet-bid-10-year-auction.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury bond sell-off might seem crazy, but a handful of options traders look increasingly willing to do it. Trading in the iShares 20+ Year Treasury Bond ETF (TLT) Wednesday was very call-heavy on volume that was 50% above the 30-day average, according to data compiled from Cboe LiveVol and SpotGamma. What's more is the most popular trade in the monthly Oct.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T00:37:46+08:00"
+    },
+    {
       "id": "3c1fe6a71a11056a6544e7fde3fd35808791319d142b1eaf41a241c851226ae3",
       "source": "CNBC",
       "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
@@ -344,6 +375,6 @@
       "collectedAtSgt": "2026-10-08T00:36:57+08:00"
     }
   ],
-  "articleCount": 21,
-  "updatedAtSgt": "2026-10-08T21:37:35+08:00"
+  "articleCount": 23,
+  "updatedAtSgt": "2026-10-09T00:37:46+08:00"
 }
