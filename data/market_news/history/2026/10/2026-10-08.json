@@ -5,6 +5,71 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "7757b47376c9b848108e0bbad134190c7803e6307ea86f8a89086de14f86ee32",
+      "source": "CNBC",
+      "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
+      "publishedAtSgt": "2026-10-08T08:51:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Samsung has delivered a record profit and still fallen short of expectations, which tells you just how demanding the AI trade has become,\" said Josh Gilbert, lead analyst for APAC at investment platform eToro. \"When expectations are so high for memory makers, the market doesn't hand out points for effort.\" With AI spending driving demand for memory and supply remaining tight, the larger story of the chip sector remains intact, Gilbert said, highlighting growth of AI agents that can consume far...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
+    },
+    {
+      "id": "fead37a43eede596056634a208a40ca720adfb30ce3a266fc600f71611c55a05",
+      "source": "CNBC",
+      "title": "Trump trade chief Greer reports higher cash holdings as law firm pay topped $650K",
+      "publishedAtSgt": "2026-10-08T07:10:54+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/jamieson-greer-financial-disclosure-coupang.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "trade representative Jamieson Greer reported roughly $1.17 million to $3.75 million in cash, retirement accounts and other investments according to a CNBC analysis of his newly obtained 2025 annual financial disclosure. The 16-page filing from the Office of Government Ethics, offers a new look at the finances of President Donald Trump's top trade official after he left a lucrative partnership at the King & Spalding law firm to join the administration in February 2025.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
+    },
+    {
+      "id": "793e9a5e6e9c9a4ded33510815d46c981442b79fae3cd7fb707d0b99a0357b24",
+      "source": "CNBC",
+      "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
+      "publishedAtSgt": "2026-10-08T06:29:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "As Anthropic barrels toward a potential $2 trillion market cap on the Nasdaq, one research firm is valuing the artificial intelligence company at a mere $150 billion and says Wall Street is about to face an \"unprecedented test of investor gullibility.\" In a report on Tuesday, independent financial research provider New Constructs called Anthropic's upcoming offering the \"most ridiculous IPO of 2026.\" To reach its desired valuation, the firm estimates Anthropic would need to record double the...",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
+    },
+    {
+      "id": "78d587064c304ce13b13246c84e2172d2b96fc504402c29645fc97ccc8604be4",
+      "source": "CNBC",
+      "title": "Cramer says higher rates are splitting the market in two — and AI stocks have a big advantage",
+      "publishedAtSgt": "2026-10-08T06:22:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/jim-cramer-spacex-wall-street-bull-case.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer said Wednesday that rising borrowing costs are dividing the stock market into two camps: companies constrained by the bond market and artificial intelligence businesses that seem largely insulated from higher rates. The \"Mad Money\" host said Wednesday's 10-year Treasury note auction reminded him of his hedge fund days, when investors waited for the results of government bond sales before buying stocks because a poorly received sale could send rates higher and equities lower.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
+    },
+    {
       "id": "4507a16d6594e0abefbc0f219d477425015f43aa51b50173fdf744b1b73e9253",
       "source": "CNBC",
       "title": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
@@ -119,6 +184,6 @@
       "collectedAtSgt": "2026-10-08T00:36:57+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-08T06:31:13+08:00"
+  "articleCount": 11,
+  "updatedAtSgt": "2026-10-08T09:33:31+08:00"
 }
