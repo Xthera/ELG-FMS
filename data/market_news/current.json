@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-08T18:35:42+08:00",
+  "generatedAtSgt": "2026-10-08T21:37:35+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,83 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "3c1fe6a71a11056a6544e7fde3fd35808791319d142b1eaf41a241c851226ae3",
+      "source": "CNBC",
+      "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+      "publishedAtSgt": "2026-10-08T21:28:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The cost of 67 categories of goods was 2.9 percentage points higher as of February thanks to tariffs, according to a paper from a team of researchers at the central bank's New York arm. For each percentage point increase in the average tariff, the team said that consumer goods prices were higher by roughly a quarter of a percent a year later. Annual price growth in the dozens of goods they tracked peaked at the start of 2026, according to the report.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
+    },
+    {
+      "id": "660a65c611b7bf719b48fa96fc85c792c3e6019e0a7c5af34d1c84582b4a7b08",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+      "publishedAtSgt": "2026-10-08T21:04:30+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/08/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The IPO of an Nvidia -backed AI infrastructure company in Australia, Firmus Grid, is looking shaky. TD Cowen put buy ratings on Club stocks Wells Fargo and Goldman Sachs , while going with a hold on another one of our other financials in Bank of New York . They prefer Goldman over investment bank rival Morgan Stanley because of its valuation discount.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
+    },
+    {
+      "id": "a99df6ecd7573ed6aa2cd47fdbfce9a19f42c1ced3ac04a256de0952caec7c8b",
+      "source": "CNBC",
+      "title": "Fed minutes, Pepsi earnings, midterm megadonors and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-08T20:53:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Here are five key things investors need to know to start the trading day: Federal Reserve officials see another rate hike before the end of the year, according to minutes from their September meeting released yesterday. Here's what else we're following: - A consumer survey from the New York Fed showed the 12-month inflation outlook jumped to its highest level since 2023. - Meanwhile, Levi Strauss became the latest company to report a boost from tariff refunds in its earnings report.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
+    },
+    {
+      "id": "1c69d1b534c6b52d5436fc2c7df9dc2f753453c959a58c0ba69395fe7f0fd994",
+      "source": "CNBC",
+      "title": "Ray Dalio warns the stock market's cushion against rising bond yields is shrinking",
+      "publishedAtSgt": "2026-10-08T20:19:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 94,
+      "relevanceReason": "strong_market_title",
+      "summary": "Billionaire investor Ray Dalio warned on Thursday that stocks face mounting pressure from rising bond yields and the prospect of weaker corporate cash flows, even as earnings continue to grow. The Bridgewater Associates founder told CNBC equities have so far weathered the global bond sell-off because earnings growth has kept expected stock returns attractive, relative to bonds.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
+    },
+    {
+      "id": "290325c065357c6a88ba1eef66f619ebacfb04ea9ab2a809253a0270589b6852",
+      "source": "CNBC",
+      "title": "Why REITs aren't getting killed by rising interest rates this time around",
+      "publishedAtSgt": "2026-10-08T19:28:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/why-reits-arent-getting-killed-by-rising-interest-rates-this-time.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Property Play covers new and evolving opportunities for the real estate investor, from individuals to venture capitalists, private equity funds, family offices, institutional investors and large public companies. The stocks of real estate investment trusts, or REITs, have long been considered a low interest rate play. As new supply peaks, cash flow growth is improving and valuations are attractive relative to equities, according to Laughlin.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
+    },
     {
       "id": "bde8eaaa417b4b1a4e65599fdf9791d29151fb56478bbfcff026c178ed2b63e2",
       "source": "CNBC",
@@ -1507,82 +1584,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-02T12:09:44+08:00"
-    },
-    {
-      "id": "6f0bfecde0cbdb8479a588065b92c7f0d018de10060fdbcd5b8af1162d714f5b",
-      "source": "CNBC",
-      "title": "Treasury sanctions operation targets Iran's auto, rail industries in latest economic attack",
-      "publishedAtSgt": "2026-10-02T02:37:16+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/treasury-sanctions-iran-auto-rail.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "In a separate release, the department announced additional sanctions on the A7 Network, described as a \"shadow banking network with ties to Russia used by the Iranian regime to evade sanctions.\" The actions are the latest to come from \"Operation Economic Outcast,\" the beefed-up sanctions effort that President Donald Trump and Treasury Secretary Scott Bessent touted as Iran's \"economic D-Day\" when it was unveiled in late August.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
-    },
-    {
-      "id": "1a8ce7928ae2d63535f65b885c73cfd150a07b7a551a61cfd71bcb115d600129",
-      "source": "CNBC",
-      "title": "Russia launches massive strikes on Ukraine’s energy grid, forcing power cuts ahead of winter",
-      "publishedAtSgt": "2026-10-02T00:09:18+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/russia-ukraine-war-energy-power-winter.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Russia has launched a widely anticipated attack on Ukraine's power grid, hitting key facilities in Kyiv and other major cities across the country, marking one of the biggest energy assaults in months. Ukrainian officials and national security experts have been warning about the prospect of a Russian air campaign on its energy infrastructure ahead of winter, fearing another extremely difficult cold snap at a time when the country faces an acute air defense shortage.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T12:10:03+08:00"
-    },
-    {
-      "id": "17d0cda9bd94cc6c1783a083eb417223310f11dca2b1f5bf65344b1a2ee2f639",
-      "source": "CNBC",
-      "title": "Health insurer points finger at AI as nearly $1 billion in questionable hospital charges appear",
-      "publishedAtSgt": "2026-10-01T23:07:07+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/health-care-costs-insurance-claims-billing-ai.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "AI is moving deeper into an already expensive and administratively complex U.S. And for all the talk of AI as a productivity tool that will lead to efficiencies and serve as a deflationary force, some of the early evidence is raising questions about whether these tools will make an already costly system more expensive.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-02T12:10:00+08:00"
-    },
-    {
-      "id": "6ddf48fccfdf9f91a844f6d22681f01f1890d9d913c6834c75cae339e1c30d71",
-      "source": "CNBC",
-      "title": "Kalshi, Polymarket trading volumes on some products raise questions amid massive growth",
-      "publishedAtSgt": "2026-10-01T22:24:36+08:00",
-      "url": "https://www.cnbc.com/2026/09/30/kalshi-polymarket-trading-volume-scrutiny.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "It's seen on markets related to elections, sports and central bank decisions. Both developments create concerns among some observers that the companies are overseeing inflated volumes or, at worst, are experiencing wash trading, in which traders collude to buy and sell an asset to create a false sense of economic activity.",
-      "feeds": [
-        "finance"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
-    },
-    {
-      "id": "311c972d5a9d19d7689547f8476616b69a06f6bdaf2820d2811cfda20d09362e",
-      "source": "CNBC",
-      "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
-      "publishedAtSgt": "2026-10-01T21:59:54+08:00",
-      "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Micron reported better-than-expected quarterly results on Wednesday as the memory maker continues to benefit from soaring demand for AI infrastructure. Micron's stock has soared more than 500% in the past year, benefiting from a worldwide supply crunch caused by historic levels of demand for memory chips needed for artificial intelligence models and workloads.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
     }
   ]
 }

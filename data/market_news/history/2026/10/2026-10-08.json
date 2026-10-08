@@ -5,6 +5,83 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "3c1fe6a71a11056a6544e7fde3fd35808791319d142b1eaf41a241c851226ae3",
+      "source": "CNBC",
+      "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+      "publishedAtSgt": "2026-10-08T21:28:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The cost of 67 categories of goods was 2.9 percentage points higher as of February thanks to tariffs, according to a paper from a team of researchers at the central bank's New York arm. For each percentage point increase in the average tariff, the team said that consumer goods prices were higher by roughly a quarter of a percent a year later. Annual price growth in the dozens of goods they tracked peaked at the start of 2026, according to the report.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
+    },
+    {
+      "id": "660a65c611b7bf719b48fa96fc85c792c3e6019e0a7c5af34d1c84582b4a7b08",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+      "publishedAtSgt": "2026-10-08T21:04:30+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/08/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The IPO of an Nvidia -backed AI infrastructure company in Australia, Firmus Grid, is looking shaky. TD Cowen put buy ratings on Club stocks Wells Fargo and Goldman Sachs , while going with a hold on another one of our other financials in Bank of New York . They prefer Goldman over investment bank rival Morgan Stanley because of its valuation discount.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
+    },
+    {
+      "id": "a99df6ecd7573ed6aa2cd47fdbfce9a19f42c1ced3ac04a256de0952caec7c8b",
+      "source": "CNBC",
+      "title": "Fed minutes, Pepsi earnings, midterm megadonors and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-08T20:53:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Here are five key things investors need to know to start the trading day: Federal Reserve officials see another rate hike before the end of the year, according to minutes from their September meeting released yesterday. Here's what else we're following: - A consumer survey from the New York Fed showed the 12-month inflation outlook jumped to its highest level since 2023. - Meanwhile, Levi Strauss became the latest company to report a boost from tariff refunds in its earnings report.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
+    },
+    {
+      "id": "1c69d1b534c6b52d5436fc2c7df9dc2f753453c959a58c0ba69395fe7f0fd994",
+      "source": "CNBC",
+      "title": "Ray Dalio warns the stock market's cushion against rising bond yields is shrinking",
+      "publishedAtSgt": "2026-10-08T20:19:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 94,
+      "relevanceReason": "strong_market_title",
+      "summary": "Billionaire investor Ray Dalio warned on Thursday that stocks face mounting pressure from rising bond yields and the prospect of weaker corporate cash flows, even as earnings continue to grow. The Bridgewater Associates founder told CNBC equities have so far weathered the global bond sell-off because earnings growth has kept expected stock returns attractive, relative to bonds.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
+    },
+    {
+      "id": "290325c065357c6a88ba1eef66f619ebacfb04ea9ab2a809253a0270589b6852",
+      "source": "CNBC",
+      "title": "Why REITs aren't getting killed by rising interest rates this time around",
+      "publishedAtSgt": "2026-10-08T19:28:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/why-reits-arent-getting-killed-by-rising-interest-rates-this-time.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Property Play covers new and evolving opportunities for the real estate investor, from individuals to venture capitalists, private equity funds, family offices, institutional investors and large public companies. The stocks of real estate investment trusts, or REITs, have long been considered a low interest rate play. As new supply peaks, cash flow growth is improving and valuations are attractive relative to equities, according to Laughlin.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
+    },
+    {
       "id": "bde8eaaa417b4b1a4e65599fdf9791d29151fb56478bbfcff026c178ed2b63e2",
       "source": "CNBC",
       "title": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
@@ -267,6 +344,6 @@
       "collectedAtSgt": "2026-10-08T00:36:57+08:00"
     }
   ],
-  "articleCount": 16,
-  "updatedAtSgt": "2026-10-08T18:35:41+08:00"
+  "articleCount": 21,
+  "updatedAtSgt": "2026-10-08T21:37:35+08:00"
 }
