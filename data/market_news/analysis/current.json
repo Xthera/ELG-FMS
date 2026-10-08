@@ -1,10 +1,40 @@
 {
-  "generatedAtSgt": "2026-10-08T12:49:55.196439+08:00",
+  "generatedAtSgt": "2026-10-08T15:52:45.506721+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 129,
+  "articleCount": 130,
   "analyses": [
+    {
+      "articleId": "3ecdc02f4e023db8ab371782807689a09835ad6a4ee9db47b05b5b5b029035b9",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "AI agent startup Manus has raised more than $500 million in its first funding round since Meta was forced to abandon its acquisition. The round was led by Boyu Capital and IDG Capital, with participation from Tencent, HSG, and ZhenFund.",
+      "assetClasses": [
+        "Private Equity",
+        "Venture Capital"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Highlights continued strong private market investor appetite and venture capital deployment for major artificial intelligence startups despite regulatory hurdles regarding corporate acquisitions.",
+      "reasoning": "Classified as MARKET due to the major private funding round involving prominent venture capital and private equity firms, demonstrating significant capital flows into the AI sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI startup Manus raises $500 million in first funding round since Meta breakup",
+      "publishedAtSgt": "2026-10-08T14:59:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-10-08T15:36:36+08:00"
+    },
     {
       "articleId": "f9bf5e13d0fb5b1e78236578465aad507b92b37e7a0e6a3c0d3e5820e4caaaf1",
       "relevant": true,
