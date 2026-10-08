@@ -1,10 +1,43 @@
 {
-  "generatedAtSgt": "2026-10-08T09:49:08.378636+08:00",
+  "generatedAtSgt": "2026-10-08T12:49:55.196439+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 128,
+  "articleCount": 129,
   "analyses": [
+    {
+      "articleId": "f9bf5e13d0fb5b1e78236578465aad507b92b37e7a0e6a3c0d3e5820e4caaaf1",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Oil prices rose due to Middle East hostilities and potential escalation raising supply concerns, notably regarding the Strait of Hormuz and Saudi energy infrastructure.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "Iran",
+        "USA",
+        "Saudi Arabia"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Supply disruptions in critical oil transit points like the Strait of Hormuz can drive up crude prices, creating inflationary pressures and benefiting energy sector equities while potentially weighing on broader market sentiment.",
+      "reasoning": "The article directly addresses physical supply risks in global energy markets due to geopolitical tensions, making it highly relevant for market monitoring and asset allocation in the energy space.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil gains as Middle East hostilities, potential escalation stoke supply worries",
+      "publishedAtSgt": "2026-10-08T12:07:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-08T12:34:27+08:00"
+    },
     {
       "articleId": "7757b47376c9b848108e0bbad134190c7803e6307ea86f8a89086de14f86ee32",
       "relevant": true,
