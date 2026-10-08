@@ -1,10 +1,99 @@
 {
-  "generatedAtSgt": "2026-10-08T15:52:45.506721+08:00",
+  "generatedAtSgt": "2026-10-08T18:51:11.048071+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 130,
+  "articleCount": 133,
   "analyses": [
+    {
+      "articleId": "bde8eaaa417b4b1a4e65599fdf9791d29151fb56478bbfcff026c178ed2b63e2",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "PepsiCo reported quarterly earnings and revenue that beat analysts' expectations driven by international growth, but cut its earnings forecast as the North American turnaround takes longer than expected.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "North America"
+      ],
+      "sectors": [
+        "Consumer Staples"
+      ],
+      "investorImpact": "Investors should note that while international growth remains strong, challenges in the North American segment and lowered earnings forecasts have created mixed sentiment, resulting in a slight drop in premarket share prices.",
+      "reasoning": "The article is classified under MARKET as it details a major corporate earnings report, forecast revision, and market reaction for a large-cap public company. Sentiment is mixed due to earnings beats balanced against a downgraded forecast and sluggish domestic performance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
+      "publishedAtSgt": "2026-10-08T18:34:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
+    },
+    {
+      "articleId": "904a65352a25a69dfa4c4492dc1b0bdf2abb16e20a0bdc1098a9bda29215fca1",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Russia's internet giant Yandex halted operations at a major data center following a drone attack, amidst escalating Ukrainian drone strikes on Russian infrastructure including energy and retail assets.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Russia",
+        "Ukraine"
+      ],
+      "sectors": [
+        "Technology",
+        "Infrastructure"
+      ],
+      "investorImpact": "Investors with exposure to Russian technology and infrastructure assets face increased operational risks and potential disruptions due to ongoing geopolitical conflict and targeted drone attacks.",
+      "reasoning": "Classified as GEOPOLITICAL due to the drone attack on Russian infrastructure and categorized as NEGATIVE sentiment given the operational disruption to a major internet and technology firm.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Russia's internet giant Yandex halts operations at major data center after drone attack",
+      "publishedAtSgt": "2026-10-08T17:40:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
+    },
+    {
+      "articleId": "85d972dd8f7e36ebee999e64df5206059fd19d638d852e3d5a7ecc5cff6605cf",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "China's real estate market shows signs of a potential turnaround after a yearslong slump, supported by government mortgage subsidies and wealth effects stemming from the artificial intelligence boom.",
+      "assetClasses": [
+        "Equities",
+        "Real Estate",
+        "Debt"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Property Development"
+      ],
+      "investorImpact": "A stabilization or turnaround in China's massive real estate sector could boost investor confidence, improve asset quality for exposed lenders, and spur broader economic growth in the region.",
+      "reasoning": "The article discusses major macroeconomic and market shifts in China's real estate sector with direct implications for property developers and investor sentiment, making it highly relevant for fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "After a yearslong slump, China's real estate market may be set for a turnaround",
+      "publishedAtSgt": "2026-10-08T17:27:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
+    },
     {
       "articleId": "3ecdc02f4e023db8ab371782807689a09835ad6a4ee9db47b05b5b5b029035b9",
       "relevant": true,
