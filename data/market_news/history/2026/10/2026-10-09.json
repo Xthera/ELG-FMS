@@ -5,6 +5,38 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "1c5e4c09377a497166fd6adaf00ecb7d2fa5096117642eca2d7560e5295ba92f",
+      "source": "CNBC",
+      "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
+      "publishedAtSgt": "2026-10-09T06:30:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of AT&T, Verizon and T-Mobile tumbled in extended trading. SpaceX, which went public in June in a record IPO and is now valued at over $2 trillion, has relied on Starlink as its cash cow and only profitable business segment to date. For now, its space and artificial intelligence units are losing money.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T06:33:24+08:00"
+    },
+    {
+      "id": "d6fff1a9cbc4e448676a7d0cff6011fc01273bb9f47e72c52650b7fa84d878d0",
+      "source": "CNBC",
+      "title": "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+      "publishedAtSgt": "2026-10-09T04:06:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Yields in the global bond market have been on a tear as expectations grow for central banks to hike interest rates and corporations keep borrowing money to build out artificial intelligence infrastructure. Central bank officials signaled this week that more increases could be coming before the end of the year. Fed funds futures traders anticipate a more than 82% likelihood that the central bank will next increase borrowing costs at its December meeting, according to CME's FedWatch tool.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T06:33:24+08:00"
+    },
+    {
       "id": "0c22ce18ebd364dee9263dfbe0cf5c527371dfc3cf724055099c673cd3fafcf5",
       "source": "CNBC",
       "title": "Why a Starbucks takeover of Chipotle would — and wouldn't — make sense for both companies",
@@ -69,6 +101,6 @@
       "collectedAtSgt": "2026-10-09T00:37:42+08:00"
     }
   ],
-  "articleCount": 4,
-  "updatedAtSgt": "2026-10-09T03:34:01+08:00"
+  "articleCount": 6,
+  "updatedAtSgt": "2026-10-09T06:33:24+08:00"
 }

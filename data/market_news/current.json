@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-09T03:34:01+08:00",
+  "generatedAtSgt": "2026-10-09T06:33:24+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,38 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "1c5e4c09377a497166fd6adaf00ecb7d2fa5096117642eca2d7560e5295ba92f",
+      "source": "CNBC",
+      "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
+      "publishedAtSgt": "2026-10-09T06:30:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of AT&T, Verizon and T-Mobile tumbled in extended trading. SpaceX, which went public in June in a record IPO and is now valued at over $2 trillion, has relied on Starlink as its cash cow and only profitable business segment to date. For now, its space and artificial intelligence units are losing money.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T06:33:24+08:00"
+    },
+    {
+      "id": "d6fff1a9cbc4e448676a7d0cff6011fc01273bb9f47e72c52650b7fa84d878d0",
+      "source": "CNBC",
+      "title": "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+      "publishedAtSgt": "2026-10-09T04:06:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Yields in the global bond market have been on a tear as expectations grow for central banks to hike interest rates and corporations keep borrowing money to build out artificial intelligence infrastructure. Central bank officials signaled this week that more increases could be coming before the end of the year. Fed funds futures traders anticipate a more than 82% likelihood that the central bank will next increase borrowing costs at its December meeting, according to CME's FedWatch tool.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T06:33:24+08:00"
+    },
     {
       "id": "0c22ce18ebd364dee9263dfbe0cf5c527371dfc3cf724055099c673cd3fafcf5",
       "source": "CNBC",
@@ -1551,38 +1583,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-02T12:09:44+08:00"
-    },
-    {
-      "id": "13a4c2044762d3796acd2581bb1f9801dc2dbb662bb38202aa5cd39cc164b28a",
-      "source": "CNBC",
-      "title": "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
-      "publishedAtSgt": "2026-10-02T08:06:02+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/spacex-to-launch-google-ai-chips-to-orbit-with-planet-labs-satellites.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 83,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Alphabet launched its homegrown AI chips into orbit on Thursday in a SpaceX Falcon 9 rocket, a step towards making data centers in space a reality. SpaceX has promoted supercomputers in space as the next frontier in artificial intelligence infrastructure, touting \"infinite real estate\" in orbit as a means of escaping the data center backlash on the ground.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:46+08:00"
-    },
-    {
-      "id": "0dc5990f3cf02faeed8af6c4dc3b6949a51c5ae6b5fa7022ed8c9e3b7095f35b",
-      "source": "CNBC",
-      "title": "AI is a boon for 3 internet traffic cop stocks. Cramer says only 1 is a buy right now",
-      "publishedAtSgt": "2026-10-02T07:04:13+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/jim-cramer-akamai-ai-traffic.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "CNBC's Jim Cramer said Thursday that the explosion of web traffic from AI agents is creating a new growth opportunity for companies that help keep the internet running smoothly. That also means it's creating money-making opportunities for investors. Akamai trades at less than 16 times this year's expected earnings, and he argued investors are \"basically getting the latest Anthropic partnership for free.\" Fastly is also repositioning itself for the AI era, shifting from a traditional content...",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-02T12:10:00+08:00"
     }
   ]
 }
