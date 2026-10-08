@@ -1,10 +1,127 @@
 {
-  "generatedAtSgt": "2026-10-08T06:46:42.585720+08:00",
+  "generatedAtSgt": "2026-10-08T09:49:08.378636+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 124,
+  "articleCount": 128,
   "analyses": [
+    {
+      "articleId": "7757b47376c9b848108e0bbad134190c7803e6307ea86f8a89086de14f86ee32",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Samsung forecasts a record third-quarter profit driven by strong AI chip demand and tight memory supply, yet shares or sentiment saw pressure as results fell short of extremely lofty market expectations.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "Asia-Pacific"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Highlights how exceptionally high market expectations in the AI hardware and memory sector can cause a mixed reaction even when record financial performance is achieved.",
+      "reasoning": "The article reports on major corporate earnings from a leading semiconductor manufacturer, heavily tied to AI demand, making it critical for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
+      "publishedAtSgt": "2026-10-08T08:51:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
+    },
+    {
+      "articleId": "fead37a43eede596056634a208a40ca720adfb30ce3a266fc600f71611c55a05",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "Trump trade chief Jamieson Greer reported higher cash holdings and significant law firm pay in his newly obtained 2025 annual financial disclosure, following his transition from King & Spalding to the administration.",
+      "assetClasses": [],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Legal Services",
+        "Government"
+      ],
+      "investorImpact": "The financial disclosure of a top trade official provides transparency regarding personal assets but does not have an immediate or material impact on broader asset classes or market sectors.",
+      "reasoning": "Classified as GEOPOLITICAL due to its focus on a key trade administration official, but rated LOW importance and false for fund monitoring relevance because it focuses on personal financial disclosures rather than actionable trade policy shifts.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Trump trade chief Greer reports higher cash holdings as law firm pay topped $650K",
+      "publishedAtSgt": "2026-10-08T07:10:54+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/jamieson-greer-financial-disclosure-coupang.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
+    },
+    {
+      "articleId": "793e9a5e6e9c9a4ded33510815d46c981442b79fae3cd7fb707d0b99a0357b24",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Independent research firm New Constructs has criticized Anthropic's upcoming IPO as the most ridiculous of the year, warning that Wall Street is facing an unprecedented test of investor gullibility as the AI company aims for a potential $2 trillion valuation while being independently valued at $150 billion.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors should exercise caution and conduct rigorous fundamental analysis regarding high-valuation AI IPOs, as extreme valuation discrepancies between private ambitions and independent assessments carry significant correction risks.",
+      "reasoning": "The article is classified under MARKET due to its focus on an upcoming high-profile IPO and contrasting equity valuations. It is important for monitoring market exuberance and sentiment within the technology and artificial intelligence sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
+      "publishedAtSgt": "2026-10-08T06:29:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
+    },
+    {
+      "articleId": "78d587064c304ce13b13246c84e2172d2b96fc504402c29645fc97ccc8604be4",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer noted that rising interest rates and bond market conditions are splitting the stock market into two distinct groups: rate-sensitive companies constrained by higher borrowing costs and artificial intelligence businesses that remain relatively insulated.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence",
+        "Financials"
+      ],
+      "investorImpact": "Investors should note the divergence in market performance driven by interest rates, favoring cash-rich or high-growth AI sectors over rate-sensitive equities.",
+      "reasoning": "The article discusses broader market bifurcation caused by interest rates and Treasury auctions, directly impacting equity and fixed income allocations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cramer says higher rates are splitting the market in two — and AI stocks have a big advantage",
+      "publishedAtSgt": "2026-10-08T06:22:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/07/jim-cramer-spacex-wall-street-bull-case.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
+    },
     {
       "articleId": "4507a16d6594e0abefbc0f219d477425015f43aa51b50173fdf744b1b73e9253",
       "relevant": true,
