@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-08T15:36:36+08:00",
+  "generatedAtSgt": "2026-10-08T18:35:42+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,56 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "bde8eaaa417b4b1a4e65599fdf9791d29151fb56478bbfcff026c178ed2b63e2",
+      "source": "CNBC",
+      "title": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
+      "publishedAtSgt": "2026-10-08T18:34:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "PepsiCo on Thursday reported quarterly earnings and revenue that topped analysts' expectations, fueled by international growth as its North American business continues to lag. It is also now projecting net revenue growth of about 6%, on the high end of its prior outlook of a range of 4% to 6%. Shares of Pepsi fell less than 1% in premarket trading.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
+    },
+    {
+      "id": "904a65352a25a69dfa4c4492dc1b0bdf2abb16e20a0bdc1098a9bda29215fca1",
+      "source": "CNBC",
+      "title": "Russia's internet giant Yandex halts operations at major data center after drone attack",
+      "publishedAtSgt": "2026-10-08T17:40:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "It also developed the region's leading generative AI model, YandexGPT. Although Ukraine has not claimed responsibility for the Yandex attack, it has been stepping up its attacks on Russian infrastructure, including energy, over recent months, such as targeting Russian oil refineries, which President Volodymyr Zelenskyy has said are used to \"finance the war and the killing of Ukrainians.\" Ukraine also increased attacks on Russian retail giant Wildberries, a critical part of the consumer...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
+    },
+    {
+      "id": "85d972dd8f7e36ebee999e64df5206059fd19d638d852e3d5a7ecc5cff6605cf",
+      "source": "CNBC",
+      "title": "After a yearslong slump, China's real estate market may be set for a turnaround",
+      "publishedAtSgt": "2026-10-08T17:27:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Chinese property developers such as Evergrande long relied on sales of apartments before they were completed, fueling a debt-driven cycle of rapid growth. China's efforts to subsidize mortgages along with wealth effects from the artificial intelligence boom are also helping lift property demand.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
+    },
     {
       "id": "3ecdc02f4e023db8ab371782807689a09835ad6a4ee9db47b05b5b5b029035b9",
       "source": "CNBC",
@@ -1533,51 +1583,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-02T12:09:45+08:00"
-    },
-    {
-      "id": "793f941cc982bdac7a7ee5b82f498f73de5671f86fe1f07dd39712b77ad60b7e",
-      "source": "CNBC",
-      "title": "The U.S. just made it much easier for retail investors to access private markets",
-      "publishedAtSgt": "2026-10-01T21:38:32+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/private-credit-sec-retail-investors.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The Securities and Exchange Commission has greenlit sweeping plans to widen access to private markets to individual investors — just as the industry's rush into retail faces sharper scrutiny. SEC chairman Paul Atkins said investor demand for private market investment opportunities is growing, adding that exposure to \"one of the great engines of American enterprise\" should \"not be reserved for the wealthiest or for those deemed to be the most sophisticated.\" The proposals, approved Wednesday by...",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T12:10:03+08:00"
-    },
-    {
-      "id": "7b56d6d91b7c08e6e04bea1286985c544ecfcc2d172b57284a24ce9412fb2a62",
-      "source": "CNBC",
-      "title": "The Dow's rough month, Micron's revenue surge, Google launches Gemini 4 and more in Morning Squawk",
-      "publishedAtSgt": "2026-10-01T20:45:07+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/5-things-to-know-before-the-stock-market-opens.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The stock is coming off a monster rally of more than 500% over the last 12 months as it reaps the benefits of the AI boom's memory supply crunch. The Fed official told Liesman that inflation is \"running at around a 3% rate,\" saying of Wednesday's report, \"I didn't think the inflation data today really changed that story for me very much.\" Speaking of the Fed: The central bank's inspector general said yesterday that while there were management failures in the Fed's renovation of its...",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-02T12:10:00+08:00"
-    },
-    {
-      "id": "81dfb0f7abd7410807d5bb85b2e9c93213e94eb717888f9c5bfe512ee1ae8f81",
-      "source": "CNBC",
-      "title": "Bargain Britain lures foreign buyers as hostile takeovers surge",
-      "publishedAtSgt": "2026-10-01T18:53:11+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/hostile-takeovers-mergers-acquisitions-uk.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "U.K.-listed stocks are in the crosshairs of foreign buyers, as persistently depressed valuations drive a surge in public takeovers. — the G7's fastest-growing economy — topped £75 billion ($99 billion) in the period to the end of the third quarter. M&A at Deutsche Bank, said the valuation gap between U.K.-listed companies and their publicly-traded U.S.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T12:10:02+08:00"
     }
   ]
 }

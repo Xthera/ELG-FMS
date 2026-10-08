@@ -5,6 +5,56 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "bde8eaaa417b4b1a4e65599fdf9791d29151fb56478bbfcff026c178ed2b63e2",
+      "source": "CNBC",
+      "title": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
+      "publishedAtSgt": "2026-10-08T18:34:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "PepsiCo on Thursday reported quarterly earnings and revenue that topped analysts' expectations, fueled by international growth as its North American business continues to lag. It is also now projecting net revenue growth of about 6%, on the high end of its prior outlook of a range of 4% to 6%. Shares of Pepsi fell less than 1% in premarket trading.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
+    },
+    {
+      "id": "904a65352a25a69dfa4c4492dc1b0bdf2abb16e20a0bdc1098a9bda29215fca1",
+      "source": "CNBC",
+      "title": "Russia's internet giant Yandex halts operations at major data center after drone attack",
+      "publishedAtSgt": "2026-10-08T17:40:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "It also developed the region's leading generative AI model, YandexGPT. Although Ukraine has not claimed responsibility for the Yandex attack, it has been stepping up its attacks on Russian infrastructure, including energy, over recent months, such as targeting Russian oil refineries, which President Volodymyr Zelenskyy has said are used to \"finance the war and the killing of Ukrainians.\" Ukraine also increased attacks on Russian retail giant Wildberries, a critical part of the consumer...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
+    },
+    {
+      "id": "85d972dd8f7e36ebee999e64df5206059fd19d638d852e3d5a7ecc5cff6605cf",
+      "source": "CNBC",
+      "title": "After a yearslong slump, China's real estate market may be set for a turnaround",
+      "publishedAtSgt": "2026-10-08T17:27:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Chinese property developers such as Evergrande long relied on sales of apartments before they were completed, fueling a debt-driven cycle of rapid growth. China's efforts to subsidize mortgages along with wealth effects from the artificial intelligence boom are also helping lift property demand.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
+    },
+    {
       "id": "3ecdc02f4e023db8ab371782807689a09835ad6a4ee9db47b05b5b5b029035b9",
       "source": "CNBC",
       "title": "AI startup Manus raises $500 million in first funding round since Meta breakup",
@@ -217,6 +267,6 @@
       "collectedAtSgt": "2026-10-08T00:36:57+08:00"
     }
   ],
-  "articleCount": 13,
-  "updatedAtSgt": "2026-10-08T15:36:36+08:00"
+  "articleCount": 16,
+  "updatedAtSgt": "2026-10-08T18:35:41+08:00"
 }
