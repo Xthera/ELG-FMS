@@ -1,9 +1,9 @@
 {
-  "generatedAtSgt": "2026-10-09T03:49:43.202346+08:00",
+  "generatedAtSgt": "2026-10-09T06:21:37.294754+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 138,
+  "articleCount": 140,
   "analyses": [
     {
       "articleId": "0c22ce18ebd364dee9263dfbe0cf5c527371dfc3cf724055099c673cd3fafcf5",
@@ -32,6 +32,67 @@
       "collectorCategory": "MARKET",
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-09T03:34:01+08:00"
+    },
+    {
+      "articleId": "77b96050d8b754b679c913aaf2501551c86f1fca26143a8d8f6de85a25df951a",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Shares of major artificial intelligence stocks including Nvidia, Oracle, and CoreWeave declined following reports regarding OpenAI's revenue details and its pressure to justify an $852 billion valuation ahead of a potential IPO and new funding discussions.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors in AI-related hardware and software companies should note the increased market sensitivity and downward pressure on valuations stemming from revenue scrutiny on key sector leaders like OpenAI.",
+      "reasoning": "The article is classified as MARKET because it reports on a broad sell-off of AI stocks driven by valuation and revenue concerns of a major industry player. It holds HIGH importance and fund monitoring relevance due to its direct impact on major technology equities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+      "publishedAtSgt": "2026-10-09T02:18:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-09T03:34:01+08:00"
+    },
+    {
+      "articleId": "f23381c2e9feb8deb6ef887c61208059f7287dd080e3c2d10fa3747fd4c87fc6",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "The U.S. Treasury Department is sanctioning 17 additional vessels connected to Iran's shadow fleet used to transport oil and gas, aiming to choke Tehran's economy and curb illicit oil revenues.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "United States",
+        "Iran"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas",
+        "Shipping"
+      ],
+      "investorImpact": "These sanctions can create supply tightness and increased volatility in global oil and shipping markets, potentially driving up crude prices.",
+      "reasoning": "Classified as GEOPOLITICAL due to U.S. sanctions on Iranian shipping vessels. It is relevant to energy markets and fund monitoring because supply restrictions on oil tankers impact global oil prices and shipping logistics.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
+      "publishedAtSgt": "2026-10-09T01:13:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/iran-treasury-sanctions-shadow-fleet.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
       "collectedAtSgt": "2026-10-09T03:34:01+08:00"
     },
     {
