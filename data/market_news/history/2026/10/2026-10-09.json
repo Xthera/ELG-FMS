@@ -5,6 +5,55 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "0c22ce18ebd364dee9263dfbe0cf5c527371dfc3cf724055099c673cd3fafcf5",
+      "source": "CNBC",
+      "title": "Why a Starbucks takeover of Chipotle would — and wouldn't — make sense for both companies",
+      "publishedAtSgt": "2026-10-09T03:15:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/starbucks-chipotle-acquisition.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Starbucks has reportedly explored buying Chipotle Mexican Grill, but investors are split on whether the megadeal would make sense for both companies. The report sent Chipotle stock up about 7% in afternoon trading, while shares of Starbucks fell roughly 4%. It is not unusual for deal rumors to lower the potential acquirer's value and increase the target's share price, but investor reactions show that a prospective takeover comes with pros and cons for each side of the deal.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T03:34:01+08:00"
+    },
+    {
+      "id": "77b96050d8b754b679c913aaf2501551c86f1fca26143a8d8f6de85a25df951a",
+      "source": "CNBC",
+      "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+      "publishedAtSgt": "2026-10-09T02:18:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Nvidia, Oracle, CoreWeave and other artificial intelligence names sank lower on Thursday after the market learned more details about OpenAI's revenue. The company is under pressure to justify its $852 billion valuation to investors as it gears up for what is widely expected to be a blockbuster IPO. In the interim, OpenAI is engaging in early stage discussions with investors about a potential new funding round.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T03:34:01+08:00"
+    },
+    {
+      "id": "f23381c2e9feb8deb6ef887c61208059f7287dd080e3c2d10fa3747fd4c87fc6",
+      "source": "CNBC",
+      "title": "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
+      "publishedAtSgt": "2026-10-09T01:13:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/iran-treasury-sanctions-shadow-fleet.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Treasury Department is sanctioning 17 additional vessels it says are connected to Iran's \"shadow fleet\" used to transport oil and gas out of the country, as Washington tries to choke Tehran's economy to end the war that began over seven months ago. has long said Iran uses illicit oil revenues to fund its regime and related terror proxies and hopes to cripple Tehran's economy by stemming that revenue.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T03:34:01+08:00"
+    },
+    {
       "id": "647ba5b0c7f10e0ab80ba0f47cb5fd731f517514c14be1d14b1194ee7faf1709",
       "source": "CNBC",
       "title": "10-year Treasury yield is little changed as Fed's Waller says more hikes needed, investors await 30-year auction",
@@ -20,6 +69,6 @@
       "collectedAtSgt": "2026-10-09T00:37:42+08:00"
     }
   ],
-  "articleCount": 1,
-  "updatedAtSgt": "2026-10-09T00:37:42+08:00"
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-09T03:34:01+08:00"
 }

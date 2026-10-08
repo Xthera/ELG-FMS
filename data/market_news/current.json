@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-09T00:37:46+08:00",
+  "generatedAtSgt": "2026-10-09T03:34:01+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,55 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "0c22ce18ebd364dee9263dfbe0cf5c527371dfc3cf724055099c673cd3fafcf5",
+      "source": "CNBC",
+      "title": "Why a Starbucks takeover of Chipotle would — and wouldn't — make sense for both companies",
+      "publishedAtSgt": "2026-10-09T03:15:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/starbucks-chipotle-acquisition.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Starbucks has reportedly explored buying Chipotle Mexican Grill, but investors are split on whether the megadeal would make sense for both companies. The report sent Chipotle stock up about 7% in afternoon trading, while shares of Starbucks fell roughly 4%. It is not unusual for deal rumors to lower the potential acquirer's value and increase the target's share price, but investor reactions show that a prospective takeover comes with pros and cons for each side of the deal.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T03:34:01+08:00"
+    },
+    {
+      "id": "77b96050d8b754b679c913aaf2501551c86f1fca26143a8d8f6de85a25df951a",
+      "source": "CNBC",
+      "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+      "publishedAtSgt": "2026-10-09T02:18:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Nvidia, Oracle, CoreWeave and other artificial intelligence names sank lower on Thursday after the market learned more details about OpenAI's revenue. The company is under pressure to justify its $852 billion valuation to investors as it gears up for what is widely expected to be a blockbuster IPO. In the interim, OpenAI is engaging in early stage discussions with investors about a potential new funding round.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T03:34:01+08:00"
+    },
+    {
+      "id": "f23381c2e9feb8deb6ef887c61208059f7287dd080e3c2d10fa3747fd4c87fc6",
+      "source": "CNBC",
+      "title": "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
+      "publishedAtSgt": "2026-10-09T01:13:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/iran-treasury-sanctions-shadow-fleet.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Treasury Department is sanctioning 17 additional vessels it says are connected to Iran's \"shadow fleet\" used to transport oil and gas out of the country, as Washington tries to choke Tehran's economy to end the war that began over seven months ago. has long said Iran uses illicit oil revenues to fund its regime and related terror proxies and hopes to cripple Tehran's economy by stemming that revenue.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T03:34:01+08:00"
+    },
     {
       "id": "647ba5b0c7f10e0ab80ba0f47cb5fd731f517514c14be1d14b1194ee7faf1709",
       "source": "CNBC",
@@ -1534,54 +1583,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-02T12:10:00+08:00"
-    },
-    {
-      "id": "517467b18d8692906b75fcad30423f034da733e54ab0fc18dbdbc024b28aca72",
-      "source": "CNBC",
-      "title": "Software roared back last quarter. Cramer says these stocks can keep climbing",
-      "publishedAtSgt": "2026-10-02T06:18:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/jim-cramer-software-stocks-q3.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "CNBC's Jim Cramer said Thursday that enterprise software's comeback was the defining stock market story of the third quarter. Software stocks roared back from their artificial intelligence-driven sell off, while chip names cooled after a massive first-half run. Salesforce rallied 46% during the quarter as investors grew more confident that AI could be a growth driver rather than a threat to its business.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
-    },
-    {
-      "id": "1233c7746a69bcb61923ef432ea7441b643fa0bab0e4cd8f9f069ff144ffe807",
-      "source": "CNBC",
-      "title": "Accenture stock rallies after earnings beat expectations",
-      "publishedAtSgt": "2026-10-02T05:40:30+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "In an exclusive interview on CNBC's \"Squawk on the Street,\" Accenture CEO Julie Sweet said AI has served as a key growth driver for the business as it accumulates partners in key AI sectors such as data centers and capital infrastructure. \"We've just finished the year with $85 billion of new business going into next year, and that is driven by our growth strategy to focus on big transformational deals and making sure we're the winner in AI and data,\" Sweet told CNBC.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
-    },
-    {
-      "id": "19e1186d960d0e3f973d11de844caadf850433744b648a9e192f08b7df7b75f7",
-      "source": "CNBC",
-      "title": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
-      "publishedAtSgt": "2026-10-02T05:34:44+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 100,
-      "relevanceReason": "financial_market_legal_story",
-      "summary": "Shares of Nike fell roughly 3% in extended trading Thursday. \"Overall, there's a lack of energy in the lifestyle space right now, which is impacting traffic,\" he said on the call. \"Yes, the consumer is cautious, but as the leader in the industry, it's on us to bring more creativity to sportswear.\" The sneaker giant also announced a restructuring plan to \"position Nike for long-term growth.\" The strategy is expected to result in layoffs beginning in 2027, though the company did not provide any...",
-      "feeds": [
-        "latest",
-        "business",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
     }
   ]
 }
