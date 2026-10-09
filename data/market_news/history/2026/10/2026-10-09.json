@@ -5,6 +5,98 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "87694e741d20f9cd7aa008418897934680439a3261ffa1f42770163cc5341941",
+      "source": "CNBC",
+      "title": "Tech stocks' resilience has puzzled investors. The options market could hold some clues",
+      "publishedAtSgt": "2026-10-09T21:07:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/tech-stocks-resilience-has-puzzled-investors-the-options-market-could-hold-some-clues.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The unexpected never happens when you're looking for it, which may explain why tech stocks have remained so strong in the face of surging rates and questions about the AI complex. The metric isn't just the result of a one-day anomaly: the ratio has been moving in favor of puts since August, despite a steady climb in big-tech stock prices that culminated in a string of all-time highs up through Tuesday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:27+08:00"
+    },
+    {
+      "id": "fe0c0ae60bbcafce23d4f6af51e50475619740aac96045bf3a550fd583abbb9c",
+      "source": "CNBC",
+      "title": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
+      "publishedAtSgt": "2026-10-09T21:03:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/margin-debt-stock-market-risk.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "For example, as equities rise in value, an investor may need to cover a short position that's been marked to market, or valued at its current price. Huszczo shares the commonly held belief among financial advisors that investors' portfolios shouldn't be overly concentrated in one stock or even one sector.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "id": "909968f0210cfb126a9cb33adac6bbc9e2d0d0c419a26ed7abbdc6226717e8ff",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
+      "publishedAtSgt": "2026-10-09T21:01:32+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/09/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It helps that oil prices and bond yields are calm. Nvidia-backed Firmus Grid, an AI infrastructure name, scrapping its Australia IPO over valuation concerns also hurt. It's a reminder that people still figure AI as a trade, not as an investment.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "id": "4a802c1bf799f1a28524f04770862141c65c3802bc5faf9009d6702e0c4ea5da",
+      "source": "CNBC",
+      "title": "OpenAI's revenue scare, Delta earnings, what investors think of a Starbucks-Chipotle deal and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-09T20:40:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "The news from one of the most dominant players in the artificial intelligence ecosystem led stocks across the tech sector to slide. Here's what to know: - As CNBC's Ashley Capoot and Kate Rooney write, the new details on OpenAI's revenue come as the company faces pressure to justify its enormous valuation ahead of its potential IPO. - The drop in AI names pushed the technology-heavy Nasdaq Composite down more than 1%, its worst day since mid-August.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "id": "f1af98ea26a4a2ad4c6fb1e315ed7b7d0ca3e511e648d8ddedf97d54eac1bc9d",
+      "source": "CNBC",
+      "title": "Ferrari’s chairman is bullish on AI. He’s less certain how businesses will cash in",
+      "publishedAtSgt": "2026-10-09T19:54:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/john-elkann-ferrari-ai-technology.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Ferrari chairman John Elkann has shrugged off concerns about a potential artificial intelligence bubble — but he warns an AI supply and demand mismatch could pose a risk to markets. In an exclusive interview with CNBC Friday, the billionaire industrialist and Meta Platforms board member, who has invested in technology companies through his family's holding company Exor, expressed optimism for the AI buildout in the decade ahead.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "id": "2b33a53cec6d483647a023e73030eb5a36e3a7b2e8465a7644c290a6fb9e652b",
+      "source": "CNBC",
+      "title": "Kalshi traders see high odds that more than 5,100 data centers will be planned or operating before 2027",
+      "publishedAtSgt": "2026-10-09T19:54:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/kalshi-traders-see-high-odds-of-5000-plus-data-centers-by-2027.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Public backlash is rising against the construction of data centers, but Kalshi traders see a higher likelihood that the number of data centers planned or operating before the new year will top 5,000 Prediction market platform Kalshi shows a 75% chance that there will be more than 5,100 proposed and live data centers before 2027. In just two weeks, the likelihood has jumped from 60%.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
       "id": "b1a4554a95d710b8544a3f3d5dd1dbb5a8efe5b7d5147516fe1f7909b0100a9b",
       "source": "CNBC",
       "title": "CNBC Daily Open: What happened to the $20 billion?",
@@ -164,6 +256,6 @@
       "collectedAtSgt": "2026-10-09T00:37:42+08:00"
     }
   ],
-  "articleCount": 10,
-  "updatedAtSgt": "2026-10-09T18:35:35+08:00"
+  "articleCount": 16,
+  "updatedAtSgt": "2026-10-09T21:37:28+08:00"
 }

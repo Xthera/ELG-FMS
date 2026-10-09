@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-09T18:35:35+08:00",
+  "generatedAtSgt": "2026-10-09T21:37:28+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,98 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "87694e741d20f9cd7aa008418897934680439a3261ffa1f42770163cc5341941",
+      "source": "CNBC",
+      "title": "Tech stocks' resilience has puzzled investors. The options market could hold some clues",
+      "publishedAtSgt": "2026-10-09T21:07:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/tech-stocks-resilience-has-puzzled-investors-the-options-market-could-hold-some-clues.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The unexpected never happens when you're looking for it, which may explain why tech stocks have remained so strong in the face of surging rates and questions about the AI complex. The metric isn't just the result of a one-day anomaly: the ratio has been moving in favor of puts since August, despite a steady climb in big-tech stock prices that culminated in a string of all-time highs up through Tuesday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:27+08:00"
+    },
+    {
+      "id": "fe0c0ae60bbcafce23d4f6af51e50475619740aac96045bf3a550fd583abbb9c",
+      "source": "CNBC",
+      "title": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
+      "publishedAtSgt": "2026-10-09T21:03:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/margin-debt-stock-market-risk.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "For example, as equities rise in value, an investor may need to cover a short position that's been marked to market, or valued at its current price. Huszczo shares the commonly held belief among financial advisors that investors' portfolios shouldn't be overly concentrated in one stock or even one sector.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "id": "909968f0210cfb126a9cb33adac6bbc9e2d0d0c419a26ed7abbdc6226717e8ff",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
+      "publishedAtSgt": "2026-10-09T21:01:32+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/09/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It helps that oil prices and bond yields are calm. Nvidia-backed Firmus Grid, an AI infrastructure name, scrapping its Australia IPO over valuation concerns also hurt. It's a reminder that people still figure AI as a trade, not as an investment.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "id": "4a802c1bf799f1a28524f04770862141c65c3802bc5faf9009d6702e0c4ea5da",
+      "source": "CNBC",
+      "title": "OpenAI's revenue scare, Delta earnings, what investors think of a Starbucks-Chipotle deal and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-09T20:40:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "The news from one of the most dominant players in the artificial intelligence ecosystem led stocks across the tech sector to slide. Here's what to know: - As CNBC's Ashley Capoot and Kate Rooney write, the new details on OpenAI's revenue come as the company faces pressure to justify its enormous valuation ahead of its potential IPO. - The drop in AI names pushed the technology-heavy Nasdaq Composite down more than 1%, its worst day since mid-August.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "id": "f1af98ea26a4a2ad4c6fb1e315ed7b7d0ca3e511e648d8ddedf97d54eac1bc9d",
+      "source": "CNBC",
+      "title": "Ferrari’s chairman is bullish on AI. He’s less certain how businesses will cash in",
+      "publishedAtSgt": "2026-10-09T19:54:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/john-elkann-ferrari-ai-technology.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Ferrari chairman John Elkann has shrugged off concerns about a potential artificial intelligence bubble — but he warns an AI supply and demand mismatch could pose a risk to markets. In an exclusive interview with CNBC Friday, the billionaire industrialist and Meta Platforms board member, who has invested in technology companies through his family's holding company Exor, expressed optimism for the AI buildout in the decade ahead.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "id": "2b33a53cec6d483647a023e73030eb5a36e3a7b2e8465a7644c290a6fb9e652b",
+      "source": "CNBC",
+      "title": "Kalshi traders see high odds that more than 5,100 data centers will be planned or operating before 2027",
+      "publishedAtSgt": "2026-10-09T19:54:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/kalshi-traders-see-high-odds-of-5000-plus-data-centers-by-2027.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Public backlash is rising against the construction of data centers, but Kalshi traders see a higher likelihood that the number of data centers planned or operating before the new year will top 5,000 Prediction market platform Kalshi shows a 75% chance that there will be more than 5,100 proposed and live data centers before 2027. In just two weeks, the likelihood has jumped from 60%.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
     {
       "id": "b1a4554a95d710b8544a3f3d5dd1dbb5a8efe5b7d5147516fe1f7909b0100a9b",
       "source": "CNBC",
@@ -1488,102 +1580,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-02T21:14:11+08:00"
-    },
-    {
-      "id": "5074a0df4cdf553d9613d088c24023ccca893599e50e236919572ebf410ba082",
-      "source": "CNBC",
-      "title": "'The hottest skill on Wall Street’: Demand for this AI ability jumped 1,721% as banks embrace agents",
-      "publishedAtSgt": "2026-10-02T19:03:31+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/ai-skills-most-in-demand-at-jpmorgan-chase-citigroup-capital-one.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Before artificial intelligence can take Wall Street jobs, it is first creating them. Posts for AI-related roles at banks including JPMorgan Chase, Citigroup and Capital One surged 49% this year compared with 2025 to 139,819 listings, according to an analysis by enterprise hiring data firm Draup that was provided exclusively to CNBC. Other growth areas within AI include those responsible for creating guardrails around the emerging systems, including demand for risk and control infrastructure.",
-      "feeds": [
-        "finance",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-02T21:14:11+08:00"
-    },
-    {
-      "id": "475ceebd20bc829b1d77522b2eddac69ae297a6488b22babb0f3fe2c5e0f7665",
-      "source": "CNBC",
-      "title": "Google has been playing catch up with OpenAI and Anthropic. Does its new flagship model really compete at the frontier?",
-      "publishedAtSgt": "2026-10-02T19:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 53,
-      "relevanceReason": "supporting_technology_description",
-      "summary": "2026 has been a turbulent year for Google's AI hopes and dreams. Gemini 3, which launched towards the end of 2025, put Google very much in the frontier AI conversation. But for much of the rest of this year, it's Anthropic and OpenAI that have been at the forefront of AI advances.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T21:14:11+08:00"
-    },
-    {
-      "id": "ac415691020cebb602b4ca96d93bb35d468906c6b8c81ff256e6fa72179f3588",
-      "source": "CNBC",
-      "title": "The secret signs the bond sell-off might be ending",
-      "publishedAtSgt": "2026-10-02T18:37:26+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/the-secret-signs-the-bond-sell-off-might-be-ending.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "bond market firmed Thursday and the iShares 20+ Year Treasury Bond ETF (TLT) posted its best intraday rally in at least a month, some less notable but equally important action for bond bulls happened in two corners of the options market. The utilities trade wasn't the only under-the-radar options trade that suggests the bond sell-off is slowing. Later in the day, in the bond pits at the Chicago Mercantile Exchange, someone placed a $4.4 million bond trade that short-term rates will reverse.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T21:14:11+08:00"
-    },
-    {
-      "id": "d6e3d4197c2892f8248dbcd5d22f420ec83e452b77cdcf47200360c852b71c0e",
-      "source": "CNBC",
-      "title": "Nike shares plummet 10% after weak revenue outlook and layoff plans underway",
-      "publishedAtSgt": "2026-10-02T18:11:09+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/nike-nke-stock-q1-earnings-layoffs.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Nike's shares plummeted in premarket trading Friday, falling for a second straight day after it reported falling revenue and plans to lay off staff in 2027. The sportswear giant said Thursday that its fiscal first-quarter revenues were down 4% to $11.2 billion, citing declines in Greater China, which was partially offset by growth in its North America segment. Its shares were last down 10.36% in premarket trading on Friday and have declined nearly 45% since the beginning of the year.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-02T18:12:22+08:00"
-    },
-    {
-      "id": "091f1cdf4fb5919a981069856e0ff533aeac66332eb103a16e9189fa3e87d691",
-      "source": "CNBC",
-      "title": "Eurozone inflation hits its highest level in three years at 3.8% as energy costs soar",
-      "publishedAtSgt": "2026-10-02T17:39:51+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/eurozone-inflation-ecb.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Last month's print is up from the 3.2% recorded in August, above the 3.6% forecast by markets and well ahead of the European Central Bank's 2% target. Energy inflation reached its highest level since January 2023, at 18.8%, as the ongoing Middle East conflict continues to drive prices higher. \"A central bank mindful of the experience of 2022 will not want to wait for second-round effects to become entrenched before acting.\"",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T18:12:22+08:00"
-    },
-    {
-      "id": "fd035a9110053768a93823894b92df39c5d006f73dc864e7d6966240595df86e",
-      "source": "CNBC",
-      "title": "Oil prices fall over 3% on report of potential diesel, crude stock release; Brent back below $100",
-      "publishedAtSgt": "2026-10-02T17:34:33+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/oil-wti-brent-diesel-stock-release-europe.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oil prices were sharply lower on Friday morning, extending losses from earlier in the session, following reports of a potential move to release diesel and crude stocks to ease a global supply shortage. The report, which cited a single unnamed source familiar with details of the discussion, said France had proposed that EU nations release 50 million barrels of diesel and International Energy Agency members release 50 million barrels of crude oil.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T18:12:22+08:00"
     }
   ]
 }
