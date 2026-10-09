@@ -1,10 +1,188 @@
 {
-  "generatedAtSgt": "2026-10-09T18:51:09.869890+08:00",
+  "generatedAtSgt": "2026-10-09T21:53:12.415216+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 146,
+  "articleCount": 152,
   "analyses": [
+    {
+      "articleId": "87694e741d20f9cd7aa008418897934680439a3261ffa1f42770163cc5341941",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Tech stocks have shown unexpected resilience with climbing prices despite surging interest rates and AI concerns, but options market data reveals a growing favor for put options since August that may offer clues to investors.",
+      "assetClasses": [
+        "Equities",
+        "Options"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should note that while big-tech stock prices have reached all-time highs, the growing accumulation of put options since August suggests underlying hedging activity or caution that could indicate potential volatility ahead.",
+      "reasoning": "Classified as MARKET due to its focus on equity and options market dynamics, with MIXED sentiment reflecting rising stock prices juxtaposed with increasing downside protection via put options. Important for understanding investor sentiment and hedging behavior in the technology sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Tech stocks' resilience has puzzled investors. The options market could hold some clues",
+      "publishedAtSgt": "2026-10-09T21:07:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/tech-stocks-resilience-has-puzzled-investors-the-options-market-could-hold-some-clues.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-09T21:37:27+08:00"
+    },
+    {
+      "articleId": "fe0c0ae60bbcafce23d4f6af51e50475619740aac96045bf3a550fd583abbb9c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Retail and regular investors are increasingly participating in Wall Street's record stock borrowing binge by trading on margin while living with family, raising concerns over portfolio concentration and leverage risks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Rising margin debt among retail investors signals elevated market risk and potential vulnerability to sudden downturns or margin calls, warranting caution regarding leverage and portfolio concentration.",
+      "reasoning": "The article highlights systemic retail leverage trends and record stock borrowing, which are critical indicators of market sentiment, speculative behavior, and potential systemic volatility.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
+      "publishedAtSgt": "2026-10-09T21:03:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/margin-debt-stock-market-risk.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "articleId": "909968f0210cfb126a9cb33adac6bbc9e2d0d0c419a26ed7abbdc6226717e8ff",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "Jim Cramer outlines top things to watch in the stock market on Friday, noting calm oil prices and bond yields, alongside an Nvidia-backed AI infrastructure company scrapping its Australia IPO over valuation concerns.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "Global",
+        "Australia"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Provides general market awareness regarding upcoming market catalysts, sentiment around AI infrastructure valuations, and macroeconomic factors like bond yields and oil prices.",
+      "reasoning": "Classified as MARKET because it covers general stock market observations and upcoming items to watch. Sentiment is neutral as it highlights mixed factors such as calm yields alongside an IPO cancellation. Fund monitoring relevance is false as it lacks specific, actionable fund-level intelligence.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
+      "publishedAtSgt": "2026-10-09T21:01:32+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/09/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "articleId": "4a802c1bf799f1a28524f04770862141c65c3802bc5faf9009d6702e0c4ea5da",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "OpenAI's revenue details and valuation pressure led to a broader tech sector stock slide, pushing the Nasdaq Composite down more than 1% in its worst day since mid-August.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors in technology and artificial intelligence equities should note the heightened sensitivity to AI valuation concerns, which can trigger broader market pullbacks.",
+      "reasoning": "Classified as MARKET due to the direct impact on major stock indices like the Nasdaq and the technology sector driven by concerns over AI valuations and revenue sustainability.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "OpenAI's revenue scare, Delta earnings, what investors think of a Starbucks-Chipotle deal and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-09T20:40:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/5-things-to-know-before-the-stock-market-opens.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "articleId": "f1af98ea26a4a2ad4c6fb1e315ed7b7d0ca3e511e648d8ddedf97d54eac1bc9d",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Ferrari chairman John Elkann expresses long-term optimism for artificial intelligence and dismisses bubble concerns, but warns that a supply and demand mismatch could pose risks to markets.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Automotive"
+      ],
+      "investorImpact": "Investors should note the balanced perspective on AI infrastructure growth versus supply-demand mismatch risks, which could impact tech sector valuations.",
+      "reasoning": "Classified under technology as it discusses AI market dynamics, supply-demand risks, and long-term buildouts from an industry leader's perspective, offering medium importance for tech and equity monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Ferrari’s chairman is bullish on AI. He’s less certain how businesses will cash in",
+      "publishedAtSgt": "2026-10-09T19:54:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/john-elkann-ferrari-ai-technology.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
+    {
+      "articleId": "2b33a53cec6d483647a023e73030eb5a36e3a7b2e8465a7644c290a6fb9e652b",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Kalshi traders indicate a rising probability, currently at 75%, that the number of planned or operating data centers will exceed 5,100 before 2027, despite mounting public backlash.",
+      "assetClasses": [
+        "Equities",
+        "Real Estate",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Real Estate",
+        "Utilities"
+      ],
+      "investorImpact": "The growth in data center development highlights continuous infrastructure demand driven by technological expansion, presenting opportunities and risks for real estate, utilities, and tech sector investments.",
+      "reasoning": "The article is classified under TECHNOLOGY as it tracks data center buildout trends via prediction markets, which holds medium importance for tech and infrastructure investments.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Kalshi traders see high odds that more than 5,100 data centers will be planned or operating before 2027",
+      "publishedAtSgt": "2026-10-09T19:54:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/kalshi-traders-see-high-odds-of-5000-plus-data-centers-by-2027.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
+    },
     {
       "articleId": "b1a4554a95d710b8544a3f3d5dd1dbb5a8efe5b7d5147516fe1f7909b0100a9b",
       "relevant": true,
