@@ -1,10 +1,71 @@
 {
-  "generatedAtSgt": "2026-10-09T06:48:54.000718+08:00",
+  "generatedAtSgt": "2026-10-09T09:50:39.595600+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 142,
+  "articleCount": 144,
   "analyses": [
+    {
+      "articleId": "afce54fea57e52c8166821e3e555c3708a969c033b7dca7b541df1a3dd8f56b4",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "A U.S. East Asian envoy stated that investors are overpricing geopolitical risk regarding Taiwan and characterized Chinese President Xi Jinping as a very rational actor.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "Taiwan",
+        "China",
+        "Singapore"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors may be overpricing geopolitical risks related to Taiwan, suggesting potential buying opportunities or mispriced equity risk premiums in Asian and technology-heavy markets.",
+      "reasoning": "Classified as GEOPOLITICAL and HIGH importance because statements from senior U.S. envoys regarding China-Taiwan relations directly impact cross-border equity valuations, particularly in semiconductor and Asian markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "U.S. East Asian envoy says investors are overpricing Taiwan risk, calls Xi a 'very rational actor'",
+      "publishedAtSgt": "2026-10-09T09:10:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/taiwan-trump-china-militia-boat-tsmc-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-09T09:35:05+08:00"
+    },
+    {
+      "articleId": "16c77922d91dd19fa27deab67994034db050a2a7434e4aefe1f977e5aadd82e7",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia-backed Australian AI data center operator Firmus has withdrawn its planned $5 billion initial public offering due to market volatility and conditions.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Australia"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The withdrawal of a major $5 billion AI-related IPO highlights ongoing market volatility risks and cooling investor appetite for large technology listings, potentially impacting sentiment across the broader tech and equity sectors.",
+      "reasoning": "Classified as MARKET because it details the cancellation of a significant initial public offering due to macroeconomic and market conditions. It is important for fund monitoring as it signals potential liquidity or valuation hurdles for large private tech companies seeking public exits.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
+      "publishedAtSgt": "2026-10-09T09:02:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-09T09:35:05+08:00"
+    },
     {
       "articleId": "1c5e4c09377a497166fd6adaf00ecb7d2fa5096117642eca2d7560e5295ba92f",
       "relevant": true,
