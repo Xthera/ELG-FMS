@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-26",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 3,
+  "analyses": [
+    {
+      "articleId": "1cadc10a62db385691afa73eeba5d2948668694fb713e9b3fdbd013eb4e14a27",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Matthews Asia portfolio manager Andrew Mattock argues that investors aiming to maximize exposure to artificial intelligence should specifically target China, noting that broad emerging market strategies are insufficient because funds like the iShares MSCI Emerging Markets ETF are heavily weighted in South Korea and Taiwan while lacking dedicated Chinese AI exposure.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China",
+        "Taiwan",
+        "South Korea"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors seeking comprehensive AI exposure may need to look beyond broad emerging market ETFs and consider targeted allocations to Chinese equities to capture potential growth.",
+      "reasoning": "The article provides strategic portfolio management insights regarding artificial intelligence exposure in emerging markets, specifically highlighting China as a key component often missed by standard broad indexes, making it relevant for market strategy and asset allocation monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "This may be the ‘missing piece’ for investors looking to boost AI exposure",
+      "publishedAtSgt": "2026-09-26T23:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/09/26/ai-portfolios-may-need-china-to-grab-the-biggest-gains.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:09:50+08:00"
+    },
+    {
+      "articleId": "61ea3c09d6cdb4805f262b6d6e2b80b10c1cc83c01f5062afaac8a9c26bc49d9",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The benchmark 10-year Treasury yield surged to its highest level since 2007, climbing above 5% due to factors including sticky inflation, expectations of additional Federal Reserve tightening, and heavy bond issuance.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds",
+        "Treasurys"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "Rising Treasury yields increase borrowing costs across the economy, put downward pressure on equity valuations, and signal shifting expectations regarding monetary policy and debt issuance.",
+      "reasoning": "The article discusses a major macroeconomic and market event--the 10-year Treasury yield hitting a nearly two-decade high--which is critical for multi-asset fund monitoring and fixed income strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
+      "publishedAtSgt": "2026-09-26T21:30:06+08:00",
+      "url": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:09:50+08:00"
+    },
+    {
+      "articleId": "4ff36f7a8af21a91101a9114ddae9e22d65b4504a1c7554b159f7bd9e60a9ea8",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "LOW",
+      "summary": "Coca-Cola has hired Rob Gehring, the head of Monster Energy's Americas business, to lead its North American operations as the company aims to sustain growth.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "North America"
+      ],
+      "sectors": [
+        "Consumer Staples",
+        "Food and Beverage"
+      ],
+      "investorImpact": "The executive change highlights leadership adjustments within major beverage companies, though the direct impact on stock performance for Coca-Cola or Monster Energy is limited.",
+      "reasoning": "Classified under MARKET because it concerns corporate leadership changes for publicly traded consumer goods companies, but given the operational nature it is of low overall importance for macroeconomic fund monitoring.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Coca-Cola hires Rob Gehring from Monster Energy to run its North American operations",
+      "publishedAtSgt": "2026-09-26T05:02:20+08:00",
+      "url": "https://www.cnbc.com/2026/09/25/monster-coca-cola-rob-gehring.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
+    }
+  ]
+}
