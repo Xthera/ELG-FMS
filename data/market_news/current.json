@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-09T06:33:24+08:00",
+  "generatedAtSgt": "2026-10-09T09:35:05+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,39 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "afce54fea57e52c8166821e3e555c3708a969c033b7dca7b541df1a3dd8f56b4",
+      "source": "CNBC",
+      "title": "U.S. East Asian envoy says investors are overpricing Taiwan risk, calls Xi a 'very rational actor'",
+      "publishedAtSgt": "2026-10-09T09:10:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/taiwan-trump-china-militia-boat-tsmc-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "SINGAPORE – Investors are overestimating the risk of conflict across the Taiwan Strait, a top U.S. President Donald Trump and Chinese President Xi Jinping did not yield any public agreement on Taiwan. subsidies as Washington seeks to revive domestic semiconductor manufacturing.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T09:35:05+08:00"
+    },
+    {
+      "id": "16c77922d91dd19fa27deab67994034db050a2a7434e4aefe1f977e5aadd82e7",
+      "source": "CNBC",
+      "title": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
+      "publishedAtSgt": "2026-10-09T09:02:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Australian AI data center operator Firmus, which is backed by Nvidia, has withdrawn its planned mega initial public offering, citing market volatility and conditions, the company said in an emailed statement to CNBC. Firmus had reportedly planned to raise $5 billion in its IPO, pricing shares at A$11 apiece, which woul have made it the second-largest new share sale in Australia's history.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T09:35:05+08:00"
+    },
     {
       "id": "1c5e4c09377a497166fd6adaf00ecb7d2fa5096117642eca2d7560e5295ba92f",
       "source": "CNBC",
@@ -1551,38 +1584,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-02T15:13:55+08:00"
-    },
-    {
-      "id": "c76418e21ce9c16998f9605652a403ea657083b37e5eaa77417485352d6d7e18",
-      "source": "CNBC",
-      "title": "U.S. trade representative Greer says deal with India not 'imminent' after Modi-Trump call",
-      "publishedAtSgt": "2026-10-02T12:07:54+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/us-india-trade-modi-trump-russia-oil.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "On Wednesday, Modi said his conversation with Trump was \"productive,\" and the two leaders not only reviewed bilateral trade, defense, energy and critical technologies but also discussed \"ongoing efforts to advance global peace and security.\" While the Iran war has threatened India's energy security, pushing it to increase its reliance on Russian oil, the U.S. had imposed a 25% punitive tariff on India last August for buying Russian oil, raising the duties on imports from New Delhi to 50%.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
-    },
-    {
-      "id": "46e095948ef3cb00725cc7281648c6db7a0658673dd053b47106073ebfc075f9",
-      "source": "CNBC",
-      "title": "U.S. market regulator seeks to make it easier for funds, advisers to hold crypto",
-      "publishedAtSgt": "2026-10-02T11:49:50+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/sec-bitcoin-crypto-proposal.html",
-      "category": "MARKET",
-      "relevanceScore": 100,
-      "relevanceReason": "financial_market_legal_story",
-      "summary": "Securities and Exchange Commission has proposed new rules that would make it easier for investment advisers and regulated funds to hold cryptocurrencies on behalf of clients, as U.S. The proposal, announced Thursday stateside, would establish a tailored framework governing how registered investment advisers, investment companies and business development companies hold custody of crypto assets.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T12:09:44+08:00"
     }
   ]
 }

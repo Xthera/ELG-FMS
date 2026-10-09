@@ -5,6 +5,39 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "afce54fea57e52c8166821e3e555c3708a969c033b7dca7b541df1a3dd8f56b4",
+      "source": "CNBC",
+      "title": "U.S. East Asian envoy says investors are overpricing Taiwan risk, calls Xi a 'very rational actor'",
+      "publishedAtSgt": "2026-10-09T09:10:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/taiwan-trump-china-militia-boat-tsmc-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "SINGAPORE – Investors are overestimating the risk of conflict across the Taiwan Strait, a top U.S. President Donald Trump and Chinese President Xi Jinping did not yield any public agreement on Taiwan. subsidies as Washington seeks to revive domestic semiconductor manufacturing.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T09:35:05+08:00"
+    },
+    {
+      "id": "16c77922d91dd19fa27deab67994034db050a2a7434e4aefe1f977e5aadd82e7",
+      "source": "CNBC",
+      "title": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
+      "publishedAtSgt": "2026-10-09T09:02:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Australian AI data center operator Firmus, which is backed by Nvidia, has withdrawn its planned mega initial public offering, citing market volatility and conditions, the company said in an emailed statement to CNBC. Firmus had reportedly planned to raise $5 billion in its IPO, pricing shares at A$11 apiece, which woul have made it the second-largest new share sale in Australia's history.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T09:35:05+08:00"
+    },
+    {
       "id": "1c5e4c09377a497166fd6adaf00ecb7d2fa5096117642eca2d7560e5295ba92f",
       "source": "CNBC",
       "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
@@ -101,6 +134,6 @@
       "collectedAtSgt": "2026-10-09T00:37:42+08:00"
     }
   ],
-  "articleCount": 6,
-  "updatedAtSgt": "2026-10-09T06:33:24+08:00"
+  "articleCount": 8,
+  "updatedAtSgt": "2026-10-09T09:35:05+08:00"
 }
