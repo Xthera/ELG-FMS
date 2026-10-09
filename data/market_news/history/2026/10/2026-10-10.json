@@ -5,6 +5,53 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "7dcc6a4eac891b7b53076322383e26854ac8f715e8d4be7e6f2af34146a86d77",
+      "source": "CNBC",
+      "title": "Cramer’s week ahead: Earnings kick off as banks and chipmakers face big tests",
+      "publishedAtSgt": "2026-10-10T06:22:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/jim-cramer-week-ahead-bank-earnings-ai-chips.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer on Friday said the start of earnings season next week will give investors a clearer picture of corporate performance and the strength of the artificial intelligence trade. \"We're about to go into the wide world of earnings season, so we don't need to hang on every little data point to figure out where to put money into the market.\" Stocks rose on Friday, led by the tech sector, as traders rebounded from a volatile week marked by elevated Treasury yields and oil prices, and...",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-10T06:32:58+08:00"
+    },
+    {
+      "id": "231ccc8975d8e141dd8bf5b9464fd26e13e0a506fe6d6328405c5e754e4d57f0",
+      "source": "CNBC",
+      "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
+      "publishedAtSgt": "2026-10-10T04:51:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The increase reflects a jump in yields across the curve as investors bake in more inflation from high energy prices and other pressures, including concern about the deficit — hitting nearly $2 trillion in the fiscal year that ended Sept. The central bank is concerned about an inflation problem amid high fossil fuel prices due to the Iran war, while growth has been stronger than expected, he noted.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-10T06:32:58+08:00"
+    },
+    {
+      "id": "92cfdc782c2b53abefe70c216893eae93084a13be7ed17876b4869a97318c22f",
+      "source": "CNBC",
+      "title": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks",
+      "publishedAtSgt": "2026-10-10T04:16:58+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Telecommunications stocks sold off on Friday after Elon Musk's SpaceX announced an agreement to purchase a nationwide spectrum portfolio, aiming to expand its Starlink internet into mobile service. Shares of T-Mobile dropped 13.27% while AT&T fell 9.81%, each notching their own worst days since 2013 and 2000, respectively. SpaceX stock climbed slightly, around 1% for the day.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-10T06:32:58+08:00"
+    },
+    {
       "id": "bd46d0a8057427f9d0d7a9617b7d01bab5271e3ec39b2626375f494c62c4e9c2",
       "source": "CNBC",
       "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
@@ -80,6 +127,6 @@
       "collectedAtSgt": "2026-10-10T03:32:45+08:00"
     }
   ],
-  "articleCount": 5,
-  "updatedAtSgt": "2026-10-10T03:32:46+08:00"
+  "articleCount": 8,
+  "updatedAtSgt": "2026-10-10T06:32:58+08:00"
 }
