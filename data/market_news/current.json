@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-10T00:34:41+08:00",
+  "generatedAtSgt": "2026-10-10T03:32:49+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,81 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "bd46d0a8057427f9d0d7a9617b7d01bab5271e3ec39b2626375f494c62c4e9c2",
+      "source": "CNBC",
+      "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+      "publishedAtSgt": "2026-10-10T03:19:00+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/trump-lisa-cook-fed-firing-committee-explained.html",
+      "category": "MARKET",
+      "relevanceScore": 58,
+      "relevanceReason": "supporting_market_description",
+      "summary": "President Donald Trump on Friday announced an unusual legal step: He created a committee to help him decide whether to fire Federal Reserve Governor Lisa Cook. Trump appointed three people to hear the evidence against Cook: Kevin Hassett, director of the National Economic Council; Keith Sonderling, acting director of the Office of Government Ethics and Labor secretary; and Andrea R.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-10T03:32:45+08:00"
+    },
+    {
+      "id": "4624eaac00be92e45ae2206362911f6c3bb67df70b5df180da89c73ac2fcc30c",
+      "source": "CNBC",
+      "title": "What's behind the recovery rally in tech stocks — plus, Elon Musk's very good week",
+      "publishedAtSgt": "2026-10-10T03:02:29+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/09/whats-behind-the-recovery-rally-in-tech-stocks-plus-musks-good-week.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Tame bond yields and oil prices also supported the stock rally. (See here for a full list of the stocks in Jim Cramer's Charitable Trust.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-10T03:32:46+08:00"
+    },
+    {
+      "id": "fde44a9ae4c3d87170461d86e7a3b6b97cbbeb7e07f635b9d2bece50cc45d341",
+      "source": "CNBC",
+      "title": "Tanker attacks in Strait of Hormuz surge to wartime high as Iran tries to choke off oil exports",
+      "publishedAtSgt": "2026-10-10T02:52:49+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Oil tankers transiting the Strait of Hormuz are coming under fire almost daily, as Iran escalates its attacks in an effort to choke off a rebound in crude exports. The surge of attacks on tankers comes as crude oil exports from the Middle East rebounded in September to prewar levels, due in large part to the U.S. \"This is not a sustainable new normal,\" said Richard Meade, editor in chief of the shipping industry trade journal Lloyd's List, in a Thursday briefing.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-10T03:32:46+08:00"
+    },
+    {
+      "id": "b831d7d8d2e89ed9f98deeccc0f8b60f5245a7e9708e05a73b477f269e0faa8c",
+      "source": "CNBC",
+      "title": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips",
+      "publishedAtSgt": "2026-10-10T02:50:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/two-massive-trades-just-happened-in-micron-and-nvidia-what-they-could-mean-for-chips.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Bears continued to build up positions against the semiconductor group on Friday, as a series of eyebrow-raising trades in Micron and Nvidia dominated the tape and called into question the move in chips. A few big single-stock trades stood out on the tape as well. 15 for $21 million, the biggest trade in the stock's options on the day.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-10T03:32:45+08:00"
+    },
+    {
+      "id": "95dc7af24e1f81101b71e63c524307509e46b3b15b38be6c0a0a23031038d340",
+      "source": "CNBC",
+      "title": "The used car market is stagnant. Here's how to profit anyway",
+      "publishedAtSgt": "2026-10-10T01:37:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/the-used-car-market-is-stagnant-heres-how-to-profit-anyway.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The same advice would work for shares of CarMax. On the surface, the stock looks fairly priced. If KMX breaches $47.70, the position carries standard put-assignment risk, allowing an investor who doesn't mind owning the shares to acquire them at an effective net basis of $47.70 (roughly 15x forward earnings).On the upside, standard short strangles leave the trader exposed to unlimited risk associated with a short stock position.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-10T03:32:45+08:00"
+    },
     {
       "id": "ac91a3d6a3d92cf5590af7c79493320d4d42f6170288964a8fff3aecc7dfca89",
       "source": "CNBC",
@@ -1502,84 +1577,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-04T02:19:20+08:00"
-    },
-    {
-      "id": "b1ded2d49629424e71829a345c6f825f471329f851494334d707442cc673da2e",
-      "source": "CNBC",
-      "title": "America’s data center fight is a preview of what's to come for the rest of the world",
-      "publishedAtSgt": "2026-10-03T13:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "As the AI boom becomes a major part of political debate, the public backlash against data centers in the U.S. Constraints have been rising in the Nordics, where investors were drawn to large tracts of land and renewable energy. In June, its government named AI data centers as one of three major investment projects, alongside semiconductors and physical AI.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-03T15:16:17+08:00"
-    },
-    {
-      "id": "3c6dcc5729b7e16ee6eee0007e469d618b4e01647994270d7c204bbeb7a8118f",
-      "source": "CNBC",
-      "title": "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration",
-      "publishedAtSgt": "2026-10-03T05:45:06+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Cerebras stock plummeted nearly 20% this week to its lowest price since the company's monster IPO in May, after a report that chip giant Nvidia will power a crucial piece of OpenAI's latest model. The stock, which closed on Friday at $166.43, was also under pressure this week due to the expiration of post-IPO restrictions on some insider shares. Investors were excited by the prospect of an alternative to Nvidia to power AI.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-03T06:11:29+08:00"
-    },
-    {
-      "id": "fb7646c902efeb1030184186aea652b650a017706f3b679042ac0a347e822e61",
-      "source": "CNBC",
-      "title": "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
-      "publishedAtSgt": "2026-10-03T02:58:09+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The benchmark 10-year Treasury yield rose almost 5 basis points to 5.281%. Earlier this week, the yield reached its highest levels since 2002. The recent rise in yields reflects concerns about stubborn inflation and hawkish central bank commentary, fueling expectations that interest rates could remain elevated for longer.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-03T03:12:51+08:00"
-    },
-    {
-      "id": "e753696db4c45c743e5a8205496e44ee57c9b705b25e902d7127316df5341092",
-      "source": "CNBC",
-      "title": "Your health insurance premiums may take a big jump in 2027 — here's why",
-      "publishedAtSgt": "2026-10-03T00:26:57+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/health-insurance-premiums-2027-inflation-aca-obamacare.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "inflation rate push up costs across the healthcare system, experts said. Employers generally subsidize the cost of health insurance for their workers by covering a large portion of their monthly premium payments. \"It doesn't always just show up through the premiums.\" Growth in the cost of deductibles and family premiums has each outpaced inflation over the past decade, rising 54% and 53%, respectively, versus an overall inflation rate of 36%, according to KFF.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-03T03:12:50+08:00"
-    },
-    {
-      "id": "1a4a7a77ca11b9e96a5df5a132216c36b712859d615b724a578e1e345e5231ca",
-      "source": "CNBC",
-      "title": "1.7 million skilled trade jobs will open annually through 2035, report says—experts don't know who will fill them",
-      "publishedAtSgt": "2026-10-03T00:15:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/1point7-million-skilled-trade-jobs-to-open-annually-through-2035-report-says.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Skilled trade workers are already in high demand, and researchers say the industry will continue to see steady job growth in the decade to come. The State of America's Skilled Trades report, published Wednesday, found that 1.7 million skilled trade jobs will open each year through 2035.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-03T03:12:51+08:00"
     }
   ]
 }

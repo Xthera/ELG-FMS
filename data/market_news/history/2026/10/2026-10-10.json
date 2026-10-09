@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "bd46d0a8057427f9d0d7a9617b7d01bab5271e3ec39b2626375f494c62c4e9c2",
+      "source": "CNBC",
+      "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+      "publishedAtSgt": "2026-10-10T03:19:00+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/trump-lisa-cook-fed-firing-committee-explained.html",
+      "category": "MARKET",
+      "relevanceScore": 58,
+      "relevanceReason": "supporting_market_description",
+      "summary": "President Donald Trump on Friday announced an unusual legal step: He created a committee to help him decide whether to fire Federal Reserve Governor Lisa Cook. Trump appointed three people to hear the evidence against Cook: Kevin Hassett, director of the National Economic Council; Keith Sonderling, acting director of the Office of Government Ethics and Labor secretary; and Andrea R.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-10T03:32:45+08:00"
+    },
+    {
+      "id": "4624eaac00be92e45ae2206362911f6c3bb67df70b5df180da89c73ac2fcc30c",
+      "source": "CNBC",
+      "title": "What's behind the recovery rally in tech stocks — plus, Elon Musk's very good week",
+      "publishedAtSgt": "2026-10-10T03:02:29+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/09/whats-behind-the-recovery-rally-in-tech-stocks-plus-musks-good-week.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Tame bond yields and oil prices also supported the stock rally. (See here for a full list of the stocks in Jim Cramer's Charitable Trust.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-10T03:32:46+08:00"
+    },
+    {
+      "id": "fde44a9ae4c3d87170461d86e7a3b6b97cbbeb7e07f635b9d2bece50cc45d341",
+      "source": "CNBC",
+      "title": "Tanker attacks in Strait of Hormuz surge to wartime high as Iran tries to choke off oil exports",
+      "publishedAtSgt": "2026-10-10T02:52:49+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Oil tankers transiting the Strait of Hormuz are coming under fire almost daily, as Iran escalates its attacks in an effort to choke off a rebound in crude exports. The surge of attacks on tankers comes as crude oil exports from the Middle East rebounded in September to prewar levels, due in large part to the U.S. \"This is not a sustainable new normal,\" said Richard Meade, editor in chief of the shipping industry trade journal Lloyd's List, in a Thursday briefing.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-10T03:32:46+08:00"
+    },
+    {
+      "id": "b831d7d8d2e89ed9f98deeccc0f8b60f5245a7e9708e05a73b477f269e0faa8c",
+      "source": "CNBC",
+      "title": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips",
+      "publishedAtSgt": "2026-10-10T02:50:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/two-massive-trades-just-happened-in-micron-and-nvidia-what-they-could-mean-for-chips.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Bears continued to build up positions against the semiconductor group on Friday, as a series of eyebrow-raising trades in Micron and Nvidia dominated the tape and called into question the move in chips. A few big single-stock trades stood out on the tape as well. 15 for $21 million, the biggest trade in the stock's options on the day.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-10T03:32:45+08:00"
+    },
+    {
+      "id": "95dc7af24e1f81101b71e63c524307509e46b3b15b38be6c0a0a23031038d340",
+      "source": "CNBC",
+      "title": "The used car market is stagnant. Here's how to profit anyway",
+      "publishedAtSgt": "2026-10-10T01:37:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/the-used-car-market-is-stagnant-heres-how-to-profit-anyway.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The same advice would work for shares of CarMax. On the surface, the stock looks fairly priced. If KMX breaches $47.70, the position carries standard put-assignment risk, allowing an investor who doesn't mind owning the shares to acquire them at an effective net basis of $47.70 (roughly 15x forward earnings).On the upside, standard short strangles leave the trader exposed to unlimited risk associated with a short stock position.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-10T03:32:45+08:00"
+    }
+  ],
+  "articleCount": 5,
+  "updatedAtSgt": "2026-10-10T03:32:46+08:00"
+}
