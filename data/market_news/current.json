@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-09T21:37:28+08:00",
+  "generatedAtSgt": "2026-10-10T00:34:41+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,69 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "ac91a3d6a3d92cf5590af7c79493320d4d42f6170288964a8fff3aecc7dfca89",
+      "source": "CNBC",
+      "title": "Jim Cramer sets a Starbucks buy level — plus his take on 3 stocks we just bought",
+      "publishedAtSgt": "2026-10-09T23:47:15+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/09/cramer-sets-starbucks-buy-level-and-reviews-3-stocks-we-bought.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Despite modest gains in the S & P 500 and Nasdaq , rising bond yields and flat oil prices are keeping a lid on stocks. Nvidia , another big portfolio holding, is little changed in what Jim called an \"extreme tape,\" with the AI trade under pressure again after a rough ride in Thursday's session. Jim said that elevated bond yields and oil prices and concerns about inflation are the reasons why the Club bought more shares of three defensive names on Thursday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-10T00:34:41+08:00"
+    },
+    {
+      "id": "c89fd811db30888d623947ff14dd195ee72706b32f8ba7803d76024d1a60cd4e",
+      "source": "CNBC",
+      "title": "Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
+      "publishedAtSgt": "2026-10-09T23:08:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The ire of everyday citizens continues to increase against a backdrop of enthusiastic and deep-pocketed Wall Street investors betting artificial intelligence is the economic engine of the future. For the most part, the funds from alternative investment companies promising investors a piece of the physical infrastructure powering the AI economy remain the province of institutional investors like pension funds.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-10T00:34:40+08:00"
+    },
+    {
+      "id": "9a1dec385bbead20172815d7bcb7b2e1a57bcaa1849f9e0e5bec6b81f0496fc2",
+      "source": "CNBC",
+      "title": "China and Europe agree to cut Chinese hybrid vehicle exports by half",
+      "publishedAtSgt": "2026-10-09T23:03:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/china-europe-hybrid-vehicle-exports-deal.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "BEIJING — European trade commissioner Maroš Sefčovič said Friday that China has agreed to halve its exports of hybrid cars to the bloc. Europe has called on China to voluntarily reduce hybrid car exports into the continent, but authorities in Beijing had reportedly slapped down the request, according to the Financial Times. Earlier this year, on June 29 for the first meeting of the EU-China Trade and Investment Consultations.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-10T00:34:40+08:00"
+    },
+    {
+      "id": "6be74b1d25d841a4b553cb834d111e13a79483bf56e4dcb0544a301960db34fa",
+      "source": "CNBC",
+      "title": "AI agents like Muse can shop for you. Here's what that means for retail stocks",
+      "publishedAtSgt": "2026-10-09T22:15:38+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/09/ai-agents-could-soon-shop-for-consumers-what-it-means-for-retail-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "This evolution from generative AI (which creates something for you) to agentic AI (an agent that does something for you) raises questions for many companies and their investors. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-10T00:34:41+08:00"
+    },
     {
       "id": "87694e741d20f9cd7aa008418897934680439a3261ffa1f42770163cc5341941",
       "source": "CNBC",
@@ -1517,69 +1580,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-03T03:12:51+08:00"
-    },
-    {
-      "id": "4852b5e8391bb5451bd9e5cb96aa7237e5e2eae77053e85666e6c9fc970232f1",
-      "source": "CNBC",
-      "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
-      "publishedAtSgt": "2026-10-02T23:49:08+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "supplied around half of the EU's diesel imports in August, according to the International Energy Agency, underscoring the 27-nation bloc's exposure to a potential U.S. \"We have every interest in working together on lowering the prices, be it on diesel or also other products from oil and gas supplies,\" Sefcovic told reporters in Milwaukee at the G20 trade ministers meeting, according to Reuters.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
-    },
-    {
-      "id": "ff2a0dc70dc554370462c949e463562182f8b005163a5bbeaa7bea0ac5ef5cda",
-      "source": "CNBC",
-      "title": "The sector in the cross hairs of the bond sell-off looks poised for a bounce, says Mike Khouw",
-      "publishedAtSgt": "2026-10-02T23:34:28+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/the-sector-in-the-cross-hairs-of-the-bond-sell-off-looks-poised-for-a-bounce-says-mike-khouw.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Utilities' dividends are also attractive to income-focused investors, and rising rates presents competition for them as bond yields become more attractive relative to dividend paying stocks. While yield spreads relative to Treasuries have turned negative and heavy capex requirements are expected to slow short-term dividend growth, the underlying valuation now offers a far better entry point than earlier this year.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
-    },
-    {
-      "id": "2783a5308c36bc49cb7013e8746673dfc23864c0922897065d08410fde82e304",
-      "source": "CNBC",
-      "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
-      "publishedAtSgt": "2026-10-02T21:29:27+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Investors now think the odds are extremely unlikely that the Federal Reserve raises interest rates again in October, following a weaker-than-expected September employment report. CME's FedWatch tool, based on trading in 30-day interest rate futures, shows only a 17% chance that the Fed increases rates by a quarter percentage point.",
-      "feeds": [
-        "finance"
-      ],
-      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
-    },
-    {
-      "id": "476710c8ba3b27f3c0916191464df90bdfe44843426ef3f522c9a4f3b8f60b02",
-      "source": "CNBC",
-      "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
-      "publishedAtSgt": "2026-10-02T21:11:35+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 102,
-      "relevanceReason": "strong_economic_title",
-      "summary": "The report comes with Federal Reserve officials weighing the state of the economy and how it should impact their next interest rate move. Following statements in recent days from central bank policymakers, markets have recalibrated expectations and now expect the rate-setting Federal Open Market Committee to hold off until December for their next hike. The most recent indicator of the central bank's preferred gauge showed core inflation at a 3% annual rate.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T21:14:11+08:00"
     }
   ]
 }

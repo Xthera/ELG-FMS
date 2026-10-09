@@ -5,6 +5,69 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "ac91a3d6a3d92cf5590af7c79493320d4d42f6170288964a8fff3aecc7dfca89",
+      "source": "CNBC",
+      "title": "Jim Cramer sets a Starbucks buy level — plus his take on 3 stocks we just bought",
+      "publishedAtSgt": "2026-10-09T23:47:15+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/09/cramer-sets-starbucks-buy-level-and-reviews-3-stocks-we-bought.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Despite modest gains in the S & P 500 and Nasdaq , rising bond yields and flat oil prices are keeping a lid on stocks. Nvidia , another big portfolio holding, is little changed in what Jim called an \"extreme tape,\" with the AI trade under pressure again after a rough ride in Thursday's session. Jim said that elevated bond yields and oil prices and concerns about inflation are the reasons why the Club bought more shares of three defensive names on Thursday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-10T00:34:41+08:00"
+    },
+    {
+      "id": "c89fd811db30888d623947ff14dd195ee72706b32f8ba7803d76024d1a60cd4e",
+      "source": "CNBC",
+      "title": "Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
+      "publishedAtSgt": "2026-10-09T23:08:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The ire of everyday citizens continues to increase against a backdrop of enthusiastic and deep-pocketed Wall Street investors betting artificial intelligence is the economic engine of the future. For the most part, the funds from alternative investment companies promising investors a piece of the physical infrastructure powering the AI economy remain the province of institutional investors like pension funds.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-10T00:34:40+08:00"
+    },
+    {
+      "id": "9a1dec385bbead20172815d7bcb7b2e1a57bcaa1849f9e0e5bec6b81f0496fc2",
+      "source": "CNBC",
+      "title": "China and Europe agree to cut Chinese hybrid vehicle exports by half",
+      "publishedAtSgt": "2026-10-09T23:03:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/china-europe-hybrid-vehicle-exports-deal.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "BEIJING — European trade commissioner Maroš Sefčovič said Friday that China has agreed to halve its exports of hybrid cars to the bloc. Europe has called on China to voluntarily reduce hybrid car exports into the continent, but authorities in Beijing had reportedly slapped down the request, according to the Financial Times. Earlier this year, on June 29 for the first meeting of the EU-China Trade and Investment Consultations.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-10T00:34:40+08:00"
+    },
+    {
+      "id": "6be74b1d25d841a4b553cb834d111e13a79483bf56e4dcb0544a301960db34fa",
+      "source": "CNBC",
+      "title": "AI agents like Muse can shop for you. Here's what that means for retail stocks",
+      "publishedAtSgt": "2026-10-09T22:15:38+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/09/ai-agents-could-soon-shop-for-consumers-what-it-means-for-retail-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "This evolution from generative AI (which creates something for you) to agentic AI (an agent that does something for you) raises questions for many companies and their investors. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-10T00:34:41+08:00"
+    },
+    {
       "id": "87694e741d20f9cd7aa008418897934680439a3261ffa1f42770163cc5341941",
       "source": "CNBC",
       "title": "Tech stocks' resilience has puzzled investors. The options market could hold some clues",
@@ -256,6 +319,6 @@
       "collectedAtSgt": "2026-10-09T00:37:42+08:00"
     }
   ],
-  "articleCount": 16,
-  "updatedAtSgt": "2026-10-09T21:37:28+08:00"
+  "articleCount": 20,
+  "updatedAtSgt": "2026-10-10T00:34:41+08:00"
 }
