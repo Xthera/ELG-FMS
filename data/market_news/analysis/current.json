@@ -1,10 +1,99 @@
 {
-  "generatedAtSgt": "2026-10-10T03:48:24.472325+08:00",
+  "generatedAtSgt": "2026-10-10T06:48:26.749853+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 158,
+  "articleCount": 161,
   "analyses": [
+    {
+      "articleId": "7dcc6a4eac891b7b53076322383e26854ac8f715e8d4be7e6f2af34146a86d77",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer previews the upcoming earnings season, highlighting that banks and chipmakers will face major tests as investors look for clarity on corporate performance and the strength of the artificial intelligence trade following a volatile week.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "The start of earnings season provides investors with fundamental data regarding corporate health and the AI trade, potentially setting market direction after a volatile period influenced by Treasury yields and oil prices.",
+      "reasoning": "Classified as MARKET because it discusses upcoming earnings reports, market sentiment, and sector performance led by technology and banking stocks. It is relevant for fund monitoring as earnings season dictates short-to-medium-term asset allocation and sector trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cramer’s week ahead: Earnings kick off as banks and chipmakers face big tests",
+      "publishedAtSgt": "2026-10-10T06:22:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/jim-cramer-week-ahead-bank-earnings-ai-chips.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-10T06:32:58+08:00"
+    },
+    {
+      "articleId": "231ccc8975d8e141dd8bf5b9464fd26e13e0a506fe6d6328405c5e754e4d57f0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Junk bonds are flashing warning signs as yields jump across the curve due to inflation concerns from high energy prices, deficit pressures nearing $2 trillion, and strong economic growth amid the Iran war.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds",
+        "High Yield Debt"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Financials"
+      ],
+      "investorImpact": "Investors in high-yield debt should monitor rising yields and warning signs closely, as inflationary pressures and deficits increase default risks and volatility in risk assets.",
+      "reasoning": "The article is classified as MARKET and HIGH importance because rising junk bond yields and inflation concerns directly impact fixed income portfolios and broad credit risk assessments.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
+      "publishedAtSgt": "2026-10-10T04:51:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-10T06:32:58+08:00"
+    },
+    {
+      "articleId": "92cfdc782c2b53abefe70c216893eae93084a13be7ed17876b4869a97318c22f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Telecommunications stocks plummeted following SpaceX's announcement of a nationwide spectrum portfolio acquisition to expand Starlink internet into mobile services, causing Verizon to experience its worst day since 2002 alongside sharp declines for T-Mobile and AT&T.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Telecommunications",
+        "Technology"
+      ],
+      "investorImpact": "The entry of SpaceX into the mobile services sector poses a significant structural threat to traditional telecommunications providers, leading to severe sell-offs in major telecom stocks that investors must monitor for long-term valuation shifts.",
+      "reasoning": "Classified as MARKET due to the severe stock price reactions and market sell-off triggered by disruptive competitive announcements. Importance is HIGH given the historic drops in major equities like Verizon and T-Mobile.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks",
+      "publishedAtSgt": "2026-10-10T04:16:58+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-10T06:32:58+08:00"
+    },
     {
       "articleId": "bd46d0a8057427f9d0d7a9617b7d01bab5271e3ec39b2626375f494c62c4e9c2",
       "relevant": true,
