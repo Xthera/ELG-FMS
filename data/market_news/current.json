@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-09T15:35:57+08:00",
+  "generatedAtSgt": "2026-10-09T18:35:35+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,21 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "b1a4554a95d710b8544a3f3d5dd1dbb5a8efe5b7d5147516fe1f7909b0100a9b",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: What happened to the $20 billion?",
+      "publishedAtSgt": "2026-10-09T14:49:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/cnbc-daily-open-what-happened-to-the-20-billion.html",
+      "category": "MARKET",
+      "relevanceScore": 58,
+      "relevanceReason": "supporting_market_description",
+      "summary": "OpenAI's latest annual revenue estimate, confirmed by CNBC, has spooked investors by falling short of previous statements, and the market has taken it out on technology stocks. First revealed by the Financial Times, the discrepancy spooked investors, who flocked to sell AI stocks from Nvidia to Oracle to CoreWeave. CEO Sam Altman has confirmed the group will not try to IPO this year, but the company is still looking to justify a valuation that tops $850 billion.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T18:35:35+08:00"
+    },
     {
       "id": "afce54fea57e52c8166821e3e555c3708a969c033b7dca7b541df1a3dd8f56b4",
       "source": "CNBC",
@@ -39,6 +54,21 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-09T09:35:05+08:00"
+    },
+    {
+      "id": "0032a9ce6f04d015409d999c48420a4dd375e571025ffffdd3dd0864a5ec69ff",
+      "source": "CNBC",
+      "title": "Pepsi shares rallied despite cutting profit guidance. Where Cramer stands on the stock now",
+      "publishedAtSgt": "2026-10-09T06:50:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/pepsico-earnings-guidance-cramer.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares rallied 3% following the report, as investors focused on improving sales trends and a guidance cut that had been widely anticipated. However, given the reason for the forecast cut and the stock's relatively low valuation, \"I'm feeling a lot better about this story. More recently, rising inflation, oil prices and interest rates added to the pressure, sending PepsiCo shares down nearly 10% in September alone.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T18:35:35+08:00"
     },
     {
       "id": "1c5e4c09377a497166fd6adaf00ecb7d2fa5096117642eca2d7560e5295ba92f",
@@ -1554,36 +1584,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-02T18:12:22+08:00"
-    },
-    {
-      "id": "de220180bd1ce76af205bf905bc2fd0e4923154909891b0c6d4540e0df817f90",
-      "source": "CNBC",
-      "title": "CNBC Daily Open: Bond yield whiplash grips global economy",
-      "publishedAtSgt": "2026-10-02T14:36:08+08:00",
-      "url": "https://www.cnbc.com/2026/10/02/bond-yields-global-economy.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "As CNBC's Steve Sedgwick reminded us in the newsroom, the European Central Bank has a tool to stop disorderly bond sell-offs and spread widening. Oil prices have stabilized in early trade on Friday after spiking during Thursday's session. — Leonie Kidd Danish jewelry giant Pandora has opened its $150 million manufacturing facility in Vietnam, betting on further growth in Asia as the company diversifies production beyond its longtime base in Thailand.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T15:13:53+08:00"
-    },
-    {
-      "id": "9f3e19cb195f3b357565eebc6d8c9c7d2f751180b943ed14693dd1f4f52d2cba",
-      "source": "CNBC",
-      "title": "War, $100 oil and a bond sell-off reshaped markets in the third quarter",
-      "publishedAtSgt": "2026-10-02T13:29:21+08:00",
-      "url": "https://www.cnbc.com/2026/10/01/q3-markets-stocks-oil-iran-war.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The Strait of Hormuz remained blocked, fueling fears for energy markets and of inflation, but equities broadly notched returns in the third quarter. In September, AI and tech stocks struggled amid calls from prominent AI figures — including Anthropic chief Dario Amodei and OpenAI CEO Sam Altman — to slow down how fast the technology is developed amid safety concerns.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-02T15:13:55+08:00"
     }
   ]
 }

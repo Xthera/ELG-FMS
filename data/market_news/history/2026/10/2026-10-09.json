@@ -5,6 +5,21 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "b1a4554a95d710b8544a3f3d5dd1dbb5a8efe5b7d5147516fe1f7909b0100a9b",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: What happened to the $20 billion?",
+      "publishedAtSgt": "2026-10-09T14:49:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/cnbc-daily-open-what-happened-to-the-20-billion.html",
+      "category": "MARKET",
+      "relevanceScore": 58,
+      "relevanceReason": "supporting_market_description",
+      "summary": "OpenAI's latest annual revenue estimate, confirmed by CNBC, has spooked investors by falling short of previous statements, and the market has taken it out on technology stocks. First revealed by the Financial Times, the discrepancy spooked investors, who flocked to sell AI stocks from Nvidia to Oracle to CoreWeave. CEO Sam Altman has confirmed the group will not try to IPO this year, but the company is still looking to justify a valuation that tops $850 billion.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-09T18:35:35+08:00"
+    },
+    {
       "id": "afce54fea57e52c8166821e3e555c3708a969c033b7dca7b541df1a3dd8f56b4",
       "source": "CNBC",
       "title": "U.S. East Asian envoy says investors are overpricing Taiwan risk, calls Xi a 'very rational actor'",
@@ -36,6 +51,21 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-09T09:35:05+08:00"
+    },
+    {
+      "id": "0032a9ce6f04d015409d999c48420a4dd375e571025ffffdd3dd0864a5ec69ff",
+      "source": "CNBC",
+      "title": "Pepsi shares rallied despite cutting profit guidance. Where Cramer stands on the stock now",
+      "publishedAtSgt": "2026-10-09T06:50:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/pepsico-earnings-guidance-cramer.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares rallied 3% following the report, as investors focused on improving sales trends and a guidance cut that had been widely anticipated. However, given the reason for the forecast cut and the stock's relatively low valuation, \"I'm feeling a lot better about this story. More recently, rising inflation, oil prices and interest rates added to the pressure, sending PepsiCo shares down nearly 10% in September alone.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-09T18:35:35+08:00"
     },
     {
       "id": "1c5e4c09377a497166fd6adaf00ecb7d2fa5096117642eca2d7560e5295ba92f",
@@ -134,6 +164,6 @@
       "collectedAtSgt": "2026-10-09T00:37:42+08:00"
     }
   ],
-  "articleCount": 8,
-  "updatedAtSgt": "2026-10-09T09:35:05+08:00"
+  "articleCount": 10,
+  "updatedAtSgt": "2026-10-09T18:35:35+08:00"
 }
