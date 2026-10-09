@@ -1,10 +1,39 @@
 {
-  "generatedAtSgt": "2026-10-09T15:51:31.742972+08:00",
+  "generatedAtSgt": "2026-10-09T18:51:09.869890+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 144,
+  "articleCount": 146,
   "analyses": [
+    {
+      "articleId": "b1a4554a95d710b8544a3f3d5dd1dbb5a8efe5b7d5147516fe1f7909b0100a9b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "OpenAI's annual revenue estimate fell short of previous statements, spooking investors and triggering a sell-off in AI-related technology stocks such as Nvidia, Oracle, and CoreWeave. Additionally, CEO Sam Altman confirmed that OpenAI will not pursue an IPO this year, though it continues to seek justification for its valuation exceeding $850 billion.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors in artificial intelligence and technology stocks face heightened volatility and reassessment of high valuations following OpenAI's revenue shortfall and delayed IPO plans, driving a flight from AI-exposed equities.",
+      "reasoning": "The article is classified as MARKET due to its direct impact on technology stock prices and investor sentiment regarding high-valuation AI companies. It is significant for fund monitoring because broad sell-offs in major AI names like Nvidia and Oracle affect tech-heavy portfolios.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CNBC Daily Open: What happened to the $20 billion?",
+      "publishedAtSgt": "2026-10-09T14:49:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/cnbc-daily-open-what-happened-to-the-20-billion.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 58,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-09T18:35:35+08:00"
+    },
     {
       "articleId": "afce54fea57e52c8166821e3e555c3708a969c033b7dca7b541df1a3dd8f56b4",
       "relevant": true,
@@ -65,6 +94,35 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-09T09:35:05+08:00"
+    },
+    {
+      "articleId": "0032a9ce6f04d015409d999c48420a4dd375e571025ffffdd3dd0864a5ec69ff",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "PepsiCo shares rallied 3% after reporting earnings that included an anticipated guidance cut, as investors focused on improving sales trends despite prior pressures from inflation, oil prices, and interest rates.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Goods",
+        "Food and Beverage"
+      ],
+      "investorImpact": "Investors reacted positively to improving sales trends despite the lowered guidance, indicating that the negative news was already priced in following prior declines.",
+      "reasoning": "Classified as MARKET because it details earnings performance, share price reactions, and market sentiment for a major consumer goods company. Relevant for portfolio and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Pepsi shares rallied despite cutting profit guidance. Where Cramer stands on the stock now",
+      "publishedAtSgt": "2026-10-09T06:50:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/08/pepsico-earnings-guidance-cramer.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-09T18:35:35+08:00"
     },
     {
       "articleId": "1c5e4c09377a497166fd6adaf00ecb7d2fa5096117642eca2d7560e5295ba92f",
