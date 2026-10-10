@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "4f5d40783493df82d3fba24d7582974134b3579f676efebbd06f1527d29d6961",
+      "source": "CNBC",
+      "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
+      "publishedAtSgt": "2026-10-10T07:16:50+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "President Donald Trump's Friday announcement that Russia will supply diesel fuel to the global market marked an apparent pivot from recent efforts to pressure Moscow to end the Ukraine war by targeting Russian energy exports. Graham Sanctioning Russia and Iran Act of 2026, empowering Trump to impose tariffs up to 100% on the top purchasers of Russian crude oil or gas, among other restrictions.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-10T09:34:15+08:00"
+    },
+    {
       "id": "7dcc6a4eac891b7b53076322383e26854ac8f715e8d4be7e6f2af34146a86d77",
       "source": "CNBC",
       "title": "Cramer’s week ahead: Earnings kick off as banks and chipmakers face big tests",
@@ -127,6 +143,6 @@
       "collectedAtSgt": "2026-10-10T03:32:45+08:00"
     }
   ],
-  "articleCount": 8,
-  "updatedAtSgt": "2026-10-10T06:32:58+08:00"
+  "articleCount": 9,
+  "updatedAtSgt": "2026-10-10T09:34:15+08:00"
 }
