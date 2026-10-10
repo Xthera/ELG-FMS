@@ -1,10 +1,42 @@
 {
-  "generatedAtSgt": "2026-10-10T06:48:26.749853+08:00",
+  "generatedAtSgt": "2026-10-10T09:49:43.839488+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 161,
+  "articleCount": 162,
   "analyses": [
+    {
+      "articleId": "4f5d40783493df82d3fba24d7582974134b3579f676efebbd06f1527d29d6961",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "President Donald Trump's announcement that Russia will supply diesel fuel to the global market has been accused of contradicting existing Russia sanctions law, specifically the Graham Sanctioning Russia and Iran Act of 2026, marking a pivot from efforts targeting Russian energy exports.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "United States",
+        "Russia",
+        "Global"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "The potential contradiction between U.S. policy and sanctions laws regarding Russian diesel and energy exports could create regulatory uncertainty and volatility in global energy and commodity markets.",
+      "reasoning": "Classified as GEOPOLITICAL because it covers a significant policy shift and potential conflict with sanctions legislation regarding Russian energy exports, carrying high importance for energy markets and regulatory monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
+      "publishedAtSgt": "2026-10-10T07:16:50+08:00",
+      "url": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-10T09:34:15+08:00"
+    },
     {
       "articleId": "7dcc6a4eac891b7b53076322383e26854ac8f715e8d4be7e6f2af34146a86d77",
       "relevant": true,
