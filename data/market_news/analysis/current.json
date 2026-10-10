@@ -1,10 +1,39 @@
 {
-  "generatedAtSgt": "2026-10-10T21:47:46.021954+08:00",
+  "generatedAtSgt": "2026-10-11T00:47:26.692876+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 162,
+  "articleCount": 163,
   "analyses": [
+    {
+      "articleId": "4449b9b14efd303673d8c660ccef1203b00f43a35f6acea6f4f98b88b8907b55",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Stocks reached fresh record highs early last week before renewed volatility in the artificial intelligence trade caused significant market swings and slammed telecom stocks. The volatility was sparked by reports raising questions about OpenAI's growth, highlighting investor fickleness regarding AI stocks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Telecommunications"
+      ],
+      "investorImpact": "Investors face heightened volatility in AI-related stocks and telecom sectors, serving as a reminder of sentiment-driven risks and growth questions surrounding major AI players like OpenAI.",
+      "reasoning": "The article is classified as MARKET because it details stock market movements, record highs, and sector-specific volatility driven by AI news. Sentiment is MIXED as stocks hit new highs but suffered sharp declines and volatility.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
+      "publishedAtSgt": "2026-10-10T23:30:51+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-11T00:31:44+08:00"
+    },
     {
       "articleId": "4f5d40783493df82d3fba24d7582974134b3579f676efebbd06f1527d29d6961",
       "relevant": true,
