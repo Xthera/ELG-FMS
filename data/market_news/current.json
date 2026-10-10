@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-10T21:32:15+08:00",
+  "generatedAtSgt": "2026-10-11T00:31:44+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,21 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "4449b9b14efd303673d8c660ccef1203b00f43a35f6acea6f4f98b88b8907b55",
+      "source": "CNBC",
+      "title": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
+      "publishedAtSgt": "2026-10-10T23:30:51+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks climbed to fresh record highs early last week, but renewed volatility in the artificial intelligence trade showed just how fickle investors can be in this market. The news slammed telecom stocks Friday and opened another potential avenue for growth beyond rockets, satellites, and AI infrastructure for SpaceX. OpenAI rattles the AI trade, and reinforces a key investing lesson AI stocks whipsawed last week after a Financial Times report raised questions about OpenAI's growth.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-11T00:31:44+08:00"
+    },
     {
       "id": "4f5d40783493df82d3fba24d7582974134b3579f676efebbd06f1527d29d6961",
       "source": "CNBC",
@@ -1563,21 +1578,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-05T05:26:43+08:00"
-    },
-    {
-      "id": "1062414f59ff578e98df8787ce1310e124e20018d65d1abeded5ee92df90ca56",
-      "source": "CNBC",
-      "title": "Here are 3 things we're watching in the stock market in the week ahead",
-      "publishedAtSgt": "2026-10-04T23:33:05+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/04/here-are-3-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "We certainly expect the oil and bond markets to continue their heavy influence on how stocks trade this week. Though we don't own the name, the company is a direct competitor to Broadcom in the custom semiconductor space, and it has an exciting optical networking business that's important for future generations of Nvidia technology and AI computing more broadly.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-05T01:07:33+08:00"
     }
   ]
 }
