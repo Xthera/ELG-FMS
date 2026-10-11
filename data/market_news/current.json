@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-11T12:33:52+08:00",
+  "generatedAtSgt": "2026-10-11T15:33:30+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,21 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "fb5b0b6c8af8a537554303112bd929eb63b07a97c5c9c3ba7942a63b26e127bb",
+      "source": "CNBC",
+      "title": "After France, is Italy next? Goldman Sachs flags bond risks as Rome's deficit widens",
+      "publishedAtSgt": "2026-10-11T13:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/11/italy-government-bonds-sovereign-debt-giorgia-meloni.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Italian government will next week present a budget encompassing recently approved allocations to defense and energy, which are set to widen the country's deficit over the next two years and put Italy's debt-to-GDP ratio on track to become the highest in Europe, according to analysts at Goldman Sachs.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-11T15:33:25+08:00"
+    },
     {
       "id": "4449b9b14efd303673d8c660ccef1203b00f43a35f6acea6f4f98b88b8907b55",
       "source": "CNBC",
@@ -1563,21 +1578,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-05T12:45:12+08:00"
-    },
-    {
-      "id": "2e98323f01b596216c6a46a9d8ec89ab3a81f366c83cc1eb6ba2f4f6394fa623",
-      "source": "CNBC",
-      "title": "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
-      "publishedAtSgt": "2026-10-05T04:28:47+08:00",
-      "url": "https://www.cnbc.com/2026/10/04/trump-5000-checks-cash-payments-midterms.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "On Friday, Trump announced one-time $90 payments to 20.8 million Medicare beneficiaries. Trump hasn't provided any details on who would authorize the payments and where the money would come from. Together, the flurry of offers of direct cash payments comes as Republicans head into the final stretch of a midterm campaign dominated by concerns about prices and the economy.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-05T05:26:43+08:00"
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-11",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "fb5b0b6c8af8a537554303112bd929eb63b07a97c5c9c3ba7942a63b26e127bb",
+      "source": "CNBC",
+      "title": "After France, is Italy next? Goldman Sachs flags bond risks as Rome's deficit widens",
+      "publishedAtSgt": "2026-10-11T13:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/11/italy-government-bonds-sovereign-debt-giorgia-meloni.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Italian government will next week present a budget encompassing recently approved allocations to defense and energy, which are set to widen the country's deficit over the next two years and put Italy's debt-to-GDP ratio on track to become the highest in Europe, according to analysts at Goldman Sachs.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-11T15:33:25+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-11T15:33:25+08:00"
+}
