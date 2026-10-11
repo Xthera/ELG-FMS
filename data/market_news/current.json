@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-12T03:31:21+08:00",
+  "generatedAtSgt": "2026-10-12T06:32:32+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "8d8059af18024f174d16d3d92a5938c9f466e9f0c106f89ff9c0e57137376860",
+      "source": "CNBC",
+      "title": "Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details",
+      "publishedAtSgt": "2026-10-12T03:33:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/11/trump-energy-ceasefire-russia-ukraine-zelenskyy.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "President Donald Trump claimed Russia and Ukraine had agreed to an \"energy ceasefire\" as the countries trade blows on energy infrastructure, but it's unclear whether either side has agreed to a truce. \"Effective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine. An energy truce between Ukraine and Russia could help to alleviate the oil and gas crunch ahead of winter.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-12T06:32:27+08:00"
+    },
     {
       "id": "83c4589de40439e6b41867956e72427c77b8dc2ff35e9b8b5567f13c2a70f27f",
       "source": "CNBC",
@@ -1564,21 +1580,6 @@
         "business"
       ],
       "collectedAtSgt": "2026-10-05T21:41:21+08:00"
-    },
-    {
-      "id": "a1e5f095f883bd2df77405cdc0310057daef989665242f28a1fd6cf547af60a6",
-      "source": "CNBC",
-      "title": "Cut spending to curb runaway borrowing costs, Goldman's Gutman tells governments",
-      "publishedAtSgt": "2026-10-05T18:33:45+08:00",
-      "url": "https://www.cnbc.com/2026/10/05/goldman-sachs-fiscal-deficit-bond-yields.html",
-      "category": "MARKET",
-      "relevanceScore": 58,
-      "relevanceReason": "supporting_market_description",
-      "summary": "A more stable policy backdrop encompassing lower government spending and stronger economic growth is needed to curb surging borrowing costs, Anthony Gutman, co-CEO of Goldman Sachs International, said on Monday. Speaking with CNBC's \"Squawk Box Europe,\" Gutman said rising government bond yields are a challenge across the Western world, highlighting recent turmoil in U.S. We need lower fiscal deficits, and we need more durable economic growth,\" Gutman said.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-05T21:41:22+08:00"
     }
   ]
 }

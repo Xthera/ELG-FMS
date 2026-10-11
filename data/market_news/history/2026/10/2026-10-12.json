@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "8d8059af18024f174d16d3d92a5938c9f466e9f0c106f89ff9c0e57137376860",
+      "source": "CNBC",
+      "title": "Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details",
+      "publishedAtSgt": "2026-10-12T03:33:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/11/trump-energy-ceasefire-russia-ukraine-zelenskyy.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "President Donald Trump claimed Russia and Ukraine had agreed to an \"energy ceasefire\" as the countries trade blows on energy infrastructure, but it's unclear whether either side has agreed to a truce. \"Effective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine. An energy truce between Ukraine and Russia could help to alleviate the oil and gas crunch ahead of winter.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-12T06:32:27+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-12T06:32:27+08:00"
+}
