@@ -1,10 +1,42 @@
 {
-  "generatedAtSgt": "2026-10-11T12:49:19.015884+08:00",
+  "generatedAtSgt": "2026-10-11T15:48:57.772667+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
   "articleCount": 163,
   "analyses": [
+    {
+      "articleId": "fb5b0b6c8af8a537554303112bd929eb63b07a97c5c9c3ba7942a63b26e127bb",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Goldman Sachs analysts have warned that Italy's upcoming budget, which includes increased allocations for defense and energy, will widen the country's deficit and push its debt-to-GDP ratio to the highest in Europe.",
+      "assetClasses": [
+        "Fixed Income",
+        "Sovereign Bonds"
+      ],
+      "geographies": [
+        "Italy",
+        "Europe"
+      ],
+      "sectors": [
+        "Government",
+        "Defense",
+        "Energy"
+      ],
+      "investorImpact": "Investors holding Italian sovereign debt face increased risks of widening yield spreads and potential credit rating pressures as fiscal deficits expand.",
+      "reasoning": "The article highlights significant sovereign debt and fiscal deficit risks flagged by major financial institutions, directly impacting European fixed income markets and macroeconomic stability.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "After France, is Italy next? Goldman Sachs flags bond risks as Rome's deficit widens",
+      "publishedAtSgt": "2026-10-11T13:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/11/italy-government-bonds-sovereign-debt-giorgia-meloni.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-11T15:33:25+08:00"
+    },
     {
       "articleId": "4449b9b14efd303673d8c660ccef1203b00f43a35f6acea6f4f98b88b8907b55",
       "relevant": true,
@@ -4900,37 +4932,6 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-02T12:09:52+08:00"
-    },
-    {
-      "articleId": "43c8a5c721178fb20abbacad701c08fafd4e62ee1e1418f34c8363ce0801f5b7",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Debt-hungry AI and data center companies face increased financial risk as bond yields spike, with JPMorgan Chase estimating $4.1 trillion in AI-related debt issuance through 2030 to meet capacity demands.",
-      "assetClasses": [
-        "Fixed Income",
-        "Equities"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology",
-        "Financials",
-        "Data Centers"
-      ],
-      "investorImpact": "Rising bond yields increase borrowing costs for capital-intensive AI and data center companies, threatening profit margins and debt sustainability for issuers of the projected $4.1 trillion in AI-related debt.",
-      "reasoning": "Classified under MARKET due to the direct impact of spiking bond yields on corporate debt financing for the AI sector. It is important and fund-monitoring relevant because massive debt issuance intersecting with rising yields presents systemic valuation and credit risks.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Debt-hungry AI companies face increased risk as bond yields spike",
-      "publishedAtSgt": "2026-09-27T23:35:34+08:00",
-      "url": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 93,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-02T12:09:49+08:00"
     }
   ]
 }
