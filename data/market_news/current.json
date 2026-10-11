@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-11T18:32:09+08:00",
+  "generatedAtSgt": "2026-10-11T21:32:59+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,23 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "83c4589de40439e6b41867956e72427c77b8dc2ff35e9b8b5567f13c2a70f27f",
+      "source": "CNBC",
+      "title": "AI’s quiet safety gatekeepers are stepping into the spotlight",
+      "publishedAtSgt": "2026-10-11T19:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 80,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Their primary role has been to assess AI model capabilities and risks, and to call attention to instances where the technology behaves badly. President Trump recently lauded AI executives for their \"tremendous self-policing,\" and signaled that he intends to leave companies to their own devices, unwilling to impede the growth of the industry that's driving the economy and stock market.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-11T21:32:59+08:00"
+    },
     {
       "id": "fb5b0b6c8af8a537554303112bd929eb63b07a97c5c9c3ba7942a63b26e127bb",
       "source": "CNBC",
@@ -1562,22 +1579,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-05T21:41:22+08:00"
-    },
-    {
-      "id": "bf968b02160024fc0d379a565125b0155e1f51c98d589e56e92ad86415ad12ec",
-      "source": "CNBC",
-      "title": "Surging Treasury yields don’t signal a U.S. 'fiscal apocalypse' — yet",
-      "publishedAtSgt": "2026-10-05T10:24:07+08:00",
-      "url": "https://www.cnbc.com/2026/10/05/treasury-yields-fiscal-concerns-not-crisis-yet.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Therefore, we are some way away from a fiscal crisis.\" The negative feedback loop becomes more dangerous when nominal economic growth falls to low levels, causing debt relative to the size of the economy to rise persistently, Reese said. TD pointed to stronger economic growth, expectations for Federal Reserve rate hikes, higher oil prices, corporate bond issuance and repositioning by fast-money investors alongside fiscal concerns, as factors driving yields higher.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-05T12:45:12+08:00"
     }
   ]
 }

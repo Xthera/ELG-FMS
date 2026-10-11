@@ -5,6 +5,23 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "83c4589de40439e6b41867956e72427c77b8dc2ff35e9b8b5567f13c2a70f27f",
+      "source": "CNBC",
+      "title": "AI’s quiet safety gatekeepers are stepping into the spotlight",
+      "publishedAtSgt": "2026-10-11T19:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 80,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Their primary role has been to assess AI model capabilities and risks, and to call attention to instances where the technology behaves badly. President Trump recently lauded AI executives for their \"tremendous self-policing,\" and signaled that he intends to leave companies to their own devices, unwilling to impede the growth of the industry that's driving the economy and stock market.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-11T21:32:59+08:00"
+    },
+    {
       "id": "fb5b0b6c8af8a537554303112bd929eb63b07a97c5c9c3ba7942a63b26e127bb",
       "source": "CNBC",
       "title": "After France, is Italy next? Goldman Sachs flags bond risks as Rome's deficit widens",
@@ -20,6 +37,6 @@
       "collectedAtSgt": "2026-10-11T15:33:25+08:00"
     }
   ],
-  "articleCount": 1,
-  "updatedAtSgt": "2026-10-11T15:33:25+08:00"
+  "articleCount": 2,
+  "updatedAtSgt": "2026-10-11T21:32:59+08:00"
 }
