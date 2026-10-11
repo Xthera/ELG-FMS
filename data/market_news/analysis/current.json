@@ -1,10 +1,43 @@
 {
-  "generatedAtSgt": "2026-10-12T03:46:50.165523+08:00",
+  "generatedAtSgt": "2026-10-12T06:48:02.743737+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 164,
+  "articleCount": 163,
   "analyses": [
+    {
+      "articleId": "8d8059af18024f174d16d3d92a5938c9f466e9f0c106f89ff9c0e57137376860",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "President Donald Trump declared an immediate energy ceasefire between Russia and Ukraine to halt attacks on energy infrastructure, though Ukrainian President Zelenskyy awaits further details and formal confirmation.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "Russia",
+        "Ukraine",
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil & Gas",
+        "Utilities"
+      ],
+      "investorImpact": "An effective energy ceasefire could alleviate oil and gas supply crunches ahead of winter, potentially lowering energy prices and easing inflation pressures for energy-dependent economies.",
+      "reasoning": "Classified as GEOPOLITICAL due to the diplomatic and military nature of the announcement regarding Russia and Ukraine. It is of high importance and fund monitoring relevance because of its direct potential impact on global energy markets and commodity pricing.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details",
+      "publishedAtSgt": "2026-10-12T03:33:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/11/trump-energy-ceasefire-russia-ukraine-zelenskyy.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-12T06:32:27+08:00"
+    },
     {
       "articleId": "83c4589de40439e6b41867956e72427c77b8dc2ff35e9b8b5567f13c2a70f27f",
       "relevant": true,
@@ -4897,69 +4930,6 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-02T12:09:47+08:00"
-    },
-    {
-      "articleId": "99c129dbe4bdc114b716fe4499b9028db3ea73dda68d5fd705eb90c46dd75b67",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "The U.S. and China are lowering tariffs on $60 billion of goods, with the U.S. lowering tariffs on items like toys and sports equipment, and China lowering tariffs on American agricultural products.",
-      "assetClasses": [
-        "Equities",
-        "Commodities"
-      ],
-      "geographies": [
-        "United States",
-        "China"
-      ],
-      "sectors": [
-        "Consumer Goods",
-        "Agriculture"
-      ],
-      "investorImpact": "The reduction in tariffs can lower costs for consumer goods and agricultural products, providing a positive boost to trade-sensitive sectors in both the U.S. and China.",
-      "reasoning": "Classified as GEOPOLITICAL because it involves direct trade policy negotiations between the U.S. and China affecting $60 billion of goods. It is important for monitoring bilateral trade relations and sector impacts.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
-      "publishedAtSgt": "2026-09-28T16:31:33+08:00",
-      "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-02T12:09:49+08:00"
-    },
-    {
-      "articleId": "a17db37a1d2faa134e597f9fe260b8b8b887ecd075518e8745733045347840c4",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "China's industrial profit growth slowed to 4.2% in August, marking the weakest expansion of the year. The report reveals a bifurcated economy, with robust growth in high-tech sectors like AI and robotics contrasting with declining profits in consumer-oriented industries such as clothing, autos, and furniture, all weighed down by a persistent property downturn and weak domestic demand.",
-      "assetClasses": [
-        "Equities",
-        "Commodities"
-      ],
-      "geographies": [
-        "China"
-      ],
-      "sectors": [
-        "Technology",
-        "Consumer Discretionary",
-        "Industrials",
-        "Real Estate"
-      ],
-      "investorImpact": "Investors should note the divergence between China's struggling consumer sectors and its growing high-tech industries. Broad equity and commodity exposure tied to China may face volatility due to weak domestic demand and property sector headwinds.",
-      "reasoning": "Classified as ECONOMIC because it deals with macro industrial profit data and broad economic trends in China. Sentiment is MIXED due to strong high-tech performance counterbalancing weak traditional and consumer sector profits. Importance is HIGH given China's status as the world's second-largest economy and its impact on global supply chains and commodities.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
-      "publishedAtSgt": "2026-09-28T12:04:16+08:00",
-      "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-02T12:09:52+08:00"
     }
   ]
 }
