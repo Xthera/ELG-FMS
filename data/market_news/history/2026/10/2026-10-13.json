@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-13",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "b3514d7e28c14811e11a546f86edcd490b3cc3c97a66ee4671264bf90ac9aa3a",
+      "source": "CNBC",
+      "title": "A massive trade just happened in surging shares of Snap",
+      "publishedAtSgt": "2026-10-13T02:43:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Don't call it a comeback yet, but shares of beleaguered social media stock Snap Inc. Snap shares have traded under $10 since July 2025 following a near-complete collapse from over $80 at the stock's high in 2021 to a low of $3.81 in April. But now, as excitement swirls over social media giant Meta Platforms' AI agent, traders are pouring into Snap call options on Monday, propelling trading volume to more than four times the month-long average, Cboe LiveVol data show.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-13T03:33:59+08:00"
+    },
+    {
+      "id": "cf4d2e0ed9a03efcfab0ee857afd7fccf7ac19cb36b5c128a16c01a7f160d822",
+      "source": "CNBC",
+      "title": "The bull market turned 4 years old on Monday. Investors say reaching a fifth birthday could be challenging",
+      "publishedAtSgt": "2026-10-13T02:18:39+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/the-bull-market-just-turned-four-after-climbing-a-wall-of-worry.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Since the release of ChatGPT in late 2022, investors have hungered for all things related to the AI trade, with the stocks most tied to the build-out — the so-called \"picks and shovels\" — flying to whole new stratospheres because of the technology. After such an extraordinary run, investors wonder how much longer the rally can continue, especially as they face ongoing fears around higher inflation, surging bond yields and a more hawkish Federal Reserve.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T03:33:59+08:00"
+    },
+    {
+      "id": "fa448c31ed1c620239c14c3e80769e8949fb7e8bab9b829781c550a18dbf19c4",
+      "source": "CNBC",
+      "title": "IonQ to acquire cybersecurity firm Elisity in an all-stock deal for up to $1.3 billion",
+      "publishedAtSgt": "2026-10-13T02:14:45+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Quantum computing platform IonQ said on Monday it will acquire cybersecurity company Elisity in an all-stock deal worth up to $1.3 billion, including up to $150 million in performance-based earnouts. The move is designed to defend against and uncover attackers targeting generative AI large-language models and AI agents, and to protect against emerging quantum threats, the companies said in a press release.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-13T03:33:59+08:00"
+    },
+    {
+      "id": "2e19047e2c48381214cfb0afa234d563430151148014381c16c1b3e862209c01",
+      "source": "CNBC",
+      "title": "Why older Americans' wealth may be helping keep consumer spending strong",
+      "publishedAtSgt": "2026-10-13T01:23:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/baby-boomers-may-be-driving-resilient-consumer-spending.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Economists have debated whether we're still in a \"K-shaped economy\" — where higher-income households' spending masks financial strain among lower- and middle-income Americans. Consumer spending resilience may be better explained by generations than by income differences, said economist Ed Yardeni, president and chief investment strategist of Yardeni Research. He calls it a \"G-shaped economy\" because it illustrates a generational divide.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-13T03:34:00+08:00"
+    },
+    {
+      "id": "74a9fe67e6dc8d98cb67cf39e7552fb3f3e7eb4a12e47a921f71fbb3bad9dac0",
+      "source": "CNBC",
+      "title": "UnitedHealth shares are doing something unusual ahead of earnings",
+      "publishedAtSgt": "2026-10-13T00:42:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/unitedhealth-shares-are-doing-something-unusual-ahead-of-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The only thing more expensive than health insurance is perhaps the costs of insuring shares of health insurers. In other words, options prices - the cost of insuring the underlying stock - are expensive, which sets up well for short premium strategies. In the case of UnitedHealth shares, traders can sell November premium to cut the cost of a longer-dated January call by more than half.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T03:33:59+08:00"
+    }
+  ],
+  "articleCount": 5,
+  "updatedAtSgt": "2026-10-13T03:34:00+08:00"
+}
