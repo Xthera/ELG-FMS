@@ -1,10 +1,44 @@
 {
-  "generatedAtSgt": "2026-10-12T09:52:14.700517+08:00",
+  "generatedAtSgt": "2026-10-12T12:52:47.073281+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 163,
+  "articleCount": 164,
   "analyses": [
+    {
+      "articleId": "061232717e426342cbe2366c5b023e615d4c775ffe0448ed87860152bd43b92c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Oil prices fell following President Donald Trump's announcement of an 'energy ceasefire' between Russia and Ukraine to stop targeting each other's energy facilities, alongside diplomatic overtures from Iran to Saudi Arabia.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Russia",
+        "Ukraine",
+        "Iran",
+        "Saudi Arabia",
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "The decline in oil prices directly impacts energy sector equities, commodity funds, and broader inflation expectations, presenting potential cost reliefs for consumers and energy-dependent industries while pressuring energy producer margins.",
+      "reasoning": "Classified as MARKET due to direct impacts on oil prices and energy commodities resulting from geopolitical supply announcements. It is highly relevant for fund monitoring as commodity price shifts alter sector allocations and inflation dynamics.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine",
+      "publishedAtSgt": "2026-10-12T12:21:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-12T12:37:21+08:00"
+    },
     {
       "articleId": "8d8059af18024f174d16d3d92a5938c9f466e9f0c106f89ff9c0e57137376860",
       "relevant": true,
