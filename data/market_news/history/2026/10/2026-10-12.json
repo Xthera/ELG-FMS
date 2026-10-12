@@ -5,6 +5,88 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "9618a78a53cfd395b7ce97ccd80a0247ef1b7b29c5ac96aac802556cbf447243",
+      "source": "CNBC",
+      "title": "AI FOMO driving some family offices into tech investments, survey suggests",
+      "publishedAtSgt": "2026-10-12T18:25:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/ai-fomo-driving-some-family-offices-to-ai-investments-survey-suggests.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Eighty-five percent of family offices rank artificial intelligence as their top investment theme, despite 75% expecting an AI bubble to burst within the next five years, according to a new survey. RBC's Bill Ringham said these mixed feelings about AI can be traced to several potential factors, including cautious optimism about the technology and concerns about sitting on the sidelines of an investment boom.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-12T18:37:46+08:00"
+    },
+    {
+      "id": "9800bbd26162d83e8f3d5bd52f451f39d055cae72746689d4a143cabcbbf2a42",
+      "source": "CNBC",
+      "title": "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford",
+      "publishedAtSgt": "2026-10-12T18:24:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/nobel-economics-prize-winner-woodford-hall.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "The U.S.-born pair were jointly awarded the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, a prize established by Sweden's central bank in 1968, for their research into the \"microeconomic foundations of macroeconomic stabilisation.\" They will split the 12 million Swedish kronor ($1.19 million) prize.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-12T18:37:45+08:00"
+    },
+    {
+      "id": "7b0be4ec77446f569227a256f9d303bcbaddba553301007ae751d48c55f0cbb1",
+      "source": "CNBC",
+      "title": "Zelenskyy says Ukraine is ready to agree to energy ceasefire, but warns Russia must do same",
+      "publishedAtSgt": "2026-10-12T18:23:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/russia-ukraine-energy-ceasefire-trump.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Ukrainian President Volodymyr Zelenskyy welcomed the U.S.-brokered \"energy ceasefire,\" but warned Monday that Moscow must do the same. If Russia doesn't agree to the energy ceasefire announced by President Donald Trump on Sunday, Ukraine will respond, Zelenskyy said in a live-streamed address Monday morning.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-12T18:37:46+08:00"
+    },
+    {
+      "id": "5444a6f0ff77bbcf5c7836b8bb93a4687e18ae14991136450e94c596d81e6664",
+      "source": "CNBC",
+      "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
+      "publishedAtSgt": "2026-10-12T16:58:54+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "BANGKOK — Policymakers are moving from debating whether artificial intelligence will hit jobs to issuing stark warnings about AI-led disruption and recommending measures on cushioning the fallout. AI has also been the major driver propping up growth this year. AI-related investments and trade have lifted output in a handful of economies, helping keep global expansion near 3% despite an energy supply shock, Georgieva said.",
+      "feeds": [
+        "latest",
+        "economy",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-12T18:37:46+08:00"
+    },
+    {
+      "id": "a5331317c9a7ce2661d3587e752e76968010b6927cadb94fc698e532f9faa341",
+      "source": "CNBC",
+      "title": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
+      "publishedAtSgt": "2026-10-12T16:27:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 80,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The warnings come as rising borrowing costs threaten to complicate financing for technology companies investing heavily in AI infrastructure. Higher bond yields could make it more expensive to fund data center construction and chip purchases, potentially putting pressure on the economics of projects that may take years to generate returns.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-12T18:37:45+08:00"
+    },
+    {
       "id": "061232717e426342cbe2366c5b023e615d4c775ffe0448ed87860152bd43b92c",
       "source": "CNBC",
       "title": "Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine",
@@ -37,6 +119,6 @@
       "collectedAtSgt": "2026-10-12T06:32:27+08:00"
     }
   ],
-  "articleCount": 2,
-  "updatedAtSgt": "2026-10-12T12:37:21+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-12T18:37:46+08:00"
 }
