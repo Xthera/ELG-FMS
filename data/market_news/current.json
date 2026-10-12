@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-13T03:34:04+08:00",
+  "generatedAtSgt": "2026-10-13T06:33:31+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,21 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "d06d5e6b5d26e9833f3fbdd7cb5e22ab0d84b4f70db53d7152b0f399af901805",
+      "source": "CNBC",
+      "title": "Jim Cramer says the bull market's remarkable 4-year run offers a crucial lesson for investors",
+      "publishedAtSgt": "2026-10-13T06:16:12+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/cramer-sp-500-bull-market-stay-invested.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The stock market has given investors plenty of reasons to sell over the past four years. The rally began amid widespread pessimism about inflation and the economy, yet none of those setbacks managed to derail it. A $10,000 investment in Meta Platforms would have grown to more than $58,800 as shares climbed 488%.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-13T06:33:31+08:00"
+    },
     {
       "id": "b3514d7e28c14811e11a546f86edcd490b3cc3c97a66ee4671264bf90ac9aa3a",
       "source": "CNBC",
@@ -1569,21 +1584,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-06T21:38:02+08:00"
-    },
-    {
-      "id": "9806875c4810a0a461699c92a8dd78052f2831ebf61bf0be6f16ad1365739234",
-      "source": "CNBC",
-      "title": "Car buyers are stretching loans to afford payments — it's a 'potential warning light,' analyst says",
-      "publishedAtSgt": "2026-10-06T20:15:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/car-loans-are-getting-longer-as-monthly-payments-hit-record-highs.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "\"Monthly payments are rising because buyers are borrowing significantly more money overall,\" said Joseph Yoon, consumer insights analyst at Edmunds. \"But that gap could become harder to sustain if energy costs remain elevated and the conflict in the Middle East remains unresolved.\" High oil prices in the global market have driven U.S.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-06T21:38:01+08:00"
     }
   ]
 }

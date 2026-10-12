@@ -5,6 +5,21 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "d06d5e6b5d26e9833f3fbdd7cb5e22ab0d84b4f70db53d7152b0f399af901805",
+      "source": "CNBC",
+      "title": "Jim Cramer says the bull market's remarkable 4-year run offers a crucial lesson for investors",
+      "publishedAtSgt": "2026-10-13T06:16:12+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/cramer-sp-500-bull-market-stay-invested.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The stock market has given investors plenty of reasons to sell over the past four years. The rally began amid widespread pessimism about inflation and the economy, yet none of those setbacks managed to derail it. A $10,000 investment in Meta Platforms would have grown to more than $58,800 as shares climbed 488%.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-13T06:33:31+08:00"
+    },
+    {
       "id": "b3514d7e28c14811e11a546f86edcd490b3cc3c97a66ee4671264bf90ac9aa3a",
       "source": "CNBC",
       "title": "A massive trade just happened in surging shares of Snap",
@@ -84,6 +99,6 @@
       "collectedAtSgt": "2026-10-13T03:33:59+08:00"
     }
   ],
-  "articleCount": 5,
-  "updatedAtSgt": "2026-10-13T03:34:00+08:00"
+  "articleCount": 6,
+  "updatedAtSgt": "2026-10-13T06:33:31+08:00"
 }
