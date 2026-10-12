@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "44162291d4595e06a97b436da55b6165b1dc8d9d0370aaeaf673316e5e752c30",
+      "source": "CNBC",
+      "title": "Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
+      "publishedAtSgt": "2026-10-12T23:37:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Traders on prediction market platform Kalshi think inflation likely reached a peak for the year, though they don't see a sharp move lower anytime soon. Yet speculators on Kalshi place just under one-in-three odds that inflation will hit new highs in 2026. However, traders think that core inflation — which excludes food and energy price changes — will remain elevated throughout the rest of 2026.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-13T00:35:48+08:00"
+    },
+    {
       "id": "63be592f01f9a81a61b69bbb6b151e659b6388cd736a02f3368b1c1a9bb3a531",
       "source": "CNBC",
       "title": "Banks are set to report this week. Here's what the options market expects",
@@ -229,6 +245,6 @@
       "collectedAtSgt": "2026-10-12T06:32:27+08:00"
     }
   ],
-  "articleCount": 14,
-  "updatedAtSgt": "2026-10-12T21:47:39+08:00"
+  "articleCount": 15,
+  "updatedAtSgt": "2026-10-13T00:35:48+08:00"
 }

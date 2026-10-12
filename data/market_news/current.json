@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-12T21:47:39+08:00",
+  "generatedAtSgt": "2026-10-13T00:35:48+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "44162291d4595e06a97b436da55b6165b1dc8d9d0370aaeaf673316e5e752c30",
+      "source": "CNBC",
+      "title": "Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
+      "publishedAtSgt": "2026-10-12T23:37:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Traders on prediction market platform Kalshi think inflation likely reached a peak for the year, though they don't see a sharp move lower anytime soon. Yet speculators on Kalshi place just under one-in-three odds that inflation will hit new highs in 2026. However, traders think that core inflation — which excludes food and energy price changes — will remain elevated throughout the rest of 2026.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-13T00:35:48+08:00"
+    },
     {
       "id": "63be592f01f9a81a61b69bbb6b151e659b6388cd736a02f3368b1c1a9bb3a531",
       "source": "CNBC",
@@ -1562,22 +1578,6 @@
       "relevanceScore": 93,
       "relevanceReason": "strong_market_title",
       "summary": "Treasury yields were broadly flat on Tuesday morning after reaching fresh highs in the previous session, as investors looked ahead to the release of minutes from the Federal Reserve's last meeting. Similarly, the 30-year Treasury bond rose less than a basis point to 5.665%, after also rising to levels not seen since May 2002. The 2-Year Treasury note yield was down 1 basis point to 4.818%.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-06T15:37:07+08:00"
-    },
-    {
-      "id": "4e55bc8b0bea7205b9919d1bb3e4a2bdd1aacd15540f406017d9f16b4b81eb59",
-      "source": "CNBC",
-      "title": "How quant funds beat the market by being 'early, contrarian and right'",
-      "publishedAtSgt": "2026-10-06T14:57:42+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/trend-following-hedge-funds-beat-stock-market.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "Hedge fund strategies that rely on complex algorithms and machine learning technology to build trades are beating the stock market this year. They aim to identify and trade large and consistent trends — both upward and downward — across equities, bonds, commodities, and currencies, to profit from that ongoing momentum.",
       "feeds": [
         "latest",
         "world"
