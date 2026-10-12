@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-29",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 4,
+  "analyses": [
+    {
+      "articleId": "74cdc859ac4aec7814b82ea243d94ce9f586b5d9b17354d50532603e3d9357e8",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The White House has enacted import bans on approximately $19.9 billion worth of Canadian vehicles, dairy, and alcohol products amid trade tensions, while the Bank of Canada warns of increased uncertainty for economic growth and upside risks to inflation.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Currencies"
+      ],
+      "geographies": [
+        "United States",
+        "Canada"
+      ],
+      "sectors": [
+        "Automotive",
+        "Consumer Goods",
+        "Agriculture"
+      ],
+      "investorImpact": "The trade restrictions create supply chain disruptions and cost pressures for affected sectors such as automotive, dairy, and alcohol, while heightening inflationary pressures and growth uncertainty in Canada.",
+      "reasoning": "Classified as Geopolitical due to trade restrictions and import bans between the U.S. and Canada, with significant economic spillover effects on specific sectors and macroeconomic stability.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "America's Canadian import restrictions come into force. Here are the products barred from entry",
+      "publishedAtSgt": "2026-09-29T23:57:43+08:00",
+      "url": "https://www.cnbc.com/2026/09/29/canada-import-ban-trade-war.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
+    },
+    {
+      "articleId": "877621d125745e125534f79d8a61be05cff432d9d5a53fde196b47748d95476d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "President Trump's municipal bond portfolio has reached up to $1 billion, raising potential policy overlap concerns as presidents are exempt from typical conflict-of-interest laws that apply to other officials.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Government",
+        "Municipal"
+      ],
+      "investorImpact": "Highlights potential policy overlap and governance considerations for municipal bond investors monitoring political figures' holdings.",
+      "reasoning": "Classified as MARKET due to direct coverage of a substantial municipal bond portfolio and associated policy overlap concerns, relevant for fixed income monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
+      "publishedAtSgt": "2026-09-29T22:37:07+08:00",
+      "url": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:09:48+08:00"
+    },
+    {
+      "articleId": "5b3eccb3a0ec6b939179316792f8b84d9055fb4d15b7b1fe61c766e8ea345028",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Nearly half the stocks in the S&P 500 are moving at cross purposes with the broader market, as massive capital spending boosts AI infrastructure beneficiaries while companies outside the AI trade, alongside energy and defensive sectors, struggle or trade lower.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors face a bifurcated market where heavy AI infrastructure beneficiaries diverge from struggling non-AI, energy, and defensive equities, complicating sector allocation and index-level performance expectations.",
+      "reasoning": "The article discusses significant divergence within the S&P 500 between AI infrastructure plays and the rest of the market, which is important for portfolio management and sector performance monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nearly half the stocks in the S&P 500 are at cross purposes with the rest of the market",
+      "publishedAtSgt": "2026-09-29T01:53:31+08:00",
+      "url": "https://www.cnbc.com/2026/09/28/nearly-half-of-the-stocks-in-the-sp-500-are-working-against-it.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:09:48+08:00"
+    },
+    {
+      "articleId": "fdc37d4078f6164344955f48e262146deed0172c4b7af46bcc4e2ded87da74a3",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "Former Disney CEO Bob Chapek revealed in a new memoir and interview that he raised concerns about then-Executive Chairman Bob Iger to the board weekly during his tenure, shedding light on the internal power dynamics that preceded his firing.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Communication Services",
+        "Entertainment"
+      ],
+      "investorImpact": "The revelations provide retrospective insight into corporate governance and executive leadership dynamics at Disney, but they do not materially impact current financial performance, stock valuation, or near-term investment strategy.",
+      "reasoning": "Classified as MARKET because it relates to corporate governance and executive management at a major publicly traded company. It is of LOW importance and low fund monitoring relevance as it concerns past management conflict rather than new operational data or financial metrics.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Ex-Disney CEO Bob Chapek says he raised concerns with the board 'weekly' during Iger power battle",
+      "publishedAtSgt": "2026-09-29T00:02:17+08:00",
+      "url": "https://www.cnbc.com/2026/09/28/disney-bob-chapek-bob-iger-power-battle-board.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
+    }
+  ]
+}

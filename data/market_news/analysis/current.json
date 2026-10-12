@@ -1,10 +1,158 @@
 {
-  "generatedAtSgt": "2026-10-13T00:51:15.841991+08:00",
+  "generatedAtSgt": "2026-10-13T03:49:40.570516+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 177,
+  "articleCount": 178,
   "analyses": [
+    {
+      "articleId": "b3514d7e28c14811e11a546f86edcd490b3cc3c97a66ee4671264bf90ac9aa3a",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Traders are pouring into Snap Inc. call options, driving trading volume to over four times its month-long average amid excitement surrounding Meta Platforms' AI agent.",
+      "assetClasses": [
+        "Equities",
+        "Options"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Communication Services",
+        "Technology"
+      ],
+      "investorImpact": "Significant options activity and surging volume in Snap indicate heightened speculative interest and potential sentiment shift driven by broader AI enthusiasm in the social media sector.",
+      "reasoning": "The article discusses heavy options trading and volume surges in Snap shares due to market excitement around AI developments in the social media space, categorizing it as market news with moderate importance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "A massive trade just happened in surging shares of Snap",
+      "publishedAtSgt": "2026-10-13T02:43:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-13T03:33:59+08:00"
+    },
+    {
+      "articleId": "cf4d2e0ed9a03efcfab0ee857afd7fccf7ac19cb36b5c128a16c01a7f160d822",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "The current bull market has reached its fourth anniversary, fueled largely by the artificial intelligence trade since late 2022. However, investors face challenges heading into its fifth year due to concerns over higher inflation, surging bond yields, and a hawkish Federal Reserve.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should weigh the continued strength of the AI-driven rally against macroeconomic headwinds such as inflation, high bond yields, and monetary tightening, which could threaten equity valuations as the bull market ages.",
+      "reasoning": "The article is classified as MARKET and marked as HIGH importance because it evaluates the longevity of the broader equity bull market in relation to key macroeconomic risks and the technology sector. It is highly relevant for fund monitoring as it touches on market sentiment and risk factors affecting asset performance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The bull market turned 4 years old on Monday. Investors say reaching a fifth birthday could be challenging",
+      "publishedAtSgt": "2026-10-13T02:18:39+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/the-bull-market-just-turned-four-after-climbing-a-wall-of-worry.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-13T03:33:59+08:00"
+    },
+    {
+      "articleId": "fa448c31ed1c620239c14c3e80769e8949fb7e8bab9b829781c550a18dbf19c4",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Quantum computing firm IonQ has agreed to acquire cybersecurity company Elisity in an all-stock deal valued up to $1.3 billion, which includes up to $150 million in performance-based earnouts, to address security threats targeting generative AI and future quantum risks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Cybersecurity",
+        "Quantum Computing"
+      ],
+      "investorImpact": "This acquisition highlights consolidation and strategic expansion within the quantum computing and cybersecurity sectors, signaling growth opportunities and increased M&A activity for investors holding shares in tech and specialized computing firms.",
+      "reasoning": "Classified as TECHNOLOGY due to the major corporate acquisition involving quantum computing and cybersecurity firms. It is relevant for fund monitoring given the significant valuation ($1.3 billion) and its implications for tech sector consolidation.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "IonQ to acquire cybersecurity firm Elisity in an all-stock deal for up to $1.3 billion",
+      "publishedAtSgt": "2026-10-13T02:14:45+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-13T03:33:59+08:00"
+    },
+    {
+      "articleId": "2e19047e2c48381214cfb0afa234d563430151148014381c16c1b3e862209c01",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Economist Ed Yardeni suggests that resilient U.S. consumer spending is driven more by a generational divide—specifically the wealth of older generations like baby boomers—rather than just income differences, shifting the discussion from a K-shaped to a G-shaped economy.",
+      "assetClasses": [
+        "Equities",
+        "Consumer Discretionary"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Consumer Staples"
+      ],
+      "investorImpact": "Understanding that consumer resilience is underpinned by older generations helps investors evaluate consumer sector durability and assess broader macroeconomic health and spending patterns.",
+      "reasoning": "The article provides macroeconomic insights into consumer spending drivers, shifting perspective to a generational divide which impacts retail, consumer goods, and broader market forecasts.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Why older Americans' wealth may be helping keep consumer spending strong",
+      "publishedAtSgt": "2026-10-13T01:23:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/baby-boomers-may-be-driving-resilient-consumer-spending.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-13T03:34:00+08:00"
+    },
+    {
+      "articleId": "74a9fe67e6dc8d98cb67cf39e7552fb3f3e7eb4a12e47a921f71fbb3bad9dac0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Options prices for UnitedHealth shares are expensive ahead of earnings, creating opportunities for short premium strategies such as selling November premium to reduce the cost of longer-dated January calls.",
+      "assetClasses": [
+        "Equities",
+        "Options"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Healthcare"
+      ],
+      "investorImpact": "Provides tactical options-trading strategies for investors looking to capitalize on expensive options pricing ahead of corporate earnings.",
+      "reasoning": "Classified as MARKET because it discusses stock options pricing and trading strategies related to UnitedHealth's upcoming earnings. Importance is MEDIUM as it applies to specific equity and options traders rather than broad macroeconomic trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "UnitedHealth shares are doing something unusual ahead of earnings",
+      "publishedAtSgt": "2026-10-13T00:42:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/unitedhealth-shares-are-doing-something-unusual-ahead-of-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-13T03:33:59+08:00"
+    },
     {
       "articleId": "44162291d4595e06a97b436da55b6165b1dc8d9d0370aaeaf673316e5e752c30",
       "relevant": true,
@@ -5233,128 +5381,6 @@
       "collectorRelevanceScore": 101,
       "collectorRelevanceReason": "strong_economic_title",
       "collectedAtSgt": "2026-10-02T23:53:12+08:00"
-    },
-    {
-      "articleId": "74cdc859ac4aec7814b82ea243d94ce9f586b5d9b17354d50532603e3d9357e8",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "The White House has enacted import bans on approximately $19.9 billion worth of Canadian vehicles, dairy, and alcohol products amid trade tensions, while the Bank of Canada warns of increased uncertainty for economic growth and upside risks to inflation.",
-      "assetClasses": [
-        "Equities",
-        "Commodities",
-        "Currencies"
-      ],
-      "geographies": [
-        "United States",
-        "Canada"
-      ],
-      "sectors": [
-        "Automotive",
-        "Consumer Goods",
-        "Agriculture"
-      ],
-      "investorImpact": "The trade restrictions create supply chain disruptions and cost pressures for affected sectors such as automotive, dairy, and alcohol, while heightening inflationary pressures and growth uncertainty in Canada.",
-      "reasoning": "Classified as Geopolitical due to trade restrictions and import bans between the U.S. and Canada, with significant economic spillover effects on specific sectors and macroeconomic stability.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "America's Canadian import restrictions come into force. Here are the products barred from entry",
-      "publishedAtSgt": "2026-09-29T23:57:43+08:00",
-      "url": "https://www.cnbc.com/2026/09/29/canada-import-ban-trade-war.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
-    },
-    {
-      "articleId": "877621d125745e125534f79d8a61be05cff432d9d5a53fde196b47748d95476d",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEUTRAL",
-      "importance": "MEDIUM",
-      "summary": "President Trump's municipal bond portfolio has reached up to $1 billion, raising potential policy overlap concerns as presidents are exempt from typical conflict-of-interest laws that apply to other officials.",
-      "assetClasses": [
-        "Fixed Income",
-        "Bonds"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Government",
-        "Municipal"
-      ],
-      "investorImpact": "Highlights potential policy overlap and governance considerations for municipal bond investors monitoring political figures' holdings.",
-      "reasoning": "Classified as MARKET due to direct coverage of a substantial municipal bond portfolio and associated policy overlap concerns, relevant for fixed income monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
-      "publishedAtSgt": "2026-09-29T22:37:07+08:00",
-      "url": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-02T12:09:48+08:00"
-    },
-    {
-      "articleId": "5b3eccb3a0ec6b939179316792f8b84d9055fb4d15b7b1fe61c766e8ea345028",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "Nearly half the stocks in the S&P 500 are moving at cross purposes with the broader market, as massive capital spending boosts AI infrastructure beneficiaries while companies outside the AI trade, alongside energy and defensive sectors, struggle or trade lower.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Energy",
-        "Semiconductors"
-      ],
-      "investorImpact": "Investors face a bifurcated market where heavy AI infrastructure beneficiaries diverge from struggling non-AI, energy, and defensive equities, complicating sector allocation and index-level performance expectations.",
-      "reasoning": "The article discusses significant divergence within the S&P 500 between AI infrastructure plays and the rest of the market, which is important for portfolio management and sector performance monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Nearly half the stocks in the S&P 500 are at cross purposes with the rest of the market",
-      "publishedAtSgt": "2026-09-29T01:53:31+08:00",
-      "url": "https://www.cnbc.com/2026/09/28/nearly-half-of-the-stocks-in-the-sp-500-are-working-against-it.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-02T12:09:48+08:00"
-    },
-    {
-      "articleId": "fdc37d4078f6164344955f48e262146deed0172c4b7af46bcc4e2ded87da74a3",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEUTRAL",
-      "importance": "LOW",
-      "summary": "Former Disney CEO Bob Chapek revealed in a new memoir and interview that he raised concerns about then-Executive Chairman Bob Iger to the board weekly during his tenure, shedding light on the internal power dynamics that preceded his firing.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Communication Services",
-        "Entertainment"
-      ],
-      "investorImpact": "The revelations provide retrospective insight into corporate governance and executive leadership dynamics at Disney, but they do not materially impact current financial performance, stock valuation, or near-term investment strategy.",
-      "reasoning": "Classified as MARKET because it relates to corporate governance and executive management at a major publicly traded company. It is of LOW importance and low fund monitoring relevance as it concerns past management conflict rather than new operational data or financial metrics.",
-      "fundMonitoringRelevant": false,
-      "source": "CNBC",
-      "title": "Ex-Disney CEO Bob Chapek says he raised concerns with the board 'weekly' during Iger power battle",
-      "publishedAtSgt": "2026-09-29T00:02:17+08:00",
-      "url": "https://www.cnbc.com/2026/09/28/disney-bob-chapek-bob-iger-power-battle-board.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
     }
   ]
 }
