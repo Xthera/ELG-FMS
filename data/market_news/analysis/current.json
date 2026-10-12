@@ -1,10 +1,161 @@
 {
-  "generatedAtSgt": "2026-10-12T15:55:45.353993+08:00",
+  "generatedAtSgt": "2026-10-12T18:53:22.671569+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 164,
+  "articleCount": 169,
   "analyses": [
+    {
+      "articleId": "9618a78a53cfd395b7ce97ccd80a0247ef1b7b29c5ac96aac802556cbf447243",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "A new survey indicates that 85% of family offices rank artificial intelligence as their top investment theme, even though 75% anticipate an AI bubble to burst within five years, highlighting a strong fear of missing out.",
+      "assetClasses": [
+        "Private Equity",
+        "Venture Capital",
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence",
+        "Wealth Management"
+      ],
+      "investorImpact": "Investors should note that high private wealth interest continues to drive capital into AI despite valuation bubble concerns, which could lead to elevated volatility and rapid shifts in private market funding.",
+      "reasoning": "Classified as MARKET due to its focus on investor behavior and capital allocation trends among family offices. Sentiment is MIXED because high enthusiasm clashes with bubble fears.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI FOMO driving some family offices into tech investments, survey suggests",
+      "publishedAtSgt": "2026-10-12T18:25:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/ai-fomo-driving-some-family-offices-to-ai-investments-survey-suggests.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-12T18:37:46+08:00"
+    },
+    {
+      "articleId": "9800bbd26162d83e8f3d5bd52f451f39d055cae72746689d4a143cabcbbf2a42",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "Robert E. Hall and Michael Woodford were jointly awarded the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel for their research into the microeconomic foundations of macroeconomic stabilization.",
+      "assetClasses": [],
+      "geographies": [
+        "United States",
+        "Sweden"
+      ],
+      "sectors": [
+        "Academia"
+      ],
+      "investorImpact": "The announcement of the Nobel prize in economics is prestigious academically but carries no direct or immediate impact on financial markets, asset prices, or portfolio management.",
+      "reasoning": "Classified as ECONOMIC because it concerns macroeconomic research and theory recognized by the Nobel prize, but deemed of LOW importance and low fund monitoring relevance as it is an academic award without market-moving implications.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford",
+      "publishedAtSgt": "2026-10-12T18:24:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/nobel-economics-prize-winner-woodford-hall.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-12T18:37:45+08:00"
+    },
+    {
+      "articleId": "7b0be4ec77446f569227a256f9d303bcbaddba553301007ae751d48c55f0cbb1",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Ukrainian President Volodymyr Zelenskyy stated readiness to agree to a U.S.-brokered energy ceasefire, provided Russia does the same, warning of a response if Moscow fails to comply.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Ukraine",
+        "Russia",
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Utilities"
+      ],
+      "investorImpact": "The potential agreement on an energy ceasefire could impact global energy and commodity markets by reducing supply risks and volatility associated with attacks on energy infrastructure, though execution remains conditional on Russian compliance.",
+      "reasoning": "Classified as GEOPOLITICAL due to its direct diplomatic and conflict-related nature, with conditional implications for energy supply and commodity prices.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Zelenskyy says Ukraine is ready to agree to energy ceasefire, but warns Russia must do same",
+      "publishedAtSgt": "2026-10-12T18:23:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/russia-ukraine-energy-ceasefire-trump.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-12T18:37:46+08:00"
+    },
+    {
+      "articleId": "5444a6f0ff77bbcf5c7836b8bb93a4687e18ae14991136450e94c596d81e6664",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "The World Bank jobs council is urging crisis-era employment support measures while the IMF warns of an AI tsunami causing labor disruption. At the same time, AI-related investments and trade are driving global economic growth and keeping expansion near 3% despite energy shocks.",
+      "assetClasses": [
+        "Equities",
+        "Macro"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Labor"
+      ],
+      "investorImpact": "Investors should monitor potential regulatory or policy shifts regarding AI employment support and labor market disruptions, alongside the ongoing economic tailwinds provided by AI-related investments and trade.",
+      "reasoning": "The article addresses major global macroeconomic trends, specifically the dual impact of artificial intelligence driving economic growth through investments while posing severe disruption risks to labor markets, warranting high importance for economic and technological monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
+      "publishedAtSgt": "2026-10-12T16:58:54+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-12T18:37:46+08:00"
+    },
+    {
+      "articleId": "a5331317c9a7ce2661d3587e752e76968010b6927cadb94fc698e532f9faa341",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Intel and Broadcom CEOs warn that a capital crunch and rising borrowing costs could become the biggest bottleneck for artificial intelligence as high bond yields complicate financing for data center construction and chip purchases.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors in AI infrastructure and semiconductor companies should monitor financing costs, as expensive debt could slow down capital expenditure, impact project returns, and pressure valuations across the technology sector.",
+      "reasoning": "The article is categorized as TECHNOLOGY due to its focus on AI infrastructure and semiconductor demand, with a NEGATIVE sentiment driven by warnings of a capital crunch and rising borrowing costs. It is important for monitoring tech sector risks.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
+      "publishedAtSgt": "2026-10-12T16:27:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 80,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-12T18:37:45+08:00"
+    },
     {
       "articleId": "061232717e426342cbe2366c5b023e615d4c775ffe0448ed87860152bd43b92c",
       "relevant": true,
