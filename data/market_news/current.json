@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-12T09:36:41+08:00",
+  "generatedAtSgt": "2026-10-12T12:37:21+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "061232717e426342cbe2366c5b023e615d4c775ffe0448ed87860152bd43b92c",
+      "source": "CNBC",
+      "title": "Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine",
+      "publishedAtSgt": "2026-10-12T12:21:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil fell Monday on optimism of improved supplies after President Donald Trump said that Russia and Ukraine will not be targeting each other's energy facilities, while Iran reached out to Saudi Arabia after Houthi attacks against the kingdom. \"Effective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-12T12:37:21+08:00"
+    },
     {
       "id": "8d8059af18024f174d16d3d92a5938c9f466e9f0c106f89ff9c0e57137376860",
       "source": "CNBC",
@@ -1564,22 +1580,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-05T21:41:22+08:00"
-    },
-    {
-      "id": "d1b17dc6c3bcb681aba0d2ec835b01fc05043cdfd8009952d5c111cc5f75f9fa",
-      "source": "CNBC",
-      "title": "Why airfares could rise even more, but airline profits won't",
-      "publishedAtSgt": "2026-10-05T20:06:44+08:00",
-      "url": "https://www.cnbc.com/2026/10/05/airfare-prices-airline-profits.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "But should oil prices fall, investors will be watchful of whether airlines increase capacity in a big way, which could end up driving fares lower. \"We expect higher booked fares should result in similar unit revenue trends in the fourth quarter for most airlines, but elevated domestic capacity growth at American and United (+10% and +9% in current schedules) will likely be the most watched guidance by investors,\" Barclays airline analyst Brandon Oglenski said in a note Sept.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-10-05T21:41:21+08:00"
     }
   ]
 }

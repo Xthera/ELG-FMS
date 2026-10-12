@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "061232717e426342cbe2366c5b023e615d4c775ffe0448ed87860152bd43b92c",
+      "source": "CNBC",
+      "title": "Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine",
+      "publishedAtSgt": "2026-10-12T12:21:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil fell Monday on optimism of improved supplies after President Donald Trump said that Russia and Ukraine will not be targeting each other's energy facilities, while Iran reached out to Saudi Arabia after Houthi attacks against the kingdom. \"Effective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-12T12:37:21+08:00"
+    },
+    {
       "id": "8d8059af18024f174d16d3d92a5938c9f466e9f0c106f89ff9c0e57137376860",
       "source": "CNBC",
       "title": "Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details",
@@ -21,6 +37,6 @@
       "collectedAtSgt": "2026-10-12T06:32:27+08:00"
     }
   ],
-  "articleCount": 1,
-  "updatedAtSgt": "2026-10-12T06:32:27+08:00"
+  "articleCount": 2,
+  "updatedAtSgt": "2026-10-12T12:37:21+08:00"
 }
