@@ -5,6 +5,116 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "63be592f01f9a81a61b69bbb6b151e659b6388cd736a02f3368b1c1a9bb3a531",
+      "source": "CNBC",
+      "title": "Banks are set to report this week. Here's what the options market expects",
+      "publishedAtSgt": "2026-10-12T21:27:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/banks-are-set-to-report-this-week-heres-what-the-options-market-expects.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bank earnings kick off this week with no fewer than seven of the biggest names set to report. Despite being flat on the year, the options market is pricing in some big moves as investor weigh the impact of higher rates and stretched consumer. Across the last eight reported quarters, the stock has moved just about 2% on average.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-12T21:47:38+08:00"
+    },
+    {
+      "id": "93c7a8042e05f1da3725a7c36801d6881f26695395419facf642ef4710678dd6",
+      "source": "CNBC",
+      "title": "Starbucks says it is not buying Chipotle after takeover speculation",
+      "publishedAtSgt": "2026-10-12T21:23:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/starbucks-denies-chipotle-takeover.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Chipotle's stock was down more than 2% in premarket trading Monday following the denial, while Starbucks shares were more than 1% higher. Earlier in October, Semafor reported that Chipotle had hired advisers to defend against activist investors or an unwanted takeover bid. The deal rumors sent shares of Chipotle higher, while Starbucks stock fell on the reports.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-12T21:47:38+08:00"
+    },
+    {
+      "id": "04ecae575e71c7c7eb2fd8c0f0b727b693c62fc4a39957a8da6881064b9f4320",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+      "publishedAtSgt": "2026-10-12T21:06:04+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/12/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Some interest rate-sensitive stocks, including the utilities and Club name Home Depot , have turned up, as absurd as that is. Salesforce was double-upgraded to buy from sell at Bank of America, and the Club stock is up almost 5%. Sign up for my Top 10 Morning Thoughts on the Market email newsletter for free (See here for a full list of the stocks at Jim Cramer's Charitable Trust.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-12T21:47:38+08:00"
+    },
+    {
+      "id": "8e2d730b6f66013a5e6a43ce09a4091bd3814aebf68cc74ddcd558d470226f09",
+      "source": "CNBC",
+      "title": "Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia",
+      "publishedAtSgt": "2026-10-12T21:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 83,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Microsoft will ramp up use of its homegrown artificial intelligence chips after years of reliance on Nvidia's graphics processing units, as the software giant attempts to bolster its AI stack. Finance chief Amy Hood said at a Goldman Sachs conference last month that use of its own chips has helped with \"margin improvement over the course of a decade.\" Microsoft introduced its inaugural AI chip, the Maia 100, in 2023. WATCH: Melissa Otto: Nvidia is the bellwether of the AI trade",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-12T21:47:38+08:00"
+    },
+    {
+      "id": "d3195a2f0da9c7460c3c4624f0e2f0c6a451a4b1f19da5434c733975e851f6dd",
+      "source": "CNBC",
+      "title": "Trump's energy efforts, European bonds, retailers' inventory balancing act and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-12T20:40:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Trump just last month signed into law legislation that enables him to tariff the top purchasers of Russian crude oil or gas. - Trump said Sunday that Russia and Ukraine had reached an \"energy ceasefire.\" Such a truce also has the potential to ease the global oil and gas crunch.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-12T21:47:39+08:00"
+    },
+    {
+      "id": "50d054e308d4d1b1f2ac7b52a6476d0f434e35a1c4cd2d7b2bc89a8863d92c85",
+      "source": "CNBC",
+      "title": "Health insurance open enrollment: Use this 'algorithm' to pick a plan, financial advisor says",
+      "publishedAtSgt": "2026-10-12T20:15:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/health-insurance-open-enrollment.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Households are grappling with such choices amid soaring healthcare costs, in some cases forcing them to make difficult financial trade-offs during open enrollment, experts said. However, the trade-off is they typically carry higher premiums. They come with a three-pronged tax break: Contributions are tax-free, investment growth is tax-deferred, and withdrawals are tax-free if used for eligible medical costs.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-12T21:47:38+08:00"
+    },
+    {
+      "id": "cfca6d5d8b242984f4bb5d69bab6700bd624d111c9debf5bc3a664f3bc917b89",
+      "source": "CNBC",
+      "title": "India’s retail inflation jumps to 5.54% in September, above estimates",
+      "publishedAtSgt": "2026-10-12T18:49:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "India's headline inflation rose to 5.54% in September from 4.82% in August, adding pressure on the country's central bank to further tighten monetary policy. India's central bank expects core inflation to be at 4.4% for the financial year ending March 2027 and headline inflation at 5.2%, which is higher than the RBI's medium-term target of 4%.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-12T21:47:39+08:00"
+    },
+    {
       "id": "9618a78a53cfd395b7ce97ccd80a0247ef1b7b29c5ac96aac802556cbf447243",
       "source": "CNBC",
       "title": "AI FOMO driving some family offices into tech investments, survey suggests",
@@ -119,6 +229,6 @@
       "collectedAtSgt": "2026-10-12T06:32:27+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-12T18:37:46+08:00"
+  "articleCount": 14,
+  "updatedAtSgt": "2026-10-12T21:47:39+08:00"
 }
