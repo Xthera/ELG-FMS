@@ -1,10 +1,39 @@
 {
-  "generatedAtSgt": "2026-10-12T22:03:30.855314+08:00",
+  "generatedAtSgt": "2026-10-13T00:51:15.841991+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 176,
+  "articleCount": 177,
   "analyses": [
+    {
+      "articleId": "44162291d4595e06a97b436da55b6165b1dc8d9d0370aaeaf673316e5e752c30",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Traders on prediction market platform Kalshi indicate that inflation has likely peaked for 2026, but core inflation is expected to remain sticky and elevated for the remainder of the year.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Sticky inflation expectations suggest that interest rates may remain elevated, impacting bond yields and valuation multiples for equities.",
+      "reasoning": "The article discusses macroeconomic inflation trends derived from prediction markets, which are crucial for asset allocation and monetary policy expectations, making it relevant for economic monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
+      "publishedAtSgt": "2026-10-12T23:37:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-13T00:35:48+08:00"
+    },
     {
       "articleId": "63be592f01f9a81a61b69bbb6b151e659b6388cd736a02f3368b1c1a9bb3a531",
       "relevant": true,
