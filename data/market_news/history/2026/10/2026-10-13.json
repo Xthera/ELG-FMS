@@ -5,6 +5,38 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "17c4a49632bc7a63217f58e84385e40d9d1e656adce88e04e1c2330fa7e17411",
+      "source": "CNBC",
+      "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+      "publishedAtSgt": "2026-10-13T22:55:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It's unclear if Anthropic will account for sales in the same manner and include partner revenue, but the numbers this week will give investors a more accurate snapshot of Anthropic's growth and profitability as they look to value the company ahead of an IPO. Chip stocks were lower Tuesday, extending an overnight sell-off sparked by worries over the durability of AI financing.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T00:37:59+08:00"
+    },
+    {
+      "id": "b5ec9bd5345344bd271e46d8af4397dd0edfbc4a8df11686152554d00e5613bf",
+      "source": "CNBC",
+      "title": "Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments",
+      "publishedAtSgt": "2026-10-13T21:35:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/arm-mortgage-borrowers-rate-adjustment.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Thousands of homeowners with adjustable-rate mortgages may soon face a potential spike in the interest rate that's applied to their loan. About 150,000 borrowers with ARMs are scheduled to see their interest rates adjust for the first time this year, with another 186,000 facing their first adjustment in 2027 and 155,000 doing so in 2028, according to ICE Mortgage Technology, a mortgage data and technology company.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T00:37:59+08:00"
+    },
+    {
       "id": "ae94aee5bb6ac6a97a0a3739b82a62880d61c9d90d8b001086a3050ebfc75300",
       "source": "CNBC",
       "title": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
@@ -326,6 +358,6 @@
       "collectedAtSgt": "2026-10-13T03:33:59+08:00"
     }
   ],
-  "articleCount": 20,
-  "updatedAtSgt": "2026-10-13T21:43:06+08:00"
+  "articleCount": 22,
+  "updatedAtSgt": "2026-10-14T00:37:59+08:00"
 }

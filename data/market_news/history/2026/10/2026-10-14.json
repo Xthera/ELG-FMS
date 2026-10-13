@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "59a13c5bfe46e2ceabca508372af98604b264511cf5da6c3c30fd0660deba749",
+      "source": "CNBC",
+      "title": "Jim Cramer bucks all the stock market negativity with 3 buy recommendations",
+      "publishedAtSgt": "2026-10-14T00:07:20+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/13/jim-cramer-bucks-all-the-stock-market-negativity-with-3-buy-recommendations.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks fell Tuesday as investors digested a slew of big bank earnings, while memory stocks, including Club name Micron , were also under severe pressure. Goldman Sachs shares were modestly higher after the bank delivered a strong earnings beat. Jim said, \"This has been my favorite and remains my favorite of the banking group.\" He praised Goldman's ability to diversify its revenue streams, noting that the bank has demonstrated \"that they can make a lot of money away from IPOs, away from M & A.\"...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T00:37:55+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-14T00:37:55+08:00"
+}
