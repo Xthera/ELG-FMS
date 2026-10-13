@@ -1,10 +1,99 @@
 {
-  "generatedAtSgt": "2026-10-13T15:56:06.804617+08:00",
+  "generatedAtSgt": "2026-10-13T18:53:43.003508+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 186,
+  "articleCount": 189,
   "analyses": [
+    {
+      "articleId": "a36c2a5d5f53e174441c2655a47e2223f2c334372b15cd3ea0b54968b08bc24c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "UnitedHealth Group reported third-quarter earnings that beat estimates and raised its full-year profit outlook by successfully managing high medical costs, stabilizing margins, and leveraging investments in AI and value-based care.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Healthcare"
+      ],
+      "investorImpact": "The strong earnings beat and raised guidance from a bellwether like UnitedHealth Group signal robust execution in managing medical cost pressures, which could boost investor sentiment in the broader healthcare sector and managed care equities.",
+      "reasoning": "Classified as MARKET because it details earnings results and forward-looking guidance for a major public company. Sentiment is POSITIVE due to beating estimates and raising profit outlook. Importance is HIGH because UnitedHealth is a massive market bellwether affecting sector-wide sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+      "publishedAtSgt": "2026-10-13T18:01:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-13T18:38:09+08:00"
+    },
+    {
+      "articleId": "6521681b3f31865fdcd0a8498d1dc05a204f533d367a4eea2609f620880bad57",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "SpaceX has agreed to testify before the New York City Council regarding artificial intelligence safety risks following a subpoena issued to Elon Musk and SpaceX's AI unit.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "New York City"
+      ],
+      "sectors": [
+        "Technology",
+        "Aerospace and Defense"
+      ],
+      "investorImpact": "The event highlights increasing regulatory scrutiny on artificial intelligence and major technology companies, though direct financial impact on SpaceX or related entities remains limited at this stage.",
+      "reasoning": "The article discusses regulatory and legislative scrutiny of AI safety involving a prominent technology company, making it relevant to the TECHNOLOGY category but of low immediate importance for fund monitoring.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "SpaceX agrees to testify to NYC Council about AI safety after receiving subpoena",
+      "publishedAtSgt": "2026-10-13T17:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/spacex-agrees-to-testify-to-nyc-council-about-ai-safety-.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-13T18:38:09+08:00"
+    },
+    {
+      "articleId": "1ce1f551956f3ad2f075ee4420e45fa02da820b009c5c17d14a982618f72cda9",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "U.S. Treasury yields declined on Tuesday following a pullback in energy prices and oil, driven by expectations of increased Russian diesel entering global markets due to a U.S.-brokered energy ceasefire between Russia and Ukraine.",
+      "assetClasses": [
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States",
+        "Russia",
+        "Ukraine"
+      ],
+      "sectors": [
+        "Energy"
+      ],
+      "investorImpact": "Lower Treasury yields reflect easing energy-driven inflation pressures, which can impact bond valuations and borrowing costs across markets.",
+      "reasoning": "The article reports on macroeconomic movements in U.S. Treasury yields linked to energy price changes and geopolitical developments, making it relevant for market and fixed income tracking.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "U.S. Treasury yields fall as energy prices pull back",
+      "publishedAtSgt": "2026-10-13T16:31:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-13T18:38:09+08:00"
+    },
     {
       "articleId": "093038395ff1fc45ce12baca7e2bc1319698b507b81588be26eb3bcb61a3c0dc",
       "relevant": true,
