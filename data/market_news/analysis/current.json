@@ -1,10 +1,68 @@
 {
-  "generatedAtSgt": "2026-10-13T18:53:43.003508+08:00",
+  "generatedAtSgt": "2026-10-13T21:59:26.590752+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 189,
+  "articleCount": 191,
   "analyses": [
+    {
+      "articleId": "ae94aee5bb6ac6a97a0a3739b82a62880d61c9d90d8b001086a3050ebfc75300",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Legendary hedge fund manager Paul Tudor Jones warns that 2027 could present major challenges for the stock market due to anticipated increases in equity supply from large technology IPOs and a potential market reckoning following a prolonged bull run.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors should prepare for potential volatility and increased equity supply pressures in upcoming years, prompting a re-evaluation of portfolio risk exposure and long-term equity allocations.",
+      "reasoning": "The article provides high-profile commentary from a prominent investor regarding macro-level market risks and supply-side pressures, directly impacting equity market outlooks and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
+      "publishedAtSgt": "2026-10-13T21:33:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
+    {
+      "articleId": "67639e8b13d8b7fa7c7d1b50535f645d960decbb02c40dfeca1e506a6287e3dd",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Broadcom CEO Hock Tan discussed market volatility surrounding the artificial intelligence trade during an event in Singapore, stating that many investors lack clarity on what they are investing in, set extreme expectations, and treat the market like a casino, while clarifying that demand itself is not hurting the stocks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "Singapore"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should note executive commentary regarding AI market sentiment and volatility, which highlights the risk of extreme expectations and emotional trading rather than a fundamental flaw in demand.",
+      "reasoning": "The article discusses broad market sentiment and investor behavior regarding the technology and AI sectors as highlighted by a major tech CEO, providing useful context for market volatility.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "publishedAtSgt": "2026-10-13T20:54:50+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/13/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
     {
       "articleId": "a36c2a5d5f53e174441c2655a47e2223f2c334372b15cd3ea0b54968b08bc24c",
       "relevant": true,
