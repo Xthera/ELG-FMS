@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-14T03:48:14+08:00",
+  "generatedAtSgt": "2026-10-14T06:45:46+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,52 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "6ff63d635bb3b2b1db4cd60c47b0d1c5d38b899e1e8859f7fa9fe3ace080d3a6",
+      "source": "CNBC",
+      "title": "Jim Cramer isn't giving up on semiconductor stocks despite the sell off. Here's why",
+      "publishedAtSgt": "2026-10-14T06:19:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/jim-cramer-semiconductor-stocks-sell-off.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Semiconductor stocks have been getting crushed in recent days, but CNBC's Jim Cramer said Tuesday there's a compelling reason not to give up on the group. The VanEck Semiconductor ETF has fallen 7.2% over six consecutive sessions, and Cramer warned that rising oil prices and interest rates could prolong the sell off.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-14T06:45:46+08:00"
+    },
+    {
+      "id": "d39519b7982f6132a353dde7c104897e1c0263c5fb42332c1f3e5c548b5b17df",
+      "source": "CNBC",
+      "title": "Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds",
+      "publishedAtSgt": "2026-10-14T04:52:22+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/inflation-hedge-tips-commodities-infrastructure.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Inflation will be in the crosshairs Wednesday as investors digest the latest Consumer Price Index. Treasury Inflation Linked Bond Index, has a total return of -1.16% year-to-date. TIPS pay a fixed coupon, or interest rate, but as inflation moves higher, the principal value of the bond increases.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T06:45:46+08:00"
+    },
+    {
+      "id": "e5f4df7254d1347a7df5afcfba099e19be775b1dd9c1961f2f280bc354253123",
+      "source": "CNBC",
+      "title": "Bank of America fined $1.2 billion over money-laundering violations",
+      "publishedAtSgt": "2026-10-14T04:45:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/bank-of-america-treasury-money-laundering.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The bank's stock was down about 2% in after-hours trading on the news. For much of the past decade, Moynihan has emphasized what he calls \"responsible growth,\" as Bank of America sought to distance itself from the risk-taking and legal problems that followed the 2008 financial crisis.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T06:45:46+08:00"
+    },
     {
       "id": "b42a7f7c487b977f09d73b0ad7736bc17ef4472b45b44bcb41457607e4f13d2b",
       "source": "CNBC",
@@ -1546,52 +1592,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-08T00:37:01+08:00"
-    },
-    {
-      "id": "82603bc50af84126603713e90ee936a57b85d55a7fb345bb759828733424ba90",
-      "source": "CNBC",
-      "title": "France is caught between angry students and unforgiving bond markets",
-      "publishedAtSgt": "2026-10-07T21:23:31+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/french-student-protests-budget-deadlock.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The unrest in France has highlighted and intensified the economic and political challenges facing the country. The French budget deficit topped 5.1% of GDP last year. Bank of France Governor Emmanuel Moulin, who sits on the European Central Bank's Governing Council, threw cold water on the notion that France might soon need assistance from European Central Bank policymakers in Frankfurt.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-07T21:35:55+08:00"
-    },
-    {
-      "id": "20d2dbf98b8817b92ff81c653b85e8ebb5adb37ac883bf6e5d7d92889ff827b5",
-      "source": "CNBC",
-      "title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
-      "publishedAtSgt": "2026-10-07T20:35:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/home-heating-oil-costs-winter.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Americans who heat their homes with oil are expected to face sharply higher costs this winter, even as households that rely on natural gas or propane may get some relief. Home heating oil prices are expected to average $5.26 a gallon during the winter heating season, up 34% from last winter, according to details in the U.S. Energy Information Administration's annual Winter Fuels Outlook released Tuesday.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-07T21:35:54+08:00"
-    },
-    {
-      "id": "4cc006f7f306dfdd48d59d4238886269bcfcff9feb1300a4dfa1611867175d8d",
-      "source": "CNBC",
-      "title": "Treasury yields rise as oil moves higher, traders await key U.S. bond sale",
-      "publishedAtSgt": "2026-10-07T18:08:22+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
-      "category": "MARKET",
-      "relevanceScore": 93,
-      "relevanceReason": "strong_market_title",
-      "summary": "Bond yields have been selling off over the past six weeks as investors were concerned about inflation and rising energy prices. The Treasury also plans to sell $39 billion of 10-year notes in an auction on Wednesday that will test whether yields are now attractive enough to draw buyers or investors will demand an even bigger premium, amid concerns about inflation, debt levels and term risk. The yield on the 10-year French bond surged 12 basis points to trade at 4.876%.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-07T18:34:30+08:00"
     }
   ]
 }

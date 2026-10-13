@@ -5,6 +5,52 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "6ff63d635bb3b2b1db4cd60c47b0d1c5d38b899e1e8859f7fa9fe3ace080d3a6",
+      "source": "CNBC",
+      "title": "Jim Cramer isn't giving up on semiconductor stocks despite the sell off. Here's why",
+      "publishedAtSgt": "2026-10-14T06:19:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/jim-cramer-semiconductor-stocks-sell-off.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Semiconductor stocks have been getting crushed in recent days, but CNBC's Jim Cramer said Tuesday there's a compelling reason not to give up on the group. The VanEck Semiconductor ETF has fallen 7.2% over six consecutive sessions, and Cramer warned that rising oil prices and interest rates could prolong the sell off.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-14T06:45:46+08:00"
+    },
+    {
+      "id": "d39519b7982f6132a353dde7c104897e1c0263c5fb42332c1f3e5c548b5b17df",
+      "source": "CNBC",
+      "title": "Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds",
+      "publishedAtSgt": "2026-10-14T04:52:22+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/inflation-hedge-tips-commodities-infrastructure.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Inflation will be in the crosshairs Wednesday as investors digest the latest Consumer Price Index. Treasury Inflation Linked Bond Index, has a total return of -1.16% year-to-date. TIPS pay a fixed coupon, or interest rate, but as inflation moves higher, the principal value of the bond increases.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T06:45:46+08:00"
+    },
+    {
+      "id": "e5f4df7254d1347a7df5afcfba099e19be775b1dd9c1961f2f280bc354253123",
+      "source": "CNBC",
+      "title": "Bank of America fined $1.2 billion over money-laundering violations",
+      "publishedAtSgt": "2026-10-14T04:45:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/bank-of-america-treasury-money-laundering.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The bank's stock was down about 2% in after-hours trading on the news. For much of the past decade, Moynihan has emphasized what he calls \"responsible growth,\" as Bank of America sought to distance itself from the risk-taking and legal problems that followed the 2008 financial crisis.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T06:45:46+08:00"
+    },
+    {
       "id": "b42a7f7c487b977f09d73b0ad7736bc17ef4472b45b44bcb41457607e4f13d2b",
       "source": "CNBC",
       "title": "Meta shares rise for a second straight day as new AI model family impresses",
@@ -67,6 +113,6 @@
       "collectedAtSgt": "2026-10-14T00:37:55+08:00"
     }
   ],
-  "articleCount": 4,
-  "updatedAtSgt": "2026-10-14T03:48:14+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-14T06:45:46+08:00"
 }
