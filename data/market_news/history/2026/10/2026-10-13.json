@@ -5,6 +5,23 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "ba826ebda82a56747f2cf7a06f0c4818475f7d658de8041ffd3af5b23b862150",
+      "source": "CNBC",
+      "title": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
+      "publishedAtSgt": "2026-10-13T09:26:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "SINGAPORE — Southeast Asia's biggest bank by assets is making a pitch to investors that Singapore and its businesses can help them navigate many of the uncertainties around the globe. \"In this huge time of volatility, 'boring' is not bad, right?\" The investing and business climate worldwide has been upended by everything from trade wars and El Niño-related weather issues to the Iran conflict and the Russia-Ukraine war.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T09:37:06+08:00"
+    },
+    {
       "id": "d06d5e6b5d26e9833f3fbdd7cb5e22ab0d84b4f70db53d7152b0f399af901805",
       "source": "CNBC",
       "title": "Jim Cramer says the bull market's remarkable 4-year run offers a crucial lesson for investors",
@@ -99,6 +116,6 @@
       "collectedAtSgt": "2026-10-13T03:33:59+08:00"
     }
   ],
-  "articleCount": 6,
-  "updatedAtSgt": "2026-10-13T06:33:31+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-13T09:37:06+08:00"
 }

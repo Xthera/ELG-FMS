@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-13T06:33:31+08:00",
+  "generatedAtSgt": "2026-10-13T09:37:06+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,23 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "ba826ebda82a56747f2cf7a06f0c4818475f7d658de8041ffd3af5b23b862150",
+      "source": "CNBC",
+      "title": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
+      "publishedAtSgt": "2026-10-13T09:26:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "SINGAPORE — Southeast Asia's biggest bank by assets is making a pitch to investors that Singapore and its businesses can help them navigate many of the uncertainties around the globe. \"In this huge time of volatility, 'boring' is not bad, right?\" The investing and business climate worldwide has been upended by everything from trade wars and El Niño-related weather issues to the Iran conflict and the Russia-Ukraine war.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T09:37:06+08:00"
+    },
     {
       "id": "d06d5e6b5d26e9833f3fbdd7cb5e22ab0d84b4f70db53d7152b0f399af901805",
       "source": "CNBC",
@@ -1567,21 +1584,6 @@
       "summary": "Who knew that oil prices and bond yields could actually go down? The maker of custom AI chips and networking gear could raise its long-term financial targets substantially, with big reverberations through the hyperscaler and chip worlds. They expect a strong quarter, led by Google Cloud revenue growth of 142% year over year, with some benefit from fledgling external sales of its custom AI chips known as TPUs.",
       "feeds": [
         "latest"
-      ],
-      "collectedAtSgt": "2026-10-06T21:38:02+08:00"
-    },
-    {
-      "id": "18be524555ba6dc3f19014d71f14d777eb59724d36fb8dfe3e0ff1159945f29e",
-      "source": "CNBC",
-      "title": "Paramount-WBD merger, Musk's return to trillionaire, AI researchers' warning and more in Morning Squawk",
-      "publishedAtSgt": "2026-10-06T20:46:42+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/5-things-to-know-before-the-stock-market-opens.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Treasury yield kicked off the week with a fresh 24-year high, but investors weren't spooked. Stocks closed the session higher, with artificial intelligence names boosting the technology-heavy Nasdaq Composite to intraday and closing records. SpaceX shares jumped almost 8%, lifting the stock to its highest level since June and returning CEO Elon Musk to trillionaire status.",
-      "feeds": [
-        "technology"
       ],
       "collectedAtSgt": "2026-10-06T21:38:02+08:00"
     }
