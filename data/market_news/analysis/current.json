@@ -1,10 +1,70 @@
 {
-  "generatedAtSgt": "2026-10-13T12:53:25.575125+08:00",
+  "generatedAtSgt": "2026-10-13T15:56:06.804617+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 184,
+  "articleCount": 186,
   "analyses": [
+    {
+      "articleId": "093038395ff1fc45ce12baca7e2bc1319698b507b81588be26eb3bcb61a3c0dc",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "A cyberattack targeted hundreds of French supermarkets, causing refrigeration systems to overheat up to 122°F, which spoiled food and sparked fires across major chains like Carrefour, Monoprix, Intermarché, and Coopérative U.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "France"
+      ],
+      "sectors": [
+        "Consumer Staples",
+        "Technology",
+        "Retail"
+      ],
+      "investorImpact": "The cyberattack highlights operational and cybersecurity vulnerabilities in physical retail infrastructure, potentially leading to increased compliance costs, insurance premiums, and short-term earnings impacts for affected supermarket chains.",
+      "reasoning": "Classified as TECHNOLOGY due to the cyberattack nature of the event, with NEGATIVE sentiment driven by physical damage, spoiled inventory, and safety hazards. Importance is MEDIUM because it impacts major retail groups in France and highlights broader IoT/infrastructure security risks.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cyber attack hits hundreds of French supermarkets, heating fridges to 122°F and sparking fires",
+      "publishedAtSgt": "2026-10-13T14:44:00+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-13T15:40:37+08:00"
+    },
+    {
+      "articleId": "77d4d70f3bd97a81cae36c231e91d8845e8486a7921a618eb3ffd16363a73e96",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Visa has received approval from the People's Bank of China to establish a bank card clearing business in the country, marking a major milestone for its entry into China's domestic payments market and following a similar move by rival Mastercard.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China",
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Payments"
+      ],
+      "investorImpact": "The approval opens up China's vast domestic payments market to Visa, representing a significant long-term growth catalyst for the company and enhancing its competitive positioning relative to Mastercard within the region.",
+      "reasoning": "Classified as MARKET because it directly impacts Visa's commercial operations and market access in China. It is important due to the sheer size of the Chinese domestic payments market and positive sentiment for Visa.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
+      "publishedAtSgt": "2026-10-13T14:20:55+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-13T15:40:37+08:00"
+    },
     {
       "articleId": "efd53779629cbacc1b81217d4c41dcb40d2b16d98da775dbc557f0d82b9df7b3",
       "relevant": true,
