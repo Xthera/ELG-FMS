@@ -5,6 +5,53 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "b42a7f7c487b977f09d73b0ad7736bc17ef4472b45b44bcb41457607e4f13d2b",
+      "source": "CNBC",
+      "title": "Meta shares rise for a second straight day as new AI model family impresses",
+      "publishedAtSgt": "2026-10-14T02:55:33+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks are lower across the board Tuesday afternoon, as key members of the AI buildout trade continue to struggle. The AI trade was wobbling even before being confronted by these headlines. The Fed's Beige Book — the central bank's periodic update on current economic conditions in the country, gathered by the 12 regional Fed arms — is due out at 2 p.m.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T03:48:14+08:00"
+    },
+    {
+      "id": "fb9dcbe418b17799d7d83d3c85aa0d3962596c873e00a7f0d682873e6ef6d294",
+      "source": "CNBC",
+      "title": "The latest inflation data is expected to show price increases are accelerating",
+      "publishedAtSgt": "2026-10-14T02:05:57+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "So-called core inflation, which strips out volatile food and energy prices, is expected to increase 0.2% from August and 2.5% on a 12-month basis. Energy costs have been among the biggest drivers of inflation since the U.S. \"Typically, when we have these moves in inflation, everyone's models undershoot the actual outcome.\" Sticky oil prices could also push up costs for items in other, non-energy categories, according to Robert Sockin, chief U.S.",
+      "feeds": [
+        "latest",
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-14T03:48:14+08:00"
+    },
+    {
+      "id": "641c076fbd72a22d7dfd656f5009bd7477f798ea526bc1c30c94436079758fea",
+      "source": "CNBC",
+      "title": "The AI trade is cracking. Here's how to profit",
+      "publishedAtSgt": "2026-10-14T00:44:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Despite the Magnificent Seven making record highs, the AI trade is showing signs of cracks. Concerns over OpenAI's revenue growth have hit neocloud stocks, and chips are selling off Tuesday on concerns about Chinese competition. The biggest risks are on the calendar: CPI on Wednesday, bank and Taiwan Semiconductor earnings this week, and Microsoft and Alphabet reporting alongside the Fed decision on Oct.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T03:48:14+08:00"
+    },
+    {
       "id": "59a13c5bfe46e2ceabca508372af98604b264511cf5da6c3c30fd0660deba749",
       "source": "CNBC",
       "title": "Jim Cramer bucks all the stock market negativity with 3 buy recommendations",
@@ -20,6 +67,6 @@
       "collectedAtSgt": "2026-10-14T00:37:55+08:00"
     }
   ],
-  "articleCount": 1,
-  "updatedAtSgt": "2026-10-14T00:37:55+08:00"
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-14T03:48:14+08:00"
 }
