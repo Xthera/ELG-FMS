@@ -5,6 +5,40 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "093038395ff1fc45ce12baca7e2bc1319698b507b81588be26eb3bcb61a3c0dc",
+      "source": "CNBC",
+      "title": "Cyber attack hits hundreds of French supermarkets, heating fridges to 122°F and sparking fires",
+      "publishedAtSgt": "2026-10-13T14:44:00+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Hackers targeted hundreds of French supermarkets in a cyberattack that reportedly caused refrigerators and freezers to overheat, spoiling food and sparking fires. Fridges at French supermarket chains Carrefour, Monoprix, the Les Mousquetaires-owned Intermarché, and Coopérative U, among others, all saw fridges heat up to as much as 50 degrees Celsius (122 degrees Fahrenheit) overnight, Reuters reported on Monday.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T15:40:37+08:00"
+    },
+    {
+      "id": "77d4d70f3bd97a81cae36c231e91d8845e8486a7921a618eb3ffd16363a73e96",
+      "source": "CNBC",
+      "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
+      "publishedAtSgt": "2026-10-13T14:20:55+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "credit card giant Visa announced Tuesday it had received approval from the People's Bank of China for setting up a bank card clearing business in the country. \"This marks an important milestone toward the company serving China's domestic payments market,\" Visa said in a statement. Rival Mastercard's joint venture in China said it started processing payments in 2024 after getting the PBOC's approval to begin bank card clearing preparations in February 2020.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T15:40:37+08:00"
+    },
+    {
       "id": "efd53779629cbacc1b81217d4c41dcb40d2b16d98da775dbc557f0d82b9df7b3",
       "source": "CNBC",
       "title": "Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict",
@@ -183,6 +217,6 @@
       "collectedAtSgt": "2026-10-13T03:33:59+08:00"
     }
   ],
-  "articleCount": 11,
-  "updatedAtSgt": "2026-10-13T12:37:55+08:00"
+  "articleCount": 13,
+  "updatedAtSgt": "2026-10-13T15:40:37+08:00"
 }

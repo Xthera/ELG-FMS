@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-13T12:37:55+08:00",
+  "generatedAtSgt": "2026-10-13T15:40:37+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,40 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "093038395ff1fc45ce12baca7e2bc1319698b507b81588be26eb3bcb61a3c0dc",
+      "source": "CNBC",
+      "title": "Cyber attack hits hundreds of French supermarkets, heating fridges to 122°F and sparking fires",
+      "publishedAtSgt": "2026-10-13T14:44:00+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Hackers targeted hundreds of French supermarkets in a cyberattack that reportedly caused refrigerators and freezers to overheat, spoiling food and sparking fires. Fridges at French supermarket chains Carrefour, Monoprix, the Les Mousquetaires-owned Intermarché, and Coopérative U, among others, all saw fridges heat up to as much as 50 degrees Celsius (122 degrees Fahrenheit) overnight, Reuters reported on Monday.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T15:40:37+08:00"
+    },
+    {
+      "id": "77d4d70f3bd97a81cae36c231e91d8845e8486a7921a618eb3ffd16363a73e96",
+      "source": "CNBC",
+      "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
+      "publishedAtSgt": "2026-10-13T14:20:55+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "credit card giant Visa announced Tuesday it had received approval from the People's Bank of China for setting up a bank card clearing business in the country. \"This marks an important milestone toward the company serving China's domestic payments market,\" Visa said in a statement. Rival Mastercard's joint venture in China said it started processing payments in 2024 after getting the PBOC's approval to begin bank card clearing preparations in February 2020.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T15:40:37+08:00"
+    },
     {
       "id": "efd53779629cbacc1b81217d4c41dcb40d2b16d98da775dbc557f0d82b9df7b3",
       "source": "CNBC",
@@ -1560,37 +1594,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-07T03:31:57+08:00"
-    },
-    {
-      "id": "a54e6929a6fb0ccc033e7ce58dcfd497102474e9458b128507ef0d1b4dd9142f",
-      "source": "CNBC",
-      "title": "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it",
-      "publishedAtSgt": "2026-10-07T01:22:20+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/salesforce-shares-sit-at-the-epicenter-of-ai-confusion-heres-how-to-trade-it.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "If ever there was a stock that personified the promise and peril of the AI trade, it's Salesforce. The stock bottomed in late June, down more than 40% from the start of the year on fears that AI agents would make traditional software subscriptions obsolete. Like many other legacy SaaS names, Salesforce has reported strong financials, but many investors remain unconvinced the business can grow through an AI driven overhaul of enterprise software.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-07T03:31:57+08:00"
-    },
-    {
-      "id": "40584932f000f4b641cbdc413ae294a801d9f10e55091085b9011d21f2969af9",
-      "source": "CNBC",
-      "title": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
-      "publishedAtSgt": "2026-10-06T21:17:17+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Iran has stepped up its attacks on tankers transiting the Strait of Hormuz, threatening a fragile rebound of crude oil exports from the Persian Gulf. Crude oil shipments through Hormuz fluctuate daily, sometimes matching or even exceeding levels before the Iran war, according to data from Kpler, a firm that tracks tankers and global trade flows.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-06T21:38:00+08:00"
     }
   ]
 }
