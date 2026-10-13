@@ -5,6 +5,73 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "efd53779629cbacc1b81217d4c41dcb40d2b16d98da775dbc557f0d82b9df7b3",
+      "source": "CNBC",
+      "title": "Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict",
+      "publishedAtSgt": "2026-10-13T11:49:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/oil-prices-today-brent-wti-hormuz.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices fell Tuesday as investors weighed prospects of more Russian energy entering global markets, while concerns over the Saudi-Houthi conflict limited losses. In a Truth Social post, Trump said that the European Union had spent billions of dollars on Russian energy imports and insisted he had made the right decision for Americans.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T12:37:55+08:00"
+    },
+    {
+      "id": "d773371c395ba9f2f2f87e1b5db485ee9ffc0e814540fd884d1e724d2e4f9a2f",
+      "source": "CNBC",
+      "title": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
+      "publishedAtSgt": "2026-10-13T11:19:43+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "BANGKOK – The International Monetary Fund warned Tuesday that government bond yields could rise in a disorderly fashion, as rising inflation, mounting debt and AI-related borrowings pressure sovereign bond markets. Government bond yields in several advanced economies have climbed to multidecade highs, driven by higher energy costs due to the Middle East conflict and expectations for tighter monetary conditions as central banks look to curb resurgent inflation.",
+      "feeds": [
+        "latest",
+        "economy",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T12:37:55+08:00"
+    },
+    {
+      "id": "b3388d781cab11c558a8473e6ec2678d75999b9f4f5e3ffd85d6c81de2048353",
+      "source": "CNBC",
+      "title": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
+      "publishedAtSgt": "2026-10-13T10:49:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "semiconductor shares spilled into regional markets, with worries over artificial intelligence financing and intensifying competition denting sentiment. Shares of South Korean chip giant SK Hynix, a leading supplier of high-bandwidth memory chips used in artificial intelligence applications, plunged more than 8%, while rival Samsung Electronics shed 7.9% — both hit their lowest intra-day levels since August.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T12:37:55+08:00"
+    },
+    {
+      "id": "5cebc5646c759c3c1ea224a73f1729c2971ed380ec940f8dd1160001beec8fb0",
+      "source": "CNBC",
+      "title": "Six Flags shares plunge after-hours following report of deadly roller coaster incident",
+      "publishedAtSgt": "2026-10-13T10:29:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Six Flags Entertainment plunged more than 10% in after-hours trading Monday following reports of a deadly roller coaster incident at one of its amusement parks in Georgia, marking a sharp reversal from gains during the regular session. The stock had closed 4.5% higher during regular trading before the after-hours sell-off. The company's shares have fallen 22% year to date.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T12:37:55+08:00"
+    },
+    {
       "id": "ba826ebda82a56747f2cf7a06f0c4818475f7d658de8041ffd3af5b23b862150",
       "source": "CNBC",
       "title": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
@@ -116,6 +183,6 @@
       "collectedAtSgt": "2026-10-13T03:33:59+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-13T09:37:06+08:00"
+  "articleCount": 11,
+  "updatedAtSgt": "2026-10-13T12:37:55+08:00"
 }

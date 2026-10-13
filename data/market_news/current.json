@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-13T09:37:06+08:00",
+  "generatedAtSgt": "2026-10-13T12:37:55+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,73 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "efd53779629cbacc1b81217d4c41dcb40d2b16d98da775dbc557f0d82b9df7b3",
+      "source": "CNBC",
+      "title": "Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict",
+      "publishedAtSgt": "2026-10-13T11:49:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/oil-prices-today-brent-wti-hormuz.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices fell Tuesday as investors weighed prospects of more Russian energy entering global markets, while concerns over the Saudi-Houthi conflict limited losses. In a Truth Social post, Trump said that the European Union had spent billions of dollars on Russian energy imports and insisted he had made the right decision for Americans.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T12:37:55+08:00"
+    },
+    {
+      "id": "d773371c395ba9f2f2f87e1b5db485ee9ffc0e814540fd884d1e724d2e4f9a2f",
+      "source": "CNBC",
+      "title": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
+      "publishedAtSgt": "2026-10-13T11:19:43+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "BANGKOK – The International Monetary Fund warned Tuesday that government bond yields could rise in a disorderly fashion, as rising inflation, mounting debt and AI-related borrowings pressure sovereign bond markets. Government bond yields in several advanced economies have climbed to multidecade highs, driven by higher energy costs due to the Middle East conflict and expectations for tighter monetary conditions as central banks look to curb resurgent inflation.",
+      "feeds": [
+        "latest",
+        "economy",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T12:37:55+08:00"
+    },
+    {
+      "id": "b3388d781cab11c558a8473e6ec2678d75999b9f4f5e3ffd85d6c81de2048353",
+      "source": "CNBC",
+      "title": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
+      "publishedAtSgt": "2026-10-13T10:49:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "semiconductor shares spilled into regional markets, with worries over artificial intelligence financing and intensifying competition denting sentiment. Shares of South Korean chip giant SK Hynix, a leading supplier of high-bandwidth memory chips used in artificial intelligence applications, plunged more than 8%, while rival Samsung Electronics shed 7.9% — both hit their lowest intra-day levels since August.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T12:37:55+08:00"
+    },
+    {
+      "id": "5cebc5646c759c3c1ea224a73f1729c2971ed380ec940f8dd1160001beec8fb0",
+      "source": "CNBC",
+      "title": "Six Flags shares plunge after-hours following report of deadly roller coaster incident",
+      "publishedAtSgt": "2026-10-13T10:29:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Six Flags Entertainment plunged more than 10% in after-hours trading Monday following reports of a deadly roller coaster incident at one of its amusement parks in Georgia, marking a sharp reversal from gains during the regular session. The stock had closed 4.5% higher during regular trading before the after-hours sell-off. The company's shares have fallen 22% year to date.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T12:37:55+08:00"
+    },
     {
       "id": "ba826ebda82a56747f2cf7a06f0c4818475f7d658de8041ffd3af5b23b862150",
       "source": "CNBC",
@@ -1524,68 +1591,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-06T21:38:00+08:00"
-    },
-    {
-      "id": "bc2b2399c75e33ae10e5dd8722120db4555c398ca8d4089921a307a83ea33f55",
-      "source": "CNBC",
-      "title": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
-      "publishedAtSgt": "2026-10-06T21:07:57+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "trade deficit widened sharply in August amid an influx of goods related to the artificial intelligence buildout and the vagaries of import tariffs, the Commerce Department reported Tuesday. Imports swelled 4.3% for the month, pushing the total imbalance to $105.6 billion. That marked a 13.7% jump from July and was ahead of the Dow Jones consensus estimate for $102 billion.",
-      "feeds": [
-        "latest",
-        "economy"
-      ],
-      "collectedAtSgt": "2026-10-06T21:38:00+08:00"
-    },
-    {
-      "id": "7e30c13388cce84beb5937d52cfbc3b3e4f26a6cd2e4de6229569e1b9ce0aa13",
-      "source": "CNBC",
-      "title": "This startup wants to reduce liquidation risk from margin calls on prediction markets",
-      "publishedAtSgt": "2026-10-06T21:01:20+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/this-firm-aims-to-reduce-liquidation-risk-from-margin-calls-on-prediction-markets.html",
-      "category": "MARKET",
-      "relevanceScore": 100,
-      "relevanceReason": "financial_market_legal_story",
-      "summary": "It allows institutions to decide in advance how much capital to deploy, including setting limits on daily transactions executed by artificial intelligence agents and trading algorithms. The latest product comes as prediction market products face a roadblock: Perpetual futures — derivative contracts that never expire — trade nonstop, while traditional banking systems do not. Disclosure: CNBC and Kalshi have a commercial relationship that includes customer acquisition and a minority investment.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-06T21:38:01+08:00"
-    },
-    {
-      "id": "2154a29b716fe6c3d34780010eb8452ba457c9b1c0707207bf67f4d85d0f2d98",
-      "source": "CNBC",
-      "title": "DeepSeek considers doubling latest funding round to up to $15 billion, sources say",
-      "publishedAtSgt": "2026-10-06T20:59:10+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html",
-      "category": "MARKET",
-      "relevanceScore": 95,
-      "relevanceReason": "business_market_event",
-      "summary": "China's DeepSeek is considering expanding its latest funding round to as much as 100 billion yuan ($14.9 billion), double its earlier target, with state-backed funds and corporate investors jostling for stakes, people familiar with the matter told CNBC. The AI startup has fielded strong interest from state-backed funds, investment arms of listed Chinese companies and venture capital firms, according to the two people, who asked not to be named because they were not authorized to discuss the...",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-06T21:38:01+08:00"
-    },
-    {
-      "id": "859ff367e12db63c4145f505c147d120e7c25d0ec45bca5f3f6e19c697bf9940",
-      "source": "CNBC",
-      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-      "publishedAtSgt": "2026-10-06T20:47:59+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/06/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Who knew that oil prices and bond yields could actually go down? The maker of custom AI chips and networking gear could raise its long-term financial targets substantially, with big reverberations through the hyperscaler and chip worlds. They expect a strong quarter, led by Google Cloud revenue growth of 142% year over year, with some benefit from fledgling external sales of its custom AI chips known as TPUs.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-06T21:38:02+08:00"
     }
   ]
 }
