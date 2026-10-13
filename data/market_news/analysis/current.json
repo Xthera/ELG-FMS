@@ -1,10 +1,41 @@
 {
-  "generatedAtSgt": "2026-10-13T06:49:02.095539+08:00",
+  "generatedAtSgt": "2026-10-13T09:52:43.844402+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 179,
+  "articleCount": 180,
   "analyses": [
+    {
+      "articleId": "ba826ebda82a56747f2cf7a06f0c4818475f7d658de8041ffd3af5b23b862150",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "The CEO of Southeast Asia's largest bank pitches Singapore as a stable haven for investors amidst global volatility, trade wars, and geopolitical conflicts.",
+      "assetClasses": [
+        "Equities",
+        "Cash"
+      ],
+      "geographies": [
+        "Singapore",
+        "Southeast Asia"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Highlights Singapore's positioning as a safe haven asset destination for international capital during periods of heightened global macroeconomic and geopolitical uncertainty.",
+      "reasoning": "Classified as MARKET because it discusses regional investment attractiveness and market stability driven by financial sector commentary. Relevant for fund monitoring as it provides insights into capital flows toward safe-haven jurisdictions in Southeast Asia.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
+      "publishedAtSgt": "2026-10-13T09:26:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-13T09:37:06+08:00"
+    },
     {
       "articleId": "d06d5e6b5d26e9833f3fbdd7cb5e22ab0d84b4f70db53d7152b0f399af901805",
       "relevant": true,
