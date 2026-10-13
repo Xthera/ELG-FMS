@@ -5,6 +5,55 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "a36c2a5d5f53e174441c2655a47e2223f2c334372b15cd3ea0b54968b08bc24c",
+      "source": "CNBC",
+      "title": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+      "publishedAtSgt": "2026-10-13T18:01:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "UnitedHealth Group on Tuesday posted third-quarter earnings that blew past estimates and raised its full-year profit outlook, as the company continues to manage high medical costs and sees investments in value-based care and artificial intelligence take hold. UnitedHealth is working to stabilize margins by shrinking membership, exiting unprofitable contracts and ramping up investments in artificial intelligence and value-based care, which tie doctor and facility compensation to patient health...",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T18:38:09+08:00"
+    },
+    {
+      "id": "6521681b3f31865fdcd0a8498d1dc05a204f533d367a4eea2609f620880bad57",
+      "source": "CNBC",
+      "title": "SpaceX agrees to testify to NYC Council about AI safety after receiving subpoena",
+      "publishedAtSgt": "2026-10-13T17:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/spacex-agrees-to-testify-to-nyc-council-about-ai-safety-.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "SpaceX has agreed to testify before the New York City Council this week as part of a legislative investigation concerning artificial intelligence safety risks, the council announced on Tuesday. Julie Menin, council speaker, and Nwamaka Ejebe, general counsel, issued a subpoena to Elon Musk and SpaceX's AI unit on Sept.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-13T18:38:09+08:00"
+    },
+    {
+      "id": "1ce1f551956f3ad2f075ee4420e45fa02da820b009c5c17d14a982618f72cda9",
+      "source": "CNBC",
+      "title": "U.S. Treasury yields fall as energy prices pull back",
+      "publishedAtSgt": "2026-10-13T16:31:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bond yields fell on Tuesday after energy prices moved lower in early trade, as investors look ahead to key economic data releases this week, including the latest U.S. The slide in borrowing costs follows a sharp fall in oil prices Tuesday, as investors continue to gauge the prospect of more Russian diesel entering global energy markets following the U.S.-brokered so-called 'energy ceasefire' between Russia and Ukraine.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-13T18:38:09+08:00"
+    },
+    {
       "id": "093038395ff1fc45ce12baca7e2bc1319698b507b81588be26eb3bcb61a3c0dc",
       "source": "CNBC",
       "title": "Cyber attack hits hundreds of French supermarkets, heating fridges to 122°F and sparking fires",
@@ -217,6 +266,6 @@
       "collectedAtSgt": "2026-10-13T03:33:59+08:00"
     }
   ],
-  "articleCount": 13,
-  "updatedAtSgt": "2026-10-13T15:40:37+08:00"
+  "articleCount": 16,
+  "updatedAtSgt": "2026-10-13T18:38:09+08:00"
 }
