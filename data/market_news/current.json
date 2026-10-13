@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-13T18:38:09+08:00",
+  "generatedAtSgt": "2026-10-13T21:43:06+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,66 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "ae94aee5bb6ac6a97a0a3739b82a62880d61c9d90d8b001086a3050ebfc75300",
+      "source": "CNBC",
+      "title": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
+      "publishedAtSgt": "2026-10-13T21:33:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Legendary hedge fund manager Paul Tudor Jones told CNBC that next year could be a tough one for the stock market because of increased equity supply from big tech IPOs coming down the pipe, as well as a potential reckoning from the ballooning U.S. stock market that we've had, say, since 2002.\" The founder and chief investment officer of Tudor Investment said that corporate buybacks, along with mergers and acquisitions, have been a tailwind for the stock market for most of this four-year bull...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
+    {
+      "id": "67639e8b13d8b7fa7c7d1b50535f645d960decbb02c40dfeca1e506a6287e3dd",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "publishedAtSgt": "2026-10-13T20:54:50+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/13/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Broadcom CEO Hock Tan tried to explain why the market swings back and forth so much on the AI trade. At an event in Singapore, Tan said , \"A lot of investors have no clue what they are investing in.\" He added, \"[They] set very extreme expectations only to find that it is almost like they are in a casino.\" It's not demand that is hurting the stocks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
+    {
+      "id": "12c0e32aab3f06c67e991a5c1fb367af4e828c0ab2c31c6c250161719e5d9935",
+      "source": "CNBC",
+      "title": "JPMorgan's earnings miss, Delta delays Riyadh route, McDonald's chicken plans and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-13T20:42:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CEO Jamie Dimon said trading and investment banking activity in its Wall Street unit \"did moderate somewhat.\" - JPMorgan shares initially fell more than 3% in premarket trading. The stock pared its losses after the bank hiked its net interest income guidance for 2026. CEO Charlie Scharf said Wells Fargo's consumers remained resilient despite economic risks of \"higher interest rates, higher oil prices and persistent inflation.\" - Get live coverage of this morning's earnings here.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
+    {
+      "id": "f5db6a79c4aade90b4fb26a810e3e731f12ff102cc48915c7b0d483a97350c57",
+      "source": "CNBC",
+      "title": "The stock market is at a critical juncture. Wall Street is convinced it will resolve in the bulls' favor",
+      "publishedAtSgt": "2026-10-13T18:59:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/santoli-the-stock-market-is-at-a-critical-juncture.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "I don't subscribe to any inherent predictive value of the \"equity-risk premium,\" which subtracts the 10-year Treasury yield from the forward earnings yield of the S&P 500 to get a read on relative bond-stock attractiveness. Far more important to me will be how stocks respond to another quarter of probable blowout earnings growth from the AI complex.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
     {
       "id": "a36c2a5d5f53e174441c2655a47e2223f2c334372b15cd3ea0b54968b08bc24c",
       "source": "CNBC",
@@ -1535,68 +1595,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-07T12:34:48+08:00"
-    },
-    {
-      "id": "125ab71a8d3397be59d510c69403a6a5c5fa5d3045d188f5d5be24630b595367",
-      "source": "CNBC",
-      "title": "CNBC Daily Open: Fragile rebound in oil exports threatened by Iran attacks in Hormuz",
-      "publishedAtSgt": "2026-10-07T09:11:37+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/trump-hormuz-oil-diesel-iran-anthropic-ai.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "In stepping up attacks on tankers transiting through the Strait of Hormuz, Iran is threatening the recent precarious rebound in oil exports. Iran's move to step up attacks on tankers which are transiting through the Strait of Hormuz has led to renewed concerns over oil supplies among traders, as it threatens to disrupt the fragile rebound in oil exports through the crucial waterway.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-07T09:33:11+08:00"
-    },
-    {
-      "id": "857992382577f984b8efe3d20a80cc554f046ac42c8731c87243cb023148513e",
-      "source": "CNBC",
-      "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
-      "publishedAtSgt": "2026-10-07T06:23:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
-      "category": "MARKET",
-      "relevanceScore": 59,
-      "relevanceReason": "supporting_market_description",
-      "summary": "\"At the end of the day, oil and bond yields can be correlated, but so is the stock market and profits. And if the profits are there, which they have been, the stock market is going to be resilient, even if the economy is a bit more mixed,\" Shawn Snyder, economic strategist at Potomac Fund Management, told CNBC. Investor appetite for ambitious technology bets also became evident in June, when SpaceX raised $75 billion in the largest IPO ever and began trading on June 12.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-07T06:31:50+08:00"
-    },
-    {
-      "id": "c5291e591512ab33062a898d0faaa96517826e2161c077370c2a6556125769a0",
-      "source": "CNBC",
-      "title": "Cramer says these blue-chip stocks are among the best ways to invest in the AI boom",
-      "publishedAtSgt": "2026-10-07T06:13:04+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/jim-cramer-ai-stocks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "CNBC's Jim Cramer said Tuesday that some of the best ways to invest in the artificial intelligence boom are established tech giants with multiple opportunities to capitalize on the technology. Rather than backing away from a trade that continues to drive much of the market's gains, Cramer said he favors blue-chip companies with strong businesses and management teams that can find new ways to benefit from AI.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-07T06:31:50+08:00"
-    },
-    {
-      "id": "3b5ee8e780034b249c1fc4edf14e390e5510206c9cfa4b229392d4f180d728bf",
-      "source": "CNBC",
-      "title": "Meta may ditch the idea of a cloud business for Muse. We think that’s a good trade",
-      "publishedAtSgt": "2026-10-07T02:59:37+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/06/meta-may-ditch-the-idea-of-a-cloud-business-for-muse-we-think-thats-a-good-trade.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Shares struggled for much of the year as the Facebook and Instagram parent poured increasingly large sums into AI infrastructure without giving Wall Street enough evidence of how those investments would generate new revenue. The next year may still be dominated by AI spending rather than AI revenue, but we'd much rather see Meta use its computing power to build its own next growth engine than rent it out to someone else.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-07T03:31:58+08:00"
     }
   ]
 }

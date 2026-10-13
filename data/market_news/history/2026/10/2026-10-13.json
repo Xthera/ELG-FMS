@@ -5,6 +5,66 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "ae94aee5bb6ac6a97a0a3739b82a62880d61c9d90d8b001086a3050ebfc75300",
+      "source": "CNBC",
+      "title": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
+      "publishedAtSgt": "2026-10-13T21:33:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Legendary hedge fund manager Paul Tudor Jones told CNBC that next year could be a tough one for the stock market because of increased equity supply from big tech IPOs coming down the pipe, as well as a potential reckoning from the ballooning U.S. stock market that we've had, say, since 2002.\" The founder and chief investment officer of Tudor Investment said that corporate buybacks, along with mergers and acquisitions, have been a tailwind for the stock market for most of this four-year bull...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
+    {
+      "id": "67639e8b13d8b7fa7c7d1b50535f645d960decbb02c40dfeca1e506a6287e3dd",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "publishedAtSgt": "2026-10-13T20:54:50+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/13/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Broadcom CEO Hock Tan tried to explain why the market swings back and forth so much on the AI trade. At an event in Singapore, Tan said , \"A lot of investors have no clue what they are investing in.\" He added, \"[They] set very extreme expectations only to find that it is almost like they are in a casino.\" It's not demand that is hurting the stocks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
+    {
+      "id": "12c0e32aab3f06c67e991a5c1fb367af4e828c0ab2c31c6c250161719e5d9935",
+      "source": "CNBC",
+      "title": "JPMorgan's earnings miss, Delta delays Riyadh route, McDonald's chicken plans and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-13T20:42:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CEO Jamie Dimon said trading and investment banking activity in its Wall Street unit \"did moderate somewhat.\" - JPMorgan shares initially fell more than 3% in premarket trading. The stock pared its losses after the bank hiked its net interest income guidance for 2026. CEO Charlie Scharf said Wells Fargo's consumers remained resilient despite economic risks of \"higher interest rates, higher oil prices and persistent inflation.\" - Get live coverage of this morning's earnings here.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
+    {
+      "id": "f5db6a79c4aade90b4fb26a810e3e731f12ff102cc48915c7b0d483a97350c57",
+      "source": "CNBC",
+      "title": "The stock market is at a critical juncture. Wall Street is convinced it will resolve in the bulls' favor",
+      "publishedAtSgt": "2026-10-13T18:59:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/santoli-the-stock-market-is-at-a-critical-juncture.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "I don't subscribe to any inherent predictive value of the \"equity-risk premium,\" which subtracts the 10-year Treasury yield from the forward earnings yield of the S&P 500 to get a read on relative bond-stock attractiveness. Far more important to me will be how stocks respond to another quarter of probable blowout earnings growth from the AI complex.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
+    {
       "id": "a36c2a5d5f53e174441c2655a47e2223f2c334372b15cd3ea0b54968b08bc24c",
       "source": "CNBC",
       "title": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
@@ -266,6 +326,6 @@
       "collectedAtSgt": "2026-10-13T03:33:59+08:00"
     }
   ],
-  "articleCount": 16,
-  "updatedAtSgt": "2026-10-13T18:38:09+08:00"
+  "articleCount": 20,
+  "updatedAtSgt": "2026-10-13T21:43:06+08:00"
 }
