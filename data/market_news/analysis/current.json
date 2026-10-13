@@ -1,10 +1,98 @@
 {
-  "generatedAtSgt": "2026-10-13T21:59:26.590752+08:00",
+  "generatedAtSgt": "2026-10-14T01:00:10.156351+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 191,
+  "articleCount": 189,
   "analyses": [
+    {
+      "articleId": "59a13c5bfe46e2ceabca508372af98604b264511cf5da6c3c30fd0660deba749",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Stocks declined on Tuesday as investors reacted to major bank earnings and severe pressure on memory stocks like Micron, although Goldman Sachs posted a strong earnings beat and received a positive buy recommendation from Jim Cramer.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "Investors face mixed market signals with broader equity market negativity and pressure on tech/memory stocks counterbalanced by strong individual bank earnings and select buy opportunities.",
+      "reasoning": "The article discusses recent stock market movements, sector-specific pressures in technology, and major bank earnings reports, making it relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer bucks all the stock market negativity with 3 buy recommendations",
+      "publishedAtSgt": "2026-10-14T00:07:20+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/13/jim-cramer-bucks-all-the-stock-market-negativity-with-3-buy-recommendations.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T00:37:55+08:00"
+    },
+    {
+      "articleId": "17c4a49632bc7a63217f58e84385e40d9d1e656adce88e04e1c2330fa7e17411",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Anthropic is set to disclose new revenue figures ahead of a potential IPO, while chip stocks fell due to concerns regarding the durability of AI financing.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors are closely watching upcoming financial disclosures from AI labs like Anthropic to gauge growth and profitability ahead of potential IPOs, while broader worries over AI financing durability are weighing on chip stocks.",
+      "reasoning": "The article is classified as MARKET because it directly addresses financial disclosures of a major AI lab and their impact on market sentiment for chip stocks and the broader tech trade, making it highly relevant for monitoring investment exposure to artificial intelligence.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+      "publishedAtSgt": "2026-10-13T22:55:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T00:37:59+08:00"
+    },
+    {
+      "articleId": "b5ec9bd5345344bd271e46d8af4397dd0edfbc4a8df11686152554d00e5613bf",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Thousands of homeowners with adjustable-rate mortgages (ARMs) face significant payment increases as their rates reset, with hundreds of thousands of borrowers scheduled for adjustments between this year and 2028 according to ICE Mortgage Technology.",
+      "assetClasses": [
+        "Real Estate",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Financials"
+      ],
+      "investorImpact": "Higher monthly mortgage payments for a large group of consumers could squeeze household disposable income, potentially impacting consumer discretionary sectors and increasing credit risk or delinquency rates for residential mortgage-backed securities and lenders.",
+      "reasoning": "Classified as ECONOMIC because it pertains to consumer finance, housing market stress, and broader monetary impacts on household cash flows. Sentiment is NEGATIVE due to impending higher payments for homeowners, and importance is MEDIUM as it affects specific consumer cohorts and housing-related assets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments",
+      "publishedAtSgt": "2026-10-13T21:35:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/arm-mortgage-borrowers-rate-adjustment.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T00:37:59+08:00"
+    },
     {
       "articleId": "ae94aee5bb6ac6a97a0a3739b82a62880d61c9d90d8b001086a3050ebfc75300",
       "relevant": true,
@@ -58,6 +146,65 @@
       "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
       "publishedAtSgt": "2026-10-13T20:54:50+08:00",
       "url": "https://www.cnbc.com/investingclub/2026/10/13/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
+    {
+      "articleId": "12c0e32aab3f06c67e991a5c1fb367af4e828c0ab2c31c6c250161719e5d9935",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "JPMorgan reported an earnings miss and noted some moderation in trading and investment banking activity, causing shares to initially fall before paring losses due to an upward revision in 2026 net interest income guidance. Meanwhile, Wells Fargo highlighted consumer resilience despite risks like higher interest rates, higher oil prices, and persistent inflation.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Major banking earnings provide critical signals regarding corporate health, consumer resilience, and trading activity, directly influencing financial sector valuations and broader market sentiment.",
+      "reasoning": "The article details major banking sector earnings reports, including JPMorgan's earnings miss and revised guidance along with Wells Fargo's consumer commentary, which are highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "JPMorgan's earnings miss, Delta delays Riyadh route, McDonald's chicken plans and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-13T20:42:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/5-things-to-know-before-the-stock-market-opens.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-13T21:43:06+08:00"
+    },
+    {
+      "articleId": "f5db6a79c4aade90b4fb26a810e3e731f12ff102cc48915c7b0d483a97350c57",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Wall Street sentiment favors a bullish resolution for the stock market at its current critical juncture, driven heavily by upcoming blowout earnings expectations from the AI sector rather than traditional metrics like the equity-risk premium.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors should monitor upcoming quarterly corporate earnings, particularly within the AI complex, as these will likely serve as the primary catalyst for the stock market's near-term direction.",
+      "reasoning": "Classified as MARKET because it discusses overall Wall Street sentiment and stock market direction. Sentiment is POSITIVE reflecting bullish expectations driven by AI earnings. Importance is MEDIUM as it provides macroeconomic market context without specific portfolio actions required immediately.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The stock market is at a critical juncture. Wall Street is convinced it will resolve in the bulls' favor",
+      "publishedAtSgt": "2026-10-13T18:59:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/santoli-the-stock-market-is-at-a-critical-juncture.html",
       "collectorCategory": "MARKET",
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
@@ -5561,216 +5708,6 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-02T12:09:46+08:00"
-    },
-    {
-      "articleId": "ad8b69469d3a5c6f00ca3a111ce6ebe2411dd75b7fe1ccb48705ce50f4c37fcb",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "The Federal Reserve's preferred inflation gauge, the core PCE price index, registered at 3.0% in August, coming in much lighter than expected and easing concerns over surging bond yields while bolstering the case for monetary policy moderation.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "The softer-than-expected inflation reading provides relief to investors concerned about rising bond yields and potential near-term Federal Reserve rate hikes, supporting equity market sentiment and stabilizing fixed-income valuations.",
-      "reasoning": "Classified as ECONOMIC because it reports core inflation data critical to Federal Reserve policy decisions. It is HIGH importance and fund-monitoring relevant due to its broad implications for interest rate trajectories and asset pricing.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Fed’s preferred gauge showed core inflation at 3.0% in August, much lighter than expected",
-      "publishedAtSgt": "2026-09-30T23:14:57+08:00",
-      "url": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
-    },
-    {
-      "articleId": "b47415b24012c7266d330c692e2ddbe177516d4294bceb3dc9307662a14efdee",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Morning briefing highlighting investigations into a Fed insider passing information to a Chinese spy, OpenAI product debuts and IPO discussions, and 30-year Treasury bond yields hitting highs not seen since 2002, which weighed down stocks.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States",
-        "China"
-      ],
-      "sectors": [
-        "Financials",
-        "Technology"
-      ],
-      "investorImpact": "Rising long-term bond yields create downward pressure on equities by increasing borrowing costs, while geopolitical risks surrounding the Federal Reserve and high-profile tech developments impact market sentiment.",
-      "reasoning": "The article covers critical macroeconomic movements, specifically soaring long-term Treasury yields impacting stocks, alongside notable market and geopolitical developments relevant to fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "An inside man at the Fed, OpenAI debuts Dots, an IPO trend and more in Morning Squawk",
-      "publishedAtSgt": "2026-09-30T23:01:15+08:00",
-      "url": "https://www.cnbc.com/2026/09/30/5-things-to-know-before-the-stock-market-opens.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
-    },
-    {
-      "articleId": "00b4678727e70c0653156c1bd9208b74e09210590eba978d7fe2516fb1e89e3c",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Robinhood announced at its HOOD Summit that it is expanding trading hours to include weekends, adding crypto perpetuals, and introducing AI-powered automated trading tools to target active traders and evolve into a more comprehensive platform.",
-      "assetClasses": [
-        "Equities",
-        "Cryptocurrency"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials",
-        "Technology"
-      ],
-      "investorImpact": "The expansion into nonstop trading, crypto derivatives, and AI automation highlights ongoing technological innovation within retail brokerages, potentially increasing engagement and trading volumes for Robinhood while intensifying competition in the sector.",
-      "reasoning": "The article is classified under TECHNOLOGY because it focuses on platform enhancements, AI agents, and product expansions by a major brokerage. It is relevant to fund monitoring as it illustrates competitive shifts and technological trends within fintech and retail brokerage services.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Robinhood unveils weekend hours, AI agents to allow users to trade nonstop",
-      "publishedAtSgt": "2026-09-30T21:56:14+08:00",
-      "url": "https://www.cnbc.com/2026/09/30/robinhood-unveils-weekend-hours-ai-agents-to-allow-users-to-trade-nonstop.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-02T12:10:02+08:00"
-    },
-    {
-      "articleId": "02dafeeefb638245121b0e466e6a7b82ce6fa07b678e0499fefdf642b3fbd3dc",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "Bain & Company's annual forecast projects holiday retail sales will top $1 trillion for the first time with a 4.5% growth rate, though most of this growth is driven by rising inflation rather than actual unit volume increases.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Retail",
-        "Consumer Discretionary"
-      ],
-      "investorImpact": "Investors should note that headline retail sales growth may be misleadingly high due to inflation, indicating thinner real volume growth for consumer goods companies despite strong nominal sales figures.",
-      "reasoning": "Classified as ECONOMIC because it deals with macro-level retail sales forecasts and inflation impacts. Sentiment is MIXED as headline nominal growth is strong ($1 trillion milestone), but real unit growth is thin. It is relevant for fund monitoring within the consumer and retail sectors.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Holiday retail sales are expected to top $1 trillion as inflation boosts growth",
-      "publishedAtSgt": "2026-09-30T20:48:46+08:00",
-      "url": "https://www.cnbc.com/2026/09/30/holiday-retail-sales-inflation.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 102,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-10-02T12:09:46+08:00"
-    },
-    {
-      "articleId": "8f282b831095eccbe524e372fb701f837fe08c0b294e2434d4db109edf6edb5d",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "OpenAI has entered the personal AI agent market with the launch of Dots, following Meta's recent release of its Muse AI agent. The competitive push into AI agents has driven investor enthusiasm, notably sending Meta's stock up 29% in September.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global",
-        "United States"
-      ],
-      "sectors": [
-        "Technology"
-      ],
-      "investorImpact": "The article highlights how artificial intelligence product launches, specifically personal agents, can drive significant investor interest and positive stock performance in major tech companies like Meta.",
-      "reasoning": "The article is classified as TECHNOLOGY because it discusses new AI agent releases by OpenAI and Meta. It is relevant for fund monitoring as it touches on market trends and sector performance driven by AI advancements.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "OpenAI follows Meta into the red-hot market for personal agents. But will users pay?",
-      "publishedAtSgt": "2026-09-30T20:04:46+08:00",
-      "url": "https://www.cnbc.com/2026/09/30/openai-follows-meta-into-the-red-hot-market-for-personal-agents.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 52,
-      "collectorRelevanceReason": "supporting_technology_description",
-      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
-    },
-    {
-      "articleId": "841bf24ce028961592ce93977898becc887f08b314e8cf492ab6fb47fecf154b",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "China has introduced three new criteria for humanoid robot IPOs, a move that indicates the cooling of a major market sector as global investors evaluate potential AI bubbles. High valuation-to-revenue ratios, particularly for Chinese startups, have raised concerns compared to U.S. counterparts.",
-      "assetClasses": [
-        "Equities",
-        "Private Equity",
-        "Venture Capital"
-      ],
-      "geographies": [
-        "China",
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Robotics",
-        "Artificial Intelligence"
-      ],
-      "investorImpact": "The tightening of IPO criteria for humanoid robotics and high valuation scrutiny in China may restrict exit opportunities for early-stage investors and signal a broader cooling in AI-related valuations.",
-      "reasoning": "Classified as MARKET due to its focus on IPO criteria, startup valuations, and investor sentiment regarding AI and robotics sectors. Importance is HIGH because regulatory hurdles on IPOs directly impact venture capital exits and sector liquidity.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "China has three new criteria for humanoid robot IPOs. Few, if any, meet them",
-      "publishedAtSgt": "2026-09-30T10:50:35+08:00",
-      "url": "https://www.cnbc.com/2026/09/29/china-criteria-humanoid-robot-ipos.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-02T12:09:48+08:00"
-    },
-    {
-      "articleId": "ec5b14fa7fc342f87f9dc2e6e2a72d1ef2279d69391c2f81f5a78a724c14473a",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEUTRAL",
-      "importance": "HIGH",
-      "summary": "The upcoming release of the personal consumption expenditures price index, the Fed's primary inflation gauge, is expected to show increases of 0.3% at both all-items and core levels.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "Investors are closely watching the PCE price index release as it heavily influences Federal Reserve monetary policy and future interest rate decisions.",
-      "reasoning": "The article discusses a key macroeconomic data release that directly impacts central bank policy, making it critical for market monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
-      "publishedAtSgt": "2026-09-30T04:51:43+08:00",
-      "url": "https://www.cnbc.com/2026/09/29/the-feds-main-inflation-measure-will-be-released-wednesday-heres-what-to-expect.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-10-02T23:53:12+08:00"
     }
   ]
 }
