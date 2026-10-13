@@ -1,10 +1,101 @@
 {
-  "generatedAtSgt": "2026-10-14T01:00:10.156351+08:00",
+  "generatedAtSgt": "2026-10-14T04:03:51.649534+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 189,
+  "articleCount": 192,
   "analyses": [
+    {
+      "articleId": "b42a7f7c487b977f09d73b0ad7736bc17ef4472b45b44bcb41457607e4f13d2b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Meta shares rose for a second consecutive day driven by an impressive new AI model family, even as broader stocks traded lower and key members of the AI buildout trade struggled ahead of the upcoming Fed Beige Book release.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Investors see divergence within the technology sector, where specific companies like Meta benefit from strong AI model updates despite broader market weakness and wobbling sentiment in the wider AI buildout trade.",
+      "reasoning": "The article is classified as MARKET because it discusses stock price movements, sector performance, and broader market conditions, with mixed sentiment reflecting individual tech strength against broader market declines.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta shares rise for a second straight day as new AI model family impresses",
+      "publishedAtSgt": "2026-10-14T02:55:33+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T03:48:14+08:00"
+    },
+    {
+      "articleId": "fb9dcbe418b17799d7d83d3c85aa0d3962596c873e00a7f0d682873e6ef6d294",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Latest inflation data is expected to show accelerating price increases, with core inflation projected to rise 0.2% monthly and 2.5% annually. Energy costs and sticky oil prices continue to be major drivers, potentially impacting costs across other non-energy categories.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Energy"
+      ],
+      "investorImpact": "Accelerating inflation and sticky energy costs can pressure profit margins, influence Federal Reserve interest rate expectations, and increase bond yield volatility, impacting overall portfolio valuations.",
+      "reasoning": "The article discusses incoming consumer price index data, energy price pressures, and inflation trends, which are core macroeconomic indicators vital for market and portfolio risk monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The latest inflation data is expected to show price increases are accelerating",
+      "publishedAtSgt": "2026-10-14T02:05:57+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-14T03:48:14+08:00"
+    },
+    {
+      "articleId": "641c076fbd72a22d7dfd656f5009bd7477f798ea526bc1c30c94436079758fea",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Despite record highs for the Magnificent Seven, the AI trade shows cracks with neocloud stocks hit by OpenAI revenue growth concerns and chip stocks selling off due to Chinese competition fears. Major upcoming risks include the CPI release, major bank earnings, Taiwan Semiconductor earnings, Microsoft and Alphabet earnings, and an upcoming Fed decision.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "US",
+        "Taiwan"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors",
+        "Financials"
+      ],
+      "investorImpact": "Investors face heightened volatility in AI-related equities and tech hardware as market leadership shows signs of strain, coinciding with a heavy macroeconomic and earnings calendar.",
+      "reasoning": "Classified as MARKET due to its direct focus on stock performance, sector rotations, and trading risks. Sentiment is MIXED as record highs contrast with emerging cracks in the AI trade and upcoming macroeconomic catalysts.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The AI trade is cracking. Here's how to profit",
+      "publishedAtSgt": "2026-10-14T00:44:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T03:48:14+08:00"
+    },
     {
       "articleId": "59a13c5bfe46e2ceabca508372af98604b264511cf5da6c3c30fd0660deba749",
       "relevant": true,
