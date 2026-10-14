@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-14T06:45:46+08:00",
+  "generatedAtSgt": "2026-10-14T09:43:56+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,87 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "1695484a07ff07a3b45a18573d5b3a4a2ed14073ea86f2e19ecaedd0fe385662",
+      "source": "CNBC",
+      "title": "China's exports likely grew by double-digits in September",
+      "publishedAtSgt": "2026-10-14T09:16:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Imports for September were forecast to slow to 24.5% year-on-year growth, down from 28.2% in August, the poll showed. Earlier this year, China's exports and imports each grew at their fastest pace in five years. A surge in demand for China-made parts for data centers to power artificial intelligence has helped fuel exports, along with stabilization in tensions with the U.S., China's largest trading partner on a single-country basis.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T09:43:55+08:00"
+    },
+    {
+      "id": "9abe7fb7b44cd59f0e9e127b0e1ab60ba217c231dc86edbcac20ee36b02228c1",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: Diesel deal may not be enough to curb high energy prices",
+      "publishedAtSgt": "2026-10-14T09:09:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/cnbc-daily-open-diesel-energy-apple-anthropic-imf.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "banks like JPMorgan Chase, Wells Fargo, Goldman Sachs and Citigroup are posting mixed financial results amid concerns including growing borrowing costs, AI and high oil prices. Investors are keeping a close eye on the outlook of interest rates, after New York Federal Reserve President John Williams' recent comments put him at odds with the broader market and some other central bank members.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T09:43:56+08:00"
+    },
+    {
+      "id": "a7e64b15720dea128b02752d3644657d241f767564bff5fec1808586184a65ee",
+      "source": "CNBC",
+      "title": "Singapore third-quarter GDP growth softens from four-year high but beats estimates",
+      "publishedAtSgt": "2026-10-14T08:28:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/singapore-gdp-q3.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Singapore's economic expansion decelerated in the third quarter of 2026, with GDP growth dropping to 5.4% after hitting a four-year high in the last quarter. Singapore back in August had lifted its annual economic growth forecast as AI-related sectors and exports powered its economy to beat expectations for the first two quarters of the year.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T09:43:55+08:00"
+    },
+    {
+      "id": "bdf6f1188c14cb253ca3d66d519a56be86f226833f6ba08ce71549b2e35e96c7",
+      "source": "CNBC",
+      "title": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
+      "publishedAtSgt": "2026-10-14T07:05:12+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "BEIJING — Equity investors are skeptical of Chinese companies' rapid expansion overseas, according to Goldman Sachs. The \"market wants to look for profitable expansions,\" Trina Chen, co-head of Greater China equity research at Goldman Sachs Research, said on a podcast that the investment bank published Tuesday.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T09:43:56+08:00"
+    },
+    {
+      "id": "a1da7d0e0bffbdd4431917fd1dc75636d3673592198b47c3948566322cd9611d",
+      "source": "CNBC",
+      "title": "Here's where Jim Cramer stands on this newly public AI infrastructure stock",
+      "publishedAtSgt": "2026-10-14T06:47:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/jim-cramer-accelevation-stock.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "There's a new picks-and-shovels play on the artificial intelligence build-out, but CNBC's Jim Cramer said Tuesday that investors should keep the stock at arm's length. The \"Mad Money\" host gave two primary reasons for holding off on Accelevation Holdings: He's becoming more cautious about data center stocks ahead of the midterm elections and prefers established companies with proven track records.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-14T09:43:56+08:00"
+    },
     {
       "id": "6ff63d635bb3b2b1db4cd60c47b0d1c5d38b899e1e8859f7fa9fe3ace080d3a6",
       "source": "CNBC",
@@ -1510,88 +1591,6 @@
         "business"
       ],
       "collectedAtSgt": "2026-10-08T03:32:58+08:00"
-    },
-    {
-      "id": "0b7931a8be02be61f0184f735b2786a52edeec9629ee69b83cd542fb52b22935",
-      "source": "CNBC",
-      "title": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
-      "publishedAtSgt": "2026-10-08T02:55:10+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 83,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Microsoft said its new laptop containing an Nvidia AI chip will start at $2,599, as the software maker tries to bring more artificial intelligence capabilities to its consumer devices. As the AI boom matures and chip technology advances, tech giants including Microsoft, Apple and Google are aiming to allow users to run more AI workloads from their devices rather than relying on the cloud.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
-    },
-    {
-      "id": "efec4a58773d665c524112a9d53651d0a0223ac331deed2591896d49029b2aba",
-      "source": "CNBC",
-      "title": "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
-      "publishedAtSgt": "2026-10-08T02:19:53+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The market closed at record highs Tuesday as investors bet that AI capex — a major force for the markets and economy — won't be derailed by higher bond yields. \"Investors should remain positioned for market upside, and we forecast the S&P 500 to reach 8,400 by June next year,\" said Ulrike Hoffmann-Burchardi, CIO Americas and Global Head of Equities for UBS Chief Investment Office in a note on Wednesday.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
-    },
-    {
-      "id": "2436a58842b160e5ee2f096b3c26a635307a7821ea4fab8238b909c6fb7308b8",
-      "source": "CNBC",
-      "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
-      "publishedAtSgt": "2026-10-08T00:32:30+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/spacex-nvidia-chips-apollo-financing.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "CNBC was told at the time that SpaceX's bond sale saw incredibly high demand, highlighting strong interest from fixed-income investors. While a bond deal of this size is notable, it follows a series of bond issuances from Meta, Amazon and Google as the cost to fund the AI buildout gets more expensive.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
-    },
-    {
-      "id": "c115ad42df074921bf481b238dd2f349887081688c73a5f48d560d41a94628d8",
-      "source": "CNBC",
-      "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
-      "publishedAtSgt": "2026-10-08T00:18:22+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "The central bank's Survey of Consumer Expectations indicated that the median view for inflation over the next 12 months rose to 3.9%, up 0.3 percentage point from August and the highest level since May 2023, when the figure was at 4.1%. The results come with Fed officials grappling over the proper setting of monetary policy as inflation holds well above the central bank's 2% target. Surging energy costs are at the core of the inflation problem.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-08T00:36:57+08:00"
-    },
-    {
-      "id": "f8adf627601199801f0e7d6186aba090e3781da0130a3b197ef7c8494702516c",
-      "source": "CNBC",
-      "title": "Stocks made a record high. Two big bearish trades point to skepticism",
-      "publishedAtSgt": "2026-10-07T21:59:16+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/stocks-made-a-record-high-two-big-bearish-trades-point-to-skepticism.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "\"The vol is fairly low.\" Cboe's VIX Index did slip below 15 at one point Tuesday, meaning options generally got cheaper, but the put spread was the biggest trade in SPY on a day where options volume was more than 20% higher than the 30-day average. The bulky trade, which starts making money if the S&P 500 drops more than 18%, was about four times bigger than the next-biggest trade, a net $11 million call spread, SpotGamma data show.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-08T00:37:01+08:00"
     }
   ]
 }

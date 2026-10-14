@@ -5,6 +5,87 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "1695484a07ff07a3b45a18573d5b3a4a2ed14073ea86f2e19ecaedd0fe385662",
+      "source": "CNBC",
+      "title": "China's exports likely grew by double-digits in September",
+      "publishedAtSgt": "2026-10-14T09:16:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Imports for September were forecast to slow to 24.5% year-on-year growth, down from 28.2% in August, the poll showed. Earlier this year, China's exports and imports each grew at their fastest pace in five years. A surge in demand for China-made parts for data centers to power artificial intelligence has helped fuel exports, along with stabilization in tensions with the U.S., China's largest trading partner on a single-country basis.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T09:43:55+08:00"
+    },
+    {
+      "id": "9abe7fb7b44cd59f0e9e127b0e1ab60ba217c231dc86edbcac20ee36b02228c1",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: Diesel deal may not be enough to curb high energy prices",
+      "publishedAtSgt": "2026-10-14T09:09:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/cnbc-daily-open-diesel-energy-apple-anthropic-imf.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "banks like JPMorgan Chase, Wells Fargo, Goldman Sachs and Citigroup are posting mixed financial results amid concerns including growing borrowing costs, AI and high oil prices. Investors are keeping a close eye on the outlook of interest rates, after New York Federal Reserve President John Williams' recent comments put him at odds with the broader market and some other central bank members.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T09:43:56+08:00"
+    },
+    {
+      "id": "a7e64b15720dea128b02752d3644657d241f767564bff5fec1808586184a65ee",
+      "source": "CNBC",
+      "title": "Singapore third-quarter GDP growth softens from four-year high but beats estimates",
+      "publishedAtSgt": "2026-10-14T08:28:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/singapore-gdp-q3.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Singapore's economic expansion decelerated in the third quarter of 2026, with GDP growth dropping to 5.4% after hitting a four-year high in the last quarter. Singapore back in August had lifted its annual economic growth forecast as AI-related sectors and exports powered its economy to beat expectations for the first two quarters of the year.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T09:43:55+08:00"
+    },
+    {
+      "id": "bdf6f1188c14cb253ca3d66d519a56be86f226833f6ba08ce71549b2e35e96c7",
+      "source": "CNBC",
+      "title": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
+      "publishedAtSgt": "2026-10-14T07:05:12+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "BEIJING — Equity investors are skeptical of Chinese companies' rapid expansion overseas, according to Goldman Sachs. The \"market wants to look for profitable expansions,\" Trina Chen, co-head of Greater China equity research at Goldman Sachs Research, said on a podcast that the investment bank published Tuesday.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T09:43:56+08:00"
+    },
+    {
+      "id": "a1da7d0e0bffbdd4431917fd1dc75636d3673592198b47c3948566322cd9611d",
+      "source": "CNBC",
+      "title": "Here's where Jim Cramer stands on this newly public AI infrastructure stock",
+      "publishedAtSgt": "2026-10-14T06:47:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/jim-cramer-accelevation-stock.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "There's a new picks-and-shovels play on the artificial intelligence build-out, but CNBC's Jim Cramer said Tuesday that investors should keep the stock at arm's length. The \"Mad Money\" host gave two primary reasons for holding off on Accelevation Holdings: He's becoming more cautious about data center stocks ahead of the midterm elections and prefers established companies with proven track records.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-14T09:43:56+08:00"
+    },
+    {
       "id": "6ff63d635bb3b2b1db4cd60c47b0d1c5d38b899e1e8859f7fa9fe3ace080d3a6",
       "source": "CNBC",
       "title": "Jim Cramer isn't giving up on semiconductor stocks despite the sell off. Here's why",
@@ -113,6 +194,6 @@
       "collectedAtSgt": "2026-10-14T00:37:55+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-14T06:45:46+08:00"
+  "articleCount": 12,
+  "updatedAtSgt": "2026-10-14T09:43:56+08:00"
 }
