@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-14T17:33:31+08:00",
+  "generatedAtSgt": "2026-10-14T23:12:00+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,134 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "8ed00ac1b16f0bc2cb704e342fc293080a237565d8143cce1e0c44b8d7f716ba",
+      "source": "CNBC",
+      "title": "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
+      "publishedAtSgt": "2026-10-14T23:00:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of the bank fell as much as 8% in morning trading. The trading disappointment comes after CEO Brian Moynihan told analysts last month that trading revenue would be roughly flat; instead the combined bond and stock trading results fell by 5%. Net interest income, a key profitability driver watched closely by Bank of America investors, rose 7.9% to $16.6 billion, slightly edging out the $16.53 billion StreetAccount estimate.",
+      "feeds": [
+        "latest",
+        "business",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:58+08:00"
+    },
+    {
+      "id": "4d4280d28ec839d6c32cfb681147f19b37f096996fd93af50daa088b13da2de3",
+      "source": "CNBC",
+      "title": "Here's the inflation breakdown for September 2026 — in one chart",
+      "publishedAtSgt": "2026-10-14T22:56:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The inflation rate increased in September on the back of higher gasoline and energy prices amid the Iran war, further squeezing households' budgets and perhaps putting pressure on the Federal Reserve to raise interest rates, economists said. central bank, which uses interest-rate policy as a lever to control the trajectory of inflation — may choose to increase its benchmark interest rate at upcoming policy meetings to rein in persistently high inflation, economists said.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:58+08:00"
+    },
+    {
+      "id": "a09df48d3643844f737786decb22f9e4305ebcdc8576d762391b9711ac9050ca",
+      "source": "CNBC",
+      "title": "Bending Spoons skyrockets 35% as Berkshire Hathaway makes $330 million investment",
+      "publishedAtSgt": "2026-10-14T22:39:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/berkshire-hathaway-investment-bending-spoons.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Bending Spoons skyrocketed 35% after a new securities filing revealed that Berkshire Hathaway made a fresh $330 million investment into the company. The latest infusion follows the conglomerate's $600 million investment from July, when the Italy-based serial acquirer went public on the Nasdaq.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "id": "a7959648d7369708387461dd7dd27dbb670151d3086450f43136f6c841672b64",
+      "source": "CNBC",
+      "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
+      "publishedAtSgt": "2026-10-14T21:11:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Morgan Stanley posted third-quarter results that beat expectations on blockbuster results in its equities trading franchise. The firm's equities trading division, long a marquee business for Morgan Stanley, posted a 41% increase in revenue to $5.8 billion, exceeding the StreetAccount estimate by about $909 million. Morgan Stanley cited widespread strength across its equities products and regions, but cited Asia as a source of particular strength in the quarter.",
+      "feeds": [
+        "latest",
+        "business",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "id": "e7649a58d3aadabe423583473d6adc125505123a28f0199b96dc1961c43e3eba",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+      "publishedAtSgt": "2026-10-14T20:59:49+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/14/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bond yields are jumping , stock futures are falling , and odds of a Federal Reserve rate hike later this month are increasing. The analysts said the DuPont spinoff's array of materials crucial to AI chip manufacturing and packaging is \"supportive of durable above-market growth.\" This is what we have been waiting for — more coverage and recognition of this Club name's key role in the semiconductor supply chain.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "id": "f18696246144a8f7d475c88138e66856e81b58d04a11dbcf225397896c78822d",
+      "source": "CNBC",
+      "title": "Inflation data, Bank of America's penalty, Apple's new home hub and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-14T20:45:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "- Rising energy costs have been a significant driver of inflation since the Iran war began in February. Oil prices are higher this morning after the International Energy Agency said it expects diesel supply to remain squeezed into the second half of next year. - Ahead of today's data, New York Federal Reserve President John Williams told Bloomberg News he sees \"disinflationary forces at play\" and that the central bank may not have to raise rates in 2027.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-14T23:12:00+08:00"
+    },
+    {
+      "id": "9687c09f1fb558ca0eedb660915f42daee85dfaf17b6cfd64cc0bf01e9efb8b6",
+      "source": "CNBC",
+      "title": "Even more borrowers choose riskier mortgages, as higher interest rates crush affordability",
+      "publishedAtSgt": "2026-10-14T20:01:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/even-more-borrowers-choose-riskier-mortgages-as-higher-interest-rates-crush-affordability.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Mortgage rates moved to the highest level in nearly three years last week, causing overall demand to drop. The average contract interest rate for 30-year fixed-rate mortgages with conforming loan balances, $832,750 or less, increased to 7.50% from 7.49%, with points decreasing to 0.83 from 0.84, including the origination fee, for loans with a 20% down payment.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "id": "3f2d1e173780899cd15758090fadd4302ae828570bfde6c8f6ae986b3b1274cb",
+      "source": "CNBC",
+      "title": "How Trump’s tariffs and Iran war are becoming liabilities in Michigan’s Senate race",
+      "publishedAtSgt": "2026-10-14T18:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/mike-rogers-trump-tariffs-michigan-senate-election.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "\"We need to end this tariff war now.\" He never mentions the man who started it: President Donald Trump. But in Michigan, where farms, factories and tourism rely on Canadian trade, Trump's trade fight and Ottawa's retaliation have become a political quagmire three weeks before an election that could decide Senate control. Michigan conducts roughly $80 billion in annual trade with Ontario, according to the Michigan Chamber of Commerce.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
     {
       "id": "aefc7adc04ff322b41c44abf7f010b5a3180049fe3e39b1b5498e72fb0754e99",
       "source": "CNBC",
@@ -1463,136 +1591,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-08T21:37:35+08:00"
-    },
-    {
-      "id": "1c69d1b534c6b52d5436fc2c7df9dc2f753453c959a58c0ba69395fe7f0fd994",
-      "source": "CNBC",
-      "title": "Ray Dalio warns the stock market's cushion against rising bond yields is shrinking",
-      "publishedAtSgt": "2026-10-08T20:19:53+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html",
-      "category": "MARKET",
-      "relevanceScore": 94,
-      "relevanceReason": "strong_market_title",
-      "summary": "Billionaire investor Ray Dalio warned on Thursday that stocks face mounting pressure from rising bond yields and the prospect of weaker corporate cash flows, even as earnings continue to grow. The Bridgewater Associates founder told CNBC equities have so far weathered the global bond sell-off because earnings growth has kept expected stock returns attractive, relative to bonds.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
-    },
-    {
-      "id": "290325c065357c6a88ba1eef66f619ebacfb04ea9ab2a809253a0270589b6852",
-      "source": "CNBC",
-      "title": "Why REITs aren't getting killed by rising interest rates this time around",
-      "publishedAtSgt": "2026-10-08T19:28:53+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/why-reits-arent-getting-killed-by-rising-interest-rates-this-time.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Property Play covers new and evolving opportunities for the real estate investor, from individuals to venture capitalists, private equity funds, family offices, institutional investors and large public companies. The stocks of real estate investment trusts, or REITs, have long been considered a low interest rate play. As new supply peaks, cash flow growth is improving and valuations are attractive relative to equities, according to Laughlin.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
-    },
-    {
-      "id": "bde8eaaa417b4b1a4e65599fdf9791d29151fb56478bbfcff026c178ed2b63e2",
-      "source": "CNBC",
-      "title": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
-      "publishedAtSgt": "2026-10-08T18:34:36+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "PepsiCo on Thursday reported quarterly earnings and revenue that topped analysts' expectations, fueled by international growth as its North American business continues to lag. It is also now projecting net revenue growth of about 6%, on the high end of its prior outlook of a range of 4% to 6%. Shares of Pepsi fell less than 1% in premarket trading.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
-    },
-    {
-      "id": "904a65352a25a69dfa4c4492dc1b0bdf2abb16e20a0bdc1098a9bda29215fca1",
-      "source": "CNBC",
-      "title": "Russia's internet giant Yandex halts operations at major data center after drone attack",
-      "publishedAtSgt": "2026-10-08T17:40:36+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "It also developed the region's leading generative AI model, YandexGPT. Although Ukraine has not claimed responsibility for the Yandex attack, it has been stepping up its attacks on Russian infrastructure, including energy, over recent months, such as targeting Russian oil refineries, which President Volodymyr Zelenskyy has said are used to \"finance the war and the killing of Ukrainians.\" Ukraine also increased attacks on Russian retail giant Wildberries, a critical part of the consumer...",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
-    },
-    {
-      "id": "85d972dd8f7e36ebee999e64df5206059fd19d638d852e3d5a7ecc5cff6605cf",
-      "source": "CNBC",
-      "title": "After a yearslong slump, China's real estate market may be set for a turnaround",
-      "publishedAtSgt": "2026-10-08T17:27:31+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Chinese property developers such as Evergrande long relied on sales of apartments before they were completed, fueling a debt-driven cycle of rapid growth. China's efforts to subsidize mortgages along with wealth effects from the artificial intelligence boom are also helping lift property demand.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
-    },
-    {
-      "id": "3ecdc02f4e023db8ab371782807689a09835ad6a4ee9db47b05b5b5b029035b9",
-      "source": "CNBC",
-      "title": "AI startup Manus raises $500 million in first funding round since Meta breakup",
-      "publishedAtSgt": "2026-10-08T14:59:59+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html",
-      "category": "MARKET",
-      "relevanceScore": 95,
-      "relevanceReason": "business_market_event",
-      "summary": "AI agent startup Manus has raised more than $500 million in its first funding round since Meta was forced to abandon its acquisition of the company. Butterfly Effect, Manus' parent company, said Thursday that the round was led by private equity firm Boyu Capital and venture investor IDG Capital, with follow-on investment from existing shareholders Tencent, HSG and ZhenFund. The company did not disclose its post-funding valuation.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-08T15:36:36+08:00"
-    },
-    {
-      "id": "f9bf5e13d0fb5b1e78236578465aad507b92b37e7a0e6a3c0d3e5820e4caaaf1",
-      "source": "CNBC",
-      "title": "Oil gains as Middle East hostilities, potential escalation stoke supply worries",
-      "publishedAtSgt": "2026-10-08T12:07:51+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oil rose Thursday as Middle East worries keep markets on edge, with the U.S. military operations in Iran in the coming weeks. \"Any escalation affecting traffic through Hormuz or Saudi energy infrastructure would threaten physical supply and could lift prices further,\" Cho added.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-08T12:34:27+08:00"
-    },
-    {
-      "id": "7757b47376c9b848108e0bbad134190c7803e6307ea86f8a89086de14f86ee32",
-      "source": "CNBC",
-      "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
-      "publishedAtSgt": "2026-10-08T08:51:23+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "\"Samsung has delivered a record profit and still fallen short of expectations, which tells you just how demanding the AI trade has become,\" said Josh Gilbert, lead analyst for APAC at investment platform eToro. \"When expectations are so high for memory makers, the market doesn't hand out points for effort.\" With AI spending driving demand for memory and supply remaining tight, the larger story of the chip sector remains intact, Gilbert said, highlighting growth of AI agents that can consume far...",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
     }
   ]
 }

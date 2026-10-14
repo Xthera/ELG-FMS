@@ -5,6 +5,134 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "8ed00ac1b16f0bc2cb704e342fc293080a237565d8143cce1e0c44b8d7f716ba",
+      "source": "CNBC",
+      "title": "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
+      "publishedAtSgt": "2026-10-14T23:00:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of the bank fell as much as 8% in morning trading. The trading disappointment comes after CEO Brian Moynihan told analysts last month that trading revenue would be roughly flat; instead the combined bond and stock trading results fell by 5%. Net interest income, a key profitability driver watched closely by Bank of America investors, rose 7.9% to $16.6 billion, slightly edging out the $16.53 billion StreetAccount estimate.",
+      "feeds": [
+        "latest",
+        "business",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:58+08:00"
+    },
+    {
+      "id": "4d4280d28ec839d6c32cfb681147f19b37f096996fd93af50daa088b13da2de3",
+      "source": "CNBC",
+      "title": "Here's the inflation breakdown for September 2026 — in one chart",
+      "publishedAtSgt": "2026-10-14T22:56:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The inflation rate increased in September on the back of higher gasoline and energy prices amid the Iran war, further squeezing households' budgets and perhaps putting pressure on the Federal Reserve to raise interest rates, economists said. central bank, which uses interest-rate policy as a lever to control the trajectory of inflation — may choose to increase its benchmark interest rate at upcoming policy meetings to rein in persistently high inflation, economists said.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:58+08:00"
+    },
+    {
+      "id": "a09df48d3643844f737786decb22f9e4305ebcdc8576d762391b9711ac9050ca",
+      "source": "CNBC",
+      "title": "Bending Spoons skyrockets 35% as Berkshire Hathaway makes $330 million investment",
+      "publishedAtSgt": "2026-10-14T22:39:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/berkshire-hathaway-investment-bending-spoons.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Bending Spoons skyrocketed 35% after a new securities filing revealed that Berkshire Hathaway made a fresh $330 million investment into the company. The latest infusion follows the conglomerate's $600 million investment from July, when the Italy-based serial acquirer went public on the Nasdaq.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "id": "a7959648d7369708387461dd7dd27dbb670151d3086450f43136f6c841672b64",
+      "source": "CNBC",
+      "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
+      "publishedAtSgt": "2026-10-14T21:11:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Morgan Stanley posted third-quarter results that beat expectations on blockbuster results in its equities trading franchise. The firm's equities trading division, long a marquee business for Morgan Stanley, posted a 41% increase in revenue to $5.8 billion, exceeding the StreetAccount estimate by about $909 million. Morgan Stanley cited widespread strength across its equities products and regions, but cited Asia as a source of particular strength in the quarter.",
+      "feeds": [
+        "latest",
+        "business",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "id": "e7649a58d3aadabe423583473d6adc125505123a28f0199b96dc1961c43e3eba",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+      "publishedAtSgt": "2026-10-14T20:59:49+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/14/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bond yields are jumping , stock futures are falling , and odds of a Federal Reserve rate hike later this month are increasing. The analysts said the DuPont spinoff's array of materials crucial to AI chip manufacturing and packaging is \"supportive of durable above-market growth.\" This is what we have been waiting for — more coverage and recognition of this Club name's key role in the semiconductor supply chain.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "id": "f18696246144a8f7d475c88138e66856e81b58d04a11dbcf225397896c78822d",
+      "source": "CNBC",
+      "title": "Inflation data, Bank of America's penalty, Apple's new home hub and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-14T20:45:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/5-things-to-know-before-the-stock-market-opens.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "- Rising energy costs have been a significant driver of inflation since the Iran war began in February. Oil prices are higher this morning after the International Energy Agency said it expects diesel supply to remain squeezed into the second half of next year. - Ahead of today's data, New York Federal Reserve President John Williams told Bloomberg News he sees \"disinflationary forces at play\" and that the central bank may not have to raise rates in 2027.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-14T23:12:00+08:00"
+    },
+    {
+      "id": "9687c09f1fb558ca0eedb660915f42daee85dfaf17b6cfd64cc0bf01e9efb8b6",
+      "source": "CNBC",
+      "title": "Even more borrowers choose riskier mortgages, as higher interest rates crush affordability",
+      "publishedAtSgt": "2026-10-14T20:01:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/even-more-borrowers-choose-riskier-mortgages-as-higher-interest-rates-crush-affordability.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Mortgage rates moved to the highest level in nearly three years last week, causing overall demand to drop. The average contract interest rate for 30-year fixed-rate mortgages with conforming loan balances, $832,750 or less, increased to 7.50% from 7.49%, with points decreasing to 0.83 from 0.84, including the origination fee, for loans with a 20% down payment.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "id": "3f2d1e173780899cd15758090fadd4302ae828570bfde6c8f6ae986b3b1274cb",
+      "source": "CNBC",
+      "title": "How Trump’s tariffs and Iran war are becoming liabilities in Michigan’s Senate race",
+      "publishedAtSgt": "2026-10-14T18:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/mike-rogers-trump-tariffs-michigan-senate-election.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "\"We need to end this tariff war now.\" He never mentions the man who started it: President Donald Trump. But in Michigan, where farms, factories and tourism rely on Canadian trade, Trump's trade fight and Ottawa's retaliation have become a political quagmire three weeks before an election that could decide Senate control. Michigan conducts roughly $80 billion in annual trade with Ontario, according to the Michigan Chamber of Commerce.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
       "id": "aefc7adc04ff322b41c44abf7f010b5a3180049fe3e39b1b5498e72fb0754e99",
       "source": "CNBC",
       "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
@@ -292,6 +420,6 @@
       "collectedAtSgt": "2026-10-14T00:37:55+08:00"
     }
   ],
-  "articleCount": 18,
-  "updatedAtSgt": "2026-10-14T17:33:31+08:00"
+  "articleCount": 26,
+  "updatedAtSgt": "2026-10-14T23:12:00+08:00"
 }
