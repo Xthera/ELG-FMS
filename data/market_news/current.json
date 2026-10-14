@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-14T09:43:56+08:00",
+  "generatedAtSgt": "2026-10-14T17:33:31+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,104 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "aefc7adc04ff322b41c44abf7f010b5a3180049fe3e39b1b5498e72fb0754e99",
+      "source": "CNBC",
+      "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
+      "publishedAtSgt": "2026-10-14T17:18:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "It comes as Russia intensifies attacks on the country's energy infrastructure despite President Donald Trump's proposed \"energy ceasefire.\" Serhii Beskrestnov, an adviser to President Volodymyr Zelenskyy on defense technology, said Wednesday that SpaceX has implemented a speed limit on Starlink terminals in motion without notifying Ukrainian defense forces, disrupting some missions.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "id": "8c5e3680462f8e448668ccdb60725ec227064da2849ccb3955075489bd1520a4",
+      "source": "CNBC",
+      "title": "Oil prices choppy after IEA warns on market constraints; Saudi officials say Aramco facilities attacked",
+      "publishedAtSgt": "2026-10-14T16:53:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices were little changed on Wednesday morning, pulling back from earlier gains, as investors digested the International Energy Agency's latest monthly report on the shape of the oil market. Fighting between Saudi Arabia and the Iran-backed Houthis continues to escalate, with the Saudi Ministry of Energy saying Wednesday that an administrative building belonging to oil giant Saudi Aramco had been attacked overnight.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "id": "0ece6cf5dd4dd8fb8886dbbd918d806d730943e3fbc3083873036ad84545ed0c",
+      "source": "CNBC",
+      "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+      "publishedAtSgt": "2026-10-14T16:45:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors closely watch the Dutch company's earnings for signs of AI-related chip demand. ASML's stock was around 2% higher in early trade in Europe. China has been ramping up its domestic semiconductor supply chain, with some investors concerned it could challenge the European and U.S.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "id": "ae2f7f9f377405cb139465c673d51120b8f11daf87caa0e34aff9d583d204076",
+      "source": "CNBC",
+      "title": "U.S. Treasury yields inch lower as investors await key inflation report",
+      "publishedAtSgt": "2026-10-14T15:21:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Treasury yields inched lower on Wednesday as investors awaited the latest consumer price inflation reading, due later in the session. The projected annual number shows that price growth is accelerating away from the Federal Reserve's target inflation rate of 2%. Core inflation, which excludes volatile food and energy prices, is expected to rise 0.2% from August and 2.5% on an annual basis.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "id": "6e93d3e93539d42802d353cb02da2d835b01950b4f2a7dc9b5c302f8cb11f12e",
+      "source": "CNBC",
+      "title": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
+      "publishedAtSgt": "2026-10-14T12:24:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "BANGKOK — The Philippine central bank is planning for a \"Godzilla\" El Niño on top of a prolonged oil shock, as the Southeast Asian nation tries to rein in inflation from three-year highs. The worst of El Niño's impact on prices is still to come, with the effects expected from November through February, he said, adding that maintaining price stability remains the central bank's priority.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "id": "0b101207959432bb320fe9e89df7d316d114f1c4eb59f6f5356f4f58623a0f08",
+      "source": "CNBC",
+      "title": "South Korean carmaker Hyundai plans 'strategic' investment of $15.5 billion in India by 2032",
+      "publishedAtSgt": "2026-10-14T10:04:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/korea-india-hyundai-cars-investment.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "South Korea's Hyundai Motor Group on Tuesday said it plans to invest $15.5 billion from 2026 through 2032 in India, a market it considers core to the company's emerging-market growth and expansion. He added that this investment \"reaffirms\" the company's commitment to the Indian market for the next 30 years and beyond.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
     {
       "id": "1695484a07ff07a3b45a18573d5b3a4a2ed14073ea86f2e19ecaedd0fe385662",
       "source": "CNBC",
@@ -1495,102 +1593,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-08T09:33:31+08:00"
-    },
-    {
-      "id": "fead37a43eede596056634a208a40ca720adfb30ce3a266fc600f71611c55a05",
-      "source": "CNBC",
-      "title": "Trump trade chief Greer reports higher cash holdings as law firm pay topped $650K",
-      "publishedAtSgt": "2026-10-08T07:10:54+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/jamieson-greer-financial-disclosure-coupang.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "trade representative Jamieson Greer reported roughly $1.17 million to $3.75 million in cash, retirement accounts and other investments according to a CNBC analysis of his newly obtained 2025 annual financial disclosure. The 16-page filing from the Office of Government Ethics, offers a new look at the finances of President Donald Trump's top trade official after he left a lucrative partnership at the King & Spalding law firm to join the administration in February 2025.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
-    },
-    {
-      "id": "793e9a5e6e9c9a4ded33510815d46c981442b79fae3cd7fb707d0b99a0357b24",
-      "source": "CNBC",
-      "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
-      "publishedAtSgt": "2026-10-08T06:29:41+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "As Anthropic barrels toward a potential $2 trillion market cap on the Nasdaq, one research firm is valuing the artificial intelligence company at a mere $150 billion and says Wall Street is about to face an \"unprecedented test of investor gullibility.\" In a report on Tuesday, independent financial research provider New Constructs called Anthropic's upcoming offering the \"most ridiculous IPO of 2026.\" To reach its desired valuation, the firm estimates Anthropic would need to record double the...",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
-    },
-    {
-      "id": "78d587064c304ce13b13246c84e2172d2b96fc504402c29645fc97ccc8604be4",
-      "source": "CNBC",
-      "title": "Cramer says higher rates are splitting the market in two — and AI stocks have a big advantage",
-      "publishedAtSgt": "2026-10-08T06:22:32+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/jim-cramer-spacex-wall-street-bull-case.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "CNBC's Jim Cramer said Wednesday that rising borrowing costs are dividing the stock market into two camps: companies constrained by the bond market and artificial intelligence businesses that seem largely insulated from higher rates. The \"Mad Money\" host said Wednesday's 10-year Treasury note auction reminded him of his hedge fund days, when investors waited for the results of government bond sales before buying stocks because a poorly received sale could send rates higher and equities lower.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
-    },
-    {
-      "id": "4507a16d6594e0abefbc0f219d477425015f43aa51b50173fdf744b1b73e9253",
-      "source": "CNBC",
-      "title": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
-      "publishedAtSgt": "2026-10-08T05:31:40+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Levi Strauss on Wednesday increased its profit outlook after it received tariff refunds, but gave less rosy revenue guidance. The company also lowered its net revenue growth guidance for the full year to 7%, the bottom of its previously provided range of a 7% to 7.5% increase. Shares of Levi were roughly flat in extended trading after initially rising.",
-      "feeds": [
-        "latest",
-        "business",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-08T06:31:12+08:00"
-    },
-    {
-      "id": "a38801f88bd2c8de4584795f39c18fb1e1ffdb8ad7ca4e139d9b44d639d6c170",
-      "source": "CNBC",
-      "title": "SpaceX’s plans to buy more Nvidia GPUs is keeping Jim Cramer bullish on the chip stock",
-      "publishedAtSgt": "2026-10-08T04:24:48+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/07/spacexs-plans-to-buy-more-nvidia-gpus-is-keeping-jim-cramer-bullish-on-the-chip-stock-.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "The FT said the deal could include $10 billion in bank loans and an additional $30 billion in investment-grade debt. So, that tells you something about the productivity of Nvidia's technology and the rentability of it.\" While dropping roughly 2.5% in Wednesday's tough market for tech stocks, SpaceX has been on the march lately — up nearly 60% since its all-time low of roughly $105 on Aug.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-08T06:31:13+08:00"
-    },
-    {
-      "id": "0876b463a9777873103ef8f66800210374168371a51d41bc9e6ad2f4230d831b",
-      "source": "CNBC",
-      "title": "Modelo owner Constellation is getting creative to bring back beer drinkers as overall demand weakens",
-      "publishedAtSgt": "2026-10-08T03:14:03+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/constellation-brands-earnings-beer-demand.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "However, the company said beer depletions, a measure of sales from distributors to retailers and other customers, declined slightly during the quarter, indicating consumer demand was softer than shipment growth suggests. Kirk has a buy rating and $209 price target on the stock, compared with the roughly $116 a share price as of Wednesday.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
     }
   ]
 }

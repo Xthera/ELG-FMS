@@ -5,6 +5,104 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "aefc7adc04ff322b41c44abf7f010b5a3180049fe3e39b1b5498e72fb0754e99",
+      "source": "CNBC",
+      "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
+      "publishedAtSgt": "2026-10-14T17:18:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "It comes as Russia intensifies attacks on the country's energy infrastructure despite President Donald Trump's proposed \"energy ceasefire.\" Serhii Beskrestnov, an adviser to President Volodymyr Zelenskyy on defense technology, said Wednesday that SpaceX has implemented a speed limit on Starlink terminals in motion without notifying Ukrainian defense forces, disrupting some missions.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "id": "8c5e3680462f8e448668ccdb60725ec227064da2849ccb3955075489bd1520a4",
+      "source": "CNBC",
+      "title": "Oil prices choppy after IEA warns on market constraints; Saudi officials say Aramco facilities attacked",
+      "publishedAtSgt": "2026-10-14T16:53:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices were little changed on Wednesday morning, pulling back from earlier gains, as investors digested the International Energy Agency's latest monthly report on the shape of the oil market. Fighting between Saudi Arabia and the Iran-backed Houthis continues to escalate, with the Saudi Ministry of Energy saying Wednesday that an administrative building belonging to oil giant Saudi Aramco had been attacked overnight.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "id": "0ece6cf5dd4dd8fb8886dbbd918d806d730943e3fbc3083873036ad84545ed0c",
+      "source": "CNBC",
+      "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+      "publishedAtSgt": "2026-10-14T16:45:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors closely watch the Dutch company's earnings for signs of AI-related chip demand. ASML's stock was around 2% higher in early trade in Europe. China has been ramping up its domestic semiconductor supply chain, with some investors concerned it could challenge the European and U.S.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "id": "ae2f7f9f377405cb139465c673d51120b8f11daf87caa0e34aff9d583d204076",
+      "source": "CNBC",
+      "title": "U.S. Treasury yields inch lower as investors await key inflation report",
+      "publishedAtSgt": "2026-10-14T15:21:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Treasury yields inched lower on Wednesday as investors awaited the latest consumer price inflation reading, due later in the session. The projected annual number shows that price growth is accelerating away from the Federal Reserve's target inflation rate of 2%. Core inflation, which excludes volatile food and energy prices, is expected to rise 0.2% from August and 2.5% on an annual basis.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "id": "6e93d3e93539d42802d353cb02da2d835b01950b4f2a7dc9b5c302f8cb11f12e",
+      "source": "CNBC",
+      "title": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
+      "publishedAtSgt": "2026-10-14T12:24:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "BANGKOK — The Philippine central bank is planning for a \"Godzilla\" El Niño on top of a prolonged oil shock, as the Southeast Asian nation tries to rein in inflation from three-year highs. The worst of El Niño's impact on prices is still to come, with the effects expected from November through February, he said, adding that maintaining price stability remains the central bank's priority.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "id": "0b101207959432bb320fe9e89df7d316d114f1c4eb59f6f5356f4f58623a0f08",
+      "source": "CNBC",
+      "title": "South Korean carmaker Hyundai plans 'strategic' investment of $15.5 billion in India by 2032",
+      "publishedAtSgt": "2026-10-14T10:04:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/korea-india-hyundai-cars-investment.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "South Korea's Hyundai Motor Group on Tuesday said it plans to invest $15.5 billion from 2026 through 2032 in India, a market it considers core to the company's emerging-market growth and expansion. He added that this investment \"reaffirms\" the company's commitment to the Indian market for the next 30 years and beyond.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
       "id": "1695484a07ff07a3b45a18573d5b3a4a2ed14073ea86f2e19ecaedd0fe385662",
       "source": "CNBC",
       "title": "China's exports likely grew by double-digits in September",
@@ -194,6 +292,6 @@
       "collectedAtSgt": "2026-10-14T00:37:55+08:00"
     }
   ],
-  "articleCount": 12,
-  "updatedAtSgt": "2026-10-14T09:43:56+08:00"
+  "articleCount": 18,
+  "updatedAtSgt": "2026-10-14T17:33:31+08:00"
 }
