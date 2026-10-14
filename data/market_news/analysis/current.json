@@ -1,10 +1,198 @@
 {
-  "generatedAtSgt": "2026-10-14T10:13:50.968602+08:00",
+  "generatedAtSgt": "2026-10-14T17:49:07.725091+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 198,
+  "articleCount": 206,
   "analyses": [
+    {
+      "articleId": "aefc7adc04ff322b41c44abf7f010b5a3180049fe3e39b1b5498e72fb0754e99",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Ukraine warns that SpaceX Starlink speed limits on terminals in motion are disrupting military operations, coinciding with intense Russian attacks on Ukraine's energy infrastructure despite proposed ceasefire talks.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "Ukraine",
+        "Russia",
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Defense",
+        "Technology"
+      ],
+      "investorImpact": "The escalation of attacks on energy infrastructure and disruptions in communications technology highlight ongoing geopolitical risks that can create volatility in energy commodities and defense-related equities.",
+      "reasoning": "Classified as GEOPOLITICAL due to the focus on the Russia-Ukraine conflict, energy infrastructure attacks, and defense technology limitations. It is relevant for fund monitoring as energy supply risks can impact broad commodity markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
+      "publishedAtSgt": "2026-10-14T17:18:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "articleId": "8c5e3680462f8e448668ccdb60725ec227064da2849ccb3955075489bd1520a4",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Oil prices experienced choppy trading following an IEA warning on market constraints and reports from Saudi officials that Saudi Aramco facilities were attacked amid escalating regional tensions.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "Saudi Arabia"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Geopolitical tensions and attacks on key energy infrastructure create supply risks, leading to potential volatility in oil prices and affecting energy sector equities.",
+      "reasoning": "The article discusses direct impacts on oil markets driven by supply constraints and geopolitical conflicts affecting major energy infrastructure, making it highly relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil prices choppy after IEA warns on market constraints; Saudi officials say Aramco facilities attacked",
+      "publishedAtSgt": "2026-10-14T16:53:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "articleId": "0ece6cf5dd4dd8fb8886dbbd918d806d730943e3fbc3083873036ad84545ed0c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "ASML reported quarterly earnings that beat expectations, driven by strong AI-related chip demand and order interest extending through 2030, sending its stock higher in early European trading.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Europe",
+        "China",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Strong demand for ASML's equipment indicates sustained momentum in the semiconductor and AI sectors, offering positive sentiment for tech equities despite regional supply chain concerns.",
+      "reasoning": "Classified as MARKET due to direct corporate earnings results and stock price reaction, with HIGH importance given ASML's critical role in the global semiconductor supply chain.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+      "publishedAtSgt": "2026-10-14T16:45:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "articleId": "ae2f7f9f377405cb139465c673d51120b8f11daf87caa0e34aff9d583d204076",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "U.S. Treasury yields inched lower as investors awaited the upcoming consumer price inflation report, with annual price growth projected to remain above the Federal Reserve's 2% target.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Government"
+      ],
+      "investorImpact": "Investors are closely watching the upcoming inflation data as it will dictate future Federal Reserve monetary policy and interest rate expectations, directly impacting Treasury yields and broader fixed-income markets.",
+      "reasoning": "The article covers macroeconomic data releases regarding U.S. inflation and Treasury yields, which are fundamental indicators for market conditions and monetary policy, making it highly relevant for economic monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "U.S. Treasury yields inch lower as investors await key inflation report",
+      "publishedAtSgt": "2026-10-14T15:21:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "articleId": "6e93d3e93539d42802d353cb02da2d835b01950b4f2a7dc9b5c302f8cb11f12e",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "The Philippine central bank is preparing for a severe 'Godzilla' El Niño alongside an ongoing oil shock, which threatens to worsen inflation and disrupt price stability between November and February.",
+      "assetClasses": [
+        "Currencies",
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "Philippines",
+        "Southeast Asia"
+      ],
+      "sectors": [
+        "Agriculture",
+        "Energy",
+        "Central Banking"
+      ],
+      "investorImpact": "Persistent inflationary pressures from extreme weather and oil shocks in the Philippines may lead to tighter or prolonged high monetary policy rates, impacting local bond yields, currency stability, and equity valuations.",
+      "reasoning": "The article details macroeconomic risks regarding inflation and central bank policy in an emerging market, which is directly relevant to regional fund monitoring and asset allocation.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
+      "publishedAtSgt": "2026-10-14T12:24:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
+    {
+      "articleId": "0b101207959432bb320fe9e89df7d316d114f1c4eb59f6f5356f4f58623a0f08",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "South Korea's Hyundai Motor Group plans to invest $15.5 billion in India from 2026 through 2032, viewing the country as a core market for emerging-market growth and long-term expansion.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "South Korea",
+        "India"
+      ],
+      "sectors": [
+        "Automotive",
+        "Consumer Discretionary"
+      ],
+      "investorImpact": "The massive capital commitment highlights India's growing importance as a manufacturing and consumption hub, offering positive implications for the automotive sector and related supply chains in the region.",
+      "reasoning": "Classified under MARKET due to significant corporate capital expenditure announcements and strategic expansion in emerging markets, carrying positive sentiment and medium importance for sector investors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "South Korean carmaker Hyundai plans 'strategic' investment of $15.5 billion in India by 2032",
+      "publishedAtSgt": "2026-10-14T10:04:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/korea-india-hyundai-cars-investment.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
+    },
     {
       "articleId": "1695484a07ff07a3b45a18573d5b3a4a2ed14073ea86f2e19ecaedd0fe385662",
       "relevant": true,
@@ -98,6 +286,65 @@
       "collectorRelevanceScore": 101,
       "collectorRelevanceReason": "strong_economic_title",
       "collectedAtSgt": "2026-10-14T09:43:55+08:00"
+    },
+    {
+      "articleId": "bdf6f1188c14cb253ca3d66d519a56be86f226833f6ba08ce71549b2e35e96c7",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "According to Goldman Sachs, equity investors are skeptical of Chinese companies' rapid overseas expansion and are increasingly prioritizing profitable growth rather than just expansion for its own sake.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China",
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Cross-Sector"
+      ],
+      "investorImpact": "Investors allocating to Chinese equities should focus on companies demonstrating clear path to profitability in their international operations rather than mere revenue growth or geographic footprint expansion.",
+      "reasoning": "Classified as MARKET because it discusses investor sentiment and shifting evaluation criteria for Chinese equities expanding overseas. Importance is MEDIUM as it provides thematic insight into portfolio allocation preferences without detailing an immediate macroeconomic shock.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
+      "publishedAtSgt": "2026-10-14T07:05:12+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T09:43:56+08:00"
+    },
+    {
+      "articleId": "a1da7d0e0bffbdd4431917fd1dc75636d3673592198b47c3948566322cd9611d",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "LOW",
+      "summary": "CNBC host Jim Cramer advised investors to avoid newly public AI infrastructure stock Accelevation Holdings, citing caution regarding data center stocks ahead of midterm elections and a preference for established companies.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The commentary highlights caution regarding newly public AI infrastructure and data center stocks, suggesting investors favor established players in the sector.",
+      "reasoning": "Classified as TECHNOLOGY due to its focus on an AI infrastructure stock, with a NEGATIVE sentiment based on Jim Cramer's warning to keep the stock at arm's length.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Here's where Jim Cramer stands on this newly public AI infrastructure stock",
+      "publishedAtSgt": "2026-10-14T06:47:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/13/jim-cramer-accelevation-stock.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-14T09:43:56+08:00"
     },
     {
       "articleId": "6ff63d635bb3b2b1db4cd60c47b0d1c5d38b899e1e8859f7fa9fe3ace080d3a6",
