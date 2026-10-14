@@ -1,0 +1,450 @@
+{
+  "date": "2026-10-01",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 15,
+  "analyses": [
+    {
+      "articleId": "17d0cda9bd94cc6c1783a083eb417223310f11dca2b1f5bf65344b1a2ee2f639",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Health insurers are identifying nearly $1 billion in questionable hospital charges potentially driven by artificial intelligence, raising questions about whether AI will increase healthcare costs rather than serve as a deflationary efficiency tool.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Technology"
+      ],
+      "investorImpact": "Investors should monitor the complex intersection of AI deployment in healthcare administration, as early evidence suggests generative tools may drive up billing volumes and administrative disputes rather than immediate cost deflation.",
+      "reasoning": "Classified under TECHNOLOGY due to the central role of AI in generating complex hospital charges, and negative/medium importance given the early evidence of rising system costs rather than efficiencies in the U.S. healthcare sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Health insurer points finger at AI as nearly $1 billion in questionable hospital charges appear",
+      "publishedAtSgt": "2026-10-01T23:07:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/health-care-costs-insurance-claims-billing-ai.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:10:00+08:00"
+    },
+    {
+      "articleId": "6ddf48fccfdf9f91a844f6d22681f01f1890d9d913c6834c75cae339e1c30d71",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Prediction markets like Kalshi and Polymarket are experiencing massive growth across elections, sports, and central bank decisions, but are facing scrutiny and questions regarding inflated volumes and potential wash trading.",
+      "assetClasses": [
+        "Alternatives"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Fintech"
+      ],
+      "investorImpact": "Investors should note that increased regulatory scrutiny and concerns over data integrity or wash trading in prediction markets could impact market adoption, valuation, and the regulatory framework governing alternative trading platforms.",
+      "reasoning": "The article discusses emerging alternative markets facing integrity and volume concerns, which is relevant for market participants monitoring new trading venues and fintech developments.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Kalshi, Polymarket trading volumes on some products raise questions amid massive growth",
+      "publishedAtSgt": "2026-10-01T22:24:36+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/kalshi-polymarket-trading-volume-scrutiny.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:09:47+08:00"
+    },
+    {
+      "articleId": "311c972d5a9d19d7689547f8476616b69a06f6bdaf2820d2811cfda20d09362e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Micron reported strong quarterly earnings and issued robust guidance, driven by an 11-fold increase in data center revenue and high global demand for AI memory chips.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The strong earnings and guidance validate ongoing robust demand for AI hardware infrastructure, positively impacting semiconductor equities and related technology sectors.",
+      "reasoning": "The article reports major quarterly financial results and forward-looking guidance for a major semiconductor company, directly reflecting broader technology and market trends related to artificial intelligence demand.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+      "publishedAtSgt": "2026-10-01T21:59:54+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
+    },
+    {
+      "articleId": "793f941cc982bdac7a7ee5b82f498f73de5671f86fe1f07dd39712b77ad60b7e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "The SEC has approved sweeping plans to expand retail investor access to private markets, moving to ensure these investment opportunities are not restricted solely to the wealthiest or most sophisticated investors.",
+      "assetClasses": [
+        "Private Equity",
+        "Private Credit",
+        "Private Markets"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Asset Management"
+      ],
+      "investorImpact": "This regulatory shift broadens the potential capital base for private market funds by opening access to individual retail investors, which could significantly increase capital inflows into private equity and private credit strategies.",
+      "reasoning": "The SEC's decision to ease retail investor access to private markets is a major structural development for asset managers and private market funds, making it highly relevant for market monitoring and investment strategy.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The U.S. just made it much easier for retail investors to access private markets",
+      "publishedAtSgt": "2026-10-01T21:38:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/private-credit-sec-retail-investors.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:10:03+08:00"
+    },
+    {
+      "articleId": "7b56d6d91b7c08e6e04bea1286985c544ecfcc2d172b57284a24ce9412fb2a62",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "This morning briefing covers the Dow's rough month, Micron's revenue surge driven by the AI memory supply crunch, Google launching Gemini 4, and commentary from a Fed official regarding inflation running around a 3% rate.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors receive a consolidated view of cross-market movements, including specific sector strength in memory chips via Micron, headwinds for the Dow, and macro updates on inflation from Federal Reserve commentary.",
+      "reasoning": "The article combines multiple market moving factors including macroeconomic inflation updates and tech sector earnings and product launches, making it relevant for portfolio and market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The Dow's rough month, Micron's revenue surge, Google launches Gemini 4 and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-01T20:45:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/5-things-to-know-before-the-stock-market-opens.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:10:00+08:00"
+    },
+    {
+      "articleId": "81dfb0f7abd7410807d5bb85b2e9c93213e94eb717888f9c5bfe512ee1ae8f81",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "U.K.-listed stocks are seeing a surge in public takeovers and hostile bids from foreign buyers due to persistently depressed valuations, with M&A activity topping £75 billion in the period up to the end of the third quarter.",
+      "assetClasses": [
+        "Equities",
+        "M&A"
+      ],
+      "geographies": [
+        "United Kingdom",
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "General"
+      ],
+      "investorImpact": "The valuation gap between U.K.-listed companies and U.S. peers is driving significant foreign acquisition interest, offering potential upside and catalysts for investors holding U.K. equities.",
+      "reasoning": "Classified as MARKET because it discusses public takeovers, valuation gaps, and M&A activity involving U.K.-listed stocks. It is important and relevant for fund monitoring due to the high volume of deal activity exceeding £75 billion.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Bargain Britain lures foreign buyers as hostile takeovers surge",
+      "publishedAtSgt": "2026-10-01T18:53:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/hostile-takeovers-mergers-acquisitions-uk.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:10:02+08:00"
+    },
+    {
+      "articleId": "46fdb2b8070169e7c55713f9da449d7662a290e12153a3845a3423532e7610c7",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Shares of Indian auto companies slid following September sales data which showed acute softening after hitting record highs in August. Major industry players like Bajaj Auto experienced significant drops in share price due to falling domestic sales.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Automotive"
+      ],
+      "investorImpact": "Investors with exposure to Indian equities or the automotive sector should note the sudden drop in sales momentum following record highs, which may pressure near-term valuations and earnings for auto manufacturers.",
+      "reasoning": "The article discusses a clear market correction in the Indian automotive sector driven by soft September sales data, making it relevant for sector-specific investment monitoring and equity market performance evaluation.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Shares of Indian auto companies slide as sales soften in September, after hitting record highs in August",
+      "publishedAtSgt": "2026-10-01T14:33:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/india-auto-shares-bajaj-maruti-mahindra.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:10:03+08:00"
+    },
+    {
+      "articleId": "b01e5766df10a411e52bb954cb21ff43ca3d2daad5d703353658430c71d73dc0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Proposed new rules in India led to a sharp market sell-off, with PB Fintech shares crashing 36%, HDFC Life falling over 6%, and ICICI Life Insurance dropping 4%.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Financials",
+        "Insurance",
+        "Fintech"
+      ],
+      "investorImpact": "Investors in Indian financial and insurance sectors face heightened volatility and regulatory risk following proposed rule changes, leading to severe single-day drawdowns for major market players.",
+      "reasoning": "Classified as MARKET due to direct and immediate impacts on stock prices following regulatory proposals. Marked HIGH importance because of double-digit and sharp single-day losses in prominent financial equities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Inside India newsletter: Foreign insurers get the red-carpet treatment — and policy uncertainty",
+      "publishedAtSgt": "2026-10-01T08:23:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/01/india-insurance-prudential-aviva-axa.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:09:45+08:00"
+    },
+    {
+      "articleId": "6bc1bc5f56036c8ba67788bfafe9b97f61b97db8e2130b163d1b4a2ed59bfa8f",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Minneapolis Fed President Neel Kashkari stated that inflation remains still too high despite softer-than-expected PCE data, while describing the labor market and broader economy as resilient.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Fed commentary regarding persistent inflation and a resilient economy provides signals on potential future interest rate trajectories, impacting fixed income yields and equity valuations.",
+      "reasoning": "The article is classified under ECONOMIC because it discusses central bank views on inflation, labor markets, and GDP. It is important for monitoring monetary policy stances.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
+      "publishedAtSgt": "2026-10-01T07:44:28+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-02T12:09:46+08:00"
+    },
+    {
+      "articleId": "ce3abfae14184355f19716d9336d955f5e6d2bc133edc676660cd166b2c3a1b6",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer discussed 'frozen' conditions holding back stocks and slowing economic activity, noting declines in investment banks like Morgan Stanley and Goldman Sachs after hitting yearly highs in July.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors should monitor broader market stagnation and sector-specific pullbacks in major investment banks to gauge macroeconomic health and potential portfolio adjustments.",
+      "reasoning": "The article addresses current market conditions, slowing activity, and equity performance of major financial institutions, providing useful context for market sentiment without requiring immediate portfolio action.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Cramer says 'frozen' conditions are holding many stocks back. Here's what could change that",
+      "publishedAtSgt": "2026-10-01T07:00:52+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/jim-cramer-frozen-markets-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "articleId": "1c1a298668eca3bfedca3f10f89f21e0e1cf0f4aad3cec22ed54c74ad4f80ae8",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Following President Donald Trump's meeting with AI leaders, leading artificial intelligence companies continue to self-police regarding AI safety, while lawmakers like Senator Mark Warner push for new legislation requiring rigorous testing and evaluation before deployment of powerful models.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Regulatory uncertainty around AI safety and testing requirements could impact the development timelines, compliance costs, and deployment strategies of major technology and artificial intelligence firms.",
+      "reasoning": "The article discusses high-level political meetings with tech leaders and upcoming legislative proposals concerning AI safety, which falls under technology regulation and impacts investor sentiment in the AI sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump's meeting with tech leaders leaves AI safety more unsettled than ever",
+      "publishedAtSgt": "2026-10-01T06:26:49+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/after-trump-meeting-with-tech-leaders-ai-safety-in-more-chaotic-state.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-02T12:10:02+08:00"
+    },
+    {
+      "articleId": "1796cd95e0dbd119e157a729dc0ae8277fc034f50223972530a93cfdce056b0e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Blue Origin CEO Dave Limp reported that the company's first-ever outside capital raise is oversubscribed and not yet closed, following reports of raising $10 billion at a $140 billion valuation.",
+      "assetClasses": [
+        "Private Equity",
+        "Venture Capital"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Space",
+        "Technology",
+        "Aerospace"
+      ],
+      "investorImpact": "High investor demand for Blue Origin signals robust private market appetite and strong valuation metrics for the commercial space sector, offering positive sentiment for private equity and venture capital investments in aerospace.",
+      "reasoning": "Classified as MARKET due to the significant private capital raise and valuation figures reported for a major aerospace firm. It is highly relevant to private markets and investor sentiment in the space sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Blue Origin's first outside funding round is 'oversubscribed' and not closed yet, CEO says",
+      "publishedAtSgt": "2026-10-01T05:55:01+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/blue-origin-funding-round.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "articleId": "7f7ce7f4baeea72bebc4c974b5acc3f9b1a7d7d598960814a7061839c424a83c",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Meta's stock achieved its best month since 2022, rising 27% in September driven by AI momentum and the successful launch of its Muse personal AI agent app, which surpassed OpenAI's ChatGPT in Apple iOS downloads.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Demonstrates strong investor confidence in major tech firms successfully monetizing artificial intelligence, which can drive positive sector-wide sentiment and equity performance for growth portfolios.",
+      "reasoning": "The article is classified as TECHNOLOGY and POSITIVE due to Meta's strong stock performance and successful AI product launch. It is important for monitoring tech sector trends and equity sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta stock enjoys best month since 2022 on AI momentum",
+      "publishedAtSgt": "2026-10-01T05:36:47+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/meta-stock-best-month-2013-ai.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 52,
+      "collectorRelevanceReason": "supporting_technology_description",
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "articleId": "0102f9a2b8aebfba5561ea65fd3e369811490758b582c470001131c07ed8e06d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Grindr is expanding beyond dating by acquiring telehealth platform PurposeMed for $250 million, consisting of $190 million in cash and $60 million in common stock, aiming to scale healthcare access such as PrEP treatments.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Healthcare",
+        "Communication Services"
+      ],
+      "investorImpact": "The acquisition represents a strategic pivot for Grindr into the telehealth sector, impacting its capital allocation via cash and stock considerations, and opens new growth avenues in digital health.",
+      "reasoning": "Classified as MARKET because it details a significant corporate M&A transaction ($250 million acquisition). It is relevant for fund monitoring as it involves strategic diversification by a publicly traded or major platform company into a new sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Grindr expands beyond dating with $250 million telehealth acquisition of PurposeMed",
+      "publishedAtSgt": "2026-10-01T04:45:01+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/grindr-purposemed-freddie-telehealth-acquisition.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:10:01+08:00"
+    },
+    {
+      "articleId": "00029fb08626c767c21f36ea28298305e50afcc7120a9e9b47c818c089d06a17",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Stellantis CEO reconfirmed 2026 guidance and stated that the turnaround plan continues, even as the automaker's shares hit new lows and extended year-to-date losses to roughly 60%.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Automotive"
+      ],
+      "investorImpact": "The steep drop in share price and ongoing performance struggles highlight heightened volatility and execution risk in the automotive sector, prompting caution for equity holders despite management's reaffirmed guidance.",
+      "reasoning": "The article details significant market moves for a major global automaker and reports on executive guidance and turnaround efforts, making it highly relevant for market and portfolio monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Stellantis CEO reconfirms 2026 guidance, says turnaround plan continues as automaker's shares hit new low",
+      "publishedAtSgt": "2026-10-01T04:15:48+08:00",
+      "url": "https://www.cnbc.com/2026/09/30/stellantis-guidance-turnaround-plan.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-02T12:09:46+08:00"
+    }
+  ]
+}
