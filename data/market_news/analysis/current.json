@@ -1,10 +1,260 @@
 {
-  "generatedAtSgt": "2026-10-14T17:49:07.725091+08:00",
+  "generatedAtSgt": "2026-10-14T23:27:39.821538+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 206,
+  "articleCount": 214,
   "analyses": [
+    {
+      "articleId": "8ed00ac1b16f0bc2cb704e342fc293080a237565d8143cce1e0c44b8d7f716ba",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Bank of America shares dropped up to 8% in morning trading following a third-quarter revenue miss caused by a 5% drop in combined bond and stock trading results, alongside a regulatory penalty. Meanwhile, net interest income rose 7.9% to $16.6 billion.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Investors holding Bank of America or broader banking sector equities face downward pressure due to disappointing trading revenues and regulatory headwinds, though net interest income showed some resilience.",
+      "reasoning": "The article details a significant single-stock drop and earnings miss for a major global systemically important bank, impacting market sentiment for the financial sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
+      "publishedAtSgt": "2026-10-14T23:00:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T23:11:58+08:00"
+    },
+    {
+      "articleId": "4d4280d28ec839d6c32cfb681147f19b37f096996fd93af50daa088b13da2de3",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The inflation rate increased in September 2026 driven by higher gasoline and energy prices amid the Iran war, squeezing household budgets and potentially pressuring the Federal Reserve to raise interest rates.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States",
+        "Iran"
+      ],
+      "sectors": [
+        "Energy"
+      ],
+      "investorImpact": "Higher inflation driven by energy price spikes increases the risk of Federal Reserve interest rate hikes, creating headwinds for equity valuations and fixed income assets.",
+      "reasoning": "The article details official inflation metrics and macroeconomic pressures directly impacting monetary policy and broad market conditions.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Here's the inflation breakdown for September 2026 — in one chart",
+      "publishedAtSgt": "2026-10-14T22:56:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-14T23:11:58+08:00"
+    },
+    {
+      "articleId": "a09df48d3643844f737786decb22f9e4305ebcdc8576d762391b9711ac9050ca",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Shares of Bending Spoons rose 35% following a securities filing that revealed a new $330 million investment from Berkshire Hathaway, building on a previous $600 million investment made in July during the company's Nasdaq IPO.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Italy",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors should note Berkshire Hathaway's continued confidence in Bending Spoons, which has driven a significant 35% surge in the company's share price and highlights strong market interest in tech sector serial acquirers.",
+      "reasoning": "Classified as MARKET due to the significant share price movement and major institutional investment news involving Berkshire Hathaway, making it relevant for portfolio and equity monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Bending Spoons skyrockets 35% as Berkshire Hathaway makes $330 million investment",
+      "publishedAtSgt": "2026-10-14T22:39:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/berkshire-hathaway-investment-bending-spoons.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "articleId": "a7959648d7369708387461dd7dd27dbb670151d3086450f43136f6c841672b64",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Morgan Stanley reported third-quarter results that beat estimates, driven by a 41% increase in equities trading revenue to $5.8 billion, which exceeded expectations by $909 million due to widespread strength globally and particularly in Asia.",
+      "assetClasses": [
+        "Equities",
+        "Stocks"
+      ],
+      "geographies": [
+        "Global",
+        "Asia"
+      ],
+      "sectors": [
+        "Financials",
+        "Investment Banking"
+      ],
+      "investorImpact": "The strong earnings and significant beat in equities trading revenue highlight robust health in major financial institutions and point to active trading volumes, offering positive sentiment for the financial sector and broader market performance.",
+      "reasoning": "Classified as MARKET due to major bank earnings report showing substantial revenue beats. Sentiment is POSITIVE based on strong financial performance. Importance is HIGH given Morgan Stanley's status as a major financial institution and the substantial outperformance in equities trading.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
+      "publishedAtSgt": "2026-10-14T21:11:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "articleId": "e7649a58d3aadabe423583473d6adc125505123a28f0199b96dc1961c43e3eba",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer outlines top market events to watch, noting rising bond yields, falling stock futures, increasing odds of a Federal Reserve rate hike, and highlighting a DuPont spinoff's role in AI chip manufacturing and packaging.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Technology",
+        "Materials"
+      ],
+      "investorImpact": "Rising bond yields, falling futures, and potential Federal Reserve rate hikes create a more challenging environment for equity valuations, while semiconductor supply chain analysis offers specific sector opportunities.",
+      "reasoning": "The article discusses key market indicators such as shifting rate hike expectations, bond yields, and stock futures alongside sector-specific analysis, making it relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+      "publishedAtSgt": "2026-10-14T20:59:49+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/14/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "articleId": "f18696246144a8f7d475c88138e66856e81b58d04a11dbcf225397896c78822d",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Rising energy costs continue to drive inflation following the Iran war, with oil prices climbing after the IEA predicted squeezed diesel supplies into the second half of next year. Meanwhile, New York Fed President John Williams indicated disinflationary forces are at play and the central bank might not need to raise rates in 2027.",
+      "assetClasses": [
+        "Commodities",
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "Investors must weigh persistent inflationary pressures from energy and tight diesel supplies against dovish signals from the Federal Reserve regarding future interest rates.",
+      "reasoning": "The article combines critical macroeconomic updates regarding inflation and monetary policy outlook with commodity market pressures from the energy sector, making it highly relevant for economic monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Inflation data, Bank of America's penalty, Apple's new home hub and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-14T20:45:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/5-things-to-know-before-the-stock-market-opens.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-14T23:12:00+08:00"
+    },
+    {
+      "articleId": "9687c09f1fb558ca0eedb660915f42daee85dfaf17b6cfd64cc0bf01e9efb8b6",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Mortgage rates rose to their highest level in nearly three years, causing overall demand to drop as 30-year fixed-rate mortgage rates increased to 7.50% and affordability declined, leading more borrowers to choose riskier mortgage products.",
+      "assetClasses": [
+        "Real Estate",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Financials"
+      ],
+      "investorImpact": "The rising mortgage rates and shift toward riskier mortgages highlight ongoing affordability challenges in the housing market, which could impact housing demand, mortgage originations, and credit risk for financial institutions.",
+      "reasoning": "Classified as MARKET because it details housing market trends, mortgage rates, and shifting borrower behaviors driven by interest rate pressures. It is relevant for fund monitoring as it provides insight into consumer credit health and real estate sector conditions.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Even more borrowers choose riskier mortgages, as higher interest rates crush affordability",
+      "publishedAtSgt": "2026-10-14T20:01:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/even-more-borrowers-choose-riskier-mortgages-as-higher-interest-rates-crush-affordability.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
+    {
+      "articleId": "3f2d1e173780899cd15758090fadd4302ae828570bfde6c8f6ae986b3b1274cb",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Trump's tariffs and trade retaliation from Canada are becoming political liabilities in Michigan's Senate race, where farms, factories, and tourism heavily rely on trade with Ontario.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States",
+        "Michigan",
+        "Canada",
+        "Ontario"
+      ],
+      "sectors": [
+        "Agriculture",
+        "Manufacturing",
+        "Tourism"
+      ],
+      "investorImpact": "Investors with exposure to Michigan-based manufacturing, agriculture, and cross-border trade with Canada should monitor tariff policies and Senate election outcomes as trade friction poses ongoing risks to regional profitability.",
+      "reasoning": "Classified as GEOPOLITICAL due to its focus on trade wars, tariffs, and cross-border political dynamics impacting key economic sectors in Michigan.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "How Trump’s tariffs and Iran war are becoming liabilities in Michigan’s Senate race",
+      "publishedAtSgt": "2026-10-14T18:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/mike-rogers-trump-tariffs-michigan-senate-election.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
+    },
     {
       "articleId": "aefc7adc04ff322b41c44abf7f010b5a3180049fe3e39b1b5498e72fb0754e99",
       "relevant": true,
