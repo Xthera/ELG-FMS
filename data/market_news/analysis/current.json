@@ -1,10 +1,42 @@
 {
-  "generatedAtSgt": "2026-10-14T07:01:16.900134+08:00",
+  "generatedAtSgt": "2026-10-14T10:00:06.285797+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 195,
+  "articleCount": 196,
   "analyses": [
+    {
+      "articleId": "1695484a07ff07a3b45a18573d5b3a4a2ed14073ea86f2e19ecaedd0fe385662",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "China's exports for September were forecasted to grow by double-digits, driven by surging demand for AI data center parts and stabilizing U.S. trade relations, while import growth was projected to slightly slow.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "China",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "International Trade",
+        "Industrials"
+      ],
+      "investorImpact": "Strong export growth in China signals resilient global manufacturing and technology demand, particularly benefiting supply chains tied to artificial intelligence and cross-border trade.",
+      "reasoning": "Classified as ECONOMIC because it reports macroeconomic forecasts regarding trade data. Sentiment is positive due to projected double-digit export growth and stabilization of trade tensions.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China's exports likely grew by double-digits in September",
+      "publishedAtSgt": "2026-10-14T09:16:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-14T09:43:55+08:00"
+    },
     {
       "articleId": "6ff63d635bb3b2b1db4cd60c47b0d1c5d38b899e1e8859f7fa9fe3ace080d3a6",
       "relevant": true,
