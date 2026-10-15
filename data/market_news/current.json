@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-15T13:56:11+08:00",
+  "generatedAtSgt": "2026-10-15T20:41:47+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,120 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "49788193abc01aa7a8386cc8a3b0b5d39fcee6e7559eb256f8c04316d931b33b",
+      "source": "CNBC",
+      "title": "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries",
+      "publishedAtSgt": "2026-10-15T20:15:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Memory chip stocks have taken a particularly bad beating this week amid broader equity market turmoil. If you're only getting a 50% yield, you're literally putting half the chips in the bin because they don't work very well,\" Ben Barringer, global head of technology research at Quilter Cheviot, told CNBC's \"Squawk Box Europe\" on Wednesday.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T20:41:46+08:00"
+    },
+    {
+      "id": "6e6a66440053b84de16980acb033f574e05e89c93adf0235e351cb5a257d9e41",
+      "source": "CNBC",
+      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+      "publishedAtSgt": "2026-10-15T20:11:15+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil and diesel prices are up sharply, and that has bond traders asking for more yield to account for the possibility that central banks such as the Federal Reserve will raise interest rates. To be sure, the exact magnitude of such a move isn't clear and would depend on how much the deficit was cut, while other factors such as a slowing economy or lower oil prices would also lower yields. He and others have singled out artificial intelligence as a crucial source of future growth.",
+      "feeds": [
+        "latest",
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-15T20:41:46+08:00"
+    },
+    {
+      "id": "43fc7f51eb474ef9147b3e7296399433cc30f42c817987daa5fd47628375c967",
+      "source": "CNBC",
+      "title": "Cboe to expand options trading hours for major stocks and ETFs",
+      "publishedAtSgt": "2026-10-15T20:01:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/cboe-stock-etf-options-extended-hours.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The options market is about to get even bigger on Monday when Cboe Global Markets extends trading hours for options on two-dozen stocks and a handful of ETFs. \"More investors than ever appreciate the power of optionality and what it can do for their portfolios, and the pace of adoption and growth of the market really reflect that,\" Rob Hocking, global head of derivatives at Cboe, said in an email.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-15T20:41:46+08:00"
+    },
+    {
+      "id": "6a4bff1db775990f0d6e508f59bed5639641476b6c7863dc916c46ee2162317e",
+      "source": "CNBC",
+      "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an 'energy ceasefire'",
+      "publishedAtSgt": "2026-10-15T18:13:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "President Volodymyr Zelenskyy has said Ukraine will resume attacks on Russian energy infrastructure after Moscow failed to uphold its end of an \"energy ceasefire\" deal proposed by President Donald Trump. We're done,\" Zelenskyy told the Financial Times after Ukraine paused strikes on energy targets for three days at the request of Washington.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
+    },
+    {
+      "id": "c9dacdadd84bc96065c5673eff0b75d7ca3f4678f1d89971da4b1701698c3e51",
+      "source": "CNBC",
+      "title": "France is ‘putting the house in order’ and can slash deficit to 3% in three years, central bank governor tells CNBC",
+      "publishedAtSgt": "2026-10-15T18:05:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/france-budget-deficit-moulin-protests.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "France is \"putting the house in order\" and is capable of slashing its burdensome budget deficit, despite the political turmoil facing the country, the head of the country's central bank insists. Market concerns about political instability hampering efforts to bring the deficit under control have weighed on French bond markets this year, exacerbating pressures felt globally from the U.S.-Iran war and consequential inflation fears.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
+    },
+    {
+      "id": "591ec878ea3550db15035eabfbc2a93c102f35df202509f5a8798cae73e6aae4",
+      "source": "CNBC",
+      "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
+      "publishedAtSgt": "2026-10-15T17:02:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "trade deal with Beijing gets extended past January. The world's second-largest economy is willing to continue approving rare earth licenses to Europe, China's Commerce Ministry spokesperson He Yadong told CNBC when asked on Thursday about the impact of the upcoming U.S. Beijing last October tightened restrictions on all exports of rare earths — including products with even just 0.1% of China-sourced rare earths.",
+      "feeds": [
+        "latest",
+        "finance",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
+    },
+    {
+      "id": "3a7db32055e63ac61809a6c9419bd217f2e5849a5e4563917de9626407634bbc",
+      "source": "CNBC",
+      "title": "India’s IDBI Bank falls 7% as government announces $5.5 billion stake sale to Canada's Fairfax",
+      "publishedAtSgt": "2026-10-15T14:12:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/india-canada-fairfax-idbi-fdi.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of IDBI Bank fell more than 7% Thursday after the Indian government announced a majority stake sale in the state-owned bank to Canadian firm Fairfax Financial Holdings for over 529 billion rupees ($5.5 billion). Fairfax will need to present credentials to the Indian banking regulator, the Reserve Bank of India, for a \"fit and proper assessment.\" \"Having supported the bank's recovery, we are now enabling its next phase of growth through the infusion of Foreign Direct Investment while...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
+    },
     {
       "id": "74547fa4e855d2427775c0205c04ce6fc3abd83d6f70e605eacd7d1d1a162cc4",
       "source": "CNBC",
@@ -1489,115 +1603,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-10T03:32:45+08:00"
-    },
-    {
-      "id": "ac91a3d6a3d92cf5590af7c79493320d4d42f6170288964a8fff3aecc7dfca89",
-      "source": "CNBC",
-      "title": "Jim Cramer sets a Starbucks buy level — plus his take on 3 stocks we just bought",
-      "publishedAtSgt": "2026-10-09T23:47:15+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/09/cramer-sets-starbucks-buy-level-and-reviews-3-stocks-we-bought.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Despite modest gains in the S & P 500 and Nasdaq , rising bond yields and flat oil prices are keeping a lid on stocks. Nvidia , another big portfolio holding, is little changed in what Jim called an \"extreme tape,\" with the AI trade under pressure again after a rough ride in Thursday's session. Jim said that elevated bond yields and oil prices and concerns about inflation are the reasons why the Club bought more shares of three defensive names on Thursday.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-10T00:34:41+08:00"
-    },
-    {
-      "id": "c89fd811db30888d623947ff14dd195ee72706b32f8ba7803d76024d1a60cd4e",
-      "source": "CNBC",
-      "title": "Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
-      "publishedAtSgt": "2026-10-09T23:08:20+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "The ire of everyday citizens continues to increase against a backdrop of enthusiastic and deep-pocketed Wall Street investors betting artificial intelligence is the economic engine of the future. For the most part, the funds from alternative investment companies promising investors a piece of the physical infrastructure powering the AI economy remain the province of institutional investors like pension funds.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-10T00:34:40+08:00"
-    },
-    {
-      "id": "9a1dec385bbead20172815d7bcb7b2e1a57bcaa1849f9e0e5bec6b81f0496fc2",
-      "source": "CNBC",
-      "title": "China and Europe agree to cut Chinese hybrid vehicle exports by half",
-      "publishedAtSgt": "2026-10-09T23:03:10+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/china-europe-hybrid-vehicle-exports-deal.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "BEIJING — European trade commissioner Maroš Sefčovič said Friday that China has agreed to halve its exports of hybrid cars to the bloc. Europe has called on China to voluntarily reduce hybrid car exports into the continent, but authorities in Beijing had reportedly slapped down the request, according to the Financial Times. Earlier this year, on June 29 for the first meeting of the EU-China Trade and Investment Consultations.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-10T00:34:40+08:00"
-    },
-    {
-      "id": "6be74b1d25d841a4b553cb834d111e13a79483bf56e4dcb0544a301960db34fa",
-      "source": "CNBC",
-      "title": "AI agents like Muse can shop for you. Here's what that means for retail stocks",
-      "publishedAtSgt": "2026-10-09T22:15:38+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/09/ai-agents-could-soon-shop-for-consumers-what-it-means-for-retail-stocks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "This evolution from generative AI (which creates something for you) to agentic AI (an agent that does something for you) raises questions for many companies and their investors. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-10T00:34:41+08:00"
-    },
-    {
-      "id": "87694e741d20f9cd7aa008418897934680439a3261ffa1f42770163cc5341941",
-      "source": "CNBC",
-      "title": "Tech stocks' resilience has puzzled investors. The options market could hold some clues",
-      "publishedAtSgt": "2026-10-09T21:07:30+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/tech-stocks-resilience-has-puzzled-investors-the-options-market-could-hold-some-clues.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The unexpected never happens when you're looking for it, which may explain why tech stocks have remained so strong in the face of surging rates and questions about the AI complex. The metric isn't just the result of a one-day anomaly: the ratio has been moving in favor of puts since August, despite a steady climb in big-tech stock prices that culminated in a string of all-time highs up through Tuesday.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-09T21:37:27+08:00"
-    },
-    {
-      "id": "fe0c0ae60bbcafce23d4f6af51e50475619740aac96045bf3a550fd583abbb9c",
-      "source": "CNBC",
-      "title": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
-      "publishedAtSgt": "2026-10-09T21:03:19+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/margin-debt-stock-market-risk.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "For example, as equities rise in value, an investor may need to cover a short position that's been marked to market, or valued at its current price. Huszczo shares the commonly held belief among financial advisors that investors' portfolios shouldn't be overly concentrated in one stock or even one sector.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
-    },
-    {
-      "id": "909968f0210cfb126a9cb33adac6bbc9e2d0d0c419a26ed7abbdc6226717e8ff",
-      "source": "CNBC",
-      "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
-      "publishedAtSgt": "2026-10-09T21:01:32+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/09/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "It helps that oil prices and bond yields are calm. Nvidia-backed Firmus Grid, an AI infrastructure name, scrapping its Australia IPO over valuation concerns also hurt. It's a reminder that people still figure AI as a trade, not as an investment.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
     }
   ]
 }
