@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-16T01:48:45+08:00",
+  "generatedAtSgt": "2026-10-16T06:24:07+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,66 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "d7168869c4171ab52a3b2ebb9b88a3dd474b27a8f80d43c4016eb1292ff27326",
+      "source": "CNBC",
+      "title": "Jim Cramer says this week's AI sell-off offers a crucial lesson for investors",
+      "publishedAtSgt": "2026-10-16T06:16:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/jim-cramer-ai-stocks-diversification.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer said Thursday that this week's turbulence in artificial intelligence stocks is delivering a painful reminder of why investors shouldn't put all their money into the market's hottest trade. After months of AI infrastructure stocks leading the market, Cramer said investors who maintained exposure to other sectors are finally seeing the benefits of diversification.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-16T06:24:07+08:00"
+    },
+    {
+      "id": "559314ba915886ed12e6bb4177b502358812ba526a2e1c7cfd9ce3ea9e2e4d25",
+      "source": "CNBC",
+      "title": "Here's our monthly update on our 32 stocks, including 2 more names to buy",
+      "publishedAtSgt": "2026-10-16T03:08:05+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/15/heres-our-monthly-update-on-our-32-stocks-including-2-more-names-to-buy.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amazon : If the e-commerce giant can demonstrate that its massive AI investments are starting to generate profits on its next earnings call while signaling that capital expenditure growth is beginning to moderate, expect shares to take off. The financials Goldman Sachs : The investment bank delivered the strongest quarter of any financial company so far this earnings season, yet shares are still down big from their highs of the summer and trade at just 12 times earnings.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-16T06:24:05+08:00"
+    },
+    {
+      "id": "b8f1efd3aacf2b111c23428dde3fcb916e94e1d59bc105f0f7b9cc211e8619d5",
+      "source": "CNBC",
+      "title": "Democrat Talarico says he raised record $64 million over summer in Texas Senate race",
+      "publishedAtSgt": "2026-10-16T02:35:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/james-talarico-texas-senate-fundraising-ken-paxton.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "Democratic Texas Senate candidate James Talarico raised $64 million in the third quarter, his campaign announced Thursday, setting what the campaign said is a Senate fundraising record as Republicans pour outside money into the race to bolster GOP nominee Ken Paxton in the 2026 midterm election.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-16T06:24:05+08:00"
+    },
+    {
+      "id": "2f4031991ed525deea2fac134115862ec6ae057939e5105d3da610cf662ea0d2",
+      "source": "CNBC",
+      "title": "Equal-weight failed. Now tech stocks look shaky again. So what should you do about S&P 500 risk?",
+      "publishedAtSgt": "2026-10-16T02:02:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/spx-sp500-tech-stocks-invest.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "One \"something\" that investors have been advised by experts to consider is a move into equal-weight S&P 500 funds to mitigate the risk of having such a high level of exposure to one trade. Or, Rosenbluth says, investors can adopt the equal-weight approach at the sector level, using an ETF like the ALPS Equal Weight Sector ETF, EQL, which can serve the same purpose of reducing market concentration in technology stocks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-16T06:24:06+08:00"
+    },
     {
       "id": "80edb1b1010dfb8248fe0363e0dec228b916a79d9e681b4d508f9c3d2634287c",
       "source": "CNBC",
@@ -1549,67 +1609,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-11T21:32:59+08:00"
-    },
-    {
-      "id": "fb5b0b6c8af8a537554303112bd929eb63b07a97c5c9c3ba7942a63b26e127bb",
-      "source": "CNBC",
-      "title": "After France, is Italy next? Goldman Sachs flags bond risks as Rome's deficit widens",
-      "publishedAtSgt": "2026-10-11T13:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/11/italy-government-bonds-sovereign-debt-giorgia-meloni.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The Italian government will next week present a budget encompassing recently approved allocations to defense and energy, which are set to widen the country's deficit over the next two years and put Italy's debt-to-GDP ratio on track to become the highest in Europe, according to analysts at Goldman Sachs.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-11T15:33:25+08:00"
-    },
-    {
-      "id": "4449b9b14efd303673d8c660ccef1203b00f43a35f6acea6f4f98b88b8907b55",
-      "source": "CNBC",
-      "title": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
-      "publishedAtSgt": "2026-10-10T23:30:51+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Stocks climbed to fresh record highs early last week, but renewed volatility in the artificial intelligence trade showed just how fickle investors can be in this market. The news slammed telecom stocks Friday and opened another potential avenue for growth beyond rockets, satellites, and AI infrastructure for SpaceX. OpenAI rattles the AI trade, and reinforces a key investing lesson AI stocks whipsawed last week after a Financial Times report raised questions about OpenAI's growth.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-11T00:31:44+08:00"
-    },
-    {
-      "id": "4f5d40783493df82d3fba24d7582974134b3579f676efebbd06f1527d29d6961",
-      "source": "CNBC",
-      "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
-      "publishedAtSgt": "2026-10-10T07:16:50+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "President Donald Trump's Friday announcement that Russia will supply diesel fuel to the global market marked an apparent pivot from recent efforts to pressure Moscow to end the Ukraine war by targeting Russian energy exports. Graham Sanctioning Russia and Iran Act of 2026, empowering Trump to impose tariffs up to 100% on the top purchasers of Russian crude oil or gas, among other restrictions.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-10T09:34:15+08:00"
-    },
-    {
-      "id": "7dcc6a4eac891b7b53076322383e26854ac8f715e8d4be7e6f2af34146a86d77",
-      "source": "CNBC",
-      "title": "Cramer’s week ahead: Earnings kick off as banks and chipmakers face big tests",
-      "publishedAtSgt": "2026-10-10T06:22:35+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/jim-cramer-week-ahead-bank-earnings-ai-chips.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "CNBC's Jim Cramer on Friday said the start of earnings season next week will give investors a clearer picture of corporate performance and the strength of the artificial intelligence trade. \"We're about to go into the wide world of earnings season, so we don't need to hang on every little data point to figure out where to put money into the market.\" Stocks rose on Friday, led by the tech sector, as traders rebounded from a volatile week marked by elevated Treasury yields and oil prices, and...",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-10T06:32:58+08:00"
     }
   ]
 }

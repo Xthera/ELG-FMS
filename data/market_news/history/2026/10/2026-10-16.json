@@ -5,6 +5,66 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "d7168869c4171ab52a3b2ebb9b88a3dd474b27a8f80d43c4016eb1292ff27326",
+      "source": "CNBC",
+      "title": "Jim Cramer says this week's AI sell-off offers a crucial lesson for investors",
+      "publishedAtSgt": "2026-10-16T06:16:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/jim-cramer-ai-stocks-diversification.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer said Thursday that this week's turbulence in artificial intelligence stocks is delivering a painful reminder of why investors shouldn't put all their money into the market's hottest trade. After months of AI infrastructure stocks leading the market, Cramer said investors who maintained exposure to other sectors are finally seeing the benefits of diversification.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-16T06:24:07+08:00"
+    },
+    {
+      "id": "559314ba915886ed12e6bb4177b502358812ba526a2e1c7cfd9ce3ea9e2e4d25",
+      "source": "CNBC",
+      "title": "Here's our monthly update on our 32 stocks, including 2 more names to buy",
+      "publishedAtSgt": "2026-10-16T03:08:05+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/15/heres-our-monthly-update-on-our-32-stocks-including-2-more-names-to-buy.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amazon : If the e-commerce giant can demonstrate that its massive AI investments are starting to generate profits on its next earnings call while signaling that capital expenditure growth is beginning to moderate, expect shares to take off. The financials Goldman Sachs : The investment bank delivered the strongest quarter of any financial company so far this earnings season, yet shares are still down big from their highs of the summer and trade at just 12 times earnings.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-16T06:24:05+08:00"
+    },
+    {
+      "id": "b8f1efd3aacf2b111c23428dde3fcb916e94e1d59bc105f0f7b9cc211e8619d5",
+      "source": "CNBC",
+      "title": "Democrat Talarico says he raised record $64 million over summer in Texas Senate race",
+      "publishedAtSgt": "2026-10-16T02:35:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/james-talarico-texas-senate-fundraising-ken-paxton.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "Democratic Texas Senate candidate James Talarico raised $64 million in the third quarter, his campaign announced Thursday, setting what the campaign said is a Senate fundraising record as Republicans pour outside money into the race to bolster GOP nominee Ken Paxton in the 2026 midterm election.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-16T06:24:05+08:00"
+    },
+    {
+      "id": "2f4031991ed525deea2fac134115862ec6ae057939e5105d3da610cf662ea0d2",
+      "source": "CNBC",
+      "title": "Equal-weight failed. Now tech stocks look shaky again. So what should you do about S&P 500 risk?",
+      "publishedAtSgt": "2026-10-16T02:02:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/spx-sp500-tech-stocks-invest.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "One \"something\" that investors have been advised by experts to consider is a move into equal-weight S&P 500 funds to mitigate the risk of having such a high level of exposure to one trade. Or, Rosenbluth says, investors can adopt the equal-weight approach at the sector level, using an ETF like the ALPS Equal Weight Sector ETF, EQL, which can serve the same purpose of reducing market concentration in technology stocks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-16T06:24:06+08:00"
+    },
+    {
       "id": "80edb1b1010dfb8248fe0363e0dec228b916a79d9e681b4d508f9c3d2634287c",
       "source": "CNBC",
       "title": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
@@ -68,6 +128,6 @@
       "collectedAtSgt": "2026-10-16T01:48:31+08:00"
     }
   ],
-  "articleCount": 4,
-  "updatedAtSgt": "2026-10-16T01:48:31+08:00"
+  "articleCount": 8,
+  "updatedAtSgt": "2026-10-16T06:24:07+08:00"
 }
