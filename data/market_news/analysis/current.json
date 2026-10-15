@@ -1,10 +1,196 @@
 {
-  "generatedAtSgt": "2026-10-15T08:49:18.317252+08:00",
+  "generatedAtSgt": "2026-10-15T14:11:49.679425+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 208,
+  "articleCount": 217,
   "analyses": [
+    {
+      "articleId": "74547fa4e855d2427775c0205c04ce6fc3abd83d6f70e605eacd7d1d1a162cc4",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "TSMC reported a record third-quarter profit that beat estimates, driven by sustained global demand for AI chips and continued strong monthly sales growth.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Signals robust ongoing demand for artificial intelligence infrastructure and advanced semiconductors, bolstering investor confidence in the tech sector and semiconductor supply chain.",
+      "reasoning": "Classified as MARKET due to corporate earnings and beating financial estimates, with HIGH importance because TSMC is a bellwether for the global semiconductor and AI industries.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
+      "publishedAtSgt": "2026-10-15T13:37:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T13:56:10+08:00"
+    },
+    {
+      "articleId": "2045032568fd58b88d2db048b816bc2a9d4c4c6cde97b4fd4e426f4ca4ad9bb5",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "SK Hynix shares plunged 10% amid a broader Asia tech rout driven by concerns over potential Federal Reserve interest rate hikes, AI funding worries, and intensifying competition, mirroring Wall Street losses.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Asia",
+        "South Korea",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors holding technology or semiconductor equities, particularly in Asia and South Korea, face heightened volatility and downside risk as macroeconomic rate concerns and AI funding worries weigh heavily on sector valuations.",
+      "reasoning": "The article details a significant 10% plunge in a major semiconductor stock and a broader tech sell-off driven by macro and sector-specific fears, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
+      "publishedAtSgt": "2026-10-15T13:19:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
+    },
+    {
+      "articleId": "4faa9099521042e5a566082160b5dde07751aa814733419a63a8b7e0101d4a91",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Oil prices declined as investors weighed potential supply disruptions from Strait of Hormuz shipping attacks against the International Energy Agency's monthly report, which highlighted persistent diesel constraints and risks to Saudi oil supply recovery.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "Saudi Arabia"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "The decline in oil prices affects energy sector equities and commodities portfolios, while ongoing geopolitical risks in the Middle East suggest continued volatility for oil and diesel markets.",
+      "reasoning": "Classified as MARKET due to direct coverage of oil price movements driven by supply concerns and IEA data. It is relevant for monitoring commodity markets and energy sector exposure.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil falls as investors assess Mideast tensions, International Energy Agency's report",
+      "publishedAtSgt": "2026-10-15T12:09:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/oil-prices-today-brent-wti.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
+    },
+    {
+      "articleId": "9cd1fde61f06c27a9f385f9061f4196223d97e6876640a5c6528714b357c17a5",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Anthropic reported a third-quarter revenue of $16.8 billion and stated it is cash-flow positive as it prepares for an upcoming initial public offering in November.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The massive revenue figures and positive cash flow signal robust growth in the artificial intelligence sector, potentially creating strong investor appetite ahead of the anticipated IPO and lifting sentiment for tech equities.",
+      "reasoning": "Classified as MARKET due to the major IPO preparation and strong financial reporting by a prominent AI firm. It is important for monitoring tech sector valuations and market liquidity.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
+      "publishedAtSgt": "2026-10-15T11:48:58+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
+    },
+    {
+      "articleId": "ec3a7807afa95dc24b132dd1b289d06e2e4c0f6400d739fe068331561fe35f5e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Meta- and Google-backed Jio Platforms, India's largest telecom operator, is planning to raise up to $3.2 billion through a historic initial public offering in India by selling 270 million shares.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Telecommunications",
+        "Technology"
+      ],
+      "investorImpact": "The historic IPO of Jio Platforms provides significant investment and liquidity opportunities in the Indian telecommunications and technology sectors, drawing major attention from global investors and tech giants like Meta and Google.",
+      "reasoning": "The article details a record-breaking market event involving major tech-backed companies, making it highly relevant for market and fund monitoring within emerging markets and technology sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta- and Google-backed Jio Platforms to raise up to $3.2 billion in historic IPO in India",
+      "publishedAtSgt": "2026-10-15T09:56:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/jio-ipo-meta-google-ambani-musk.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
+    },
+    {
+      "articleId": "620a6c4ac4c6666f2b5854b468ce8581d181bde1247d5b8d284a89ddfc4ba35b",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "A Singapore ship sinks amid rising risks in the Strait of Hormuz, while high energy prices drive U.S. September consumer inflation to 3.7% year-on-year, exceeding expectations. G20 finance ministers and central bank governors prepare to meet in Bangkok.",
+      "assetClasses": [
+        "Commodities",
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States",
+        "Singapore",
+        "Global"
+      ],
+      "sectors": [
+        "Energy",
+        "Shipping",
+        "Transportation"
+      ],
+      "investorImpact": "Rising geopolitical risks in the Strait of Hormuz combined with elevated energy prices driving hotter-than-expected inflation present upside risks to interest rates and downward pressure on equity markets.",
+      "reasoning": "The article is classified as GEOPOLITICAL due to shipping risks in Hormuz and economic due to U.S. inflation data, carrying negative sentiment and high importance because of macroeconomic impacts on energy and inflation.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CNBC Daily Open: A Singapore ship goes down as Hormuz risks rise",
+      "publishedAtSgt": "2026-10-15T09:35:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/cnbc-daily-open-a-singapore-ship-goes-down-as-hormuz-risks-rise.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
+    },
     {
       "articleId": "418a7f7fc89a3174a58c336e99fa8137a5a052cb8e40f22dc8720ab71f878e76",
       "relevant": true,
@@ -31,6 +217,35 @@
       "url": "https://www.cnbc.com/2026/10/15/india-starlink-musk-jio-ambani-ipo.html",
       "collectorCategory": "MARKET",
       "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T08:33:50+08:00"
+    },
+    {
+      "articleId": "9b0603bd942fe74821cce728845dd1577c2b2aa6bca1ee09db874f9943828759",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer explains that despite strong third-quarter earnings from major banks, all six major bank stocks fell due to investor concerns over persistent inflation, rising interest rates, and wobbly capital markets.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Investors should note that macroeconomic headwinds such as inflation and rising interest rates can override strong fundamental earnings, resulting in negative stock price reactions across the financial sector.",
+      "reasoning": "The article is classified as MARKET because it discusses stock price reactions to earnings and macroeconomic sentiment. It is NEGATIVE due to falling stock prices across major banks despite strong results, and MEDIUM importance as it highlights broader market sentiment regarding inflation and rates.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer explains why even strong bank earnings couldn't save their stocks",
+      "publishedAtSgt": "2026-10-15T06:48:06+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/cramer-big-bank-earnings-stock-reaction.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-15T08:33:50+08:00"
     },
@@ -278,6 +493,67 @@
       "collectorRelevanceScore": 101,
       "collectorRelevanceReason": "strong_economic_title",
       "collectedAtSgt": "2026-10-15T04:13:37+08:00"
+    },
+    {
+      "articleId": "8767e0a2f81d2540dcf5333eecd21c06203178de2debd712c2b76d9c276b9469",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Fannie Mae has sharply raised its mortgage rate forecast for 2027 following a hotter-than-expected inflation report. Rising bond yields, driven by higher oil prices and global economic concerns, are pushing mortgage rates up as they loosely follow the 10-year Treasury yield.",
+      "assetClasses": [
+        "Fixed Income",
+        "Real Estate"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Financials"
+      ],
+      "investorImpact": "Higher mortgage rate forecasts for 2027 indicate prolonged elevated borrowing costs, which could suppress housing market activity, depress real estate valuations, and impact fixed income investments sensitive to Treasury yields.",
+      "reasoning": "The article is classified as ECONOMIC due to its focus on inflation, mortgage forecasts, and Treasury yields. It is important and relevant for fund monitoring because elevated long-term borrowing costs affect real estate and fixed income asset classes.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Fannie Mae sharply raises mortgage rate forecast for 2027",
+      "publishedAtSgt": "2026-10-15T01:08:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T04:13:40+08:00"
+    },
+    {
+      "articleId": "49cc3177db20b36a0c6a02b41b27d5359ad8b12397a70a4de1b5b149983c720b",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "BlackRock CEO Larry Fink warned that halting data center construction could trigger an economic slowdown or recession due to the heavy reliance of the current economy on AI infrastructure capital expenditures.",
+      "assetClasses": [
+        "Equities",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy",
+        "Real Estate"
+      ],
+      "investorImpact": "Investors heavily exposed to AI infrastructure, tech capex, and energy grid buildout must monitor regulatory or moratorium risks, as halting data center projects could negatively impact growth across related sectors and the broader economy.",
+      "reasoning": "The article addresses macro-economic risks tied to technology infrastructure investments, making it vital for economic and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "BlackRock's Larry Fink warns a data center moratorium could trigger a recession",
+      "publishedAtSgt": "2026-10-15T00:27:12+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/blackrocks-fink-warns-data-center-moratorium-could-spark-a-recession.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-15T04:13:41+08:00"
     },
     {
       "articleId": "8ed00ac1b16f0bc2cb704e342fc293080a237565d8143cce1e0c44b8d7f716ba",
