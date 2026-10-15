@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-15T04:13:46+08:00",
+  "generatedAtSgt": "2026-10-15T08:33:50+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,37 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "418a7f7fc89a3174a58c336e99fa8137a5a052cb8e40f22dc8720ab71f878e76",
+      "source": "CNBC",
+      "title": "Inside India newsletter: Billionaire Ambani’s mega-IPO faces a valuation reality check amid Musk spat",
+      "publishedAtSgt": "2026-10-15T08:30:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/india-starlink-musk-jio-ambani-ipo.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Jio Platforms, the company at the center of Musk's remarks, is coming up with a record IPO issue soon, but its valuation demands have met with pushback from investors who seem unconvinced of the company's positioning as a tech business. \"Following its listing, Jio will likely need to demonstrate growth to public shareholders,\" the report said, adding that the era of \"easy subscriber gains\" is ending and tariff hikes are likely to become \"the primary driver of earnings growth.\" As per the...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T08:33:50+08:00"
+    },
+    {
+      "id": "9b0603bd942fe74821cce728845dd1577c2b2aa6bca1ee09db874f9943828759",
+      "source": "CNBC",
+      "title": "Jim Cramer explains why even strong bank earnings couldn't save their stocks",
+      "publishedAtSgt": "2026-10-15T06:48:06+08:00",
+      "url": "https://www.cnbc.com/2026/10/14/cramer-big-bank-earnings-stock-reaction.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "The nation's biggest banks delivered mixed third-quarter results this week, but Wall Street's reaction was overwhelmingly negative, with all six major bank stocks falling despite some strong results. \"But this is what happens when investors are worried about the future, and it's hard not to worry with persistent inflation, rising interest rates, and newly wobbly capital markets.\" Here's what stood out from each bank's report.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-15T08:33:50+08:00"
+    },
     {
       "id": "71f9e596fa0253e7b2197084189e81cbfa538901311bf17c9785bdfbd49e8cb0",
       "source": "CNBC",
@@ -1563,38 +1594,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-09T09:35:05+08:00"
-    },
-    {
-      "id": "0032a9ce6f04d015409d999c48420a4dd375e571025ffffdd3dd0864a5ec69ff",
-      "source": "CNBC",
-      "title": "Pepsi shares rallied despite cutting profit guidance. Where Cramer stands on the stock now",
-      "publishedAtSgt": "2026-10-09T06:50:36+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/pepsico-earnings-guidance-cramer.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares rallied 3% following the report, as investors focused on improving sales trends and a guidance cut that had been widely anticipated. However, given the reason for the forecast cut and the stock's relatively low valuation, \"I'm feeling a lot better about this story. More recently, rising inflation, oil prices and interest rates added to the pressure, sending PepsiCo shares down nearly 10% in September alone.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-09T18:35:35+08:00"
-    },
-    {
-      "id": "1c5e4c09377a497166fd6adaf00ecb7d2fa5096117642eca2d7560e5295ba92f",
-      "source": "CNBC",
-      "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
-      "publishedAtSgt": "2026-10-09T06:30:26+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of AT&T, Verizon and T-Mobile tumbled in extended trading. SpaceX, which went public in June in a record IPO and is now valued at over $2 trillion, has relied on Starlink as its cash cow and only profitable business segment to date. For now, its space and artificial intelligence units are losing money.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-09T06:33:24+08:00"
     }
   ]
 }
