@@ -5,6 +5,57 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "44e6a95cbea8149492e23cbe45e2d691fe868e7a660acdf3cb8085b2fc6db89b",
+      "source": "CNBC",
+      "title": "Economists: Hot PPI shows Fed's work is not done",
+      "publishedAtSgt": "2026-10-15T23:37:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Wall Street estimates for the Federal Reserve's preferred inflation indicator now expect an acceleration from the level that prompted the central bank to hike rates last month. But taking out food, energy and trade services, prices still rose a healthy 0.5%, indicating that inflation was broader than just energy.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T01:48:42+08:00"
+    },
+    {
+      "id": "dafe015441373594e6137dee58b3ede9a775d7af10d9114a318167e93514eedc",
+      "source": "CNBC",
+      "title": "AWS, Anthropic race to deploy army of specialized engineers key to proving AI spending will pay off",
+      "publishedAtSgt": "2026-10-15T22:10:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/aws-anthropic-racing-to-deploy-army-of-specialized-ai-engineers.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Companies are scrambling to find specialized AI engineers who can put the technology to work inside businesses. Market concerns that the economics of the AI boom are not sustainable have intensified this week with many top AI-themed and memory-themed stocks from Dell to CoreWeave, AMD and Micron suffering significant short-term losses.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T01:48:45+08:00"
+    },
+    {
+      "id": "66ba9ddc25b30b31287d6707e9a269a2497e5a916d09317036cf69bc8d18abc7",
+      "source": "CNBC",
+      "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
+      "publishedAtSgt": "2026-10-15T21:42:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "The former Wall Street economist was responding to the IMF's Managing Director Kristalina Georgieva, who cautioned during the IMF-World Bank annual meetings in Bangkok on Wednesday that strong U.S. economic growth would not be sufficient to put mounting federal debt on a sustainable course.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T01:48:43+08:00"
+    },
+    {
       "id": "49788193abc01aa7a8386cc8a3b0b5d39fcee6e7559eb256f8c04316d931b33b",
       "source": "CNBC",
       "title": "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries",
@@ -409,6 +460,6 @@
       "collectedAtSgt": "2026-10-15T04:13:41+08:00"
     }
   ],
-  "articleCount": 25,
-  "updatedAtSgt": "2026-10-15T20:41:47+08:00"
+  "articleCount": 28,
+  "updatedAtSgt": "2026-10-16T01:48:45+08:00"
 }

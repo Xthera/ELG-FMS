@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "80edb1b1010dfb8248fe0363e0dec228b916a79d9e681b4d508f9c3d2634287c",
+      "source": "CNBC",
+      "title": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
+      "publishedAtSgt": "2026-10-16T00:52:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It's now facing a rebellion from stock and bond investors as concerns mount about AI overspending and debt levels. Yields on CoreWeave debt have continued to climb, with the yield to maturity on its 9.75% bond due in 2031 reaching 15.78%. For instance, shares of Micron Technology and Advanced Micro Devices shed 4% and 6%, respectively, following a big sell-off in South Korean chip stocks.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-16T01:48:23+08:00"
+    },
+    {
+      "id": "c4fa6d6eda6bf6d280014dced3a67f148c191bede8fbba8979922637f6561fa5",
+      "source": "CNBC",
+      "title": "International Energy Agency to release more than 20 million barrels of diesel as soon as possible",
+      "publishedAtSgt": "2026-10-16T00:47:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/iea-diesel-price-ukraine-iran-oil.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "International Energy Agency members have agreed to release more than 20 million barrels of diesel \"as soon as possible\" as fuel prices surge globally, the group said in a statement Thursday. President Donald Trump said earlier this month that Europe had agreed to deploy a \"massive amount of their heavily stocked Diesel Oil.\" The release detailed by the IEA on Thursday is equivalent to less than one day of global diesel demand or slightly more than five days of U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T01:48:26+08:00"
+    },
+    {
+      "id": "967f027913975c7688fdb6a68f0956ffe60ace3f847e675c55787ca35d52f410",
+      "source": "CNBC",
+      "title": "Banks with Jeffrey Epstein ties eyed by Democrats Warren and Garcia",
+      "publishedAtSgt": "2026-10-16T00:39:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/banks-congress-jeffrey-epstein-oversight.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Financial institutions and bank executives that may have aided the late financier Jeffrey Epstein's sex trafficking operation are in the sights of a bipartisan group of lawmakers. The proposal would apply to the Federal Reserve, Federal Deposit Insurance Corporation, Treasury's Office of the Comptroller of the Currency and the Securities and Exchange Commission.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T01:48:28+08:00"
+    },
+    {
+      "id": "03c1b9df3fea743691670f201d7aecf0d4980e43cd9eeeae94ebca7bac5bcabb",
+      "source": "CNBC",
+      "title": "Treasury yields slide as investors flee to safety of bonds amid tech rout",
+      "publishedAtSgt": "2026-10-16T00:14:05+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/us-treasury-yields-investors-economic-data-.html",
+      "category": "MARKET",
+      "relevanceScore": 94,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields dropped Thursday, as investors continued to cash in technology shares and fled to the safety of bonds following the latest wholesale inflation data. The benchmark 10-year Treasury yield recently tumbled more than 9 basis points to 5.093%, as did the 30-year Treasury bond yield, to 5.425%.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-16T01:48:31+08:00"
+    }
+  ],
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-16T01:48:31+08:00"
+}
