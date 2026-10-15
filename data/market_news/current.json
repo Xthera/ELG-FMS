@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-15T08:33:50+08:00",
+  "generatedAtSgt": "2026-10-15T13:56:11+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,104 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "74547fa4e855d2427775c0205c04ce6fc3abd83d6f70e605eacd7d1d1a162cc4",
+      "source": "CNBC",
+      "title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
+      "publishedAtSgt": "2026-10-15T13:37:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "on Thursday reported a record third-quarter profit that beat estimates, powered by an unrelenting global appetite for AI chips. TSMC continues to post strong monthly sales growth amid sustained demand for advanced chips. manufacturing footprint, including a total planned investment of $265 billion in Arizona.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T13:56:10+08:00"
+    },
+    {
+      "id": "2045032568fd58b88d2db048b816bc2a9d4c4c6cde97b4fd4e426f4ca4ad9bb5",
+      "source": "CNBC",
+      "title": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
+      "publishedAtSgt": "2026-10-15T13:19:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "A sell-off in global technology hardware stocks deepened Thursday, with Asian chipmakers tracking Wall Street losses as concerns over further Federal Reserve interest rate hikes, financing of artificial intelligence investments and intensifying competition weigh on sentiment. Other South Korean chip-related stocks also came under pressure.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
+    },
+    {
+      "id": "4faa9099521042e5a566082160b5dde07751aa814733419a63a8b7e0101d4a91",
+      "source": "CNBC",
+      "title": "Oil falls as investors assess Mideast tensions, International Energy Agency's report",
+      "publishedAtSgt": "2026-10-15T12:09:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/oil-prices-today-brent-wti.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil fell Thursday as traders assessed potential supply disruptions following attacks on ships passing through the Strait of Hormuz, while digesting the International Energy Agency's latest monthly report on the outlook of the oil market. The International Energy Agency in its oil report for October out Wednesday cautioned that constraints on diesel markets could continue well into the next year, with fresh attacks on Saudi Arabia threatening to derail a recovery in oil supply.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
+    },
+    {
+      "id": "9cd1fde61f06c27a9f385f9061f4196223d97e6876640a5c6528714b357c17a5",
+      "source": "CNBC",
+      "title": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
+      "publishedAtSgt": "2026-10-15T11:48:58+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic told investors its third-quarter revenue stands at $16.8 billion as it prepares for a highly anticipated initial public offering reportedly slated for November, according to people familiar with the matter. The company also told investors it was cash-flow positive, generating $1.70 in revenue for every dollar spent on computing power during the third quarter, according to the Financial Times.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
+    },
+    {
+      "id": "ec3a7807afa95dc24b132dd1b289d06e2e4c0f6400d739fe068331561fe35f5e",
+      "source": "CNBC",
+      "title": "Meta- and Google-backed Jio Platforms to raise up to $3.2 billion in historic IPO in India",
+      "publishedAtSgt": "2026-10-15T09:56:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/jio-ipo-meta-google-ambani-musk.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "Meta- and Google-backed Jio Platforms, India's largest telecom operator, is looking to raise up to 302 billion rupees ($3.2 billion) through an initial public offering of shares. Jio Platforms will sell 270 million shares in IPO priced between 1,065 rupees and 1,119 rupees apiece, from Oct. The share sale will be India's largest ever in rupee terms, but the second largest in dollar terms, marginally trailing the Hyundai Motors IPO that raised $3.3 billion in 2024.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
+    },
+    {
+      "id": "620a6c4ac4c6666f2b5854b468ce8581d181bde1247d5b8d284a89ddfc4ba35b",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: A Singapore ship goes down as Hormuz risks rise",
+      "publishedAtSgt": "2026-10-15T09:35:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/cnbc-daily-open-a-singapore-ship-goes-down-as-hormuz-risks-rise.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "High energy prices have also contributed to a hot inflation report in the U.S., with the consumer inflation rate for September up 3.7% year on year, higher than expectations of 3.6%. G20 finance ministers and central bank governors are meeting on the sidelines of the IMF-World Bank Annual Meetings in Bangkok on Thursday, although U.S.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
+    },
     {
       "id": "418a7f7fc89a3174a58c336e99fa8137a5a052cb8e40f22dc8720ab71f878e76",
       "source": "CNBC",
@@ -1500,100 +1598,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-09T21:37:28+08:00"
-    },
-    {
-      "id": "4a802c1bf799f1a28524f04770862141c65c3802bc5faf9009d6702e0c4ea5da",
-      "source": "CNBC",
-      "title": "OpenAI's revenue scare, Delta earnings, what investors think of a Starbucks-Chipotle deal and more in Morning Squawk",
-      "publishedAtSgt": "2026-10-09T20:40:30+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/5-things-to-know-before-the-stock-market-opens.html",
-      "category": "MARKET",
-      "relevanceScore": 93,
-      "relevanceReason": "strong_market_title",
-      "summary": "The news from one of the most dominant players in the artificial intelligence ecosystem led stocks across the tech sector to slide. Here's what to know: - As CNBC's Ashley Capoot and Kate Rooney write, the new details on OpenAI's revenue come as the company faces pressure to justify its enormous valuation ahead of its potential IPO. - The drop in AI names pushed the technology-heavy Nasdaq Composite down more than 1%, its worst day since mid-August.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
-    },
-    {
-      "id": "f1af98ea26a4a2ad4c6fb1e315ed7b7d0ca3e511e648d8ddedf97d54eac1bc9d",
-      "source": "CNBC",
-      "title": "Ferrari’s chairman is bullish on AI. He’s less certain how businesses will cash in",
-      "publishedAtSgt": "2026-10-09T19:54:21+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/john-elkann-ferrari-ai-technology.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "Ferrari chairman John Elkann has shrugged off concerns about a potential artificial intelligence bubble — but he warns an AI supply and demand mismatch could pose a risk to markets. In an exclusive interview with CNBC Friday, the billionaire industrialist and Meta Platforms board member, who has invested in technology companies through his family's holding company Exor, expressed optimism for the AI buildout in the decade ahead.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
-    },
-    {
-      "id": "2b33a53cec6d483647a023e73030eb5a36e3a7b2e8465a7644c290a6fb9e652b",
-      "source": "CNBC",
-      "title": "Kalshi traders see high odds that more than 5,100 data centers will be planned or operating before 2027",
-      "publishedAtSgt": "2026-10-09T19:54:04+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/kalshi-traders-see-high-odds-of-5000-plus-data-centers-by-2027.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Public backlash is rising against the construction of data centers, but Kalshi traders see a higher likelihood that the number of data centers planned or operating before the new year will top 5,000 Prediction market platform Kalshi shows a 75% chance that there will be more than 5,100 proposed and live data centers before 2027. In just two weeks, the likelihood has jumped from 60%.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-09T21:37:28+08:00"
-    },
-    {
-      "id": "b1a4554a95d710b8544a3f3d5dd1dbb5a8efe5b7d5147516fe1f7909b0100a9b",
-      "source": "CNBC",
-      "title": "CNBC Daily Open: What happened to the $20 billion?",
-      "publishedAtSgt": "2026-10-09T14:49:02+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/cnbc-daily-open-what-happened-to-the-20-billion.html",
-      "category": "MARKET",
-      "relevanceScore": 58,
-      "relevanceReason": "supporting_market_description",
-      "summary": "OpenAI's latest annual revenue estimate, confirmed by CNBC, has spooked investors by falling short of previous statements, and the market has taken it out on technology stocks. First revealed by the Financial Times, the discrepancy spooked investors, who flocked to sell AI stocks from Nvidia to Oracle to CoreWeave. CEO Sam Altman has confirmed the group will not try to IPO this year, but the company is still looking to justify a valuation that tops $850 billion.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-09T18:35:35+08:00"
-    },
-    {
-      "id": "afce54fea57e52c8166821e3e555c3708a969c033b7dca7b541df1a3dd8f56b4",
-      "source": "CNBC",
-      "title": "U.S. East Asian envoy says investors are overpricing Taiwan risk, calls Xi a 'very rational actor'",
-      "publishedAtSgt": "2026-10-09T09:10:47+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/taiwan-trump-china-militia-boat-tsmc-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "SINGAPORE – Investors are overestimating the risk of conflict across the Taiwan Strait, a top U.S. President Donald Trump and Chinese President Xi Jinping did not yield any public agreement on Taiwan. subsidies as Washington seeks to revive domestic semiconductor manufacturing.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-09T09:35:05+08:00"
-    },
-    {
-      "id": "16c77922d91dd19fa27deab67994034db050a2a7434e4aefe1f977e5aadd82e7",
-      "source": "CNBC",
-      "title": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
-      "publishedAtSgt": "2026-10-09T09:02:38+08:00",
-      "url": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Australian AI data center operator Firmus, which is backed by Nvidia, has withdrawn its planned mega initial public offering, citing market volatility and conditions, the company said in an emailed statement to CNBC. Firmus had reportedly planned to raise $5 billion in its IPO, pricing shares at A$11 apiece, which woul have made it the second-largest new share sale in Australia's history.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-09T09:35:05+08:00"
     }
   ]
 }
