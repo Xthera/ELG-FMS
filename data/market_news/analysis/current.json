@@ -1,10 +1,39 @@
 {
-  "generatedAtSgt": "2026-10-15T04:30:08.890525+08:00",
+  "generatedAtSgt": "2026-10-15T08:49:18.317252+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 207,
+  "articleCount": 208,
   "analyses": [
+    {
+      "articleId": "418a7f7fc89a3174a58c336e99fa8137a5a052cb8e40f22dc8720ab71f878e76",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Jio Platforms, backed by billionaire Mukesh Ambani, is preparing for a record IPO facing a valuation reality check and investor pushback amid a spat with Elon Musk's Starlink. Investors are questioning its positioning as a tech business, while the company transitions from subscriber growth to tariff-driven earnings.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Telecommunications",
+        "Technology"
+      ],
+      "investorImpact": "Investors face valuation scrutiny regarding Jio Platforms' upcoming record IPO, as easy subscriber gains are exhausted and future growth relies on tariff hikes and tech positioning.",
+      "reasoning": "The article details significant market events concerning a major IPO and valuation pushback in emerging markets, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Inside India newsletter: Billionaire Ambani’s mega-IPO faces a valuation reality check amid Musk spat",
+      "publishedAtSgt": "2026-10-15T08:30:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/india-starlink-musk-jio-ambani-ipo.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T08:33:50+08:00"
+    },
     {
       "articleId": "71f9e596fa0253e7b2197084189e81cbfa538901311bf17c9785bdfbd49e8cb0",
       "relevant": true,
