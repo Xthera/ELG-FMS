@@ -1,10 +1,228 @@
 {
-  "generatedAtSgt": "2026-10-15T14:11:49.679425+08:00",
+  "generatedAtSgt": "2026-10-15T20:57:25.047643+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 217,
+  "articleCount": 224,
   "analyses": [
+    {
+      "articleId": "49788193abc01aa7a8386cc8a3b0b5d39fcee6e7559eb256f8c04316d931b33b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Memory chip stocks are experiencing a significant sell-off due to broader market turmoil, concerns regarding China, and potential oversupply issues projected for 2029.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors holding memory chip stocks or broad technology sector exposures may experience heightened volatility and downside pressure, requiring a review of sector allocations and risk parameters.",
+      "reasoning": "The article is classified under MARKET with a NEGATIVE sentiment due to the severe sell-off and headwinds facing memory chip stocks, highlighting crucial supply-demand dynamics and geopolitical risks relevant for fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries",
+      "publishedAtSgt": "2026-10-15T20:15:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T20:41:46+08:00"
+    },
+    {
+      "articleId": "6e6a66440053b84de16980acb033f574e05e89c93adf0235e351cb5a257d9e41",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Analysis highlights that a $2 trillion deficit, 5% Treasury yields, rising oil and diesel prices, and potential central bank rate hikes present significant challenges for the US economy, while artificial intelligence remains a key potential source of future growth.",
+      "assetClasses": [
+        "Fixed Income",
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Technology"
+      ],
+      "investorImpact": "High Treasury yields and growing fiscal deficits create upward pressure on borrowing costs and impact asset valuations across fixed income and equities, while energy price volatility adds inflationary concerns.",
+      "reasoning": "Classified as ECONOMIC due to the core focus on fiscal deficits, Treasury yields, and macroeconomic pressures. It is highly important for fund monitoring as it touches on foundational asset pricing conditions like interest rates and bond yields.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+      "publishedAtSgt": "2026-10-15T20:11:15+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T20:41:46+08:00"
+    },
+    {
+      "articleId": "43fc7f51eb474ef9147b3e7296399433cc30f42c817987daa5fd47628375c967",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Cboe Global Markets is extending trading hours for options on two-dozen stocks and a handful of ETFs, reflecting growing investor demand and adoption of derivatives.",
+      "assetClasses": [
+        "Equities",
+        "Options",
+        "ETFs"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Extended options trading hours provide investors with greater flexibility and risk management capabilities outside of regular market sessions.",
+      "reasoning": "The article is classified under MARKET as it details structural changes in exchange-traded options hours, offering a positive development for market liquidity and accessibility.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cboe to expand options trading hours for major stocks and ETFs",
+      "publishedAtSgt": "2026-10-15T20:01:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/cboe-stock-etf-options-extended-hours.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T20:41:46+08:00"
+    },
+    {
+      "articleId": "6a4bff1db775990f0d6e508f59bed5639641476b6c7863dc916c46ee2162317e",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "President Volodymyr Zelenskyy announced that Ukraine will resume attacks on Russian energy infrastructure after Moscow failed to uphold a proposed energy ceasefire deal, shattering hopes of a truce.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "Ukraine",
+        "Russia",
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil & Gas"
+      ],
+      "investorImpact": "The resumption of strikes on Russian refineries poses upside risks to global energy prices, particularly crude oil and refined products, and increases volatility in energy sector equities.",
+      "reasoning": "The article details an escalation in the Russia-Ukraine conflict directly impacting global energy supply chains and geopolitical stability, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an 'energy ceasefire'",
+      "publishedAtSgt": "2026-10-15T18:13:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
+    },
+    {
+      "articleId": "c9dacdadd84bc96065c5673eff0b75d7ca3f4678f1d89971da4b1701698c3e51",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "France's central bank governor asserts that the country can slash its budget deficit to 3% within three years despite political turmoil. Market concerns over political instability have weighed on French bond markets amid global inflationary pressures.",
+      "assetClasses": [
+        "Bonds",
+        "Sovereign Debt"
+      ],
+      "geographies": [
+        "France",
+        "Europe"
+      ],
+      "sectors": [
+        "Government",
+        "Financial"
+      ],
+      "investorImpact": "Investors with exposure to French sovereign debt and European bond markets should monitor fiscal policy developments and political stability in France, as deficit reduction efforts impact bond yields and market confidence.",
+      "reasoning": "The article discusses national fiscal policy, budget deficits, and bond market pressures in France, which are critical for macroeconomic and sovereign fixed-income monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "France is ‘putting the house in order’ and can slash deficit to 3% in three years, central bank governor tells CNBC",
+      "publishedAtSgt": "2026-10-15T18:05:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/france-budget-deficit-moulin-protests.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
+    },
+    {
+      "articleId": "591ec878ea3550db15035eabfbc2a93c102f35df202509f5a8798cae73e6aae4",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "China's Commerce Ministry indicated that the country will continue approving rare earth export licenses to Europe regardless of whether its trade deal with the U.S. is extended past January, mitigating supply chain concerns for European industries.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "China",
+        "Europe",
+        "United States"
+      ],
+      "sectors": [
+        "Mining",
+        "Technology",
+        "Manufacturing",
+        "Automotive"
+      ],
+      "investorImpact": "The assurance from China helps stabilize supply chain expectations for European technology, manufacturing, and automotive sectors dependent on rare earth elements, reducing geopolitical risk premiums for these industries.",
+      "reasoning": "Classified as GEOPOLITICAL because it addresses trade policies and export licenses between major global economies. It is relevant to fund monitoring as rare earth supply stability directly impacts manufacturing and tech sector costs.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
+      "publishedAtSgt": "2026-10-15T17:02:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 72,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
+    },
+    {
+      "articleId": "3a7db32055e63ac61809a6c9419bd217f2e5849a5e4563917de9626407634bbc",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Shares of IDBI Bank dropped over 7% following the Indian government's announcement of a $5.5 billion majority stake sale to Canada's Fairfax Financial Holdings, pending regulatory approval from the Reserve Bank of India.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India",
+        "Canada"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Investors in IDBI Bank face short-term downside volatility due to the 7% share price drop, while foreign investors monitor cross-border M&A and FDI approvals in the Indian banking sector.",
+      "reasoning": "The article details a major financial transaction involving a significant cross-border acquisition and a notable stock price reaction, making it highly relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "India’s IDBI Bank falls 7% as government announces $5.5 billion stake sale to Canada's Fairfax",
+      "publishedAtSgt": "2026-10-15T14:12:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/india-canada-fairfax-idbi-fdi.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
+    },
     {
       "articleId": "74547fa4e855d2427775c0205c04ce6fc3abd83d6f70e605eacd7d1d1a162cc4",
       "relevant": true,
