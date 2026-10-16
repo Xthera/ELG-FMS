@@ -1,10 +1,164 @@
 {
-  "generatedAtSgt": "2026-10-16T06:39:37.161918+08:00",
+  "generatedAtSgt": "2026-10-16T14:10:40.299400+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 211,
+  "articleCount": 216,
   "analyses": [
+    {
+      "articleId": "4ce3fdba1d96702d937601b8a051a8f315a35b6c121fe111d6239053b6b5322a",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "Federal Reserve Chairman Kevin Warsh refrained from signaling a rate move for the upcoming meeting while noting synchronous global central bank tightening, stating there are no free riders.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Currencies"
+      ],
+      "geographies": [
+        "United States",
+        "Global"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors should maintain caution as the Federal Reserve has not signaled its next policy move, while global monetary tightening continues to create a restrictive environment for risk assets.",
+      "reasoning": "The article is classified as MARKET because it details statements from Federal Reserve leadership regarding monetary policy and global central bank tightening, which directly impact market sentiment and asset valuations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Fed's Warsh withholds Fed rate signal, praises recent global tightening with 'no free riders'",
+      "publishedAtSgt": "2026-10-16T13:07:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 59,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-16T13:54:36+08:00"
+    },
+    {
+      "articleId": "4f378b14bc690a875fe47ddcb60cfb785da28a2fc03054dc0457c378267ccd95",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Private equity-owned companies are increasingly turning to the debt market through high-yield corporate bond issuance and private credit borrowing to pay investors via dividend recapitalizations amid a prolonged IPO drought.",
+      "assetClasses": [
+        "Private Equity",
+        "Private Credit",
+        "High Yield Debt",
+        "Bonds"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Private Equity"
+      ],
+      "investorImpact": "Investors and lenders should note that the continued IPO drought is shifting private equity payout mechanisms toward debt markets, increasing reliance on private credit and high-yield issuances for shareholder distributions.",
+      "reasoning": "The article is classified as MARKET because it discusses broader shifts in corporate finance and private equity liquidity strategies. It is important for monitoring private debt and private equity portfolio liquidity trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The IPO drought is driving private equity-owned companies to the debt market to pay investors",
+      "publishedAtSgt": "2026-10-16T13:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/private-equity-portfolios-ipo-debt.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-16T13:54:36+08:00"
+    },
+    {
+      "articleId": "3f6e41564d67278787c348fbb285afd5405e37a7051a0a5fda9f1a07ffe9ed60",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Commercial vessels continue to transit the Strait of Hormuz despite escalating security risks and attacks, driven by high demand for Middle Eastern energy supplies, particularly from Asia.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "Asia",
+        "Singapore"
+      ],
+      "sectors": [
+        "Energy",
+        "Shipping"
+      ],
+      "investorImpact": "Ongoing security threats in the Strait of Hormuz pose risks to global energy supplies and shipping costs, potentially causing volatility in oil prices and energy sector equities.",
+      "reasoning": "Classified as GEOPOLITICAL due to shipping attacks and maritime transit risks in a critical global oil chokepoint. Important for monitoring energy supply chains and geopolitical risk premiums.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "One Singapore ship was sunk, but here's why others are still transiting the Strait of Hormuz",
+      "publishedAtSgt": "2026-10-16T12:29:27+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/strait-hormuz-singapore-ships-attacked.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 72,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-16T13:54:36+08:00"
+    },
+    {
+      "articleId": "e19c1ebbbf3158f5fe308aebf279c0b46f2933b39d643924ad2b6cb5ba770219",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Shares of Hybe surged 10% following an upbeat third-quarter earnings outlook driven by global concerts and strong merchandise and licensing revenues from K-pop group BTS.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "South Korea",
+        "Global"
+      ],
+      "sectors": [
+        "Entertainment",
+        "Media"
+      ],
+      "investorImpact": "Strong concert and merchandise revenue expectations are driving positive earnings sentiment and stock price appreciation for entertainment companies with global touring acts.",
+      "reasoning": "The article discusses a significant 10% jump in a major entertainment company's stock driven by fundamental earnings expectations from live tours, making it relevant for equity and market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Hybe shares jump 10% as K-pop sensation BTS' tour lifts earnings hopes",
+      "publishedAtSgt": "2026-10-16T11:53:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/bts-concerts-hybe-katseye-cortis.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-16T13:54:36+08:00"
+    },
+    {
+      "articleId": "e3d99ea181a2ed18a9acb835c232ee62b4d87897d4ee5d34d835aefb21250cea",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "The Senate Leadership Fund, a top Republican Senate super PAC, raised a record $273 million in the third quarter leading up to the midterm elections, bolstered by contributions including those from Elon Musk.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Politics",
+        "Government"
+      ],
+      "investorImpact": "High political fundraising totals ahead of elections can signal shifting regulatory landscapes and potential policy shifts impacting specific sectors, though direct short-term market impact remains broad.",
+      "reasoning": "The article discusses major political fundraising involving prominent business figures ahead of the midterm elections. While categorized under political/geopolitical developments, it has market implications due to potential policy shifts, justifying medium importance and fund monitoring relevance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Elon Musk helps GOP Senate super PAC raise record $273 million",
+      "publishedAtSgt": "2026-10-16T07:53:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-10-16T13:54:37+08:00"
+    },
     {
       "articleId": "d7168869c4171ab52a3b2ebb9b88a3dd474b27a8f80d43c4016eb1292ff27326",
       "relevant": true,
