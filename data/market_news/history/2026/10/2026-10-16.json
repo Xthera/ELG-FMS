@@ -5,6 +5,86 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "4ce3fdba1d96702d937601b8a051a8f315a35b6c121fe111d6239053b6b5322a",
+      "source": "CNBC",
+      "title": "Fed's Warsh withholds Fed rate signal, praises recent global tightening with 'no free riders'",
+      "publishedAtSgt": "2026-10-16T13:07:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
+      "category": "MARKET",
+      "relevanceScore": 59,
+      "relevanceReason": "supporting_market_description",
+      "summary": "BANGKOK — Federal Reserve Chairman Kevin Warsh refrained from signaling whether there will be another interest rate hike again this month, while acknowledging a \"synchronous tightening\" by central banks around the world and there's \"no free riders.\" \"I don't prejudge meetings. He also acknowledged that stance may disappoint anyone who had hoped for a steer ahead of the central bank meeting later this month.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T13:54:36+08:00"
+    },
+    {
+      "id": "4f378b14bc690a875fe47ddcb60cfb785da28a2fc03054dc0457c378267ccd95",
+      "source": "CNBC",
+      "title": "The IPO drought is driving private equity-owned companies to the debt market to pay investors",
+      "publishedAtSgt": "2026-10-16T13:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/private-equity-portfolios-ipo-debt.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Any company doing a div-recap is likely taking a forward-looking view that the IPO market will be closed in the short run.\" Distributions to investors have fallen sharply in recent years. Alternatively, funding is raised by high-yield corporate bond issuance or private credit borrowing. \"Weaker earnings, wider spreads or investor withdrawals could tighten availability, while a recovery in acquisition financing would give lenders more alternatives to funding shareholder payouts,\" she said.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T13:54:36+08:00"
+    },
+    {
+      "id": "3f6e41564d67278787c348fbb285afd5405e37a7051a0a5fda9f1a07ffe9ed60",
+      "source": "CNBC",
+      "title": "One Singapore ship was sunk, but here's why others are still transiting the Strait of Hormuz",
+      "publishedAtSgt": "2026-10-16T12:29:27+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/strait-hormuz-singapore-ships-attacked.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Commercial vessels may continue navigating the perilous Strait of Hormuz despite escalating attacks on shipping, as strong demand for Middle Eastern energy and commercial opportunities keep some operators willing to brave the risks, maritime experts said. Strong demand for oil, particularly from Asia, continues to provide an incentive for tanker operators to transport energy supplies from the Persian Gulf, even as security threats complicate voyages.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T13:54:36+08:00"
+    },
+    {
+      "id": "e19c1ebbbf3158f5fe308aebf279c0b46f2933b39d643924ad2b6cb5ba770219",
+      "source": "CNBC",
+      "title": "Hybe shares jump 10% as K-pop sensation BTS' tour lifts earnings hopes",
+      "publishedAtSgt": "2026-10-16T11:53:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/bts-concerts-hybe-katseye-cortis.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Hybe, the company behind K-pop supergroup BTS, surged 10% on Friday as investors weighed an upbeat third-quarter earnings outlook fueled by its artistes' global concerts. Despite currency headwinds, concert, merchandise and licensing revenues are expected to reach record levels.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T13:54:36+08:00"
+    },
+    {
+      "id": "e3d99ea181a2ed18a9acb835c232ee62b4d87897d4ee5d34d835aefb21250cea",
+      "source": "CNBC",
+      "title": "Elon Musk helps GOP Senate super PAC raise record $273 million",
+      "publishedAtSgt": "2026-10-16T07:53:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "The Senate Leadership Fund, the Republican Party's leading Senate super PAC, posted the largest quarterly haul in its history and entered the final weeks before the Nov. 3 midterm election with more than $155 million in cash, according to a new Federal Election Commission filing Thursday. The SLF brought in $272.9 million from July through September, including $209.7 million from donors.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T13:54:37+08:00"
+    },
+    {
       "id": "d7168869c4171ab52a3b2ebb9b88a3dd474b27a8f80d43c4016eb1292ff27326",
       "source": "CNBC",
       "title": "Jim Cramer says this week's AI sell-off offers a crucial lesson for investors",
@@ -128,6 +208,6 @@
       "collectedAtSgt": "2026-10-16T01:48:31+08:00"
     }
   ],
-  "articleCount": 8,
-  "updatedAtSgt": "2026-10-16T06:24:07+08:00"
+  "articleCount": 13,
+  "updatedAtSgt": "2026-10-16T13:54:37+08:00"
 }
