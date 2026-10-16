@@ -5,6 +5,85 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "771262fd74308bfd204265cefc43150142aa48a318dc28749893539a8acd18bf",
+      "source": "CNBC",
+      "title": "Europe's answer to SpaceX pops 19% as Ukraine's Starshield limits raise concerns",
+      "publishedAtSgt": "2026-10-16T20:16:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/eutelsat-starshield-ukraine-spacex.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of French Satellite Group Eutelsat soared this week as SpaceX's Starshield drew criticism after the Ukrainian military's access to its systems was suddenly restricted. Eutelsat shares rose 19% on Friday, and was up 25% over the past five days following the news of Starlink's struggles in Ukraine. Eutelsat's share move this week is more evidence \"supporting the sovereign value of European Satellite networks,\" Deutsche Bank analysts said in a note Thursday.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T20:29:08+08:00"
+    },
+    {
+      "id": "fa122f862c3b185bf5baef990328008b01c43a5ef0af38eba4bc81373b8fbce0",
+      "source": "CNBC",
+      "title": "I watched Nvidia's Jensen Huang work the room in London. He brought big checks — and a blunt message",
+      "publishedAtSgt": "2026-10-16T19:33:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/nvidia-jensen-huang-london.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "In an old converted church in West London on Wednesday night, Huang stood on a pop-up stage in front of politicians, investors, tech execs and journalists, announcing the chip giant was taking stakes in five U.K. The chip giant has participated in 116 investment rounds in 2026 so far, according to Dealroom, up from just 12 in 2022. CoreWeave credit default swaps hit distress levels as investors soured on AI debt.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T20:29:08+08:00"
+    },
+    {
+      "id": "945900db432c8b72719d5dbcc1de6efac3a570fb9d9829b319561e01a1d91c27",
+      "source": "CNBC",
+      "title": "Banking tax raid fears hit London lenders' shares ahead of crucial budget",
+      "publishedAtSgt": "2026-10-16T19:19:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/banking-tax-london-uk-lenders.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares in some of Britain's biggest banks sold off Friday amid reports that the U.K. London-listed shares of HSBC and Standard Chartered — which both derive much of their profits overseas — added 1.2% and 0.71%, respectively. bank fundamentals remain healthy, pointing to corporate releveraging, with lenders' net interest income growth among the highest in Europe.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-16T20:29:09+08:00"
+    },
+    {
+      "id": "dd8e281769a84e5eaebfe1b9512d229a42200449e6592409b2634ccfc3d213e6",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: Warsh holds cards close on Fed policy, but inflation numbers may tip his hand",
+      "publishedAtSgt": "2026-10-16T16:31:55+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/cnbc-daily-open-warsh-holds-cards-close-on-fed-policy-but-inflation-numbers-may-tip-his-hand.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Meanwhile, the AI trade had a rough Thursday as investors shifted their attention from what the technology can do to who will pay for it. Earlier this week, consumer inflation also ran above expectations for September, rising to 3.7% from a year earlier, compared with a 3.6% forecast AI stocks retreated on Thursday as investor worries over funding mounted, with so-called \"neocloud\" company CoreWeave front and center in the sell-off.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T20:29:09+08:00"
+    },
+    {
+      "id": "6b9351b65cfc3a1baaed9906d52c6f05f502ea9c32d23d57244fd9fad5bc5ff1",
+      "source": "CNBC",
+      "title": "SpaceX policy manager set to testify as part of NYC Council AI safety investigation",
+      "publishedAtSgt": "2026-10-16T16:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/spacex-policy-manger-to-testify-in-nyc-council-ai-safety-investigation.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "SpaceX artificial intelligence policy leader Gabriela Castillo Madrid is set to testify before the New York City Council on Friday as part of a legislative investigation into AI safety. Elon Musk's aerospace, defense tech and AI company originally evaded requests and a subpoena from the city council to appear alongside leaders from OpenAI, Anthropic, Google and Meta on Oct.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-16T20:29:09+08:00"
+    },
+    {
       "id": "4ce3fdba1d96702d937601b8a051a8f315a35b6c121fe111d6239053b6b5322a",
       "source": "CNBC",
       "title": "Fed's Warsh withholds Fed rate signal, praises recent global tightening with 'no free riders'",
@@ -208,6 +287,6 @@
       "collectedAtSgt": "2026-10-16T01:48:31+08:00"
     }
   ],
-  "articleCount": 13,
-  "updatedAtSgt": "2026-10-16T13:54:37+08:00"
+  "articleCount": 18,
+  "updatedAtSgt": "2026-10-16T20:29:09+08:00"
 }

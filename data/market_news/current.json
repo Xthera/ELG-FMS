@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-16T13:54:37+08:00",
+  "generatedAtSgt": "2026-10-16T20:29:09+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,85 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "771262fd74308bfd204265cefc43150142aa48a318dc28749893539a8acd18bf",
+      "source": "CNBC",
+      "title": "Europe's answer to SpaceX pops 19% as Ukraine's Starshield limits raise concerns",
+      "publishedAtSgt": "2026-10-16T20:16:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/eutelsat-starshield-ukraine-spacex.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of French Satellite Group Eutelsat soared this week as SpaceX's Starshield drew criticism after the Ukrainian military's access to its systems was suddenly restricted. Eutelsat shares rose 19% on Friday, and was up 25% over the past five days following the news of Starlink's struggles in Ukraine. Eutelsat's share move this week is more evidence \"supporting the sovereign value of European Satellite networks,\" Deutsche Bank analysts said in a note Thursday.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T20:29:08+08:00"
+    },
+    {
+      "id": "fa122f862c3b185bf5baef990328008b01c43a5ef0af38eba4bc81373b8fbce0",
+      "source": "CNBC",
+      "title": "I watched Nvidia's Jensen Huang work the room in London. He brought big checks — and a blunt message",
+      "publishedAtSgt": "2026-10-16T19:33:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/nvidia-jensen-huang-london.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "In an old converted church in West London on Wednesday night, Huang stood on a pop-up stage in front of politicians, investors, tech execs and journalists, announcing the chip giant was taking stakes in five U.K. The chip giant has participated in 116 investment rounds in 2026 so far, according to Dealroom, up from just 12 in 2022. CoreWeave credit default swaps hit distress levels as investors soured on AI debt.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T20:29:08+08:00"
+    },
+    {
+      "id": "945900db432c8b72719d5dbcc1de6efac3a570fb9d9829b319561e01a1d91c27",
+      "source": "CNBC",
+      "title": "Banking tax raid fears hit London lenders' shares ahead of crucial budget",
+      "publishedAtSgt": "2026-10-16T19:19:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/banking-tax-london-uk-lenders.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares in some of Britain's biggest banks sold off Friday amid reports that the U.K. London-listed shares of HSBC and Standard Chartered — which both derive much of their profits overseas — added 1.2% and 0.71%, respectively. bank fundamentals remain healthy, pointing to corporate releveraging, with lenders' net interest income growth among the highest in Europe.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-16T20:29:09+08:00"
+    },
+    {
+      "id": "dd8e281769a84e5eaebfe1b9512d229a42200449e6592409b2634ccfc3d213e6",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: Warsh holds cards close on Fed policy, but inflation numbers may tip his hand",
+      "publishedAtSgt": "2026-10-16T16:31:55+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/cnbc-daily-open-warsh-holds-cards-close-on-fed-policy-but-inflation-numbers-may-tip-his-hand.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Meanwhile, the AI trade had a rough Thursday as investors shifted their attention from what the technology can do to who will pay for it. Earlier this week, consumer inflation also ran above expectations for September, rising to 3.7% from a year earlier, compared with a 3.6% forecast AI stocks retreated on Thursday as investor worries over funding mounted, with so-called \"neocloud\" company CoreWeave front and center in the sell-off.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-16T20:29:09+08:00"
+    },
+    {
+      "id": "6b9351b65cfc3a1baaed9906d52c6f05f502ea9c32d23d57244fd9fad5bc5ff1",
+      "source": "CNBC",
+      "title": "SpaceX policy manager set to testify as part of NYC Council AI safety investigation",
+      "publishedAtSgt": "2026-10-16T16:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/spacex-policy-manger-to-testify-in-nyc-council-ai-safety-investigation.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "SpaceX artificial intelligence policy leader Gabriela Castillo Madrid is set to testify before the New York City Council on Friday as part of a legislative investigation into AI safety. Elon Musk's aerospace, defense tech and AI company originally evaded requests and a subpoena from the city council to appear alongside leaders from OpenAI, Anthropic, Google and Meta on Oct.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-16T20:29:09+08:00"
+    },
     {
       "id": "4ce3fdba1d96702d937601b8a051a8f315a35b6c121fe111d6239053b6b5322a",
       "source": "CNBC",
@@ -1526,85 +1605,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-12T21:47:39+08:00"
-    },
-    {
-      "id": "50d054e308d4d1b1f2ac7b52a6476d0f434e35a1c4cd2d7b2bc89a8863d92c85",
-      "source": "CNBC",
-      "title": "Health insurance open enrollment: Use this 'algorithm' to pick a plan, financial advisor says",
-      "publishedAtSgt": "2026-10-12T20:15:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/12/health-insurance-open-enrollment.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Households are grappling with such choices amid soaring healthcare costs, in some cases forcing them to make difficult financial trade-offs during open enrollment, experts said. However, the trade-off is they typically carry higher premiums. They come with a three-pronged tax break: Contributions are tax-free, investment growth is tax-deferred, and withdrawals are tax-free if used for eligible medical costs.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-12T21:47:38+08:00"
-    },
-    {
-      "id": "cfca6d5d8b242984f4bb5d69bab6700bd624d111c9debf5bc3a664f3bc917b89",
-      "source": "CNBC",
-      "title": "India’s retail inflation jumps to 5.54% in September, above estimates",
-      "publishedAtSgt": "2026-10-12T18:49:24+08:00",
-      "url": "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "India's headline inflation rose to 5.54% in September from 4.82% in August, adding pressure on the country's central bank to further tighten monetary policy. India's central bank expects core inflation to be at 4.4% for the financial year ending March 2027 and headline inflation at 5.2%, which is higher than the RBI's medium-term target of 4%.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-12T21:47:39+08:00"
-    },
-    {
-      "id": "9618a78a53cfd395b7ce97ccd80a0247ef1b7b29c5ac96aac802556cbf447243",
-      "source": "CNBC",
-      "title": "AI FOMO driving some family offices into tech investments, survey suggests",
-      "publishedAtSgt": "2026-10-12T18:25:28+08:00",
-      "url": "https://www.cnbc.com/2026/10/12/ai-fomo-driving-some-family-offices-to-ai-investments-survey-suggests.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Eighty-five percent of family offices rank artificial intelligence as their top investment theme, despite 75% expecting an AI bubble to burst within the next five years, according to a new survey. RBC's Bill Ringham said these mixed feelings about AI can be traced to several potential factors, including cautious optimism about the technology and concerns about sitting on the sidelines of an investment boom.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-12T18:37:46+08:00"
-    },
-    {
-      "id": "9800bbd26162d83e8f3d5bd52f451f39d055cae72746689d4a143cabcbbf2a42",
-      "source": "CNBC",
-      "title": "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford",
-      "publishedAtSgt": "2026-10-12T18:24:47+08:00",
-      "url": "https://www.cnbc.com/2026/10/12/nobel-economics-prize-winner-woodford-hall.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "The U.S.-born pair were jointly awarded the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, a prize established by Sweden's central bank in 1968, for their research into the \"microeconomic foundations of macroeconomic stabilisation.\" They will split the 12 million Swedish kronor ($1.19 million) prize.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-12T18:37:45+08:00"
-    },
-    {
-      "id": "7b0be4ec77446f569227a256f9d303bcbaddba553301007ae751d48c55f0cbb1",
-      "source": "CNBC",
-      "title": "Zelenskyy says Ukraine is ready to agree to energy ceasefire, but warns Russia must do same",
-      "publishedAtSgt": "2026-10-12T18:23:23+08:00",
-      "url": "https://www.cnbc.com/2026/10/12/russia-ukraine-energy-ceasefire-trump.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Ukrainian President Volodymyr Zelenskyy welcomed the U.S.-brokered \"energy ceasefire,\" but warned Monday that Moscow must do the same. If Russia doesn't agree to the energy ceasefire announced by President Donald Trump on Sunday, Ukraine will respond, Zelenskyy said in a live-streamed address Monday morning.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-12T18:37:46+08:00"
     }
   ]
 }
