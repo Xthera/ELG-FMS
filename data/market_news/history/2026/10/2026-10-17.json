@@ -5,6 +5,67 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "98e99f82e68aca65256e2a9b2d1ddd3af2a95d24b6c05c33582e0ad64cbdc4c7",
+      "source": "CNBC",
+      "title": "Why did CoreWeave stock get crushed this week? Look to this corner of the debt market for clues",
+      "publishedAtSgt": "2026-10-17T04:33:55+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/16/coreweave-credit-default-swaps.html",
+      "category": "MARKET",
+      "relevanceScore": 59,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Corporate credit quality is getting a lot of attention these days, as funding costs increase due to above-target inflation that just won't quit and investor worries about the level of financial commitment being made by companies that don't want to be left behind in the AI race. We're obviously stock-focused investors around here, but in this wobbly moment for the AI trade, we cannot ignore what's happening in the corporate bond market.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-17T06:06:59+08:00"
+    },
+    {
+      "id": "cf8fdc7d21098f3ab1bbb97f97ffad790cfcf15df8c515dd2f91554e9a9c763f",
+      "source": "CNBC",
+      "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+      "publishedAtSgt": "2026-10-17T04:02:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Crude oil prices rose sharply Friday as Iran escalated attacks in the Strait of Hormuz, Houthi militants fired missiles at Saudi Arabia and Ukraine vowed to keep striking Russian refineries. Oil giant Aramco came under attack when one of its administrative buildings in Dhahran was hit Tuesday, the kingdom's energy ministry said. In the Strait of Hormuz, at least nine tankers and cargo ships have come under attack since Sunday as Iran tries to choke off oil exports through the waterway.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-17T06:06:58+08:00"
+    },
+    {
+      "id": "89307a9783831aab94a8368c8245321448198ccaefcba12ec7b3efb6ab7e850c",
+      "source": "CNBC",
+      "title": "Debt is eating up a bigger chunk of your raise, research shows",
+      "publishedAtSgt": "2026-10-17T03:47:46+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Yet research shows debt payments are taking a growing bite out of Americans' income gains, leaving less money available to spend or save. \"Real\" take-home pay is one's wage after accounting for inflation. The analysis also found inflation-adjusted debt payments rose nearly 15% over roughly three years — about eight times as fast as household income, which grew less than 2%.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-17T06:06:59+08:00"
+    },
+    {
+      "id": "579fba566a81b66d264096610bafdf3f4dd0c52fabf331a8776cae500e5f9687",
+      "source": "CNBC",
+      "title": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
+      "publishedAtSgt": "2026-10-17T02:24:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Now, after a shocking 27.5% drop from last Friday's close to this Thursday morning's 52-week lows, followed by a whiplash 17% rebound, equity investors, if not squashed like Dr. That was well known, but the CEO's comments that the company aspired to be investment grade so it could borrow \"unlimited sums\", even as investors already anticipated nearly another $60 billion in debt in the next 18months, spooked folks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-17T06:06:58+08:00"
+    },
+    {
       "id": "d6fbc59bfaeff5fd3dc85952112477fc70988f98bab90c610e8bfca9843fdeec",
       "source": "CNBC",
       "title": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
@@ -66,6 +127,6 @@
       "collectedAtSgt": "2026-10-17T01:28:05+08:00"
     }
   ],
-  "articleCount": 4,
-  "updatedAtSgt": "2026-10-17T01:28:05+08:00"
+  "articleCount": 8,
+  "updatedAtSgt": "2026-10-17T06:06:59+08:00"
 }
