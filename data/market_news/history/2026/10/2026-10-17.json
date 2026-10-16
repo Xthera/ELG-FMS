@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-17",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "d6fbc59bfaeff5fd3dc85952112477fc70988f98bab90c610e8bfca9843fdeec",
+      "source": "CNBC",
+      "title": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
+      "publishedAtSgt": "2026-10-17T01:02:40+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "On Thursday, Tesla showed off its long-delayed Roadster, which relies on SpaceX technology to make the vehicle hover. Analyst Dan Levy expects the merger may be proposed as an AI vertical integration, involving Tesla's Robotaxi and Optimus with SpaceX's Grok and Macrohard. Earlier Friday, Evercore ISI recommended buying SpaceX shares ahead of its next scheduled earnings release, set for early November, and boosted its 12-month price target on the stock by 20% to $275.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-17T01:28:04+08:00"
+    },
+    {
+      "id": "cce5b2c53bf7952170945044a92f75fb2ddfd78c2fefd60c0d7b3aee3d215fb7",
+      "source": "CNBC",
+      "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
+      "publishedAtSgt": "2026-10-17T00:27:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "companies and the Trump administration both \"need to be wary\" of foreign espionage attempts as the race for artificial intelligence dominance continues, Director of National Intelligence Jay Clayton told CNBC on Friday. AI \"amplifies\" existing cybersecurity risks toward U.S. digital infrastructure, which is interconnected with critical systems related to everything from public goods to the national defense and global communications, Clayton said on \"Squawk Box.\" It's \"why we're focused on...",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-17T01:28:04+08:00"
+    },
+    {
+      "id": "2444de55f0acc74028a6656931e7c562f2e1d45f53f507fbff4303c3d46fd1c2",
+      "source": "CNBC",
+      "title": "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
+      "publishedAtSgt": "2026-10-17T00:21:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/tax-strategies-capital-gains-wealthy-investors-schwab.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "When Charles Schwab released its quarterly earnings on Thursday, it wasn't the quarterly earnings per share print in the numbers that caught the attention of those who manage money for wealthy stock investors — it was a $60.7 billion figure. That was reported in a detail about margin loan balances which increased 14% quarter-over-quarter to $187.9 billion, including a whopping $60.7 billion related to what are known as \"tax-aware\" long/short strategies used by many registered investment...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-17T01:28:04+08:00"
+    },
+    {
+      "id": "aefb38e0415a42fedf14dd31ebe49da7e207224135e7867fcc3ed4a9f46fe285",
+      "source": "CNBC",
+      "title": "What we want to see when Capital One and Meta report earnings next week",
+      "publishedAtSgt": "2026-10-17T00:06:29+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/16/what-we-want-to-see-when-capital-one-and-meta-report-earnings-next-week-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks are mixed Friday, with the rotation out of AI names and into defensives still ongoing. \"Investors typically don't want to hear about investment years. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-17T01:28:05+08:00"
+    }
+  ],
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-17T01:28:05+08:00"
+}

@@ -5,6 +5,38 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "198fe19a87ed89e391abba743fce86efa62760077d771cbc659ff9b5f54c7c9e",
+      "source": "CNBC",
+      "title": "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
+      "publishedAtSgt": "2026-10-16T23:52:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Tesla showed off its long-delayed next-generation Roadster on Thursday, almost a decade after Elon Musk's company started taking deposits for the electric sports car. The next-generation Roadster is expected to be a high-end, low-volume model that relies on SpaceX technology to enable it to hover.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-17T01:28:09+08:00"
+    },
+    {
+      "id": "476d8080e6df9f75cd58717a7d51fed4c0bb2dca6096c752b7dd1a1e9875037b",
+      "source": "CNBC",
+      "title": "Here's how the CoreWeave sell-off is affecting OpenAI vs. Anthropic valuations",
+      "publishedAtSgt": "2026-10-16T21:43:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/16/coreweave-openai-anthropic-perps.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The spread is widening between AI leaders OpenAI and Anthropic as a sell-off in CoreWeave leads neocloud stocks lower. OpenAI's valuation is down more than 4% the past 24 hours after briefly slipping under $1.5 trillion, according to perpetual futures pricing on decentralized exchange Hyperliquid.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-17T01:28:09+08:00"
+    },
+    {
       "id": "771262fd74308bfd204265cefc43150142aa48a318dc28749893539a8acd18bf",
       "source": "CNBC",
       "title": "Europe's answer to SpaceX pops 19% as Ukraine's Starshield limits raise concerns",
@@ -287,6 +319,6 @@
       "collectedAtSgt": "2026-10-16T01:48:31+08:00"
     }
   ],
-  "articleCount": 18,
-  "updatedAtSgt": "2026-10-16T20:29:09+08:00"
+  "articleCount": 20,
+  "updatedAtSgt": "2026-10-17T01:28:09+08:00"
 }
