@@ -5,6 +5,69 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "b58b29eb11a0fbb4cf9d508a12734702edee2dba9d4ba31d0c81b197cc872ac1",
+      "source": "CNBC",
+      "title": "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
+      "publishedAtSgt": "2026-10-17T23:42:34+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The sinking AI trade and hotter-than-expected inflation data rattled last week's stock market. Higher inflation, fueled partly by elevated oil prices, threatens to push up borrowing costs and complicate the massive AI infrastructure buildout. AI's sell-off makes the case for diversification The AI trade took another hit last week as investors grew concerned about rising borrowing costs and mounting competition in the semiconductor industry.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-18T00:28:17+08:00"
+    },
+    {
+      "id": "4116a132df5a597f067b3c2ada5ab883fd19b24269e94f8d52e2e76436aa972b",
+      "source": "CNBC",
+      "title": "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
+      "publishedAtSgt": "2026-10-17T23:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/17/dead-money-for-a-decade-hedge-fund-approach-that-may-trump-bonds.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors may want to rethink their bond allocation and opt for managed futures exposure. Be nimble when other people's [portfolios] aren't.\" Beer contends the managed futures strategy, historically only available to hedge funds, could counterbalance stocks better than bonds during periods of volatility, which has been moving higher due to recent worries surrounding debt and the artificial intelligence trade.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-10-18T00:28:17+08:00"
+    },
+    {
+      "id": "70ca792725ca83e6393101854868850201c248fc9b17e8df7339e2ecb2c2ef85",
+      "source": "CNBC",
+      "title": "Investors are buying up vast tracts of timberland across U.S. in one of market's longest-term bets",
+      "publishedAtSgt": "2026-10-17T21:47:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/17/timberland-investing-returns-risk.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Institutions have been buying timberland at a rate of one million acres per year, according to Bank of America, and some financial advisors say individual investors, including younger Americans priced out of the housing market, are also taking a look at the asset class. \"As a result, some investors are looking for alternative ways to participate in real assets and potentially build equity without purchasing a home directly,\" said Nadeem Kassam, chief investment strategist at Marnoa Private...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-18T00:28:17+08:00"
+    },
+    {
+      "id": "7cf62bb6a58e9c76d5b3d810d3a9fffa48190f6683bec99bde8db7880e93be89",
+      "source": "CNBC",
+      "title": "Berkshire shares buck market sell-off, rally to highest since Buffett said he would step down as CEO",
+      "publishedAtSgt": "2026-10-17T20:46:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/17/berkshire-rally-to-highest-since-buffett-announcement.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "And recently, Berkshire may be getting a boost as investors shift away from high-flying AI and tech stocks and turn to \"old\" economy names. Bending Spoon's release also says the \"new investment brings Berkshire Hathaway's ownership to 4%.\" The company told me in an email it hasn't \"specifically disclosed\" how many outstanding shares it has now, \"but we had 635 million fully diluted weighted average shares outstanding in Q2, we issued 34 million shares as part of the IPO, and we will be issuing...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-18T00:28:16+08:00"
+    },
+    {
       "id": "0c6abbda7fa2f4fc7e57541a2c7e15786d0d7ce7b2935f7a261b53a33aac7fa3",
       "source": "CNBC",
       "title": "Trump waives broad new Russia sanctions and tariffs under Graham Act, citing national interest",
@@ -143,6 +206,6 @@
       "collectedAtSgt": "2026-10-17T01:28:05+08:00"
     }
   ],
-  "articleCount": 9,
-  "updatedAtSgt": "2026-10-17T19:39:20+08:00"
+  "articleCount": 13,
+  "updatedAtSgt": "2026-10-18T00:28:17+08:00"
 }
