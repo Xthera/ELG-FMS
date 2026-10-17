@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-04",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 4,
+  "analyses": [
+    {
+      "articleId": "1062414f59ff578e98df8787ce1310e124e20018d65d1abeded5ee92df90ca56",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "An upcoming week in the stock market will be heavily influenced by trends in the oil and bond markets, alongside developments in custom semiconductors, optical networking, and AI computing competitors.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy",
+        "Financials"
+      ],
+      "investorImpact": "Investors should monitor bond yields, oil prices, and semiconductor sector developments as they will dictate broader market direction and sentiment in the upcoming week.",
+      "reasoning": "Classified as MARKET due to its focus on upcoming stock market drivers including oil, bonds, and technology sector dynamics. Important for monitoring broader market trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Here are 3 things we're watching in the stock market in the week ahead",
+      "publishedAtSgt": "2026-10-04T23:33:05+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/04/here-are-3-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-05T01:07:33+08:00"
+    },
+    {
+      "articleId": "47ef9f01e413c9ca1fd1336b6dc6570427ecc9d9bfa78a8fc8904d6266a93dcb",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Markets remain on edge due to higher oil prices and Treasury yields raising fears of interest rate hikes, prompting long-term investors to look at top Wall Street analyst recommendations for stock growth prospects, such as CRWV.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors face macroeconomic pressures from rising oil prices and Treasury yields, but can use analyst recommendations to identify resilient stock opportunities with growth potential.",
+      "reasoning": "The article discusses broader market headwinds like oil prices and Treasury yields alongside stock-specific analyst picks, providing useful market intelligence for portfolio monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Top Wall Street analysts are upbeat about the prospects for these 3 stocks",
+      "publishedAtSgt": "2026-10-04T21:24:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/04/top-analysts-are-upbeat-about-the-prospects-for-these-3-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-05T01:07:33+08:00"
+    },
+    {
+      "articleId": "451ac4b844ee4f498375d4bd491466405a775b8b47ea593bf5fe27fce809d2cf",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Tech contenders including Apple, Google, and Meta are pushing artificial intelligence wearables such as glasses, rings, and pendants toward a category-defining moment. However, the gadgets face privacy backlash, reputational hurdles, and questions about their everyday utility.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Consumer Electronics"
+      ],
+      "investorImpact": "Investors in consumer electronics and artificial intelligence must weigh the high growth potential of AI wearables against significant privacy hurdles, consumer skepticism, and adoption risks that could stall market breakouts.",
+      "reasoning": "Classified as TECHNOLOGY due to its focus on AI wearables and hardware developments by major tech firms. Sentiment is MIXED because enthusiasm for new product categories is balanced against severe privacy concerns and market adoption hurdles. Fund monitoring is relevant as it impacts major tech holdings and consumer hardware trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "A 'weird' IPO pull, a tainted reputation and the stalled breakout moment for AI wearables",
+      "publishedAtSgt": "2026-10-04T21:22:39+08:00",
+      "url": "https://www.cnbc.com/2026/10/04/ai-wearables-oura-ipo-privacy.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-05T01:07:32+08:00"
+    },
+    {
+      "articleId": "f0d845d0a9b8f2ed41ecb44f8f99a22a7bb2f5dddcfc7190b21b50ae27b9f1d5",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "At least two vessels were struck in waters near Oman and Iran over the weekend, while Iran stated the Strait of Hormuz will remain closed until its conditions for ending the war with the U.S. are met.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "Oman",
+        "Iran",
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Shipping"
+      ],
+      "investorImpact": "Escalating conflict in the Middle East and the continued closure of the Strait of Hormuz threaten global energy supplies, likely driving up crude oil prices and increasing shipping and logistics costs.",
+      "reasoning": "The article details direct military conflict affecting energy transport infrastructure in a critical global chokepoint, presenting significant macroeconomic and energy market risks.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "More tankers struck in the Middle East as Iran reiterates conditions for reopening the Strait of Hormuz",
+      "publishedAtSgt": "2026-10-04T20:35:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 72,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-05T01:07:33+08:00"
+    }
+  ]
+}
