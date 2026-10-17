@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-17T13:38:09+08:00",
+  "generatedAtSgt": "2026-10-17T19:39:20+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "0c6abbda7fa2f4fc7e57541a2c7e15786d0d7ce7b2935f7a261b53a33aac7fa3",
+      "source": "CNBC",
+      "title": "Trump waives broad new Russia sanctions and tariffs under Graham Act, citing national interest",
+      "publishedAtSgt": "2026-10-17T18:20:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Graham Sanctioning Russia and Iran Act of 2026, the legislation targeted Russia's economy, intending to penalize the country over its continued full-scale invasion of Ukraine. It also required Trump to impose tariffs of up to 100% on countries including China and India that are among the top five purchasers of Russian crude oil or gas. Oil sales revenue is critical to funding Russia's war effort.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-17T19:39:20+08:00"
+    },
     {
       "id": "98e99f82e68aca65256e2a9b2d1ddd3af2a95d24b6c05c33582e0ad64cbdc4c7",
       "source": "CNBC",
@@ -1586,21 +1602,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-13T06:33:31+08:00"
-    },
-    {
-      "id": "b3514d7e28c14811e11a546f86edcd490b3cc3c97a66ee4671264bf90ac9aa3a",
-      "source": "CNBC",
-      "title": "A massive trade just happened in surging shares of Snap",
-      "publishedAtSgt": "2026-10-13T02:43:44+08:00",
-      "url": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Don't call it a comeback yet, but shares of beleaguered social media stock Snap Inc. Snap shares have traded under $10 since July 2025 following a near-complete collapse from over $80 at the stock's high in 2021 to a low of $3.81 in April. But now, as excitement swirls over social media giant Meta Platforms' AI agent, traders are pouring into Snap call options on Monday, propelling trading volume to more than four times the month-long average, Cboe LiveVol data show.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-13T03:33:59+08:00"
     }
   ]
 }
