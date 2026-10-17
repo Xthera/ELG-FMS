@@ -1,10 +1,133 @@
 {
-  "generatedAtSgt": "2026-10-17T19:54:44.842585+08:00",
+  "generatedAtSgt": "2026-10-18T00:43:52.436914+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 226,
+  "articleCount": 230,
   "analyses": [
+    {
+      "articleId": "b58b29eb11a0fbb4cf9d508a12734702edee2dba9d4ba31d0c81b197cc872ac1",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The stock market experienced turbulence due to plunging AI stocks and hotter-than-expected inflation data. Rising inflation and oil prices threaten to increase borrowing costs, complicating AI infrastructure investments and driving the need for portfolio diversification.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors",
+        "Energy"
+      ],
+      "investorImpact": "Investors face headwinds from sliding AI equities and sticky inflation, necessitating a shift toward portfolio diversification and careful assessment of borrowing costs impacting capital-intensive tech projects.",
+      "reasoning": "Classified as MARKET due to direct commentary on stock market sell-offs, AI sector declines, and inflation impacts on asset pricing. Sentiment is negative given the plunge in AI stocks and inflationary pressures.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
+      "publishedAtSgt": "2026-10-17T23:42:34+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-18T00:28:17+08:00"
+    },
+    {
+      "articleId": "4116a132df5a597f067b3c2ada5ab883fd19b24269e94f8d52e2e76436aa972b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Investors are encouraged to reconsider traditional bond allocations and incorporate managed futures strategies, historically found in hedge funds, to better counterbalance stock volatility driven by debt and artificial intelligence market concerns.",
+      "assetClasses": [
+        "Bonds",
+        "Alternatives",
+        "Managed Futures",
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Hedge Funds",
+        "Asset Management"
+      ],
+      "investorImpact": "Investors seeking portfolio diversification away from traditional fixed income may find alternative strategies like managed futures useful for hedging against equity volatility and rising debt concerns.",
+      "reasoning": "The article discusses asset allocation shifts from bonds to alternative strategies like managed futures to hedge against portfolio volatility, making it relevant for market strategy and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
+      "publishedAtSgt": "2026-10-17T23:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/17/dead-money-for-a-decade-hedge-fund-approach-that-may-trump-bonds.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-18T00:28:17+08:00"
+    },
+    {
+      "articleId": "70ca792725ca83e6393101854868850201c248fc9b17e8df7339e2ecb2c2ef85",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Institutional and individual investors are increasingly purchasing U.S. timberland as a long-term alternative real asset investment, driven by trends including individuals priced out of the housing market seeking equity building methods.",
+      "assetClasses": [
+        "Real Estate",
+        "Alternative Investments",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Timber and Forestry"
+      ],
+      "investorImpact": "Provides alternative real asset exposure and inflation hedging opportunities for institutional and individual portfolios, reflecting growing demand for non-traditional real estate investments.",
+      "reasoning": "Classified as MARKET because it discusses emerging trends in asset allocation and investor demand for timberland. It is relevant for fund monitoring as it highlights alternative real asset trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Investors are buying up vast tracts of timberland across U.S. in one of market's longest-term bets",
+      "publishedAtSgt": "2026-10-17T21:47:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/17/timberland-investing-returns-risk.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-18T00:28:17+08:00"
+    },
+    {
+      "articleId": "7cf62bb6a58e9c76d5b3d810d3a9fffa48190f6683bec99bde8db7880e93be89",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Berkshire Hathaway shares bucked a broader market sell-off and rallied to their highest level since Warren Buffett announced plans to step down as CEO, supported by a rotation of investors moving out of high-flying AI and tech stocks into traditional economy names.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Conglomerates"
+      ],
+      "investorImpact": "Investors may note a broader market sector rotation away from technology and AI into traditional value and old economy stocks, highlighting Berkshire Hathaway as a beneficiary of this shift.",
+      "reasoning": "Classified as MARKET due to the discussion of stock price movements and sector rotation. Sentiment is POSITIVE because Berkshire shares rallied amidst a market sell-off. Importance is MEDIUM as it highlights a notable market trend affecting a major conglomerate.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Berkshire shares buck market sell-off, rally to highest since Buffett said he would step down as CEO",
+      "publishedAtSgt": "2026-10-17T20:46:21+08:00",
+      "url": "https://www.cnbc.com/2026/10/17/berkshire-rally-to-highest-since-buffett-announcement.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-18T00:28:16+08:00"
+    },
     {
       "articleId": "0c6abbda7fa2f4fc7e57541a2c7e15786d0d7ce7b2935f7a261b53a33aac7fa3",
       "relevant": true,
