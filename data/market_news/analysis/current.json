@@ -1,10 +1,44 @@
 {
-  "generatedAtSgt": "2026-10-17T13:53:34.473295+08:00",
+  "generatedAtSgt": "2026-10-17T19:54:44.842585+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 225,
+  "articleCount": 226,
   "analyses": [
+    {
+      "articleId": "0c6abbda7fa2f4fc7e57541a2c7e15786d0d7ce7b2935f7a261b53a33aac7fa3",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "President Trump waived broad new Russia sanctions and tariffs mandated by the Graham Act, citing national interest, which otherwise would have targeted Russia's economy and imposed secondary tariffs on countries like China and India purchasing Russian energy.",
+      "assetClasses": [
+        "Commodities",
+        "Equities",
+        "Foreign Exchange"
+      ],
+      "geographies": [
+        "United States",
+        "Russia",
+        "China",
+        "India"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "The waiver averts severe potential secondary tariffs and supply disruptions for major energy importers like China and India, reducing immediate upside pressure on global crude prices and lowering geopolitical trade tensions for multinational equities.",
+      "reasoning": "The decision directly impacts international trade policies, geopolitical relations, and global energy markets by staying punitive tariffs and sanctions, making it highly relevant for geopolitical and macroeconomic risk monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump waives broad new Russia sanctions and tariffs under Graham Act, citing national interest",
+      "publishedAtSgt": "2026-10-17T18:20:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 72,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-17T19:39:20+08:00"
+    },
     {
       "articleId": "98e99f82e68aca65256e2a9b2d1ddd3af2a95d24b6c05c33582e0ad64cbdc4c7",
       "relevant": true,
