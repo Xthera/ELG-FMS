@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-18T20:05:11+08:00",
+  "generatedAtSgt": "2026-10-19T00:34:41+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,51 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "c9bf42a6f209a8f7b5ea3b7a83f6be6e65344bca6a1daca0b303007eaf2e9e52",
+      "source": "CNBC",
+      "title": "Here are the 3 big things we're watching in the stock market this week",
+      "publishedAtSgt": "2026-10-18T23:24:37+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/18/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Jim Cramer said in early October that rising bond yields and a Federal Reserve determined to bring down inflation created \"a much more difficult backdrop\" for this earnings season. Tensions in the Middle East worsened , two September inflation reports came in hotter than expected , and the durability of the AI spending boom has been called further into question.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-19T00:34:40+08:00"
+    },
+    {
+      "id": "9b35a70b680cc594a3026228b8f21c4fd4261ef04b27f7cd47679b13e6660de7",
+      "source": "CNBC",
+      "title": "I've studied over 200 kids—parents who raise resilient, successful children teach them these 6 lessons early on",
+      "publishedAtSgt": "2026-10-18T21:37:01+08:00",
+      "url": "https://www.cnbc.com/make-it/2026/10/18/parenting-lessons-resilient-successful-well-adjusted.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "When we talk about raising successful kids, we tend to talk about what they can do. Are they going to basketball practices and winning games? Did they clean their rooms and set the table?",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-19T00:34:40+08:00"
+    },
+    {
+      "id": "8b73db98e6839add120dbb1516e6fb2ca083989b4ad9f0db3f55e71aa59acc3b",
+      "source": "CNBC",
+      "title": "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
+      "publishedAtSgt": "2026-10-18T20:34:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Fears around the artificial intelligence trade and higher pressure on oil prices are weighing on global markets, but a few stocks offer investors solid growth prospects even in choppy times. Investors with a long-term horizon can look beyond the ongoing volatility and track the recommendations of top Wall Street analysts to pick attractive stocks with strong long-term growth potential.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-19T00:34:40+08:00"
+    },
     {
       "id": "8d39f5c53975da68bd02f06973baabb4311ab294ff9b2db4d4903479b2520a0a",
       "source": "CNBC",
@@ -1547,55 +1592,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-13T18:38:09+08:00"
-    },
-    {
-      "id": "6521681b3f31865fdcd0a8498d1dc05a204f533d367a4eea2609f620880bad57",
-      "source": "CNBC",
-      "title": "SpaceX agrees to testify to NYC Council about AI safety after receiving subpoena",
-      "publishedAtSgt": "2026-10-13T17:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/13/spacex-agrees-to-testify-to-nyc-council-about-ai-safety-.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "SpaceX has agreed to testify before the New York City Council this week as part of a legislative investigation concerning artificial intelligence safety risks, the council announced on Tuesday. Julie Menin, council speaker, and Nwamaka Ejebe, general counsel, issued a subpoena to Elon Musk and SpaceX's AI unit on Sept.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-13T18:38:09+08:00"
-    },
-    {
-      "id": "1ce1f551956f3ad2f075ee4420e45fa02da820b009c5c17d14a982618f72cda9",
-      "source": "CNBC",
-      "title": "U.S. Treasury yields fall as energy prices pull back",
-      "publishedAtSgt": "2026-10-13T16:31:37+08:00",
-      "url": "https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Bond yields fell on Tuesday after energy prices moved lower in early trade, as investors look ahead to key economic data releases this week, including the latest U.S. The slide in borrowing costs follows a sharp fall in oil prices Tuesday, as investors continue to gauge the prospect of more Russian diesel entering global energy markets following the U.S.-brokered so-called 'energy ceasefire' between Russia and Ukraine.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-13T18:38:09+08:00"
-    },
-    {
-      "id": "093038395ff1fc45ce12baca7e2bc1319698b507b81588be26eb3bcb61a3c0dc",
-      "source": "CNBC",
-      "title": "Cyber attack hits hundreds of French supermarkets, heating fridges to 122°F and sparking fires",
-      "publishedAtSgt": "2026-10-13T14:44:00+08:00",
-      "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Hackers targeted hundreds of French supermarkets in a cyberattack that reportedly caused refrigerators and freezers to overheat, spoiling food and sparking fires. Fridges at French supermarket chains Carrefour, Monoprix, the Les Mousquetaires-owned Intermarché, and Coopérative U, among others, all saw fridges heat up to as much as 50 degrees Celsius (122 degrees Fahrenheit) overnight, Reuters reported on Monday.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-13T15:40:37+08:00"
     }
   ]
 }
