@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-10-18T10:17:13+00:00",
+  "generatedAtUtc": "2026-10-18T20:06:14+00:00",
   "source": "Funds Links.xlsm",
   "fundCount": 67,
   "research": {
@@ -229,8 +229,8 @@
     "dividendFunds": 19,
     "paymentModeFunds": 67,
     "paymentModeCounts": {
-      "Cash": 67,
       "SRS": 56,
+      "Cash": 67,
       "CPF-OA": 14,
       "CPF-SA": 5
     },
