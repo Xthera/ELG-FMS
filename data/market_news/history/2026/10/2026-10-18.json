@@ -5,6 +5,37 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "8d39f5c53975da68bd02f06973baabb4311ab294ff9b2db4d4903479b2520a0a",
+      "source": "CNBC",
+      "title": "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
+      "publishedAtSgt": "2026-10-18T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 53,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "\"I don't turn it off, I take it off completely because people don't really believe it's off.\" It's the type of interaction users are increasingly navigating as more tech companies introduce AI-powered, always-listening devices and features, which have been marketed as useful tools to transcribe meetings, keep track of conversations, set reminders and offer personalized recommendations.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-18T20:05:11+08:00"
+    },
+    {
+      "id": "4d94fd80c625d30706a450ac1fd89f71e2a639426530d0cd88ab027991fed610",
+      "source": "CNBC",
+      "title": "Why hedge funds could be making a bond market shock more likely",
+      "publishedAtSgt": "2026-10-18T14:13:05+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Hedge funds' increased presence in global bond markets makes the likelihood of a broader market shock \"greater than what it was,\" Bank of England deputy governor Sarah Breeden told CNBC Thursday. Breeden — the central bank's deputy governor for financial stability, and a member of its rates-setting Monetary Policy Committee — said the changing mix of bond market investors, and their increased use of leverage, raises the risk of localized market turbulence turning into broader financial stress.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-18T20:05:11+08:00"
+    },
+    {
       "id": "6b63170b95b64e4cfa29f40695b1abfb1a4a61ddf910640ff0bb6d1a955ccc55",
       "source": "CNBC",
       "title": "Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says",
@@ -21,6 +52,6 @@
       "collectedAtSgt": "2026-10-18T05:29:36+08:00"
     }
   ],
-  "articleCount": 1,
-  "updatedAtSgt": "2026-10-18T05:29:36+08:00"
+  "articleCount": 3,
+  "updatedAtSgt": "2026-10-18T20:05:11+08:00"
 }

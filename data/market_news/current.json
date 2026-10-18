@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-18T13:58:16+08:00",
+  "generatedAtSgt": "2026-10-18T20:05:11+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,37 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "8d39f5c53975da68bd02f06973baabb4311ab294ff9b2db4d4903479b2520a0a",
+      "source": "CNBC",
+      "title": "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
+      "publishedAtSgt": "2026-10-18T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 53,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "\"I don't turn it off, I take it off completely because people don't really believe it's off.\" It's the type of interaction users are increasingly navigating as more tech companies introduce AI-powered, always-listening devices and features, which have been marketed as useful tools to transcribe meetings, keep track of conversations, set reminders and offer personalized recommendations.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-18T20:05:11+08:00"
+    },
+    {
+      "id": "4d94fd80c625d30706a450ac1fd89f71e2a639426530d0cd88ab027991fed610",
+      "source": "CNBC",
+      "title": "Why hedge funds could be making a bond market shock more likely",
+      "publishedAtSgt": "2026-10-18T14:13:05+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Hedge funds' increased presence in global bond markets makes the likelihood of a broader market shock \"greater than what it was,\" Bank of England deputy governor Sarah Breeden told CNBC Thursday. Breeden — the central bank's deputy governor for financial stability, and a member of its rates-setting Monetary Policy Committee — said the changing mix of bond market investors, and their increased use of leverage, raises the risk of localized market turbulence turning into broader financial stress.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-18T20:05:11+08:00"
+    },
     {
       "id": "6b63170b95b64e4cfa29f40695b1abfb1a4a61ddf910640ff0bb6d1a955ccc55",
       "source": "CNBC",
@@ -1565,39 +1596,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-13T15:40:37+08:00"
-    },
-    {
-      "id": "77d4d70f3bd97a81cae36c231e91d8845e8486a7921a618eb3ffd16363a73e96",
-      "source": "CNBC",
-      "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
-      "publishedAtSgt": "2026-10-13T14:20:55+08:00",
-      "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "credit card giant Visa announced Tuesday it had received approval from the People's Bank of China for setting up a bank card clearing business in the country. \"This marks an important milestone toward the company serving China's domestic payments market,\" Visa said in a statement. Rival Mastercard's joint venture in China said it started processing payments in 2024 after getting the PBOC's approval to begin bank card clearing preparations in February 2020.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-13T15:40:37+08:00"
-    },
-    {
-      "id": "efd53779629cbacc1b81217d4c41dcb40d2b16d98da775dbc557f0d82b9df7b3",
-      "source": "CNBC",
-      "title": "Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict",
-      "publishedAtSgt": "2026-10-13T11:49:23+08:00",
-      "url": "https://www.cnbc.com/2026/10/13/oil-prices-today-brent-wti-hormuz.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oil prices fell Tuesday as investors weighed prospects of more Russian energy entering global markets, while concerns over the Saudi-Houthi conflict limited losses. In a Truth Social post, Trump said that the European Union had spent billions of dollars on Russian energy imports and insisted he had made the right decision for Americans.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-13T12:37:55+08:00"
     }
   ]
 }
