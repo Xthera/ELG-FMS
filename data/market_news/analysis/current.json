@@ -1,10 +1,148 @@
 {
-  "generatedAtSgt": "2026-10-18T20:20:38.691640+08:00",
+  "generatedAtSgt": "2026-10-19T00:50:14.159472+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 227,
+  "articleCount": 232,
   "analyses": [
+    {
+      "articleId": "c9bf42a6f209a8f7b5ea3b7a83f6be6e65344bca6a1daca0b303007eaf2e9e52",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Jim Cramer outlines three major headwinds facing the stock market this week: rising bond yields combined with a hawkish Federal Reserve, worsening geopolitical tensions in the Middle East alongside hotter-than-expected inflation data, and ongoing questions regarding the durability of the AI spending boom.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States",
+        "Middle East"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors should brace for heightened market volatility due to converging macroeconomic, geopolitical, and sector-specific pressures, prompting a more cautious approach to equity allocation and growth valuations.",
+      "reasoning": "The article is classified as MARKET and marked HIGH in importance because it synthesizes critical systemic headwinds—rising yields, stubborn inflation, geopolitical risks, and AI sentiment—that directly impact portfolio risk management and asset allocation strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Here are the 3 big things we're watching in the stock market this week",
+      "publishedAtSgt": "2026-10-18T23:24:37+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/18/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T00:34:40+08:00"
+    },
+    {
+      "articleId": "9b35a70b680cc594a3026228b8f21c4fd4261ef04b27f7cd47679b13e6660de7",
+      "relevant": false,
+      "category": "REJECT",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "An opinion piece on parenting strategies for raising resilient and successful children based on a study of over 200 kids.",
+      "assetClasses": [],
+      "geographies": [],
+      "sectors": [],
+      "investorImpact": "The article has no relevance to financial markets, asset pricing, or investment strategies.",
+      "reasoning": "The article is lifestyle and parenting content mistakenly categorized under market feeds, holding no value for financial or fund monitoring.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "I've studied over 200 kids—parents who raise resilient, successful children teach them these 6 lessons early on",
+      "publishedAtSgt": "2026-10-18T21:37:01+08:00",
+      "url": "https://www.cnbc.com/make-it/2026/10/18/parenting-lessons-resilient-successful-well-adjusted.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T00:34:40+08:00"
+    },
+    {
+      "articleId": "8b73db98e6839add120dbb1516e6fb2ca083989b4ad9f0db3f55e71aa59acc3b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "LOW",
+      "summary": "Despite global market volatility, fears over artificial intelligence trades, and pressure on oil prices, top Wall Street analysts recommend three specific stocks with strong long-term growth potential for investors with a long-term horizon.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "The article highlights specific growth stock opportunities amidst broader market volatility, offering limited actionable value for broad portfolio monitoring without specific ticker details.",
+      "reasoning": "Classified as MARKET due to its focus on Wall Street analyst stock recommendations and equity growth prospects during market volatility, but given a LOW importance and false fund monitoring relevance as it lacks specific portfolio-moving data.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
+      "publishedAtSgt": "2026-10-18T20:34:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T00:34:40+08:00"
+    },
+    {
+      "articleId": "8d39f5c53975da68bd02f06973baabb4311ab294ff9b2db4d4903479b2520a0a",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "LOW",
+      "summary": "New AI-powered, always-listening wearable devices and features are pushing legal limits regarding privacy and wiretap laws, raising concerns for users.",
+      "assetClasses": [
+        "EQUITY"
+      ],
+      "geographies": [
+        "GLOBAL"
+      ],
+      "sectors": [
+        "TECHNOLOGY"
+      ],
+      "investorImpact": "Potential regulatory headwinds or legal liabilities for companies developing always-listening AI wearable devices, though direct financial materiality for funds is limited at this stage.",
+      "reasoning": "Classified as TECHNOLOGY due to its focus on AI-powered wearable devices. Sentiment is negative because of privacy and legal concerns. Importance is low as it highlights general regulatory risks rather than specific market-moving financial events.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
+      "publishedAtSgt": "2026-10-18T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 53,
+      "collectorRelevanceReason": "supporting_technology_description",
+      "collectedAtSgt": "2026-10-18T20:05:11+08:00"
+    },
+    {
+      "articleId": "4d94fd80c625d30706a450ac1fd89f71e2a639426530d0cd88ab027991fed610",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Bank of England deputy governor Sarah Breeden warned that hedge funds' increased presence and use of leverage in global bond markets elevate the risk of localized turbulence escalating into broader financial stress.",
+      "assetClasses": [
+        "Fixed Income"
+      ],
+      "geographies": [
+        "Global",
+        "United Kingdom"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors should remain vigilant regarding liquidity and volatility risks in fixed-income markets, as hedge fund leverage can amplify bond market shocks.",
+      "reasoning": "The article is classified as MARKET and HIGH importance because central bank warnings about systemic risks from hedge fund leverage directly impact fixed-income market stability and risk management strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Why hedge funds could be making a bond market shock more likely",
+      "publishedAtSgt": "2026-10-18T14:13:05+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-18T20:05:11+08:00"
+    },
     {
       "articleId": "6b63170b95b64e4cfa29f40695b1abfb1a4a61ddf910640ff0bb6d1a955ccc55",
       "relevant": true,
