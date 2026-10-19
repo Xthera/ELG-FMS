@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "e23e7de3a96952522fcd2191d6aadbc348e128be899ceb0747e315d52017ccf9",
+      "source": "CNBC",
+      "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
+      "publishedAtSgt": "2026-10-19T07:36:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic said Sunday it plans to commit 5% of its shares to a new public benefit fund, with the stake potentially increasing as the company's valuation grows. Subject to shareholder approval, the fund would immediately commit 5% of Anthropic's shares, with the board adding, at its discretion, an additional 2% for every 50% increase in the company's value above a set baseline that has yet to be disclosed.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    },
+    {
+      "id": "d0f742a2c86bc499c37918911baf899ff6bccea6341d5447b0aa7f38e3d5b80c",
+      "source": "CNBC",
+      "title": "Brent crude hovers near $109 a barrel as Ukraine resumes energy strikes, tankers attacked in Middle East",
+      "publishedAtSgt": "2026-10-19T07:10:45+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Crude oil prices hovered near recent highs on Sunday as traders weighed a Ukraine bombing of oil facilities in Russia and more tankers coming under attack in the Persian Gulf. Petersburg exports about 120,000 barrels per day of refined products, mostly fuel oil, according to data from Kpler. Iran has escalated attacks on tankers in the Persian Gulf, Strait of Hormuz and Gulf of Oman in an effort to choke off crude oil exports from the region.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    },
+    {
+      "id": "0780cc93167e9e579b319a89449848c6b231d21ac845832a6141ddc189ef2d29",
+      "source": "CNBC",
+      "title": "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance",
+      "publishedAtSgt": "2026-10-19T07:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Since January, India's key benchmark indexes have slipped nearly 12%, as per LSEG data, even though the country's economic growth has been resilient amid trade uncertainty and geopolitical shocks. India has gained a reputation as an anti-artificial intelligence trade, while markets like Taiwan and Korea, with AI champions, have attracted strong investment flows.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    },
+    {
+      "id": "3af82153a44c7f7987297a2e01a103011fb5d05cd296f9b680a391813325fd00",
+      "source": "CNBC",
+      "title": "Why I am taking the other side of the trade that crushed the market Friday",
+      "publishedAtSgt": "2026-10-19T06:23:08+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/18/jim-cramer-why-i-am-taking-the-other-side-of-the-trade-that-crushed-the-market-friday.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "(See here for a full list of the stocks in Jim Cramer's Charitable Trust.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio. If Jim has talked about a stock on CNBC TV, he waits 72 hours after issuing the trade alert before executing the trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    }
+  ],
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-19T08:13:42+08:00"
+}
