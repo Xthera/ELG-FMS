@@ -5,6 +5,101 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "0571037ee1f7ab8feed0dabf6fd17639a50b2bffb5ae83c8b982b2f5e2603c2d",
+      "source": "CNBC",
+      "title": "Treasury yields move higher as investors assess U.S. inflation backdrop",
+      "publishedAtSgt": "2026-10-19T21:52:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Treasury yields moved higher on Monday as investors continue to weigh the domestic inflation and interest rate backdrop against broader geopolitical developments. Treasury bond yield — which often moves on geopolitical developments — was also more than 1 basis point higher at 5.448%. Meanwhile, energy prices fell Monday as investors continued to weigh the possibility of more Russian crude supply coming onto the market.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-19T22:43:41+08:00"
+    },
+    {
+      "id": "47c48995556b634578e0e6e9dc3f1b739b5d79ebdbce3ba60c26c5b463fd346c",
+      "source": "CNBC",
+      "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
+      "publishedAtSgt": "2026-10-19T21:36:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Half of Americans surveyed by Pew Research Center in July and August said data centers would be mostly bad for the environment and for household energy costs. Now Google is betting that a massive AI data center can help finance a cleaner, more reliable power grid. \"When [utilities] build something new, they fund part of that investment with dollars from their investors on Wall Street, and they enjoy incredibly high, exorbitant returns on those investments, typically around 10%,\" said David...",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "id": "025cb7bc3a680546e54accc6985c3a0f938f0146215e45f7a4fefdde7d9a8112",
+      "source": "CNBC",
+      "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
+      "publishedAtSgt": "2026-10-19T20:59:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The French stock market is historically sensitive to any widening in the so-called \"OAT-Bund spread\", the extra bond yield France pays over Germany, which has hit the highest level since the European Sovereign Debt Crisis of the early 2010s. Analysts say lenders want a credible fiscal-consolidation plan to keep France from being caught in a debt spiral: weak growth and a persistently high deficit-to-GDP ratio are pushing up bond yields, raising the government's debt-servicing bill and widening...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "id": "9418b4b4886dc1bc8a0472e51024dd313f51fac448d2ab54fd8ca3dfbf8378cc",
+      "source": "CNBC",
+      "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+      "publishedAtSgt": "2026-10-19T20:34:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "security and resiliency initiative, the company said Monday, a faster-than-expected pace that indicates the bank is finding plentiful opportunities in emerging defense, manufacturing and supply chain firms. Wars in Ukraine and the Middle East, as well as trade disputes with China, have threatened the flow of energy and key components needed for U.S.",
+      "feeds": [
+        "latest",
+        "business",
+        "finance",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "id": "f45cbc143abd9a2d8769854a729ddd70dcea9967cc6828e6a5700fcb71492457",
+      "source": "CNBC",
+      "title": "Investors are buying on Monday despite fear the AI trade nightmare scenario is far from over",
+      "publishedAtSgt": "2026-10-19T20:00:15+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/stocks-buying-opportunity-ai-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The buyers are ready to get back into technology stocks, with futures indicating the Nasdaq will catch the biggest bid at today's open. The glass half full: In a note on Sunday, Dan Ives, Partner at Yorkville Ives, said he views this \"white-knuckle drawdown as a golden buying opportunity.\" Contrary to the contrarian: But BTIG is telling investors to use any rebound in semiconductor stocks to reduce exposure, warning, \"where there is smoke, there is fire.\" Why it matters: The Cboe Volatility...",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "id": "f7eac8d31ea081ad22703e678393ed0534b240cffa8cdb05e0461bacae784ff6",
+      "source": "CNBC",
+      "title": "Credit stress is threatening to unwind the AI bull. All eyes are on Oracle to hold the line",
+      "publishedAtSgt": "2026-10-19T19:57:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/oracle-debt-faces-an-ai-stress-test-why-some-investors-arent-worried-.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Much of the AI trade fizzled last week, led by CoreWeave — the neocloud company whose equity and debt has been tanking. Nonetheless, its spreads whipsawed over the last few days, no doubt a reflection of the fragile sentiment in AI-related names, notably those in HY [high yield] and at the weaker end of the IG [investment-grade] spectrum, such as Oracle,\" he said in an email to CNBC.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
       "id": "76228aa5b964e763451dc99ad7371c28738559dd684c25b50aed9c4e2295631d",
       "source": "CNBC",
       "title": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
@@ -132,6 +227,6 @@
       "collectedAtSgt": "2026-10-19T08:13:42+08:00"
     }
   ],
-  "articleCount": 8,
-  "updatedAtSgt": "2026-10-19T14:16:08+08:00"
+  "articleCount": 14,
+  "updatedAtSgt": "2026-10-19T22:43:41+08:00"
 }
