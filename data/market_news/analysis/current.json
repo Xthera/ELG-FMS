@@ -1,10 +1,125 @@
 {
-  "generatedAtSgt": "2026-10-19T05:47:50.057962+08:00",
+  "generatedAtSgt": "2026-10-19T08:29:13.456059+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 232,
+  "articleCount": 228,
   "analyses": [
+    {
+      "articleId": "e23e7de3a96952522fcd2191d6aadbc348e128be899ceb0747e315d52017ccf9",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Anthropic announced plans to commit 5% of its shares to a new public benefit fund intended to address AI job disruption, with potential future share additions based on company valuation growth.",
+      "assetClasses": [
+        "Equity",
+        "Private Equity"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The creation of a public benefit fund involving significant equity shares highlights structural governance trends within leading private artificial intelligence firms, which could influence future corporate governance standards and equity valuations for investors exposed to the AI sector.",
+      "reasoning": "The article is classified under TECHNOLOGY as it involves a major artificial intelligence company restructuring equity for social and public benefit purposes. It is moderately important for monitoring governance and valuation trends in the private AI market.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
+      "publishedAtSgt": "2026-10-19T07:36:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    },
+    {
+      "articleId": "d0f742a2c86bc499c37918911baf899ff6bccea6341d5447b0aa7f38e3d5b80c",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Brent crude prices hover near $109 per barrel following resumed energy strikes by Ukraine on Russian oil facilities and increased attacks on oil tankers in the Middle East, threatening global oil supplies.",
+      "assetClasses": [
+        "Commodities"
+      ],
+      "geographies": [
+        "Ukraine",
+        "Russia",
+        "Middle East",
+        "Persian Gulf"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Sustained high oil prices near $109 per barrel increase input costs across transportation and manufacturing sectors while boosting energy sector revenues, presenting inflationary risks for global markets.",
+      "reasoning": "The article is classified as GEOPOLITICAL due to military conflicts affecting key energy supply routes and infrastructure. It carries high importance and negative sentiment for broader equity markets due to inflationary oil price pressures.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Brent crude hovers near $109 a barrel as Ukraine resumes energy strikes, tankers attacked in Middle East",
+      "publishedAtSgt": "2026-10-19T07:10:45+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    },
+    {
+      "articleId": "0780cc93167e9e579b319a89449848c6b231d21ac845832a6141ddc189ef2d29",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "India's Finance Minister blames easy exits and excess liquidity for equity market underperformance, with benchmark indexes slipping nearly 12% since January despite resilient economic growth, while markets with AI champions like Taiwan and Korea attract strong investment flows.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India",
+        "Taiwan",
+        "Korea"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "Investors rotating out of Indian equities in favor of AI-heavy markets like Taiwan and Korea may face continued underperformance in Indian benchmarks, requiring strategic allocation adjustments.",
+      "reasoning": "Classified as MARKET due to discussion of equity market performance and capital flows. Sentiment is NEGATIVE due to underperformance and easy exits driving declines. Importance is MEDIUM as it addresses broader regional equity allocation trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance",
+      "publishedAtSgt": "2026-10-19T07:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    },
+    {
+      "articleId": "3af82153a44c7f7987297a2e01a103011fb5d05cd296f9b680a391813325fd00",
+      "relevant": false,
+      "category": "REJECT",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "An promotional and instructional article regarding Jim Cramer's CNBC Investing Club trade alerts and portfolio management rules.",
+      "assetClasses": [],
+      "geographies": [],
+      "sectors": [],
+      "investorImpact": "The article contains no substantive market data, macroeconomic updates, or actionable financial intelligence, offering only promotional subscription details.",
+      "reasoning": "The text merely details the operating rules and promotional structure of a personal investment club, lacking any significant informational content for institutional fund monitoring.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Why I am taking the other side of the trade that crushed the market Friday",
+      "publishedAtSgt": "2026-10-19T06:23:08+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/18/jim-cramer-why-i-am-taking-the-other-side-of-the-trade-that-crushed-the-market-friday.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    },
     {
       "articleId": "c9bf42a6f209a8f7b5ea3b7a83f6be6e65344bca6a1daca0b303007eaf2e9e52",
       "relevant": true,
@@ -6786,247 +6901,6 @@
       "collectorRelevanceScore": 71,
       "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
       "collectedAtSgt": "2026-10-06T06:24:28+08:00"
-    },
-    {
-      "articleId": "c49d2dd8d69261e50ebb479fe49b289b73343c758db033106743471bd7b9c6ad",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "Brazilian stocks surged significantly following the first round of the presidential election, with Bolsonaro perceived as a heavy favorite and viewed favorably by investors due to promises of greater fiscal discipline.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Brazil",
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "Investors with exposure to Brazilian equities experienced strong positive gains, particularly in the banking sector, as market sentiment improved on expectations of fiscal discipline under a favored presidential candidate.",
-      "reasoning": "The article details a major market movement in Brazilian stocks driven by political developments and election expectations, making it highly relevant for market monitoring and investment strategy.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
-      "publishedAtSgt": "2026-10-05T23:47:42+08:00",
-      "url": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-06T00:31:52+08:00"
-    },
-    {
-      "articleId": "8ade6a00ee9444f24dc75c68e53360a44e3aa91d8fcce62f7fbfcc6faf90de39",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "China is accelerating the consolidation and shutdown of hundreds of smaller, mostly rural banks to shore up its financial system amidst economic slowdown concerns, rising non-performing loans, and high exposure to the property sector.",
-      "assetClasses": [
-        "Equities",
-        "Debt",
-        "Credit"
-      ],
-      "geographies": [
-        "China",
-        "Asia"
-      ],
-      "sectors": [
-        "Financials",
-        "Real Estate",
-        "Banking"
-      ],
-      "investorImpact": "Investors with exposure to Chinese financial institutions, property developers, or local government debt vehicles should note increased systemic risk and tightening credit conditions in the region's banking sector.",
-      "reasoning": "Classified as ECONOMIC because it deals with systemic financial system measures and banking sector health in the world's second-largest economy. Importance is HIGH due to potential contagion risks from rural bank failures and property sector stress. Fund monitoring is relevant because of broad implications for Chinese equity and debt markets.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "China shuts hundreds of banks as Beijing moves to shore up its financial system",
-      "publishedAtSgt": "2026-10-05T21:23:46+08:00",
-      "url": "https://www.cnbc.com/2026/10/05/china-banks-consolidation-economy.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-05T21:41:21+08:00"
-    },
-    {
-      "articleId": "241c5cf0d86650ba1375731cc6a9ff298741e45d0118fd31be141344561b0c87",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEUTRAL",
-      "importance": "MEDIUM",
-      "summary": "Treasury yields rose on Monday, rebounding from a sharp sell-off last week, as traders awaited key economic data and the release of the Federal Reserve's September meeting minutes. The recent bond market sell-off and a lackluster monthly jobs report have influenced market sentiment regarding interest rates.",
-      "assetClasses": [
-        "Fixed Income",
-        "Bonds"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "Investors in fixed income and broader financial markets should monitor Treasury yield movements and upcoming Fed minutes for signals on future interest rate trajectories and macroeconomic health.",
-      "reasoning": "The article discusses Treasury yield movements and anticipation of Federal Reserve minutes and economic data, which are core drivers for market and economic assessment. Thus, it is relevant for fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Treasury yields rise as traders await data, Fed minutes this week",
-      "publishedAtSgt": "2026-10-05T21:09:51+08:00",
-      "url": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-05T21:41:21+08:00"
-    },
-    {
-      "articleId": "8f15338c42c95ef38b931e667b792bc0f9b5e44c0aa2f23cd1dc820808eaf48f",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "LOW",
-      "summary": "Jim Cramer highlights key market watches for Monday, noting that tame oil and bond yields are not providing a boost, Marvell's upcoming investor day is critical for semiconductor stocks, and the revival of the AI trade has reduced demand for defensive stocks.",
-      "assetClasses": [
-        "Equities",
-        "Commodities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Investors should monitor Marvell's investor day for sentiment shifts in semiconductor and AI-related stocks, while keeping an eye on broader market trends involving bond yields and defensive rotations.",
-      "reasoning": "Classified as MARKET because it provides short-term commentary on stock market factors, upcoming events, and sector rotations. Sentiment is MIXED due to competing market forces like strong AI interest versus weaker defensive demand and unhelpful bond/oil conditions. Importance is LOW as it offers daily commentary rather than major macroeconomic catalysts.",
-      "fundMonitoringRelevant": false,
-      "source": "CNBC",
-      "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
-      "publishedAtSgt": "2026-10-05T20:59:40+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/05/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-05T21:41:22+08:00"
-    },
-    {
-      "articleId": "d1b17dc6c3bcb681aba0d2ec835b01fc05043cdfd8009952d5c111cc5f75f9fa",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "While booked fares may rise, airline profits might not follow suit as elevated domestic capacity growth from major carriers like American and United could impact unit revenues and overall profitability, depending on oil price movements.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Airlines",
-        "Transportation"
-      ],
-      "investorImpact": "Investors in the airline sector need to monitor capacity growth alongside fare trends and oil prices, as increased capacity could pressure profit margins despite higher ticket prices.",
-      "reasoning": "Classified as MARKET due to its focus on airline stock valuations, capacity guidance, and profitability trends. Sentiment is MIXED because higher fares do not translate directly to higher profits due to capacity concerns.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Why airfares could rise even more, but airline profits won't",
-      "publishedAtSgt": "2026-10-05T20:06:44+08:00",
-      "url": "https://www.cnbc.com/2026/10/05/airfare-prices-airline-profits.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-05T21:41:21+08:00"
-    },
-    {
-      "articleId": "a1e5f095f883bd2df77405cdc0310057daef989665242f28a1fd6cf547af60a6",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "Goldman Sachs International Co-CEO Anthony Gutman stated that governments must reduce spending and fiscal deficits while fostering stronger economic growth to curb surging borrowing costs and rising bond yields across the Western world.",
-      "assetClasses": [
-        "Fixed Income",
-        "Government Bonds"
-      ],
-      "geographies": [
-        "US",
-        "Western World"
-      ],
-      "sectors": [
-        "Government",
-        "Financials"
-      ],
-      "investorImpact": "Rising government bond yields and borrowing costs present valuation challenges and upward pressure on interest rates, affecting fixed income portfolios and broader equity market risk premiums.",
-      "reasoning": "Classified under ECONOMIC due to its focus on government spending, fiscal deficits, and bond yields. Sentiment is negative reflecting the challenge of surging borrowing costs. It is relevant for fund monitoring given its macro implications for fixed income and sovereign debt markets.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Cut spending to curb runaway borrowing costs, Goldman's Gutman tells governments",
-      "publishedAtSgt": "2026-10-05T18:33:45+08:00",
-      "url": "https://www.cnbc.com/2026/10/05/goldman-sachs-fiscal-deficit-bond-yields.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 58,
-      "collectorRelevanceReason": "supporting_market_description",
-      "collectedAtSgt": "2026-10-05T21:41:22+08:00"
-    },
-    {
-      "articleId": "bf968b02160024fc0d379a565125b0155e1f51c98d589e56e92ad86415ad12ec",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "Surging Treasury yields are driven by a combination of factors including stronger economic growth, expectations for Federal Reserve rate hikes, higher oil prices, corporate bond issuance, fast-money positioning, and fiscal concerns, though a full fiscal crisis is not imminent.",
-      "assetClasses": [
-        "Fixed Income",
-        "Bonds"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "Rising Treasury yields impact fixed income valuations and borrowing costs across the economy, requiring investors to monitor rate expectations and debt issuance closely.",
-      "reasoning": "The article discusses key macroeconomic and market drivers behind surging Treasury yields and fiscal concerns, which are vital for market surveillance and portfolio positioning.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Surging Treasury yields don’t signal a U.S. 'fiscal apocalypse' — yet",
-      "publishedAtSgt": "2026-10-05T10:24:07+08:00",
-      "url": "https://www.cnbc.com/2026/10/05/treasury-yields-fiscal-concerns-not-crisis-yet.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-05T12:45:12+08:00"
-    },
-    {
-      "articleId": "2e98323f01b596216c6a46a9d8ec89ab3a81f366c83cc1eb6ba2f4f6394fa623",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEUTRAL",
-      "importance": "MEDIUM",
-      "summary": "Trump announced one-time $90 payments to 20.8 million Medicare beneficiaries and reiterated a pledge for $5,000 checks ahead of the midterm elections, though details on funding and authorization remain lacking.",
-      "assetClasses": [
-        "Equities",
-        "Government Debt"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Consumer Discretionary"
-      ],
-      "investorImpact": "Direct cash transfers and stimulus promises impact consumer sentiment and inflationary expectations, though the lack of funding details limits immediate market-moving implications.",
-      "reasoning": "Classified as economic policy and political maneuvering heading into midterms, relevant for fiscal policy monitoring and potential impacts on consumer behavior.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
-      "publishedAtSgt": "2026-10-05T04:28:47+08:00",
-      "url": "https://www.cnbc.com/2026/10/04/trump-5000-checks-cash-payments-midterms.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-05T05:26:43+08:00"
     }
   ]
 }
