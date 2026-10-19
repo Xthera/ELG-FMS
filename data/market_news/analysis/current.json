@@ -1,10 +1,132 @@
 {
-  "generatedAtSgt": "2026-10-19T08:29:13.456059+08:00",
+  "generatedAtSgt": "2026-10-19T14:31:48.211207+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 228,
+  "articleCount": 232,
   "analyses": [
+    {
+      "articleId": "76228aa5b964e763451dc99ad7371c28738559dd684c25b50aed9c4e2295631d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Japanese Prime Minister Takaichi defended her administration against criticisms regarding a weak yen and rising interest rates. She stated that the government will build a strong economy to boost confidence in the currency, noted that export competitiveness benefits from currency depreciation, and mentioned intentions to appropriately control government bond issuance amidst rising yields as the central bank normalizes monetary policy.",
+      "assetClasses": [
+        "Currencies",
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Government",
+        "Exports"
+      ],
+      "investorImpact": "Investors with exposure to Japanese equities, Japanese Government Bonds (JGBs), and the yen should closely monitor these developments as policy signals regarding bond issuance and currency valuation directly impact yields and forex volatility.",
+      "reasoning": "The article is classified as MARKET because it directly addresses currency valuation, government bond yields, and central bank policy normalisation in Japan. It is important for fund monitoring given its implications for macroeconomic stability and asset pricing in the region.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
+      "publishedAtSgt": "2026-10-19T13:29:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/takaichi-weak-yen-jgb-yields.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T14:16:08+08:00"
+    },
+    {
+      "articleId": "43907f7900bde95df40044d4a0c6cee9e7a9b7d766006c96f4764d52f543c9e4",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "China's third-quarter economic growth quickened to 4.5% year-over-year driven by surging exports and technological goods demand, offsetting domestic property sector slumps and weak consumer demand. The nine-month average of 4.6% sits within Beijing's official target range.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Foreign Exchange"
+      ],
+      "geographies": [
+        "China",
+        "Global"
+      ],
+      "sectors": [
+        "Exports",
+        "Manufacturing",
+        "Real Estate",
+        "Consumer Goods"
+      ],
+      "investorImpact": "Investors gain insight into China's diverging economic drivers, where external trade strength supports manufacturing and exports while domestic consumption and the real estate market remain weak. This impacts sentiment toward Chinese equities, global supply chains, and commodities demand.",
+      "reasoning": "The article reports official macroeconomic data for China meeting Beijing targets through export strength despite domestic headwinds, making it highly relevant for economic and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
+      "publishedAtSgt": "2026-10-19T12:36:39+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 102,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-19T14:16:08+08:00"
+    },
+    {
+      "articleId": "d4992a01c6b946dc67f3fda56f8a518ab791e0019583d3e71df2b50cae73481e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Indonesia's benchmark stock index plunged over 5% to a six-year low due to fears of an MSCI downgrade, compounding massive foreign investor outflows totaling $5.1 billion for the year.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Indonesia"
+      ],
+      "sectors": [
+        "Broad Market"
+      ],
+      "investorImpact": "Significant foreign capital flight and tumbling valuations pose major risks for portfolios with exposure to Indonesian equities, with potential index downgrades threatening further passive outflows.",
+      "reasoning": "The article details a major market crash and severe foreign capital withdrawal in a key emerging market economy driven by downgrade fears, making it highly relevant for market risk monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Indonesian stocks plunge to six-year low as MSCI downgrade fears mount",
+      "publishedAtSgt": "2026-10-19T11:00:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/indonesian-stocks-msci-downgrade-fears-mount.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T14:16:08+08:00"
+    },
+    {
+      "articleId": "edc82688c7286f5101cabe56b395adde616a363c0332f9b9ddcd1b711f05bf3f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Shares of ChangXin Memory Technologies (CXMT) fell 6.5% despite the company forecasting a sharp profit turnaround for the first nine months of 2026, driven by strong AI-related DRAM demand and higher prices.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors in Chinese technology and memory chipmakers may view the share price drop despite positive earnings guidance as a sign of profit-taking or valuation concerns, indicating potential volatility in the semiconductor sector.",
+      "reasoning": "The article discusses a notable stock market movement for a major semiconductor company, categorizing it under MARKET due to share price reaction and financial outlook.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China's CXMT sees shares drop over 6% as investors look past chipmaker's profit turnaround",
+      "publishedAtSgt": "2026-10-19T09:56:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T14:16:08+08:00"
+    },
     {
       "articleId": "e23e7de3a96952522fcd2191d6aadbc348e128be899ceb0747e315d52017ccf9",
       "relevant": true,
