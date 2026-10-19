@@ -1,10 +1,202 @@
 {
-  "generatedAtSgt": "2026-10-19T14:31:48.211207+08:00",
+  "generatedAtSgt": "2026-10-19T22:59:19.049878+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 232,
+  "articleCount": 238,
   "analyses": [
+    {
+      "articleId": "0571037ee1f7ab8feed0dabf6fd17639a50b2bffb5ae83c8b982b2f5e2603c2d",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Treasury yields moved higher on Monday, with the benchmark yield rising to 5.448%, as investors assessed the domestic inflation and interest rate backdrop alongside geopolitical developments and declining energy prices.",
+      "assetClasses": [
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States",
+        "Russia"
+      ],
+      "sectors": [
+        "Energy",
+        "Financials"
+      ],
+      "investorImpact": "Higher Treasury yields can increase borrowing costs and impact equity valuations, while falling energy prices affect commodity portfolios and inflation expectations.",
+      "reasoning": "The article discusses macroeconomic indicators such as Treasury yields and inflation, which are core inputs for fixed income and broader investment portfolio monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury yields move higher as investors assess U.S. inflation backdrop",
+      "publishedAtSgt": "2026-10-19T21:52:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-19T22:43:41+08:00"
+    },
+    {
+      "articleId": "47c48995556b634578e0e6e9dc3f1b739b5d79ebdbce3ba60c26c5b463fd346c",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Google is betting that a massive AI data center can help finance a cleaner and more reliable power grid, countering public skepticism regarding the environmental and household energy cost impacts of data centers.",
+      "assetClasses": [
+        "Equities",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Utilities",
+        "Energy"
+      ],
+      "investorImpact": "Investors in tech and utilities should note the growing tension between rapid AI data center expansion and local power grid capacity, which can influence regulatory hurdles and capital expenditure returns.",
+      "reasoning": "The article discusses the intersection of AI data center growth and energy grid infrastructure development, making it relevant for technology and utility sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
+      "publishedAtSgt": "2026-10-19T21:36:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 82,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "articleId": "025cb7bc3a680546e54accc6985c3a0f938f0146215e45f7a4fefdde7d9a8112",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "French unrest and growing debt crisis fears have caused Paris-listed stocks, bonds, and the euro to fall. The OAT-Bund spread has widened to its highest level since the European Sovereign Debt Crisis, driven by weak growth, a high deficit-to-GDP ratio, and mounting concerns over fiscal consolidation.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Currencies"
+      ],
+      "geographies": [
+        "France",
+        "Germany",
+        "Europe"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "Investors with exposure to French sovereign debt, European equities, and the euro face increased volatility and drawdown risks as debt-servicing costs rise and political unrest threatens fiscal stability.",
+      "reasoning": "The article highlights severe market stress in European assets caused by political unrest and widening sovereign debt spreads, making it critically important for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
+      "publishedAtSgt": "2026-10-19T20:59:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "articleId": "9418b4b4886dc1bc8a0472e51024dd313f51fac448d2ab54fd8ca3dfbf8378cc",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "JPMorgan Chase deploys its first $5 billion toward defense investments through a security and resiliency initiative, outpacing expectations due to abundant opportunities in emerging defense, manufacturing, and supply chain firms driven by geopolitical conflicts.",
+      "assetClasses": [
+        "Private Equity",
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States",
+        "Ukraine",
+        "Middle East",
+        "China"
+      ],
+      "sectors": [
+        "Defense",
+        "Manufacturing",
+        "Supply Chain",
+        "Financials"
+      ],
+      "investorImpact": "Highlights robust capital allocation toward defense and supply chain resiliency sectors, creating potential growth and financing opportunities in emerging industrial and defense technologies.",
+      "reasoning": "Classified as MARKET because it details major capital deployment by a leading financial institution into defense and industrial sectors responding to global geopolitical demand.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+      "publishedAtSgt": "2026-10-19T20:34:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "articleId": "f45cbc143abd9a2d8769854a729ddd70dcea9967cc6828e6a5700fcb71492457",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Investors are stepping in to buy technology stocks on Monday despite lingering fears of an AI trade sell-off. While analysts like Dan Ives view the recent drawdown as a golden buying opportunity, others like BTIG advise using any rebound in semiconductor stocks to reduce exposure.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors face conflicting signals on whether to buy the dip in AI and technology stocks or use rebounds to reduce exposure, impacting portfolio risk management in the tech sector.",
+      "reasoning": "The article addresses prominent market divergence regarding AI sector valuations and trading strategies, making it highly relevant for market monitoring and sentiment analysis.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Investors are buying on Monday despite fear the AI trade nightmare scenario is far from over",
+      "publishedAtSgt": "2026-10-19T20:00:15+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/stocks-buying-opportunity-ai-selloff.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "articleId": "f7eac8d31ea081ad22703e678393ed0534b240cffa8cdb05e0461bacae784ff6",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Credit stress is threatening the AI bull market as highlighted by recent weakness in CoreWeave's equity and debt, putting pressure on fragile sentiment across high-yield and weaker investment-grade names like Oracle.",
+      "assetClasses": [
+        "Equities",
+        "Debt",
+        "High Yield",
+        "Investment Grade"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Financial"
+      ],
+      "investorImpact": "Investors in AI-related high-yield and weaker investment-grade debt must monitor credit spreads and default risks as sentiment softens across the sector.",
+      "reasoning": "The article discusses credit stress and market sentiment affecting AI-related companies in the debt and equity markets, which is critical for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Credit stress is threatening to unwind the AI bull. All eyes are on Oracle to hold the line",
+      "publishedAtSgt": "2026-10-19T19:57:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/oracle-debt-faces-an-ai-stress-test-why-some-investors-arent-worried-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
     {
       "articleId": "76228aa5b964e763451dc99ad7371c28738559dd684c25b50aed9c4e2295631d",
       "relevant": true,
