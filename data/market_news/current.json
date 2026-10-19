@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-19T22:43:41+08:00",
+  "generatedAtSgt": "2026-10-20T05:07:01+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,69 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "e21a17103393cd595aaf06b824a1c11a8964369b736dd86fef6091834de5c1bd",
+      "source": "CNBC",
+      "title": "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
+      "publishedAtSgt": "2026-10-20T04:57:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Chip stocks surged, with the iShares Semiconductor ETF (SOXX) on pace to snap a nine-day slump. \"Investors are going to need proof statements from any company that is considered part of the AI trade that they can deliver on the earnings growth expectations being built into their pricing,\" said Ron Albahary, chief investment officer at LNW.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-20T05:06:56+08:00"
+    },
+    {
+      "id": "4ddb639654f85d188573cc25167fef37480ef45cc0e07eb516e83ee793e66eec",
+      "source": "CNBC",
+      "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+      "publishedAtSgt": "2026-10-20T03:37:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Saudi Arabia on Monday postponed its big annual investor conference until 2027 as Iran-backed Houthi militants have escalated missile and drone attacks on the kingdom in recent weeks. The Future Investment Initiative was originally scheduled to take place in the Saudi capital Riyadh from Oct. The conference has played a key part in Riyadh's plans to diversify its oil-dependent economy.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T05:06:56+08:00"
+    },
+    {
+      "id": "92dd53a9d0255ae1c20ad532b6dd61bb49a4e2524b296368c69a54bae7e8faee",
+      "source": "CNBC",
+      "title": "Crushed tech stocks bounce — plus, new doctor survey keeps us positive on Lilly",
+      "publishedAtSgt": "2026-10-20T03:13:00+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks are higher on Monday as investors assess last week's tech carnage and buy the pullbacks in chip stocks. Rising oil prices are fueling inflation concerns and leading to a selloff in bonds, with the yield on the 10-year Treasury up on the day. Remember, when bond prices go up from investor buying yield go down.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-20T05:06:57+08:00"
+    },
+    {
+      "id": "83201553ed5d1ed3b1cd1891035533d6eb76674b5d5c43f3e76d23bd2b96d4f7",
+      "source": "CNBC",
+      "title": "Anthropic is AI trade's last big hope for a major IPO this year",
+      "publishedAtSgt": "2026-10-20T00:42:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The question of what constitutes an official announcement is resolved by the SEC declaring a company's S-1 effective, an IPO pricing or an exchange assigning a ticker to the stock. Of the 23 companies that Kalshi lists on its market that remain open to trade, only Anthropic offers greater than 50% odds — 75% as of Monday morning — to officially announce an IPO this year.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T05:06:56+08:00"
+    },
     {
       "id": "0571037ee1f7ab8feed0dabf6fd17639a50b2bffb5ae83c8b982b2f5e2603c2d",
       "source": "CNBC",
@@ -1533,70 +1596,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-14T09:43:55+08:00"
-    },
-    {
-      "id": "9abe7fb7b44cd59f0e9e127b0e1ab60ba217c231dc86edbcac20ee36b02228c1",
-      "source": "CNBC",
-      "title": "CNBC Daily Open: Diesel deal may not be enough to curb high energy prices",
-      "publishedAtSgt": "2026-10-14T09:09:16+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/cnbc-daily-open-diesel-energy-apple-anthropic-imf.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "banks like JPMorgan Chase, Wells Fargo, Goldman Sachs and Citigroup are posting mixed financial results amid concerns including growing borrowing costs, AI and high oil prices. Investors are keeping a close eye on the outlook of interest rates, after New York Federal Reserve President John Williams' recent comments put him at odds with the broader market and some other central bank members.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-14T09:43:56+08:00"
-    },
-    {
-      "id": "a7e64b15720dea128b02752d3644657d241f767564bff5fec1808586184a65ee",
-      "source": "CNBC",
-      "title": "Singapore third-quarter GDP growth softens from four-year high but beats estimates",
-      "publishedAtSgt": "2026-10-14T08:28:34+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/singapore-gdp-q3.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Singapore's economic expansion decelerated in the third quarter of 2026, with GDP growth dropping to 5.4% after hitting a four-year high in the last quarter. Singapore back in August had lifted its annual economic growth forecast as AI-related sectors and exports powered its economy to beat expectations for the first two quarters of the year.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-14T09:43:55+08:00"
-    },
-    {
-      "id": "bdf6f1188c14cb253ca3d66d519a56be86f226833f6ba08ce71549b2e35e96c7",
-      "source": "CNBC",
-      "title": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
-      "publishedAtSgt": "2026-10-14T07:05:12+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "BEIJING — Equity investors are skeptical of Chinese companies' rapid expansion overseas, according to Goldman Sachs. The \"market wants to look for profitable expansions,\" Trina Chen, co-head of Greater China equity research at Goldman Sachs Research, said on a podcast that the investment bank published Tuesday.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-14T09:43:56+08:00"
-    },
-    {
-      "id": "a1da7d0e0bffbdd4431917fd1dc75636d3673592198b47c3948566322cd9611d",
-      "source": "CNBC",
-      "title": "Here's where Jim Cramer stands on this newly public AI infrastructure stock",
-      "publishedAtSgt": "2026-10-14T06:47:07+08:00",
-      "url": "https://www.cnbc.com/2026/10/13/jim-cramer-accelevation-stock.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "There's a new picks-and-shovels play on the artificial intelligence build-out, but CNBC's Jim Cramer said Tuesday that investors should keep the stock at arm's length. The \"Mad Money\" host gave two primary reasons for holding off on Accelevation Holdings: He's becoming more cautious about data center stocks ahead of the midterm elections and prefers established companies with proven track records.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-14T09:43:56+08:00"
     }
   ]
 }

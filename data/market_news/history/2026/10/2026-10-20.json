@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-20",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "e21a17103393cd595aaf06b824a1c11a8964369b736dd86fef6091834de5c1bd",
+      "source": "CNBC",
+      "title": "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
+      "publishedAtSgt": "2026-10-20T04:57:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Chip stocks surged, with the iShares Semiconductor ETF (SOXX) on pace to snap a nine-day slump. \"Investors are going to need proof statements from any company that is considered part of the AI trade that they can deliver on the earnings growth expectations being built into their pricing,\" said Ron Albahary, chief investment officer at LNW.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-20T05:06:56+08:00"
+    },
+    {
+      "id": "4ddb639654f85d188573cc25167fef37480ef45cc0e07eb516e83ee793e66eec",
+      "source": "CNBC",
+      "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+      "publishedAtSgt": "2026-10-20T03:37:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Saudi Arabia on Monday postponed its big annual investor conference until 2027 as Iran-backed Houthi militants have escalated missile and drone attacks on the kingdom in recent weeks. The Future Investment Initiative was originally scheduled to take place in the Saudi capital Riyadh from Oct. The conference has played a key part in Riyadh's plans to diversify its oil-dependent economy.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T05:06:56+08:00"
+    },
+    {
+      "id": "92dd53a9d0255ae1c20ad532b6dd61bb49a4e2524b296368c69a54bae7e8faee",
+      "source": "CNBC",
+      "title": "Crushed tech stocks bounce — plus, new doctor survey keeps us positive on Lilly",
+      "publishedAtSgt": "2026-10-20T03:13:00+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks are higher on Monday as investors assess last week's tech carnage and buy the pullbacks in chip stocks. Rising oil prices are fueling inflation concerns and leading to a selloff in bonds, with the yield on the 10-year Treasury up on the day. Remember, when bond prices go up from investor buying yield go down.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-20T05:06:57+08:00"
+    },
+    {
+      "id": "83201553ed5d1ed3b1cd1891035533d6eb76674b5d5c43f3e76d23bd2b96d4f7",
+      "source": "CNBC",
+      "title": "Anthropic is AI trade's last big hope for a major IPO this year",
+      "publishedAtSgt": "2026-10-20T00:42:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The question of what constitutes an official announcement is resolved by the SEC declaring a company's S-1 effective, an IPO pricing or an exchange assigning a ticker to the stock. Of the 23 companies that Kalshi lists on its market that remain open to trade, only Anthropic offers greater than 50% odds — 75% as of Monday morning — to officially announce an IPO this year.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T05:06:56+08:00"
+    }
+  ],
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-20T05:06:57+08:00"
+}
