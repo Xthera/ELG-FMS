@@ -1,0 +1,649 @@
+{
+  "date": "2026-10-06",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 21,
+  "analyses": [
+    {
+      "articleId": "40584932f000f4b641cbdc413ae294a801d9f10e55091085b9011d21f2969af9",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Iran has increased its attacks on tankers moving through the Strait of Hormuz, putting a fragile rebound in Persian Gulf crude oil exports at risk despite fluctuating daily shipment volumes.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "Iran",
+        "Persian Gulf"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas",
+        "Transportation"
+      ],
+      "investorImpact": "Increased geopolitical risks and tanker attacks in the Strait of Hormuz could disrupt global crude oil supplies, driving up energy price volatility and impacting shipping and energy sector equities.",
+      "reasoning": "The article details military and geopolitical escalations directly threatening critical global energy supply routes, making it highly significant for energy market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
+      "publishedAtSgt": "2026-10-06T21:17:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-06T21:38:00+08:00"
+    },
+    {
+      "articleId": "bc2b2399c75e33ae10e5dd8722120db4555c398ca8d4089921a307a83ea33f55",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The U.S. trade deficit widened sharply to $105.6 billion in August, marking a 13.7% jump from July and exceeding consensus estimates. The increase was driven by a 4.3% surge in imports, influenced by artificial intelligence infrastructure buildout and import tariffs.",
+      "assetClasses": [
+        "Equities",
+        "Currencies",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Industrials",
+        "Imports/Exports"
+      ],
+      "investorImpact": "A widening trade deficit driven by surging imports can weigh on GDP calculations and currency valuations while reflecting strong demand for AI-related hardware and goods ahead of tariff implementations.",
+      "reasoning": "The article reports a key macroeconomic indicator, the U.S. trade deficit, hitting its widest level since the previous year, surpassing analyst expectations and offering insights into import trends driven by AI investments and tariffs.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
+      "publishedAtSgt": "2026-10-06T21:07:57+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-06T21:38:00+08:00"
+    },
+    {
+      "articleId": "7e30c13388cce84beb5937d52cfbc3b3e4f26a6cd2e4de6229569e1b9ce0aa13",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "A startup is offering a product to help institutions reduce liquidation risk from margin calls on prediction markets by allowing them to pre-determine capital deployment limits and manage risks associated with perpetual futures trading around the clock.",
+      "assetClasses": [
+        "Derivatives",
+        "Alternative Investments"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Fintech"
+      ],
+      "investorImpact": "The development highlights niche infrastructure improvements for institutional participation in prediction markets and perpetual futures, though its immediate impact on broader asset classes remains limited.",
+      "reasoning": "Classified as MARKET due to its focus on trading risk management, margin calls, and institutional execution in prediction markets. Sentiment is neutral as it reports on a product launch without broad market implications.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "This startup wants to reduce liquidation risk from margin calls on prediction markets",
+      "publishedAtSgt": "2026-10-06T21:01:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/this-firm-aims-to-reduce-liquidation-risk-from-margin-calls-on-prediction-markets.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 100,
+      "collectorRelevanceReason": "financial_market_legal_story",
+      "collectedAtSgt": "2026-10-06T21:38:01+08:00"
+    },
+    {
+      "articleId": "2154a29b716fe6c3d34780010eb8452ba457c9b1c0707207bf67f4d85d0f2d98",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Chinese AI startup DeepSeek is considering doubling its latest funding round to as much as $14.9 billion (100 billion yuan) due to intense interest from state-backed funds, corporate investors, and venture capital firms.",
+      "assetClasses": [
+        "Private Equity",
+        "Equities"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Highlights massive capital inflows and strong investor appetite for leading AI startups in China, impacting competitive dynamics in the global artificial intelligence sector.",
+      "reasoning": "Classified as MARKET due to the significant private funding and valuation implications for the AI sector. It is important and fund-monitoring relevant because of the scale of the capital raise and involvement of state-backed entities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "DeepSeek considers doubling latest funding round to up to $15 billion, sources say",
+      "publishedAtSgt": "2026-10-06T20:59:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-10-06T21:38:01+08:00"
+    },
+    {
+      "articleId": "859ff367e12db63c4145f505c147d120e7c25d0ec45bca5f3f6e19c697bf9940",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer outlines top stock market items to watch, noting declining oil prices and bond yields, potential upward revisions to long-term financial targets for an AI chip and networking gear maker, and expectations for strong cloud revenue growth.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy"
+      ],
+      "investorImpact": "Provides investors with a daily watchlist of key market drivers including oil prices, bond yields, and semiconductor/cloud trends that could impact equity portfolios.",
+      "reasoning": "Classified as MARKET because it discusses daily market watch items, equity catalysts, and macro factors like bond yields and oil prices. Important for monitoring market sentiment and sector-specific dynamics.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "publishedAtSgt": "2026-10-06T20:47:59+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/06/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T21:38:02+08:00"
+    },
+    {
+      "articleId": "18be524555ba6dc3f19014d71f14d777eb59724d36fb8dfe3e0ff1159945f29e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Despite Treasury yields hitting a 24-year high, stocks closed higher, led by artificial intelligence names driving the Nasdaq Composite to record highs. SpaceX shares also jumped nearly 8%, returning Elon Musk to trillionaire status.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Aerospace & Defense"
+      ],
+      "investorImpact": "The resilience of equity markets in the face of surging Treasury yields indicates strong appetite for growth and technology stocks, particularly AI-related assets, despite macro rate pressures.",
+      "reasoning": "Classified as MARKET due to broader equity index records and interest rate dynamics. Important for monitoring market sentiment and technology sector momentum.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Paramount-WBD merger, Musk's return to trillionaire, AI researchers' warning and more in Morning Squawk",
+      "publishedAtSgt": "2026-10-06T20:46:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/5-things-to-know-before-the-stock-market-opens.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T21:38:02+08:00"
+    },
+    {
+      "articleId": "9806875c4810a0a461699c92a8dd78052f2831ebf61bf0be6f16ad1365739234",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Car buyers are stretching loan terms to afford record high monthly payments driven by larger borrowing amounts and elevated energy costs linked to Middle East conflict.",
+      "assetClasses": [
+        "Credit",
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Automotive",
+        "Consumer Discretionary",
+        "Financials"
+      ],
+      "investorImpact": "Highlights consumer financial strain and stretched credit terms in the auto sector, which could impact auto lenders and consumer discretionary spending.",
+      "reasoning": "Classified as MARKET because it discusses consumer financing trends, auto loan lengths, and monthly payments affecting consumer discretionary and auto sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Car buyers are stretching loans to afford payments — it's a 'potential warning light,' analyst says",
+      "publishedAtSgt": "2026-10-06T20:15:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/car-loans-are-getting-longer-as-monthly-payments-hit-record-highs.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T21:38:01+08:00"
+    },
+    {
+      "articleId": "6a3dcb7019d4405c801b82fcab79ad65c04e1dc6951d5c4fcff327f6a8f2cd4f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "The S&P 500 forward price-to-earnings ratio has compressed from 23 to 19 over the past year, reflecting investor caution regarding high profit margins and decelerating growth, while rising government bond yields offer an alternative cushion for portfolios.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "Investors can utilize bonds as an attractive cushion amid falling equity valuations and compressed P/E ratios, helping to balance multi-asset portfolios against AI bull market uncertainty.",
+      "reasoning": "Classified as MARKET due to its focus on equity valuations, P/E compression, and bond yields. Sentiment is MIXED reflecting both caution on equities and opportunity in bonds. Importance is HIGH given its relevance to broad asset allocation and portfolio protection.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Unsure how long this AI bull has? Bonds now offer a cushion at the best values in years",
+      "publishedAtSgt": "2026-10-06T19:08:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/unsure-how-long-this-ai-bull-has-bonds-now-offer-a-cushion-at-the-best-values-in-years.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T21:38:01+08:00"
+    },
+    {
+      "articleId": "41877e23ea510b7bb2a9375971a9dba5414a938caeb6ca7be409d9f66f2dc391",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Mattel is facing pressure from major shareholder Ariel Investments to consider a potential sale amid stagnating growth and a struggling business turnaround.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary"
+      ],
+      "investorImpact": "Investors in Mattel or competing toy makers should monitor potential corporate restructuring or M&A activity, as buyout interest could provide a valuation floor or premium.",
+      "reasoning": "The article details corporate governance and potential M&A pressure on a major publicly traded company, making it relevant for equity market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Barbie maker Mattel faces investor pressure to consider a sale amid stagnating growth",
+      "publishedAtSgt": "2026-10-06T18:07:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/mattel-barbie-ariel-sale-investor-pressure.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T18:36:54+08:00"
+    },
+    {
+      "articleId": "04e4bb509b0c3954292d71a62fa5779e6c20503c3b81ac67f8457c333c278487",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Paramount's takeover of Warner Bros. Discovery closes, creating the newly named Skydance media conglomerate trading under the ticker 'SKYD'. The merger brings together major film studios and controls nearly one-third of basic cable programming, causing shares of both companies to jump.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Media",
+        "Entertainment"
+      ],
+      "investorImpact": "Investors in both Paramount and Warner Bros. Discovery saw positive returns as shares jumped, with WBD noting its best day ever following the closure of the large media conglomerate merger.",
+      "reasoning": "Classified as MARKET due to the completion of a major corporate merger and takeover involving publicly traded media companies, resulting in significant stock price movements and the creation of a new combined entity.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Paramount's hard-fought takeover of Warner Bros. Discovery closes Tuesday. Here's how we got here",
+      "publishedAtSgt": "2026-10-06T18:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/paramount-wbd-deal-timeline.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T18:36:54+08:00"
+    },
+    {
+      "articleId": "d98aedd2384327f4d04f99c777ec399746c402a9019e3f50acd5f39a5ff11b6f",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Former Bank of England chief economist Andy Haldane warns that Britain is on 'thin ice' ahead of its upcoming budget update and must act to appease financial markets, noting potential perils and discussing welfare and pension policies.",
+      "assetClasses": [
+        "Fixed Income",
+        "Currencies"
+      ],
+      "geographies": [
+        "United Kingdom"
+      ],
+      "sectors": [
+        "Government",
+        "Financials"
+      ],
+      "investorImpact": "Investors holding UK assets, particularly UK gilts and British pounds, should monitor upcoming budget updates closely as fiscal credibility concerns and market appeasement measures could cause increased volatility.",
+      "reasoning": "The article discusses high-level macroeconomic policy and market stability warnings from a prominent former central bank official regarding the UK budget, making it highly relevant for economic and market surveillance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Britain is on 'thin ice,' warns ex-Bank of England chief economist — and it must act to 'appease financial markets'",
+      "publishedAtSgt": "2026-10-06T15:28:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/burnham-healey-budget-tax-bonds-gilts.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T15:37:08+08:00"
+    },
+    {
+      "articleId": "9f11e4416bdedce1a4f72ce014d3565bf06e399a9d4c70091b2e4a45e5ac891c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Treasury yields remained broadly flat on Tuesday morning following fresh highs in the previous session as investors awaited the release of the Federal Reserve's FOMC meeting minutes. The 30-year Treasury bond rose slightly to 5.665%, its highest level since May 2002, while the 2-year note yield ticked down 1 basis point to 4.818%.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "Investors are closely watching Treasury yields and FOMC minutes for future interest rate signals, which directly impact fixed income valuations and broader market sentiment.",
+      "reasoning": "The article discusses recent movements in U.S. Treasury yields and investor anticipation of Federal Reserve minutes, classifying it as a relevant market update for portfolio monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury yields are broadly flat as investors anticipate FOMC minutes",
+      "publishedAtSgt": "2026-10-06T15:05:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/treasury-yields-fed-fomc-minutes.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T15:37:07+08:00"
+    },
+    {
+      "articleId": "4e55bc8b0bea7205b9919d1bb3e4a2bdd1aacd15540f406017d9f16b4b81eb59",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Quantitative hedge funds utilizing complex algorithms and machine learning to follow market trends across equities, bonds, commodities, and currencies are outperforming the broader stock market this year by capitalizing on persistent momentum.",
+      "assetClasses": [
+        "Equities",
+        "Bonds",
+        "Commodities",
+        "Currencies"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Hedge Funds"
+      ],
+      "investorImpact": "Investors can note that trend-following quantitative strategies are currently demonstrating strong performance amid prevailing market momentum, offering potential diversification benefits.",
+      "reasoning": "The article provides valuable insight into the performance and mechanics of quantitative and trend-following hedge funds within the broader market, making it relevant for market monitoring without detailing specific immediate trading actions.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "How quant funds beat the market by being 'early, contrarian and right'",
+      "publishedAtSgt": "2026-10-06T14:57:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/trend-following-hedge-funds-beat-stock-market.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-06T15:37:07+08:00"
+    },
+    {
+      "articleId": "0eb17c57a962800057fc4e9a29667964a1d0543916129a33f5a65398657bf359",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "The World Bank raised its 2026 growth forecast for the East Asia and Pacific region to 4.5% driven by AI-related exports, but warned about high concentration risks and vulnerability to potential global tech spending reversals given that non-AI trade remains weak.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "East Asia",
+        "Pacific"
+      ],
+      "sectors": [
+        "Technology",
+        "Exports"
+      ],
+      "investorImpact": "Investors with exposure to East Asia and Pacific markets or the technology sector should note both the upgraded near-term growth outlook and the systemic concentration risk tied to global AI spending trends.",
+      "reasoning": "The article is classified under ECONOMIC because it discusses regional growth forecasts and trade dynamics by the World Bank, with mixed sentiment reflecting upgraded growth offset by structural concentration warnings.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "World Bank warns of AI concentration risks as it lifts East Asia and Pacific growth outlook to 4.5%",
+      "publishedAtSgt": "2026-10-06T12:07:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T12:37:10+08:00"
+    },
+    {
+      "articleId": "003e58793ed8569a4838424ae33c44b75e5bde8ee54b82066786af6927bd8e86",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "India's Finance Minister Nirmala Sitharaman confirmed a trade impasse with the U.S., stating that a trade agreement is not imminent following discussions with U.S. Trade Representative Jamieson Greer, despite ongoing negotiations.",
+      "assetClasses": [
+        "Equities",
+        "Currencies"
+      ],
+      "geographies": [
+        "India",
+        "United States"
+      ],
+      "sectors": [
+        "International Trade"
+      ],
+      "investorImpact": "The lack of progress in U.S.-India trade talks delays potential bilateral trade benefits, maintaining status quo for multinational corporations and exporters operating between both countries.",
+      "reasoning": "Classified as GEOPOLITICAL due to trade negotiations between sovereign nations. Sentiment is neutral as it reflects ongoing talks without a breakdown or a breakthrough. Importance is medium given the size of both economies and bilateral relations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Little room for ‘giving and taking’: India’s finance minister confirms trade impasse with the U.S.",
+      "publishedAtSgt": "2026-10-06T10:39:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/india-us-trade-deal-deal-sitharaman.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-06T12:37:10+08:00"
+    },
+    {
+      "articleId": "91a7d45e1914090f954bde88418133361df168c646743666f7d2243c68f7dbb4",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Beijing has closed a record 670 banks to stabilize its financial system amid economic deceleration, while oil traders face supply disruption worries following Saudi Aramco's warning that rebuilding global oil stockpiles could take two years amid U.S.-Iran tensions.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "China",
+        "Saudi Arabia",
+        "Iran",
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Energy"
+      ],
+      "investorImpact": "Investors should monitor exposure to Chinese financial institutions and global energy markets, as banking consolidation highlights systemic risks in China while oil supply concerns could increase commodity price volatility.",
+      "reasoning": "The article is classified under ECONOMIC due to China's large-scale banking closures and GEOPOLITICAL/MARKET intersections involving oil supply risks, making it highly important for global asset allocation and risk management.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CNBC Daily Open: China shuts down record 670 banks, new worries over oil and AI",
+      "publishedAtSgt": "2026-10-06T09:12:40+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/cnbc-daily-open-china-shuts-down-record-670-banks-new-worries-over-oil-and-ai-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T09:34:43+08:00"
+    },
+    {
+      "articleId": "8928c9bc7bfe8c912c469e885527332303828c239194661aa6950321939fe6e5",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Hong Kong imported 112.7 tonnes of Russian-origin gold in the first seven months of 2026, surpassing the record 92.1 tonnes from all of 2025 and 3.3 tonnes in 2021, illustrating how Western sanctions are redrawing the global bullion trade.",
+      "assetClasses": [
+        "Commodities",
+        "Precious Metals"
+      ],
+      "geographies": [
+        "Hong Kong",
+        "Russia",
+        "China",
+        "Western Countries"
+      ],
+      "sectors": [
+        "Mining",
+        "Metals and Mining",
+        "Finance"
+      ],
+      "investorImpact": "The shift in Russian gold flows toward Hong Kong highlights structural realignments in global commodity trade routes resulting from Western sanctions, impacting supply chain tracking and alternative bullion trading hubs for investors in precious metals.",
+      "reasoning": "Classified as GEOPOLITICAL because it directly addresses the diversion of Russian bullion trade due to Western sanctions. It is relevant to fund monitoring as it highlights shifting physical commodity trade flows in major Asian financial centers.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Russian gold floods Hong Kong as Western sanctions redraw bullion trade",
+      "publishedAtSgt": "2026-10-06T07:14:39+08:00",
+      "url": "https://www.cnbc.com/2026/10/06/russia-gold-hong-kong-china-western-sanctions.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 72,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-06T09:34:42+08:00"
+    },
+    {
+      "articleId": "3b0ee24a4b9eba633fedb132a55636bdccae62c1cf38e85dc6fa07b4efba37d7",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer explains that a select few artificial intelligence giants are masking the market pressure caused by surging Treasury yields, resulting in a disconnect between equities and bonds.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should note that while headline equity indices are reaching records due to AI mega-caps, surging bond yields pose rising pressure and create alternative yields that could challenge broader equity valuations.",
+      "reasoning": "The article highlights an important macro market dynamic regarding the divergence between soaring stock indices driven by artificial intelligence leaders and surging Treasury yields, falling under the MARKET category with MIXED sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Stocks are hitting records despite surging yields. Cramer explains why",
+      "publishedAtSgt": "2026-10-06T06:18:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/cramer-ai-stocks-treasury-yields.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T06:24:29+08:00"
+    },
+    {
+      "articleId": "eaa40706ef9d21f613c3f5870442f77145c31ece18180cdb5194899c2fe0affb",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Nokia's CEO highlights that data centers could be built twice as fast if not for supply constraints. Nokia is experiencing a growing role in the AI boom, with investor interest surging as companies utilize various financing mechanisms for infrastructure projects.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Telecommunications"
+      ],
+      "investorImpact": "Highlights supply chain bottlenecks in the AI data center buildout while pointing to strong secular demand and infrastructure growth opportunities for enabling technology providers like Nokia.",
+      "reasoning": "Classified as TECHNOLOGY as it covers data center infrastructure and supply constraints affecting AI buildouts. Sentiment is POSITIVE due to strong stock performance and sustained long-term demand.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nokia CEO says data centers would be built '2x faster' without supply constraints",
+      "publishedAtSgt": "2026-10-06T06:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/nokia-ai-data-center-buildout.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-06T06:24:30+08:00"
+    },
+    {
+      "articleId": "20a058ad4ec7a2d744b4c7bb756c5c57096088d270d590609db986ca25ad62e2",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "AstraZeneca CEO Pascal Soriot stated that Summit Therapeutics' lead drug could drive the next generation of cancer treatment combinations following a $2 billion equity investment and clinical collaboration between the two companies.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Biotechnology",
+        "Pharmaceuticals"
+      ],
+      "investorImpact": "The significant capital investment and positive executive commentary highlight strong growth and strategic collaboration prospects within the oncology sector, benefiting pharmaceutical and biotech equities.",
+      "reasoning": "The article is classified under MARKET due to the direct impact of a major pharmaceutical collaboration and investment on market sentiment within the healthcare and biotech sectors. Sentiment is POSITIVE given the optimistic outlook on future cancer treatments.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AstraZeneca CEO says Summit drug could drive next generation of cancer combinations after $2 billion investment",
+      "publishedAtSgt": "2026-10-06T03:44:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/astrazeneca-ceo-says-summit-drug-could-drive-future-cancer-combos.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-06T06:24:29+08:00"
+    },
+    {
+      "articleId": "e5d8535da02fb064e23fd8c8460e23f9a7509ed9355f43c9cae3aa5eb586cc2c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "LOW",
+      "summary": "Starbucks shares are up 12% for the year amid signs that its recovery plan is working, though the stock remains well off recent highs. Options strategist Mike Khouw suggests selling a November 85/105 strangle to collect premium during the ongoing turnaround.",
+      "assetClasses": [
+        "Equities",
+        "Options"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Food and Beverage"
+      ],
+      "investorImpact": "Investors can consider options strategies like selling strangles to generate income while managing expectations around the coffee giant's modest growth and valuation turnaround.",
+      "reasoning": "The article discusses trading strategies and performance metrics for a major publicly traded consumer stock, making it relevant for market monitoring and equity portfolio management.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Starbucks recovery plan is working. Here's how Mike Khouw says to trade the coffee giant",
+      "publishedAtSgt": "2026-10-06T02:40:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/05/starbucks-recovery-plan-is-working-heres-how-mike-khouw-says-to-trade-the-coffee-giant.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-06T06:24:28+08:00"
+    }
+  ]
+}
