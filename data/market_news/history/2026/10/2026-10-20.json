@@ -5,6 +5,52 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "0d7b6e2b4d60c2db6e1eaa32cb6923c03004ee41e2abca579edbc3377ada3e4a",
+      "source": "CNBC",
+      "title": "Three big takeaways from the IMF-World Bank meetings",
+      "publishedAtSgt": "2026-10-20T08:33:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The world's finance chiefs spent last week in Bangkok debating the biggest risk facing the global economy — with debt, artificial intelligence and trade imbalances topping the list. The IMF warned that should AI technology fail to deliver the promised productivity gains, it could trigger severe global economic consequences.",
+      "feeds": [
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
+    },
+    {
+      "id": "a262265326ebeb0a33d272e3211a487d966878d15d032494a4a55d8af78688e0",
+      "source": "CNBC",
+      "title": "CNBC's The China Connection newsletter: Navigating a tech-heavy world",
+      "publishedAtSgt": "2026-10-20T07:00:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/cnbcs-the-china-connection-newsletter-navigating-a-tech-heavy-world.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "It's a tough ask as China has doubled down on technological development, while struggling to transition away from real estate, which once accounted for more than one-fifth of the economy. \"But I think the technology should not be too politic[al],\" he said, especially in consumer electronics. China's GDP picks up speed, up by 4.5% in Q3 Surging exports helped lift overall economic growth in the third quarter, while retail sales grew by a faster-than-expected 1.1% in September from a year ago.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
+    },
+    {
+      "id": "5e1dbb197945de9751578c7dc6584c19ac8ea3746b9a82a8692cd68c6b9571f7",
+      "source": "CNBC",
+      "title": "Jim Cramer says don't chase the AI rebound just yet. Here's what needs to happen first",
+      "publishedAtSgt": "2026-10-20T06:46:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/jim-cramer-dont-chase-ai-rebound-yet.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "CNBC's Jim Cramer said he's not in a hurry to rush back into artificial intelligence stocks, despite Monday's rebound in the battered technology sector. The Nasdaq Composite rose about 1.1% Monday as investors returned to tech stocks following last week's rout in AI buildout beneficiaries. That's what Anthropic's IPO represents.\" However, he cautioned that the offering could also divert substantial capital away from other AI stocks.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
+    },
+    {
       "id": "e21a17103393cd595aaf06b824a1c11a8964369b736dd86fef6091834de5c1bd",
       "source": "CNBC",
       "title": "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
@@ -68,6 +114,6 @@
       "collectedAtSgt": "2026-10-20T05:06:56+08:00"
     }
   ],
-  "articleCount": 4,
-  "updatedAtSgt": "2026-10-20T05:06:57+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-20T09:06:30+08:00"
 }

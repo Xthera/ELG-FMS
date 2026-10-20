@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-20T05:07:01+08:00",
+  "generatedAtSgt": "2026-10-20T09:06:30+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,52 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "0d7b6e2b4d60c2db6e1eaa32cb6923c03004ee41e2abca579edbc3377ada3e4a",
+      "source": "CNBC",
+      "title": "Three big takeaways from the IMF-World Bank meetings",
+      "publishedAtSgt": "2026-10-20T08:33:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The world's finance chiefs spent last week in Bangkok debating the biggest risk facing the global economy — with debt, artificial intelligence and trade imbalances topping the list. The IMF warned that should AI technology fail to deliver the promised productivity gains, it could trigger severe global economic consequences.",
+      "feeds": [
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
+    },
+    {
+      "id": "a262265326ebeb0a33d272e3211a487d966878d15d032494a4a55d8af78688e0",
+      "source": "CNBC",
+      "title": "CNBC's The China Connection newsletter: Navigating a tech-heavy world",
+      "publishedAtSgt": "2026-10-20T07:00:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/cnbcs-the-china-connection-newsletter-navigating-a-tech-heavy-world.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "It's a tough ask as China has doubled down on technological development, while struggling to transition away from real estate, which once accounted for more than one-fifth of the economy. \"But I think the technology should not be too politic[al],\" he said, especially in consumer electronics. China's GDP picks up speed, up by 4.5% in Q3 Surging exports helped lift overall economic growth in the third quarter, while retail sales grew by a faster-than-expected 1.1% in September from a year ago.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
+    },
+    {
+      "id": "5e1dbb197945de9751578c7dc6584c19ac8ea3746b9a82a8692cd68c6b9571f7",
+      "source": "CNBC",
+      "title": "Jim Cramer says don't chase the AI rebound just yet. Here's what needs to happen first",
+      "publishedAtSgt": "2026-10-20T06:46:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/jim-cramer-dont-chase-ai-rebound-yet.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "CNBC's Jim Cramer said he's not in a hurry to rush back into artificial intelligence stocks, despite Monday's rebound in the battered technology sector. The Nasdaq Composite rose about 1.1% Monday as investors returned to tech stocks following last week's rout in AI buildout beneficiaries. That's what Anthropic's IPO represents.\" However, he cautioned that the offering could also divert substantial capital away from other AI stocks.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
+    },
     {
       "id": "e21a17103393cd595aaf06b824a1c11a8964369b736dd86fef6091834de5c1bd",
       "source": "CNBC",
@@ -1546,56 +1592,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-14T17:33:31+08:00"
-    },
-    {
-      "id": "6e93d3e93539d42802d353cb02da2d835b01950b4f2a7dc9b5c302f8cb11f12e",
-      "source": "CNBC",
-      "title": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
-      "publishedAtSgt": "2026-10-14T12:24:28+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "BANGKOK — The Philippine central bank is planning for a \"Godzilla\" El Niño on top of a prolonged oil shock, as the Southeast Asian nation tries to rein in inflation from three-year highs. The worst of El Niño's impact on prices is still to come, with the effects expected from November through February, he said, adding that maintaining price stability remains the central bank's priority.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
-    },
-    {
-      "id": "0b101207959432bb320fe9e89df7d316d114f1c4eb59f6f5356f4f58623a0f08",
-      "source": "CNBC",
-      "title": "South Korean carmaker Hyundai plans 'strategic' investment of $15.5 billion in India by 2032",
-      "publishedAtSgt": "2026-10-14T10:04:47+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/korea-india-hyundai-cars-investment.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "South Korea's Hyundai Motor Group on Tuesday said it plans to invest $15.5 billion from 2026 through 2032 in India, a market it considers core to the company's emerging-market growth and expansion. He added that this investment \"reaffirms\" the company's commitment to the Indian market for the next 30 years and beyond.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
-    },
-    {
-      "id": "1695484a07ff07a3b45a18573d5b3a4a2ed14073ea86f2e19ecaedd0fe385662",
-      "source": "CNBC",
-      "title": "China's exports likely grew by double-digits in September",
-      "publishedAtSgt": "2026-10-14T09:16:02+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Imports for September were forecast to slow to 24.5% year-on-year growth, down from 28.2% in August, the poll showed. Earlier this year, China's exports and imports each grew at their fastest pace in five years. A surge in demand for China-made parts for data centers to power artificial intelligence has helped fuel exports, along with stabilization in tensions with the U.S., China's largest trading partner on a single-country basis.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-14T09:43:55+08:00"
     }
   ]
 }
