@@ -1,10 +1,223 @@
 {
-  "generatedAtSgt": "2026-10-20T05:22:29.946762+08:00",
+  "generatedAtSgt": "2026-10-20T09:22:12.913708+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 217,
+  "articleCount": 224,
   "analyses": [
+    {
+      "articleId": "0d7b6e2b4d60c2db6e1eaa32cb6923c03004ee41e2abca579edbc3377ada3e4a",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "During the IMF-World Bank meetings in Bangkok, global finance chiefs discussed major risks facing the global economy, including debt, artificial intelligence, and trade imbalances. The IMF specifically warned that if AI fails to deliver expected productivity gains, it could cause severe global economic repercussions.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Global Macro"
+      ],
+      "geographies": [
+        "Global",
+        "Asia"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors should monitor macro debt risks and trade imbalances highlighted by global finance leaders, as well as valuation risks tied to AI productivity expectations.",
+      "reasoning": "The article is classified under ECONOMIC because it summarizes major takeaways from high-level IMF-World Bank discussions regarding global debt, trade imbalances, and AI productivity risks, which carry high significance for global macroeconomic monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Three big takeaways from the IMF-World Bank meetings",
+      "publishedAtSgt": "2026-10-20T08:33:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
+    },
+    {
+      "articleId": "a262265326ebeb0a33d272e3211a487d966878d15d032494a4a55d8af78688e0",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "China's GDP picked up speed with a 4.5% increase in Q3, driven by surging exports and better-than-expected retail sales growth of 1.1% in September. However, the economy continues to face challenges in transitioning away from the real estate sector while doubling down on technology development amidst geopolitical considerations.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Real Estate",
+        "Consumer Goods",
+        "Exports"
+      ],
+      "investorImpact": "Investors monitoring Chinese equities and macroeconomic trends should note the Q3 GDP pickup and export strength, balanced against ongoing real estate sector struggles and structural economic transitions.",
+      "reasoning": "The article provides important quarterly GDP growth figures and economic updates regarding China's transition from real estate to technology, making it relevant for macroeconomic monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CNBC's The China Connection newsletter: Navigating a tech-heavy world",
+      "publishedAtSgt": "2026-10-20T07:00:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/cnbcs-the-china-connection-newsletter-navigating-a-tech-heavy-world.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
+    },
+    {
+      "articleId": "5e1dbb197945de9751578c7dc6584c19ac8ea3746b9a82a8692cd68c6b9571f7",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer advised caution against immediately chasing the rebound in artificial intelligence stocks following a technology sector recovery. He noted that while the Nasdaq Composite rose about 1.1%, potential upcoming IPO events like Anthropic's could divert substantial capital away from existing AI stocks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should exercise caution when timing entries into AI-related equities, as upcoming initial public offerings may create capital rotation and volatility within the technology sector.",
+      "reasoning": "Classified under MARKET as it discusses stock market movements, sector rebounds, and investor sentiment regarding AI equities. Sentiment is neutral due to the balanced view of a market bounce alongside warnings of capital diversion.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Jim Cramer says don't chase the AI rebound just yet. Here's what needs to happen first",
+      "publishedAtSgt": "2026-10-20T06:46:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/jim-cramer-dont-chase-ai-rebound-yet.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
+    },
+    {
+      "articleId": "e21a17103393cd595aaf06b824a1c11a8964369b736dd86fef6091834de5c1bd",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Tech stocks experienced an oversold bounce on Monday, led by a surge in chip stocks and the iShares Semiconductor ETF, ending a nine-day slump. Upcoming corporate earnings will determine the sustainability of the rebound, as investors look for proof of earnings growth to support high AI-related valuations.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors must closely monitor upcoming earnings reports from major tech and AI-related companies to assess whether current valuations are justified, as the sustainability of the recent market rebound depends heavily on actual earnings delivery.",
+      "reasoning": "The article is classified as MARKET because it discusses broad equity market movements, specifically a rebound in tech and semiconductor stocks driven by upcoming earnings and AI trade expectations. Importance is HIGH due to its direct impact on overall market sentiment and tech sector performance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
+      "publishedAtSgt": "2026-10-20T04:57:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T05:06:56+08:00"
+    },
+    {
+      "articleId": "4ddb639654f85d188573cc25167fef37480ef45cc0e07eb516e83ee793e66eec",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Saudi Arabia has postponed its annual Future Investment Initiative investor conference to 2027 following escalating missile and drone attacks by Iran-backed Houthi militants against the kingdom.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "Saudi Arabia",
+        "Middle East"
+      ],
+      "sectors": [
+        "Energy",
+        "Finance"
+      ],
+      "investorImpact": "The escalation of geopolitical tensions and attacks in Saudi Arabia heightens regional risk premiums, which can impact investor sentiment, regional market valuations, and oil market stability.",
+      "reasoning": "The article is classified under geopolitical risk because rising security threats in Saudi Arabia have directly disrupted high-profile economic and investment events, creating negative market sentiment and highlighting regional instability.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+      "publishedAtSgt": "2026-10-20T03:37:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T05:06:56+08:00"
+    },
+    {
+      "articleId": "92dd53a9d0255ae1c20ad532b6dd61bb49a4e2524b296368c69a54bae7e8faee",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Stocks rose on Monday as investors bought pullbacks in chip stocks following previous tech losses, while rising oil prices triggered inflation concerns and a selloff in bonds, pushing Treasury yields higher.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Healthcare",
+        "Energy"
+      ],
+      "investorImpact": "Investors should monitor the push-and-pull between a rebounding tech sector and rising bond yields driven by oil-related inflation concerns, which could introduce volatility across equities and fixed income portfolios.",
+      "reasoning": "The article discusses broader market movements, including a bounce in tech stocks alongside rising Treasury yields and oil prices, making it relevant for market and economic monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Crushed tech stocks bounce — plus, new doctor survey keeps us positive on Lilly",
+      "publishedAtSgt": "2026-10-20T03:13:00+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T05:06:57+08:00"
+    },
+    {
+      "articleId": "83201553ed5d1ed3b1cd1891035533d6eb76674b5d5c43f3e76d23bd2b96d4f7",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Prediction markets indicate a 75% probability that artificial intelligence company Anthropic will officially announce an IPO this year, making it the primary remaining major IPO hope for the AI trade.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors monitoring the AI sector and primary equity markets should note Anthropic's potential IPO as a significant liquidity event and barometer for investor appetite in large-scale AI companies.",
+      "reasoning": "The article highlights market expectations for a major IPO in the artificial intelligence sector, directly impacting market sentiment and tech equity valuations. It is classified under MARKET with medium importance and is fund-monitoring relevant.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic is AI trade's last big hope for a major IPO this year",
+      "publishedAtSgt": "2026-10-20T00:42:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T05:06:56+08:00"
+    },
     {
       "articleId": "0571037ee1f7ab8feed0dabf6fd17639a50b2bffb5ae83c8b982b2f5e2603c2d",
       "relevant": true,
