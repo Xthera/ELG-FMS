@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-21",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "bdbbccd6f38e5a366d16a84b8acb6b1841a438a2eeb2c1e2068ab2a40b14745e",
+      "source": "CNBC",
+      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+      "publishedAtSgt": "2026-10-21T01:50:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Housing data deteriorated further in September, according to separate reports Tuesday, adding to an already complicated policy landscape for the central bank as it contemplates its next move on interest rates. Fed officials have said they are tracking the inflationary effects of the robust investment in artificial intelligence, which is driving up the cost of chips and electronics.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:33+08:00"
+    },
+    {
+      "id": "1e35c47c058b4188a7f27d5eb16b67359fc38a9c2561eebf9603e09ef85f43c0",
+      "source": "CNBC",
+      "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
+      "publishedAtSgt": "2026-10-21T01:49:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Trump in July used Section 338 of the Tariff Act of 1930 to slap those steep tariffs on Canadian hockey sticks, wine, honey, wigs, and other products in response to alleged trade discrimination by Ottawa. It was the first time the 96-year-old law had ever been used to impose a tariff. It says that the law permits tariff action \"only upon finding 'as a fact'\" that a foreign country is unequally imposing unreasonable charges or trade limitations on U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:33+08:00"
+    },
+    {
+      "id": "b87b6b025e9f13b443e4a3bdf267b4e98746582134048d35f0c7e97dab1d12ec",
+      "source": "CNBC",
+      "title": "What options traders expect from SpaceX earnings after the bell",
+      "publishedAtSgt": "2026-10-21T00:34:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/spacex-reports-after-the-bell-heres-what-options-traders-expect-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company delivered four astronauts to the International Space Station in record time, expanded its mobile network spectrum, is reportedly eyeing a $40 billion debt deal to buy Nvidia chips, and CEO Elon Musk said he plans to give shares to every kid in America next year. Traders think all that means more gains for the stock after it reports earnings after the bell Tuesday.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:34+08:00"
+    },
+    {
+      "id": "5cd4463a5e86b6ec9d6ef018cb57595ee4c1219220a1937f811ac9b8709a1514",
+      "source": "CNBC",
+      "title": "Oil prices fall as traders hope for diplomatic progress in Middle East",
+      "publishedAtSgt": "2026-10-21T00:19:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Crude oil prices fell Tuesday as traders hoped for diplomatic progress between the U.S. Iran's Revolutionary Guard Corps said Tuesday that two \"non-compliant\" oil tankers had been set ablaze in the strait after hitting mines laid by its naval unit, Iranian state-affiliated news agency Tasnim reported. commercial oil stocks are expected to have declined last week.\"",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:34+08:00"
+    },
+    {
+      "id": "302fea93df21ced4e3b538b782fef360c225854adc7fd2b038b51822466366a1",
+      "source": "CNBC",
+      "title": "Here's what to expect when Netflix reports earnings after the bell",
+      "publishedAtSgt": "2026-10-21T00:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Netflix is set to report quarterly earnings after market close on Tuesday as the media industry faces consolidation, spinouts and intensified competition. Here's how Netflix is expected to perform for the period ended Sept. However, the company's stock has fallen about 40% in the past year, and executives have been publicly exploring new avenues for growth.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:33+08:00"
+    }
+  ],
+  "articleCount": 5,
+  "updatedAtSgt": "2026-10-21T02:00:34+08:00"
+}

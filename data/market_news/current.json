@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-20T20:45:58+08:00",
+  "generatedAtSgt": "2026-10-21T02:00:39+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,117 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "bdbbccd6f38e5a366d16a84b8acb6b1841a438a2eeb2c1e2068ab2a40b14745e",
+      "source": "CNBC",
+      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+      "publishedAtSgt": "2026-10-21T01:50:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Housing data deteriorated further in September, according to separate reports Tuesday, adding to an already complicated policy landscape for the central bank as it contemplates its next move on interest rates. Fed officials have said they are tracking the inflationary effects of the robust investment in artificial intelligence, which is driving up the cost of chips and electronics.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:33+08:00"
+    },
+    {
+      "id": "1e35c47c058b4188a7f27d5eb16b67359fc38a9c2561eebf9603e09ef85f43c0",
+      "source": "CNBC",
+      "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
+      "publishedAtSgt": "2026-10-21T01:49:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Trump in July used Section 338 of the Tariff Act of 1930 to slap those steep tariffs on Canadian hockey sticks, wine, honey, wigs, and other products in response to alleged trade discrimination by Ottawa. It was the first time the 96-year-old law had ever been used to impose a tariff. It says that the law permits tariff action \"only upon finding 'as a fact'\" that a foreign country is unequally imposing unreasonable charges or trade limitations on U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:33+08:00"
+    },
+    {
+      "id": "b87b6b025e9f13b443e4a3bdf267b4e98746582134048d35f0c7e97dab1d12ec",
+      "source": "CNBC",
+      "title": "What options traders expect from SpaceX earnings after the bell",
+      "publishedAtSgt": "2026-10-21T00:34:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/spacex-reports-after-the-bell-heres-what-options-traders-expect-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company delivered four astronauts to the International Space Station in record time, expanded its mobile network spectrum, is reportedly eyeing a $40 billion debt deal to buy Nvidia chips, and CEO Elon Musk said he plans to give shares to every kid in America next year. Traders think all that means more gains for the stock after it reports earnings after the bell Tuesday.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:34+08:00"
+    },
+    {
+      "id": "5cd4463a5e86b6ec9d6ef018cb57595ee4c1219220a1937f811ac9b8709a1514",
+      "source": "CNBC",
+      "title": "Oil prices fall as traders hope for diplomatic progress in Middle East",
+      "publishedAtSgt": "2026-10-21T00:19:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Crude oil prices fell Tuesday as traders hoped for diplomatic progress between the U.S. Iran's Revolutionary Guard Corps said Tuesday that two \"non-compliant\" oil tankers had been set ablaze in the strait after hitting mines laid by its naval unit, Iranian state-affiliated news agency Tasnim reported. commercial oil stocks are expected to have declined last week.\"",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:34+08:00"
+    },
+    {
+      "id": "302fea93df21ced4e3b538b782fef360c225854adc7fd2b038b51822466366a1",
+      "source": "CNBC",
+      "title": "Here's what to expect when Netflix reports earnings after the bell",
+      "publishedAtSgt": "2026-10-21T00:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Netflix is set to report quarterly earnings after market close on Tuesday as the media industry faces consolidation, spinouts and intensified competition. Here's how Netflix is expected to perform for the period ended Sept. However, the company's stock has fallen about 40% in the past year, and executives have been publicly exploring new avenues for growth.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:33+08:00"
+    },
+    {
+      "id": "c5d7cba79ba5705a69b824f702507b02776d1ee5218535b3ef3db2b648f87aca",
+      "source": "CNBC",
+      "title": "Apple shares aren't cheap. Here's how to get long for less",
+      "publishedAtSgt": "2026-10-20T21:43:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/apple-shares-arent-cheap-heres-how-to-get-long-for-less.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The saying speaks to the company's enduring ability to overcome any obstacle, whether it's concerns about new products or worries about the global economy. Combine this with Homeview, the company's new smart hub, new MacBook Pro models and iPads with OLED displays and the Mac studio and associated chips released several weeks ago and the hardware landscape for the most successful consumer electronics company in history is starting to compete with the AI trade for investors' attention.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:39+08:00"
+    },
+    {
+      "id": "b4238d91243ecbade78aea53879bec344801801a017ea82347fd374a2970218e",
+      "source": "CNBC",
+      "title": "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
+      "publishedAtSgt": "2026-10-20T20:52:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/santoli-key-sp-500-level-to-watch.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Still, the index is now chopping around a flattish 50-day moving average at levels first reached 11 weeks ago, the AI-hardware cohort has badly broken stride, bank stocks are trading poorly off their results, and credit markets are getting colicky. A tentative bounce in semiconductor stocks Monday was minimally reassuring, in that it meant we didn't get the further disorderly purge many had braced for over the weekend (when S&P 500 \"perpetual\" futures on Hyperliquid had a sudden head-fake drop...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-21T02:00:39+08:00"
+    },
     {
       "id": "13b7b0c3f6ba937f2c231d47380ef20a56c695ea03d533f83fb1bd2e9ebbb55c",
       "source": "CNBC",
@@ -1479,118 +1590,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-15T04:13:39+08:00"
-    },
-    {
-      "id": "7d1c4d5106c15d6e7e607c5a9cbc4554da0a721e2e276ad1bc4e4f674761453d",
-      "source": "CNBC",
-      "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
-      "publishedAtSgt": "2026-10-15T04:06:28+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Bank of America has hired an army of external contractors to help it patch software vulnerabilities exposed by advanced artificial intelligence models including Anthropic's Mythos, the bank's CEO, Brian Moynihan, told CNBC on Wednesday. Still, Moynihan — speaking as his company's shares slumped as much as 8% Wednesday — sought to reassure investors that the spending increase was temporary.",
-      "feeds": [
-        "latest",
-        "business",
-        "finance",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-15T04:13:41+08:00"
-    },
-    {
-      "id": "a4795e88a95cb106b56ebbc3caece48ea6d62bcfbfec4fd64b69bc47030198d8",
-      "source": "CNBC",
-      "title": "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
-      "publishedAtSgt": "2026-10-15T03:22:00+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 72,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Iran has escalated its strikes on commercial ships transiting Hormuz in recent weeks, as it tries to choke off a rebound in crude oil exports through the strait. More than 20 vessels, mostly oil tankers, have come under attack this month in Hormuz, the Persian Gulf and Gulf of Oman, according to incident reports from the United Kingdom Maritime Trade Operations Centre. Crude oil exports through Hormuz hit prewar levels in September as the U.S.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-15T04:13:38+08:00"
-    },
-    {
-      "id": "dcd9c7593ea49f363f6f0d412fbce97784cc614f73005cc7fb7270918712241c",
-      "source": "CNBC",
-      "title": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
-      "publishedAtSgt": "2026-10-15T03:03:44+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/coreweave-put-options-ai-trade.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "A key corner of the artificial intelligence trade is taking a beating on Wednesday and traders are betting it could get even worse. Shares of neocloud companies – businesses that offer access to the GPUs powering artificial intelligence as a service – plunged Wednesday after debt yields for Nvidia-backed CoreWeave continued to reach new heights.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-15T04:13:41+08:00"
-    },
-    {
-      "id": "4cd6410d895cc5b0f24f259a05a4bbcd1a2da4b41792b460177854bdb6e06907",
-      "source": "CNBC",
-      "title": "Treasury says largest U.S. banks let politics influence who received banking services",
-      "publishedAtSgt": "2026-10-15T02:51:42+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/treasury-banks-debanking-trump-reputation-risk.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The Treasury Department's Office of the Comptroller of the Currency found some of the largest banks serving the U.S. \"Banks should make decisions based on financial risk, not the political or social preferences of their employees or executives,\" Comptroller of the Currency Jonathan Gould said, according to a transcript of his in remarks Wednesday in Lexington, Kentucky.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-15T04:13:40+08:00"
-    },
-    {
-      "id": "7730ef90e26af97497c2061a2d760dbc16e371730ae960d5288875c49e8abc4c",
-      "source": "CNBC",
-      "title": "AI infrastructure stocks tumble. Here's a few reasons for the sell-off",
-      "publishedAtSgt": "2026-10-15T02:41:11+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/14/ai-infrastructure-stocks-tumble-heres-a-few-reasons-for-the-sell-off-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "(Later in the day, yields reversed slightly into the red.) According to the CME FedWatch tool, the market odds of an interest rate rise at the central bank's upcoming October meeting increased to roughly 37% for a 25-basis-point rate hike, up from 22% on Tuesday and about 18% one week ago. If we do see better-than-expected financials from the AI lab, that could take some of the pressure off chip stocks and other AI infrastructure-related names.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-15T04:13:41+08:00"
-    },
-    {
-      "id": "8841ae13cf38ef529ec672a60b90cd5c557b158b56096194a807225de29cbf9e",
-      "source": "CNBC",
-      "title": "How high inflation became a 'fact of life' in the U.S.",
-      "publishedAtSgt": "2026-10-15T01:20:23+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "This yearslong spell of high inflation has cast a dark cloud over everyday Americans' view of the economy, and could shape everything from how they budget to how they vote in next month's midterm elections. All of this can make inflation a self-fulfilling prophecy, rendering the monetary policy tools at the Fed's disposal less effective in slowing price growth.",
-      "feeds": [
-        "latest",
-        "economy"
-      ],
-      "collectedAtSgt": "2026-10-15T04:13:37+08:00"
-    },
-    {
-      "id": "8767e0a2f81d2540dcf5333eecd21c06203178de2debd712c2b76d9c276b9469",
-      "source": "CNBC",
-      "title": "Fannie Mae sharply raises mortgage rate forecast for 2027",
-      "publishedAtSgt": "2026-10-15T01:08:07+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Bond yields are rising after a hotter-than-expected inflation report. Mortgage rates do not follow the Fed's rate exactly, but they do react to how the central bank sees inflation going forward. Mortgage rates loosely follow the yield on the 10-year Treasury, which has been rising sharply on higher oil prices and growing concerns in the global economy.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-15T04:13:40+08:00"
     }
   ]
 }
