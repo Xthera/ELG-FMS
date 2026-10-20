@@ -5,6 +5,117 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "1cd37d6933b998f257185be4790d6094f1f76844c0f4ace50566373f98cc0577",
+      "source": "CNBC",
+      "title": "'Cannot play hide and seek': Minister's warning over haze sends Singapore agricultural stocks lower",
+      "publishedAtSgt": "2026-10-20T12:48:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/singapore-haze-shanmugam-indonesia-malaysia.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of several Singapore-listed agricultural companies fell Tuesday after Senior Minister K Shanmugam warned they won't \"escape responsibility\" for their possible role in the haze blanketing the city-state. \"Companies cannot play hide and seek\" with different corporate structures, hoping that will help them, Shanmugam said, revealing that seven companies had been questioned by the Singapore Exchange.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "id": "ecfe30a1bae6427b8cd3407ec03e262295f78f7b4462375cc455ac737a4f568f",
+      "source": "CNBC",
+      "title": "General Motors is set to report earnings before the bell. Here's what Wall Street expects",
+      "publishedAtSgt": "2026-10-20T12:01:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors will be watching to see if GM raises its 2026 guidance and for any early indications of expectations for next year, which Wall Street expects will be difficult for the U.S. \"While we expect in-line to slightly better 3Q26 prints, investor focus is likely to be on 2027 revisions and we don't see results driving meaningful upside,\" JPMorgan analyst Rajat Gupta said in an Oct.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "id": "0a803bde734cc6d7cd3fa454b3e3dd6242f4e9ea7f3ccb4799398ba4fe1f75cc",
+      "source": "CNBC",
+      "title": "Bank Indonesia faces mounting pressure to hike after MSCI threat fuels market rout",
+      "publishedAtSgt": "2026-10-20T11:59:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/indonesia-msci-inflation-interest-rate-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bank Indonesia faces mounting pressure to raise interest rates on Wednesday as economists revise their forecasts after global index provider MSCI warned it may downgrade the country's stock market from emerging-market status, setting off a selloff in stocks and the rupiah. The central bank has held its benchmark seven-day reverse repurchase rate at 5.75% since June.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "id": "535128d9f5d5578d0d497221da6c48cb82703d67f337b8eeb844ee44a5f02901",
+      "source": "CNBC",
+      "title": "BlackRock, GIC among investors chasing Indian telecom major Jio's IPO as anchor bids top $26 billion",
+      "publishedAtSgt": "2026-10-20T10:44:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/jio-ipo-gic-blackrock-.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Jio Platforms, in a release on Monday, said it had finalized the allocation of 72.47 million equity shares to anchor investors at 1,119 rupees a share, at the upper range of the price band. The anchor book is a portion of the total fundraise set aside for large institutional investors before the IPO opens for public bidding.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:10+08:00"
+    },
+    {
+      "id": "5728abdc8b0c601fa0b4a7aab811a8db0accaa360fc305c72d3e1cbcb741c464",
+      "source": "CNBC",
+      "title": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
+      "publishedAtSgt": "2026-10-20T10:16:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia is increasing its investments in Europe's artificial intelligence sector, unveiling plans to back four German startups as the country pushes to strengthen its position in industrial AI. Agile Robots develops AI-powered robots for manufacturing, logistics and healthcare, while Avelios Medical builds AI-powered hospital management software.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:10+08:00"
+    },
+    {
+      "id": "731fc80e1af505a6a1fd7cdf6c60ef84268bcdfab8e27f7f23570bc582e0e043",
+      "source": "CNBC",
+      "title": "Top venture capitalist Jenny Lee says Asian startups are speeding toward IPOs",
+      "publishedAtSgt": "2026-10-20T09:52:05+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/venture-capital-jenny-lee-granite-asia-startups.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"But currently, the later stage companies we are seeing are actually preparing for IPOs when they are four to five years old.\" Investment platform Granite Asia works with startups from their first round through public listings, and in both equity and credit. Also, \"we are looking at companies that have energy-related technology, say in storage, to help with the energy issue,\" she said.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "id": "69ef4b54318fbab3807d66fffc1ed62f4a825e76e8a6976369ed2f17430c8089",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: Tech investors buy the dip — but debt remains a concern",
+      "publishedAtSgt": "2026-10-20T09:13:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/cnbc-daily-open-tech-nasdaq-trump-ukraine-anthropic.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "After a bruising week for the tech trade, investors seem to have came back into the sector, with the Nasdaq Composite rallying overnight. Investors are once again piling into tech, after fears over AI financing, rising competition and possible excess chip supply in a few years drove them to cash out of the market last week. Shares of neocloud mainstay CoreWeave reversed course from earlier gains, falling 0.4%, even after receiving Goldman Sachs upgraded the stock to buy from neutral.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
       "id": "0d7b6e2b4d60c2db6e1eaa32cb6923c03004ee41e2abca579edbc3377ada3e4a",
       "source": "CNBC",
       "title": "Three big takeaways from the IMF-World Bank meetings",
@@ -114,6 +225,6 @@
       "collectedAtSgt": "2026-10-20T05:06:56+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-20T09:06:30+08:00"
+  "articleCount": 14,
+  "updatedAtSgt": "2026-10-20T14:05:11+08:00"
 }

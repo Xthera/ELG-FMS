@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-20T09:06:30+08:00",
+  "generatedAtSgt": "2026-10-20T14:05:11+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,117 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "1cd37d6933b998f257185be4790d6094f1f76844c0f4ace50566373f98cc0577",
+      "source": "CNBC",
+      "title": "'Cannot play hide and seek': Minister's warning over haze sends Singapore agricultural stocks lower",
+      "publishedAtSgt": "2026-10-20T12:48:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/singapore-haze-shanmugam-indonesia-malaysia.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of several Singapore-listed agricultural companies fell Tuesday after Senior Minister K Shanmugam warned they won't \"escape responsibility\" for their possible role in the haze blanketing the city-state. \"Companies cannot play hide and seek\" with different corporate structures, hoping that will help them, Shanmugam said, revealing that seven companies had been questioned by the Singapore Exchange.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "id": "ecfe30a1bae6427b8cd3407ec03e262295f78f7b4462375cc455ac737a4f568f",
+      "source": "CNBC",
+      "title": "General Motors is set to report earnings before the bell. Here's what Wall Street expects",
+      "publishedAtSgt": "2026-10-20T12:01:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors will be watching to see if GM raises its 2026 guidance and for any early indications of expectations for next year, which Wall Street expects will be difficult for the U.S. \"While we expect in-line to slightly better 3Q26 prints, investor focus is likely to be on 2027 revisions and we don't see results driving meaningful upside,\" JPMorgan analyst Rajat Gupta said in an Oct.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "id": "0a803bde734cc6d7cd3fa454b3e3dd6242f4e9ea7f3ccb4799398ba4fe1f75cc",
+      "source": "CNBC",
+      "title": "Bank Indonesia faces mounting pressure to hike after MSCI threat fuels market rout",
+      "publishedAtSgt": "2026-10-20T11:59:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/indonesia-msci-inflation-interest-rate-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bank Indonesia faces mounting pressure to raise interest rates on Wednesday as economists revise their forecasts after global index provider MSCI warned it may downgrade the country's stock market from emerging-market status, setting off a selloff in stocks and the rupiah. The central bank has held its benchmark seven-day reverse repurchase rate at 5.75% since June.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "id": "535128d9f5d5578d0d497221da6c48cb82703d67f337b8eeb844ee44a5f02901",
+      "source": "CNBC",
+      "title": "BlackRock, GIC among investors chasing Indian telecom major Jio's IPO as anchor bids top $26 billion",
+      "publishedAtSgt": "2026-10-20T10:44:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/jio-ipo-gic-blackrock-.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Jio Platforms, in a release on Monday, said it had finalized the allocation of 72.47 million equity shares to anchor investors at 1,119 rupees a share, at the upper range of the price band. The anchor book is a portion of the total fundraise set aside for large institutional investors before the IPO opens for public bidding.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:10+08:00"
+    },
+    {
+      "id": "5728abdc8b0c601fa0b4a7aab811a8db0accaa360fc305c72d3e1cbcb741c464",
+      "source": "CNBC",
+      "title": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
+      "publishedAtSgt": "2026-10-20T10:16:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia is increasing its investments in Europe's artificial intelligence sector, unveiling plans to back four German startups as the country pushes to strengthen its position in industrial AI. Agile Robots develops AI-powered robots for manufacturing, logistics and healthcare, while Avelios Medical builds AI-powered hospital management software.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:10+08:00"
+    },
+    {
+      "id": "731fc80e1af505a6a1fd7cdf6c60ef84268bcdfab8e27f7f23570bc582e0e043",
+      "source": "CNBC",
+      "title": "Top venture capitalist Jenny Lee says Asian startups are speeding toward IPOs",
+      "publishedAtSgt": "2026-10-20T09:52:05+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/venture-capital-jenny-lee-granite-asia-startups.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"But currently, the later stage companies we are seeing are actually preparing for IPOs when they are four to five years old.\" Investment platform Granite Asia works with startups from their first round through public listings, and in both equity and credit. Also, \"we are looking at companies that have energy-related technology, say in storage, to help with the energy issue,\" she said.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "id": "69ef4b54318fbab3807d66fffc1ed62f4a825e76e8a6976369ed2f17430c8089",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: Tech investors buy the dip — but debt remains a concern",
+      "publishedAtSgt": "2026-10-20T09:13:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/cnbc-daily-open-tech-nasdaq-trump-ukraine-anthropic.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "After a bruising week for the tech trade, investors seem to have came back into the sector, with the Nasdaq Composite rallying overnight. Investors are once again piling into tech, after fears over AI financing, rising competition and possible excess chip supply in a few years drove them to cash out of the market last week. Shares of neocloud mainstay CoreWeave reversed course from earlier gains, falling 0.4%, even after receiving Goldman Sachs upgraded the stock to buy from neutral.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
     {
       "id": "0d7b6e2b4d60c2db6e1eaa32cb6923c03004ee41e2abca579edbc3377ada3e4a",
       "source": "CNBC",
@@ -1482,116 +1593,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-14T23:11:59+08:00"
-    },
-    {
-      "id": "f18696246144a8f7d475c88138e66856e81b58d04a11dbcf225397896c78822d",
-      "source": "CNBC",
-      "title": "Inflation data, Bank of America's penalty, Apple's new home hub and more in Morning Squawk",
-      "publishedAtSgt": "2026-10-14T20:45:09+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/5-things-to-know-before-the-stock-market-opens.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "- Rising energy costs have been a significant driver of inflation since the Iran war began in February. Oil prices are higher this morning after the International Energy Agency said it expects diesel supply to remain squeezed into the second half of next year. - Ahead of today's data, New York Federal Reserve President John Williams told Bloomberg News he sees \"disinflationary forces at play\" and that the central bank may not have to raise rates in 2027.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-14T23:12:00+08:00"
-    },
-    {
-      "id": "9687c09f1fb558ca0eedb660915f42daee85dfaf17b6cfd64cc0bf01e9efb8b6",
-      "source": "CNBC",
-      "title": "Even more borrowers choose riskier mortgages, as higher interest rates crush affordability",
-      "publishedAtSgt": "2026-10-14T20:01:31+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/even-more-borrowers-choose-riskier-mortgages-as-higher-interest-rates-crush-affordability.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Mortgage rates moved to the highest level in nearly three years last week, causing overall demand to drop. The average contract interest rate for 30-year fixed-rate mortgages with conforming loan balances, $832,750 or less, increased to 7.50% from 7.49%, with points decreasing to 0.83 from 0.84, including the origination fee, for loans with a 20% down payment.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
-    },
-    {
-      "id": "3f2d1e173780899cd15758090fadd4302ae828570bfde6c8f6ae986b3b1274cb",
-      "source": "CNBC",
-      "title": "How Trump’s tariffs and Iran war are becoming liabilities in Michigan’s Senate race",
-      "publishedAtSgt": "2026-10-14T18:30:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/mike-rogers-trump-tariffs-michigan-senate-election.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "\"We need to end this tariff war now.\" He never mentions the man who started it: President Donald Trump. But in Michigan, where farms, factories and tourism rely on Canadian trade, Trump's trade fight and Ottawa's retaliation have become a political quagmire three weeks before an election that could decide Senate control. Michigan conducts roughly $80 billion in annual trade with Ontario, according to the Michigan Chamber of Commerce.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-14T23:11:59+08:00"
-    },
-    {
-      "id": "aefc7adc04ff322b41c44abf7f010b5a3180049fe3e39b1b5498e72fb0754e99",
-      "source": "CNBC",
-      "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
-      "publishedAtSgt": "2026-10-14T17:18:18+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "It comes as Russia intensifies attacks on the country's energy infrastructure despite President Donald Trump's proposed \"energy ceasefire.\" Serhii Beskrestnov, an adviser to President Volodymyr Zelenskyy on defense technology, said Wednesday that SpaceX has implemented a speed limit on Starlink terminals in motion without notifying Ukrainian defense forces, disrupting some missions.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
-    },
-    {
-      "id": "8c5e3680462f8e448668ccdb60725ec227064da2849ccb3955075489bd1520a4",
-      "source": "CNBC",
-      "title": "Oil prices choppy after IEA warns on market constraints; Saudi officials say Aramco facilities attacked",
-      "publishedAtSgt": "2026-10-14T16:53:37+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oil prices were little changed on Wednesday morning, pulling back from earlier gains, as investors digested the International Energy Agency's latest monthly report on the shape of the oil market. Fighting between Saudi Arabia and the Iran-backed Houthis continues to escalate, with the Saudi Ministry of Energy saying Wednesday that an administrative building belonging to oil giant Saudi Aramco had been attacked overnight.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
-    },
-    {
-      "id": "0ece6cf5dd4dd8fb8886dbbd918d806d730943e3fbc3083873036ad84545ed0c",
-      "source": "CNBC",
-      "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
-      "publishedAtSgt": "2026-10-14T16:45:13+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Investors closely watch the Dutch company's earnings for signs of AI-related chip demand. ASML's stock was around 2% higher in early trade in Europe. China has been ramping up its domestic semiconductor supply chain, with some investors concerned it could challenge the European and U.S.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
-    },
-    {
-      "id": "ae2f7f9f377405cb139465c673d51120b8f11daf87caa0e34aff9d583d204076",
-      "source": "CNBC",
-      "title": "U.S. Treasury yields inch lower as investors await key inflation report",
-      "publishedAtSgt": "2026-10-14T15:21:38+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Treasury yields inched lower on Wednesday as investors awaited the latest consumer price inflation reading, due later in the session. The projected annual number shows that price growth is accelerating away from the Federal Reserve's target inflation rate of 2%. Core inflation, which excludes volatile food and energy prices, is expected to rise 0.2% from August and 2.5% on an annual basis.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-14T17:33:31+08:00"
     }
   ]
 }
