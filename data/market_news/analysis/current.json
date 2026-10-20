@@ -1,10 +1,224 @@
 {
-  "generatedAtSgt": "2026-10-20T21:02:11.690448+08:00",
+  "generatedAtSgt": "2026-10-21T02:17:03.405244+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 237,
+  "articleCount": 226,
   "analyses": [
+    {
+      "articleId": "bdbbccd6f38e5a366d16a84b8acb6b1841a438a2eeb2c1e2068ab2a40b14745e",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Housing data deteriorated further in September, complicating the Federal Reserve's policy landscape as it contemplates further interest rate hikes, while officials also monitor inflationary pressures from artificial intelligence investments.",
+      "assetClasses": [
+        "Real Estate",
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Banking",
+        "Technology"
+      ],
+      "investorImpact": "Deteriorating housing data alongside potential further interest rate hikes creates uncertainty for real estate, banking, and broader equity markets, forcing investors to weigh policy risks against sector-specific pressures like AI-driven inflation.",
+      "reasoning": "Classified as ECONOMIC because it deals with housing market deterioration and its complex interplay with Federal Reserve monetary policy and inflation. It is highly important for investors monitoring macro conditions, real estate exposure, and rate-sensitive assets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+      "publishedAtSgt": "2026-10-21T01:50:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T02:00:33+08:00"
+    },
+    {
+      "articleId": "1e35c47c058b4188a7f27d5eb16b67359fc38a9c2561eebf9603e09ef85f43c0",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Donald Trump faces a legal challenge over his administration's imposition of 50% tariffs on Canadian goods using Section 338 of the Tariff Act of 1930, marking the first time the 96-year-old law has been used for this purpose.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States",
+        "Canada"
+      ],
+      "sectors": [
+        "Consumer Goods",
+        "Retail"
+      ],
+      "investorImpact": "The legal challenge introduces regulatory and trade policy uncertainty for cross-border commerce between the U.S. and Canada, potentially impacting specific import-dependent sectors and consumer goods.",
+      "reasoning": "Classified as Geopolitical because it involves trade disputes, tariffs, and a lawsuit challenging executive trade authority. It is relevant to fund monitoring due to potential disruptions in U.S.-Canada trade relations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
+      "publishedAtSgt": "2026-10-21T01:49:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 72,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-21T02:00:33+08:00"
+    },
+    {
+      "articleId": "b87b6b025e9f13b443e4a3bdf267b4e98746582134048d35f0c7e97dab1d12ec",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Options traders anticipate further gains for SpaceX stock following its earnings report after the bell on Tuesday, driven by recent operational successes, mobile network expansion, and reports of a major debt deal.",
+      "assetClasses": [
+        "Equities",
+        "Options"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Aerospace",
+        "Telecommunications"
+      ],
+      "investorImpact": "The expected earnings report and associated options trading activity create short-term volatility and potential trading opportunities for investors holding or watching SpaceX shares.",
+      "reasoning": "Classified as MARKET due to its direct focus on stock options trading and earnings expectations. It is important and relevant for fund monitoring as it touches on a high-profile company's market performance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "What options traders expect from SpaceX earnings after the bell",
+      "publishedAtSgt": "2026-10-21T00:34:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/spacex-reports-after-the-bell-heres-what-options-traders-expect-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T02:00:34+08:00"
+    },
+    {
+      "articleId": "5cd4463a5e86b6ec9d6ef018cb57595ee4c1219220a1937f811ac9b8709a1514",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Crude oil prices fell as traders hoped for diplomatic progress in the Middle East, despite reports of oil tankers being set ablaze in the strait after hitting mines laid by Iran's Revolutionary Guard Corps.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "USA"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Oil price declines impact energy sector equities and commodity-linked portfolios, offering potential cost relief for consumers while pressuring producer margins.",
+      "reasoning": "Classified as MARKET due to direct reporting on oil price movements driven by geopolitical developments and trader sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil prices fall as traders hope for diplomatic progress in Middle East",
+      "publishedAtSgt": "2026-10-21T00:19:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T02:00:34+08:00"
+    },
+    {
+      "articleId": "302fea93df21ced4e3b538b782fef360c225854adc7fd2b038b51822466366a1",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Netflix is scheduled to report its quarterly earnings after the market close amid intense media industry competition and consolidation, with its stock having dropped about 40% over the past year.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Communication Services",
+        "Media"
+      ],
+      "investorImpact": "Investors in Netflix and the broader media sector should monitor the earnings report and executive growth commentary closely to gauge the impact of industry competition and recent stock underperformance.",
+      "reasoning": "The article discusses a major upcoming corporate earnings report for a prominent media stock facing significant recent stock decline and sector headwinds, making it highly relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Here's what to expect when Netflix reports earnings after the bell",
+      "publishedAtSgt": "2026-10-21T00:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T02:00:33+08:00"
+    },
+    {
+      "articleId": "c5d7cba79ba5705a69b824f702507b02776d1ee5218535b3ef3db2b648f87aca",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Apple's hardware landscape, featuring new products like the Homeview smart hub, new MacBook Pro models, and OLED iPads, is drawing investor attention alongside the AI trade.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Consumer Electronics"
+      ],
+      "investorImpact": "Highlights alternative ways for investors to gain exposure to Apple given high share prices, driven by strong hardware momentum and new product releases.",
+      "reasoning": "Classified as MARKET because it discusses Apple's market positioning, valuation, and investor interest regarding upcoming hardware releases. Significant for equity portfolios tracking major technology holdings.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Apple shares aren't cheap. Here's how to get long for less",
+      "publishedAtSgt": "2026-10-20T21:43:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/apple-shares-arent-cheap-heres-how-to-get-long-for-less.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T02:00:39+08:00"
+    },
+    {
+      "articleId": "b4238d91243ecbade78aea53879bec344801801a017ea82347fd374a2970218e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Investors are turning their focus to upcoming earnings reports to potentially reset the current bull market. The S&P 500 is currently fluctuating near its 50-day moving average, while specific sectors such as AI-hardware and bank stocks face downward pressure and credit markets show signs of strain.",
+      "assetClasses": [
+        "Equities",
+        "Credit"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors should watch upcoming corporate earnings and key technical levels on the S&P 500 to gauge market direction amid weakness in AI-hardware and bank stocks.",
+      "reasoning": "Classified as MARKET because it discusses S&P 500 technical levels, equity sector performance, and upcoming earnings. The sentiment is MIXED due to concurrent bull market expectations and current sector-specific weaknesses.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
+      "publishedAtSgt": "2026-10-20T20:52:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/santoli-key-sp-500-level-to-watch.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T02:00:39+08:00"
+    },
     {
       "articleId": "13b7b0c3f6ba937f2c231d47380ef20a56c695ea03d533f83fb1bd2e9ebbb55c",
       "relevant": true,
@@ -6636,557 +6850,6 @@
       "collectorRelevanceScore": 101,
       "collectorRelevanceReason": "strong_economic_title",
       "collectedAtSgt": "2026-10-08T00:36:57+08:00"
-    },
-    {
-      "articleId": "f8adf627601199801f0e7d6186aba090e3781da0130a3b197ef7c8494702516c",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "Despite stocks hitting record highs and low volatility reflected in the Cboe VIX Index, substantial bearish options activity was observed. A large SPY put spread trade, designed to profit if the S&P 500 drops more than 18%, indicates investor skepticism and hedging against a potential downturn.",
-      "assetClasses": [
-        "Equities",
-        "Options"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "Investors should note the divergence between record-high equity prices and heavy hedging activity, signaling that market participants are protecting portfolios against a severe drawdown despite current low-volatility conditions.",
-      "reasoning": "Classified as MARKET because it discusses stock market milestones and large institutional options trades. Sentiment is MIXED as it counters record-high equity valuations with prominent bearish hedging. Important for monitoring market sentiment and risk positioning.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Stocks made a record high. Two big bearish trades point to skepticism",
-      "publishedAtSgt": "2026-10-07T21:59:16+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/stocks-made-a-record-high-two-big-bearish-trades-point-to-skepticism.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T00:37:01+08:00"
-    },
-    {
-      "articleId": "82603bc50af84126603713e90ee936a57b85d55a7fb345bb759828733424ba90",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "France faces escalating economic and political pressures driven by student protests, a budget deficit exceeding 5.1% of GDP, and tightening bond markets, though the Bank of France indicates no immediate need for ECB financial assistance.",
-      "assetClasses": [
-        "Bonds",
-        "Equities",
-        "Currencies"
-      ],
-      "geographies": [
-        "France",
-        "Europe"
-      ],
-      "sectors": [
-        "Government",
-        "Banking",
-        "Financials"
-      ],
-      "investorImpact": "Investors holding French sovereign debt or European equities may face increased volatility and widening yield spreads due to ongoing fiscal deficits, political deadlock, and social unrest in France.",
-      "reasoning": "Classified as ECONOMIC and HIGH importance because it covers significant fiscal challenges, sovereign bond market pressures, and deficit concerns for a major European economy that directly impacts regional asset pricing and monetary policy monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "France is caught between angry students and unforgiving bond markets",
-      "publishedAtSgt": "2026-10-07T21:23:31+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/french-student-protests-budget-deadlock.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-07T21:35:55+08:00"
-    },
-    {
-      "articleId": "20d2dbf98b8817b92ff81c653b85e8ebb5adb37ac883bf6e5d7d92889ff827b5",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "According to the U.S. Energy Information Administration's annual Winter Fuels Outlook, Americans who heat their homes with oil will face sharply higher costs this winter, with prices expected to average $5.26 a gallon, up 34% from last winter and leading to overall winter bills rising by 21%.",
-      "assetClasses": [
-        "Commodities",
-        "Energy"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Energy",
-        "Utilities"
-      ],
-      "investorImpact": "The expected surge in home heating oil prices highlights inflationary pressures for consumers in specific regions and impacts energy commodity markets, which may influence energy sector equities and consumer discretionary spending.",
-      "reasoning": "Classified as MARKET due to the reporting on energy commodity pricing and federal winter fuels outlook data, which is relevant for monitoring consumer inflation and energy sector trends.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
-      "publishedAtSgt": "2026-10-07T20:35:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/home-heating-oil-costs-winter.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-07T21:35:54+08:00"
-    },
-    {
-      "articleId": "4cc006f7f306dfdd48d59d4238886269bcfcff9feb1300a4dfa1611867175d8d",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Treasury yields and oil prices are rising as traders await a key $39 billion 10-year note U.S. bond auction. Concerns over inflation, rising energy prices, debt levels, and term risk are driving the bond sell-off, while international yields such as the 10-year French bond have also surged.",
-      "assetClasses": [
-        "Fixed Income",
-        "Commodities"
-      ],
-      "geographies": [
-        "United States",
-        "France"
-      ],
-      "sectors": [
-        "Energy",
-        "Financials"
-      ],
-      "investorImpact": "Rising Treasury yields and increasing energy prices signal ongoing inflation and debt concerns, pressuring fixed income valuations and elevating borrowing costs for equities and broader markets.",
-      "reasoning": "The article discusses key macroeconomic market developments, specifically rising bond yields and upcoming Treasury auctions, which are critical for monitoring fixed income portfolios and broader financial market sentiment.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Treasury yields rise as oil moves higher, traders await key U.S. bond sale",
-      "publishedAtSgt": "2026-10-07T18:08:22+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 93,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-07T18:34:30+08:00"
-    },
-    {
-      "articleId": "1498e808724b52989796187945a82295b0c4ecd144c41ee9d2522628f355f344",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "The IMF chief issued a stark warning to France regarding surging bond yields, noting that French 10-year bond yields have risen by more than 100 basis points since the start of the year and that investors now demand higher yields than for Italian government bonds.",
-      "assetClasses": [
-        "Fixed Income",
-        "Government Bonds"
-      ],
-      "geographies": [
-        "France",
-        "Italy",
-        "Europe"
-      ],
-      "sectors": [
-        "Government",
-        "Financial Services"
-      ],
-      "investorImpact": "Rising French bond yields and sovereign debt concerns create risks for European fixed income markets and broader European financial stability, requiring closer monitoring of sovereign debt spreads.",
-      "reasoning": "The article discusses significant sovereign bond yield movements and IMF warnings regarding French debt, making it highly relevant for market and economic risk monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "'Get your house in order': IMF chief's stark warning for France over surging bond yields",
-      "publishedAtSgt": "2026-10-07T17:57:23+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/imf-france-debt-student-protests-yields.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 93,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-07T18:34:30+08:00"
-    },
-    {
-      "articleId": "38e36bb45f28ce8a74229f4543d580b212c2aaae584a59df96c1a2c470183236",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "Google has been ordered to halt construction on two data centers in Finland despite a recent $15 billion AI infrastructure investment commitment, highlighting potential regulatory or infrastructural bottlenecks in key European markets for data center expansion.",
-      "assetClasses": [
-        "Equities",
-        "Infrastructure"
-      ],
-      "geographies": [
-        "Finland",
-        "Europe"
-      ],
-      "sectors": [
-        "Technology",
-        "Real Estate",
-        "Utilities"
-      ],
-      "investorImpact": "Investors in hyperscale cloud providers and European digital infrastructure may face increased project execution risks and delays as regulatory hurdles or power/resource constraints impact major AI investments.",
-      "reasoning": "The article details a significant disruption to a major tech infrastructure project by a leading cloud provider in an important European market, classifying it as TECHNOLOGY with a NEGATIVE sentiment due to the halt in construction.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Google ordered to halt work on two data centers in ‘Texas of Europe’",
-      "publishedAtSgt": "2026-10-07T17:26:02+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 82,
-      "collectorRelevanceReason": "technology_business_or_infrastructure",
-      "collectedAtSgt": "2026-10-07T18:34:30+08:00"
-    },
-    {
-      "articleId": "5d20cb98b9eabf860fc9fd9c78c1348fd792f9b38f9d1bc51aaf05b3795633c1",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "The AI rally continues to push higher despite a broader bond market rout. Singapore's Temasek warns that a reversal in the AI trade represents the primary market risk, while India experiences 10 straight months of rising inflation alongside strong economic growth.",
-      "assetClasses": [
-        "Equities",
-        "Bonds"
-      ],
-      "geographies": [
-        "Global",
-        "Singapore",
-        "India"
-      ],
-      "sectors": [
-        "Technology",
-        "Artificial Intelligence"
-      ],
-      "investorImpact": "Investors face conflicting signals from a surging AI-driven equity market coupled with a bond market rout and rising inflation in emerging markets like India, increasing portfolio volatility risk.",
-      "reasoning": "Classified as MARKET due to the focus on equity rallies versus bond routs and major institutional warnings on AI trade concentration, providing critical context for multi-asset portfolios.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "CNBC Daily Open: AI rally defies bond market rout",
-      "publishedAtSgt": "2026-10-07T14:28:35+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/daily-open-ai-rally-bond-market-rout.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-07T15:35:17+08:00"
-    },
-    {
-      "articleId": "8bef1830b0236a99635de826b197d5c9f5c513072ae93423b14707cae2e8052f",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "India's central bank hiked interest rates for the first time since 2023, shifting its policy stance to calibrated tightening due to non-benign inflation risks. RBI Governor Sanjay Malhotra noted robust economic growth alongside headline inflation expected at 5.2% and core inflation at 4.4% for the financial year ending March 2027.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income",
-        "Currencies"
-      ],
-      "geographies": [
-        "India"
-      ],
-      "sectors": [
-        "Banking",
-        "Financials"
-      ],
-      "investorImpact": "The shift toward monetary tightening and interest rate hikes in India increases borrowing costs for corporations and consumers, potentially weighing on equity valuations and domestic demand while offering higher yields for fixed income investors.",
-      "reasoning": "Classified as ECONOMIC because it details monetary policy action and inflation targets by a major central bank. It is highly important and fund monitoring relevant due to its direct impact on Indian asset prices, currency valuations, and domestic macroeconomic conditions.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "India’s central bank hikes rates for the first time since 2023 as inflation risks build",
-      "publishedAtSgt": "2026-10-07T13:11:55+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-10-07T15:35:17+08:00"
-    },
-    {
-      "articleId": "bf08ea2a60b1277b2f99d2d8f446d9cd2a7c7cc823387cb410c262fef22691c7",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "Oil prices rose as renewed trader concerns over Houthi attacks on Saudi Arabia and Iranian moves targeting tankers in the Strait of Hormuz eclipsed the recovery in oil pumped through the East-West Pipeline.",
-      "assetClasses": [
-        "Commodities",
-        "Energy"
-      ],
-      "geographies": [
-        "Saudi Arabia",
-        "Middle East"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil and Gas"
-      ],
-      "investorImpact": "Geopolitical tensions and threats to shipping lanes in the Middle East drive up oil prices, creating potential upside for energy sector equities while increasing cost pressures for broader markets.",
-      "reasoning": "The article discusses direct supply route threats and geopolitical escalations impacting global oil prices, which is critical for market and fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Oil rises as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery",
-      "publishedAtSgt": "2026-10-07T12:24:10+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/oil-prices-today-brent-wti-hormuz.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-07T12:34:48+08:00"
-    },
-    {
-      "articleId": "966b707e980554a555ab6453f4d3b7e55fcf8353ead5020ac6b05c9438b6b99e",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Singapore's Foreign Minister Vivian Balakrishnan stated that President Donald Trump is not completely wrong in asserting that disruptions to energy flows through the Strait of Hormuz primarily constitute an Asian problem, given that Asian economies heavily rely on energy shipped through the critical waterway.",
-      "assetClasses": [
-        "Commodities",
-        "Equities",
-        "Energy"
-      ],
-      "geographies": [
-        "Asia",
-        "Singapore",
-        "Middle East"
-      ],
-      "sectors": [
-        "Energy",
-        "Transportation",
-        "Oil and Gas"
-      ],
-      "investorImpact": "Potential disruptions in the Strait of Hormuz pose severe risks to energy supplies destined for Asian markets, which could drive up oil prices, increase shipping costs, and pressure margins for energy-intensive sectors across Asia.",
-      "reasoning": "The article highlights critical geopolitical risks to global energy supply chains, specifically impacting Asian economies due to their reliance on Middle Eastern oil shipped through the Strait of Hormuz. This is highly relevant for monitoring commodity markets, regional equities, and energy sector exposure.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Trump isn't ‘completely wrong’: Hormuz disruption is Asia’s problem, says Singapore's foreign minister",
-      "publishedAtSgt": "2026-10-07T10:10:52+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/hormuz-iran-war-singapore-vivian-balakrishnan.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-07T12:34:48+08:00"
-    },
-    {
-      "articleId": "125ab71a8d3397be59d510c69403a6a5c5fa5d3045d188f5d5be24630b595367",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Iran's escalation of attacks on oil tankers transiting through the Strait of Hormuz threatens the recent fragile rebound in global oil exports, raising renewed supply concerns among traders.",
-      "assetClasses": [
-        "Commodities",
-        "Energy"
-      ],
-      "geographies": [
-        "Middle East",
-        "Iran"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil and Gas"
-      ],
-      "investorImpact": "Investors in energy markets and commodities face heightened volatility and potential supply shocks, which could drive oil prices higher and impact transportation and manufacturing costs globally.",
-      "reasoning": "The article details geopolitical conflict directly affecting critical energy supply routes, making it highly relevant for macroeconomic and sector-specific fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "CNBC Daily Open: Fragile rebound in oil exports threatened by Iran attacks in Hormuz",
-      "publishedAtSgt": "2026-10-07T09:11:37+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/trump-hormuz-oil-diesel-iran-anthropic-ai.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-10-07T09:33:11+08:00"
-    },
-    {
-      "articleId": "857992382577f984b8efe3d20a80cc554f046ac42c8731c87243cb023148513e",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "The S&P 500 reached a new record, supported by resilient corporate profits despite mixed economic conditions, oil and bond yield correlations, and strong investor appetite for technology highlighted by SpaceX's $75 billion IPO.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Financials"
-      ],
-      "investorImpact": "Investors should note that corporate profit resilience continues to drive equity markets to new highs despite mixed economic indicators and yield volatility.",
-      "reasoning": "The article is classified under MARKET as it discusses the S&P 500 reaching record highs, driven by corporate profits and large technology IPO activity, making it relevant for equity market monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
-      "publishedAtSgt": "2026-10-07T06:23:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 59,
-      "collectorRelevanceReason": "supporting_market_description",
-      "collectedAtSgt": "2026-10-07T06:31:50+08:00"
-    },
-    {
-      "articleId": "c5291e591512ab33062a898d0faaa96517826e2161c077370c2a6556125769a0",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "CNBC's Jim Cramer highlighted that established blue-chip tech giants represent some of the best opportunities for investors looking to capitalize on the ongoing artificial intelligence boom.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology"
-      ],
-      "investorImpact": "Provides perspective for equity investors on how to approach artificial intelligence investments by favoring established large-cap companies with strong fundamentals.",
-      "reasoning": "The article discusses investment strategy in the context of the AI market boom, making it relevant for market and technology sentiment monitoring, though it offers broad commentary rather than breaking financial data.",
-      "fundMonitoringRelevant": false,
-      "source": "CNBC",
-      "title": "Cramer says these blue-chip stocks are among the best ways to invest in the AI boom",
-      "publishedAtSgt": "2026-10-07T06:13:04+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/jim-cramer-ai-stocks.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-07T06:31:50+08:00"
-    },
-    {
-      "articleId": "3b5ee8e780034b249c1fc4edf14e390e5510206c9cfa4b229392d4f180d728bf",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Meta may abandon plans for a cloud business for Muse to focus its computing power on building its own next growth engine, a strategic shift viewed favorably as a better use of massive AI infrastructure investments.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Communication Services"
-      ],
-      "investorImpact": "Investors may view Meta's shift away from a cloud-renting model toward internal growth engines as a more focused and potentially lucrative use of heavy AI infrastructure spending.",
-      "reasoning": "The article discusses Meta's corporate strategy regarding AI infrastructure and cloud business development, falling under TECHNOLOGY with a POSITIVE sentiment due to the favorable view of their strategic pivot.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Meta may ditch the idea of a cloud business for Muse. We think that’s a good trade",
-      "publishedAtSgt": "2026-10-07T02:59:37+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/06/meta-may-ditch-the-idea-of-a-cloud-business-for-muse-we-think-thats-a-good-trade.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-07T03:31:58+08:00"
-    },
-    {
-      "articleId": "4fb0fd6c5c40afd2a53109f38277a059b47d10e5ace43071e2b8b0e0f4f5705c",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Marvell Technology shares rose over 6% following upbeat near-term and long-term guidance at its investor day, highlighting strong growth in its custom AI chip business with major customers like Amazon and Alphabet. The positive outlook also lifted shares of other AI data center infrastructure providers such as GE Vernova and Eaton.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors",
-        "Industrials"
-      ],
-      "investorImpact": "The strong guidance from Marvell and the subsequent rally in related AI data center infrastructure stocks signal robust ongoing demand within the artificial intelligence hardware ecosystem, offering positive momentum for tech and industrial equities exposed to this theme.",
-      "reasoning": "Classified as MARKET because it discusses specific stock price movements, corporate guidance updates, and sector-wide sentiment shifts in AI hardware and infrastructure. It is fund monitoring relevant due to its direct implications for technology sector allocations and AI-themed portfolios.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "What Marvell's rosy long-term guidance means for our AI chip stocks",
-      "publishedAtSgt": "2026-10-07T02:51:01+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-07T03:31:57+08:00"
-    },
-    {
-      "articleId": "2dd4ccf6b9e72bf7cc56ef1679db906ae3f565f22b2040895da61ac175a77e1e",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Meta, Walmart, Stripe, and other companies are establishing an open standard called a personal agent protocol to simplify how AI agents interact with businesses following the viral success of Meta's Muse.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology",
-        "Retail",
-        "Financials"
-      ],
-      "investorImpact": "The introduction of an open standard for AI agents can accelerate enterprise adoption of AI technologies, improving operational efficiencies for participating companies like Meta, Walmart, and Stripe.",
-      "reasoning": "The article details a collaborative technological standard initiative among major corporations to manage AI agent interactions, categorizing it securely as TECHNOLOGY with a positive sentiment regarding enterprise AI integration.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Meta joins with group of companies to tame ‘chaos’ of doing business with AI bots",
-      "publishedAtSgt": "2026-10-07T02:48:36+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/meta-joins-companies-to-tame-chaos-of-doing-business-with-ai-bots.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 52,
-      "collectorRelevanceReason": "supporting_technology_description",
-      "collectedAtSgt": "2026-10-07T03:31:57+08:00"
-    },
-    {
-      "articleId": "b444a883e42c0d53beb26896f2851f1bab794606588b0ebc24ff05ab7395068b",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "Dividend stocks, including utilities, are facing downward pressure as rising 10-year U.S. bond yields create competition for retirement income. Analysts suggest shifting focus from high-yield to dividend growth funds or diversifying into broader investment universes like growth and international stocks.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Utilities"
-      ],
-      "investorImpact": "Investors relying on high-yield dividend stocks for retirement income face pressure from rising bond yields, prompting a reevaluation of asset allocation toward dividend growth and international equities.",
-      "reasoning": "The article discusses significant market movements impacting equity sectors like utilities due to shifting bond yields, which directly affects income-focused investment strategies and portfolio allocation.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Boomers' dividend stocks take beating as bond yields rise, with retirement income on the line",
-      "publishedAtSgt": "2026-10-07T02:41:02+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/dividend-stocks-bond-yields-retirement-income.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 95,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-07T03:31:57+08:00"
-    },
-    {
-      "articleId": "a54e6929a6fb0ccc033e7ce58dcfd497102474e9458b128507ef0d1b4dd9142f",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "Salesforce shares reflect the promise and peril of the artificial intelligence trade, having experienced significant volatility due to investor fears that AI agents might make traditional software subscriptions obsolete, despite solid financial reports.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global",
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Software"
-      ],
-      "investorImpact": "Investors holding legacy SaaS or enterprise software stocks face uncertainty regarding how business models will adapt to AI agents, impacting trading strategies and valuation multiples.",
-      "reasoning": "Classified as MARKET due to its focus on stock trading dynamics and investor sentiment regarding Salesforce amid the broader AI software disruption narrative.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it",
-      "publishedAtSgt": "2026-10-07T01:22:20+08:00",
-      "url": "https://www.cnbc.com/2026/10/06/salesforce-shares-sit-at-the-epicenter-of-ai-confusion-heres-how-to-trade-it.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-07T03:31:57+08:00"
     }
   ]
 }
