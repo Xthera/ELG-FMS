@@ -1,10 +1,222 @@
 {
-  "generatedAtSgt": "2026-10-20T09:22:12.913708+08:00",
+  "generatedAtSgt": "2026-10-20T14:20:56.180236+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 224,
+  "articleCount": 231,
   "analyses": [
+    {
+      "articleId": "1cd37d6933b998f257185be4790d6094f1f76844c0f4ace50566373f98cc0577",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Shares of several Singapore-listed agricultural companies fell after Senior Minister K Shanmugam warned that firms will not escape responsibility for roles in regional haze, noting that seven companies have been questioned by the Singapore Exchange.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Singapore",
+        "Indonesia",
+        "Malaysia"
+      ],
+      "sectors": [
+        "Agriculture",
+        "Consumer Staples"
+      ],
+      "investorImpact": "Investors in Singapore-listed agricultural and plantation companies face heightened regulatory scrutiny and potential ESG liabilities, which are weighing on near-term stock prices.",
+      "reasoning": "Classified as MARKET due to the direct downward impact on share prices of Singaporean agricultural stocks resulting from regulatory and governmental warnings concerning haze liabilities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "'Cannot play hide and seek': Minister's warning over haze sends Singapore agricultural stocks lower",
+      "publishedAtSgt": "2026-10-20T12:48:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/singapore-haze-shanmugam-indonesia-malaysia.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "articleId": "ecfe30a1bae6427b8cd3407ec03e262295f78f7b4462375cc455ac737a4f568f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "General Motors is set to report third-quarter 2026 earnings, with investors focused on whether the company raises its 2026 guidance and any early outlook for 2027.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Automotive"
+      ],
+      "investorImpact": "Investors holding General Motors stock or sector-related equities will closely monitor the earnings release and guidance revisions for valuation impacts.",
+      "reasoning": "The article previews a major corporate earnings report from a large-cap company, which is relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "General Motors is set to report earnings before the bell. Here's what Wall Street expects",
+      "publishedAtSgt": "2026-10-20T12:01:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "articleId": "0a803bde734cc6d7cd3fa454b3e3dd6242f4e9ea7f3ccb4799398ba4fe1f75cc",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Bank Indonesia faces growing pressure to raise interest rates as economists revise forecasts following an MSCI warning about a potential downgrade from emerging-market status, which has triggered a selloff in Indonesian stocks and the rupiah.",
+      "assetClasses": [
+        "Equities",
+        "Currencies",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "Indonesia"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors with exposure to Indonesian equities and the rupiah face increased volatility and downside risk due to the potential MSCI downgrade and expected monetary tightening by Bank Indonesia.",
+      "reasoning": "Classified as MARKET due to direct impacts on stock valuations, currency stability, and interest rate expectations resulting from the MSCI warning and market selloff.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Bank Indonesia faces mounting pressure to hike after MSCI threat fuels market rout",
+      "publishedAtSgt": "2026-10-20T11:59:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/indonesia-msci-inflation-interest-rate-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "articleId": "535128d9f5d5578d0d497221da6c48cb82703d67f337b8eeb844ee44a5f02901",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Jio Platforms finalized the allocation of 72.47 million equity shares to anchor investors at 1,119 rupees a share, drawing major institutional investors like BlackRock and GIC with anchor bids topping $26 billion.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Telecommunications",
+        "Technology"
+      ],
+      "investorImpact": "High demand from global institutional investors signals strong confidence in major Indian equity offerings and telecom sector growth.",
+      "reasoning": "The article details a major market event regarding Jio's IPO anchor book oversubscription by prominent global investors, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "BlackRock, GIC among investors chasing Indian telecom major Jio's IPO as anchor bids top $26 billion",
+      "publishedAtSgt": "2026-10-20T10:44:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/jio-ipo-gic-blackrock-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T14:05:10+08:00"
+    },
+    {
+      "articleId": "5728abdc8b0c601fa0b4a7aab811a8db0accaa360fc305c72d3e1cbcb741c464",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Nvidia is increasing its investments in Europe's artificial intelligence sector by backing four German startups, including Agile Robots and Avelios Medical, as the German chancellor urges businesses to embrace AI.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Germany",
+        "Europe"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence",
+        "Manufacturing",
+        "Healthcare"
+      ],
+      "investorImpact": "The announcement highlights ongoing growth and institutional support for artificial intelligence and robotics in Europe, presenting potential investment opportunities in European tech startups and semiconductor demand.",
+      "reasoning": "Classified as TECHNOLOGY due to Nvidia's investments in AI startups and the German leadership's push for industrial AI adoption. Sentiment is positive regarding European tech expansion.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
+      "publishedAtSgt": "2026-10-20T10:16:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T14:05:10+08:00"
+    },
+    {
+      "articleId": "731fc80e1af505a6a1fd7cdf6c60ef84268bcdfab8e27f7f23570bc582e0e043",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Top venture capitalist Jenny Lee of Granite Asia notes that Asian startups are preparing for IPOs much earlier, at four to five years of age, while also focusing on energy-related technology such as storage solutions.",
+      "assetClasses": [
+        "Private Equity",
+        "Venture Capital",
+        "Equities"
+      ],
+      "geographies": [
+        "Asia"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy",
+        "Financials"
+      ],
+      "investorImpact": "Investors tracking Asian markets and venture capital can anticipate increased IPO activity from younger firms and growing opportunities in energy technology sectors.",
+      "reasoning": "The article highlights positive market trends in Asian venture capital and startup liquidity timelines, making it relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Top venture capitalist Jenny Lee says Asian startups are speeding toward IPOs",
+      "publishedAtSgt": "2026-10-20T09:52:05+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/venture-capital-jenny-lee-granite-asia-startups.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
+    {
+      "articleId": "69ef4b54318fbab3807d66fffc1ed62f4a825e76e8a6976369ed2f17430c8089",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Tech investors have started buying the dip following a bruising week for the tech trade, leading to a rally in the Nasdaq Composite. However, ongoing concerns regarding debt, AI financing, rising competition, and potential chip oversupply remain, evidenced by CoreWeave shares falling despite a Goldman Sachs upgrade.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should remain cautious as dip-buying in technology stocks coincides with persistent macroeconomic and structural concerns about debt, AI financing, and chip supply.",
+      "reasoning": "Classified as MARKET due to its focus on stock market movements, tech sector rallies, and investor sentiment shifts. Sentiment is MIXED because a tech rebound is tempered by underlying debt and financing concerns.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CNBC Daily Open: Tech investors buy the dip — but debt remains a concern",
+      "publishedAtSgt": "2026-10-20T09:13:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/cnbc-daily-open-tech-nasdaq-trump-ukraine-anthropic.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
+    },
     {
       "articleId": "0d7b6e2b4d60c2db6e1eaa32cb6923c03004ee41e2abca579edbc3377ada3e4a",
       "relevant": true,
