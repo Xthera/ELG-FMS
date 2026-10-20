@@ -1,10 +1,165 @@
 {
-  "generatedAtSgt": "2026-10-20T14:20:56.180236+08:00",
+  "generatedAtSgt": "2026-10-20T21:02:11.690448+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 231,
+  "articleCount": 237,
   "analyses": [
+    {
+      "articleId": "13b7b0c3f6ba937f2c231d47380ef20a56c695ea03d533f83fb1bd2e9ebbb55c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "U.S. Treasury yields moved lower on Tuesday following weak housing data, with the benchmark 10-year yield dropping over 4 basis points to 5.092% as investors assess economic conditions ahead of the upcoming Federal Reserve rate decision.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financial",
+        "Real Estate"
+      ],
+      "investorImpact": "The decline in Treasury yields reflects market reactions to soft economic data and influences borrowing costs, asset valuation models, and fixed-income portfolios ahead of the Federal Reserve's rate decision.",
+      "reasoning": "The article is classified under MARKET because it directly covers the movement of U.S. Treasury yields driven by housing data and macroeconomic sentiment. It is relevant for fund monitoring as shifting yields impact broader asset allocation and portfolio valuations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "U.S. Treasury yields move lower after weak housing data",
+      "publishedAtSgt": "2026-10-20T20:43:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/us-treasury-yields-investors-economy.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
+    },
+    {
+      "articleId": "9a83c310a5a6b78fb19d4acfd413ccd7f3b6c171c0d49fa537360a9999b02212",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Data center stocks dropped after a South Korean cloud company, Elice, saw its IPO plunge over 30% on its debut, triggering investor concerns over AI-dedicated computing power overcapacity and weighing down US peers like CoreWeave.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "South Korea",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Data Centers",
+        "Cloud Computing"
+      ],
+      "investorImpact": "Investors holding data center and AI-related infrastructure stocks should note rising market sensitivity and valuation concerns regarding overcapacity in computing power providers.",
+      "reasoning": "The article is classified under MARKET with a NEGATIVE sentiment due to the significant drop in a major IPO and subsequent downward pressure on data center stocks, reflecting growing investor caution regarding AI infrastructure overcapacity.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment",
+      "publishedAtSgt": "2026-10-20T20:36:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
+    },
+    {
+      "articleId": "f7c9de4e49e967b04d0327b9ca0d44b3f00e6ce25995766f3a668fa705508639",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Stock futures are paring overnight gains following a negative session in Asia, driven by jitters in technology stocks. Notably, South Korean AI data center firm Elice plummeted over 30% during its trading debut on the country's secondary market.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "South Korea",
+        "Asia",
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors should note ongoing volatility and fragility in technology sector valuations, particularly regarding AI-related themes and newly listed issues in Asian markets.",
+      "reasoning": "Classified as MARKET due to its focus on stock futures and equity performance, with NEGATIVE sentiment driven by fading AI momentum and a sharp IPO drop. It is relevant for fund monitoring as it highlights sentiment shifts in high-growth technology segments.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI rally fades away from Wall Street as a tiny IPO makes big waves",
+      "publishedAtSgt": "2026-10-20T19:34:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/ai-rally-fades-elice-ipo-dives.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
+    },
+    {
+      "articleId": "d787c3d6da1af667f22c3fd2b0a49613b86e1bac48b040c0f7cd4b06201380f8",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "HSBC CEO Georges Elhedery stated that while AI is a transformational investment opportunity, investors need to be selective when financing data centers as not every project will be a good bet.",
+      "assetClasses": [
+        "Equity",
+        "Debt"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials",
+        "Real Estate"
+      ],
+      "investorImpact": "Investors should exercise caution and conduct rigorous due diligence when allocating capital to data center financing and AI-related infrastructure, as oversupply or poorly positioned assets could underperform.",
+      "reasoning": "The article is classified under TECHNOLOGY and mixed sentiments regarding data center investments because it highlights both the massive potential of AI and the risks of indiscriminate infrastructure financing. It is relevant for fund monitoring as it touches on institutional lending and tech infrastructure risk.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "HSBC CEO warns the AI boom won’t make every data center a good bet",
+      "publishedAtSgt": "2026-10-20T18:39:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
+    },
+    {
+      "articleId": "654a846e91558b6fd6f14192f6c957bba5c914bb837c8273a911fd16461f1e2e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Copper is outperforming gold as artificial intelligence, power-grid investment, and defense spending drive strong demand. Industry executives note that securing access to critical metals has become a key priority for national security, economic growth, and technology infrastructure.",
+      "assetClasses": [
+        "Commodities",
+        "Metals"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Mining",
+        "Technology",
+        "Defense",
+        "Utilities"
+      ],
+      "investorImpact": "Highlights strong secular demand drivers for industrial metals like copper, presenting investment opportunities in mining, commodities, and infrastructure-related sectors.",
+      "reasoning": "Classified as MARKET due to the focus on copper pricing and demand rallies. Sentiment is POSITIVE driven by surging structural demand from AI and grid investments. Importance is HIGH given the broad implications for global commodities and industrial sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Copper is outshining gold this year. Investors say the rally can survive an AI correction",
+      "publishedAtSgt": "2026-10-20T13:57:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/copper-prices-ai-spending-demand.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
+    },
     {
       "articleId": "1cd37d6933b998f257185be4790d6094f1f76844c0f4ace50566373f98cc0577",
       "relevant": true,
@@ -307,6 +462,39 @@
       "collectorRelevanceScore": 57,
       "collectorRelevanceReason": "supporting_market_description",
       "collectedAtSgt": "2026-10-20T09:06:30+08:00"
+    },
+    {
+      "articleId": "f307a0a920d44fbd7e9b5a19c0fd0f5816e11025433acac40e2d48cf49288e1e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "While AI stocks rallied, credit investors remain cautious about the debt loads of companies like CoreWeave and Oracle. Neoclouds and frontier lab-exposed firms face funding cost debates, whereas AI-adjacent energy and utilities show more resilience due to diversified revenue streams and defensive earnings.",
+      "assetClasses": [
+        "Equities",
+        "Credit",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy",
+        "Utilities"
+      ],
+      "investorImpact": "Investors in AI-related credit and debt instruments must remain vigilant as funding costs and debt stress persist for neoclouds and infrastructure providers, contrasting with more resilient defensive sectors like energy and utilities.",
+      "reasoning": "Classified as MARKET because it details diverging sentiment between equity and credit investors regarding AI infrastructure debt. It is important for fund monitoring as credit stress in AI funding could impact broader tech sector financing costs.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Stock investors are ready to move on from the AI rout. Credit investors are not",
+      "publishedAtSgt": "2026-10-20T05:12:12+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/coreweave-oracle-ai-credit-stress.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
     },
     {
       "articleId": "e21a17103393cd595aaf06b824a1c11a8964369b736dd86fef6091834de5c1bd",
