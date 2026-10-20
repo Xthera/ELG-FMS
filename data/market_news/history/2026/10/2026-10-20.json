@@ -5,6 +5,87 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "13b7b0c3f6ba937f2c231d47380ef20a56c695ea03d533f83fb1bd2e9ebbb55c",
+      "source": "CNBC",
+      "title": "U.S. Treasury yields move lower after weak housing data",
+      "publishedAtSgt": "2026-10-20T20:43:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/us-treasury-yields-investors-economy.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields fell on Tuesday as investors digested more economic data and continued to weigh the inflationary backdrop ahead of the Federal Reserve's interest rate decision next week. The benchmark 10-year Treasury yield was down more than 4 basis points at 5.092%, while the 30-year Treasury bond fell more than 5 basis points to 5.415%. Investors are awaiting other economic data releases this week, including Thursday's release of weekly initial jobless claims.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
+    },
+    {
+      "id": "9a83c310a5a6b78fb19d4acfd413ccd7f3b6c171c0d49fa537360a9999b02212",
+      "source": "CNBC",
+      "title": "Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment",
+      "publishedAtSgt": "2026-10-20T20:36:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Data center stocks struggled Tuesday following a lackluster initial public offering overnight from a South Korean cloud company that has been compared to U.S. Shares of Elice dropped more than 30% during their market debut overnight, as investors grow increasingly wary of artificial intelligence-dedicated computing power providers amid concerns about overcapacity. CoreWeave shares lost 4% in premarket trading as of 8:08 a.m.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
+    },
+    {
+      "id": "f7c9de4e49e967b04d0327b9ca0d44b3f00e6ce25995766f3a668fa705508639",
+      "source": "CNBC",
+      "title": "AI rally fades away from Wall Street as a tiny IPO makes big waves",
+      "publishedAtSgt": "2026-10-20T19:34:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/ai-rally-fades-elice-ipo-dives.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "stock futures are giving up some of their overnight optimism following the bounceback for AI stocks on Monday, as a sharply negative session in Asia shows jitters remain around technology stocks. Problematic IPO: South Korean AI data center firm, Elice, debuted as a small IPO on the country's secondary market, but shares made a big nosedive, falling over 30% in the trading debut.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
+    },
+    {
+      "id": "d787c3d6da1af667f22c3fd2b0a49613b86e1bac48b040c0f7cd4b06201380f8",
+      "source": "CNBC",
+      "title": "HSBC CEO warns the AI boom won’t make every data center a good bet",
+      "publishedAtSgt": "2026-10-20T18:39:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "AI is a transformational technology worth investing in — but investors must be selective when investing in data centers, according to the head of one of the world's biggest banks. Speaking to CNBC's Dan Murphy on Tuesday, HSBC CEO Georges Elhedery called artificial intelligence \"a major enabler to re-engineer and reimagine all our businesses, all our activities.\" \"It's going to put a lot of power back in the hands of our colleagues because of the level of productivity it gives them, so it's...",
+      "feeds": [
+        "latest",
+        "finance",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
+    },
+    {
+      "id": "654a846e91558b6fd6f14192f6c957bba5c914bb837c8273a911fd16461f1e2e",
+      "source": "CNBC",
+      "title": "Copper is outshining gold this year. Investors say the rally can survive an AI correction",
+      "publishedAtSgt": "2026-10-20T13:57:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/copper-prices-ai-spending-demand.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Copper is becoming increasingly strategic to governments and industries as artificial intelligence, power-grid investment and defense spending increase demand for the industrial metal, investors say. Speaking to CNBC's \"Squawk Box Europe,\" Ivanhoe Electric CEO Taylor Melvin said countries, regions and industries are increasingly focused on securing access to metals for national security, economic growth and technology infrastructure.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
+    },
+    {
       "id": "1cd37d6933b998f257185be4790d6094f1f76844c0f4ace50566373f98cc0577",
       "source": "CNBC",
       "title": "'Cannot play hide and seek': Minister's warning over haze sends Singapore agricultural stocks lower",
@@ -162,6 +243,22 @@
       "collectedAtSgt": "2026-10-20T09:06:30+08:00"
     },
     {
+      "id": "f307a0a920d44fbd7e9b5a19c0fd0f5816e11025433acac40e2d48cf49288e1e",
+      "source": "CNBC",
+      "title": "Stock investors are ready to move on from the AI rout. Credit investors are not",
+      "publishedAtSgt": "2026-10-20T05:12:12+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/coreweave-oracle-ai-credit-stress.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "AI stocks rallied on Monday, but CoreWeave closed slightly lower as investors remained skittish about its debt. Yields on Oracle debt also remained elevated as credit worries persist across the AI trade. Neoclouds and firms with significant frontier lab exposure are largely at the epicenter of the funding cost debate, while AI-adjacent energy and utilities have been more resilient since they have more diversified revenue streams and a relatively defensive earnings profile, Amanda Lynam,...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-20T20:45:58+08:00"
+    },
+    {
       "id": "e21a17103393cd595aaf06b824a1c11a8964369b736dd86fef6091834de5c1bd",
       "source": "CNBC",
       "title": "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
@@ -225,6 +322,6 @@
       "collectedAtSgt": "2026-10-20T05:06:56+08:00"
     }
   ],
-  "articleCount": 14,
-  "updatedAtSgt": "2026-10-20T14:05:11+08:00"
+  "articleCount": 20,
+  "updatedAtSgt": "2026-10-20T20:45:58+08:00"
 }
