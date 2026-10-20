@@ -5,6 +5,37 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "e0883bd89c44e62fe12623cfea2313c6b8e70a930b89290de91343adf12d516a",
+      "source": "CNBC",
+      "title": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares",
+      "publishedAtSgt": "2026-10-21T04:23:58+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "United Airlines is slashing its profit forecast for the year as fuel costs continue to bite, but the carrier said passengers keep booking. United said Tuesday that it expects to earn between 50 cents and $1.50 a share on an adjusted basis in the fourth quarter, well below the $1.76 a share Wall Street analysts expected. At the high end of that range, it would bring United's 2026 adjusted earnings to no more than $7.22 per share.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-21T06:20:24+08:00"
+    },
+    {
+      "id": "c240be6aade98945aeb8b5b49b603bb84332afb9975558f2397ffdde8a9a8015",
+      "source": "CNBC",
+      "title": "We're booking big profits in an AI stock and trimming a credit-exposed bank",
+      "publishedAtSgt": "2026-10-21T04:00:22+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/20/were-booking-big-profits-in-an-ai-stock-and-trimming-a-credit-exposed-bank.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Selling 40 shares of Broadcom at roughly $335 each; reducing the stake in Jim Cramer's Charitable Trust to 120 shares and decreasing AVGO's weighting in the portfolio to 1% from 1.36% Selling 75 shares of Capital One Financial at roughly $201; reducing the Trust's stake to 600 shares and decreasing COF's portfolio weighting to 3.1% from about 3.45% We're trimming a small amount of our AI exposure following the group's modest rebound over the past two sessions.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-21T06:20:25+08:00"
+    },
+    {
       "id": "bdbbccd6f38e5a366d16a84b8acb6b1841a438a2eeb2c1e2068ab2a40b14745e",
       "source": "CNBC",
       "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
@@ -86,6 +117,6 @@
       "collectedAtSgt": "2026-10-21T02:00:33+08:00"
     }
   ],
-  "articleCount": 5,
-  "updatedAtSgt": "2026-10-21T02:00:34+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-21T06:20:25+08:00"
 }
