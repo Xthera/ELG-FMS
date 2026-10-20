@@ -1,10 +1,68 @@
 {
-  "generatedAtSgt": "2026-10-21T02:17:03.405244+08:00",
+  "generatedAtSgt": "2026-10-21T06:35:56.316865+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 226,
+  "articleCount": 228,
   "analyses": [
+    {
+      "articleId": "e0883bd89c44e62fe12623cfea2313c6b8e70a930b89290de91343adf12d516a",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "United Airlines has reduced its full-year 2026 and fourth-quarter profit outlooks due to rising fuel costs, missing Wall Street expectations, even though passenger demand and bookings remain strong despite higher fares.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Airlines",
+        "Transportation"
+      ],
+      "investorImpact": "Investors in airlines and the broader transportation sector should note the ongoing margin pressure from fuel costs, balanced against resilient consumer travel demand.",
+      "reasoning": "The article provides direct corporate earnings and forward guidance updates for a major U.S. carrier, highlighting sector-wide dynamics like fuel cost impacts and consumer demand trends, making it relevant for market and equity monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares",
+      "publishedAtSgt": "2026-10-21T04:23:58+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T06:20:24+08:00"
+    },
+    {
+      "articleId": "c240be6aade98945aeb8b5b49b603bb84332afb9975558f2397ffdde8a9a8015",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "The portfolio management team is booking profits on Broadcom by selling 40 shares to reduce its portfolio weighting, and trimming exposure to Capital One Financial by selling 75 shares due to credit exposure concerns following a recent market rebound.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Provides insight into tactical portfolio rebalancing and profit-taking in specific AI and financial stocks, but offers limited broad market impact.",
+      "reasoning": "The article discusses specific stock transactions and tactical trimming by an investment trust, categorized under MARKET sentiment as NEUTRAL since it represents standard portfolio adjustments rather than systemic trends.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "We're booking big profits in an AI stock and trimming a credit-exposed bank",
+      "publishedAtSgt": "2026-10-21T04:00:22+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/20/were-booking-big-profits-in-an-ai-stock-and-trimming-a-credit-exposed-bank.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T06:20:25+08:00"
+    },
     {
       "articleId": "bdbbccd6f38e5a366d16a84b8acb6b1841a438a2eeb2c1e2068ab2a40b14745e",
       "relevant": true,
