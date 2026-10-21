@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-10-20T20:43:05+00:00",
+  "generatedAtUtc": "2026-10-21T10:08:18+00:00",
   "source": "Funds Links.xlsm",
   "fundCount": 67,
   "research": {
@@ -217,9 +217,9 @@
     "noHoldingsSection": 6,
     "holdingsUnresolved": 0,
     "holdingsBySource": {
-      "baseline": 58,
-      "recovery1": 4,
-      "recovery2": 3,
+      "baseline": 55,
+      "recovery2": 5,
+      "recovery1": 5,
       "recovery3": 2
     },
     "researchMatched": 67,
@@ -298,33 +298,33 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-activeinvest-portfolio-balanced-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 4,
         "holdings": [
           {
             "rank": 1,
             "name": "Fidelity Funds SICAV - Global Dividend Fund Distribution AMINCOME(G)-SGD",
-            "weightPercent": 38.8,
-            "weightText": "38.8%"
+            "weightPercent": 38.3,
+            "weightText": "38.3%"
           },
           {
             "rank": 2,
             "name": "PIMCO GIS-GLB BD-INS-SGD H-A",
-            "weightPercent": 33.5,
-            "weightText": "33.5%"
+            "weightPercent": 33.7,
+            "weightText": "33.7%"
           },
           {
             "rank": 3,
             "name": "JPMorgan Funds SICAV - Emerging Markets Equity Fund Capitalisation -JPM I (acc) SGD",
-            "weightPercent": 14.5,
-            "weightText": "14.5%"
+            "weightPercent": 14.6,
+            "weightText": "14.6%"
           },
           {
             "rank": 4,
             "name": "FULLERTON ASIA INCOME RF - C",
-            "weightPercent": 9.5,
-            "weightText": "9.5%"
+            "weightPercent": 9.7,
+            "weightText": "9.7%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -388,21 +388,21 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-activeinvest-portfolio-conservative-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 2,
         "holdings": [
           {
             "rank": 1,
             "name": "PIMCO GIS-GLB BD-INS-SGD H-A",
-            "weightPercent": 82.1,
-            "weightText": "82.1%"
+            "weightPercent": 82.4,
+            "weightText": "82.4%"
           },
           {
             "rank": 2,
             "name": "Fidelity Funds SICAV - Global Dividend Fund Distribution AMINCOME(G)-SGD",
-            "weightPercent": 14.7,
-            "weightText": "14.7%"
+            "weightPercent": 14.5,
+            "weightText": "14.5%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -466,33 +466,33 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-activeinvest-portfolio-growth-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 4,
         "holdings": [
           {
             "rank": 1,
             "name": "Fidelity Funds SICAV - Global Dividend Fund Distribution AMINCOME(G)-SGD",
-            "weightPercent": 39.3,
-            "weightText": "39.3%"
+            "weightPercent": 38.2,
+            "weightText": "38.2%"
           },
           {
             "rank": 2,
             "name": "JPMorgan Funds SICAV - Emerging Markets Equity Fund Capitalisation -JPM I (acc) SGD",
-            "weightPercent": 24.4,
-            "weightText": "24.4%"
+            "weightPercent": 24.1,
+            "weightText": "24.1%"
           },
           {
             "rank": 3,
             "name": "FULLERTON ASIA INCOME RF - C",
-            "weightPercent": 19.4,
-            "weightText": "19.4%"
+            "weightPercent": 19.3,
+            "weightText": "19.3%"
           },
           {
             "rank": 4,
             "name": "PIMCO GIS-GLB BD-INS-SGD H-A",
-            "weightPercent": 14.6,
-            "weightText": "14.6%"
+            "weightPercent": 14.4,
+            "weightText": "14.4%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -556,21 +556,21 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-activeinvest-portfolio-moderate-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 3,
         "holdings": [
           {
             "rank": 1,
             "name": "PIMCO GIS-GLB BD-INS-SGD H-A",
-            "weightPercent": 52.1,
-            "weightText": "52.1%"
+            "weightPercent": 52.4,
+            "weightText": "52.4%"
           },
           {
             "rank": 2,
             "name": "Fidelity Funds SICAV - Global Dividend Fund Distribution AMINCOME(G)-SGD",
-            "weightPercent": 38.3,
-            "weightText": "38.3%"
+            "weightPercent": 37.9,
+            "weightText": "37.9%"
           },
           {
             "rank": 3,
@@ -642,66 +642,66 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-adapt-2035-fund.pdf",
         "factsheetDocumentDate": "May 2005",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "Schroder ISF QEP Global Core",
-            "weightPercent": 20.7,
-            "weightText": "20.7%"
+            "weightPercent": 21.0,
+            "weightText": "21.0%"
           },
           {
             "rank": 2,
             "name": "Schroder Global Quality Bond",
-            "weightPercent": 16.4,
-            "weightText": "16.4%"
+            "weightPercent": 16.1,
+            "weightText": "16.1%"
           },
           {
             "rank": 3,
             "name": "Schroder Singapore Fixed Income",
-            "weightPercent": 13.8,
-            "weightText": "13.8%"
+            "weightPercent": 13.7,
+            "weightText": "13.7%"
           },
           {
             "rank": 4,
             "name": "Schroder ISF Asian Opportunities",
-            "weightPercent": 12.6,
-            "weightText": "12.6%"
+            "weightPercent": 12.2,
+            "weightText": "12.2%"
           },
           {
             "rank": 5,
             "name": "Schroder ISF Emerging Markets",
-            "weightPercent": 8.2,
-            "weightText": "8.2%"
+            "weightPercent": 8.3,
+            "weightText": "8.3%"
           },
           {
             "rank": 6,
             "name": "Schroder Singapore Trust",
-            "weightPercent": 5.5,
-            "weightText": "5.5%"
+            "weightPercent": 5.6,
+            "weightText": "5.6%"
           },
           {
             "rank": 7,
             "name": "Schroder ISF US Large Cap",
-            "weightPercent": 4.1,
-            "weightText": "4.1%"
+            "weightPercent": 4.2,
+            "weightText": "4.2%"
           },
           {
             "rank": 8,
-            "name": "Schroder Asian Investment Grade Credit",
+            "name": "Schroder ISF Global Innovation",
             "weightPercent": 3.5,
             "weightText": "3.5%"
           },
           {
             "rank": 9,
-            "name": "Schroder ISF Global Corporate Bond",
+            "name": "Schroder Asian Investment Grade Credit",
             "weightPercent": 3.5,
             "weightText": "3.5%"
           },
           {
             "rank": 10,
-            "name": "Schroder ISF Global Innovation",
+            "name": "Schroder ISF Global Corporate Bond",
             "weightPercent": 3.4,
             "weightText": "3.4%"
           }
@@ -768,69 +768,69 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-america-fund.pdf",
-        "factsheetDocumentDate": "May 2005",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "October 2023",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "AMAZON.COM INC",
-            "weightPercent": 5.2,
-            "weightText": "5.2%"
+            "weightPercent": 5.0,
+            "weightText": "5.0%"
           },
           {
             "rank": 2,
             "name": "ALPHABET INC",
-            "weightPercent": 5.2,
-            "weightText": "5.2%"
-          },
-          {
-            "rank": 3,
-            "name": "BERKSHIRE HATHAWAY INC DEL",
             "weightPercent": 4.9,
             "weightText": "4.9%"
           },
           {
+            "rank": 3,
+            "name": "BERKSHIRE HATHAWAY INC DEL",
+            "weightPercent": 4.7,
+            "weightText": "4.7%"
+          },
+          {
             "rank": 4,
             "name": "ELEVANCE HEALTH INC",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
           },
           {
             "rank": 5,
-            "name": "UNION PACIFIC CORP",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "name": "INTERNATIONAL FLAVS & FRAG INC",
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
           },
           {
             "rank": 6,
-            "name": "INTERNATIONAL FLAVS & FRAG INC",
+            "name": "UNION PACIFIC CORP",
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
+          },
+          {
+            "rank": 7,
+            "name": "BUNGE GLOBAL SA",
             "weightPercent": 2.9,
             "weightText": "2.9%"
           },
           {
-            "rank": 7,
-            "name": "TELEDYNE TECHNOLOGIES INC",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
-          },
-          {
             "rank": 8,
-            "name": "BUNGE GLOBAL SA",
-            "weightPercent": 2.7,
-            "weightText": "2.7%"
+            "name": "TELEDYNE TECHNOLOGIES INC",
+            "weightPercent": 2.6,
+            "weightText": "2.6%"
           },
           {
             "rank": 9,
-            "name": "BAKER HUGHES CO",
-            "weightPercent": 2.4,
-            "weightText": "2.4%"
+            "name": "CHENIERE ENERGY INC",
+            "weightPercent": 2.5,
+            "weightText": "2.5%"
           },
           {
             "rank": 10,
-            "name": "THERMO FISHER SCIENTIFIC INC",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
+            "name": "BAKER HUGHES CO",
+            "weightPercent": 2.5,
+            "weightText": "2.5%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -893,69 +893,69 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-america-fund-usd-accumulation.pdf",
-        "factsheetDocumentDate": "May 2005",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "October 2023",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "AMAZON.COM INC",
-            "weightPercent": 5.2,
-            "weightText": "5.2%"
+            "weightPercent": 5.0,
+            "weightText": "5.0%"
           },
           {
             "rank": 2,
             "name": "ALPHABET INC",
-            "weightPercent": 5.2,
-            "weightText": "5.2%"
-          },
-          {
-            "rank": 3,
-            "name": "BERKSHIRE HATHAWAY INC DEL",
             "weightPercent": 4.9,
             "weightText": "4.9%"
           },
           {
+            "rank": 3,
+            "name": "BERKSHIRE HATHAWAY INC DEL",
+            "weightPercent": 4.7,
+            "weightText": "4.7%"
+          },
+          {
             "rank": 4,
             "name": "ELEVANCE HEALTH INC",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
           },
           {
             "rank": 5,
-            "name": "UNION PACIFIC CORP",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "name": "INTERNATIONAL FLAVS & FRAG INC",
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
           },
           {
             "rank": 6,
-            "name": "INTERNATIONAL FLAVS & FRAG INC",
+            "name": "UNION PACIFIC CORP",
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
+          },
+          {
+            "rank": 7,
+            "name": "BUNGE GLOBAL SA",
             "weightPercent": 2.9,
             "weightText": "2.9%"
           },
           {
-            "rank": 7,
-            "name": "TELEDYNE TECHNOLOGIES INC",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
-          },
-          {
             "rank": 8,
-            "name": "BUNGE GLOBAL SA",
-            "weightPercent": 2.7,
-            "weightText": "2.7%"
+            "name": "TELEDYNE TECHNOLOGIES INC",
+            "weightPercent": 2.6,
+            "weightText": "2.6%"
           },
           {
             "rank": 9,
-            "name": "BAKER HUGHES CO",
-            "weightPercent": 2.4,
-            "weightText": "2.4%"
+            "name": "CHENIERE ENERGY INC",
+            "weightPercent": 2.5,
+            "weightText": "2.5%"
           },
           {
             "rank": 10,
-            "name": "THERMO FISHER SCIENTIFIC INC",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
+            "name": "BAKER HUGHES CO",
+            "weightPercent": 2.5,
+            "weightText": "2.5%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -1016,75 +1016,69 @@
       },
       "topHoldings": {
         "status": "published",
-        "source": "baseline",
-        "parser": "primary",
+        "source": "recovery2",
+        "parser": "spatial_fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-american-managed-fund.pdf",
         "factsheetDocumentDate": "February 2003",
-        "factsheetDataAsAt": "31 Jul 2026",
-        "count": 10,
+        "factsheetDataAsAt": "31 Aug 2026",
+        "count": 9,
         "holdings": [
           {
             "rank": 1,
-            "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-            "weightPercent": 5.1,
-            "weightText": "5.1%"
+            "name": "TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY LIMITED SAMSUNG ELECTRONICS CO LTD",
+            "weightPercent": 4.5,
+            "weightText": "4.5%"
           },
           {
             "rank": 2,
-            "name": "SAMSUNG ELECTRONICS CO LTD",
-            "weightPercent": 4.4,
-            "weightText": "4.4%"
+            "name": "SK HYNIX INC",
+            "weightPercent": 3.6,
+            "weightText": "3.6%"
           },
           {
             "rank": 3,
-            "name": "SK HYNIX INC",
-            "weightPercent": 3.5,
-            "weightText": "3.5%"
+            "name": "TENCENT HOLDINGS LTD",
+            "weightPercent": 2.3,
+            "weightText": "2.3%"
           },
           {
             "rank": 4,
-            "name": "TENCENT HOLDINGS LTD",
-            "weightPercent": 2.4,
-            "weightText": "2.4%"
+            "name": "BHP GROUP LTD",
+            "weightPercent": 1.7,
+            "weightText": "1.7%"
           },
           {
             "rank": 5,
-            "name": "BHP GROUP LTD",
-            "weightPercent": 1.6,
-            "weightText": "1.6%"
+            "name": "ALIBABA GROUP HOLDING LTD",
+            "weightPercent": 1.4,
+            "weightText": "1.4%"
           },
           {
             "rank": 6,
-            "name": "ALIBABA GROUP HOLDING LTD",
-            "weightPercent": 1.5,
-            "weightText": "1.5%"
-          },
-          {
-            "rank": 7,
             "name": "DBS GROUP HOLDINGS LTD",
             "weightPercent": 1.4,
             "weightText": "1.4%"
           },
           {
+            "rank": 7,
+            "name": "UNIMICRON TECHNOLOGY CORP",
+            "weightPercent": 1.2,
+            "weightText": "1.2%"
+          },
+          {
             "rank": 8,
-            "name": "ASE TECHNOLOGY HOLDING CO LTD",
+            "name": "MEDIATEK INC",
             "weightPercent": 1.2,
             "weightText": "1.2%"
           },
           {
             "rank": 9,
-            "name": "NATIONAL AUSTRALIA BANK LTD",
+            "name": "ASE TECHNOLOGY HOLDING CO LTD",
             "weightPercent": 1.1,
             "weightText": "1.1%"
-          },
-          {
-            "rank": 10,
-            "name": "MEDIATEK INC",
-            "weightPercent": 1.0,
-            "weightText": "1.0%"
           }
         ],
-        "sourceFile": "output_holdings/all_holdings.json"
+        "sourceFile": "output_holdings_recovery_2/funds/9_PRULink_Asian_American_Managed_Fund/top_holdings.json"
       }
     },
     {
@@ -1145,33 +1139,33 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-equity-fund.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "Taiwan Semiconductor Manufacturing Co., Ltd.",
-            "weightPercent": 10.3,
-            "weightText": "10.3%"
+            "weightPercent": 10.2,
+            "weightText": "10.2%"
           },
           {
             "rank": 2,
             "name": "Samsung Electronics Co., Ltd.",
-            "weightPercent": 8.8,
-            "weightText": "8.8%"
+            "weightPercent": 9.0,
+            "weightText": "9.0%"
           },
           {
             "rank": 3,
             "name": "SK hynix Inc.",
-            "weightPercent": 7.1,
-            "weightText": "7.1%"
+            "weightPercent": 7.3,
+            "weightText": "7.3%"
           },
           {
             "rank": 4,
             "name": "Tencent Holdings Ltd",
-            "weightPercent": 4.8,
-            "weightText": "4.8%"
+            "weightPercent": 4.4,
+            "weightText": "4.4%"
           },
           {
             "rank": 5,
@@ -1181,33 +1175,33 @@
           },
           {
             "rank": 6,
+            "name": "DBS Group Holdings Ltd",
+            "weightPercent": 3.0,
+            "weightText": "3.0%"
+          },
+          {
+            "rank": 7,
             "name": "Alibaba Group Holding Limited",
             "weightPercent": 2.9,
             "weightText": "2.9%"
           },
           {
-            "rank": 7,
-            "name": "DBS Group Holdings Ltd",
-            "weightPercent": 2.9,
-            "weightText": "2.9%"
-          },
-          {
             "rank": 8,
-            "name": "ASE Technology Holding Co., Ltd.",
-            "weightPercent": 2.4,
-            "weightText": "2.4%"
+            "name": "MediaTek Inc",
+            "weightPercent": 2.6,
+            "weightText": "2.6%"
           },
           {
             "rank": 9,
-            "name": "MediaTek Inc",
-            "weightPercent": 2.2,
-            "weightText": "2.2%"
+            "name": "Unimicron Technology Corp.",
+            "weightPercent": 2.3,
+            "weightText": "2.3%"
           },
           {
             "rank": 10,
-            "name": "Netease Inc",
-            "weightPercent": 2.2,
-            "weightText": "2.2%"
+            "name": "ASE Technology Holding Co., Ltd.",
+            "weightPercent": 2.1,
+            "weightText": "2.1%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -1271,69 +1265,69 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-fixed-income-fund-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "INDIA (REPUBLIC OF) 7.09% 5-AUG-2054",
+            "weightPercent": 2.6,
+            "weightText": "2.6%"
+          },
+          {
+            "rank": 2,
+            "name": "SINGAPORE TECHNOLOGIES TELEMEDIA PTE LTD",
+            "weightPercent": 5.5,
+            "weightText": "5.5%"
+          },
+          {
+            "rank": 3,
+            "name": "31-DEC-2079",
             "weightPercent": 2.5,
             "weightText": "2.5%"
           },
           {
-            "rank": 2,
-            "name": "SINGAPORE TECHNOLOGIES TELEMEDIA PTE LTD 5.5% 31-DEC-2079",
+            "rank": 4,
+            "name": "NIPPON LIFE INSURANCE CO 5.95% 16-APR-2054",
             "weightPercent": 2.4,
             "weightText": "2.4%"
           },
           {
-            "rank": 3,
-            "name": "BANGKOK BANK PUBLIC CO LTD (HONG KONG BRANCH) 6.056% 25-MAR-2040",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
-          },
-          {
-            "rank": 4,
-            "name": "NIPPON LIFE INSURANCE CO 5.95% 16-APR-2054",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
-          },
-          {
             "rank": 5,
-            "name": "KEPPEL LTD 2.9% 31-DEC-2079",
-            "weightPercent": 2.2,
-            "weightText": "2.2%"
+            "name": "BANGKOK BANK PUBLIC CO LTD (HONG KONG BRANCH) 6.056% 25-MAR-2040",
+            "weightPercent": 2.4,
+            "weightText": "2.4%"
           },
           {
             "rank": 6,
+            "name": "KEPPEL LTD 2.9% 31-DEC-2079",
+            "weightPercent": 2.3,
+            "weightText": "2.3%"
+          },
+          {
+            "rank": 7,
             "name": "INDIA (REPUBLIC OF) 7.3% 19-JUN-2053",
             "weightPercent": 2.1,
             "weightText": "2.1%"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "VICINITY CENTRES RE LTD 5.836% 3-MAR-2036",
             "weightPercent": 2.0,
             "weightText": "2.0%"
           },
           {
-            "rank": 8,
-            "name": "KEPPEL LTD 3.3% 31-DEC-2079",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
-          },
-          {
             "rank": 9,
-            "name": "MAPLETREE TREASURY SERVICES LTD 3.95% 31-DEC-2079",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
+            "name": "KEPPEL LTD 3.3% 31-DEC-2079",
+            "weightPercent": 1.8,
+            "weightText": "1.8%"
           },
           {
             "rank": 10,
-            "name": "CORPORACION ANDINA DE FOMENTO 7.7% 6-MAR-2029",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
+            "name": "MAPLETREE TREASURY SERVICES LTD 3.95% 31-DEC-2079",
+            "weightPercent": 1.8,
+            "weightText": "1.8%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -1490,69 +1484,69 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-fixed-income-fund-distribution.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "INDIA (REPUBLIC OF) 7.09% 5-AUG-2054",
+            "weightPercent": 2.6,
+            "weightText": "2.6%"
+          },
+          {
+            "rank": 2,
+            "name": "SINGAPORE TECHNOLOGIES TELEMEDIA PTE LTD",
+            "weightPercent": 5.5,
+            "weightText": "5.5%"
+          },
+          {
+            "rank": 3,
+            "name": "31-DEC-2079",
             "weightPercent": 2.5,
             "weightText": "2.5%"
           },
           {
-            "rank": 2,
-            "name": "SINGAPORE TECHNOLOGIES TELEMEDIA PTE LTD 5.5% 31-DEC-2079",
+            "rank": 4,
+            "name": "NIPPON LIFE INSURANCE CO 5.95% 16-APR-2054",
             "weightPercent": 2.4,
             "weightText": "2.4%"
           },
           {
-            "rank": 3,
-            "name": "BANGKOK BANK PUBLIC CO LTD (HONG KONG BRANCH) 6.056% 25-MAR-2040",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
-          },
-          {
-            "rank": 4,
-            "name": "NIPPON LIFE INSURANCE CO 5.95% 16-APR-2054",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
-          },
-          {
             "rank": 5,
-            "name": "KEPPEL LTD 2.9% 31-DEC-2079",
-            "weightPercent": 2.2,
-            "weightText": "2.2%"
+            "name": "BANGKOK BANK PUBLIC CO LTD (HONG KONG BRANCH) 6.056% 25-MAR-2040",
+            "weightPercent": 2.4,
+            "weightText": "2.4%"
           },
           {
             "rank": 6,
+            "name": "KEPPEL LTD 2.9% 31-DEC-2079",
+            "weightPercent": 2.3,
+            "weightText": "2.3%"
+          },
+          {
+            "rank": 7,
             "name": "INDIA (REPUBLIC OF) 7.3% 19-JUN-2053",
             "weightPercent": 2.1,
             "weightText": "2.1%"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "VICINITY CENTRES RE LTD 5.836% 3-MAR-2036",
             "weightPercent": 2.0,
             "weightText": "2.0%"
           },
           {
-            "rank": 8,
-            "name": "KEPPEL LTD 3.3% 31-DEC-2079",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
-          },
-          {
             "rank": 9,
-            "name": "MAPLETREE TREASURY SERVICES LTD 3.95% 31-DEC-2079",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
+            "name": "KEPPEL LTD 3.3% 31-DEC-2079",
+            "weightPercent": 1.8,
+            "weightText": "1.8%"
           },
           {
             "rank": 10,
-            "name": "CORPORACION ANDINA DE FOMENTO 7.7% 6-MAR-2029",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
+            "name": "MAPLETREE TREASURY SERVICES LTD 3.95% 31-DEC-2079",
+            "weightPercent": 1.8,
+            "weightText": "1.8%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -1619,7 +1613,7 @@
         "parser": "spatial_fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-income-and-growth-fund-accumulation.pdf",
         "factsheetDocumentDate": "September 2013",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -1643,42 +1637,42 @@
           {
             "rank": 4,
             "name": "Tencent Holdings Ltd",
-            "weightPercent": 2.4,
-            "weightText": "2.4%"
+            "weightPercent": 2.1,
+            "weightText": "2.1%"
           },
           {
             "rank": 5,
             "name": "MediaTek Inc",
-            "weightPercent": 1.5,
-            "weightText": "1.5%"
+            "weightPercent": 1.8,
+            "weightText": "1.8%"
           },
           {
             "rank": 6,
-            "name": "AIA Group Ltd",
-            "weightPercent": 1.5,
-            "weightText": "1.5%"
+            "name": "Delta Electronics Inc",
+            "weightPercent": 1.6,
+            "weightText": "1.6%"
           },
           {
             "rank": 7,
             "name": "Alibaba Group Holding Ltd",
-            "weightPercent": 1.4,
-            "weightText": "1.4%"
+            "weightPercent": 1.5,
+            "weightText": "1.5%"
           },
           {
             "rank": 8,
-            "name": "FWD GROUP HOLDINGS LTD 7.7840 06/12/2033",
+            "name": "AIA Group Ltd",
             "weightPercent": 1.4,
             "weightText": "1.4%"
           },
           {
             "rank": 9,
-            "name": "SERIES EMTN Delta Electronics Inc",
-            "weightPercent": 1.3,
-            "weightText": "1.3%"
+            "name": "FWD GROUP HOLDINGS LTD 7.7840 06/12/2033",
+            "weightPercent": 1.4,
+            "weightText": "1.4%"
           },
           {
             "rank": 10,
-            "name": "HANWHA LIFE INSURANCE CO LTD 6.3000 24/06/2055",
+            "name": "SERIES EMTN HANWHA LIFE INSURANCE CO LTD 6.3000 24/06/2055",
             "weightPercent": 1.3,
             "weightText": "1.3%"
           }
@@ -1850,7 +1844,7 @@
         "parser": "spatial_fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-income-and-growth-fund-distribution.pdf",
         "factsheetDocumentDate": "September 2013",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -1874,42 +1868,42 @@
           {
             "rank": 4,
             "name": "Tencent Holdings Ltd",
-            "weightPercent": 2.4,
-            "weightText": "2.4%"
+            "weightPercent": 2.1,
+            "weightText": "2.1%"
           },
           {
             "rank": 5,
             "name": "MediaTek Inc",
-            "weightPercent": 1.5,
-            "weightText": "1.5%"
+            "weightPercent": 1.8,
+            "weightText": "1.8%"
           },
           {
             "rank": 6,
-            "name": "AIA Group Ltd",
-            "weightPercent": 1.5,
-            "weightText": "1.5%"
+            "name": "Delta Electronics Inc",
+            "weightPercent": 1.6,
+            "weightText": "1.6%"
           },
           {
             "rank": 7,
             "name": "Alibaba Group Holding Ltd",
-            "weightPercent": 1.4,
-            "weightText": "1.4%"
+            "weightPercent": 1.5,
+            "weightText": "1.5%"
           },
           {
             "rank": 8,
-            "name": "FWD GROUP HOLDINGS LTD 7.7840 06/12/2033",
+            "name": "AIA Group Ltd",
             "weightPercent": 1.4,
             "weightText": "1.4%"
           },
           {
             "rank": 9,
-            "name": "SERIES EMTN Delta Electronics Inc",
-            "weightPercent": 1.3,
-            "weightText": "1.3%"
+            "name": "FWD GROUP HOLDINGS LTD 7.7840 06/12/2033",
+            "weightPercent": 1.4,
+            "weightText": "1.4%"
           },
           {
             "rank": 10,
-            "name": "HANWHA LIFE INSURANCE CO LTD 6.3000 24/06/2055",
+            "name": "SERIES EMTN HANWHA LIFE INSURANCE CO LTD 6.3000 24/06/2055",
             "weightPercent": 1.3,
             "weightText": "1.3%"
           }
@@ -1975,7 +1969,7 @@
         "parser": "spatial_fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-income-and-growth-fund-usd-accumulation.pdf",
         "factsheetDocumentDate": "September 2013",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -1999,42 +1993,42 @@
           {
             "rank": 4,
             "name": "Tencent Holdings Ltd",
-            "weightPercent": 2.4,
-            "weightText": "2.4%"
+            "weightPercent": 2.1,
+            "weightText": "2.1%"
           },
           {
             "rank": 5,
             "name": "MediaTek Inc",
-            "weightPercent": 1.5,
-            "weightText": "1.5%"
+            "weightPercent": 1.8,
+            "weightText": "1.8%"
           },
           {
             "rank": 6,
-            "name": "AIA Group Ltd",
-            "weightPercent": 1.5,
-            "weightText": "1.5%"
+            "name": "Delta Electronics Inc",
+            "weightPercent": 1.6,
+            "weightText": "1.6%"
           },
           {
             "rank": 7,
             "name": "Alibaba Group Holding Ltd",
-            "weightPercent": 1.4,
-            "weightText": "1.4%"
+            "weightPercent": 1.5,
+            "weightText": "1.5%"
           },
           {
             "rank": 8,
-            "name": "FWD GROUP HOLDINGS LTD 7.7840 06/12/2033",
+            "name": "AIA Group Ltd",
             "weightPercent": 1.4,
             "weightText": "1.4%"
           },
           {
             "rank": 9,
-            "name": "SERIES EMTN Delta Electronics Inc",
-            "weightPercent": 1.3,
-            "weightText": "1.3%"
+            "name": "FWD GROUP HOLDINGS LTD 7.7840 06/12/2033",
+            "weightPercent": 1.4,
+            "weightText": "1.4%"
           },
           {
             "rank": 10,
-            "name": "HANWHA LIFE INSURANCE CO LTD 6.3000 24/06/2055",
+            "name": "SERIES EMTN HANWHA LIFE INSURANCE CO LTD 6.3000 24/06/2055",
             "weightPercent": 1.3,
             "weightText": "1.3%"
           }
@@ -2238,75 +2232,75 @@
       },
       "topHoldings": {
         "status": "published",
-        "source": "baseline",
-        "parser": "fallback",
+        "source": "recovery1",
+        "parser": "spatial_fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-income-fund.pdf",
         "factsheetDocumentDate": "April 2009",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "name": "TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY",
             "weightPercent": 9.9,
             "weightText": "9.9%"
           },
           {
             "rank": 2,
-            "name": "SAMSUNG ELECTRONICS CO LTD",
-            "weightPercent": 8.7,
-            "weightText": "8.7%"
+            "name": "LIMITED SAMSUNG ELECTRONICS CO LTD",
+            "weightPercent": 9.1,
+            "weightText": "9.1%"
           },
           {
             "rank": 3,
             "name": "SK HYNIX INC",
-            "weightPercent": 6.7,
-            "weightText": "6.7%"
+            "weightPercent": 7.3,
+            "weightText": "7.3%"
           },
           {
             "rank": 4,
             "name": "TENCENT HOLDINGS LTD",
-            "weightPercent": 4.8,
-            "weightText": "4.8%"
+            "weightPercent": 4.6,
+            "weightText": "4.6%"
           },
           {
             "rank": 5,
             "name": "BHP GROUP LTD",
-            "weightPercent": 3.2,
-            "weightText": "3.2%"
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           },
           {
             "rank": 6,
             "name": "ALIBABA GROUP HOLDING LTD",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "weightPercent": 2.9,
+            "weightText": "2.9%"
           },
           {
             "rank": 7,
             "name": "DBS GROUP HOLDINGS LTD",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "weightPercent": 2.9,
+            "weightText": "2.9%"
           },
           {
             "rank": 8,
-            "name": "ASE TECHNOLOGY HOLDING CO LTD",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
+            "name": "UNIMICRON TECHNOLOGY CORP",
+            "weightPercent": 2.5,
+            "weightText": "2.5%"
           },
           {
             "rank": 9,
-            "name": "NATIONAL AUSTRALIA BANK LTD",
-            "weightPercent": 2.1,
-            "weightText": "2.1%"
+            "name": "MEDIATEK INC",
+            "weightPercent": 2.4,
+            "weightText": "2.4%"
           },
           {
             "rank": 10,
-            "name": "MEDIATEK INC",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
+            "name": "ASE TECHNOLOGY HOLDING CO LTD",
+            "weightPercent": 2.3,
+            "weightText": "2.3%"
           }
         ],
-        "sourceFile": "output_holdings/all_holdings.json"
+        "sourceFile": "output_holdings_recovery/funds/16_prulink-asian-income-fund/top_holdings.json"
       }
     },
     {
@@ -2368,24 +2362,24 @@
         "parser": "spatial_fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-low-volatility-equity-fund-accumulation.pdf",
         "factsheetDocumentDate": "February 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
-        "count": 10,
+        "factsheetDataAsAt": "31 Aug 2026",
+        "count": 9,
         "holdings": [
           {
             "rank": 1,
             "name": "OVERSEA-CHINESE BANKING CORPORATION LTD",
-            "weightPercent": 2.1,
-            "weightText": "2.1%"
+            "weightPercent": 2.2,
+            "weightText": "2.2%"
           },
           {
             "rank": 2,
-            "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "name": "UNITED MICROELECTRONICS CORPORATION",
             "weightPercent": 2.0,
             "weightText": "2.0%"
           },
           {
             "rank": 3,
-            "name": "UNITED MICROELECTRONICS CORPORATION",
+            "name": "TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY LIMITED WIWYNN CORP",
             "weightPercent": 1.9,
             "weightText": "1.9%"
           },
@@ -2397,37 +2391,31 @@
           },
           {
             "rank": 5,
-            "name": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA LTD",
-            "weightPercent": 1.8,
-            "weightText": "1.8%"
+            "name": "MEDIATEK INC",
+            "weightPercent": 1.7,
+            "weightText": "1.7%"
           },
           {
             "rank": 6,
-            "name": "SAMSUNG LIFE INSURANCE CO LTD",
+            "name": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA LTD",
             "weightPercent": 1.7,
             "weightText": "1.7%"
           },
           {
             "rank": 7,
             "name": "PETROCHINA CO LTD H",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
+            "weightPercent": 1.6,
+            "weightText": "1.6%"
           },
           {
             "rank": 8,
-            "name": "KWEICHOW MOUTAI CO LTD",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
+            "name": "BANK OF CHINA LTD H",
+            "weightPercent": 1.6,
+            "weightText": "1.6%"
           },
           {
             "rank": 9,
             "name": "TATA CONSULTANCY SERVICES LTD",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
-          },
-          {
-            "rank": 10,
-            "name": "BANK OF CHINA LTD H",
             "weightPercent": 1.6,
             "weightText": "1.6%"
           }
@@ -2493,45 +2481,45 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-multi-asset-income-fund-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "TSMC",
-            "weightPercent": 3.3,
-            "weightText": "3.3%"
+            "name": "iShares Core MSCI Asia ex Japan ETF",
+            "weightPercent": 11.1,
+            "weightText": "11.1%"
           },
           {
             "rank": 2,
-            "name": "iShares Core MSCI Asia ex Japan ETF",
+            "name": "NEXT FUNDS TOPIX Banks ETF",
             "weightPercent": 3.0,
             "weightText": "3.0%"
           },
           {
             "rank": 3,
-            "name": "Samsung Electronics Co Ltd",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
+            "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+            "weightPercent": 3.0,
+            "weightText": "3.0%"
           },
           {
             "rank": 4,
-            "name": "NEXT FUNDS TOPIX Banks ETF",
-            "weightPercent": 1.9,
-            "weightText": "1.9%"
+            "name": "Samsung Electronics Co Ltd",
+            "weightPercent": 2.2,
+            "weightText": "2.2%"
           },
           {
             "rank": 5,
             "name": "OVERSEA-CHINESE BANKING CORP",
-            "weightPercent": 1.8,
-            "weightText": "1.8%"
+            "weightPercent": 1.7,
+            "weightText": "1.7%"
           },
           {
             "rank": 6,
             "name": "US TREASURY N/B 4.25% JUN 2031",
-            "weightPercent": 0.7,
-            "weightText": "0.7%"
+            "weightPercent": 0.5,
+            "weightText": "0.5%"
           },
           {
             "rank": 7,
@@ -2547,13 +2535,13 @@
           },
           {
             "rank": 9,
-            "name": "KOREA EAST-WEST POWER CO 4.75% JAN 2032",
+            "name": "ICICI BANK LTD/IFSC 5.352% AUG 2031",
             "weightPercent": 0.3,
             "weightText": "0.3%"
           },
           {
             "rank": 10,
-            "name": "CREDIT AGRICOLE SA 6.447% FEB 2041",
+            "name": "KOREA EAST-WEST POWER CO 4.75% JAN 2032",
             "weightPercent": 0.3,
             "weightText": "0.3%"
           }
@@ -2712,45 +2700,45 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-multi-asset-income-fund-decumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "TSMC",
-            "weightPercent": 3.3,
-            "weightText": "3.3%"
+            "name": "iShares Core MSCI Asia ex Japan ETF",
+            "weightPercent": 11.1,
+            "weightText": "11.1%"
           },
           {
             "rank": 2,
-            "name": "iShares Core MSCI Asia ex Japan ETF",
+            "name": "NEXT FUNDS TOPIX Banks ETF",
             "weightPercent": 3.0,
             "weightText": "3.0%"
           },
           {
             "rank": 3,
-            "name": "Samsung Electronics Co Ltd",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
+            "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+            "weightPercent": 3.0,
+            "weightText": "3.0%"
           },
           {
             "rank": 4,
-            "name": "NEXT FUNDS TOPIX Banks ETF",
-            "weightPercent": 1.9,
-            "weightText": "1.9%"
+            "name": "Samsung Electronics Co Ltd",
+            "weightPercent": 2.2,
+            "weightText": "2.2%"
           },
           {
             "rank": 5,
             "name": "OVERSEA-CHINESE BANKING CORP",
-            "weightPercent": 1.8,
-            "weightText": "1.8%"
+            "weightPercent": 1.7,
+            "weightText": "1.7%"
           },
           {
             "rank": 6,
             "name": "US TREASURY N/B 4.25% JUN 2031",
-            "weightPercent": 0.7,
-            "weightText": "0.7%"
+            "weightPercent": 0.5,
+            "weightText": "0.5%"
           },
           {
             "rank": 7,
@@ -2766,13 +2754,13 @@
           },
           {
             "rank": 9,
-            "name": "KOREA EAST-WEST POWER CO 4.75% JAN 2032",
+            "name": "ICICI BANK LTD/IFSC 5.352% AUG 2031",
             "weightPercent": 0.3,
             "weightText": "0.3%"
           },
           {
             "rank": 10,
-            "name": "CREDIT AGRICOLE SA 6.447% FEB 2041",
+            "name": "KOREA EAST-WEST POWER CO 4.75% JAN 2032",
             "weightPercent": 0.3,
             "weightText": "0.3%"
           }
@@ -2931,45 +2919,45 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-multi-asset-income-fund-distribution.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "TSMC",
-            "weightPercent": 3.3,
-            "weightText": "3.3%"
+            "name": "iShares Core MSCI Asia ex Japan ETF",
+            "weightPercent": 11.1,
+            "weightText": "11.1%"
           },
           {
             "rank": 2,
-            "name": "iShares Core MSCI Asia ex Japan ETF",
+            "name": "NEXT FUNDS TOPIX Banks ETF",
             "weightPercent": 3.0,
             "weightText": "3.0%"
           },
           {
             "rank": 3,
-            "name": "Samsung Electronics Co Ltd",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
+            "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+            "weightPercent": 3.0,
+            "weightText": "3.0%"
           },
           {
             "rank": 4,
-            "name": "NEXT FUNDS TOPIX Banks ETF",
-            "weightPercent": 1.9,
-            "weightText": "1.9%"
+            "name": "Samsung Electronics Co Ltd",
+            "weightPercent": 2.2,
+            "weightText": "2.2%"
           },
           {
             "rank": 5,
             "name": "OVERSEA-CHINESE BANKING CORP",
-            "weightPercent": 1.8,
-            "weightText": "1.8%"
+            "weightPercent": 1.7,
+            "weightText": "1.7%"
           },
           {
             "rank": 6,
             "name": "US TREASURY N/B 4.25% JUN 2031",
-            "weightPercent": 0.7,
-            "weightText": "0.7%"
+            "weightPercent": 0.5,
+            "weightText": "0.5%"
           },
           {
             "rank": 7,
@@ -2985,13 +2973,13 @@
           },
           {
             "rank": 9,
-            "name": "KOREA EAST-WEST POWER CO 4.75% JAN 2032",
+            "name": "ICICI BANK LTD/IFSC 5.352% AUG 2031",
             "weightPercent": 0.3,
             "weightText": "0.3%"
           },
           {
             "rank": 10,
-            "name": "CREDIT AGRICOLE SA 6.447% FEB 2041",
+            "name": "KOREA EAST-WEST POWER CO 4.75% JAN 2032",
             "weightPercent": 0.3,
             "weightText": "0.3%"
           }
@@ -3058,68 +3046,68 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-china-india-fund.pdf",
         "factsheetDocumentDate": "August 2004",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "TENCENT HOLDINGS LTD",
-            "weightPercent": 8.6,
-            "weightText": "8.6%"
+            "weightPercent": 8.3,
+            "weightText": "8.3%"
           },
           {
             "rank": 2,
             "name": "ALIBABA GROUP HOLDING LTD",
-            "weightPercent": 6.9,
-            "weightText": "6.9%"
+            "weightPercent": 7.0,
+            "weightText": "7.0%"
           },
           {
             "rank": 3,
-            "name": "RELIANCE INDUSTRIES LTD",
-            "weightPercent": 4.7,
-            "weightText": "4.7%"
-          },
-          {
-            "rank": 4,
             "name": "ICICI BANK LTD INR",
             "weightPercent": 4.7,
             "weightText": "4.7%"
           },
           {
+            "rank": 4,
+            "name": "RELIANCE INDUSTRIES LTD",
+            "weightPercent": 4.4,
+            "weightText": "4.4%"
+          },
+          {
             "rank": 5,
             "name": "CHINA CONSTRUCTION BANK CORP H H",
-            "weightPercent": 3.7,
-            "weightText": "3.7%"
+            "weightPercent": 3.8,
+            "weightText": "3.8%"
           },
           {
             "rank": 6,
             "name": "HDFC BANK LTD",
-            "weightPercent": 3.6,
-            "weightText": "3.6%"
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
           },
           {
             "rank": 7,
             "name": "PDD HOLDINGS INC",
-            "weightPercent": 2.4,
-            "weightText": "2.4%"
+            "weightPercent": 2.2,
+            "weightText": "2.2%"
           },
           {
             "rank": 8,
-            "name": "CONTEMPORARY AMPEREX TECHNOLOGY CO LTD A",
+            "name": "AXIS BANK LTD",
+            "weightPercent": 2.2,
+            "weightText": "2.2%"
+          },
+          {
+            "rank": 9,
+            "name": "CHINA INTERNATIONAL CAPITAL CORP LTD",
             "weightPercent": 2.1,
             "weightText": "2.1%"
           },
           {
-            "rank": 9,
-            "name": "LARSEN AND TOUBRO LTD",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
-          },
-          {
             "rank": 10,
-            "name": "BYD CO LTD H",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
+            "name": "LARSEN AND TOUBRO LTD",
+            "weightPercent": 2.1,
+            "weightText": "2.1%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -3185,32 +3173,32 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-emerging-markets-fund.pdf",
         "factsheetDocumentDate": "May 2005",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "TSMC",
-            "weightPercent": 9.6,
-            "weightText": "9.6%"
+            "weightPercent": 9.8,
+            "weightText": "9.8%"
           },
           {
             "rank": 2,
             "name": "Samsung Electronics",
-            "weightPercent": 8.0,
-            "weightText": "8.0%"
+            "weightPercent": 8.4,
+            "weightText": "8.4%"
           },
           {
             "rank": 3,
             "name": "SK Hynix",
-            "weightPercent": 7.0,
-            "weightText": "7.0%"
+            "weightPercent": 6.9,
+            "weightText": "6.9%"
           },
           {
             "rank": 4,
             "name": "Tencent",
-            "weightPercent": 3.7,
-            "weightText": "3.7%"
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
           },
           {
             "rank": 5,
@@ -3226,27 +3214,27 @@
           },
           {
             "rank": 7,
-            "name": "Bajaj Finance",
+            "name": "MediaTek",
             "weightPercent": 1.9,
             "weightText": "1.9%"
           },
           {
             "rank": 8,
-            "name": "Banco BTG Pactual",
+            "name": "Bajaj Finance",
             "weightPercent": 1.8,
             "weightText": "1.8%"
           },
           {
             "rank": 9,
-            "name": "MediaTek",
+            "name": "Banco BTG Pactual",
             "weightPercent": 1.7,
             "weightText": "1.7%"
           },
           {
             "rank": 10,
-            "name": "Vista Energy",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
+            "name": "Vista Energy SAB",
+            "weightPercent": 1.6,
+            "weightText": "1.6%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -3310,49 +3298,49 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-flexgrowth-fund-sgd.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "Japan YN-Trea.Bills 2026(27) No.1363",
-            "weightPercent": 8.2,
-            "weightText": "8.2%"
+            "weightPercent": 8.0,
+            "weightText": "8.0%"
           },
           {
             "rank": 2,
             "name": "Japan YN-Trea.Bills 2025(26) No.1332",
-            "weightPercent": 8.1,
-            "weightText": "8.1%"
+            "weightPercent": 8.0,
+            "weightText": "8.0%"
           },
           {
             "rank": 3,
-            "name": "Japan YN-Trea.Bills 2026(26) No.1373",
-            "weightPercent": 7.4,
-            "weightText": "7.4%"
+            "name": "USA DL-Treasury Bills 2026(27)",
+            "weightPercent": 8.0,
+            "weightText": "8.0%"
           },
           {
             "rank": 4,
-            "name": "Japan YN-Trea.Bills 2025(26) No.1338",
-            "weightPercent": 6.5,
-            "weightText": "6.5%"
+            "name": "Japan YN-Trea.Bills 2026(26) No.1373",
+            "weightPercent": 7.3,
+            "weightText": "7.3%"
           },
           {
             "rank": 5,
-            "name": "Japan YN-Bonds 2024(26)",
-            "weightPercent": 6.2,
-            "weightText": "6.2%"
+            "name": "Japan YN-Trea.Bills 2025(26) No.1338",
+            "weightPercent": 6.4,
+            "weightText": "6.4%"
           },
           {
             "rank": 6,
-            "name": "Japan YN-Trea.Bills 2026(26) No.1367",
-            "weightPercent": 6.2,
-            "weightText": "6.2%"
+            "name": "Japan YN-Bonds 2024(26)",
+            "weightPercent": 6.1,
+            "weightText": "6.1%"
           },
           {
             "rank": 7,
-            "name": "Japan YN-Trea.Bills 2026(27) No.1370",
+            "name": "Japan YN-Trea.Bills 2026(26) No.1367",
             "weightPercent": 6.1,
             "weightText": "6.1%"
           },
@@ -3364,15 +3352,15 @@
           },
           {
             "rank": 9,
-            "name": "USA DL-Treasury Bills 2026(26)",
+            "name": "Japan YN-Trea.Bills 2026(27) No.1370",
             "weightPercent": 6.0,
             "weightText": "6.0%"
           },
           {
             "rank": 10,
-            "name": "Japan YN-Trea.Bills 2026(27) No.1375",
-            "weightPercent": 5.8,
-            "weightText": "5.8%"
+            "name": "USA DL-Treasury Bills 2026(26)",
+            "weightPercent": 6.0,
+            "weightText": "6.0%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -3520,8 +3508,8 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-bond-fund.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -3533,8 +3521,8 @@
           {
             "rank": 2,
             "name": "Mapletree Treasury Services Ltd. 3.95% Perp",
-            "weightPercent": 3.2,
-            "weightText": "3.2%"
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           },
           {
             "rank": 3,
@@ -3563,8 +3551,8 @@
           {
             "rank": 7,
             "name": "United Overseas Bank Limited 2.55% Perp",
-            "weightPercent": 1.3,
-            "weightText": "1.3%"
+            "weightPercent": 1.4,
+            "weightText": "1.4%"
           },
           {
             "rank": 8,
@@ -3574,13 +3562,13 @@
           },
           {
             "rank": 9,
-            "name": "Government Of Bulgaria 4.25% 05-sep-2044",
+            "name": "Toronto-dominion Bank 3.125% 05-aug-2036",
             "weightPercent": 1.2,
             "weightText": "1.2%"
           },
           {
             "rank": 10,
-            "name": "Toronto-dominion Bank 3.125% 05-aug-2036",
+            "name": "Government Of Bulgaria 4.25% 05-sep-2044",
             "weightPercent": 1.2,
             "weightText": "1.2%"
           }
@@ -3728,69 +3716,69 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-climate-change-equity-fund-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "Darling Ingredients Inc",
-            "weightPercent": 4.4,
-            "weightText": "4.4%"
+            "name": "LG Chem Ltd",
+            "weightPercent": 4.8,
+            "weightText": "4.8%"
           },
           {
             "rank": 2,
-            "name": "LG Chem Ltd",
-            "weightPercent": 4.1,
-            "weightText": "4.1%"
+            "name": "Darling Ingredients Inc",
+            "weightPercent": 4.6,
+            "weightText": "4.6%"
           },
           {
             "rank": 3,
             "name": "Sunrun Inc",
-            "weightPercent": 4.0,
-            "weightText": "4.0%"
+            "weightPercent": 3.6,
+            "weightText": "3.6%"
           },
           {
             "rank": 4,
-            "name": "Itron Inc",
-            "weightPercent": 3.5,
-            "weightText": "3.5%"
+            "name": "Albemarle Corp",
+            "weightPercent": 3.4,
+            "weightText": "3.4%"
           },
           {
             "rank": 5,
-            "name": "Contemporary Amperex Technology Co Ltd",
-            "weightPercent": 3.2,
-            "weightText": "3.2%"
+            "name": "Sociedad Quimica y Minera de Chile SA",
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
           },
           {
             "rank": 6,
-            "name": "Array Technologies Inc",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "name": "Vestas Wind Systems A/S",
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
           },
           {
             "rank": 7,
-            "name": "Sociedad Quimica y Minera de Chile SA",
+            "name": "Contemporary Amperex Technology Co Ltd",
             "weightPercent": 2.9,
             "weightText": "2.9%"
           },
           {
             "rank": 8,
-            "name": "Albemarle Corp",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "name": "Itron Inc",
+            "weightPercent": 2.9,
+            "weightText": "2.9%"
           },
           {
             "rank": 9,
-            "name": "Green Plains Inc",
-            "weightPercent": 2.6,
-            "weightText": "2.6%"
+            "name": "Array Technologies Inc",
+            "weightPercent": 2.7,
+            "weightText": "2.7%"
           },
           {
             "rank": 10,
-            "name": "Vestas Wind Systems A/S",
-            "weightPercent": 2.5,
-            "weightText": "2.5%"
+            "name": "Schneider Electric SE",
+            "weightPercent": 2.4,
+            "weightText": "2.4%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -3863,8 +3851,8 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-diversified-income-fund-distribution.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -3876,14 +3864,14 @@
           {
             "rank": 2,
             "name": "ALPHA UCITS SICAV FAIR OAKS DYNAMIC CREDIT L2 GBP DIS",
-            "weightPercent": 3.4,
-            "weightText": "3.4%"
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
           },
           {
             "rank": 3,
             "name": "3I INFRASTRUCTURE PLC",
-            "weightPercent": 2.9,
-            "weightText": "2.9%"
+            "weightPercent": 3.0,
+            "weightText": "3.0%"
           },
           {
             "rank": 4,
@@ -3899,15 +3887,15 @@
           },
           {
             "rank": 6,
-            "name": "GREENCOAT UK WIND PLC",
+            "name": "HICL INFRASTRUCTURE PLC",
             "weightPercent": 2.3,
             "weightText": "2.3%"
           },
           {
             "rank": 7,
-            "name": "HICL INFRASTRUCTURE PLC",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
+            "name": "GREENCOAT UK WIND PLC",
+            "weightPercent": 2.2,
+            "weightText": "2.2%"
           },
           {
             "rank": 8,
@@ -3918,8 +3906,8 @@
           {
             "rank": 9,
             "name": "RENEWABLES INFRASTRUCTURE GR",
-            "weightPercent": 1.8,
-            "weightText": "1.8%"
+            "weightPercent": 1.7,
+            "weightText": "1.7%"
           },
           {
             "rank": 10,
@@ -4190,44 +4178,44 @@
         "parser": "spatial_fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-dividend-wealth-fund-distribution.pdf",
         "factsheetDocumentDate": "July 2022",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "EASTSPRING INV GLOBAL EMERG MKT BD",
-            "weightPercent": 16.6,
-            "weightText": "16.6%"
+            "weightPercent": 17.3,
+            "weightText": "17.3%"
           },
           {
             "rank": 2,
             "name": "EASTSPRING INV US HI YLD BD D",
-            "weightPercent": 14.6,
-            "weightText": "14.6%"
+            "weightPercent": 14.1,
+            "weightText": "14.1%"
           },
           {
             "rank": 3,
             "name": "EASTSPRING INV WORLD VALUE EQUITY",
-            "weightPercent": 11.8,
-            "weightText": "11.8%"
+            "weightPercent": 11.3,
+            "weightText": "11.3%"
           },
           {
             "rank": 4,
             "name": "INVESCO USD AAA CLO UCITS ETF",
-            "weightPercent": 9.8,
-            "weightText": "9.8%"
+            "weightPercent": 10.0,
+            "weightText": "10.0%"
           },
           {
             "rank": 5,
             "name": "ESI- GLOBAL MF EQ FUND CLASS D",
-            "weightPercent": 6.4,
-            "weightText": "6.4%"
+            "weightPercent": 6.3,
+            "weightText": "6.3%"
           },
           {
             "rank": 6,
             "name": "ISHARES J.P. MORGAN $ EM BOND UCITS ETF USD (DIST)",
-            "weightPercent": 5.9,
-            "weightText": "5.9%"
+            "weightPercent": 5.7,
+            "weightText": "5.7%"
           },
           {
             "rank": 7,
@@ -4237,21 +4225,21 @@
           },
           {
             "rank": 8,
-            "name": "ISHARES PHYSICAL METALS PLC",
-            "weightPercent": 4.5,
-            "weightText": "4.5%"
+            "name": "SPDR MSCI ACWI UCITS ETF",
+            "weightPercent": 5.3,
+            "weightText": "5.3%"
           },
           {
             "rank": 9,
-            "name": "SPDR MSCI ACWI UCITS ETF",
-            "weightPercent": 4.0,
-            "weightText": "4.0%"
+            "name": "ISHARES PHYSICAL METALS PLC",
+            "weightPercent": 4.8,
+            "weightText": "4.8%"
           },
           {
             "rank": 10,
-            "name": "ESI GLB EM TOTAL RETURN BD FD CL D",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "name": "NIKKEI 225 (OSE) SEP 26",
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           }
         ],
         "sourceFile": "output_holdings_recovery/funds/29_prulink-global-dividend-wealth-fund-distribution/top_holdings.json"
@@ -4315,8 +4303,8 @@
         "source": "baseline",
         "parser": null,
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-episode-macro-fund-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 0,
         "holdings": [],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -4381,69 +4369,69 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-equity-fund.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "ROCHE HOLDING AG",
-            "weightPercent": 3.7,
-            "weightText": "3.7%"
-          },
-          {
-            "rank": 2,
             "name": "TAIWAN SEMICONDUCTOR MFG CO LTD",
             "weightPercent": 3.7,
             "weightText": "3.7%"
           },
           {
+            "rank": 2,
+            "name": "ROCHE HOLDING AG",
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
+          },
+          {
             "rank": 3,
             "name": "DEUTSCHE BOERSE AG",
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
+          },
+          {
+            "rank": 4,
+            "name": "UNILEVER PLC",
             "weightPercent": 3.4,
             "weightText": "3.4%"
           },
           {
-            "rank": 4,
-            "name": "VINCI SA",
-            "weightPercent": 3.3,
-            "weightText": "3.3%"
-          },
-          {
             "rank": 5,
-            "name": "UNILEVER PLC",
-            "weightPercent": 3.3,
-            "weightText": "3.3%"
+            "name": "VINCI SA",
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
           },
           {
             "rank": 6,
-            "name": "NOVARTIS AG",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "name": "CME GROUP INC",
+            "weightPercent": 2.9,
+            "weightText": "2.9%"
           },
           {
             "rank": 7,
-            "name": "NATIONAL GRID PLC",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "name": "NOVARTIS AG",
+            "weightPercent": 2.7,
+            "weightText": "2.7%"
           },
           {
             "rank": 8,
-            "name": "CME GROUP INC",
+            "name": "LEGRAND SA",
             "weightPercent": 2.7,
             "weightText": "2.7%"
           },
           {
             "rank": 9,
-            "name": "TEXAS INSTRUMENTS INC",
+            "name": "PROGRESSIVE CORP OHIO",
             "weightPercent": 2.6,
             "weightText": "2.6%"
           },
           {
             "rank": 10,
-            "name": "LEGRAND SA",
-            "weightPercent": 2.6,
-            "weightText": "2.6%"
+            "name": "DHL AG",
+            "weightPercent": 2.5,
+            "weightText": "2.5%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -4637,69 +4625,69 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-equity-fund-distribution.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "ROCHE HOLDING AG",
-            "weightPercent": 3.7,
-            "weightText": "3.7%"
-          },
-          {
-            "rank": 2,
             "name": "TAIWAN SEMICONDUCTOR MFG CO LTD",
             "weightPercent": 3.7,
             "weightText": "3.7%"
           },
           {
+            "rank": 2,
+            "name": "ROCHE HOLDING AG",
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
+          },
+          {
             "rank": 3,
             "name": "DEUTSCHE BOERSE AG",
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
+          },
+          {
+            "rank": 4,
+            "name": "UNILEVER PLC",
             "weightPercent": 3.4,
             "weightText": "3.4%"
           },
           {
-            "rank": 4,
-            "name": "VINCI SA",
-            "weightPercent": 3.3,
-            "weightText": "3.3%"
-          },
-          {
             "rank": 5,
-            "name": "UNILEVER PLC",
-            "weightPercent": 3.3,
-            "weightText": "3.3%"
+            "name": "VINCI SA",
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
           },
           {
             "rank": 6,
-            "name": "NOVARTIS AG",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "name": "CME GROUP INC",
+            "weightPercent": 2.9,
+            "weightText": "2.9%"
           },
           {
             "rank": 7,
-            "name": "NATIONAL GRID PLC",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "name": "NOVARTIS AG",
+            "weightPercent": 2.7,
+            "weightText": "2.7%"
           },
           {
             "rank": 8,
-            "name": "CME GROUP INC",
+            "name": "LEGRAND SA",
             "weightPercent": 2.7,
             "weightText": "2.7%"
           },
           {
             "rank": 9,
-            "name": "TEXAS INSTRUMENTS INC",
+            "name": "PROGRESSIVE CORP OHIO",
             "weightPercent": 2.6,
             "weightText": "2.6%"
           },
           {
             "rank": 10,
-            "name": "LEGRAND SA",
-            "weightPercent": 2.6,
-            "weightText": "2.6%"
+            "name": "DHL AG",
+            "weightPercent": 2.5,
+            "weightText": "2.5%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -4762,69 +4750,69 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-equity-fund-usd-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "ROCHE HOLDING AG",
-            "weightPercent": 3.7,
-            "weightText": "3.7%"
-          },
-          {
-            "rank": 2,
             "name": "TAIWAN SEMICONDUCTOR MFG CO LTD",
             "weightPercent": 3.7,
             "weightText": "3.7%"
           },
           {
+            "rank": 2,
+            "name": "ROCHE HOLDING AG",
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
+          },
+          {
             "rank": 3,
             "name": "DEUTSCHE BOERSE AG",
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
+          },
+          {
+            "rank": 4,
+            "name": "UNILEVER PLC",
             "weightPercent": 3.4,
             "weightText": "3.4%"
           },
           {
-            "rank": 4,
-            "name": "VINCI SA",
-            "weightPercent": 3.3,
-            "weightText": "3.3%"
-          },
-          {
             "rank": 5,
-            "name": "UNILEVER PLC",
-            "weightPercent": 3.3,
-            "weightText": "3.3%"
+            "name": "VINCI SA",
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
           },
           {
             "rank": 6,
-            "name": "NOVARTIS AG",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "name": "CME GROUP INC",
+            "weightPercent": 2.9,
+            "weightText": "2.9%"
           },
           {
             "rank": 7,
-            "name": "NATIONAL GRID PLC",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "name": "NOVARTIS AG",
+            "weightPercent": 2.7,
+            "weightText": "2.7%"
           },
           {
             "rank": 8,
-            "name": "CME GROUP INC",
+            "name": "LEGRAND SA",
             "weightPercent": 2.7,
             "weightText": "2.7%"
           },
           {
             "rank": 9,
-            "name": "TEXAS INSTRUMENTS INC",
+            "name": "PROGRESSIVE CORP OHIO",
             "weightPercent": 2.6,
             "weightText": "2.6%"
           },
           {
             "rank": 10,
-            "name": "LEGRAND SA",
-            "weightPercent": 2.6,
-            "weightText": "2.6%"
+            "name": "DHL AG",
+            "weightPercent": 2.5,
+            "weightText": "2.5%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -4889,60 +4877,60 @@
         "parser": "spatial_fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-equity-growth-sgd-accumulation.pdf",
         "factsheetDocumentDate": "May 2024",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 9,
         "holdings": [
           {
             "rank": 1,
-            "name": "AMAZON.COM INC",
-            "weightPercent": 5.0,
-            "weightText": "5.0%"
+            "name": "NVIDIA CORPORATION",
+            "weightPercent": 6.8,
+            "weightText": "6.8%"
           },
           {
             "rank": 2,
-            "name": "NVIDIA CORPORATION",
-            "weightPercent": 4.8,
-            "weightText": "4.8%"
+            "name": "AMAZON.COM INC",
+            "weightPercent": 4.7,
+            "weightText": "4.7%"
           },
           {
             "rank": 3,
             "name": "ELI LILLY AND COMPANY",
-            "weightPercent": 4.6,
-            "weightText": "4.6%"
+            "weightPercent": 4.5,
+            "weightText": "4.5%"
           },
           {
             "rank": 4,
             "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR ALPHABET INC CLASS A",
-            "weightPercent": 3.5,
-            "weightText": "3.5%"
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           },
           {
             "rank": 5,
-            "name": "LAM RESEARCH CORPORATION",
-            "weightPercent": 3.2,
-            "weightText": "3.2%"
+            "name": "MICROSOFT CORPORATION",
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           },
           {
             "rank": 6,
-            "name": "TOKYO ELECTRON LTD",
+            "name": "LAM RESEARCH CORPORATION",
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
+          },
+          {
+            "rank": 7,
+            "name": "DELL TECHNOLOGIES INC",
             "weightPercent": 3.0,
             "weightText": "3.0%"
           },
           {
-            "rank": 7,
-            "name": "TJX COMPANIES INC",
+            "rank": 8,
+            "name": "TECHNIPFMC PLC",
             "weightPercent": 2.8,
             "weightText": "2.8%"
           },
           {
-            "rank": 8,
-            "name": "DELL TECHNOLOGIES INC",
-            "weightPercent": 2.7,
-            "weightText": "2.7%"
-          },
-          {
             "rank": 9,
-            "name": "MICROSOFT CORPORATION",
+            "name": "MITSUBISHI UFJ FINANCIAL GROUP INC",
             "weightPercent": 2.7,
             "weightText": "2.7%"
           }
@@ -5008,69 +4996,69 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-fixed-income-fund-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "FNMA TBA 5.0% MAY 30YR",
-            "weightPercent": 12.7,
-            "weightText": "12.7%"
+            "name": "FNMA TBA 5.0% AUG 30YR",
+            "weightPercent": 23.7,
+            "weightText": "23.7%"
           },
           {
             "rank": 2,
-            "name": "GNMA II TBA 6.5% MAY 30YR JMBO",
-            "weightPercent": 3.8,
-            "weightText": "3.8%"
+            "name": "RFR GBP SONIO/3.50000 09/16/26-2Y LCH",
+            "weightPercent": 15.1,
+            "weightText": "15.1%"
           },
           {
             "rank": 3,
-            "name": "FNMA TBA 6.5% JUN 30YR",
-            "weightPercent": 3.8,
-            "weightText": "3.8%"
+            "name": "IRS EUR 2.25000 09/16/26-2Y LCH",
+            "weightPercent": 13.5,
+            "weightText": "13.5%"
           },
           {
             "rank": 4,
-            "name": "U S TREASURY BOND",
-            "weightPercent": 3.4,
-            "weightText": "3.4%"
+            "name": "FIN FUT US ULTRA 10YR CBT 09/21/26",
+            "weightPercent": 10.8,
+            "weightText": "10.8%"
           },
           {
             "rank": 5,
-            "name": "FNMA TBA 5.0% JUN 30YR",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "name": "FIN FUT EUX EURO-BTP 09/08/26",
+            "weightPercent": 8.3,
+            "weightText": "8.3%"
           },
           {
             "rank": 6,
-            "name": "FNMA TBA 4.5% JUN 30YR",
-            "weightPercent": 2.6,
-            "weightText": "2.6%"
+            "name": "RFR USD SOFR/3.75000 09/17/25-2Y LCH",
+            "weightPercent": 7.2,
+            "weightText": "7.2%"
           },
           {
             "rank": 7,
-            "name": "UK GILT",
-            "weightPercent": 2.5,
-            "weightText": "2.5%"
+            "name": "FIN FUT US 10YR CBT 09/21/26",
+            "weightPercent": 6.2,
+            "weightText": "6.2%"
           },
           {
             "rank": 8,
-            "name": "CHINA DEVELOPMENT BANK",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
+            "name": "IRS AUD 3.50000 03/18/26-5Y LCH",
+            "weightPercent": 6.1,
+            "weightText": "6.1%"
           },
           {
             "rank": 9,
-            "name": "FRANCE (GOVT OF)",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
+            "name": "IRS EUR 2.75000 09/16/26-10Y LCH",
+            "weightPercent": 5.6,
+            "weightText": "5.6%"
           },
           {
             "rank": 10,
-            "name": "FNMA TBA 5.0% APR 30YR",
-            "weightPercent": 1.9,
-            "weightText": "1.9%"
+            "name": "FIN FUT UK GILT ICE 09/28/26",
+            "weightPercent": 4.0,
+            "weightText": "4.0%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -5133,69 +5121,69 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-fixed-income-fund-usd-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "FNMA TBA 5.0% MAY 30YR",
-            "weightPercent": 12.7,
-            "weightText": "12.7%"
+            "name": "FNMA TBA 5.0% AUG 30YR",
+            "weightPercent": 23.7,
+            "weightText": "23.7%"
           },
           {
             "rank": 2,
-            "name": "GNMA II TBA 6.5% MAY 30YR JMBO",
-            "weightPercent": 3.8,
-            "weightText": "3.8%"
+            "name": "RFR GBP SONIO/3.50000 09/16/26-2Y LCH",
+            "weightPercent": 15.1,
+            "weightText": "15.1%"
           },
           {
             "rank": 3,
-            "name": "FNMA TBA 6.5% JUN 30YR",
-            "weightPercent": 3.8,
-            "weightText": "3.8%"
+            "name": "IRS EUR 2.25000 09/16/26-2Y LCH",
+            "weightPercent": 13.5,
+            "weightText": "13.5%"
           },
           {
             "rank": 4,
-            "name": "U S TREASURY BOND",
-            "weightPercent": 3.4,
-            "weightText": "3.4%"
+            "name": "FIN FUT US ULTRA 10YR CBT 09/21/26",
+            "weightPercent": 10.8,
+            "weightText": "10.8%"
           },
           {
             "rank": 5,
-            "name": "FNMA TBA 5.0% JUN 30YR",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "name": "FIN FUT EUX EURO-BTP 09/08/26",
+            "weightPercent": 8.3,
+            "weightText": "8.3%"
           },
           {
             "rank": 6,
-            "name": "FNMA TBA 4.5% JUN 30YR",
-            "weightPercent": 2.6,
-            "weightText": "2.6%"
+            "name": "RFR USD SOFR/3.75000 09/17/25-2Y LCH",
+            "weightPercent": 7.2,
+            "weightText": "7.2%"
           },
           {
             "rank": 7,
-            "name": "UK GILT",
-            "weightPercent": 2.5,
-            "weightText": "2.5%"
+            "name": "FIN FUT US 10YR CBT 09/21/26",
+            "weightPercent": 6.2,
+            "weightText": "6.2%"
           },
           {
             "rank": 8,
-            "name": "CHINA DEVELOPMENT BANK",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
+            "name": "IRS AUD 3.50000 03/18/26-5Y LCH",
+            "weightPercent": 6.1,
+            "weightText": "6.1%"
           },
           {
             "rank": 9,
-            "name": "FRANCE (GOVT OF)",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
+            "name": "IRS EUR 2.75000 09/16/26-10Y LCH",
+            "weightPercent": 5.6,
+            "weightText": "5.6%"
           },
           {
             "rank": 10,
-            "name": "FNMA TBA 5.0% APR 30YR",
-            "weightPercent": 1.9,
-            "weightText": "1.9%"
+            "name": "FIN FUT UK GILT ICE 09/28/26",
+            "weightPercent": 4.0,
+            "weightText": "4.0%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -5259,67 +5247,67 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-growth-fund-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "iShares MSCI ACWI UCITS ETF",
-            "weightPercent": 7.2,
-            "weightText": "7.2%"
+            "weightPercent": 8.1,
+            "weightText": "8.1%"
           },
           {
             "rank": 2,
-            "name": "iShares S&P 500 Financials Sector UCITS ETF",
+            "name": "iShares NASDAQ 100 UCITS ETF",
             "weightPercent": 6.1,
             "weightText": "6.1%"
           },
           {
             "rank": 3,
-            "name": "iShares NASDAQ 100 UCITS ETF",
+            "name": "iShares S&P 500 Financials Sector UCITS ETF",
             "weightPercent": 6.1,
             "weightText": "6.1%"
           },
           {
             "rank": 4,
             "name": "iShares Core S&P 500 UCITS ETF",
-            "weightPercent": 6.0,
-            "weightText": "6.0%"
+            "weightPercent": 6.1,
+            "weightText": "6.1%"
           },
           {
             "rank": 5,
             "name": "iShares MSCI EM Asia UCITS ETF",
-            "weightPercent": 5.9,
-            "weightText": "5.9%"
+            "weightPercent": 6.0,
+            "weightText": "6.0%"
           },
           {
             "rank": 6,
             "name": "Invesco S&P 500® Top 50 ETF",
-            "weightPercent": 5.3,
-            "weightText": "5.3%"
+            "weightPercent": 5.5,
+            "weightText": "5.5%"
           },
           {
             "rank": 7,
             "name": "State Street® Technology Select Sector SPDR® ETF",
-            "weightPercent": 4.8,
-            "weightText": "4.8%"
+            "weightPercent": 4.9,
+            "weightText": "4.9%"
           },
           {
             "rank": 8,
-            "name": "VanEck Gold Miners UCITS ETF",
+            "name": "VanEck Semiconductor ETF",
             "weightPercent": 4.5,
             "weightText": "4.5%"
           },
           {
             "rank": 9,
             "name": "iShares MSCI Japan UCITS ETF",
-            "weightPercent": 3.8,
-            "weightText": "3.8%"
+            "weightPercent": 3.7,
+            "weightText": "3.7%"
           },
           {
             "rank": 10,
-            "name": "iShares S&P 500 Industrials Sector UCITS ETF",
+            "name": "VanEck Gold Miners UCITS ETF",
             "weightPercent": 3.4,
             "weightText": "3.4%"
           }
@@ -5385,67 +5373,67 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-impact-esg-equity-fund-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "Globe Life Inc",
-            "weightPercent": 3.1,
-            "weightText": "3.1%"
+            "weightPercent": 2.8,
+            "weightText": "2.8%"
           },
           {
             "rank": 2,
-            "name": "Covista Inc",
-            "weightPercent": 2.6,
-            "weightText": "2.6%"
-          },
-          {
-            "rank": 3,
             "name": "F5 Inc",
             "weightPercent": 2.6,
             "weightText": "2.6%"
           },
           {
-            "rank": 4,
+            "rank": 3,
             "name": "Laureate Education",
             "weightPercent": 2.5,
             "weightText": "2.5%"
           },
           {
+            "rank": 4,
+            "name": "MediaTek Inc",
+            "weightPercent": 2.4,
+            "weightText": "2.4%"
+          },
+          {
             "rank": 5,
-            "name": "Popular Inc",
+            "name": "Covista Inc",
+            "weightPercent": 2.4,
+            "weightText": "2.4%"
+          },
+          {
+            "rank": 6,
+            "name": "Agilent Technologies",
             "weightPercent": 2.3,
             "weightText": "2.3%"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "American Water Works",
             "weightPercent": 2.2,
             "weightText": "2.2%"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Flex Ltd",
             "weightPercent": 2.2,
             "weightText": "2.2%"
           },
           {
-            "rank": 8,
-            "name": "Terex Corp",
+            "rank": 9,
+            "name": "Popular Inc",
             "weightPercent": 2.2,
             "weightText": "2.2%"
           },
           {
-            "rank": 9,
-            "name": "Infineon Tech",
-            "weightPercent": 2.1,
-            "weightText": "2.1%"
-          },
-          {
             "rank": 10,
-            "name": "Agilent Technologies",
+            "name": "Terex Corp",
             "weightPercent": 2.1,
             "weightText": "2.1%"
           }
@@ -5511,8 +5499,8 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-income-fund-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -5523,57 +5511,57 @@
           },
           {
             "rank": 2,
-            "name": "PIMCO GIS Capital Securities Fund",
+            "name": "iShares MSCI ACWI UCITS ETF",
             "weightPercent": 4.9,
             "weightText": "4.9%"
           },
           {
             "rank": 3,
-            "name": "iShares MSCI ACWI UCITS ETF",
-            "weightPercent": 4.4,
-            "weightText": "4.4%"
+            "name": "PIMCO GIS Capital Securities Fund",
+            "weightPercent": 4.7,
+            "weightText": "4.7%"
           },
           {
             "rank": 4,
             "name": "Neuberger Berman Strategic Income Fund",
-            "weightPercent": 4.2,
-            "weightText": "4.2%"
+            "weightPercent": 4.0,
+            "weightText": "4.0%"
           },
           {
             "rank": 5,
-            "name": "PIMCO Funds - GIS Income Fund",
-            "weightPercent": 4.1,
-            "weightText": "4.1%"
+            "name": "PIMCO GIS Income Fund",
+            "weightPercent": 4.0,
+            "weightText": "4.0%"
           },
           {
             "rank": 6,
-            "name": "iShares S&P 500 Financials Sector UCITS ETF",
-            "weightPercent": 3.7,
-            "weightText": "3.7%"
+            "name": "iShares NASDAQ 100 UCITS ETF USD",
+            "weightPercent": 3.8,
+            "weightText": "3.8%"
           },
           {
             "rank": 7,
-            "name": "iShares NASDAQ 100 UCITS ETF USD",
+            "name": "iShares S&P 500 Financials Sector UCITS ETF",
             "weightPercent": 3.7,
             "weightText": "3.7%"
           },
           {
             "rank": 8,
             "name": "iShares Core S&P 500 UCITS ETF",
-            "weightPercent": 3.6,
-            "weightText": "3.6%"
+            "weightPercent": 3.7,
+            "weightText": "3.7%"
           },
           {
             "rank": 9,
             "name": "iShares MSCI All Country Asia ex Japan ETF",
-            "weightPercent": 3.6,
-            "weightText": "3.6%"
+            "weightPercent": 3.7,
+            "weightText": "3.7%"
           },
           {
             "rank": 10,
-            "name": "iShares $ Short Duration Corp Bond UCITS ETF",
-            "weightPercent": 3.4,
-            "weightText": "3.4%"
+            "name": "Invesco S&P 500 Top 50 ETF",
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -5637,45 +5625,45 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-innovation-equity-fund-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "Alphabet Inc",
-            "weightPercent": 8.6,
-            "weightText": "8.6%"
+            "name": "NVIDIA Corp",
+            "weightPercent": 8.2,
+            "weightText": "8.2%"
           },
           {
             "rank": 2,
-            "name": "NVIDIA Corp",
-            "weightPercent": 7.8,
-            "weightText": "7.8%"
+            "name": "Alphabet Inc",
+            "weightPercent": 7.9,
+            "weightText": "7.9%"
           },
           {
             "rank": 3,
             "name": "Taiwan Semi",
-            "weightPercent": 6.5,
-            "weightText": "6.5%"
+            "weightPercent": 6.4,
+            "weightText": "6.4%"
           },
           {
             "rank": 4,
             "name": "Microsoft Corp",
-            "weightPercent": 5.4,
-            "weightText": "5.4%"
+            "weightPercent": 5.6,
+            "weightText": "5.6%"
           },
           {
             "rank": 5,
             "name": "ASML Holding N V",
-            "weightPercent": 5.3,
-            "weightText": "5.3%"
+            "weightPercent": 5.2,
+            "weightText": "5.2%"
           },
           {
             "rank": 6,
             "name": "Amazon.com Inc",
-            "weightPercent": 4.9,
-            "weightText": "4.9%"
+            "weightPercent": 4.4,
+            "weightText": "4.4%"
           },
           {
             "rank": 7,
@@ -5685,21 +5673,21 @@
           },
           {
             "rank": 8,
-            "name": "Broadcom Inc",
-            "weightPercent": 3.2,
-            "weightText": "3.2%"
+            "name": "Airbnb Inc",
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           },
           {
             "rank": 9,
-            "name": "Airbnb Inc",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "name": "Broadcom Inc",
+            "weightPercent": 2.9,
+            "weightText": "2.9%"
           },
           {
             "rank": 10,
             "name": "Eli Lilly & Co",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "weightPercent": 2.7,
+            "weightText": "2.7%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -5766,68 +5754,68 @@
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-managed-fund.pdf",
         "factsheetDocumentDate": "February 1999",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "Schroder ISF US Large Cap",
-            "weightPercent": 21.3,
-            "weightText": "21.3%"
+            "weightPercent": 21.1,
+            "weightText": "21.1%"
           },
           {
             "rank": 2,
             "name": "Schroder ISF QEP Global Core",
-            "weightPercent": 17.0,
-            "weightText": "17.0%"
+            "weightPercent": 18.3,
+            "weightText": "18.3%"
           },
           {
             "rank": 3,
             "name": "Schroder Global Quality Bond",
-            "weightPercent": 8.1,
-            "weightText": "8.1%"
+            "weightPercent": 7.8,
+            "weightText": "7.8%"
           },
           {
             "rank": 4,
             "name": "Schroder ISF Global Equity Alpha",
-            "weightPercent": 6.2,
-            "weightText": "6.2%"
+            "weightPercent": 6.3,
+            "weightText": "6.3%"
           },
           {
             "rank": 5,
             "name": "Singapore 20-Year Government Bonds",
-            "weightPercent": 5.2,
-            "weightText": "5.2%"
+            "weightPercent": 5.3,
+            "weightText": "5.3%"
           },
           {
             "rank": 6,
             "name": "Schroder ISF Global Innovation",
-            "weightPercent": 4.3,
-            "weightText": "4.3%"
+            "weightPercent": 4.4,
+            "weightText": "4.4%"
           },
           {
             "rank": 7,
             "name": "Australian Treasuries Bond Futures",
-            "weightPercent": 4.0,
-            "weightText": "4.0%"
+            "weightPercent": 3.8,
+            "weightText": "3.8%"
           },
           {
             "rank": 8,
             "name": "Schroder ISF Asian Opportunities",
-            "weightPercent": 3.7,
-            "weightText": "3.7%"
+            "weightPercent": 3.6,
+            "weightText": "3.6%"
           },
           {
             "rank": 9,
             "name": "Schroder Singapore Fixed Income Fund",
-            "weightPercent": 3.5,
-            "weightText": "3.5%"
+            "weightPercent": 3.4,
+            "weightText": "3.4%"
           },
           {
             "rank": 10,
             "name": "Schroder ISF Global Corporate Bond",
-            "weightPercent": 3.4,
-            "weightText": "3.4%"
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -6017,68 +6005,68 @@
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-managed-fund-distribution.pdf",
         "factsheetDocumentDate": "February 1999",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "Schroder ISF US Large Cap",
-            "weightPercent": 21.3,
-            "weightText": "21.3%"
+            "weightPercent": 21.1,
+            "weightText": "21.1%"
           },
           {
             "rank": 2,
             "name": "Schroder ISF QEP Global Core",
-            "weightPercent": 17.0,
-            "weightText": "17.0%"
+            "weightPercent": 18.3,
+            "weightText": "18.3%"
           },
           {
             "rank": 3,
             "name": "Schroder Global Quality Bond",
-            "weightPercent": 8.1,
-            "weightText": "8.1%"
+            "weightPercent": 7.8,
+            "weightText": "7.8%"
           },
           {
             "rank": 4,
             "name": "Schroder ISF Global Equity Alpha",
-            "weightPercent": 6.2,
-            "weightText": "6.2%"
+            "weightPercent": 6.3,
+            "weightText": "6.3%"
           },
           {
             "rank": 5,
             "name": "Singapore 20-Year Government Bonds",
-            "weightPercent": 5.2,
-            "weightText": "5.2%"
+            "weightPercent": 5.3,
+            "weightText": "5.3%"
           },
           {
             "rank": 6,
             "name": "Schroder ISF Global Innovation",
-            "weightPercent": 4.3,
-            "weightText": "4.3%"
+            "weightPercent": 4.4,
+            "weightText": "4.4%"
           },
           {
             "rank": 7,
             "name": "Australian Treasuries Bond Futures",
-            "weightPercent": 4.0,
-            "weightText": "4.0%"
+            "weightPercent": 3.8,
+            "weightText": "3.8%"
           },
           {
             "rank": 8,
             "name": "Schroder ISF Asian Opportunities",
-            "weightPercent": 3.7,
-            "weightText": "3.7%"
+            "weightPercent": 3.6,
+            "weightText": "3.6%"
           },
           {
             "rank": 9,
             "name": "Schroder Singapore Fixed Income Fund",
-            "weightPercent": 3.5,
-            "weightText": "3.5%"
+            "weightPercent": 3.4,
+            "weightText": "3.4%"
           },
           {
             "rank": 10,
             "name": "Schroder ISF Global Corporate Bond",
-            "weightPercent": 3.4,
-            "weightText": "3.4%"
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -6142,8 +6130,8 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-multi-asset-income-fund-accumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -6154,39 +6142,39 @@
           },
           {
             "rank": 2,
-            "name": "TREASURY (CPI) NOTE 1.625 15-OCT-2029",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
+            "name": "NVIDIA",
+            "weightPercent": 1.3,
+            "weightText": "1.3%"
           },
           {
             "rank": 3,
-            "name": "TREASURY (CPI) NOTE 2.125 15-APR-2029",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
+            "name": "APPLE",
+            "weightPercent": 1.0,
+            "weightText": "1.0%"
           },
           {
             "rank": 4,
-            "name": "NVIDIA CORP",
-            "weightPercent": 1.2,
-            "weightText": "1.2%"
+            "name": "TREASURY (CPI) NOTE 2.125 15-APR-2029",
+            "weightPercent": 1.0,
+            "weightText": "1.0%"
           },
           {
             "rank": 5,
-            "name": "APPLE INC",
+            "name": "TREASURY (CPI) NOTE 1.625 15-OCT-2029",
             "weightPercent": 1.0,
             "weightText": "1.0%"
           },
           {
             "rank": 6,
-            "name": "ALPHABET CLASS A A",
+            "name": "MICROSOFT",
             "weightPercent": 0.9,
             "weightText": "0.9%"
           },
           {
             "rank": 7,
-            "name": "MICROSOFT",
-            "weightPercent": 0.9,
-            "weightText": "0.9%"
+            "name": "ALPHABET CLASS A A",
+            "weightPercent": 0.8,
+            "weightText": "0.8%"
           },
           {
             "rank": 8,
@@ -6361,8 +6349,8 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-multi-asset-income-fund-decumulation.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -6373,39 +6361,39 @@
           },
           {
             "rank": 2,
-            "name": "TREASURY (CPI) NOTE 1.625 15-OCT-2029",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
+            "name": "NVIDIA",
+            "weightPercent": 1.3,
+            "weightText": "1.3%"
           },
           {
             "rank": 3,
-            "name": "TREASURY (CPI) NOTE 2.125 15-APR-2029",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
+            "name": "APPLE",
+            "weightPercent": 1.0,
+            "weightText": "1.0%"
           },
           {
             "rank": 4,
-            "name": "NVIDIA CORP",
-            "weightPercent": 1.2,
-            "weightText": "1.2%"
+            "name": "TREASURY (CPI) NOTE 2.125 15-APR-2029",
+            "weightPercent": 1.0,
+            "weightText": "1.0%"
           },
           {
             "rank": 5,
-            "name": "APPLE INC",
+            "name": "TREASURY (CPI) NOTE 1.625 15-OCT-2029",
             "weightPercent": 1.0,
             "weightText": "1.0%"
           },
           {
             "rank": 6,
-            "name": "ALPHABET CLASS A A",
+            "name": "MICROSOFT",
             "weightPercent": 0.9,
             "weightText": "0.9%"
           },
           {
             "rank": 7,
-            "name": "MICROSOFT",
-            "weightPercent": 0.9,
-            "weightText": "0.9%"
+            "name": "ALPHABET CLASS A A",
+            "weightPercent": 0.8,
+            "weightText": "0.8%"
           },
           {
             "rank": 8,
@@ -6580,8 +6568,8 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-multi-asset-income-fund-distribution.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -6592,39 +6580,39 @@
           },
           {
             "rank": 2,
-            "name": "TREASURY (CPI) NOTE 1.625 15-OCT-2029",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
+            "name": "NVIDIA",
+            "weightPercent": 1.3,
+            "weightText": "1.3%"
           },
           {
             "rank": 3,
-            "name": "TREASURY (CPI) NOTE 2.125 15-APR-2029",
-            "weightPercent": 2.0,
-            "weightText": "2.0%"
+            "name": "APPLE",
+            "weightPercent": 1.0,
+            "weightText": "1.0%"
           },
           {
             "rank": 4,
-            "name": "NVIDIA CORP",
-            "weightPercent": 1.2,
-            "weightText": "1.2%"
+            "name": "TREASURY (CPI) NOTE 2.125 15-APR-2029",
+            "weightPercent": 1.0,
+            "weightText": "1.0%"
           },
           {
             "rank": 5,
-            "name": "APPLE INC",
+            "name": "TREASURY (CPI) NOTE 1.625 15-OCT-2029",
             "weightPercent": 1.0,
             "weightText": "1.0%"
           },
           {
             "rank": 6,
-            "name": "ALPHABET CLASS A A",
+            "name": "MICROSOFT",
             "weightPercent": 0.9,
             "weightText": "0.9%"
           },
           {
             "rank": 7,
-            "name": "MICROSOFT",
-            "weightPercent": 0.9,
-            "weightText": "0.9%"
+            "name": "ALPHABET CLASS A A",
+            "weightPercent": 0.8,
+            "weightText": "0.8%"
           },
           {
             "rank": 8,
@@ -6707,68 +6695,68 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-property-securities-fund.pdf",
         "factsheetDocumentDate": "May 2007",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "Welltower Inc",
-            "weightPercent": 8.8,
-            "weightText": "8.8%"
+            "weightPercent": 9.2,
+            "weightText": "9.2%"
           },
           {
             "rank": 2,
             "name": "Equinix Inc",
-            "weightPercent": 8.1,
-            "weightText": "8.1%"
+            "weightPercent": 8.2,
+            "weightText": "8.2%"
           },
           {
             "rank": 3,
             "name": "Prologis Inc",
-            "weightPercent": 6.7,
-            "weightText": "6.7%"
+            "weightPercent": 6.5,
+            "weightText": "6.5%"
           },
           {
             "rank": 4,
-            "name": "Simon Property Group Inc",
-            "weightPercent": 3.8,
-            "weightText": "3.8%"
-          },
-          {
-            "rank": 5,
             "name": "Public Storage",
             "weightPercent": 3.8,
             "weightText": "3.8%"
           },
           {
+            "rank": 5,
+            "name": "Vivmark Residential",
+            "weightPercent": 3.7,
+            "weightText": "3.7%"
+          },
+          {
             "rank": 6,
-            "name": "Equity Residential",
+            "name": "Simon Property Group Inc",
             "weightPercent": 3.6,
             "weightText": "3.6%"
           },
           {
             "rank": 7,
-            "name": "Tag Immobilien Ag",
-            "weightPercent": 2.9,
-            "weightText": "2.9%"
-          },
-          {
-            "rank": 8,
             "name": "American Homes 4 Rent",
             "weightPercent": 2.8,
             "weightText": "2.8%"
           },
           {
+            "rank": 8,
+            "name": "Tag Immobilien Ag",
+            "weightPercent": 2.7,
+            "weightText": "2.7%"
+          },
+          {
             "rank": 9,
-            "name": "Sabra Healthcare Reit Inc",
+            "name": "Derwent London Plc",
             "weightPercent": 2.7,
             "weightText": "2.7%"
           },
           {
             "rank": 10,
-            "name": "Derwent London Plc",
-            "weightPercent": 2.7,
-            "weightText": "2.7%"
+            "name": "Sun Communities Inc",
+            "weightPercent": 2.4,
+            "weightText": "2.4%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -6833,68 +6821,68 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-signature-cio-balance-fund-accumulation.pdf",
         "factsheetDocumentDate": "November 2023",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "XTRACKERS MSCI USA ETF 1C",
-            "weightPercent": 9.1,
-            "weightText": "9.1%"
+            "weightPercent": 9.2,
+            "weightText": "9.2%"
           },
           {
             "rank": 2,
             "name": "STATE STREET SPDR S&P 500 ETF USD ACC",
-            "weightPercent": 8.0,
-            "weightText": "8.0%"
+            "weightPercent": 8.1,
+            "weightText": "8.1%"
           },
           {
             "rank": 3,
             "name": "AMUNDI CORE S&P 500 SWAP ETF ACC",
-            "weightPercent": 7.6,
-            "weightText": "7.6%"
+            "weightPercent": 7.7,
+            "weightText": "7.7%"
           },
           {
             "rank": 4,
             "name": "ISHARES CORE S&P 500 ETF USD ACC",
-            "weightPercent": 7.3,
-            "weightText": "7.3%"
+            "weightPercent": 7.0,
+            "weightText": "7.0%"
           },
           {
             "rank": 5,
             "name": "ISHARES MSCI EUROPE EX-UK ETF EUR DIST",
-            "weightPercent": 6.0,
-            "weightText": "6.0%"
+            "weightPercent": 6.2,
+            "weightText": "6.2%"
           },
           {
             "rank": 6,
+            "name": "INVESCO PHYSICAL GOLD ETC USD (LSE)",
+            "weightPercent": 5.8,
+            "weightText": "5.8%"
+          },
+          {
+            "rank": 7,
             "name": "ISHARES MSCI EM ASIA ETF USD ACC",
             "weightPercent": 5.7,
             "weightText": "5.7%"
           },
           {
-            "rank": 7,
-            "name": "INVESCO PHYSICAL GOLD ETC USD (LSE)",
-            "weightPercent": 4.8,
-            "weightText": "4.8%"
-          },
-          {
             "rank": 8,
             "name": "BGF ASIAN TIGER BOND I2 USD",
-            "weightPercent": 4.5,
-            "weightText": "4.5%"
+            "weightPercent": 4.7,
+            "weightText": "4.7%"
           },
           {
             "rank": 9,
             "name": "PRINCIPAL GI FIN UNCON EM FX INC I2 ACC",
-            "weightPercent": 4.2,
-            "weightText": "4.2%"
+            "weightPercent": 4.4,
+            "weightText": "4.4%"
           },
           {
             "rank": 10,
-            "name": "JPM AGGREGATE BOND I2 ACC USD",
-            "weightPercent": 3.9,
-            "weightText": "3.9%"
+            "name": "ISHARES GLOBAL GOVT BOND UCITS ETF USD H",
+            "weightPercent": 4.3,
+            "weightText": "4.3%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -6959,68 +6947,68 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-signature-cio-growth-fund-accumulation.pdf",
         "factsheetDocumentDate": "November 2023",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "AMUNDI CORE S&P 500 SWAP ETF ACC",
-            "weightPercent": 11.1,
-            "weightText": "11.1%"
+            "weightPercent": 11.2,
+            "weightText": "11.2%"
           },
           {
             "rank": 2,
             "name": "VANGUARD FTSE NORTH AMERICA ETF USD ACC",
-            "weightPercent": 9.1,
-            "weightText": "9.1%"
+            "weightPercent": 9.2,
+            "weightText": "9.2%"
           },
           {
             "rank": 3,
             "name": "ISHARES CORE S&P 500 ETF USD ACC",
-            "weightPercent": 9.1,
-            "weightText": "9.1%"
+            "weightPercent": 9.0,
+            "weightText": "9.0%"
           },
           {
             "rank": 4,
             "name": "XTRACKERS MSCI USA ETF 1C",
-            "weightPercent": 8.9,
-            "weightText": "8.9%"
+            "weightPercent": 9.0,
+            "weightText": "9.0%"
           },
           {
             "rank": 5,
             "name": "ISHARES MSCI EUROPE EX-UK ETF EUR DIST",
-            "weightPercent": 8.3,
-            "weightText": "8.3%"
+            "weightPercent": 8.4,
+            "weightText": "8.4%"
           },
           {
             "rank": 6,
             "name": "STATE STREET SPDR S&P 500 ETF USD ACC",
-            "weightPercent": 8.1,
-            "weightText": "8.1%"
+            "weightPercent": 8.2,
+            "weightText": "8.2%"
           },
           {
             "rank": 7,
             "name": "ISHARES MSCI EM ASIA ETF USD ACC",
-            "weightPercent": 7.8,
-            "weightText": "7.8%"
+            "weightPercent": 7.9,
+            "weightText": "7.9%"
           },
           {
             "rank": 8,
             "name": "INVESCO PHYSICAL GOLD ETC USD (LSE)",
-            "weightPercent": 4.8,
-            "weightText": "4.8%"
+            "weightPercent": 5.8,
+            "weightText": "5.8%"
           },
           {
             "rank": 9,
-            "name": "ISHARES JP MORGAN EM BD ETF USD ACC",
-            "weightPercent": 3.9,
-            "weightText": "3.9%"
+            "name": "ISHARES CORE MSCI JAPAN IMI ETF USD ACC",
+            "weightPercent": 3.8,
+            "weightText": "3.8%"
           },
           {
             "rank": 10,
-            "name": "ISHARES CORE MSCI JAPAN IMI ETF USD ACC",
-            "weightPercent": 3.6,
-            "weightText": "3.6%"
+            "name": "ISHARES JP MORGAN EM BD ETF USD ACC",
+            "weightPercent": 3.8,
+            "weightText": "3.8%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -7217,26 +7205,26 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-signature-cio-income-fund-distribution.pdf",
         "factsheetDocumentDate": "November 2023",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "VNGRD FTSE ALL-WLD HGH DIV YLD UCITS ETF",
-            "weightPercent": 15.3,
-            "weightText": "15.3%"
+            "weightPercent": 15.2,
+            "weightText": "15.2%"
           },
           {
             "rank": 2,
             "name": "BGF GLOBAL HIGH YIELD BOND I2",
-            "weightPercent": 8.1,
-            "weightText": "8.1%"
+            "weightPercent": 8.2,
+            "weightText": "8.2%"
           },
           {
             "rank": 3,
             "name": "VANGUARD FTSE ALL-WORLD UCITS ETF USD AC",
-            "weightPercent": 7.4,
-            "weightText": "7.4%"
+            "weightPercent": 7.7,
+            "weightText": "7.7%"
           },
           {
             "rank": 4,
@@ -7258,15 +7246,15 @@
           },
           {
             "rank": 7,
-            "name": "GLOBAL X NASDAQ 100 COVERED CALL ETF ACC",
+            "name": "ISHARES MSCI USA QUL DIV ADVCD ETF ACC",
             "weightPercent": 4.7,
             "weightText": "4.7%"
           },
           {
             "rank": 8,
-            "name": "ISHARES MSCI USA QUL DIV ADVCD ETF ACC",
-            "weightPercent": 4.5,
-            "weightText": "4.5%"
+            "name": "GLOBAL X NASDAQ 100 COVERED CALL ETF ACC",
+            "weightPercent": 4.7,
+            "weightText": "4.7%"
           },
           {
             "rank": 9,
@@ -7339,75 +7327,63 @@
       },
       "topHoldings": {
         "status": "published",
-        "source": "baseline",
-        "parser": "primary",
+        "source": "recovery2",
+        "parser": "spatial_fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-technology-fund.pdf",
-        "factsheetDocumentDate": "May 2001",
-        "factsheetDataAsAt": "31 Jul 2026",
-        "count": 10,
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
+        "count": 8,
         "holdings": [
           {
             "rank": 1,
             "name": "NVIDIA CORPORATION",
-            "weightPercent": 8.7,
-            "weightText": "8.7%"
+            "weightPercent": 8.9,
+            "weightText": "8.9%"
           },
           {
             "rank": 2,
-            "name": "AMAZON.COM INC",
-            "weightPercent": 5.8,
-            "weightText": "5.8%"
+            "name": "MICROSOFT CORPORATION",
+            "weightPercent": 5.6,
+            "weightText": "5.6%"
           },
           {
             "rank": 3,
-            "name": "BROADCOM INC",
-            "weightPercent": 5.5,
-            "weightText": "5.5%"
+            "name": "AMAZON.COM INC",
+            "weightPercent": 5.4,
+            "weightText": "5.4%"
           },
           {
             "rank": 4,
-            "name": "MICROSOFT CORPORATION",
-            "weightPercent": 5.1,
-            "weightText": "5.1%"
+            "name": "BROADCOM INC",
+            "weightPercent": 5.0,
+            "weightText": "5.0%"
           },
           {
             "rank": 5,
-            "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-            "weightPercent": 4.8,
-            "weightText": "4.8%"
+            "name": "TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY LIMITED ALPHABET INC CLASS A",
+            "weightPercent": 3.9,
+            "weightText": "3.9%"
           },
           {
             "rank": 6,
-            "name": "ALPHABET INC CLASS A",
-            "weightPercent": 4.0,
-            "weightText": "4.0%"
+            "name": "MICRON TECHNOLOGY INC",
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
           },
           {
             "rank": 7,
-            "name": "MICRON TECHNOLOGY INC",
-            "weightPercent": 3.4,
-            "weightText": "3.4%"
-          },
-          {
-            "rank": 8,
-            "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
-            "weightPercent": 3.1,
-            "weightText": "3.1%"
-          },
-          {
-            "rank": 9,
-            "name": "META PLATFORMS INC",
+            "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR SK HYNIX INC",
             "weightPercent": 2.9,
             "weightText": "2.9%"
           },
           {
-            "rank": 10,
-            "name": "SK HYNIX INC",
+            "rank": 8,
+            "name": "META PLATFORMS INC",
             "weightPercent": 2.9,
             "weightText": "2.9%"
           }
         ],
-        "sourceFile": "output_holdings/all_holdings.json"
+        "sourceFile": "output_holdings_recovery_2/funds/50_PRULink_Global_Technology_Fund/top_holdings.json"
       }
     },
     {
@@ -7470,68 +7446,68 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-greater-china-fund.pdf",
         "factsheetDocumentDate": "December 2009",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "Taiwan Semiconductor Manufacturing Co Ltd",
-            "weightPercent": 10.3,
-            "weightText": "10.3%"
+            "weightPercent": 9.9,
+            "weightText": "9.9%"
           },
           {
             "rank": 2,
             "name": "Tencent Holdings Ltd",
-            "weightPercent": 6.9,
-            "weightText": "6.9%"
+            "weightPercent": 6.1,
+            "weightText": "6.1%"
           },
           {
             "rank": 3,
             "name": "Alibaba Group Holding Ltd",
-            "weightPercent": 5.4,
-            "weightText": "5.4%"
+            "weightPercent": 4.8,
+            "weightText": "4.8%"
           },
           {
             "rank": 4,
             "name": "Delta Electronics Inc",
-            "weightPercent": 4.2,
-            "weightText": "4.2%"
+            "weightPercent": 4.7,
+            "weightText": "4.7%"
           },
           {
             "rank": 5,
             "name": "MediaTek Inc",
-            "weightPercent": 4.2,
-            "weightText": "4.2%"
+            "weightPercent": 4.5,
+            "weightText": "4.5%"
           },
           {
             "rank": 6,
             "name": "AIA Group Ltd",
-            "weightPercent": 3.7,
-            "weightText": "3.7%"
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           },
           {
             "rank": 7,
             "name": "Ping An Insurance Group Co of China Ltd",
-            "weightPercent": 2.9,
-            "weightText": "2.9%"
+            "weightPercent": 2.6,
+            "weightText": "2.6%"
           },
           {
             "rank": 8,
-            "name": "Contemporary Amperex Technology Co Ltd",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
+            "name": "ASE Technology Holding Co Ltd",
+            "weightPercent": 2.5,
+            "weightText": "2.5%"
           },
           {
             "rank": 9,
-            "name": "China Construction Bank Corp",
+            "name": "Hon Hai Precision Industry Co Ltd",
             "weightPercent": 2.2,
             "weightText": "2.2%"
           },
           {
             "rank": 10,
-            "name": "ASE Technology Holding Co Ltd",
-            "weightPercent": 2.1,
-            "weightText": "2.1%"
+            "name": "Innovent Biologics Inc",
+            "weightPercent": 2.2,
+            "weightText": "2.2%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -7595,68 +7571,68 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-greater-china-fund-usd-accumulation.pdf",
         "factsheetDocumentDate": "December 2009",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "Taiwan Semiconductor Manufacturing Co Ltd",
-            "weightPercent": 10.3,
-            "weightText": "10.3%"
+            "weightPercent": 9.9,
+            "weightText": "9.9%"
           },
           {
             "rank": 2,
             "name": "Tencent Holdings Ltd",
-            "weightPercent": 6.9,
-            "weightText": "6.9%"
+            "weightPercent": 6.1,
+            "weightText": "6.1%"
           },
           {
             "rank": 3,
             "name": "Alibaba Group Holding Ltd",
-            "weightPercent": 5.4,
-            "weightText": "5.4%"
+            "weightPercent": 4.8,
+            "weightText": "4.8%"
           },
           {
             "rank": 4,
             "name": "Delta Electronics Inc",
-            "weightPercent": 4.2,
-            "weightText": "4.2%"
+            "weightPercent": 4.7,
+            "weightText": "4.7%"
           },
           {
             "rank": 5,
             "name": "MediaTek Inc",
-            "weightPercent": 4.2,
-            "weightText": "4.2%"
+            "weightPercent": 4.5,
+            "weightText": "4.5%"
           },
           {
             "rank": 6,
             "name": "AIA Group Ltd",
-            "weightPercent": 3.7,
-            "weightText": "3.7%"
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           },
           {
             "rank": 7,
             "name": "Ping An Insurance Group Co of China Ltd",
-            "weightPercent": 2.9,
-            "weightText": "2.9%"
+            "weightPercent": 2.6,
+            "weightText": "2.6%"
           },
           {
             "rank": 8,
-            "name": "Contemporary Amperex Technology Co Ltd",
-            "weightPercent": 2.3,
-            "weightText": "2.3%"
+            "name": "ASE Technology Holding Co Ltd",
+            "weightPercent": 2.5,
+            "weightText": "2.5%"
           },
           {
             "rank": 9,
-            "name": "China Construction Bank Corp",
+            "name": "Hon Hai Precision Industry Co Ltd",
             "weightPercent": 2.2,
             "weightText": "2.2%"
           },
           {
             "rank": 10,
-            "name": "ASE Technology Holding Co Ltd",
-            "weightPercent": 2.1,
-            "weightText": "2.1%"
+            "name": "Innovent Biologics Inc",
+            "weightPercent": 2.2,
+            "weightText": "2.2%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -7722,66 +7698,66 @@
         "parser": "spatial_fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-india-opportunity-equity-fund-accumulation.pdf",
         "factsheetDocumentDate": "February 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "ICICI BANK LTD",
-            "weightPercent": 6.3,
-            "weightText": "6.3%"
+            "weightPercent": 6.4,
+            "weightText": "6.4%"
           },
           {
             "rank": 2,
             "name": "HDFC BANK LTD",
-            "weightPercent": 5.7,
-            "weightText": "5.7%"
-          },
-          {
-            "rank": 3,
-            "name": "ETERNAL LTD",
             "weightPercent": 5.4,
             "weightText": "5.4%"
           },
           {
-            "rank": 4,
+            "rank": 3,
             "name": "MAHINDRA & MAHINDRA LTD",
-            "weightPercent": 5.3,
-            "weightText": "5.3%"
+            "weightPercent": 4.9,
+            "weightText": "4.9%"
+          },
+          {
+            "rank": 4,
+            "name": "ETERNAL LTD",
+            "weightPercent": 4.1,
+            "weightText": "4.1%"
           },
           {
             "rank": 5,
-            "name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP",
+            "name": "TATA MOTORS LTD /NEW",
             "weightPercent": 3.6,
             "weightText": "3.6%"
           },
           {
             "rank": 6,
             "name": "RELIANCE INDUSTRIES LTD",
-            "weightPercent": 3.4,
-            "weightText": "3.4%"
-          },
-          {
-            "rank": 7,
-            "name": "TATA MOTORS LTD /NEW",
             "weightPercent": 3.3,
             "weightText": "3.3%"
           },
           {
+            "rank": 7,
+            "name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP",
+            "weightPercent": 2.9,
+            "weightText": "2.9%"
+          },
+          {
             "rank": 8,
-            "name": "OBEROI REALTY LTD",
-            "weightPercent": 2.7,
-            "weightText": "2.7%"
+            "name": "AXIS BANK LTD",
+            "weightPercent": 2.8,
+            "weightText": "2.8%"
           },
           {
             "rank": 9,
-            "name": "MAX HEALTHCARE INSTITUTE LTD",
-            "weightPercent": 2.7,
-            "weightText": "2.7%"
+            "name": "OBEROI REALTY LTD",
+            "weightPercent": 2.8,
+            "weightText": "2.8%"
           },
           {
             "rank": 10,
-            "name": "AXIS BANK LTD",
+            "name": "INDIAN HOTELS CO LTD/THE",
             "weightPercent": 2.7,
             "weightText": "2.7%"
           }
@@ -7848,44 +7824,44 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-islamic-global-equity-index-fund-accumulation.pdf",
         "factsheetDocumentDate": "June 2023",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "Microsoft Corp",
-            "weightPercent": 8.3,
-            "weightText": "8.3%"
+            "weightPercent": 8.8,
+            "weightText": "8.8%"
           },
           {
             "rank": 2,
-            "name": "Apple Inc",
+            "name": "NVIDIA Corp",
             "weightPercent": 8.1,
             "weightText": "8.1%"
           },
           {
             "rank": 3,
-            "name": "Alphabet Inc",
-            "weightPercent": 7.6,
-            "weightText": "7.6%"
+            "name": "Apple Inc",
+            "weightPercent": 8.0,
+            "weightText": "8.0%"
           },
           {
             "rank": 4,
-            "name": "NVIDIA Corp",
-            "weightPercent": 7.6,
-            "weightText": "7.6%"
+            "name": "Alphabet Inc",
+            "weightPercent": 7.0,
+            "weightText": "7.0%"
           },
           {
             "rank": 5,
             "name": "Amazon.com Inc",
-            "weightPercent": 6.4,
-            "weightText": "6.4%"
+            "weightPercent": 5.9,
+            "weightText": "5.9%"
           },
           {
             "rank": 6,
             "name": "Broadcom Inc",
-            "weightPercent": 4.4,
-            "weightText": "4.4%"
+            "weightPercent": 4.1,
+            "weightText": "4.1%"
           },
           {
             "rank": 7,
@@ -7896,18 +7872,18 @@
           {
             "rank": 8,
             "name": "Micron Technology Inc",
-            "weightPercent": 2.2,
-            "weightText": "2.2%"
+            "weightPercent": 2.5,
+            "weightText": "2.5%"
           },
           {
             "rank": 9,
-            "name": "Eli Lilly & Co",
-            "weightPercent": 2.2,
-            "weightText": "2.2%"
+            "name": "Tesla Inc",
+            "weightPercent": 2.4,
+            "weightText": "2.4%"
           },
           {
             "rank": 10,
-            "name": "Tesla Inc",
+            "name": "Eli Lilly & Co",
             "weightPercent": 2.1,
             "weightText": "2.1%"
           }
@@ -7975,38 +7951,38 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-pan-european-fund.pdf",
         "factsheetDocumentDate": "May 2001",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "AIB GROUP PLC",
-            "weightPercent": 5.6,
-            "weightText": "5.6%"
+            "weightPercent": 5.4,
+            "weightText": "5.4%"
           },
           {
             "rank": 2,
             "name": "ASML HOLDING NV",
-            "weightPercent": 5.5,
-            "weightText": "5.5%"
+            "weightPercent": 5.2,
+            "weightText": "5.2%"
           },
           {
             "rank": 3,
-            "name": "ING GROEP NV",
-            "weightPercent": 5.1,
-            "weightText": "5.1%"
+            "name": "LION FINANCE GROUP PLC",
+            "weightPercent": 5.2,
+            "weightText": "5.2%"
           },
           {
             "rank": 4,
             "name": "SCHNEIDER ELECTRIC SE",
-            "weightPercent": 5.0,
-            "weightText": "5.0%"
+            "weightPercent": 5.1,
+            "weightText": "5.1%"
           },
           {
             "rank": 5,
-            "name": "LION FINANCE GROUP PLC",
-            "weightPercent": 4.6,
-            "weightText": "4.6%"
+            "name": "ING GROEP NV",
+            "weightPercent": 5.1,
+            "weightText": "5.1%"
           },
           {
             "rank": 6,
@@ -8016,27 +7992,27 @@
           },
           {
             "rank": 7,
-            "name": "ALK ABELLO A/S",
-            "weightPercent": 3.7,
-            "weightText": "3.7%"
-          },
-          {
-            "rank": 8,
             "name": "SIEMENS AG",
             "weightPercent": 3.7,
             "weightText": "3.7%"
           },
           {
+            "rank": 8,
+            "name": "ALK ABELLO A/S",
+            "weightPercent": 3.4,
+            "weightText": "3.4%"
+          },
+          {
             "rank": 9,
-            "name": "ANDRITZ AG",
-            "weightPercent": 3.2,
-            "weightText": "3.2%"
+            "name": "CTS EVENTIM AG & CO KGAA",
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           },
           {
             "rank": 10,
-            "name": "RELX PLC",
-            "weightPercent": 3.2,
-            "weightText": "3.2%"
+            "name": "ANDRITZ AG",
+            "weightPercent": 3.3,
+            "weightText": "3.3%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -8100,53 +8076,53 @@
       "topHoldings": {
         "status": "published",
         "source": "baseline",
-        "parser": "primary",
+        "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-asean-managed-fund.pdf",
         "factsheetDocumentDate": "March 2012",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "DBS GROUP HOLDINGS LTD",
-            "weightPercent": 6.8,
-            "weightText": "6.8%"
+            "name": "OVERSEA-CHINESE BANKING CORPORATION LTD",
+            "weightPercent": 7.1,
+            "weightText": "7.1%"
           },
           {
             "rank": 2,
-            "name": "OVERSEA-CHINESE BANKING CORPORATION LTD",
-            "weightPercent": 6.7,
-            "weightText": "6.7%"
+            "name": "DBS GROUP HOLDINGS LTD",
+            "weightPercent": 7.0,
+            "weightText": "7.0%"
           },
           {
             "rank": 3,
             "name": "UNITED OVERSEAS BANK LTD",
-            "weightPercent": 4.0,
-            "weightText": "4.0%"
+            "weightPercent": 3.6,
+            "weightText": "3.6%"
           },
           {
             "rank": 4,
             "name": "SINGAPORE TELECOMMUNICATIONS LTD",
-            "weightPercent": 3.0,
-            "weightText": "3.0%"
+            "weightPercent": 3.1,
+            "weightText": "3.1%"
           },
           {
             "rank": 5,
             "name": "TENAGA NASIONAL BHD",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "weightPercent": 2.6,
+            "weightText": "2.6%"
           },
           {
             "rank": 6,
-            "name": "PUBLIC BANK BHD",
-            "weightPercent": 2.7,
-            "weightText": "2.7%"
-          },
-          {
-            "rank": 7,
             "name": "CIMB GROUP HOLDINGS BHD",
             "weightPercent": 2.5,
             "weightText": "2.5%"
+          },
+          {
+            "rank": 7,
+            "name": "PUBLIC BANK BHD",
+            "weightPercent": 2.4,
+            "weightText": "2.4%"
           },
           {
             "rank": 8,
@@ -8157,14 +8133,14 @@
           {
             "rank": 9,
             "name": "GULF DEVELOPMENT PCL",
-            "weightPercent": 1.9,
-            "weightText": "1.9%"
+            "weightPercent": 1.8,
+            "weightText": "1.8%"
           },
           {
             "rank": 10,
-            "name": "DELTA ELECTRONICS THAILAND PCL",
-            "weightPercent": 1.9,
-            "weightText": "1.9%"
+            "name": "SINGAPORE (REPUBLIC OF) 2.375% 1-JUL-2039",
+            "weightPercent": 1.7,
+            "weightText": "1.7%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -8228,63 +8204,63 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-asian-managed-fund.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "Eastspring Investments SICAV - Asian Bond Fund DUSD",
-            "weightPercent": 9.7,
-            "weightText": "9.7%"
+            "weightPercent": 9.9,
+            "weightText": "9.9%"
           },
           {
             "rank": 2,
             "name": "Fidelity Funds SICAV - Asian Special Situations Fund -CPF-ACC-SGD- Capitalisation",
-            "weightPercent": 9.4,
-            "weightText": "9.4%"
+            "weightPercent": 9.9,
+            "weightText": "9.9%"
           },
           {
             "rank": 3,
             "name": "DBS Group Holdings Ltd",
-            "weightPercent": 9.4,
-            "weightText": "9.4%"
+            "weightPercent": 9.5,
+            "weightText": "9.5%"
           },
           {
             "rank": 4,
             "name": "Oversea-Chinese Banking Corporation Limited",
-            "weightPercent": 5.6,
-            "weightText": "5.6%"
+            "weightPercent": 5.8,
+            "weightText": "5.8%"
           },
           {
             "rank": 5,
-            "name": "Monetary Authority Of Singapore 0.0% 21-aug-2026",
-            "weightPercent": 4.9,
-            "weightText": "4.9%"
+            "name": "Monetary Authority Of Singapore 0.0% 18-sep-2026",
+            "weightPercent": 4.4,
+            "weightText": "4.4%"
           },
           {
             "rank": 6,
             "name": "Taiwan Semiconductor Manufacturing Co., Ltd.",
-            "weightPercent": 3.3,
-            "weightText": "3.3%"
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
           },
           {
             "rank": 7,
             "name": "Sea Limited Sponsored ADR Class A",
-            "weightPercent": 3.1,
-            "weightText": "3.1%"
+            "weightPercent": 3.2,
+            "weightText": "3.2%"
           },
           {
             "rank": 8,
             "name": "United Overseas Bank Limited",
-            "weightPercent": 2.9,
-            "weightText": "2.9%"
+            "weightPercent": 2.6,
+            "weightText": "2.6%"
           },
           {
             "rank": 9,
             "name": "Singapore Telecommunications Limited",
-            "weightPercent": 2.2,
-            "weightText": "2.2%"
+            "weightPercent": 2.1,
+            "weightText": "2.1%"
           },
           {
             "rank": 10,
@@ -8354,69 +8330,69 @@
         "source": "baseline",
         "parser": "fallback",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-cash-fund.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
-            "name": "Monetary Authority Of Singapore 0.0% 17-aug-2026",
-            "weightPercent": 15.4,
-            "weightText": "15.4%"
+            "name": "Monetary Authority Of Singapore 0.0% 25-sep-2026",
+            "weightPercent": 14.0,
+            "weightText": "14.0%"
           },
           {
             "rank": 2,
-            "name": "Monetary Authority Of Singapore 0.0% 28-aug-2026",
-            "weightPercent": 10.3,
-            "weightText": "10.3%"
+            "name": "Monetary Authority Of Singapore 0.0% 11-sep-2026",
+            "weightPercent": 11.7,
+            "weightText": "11.7%"
           },
           {
             "rank": 3,
-            "name": "Monetary Authority Of Singapore 0.0% 27-aug-2026",
-            "weightPercent": 9.1,
-            "weightText": "9.1%"
+            "name": "Monetary Authority Of Singapore 0.0% 19-nov-2026",
+            "weightPercent": 9.3,
+            "weightText": "9.3%"
           },
           {
             "rank": 4,
-            "name": "Monetary Authority Of Singapore 0.0% 21-aug-2026",
-            "weightPercent": 8.0,
-            "weightText": "8.0%"
+            "name": "Monetary Authority Of Singapore 0.0% 04-sep-2026",
+            "weightPercent": 8.2,
+            "weightText": "8.2%"
           },
           {
             "rank": 5,
             "name": "Monetary Authority Of Singapore 0.0% 10-sep-2026",
-            "weightPercent": 8.0,
-            "weightText": "8.0%"
+            "weightPercent": 8.2,
+            "weightText": "8.2%"
           },
           {
             "rank": 6,
-            "name": "Monetary Authority Of Singapore 0.0% 14-aug-2026",
-            "weightPercent": 5.7,
-            "weightText": "5.7%"
+            "name": "Monetary Authority Of Singapore 0.0% 18-sep-2026",
+            "weightPercent": 8.2,
+            "weightText": "8.2%"
           },
           {
             "rank": 7,
-            "name": "Monetary Authority Of Singapore 0.0% 20-aug-2026",
-            "weightPercent": 5.7,
-            "weightText": "5.7%"
+            "name": "Monetary Authority Of Singapore 0.0% 05-nov-2026",
+            "weightPercent": 5.8,
+            "weightText": "5.8%"
           },
           {
             "rank": 8,
-            "name": "Monetary Authority Of Singapore 0.0% 07-aug-2026",
-            "weightPercent": 5.1,
-            "weightText": "5.1%"
+            "name": "Monetary Authority Of Singapore 0.0% 13-nov-2026",
+            "weightPercent": 5.5,
+            "weightText": "5.5%"
           },
           {
             "rank": 9,
             "name": "Monetary Authority Of Singapore 0.0% 01-oct-2026",
-            "weightPercent": 4.6,
-            "weightText": "4.6%"
+            "weightPercent": 4.7,
+            "weightText": "4.7%"
           },
           {
             "rank": 10,
-            "name": "Monetary Authority Of Singapore 0.0% 03-sep-2026",
-            "weightPercent": 3.8,
-            "weightText": "3.8%"
+            "name": "Monetary Authority Of Singapore 0.0% 08-oct-2026",
+            "weightPercent": 3.9,
+            "weightText": "3.9%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -8483,7 +8459,7 @@
         "parser": "recovery3_physical_table",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-dynamic-bond-fund-accumulation.pdf",
         "factsheetDocumentDate": "April 2011",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -8495,20 +8471,20 @@
           {
             "rank": 2,
             "name": "SINGAPORE (REPUBLIC OF) 2.25% 1-AUG-2036",
-            "weightPercent": 5.1,
-            "weightText": "5.1%"
+            "weightPercent": 4.7,
+            "weightText": "4.7%"
           },
           {
             "rank": 3,
             "name": "SINGAPORE (REPUBLIC OF) 2.75% 1-MAR-2046",
-            "weightPercent": 4.3,
-            "weightText": "4.3%"
+            "weightPercent": 3.6,
+            "weightText": "3.6%"
           },
           {
             "rank": 4,
             "name": "SINGAPORE (REPUBLIC OF) 2.75% 1-APR-2042",
-            "weightPercent": 3.5,
-            "weightText": "3.5%"
+            "weightPercent": 2.8,
+            "weightText": "2.8%"
           },
           {
             "rank": 5,
@@ -8519,8 +8495,8 @@
           {
             "rank": 6,
             "name": "SINGAPORE (REPUBLIC OF) 1.875% 1-MAR-2050",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "weightPercent": 2.4,
+            "weightText": "2.4%"
           },
           {
             "rank": 7,
@@ -8714,7 +8690,7 @@
         "parser": "recovery3_physical_table",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-dynamic-bond-fund-distribution.pdf",
         "factsheetDocumentDate": "April 2011",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -8726,20 +8702,20 @@
           {
             "rank": 2,
             "name": "SINGAPORE (REPUBLIC OF) 2.25% 1-AUG-2036",
-            "weightPercent": 5.1,
-            "weightText": "5.1%"
+            "weightPercent": 4.7,
+            "weightText": "4.7%"
           },
           {
             "rank": 3,
             "name": "SINGAPORE (REPUBLIC OF) 2.75% 1-MAR-2046",
-            "weightPercent": 4.3,
-            "weightText": "4.3%"
+            "weightPercent": 3.6,
+            "weightText": "3.6%"
           },
           {
             "rank": 4,
             "name": "SINGAPORE (REPUBLIC OF) 2.75% 1-APR-2042",
-            "weightPercent": 3.5,
-            "weightText": "3.5%"
+            "weightPercent": 2.8,
+            "weightText": "2.8%"
           },
           {
             "rank": 5,
@@ -8750,8 +8726,8 @@
           {
             "rank": 6,
             "name": "SINGAPORE (REPUBLIC OF) 1.875% 1-MAR-2050",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "weightPercent": 2.4,
+            "weightText": "2.4%"
           },
           {
             "rank": 7,
@@ -8841,7 +8817,7 @@
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-growth-fund.pdf",
         "factsheetDocumentDate": "July 2010",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
@@ -8853,14 +8829,14 @@
           {
             "rank": 2,
             "name": "Oversea-Chinese Banking Corp Ltd",
-            "weightPercent": 18.0,
-            "weightText": "18.0%"
+            "weightPercent": 18.8,
+            "weightText": "18.8%"
           },
           {
             "rank": 3,
             "name": "United Overseas Bank Ltd",
-            "weightPercent": 7.3,
-            "weightText": "7.3%"
+            "weightPercent": 6.4,
+            "weightText": "6.4%"
           },
           {
             "rank": 4,
@@ -8870,37 +8846,37 @@
           },
           {
             "rank": 5,
-            "name": "Jardine Matheson Holdings Ltd",
+            "name": "Yangzijiang Shipbuilding Holdings Ltd",
             "weightPercent": 4.3,
             "weightText": "4.3%"
           },
           {
             "rank": 6,
-            "name": "DFI Retail Group Holdings Ltd",
-            "weightPercent": 4.0,
-            "weightText": "4.0%"
+            "name": "Jardine Matheson Holdings Ltd",
+            "weightPercent": 4.1,
+            "weightText": "4.1%"
           },
           {
             "rank": 7,
-            "name": "Yangzijiang Shipbuilding Holdings Ltd",
-            "weightPercent": 4.0,
-            "weightText": "4.0%"
+            "name": "Singapore Exchange Ltd",
+            "weightPercent": 3.5,
+            "weightText": "3.5%"
           },
           {
             "rank": 8,
-            "name": "Singapore Exchange Ltd",
+            "name": "DFI Retail Group Holdings Ltd",
             "weightPercent": 3.5,
             "weightText": "3.5%"
           },
           {
             "rank": 9,
             "name": "Singapore Technologies Engineering Ltd",
-            "weightPercent": 2.6,
-            "weightText": "2.6%"
+            "weightPercent": 3.0,
+            "weightText": "3.0%"
           },
           {
             "rank": 10,
-            "name": "NTT DC REIT",
+            "name": "Keppel Ltd",
             "weightPercent": 2.6,
             "weightText": "2.6%"
           }
@@ -9022,27 +8998,27 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-strategicinvest-income-fund-distribution.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 3,
         "holdings": [
           {
             "rank": 1,
             "name": "Amundi Funds SICAV - Income Opportunities -A2 SGD Hgd MTD3- Distribution",
-            "weightPercent": 45.1,
-            "weightText": "45.1%"
+            "weightPercent": 44.5,
+            "weightText": "44.5%"
           },
           {
             "rank": 2,
             "name": "Allianz Global Investors Fund SICAV - Allianz Income and Growth -AMi3 (H2-SGD)- Distribution",
-            "weightPercent": 44.4,
-            "weightText": "44.4%"
+            "weightPercent": 44.5,
+            "weightText": "44.5%"
           },
           {
             "rank": 3,
             "name": "BRK-SYS GB EQ HG INC-S10SH",
-            "weightPercent": 10.0,
-            "weightText": "10.0%"
+            "weightPercent": 9.9,
+            "weightText": "9.9%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -9162,27 +9138,27 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-strategicinvest-income-fund-usd-distribution.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 3,
         "holdings": [
           {
             "rank": 1,
             "name": "Amundi Funds SICAV - Income Opportunities -A2 SGD Hgd MTD3- Distribution",
-            "weightPercent": 45.1,
-            "weightText": "45.1%"
+            "weightPercent": 44.5,
+            "weightText": "44.5%"
           },
           {
             "rank": 2,
             "name": "Allianz Global Investors Fund SICAV - Allianz Income and Growth -AMi3 (H2-SGD)- Distribution",
-            "weightPercent": 44.4,
-            "weightText": "44.4%"
+            "weightPercent": 44.5,
+            "weightText": "44.5%"
           },
           {
             "rank": 3,
             "name": "BRK-SYS GB EQ HG INC-S10SH",
-            "weightPercent": 10.0,
-            "weightText": "10.0%"
+            "weightPercent": 9.9,
+            "weightText": "9.9%"
           }
         ],
         "sourceFile": "output_holdings/all_holdings.json"
@@ -9442,15 +9418,15 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-us-dividend-wealth-fund-distribution.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "NVIDIA CORP",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "weightPercent": 3.0,
+            "weightText": "3.0%"
           },
           {
             "rank": 2,
@@ -9460,15 +9436,15 @@
           },
           {
             "rank": 3,
-            "name": "AMAZON.COM INC",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
+            "name": "MICROSOFT CORP",
+            "weightPercent": 2.0,
+            "weightText": "2.0%"
           },
           {
             "rank": 4,
-            "name": "MICROSOFT CORP",
-            "weightPercent": 1.5,
-            "weightText": "1.5%"
+            "name": "AMAZON.COM INC",
+            "weightPercent": 1.7,
+            "weightText": "1.7%"
           },
           {
             "rank": 5,
@@ -9484,19 +9460,19 @@
           },
           {
             "rank": 7,
-            "name": "WELLTOWER OP LLC - 144A 3.1250 07/15/29",
-            "weightPercent": 0.9,
-            "weightText": "0.9%"
+            "name": "LIVE NATION ENTERTAINMEN - 2.8750 01/15/30",
+            "weightPercent": 0.8,
+            "weightText": "0.8%"
           },
           {
             "rank": 8,
             "name": "BROADCOM INC",
-            "weightPercent": 0.9,
-            "weightText": "0.9%"
+            "weightPercent": 0.8,
+            "weightText": "0.8%"
           },
           {
             "rank": 9,
-            "name": "LIVE NATION ENTERTAINMEN - 2.8750 01/15/30",
+            "name": "WELLTOWER OP LLC - 144A 3.1250 07/15/29",
             "weightPercent": 0.8,
             "weightText": "0.8%"
           },
@@ -9712,15 +9688,15 @@
         "source": "baseline",
         "parser": "primary",
         "factsheetUrl": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-us-dividend-wealth-fund-usd-distribution.pdf",
-        "factsheetDocumentDate": "August 2026",
-        "factsheetDataAsAt": "31 Jul 2026",
+        "factsheetDocumentDate": "September 2026",
+        "factsheetDataAsAt": "31 Aug 2026",
         "count": 10,
         "holdings": [
           {
             "rank": 1,
             "name": "NVIDIA CORP",
-            "weightPercent": 2.8,
-            "weightText": "2.8%"
+            "weightPercent": 3.0,
+            "weightText": "3.0%"
           },
           {
             "rank": 2,
@@ -9730,15 +9706,15 @@
           },
           {
             "rank": 3,
-            "name": "AMAZON.COM INC",
-            "weightPercent": 1.7,
-            "weightText": "1.7%"
+            "name": "MICROSOFT CORP",
+            "weightPercent": 2.0,
+            "weightText": "2.0%"
           },
           {
             "rank": 4,
-            "name": "MICROSOFT CORP",
-            "weightPercent": 1.5,
-            "weightText": "1.5%"
+            "name": "AMAZON.COM INC",
+            "weightPercent": 1.7,
+            "weightText": "1.7%"
           },
           {
             "rank": 5,
@@ -9754,19 +9730,19 @@
           },
           {
             "rank": 7,
-            "name": "WELLTOWER OP LLC - 144A 3.1250 07/15/29",
-            "weightPercent": 0.9,
-            "weightText": "0.9%"
+            "name": "LIVE NATION ENTERTAINMEN - 2.8750 01/15/30",
+            "weightPercent": 0.8,
+            "weightText": "0.8%"
           },
           {
             "rank": 8,
             "name": "BROADCOM INC",
-            "weightPercent": 0.9,
-            "weightText": "0.9%"
+            "weightPercent": 0.8,
+            "weightText": "0.8%"
           },
           {
             "rank": 9,
-            "name": "LIVE NATION ENTERTAINMEN - 2.8750 01/15/30",
+            "name": "WELLTOWER OP LLC - 144A 3.1250 07/15/29",
             "weightPercent": 0.8,
             "weightText": "0.8%"
           },
