@@ -5,6 +5,152 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "9198c20b0f078264274daf7a9340c41af3aa679b8727d16f51d90797957189e9",
+      "source": "CNBC",
+      "title": "Futures orbit around SpaceX as Tesla merger talk cheers investors",
+      "publishedAtSgt": "2026-10-21T20:44:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/futures-orbit-around-spacex-as-tesla-merger-talk-cheers-investors.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "SpaceX shares are spiking in premarket trade after Elon Musk unveiled a special committee had been put in place to merge the rocket group with Tesla, in a move he called a \"good idea.\" Musk also said he represents a \"conflicted party,\" meaning he will not be included in the discussions.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-21T20:58:38+08:00"
+    },
+    {
+      "id": "088e87590b3377a7d42125016fbe3e3be091e8e5897c1bc90dd701132aec49aa",
+      "source": "CNBC",
+      "title": "Treasury yields steady as investors await jobless claims, mortgage data",
+      "publishedAtSgt": "2026-10-21T20:44:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/bonds-us-treasurys-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "economic picture ahead of next week's Federal Reserve interest rate decision. 28, traders are weighing up how domestic economic data and global geopolitical developments are shaping the outlook for inflation and interest rates. That's as fresh missile strikes on tankers in the Strait of Hormuz and Saudi energy facilities sparked renewed concerns over oil supplies.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T20:58:38+08:00"
+    },
+    {
+      "id": "46656e05aa4fb2fffcca686b8c4494dfed50bb4a96e988ac54464e988673ef4b",
+      "source": "CNBC",
+      "title": "SpaceX up 8% in premarket after earnings beat and Musk hints at Tesla tie-up",
+      "publishedAtSgt": "2026-10-21T20:23:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "SpaceX jumped in premarket trading on Wednesday after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger. The space company, which made its debut on the Nasdaq in the biggest IPO ever in June, reported third-quarter revenue on Tuesday of $14.6 billion, up 161% from the previous year, and beating LSEG consensus estimates of $12.72 billion.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T20:58:36+08:00"
+    },
+    {
+      "id": "f16e6b421bfa3732e525093f3d1137891adaa90b7da084f8f6fd36c082bf8e7a",
+      "source": "CNBC",
+      "title": "Investors are questioning neoclouds' business model but Nebius says AI computing prices are rising",
+      "publishedAtSgt": "2026-10-21T20:21:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/nebius-ai-computing-nvidia-gpu-prices.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "BERLIN — Nebius is seeing AI computing prices rise more than expected, a top executive told CNBC on Wednesday, offering a bullish view as neocloud firms' business model comes under increasing scrutiny. \"There's tremendous demand and a lot of it is because the underlying model capabilities have gotten so much more advanced that people are just creating so much more value out of the compute infrastructure.\" The comments come amid an investor debate over how quickly Nvidia's GPUs lose their...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T20:58:37+08:00"
+    },
+    {
+      "id": "16c4cdee7561a925299837e1d145ea2c3cad0c8c5c893b6ab3452ff6a11cfccd",
+      "source": "CNBC",
+      "title": "French 10-year bond yield hits 5% for first time since 2002 amid unrest",
+      "publishedAtSgt": "2026-10-21T18:40:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The yield on France's benchmark 10-year government bond briefly crossed the 5% threshold for the first time since 2002 on Wednesday, as the country grapples with multiple crises. The yield on the 10-year OAT was last seen around 6 basis points higher at 4.9794%, after rising above 5% shortly before 11:30 a.m.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T20:58:36+08:00"
+    },
+    {
+      "id": "31661e11c9fe2a781bbbe345fbe37535e380b3ce54af205ba3f8f2a4c34f657f",
+      "source": "CNBC",
+      "title": "'MAKE DEALS': Trump says data centers should pay communities a 'dividend' to win support",
+      "publishedAtSgt": "2026-10-21T18:34:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/trump-data-centers-community-dividend.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "AI infrastructure company Nebius is \"100% in principle\" having discussions about investing in communities, the company's Chief Revenue Officer Marc Boroditsky told CNBC when asked about Trump's suggestion of a dividend. I could see something like a benefit of some sort that's more direct economic opportunity for the community as well,\" he said.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T20:58:37+08:00"
+    },
+    {
+      "id": "4cf3a622c7d9b02d6aa5345ef3a0b4a87391a7efeaf69d72770ae5819cf7909d",
+      "source": "CNBC",
+      "title": "French supermarket giant's shares plunge 14% after warning ‘unprecedented’ unrest will hit business",
+      "publishedAtSgt": "2026-10-21T16:12:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/carrefour-french-protests-guidance-cut.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of French supermarket giant Carrefour plunged 14% on Wednesday after the company cut its full-year profit forecast, citing \"an unprecedented situation in France.\" \"In light of the worsening social and security situation, the Group considers that consumption trends and operating conditions in France are facing a deterioration,\" the company said in its third-quarter earnings report published late Tuesday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-21T20:58:37+08:00"
+    },
+    {
+      "id": "299c131c0e4e78b5648601e354807d2c42ce0d898cd82c7112c0ff335aceb79d",
+      "source": "CNBC",
+      "title": "UK inflation jumps to 3.5% — cementing rate hike expectations",
+      "publishedAtSgt": "2026-10-21T15:50:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Britain is a net energy importer, making it vulnerable to external energy shocks, such as the U.S.-Iran war and the subsequent struggle to move oil through the Strait of Hormuz. Morgan Personal Investing, said in a note Wednesday morning that recent growth in headline inflation had \"undone the progress we saw in the spring.\" \"Bank of England policymakers will be looking beyond the headline figure,\" he said.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T20:58:37+08:00"
+    },
+    {
+      "id": "b6afa562f172718d58ebf4e27fe9ad9977e82d7923d280115f97f85488f5557f",
+      "source": "CNBC",
+      "title": "OpenAI's most powerful AI models disabled their own safety monitoring — and one lied about it",
+      "publishedAtSgt": "2026-10-21T15:49:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/openai-ai-models-safety-monitoring.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "OpenAI has revealed that agents operated by two of its most powerful models disabled their own safety monitoring when carrying out routine tasks, with one subsequently denying it had done so. An agent powered by GPT Sol 6.1 disabled automatic alerts to OpenAI's security team, the company said in a blog post late on Tuesday.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T20:58:36+08:00"
+    },
+    {
       "id": "5f0c6c27d993a5bea5b48b9fae6dea524f8a1069476a6f8c12c630b1a6dc52ae",
       "source": "CNBC",
       "title": "Oil prices climb as traders assess Middle East developments",
@@ -52,6 +198,21 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-21T14:05:19+08:00"
+    },
+    {
+      "id": "2f1cd1b2cdacce1280bd1e7f9f481971231e5898f976645af579f4caa8f5e745",
+      "source": "CNBC",
+      "title": "This Janus Henderson fund manager owns CoreWeave debt — here's why he's sticking with it",
+      "publishedAtSgt": "2026-10-21T08:12:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/20/coreweave-debt-janus-henderson-lloyd.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The yield to maturity on the debt is now 15.97%, a more than 70% jump since its issuance in April. Bond prices and yields move in opposite directions. \"Bond prices are lower, spreads are wider, yields are wider, and I don't see a huge fundamental change in the ecosystem right now that would warrant that, other than their higher cost of financing, which I think they can get creative with,\" Lloyd added.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-21T20:58:37+08:00"
     },
     {
       "id": "682ac9b8bb351c3a277defcc9be8e748dd68709f4e09b270dbf7e26da8c878b9",
@@ -213,6 +374,6 @@
       "collectedAtSgt": "2026-10-21T02:00:33+08:00"
     }
   ],
-  "articleCount": 13,
-  "updatedAtSgt": "2026-10-21T14:05:19+08:00"
+  "articleCount": 23,
+  "updatedAtSgt": "2026-10-21T20:58:38+08:00"
 }
