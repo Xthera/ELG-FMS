@@ -1,10 +1,102 @@
 {
-  "generatedAtSgt": "2026-10-21T06:35:56.316865+08:00",
+  "generatedAtSgt": "2026-10-21T08:57:31.781855+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 228,
+  "articleCount": 231,
   "analyses": [
+    {
+      "articleId": "682ac9b8bb351c3a277defcc9be8e748dd68709f4e09b270dbf7e26da8c878b9",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Japan's September exports grew by 16.7% year on year, significantly missing analysts' expectations of a 20.1% increase, although growth was supported by strong semiconductor shipments.",
+      "assetClasses": [
+        "Equities",
+        "Currencies"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Semiconductors",
+        "Trade and Export"
+      ],
+      "investorImpact": "The export miss highlights slowing economic momentum in Japan's primary growth driver, potentially weighing on Japanese equities and the yen, despite strength in the semiconductor sector.",
+      "reasoning": "The article provides key macroeconomic data showing a major miss in Japanese export growth compared to analyst expectations, signaling economic slowdown risks while highlighting semiconductor sector performance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Japan exports post huge miss in September as growth slows to 16.7%",
+      "publishedAtSgt": "2026-10-21T08:12:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/japan-trade-exports-semiconductor-yen.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-21T08:41:47+08:00"
+    },
+    {
+      "articleId": "2aedec4eeff29d2d932e53bc228550c8cdd35e0739356151bcb0cf61937afbfc",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Capital One reported a strong quarter and showed progress in its Discover integration, which was rewarded on Wall Street with a positive after-hours reaction despite higher expenses and credit risk concerns related to oil prices.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Investors in Capital One benefit from strong quarterly results and successful integration progress, though expense pressures and broader credit risks remain considerations for the banking sector.",
+      "reasoning": "The article discusses quarterly earnings performance and merger integration for a major financial institution, providing relevant market and sector insights.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Capital One's strong quarter and progressing Discover integration are rewarded on Wall Street",
+      "publishedAtSgt": "2026-10-21T07:34:14+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/20/capital-one-strong-quarter-and-progressing-discover-integration-are-rewarded.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-21T08:41:47+08:00"
+    },
+    {
+      "articleId": "4af13d1ca2b230a747f4a5edd5d7cd80e9f42fc2061370958f214968e3db257d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "The article highlights that investors focusing exclusively on AI and data-center stocks are missing opportunities in other areas of the market, such as sectors benefiting from falling oil prices, a robust bond market driven by a frozen housing sector, and strong industrial earnings like GE Aerospace's 49% order growth.",
+      "assetClasses": [
+        "Equities",
+        "Bonds",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Aerospace",
+        "Industrials",
+        "Energy",
+        "Real Estate"
+      ],
+      "investorImpact": "Investors should look beyond the concentrated AI trade and consider cyclical, industrial, and energy sectors that are showing strong fundamentals and earnings growth outside of tech.",
+      "reasoning": "Classified as MARKET because it discusses broader market opportunities, asset rotation outside of tech/AI, and sector-specific earnings. It is relevant for fund monitoring as it highlights alternative investment themes.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Obsessed with CoreWeave and the AI trade? You're missing out on some great stocks",
+      "publishedAtSgt": "2026-10-21T05:17:47+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/20/obsessed-with-the-ai-trade-youre-missing-out-on-some-great-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T08:41:48+08:00"
+    },
     {
       "articleId": "e0883bd89c44e62fe12623cfea2313c6b8e70a930b89290de91343adf12d516a",
       "relevant": true,
