@@ -1,10 +1,157 @@
 {
-  "generatedAtSgt": "2026-10-21T21:14:33.638432+08:00",
+  "generatedAtSgt": "2026-10-22T02:21:53.349311+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 244,
+  "articleCount": 226,
   "analyses": [
+    {
+      "articleId": "111ddd8881b0a238a0b1bf2b4110b856606b5849041e75c66e063545ebe25feb",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Investors are rotating out of high-volatility AI growth and infrastructure stocks burdened by massive debt and capital expenditures, shifting towards traditional safety sectors like utilities and consumer staples, though this strategy may carry unexpected correlations termed a Texas hedge.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Utilities",
+        "Consumer Staples",
+        "Technology"
+      ],
+      "investorImpact": "Investors are reallocating capital away from aggressive AI infrastructure plays facing high debt loads and moving into perceived defensive havens, signaling changing risk appetite and sector rotation dynamics.",
+      "reasoning": "The article discusses capital rotation trends between high-growth AI infrastructure plays and defensive sectors, directly impacting equity portfolio positioning and risk management.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Expanding AI trade is turning safety stocks into a 'Texas hedge'",
+      "publishedAtSgt": "2026-10-22T01:14:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/expanding-ai-trade-is-turning-safety-stocks-into-a-texas-hedge.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T02:06:08+08:00"
+    },
+    {
+      "articleId": "dd31afe1ca54ce954d1719b09db219e8b221fe836acc88f267a7c9386195d506",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Meta stock advanced ahead of its after-the-bell earnings report, while related AI and rocket stock shares surged nearly 11% amid credit concerns prompting profit-taking.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Investors monitoring large-cap tech and AI stocks should note the pre-earnings momentum and profit-taking activities driven by credit concerns.",
+      "reasoning": "Classified as MARKET due to focus on stock price movements ahead of earnings and portfolio profit-taking strategies, with medium importance given the relevance to tech sector sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta stock advances ahead of after-the-bell earnings. What we're looking for",
+      "publishedAtSgt": "2026-10-22T00:47:59+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/21/meta-stock-advances-ahead-of-after-the-bell-earnings-what-were-looking-for.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T02:06:09+08:00"
+    },
+    {
+      "articleId": "00da237515666fddd0ba6ca497d5d3b6dcda9fcaeb35e6fb460d3e296be1291d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Options trading for Meta and Tesla leaned bullish following SpaceX earnings, with Meta seeing strong call buying and sustained bullish positioning since its March low based on Barchart data.",
+      "assetClasses": [
+        "Equities",
+        "Options"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Consumer Discretionary"
+      ],
+      "investorImpact": "Investors can gauge ongoing market sentiment and options positioning for major mega-cap stocks like Meta and Tesla, helping inform sentiment-driven strategies.",
+      "reasoning": "Classified as MARKET because it details options trading behavior and investor sentiment for specific large-cap equities. Sentiment is POSITIVE due to bullish call buying, and importance is MEDIUM given its relevance to equity options traders.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta and Tesla bulls get confidence boost after SpaceX earnings",
+      "publishedAtSgt": "2026-10-22T00:35:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/meta-tesla-options-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T02:06:07+08:00"
+    },
+    {
+      "articleId": "a966d341678b7ed0707e439da55608cbd0bb3d25d526015f5441f63b8975426f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Tesla earnings are looming as CEO Elon Musk raises the prospect of a potential SpaceX merger, citing cooperation potentials in AI software, chip design, Terafab, and robotics. Tesla already utilizes Grok AI technology from SpaceX for vehicle assistants and Optimus humanoid robots, though automotive margins have faced ongoing headwinds from rising interest rates and energy costs.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Automotive",
+        "Technology"
+      ],
+      "investorImpact": "Investors are weighing the growth potential of AI and robotics synergies against near-term margin pressures from higher interest rates and energy costs impacting automotive earnings.",
+      "reasoning": "The article discusses major corporate developments and earnings previews for a large-cap stock, touching on market sentiment, AI integration, and macroeconomic pressures like interest rates, making it highly relevant for equity market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Tesla earnings loom after Musk calls SpaceX merger a 'good idea'",
+      "publishedAtSgt": "2026-10-22T00:01:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T02:06:07+08:00"
+    },
+    {
+      "articleId": "cd8f5e9168916fb622acfc26ae580b6be71dbaf65cfe7eee37b4db5b699a8ee5",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "LOW",
+      "summary": "A Betterment study shows that 52% of Gen Z investors redirected investment funds toward sports betting over the past year, missing out on potential compounding returns from stocks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Highlights behavioral shifts among younger retail investors moving capital away from traditional markets into sports betting, potentially impacting retail flow dynamics.",
+      "reasoning": "Classified under MARKET due to retail investing behavior trends. Importance is LOW as it focuses on generational consumer habits rather than macro market-moving events. Fund monitoring relevance is false as it does not directly impact institutional fund assets.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "A $50 sports bet costs a young investor hundreds later. Here's how",
+      "publishedAtSgt": "2026-10-21T23:16:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/sports-betting-young-investors-compounding.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T02:06:14+08:00"
+    },
     {
       "articleId": "9198c20b0f078264274daf7a9340c41af3aa679b8727d16f51d90797957189e9",
       "relevant": true,
@@ -6705,696 +6852,6 @@
       "collectorRelevanceScore": 92,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-09T00:37:42+08:00"
-    },
-    {
-      "articleId": "07316d447733a039798ce804ee0894f965701d170a56222392c4c5e60f1cda16",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "LOW",
-      "summary": "Jim Cramer stated he is in a buying mood and mentioned several stocks he is considering picking at, including Kimberly-Clark, Bank of New York, Boeing, and FedEx.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Consumer Goods",
-        "Financials",
-        "Industrials",
-        "Aerospace & Defense"
-      ],
-      "investorImpact": "Provides retail or club investor insight into specific equities being considered for purchase by Jim Cramer's charitable trust, though broad portfolio impact is low.",
-      "reasoning": "The article discusses stock market commentary and potential equity purchases by a notable media commentator, classifying it under market sentiment with low overall portfolio importance and low fund monitoring relevance.",
-      "fundMonitoringRelevant": false,
-      "source": "CNBC",
-      "title": "Jim Cramer says he's in a buying mood. Here are some stocks he's considering",
-      "publishedAtSgt": "2026-10-08T23:18:03+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/08/jim-cramer-says-hes-in-a-buying-mood-here-are-some-stocks-hes-considering.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-09T00:37:46+08:00"
-    },
-    {
-      "articleId": "0f468e01a482ef5b210fdd5c74a7dd60cdc0a607301ab28f07773fee73efdee1",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Options traders are beginning to call a bottom on the recent bond market sell-off, heavily buying call options on the iShares 20+ Year Treasury Bond ETF following a strong 10-year Treasury auction.",
-      "assetClasses": [
-        "Fixed Income",
-        "ETFs"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "Signals potential stabilization in U.S. Treasury markets after a severe sell-off, which may present buying opportunities for fixed-income investors.",
-      "reasoning": "Classified as MARKET due to direct focus on bond options trading activity and Treasury auctions. Sentiment is POSITIVE regarding the call for a bond market bottom following strong auction demand.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Options traders start calling bottom on bond rout after 'bullet bid' 10-year auction",
-      "publishedAtSgt": "2026-10-08T21:29:52+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/options-traders-start-calling-bottom-on-bond-rout-after-bullet-bid-10-year-auction.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-09T00:37:46+08:00"
-    },
-    {
-      "articleId": "3c1fe6a71a11056a6544e7fde3fd35808791319d142b1eaf41a241c851226ae3",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "A research paper from the New York Fed indicates that tariffs were entirely responsible for inflation across 67 categories of everyday consumer goods, with prices 2.9 percentage points higher as of February and annual price growth peaking at the start of 2026.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income",
-        "Commodities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Consumer Discretionary",
-        "Consumer Staples",
-        "Retail"
-      ],
-      "investorImpact": "The findings highlight the direct inflationary pressure of tariffs on consumer goods, which can impact consumer spending behavior, retail sector margins, and influence Federal Reserve monetary policy decisions.",
-      "reasoning": "Classified as ECONOMIC because it deals with central bank research on inflation and tariffs. Sentiment is NEGATIVE due to persistent tariff-driven inflation pressures. Importance is HIGH as macroeconomic inflation data directly affects interest rate expectations and broader market valuations.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
-      "publishedAtSgt": "2026-10-08T21:28:42+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
-    },
-    {
-      "articleId": "660a65c611b7bf719b48fa96fc85c792c3e6019e0a7c5af34d1c84582b4a7b08",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "LOW",
-      "summary": "Jim Cramer outlines top stock market items to watch, noting that the IPO of Nvidia-backed AI infrastructure firm Firmus Grid in Australia is looking shaky, while TD Cowen issued rating adjustments for major financial institutions including Wells Fargo, Goldman Sachs, and Bank of New York.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Australia",
-        "United States"
-      ],
-      "sectors": [
-        "Financials",
-        "Technology"
-      ],
-      "investorImpact": "Investors in the mentioned financial stocks and tech-related IPOs can use analyst rating updates and market sentiment to gauge near-term sector performance, though the impact is largely commentary-driven.",
-      "reasoning": "The article is relevant for market sentiment tracking as it discusses analyst actions on major banks and an AI infrastructure IPO, but it lacks deep macroeconomic significance, warranting a low importance rating.",
-      "fundMonitoringRelevant": false,
-      "source": "CNBC",
-      "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
-      "publishedAtSgt": "2026-10-08T21:04:30+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/08/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
-    },
-    {
-      "articleId": "a99df6ecd7573ed6aa2cd47fdbfce9a19f42c1ced3ac04a256de0952caec7c8b",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "Federal Reserve minutes from September indicate officials foresee another rate hike before year-end, while the New York Fed consumer survey showed 12-month inflation outlook jumping to its highest since 2023. Additionally, Levi Strauss reported a boost from tariff refunds.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Consumer Discretionary",
-        "Financials"
-      ],
-      "investorImpact": "The possibility of another rate hike and rising short-term inflation expectations can create volatility across both equity and fixed income markets, influencing borrowing costs and consumer-related sectors.",
-      "reasoning": "The article highlights key macroeconomic indicators and Federal Reserve policy expectations which are critical for market and fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Fed minutes, Pepsi earnings, midterm megadonors and more in Morning Squawk",
-      "publishedAtSgt": "2026-10-08T20:53:20+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/5-things-to-know-before-the-stock-market-opens.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
-    },
-    {
-      "articleId": "1c69d1b534c6b52d5436fc2c7df9dc2f753453c959a58c0ba69395fe7f0fd994",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Billionaire investor Ray Dalio warned that stocks face mounting pressure from rising bond yields and potentially weaker corporate cash flows. He noted that equities have weathered the global bond sell-off due to earnings growth keeping expected returns attractive relative to bonds, but that cushion is now shrinking.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "Investors should note the increased vulnerability of equities as rising bond yields reduce the attractiveness of stock returns relative to bonds, signaling potential downside risks if earnings growth slows.",
-      "reasoning": "The article provides crucial commentary from a prominent market figure regarding broad macro-market dynamics affecting asset valuation and risk sentiment, warranting high importance and fund monitoring relevance.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Ray Dalio warns the stock market's cushion against rising bond yields is shrinking",
-      "publishedAtSgt": "2026-10-08T20:19:53+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 94,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
-    },
-    {
-      "articleId": "290325c065357c6a88ba1eef66f619ebacfb04ea9ab2a809253a0270589b6852",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Real estate investment trusts (REITs) are proving resilient against rising interest rates due to peaking new supply, improving cash flow growth, and attractive valuations relative to general equities.",
-      "assetClasses": [
-        "Real Estate",
-        "Equities"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Real Estate"
-      ],
-      "investorImpact": "Investors can view REITs with renewed confidence as they demonstrate resilience against interest rate pressures, supported by improving cash flows and attractive relative valuations.",
-      "reasoning": "The article is classified under MARKET as it discusses the performance and valuation dynamics of REITs amid interest rate changes, providing actionable insight for real estate and equity investors.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Why REITs aren't getting killed by rising interest rates this time around",
-      "publishedAtSgt": "2026-10-08T19:28:53+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/why-reits-arent-getting-killed-by-rising-interest-rates-this-time.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T21:37:35+08:00"
-    },
-    {
-      "articleId": "bde8eaaa417b4b1a4e65599fdf9791d29151fb56478bbfcff026c178ed2b63e2",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "PepsiCo reported quarterly earnings and revenue that beat analysts' expectations driven by international growth, but cut its earnings forecast as the North American turnaround takes longer than expected.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "North America"
-      ],
-      "sectors": [
-        "Consumer Staples"
-      ],
-      "investorImpact": "Investors should note that while international growth remains strong, challenges in the North American segment and lowered earnings forecasts have created mixed sentiment, resulting in a slight drop in premarket share prices.",
-      "reasoning": "The article is classified under MARKET as it details a major corporate earnings report, forecast revision, and market reaction for a large-cap public company. Sentiment is mixed due to earnings beats balanced against a downgraded forecast and sluggish domestic performance.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
-      "publishedAtSgt": "2026-10-08T18:34:36+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
-    },
-    {
-      "articleId": "904a65352a25a69dfa4c4492dc1b0bdf2abb16e20a0bdc1098a9bda29215fca1",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "Russia's internet giant Yandex halted operations at a major data center following a drone attack, amidst escalating Ukrainian drone strikes on Russian infrastructure including energy and retail assets.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Russia",
-        "Ukraine"
-      ],
-      "sectors": [
-        "Technology",
-        "Infrastructure"
-      ],
-      "investorImpact": "Investors with exposure to Russian technology and infrastructure assets face increased operational risks and potential disruptions due to ongoing geopolitical conflict and targeted drone attacks.",
-      "reasoning": "Classified as GEOPOLITICAL due to the drone attack on Russian infrastructure and categorized as NEGATIVE sentiment given the operational disruption to a major internet and technology firm.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Russia's internet giant Yandex halts operations at major data center after drone attack",
-      "publishedAtSgt": "2026-10-08T17:40:36+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 81,
-      "collectorRelevanceReason": "technology_business_or_infrastructure",
-      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
-    },
-    {
-      "articleId": "85d972dd8f7e36ebee999e64df5206059fd19d638d852e3d5a7ecc5cff6605cf",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "China's real estate market shows signs of a potential turnaround after a yearslong slump, supported by government mortgage subsidies and wealth effects stemming from the artificial intelligence boom.",
-      "assetClasses": [
-        "Equities",
-        "Real Estate",
-        "Debt"
-      ],
-      "geographies": [
-        "China"
-      ],
-      "sectors": [
-        "Real Estate",
-        "Property Development"
-      ],
-      "investorImpact": "A stabilization or turnaround in China's massive real estate sector could boost investor confidence, improve asset quality for exposed lenders, and spur broader economic growth in the region.",
-      "reasoning": "The article discusses major macroeconomic and market shifts in China's real estate sector with direct implications for property developers and investor sentiment, making it highly relevant for fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "After a yearslong slump, China's real estate market may be set for a turnaround",
-      "publishedAtSgt": "2026-10-08T17:27:31+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T18:35:41+08:00"
-    },
-    {
-      "articleId": "3ecdc02f4e023db8ab371782807689a09835ad6a4ee9db47b05b5b5b029035b9",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "AI agent startup Manus has raised more than $500 million in its first funding round since Meta was forced to abandon its acquisition. The round was led by Boyu Capital and IDG Capital, with participation from Tencent, HSG, and ZhenFund.",
-      "assetClasses": [
-        "Private Equity",
-        "Venture Capital"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology",
-        "Artificial Intelligence"
-      ],
-      "investorImpact": "Highlights continued strong private market investor appetite and venture capital deployment for major artificial intelligence startups despite regulatory hurdles regarding corporate acquisitions.",
-      "reasoning": "Classified as MARKET due to the major private funding round involving prominent venture capital and private equity firms, demonstrating significant capital flows into the AI sector.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "AI startup Manus raises $500 million in first funding round since Meta breakup",
-      "publishedAtSgt": "2026-10-08T14:59:59+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 95,
-      "collectorRelevanceReason": "business_market_event",
-      "collectedAtSgt": "2026-10-08T15:36:36+08:00"
-    },
-    {
-      "articleId": "f9bf5e13d0fb5b1e78236578465aad507b92b37e7a0e6a3c0d3e5820e4caaaf1",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Oil prices rose due to Middle East hostilities and potential escalation raising supply concerns, notably regarding the Strait of Hormuz and Saudi energy infrastructure.",
-      "assetClasses": [
-        "Commodities",
-        "Energy"
-      ],
-      "geographies": [
-        "Middle East",
-        "Iran",
-        "USA",
-        "Saudi Arabia"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil and Gas"
-      ],
-      "investorImpact": "Supply disruptions in critical oil transit points like the Strait of Hormuz can drive up crude prices, creating inflationary pressures and benefiting energy sector equities while potentially weighing on broader market sentiment.",
-      "reasoning": "The article directly addresses physical supply risks in global energy markets due to geopolitical tensions, making it highly relevant for market monitoring and asset allocation in the energy space.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Oil gains as Middle East hostilities, potential escalation stoke supply worries",
-      "publishedAtSgt": "2026-10-08T12:07:51+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T12:34:27+08:00"
-    },
-    {
-      "articleId": "7757b47376c9b848108e0bbad134190c7803e6307ea86f8a89086de14f86ee32",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "Samsung forecasts a record third-quarter profit driven by strong AI chip demand and tight memory supply, yet shares or sentiment saw pressure as results fell short of extremely lofty market expectations.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global",
-        "Asia-Pacific"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Highlights how exceptionally high market expectations in the AI hardware and memory sector can cause a mixed reaction even when record financial performance is achieved.",
-      "reasoning": "The article reports on major corporate earnings from a leading semiconductor manufacturer, heavily tied to AI demand, making it critical for market and sector monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
-      "publishedAtSgt": "2026-10-08T08:51:23+08:00",
-      "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
-    },
-    {
-      "articleId": "fead37a43eede596056634a208a40ca720adfb30ce3a266fc600f71611c55a05",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEUTRAL",
-      "importance": "LOW",
-      "summary": "Trump trade chief Jamieson Greer reported higher cash holdings and significant law firm pay in his newly obtained 2025 annual financial disclosure, following his transition from King & Spalding to the administration.",
-      "assetClasses": [],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Legal Services",
-        "Government"
-      ],
-      "investorImpact": "The financial disclosure of a top trade official provides transparency regarding personal assets but does not have an immediate or material impact on broader asset classes or market sectors.",
-      "reasoning": "Classified as GEOPOLITICAL due to its focus on a key trade administration official, but rated LOW importance and false for fund monitoring relevance because it focuses on personal financial disclosures rather than actionable trade policy shifts.",
-      "fundMonitoringRelevant": false,
-      "source": "CNBC",
-      "title": "Trump trade chief Greer reports higher cash holdings as law firm pay topped $650K",
-      "publishedAtSgt": "2026-10-08T07:10:54+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/jamieson-greer-financial-disclosure-coupang.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
-    },
-    {
-      "articleId": "793e9a5e6e9c9a4ded33510815d46c981442b79fae3cd7fb707d0b99a0357b24",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Independent research firm New Constructs has criticized Anthropic's upcoming IPO as the most ridiculous of the year, warning that Wall Street is facing an unprecedented test of investor gullibility as the AI company aims for a potential $2 trillion valuation while being independently valued at $150 billion.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Artificial Intelligence"
-      ],
-      "investorImpact": "Investors should exercise caution and conduct rigorous fundamental analysis regarding high-valuation AI IPOs, as extreme valuation discrepancies between private ambitions and independent assessments carry significant correction risks.",
-      "reasoning": "The article is classified under MARKET due to its focus on an upcoming high-profile IPO and contrasting equity valuations. It is important for monitoring market exuberance and sentiment within the technology and artificial intelligence sectors.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
-      "publishedAtSgt": "2026-10-08T06:29:41+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
-    },
-    {
-      "articleId": "78d587064c304ce13b13246c84e2172d2b96fc504402c29645fc97ccc8604be4",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "Jim Cramer noted that rising interest rates and bond market conditions are splitting the stock market into two distinct groups: rate-sensitive companies constrained by higher borrowing costs and artificial intelligence businesses that remain relatively insulated.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Artificial Intelligence",
-        "Financials"
-      ],
-      "investorImpact": "Investors should note the divergence in market performance driven by interest rates, favoring cash-rich or high-growth AI sectors over rate-sensitive equities.",
-      "reasoning": "The article discusses broader market bifurcation caused by interest rates and Treasury auctions, directly impacting equity and fixed income allocations.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Cramer says higher rates are splitting the market in two — and AI stocks have a big advantage",
-      "publishedAtSgt": "2026-10-08T06:22:32+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/jim-cramer-spacex-wall-street-bull-case.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T09:33:31+08:00"
-    },
-    {
-      "articleId": "4507a16d6594e0abefbc0f219d477425015f43aa51b50173fdf744b1b73e9253",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "Levi Strauss raised its profit outlook due to tariff refunds, but lowered its full-year net revenue growth guidance to the bottom of its previous range at 7%, leading to flat share performance in extended trading.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global",
-        "United States"
-      ],
-      "sectors": [
-        "Consumer Discretionary",
-        "Apparel"
-      ],
-      "investorImpact": "Investors should note the divergence between improved profitability from one-off tariff refunds and weaker underlying revenue growth, indicating softening top-line demand for apparel retailers.",
-      "reasoning": "Classified as MARKET due to corporate earnings and guidance updates affecting equity performance. Sentiment is MIXED because higher profit guidance contrasts with lower revenue growth outlooks.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
-      "publishedAtSgt": "2026-10-08T05:31:40+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T06:31:12+08:00"
-    },
-    {
-      "articleId": "a38801f88bd2c8de4584795f39c18fb1e1ffdb8ad7ca4e139d9b44d639d6c170",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Jim Cramer remains bullish on Nvidia following reports that SpaceX plans to purchase more Nvidia GPUs, highlighting strong demand and productivity associated with Nvidia's technology.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Demonstrates sustained enterprise demand for AI hardware and high-performance chips, supporting medium-term sentiment for semiconductor investments.",
-      "reasoning": "The article discusses major corporate GPU purchases affecting a prominent chip stock, making it relevant for technology sector monitoring and equity markets.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "SpaceX’s plans to buy more Nvidia GPUs is keeping Jim Cramer bullish on the chip stock",
-      "publishedAtSgt": "2026-10-08T04:24:48+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/07/spacexs-plans-to-buy-more-nvidia-gpus-is-keeping-jim-cramer-bullish-on-the-chip-stock-.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 81,
-      "collectorRelevanceReason": "technology_business_or_infrastructure",
-      "collectedAtSgt": "2026-10-08T06:31:13+08:00"
-    },
-    {
-      "articleId": "0876b463a9777873103ef8f66800210374168371a51d41bc9e6ad2f4230d831b",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "Constellation Brands, owner of Modelo, reported that beer depletions declined slightly during the quarter, signaling softer consumer demand despite shipment growth, as the company uses creative strategies to attract beer drinkers.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Consumer Staples",
-        "Food, Beverage & Tobacco"
-      ],
-      "investorImpact": "Indicates softening consumer demand in the beverage sector, which may affect the earnings and growth outlook for consumer staples companies like Constellation Brands.",
-      "reasoning": "Classified as MARKET because it discusses consumer demand trends, sales metrics, and stock performance for a major corporate entity in the beverage industry.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Modelo owner Constellation is getting creative to bring back beer drinkers as overall demand weakens",
-      "publishedAtSgt": "2026-10-08T03:14:03+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/constellation-brands-earnings-beer-demand.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 57,
-      "collectorRelevanceReason": "supporting_market_description",
-      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
-    },
-    {
-      "articleId": "0b7931a8be02be61f0184f735b2786a52edeec9629ee69b83cd542fb52b22935",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Microsoft is launching the Surface Laptop Ultra priced at $2,599, featuring an Nvidia AI chip, to enhance local artificial intelligence capabilities on consumer devices and reduce reliance on cloud infrastructure.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global",
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Consumer Electronics",
-        "Semiconductors"
-      ],
-      "investorImpact": "The product launch highlights ongoing hardware integration of AI chips, providing positive signals for companies developing on-device AI capabilities and specialized hardware like Nvidia and Microsoft.",
-      "reasoning": "Classified as TECHNOLOGY due to its focus on new AI hardware development and consumer tech advancements. The sentiment is positive as it shows continued commercialization of edge AI workloads, and it is relevant for fund monitoring given the exposure to mega-cap tech and semiconductor supply chains.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
-      "publishedAtSgt": "2026-10-08T02:55:10+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 83,
-      "collectorRelevanceReason": "technology_business_or_infrastructure",
-      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
-    },
-    {
-      "articleId": "efec4a58773d665c524112a9d53651d0a0223ac331deed2591896d49029b2aba",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "The stock market closed at record highs as investors bet that AI capital expenditures will remain resilient despite higher bond yields, with forecasts pointing to continued gains for the S&P 500.",
-      "assetClasses": [
-        "Equities",
-        "Bonds"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Financials"
-      ],
-      "investorImpact": "The positive outlook on corporate earnings and AI investments suggests continued upside for equity markets, encouraging investors to maintain risk-on positioning.",
-      "reasoning": "The article discusses major stock market performance and corporate earnings forecasts, directly impacting market sentiment and asset allocation strategies.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
-      "publishedAtSgt": "2026-10-08T02:19:53+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
-    },
-    {
-      "articleId": "2436a58842b160e5ee2f096b3c26a635307a7821ea4fab8238b909c6fb7308b8",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEUTRAL",
-      "importance": "HIGH",
-      "summary": "Apollo and various banks are in talks to finance SpaceX's massive $40 billion Nvidia GPU purchase, mirroring high-demand bond sales and high-cost AI infrastructure funding seen across major tech giants like Meta, Amazon, and Google.",
-      "assetClasses": [
-        "Fixed Income",
-        "Equities"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology",
-        "Financials",
-        "Telecommunications"
-      ],
-      "investorImpact": "Highlights the massive capital expenditure and increasing debt financing required for AI infrastructure buildouts by major tech and private entities, impacting fixed-income markets and technology sector valuations.",
-      "reasoning": "Classified as MARKET due to the involvement of major financial institutions like Apollo in multi-billion dollar debt/financing talks for tech infrastructure, holding significant implications for credit markets and institutional portfolios.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
-      "publishedAtSgt": "2026-10-08T00:32:30+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/spacex-nvidia-chips-apollo-financing.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-08T03:32:58+08:00"
-    },
-    {
-      "articleId": "c115ad42df074921bf481b238dd2f349887081688c73a5f48d560d41a94628d8",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "According to the Federal Reserve's Survey of Consumer Expectations, the median view for inflation over the next 12 months rose to 3.9%, marking the highest level since May 2023, driven primarily by surging energy costs while inflation remains above the central bank's 2% target.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income",
-        "Commodities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Energy",
-        "Financials"
-      ],
-      "investorImpact": "Rising short-term inflation expectations complicate the Federal Reserve's monetary policy outlook, potentially leading to higher-for-longer interest rates, which can pressure equity valuations and increase volatility in fixed income markets.",
-      "reasoning": "The article provides direct insight into consumer inflation expectations derived from a key Federal Reserve survey, which significantly impacts macroeconomic policy and investor sentiment across multiple asset classes.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
-      "publishedAtSgt": "2026-10-08T00:18:22+08:00",
-      "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-10-08T00:36:57+08:00"
     }
   ]
 }
