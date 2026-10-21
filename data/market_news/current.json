@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-21T08:41:48+08:00",
+  "generatedAtSgt": "2026-10-21T14:05:19+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,55 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "5f0c6c27d993a5bea5b48b9fae6dea524f8a1069476a6f8c12c630b1a6dc52ae",
+      "source": "CNBC",
+      "title": "Oil prices climb as traders assess Middle East developments",
+      "publishedAtSgt": "2026-10-21T13:27:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices climbed Wednesday as worries over Middle East supply disruptions keep the market on edge, with attacks on tankers near the Strait of Hormuz and Saudi energy facilities denting sentiment. The escalating tensions have also sent global oil shipping costs soaring, adding another layer of pressure to energy markets.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T14:05:18+08:00"
+    },
+    {
+      "id": "9bc8a978d2df6002fda3e057ab311dc29080948579ac56ee8d8c3150464bc41b",
+      "source": "CNBC",
+      "title": "Australian data center operator NextDC's shares plunge 40% after it slashes earnings forecast",
+      "publishedAtSgt": "2026-10-21T10:55:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/australia-data-center-operator-nexdc-datacenter.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Australia's NextDC plunged 39.5% on Wednesday after the data center operator slashed its annual earnings forecast, citing power supply delays at its Melbourne facility amid local community and stakeholder opposition. As Australia grapples with growing concerns over the impact of data center developments on local communities, Treasurer Jim Chalmers said the government was working to establish national standards for investment.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T14:05:18+08:00"
+    },
+    {
+      "id": "9eed713baa35b7861d9ead3b35b8d4390cb9f6e15ae7042d587a853e557a8c30",
+      "source": "CNBC",
+      "title": "Elice's huge stock swings show AI's spending boom is getting more investor scrutiny",
+      "publishedAtSgt": "2026-10-21T09:02:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/ai-boom-spending-profit.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A bruising stock market debut by South Korean AI infrastructure provider Elice has become the latest warning sign that investors may be more closely scrutinizing ambitious expansion plans and paths to profitability. The shift is particularly significant for Asia, where technology markets are heavily exposed to the semiconductor and memory-chip industries that have powered the global AI investment frenzy.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T14:05:19+08:00"
+    },
     {
       "id": "682ac9b8bb351c3a277defcc9be8e748dd68709f4e09b270dbf7e26da8c878b9",
       "source": "CNBC",
@@ -1537,55 +1586,6 @@
       "feeds": [
         "latest",
         "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
-    },
-    {
-      "id": "4faa9099521042e5a566082160b5dde07751aa814733419a63a8b7e0101d4a91",
-      "source": "CNBC",
-      "title": "Oil falls as investors assess Mideast tensions, International Energy Agency's report",
-      "publishedAtSgt": "2026-10-15T12:09:18+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/oil-prices-today-brent-wti.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oil fell Thursday as traders assessed potential supply disruptions following attacks on ships passing through the Strait of Hormuz, while digesting the International Energy Agency's latest monthly report on the outlook of the oil market. The International Energy Agency in its oil report for October out Wednesday cautioned that constraints on diesel markets could continue well into the next year, with fresh attacks on Saudi Arabia threatening to derail a recovery in oil supply.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
-    },
-    {
-      "id": "9cd1fde61f06c27a9f385f9061f4196223d97e6876640a5c6528714b357c17a5",
-      "source": "CNBC",
-      "title": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
-      "publishedAtSgt": "2026-10-15T11:48:58+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Anthropic told investors its third-quarter revenue stands at $16.8 billion as it prepares for a highly anticipated initial public offering reportedly slated for November, according to people familiar with the matter. The company also told investors it was cash-flow positive, generating $1.70 in revenue for every dollar spent on computing power during the third quarter, according to the Financial Times.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
-    },
-    {
-      "id": "ec3a7807afa95dc24b132dd1b289d06e2e4c0f6400d739fe068331561fe35f5e",
-      "source": "CNBC",
-      "title": "Meta- and Google-backed Jio Platforms to raise up to $3.2 billion in historic IPO in India",
-      "publishedAtSgt": "2026-10-15T09:56:53+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/jio-ipo-meta-google-ambani-musk.html",
-      "category": "MARKET",
-      "relevanceScore": 95,
-      "relevanceReason": "business_market_event",
-      "summary": "Meta- and Google-backed Jio Platforms, India's largest telecom operator, is looking to raise up to 302 billion rupees ($3.2 billion) through an initial public offering of shares. Jio Platforms will sell 270 million shares in IPO priced between 1,065 rupees and 1,119 rupees apiece, from Oct. The share sale will be India's largest ever in rupee terms, but the second largest in dollar terms, marginally trailing the Hyundai Motors IPO that raised $3.3 billion in 2024.",
-      "feeds": [
-        "latest",
         "world"
       ],
       "collectedAtSgt": "2026-10-15T13:56:11+08:00"
