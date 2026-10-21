@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-22T02:06:14+08:00",
+  "generatedAtSgt": "2026-10-22T06:24:02+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,68 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "23bafda12193920beb9425329042130070e5fd13dd1435308f59c3cac9d5d46e",
+      "source": "CNBC",
+      "title": "CoreWeave’s market confidence erodes as bond yields spike and stock sinks",
+      "publishedAtSgt": "2026-10-22T05:12:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "CoreWeave is facing a crisis of confidence on Wall Street that's playing out in real time among equity and bond investors. With interest rates spiking and AI buildout concerns mounting, debt-heavy neoclouds like CoreWeave are being viewed by many market participants as the most vulnerable trade in the artificial intelligence space.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "id": "0df70e331533d5588eacc41dcbfce6aa618d3e6e122baf9d1073579a0f6f9f38",
+      "source": "CNBC",
+      "title": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+      "publishedAtSgt": "2026-10-22T05:07:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Southwest Airlines became the third major U.S. airline this month to cut its 2026 profit forecast due to higher fuel prices, but CEO Bob Jordan said travelers continue to book despite higher fares. The carrier expects to earn between $2.60 and $2.85 a share on an adjusted basis this year, down from its forecast in July of between $3.25 to as much as $4.25 a share.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "id": "88feb9c813dfc6ecb258e39a570166437858833aba49c9def29bcf004d25853d",
+      "source": "CNBC",
+      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+      "publishedAtSgt": "2026-10-22T03:54:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors may be wary of the volatility hitting parts of the bond market right now, but they have an \"historic\" opportunity to grab attractive yields in high-quality credit, Rick Rieder, BlackRock's chief investment officer for global fixed income, told CNBC in an exclusive interview.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "id": "5e4e54f4d7098c991076423f259f23783a674c6337443b7a7e2f348b983fedf1",
+      "source": "CNBC",
+      "title": "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound",
+      "publishedAtSgt": "2026-10-22T03:47:38+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Wednesday's action marked a strong rebound in the AI infrastructure trade, with technology stocks and industrials tied to the data center buildout leading the market higher. CEO Elon Musk indicated on the SpaceX earnings call that power, cooling, and electrical equipment are the limiting factors in getting more gigawatts of compute online, which had investors feeling better about the outlooks for stocks like GE Vernova , Eaton , and Vertiv .",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-22T06:24:02+08:00"
+    },
     {
       "id": "111ddd8881b0a238a0b1bf2b4110b856606b5849041e75c66e063545ebe25feb",
       "source": "CNBC",
@@ -1522,67 +1584,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-16T06:24:07+08:00"
-    },
-    {
-      "id": "559314ba915886ed12e6bb4177b502358812ba526a2e1c7cfd9ce3ea9e2e4d25",
-      "source": "CNBC",
-      "title": "Here's our monthly update on our 32 stocks, including 2 more names to buy",
-      "publishedAtSgt": "2026-10-16T03:08:05+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/15/heres-our-monthly-update-on-our-32-stocks-including-2-more-names-to-buy.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Amazon : If the e-commerce giant can demonstrate that its massive AI investments are starting to generate profits on its next earnings call while signaling that capital expenditure growth is beginning to moderate, expect shares to take off. The financials Goldman Sachs : The investment bank delivered the strongest quarter of any financial company so far this earnings season, yet shares are still down big from their highs of the summer and trade at just 12 times earnings.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-16T06:24:05+08:00"
-    },
-    {
-      "id": "b8f1efd3aacf2b111c23428dde3fcb916e94e1d59bc105f0f7b9cc211e8619d5",
-      "source": "CNBC",
-      "title": "Democrat Talarico says he raised record $64 million over summer in Texas Senate race",
-      "publishedAtSgt": "2026-10-16T02:35:25+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/james-talarico-texas-senate-fundraising-ken-paxton.html",
-      "category": "MARKET",
-      "relevanceScore": 95,
-      "relevanceReason": "business_market_event",
-      "summary": "Democratic Texas Senate candidate James Talarico raised $64 million in the third quarter, his campaign announced Thursday, setting what the campaign said is a Senate fundraising record as Republicans pour outside money into the race to bolster GOP nominee Ken Paxton in the 2026 midterm election.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-16T06:24:05+08:00"
-    },
-    {
-      "id": "2f4031991ed525deea2fac134115862ec6ae057939e5105d3da610cf662ea0d2",
-      "source": "CNBC",
-      "title": "Equal-weight failed. Now tech stocks look shaky again. So what should you do about S&P 500 risk?",
-      "publishedAtSgt": "2026-10-16T02:02:23+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/spx-sp500-tech-stocks-invest.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "One \"something\" that investors have been advised by experts to consider is a move into equal-weight S&P 500 funds to mitigate the risk of having such a high level of exposure to one trade. Or, Rosenbluth says, investors can adopt the equal-weight approach at the sector level, using an ETF like the ALPS Equal Weight Sector ETF, EQL, which can serve the same purpose of reducing market concentration in technology stocks.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-16T06:24:06+08:00"
-    },
-    {
-      "id": "80edb1b1010dfb8248fe0363e0dec228b916a79d9e681b4d508f9c3d2634287c",
-      "source": "CNBC",
-      "title": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
-      "publishedAtSgt": "2026-10-16T00:52:16+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "It's now facing a rebellion from stock and bond investors as concerns mount about AI overspending and debt levels. Yields on CoreWeave debt have continued to climb, with the yield to maturity on its 9.75% bond due in 2031 reaching 15.78%. For instance, shares of Micron Technology and Advanced Micro Devices shed 4% and 6%, respectively, following a big sell-off in South Korean chip stocks.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-16T01:48:23+08:00"
     }
   ]
 }

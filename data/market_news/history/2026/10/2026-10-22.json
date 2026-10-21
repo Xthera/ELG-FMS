@@ -5,6 +5,68 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "23bafda12193920beb9425329042130070e5fd13dd1435308f59c3cac9d5d46e",
+      "source": "CNBC",
+      "title": "CoreWeave’s market confidence erodes as bond yields spike and stock sinks",
+      "publishedAtSgt": "2026-10-22T05:12:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "CoreWeave is facing a crisis of confidence on Wall Street that's playing out in real time among equity and bond investors. With interest rates spiking and AI buildout concerns mounting, debt-heavy neoclouds like CoreWeave are being viewed by many market participants as the most vulnerable trade in the artificial intelligence space.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "id": "0df70e331533d5588eacc41dcbfce6aa618d3e6e122baf9d1073579a0f6f9f38",
+      "source": "CNBC",
+      "title": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+      "publishedAtSgt": "2026-10-22T05:07:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Southwest Airlines became the third major U.S. airline this month to cut its 2026 profit forecast due to higher fuel prices, but CEO Bob Jordan said travelers continue to book despite higher fares. The carrier expects to earn between $2.60 and $2.85 a share on an adjusted basis this year, down from its forecast in July of between $3.25 to as much as $4.25 a share.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "id": "88feb9c813dfc6ecb258e39a570166437858833aba49c9def29bcf004d25853d",
+      "source": "CNBC",
+      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+      "publishedAtSgt": "2026-10-22T03:54:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors may be wary of the volatility hitting parts of the bond market right now, but they have an \"historic\" opportunity to grab attractive yields in high-quality credit, Rick Rieder, BlackRock's chief investment officer for global fixed income, told CNBC in an exclusive interview.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "id": "5e4e54f4d7098c991076423f259f23783a674c6337443b7a7e2f348b983fedf1",
+      "source": "CNBC",
+      "title": "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound",
+      "publishedAtSgt": "2026-10-22T03:47:38+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Wednesday's action marked a strong rebound in the AI infrastructure trade, with technology stocks and industrials tied to the data center buildout leading the market higher. CEO Elon Musk indicated on the SpaceX earnings call that power, cooling, and electrical equipment are the limiting factors in getting more gigawatts of compute online, which had investors feeling better about the outlooks for stocks like GE Vernova , Eaton , and Vertiv .",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-22T06:24:02+08:00"
+    },
+    {
       "id": "111ddd8881b0a238a0b1bf2b4110b856606b5849041e75c66e063545ebe25feb",
       "source": "CNBC",
       "title": "Expanding AI trade is turning safety stocks into a 'Texas hedge'",
@@ -69,6 +131,6 @@
       "collectedAtSgt": "2026-10-22T02:06:07+08:00"
     }
   ],
-  "articleCount": 4,
-  "updatedAtSgt": "2026-10-22T02:06:09+08:00"
+  "articleCount": 8,
+  "updatedAtSgt": "2026-10-22T06:24:02+08:00"
 }
