@@ -1,10 +1,128 @@
 {
-  "generatedAtSgt": "2026-10-22T02:21:53.349311+08:00",
+  "generatedAtSgt": "2026-10-22T06:39:40.448111+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 226,
+  "articleCount": 230,
   "analyses": [
+    {
+      "articleId": "23bafda12193920beb9425329042130070e5fd13dd1435308f59c3cac9d5d46e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "CoreWeave is experiencing declining market confidence among equity and bond investors, driven by spiking interest rates and escalating concerns over the costs of artificial intelligence infrastructure buildouts.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Cloud Computing",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors holding debt-heavy artificial intelligence infrastructure and neocloud assets face heightened volatility and repricing risk as borrowing costs rise and market sentiment deteriorates.",
+      "reasoning": "The article highlights significant market stress in a prominent artificial intelligence infrastructure player amid rising bond yields, impacting both equity and credit portfolios.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CoreWeave’s market confidence erodes as bond yields spike and stock sinks",
+      "publishedAtSgt": "2026-10-22T05:12:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "articleId": "0df70e331533d5588eacc41dcbfce6aa618d3e6e122baf9d1073579a0f6f9f38",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Southwest Airlines lowered its 2026 profit forecast due to higher fuel costs, becoming the third major U.S. airline to do so this month, though CEO Bob Jordan noted that travel demand remains steady despite higher fares.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Airlines",
+        "Transportation"
+      ],
+      "investorImpact": "Investors in the airline sector should monitor margin pressures stemming from rising fuel prices, which could negatively impact earnings across major carriers despite resilient consumer demand.",
+      "reasoning": "The article details a major corporate earnings guidance cut by Southwest Airlines due to rising fuel expenses, which has direct implications for airline sector equities and broader market sentiment regarding operating costs.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+      "publishedAtSgt": "2026-10-22T05:07:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "articleId": "88feb9c813dfc6ecb258e39a570166437858833aba49c9def29bcf004d25853d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "BlackRock's global fixed income CIO Rick Rieder states that investors have a historic opportunity to secure attractive yields in high-quality bonds despite current market volatility.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors can capitalize on historic yield opportunities in high-quality credit despite bond market volatility.",
+      "reasoning": "The article provides expert commentary from a major institutional investor highlighting significant market opportunities in high-quality fixed income assets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+      "publishedAtSgt": "2026-10-22T03:54:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "articleId": "5e4e54f4d7098c991076423f259f23783a674c6337443b7a7e2f348b983fedf1",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Wednesday's market action marked a strong rebound in the AI infrastructure trade, led by technology and industrial stocks tied to data center buildouts. Comments from SpaceX CEO Elon Musk regarding power, cooling, and electrical equipment as limiting factors for compute capacity boosted sentiment for related stocks such as GE Vernova, Eaton, and Vertiv.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Industrials"
+      ],
+      "investorImpact": "Investors in AI infrastructure, power equipment, and cooling solutions benefit from reinforced confidence in secular demand drivers despite supply chain bottlenecks.",
+      "reasoning": "The article highlights significant market movements and sectoral rebounds driven by AI infrastructure trends and supply chain insights, making it relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound",
+      "publishedAtSgt": "2026-10-22T03:47:38+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T06:24:02+08:00"
+    },
     {
       "articleId": "111ddd8881b0a238a0b1bf2b4110b856606b5849041e75c66e063545ebe25feb",
       "relevant": true,
