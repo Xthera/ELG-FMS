@@ -5,6 +5,53 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "682ac9b8bb351c3a277defcc9be8e748dd68709f4e09b270dbf7e26da8c878b9",
+      "source": "CNBC",
+      "title": "Japan exports post huge miss in September as growth slows to 16.7%",
+      "publishedAtSgt": "2026-10-21T08:12:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/japan-trade-exports-semiconductor-yen.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Reuters-polled analysts had pegged exports growth at 20.1%. Growth was supported by continued strong semiconductor exports, with shipments rising 49.4% year on year by value. Exports have been the main driver of Japan's growth for the first two quarters of 2026, helping the world's fourth largest economy beat expectations in the first quarter, and supporting growth in the second.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T08:41:47+08:00"
+    },
+    {
+      "id": "2aedec4eeff29d2d932e53bc228550c8cdd35e0739356151bcb0cf61937afbfc",
+      "source": "CNBC",
+      "title": "Capital One's strong quarter and progressing Discover integration are rewarded on Wall Street",
+      "publishedAtSgt": "2026-10-21T07:34:14+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/20/capital-one-strong-quarter-and-progressing-discover-integration-are-rewarded.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Higher expenses weighing on profits were part of the reason we sold a small amount of shares this afternoon, a trade that looks ill-timed given Capital One's positive after-hours reaction. Credit risk is always an issue when oil prices spike; the bank's performance in the quarter was a clear positive. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-21T08:41:47+08:00"
+    },
+    {
+      "id": "4af13d1ca2b230a747f4a5edd5d7cd80e9f42fc2061370958f214968e3db257d",
+      "source": "CNBC",
+      "title": "Obsessed with CoreWeave and the AI trade? You're missing out on some great stocks",
+      "publishedAtSgt": "2026-10-21T05:17:47+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/20/obsessed-with-the-ai-trade-youre-missing-out-on-some-great-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Good news like a reversal in oil prices after a big spike, or a robust bond market driven by a frozen housing market, as mortgage rates are too high for most to afford a house. Or, in terms of \"you haven't missed it yet,\" check out the reaction in GE Aerospace's stock to its 49% order growth. Tuesday's earnings show there's a cohort of the market that can thrive outside of the AI and data-center trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-21T08:41:48+08:00"
+    },
+    {
       "id": "e0883bd89c44e62fe12623cfea2313c6b8e70a930b89290de91343adf12d516a",
       "source": "CNBC",
       "title": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares",
@@ -117,6 +164,6 @@
       "collectedAtSgt": "2026-10-21T02:00:33+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-21T06:20:25+08:00"
+  "articleCount": 10,
+  "updatedAtSgt": "2026-10-21T08:41:48+08:00"
 }
