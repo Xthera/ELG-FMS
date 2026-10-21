@@ -1,10 +1,102 @@
 {
-  "generatedAtSgt": "2026-10-21T08:57:31.781855+08:00",
+  "generatedAtSgt": "2026-10-21T14:20:50.776416+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 231,
+  "articleCount": 234,
   "analyses": [
+    {
+      "articleId": "5f0c6c27d993a5bea5b48b9fae6dea524f8a1069476a6f8c12c630b1a6dc52ae",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Oil prices rose due to supply disruption concerns driven by Middle East tensions, including attacks on tankers near the Strait of Hormuz and Saudi energy facilities, alongside soaring global shipping costs.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "Global"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas",
+        "Transportation"
+      ],
+      "investorImpact": "Rising oil prices and escalating transportation costs can increase operational expenses across various sectors while boosting revenues for energy producers, potentially fueling broader inflationary pressures.",
+      "reasoning": "The article details geopolitical conflict directly impacting global energy supply chains and commodity prices, which is critical for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil prices climb as traders assess Middle East developments",
+      "publishedAtSgt": "2026-10-21T13:27:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T14:05:18+08:00"
+    },
+    {
+      "articleId": "9bc8a978d2df6002fda3e057ab311dc29080948579ac56ee8d8c3150464bc41b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Shares of Australian data center operator NextDC plunged nearly 40% after the company slashed its annual earnings forecast due to power supply delays and local opposition at its Melbourne facility, prompting the government to consider national standards for data center investments.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Australia"
+      ],
+      "sectors": [
+        "Technology",
+        "Real Estate",
+        "Utilities"
+      ],
+      "investorImpact": "Investors in data center operators and related infrastructure face heightened regulatory and execution risks, particularly concerning power availability and community pushback, which can severely impact earnings forecasts and share prices.",
+      "reasoning": "The article is classified under MARKET as it details a sharp 40% plunge in share price and a major earnings forecast revision for a prominent operator, carrying significant implications for technology infrastructure investments and regulatory scrutiny in Australia.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Australian data center operator NextDC's shares plunge 40% after it slashes earnings forecast",
+      "publishedAtSgt": "2026-10-21T10:55:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/australia-data-center-operator-nexdc-datacenter.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T14:05:18+08:00"
+    },
+    {
+      "articleId": "9eed713baa35b7861d9ead3b35b8d4390cb9f6e15ae7042d587a853e557a8c30",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "A bruising stock market debut by South Korean AI infrastructure provider Elice signals that investors are increasing scrutiny on AI-related spending plans and profitability paths, highlighting broader exposure risks in Asian technology and semiconductor markets.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "South Korea",
+        "Asia"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors should note the rising skepticism regarding capital expenditure returns in the AI sector, which could drive volatility in Asian technology and semiconductor equities.",
+      "reasoning": "The article highlights shifting market sentiment and investor scrutiny toward AI infrastructure spending following a weak market debut, warranting monitoring for technology sector risk exposure.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Elice's huge stock swings show AI's spending boom is getting more investor scrutiny",
+      "publishedAtSgt": "2026-10-21T09:02:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/ai-boom-spending-profit.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-21T14:05:19+08:00"
+    },
     {
       "articleId": "682ac9b8bb351c3a277defcc9be8e748dd68709f4e09b270dbf7e26da8c878b9",
       "relevant": true,
