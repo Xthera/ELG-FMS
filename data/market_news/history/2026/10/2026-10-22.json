@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "111ddd8881b0a238a0b1bf2b4110b856606b5849041e75c66e063545ebe25feb",
+      "source": "CNBC",
+      "title": "Expanding AI trade is turning safety stocks into a 'Texas hedge'",
+      "publishedAtSgt": "2026-10-22T01:14:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/expanding-ai-trade-is-turning-safety-stocks-into-a-texas-hedge.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors are bailing on higher-volatility growth stocks and running toward the shelter of perceived safety sectors like utilities and consumer staples. As valuation multiples across capital-intensive AI infrastructure plays — such as specialized data center hosting providers CoreWeave (CRWV) and Iren Ltd (IREN) — take on water in the form of massive debt loads due to aggressive capex buildouts, investors may want to take a portion of their equity exposure into more protected water.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T02:06:08+08:00"
+    },
+    {
+      "id": "dd31afe1ca54ce954d1719b09db219e8b221fe836acc88f267a7c9386195d506",
+      "source": "CNBC",
+      "title": "Meta stock advances ahead of after-the-bell earnings. What we're looking for",
+      "publishedAtSgt": "2026-10-22T00:47:59+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/21/meta-stock-advances-ahead-of-after-the-bell-earnings-what-were-looking-for.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of the rocket and AI company surged nearly 11%. We wanted to lock in more profits and shield ourselves from potential further declines as AI stocks on credit concerns. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-22T02:06:09+08:00"
+    },
+    {
+      "id": "00da237515666fddd0ba6ca497d5d3b6dcda9fcaeb35e6fb460d3e296be1291d",
+      "source": "CNBC",
+      "title": "Meta and Tesla bulls get confidence boost after SpaceX earnings",
+      "publishedAtSgt": "2026-10-22T00:35:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/meta-tesla-options-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Options trading in both stocks leaned bullish after the open Wednesday, with Meta options looking particularly one-sided as traders bought more calls than puts and more put trades likely initiated by sellers than buyers. Meta options have generally been bullish since the stock's March low, when the put/call ratio of open contracts plunged to 0.5, meaning two calls open for every one put contract, and that hasn't budged much since, Barchart data show.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T02:06:07+08:00"
+    },
+    {
+      "id": "a966d341678b7ed0707e439da55608cbd0bb3d25d526015f5441f63b8975426f",
+      "source": "CNBC",
+      "title": "Tesla earnings loom after Musk calls SpaceX merger a 'good idea'",
+      "publishedAtSgt": "2026-10-22T00:01:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Musk pointed to the company's potential to cooperate on AI software, chip design, Terafab and robotics. Tesla is already using Grok AI technology, developed by SpaceX, to power AI assistants in customer cars, and to help control the company's Optimus humanoid robots now in development. Tesla CFO Vaibhav Taneja told investors on the company's last earnings call in July that automotive margins had been challenged this year by rising interest rates and energy costs.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T02:06:07+08:00"
+    }
+  ],
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-22T02:06:09+08:00"
+}

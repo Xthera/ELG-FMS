@@ -5,6 +5,21 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "cd8f5e9168916fb622acfc26ae580b6be71dbaf65cfe7eee37b4db5b699a8ee5",
+      "source": "CNBC",
+      "title": "A $50 sports bet costs a young investor hundreds later. Here's how",
+      "publishedAtSgt": "2026-10-21T23:16:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/sports-betting-young-investors-compounding.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "retail investors that Betterment published in August, 52% of Gen Z investors this past year took money they had set aside for investing and put it toward sports betting instead. stocks, according to the UBS Global Investment Returns Yearbook. After inflation, that works out to be about 0.5% a year for bills and 6.6% for stocks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-22T02:06:14+08:00"
+    },
+    {
       "id": "9198c20b0f078264274daf7a9340c41af3aa679b8727d16f51d90797957189e9",
       "source": "CNBC",
       "title": "Futures orbit around SpaceX as Tesla merger talk cheers investors",
@@ -374,6 +389,6 @@
       "collectedAtSgt": "2026-10-21T02:00:33+08:00"
     }
   ],
-  "articleCount": 23,
-  "updatedAtSgt": "2026-10-21T20:58:38+08:00"
+  "articleCount": 24,
+  "updatedAtSgt": "2026-10-22T02:06:14+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-21T20:58:38+08:00",
+  "generatedAtSgt": "2026-10-22T02:06:14+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,85 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "111ddd8881b0a238a0b1bf2b4110b856606b5849041e75c66e063545ebe25feb",
+      "source": "CNBC",
+      "title": "Expanding AI trade is turning safety stocks into a 'Texas hedge'",
+      "publishedAtSgt": "2026-10-22T01:14:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/expanding-ai-trade-is-turning-safety-stocks-into-a-texas-hedge.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors are bailing on higher-volatility growth stocks and running toward the shelter of perceived safety sectors like utilities and consumer staples. As valuation multiples across capital-intensive AI infrastructure plays — such as specialized data center hosting providers CoreWeave (CRWV) and Iren Ltd (IREN) — take on water in the form of massive debt loads due to aggressive capex buildouts, investors may want to take a portion of their equity exposure into more protected water.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T02:06:08+08:00"
+    },
+    {
+      "id": "dd31afe1ca54ce954d1719b09db219e8b221fe836acc88f267a7c9386195d506",
+      "source": "CNBC",
+      "title": "Meta stock advances ahead of after-the-bell earnings. What we're looking for",
+      "publishedAtSgt": "2026-10-22T00:47:59+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/21/meta-stock-advances-ahead-of-after-the-bell-earnings-what-were-looking-for.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of the rocket and AI company surged nearly 11%. We wanted to lock in more profits and shield ourselves from potential further declines as AI stocks on credit concerns. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-22T02:06:09+08:00"
+    },
+    {
+      "id": "00da237515666fddd0ba6ca497d5d3b6dcda9fcaeb35e6fb460d3e296be1291d",
+      "source": "CNBC",
+      "title": "Meta and Tesla bulls get confidence boost after SpaceX earnings",
+      "publishedAtSgt": "2026-10-22T00:35:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/meta-tesla-options-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Options trading in both stocks leaned bullish after the open Wednesday, with Meta options looking particularly one-sided as traders bought more calls than puts and more put trades likely initiated by sellers than buyers. Meta options have generally been bullish since the stock's March low, when the put/call ratio of open contracts plunged to 0.5, meaning two calls open for every one put contract, and that hasn't budged much since, Barchart data show.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T02:06:07+08:00"
+    },
+    {
+      "id": "a966d341678b7ed0707e439da55608cbd0bb3d25d526015f5441f63b8975426f",
+      "source": "CNBC",
+      "title": "Tesla earnings loom after Musk calls SpaceX merger a 'good idea'",
+      "publishedAtSgt": "2026-10-22T00:01:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Musk pointed to the company's potential to cooperate on AI software, chip design, Terafab and robotics. Tesla is already using Grok AI technology, developed by SpaceX, to power AI assistants in customer cars, and to help control the company's Optimus humanoid robots now in development. Tesla CFO Vaibhav Taneja told investors on the company's last earnings call in July that automotive margins had been challenged this year by rising interest rates and energy costs.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T02:06:07+08:00"
+    },
+    {
+      "id": "cd8f5e9168916fb622acfc26ae580b6be71dbaf65cfe7eee37b4db5b699a8ee5",
+      "source": "CNBC",
+      "title": "A $50 sports bet costs a young investor hundreds later. Here's how",
+      "publishedAtSgt": "2026-10-21T23:16:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/sports-betting-young-investors-compounding.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "retail investors that Betterment published in August, 52% of Gen Z investors this past year took money they had set aside for investing and put it toward sports betting instead. stocks, according to the UBS Global Investment Returns Yearbook. After inflation, that works out to be about 0.5% a year for bills and 6.6% for stocks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-22T02:06:14+08:00"
+    },
     {
       "id": "9198c20b0f078264274daf7a9340c41af3aa679b8727d16f51d90797957189e9",
       "source": "CNBC",
@@ -1504,87 +1583,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-16T01:48:23+08:00"
-    },
-    {
-      "id": "c4fa6d6eda6bf6d280014dced3a67f148c191bede8fbba8979922637f6561fa5",
-      "source": "CNBC",
-      "title": "International Energy Agency to release more than 20 million barrels of diesel as soon as possible",
-      "publishedAtSgt": "2026-10-16T00:47:03+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/iea-diesel-price-ukraine-iran-oil.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "International Energy Agency members have agreed to release more than 20 million barrels of diesel \"as soon as possible\" as fuel prices surge globally, the group said in a statement Thursday. President Donald Trump said earlier this month that Europe had agreed to deploy a \"massive amount of their heavily stocked Diesel Oil.\" The release detailed by the IEA on Thursday is equivalent to less than one day of global diesel demand or slightly more than five days of U.S.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-16T01:48:26+08:00"
-    },
-    {
-      "id": "967f027913975c7688fdb6a68f0956ffe60ace3f847e675c55787ca35d52f410",
-      "source": "CNBC",
-      "title": "Banks with Jeffrey Epstein ties eyed by Democrats Warren and Garcia",
-      "publishedAtSgt": "2026-10-16T00:39:04+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/banks-congress-jeffrey-epstein-oversight.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Financial institutions and bank executives that may have aided the late financier Jeffrey Epstein's sex trafficking operation are in the sights of a bipartisan group of lawmakers. The proposal would apply to the Federal Reserve, Federal Deposit Insurance Corporation, Treasury's Office of the Comptroller of the Currency and the Securities and Exchange Commission.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-16T01:48:28+08:00"
-    },
-    {
-      "id": "03c1b9df3fea743691670f201d7aecf0d4980e43cd9eeeae94ebca7bac5bcabb",
-      "source": "CNBC",
-      "title": "Treasury yields slide as investors flee to safety of bonds amid tech rout",
-      "publishedAtSgt": "2026-10-16T00:14:05+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/us-treasury-yields-investors-economic-data-.html",
-      "category": "MARKET",
-      "relevanceScore": 94,
-      "relevanceReason": "strong_market_title",
-      "summary": "Treasury yields dropped Thursday, as investors continued to cash in technology shares and fled to the safety of bonds following the latest wholesale inflation data. The benchmark 10-year Treasury yield recently tumbled more than 9 basis points to 5.093%, as did the 30-year Treasury bond yield, to 5.425%.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-16T01:48:31+08:00"
-    },
-    {
-      "id": "44e6a95cbea8149492e23cbe45e2d691fe868e7a660acdf3cb8085b2fc6db89b",
-      "source": "CNBC",
-      "title": "Economists: Hot PPI shows Fed's work is not done",
-      "publishedAtSgt": "2026-10-15T23:37:59+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Wall Street estimates for the Federal Reserve's preferred inflation indicator now expect an acceleration from the level that prompted the central bank to hike rates last month. But taking out food, energy and trade services, prices still rose a healthy 0.5%, indicating that inflation was broader than just energy.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-16T01:48:42+08:00"
-    },
-    {
-      "id": "dafe015441373594e6137dee58b3ede9a775d7af10d9114a318167e93514eedc",
-      "source": "CNBC",
-      "title": "AWS, Anthropic race to deploy army of specialized engineers key to proving AI spending will pay off",
-      "publishedAtSgt": "2026-10-15T22:10:14+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/aws-anthropic-racing-to-deploy-army-of-specialized-ai-engineers.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 82,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Companies are scrambling to find specialized AI engineers who can put the technology to work inside businesses. Market concerns that the economics of the AI boom are not sustainable have intensified this week with many top AI-themed and memory-themed stocks from Dell to CoreWeave, AMD and Micron suffering significant short-term losses.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-16T01:48:45+08:00"
     }
   ]
 }
