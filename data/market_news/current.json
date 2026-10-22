@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-23T02:01:28+08:00",
+  "generatedAtSgt": "2026-10-23T06:22:31+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,69 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "ed202b4a19923558a7eed2fb17d185135736c8b97ce93ccd06780f4485baf661",
+      "source": "CNBC",
+      "title": "Moderna shares plunge after cancer vaccine data leaks — despite positive results",
+      "publishedAtSgt": "2026-10-23T05:52:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Moderna shares dropped as much as 25% on Thursday following the leak of partial data on its closely watched cancer vaccine developed with Merck. Shares of both drugmakers fell even though the data, released in full later Thursday following the leak, appeared meaningful for patients and positive relative to Wall Street expectations.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
+    {
+      "id": "9c08b3d188937077b05bebfe98397f7b92a34320750297aee9efddd493a73524",
+      "source": "CNBC",
+      "title": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+      "publishedAtSgt": "2026-10-23T04:41:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "OpenAI is closing in on a funding round that could value the artificial intelligence giant at more than $1 trillion ahead of a potential initial public offering. The San Francisco-based AI company is raising up to $30 billion at a $1.25 trillion valuation, according to people familiar with the deal, who asked not to be named because the details were confidential.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
+    {
+      "id": "cbec97e8b1689fa7eea83da286cf914a421328972e81c6a2dd031fce51499d09",
+      "source": "CNBC",
+      "title": "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here’s why",
+      "publishedAtSgt": "2026-10-23T04:11:55+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/22/meta-stock-why-were-staying-bullish-after-the-post-earnings-sell-off.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Meta's strong quarterly results were overshadowed by artificial intelligence spending concerns on Thursday, sending shares down 7%. The newest reason arrived alongside Wednesday's earnings release: Meta plans to create new Class C non-voting shares that the company can use to fund its AI infrastructure plans.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-23T06:22:31+08:00"
+    },
+    {
+      "id": "e2ab2dac81c2a9296bccda6529635e907044653efe3a3600553ac3e03e34753c",
+      "source": "CNBC",
+      "title": "AI debt and French bonds face a stress test — why it may not be over",
+      "publishedAtSgt": "2026-10-23T02:13:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/ai-debt-and-french-bonds-stress-test.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "From AI companies financing data center projects to France's heavily indebted government, credit markets are flashing warnings as investors grow warier of borrowing risks. Pressure is building in bond markets as investors demand more compensation to finance public debt. Softbank is a major AI investor with a large stake in OpenAI and investments in data centers and power infrastructure, including an $87 billion commitment for data centers in France.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
     {
       "id": "704c10189eeda17f75f762da12e930d1f912c2f6d478e8120296601179cf986c",
       "source": "CNBC",
@@ -1524,67 +1587,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-17T06:06:59+08:00"
-    },
-    {
-      "id": "cf8fdc7d21098f3ab1bbb97f97ffad790cfcf15df8c515dd2f91554e9a9c763f",
-      "source": "CNBC",
-      "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
-      "publishedAtSgt": "2026-10-17T04:02:21+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Crude oil prices rose sharply Friday as Iran escalated attacks in the Strait of Hormuz, Houthi militants fired missiles at Saudi Arabia and Ukraine vowed to keep striking Russian refineries. Oil giant Aramco came under attack when one of its administrative buildings in Dhahran was hit Tuesday, the kingdom's energy ministry said. In the Strait of Hormuz, at least nine tankers and cargo ships have come under attack since Sunday as Iran tries to choke off oil exports through the waterway.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-17T06:06:58+08:00"
-    },
-    {
-      "id": "89307a9783831aab94a8368c8245321448198ccaefcba12ec7b3efb6ab7e850c",
-      "source": "CNBC",
-      "title": "Debt is eating up a bigger chunk of your raise, research shows",
-      "publishedAtSgt": "2026-10-17T03:47:46+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Yet research shows debt payments are taking a growing bite out of Americans' income gains, leaving less money available to spend or save. \"Real\" take-home pay is one's wage after accounting for inflation. The analysis also found inflation-adjusted debt payments rose nearly 15% over roughly three years — about eight times as fast as household income, which grew less than 2%.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-17T06:06:59+08:00"
-    },
-    {
-      "id": "579fba566a81b66d264096610bafdf3f4dd0c52fabf331a8776cae500e5f9687",
-      "source": "CNBC",
-      "title": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
-      "publishedAtSgt": "2026-10-17T02:24:35+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Now, after a shocking 27.5% drop from last Friday's close to this Thursday morning's 52-week lows, followed by a whiplash 17% rebound, equity investors, if not squashed like Dr. That was well known, but the CEO's comments that the company aspired to be investment grade so it could borrow \"unlimited sums\", even as investors already anticipated nearly another $60 billion in debt in the next 18months, spooked folks.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-17T06:06:58+08:00"
-    },
-    {
-      "id": "d6fbc59bfaeff5fd3dc85952112477fc70988f98bab90c610e8bfca9843fdeec",
-      "source": "CNBC",
-      "title": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
-      "publishedAtSgt": "2026-10-17T01:02:40+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "On Thursday, Tesla showed off its long-delayed Roadster, which relies on SpaceX technology to make the vehicle hover. Analyst Dan Levy expects the merger may be proposed as an AI vertical integration, involving Tesla's Robotaxi and Optimus with SpaceX's Grok and Macrohard. Earlier Friday, Evercore ISI recommended buying SpaceX shares ahead of its next scheduled earnings release, set for early November, and boosted its 12-month price target on the stock by 20% to $275.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-17T01:28:04+08:00"
     }
   ]
 }

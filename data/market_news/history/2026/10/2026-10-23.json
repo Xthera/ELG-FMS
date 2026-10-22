@@ -5,6 +5,69 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "ed202b4a19923558a7eed2fb17d185135736c8b97ce93ccd06780f4485baf661",
+      "source": "CNBC",
+      "title": "Moderna shares plunge after cancer vaccine data leaks — despite positive results",
+      "publishedAtSgt": "2026-10-23T05:52:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Moderna shares dropped as much as 25% on Thursday following the leak of partial data on its closely watched cancer vaccine developed with Merck. Shares of both drugmakers fell even though the data, released in full later Thursday following the leak, appeared meaningful for patients and positive relative to Wall Street expectations.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
+    {
+      "id": "9c08b3d188937077b05bebfe98397f7b92a34320750297aee9efddd493a73524",
+      "source": "CNBC",
+      "title": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+      "publishedAtSgt": "2026-10-23T04:41:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "OpenAI is closing in on a funding round that could value the artificial intelligence giant at more than $1 trillion ahead of a potential initial public offering. The San Francisco-based AI company is raising up to $30 billion at a $1.25 trillion valuation, according to people familiar with the deal, who asked not to be named because the details were confidential.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
+    {
+      "id": "cbec97e8b1689fa7eea83da286cf914a421328972e81c6a2dd031fce51499d09",
+      "source": "CNBC",
+      "title": "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here’s why",
+      "publishedAtSgt": "2026-10-23T04:11:55+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/22/meta-stock-why-were-staying-bullish-after-the-post-earnings-sell-off.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Meta's strong quarterly results were overshadowed by artificial intelligence spending concerns on Thursday, sending shares down 7%. The newest reason arrived alongside Wednesday's earnings release: Meta plans to create new Class C non-voting shares that the company can use to fund its AI infrastructure plans.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-23T06:22:31+08:00"
+    },
+    {
+      "id": "e2ab2dac81c2a9296bccda6529635e907044653efe3a3600553ac3e03e34753c",
+      "source": "CNBC",
+      "title": "AI debt and French bonds face a stress test — why it may not be over",
+      "publishedAtSgt": "2026-10-23T02:13:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/ai-debt-and-french-bonds-stress-test.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "From AI companies financing data center projects to France's heavily indebted government, credit markets are flashing warnings as investors grow warier of borrowing risks. Pressure is building in bond markets as investors demand more compensation to finance public debt. Softbank is a major AI investor with a large stake in OpenAI and investments in data centers and power infrastructure, including an $87 billion commitment for data centers in France.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
+    {
       "id": "704c10189eeda17f75f762da12e930d1f912c2f6d478e8120296601179cf986c",
       "source": "CNBC",
       "title": "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
@@ -36,6 +99,6 @@
       "collectedAtSgt": "2026-10-23T02:01:24+08:00"
     }
   ],
-  "articleCount": 2,
-  "updatedAtSgt": "2026-10-23T02:01:24+08:00"
+  "articleCount": 6,
+  "updatedAtSgt": "2026-10-23T06:22:31+08:00"
 }
