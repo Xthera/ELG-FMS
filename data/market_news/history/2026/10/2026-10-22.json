@@ -5,6 +5,103 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "dbbe73854e83910002467c9943b137fb921add37a059350c69b916b01d103bfe",
+      "source": "CNBC",
+      "title": "Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
+      "publishedAtSgt": "2026-10-22T13:18:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices climbed Thursday on worries over a possible escalation in the Middle East conflict as the U.S. The economic fallout from elevated oil prices, however, may be less severe than in previous decades, as consumers have become less vulnerable to energy shocks, according to David Wagner, head of equity and portfolio manager at Aptus Capital Advisors.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
+      "id": "93da5cc09308ee00b171983f71b2f256cae5b6e0b7b66a8ae54cb1f3f2d1a883",
+      "source": "CNBC",
+      "title": "China's stock market sinks into bear territory as CSI 300 extends 10-week rout",
+      "publishedAtSgt": "2026-10-22T12:02:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/chinas-stock-market-csi-300-bear-market.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The index, which tracks 300 of the largest stocks listed in Shanghai and Shenzhen, has declined for 10 consecutive weeks and is down 2.6% so far this week, underscoring sustained pressure on Chinese equities, data from LSEG showed. The world's second-largest economy also posted its slowest growth in over three years in the second quarter, pressured by a multiyear slowdown in the property sector and extended weakness in consumer demand.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
+      "id": "03cc2d99eb81becf06a65ac7d9ed582ed104aaa69df6dd638eb6ad04b37d8b26",
+      "source": "CNBC",
+      "title": "Sovereign wealth funds' China and Hong Kong investments surge 190% after a bruising slump",
+      "publishedAtSgt": "2026-10-22T10:20:50+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/sovereign-wealth-funds-china-hong-kong.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Renewed interest in China comes as sovereign investors increasingly look beyond geopolitical tensions to capitalize on opportunities in Chinese technology, biotechnology, consumer businesses and advanced manufacturing. Pandu Sjahrir, chief investment officer at Indonesian sovereign wealth fund Danantara, told CNBC that the fund was also looking to expand its cooperation with China beyond its existing partnerships in nickel processing and battery manufacturing, with growing interest in...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
+      "id": "c26f419d479193dd0c62d3c310a927875cff2b81bd7173e3e03cda553fe4b0c2",
+      "source": "CNBC",
+      "title": "Bank of Korea holds rates after President Lee calls for boosting housing supply",
+      "publishedAtSgt": "2026-10-22T10:18:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/bok-rate-decision-seoul-property.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "South Korea's central bank expectedly kept its policy rate steady at 3% on Thursday, after two straight hikes, with analysts pointing that it does not signal a change in policy stance as inflation stays elevated. Last week, BOK Governor Shin Hyun Song said at the IMF-World Bank annual meetings that the central bank will keep monetary policy restrictive until it's confident that inflation was heading back to target.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
+      "id": "92ac0eb0ca0e9d4f3aab5330aac9958142e845b7286a103dbc7fd38a70ec0897",
+      "source": "CNBC",
+      "title": "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
+      "publishedAtSgt": "2026-10-22T09:05:15+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 53,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "Meanwhile, Google and OpenAI highlighted the growing role of artificial intelligence in identifying and addressing cybersecurity threats. Google said its cybersecurity unit Wiz used AI models to help find and investigate the vulnerabilities, while its Gemini AI contributed to efforts to assess the flaws, test potential attacks and verify security patches. OpenAI said researchers working with its AI models had also helped uncover critical vulnerabilities in PHP.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
+      "id": "f044bb32ef1dbb0a6851b41314541701459095b2cf1fb284bf25c1bbe3e88430",
+      "source": "CNBC",
+      "title": "Inside India newsletter: Asia’s hottest data center market aims to quell concerns over water and power use",
+      "publishedAtSgt": "2026-10-22T08:07:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/india-data-center-google-amazon.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Welcome to the latest edition of \"Inside India\" — your one-stop destination for stories and developments from the world's fastest-growing large economy. BlackRock, GIC among investors chasing Indian telecom major Jio's IPO as anchor bids top $26 billion India's Jio Platforms has seen the anchor investor quota for its initial public offering oversubscribed more than 30 times, according to a source familiar with the matter, drawing bids from top asset managers including BlackRock, Capital Group...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
       "id": "23bafda12193920beb9425329042130070e5fd13dd1435308f59c3cac9d5d46e",
       "source": "CNBC",
       "title": "CoreWeave’s market confidence erodes as bond yields spike and stock sinks",
@@ -131,6 +228,6 @@
       "collectedAtSgt": "2026-10-22T02:06:07+08:00"
     }
   ],
-  "articleCount": 8,
-  "updatedAtSgt": "2026-10-22T06:24:02+08:00"
+  "articleCount": 14,
+  "updatedAtSgt": "2026-10-22T14:09:09+08:00"
 }
