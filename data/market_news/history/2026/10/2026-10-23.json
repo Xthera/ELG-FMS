@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "704c10189eeda17f75f762da12e930d1f912c2f6d478e8120296601179cf986c",
+      "source": "CNBC",
+      "title": "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
+      "publishedAtSgt": "2026-10-23T01:53:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/bill-ackman-talks-meta-and-markets-with-cnbc.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Pershing Square CEO Bill Ackman said two geopolitical conflicts — the Ukraine-Russia and Iran wars — along with elevated inflation and interest rates are holding back an otherwise \"booming market environment.\" \"Once the overhang of the war is done — and it sounds like we're also potentially heading in the right direction with Russia-Ukraine — energy prices could come way down, and obviously that would be very good for inflation and markets,\" Ackman told CNBC's \"Squawk on the Street\" on...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T02:01:23+08:00"
+    },
+    {
+      "id": "f26a634003a25736af653f168147dd2e0f127116c399c65a603b41cf8b86d706",
+      "source": "CNBC",
+      "title": "We're dipping back into the AI trade with our first data center buy in weeks",
+      "publishedAtSgt": "2026-10-23T01:28:19+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/22/were-dipping-back-into-the-data-center-trade-with-small-buy.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Following the trade, Jim Cramer's Charitable Trust will own 100 shares of GEV, increasing its weighting in the portfolio to about 2.15% from 1.9%. AI-related semiconductors and industrial stocks are getting hit hard as investors grow increasingly concerned about the source of capital to support the data center buildout.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-23T02:01:24+08:00"
+    }
+  ],
+  "articleCount": 2,
+  "updatedAtSgt": "2026-10-23T02:01:24+08:00"
+}

@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "6fc1935dc4ae88d18c0603911daa44a3d37d6d7241d6a902d55d66a9a77ff263",
+      "source": "CNBC",
+      "title": "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
+      "publishedAtSgt": "2026-10-22T23:16:05+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/under-the-radar-stocks-to-play-the-next-leg-of-the-energy-trade-with-oil-prices-jumping-again.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Iran's currency is losing value, and people I speak with who have family there tell me they are increasingly worried about more economic pain ahead. Inflation has been a huge part of the global economic story since COVID and the lockdowns. My Take → Energy investors are right to be nervous about oil and gas stocks.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T02:01:28+08:00"
+    },
+    {
       "id": "ea82f01942bbe12d6b4430e8362183f1763661aa491fb5f2b351de10067ade4c",
       "source": "CNBC",
       "title": "France protests: Macron condemns 'stupid' comments from Trump, others as bond market pressure builds",
@@ -337,6 +353,6 @@
       "collectedAtSgt": "2026-10-22T02:06:07+08:00"
     }
   ],
-  "articleCount": 21,
-  "updatedAtSgt": "2026-10-22T21:00:21+08:00"
+  "articleCount": 22,
+  "updatedAtSgt": "2026-10-23T02:01:28+08:00"
 }

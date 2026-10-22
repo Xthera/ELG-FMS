@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-22T21:00:21+08:00",
+  "generatedAtSgt": "2026-10-23T02:01:28+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,53 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "704c10189eeda17f75f762da12e930d1f912c2f6d478e8120296601179cf986c",
+      "source": "CNBC",
+      "title": "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
+      "publishedAtSgt": "2026-10-23T01:53:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/bill-ackman-talks-meta-and-markets-with-cnbc.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Pershing Square CEO Bill Ackman said two geopolitical conflicts — the Ukraine-Russia and Iran wars — along with elevated inflation and interest rates are holding back an otherwise \"booming market environment.\" \"Once the overhang of the war is done — and it sounds like we're also potentially heading in the right direction with Russia-Ukraine — energy prices could come way down, and obviously that would be very good for inflation and markets,\" Ackman told CNBC's \"Squawk on the Street\" on...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T02:01:23+08:00"
+    },
+    {
+      "id": "f26a634003a25736af653f168147dd2e0f127116c399c65a603b41cf8b86d706",
+      "source": "CNBC",
+      "title": "We're dipping back into the AI trade with our first data center buy in weeks",
+      "publishedAtSgt": "2026-10-23T01:28:19+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/22/were-dipping-back-into-the-data-center-trade-with-small-buy.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Following the trade, Jim Cramer's Charitable Trust will own 100 shares of GEV, increasing its weighting in the portfolio to about 2.15% from 1.9%. AI-related semiconductors and industrial stocks are getting hit hard as investors grow increasingly concerned about the source of capital to support the data center buildout.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-23T02:01:24+08:00"
+    },
+    {
+      "id": "6fc1935dc4ae88d18c0603911daa44a3d37d6d7241d6a902d55d66a9a77ff263",
+      "source": "CNBC",
+      "title": "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
+      "publishedAtSgt": "2026-10-22T23:16:05+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/under-the-radar-stocks-to-play-the-next-leg-of-the-energy-trade-with-oil-prices-jumping-again.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Iran's currency is losing value, and people I speak with who have family there tell me they are increasingly worried about more economic pain ahead. Inflation has been a huge part of the global economic story since COVID and the lockdowns. My Take → Energy investors are right to be nervous about oil and gas stocks.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T02:01:28+08:00"
+    },
     {
       "id": "ea82f01942bbe12d6b4430e8362183f1763661aa491fb5f2b351de10067ade4c",
       "source": "CNBC",
@@ -1538,52 +1585,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-17T01:28:04+08:00"
-    },
-    {
-      "id": "cce5b2c53bf7952170945044a92f75fb2ddfd78c2fefd60c0d7b3aee3d215fb7",
-      "source": "CNBC",
-      "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
-      "publishedAtSgt": "2026-10-17T00:27:44+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 52,
-      "relevanceReason": "supporting_technology_description",
-      "summary": "companies and the Trump administration both \"need to be wary\" of foreign espionage attempts as the race for artificial intelligence dominance continues, Director of National Intelligence Jay Clayton told CNBC on Friday. AI \"amplifies\" existing cybersecurity risks toward U.S. digital infrastructure, which is interconnected with critical systems related to everything from public goods to the national defense and global communications, Clayton said on \"Squawk Box.\" It's \"why we're focused on...",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-17T01:28:04+08:00"
-    },
-    {
-      "id": "2444de55f0acc74028a6656931e7c562f2e1d45f53f507fbff4303c3d46fd1c2",
-      "source": "CNBC",
-      "title": "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
-      "publishedAtSgt": "2026-10-17T00:21:14+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/tax-strategies-capital-gains-wealthy-investors-schwab.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "When Charles Schwab released its quarterly earnings on Thursday, it wasn't the quarterly earnings per share print in the numbers that caught the attention of those who manage money for wealthy stock investors — it was a $60.7 billion figure. That was reported in a detail about margin loan balances which increased 14% quarter-over-quarter to $187.9 billion, including a whopping $60.7 billion related to what are known as \"tax-aware\" long/short strategies used by many registered investment...",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-17T01:28:04+08:00"
-    },
-    {
-      "id": "aefb38e0415a42fedf14dd31ebe49da7e207224135e7867fcc3ed4a9f46fe285",
-      "source": "CNBC",
-      "title": "What we want to see when Capital One and Meta report earnings next week",
-      "publishedAtSgt": "2026-10-17T00:06:29+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/16/what-we-want-to-see-when-capital-one-and-meta-report-earnings-next-week-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Stocks are mixed Friday, with the rotation out of AI names and into defensives still ongoing. \"Investors typically don't want to hear about investment years. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-17T01:28:05+08:00"
     }
   ]
 }
