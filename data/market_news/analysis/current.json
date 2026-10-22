@@ -1,10 +1,163 @@
 {
-  "generatedAtSgt": "2026-10-22T14:24:41.220337+08:00",
+  "generatedAtSgt": "2026-10-22T21:18:22.407238+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 236,
+  "articleCount": 241,
   "analyses": [
+    {
+      "articleId": "ea82f01942bbe12d6b4430e8362183f1763661aa491fb5f2b351de10067ade4c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "France is facing rising debt servicing payments and widening bond yield spreads against Germany amid ongoing protests, sparking concerns over public finances and potential European Central Bank intervention.",
+      "assetClasses": [
+        "Bonds",
+        "Equities",
+        "Currencies"
+      ],
+      "geographies": [
+        "France",
+        "Germany",
+        "Europe"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "Investors holding French sovereign debt or European assets face heightened volatility and widening yield spreads, raising risk premiums for French assets.",
+      "reasoning": "The article details direct pressures on European sovereign bond markets and public finances, making it highly relevant for market risk assessment and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "France protests: Macron condemns 'stupid' comments from Trump, others as bond market pressure builds",
+      "publishedAtSgt": "2026-10-22T20:52:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/macron-trump-france-protests.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "articleId": "1e5230c909862caf88b58f0f8c09f85cd97951bcef0992a54efc29a29975bc65",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Comcast beat earnings expectations for the quarter as media revenue successfully offset weakness in its connectivity segment, while the company continues to refocus on its mobile business and strategic separation plans.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Communication Services",
+        "Media",
+        "Telecommunications"
+      ],
+      "investorImpact": "The better-than-expected earnings offer reassurance regarding Comcast's ability to offset connectivity headwinds with media revenue, supporting investor confidence in its ongoing strategic shifts.",
+      "reasoning": "Classified as MARKET because it details quarterly earnings results and operational performance for a major public corporation, which is relevant for portfolio monitoring and equity sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Comcast beats earnings expectations as media revenue offsets weakness in connectivity",
+      "publishedAtSgt": "2026-10-22T20:17:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/comcast-cmcsa-earnings-q3-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "articleId": "11c5c7c21958973fc947a8f45376fff31eca764dbb4df8f42d57fa72890cf4a5",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Procter & Gamble reported an earnings beat with a 4% rise in sales, boosted by its laundry and home products segments. The company also saw a 2.4% volume growth, marking a strong start to its new fiscal year after a previous year of sluggish volume performance.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Staples"
+      ],
+      "investorImpact": "The positive earnings beat and volume growth signal healthy consumer demand and effective operational execution for a major consumer staples bellwether, supporting premarket share price gains and positive sector sentiment.",
+      "reasoning": "Classified as MARKET because it covers corporate earnings and financial performance metrics for a major publicly traded company. It is significant for monitoring consumer staples equity valuations and market health.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
+      "publishedAtSgt": "2026-10-22T20:01:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/procter-gamble-pg-q1-2027-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "articleId": "3baa3b5c17f08c3db09310c18491cff93369fae448eb36d28ae34abfcabe5300",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Stock futures are declining as selling pressure returns to the technology and chip sectors. Despite better-than-expected third-quarter results and a sales beat, Tesla shares are falling in premarket trading.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Consumer Discretionary"
+      ],
+      "investorImpact": "Investors in tech stocks and Chinese equities face downward pressure and negative sentiment, signaling potential volatility and near-term weakness in growth portfolios.",
+      "reasoning": "The article details broad market movements including declining futures, pressure on tech/chip stocks, and a bear market in Chinese stocks, making it relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Sellers are back in tech, while bear market grips Chinese stocks",
+      "publishedAtSgt": "2026-10-22T19:50:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/sellers-are-back-in-tech-while-bear-market-grips-chinese-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "articleId": "1e77f950c933ae65e86184468afde75b6ef59bfe20de81781989183b1c23092e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Recent disputes between the White House and Elon Musk over Starlink service suspensions in Ukraine highlight business and operational risks for SpaceX partners, potentially opening opportunities for competitors like Blue Origin to capture market share by offering greater certainty.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "Ukraine",
+        "United States"
+      ],
+      "sectors": [
+        "Aerospace & Defense",
+        "Telecommunications",
+        "Technology"
+      ],
+      "investorImpact": "The perceived unreliability of a monopoly service provider creates opening opportunities for competitors offering certainty, altering competitive dynamics in the satellite and aerospace sectors.",
+      "reasoning": "The article discusses the market implications of service disruptions for a major private space technology provider and how competitors might capitalize on reliability issues.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Ukraine Starlink slowdown raises business risks for Elon Musk partners",
+      "publishedAtSgt": "2026-10-22T18:43:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/ukraine-starlink-slowdown-musk-business-risk.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
     {
       "articleId": "dbbe73854e83910002467c9943b137fb921add37a059350c69b916b01d103bfe",
       "relevant": true,
