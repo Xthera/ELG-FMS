@@ -5,6 +5,115 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "ea82f01942bbe12d6b4430e8362183f1763661aa491fb5f2b351de10067ade4c",
+      "source": "CNBC",
+      "title": "France protests: Macron condemns 'stupid' comments from Trump, others as bond market pressure builds",
+      "publishedAtSgt": "2026-10-22T20:52:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/macron-trump-france-protests.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "France is facing spiraling debt servicing payments that are putting further pressure on its finances, raising the specter of potential intervention by the European Central Bank if the spread in its borrowing costs against euro area benchmark Germany continues to widen. \"The direct economic impact on France of the unrest surrounding the 17 October protests is likely to be limited, but it comes at a challenging time for the economy and public finances,\" Mehdi Fadli, senior vice president for...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "id": "1e5230c909862caf88b58f0f8c09f85cd97951bcef0992a54efc29a29975bc65",
+      "source": "CNBC",
+      "title": "Comcast beats earnings expectations as media revenue offsets weakness in connectivity",
+      "publishedAtSgt": "2026-10-22T20:17:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/comcast-cmcsa-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "After years of stagnating growth in broadband and heightened competition from wireless providers like Verizon and T-Mobile, Comcast announced in January 2025 that it would refocus on its mobile business and pursue more competitive pricing plans. Co-CEO and Chair Brian Roberts said on a call with investors directly following the June announcement that the separation would allow each business to have more \"dedicated focus, strategic flexibility, and tailored investment priorities.\" The decision...",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "id": "11c5c7c21958973fc947a8f45376fff31eca764dbb4df8f42d57fa72890cf4a5",
+      "source": "CNBC",
+      "title": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
+      "publishedAtSgt": "2026-10-22T20:01:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/procter-gamble-pg-q1-2027-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of the company rose more than 2% in premarket trading. P&G reported volume growth of 2.4%, a strong start for its new fiscal year. In fiscal 2026, P&G reported just one quarter of volume growth.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "id": "3baa3b5c17f08c3db09310c18491cff93369fae448eb36d28ae34abfcabe5300",
+      "source": "CNBC",
+      "title": "Sellers are back in tech, while bear market grips Chinese stocks",
+      "publishedAtSgt": "2026-10-22T19:50:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/sellers-are-back-in-tech-while-bear-market-grips-chinese-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Futures are steadily declining this morning, with chip stocks once again under pressure. Tesla round-up: Better-than-expected third-quarter results are failing to support Tesla shares, with the stock falling in premarket trading. The stock initially rallied in extended trade on Wednesday, after it posted a sales beat for the quarter.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "id": "1e77f950c933ae65e86184468afde75b6ef59bfe20de81781989183b1c23092e",
+      "source": "CNBC",
+      "title": "Ukraine Starlink slowdown raises business risks for Elon Musk partners",
+      "publishedAtSgt": "2026-10-22T18:43:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/ukraine-starlink-slowdown-musk-business-risk.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "In recent days, the White House and Elon Musk have been trading dueling narratives over the suspension of Starlink service to Ukraine in a haze of confusion. Markets dislike any monopoly, but especially an unreliable one, and competitors like Blue Origin do not need to beat SpaceX on technology to take share; they need only offer what Musk cannot, which is certainty.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "id": "d3d45183d6ebae106b1fa86d7b77f747aebf7bf463fbe88ad30e195dbb8cab8b",
+      "source": "CNBC",
+      "title": "Trump’s tariffs loom over Maine Senate race between Collins and Jackson",
+      "publishedAtSgt": "2026-10-22T18:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/maine-senate-election-trump-tariffs.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "\"We've eaten as much cost as we can to try to keep our prices down, but we just can't eat any more than we have already.\" Few states have been as vulnerable in the U.S.-Canada trade war as Maine, which sends more than 40% of its exports to the U.S.'s northern neighbor. Those challenges are also piling on top of cost-of-living issues that were already spiraling, especially relating to things like home heating oil, on which Maine depends more than any other state.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "id": "8d6d2c946708f9c302fc14b5d446b17f54c6c027a38183b4534adc92dc7a125d",
+      "source": "CNBC",
+      "title": "World's largest wealth fund posts $30 billion loss after bond market turbulence",
+      "publishedAtSgt": "2026-10-22T17:25:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/norges-bank-nbim-wealth-fund-q3-results.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Norway's sovereign wealth fund — the largest in the world — said Thursday that its investment portfolio delivered a loss of $30 billion in the third quarter, as rising interest rates dented returns on its bond holdings. Norges Bank Investment Management (NBIM), which manages the $2.3 trillion fund, said the accounting return for the period was a loss of 278 billion kroner ($29.7 billion).",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
       "id": "dbbe73854e83910002467c9943b137fb921add37a059350c69b916b01d103bfe",
       "source": "CNBC",
       "title": "Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
@@ -228,6 +337,6 @@
       "collectedAtSgt": "2026-10-22T02:06:07+08:00"
     }
   ],
-  "articleCount": 14,
-  "updatedAtSgt": "2026-10-22T14:09:09+08:00"
+  "articleCount": 21,
+  "updatedAtSgt": "2026-10-22T21:00:21+08:00"
 }
