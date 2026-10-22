@@ -1,10 +1,133 @@
 {
-  "generatedAtSgt": "2026-10-23T02:17:11.960805+08:00",
+  "generatedAtSgt": "2026-10-23T06:38:01.012161+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 226,
+  "articleCount": 230,
   "analyses": [
+    {
+      "articleId": "ed202b4a19923558a7eed2fb17d185135736c8b97ce93ccd06780f4485baf661",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Moderna shares plunged up to 25% after a premature leak of partial data regarding its cancer vaccine developed with Merck, though full data released later showed positive results exceeding Wall Street expectations.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Biotechnology",
+        "Pharmaceuticals"
+      ],
+      "investorImpact": "Investors holding positions in Moderna or Merck experienced extreme intraday volatility and sharp sell-offs due to data leakage before full clinical disclosures were made.",
+      "reasoning": "Classified as MARKET due to the severe share price reaction and volatility caused by a data leak. Sentiment is NEGATIVE regarding the immediate stock performance despite positive underlying clinical results.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Moderna shares plunge after cancer vaccine data leaks — despite positive results",
+      "publishedAtSgt": "2026-10-23T05:52:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
+    {
+      "articleId": "9c08b3d188937077b05bebfe98397f7b92a34320750297aee9efddd493a73524",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "OpenAI is reportedly closing in on a funding round of up to $30 billion, pushing its valuation to $1.25 trillion, with backing led by UAE investors ahead of a potential IPO.",
+      "assetClasses": [
+        "Private Equity",
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "United Arab Emirates"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "This massive late-stage funding round signals continued robust investor appetite and staggering private market valuations for leading artificial intelligence firms, potentially setting benchmarks for tech sector valuations and upcoming IPO pipelines.",
+      "reasoning": "Classified as MARKET due to the massive capital raise and valuation milestone for a major private company. It is highly important given the sheer size of the $30 billion round and $1.25 trillion valuation, and highly relevant for fund monitoring as a bellwether for the AI sector and private equity markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+      "publishedAtSgt": "2026-10-23T04:41:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
+    {
+      "articleId": "cbec97e8b1689fa7eea83da286cf914a421328972e81c6a2dd031fce51499d09",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Meta shares dropped 7% after strong quarterly results were overshadowed by artificial intelligence spending concerns and plans to create new Class C non-voting shares to fund AI infrastructure.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Investors in Meta face short-term volatility and dilution or governance concerns due to new non-voting shares, weighed against the long-term potential of its aggressive AI infrastructure investments.",
+      "reasoning": "Classified as MARKET due to the post-earnings sell-off and equity structure changes of a major large-cap technology company. Sentiment is mixed because strong earnings are offset by heavy AI spending concerns and new share issuance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here’s why",
+      "publishedAtSgt": "2026-10-23T04:11:55+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/22/meta-stock-why-were-staying-bullish-after-the-post-earnings-sell-off.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T06:22:31+08:00"
+    },
+    {
+      "articleId": "e2ab2dac81c2a9296bccda6529635e907044653efe3a3600553ac3e03e34753c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Credit markets are facing growing stress from heavily indebted governments like France and the massive financing needs of AI data center projects, with investors demanding higher compensation for borrowing risks.",
+      "assetClasses": [
+        "Bonds",
+        "Equities"
+      ],
+      "geographies": [
+        "France",
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Government",
+        "Infrastructure"
+      ],
+      "investorImpact": "Investors face heightened risks and volatility in credit and bond markets as borrowing costs rise for both heavily indebted sovereigns and capital-intensive artificial intelligence infrastructure projects.",
+      "reasoning": "The article highlights major stress points in global credit markets regarding public debt and AI financing, which directly impacts fixed income and technology sector valuations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI debt and French bonds face a stress test — why it may not be over",
+      "publishedAtSgt": "2026-10-23T02:13:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/ai-debt-and-french-bonds-stress-test.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
     {
       "articleId": "704c10189eeda17f75f762da12e930d1f912c2f6d478e8120296601179cf986c",
       "relevant": true,
