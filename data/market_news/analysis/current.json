@@ -1,10 +1,192 @@
 {
-  "generatedAtSgt": "2026-10-23T14:20:09.611351+08:00",
+  "generatedAtSgt": "2026-10-23T20:55:57.387223+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 236,
+  "articleCount": 242,
   "analyses": [
+    {
+      "articleId": "a38967a991cafb3b1c3e8857dac05f1096d01764ed81137275f9fb93d3717646",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Higher interest rates have prompted family offices to become more selective with real estate investments, focusing on heavily discounted properties and assets possessing strong pricing power.",
+      "assetClasses": [
+        "Real Estate"
+      ],
+      "geographies": [],
+      "sectors": [
+        "Real Estate"
+      ],
+      "investorImpact": "Investors and family offices face a higher bar for real estate deployment, shifting focus toward deeply discounted assets and those with pricing power, altering capital allocation strategies in the current interest rate environment.",
+      "reasoning": "The article discusses high-level investment behavior shifts among family offices due to macroeconomic interest rate conditions, directly impacting real estate markets and asset allocation strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Higher interest rates have made family offices pickier about investing in real estate",
+      "publishedAtSgt": "2026-10-23T20:15:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/high-interest-rates-raise-the-bar-for-real-estate-deals.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "articleId": "593cae8800cbb0d212baf78b30835aa9f6fadb9c32d9c0339ba2a1dcc96373ef",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The 10-year U.S. Treasury yield dropped back below 5% as investors sought safety amid growing artificial intelligence fears and concerns over high debt levels taken on by tech companies for AI infrastructure.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "The drop in Treasury yields reflects a flight to safety as equity investors react to AI-related risks and heavy corporate debt, signaling potential volatility across tech and fixed-income portfolios.",
+      "reasoning": "Classified as MARKET due to direct reporting on Treasury yield movements and equity market reactions to AI sector concerns. It is highly significant for tracking macro sentiment shifts.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
+      "publishedAtSgt": "2026-10-23T20:12:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T20:39:57+08:00"
+    },
+    {
+      "articleId": "a95c75965758cff2c07078bb6504b9e05c647f5f8316fca8af79a92e950007ea",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Crude oil futures rose, with Brent crude hitting a five-month high at $114.49 per barrel and West Texas Intermediate climbing above $100 to $101.04 a barrel, driven by geopolitical tensions as Iran stated it is prepared for warfare.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "U.S.",
+        "Iran",
+        "Global"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Higher oil prices increase inflationary pressures and energy costs, negatively impacting broader market equities and consumer discretionary sectors while potentially benefiting energy sector producers.",
+      "reasoning": "The article details a significant rise in global oil benchmarks above key psychological thresholds driven by geopolitical threats, which directly affects macroeconomic inflation expectations and energy market allocations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "U.S. oil rises above $100, Brent at five-month high as Iran says it’s prepared for warfare",
+      "publishedAtSgt": "2026-10-23T19:51:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "articleId": "9a5e07893a9828d30dc6b4574d8ec99fa086988357b65566ec578c9d1a4b33ea",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Russia and Ukraine exchanged intensive strikes targeting energy infrastructure overnight, disrupting power for over 500,000 consumers across multiple regions, shortly after signaling potential progress in U.S.-brokered peace talks.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "Russia",
+        "Ukraine",
+        "United States",
+        "Europe"
+      ],
+      "sectors": [
+        "Energy",
+        "Utilities"
+      ],
+      "investorImpact": "Heightened conflict and attacks on energy infrastructure can drive volatility in global energy prices and create operational risks for European utility markets.",
+      "reasoning": "Classified as GEOPOLITICAL due to the ongoing military conflict between Russia and Ukraine. It is relevant for fund monitoring because of potential knock-on effects on energy commodities and European energy security.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Russia and Ukraine trade fresh strikes despite renewed push for U.S.-brokered peace talks",
+      "publishedAtSgt": "2026-10-23T19:16:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/russia-ukraine-strikes-peace-talks.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "articleId": "e1a27a4da44ba920b0089577fb88588a0555a47703586270f548ddbbf007bef5",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Following a sell-off in technology stocks, investors are seeking refuge in safe havens, with Treasurys seeing renewed demand despite concerns over AI-related bond issuance. Meanwhile, Japanese core inflation reached its highest level this year, signaling a potential rate hike by the Bank of Japan.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Government Bonds"
+      ],
+      "geographies": [
+        "United States",
+        "Japan"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors are rotating out of tech equities and into safe-haven assets due to market volatility and sell-offs, while changing macroeconomic conditions in Japan highlight potential interest rate shifts.",
+      "reasoning": "The article discusses ongoing market rotation, safe-haven demand, treasury reactions to AI-related issuance, and central bank policy considerations, making it relevant for market monitoring and asset allocation strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Safe haven search is on Friday as investors keep rotating",
+      "publishedAtSgt": "2026-10-23T19:05:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/safe-haven-search-is-on-friday-as-investors-keep-rotating.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "articleId": "44e3a28226cce953ae62492e5b79085f6faa97ce241d5f8e63139e2f21c9f379",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Elon Musk addressed potential merger chatter between Tesla and SpaceX by stating he had already said everything necessary, while Tesla executives declined to take questions on the matter during an earnings call.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Automotive",
+        "Technology",
+        "Aerospace"
+      ],
+      "investorImpact": "The lack of clarity or refusal by management to address potential merger chatter creates uncertainty for shareholders, potentially impacting Tesla stock volatility.",
+      "reasoning": "Classified as MARKET because it covers market chatter and investor relations regarding a potential high-profile corporate merger between Tesla and SpaceX, though management's avoidance of the topic leaves the situation neutral for now.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage",
+      "publishedAtSgt": "2026-10-23T19:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/spacex-tesla-merger-chatter-takes-center-stage-after-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
     {
       "articleId": "0f7ead726aaf2290ab4932357695093afef9f18a2066e6bc94370332670ea32b",
       "relevant": true,
