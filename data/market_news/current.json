@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-23T14:04:29+08:00",
+  "generatedAtSgt": "2026-10-23T20:39:58+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,99 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "a38967a991cafb3b1c3e8857dac05f1096d01764ed81137275f9fb93d3717646",
+      "source": "CNBC",
+      "title": "Higher interest rates have made family offices pickier about investing in real estate",
+      "publishedAtSgt": "2026-10-23T20:15:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/high-interest-rates-raise-the-bar-for-real-estate-deals.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A version of this article appeared in CNBC's Inside Wealth newsletter, a weekly guide to the high-net-worth investor and consumer. Higher interest rates have made family offices more selective about investing in real estate, with many focusing on highly discounted properties and assets with strong pricing power, chief investment officers told CNBC. \"I would tend to think of data centers as being a more of a technology investment than a real estate investment,\" he said.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "id": "593cae8800cbb0d212baf78b30835aa9f6fadb9c32d9c0339ba2a1dcc96373ef",
+      "source": "CNBC",
+      "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
+      "publishedAtSgt": "2026-10-23T20:12:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors ran for cover this week as artificial intelligence fears hit stocks, driving the 10-year Treasury below 5%. The benchmark yield stayed below 5% on Friday, after falling beneath that level Thursday for the first time in a month as investors continued to express misgivings over the massive debt being taken on by technology companies to finance their build out of AI networks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-23T20:39:57+08:00"
+    },
+    {
+      "id": "a95c75965758cff2c07078bb6504b9e05c647f5f8316fca8af79a92e950007ea",
+      "source": "CNBC",
+      "title": "U.S. oil rises above $100, Brent at five-month high as Iran says it’s prepared for warfare",
+      "publishedAtSgt": "2026-10-23T19:51:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Crude oil futures ticked higher on Friday, with global benchmark Brent crude hovering at a five-month high. ET, front-month Brent crude oil futures were 1.1% higher at $114.49 per barrel. West Texas Intermediate crude futures were up 1.6% to trade at $101.04 a barrel.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "id": "9a5e07893a9828d30dc6b4574d8ec99fa086988357b65566ec578c9d1a4b33ea",
+      "source": "CNBC",
+      "title": "Russia and Ukraine trade fresh strikes despite renewed push for U.S.-brokered peace talks",
+      "publishedAtSgt": "2026-10-23T19:16:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/russia-ukraine-strikes-peace-talks.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Russia and Ukraine continued trading intense strikes on civilian and energy infrastructure overnight, less than a day after the parties signalled that peace negotiations were moving forward in U.S.-brokered talks. Russia unleashed a major attack on Ukraine's energy facilities, knocking out electricity for over 500,000 after strikes on energy facilities in the Zhytomyr, Volyn, Mykolaiv, Poltava, Khmelnytskyi and Rivne regions, Ukraine's Energy Ministry said Friday.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "id": "e1a27a4da44ba920b0089577fb88588a0555a47703586270f548ddbbf007bef5",
+      "source": "CNBC",
+      "title": "Safe haven search is on Friday as investors keep rotating",
+      "publishedAtSgt": "2026-10-23T19:05:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/safe-haven-search-is-on-friday-as-investors-keep-rotating.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Here are five key things investors need to know to start the trading day: It's been a whiplash week for technology stocks, but Thursday's sell-off spooked investors enough to seek refuge in safe havens. - Analysis: market participants told CNBC it's the first time in a while that Treasurys are being seen as a safe haven, citing the concern over AI-related bond issuance. Japanese core inflation hit its highest level this year, which could prompt the Bank of Japan to consider another rate hike.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "id": "44e3a28226cce953ae62492e5b79085f6faa97ce241d5f8e63139e2f21c9f379",
+      "source": "CNBC",
+      "title": "With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage",
+      "publishedAtSgt": "2026-10-23T19:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/spacex-tesla-merger-chatter-takes-center-stage-after-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Elon Musk told Tesla shareholders on Wednesday that, when it comes to a potential merger with SpaceX, he'd already \"said everything that should be said.\" Tesla's head of investor relations told analysts before opening the call to their questions that execs \"will not be addressing\" the matter.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
     {
       "id": "0f7ead726aaf2290ab4932357695093afef9f18a2066e6bc94370332670ea32b",
       "source": "CNBC",
@@ -1498,98 +1591,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-19T08:13:42+08:00"
-    },
-    {
-      "id": "c9bf42a6f209a8f7b5ea3b7a83f6be6e65344bca6a1daca0b303007eaf2e9e52",
-      "source": "CNBC",
-      "title": "Here are the 3 big things we're watching in the stock market this week",
-      "publishedAtSgt": "2026-10-18T23:24:37+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/18/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Jim Cramer said in early October that rising bond yields and a Federal Reserve determined to bring down inflation created \"a much more difficult backdrop\" for this earnings season. Tensions in the Middle East worsened , two September inflation reports came in hotter than expected , and the durability of the AI spending boom has been called further into question.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-19T00:34:40+08:00"
-    },
-    {
-      "id": "9b35a70b680cc594a3026228b8f21c4fd4261ef04b27f7cd47679b13e6660de7",
-      "source": "CNBC",
-      "title": "I've studied over 200 kids—parents who raise resilient, successful children teach them these 6 lessons early on",
-      "publishedAtSgt": "2026-10-18T21:37:01+08:00",
-      "url": "https://www.cnbc.com/make-it/2026/10/18/parenting-lessons-resilient-successful-well-adjusted.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "When we talk about raising successful kids, we tend to talk about what they can do. Are they going to basketball practices and winning games? Did they clean their rooms and set the table?",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-19T00:34:40+08:00"
-    },
-    {
-      "id": "8b73db98e6839add120dbb1516e6fb2ca083989b4ad9f0db3f55e71aa59acc3b",
-      "source": "CNBC",
-      "title": "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
-      "publishedAtSgt": "2026-10-18T20:34:51+08:00",
-      "url": "https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Fears around the artificial intelligence trade and higher pressure on oil prices are weighing on global markets, but a few stocks offer investors solid growth prospects even in choppy times. Investors with a long-term horizon can look beyond the ongoing volatility and track the recommendations of top Wall Street analysts to pick attractive stocks with strong long-term growth potential.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-19T00:34:40+08:00"
-    },
-    {
-      "id": "8d39f5c53975da68bd02f06973baabb4311ab294ff9b2db4d4903479b2520a0a",
-      "source": "CNBC",
-      "title": "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
-      "publishedAtSgt": "2026-10-18T20:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 53,
-      "relevanceReason": "supporting_technology_description",
-      "summary": "\"I don't turn it off, I take it off completely because people don't really believe it's off.\" It's the type of interaction users are increasingly navigating as more tech companies introduce AI-powered, always-listening devices and features, which have been marketed as useful tools to transcribe meetings, keep track of conversations, set reminders and offer personalized recommendations.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-18T20:05:11+08:00"
-    },
-    {
-      "id": "4d94fd80c625d30706a450ac1fd89f71e2a639426530d0cd88ab027991fed610",
-      "source": "CNBC",
-      "title": "Why hedge funds could be making a bond market shock more likely",
-      "publishedAtSgt": "2026-10-18T14:13:05+08:00",
-      "url": "https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Hedge funds' increased presence in global bond markets makes the likelihood of a broader market shock \"greater than what it was,\" Bank of England deputy governor Sarah Breeden told CNBC Thursday. Breeden — the central bank's deputy governor for financial stability, and a member of its rates-setting Monetary Policy Committee — said the changing mix of bond market investors, and their increased use of leverage, raises the risk of localized market turbulence turning into broader financial stress.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-18T20:05:11+08:00"
-    },
-    {
-      "id": "6b63170b95b64e4cfa29f40695b1abfb1a4a61ddf910640ff0bb6d1a955ccc55",
-      "source": "CNBC",
-      "title": "Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says",
-      "publishedAtSgt": "2026-10-18T00:45:15+08:00",
-      "url": "https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "\"That's because the gap between demand and supply for semiconductors is still very wide, and supply is still being expanded.\" His comments come after semiconductor stocks fell sharply this week, hurt by investor concerns about interest rate hikes and rising competition from Chinese companies. South Korean chip stocks like SK Hynix and Seoul Semiconductor were part of the sell-off, along with U.S. Chip stocks have fueled volatility in South Korea's stock market this year, Lee said.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-18T05:29:36+08:00"
     }
   ]
 }
