@@ -5,6 +5,87 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "0f7ead726aaf2290ab4932357695093afef9f18a2066e6bc94370332670ea32b",
+      "source": "CNBC",
+      "title": "SK Hynix shares rebound after initial drop on scrapped Solidigm IPO plans",
+      "publishedAtSgt": "2026-10-23T13:01:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Josh Gilbert, lead analyst for APAC at investment platform eToro, said the stock's rebound suggested that concerns over a potential Solidigm IPO had been weighing on investor sentiment. However, financial market volatility had increased and contributed to a broader correction in semiconductor stocks, prompting SK Hynix to reassess whether an IPO would benefit existing shareholders.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
+      "id": "8b7723429373ce1e440a91c37369b0815cc848ba3988a63d0832162588c9f33b",
+      "source": "CNBC",
+      "title": "Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens",
+      "publishedAtSgt": "2026-10-23T12:55:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/wealthy-chinese-tax-offshore-trusts-capital-control-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "bank accounts have grown in the months after Beijing imposed retroactive taxes on offshore wealth in July, moving assets previously stored in Singapore or Hong Kong there to stay further away from Beijing's reach. Lawyers in Singapore and Hong Kong have been working to tally how much tax their clients owe, facilitating trusts' unwinding, sales of shares in listed companies or applying for loans to meet the outsized tax bill. Non-resident clients who open foreign bank accounts in the U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
+      "id": "12f22e284adfb9e12c8e29cb5fb35659193db207b0743c8210785973c28cda1e",
+      "source": "CNBC",
+      "title": "CNBC Daily Open: AI spending fears haunt markets before Halloween",
+      "publishedAtSgt": "2026-10-23T09:42:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/cnbc-daily-open-ai-spending-elon-musk-bill-ackman-jensen-huang.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "markets as renewed concerns around spending by artificial intelligence companies came to the fore, while oil prices jumped amid rising geopolitical tensions. The cash fleeing the stock markets seem to have found their space in the bond markets, where the benchmark 10-year U.S. Higher crude prices have pressured stocks all year, as traders fear elevated energy costs will drive up inflation and force the Federal Reserve to raise rates.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T14:04:29+08:00"
+    },
+    {
+      "id": "e6710837ea2996e23f032b68f98339966bbcd68899201e5e9e2abdfde34a0378",
+      "source": "CNBC",
+      "title": "Japan core inflation in September surges to its highest this year at 2.1%",
+      "publishedAtSgt": "2026-10-23T08:55:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Headline inflation came in at 2.1%, while the so-called \"core-core\" inflation, which excludes prices of fresh food and energy and is the Bank of Japan's preferred gauge, was at 2.4%. Higher inflation could push the Bank of Japan for another rate hike this year, after a 25 basis points increase in September, as the central bank normalizes its monetary approach after decades of reflationary policy.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
+      "id": "4edaf33a37651b4b3ffe433cfb4327e7a2b258f31a4e8a4f2974e11fb65bd99b",
+      "source": "CNBC",
+      "title": "SpaceX records $561 million investment gain from stake in Elon Musk's Boring Co.",
+      "publishedAtSgt": "2026-10-23T08:46:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/spacex-records-561-million-investment-gain-from-stake-in-boring-co.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "netted the company an investment gain of $561 million during the third quarter. raised $3 billion at a $23 billion valuation, with backing from the United Arab Emirates and a roster of other longtime Musk supporters. SpaceX also said in Thursday's filing that it purchased $151 million worth of Tesla's Megapack energy storage systems during the quarter.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
       "id": "ed202b4a19923558a7eed2fb17d185135736c8b97ce93ccd06780f4485baf661",
       "source": "CNBC",
       "title": "Moderna shares plunge after cancer vaccine data leaks — despite positive results",
@@ -50,6 +131,22 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-23T06:22:31+08:00"
+    },
+    {
+      "id": "a892518e74a59d235d0c056272649847134d58d20b50f6cf5e088abd7d986219",
+      "source": "CNBC",
+      "title": "10-year Treasury yield tumbles below 5% to lowest level in nearly a month",
+      "publishedAtSgt": "2026-10-23T04:05:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields fell sharply on Thursday, with investors turning to safe havens amid a steep sell-off in stocks driven by concerns around the artificial intelligence trade and surging oil prices. \"People are all of a sudden terrified of the amount of bond issuance by AI-related companies.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
     },
     {
       "id": "e2ab2dac81c2a9296bccda6529635e907044653efe3a3600553ac3e03e34753c",
@@ -99,6 +196,6 @@
       "collectedAtSgt": "2026-10-23T02:01:24+08:00"
     }
   ],
-  "articleCount": 6,
-  "updatedAtSgt": "2026-10-23T06:22:31+08:00"
+  "articleCount": 12,
+  "updatedAtSgt": "2026-10-23T14:04:29+08:00"
 }
