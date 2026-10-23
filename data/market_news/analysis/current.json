@@ -1,10 +1,167 @@
 {
-  "generatedAtSgt": "2026-10-23T06:38:01.012161+08:00",
+  "generatedAtSgt": "2026-10-23T14:20:09.611351+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 230,
+  "articleCount": 236,
   "analyses": [
+    {
+      "articleId": "0f7ead726aaf2290ab4932357695093afef9f18a2066e6bc94370332670ea32b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "SK Hynix shares rebounded following an initial drop after the company scrapped its planned IPO for subsidiary Solidigm due to financial market volatility and a broader correction in semiconductor stocks, easing investor concerns.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "South Korea",
+        "Asia-Pacific"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The decision to scrap the Solidigm IPO removes a potential overhang on SK Hynix shares, though broader semiconductor stock correction and market volatility remain key watchpoints for investors.",
+      "reasoning": "Classified as MARKET because it details stock price movements and corporate actions in response to market volatility. Sentiment is POSITIVE due to the share price rebound and removal of IPO concerns. Importance is MEDIUM as it impacts specific regional tech equities and semiconductor sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SK Hynix shares rebound after initial drop on scrapped Solidigm IPO plans",
+      "publishedAtSgt": "2026-10-23T13:01:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
+      "articleId": "8b7723429373ce1e440a91c37369b0815cc848ba3988a63d0832162588c9f33b",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Wealthy Chinese individuals are shifting offshore funds into U.S. banks to evade Beijing's newly expanded retroactive taxes and tighter controls on offshore wealth, leading to the unwinding of trusts and liquidation of shares in traditional Asian financial hubs like Singapore and Hong Kong.",
+      "assetClasses": [
+        "Equities",
+        "Cash",
+        "Private Wealth"
+      ],
+      "geographies": [
+        "China",
+        "United States",
+        "Singapore",
+        "Hong Kong"
+      ],
+      "sectors": [
+        "Banking",
+        "Financial Services"
+      ],
+      "investorImpact": "The cross-border capital reallocation highlights shifting wealth management flows, potentially increasing deposits in U.S. banks while disrupting traditional Asian wealth hubs like Singapore and Hong Kong as trusts are unwound and shares are sold.",
+      "reasoning": "Classified as Geopolitical/Market due to Beijing's tax policy changes driving significant cross-border capital flows from Asian financial centers into U.S. banking institutions, indicating important shifts in offshore wealth management.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens",
+      "publishedAtSgt": "2026-10-23T12:55:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/wealthy-chinese-tax-offshore-trusts-capital-control-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
+      "articleId": "12f22e284adfb9e12c8e29cb5fb35659193db207b0743c8210785973c28cda1e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Markets faced pressure as renewed concerns over heavy artificial intelligence spending emerged alongside surging oil prices due to geopolitical tensions, leading investors to shift capital from equities into the bond market.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy"
+      ],
+      "investorImpact": "Investors face heightened volatility as AI spending concerns weigh on tech valuations while rising oil prices fuel inflation fears, potentially influencing Federal Reserve rate decisions and driving capital toward safe-haven bonds.",
+      "reasoning": "The article addresses crucial cross-market dynamics including AI spending fears, energy-driven inflation concerns, and capital rotation into fixed income, making it highly relevant for market-wide risk monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CNBC Daily Open: AI spending fears haunt markets before Halloween",
+      "publishedAtSgt": "2026-10-23T09:42:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/cnbc-daily-open-ai-spending-elon-musk-bill-ackman-jensen-huang.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-23T14:04:29+08:00"
+    },
+    {
+      "articleId": "e6710837ea2996e23f032b68f98339966bbcd68899201e5e9e2abdfde34a0378",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Japan's core inflation surged to 2.1% in September, its highest level for the year, while the Bank of Japan's preferred 'core-core' gauge came in at 2.4%. This increase raises expectations for potential further interest rate hikes by the Bank of Japan as it normalizes monetary policy.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Currencies"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Rising inflation in Japan increases the probability of further monetary tightening and rate hikes by the Bank of Japan, which can impact Japanese bond yields, equity valuations, and the strength of the yen.",
+      "reasoning": "The article details key macroeconomic data (core inflation reaching a yearly high) that directly influences monetary policy decisions by the Bank of Japan, making it highly relevant for economic monitoring and asset allocation strategies involving Japanese markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Japan core inflation in September surges to its highest this year at 2.1%",
+      "publishedAtSgt": "2026-10-23T08:55:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
+      "articleId": "4edaf33a37651b4b3ffe433cfb4327e7a2b258f31a4e8a4f2974e11fb65bd99b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "SpaceX recorded a $561 million investment gain from its stake in The Boring Co. during the third quarter, while The Boring Co. raised $3 billion at a $23 billion valuation with UAE backing. Additionally, SpaceX purchased $151 million worth of Tesla Megapack energy storage systems.",
+      "assetClasses": [
+        "Private Equity",
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "United Arab Emirates"
+      ],
+      "sectors": [
+        "Aerospace",
+        "Infrastructure",
+        "Energy"
+      ],
+      "investorImpact": "Highlights significant valuation milestones and capital raising activities within Elon Musk's private corporate ecosystem, indicating strong institutional and sovereign backing for infrastructure and aerospace ventures.",
+      "reasoning": "The article details major private market transactions, valuation updates, and inter-company investments involving prominent private and public entities (SpaceX, The Boring Co., Tesla), making it relevant for market monitoring of private equity and tech sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SpaceX records $561 million investment gain from stake in Elon Musk's Boring Co.",
+      "publishedAtSgt": "2026-10-23T08:46:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/spacex-records-561-million-investment-gain-from-stake-in-boring-co.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
     {
       "articleId": "ed202b4a19923558a7eed2fb17d185135736c8b97ce93ccd06780f4485baf661",
       "relevant": true,
@@ -95,6 +252,37 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-23T06:22:31+08:00"
+    },
+    {
+      "articleId": "a892518e74a59d235d0c056272649847134d58d20b50f6cf5e088abd7d986219",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Treasury yields fell sharply, pushing the 10-year yield below 5% to its lowest level in nearly a month as investors sought safe havens during a stock market sell-off driven by concerns over artificial intelligence trade and rising oil prices.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy"
+      ],
+      "investorImpact": "Investors experienced heightened volatility and shifts toward safe-haven assets, with bond yields dropping as equity markets faced a steep sell-off due to AI trade and oil price anxieties.",
+      "reasoning": "The article is classified as MARKET and HIGH importance because significant moves in the 10-year Treasury yield directly impact broad asset valuation, borrowing costs, and cross-asset risk sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "10-year Treasury yield tumbles below 5% to lowest level in nearly a month",
+      "publishedAtSgt": "2026-10-23T04:05:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
     },
     {
       "articleId": "e2ab2dac81c2a9296bccda6529635e907044653efe3a3600553ac3e03e34753c",
