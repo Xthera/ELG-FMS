@@ -5,6 +5,38 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "9ea3263795563a50497e12e0d31c9156ac1c57ac5c17c444ce362249dcba3a6b",
+      "source": "CNBC",
+      "title": "AI agents could disrupt bank deposits. Why Wall Street may be overreacting",
+      "publishedAtSgt": "2026-10-23T23:00:49+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/23/ai-agents-could-disrupt-bank-deposits-why-wall-street-may-be-overreacting.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Would you trust an AI agent with your bank account information and let it move your money without asking you first? The debate has taken center stage during the latest bank earnings season, with executives pushing back on the notion that AI agents could fundamentally change how consumers manage their money. For investors, rising deposit costs or slowing deposit growth would be warning signs that AI agents are beginning to disrupt the industry.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-24T01:53:57+08:00"
+    },
+    {
+      "id": "1d15d42c8a19df55a402f6822f5e005599b9082c12e524d2fc9c90ef8cd35917",
+      "source": "CNBC",
+      "title": "Restaurant earnings will test whether owning more brands pays off",
+      "publishedAtSgt": "2026-10-23T21:55:46+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/darden-brinker-qsr-stocks-restaurant-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Restaurant stocks have split sharply this year. Shares of Brinker International, Darden Restaurants and Restaurant Brands International are up roughly 32%, 18% and 12%, respectively, year to date. Starbucks and Cheesecake Factory have been restaurant-stock standouts this year, showing how a clear brand identity and investment can drive outperformance when execution and customer demand click.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-24T01:53:57+08:00"
+    },
+    {
       "id": "a38967a991cafb3b1c3e8857dac05f1096d01764ed81137275f9fb93d3717646",
       "source": "CNBC",
       "title": "Higher interest rates have made family offices pickier about investing in real estate",
@@ -289,6 +321,6 @@
       "collectedAtSgt": "2026-10-23T02:01:24+08:00"
     }
   ],
-  "articleCount": 18,
-  "updatedAtSgt": "2026-10-23T20:39:58+08:00"
+  "articleCount": 20,
+  "updatedAtSgt": "2026-10-24T01:53:57+08:00"
 }

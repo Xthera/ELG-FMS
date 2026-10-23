@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-23T20:39:58+08:00",
+  "generatedAtSgt": "2026-10-24T01:53:57+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,84 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "c30ee4c3577e9318a8f295fb8f0cc1bbcc39c84de271a58c6f6e89962c0d212a",
+      "source": "CNBC",
+      "title": "Investors are starting to find opportunities in the battered bond market",
+      "publishedAtSgt": "2026-10-24T01:40:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/investors-are-starting-to-find-opportunities-in-the-battered-bond-market.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The investment strategist noted in his weekly money-flow summary that the \"secular contrarian [trade] would be adding bonds,\" drawing a parallel to similar long-run negative returns for stocks and commodities that later proved to be good entry points Despite the negative returns and soaring yields this year, investors are putting money into fixed income and government debt in particular.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-24T01:53:52+08:00"
+    },
+    {
+      "id": "31533249e4ed9f0e73bc49b26ab0f5f97867cb6168c643570976a06c6892a383",
+      "source": "CNBC",
+      "title": "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
+      "publishedAtSgt": "2026-10-24T01:25:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "exporter Cheniere Energy to buy 4 million metric tons of liquefied natural gas (LNG) annually through 2054. The gas that Doha will buy is less than 1% of the global LNG trade of more than 400 milion metric tons. But \"in terms of an individual deal, this is about as big as you see in the U.S,\" said Alex Munton, director of global gas and LNG at Rapidan Energy in Houston.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-24T01:53:52+08:00"
+    },
+    {
+      "id": "511e83921b9254aac3d07a3ed6caab10550f5fbc07df17f06591fc98360ea5f2",
+      "source": "CNBC",
+      "title": "What we want to see when this data center stock reports earnings next week",
+      "publishedAtSgt": "2026-10-24T00:15:59+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/23/what-we-want-to-see-when-this-data-center-stock-reports-earnings-next-week.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks are mostly lower Friday, with the Dow leading the declines as the selling broadens out beyond just the AI trade. Jeff said that Meta is at the center of a growing concern among investors — \"how is the AI buildout going to get funded?\" Wall Street is increasingly worried about how the social media giant will finance its AI ambitions, which include expansion of its hit new AI agent Muse, as free cash flow turned negative for the first time since the company's 2012 initial public offering.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-24T01:53:52+08:00"
+    },
+    {
+      "id": "9ea3263795563a50497e12e0d31c9156ac1c57ac5c17c444ce362249dcba3a6b",
+      "source": "CNBC",
+      "title": "AI agents could disrupt bank deposits. Why Wall Street may be overreacting",
+      "publishedAtSgt": "2026-10-23T23:00:49+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/23/ai-agents-could-disrupt-bank-deposits-why-wall-street-may-be-overreacting.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Would you trust an AI agent with your bank account information and let it move your money without asking you first? The debate has taken center stage during the latest bank earnings season, with executives pushing back on the notion that AI agents could fundamentally change how consumers manage their money. For investors, rising deposit costs or slowing deposit growth would be warning signs that AI agents are beginning to disrupt the industry.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-24T01:53:57+08:00"
+    },
+    {
+      "id": "1d15d42c8a19df55a402f6822f5e005599b9082c12e524d2fc9c90ef8cd35917",
+      "source": "CNBC",
+      "title": "Restaurant earnings will test whether owning more brands pays off",
+      "publishedAtSgt": "2026-10-23T21:55:46+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/darden-brinker-qsr-stocks-restaurant-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Restaurant stocks have split sharply this year. Shares of Brinker International, Darden Restaurants and Restaurant Brands International are up roughly 32%, 18% and 12%, respectively, year to date. Starbucks and Cheesecake Factory have been restaurant-stock standouts this year, showing how a clear brand identity and investment can drive outperformance when execution and customer demand click.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-24T01:53:57+08:00"
+    },
     {
       "id": "a38967a991cafb3b1c3e8857dac05f1096d01764ed81137275f9fb93d3717646",
       "source": "CNBC",
@@ -1512,85 +1590,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-19T14:16:08+08:00"
-    },
-    {
-      "id": "edc82688c7286f5101cabe56b395adde616a363c0332f9b9ddcd1b711f05bf3f",
-      "source": "CNBC",
-      "title": "China's CXMT sees shares drop over 6% as investors look past chipmaker's profit turnaround",
-      "publishedAtSgt": "2026-10-19T09:56:34+08:00",
-      "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
-      "category": "MARKET",
-      "relevanceScore": 93,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of ChangXin Memory Technologies, or CXMT, fell 6.5% Monday even as the company on Friday forecast a sharp swing to profitability for the first nine months of 2026. The company attributed the sharp improvement to rapidly growing demand for AI computing power since the second half of 2025, which has boosted the global DRAM market, leading to supply shortages and significant price increases, according to the filing.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-19T14:16:08+08:00"
-    },
-    {
-      "id": "e23e7de3a96952522fcd2191d6aadbc348e128be899ceb0747e315d52017ccf9",
-      "source": "CNBC",
-      "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
-      "publishedAtSgt": "2026-10-19T07:36:11+08:00",
-      "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Anthropic said Sunday it plans to commit 5% of its shares to a new public benefit fund, with the stake potentially increasing as the company's valuation grows. Subject to shareholder approval, the fund would immediately commit 5% of Anthropic's shares, with the board adding, at its discretion, an additional 2% for every 50% increase in the company's value above a set baseline that has yet to be disclosed.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
-    },
-    {
-      "id": "d0f742a2c86bc499c37918911baf899ff6bccea6341d5447b0aa7f38e3d5b80c",
-      "source": "CNBC",
-      "title": "Brent crude hovers near $109 a barrel as Ukraine resumes energy strikes, tankers attacked in Middle East",
-      "publishedAtSgt": "2026-10-19T07:10:45+08:00",
-      "url": "https://www.cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Crude oil prices hovered near recent highs on Sunday as traders weighed a Ukraine bombing of oil facilities in Russia and more tankers coming under attack in the Persian Gulf. Petersburg exports about 120,000 barrels per day of refined products, mostly fuel oil, according to data from Kpler. Iran has escalated attacks on tankers in the Persian Gulf, Strait of Hormuz and Gulf of Oman in an effort to choke off crude oil exports from the region.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
-    },
-    {
-      "id": "0780cc93167e9e579b319a89449848c6b231d21ac845832a6141ddc189ef2d29",
-      "source": "CNBC",
-      "title": "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance",
-      "publishedAtSgt": "2026-10-19T07:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Since January, India's key benchmark indexes have slipped nearly 12%, as per LSEG data, even though the country's economic growth has been resilient amid trade uncertainty and geopolitical shocks. India has gained a reputation as an anti-artificial intelligence trade, while markets like Taiwan and Korea, with AI champions, have attracted strong investment flows.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
-    },
-    {
-      "id": "3af82153a44c7f7987297a2e01a103011fb5d05cd296f9b680a391813325fd00",
-      "source": "CNBC",
-      "title": "Why I am taking the other side of the trade that crushed the market Friday",
-      "publishedAtSgt": "2026-10-19T06:23:08+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/18/jim-cramer-why-i-am-taking-the-other-side-of-the-trade-that-crushed-the-market-friday.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "(See here for a full list of the stocks in Jim Cramer's Charitable Trust.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio. If Jim has talked about a stock on CNBC TV, he waits 72 hours after issuing the trade alert before executing the trade.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
     }
   ]
 }

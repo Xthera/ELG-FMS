@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "c30ee4c3577e9318a8f295fb8f0cc1bbcc39c84de271a58c6f6e89962c0d212a",
+      "source": "CNBC",
+      "title": "Investors are starting to find opportunities in the battered bond market",
+      "publishedAtSgt": "2026-10-24T01:40:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/investors-are-starting-to-find-opportunities-in-the-battered-bond-market.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The investment strategist noted in his weekly money-flow summary that the \"secular contrarian [trade] would be adding bonds,\" drawing a parallel to similar long-run negative returns for stocks and commodities that later proved to be good entry points Despite the negative returns and soaring yields this year, investors are putting money into fixed income and government debt in particular.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-24T01:53:52+08:00"
+    },
+    {
+      "id": "31533249e4ed9f0e73bc49b26ab0f5f97867cb6168c643570976a06c6892a383",
+      "source": "CNBC",
+      "title": "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
+      "publishedAtSgt": "2026-10-24T01:25:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "exporter Cheniere Energy to buy 4 million metric tons of liquefied natural gas (LNG) annually through 2054. The gas that Doha will buy is less than 1% of the global LNG trade of more than 400 milion metric tons. But \"in terms of an individual deal, this is about as big as you see in the U.S,\" said Alex Munton, director of global gas and LNG at Rapidan Energy in Houston.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-24T01:53:52+08:00"
+    },
+    {
+      "id": "511e83921b9254aac3d07a3ed6caab10550f5fbc07df17f06591fc98360ea5f2",
+      "source": "CNBC",
+      "title": "What we want to see when this data center stock reports earnings next week",
+      "publishedAtSgt": "2026-10-24T00:15:59+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/23/what-we-want-to-see-when-this-data-center-stock-reports-earnings-next-week.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks are mostly lower Friday, with the Dow leading the declines as the selling broadens out beyond just the AI trade. Jeff said that Meta is at the center of a growing concern among investors — \"how is the AI buildout going to get funded?\" Wall Street is increasingly worried about how the social media giant will finance its AI ambitions, which include expansion of its hit new AI agent Muse, as free cash flow turned negative for the first time since the company's 2012 initial public offering.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-24T01:53:52+08:00"
+    }
+  ],
+  "articleCount": 3,
+  "updatedAtSgt": "2026-10-24T01:53:52+08:00"
+}
