@@ -5,6 +5,68 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "ea6625d87d15c023c63b5efd50894eb44c0686d31055c87f9771f0296e08d935",
+      "source": "CNBC",
+      "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+      "publishedAtSgt": "2026-10-24T05:49:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It's been a rocky week for the AI infrastructure trade. However, skeptics are getting more vocal in their concerns that returns on AI investment won't justify the capital expenditures. John Williams, who leads the derivatives practice at law firm Milbank LLP, says investors are seeking numerous ways beyond buying CDS to hedge their bets with respect to the AI trade.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-24T06:14:41+08:00"
+    },
+    {
+      "id": "0ab95f08ae80238bd577eeade9de3e671226a781627b226e0759bfa2e806ca01",
+      "source": "CNBC",
+      "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
+      "publishedAtSgt": "2026-10-24T05:26:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Susan Collins, R-Maine, took credit for pushing the Trump administration to issue tariff exemptions on several categories of Canadian imports she says are \"crucial\" for her state's industries. \"This administration will continue to use every available tool to restore reciprocity in our bilateral trade relationships and safeguard the economic prosperity and national security of the American people.\" Collins has previously touted her efforts to push back on the president's protectionist trade...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-24T06:14:40+08:00"
+    },
+    {
+      "id": "311f80f730c8cbc630fe1c0fcd6eadef264347a8812c378d1c2c80df8f505c5f",
+      "source": "CNBC",
+      "title": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
+      "publishedAtSgt": "2026-10-24T03:53:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "President Donald Trump has signed an executive order that aims to reduce mortgage costs as rising interest rates and inflation make homeownership less affordable. mortgage insurers, an industry trade organization, said: \"We commend the President's focus on lowering costs for future homeowners, and the private mortgage insurance industry is proud to already be delivering on that goal.\" Typically, the cost of PMI can be 0.2% to 2% of the loan annually, but varies based on your down payment size,...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-24T06:14:41+08:00"
+    },
+    {
+      "id": "ed02e0632454d3bd59246b105ea4e23a5944f918ae664568589fbd51dbe2574e",
+      "source": "CNBC",
+      "title": "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
+      "publishedAtSgt": "2026-10-24T03:25:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/meta-shares-rough-week-mike-khouw-is-buying.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But concerns about its AI buildout expenses wiped $135 billion from its market cap in just four sessions, or put another way, roughly the value on and entire Uber. Meta's personal AI agent is designed to be more of an active digital assistant than a conventional conversational chatbot.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-24T06:14:41+08:00"
+    },
+    {
       "id": "c30ee4c3577e9318a8f295fb8f0cc1bbcc39c84de271a58c6f6e89962c0d212a",
       "source": "CNBC",
       "title": "Investors are starting to find opportunities in the battered bond market",
@@ -51,6 +113,6 @@
       "collectedAtSgt": "2026-10-24T01:53:52+08:00"
     }
   ],
-  "articleCount": 3,
-  "updatedAtSgt": "2026-10-24T01:53:52+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-24T06:14:41+08:00"
 }
