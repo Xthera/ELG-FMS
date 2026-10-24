@@ -5,6 +5,52 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "6a271ff09c351091754409d20a11419bf8dfb72315769b912166c5f0fb759668",
+      "source": "CNBC",
+      "title": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
+      "publishedAtSgt": "2026-10-24T23:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Retail investors who are trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds, according to Elm Wealth's Victor Haghani. \"I'm not sure that investors are that much more sophisticated than they were 30 years ago,\" the firm's founder and chief investment officer told CNBC's \"ETF Edge\" this week.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
+    },
+    {
+      "id": "e60cbf16084c0088e1c3e31d6dc3519661e6536fb3ca3e46bbfc19b273f0d6b8",
+      "source": "CNBC",
+      "title": "Berkshire shares shake the Buffett blues with new all-time highs",
+      "publishedAtSgt": "2026-10-24T20:48:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/berkshire-record-high-without-buffett.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors have been rotating out of high-flying tech and AI stocks in recent weeks amid growing concerns their massive spending on computing infrastructure won't produce the sustained profits they envision. CEO Greg Abel has said providing energy to the growing number of AI data centers is a \"significant opportunity for Berkshire and Berkshire Hathaway Energy\" as long as rates don't rise for its other customers.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
+    },
+    {
+      "id": "e50ec86be72c30bf5d713b84846f368a46dd24e37340d886f6f7fb51900bf153",
+      "source": "CNBC",
+      "title": "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
+      "publishedAtSgt": "2026-10-24T18:58:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "With the U.S. midterm elections looming, Americans are nearly as gloomy about the economy as they were when the nation was emerging from the pandemic.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
+    },
+    {
       "id": "676f9758cf949191b92a9d838368093ffa56eb6d887679ee03e3d1ad91b61b0b",
       "source": "CNBC",
       "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
@@ -145,6 +191,6 @@
       "collectedAtSgt": "2026-10-24T01:53:52+08:00"
     }
   ],
-  "articleCount": 9,
-  "updatedAtSgt": "2026-10-24T20:02:49+08:00"
+  "articleCount": 12,
+  "updatedAtSgt": "2026-10-25T00:38:43+08:00"
 }

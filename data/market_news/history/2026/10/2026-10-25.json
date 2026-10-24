@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "f2ae5a4294f4e9637d77457cb7b95bd83cf1df5c406902be4cc25cd1bac1fb53",
+      "source": "CNBC",
+      "title": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+      "publishedAtSgt": "2026-10-25T00:14:00+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Nasdaq only posted a slight loss as investors returned to beaten-down chip stocks and bought up cyber stocks. AI funding fears deepen The AI trade remained volatile last week as investors weighed strong demand against growing concerns about how companies will finance the massive infrastructure buildout.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-25T00:38:37+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-25T00:38:37+08:00"
+}

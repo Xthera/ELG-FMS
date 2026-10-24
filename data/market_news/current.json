@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-24T20:02:49+08:00",
+  "generatedAtSgt": "2026-10-25T00:38:43+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,68 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "f2ae5a4294f4e9637d77457cb7b95bd83cf1df5c406902be4cc25cd1bac1fb53",
+      "source": "CNBC",
+      "title": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+      "publishedAtSgt": "2026-10-25T00:14:00+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Nasdaq only posted a slight loss as investors returned to beaten-down chip stocks and bought up cyber stocks. AI funding fears deepen The AI trade remained volatile last week as investors weighed strong demand against growing concerns about how companies will finance the massive infrastructure buildout.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-25T00:38:37+08:00"
+    },
+    {
+      "id": "6a271ff09c351091754409d20a11419bf8dfb72315769b912166c5f0fb759668",
+      "source": "CNBC",
+      "title": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
+      "publishedAtSgt": "2026-10-24T23:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Retail investors who are trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds, according to Elm Wealth's Victor Haghani. \"I'm not sure that investors are that much more sophisticated than they were 30 years ago,\" the firm's founder and chief investment officer told CNBC's \"ETF Edge\" this week.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
+    },
+    {
+      "id": "e60cbf16084c0088e1c3e31d6dc3519661e6536fb3ca3e46bbfc19b273f0d6b8",
+      "source": "CNBC",
+      "title": "Berkshire shares shake the Buffett blues with new all-time highs",
+      "publishedAtSgt": "2026-10-24T20:48:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/berkshire-record-high-without-buffett.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors have been rotating out of high-flying tech and AI stocks in recent weeks amid growing concerns their massive spending on computing infrastructure won't produce the sustained profits they envision. CEO Greg Abel has said providing energy to the growing number of AI data centers is a \"significant opportunity for Berkshire and Berkshire Hathaway Energy\" as long as rates don't rise for its other customers.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
+    },
+    {
+      "id": "e50ec86be72c30bf5d713b84846f368a46dd24e37340d886f6f7fb51900bf153",
+      "source": "CNBC",
+      "title": "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
+      "publishedAtSgt": "2026-10-24T18:58:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "With the U.S. midterm elections looming, Americans are nearly as gloomy about the economy as they were when the nation was emerging from the pandemic.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
+    },
     {
       "id": "676f9758cf949191b92a9d838368093ffa56eb6d887679ee03e3d1ad91b61b0b",
       "source": "CNBC",
@@ -1524,70 +1586,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-20T05:06:57+08:00"
-    },
-    {
-      "id": "83201553ed5d1ed3b1cd1891035533d6eb76674b5d5c43f3e76d23bd2b96d4f7",
-      "source": "CNBC",
-      "title": "Anthropic is AI trade's last big hope for a major IPO this year",
-      "publishedAtSgt": "2026-10-20T00:42:14+08:00",
-      "url": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The question of what constitutes an official announcement is resolved by the SEC declaring a company's S-1 effective, an IPO pricing or an exchange assigning a ticker to the stock. Of the 23 companies that Kalshi lists on its market that remain open to trade, only Anthropic offers greater than 50% odds — 75% as of Monday morning — to officially announce an IPO this year.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-20T05:06:56+08:00"
-    },
-    {
-      "id": "0571037ee1f7ab8feed0dabf6fd17639a50b2bffb5ae83c8b982b2f5e2603c2d",
-      "source": "CNBC",
-      "title": "Treasury yields move higher as investors assess U.S. inflation backdrop",
-      "publishedAtSgt": "2026-10-19T21:52:51+08:00",
-      "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Treasury yields moved higher on Monday as investors continue to weigh the domestic inflation and interest rate backdrop against broader geopolitical developments. Treasury bond yield — which often moves on geopolitical developments — was also more than 1 basis point higher at 5.448%. Meanwhile, energy prices fell Monday as investors continued to weigh the possibility of more Russian crude supply coming onto the market.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-19T22:43:41+08:00"
-    },
-    {
-      "id": "47c48995556b634578e0e6e9dc3f1b739b5d79ebdbce3ba60c26c5b463fd346c",
-      "source": "CNBC",
-      "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
-      "publishedAtSgt": "2026-10-19T21:36:41+08:00",
-      "url": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 82,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Half of Americans surveyed by Pew Research Center in July and August said data centers would be mostly bad for the environment and for household energy costs. Now Google is betting that a massive AI data center can help finance a cleaner, more reliable power grid. \"When [utilities] build something new, they fund part of that investment with dollars from their investors on Wall Street, and they enjoy incredibly high, exorbitant returns on those investments, typically around 10%,\" said David...",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
-    },
-    {
-      "id": "025cb7bc3a680546e54accc6985c3a0f938f0146215e45f7a4fefdde7d9a8112",
-      "source": "CNBC",
-      "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
-      "publishedAtSgt": "2026-10-19T20:59:13+08:00",
-      "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The French stock market is historically sensitive to any widening in the so-called \"OAT-Bund spread\", the extra bond yield France pays over Germany, which has hit the highest level since the European Sovereign Debt Crisis of the early 2010s. Analysts say lenders want a credible fiscal-consolidation plan to keep France from being caught in a debt spiral: weak growth and a persistently high deficit-to-GDP ratio are pushing up bond yields, raising the government's debt-servicing bill and widening...",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
     }
   ]
 }
