@@ -1,10 +1,130 @@
 {
-  "generatedAtSgt": "2026-10-25T00:54:11.921840+08:00",
+  "generatedAtSgt": "2026-10-25T05:54:18.804095+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 241,
+  "articleCount": 245,
   "analyses": [
+    {
+      "articleId": "f2ae5a4294f4e9637d77457cb7b95bd83cf1df5c406902be4cc25cd1bac1fb53",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Wall Street experienced volatility as investors weighed robust demand against growing fears regarding how companies will finance the massive AI infrastructure buildout, though chip and cyber stocks saw buying interest.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors",
+        "Cybersecurity"
+      ],
+      "investorImpact": "Investors must carefully assess technology holdings and financing structures for AI infrastructure, as funding concerns drive market volatility despite underlying demand.",
+      "reasoning": "The article is classified as MARKET because it discusses Wall Street reactions and portfolio adjustments in response to AI funding concerns. It is important due to widespread implications for tech sector valuations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+      "publishedAtSgt": "2026-10-25T00:14:00+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-25T00:38:37+08:00"
+    },
+    {
+      "articleId": "6a271ff09c351091754409d20a11419bf8dfb72315769b912166c5f0fb759668",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "Former hedge fund manager Victor Haghani of Elm Wealth warns that retail investors attempting to beat the market through individual stock-picking and complex ETFs would likely benefit more from broad market index funds.",
+      "assetClasses": [
+        "Equities",
+        "ETFs"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Asset Management"
+      ],
+      "investorImpact": "Reinforces the ongoing narrative around passive versus active investing, advising retail investors to stick to broad index funds rather than complex stock-picking or specialized ETFs.",
+      "reasoning": "Classified as MARKET due to its focus on retail investor behavior and index fund investing. Importance is set to LOW as it offers general advisory commentary rather than breaking market-moving news. Fund monitoring relevance is false as it does not directly impact specific portfolio monitoring metrics.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
+      "publishedAtSgt": "2026-10-24T23:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
+    },
+    {
+      "articleId": "e60cbf16084c0088e1c3e31d6dc3519661e6536fb3ca3e46bbfc19b273f0d6b8",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Berkshire Hathaway shares reached new all-time highs as investors rotate out of high-flying tech and AI stocks. CEO Greg Abel highlighted that providing energy to AI data centers represents a significant opportunity for Berkshire Hathaway Energy.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Energy",
+        "Technology"
+      ],
+      "investorImpact": "The rotation out of tech and AI stocks into stable conglomerates like Berkshire Hathaway highlights shifting market sentiment and investor preference for value and cash-flow security, while underscoring infrastructure and energy plays linked to AI data centers.",
+      "reasoning": "The article is classified as MARKET since it covers Berkshire Hathaway reaching record highs amid a broader sector rotation. Sentiment is POSITIVE due to the record stock highs and identified business opportunities. It is relevant for fund monitoring as it reflects changing sector allocations and institutional trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Berkshire shares shake the Buffett blues with new all-time highs",
+      "publishedAtSgt": "2026-10-24T20:48:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/berkshire-record-high-without-buffett.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
+    },
+    {
+      "articleId": "e50ec86be72c30bf5d713b84846f368a46dd24e37340d886f6f7fb51900bf153",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "With U.S. midterm elections approaching, voter sentiment regarding the economy and inflation remains persistently gloomy, comparable to post-pandemic levels, alongside views on AI and political figures.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Broad Economy",
+        "Consumer"
+      ],
+      "investorImpact": "Pessimistic consumer and voter sentiment can weigh on discretionary spending trends and influence policy expectations ahead of elections, affecting market sectors sensitive to consumer confidence.",
+      "reasoning": "Classified as ECONOMIC because it focuses on voter and consumer sentiment regarding inflation and the economy. Sentiment is NEGATIVE due to widespread economic gloom. Importance is MEDIUM because broad consumer sentiment affects market outlook and political expectations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
+      "publishedAtSgt": "2026-10-24T18:58:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
+    },
     {
       "articleId": "676f9758cf949191b92a9d838368093ffa56eb6d887679ee03e3d1ad91b61b0b",
       "relevant": true,
