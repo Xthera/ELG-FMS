@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "3f434b88bf545f94e98b790c48219a91d030bede8e7a2423b76967d6dc63f1cf",
+      "source": "CNBC",
+      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+      "publishedAtSgt": "2026-10-24T06:49:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors were anticipating Moody's rating decision as France, the second-largest economy in the euro zone, grappled with protests and a sharp surge in bond yields. This week, the nation's 10-year bond yield surpassed 5% for the first time since 2002. Currently, France's deficit-to-GDP ratio is at roughly 5.5% of its GDP, sharply above the 3% limit for member nations in the European Union.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-24T08:45:33+08:00"
+    },
+    {
       "id": "ea6625d87d15c023c63b5efd50894eb44c0686d31055c87f9771f0296e08d935",
       "source": "CNBC",
       "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
@@ -113,6 +129,6 @@
       "collectedAtSgt": "2026-10-24T01:53:52+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-24T06:14:41+08:00"
+  "articleCount": 8,
+  "updatedAtSgt": "2026-10-24T08:45:33+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-24T06:14:41+08:00",
+  "generatedAtSgt": "2026-10-24T08:45:33+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "3f434b88bf545f94e98b790c48219a91d030bede8e7a2423b76967d6dc63f1cf",
+      "source": "CNBC",
+      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+      "publishedAtSgt": "2026-10-24T06:49:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors were anticipating Moody's rating decision as France, the second-largest economy in the euro zone, grappled with protests and a sharp surge in bond yields. This week, the nation's 10-year bond yield surpassed 5% for the first time since 2002. Currently, France's deficit-to-GDP ratio is at roughly 5.5% of its GDP, sharply above the 3% limit for member nations in the European Union.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-24T08:45:33+08:00"
+    },
     {
       "id": "ea6625d87d15c023c63b5efd50894eb44c0686d31055c87f9771f0296e08d935",
       "source": "CNBC",
@@ -1571,21 +1587,6 @@
         "latest",
         "business",
         "finance",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
-    },
-    {
-      "id": "f45cbc143abd9a2d8769854a729ddd70dcea9967cc6828e6a5700fcb71492457",
-      "source": "CNBC",
-      "title": "Investors are buying on Monday despite fear the AI trade nightmare scenario is far from over",
-      "publishedAtSgt": "2026-10-19T20:00:15+08:00",
-      "url": "https://www.cnbc.com/2026/10/19/stocks-buying-opportunity-ai-selloff.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The buyers are ready to get back into technology stocks, with futures indicating the Nasdaq will catch the biggest bid at today's open. The glass half full: In a note on Sunday, Dan Ives, Partner at Yorkville Ives, said he views this \"white-knuckle drawdown as a golden buying opportunity.\" Contrary to the contrarian: But BTIG is telling investors to use any rebound in semiconductor stocks to reduce exposure, warning, \"where there is smoke, there is fire.\" Why it matters: The Cboe Volatility...",
-      "feeds": [
         "technology"
       ],
       "collectedAtSgt": "2026-10-19T22:43:40+08:00"
