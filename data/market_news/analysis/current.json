@@ -1,9 +1,9 @@
 {
-  "generatedAtSgt": "2026-10-24T20:18:23.569915+08:00",
+  "generatedAtSgt": "2026-10-25T00:54:11.921840+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 243,
+  "articleCount": 241,
   "analyses": [
     {
       "articleId": "676f9758cf949191b92a9d838368093ffa56eb6d887679ee03e3d1ad91b61b0b",
@@ -7336,66 +7336,6 @@
       "collectorRelevanceScore": 71,
       "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
       "collectedAtSgt": "2026-10-12T06:32:27+08:00"
-    },
-    {
-      "articleId": "83c4589de40439e6b41867956e72427c77b8dc2ff35e9b8b5567f13c2a70f27f",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "AI safety gatekeepers, responsible for assessing model capabilities and risks, are gaining prominence. President Trump recently praised AI executives for self-policing and indicated a hands-off regulatory approach to avoid hindering the growth of the industry driving the economy and stock market.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology"
-      ],
-      "investorImpact": "Investors in the technology sector benefit from a continued regulatory environment focused on self-policing, which removes immediate compliance headwinds and supports ongoing industry growth.",
-      "reasoning": "The article highlights the growing visibility of AI safety gatekeepers and signals a favorable regulatory stance from the US government, which is supportive of technology sector equities and market momentum.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "AI’s quiet safety gatekeepers are stepping into the spotlight",
-      "publishedAtSgt": "2026-10-11T19:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 80,
-      "collectorRelevanceReason": "technology_business_or_infrastructure",
-      "collectedAtSgt": "2026-10-11T21:32:59+08:00"
-    },
-    {
-      "articleId": "fb5b0b6c8af8a537554303112bd929eb63b07a97c5c9c3ba7942a63b26e127bb",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Goldman Sachs analysts have warned that Italy's upcoming budget, which includes increased allocations for defense and energy, will widen the country's deficit and push its debt-to-GDP ratio to the highest in Europe.",
-      "assetClasses": [
-        "Fixed Income",
-        "Sovereign Bonds"
-      ],
-      "geographies": [
-        "Italy",
-        "Europe"
-      ],
-      "sectors": [
-        "Government",
-        "Defense",
-        "Energy"
-      ],
-      "investorImpact": "Investors holding Italian sovereign debt face increased risks of widening yield spreads and potential credit rating pressures as fiscal deficits expand.",
-      "reasoning": "The article highlights significant sovereign debt and fiscal deficit risks flagged by major financial institutions, directly impacting European fixed income markets and macroeconomic stability.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "After France, is Italy next? Goldman Sachs flags bond risks as Rome's deficit widens",
-      "publishedAtSgt": "2026-10-11T13:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/11/italy-government-bonds-sovereign-debt-giorgia-meloni.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-11T15:33:25+08:00"
     }
   ]
 }
