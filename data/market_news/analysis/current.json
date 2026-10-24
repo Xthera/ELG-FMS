@@ -1,10 +1,43 @@
 {
-  "generatedAtSgt": "2026-10-24T06:30:19.378986+08:00",
+  "generatedAtSgt": "2026-10-24T09:01:06.320152+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 241,
+  "articleCount": 242,
   "analyses": [
+    {
+      "articleId": "3f434b88bf545f94e98b790c48219a91d030bede8e7a2423b76967d6dc63f1cf",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Moody's maintained France's credit rating as the country faces political turmoil, protests, and surging bond yields, with the 10-year bond yield exceeding 5% for the first time since 2002 amid a high deficit-to-GDP ratio of roughly 5.5%.",
+      "assetClasses": [
+        "Bonds",
+        "Sovereign Debt",
+        "Equities"
+      ],
+      "geographies": [
+        "France",
+        "Europe",
+        "Euro Zone"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "Investors holding French sovereign debt or European assets face increased volatility and higher yields due to ongoing fiscal deficits and political instability.",
+      "reasoning": "The article details significant sovereign bond market movements and rating agency decisions for a major euro zone economy, making it critical for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+      "publishedAtSgt": "2026-10-24T06:49:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-24T08:45:33+08:00"
+    },
     {
       "articleId": "ea6625d87d15c023c63b5efd50894eb44c0686d31055c87f9771f0296e08d935",
       "relevant": true,
