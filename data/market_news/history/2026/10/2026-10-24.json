@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "676f9758cf949191b92a9d838368093ffa56eb6d887679ee03e3d1ad91b61b0b",
+      "source": "CNBC",
+      "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+      "publishedAtSgt": "2026-10-24T14:23:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "That could help settle nerves and restore investor confidence, Durré added, noting that recent pressure on French sovereign debt has been driven primarily by tactical portfolio reallocations, with traditional buy-and-hold investors \"still sitting on the sidelines.\" The yield on benchmark 10-year French government bonds, known as OATs, climbed 11 basis points Thursday to its highest level since 2002. \"We had expected French GDP growth of just 0.3% in 2026 and 0.6% in 2027.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-24T20:02:49+08:00"
+    },
+    {
       "id": "3f434b88bf545f94e98b790c48219a91d030bede8e7a2423b76967d6dc63f1cf",
       "source": "CNBC",
       "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
@@ -129,6 +145,6 @@
       "collectedAtSgt": "2026-10-24T01:53:52+08:00"
     }
   ],
-  "articleCount": 8,
-  "updatedAtSgt": "2026-10-24T08:45:33+08:00"
+  "articleCount": 9,
+  "updatedAtSgt": "2026-10-24T20:02:49+08:00"
 }

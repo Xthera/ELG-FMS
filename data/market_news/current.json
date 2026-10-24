@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-24T13:57:03+08:00",
+  "generatedAtSgt": "2026-10-24T20:02:49+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "676f9758cf949191b92a9d838368093ffa56eb6d887679ee03e3d1ad91b61b0b",
+      "source": "CNBC",
+      "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+      "publishedAtSgt": "2026-10-24T14:23:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "That could help settle nerves and restore investor confidence, Durré added, noting that recent pressure on French sovereign debt has been driven primarily by tactical portfolio reallocations, with traditional buy-and-hold investors \"still sitting on the sidelines.\" The yield on benchmark 10-year French government bonds, known as OATs, climbed 11 basis points Thursday to its highest level since 2002. \"We had expected French GDP growth of just 0.3% in 2026 and 0.6% in 2027.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-24T20:02:49+08:00"
+    },
     {
       "id": "3f434b88bf545f94e98b790c48219a91d030bede8e7a2423b76967d6dc63f1cf",
       "source": "CNBC",
@@ -1570,24 +1586,6 @@
       "feeds": [
         "latest",
         "world"
-      ],
-      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
-    },
-    {
-      "id": "9418b4b4886dc1bc8a0472e51024dd313f51fac448d2ab54fd8ca3dfbf8378cc",
-      "source": "CNBC",
-      "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
-      "publishedAtSgt": "2026-10-19T20:34:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "security and resiliency initiative, the company said Monday, a faster-than-expected pace that indicates the bank is finding plentiful opportunities in emerging defense, manufacturing and supply chain firms. Wars in Ukraine and the Middle East, as well as trade disputes with China, have threatened the flow of energy and key components needed for U.S.",
-      "feeds": [
-        "latest",
-        "business",
-        "finance",
-        "technology"
       ],
       "collectedAtSgt": "2026-10-19T22:43:40+08:00"
     }
