@@ -1,10 +1,42 @@
 {
-  "generatedAtSgt": "2026-10-24T14:12:34.888436+08:00",
+  "generatedAtSgt": "2026-10-24T20:18:23.569915+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 242,
+  "articleCount": 243,
   "analyses": [
+    {
+      "articleId": "676f9758cf949191b92a9d838368093ffa56eb6d887679ee03e3d1ad91b61b0b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Riots and political unrest in France have rattled financial markets, pushing the yield on benchmark 10-year French government bonds (OATs) up by 11 basis points to its highest level since 2002. Economic growth is expected to remain sluggish at 0.3% in 2026 and 0.6% in 2027, while pressure on sovereign debt mounts due to tactical portfolio reallocations.",
+      "assetClasses": [
+        "Government Bonds",
+        "Fixed Income",
+        "Sovereign Debt"
+      ],
+      "geographies": [
+        "France",
+        "Europe"
+      ],
+      "sectors": [
+        "Government",
+        "Financials"
+      ],
+      "investorImpact": "Investors holding French sovereign debt or European assets face heightened volatility and rising borrowing costs as political unrest and poor growth forecasts pressure French bonds.",
+      "reasoning": "The article is classified as MARKET because it directly addresses the reaction of French sovereign debt yields and portfolio reallocations to ongoing riots. It is important due to the multi-decade high in bond yields and weak macroeconomic forecasts for France.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+      "publishedAtSgt": "2026-10-24T14:23:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-24T20:02:49+08:00"
+    },
     {
       "articleId": "3f434b88bf545f94e98b790c48219a91d030bede8e7a2423b76967d6dc63f1cf",
       "relevant": true,
