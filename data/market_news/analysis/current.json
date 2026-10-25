@@ -1,10 +1,72 @@
 {
-  "generatedAtSgt": "2026-10-25T14:27:01.595819+08:00",
+  "generatedAtSgt": "2026-10-25T20:51:47.050632+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 245,
+  "articleCount": 247,
   "analyses": [
+    {
+      "articleId": "7a854a17ddfd46876dd85f1b260f37ff27d470cadf934495e80cd516fd9998bc",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Marc Lore's Wonder is betting on Texas, automation, and user-built restaurants while considering an IPO, pending a reopening of the IPO window. Unprofitable startups must now demonstrate clear paths to profitability or sustained future growth to win over investor sentiment.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "United States",
+        "Texas"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Technology",
+        "Food and Beverage"
+      ],
+      "investorImpact": "Investors monitoring pre-IPO or late-stage growth companies must assess whether unprofitable startups can exhibit strong paths to profitability and automation efficiencies, particularly as market windows for initial public offerings fluctuate.",
+      "reasoning": "Classified as MARKET due to discussion surrounding IPO market conditions and investor demands for profitability among startups. Sentiment is neutral as it describes ongoing strategic moves and broader market requirements rather than a definitive financial report.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
+      "publishedAtSgt": "2026-10-25T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-25T20:36:16+08:00"
+    },
+    {
+      "articleId": "132b26e1bf27fa2d0e348866cea646eb5eccd0b79d4fe91438c56418930f5ffa",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Biotech stocks are surging amid a new drug innovation boom driven by clinical trial results, M&A activity, genomics, mRNA, and AI-driven drug discovery, despite some volatility such as Moderna's recent stock plunge.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Biotechnology",
+        "Technology"
+      ],
+      "investorImpact": "Investors can capitalize on the new biotech innovation cycle by understanding the growth drivers like AI and genomics, while navigating the inherent volatility of individual stocks like Moderna.",
+      "reasoning": "The article discusses a broader market and sector trend in biotech, combining positive sector momentum with individual stock volatility, making it relevant for sector allocation and market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
+      "publishedAtSgt": "2026-10-25T02:56:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-25T20:36:16+08:00"
+    },
     {
       "articleId": "f2ae5a4294f4e9637d77457cb7b95bd83cf1df5c406902be4cc25cd1bac1fb53",
       "relevant": true,
