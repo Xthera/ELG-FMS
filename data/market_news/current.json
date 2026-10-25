@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-26T01:04:46+08:00",
+  "generatedAtSgt": "2026-10-26T05:50:39+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,21 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "cfeb9f03fb4bfd22668434ce3a793952056f9c73b321656ecfc1fa32e3188f11",
+      "source": "CNBC",
+      "title": "More pain may be coming for the AI trade. Why I’m not giving up on it",
+      "publishedAtSgt": "2026-10-26T05:13:50+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/25/jim-cramer-ai-trade-nvidia-coreweave.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "I am talking about the collapse in every aspect of the artificial intelligence trade. It never seemed to matter until CoreWeave's stock began a sickening K2-like fall, with its high-yield debt being the culprit. Who wants to be the last one still funding these data center projects, a dastardly term that encompasses a significant share of economic growth and the stock market?",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-26T05:50:39+08:00"
+    },
     {
       "id": "1cfe53d1ea6392b5e1a4290aec1d17b799eadfa9b1b828566fefb7c3cc554b13",
       "source": "CNBC",
@@ -1569,21 +1584,6 @@
       "summary": "It's a tough ask as China has doubled down on technological development, while struggling to transition away from real estate, which once accounted for more than one-fifth of the economy. \"But I think the technology should not be too politic[al],\" he said, especially in consumer electronics. China's GDP picks up speed, up by 4.5% in Q3 Surging exports helped lift overall economic growth in the third quarter, while retail sales grew by a faster-than-expected 1.1% in September from a year ago.",
       "feeds": [
         "world"
-      ],
-      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
-    },
-    {
-      "id": "5e1dbb197945de9751578c7dc6584c19ac8ea3746b9a82a8692cd68c6b9571f7",
-      "source": "CNBC",
-      "title": "Jim Cramer says don't chase the AI rebound just yet. Here's what needs to happen first",
-      "publishedAtSgt": "2026-10-20T06:46:33+08:00",
-      "url": "https://www.cnbc.com/2026/10/19/jim-cramer-dont-chase-ai-rebound-yet.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "CNBC's Jim Cramer said he's not in a hurry to rush back into artificial intelligence stocks, despite Monday's rebound in the battered technology sector. The Nasdaq Composite rose about 1.1% Monday as investors returned to tech stocks following last week's rout in AI buildout beneficiaries. That's what Anthropic's IPO represents.\" However, he cautioned that the offering could also divert substantial capital away from other AI stocks.",
-      "feeds": [
-        "technology"
       ],
       "collectedAtSgt": "2026-10-20T09:06:30+08:00"
     }

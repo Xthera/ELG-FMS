@@ -5,6 +5,21 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "cfeb9f03fb4bfd22668434ce3a793952056f9c73b321656ecfc1fa32e3188f11",
+      "source": "CNBC",
+      "title": "More pain may be coming for the AI trade. Why I’m not giving up on it",
+      "publishedAtSgt": "2026-10-26T05:13:50+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/25/jim-cramer-ai-trade-nvidia-coreweave.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "I am talking about the collapse in every aspect of the artificial intelligence trade. It never seemed to matter until CoreWeave's stock began a sickening K2-like fall, with its high-yield debt being the culprit. Who wants to be the last one still funding these data center projects, a dastardly term that encompasses a significant share of economic growth and the stock market?",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-26T05:50:39+08:00"
+    },
+    {
       "id": "1cfe53d1ea6392b5e1a4290aec1d17b799eadfa9b1b828566fefb7c3cc554b13",
       "source": "CNBC",
       "title": "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
@@ -21,6 +36,6 @@
       "collectedAtSgt": "2026-10-26T01:04:43+08:00"
     }
   ],
-  "articleCount": 1,
-  "updatedAtSgt": "2026-10-26T01:04:43+08:00"
+  "articleCount": 2,
+  "updatedAtSgt": "2026-10-26T05:50:39+08:00"
 }
