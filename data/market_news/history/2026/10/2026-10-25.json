@@ -5,6 +5,21 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "e4f35cad0fad1260f0b5ccf4306dbce6ce932781dab094aec8d18d89f3e5500d",
+      "source": "CNBC",
+      "title": "Here are 4 big things we're watching in the stock market this week",
+      "publishedAtSgt": "2026-10-25T22:58:26+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/25/here-are-4-big-things-were-watching-in-the-stock-market-this-week.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The jam-packed week arrives at a critical moment for Wall Street, as the engine of the full-year bull market — the artificial intelligence trade — continues to leak fluid . And the headlines out of the Middle East still paint an ugly picture, keeping elevated oil prices front and center for equity investors.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-26T01:04:46+08:00"
+    },
+    {
       "id": "7a854a17ddfd46876dd85f1b260f37ff27d470cadf934495e80cd516fd9998bc",
       "source": "CNBC",
       "title": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
@@ -52,6 +67,6 @@
       "collectedAtSgt": "2026-10-25T00:38:37+08:00"
     }
   ],
-  "articleCount": 3,
-  "updatedAtSgt": "2026-10-25T20:36:16+08:00"
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-26T01:04:46+08:00"
 }

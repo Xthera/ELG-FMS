@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "1cfe53d1ea6392b5e1a4290aec1d17b799eadfa9b1b828566fefb7c3cc554b13",
+      "source": "CNBC",
+      "title": "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
+      "publishedAtSgt": "2026-10-26T00:42:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "DETROIT — Audi's CEO defended the carmaker's plans for a new $4 billion plant in Georgia on Sunday, calling it a business decision aimed at growing sales and reducing exposure to U.S. The plant, set to be Audi's first in the U.S., was announced Saturday by President Donald Trump during a rally in Georgia, near where the Volkswagen-owned luxury brand plans to build the new SUV-producing facility. tariffs cost Audi 1.2 billion euros ($1.4 billion), as it imports all its vehicles for the U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T01:04:43+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-10-26T01:04:43+08:00"
+}
