@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-25T14:11:31+08:00",
+  "generatedAtSgt": "2026-10-25T20:36:16+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,37 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "7a854a17ddfd46876dd85f1b260f37ff27d470cadf934495e80cd516fd9998bc",
+      "source": "CNBC",
+      "title": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
+      "publishedAtSgt": "2026-10-25T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Wonder's next pitch to investors could be on an IPO road show, assuming that the window for companies across industries to go public reopens in the coming months. In recent years, investors have grown less tolerant of startups pursuing growth at all costs, according to Avery Marquez, director of investment strategies at Renaissance Capital. To sway investors, unprofitable companies have to show they are taking steps toward profitability — or that the growth will continue long after the IPO.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-25T20:36:16+08:00"
+    },
+    {
+      "id": "132b26e1bf27fa2d0e348866cea646eb5eccd0b79d4fe91438c56418930f5ffa",
+      "source": "CNBC",
+      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
+      "publishedAtSgt": "2026-10-25T02:56:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Moderna gave investors a scare as its stock plunged on Thursday. Analysts say a new biotech cycle is underway, fueled by clinical trial results, M&A activity, and promising technologies such as genomics, mRNA — and AI. On the AI front, companies are using the technology for more efficient drug discovery, says Shreefāl Mehta, president of Guidant BioTherapeutics.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-25T20:36:16+08:00"
+    },
     {
       "id": "f2ae5a4294f4e9637d77457cb7b95bd83cf1df5c406902be4cc25cd1bac1fb53",
       "source": "CNBC",
@@ -1555,37 +1586,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-20T05:06:56+08:00"
-    },
-    {
-      "id": "4ddb639654f85d188573cc25167fef37480ef45cc0e07eb516e83ee793e66eec",
-      "source": "CNBC",
-      "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
-      "publishedAtSgt": "2026-10-20T03:37:51+08:00",
-      "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Saudi Arabia on Monday postponed its big annual investor conference until 2027 as Iran-backed Houthi militants have escalated missile and drone attacks on the kingdom in recent weeks. The Future Investment Initiative was originally scheduled to take place in the Saudi capital Riyadh from Oct. The conference has played a key part in Riyadh's plans to diversify its oil-dependent economy.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-20T05:06:56+08:00"
-    },
-    {
-      "id": "92dd53a9d0255ae1c20ad532b6dd61bb49a4e2524b296368c69a54bae7e8faee",
-      "source": "CNBC",
-      "title": "Crushed tech stocks bounce — plus, new doctor survey keeps us positive on Lilly",
-      "publishedAtSgt": "2026-10-20T03:13:00+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Stocks are higher on Monday as investors assess last week's tech carnage and buy the pullbacks in chip stocks. Rising oil prices are fueling inflation concerns and leading to a selloff in bonds, with the yield on the 10-year Treasury up on the day. Remember, when bond prices go up from investor buying yield go down.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-20T05:06:57+08:00"
     }
   ]
 }

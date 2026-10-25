@@ -5,6 +5,37 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "7a854a17ddfd46876dd85f1b260f37ff27d470cadf934495e80cd516fd9998bc",
+      "source": "CNBC",
+      "title": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
+      "publishedAtSgt": "2026-10-25T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Wonder's next pitch to investors could be on an IPO road show, assuming that the window for companies across industries to go public reopens in the coming months. In recent years, investors have grown less tolerant of startups pursuing growth at all costs, according to Avery Marquez, director of investment strategies at Renaissance Capital. To sway investors, unprofitable companies have to show they are taking steps toward profitability — or that the growth will continue long after the IPO.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-25T20:36:16+08:00"
+    },
+    {
+      "id": "132b26e1bf27fa2d0e348866cea646eb5eccd0b79d4fe91438c56418930f5ffa",
+      "source": "CNBC",
+      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
+      "publishedAtSgt": "2026-10-25T02:56:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Moderna gave investors a scare as its stock plunged on Thursday. Analysts say a new biotech cycle is underway, fueled by clinical trial results, M&A activity, and promising technologies such as genomics, mRNA — and AI. On the AI front, companies are using the technology for more efficient drug discovery, says Shreefāl Mehta, president of Guidant BioTherapeutics.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-25T20:36:16+08:00"
+    },
+    {
       "id": "f2ae5a4294f4e9637d77457cb7b95bd83cf1df5c406902be4cc25cd1bac1fb53",
       "source": "CNBC",
       "title": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
@@ -21,6 +52,6 @@
       "collectedAtSgt": "2026-10-25T00:38:37+08:00"
     }
   ],
-  "articleCount": 1,
-  "updatedAtSgt": "2026-10-25T00:38:37+08:00"
+  "articleCount": 3,
+  "updatedAtSgt": "2026-10-25T20:36:16+08:00"
 }
