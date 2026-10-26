@@ -1,10 +1,106 @@
 {
-  "generatedAtSgt": "2026-10-26T08:40:58.687763+08:00",
+  "generatedAtSgt": "2026-10-26T14:34:39.912650+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 235,
+  "articleCount": 238,
   "analyses": [
+    {
+      "articleId": "9562eefa366f0f20578617cfda45f022ca2699746bd5f61f92a965705cd9ccb9",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Private equity firms are pouring billions into defense technology amid rising military spending and geopolitical tensions, with growth investments reaching $4 billion in the first nine months of 2026 compared to $500 million in 2024, prompting bubble warnings.",
+      "assetClasses": [
+        "Private Equity",
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Defense",
+        "Technology",
+        "Private Equity"
+      ],
+      "investorImpact": "Investors face significant capital allocation opportunities in defense technology driven by surging private equity interest, but must also account for rising valuation risks and potential bubble dynamics.",
+      "reasoning": "The article details a major market trend involving a surge in private equity investments into defense technology accompanied by bubble warnings, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Defense tech investment boom sparks bubble warning as private equity pours in",
+      "publishedAtSgt": "2026-10-26T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-26T14:19:03+08:00"
+    },
+    {
+      "articleId": "cb667eea29a2b997b6aa63ab3ae207e61fde8cf84623c077d7394828162a7897",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Crude oil prices fell over 2% as traders balanced the risks of attacks on Saudi Arabian energy infrastructure against worries that high prices could erode demand.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Saudi Arabia",
+        "Global"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Investors in the energy sector should monitor oil price volatility and demand destruction risks, which can impact energy stock valuations and broader market inflation expectations.",
+      "reasoning": "The article details a significant 2% drop in oil prices driven by market balancing of geopolitical risks and demand destruction, making it directly relevant for market and commodities monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
+      "publishedAtSgt": "2026-10-26T13:18:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-26T14:19:03+08:00"
+    },
+    {
+      "articleId": "a259c723643d2887630605fdc0247c69fa524602662a3b569d1c4bf9adb186df",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "SoftBank is reportedly planning a $50 billion tech investment in Malaysia, focusing on artificial intelligence, new technologies, and data centers. This aligns with Malaysia's goal to become an AI nation by 2030, following similar major tech investments from companies like Microsoft.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "Malaysia",
+        "Japan"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence",
+        "Data Centers",
+        "Cloud Computing"
+      ],
+      "investorImpact": "The massive capital influx signals strong growth potential for Southeast Asia's technology and data center infrastructure sectors, presenting investment opportunities in regional tech ecosystems.",
+      "reasoning": "Classified as TECHNOLOGY because the core driver is major tech investment in AI and data centers. It is significant due to the sheer size of the planned investment ($50 billion) and its direct impact on Malaysia's tech capabilities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
+      "publishedAtSgt": "2026-10-26T12:56:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-26T14:19:04+08:00"
+    },
     {
       "articleId": "cfeb9f03fb4bfd22668434ce3a793952056f9c73b321656ecfc1fa32e3188f11",
       "relevant": true,
