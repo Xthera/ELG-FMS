@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-26T08:25:28+08:00",
+  "generatedAtSgt": "2026-10-26T14:19:04+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,55 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "9562eefa366f0f20578617cfda45f022ca2699746bd5f61f92a965705cd9ccb9",
+      "source": "CNBC",
+      "title": "Defense tech investment boom sparks bubble warning as private equity pours in",
+      "publishedAtSgt": "2026-10-26T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Private equity firms are pouring billions into defense technology as rising military spending and geopolitical tensions fuel an investment boom. Traditional buyout investors are increasingly backing younger, high-growth firms in the sector, according to PitchBook data, with private equity growth investments in defense reaching $4 billion in the first nine months of 2026, up from $500 million in 2024.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T14:19:03+08:00"
+    },
+    {
+      "id": "cb667eea29a2b997b6aa63ab3ae207e61fde8cf84623c077d7394828162a7897",
+      "source": "CNBC",
+      "title": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
+      "publishedAtSgt": "2026-10-26T13:18:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "crude oil fell over 2% on Monday as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could eventually erode demand. Speaking to CNBC, Michael Alfaro, chief investment officer at Gallo Partners, estimated that geopolitical uncertainty had already added roughly $20 a barrel to oil prices.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T14:19:03+08:00"
+    },
+    {
+      "id": "a259c723643d2887630605fdc0247c69fa524602662a3b569d1c4bf9adb186df",
+      "source": "CNBC",
+      "title": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
+      "publishedAtSgt": "2026-10-26T12:56:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The country's prime minister said the planned investments would focus on artificial intelligence, new technologies and data centers, according to the report. The planned investment comes as Malaysia seeks to become an \"AI nation\" by 2030, with the government launching a national AI action plan earlier this year to strengthen the country's AI capabilities and infrastructure. Microsoft also announced a $2.2 billion investment in cloud and AI infrastructure and other digital initiatives.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T14:19:04+08:00"
+    },
     {
       "id": "cfeb9f03fb4bfd22668434ce3a793952056f9c73b321656ecfc1fa32e3188f11",
       "source": "CNBC",
@@ -1540,52 +1589,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-20T14:05:11+08:00"
-    },
-    {
-      "id": "69ef4b54318fbab3807d66fffc1ed62f4a825e76e8a6976369ed2f17430c8089",
-      "source": "CNBC",
-      "title": "CNBC Daily Open: Tech investors buy the dip — but debt remains a concern",
-      "publishedAtSgt": "2026-10-20T09:13:25+08:00",
-      "url": "https://www.cnbc.com/2026/10/20/cnbc-daily-open-tech-nasdaq-trump-ukraine-anthropic.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "After a bruising week for the tech trade, investors seem to have came back into the sector, with the Nasdaq Composite rallying overnight. Investors are once again piling into tech, after fears over AI financing, rising competition and possible excess chip supply in a few years drove them to cash out of the market last week. Shares of neocloud mainstay CoreWeave reversed course from earlier gains, falling 0.4%, even after receiving Goldman Sachs upgraded the stock to buy from neutral.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-20T14:05:11+08:00"
-    },
-    {
-      "id": "0d7b6e2b4d60c2db6e1eaa32cb6923c03004ee41e2abca579edbc3377ada3e4a",
-      "source": "CNBC",
-      "title": "Three big takeaways from the IMF-World Bank meetings",
-      "publishedAtSgt": "2026-10-20T08:33:34+08:00",
-      "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The world's finance chiefs spent last week in Bangkok debating the biggest risk facing the global economy — with debt, artificial intelligence and trade imbalances topping the list. The IMF warned that should AI technology fail to deliver the promised productivity gains, it could trigger severe global economic consequences.",
-      "feeds": [
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
-    },
-    {
-      "id": "a262265326ebeb0a33d272e3211a487d966878d15d032494a4a55d8af78688e0",
-      "source": "CNBC",
-      "title": "CNBC's The China Connection newsletter: Navigating a tech-heavy world",
-      "publishedAtSgt": "2026-10-20T07:00:02+08:00",
-      "url": "https://www.cnbc.com/2026/10/19/cnbcs-the-china-connection-newsletter-navigating-a-tech-heavy-world.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "It's a tough ask as China has doubled down on technological development, while struggling to transition away from real estate, which once accounted for more than one-fifth of the economy. \"But I think the technology should not be too politic[al],\" he said, especially in consumer electronics. China's GDP picks up speed, up by 4.5% in Q3 Surging exports helped lift overall economic growth in the third quarter, while retail sales grew by a faster-than-expected 1.1% in September from a year ago.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-20T09:06:30+08:00"
     }
   ]
 }

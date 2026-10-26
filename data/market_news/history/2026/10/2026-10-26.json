@@ -5,6 +5,55 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "9562eefa366f0f20578617cfda45f022ca2699746bd5f61f92a965705cd9ccb9",
+      "source": "CNBC",
+      "title": "Defense tech investment boom sparks bubble warning as private equity pours in",
+      "publishedAtSgt": "2026-10-26T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Private equity firms are pouring billions into defense technology as rising military spending and geopolitical tensions fuel an investment boom. Traditional buyout investors are increasingly backing younger, high-growth firms in the sector, according to PitchBook data, with private equity growth investments in defense reaching $4 billion in the first nine months of 2026, up from $500 million in 2024.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T14:19:03+08:00"
+    },
+    {
+      "id": "cb667eea29a2b997b6aa63ab3ae207e61fde8cf84623c077d7394828162a7897",
+      "source": "CNBC",
+      "title": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
+      "publishedAtSgt": "2026-10-26T13:18:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "crude oil fell over 2% on Monday as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could eventually erode demand. Speaking to CNBC, Michael Alfaro, chief investment officer at Gallo Partners, estimated that geopolitical uncertainty had already added roughly $20 a barrel to oil prices.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T14:19:03+08:00"
+    },
+    {
+      "id": "a259c723643d2887630605fdc0247c69fa524602662a3b569d1c4bf9adb186df",
+      "source": "CNBC",
+      "title": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
+      "publishedAtSgt": "2026-10-26T12:56:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The country's prime minister said the planned investments would focus on artificial intelligence, new technologies and data centers, according to the report. The planned investment comes as Malaysia seeks to become an \"AI nation\" by 2030, with the government launching a national AI action plan earlier this year to strengthen the country's AI capabilities and infrastructure. Microsoft also announced a $2.2 billion investment in cloud and AI infrastructure and other digital initiatives.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T14:19:04+08:00"
+    },
+    {
       "id": "cfeb9f03fb4bfd22668434ce3a793952056f9c73b321656ecfc1fa32e3188f11",
       "source": "CNBC",
       "title": "More pain may be coming for the AI trade. Why I’m not giving up on it",
@@ -36,6 +85,6 @@
       "collectedAtSgt": "2026-10-26T01:04:43+08:00"
     }
   ],
-  "articleCount": 2,
-  "updatedAtSgt": "2026-10-26T05:50:39+08:00"
+  "articleCount": 5,
+  "updatedAtSgt": "2026-10-26T14:19:04+08:00"
 }
