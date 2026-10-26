@@ -5,6 +5,118 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "96865b3288d9003bb2f8538ace15a674e3d289066b30981439dd7739179639f0",
+      "source": "CNBC",
+      "title": "Brazilian stocks rocked as Lula wins presidential election, Bolsonaro reportedly refuses to concede",
+      "publishedAtSgt": "2026-10-26T22:09:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Brazilian stocks plunged following the unexpected victory, unwinding some of the rally from the first-round result three weeks earlier. ET, while trading on Brazil's stock exchange was halted by an automatic circuit breaker. \"The fiscal side has always been Brazil's Achilles heel, and a 7-8% budget deficit and 70% net debt-to-GDP ratio leave Brazil vulnerable in a global bond sell-off,\" Chris Turner, ING's head of EMEA and Latam research, said in a note.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
+      "id": "f69c8a2ea1e8aacc06d2a95db4bdcc57540d9f6afb41bc74db3d2ef8a8594254",
+      "source": "CNBC",
+      "title": "Meta announces $95 billion stock offering to fund AI expansion",
+      "publishedAtSgt": "2026-10-26T22:05:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Meta said Monday it is planning to raise a total of $95 billion to support its investments in artificial intelligence infrastructure and superintelligence. It plans to balance funding for these investments through a mix of operating cash flow, investment-grade debt, partnerships and equity capital. The decision to raise more money \"reflects the eye-watering levels of investment required to keep up in the AI arms race,\" Ben Wood, senior partner at CCS Insight, told CNBC.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T22:20:03+08:00"
+    },
+    {
+      "id": "78333aba42d03b2ffbc2a3932fb592e415f3ad0cce1e7f7ed00ebf184a80d41d",
+      "source": "CNBC",
+      "title": "Mortgage rates above 7% are the 'new normal'—here's why",
+      "publishedAtSgt": "2026-10-26T22:00:01+08:00",
+      "url": "https://www.cnbc.com/make-it/2026/10/26/mortgage-rates-above-7percent-are-the-new-normalheres-why.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "When inflation remains elevated, investors generally demand higher yields on long-term bonds to compensate for the declining purchasing power of the money they'll eventually be repaid. Inflation, as measured by the Fed's preferred PCE price index, hasn't been below the central bank's 2% target since February 2021.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
+      "id": "e5ca5a5c70a8a1b17d105b709020c24088fbb0c037535dde22fad1eba97d775d",
+      "source": "CNBC",
+      "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'",
+      "publishedAtSgt": "2026-10-26T21:43:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of major neocloud stocks fell on Monday after Elon Musk said that more than 200 companies in the sector could collapse. Nebius and CoreWeave dropped around 4%, adding pressure to a sector already facing investor concerns about debt-fueled expansion and whether the large AI infrastructure buildout will generate returns.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
+      "id": "3a7255fd82ce421c9c4642c964df159afca50802a4f866f3e3fb5e05dbdc2554",
+      "source": "CNBC",
+      "title": "Apollo to buy nearly 10% stake in Abu Dhabi-backed alternative asset manager Mubadala Capital",
+      "publishedAtSgt": "2026-10-26T21:09:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/apollo-mubadala-capital-stake.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investing giant Apollo Global Management is finalizing a deal to buy nearly a 10% stake in Mubadala Capital, the alternative asset manager subsidiary of Abu Dhabi's sovereign wealth fund, Mubadala Investment Co., according to people familiar with the matter who spoke on condition of anonymity.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
+      "id": "631327277cb5226e3c9c1e9bf59172a8b44d703f1be72a3d11b5400fadf992fd",
+      "source": "CNBC",
+      "title": "Cracking AI trade has Wall Street looking for a hedge. An ex-Citadel quant may have the answer",
+      "publishedAtSgt": "2026-10-26T20:08:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/gpu-futures-ai-hedge-hyperbolic.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "As CoreWeave shares plummet, taking much of the AI complex with it, investors face a simple question: what's the best way to hedge AI risk? It's a 50-person financial technology startup building a spot marketplace for tradable GPU computing power, a tool that would allow traders to hedge against a decline in AI demand. The platform allows investors to buy and sell GPU clusters, the units that power AI compute.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
+      "id": "2b8b94da330af17311dde355a7f7a8fd23af0b263af0df0d7967ed1187ea2c8e",
+      "source": "CNBC",
+      "title": "A shock in Brazil sends stocks plunging, while neoclouds take another hit",
+      "publishedAtSgt": "2026-10-26T18:39:46+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/brazil-stocks-neoclouds-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "- Stocks in freefall: U.S.-listed shares of Brazilian stocks also fell premarket, with Petrobras down over 20%, banking group Itaú Unibanco down almost 30% and brewer Ambev off 19%. - Exclusive: IEA Executive Director Fatih Birol told CNBC the organization stands \"ready to act again\" and support markets following its recent release of oil stocks, while adding he does not expect energy markets to return to pre-war levels in 2027.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
       "id": "9562eefa366f0f20578617cfda45f022ca2699746bd5f61f92a965705cd9ccb9",
       "source": "CNBC",
       "title": "Defense tech investment boom sparks bubble warning as private equity pours in",
@@ -85,6 +197,6 @@
       "collectedAtSgt": "2026-10-26T01:04:43+08:00"
     }
   ],
-  "articleCount": 5,
-  "updatedAtSgt": "2026-10-26T14:19:04+08:00"
+  "articleCount": 12,
+  "updatedAtSgt": "2026-10-26T22:20:04+08:00"
 }
