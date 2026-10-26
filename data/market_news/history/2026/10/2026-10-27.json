@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-27",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "be7f15c9bafa4cb88b36caddba43450fd1a1f5f238e8e4d11630e65e5c632b7b",
+      "source": "CNBC",
+      "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+      "publishedAtSgt": "2026-10-27T04:44:50+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "Microsoft said Monday that it's offering buyouts to a wide swath of employees as it strives to balance a costly artificial intelligence infrastructure build-out with capital efficiency. Microsoft has been ramping up spending on data centers to accommodate high AI computing demand, supplying cloud services to Anthropic, OpenAI and a slew of other companies.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T05:02:51+08:00"
+    },
+    {
+      "id": "71f0fc60f31e41734d705e40f71e678d66dab27f596a48a651e03b94e17872da",
+      "source": "CNBC",
+      "title": "Meta, SpaceX, Anthropic stoke the AI funding frenzy. What it means for our stocks",
+      "publishedAtSgt": "2026-10-27T04:26:26+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/26/meta-spacex-anthropic-stoke-the-ai-funding-frenzy-what-it-means-for-our-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The AI funding window is closing, and everyone wants a seat on the train. Meta announced plans to raise as much as $95 billion in three steps: first, an additional $22.5 billion worth of Class A common (what we and most investors currently own) priced at $642.62 per share; another $12.5 billion of preferred shares; and $60 billion no sooner than next year via an at-the-market offering for Class C shares.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-27T05:02:53+08:00"
+    },
+    {
+      "id": "472bf9aff20498f798dbdf60f2c93e1731430632e9d2efa7020da961ae89b735",
+      "source": "CNBC",
+      "title": "Prediction market traders say an Anthropic IPO is near-certain this year after company filed with SEC",
+      "publishedAtSgt": "2026-10-27T04:08:57+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/prediction-markets-think-anthropic-ipo-near-certain-in-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Speculators on prediction market platform Kalshi place 95% odds that the artificial intelligence giant officially announces an initial public offering by the end of 2026. Kalshi defines officially announcing an IPO as either the Securities and Exchange Commission declaring an S-1 effective, a priced IPO or an exchange assigning a ticker to a stock. The Anthropic S-1 envisions a Nasdaq Stock Market ticker symbol of \"ANT.\" Anthropic is aiming to start trading the week of Nov.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-27T05:02:52+08:00"
+    },
+    {
+      "id": "ebdd53cfa51eba600aacc8c02256626b03c22d11f8e7afeb94d0c3a7a1686aa8",
+      "source": "CNBC",
+      "title": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
+      "publishedAtSgt": "2026-10-27T02:51:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Federal Reserve is expected to leave interest rates unchanged at its upcoming October meeting — even as higher energy costs complicate the inflation outlook and put additional pressure on household budgets. But fed funds futures last priced in less than a 10% chance the central bank will raise rates by another quarter point at its meeting this week, according to the CME Group's FedWatch tool.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-27T05:02:52+08:00"
+    }
+  ],
+  "articleCount": 4,
+  "updatedAtSgt": "2026-10-27T05:02:53+08:00"
+}
