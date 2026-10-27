@@ -355,6 +355,220 @@ function createFundLinker(funds) {
 }
 
 
+/* ============================================================
+   INDEX LINKER
+   ============================================================
+
+   Same idea as the fund linker, for market indices. An index
+   is a broad equity benchmark of one market, so the link is
+   geography-only:
+
+   1. The article must touch equities (bond-, cash-only news
+      is skipped — same asset gate as funds).
+   2. The index's market must match the article geography:
+        exact market   -> "direct" (score 2)
+        via its region -> "broad"  (score 1)
+      e.g. a "Germany" article links the DAX (direct) and the
+      Euro Stoxx 50 / Stoxx 600 (broad, via Europe).
+   3. An article tagged "Global" links the global index only
+      (MSCI World), otherwise every index would be linked.
+   ============================================================ */
+
+/* Index regions extend the fund map with the extra markets. */
+const INDEX_REGION_MEMBERS = {
+    ...REGION_MEMBERS,
+    "Asia": [...REGION_MEMBERS["Asia"]],
+    "Asia Pacific": [...REGION_MEMBERS["Asia Pacific"], "Malaysia", "Indonesia"],
+    "Europe": [
+        ...REGION_MEMBERS["Europe"], "Belgium", "Austria", "Sweden",
+        "Denmark", "Finland", "Norway", "Portugal", "Greece", "Turkey"
+    ],
+    "Eurozone": [...REGION_MEMBERS["Eurozone"], "Belgium", "Austria", "Finland", "Portugal", "Greece"],
+    "European Union": [
+        "Europe", "Eurozone", "Germany", "France", "Netherlands", "Italy", "Spain",
+        "Ireland", "Belgium", "Austria", "Sweden", "Denmark", "Finland", "Portugal", "Greece"
+    ],
+    "Nordics": ["Nordics", "Sweden", "Denmark", "Finland", "Norway"],
+    "Latin America": ["Latin America", "Brazil", "Mexico", "Argentina"],
+    "South America": ["Latin America", "Brazil", "Argentina"],
+    "Americas": ["North America", "Latin America", "United States", "Canada", "Brazil", "Mexico", "Argentina"],
+    "Africa": ["Africa", "South Africa"],
+    "Middle East": [...REGION_MEMBERS["Middle East"], "Turkey"]
+};
+
+const INDEX_PARENT_REGIONS = {};
+
+for (const [region, members] of Object.entries(INDEX_REGION_MEMBERS)) {
+    for (const member of members) {
+        if (member === region) continue;
+        (INDEX_PARENT_REGIONS[member] ??= new Set()).add(region);
+    }
+}
+
+/* Free-form article geographies -> the names used above. */
+const GEO_ALIASES = {
+    "usa": "United States",
+    "us": "United States",
+    "u.s.": "United States",
+    "u.s.a.": "United States",
+    "america": "United States",
+    "united states of america": "United States",
+    "new york": "United States",
+    "new york city": "United States",
+    "wall street": "United States",
+    "washington": "United States",
+    "california": "United States",
+    "texas": "United States",
+    "michigan": "United States",
+    "maine": "United States",
+    "uk": "United Kingdom",
+    "u.k.": "United Kingdom",
+    "britain": "United Kingdom",
+    "great britain": "United Kingdom",
+    "england": "United Kingdom",
+    "london": "United Kingdom",
+    "euro zone": "Eurozone",
+    "euro area": "Eurozone",
+    "eu": "European Union",
+    "asia-pacific": "Asia Pacific",
+    "apac": "Asia Pacific",
+    "korea": "South Korea",
+    "republic of korea": "South Korea",
+    "mainland china": "China",
+    "beijing": "China",
+    "shanghai": "China",
+    "shenzhen": "China",
+    "tokyo": "Japan",
+    "hongkong": "Hong Kong",
+    "türkiye": "Turkey",
+    "turkiye": "Turkey",
+    "holland": "Netherlands",
+    "scandinavia": "Nordics",
+    "nordic": "Nordics",
+    "latam": "Latin America",
+    "uae": "United Arab Emirates",
+    "worldwide": "Global",
+    "world": "Global",
+    "international": "Global"
+};
+
+function normaliseGeo(value) {
+    const text = clean(value);
+
+    return GEO_ALIASES[text.toLowerCase()] ?? text;
+}
+
+function expandIndexGeography(name) {
+    const result = new Set([name]);
+
+    for (const member of INDEX_REGION_MEMBERS[name] ?? []) {
+        result.add(member);
+    }
+
+    for (const parent of INDEX_PARENT_REGIONS[name] ?? []) {
+        result.add(parent);
+    }
+
+    return result;
+}
+
+function createIndexLinker(records) {
+    const profiles = (Array.isArray(records) ? records : [])
+        .map(record => ({
+            record,
+            id: String(record.fundIdentifier ?? record.fundCode ?? ""),
+            code: record.fundCode ?? "",
+            name: record.fundName ?? "",
+            region: clean(record?.fund?.assetClass) || "Global"
+        }))
+        .filter(profile => profile.id);
+
+    const cache = new Map();
+
+    function linkArticle(article) {
+        const key = article?.articleId ?? article?.id ?? article?.url;
+
+        if (key && cache.has(key)) {
+            return cache.get(key);
+        }
+
+        const articleAssets = new Set(
+            (article?.assetClasses ?? []).flatMap(
+                value => ASSET_MAP[clean(value).toLowerCase()] ?? []
+            )
+        );
+
+        const links = [];
+
+        /* Equity gate: skip news only about bonds / cash. */
+        if (!articleAssets.size || articleAssets.has("Equity")) {
+            const articleGeos = [...new Set(
+                (article?.geographies ?? []).map(normaliseGeo).filter(Boolean)
+            )];
+
+            const articleIsGlobal = articleGeos.includes("Global");
+
+            const expanded = new Map();
+
+            for (const geo of articleGeos) {
+                for (const item of expandIndexGeography(geo)) {
+                    if (!expanded.has(item)) expanded.set(item, geo);
+                }
+            }
+
+            for (const profile of profiles) {
+                let score = 0;
+                let reason = "";
+
+                if (profile.region === "Global") {
+                    if (articleIsGlobal) {
+                        score = 2;
+                        reason = "Global";
+                    }
+                } else if (articleGeos.includes(profile.region)) {
+                    score = 2;
+                    reason = profile.region;
+                } else if (expanded.has(profile.region)) {
+                    score = 1;
+                    const via = expanded.get(profile.region);
+                    reason = via === profile.region ? via : `${via} → ${profile.region}`;
+                }
+
+                if (!score) continue;
+
+                links.push({
+                    indexId: profile.id,
+                    code: profile.code,
+                    name: profile.name,
+                    region: profile.region,
+                    strength: score === 2 ? "direct" : "broad",
+                    score,
+                    reasons: [reason]
+                });
+            }
+
+            links.sort((a, b) =>
+                b.score - a.score || a.name.localeCompare(b.name)
+            );
+        }
+
+        if (key) {
+            cache.set(key, links);
+        }
+
+        return links;
+    }
+
+    return {
+        linkArticle,
+        indices: profiles
+            .map(profile => profile.record)
+            .sort((a, b) => String(a.fundName).localeCompare(String(b.fundName)))
+    };
+}
+
+
 export {
-    createFundLinker
+    createFundLinker,
+    createIndexLinker
 };
