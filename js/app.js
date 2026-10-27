@@ -53,24 +53,52 @@ import {
 } from "./charts.js";
 
 import {
-    createFundLinker
+    createFundLinker,
+    createIndexLinker
 } from "./news-fund-links.js";
 
 import {
-    renderNewsCard
+    renderNewsCard,
+    setNewsIndexLinker,
+    setNewsScope
 } from "./news-cards.js";
 
 import {
     openNewsHistory,
-    refreshNewsHistory
+    refreshNewsHistory,
+    setNewsHistoryScope
 } from "./news-history.js";
 
 import {
     initializeFundExplorer,
     setFundExplorerHistory,
     refreshFundExplorerChart,
-    openFundProfile
+    openFundProfile,
+    setExplorerIndices
 } from "./fund-explorer.js";
+
+import {
+    loadIndices,
+    setIndexData,
+    initializeIndexPerformance,
+    initializeDatasetTabs
+} from "./indices.js";
+
+import {
+    initializePruShield
+} from "./prushield.js";
+
+import {
+    openAnnex
+} from "./annex.js";
+
+import {
+    initializePlanCalculator
+} from "./plan-calculator.js";
+
+import {
+    initializePruCredits
+} from "./prucredits.js";
 
 import {
     enhanceSelects
@@ -86,15 +114,13 @@ import {
 } from "./reports.js";
 
 import {
-    initializePlanCalculator
-} from "./plan-calculator.js";
-
-import {
-    initializeMonitoring
+    initializeMonitoring,
+    initializeIndexMonitoring
 } from "./monitoring.js";
 
 import {
     initializeFundCompare,
+    initializeIndexCompare,
     refreshFundCompare
 } from "./fund-compare.js";
 
@@ -175,6 +201,8 @@ const state = {
 
         fund: "ALL",
 
+        index: "ALL",
+
         assetClass: "ALL",
 
         geography: "ALL",
@@ -191,6 +219,8 @@ const state = {
  * Built once fund data has loaded.
  */
 let fundLinker = null;
+
+let indexLinker = null;
 
 
 /* ============================================================
@@ -225,7 +255,9 @@ const VALID_VIEWS = [
 
     "reports",
 
-    "calculator",
+    "prushield",
+
+    "annex",
 
     "settings"
 
@@ -1286,8 +1318,11 @@ function setCurrentView(
         reports:
             "#reports-view",
 
-        calculator:
-            "#calculator-view",
+        prushield:
+            "#prushield-view",
+
+        annex:
+            "#annex-view",
 
         settings:
             "#settings-view"
@@ -1314,6 +1349,28 @@ function setCurrentView(
 
         }
     );
+
+
+    /* ----------------------------------------
+       Annex: load the brochure list on first open
+    ----------------------------------------- */
+
+    if (normalizedView === "prushield") {
+
+        const active =
+            qs("[data-calc].active")?.dataset.calc ?? "prushield";
+
+        showCalculator(active, { save: false });
+
+    }
+
+    if (normalizedView === "annex") {
+
+        openAnnex().catch(
+            error => console.warn("ELG FMS: Annex failed.", error)
+        );
+
+    }
 
 
     /* ----------------------------------------
@@ -1355,9 +1412,11 @@ function setCurrentView(
                             ? "#settings"
                             : normalizedView === "reports"
                                 ? "#report-generation"
-                                : normalizedView === "calculator"
-                                    ? "#plan-calculator"
-                                    : "#monitoring";
+                                : normalizedView === "prushield"
+                                    ? "#prushield-calculator"
+                                    : normalizedView === "annex"
+                                        ? "#annex"
+                                        : "#monitoring";
 
         if (
             window.location.hash !== hash
@@ -1410,11 +1469,14 @@ function getViewFromHash() {
         "reports":
             "reports",
 
-        "plan-calculator":
-            "calculator",
+        "prushield-calculator":
+            "prushield",
 
-        "calculator":
-            "calculator",
+        "prushield":
+            "prushield",
+
+        "annex":
+            "annex",
 
         "settings":
             "settings"
@@ -2205,7 +2267,7 @@ function renderPerformanceTables(
 
         performance.winners,
 
-        "No valid winners for this period."
+        "No valid top performers for this period."
 
     );
 
@@ -2216,7 +2278,7 @@ function renderPerformanceTables(
 
         performance.losers,
 
-        "No valid losers for this period."
+        "No valid lower performers for this period."
 
     );
 
@@ -2495,7 +2557,7 @@ function filterList(value) {
 function hasNewsFilters() {
 
     return Boolean(state.news.search) ||
-        ["category", "importance", "sentiment", "fund", "assetClass", "geography", "sector"]
+        ["category", "importance", "sentiment", "fund", "index", "assetClass", "geography", "sector"]
             .some(key => filterList(state.news[key]).length > 0);
 
 }
@@ -2513,7 +2575,8 @@ function renderFilterIndicators() {
         "#market-news-asset",
         "#market-news-geography",
         "#market-news-sector",
-        "#market-news-fund"
+        "#market-news-fund",
+        "#market-news-index"
     ];
 
 
@@ -2590,7 +2653,8 @@ function clearNewsFilters() {
         "#market-news-asset",
         "#market-news-geography",
         "#market-news-sector",
-        "#market-news-fund"
+        "#market-news-fund",
+        "#market-news-index"
     ].forEach(
         selector => {
 
@@ -2628,6 +2692,7 @@ function updateNewsFilters() {
     state.news.importance = selectedFilterValues("#market-news-importance");
     state.news.sentiment = selectedFilterValues("#market-news-sentiment");
     state.news.fund = selectedFilterValues("#market-news-fund");
+    state.news.index = selectedFilterValues("#market-news-index");
     state.news.assetClass = selectedFilterValues("#market-news-asset");
     state.news.geography = selectedFilterValues("#market-news-geography");
     state.news.sector = selectedFilterValues("#market-news-sector");
@@ -2704,6 +2769,7 @@ function initializeNewsFilters() {
 
     [
         "#market-news-fund",
+        "#market-news-index",
         "#market-news-asset",
         "#market-news-geography",
         "#market-news-sector"
@@ -2812,25 +2878,39 @@ function getFilteredNews(override = null) {
     const funds =
         filterList(f.fund);
 
+    const indices =
+        filterList(f.index);
 
-    if (
-        !funds.length ||
-        !fundLinker
-    ) {
 
-        return tagged;
-
-    }
+    const scope =
+        state.news.scope ?? "all";
 
 
     return tagged.filter(
         article =>
-            fundLinker
-                .linkArticle(article)
-                .some(
-                    link =>
-                        funds.includes(link.fundId)
-                )
+            // Funds only / Indices only: just news linked to one
+            (
+                scope !== "funds" ||
+                (fundLinker && fundLinker.linkArticle(article).length > 0)
+            ) &&
+            (
+                scope !== "indices" ||
+                (indexLinker && indexLinker.linkArticle(article).length > 0)
+            ) &&
+            (
+                !funds.length ||
+                !fundLinker ||
+                fundLinker
+                    .linkArticle(article)
+                    .some(link => funds.includes(link.fundId))
+            ) &&
+            (
+                !indices.length ||
+                !indexLinker ||
+                indexLinker
+                    .linkArticle(article)
+                    .some(link => indices.includes(link.indexId))
+            )
     );
 
 }
@@ -2849,7 +2929,8 @@ const NEWS_FILTERS = [
     { key: "assetClass", selector: "#market-news-asset",      allLabel: "All", many: article => article.assetClasses },
     { key: "geography",  selector: "#market-news-geography",  allLabel: "All", many: article => article.geographies },
     { key: "sector",     selector: "#market-news-sector",     allLabel: "All", many: article => article.sectors },
-    { key: "fund",       selector: "#market-news-fund",       allLabel: "All funds", fund: true }
+    { key: "fund",       selector: "#market-news-fund",       allLabel: "All funds", fund: true },
+    { key: "index",      selector: "#market-news-index",      allLabel: "All indices", index: true }
 ];
 
 /* Display names for option values (kept from the original options) */
@@ -2937,6 +3018,12 @@ function renderNewsDynamicOptions() {
                     .linkArticle(article)
                     .map(link => link.fundId);
 
+            } else if (filter.index && indexLinker) {
+
+                values = indexLinker
+                    .linkArticle(article)
+                    .map(link => link.indexId);
+
             }
 
             for (const value of new Set(values.filter(Boolean))) {
@@ -2987,7 +3074,7 @@ function renderNewsDynamicOptions() {
 
         // Fund lists are always in alphabetical order of fund name
         // (the "(CODE)" after the name is ignored when sorting)
-        if (filter.fund) {
+        if (filter.fund || filter.index) {
 
             const fundName = value =>
                 newsOptionLabel(filter.selector, value).replace(/\s*\([A-Z0-9]+\)$/, "");
@@ -3138,6 +3225,9 @@ function renderMarketNews() {
     const selectedFund =
         filterList(state.news.fund);
 
+    const selectedIndex =
+        filterList(state.news.index);
+
 
     container.innerHTML =
         articles.map(
@@ -3147,7 +3237,8 @@ function renderMarketNews() {
                     fundLinker
                         ? fundLinker.linkArticle(article)
                         : [],
-                    selectedFund
+                    selectedFund,
+                    selectedIndex
                 )
         ).join("");
 
@@ -3335,7 +3426,9 @@ function initializeNewsTabs() {
                             startDate:
                                 getCurrentWindowStartDate(),
                             getLinker:
-                                () => fundLinker
+                                () => fundLinker,
+                            getIndexLinker:
+                                () => indexLinker
                         });
 
                     }
@@ -3438,6 +3531,8 @@ function initializeNewsState() {
     state.news.sentiment = [];
 
     state.news.fund = [];
+
+    state.news.index = [];
 
     state.news.assetClass = [];
 
@@ -3615,11 +3710,67 @@ async function loadApplication() {
         );
 
 
+    /*
+     * Market indices (data/indices.json). Optional: a missing or
+     * broken file only shows "not available yet" in the Indices
+     * sections and never stops the rest of the site.
+     */
+    const indicesTask =
+        loadIndices().then(
+            data => {
+
+                const info =
+                    setIndexData(data ?? {});
+
+                const available =
+                    info.records.length > 0;
+
+                qsa("[data-index-unavailable]").forEach(
+                    element => {
+                        element.hidden = available;
+                    }
+                );
+
+                const steps = [
+                    () => initializeIndexPerformance(info),
+                    () => initializeIndexCompare({
+                        funds: info.records,
+                        historyIndex: info.historyIndex
+                    }),
+                    () => setExplorerIndices({
+                        records: info.records,
+                        historyIndex: info.historyIndex,
+                        generatedAtUtc: info.generatedAtUtc,
+                        loaded: available
+                    }),
+                    () => initializeIndexMonitoring({
+                        funds: info.records,
+                        historyIndex: info.historyIndex,
+                        openProfile: id => openFundProfile(id)
+                    }),
+                    () => initializeNewsIndexLinks(info.records)
+                ];
+
+                for (const step of steps) {
+                    try {
+                        step();
+                    } catch (error) {
+                        console.warn("ELG FMS: indices failed.", error);
+                    }
+                }
+
+            }
+        ).catch(
+            error => console.warn("ELG FMS: indices failed.", error)
+        );
+
+
     const results =
         await Promise.allSettled([
             explorerTask,
             fundTask,
-            newsTask
+            newsTask,
+            indicesTask
         ]);
 
 
@@ -3735,6 +3886,371 @@ function renderNewsFundOptions() {
 
         }
     );
+
+}
+
+
+/* ============================================================
+   NEWS SCOPE — Funds & Indices / Funds only / Indices only
+   Sticky per user. Hides the filter (and popup section) that
+   doesn't apply, and clears its selection.
+   ============================================================ */
+
+/* ============================================================
+   CALCULATOR PAGE — PRUSHIELD PREMIUM / PRUCREDIT$
+   The choice is remembered per user. PruCredit$ is the dashboard's
+   own calculator (js/prucredits.js).
+   ============================================================ */
+
+const CALCULATOR_KEY = "vgrat-fms-calculator";
+
+function showCalculator(name, { save = true } = {}) {
+
+    const value =
+        ["prucredits", "plan"].includes(name) ? name : "prushield";
+
+    qsa("[data-calc]").forEach(
+        button => {
+            const active = button.dataset.calc === value;
+            button.classList.toggle("active", active);
+            button.setAttribute("aria-selected", String(active));
+        }
+    );
+
+    qsa("[data-calc-block]").forEach(
+        block => {
+            block.hidden = block.dataset.calcBlock !== value;
+        }
+    );
+
+    if (value === "prucredits") {
+
+        initializePruCredits();
+
+    }
+
+    if (save) {
+        try {
+            localStorage.setItem(CALCULATOR_KEY, value);
+        } catch {
+            /* storage unavailable */
+        }
+    }
+
+}
+
+function initializeCalculatorSwitch() {
+
+    let saved = "prushield";
+
+    try {
+        saved = localStorage.getItem(CALCULATOR_KEY) ?? "prushield";
+    } catch {
+        /* storage unavailable */
+    }
+
+    qsa("[data-calc]").forEach(
+        button => button.addEventListener(
+            "click",
+            () => showCalculator(button.dataset.calc)
+        )
+    );
+
+    // Don't load the external page until the Calculator page is opened
+    if (saved === "prucredits" || saved === "plan") {
+        qsa("[data-calc]").forEach(button => {
+            const active = button.dataset.calc === saved;
+            button.classList.toggle("active", active);
+            button.setAttribute("aria-selected", String(active));
+        });
+        qsa("[data-calc-block]").forEach(block => {
+            block.hidden = block.dataset.calcBlock !== saved;
+        });
+    }
+
+}
+
+
+/* ============================================================
+   MARKET PERFORMANCE — SHOW / HIDE LOSERS
+   Hidden by default; deliberately not remembered, so every
+   page load starts with Winners only.
+   ============================================================ */
+
+function initializeLosersToggles() {
+
+    qsa("[data-losers-toggle]").forEach(
+        button => {
+
+            const grid =
+                button.closest(".performance-grid");
+
+            const card =
+                grid?.querySelector("[data-losers-card]");
+
+            if (!grid || !card) {
+                return;
+            }
+
+            const apply = show => {
+
+                card.hidden = !show;
+
+                grid.classList.toggle("losers-hidden", !show);
+
+                button.setAttribute("aria-expanded", String(show));
+
+                button.textContent = show ? "Hide Lower 10" : "Show Lower 10";
+
+            };
+
+            apply(false);
+
+            button.addEventListener(
+                "click",
+                () => apply(card.hidden)
+            );
+
+        }
+    );
+
+}
+
+
+const NEWS_SCOPE_KEY = "vgrat-fms-news-scope";
+
+function resetNewsSelect(selector) {
+
+    const select =
+        qs(selector);
+
+    if (!select || select.value === "ALL" && selectedFilterValues(selector).length === 0) {
+
+        return;
+
+    }
+
+    [...select.options].forEach(
+        option => {
+            option.selected = option.value === "ALL";
+        }
+    );
+
+    select.dispatchEvent(
+        new Event("change", { bubbles: true })
+    );
+
+}
+
+function applyNewsScope(scope, { save = true } = {}) {
+
+    const value =
+        ["funds", "indices"].includes(scope)
+            ? scope
+            : "all";
+
+    const view =
+        qs("#market-news-view");
+
+    if (view) {
+
+        view.dataset.newsScope = value;
+
+    }
+
+    qsa("[data-news-scope]").forEach(
+        button => {
+
+            if (!button.matches("button")) {
+                return;
+            }
+
+            const active =
+                button.dataset.newsScope === value;
+
+            button.classList.toggle("active", active);
+
+            button.setAttribute("aria-selected", String(active));
+
+        }
+    );
+
+    setNewsScope(value);
+
+    setNewsHistoryScope(value);
+
+    state.news.scope = value;
+
+    if (save) {
+
+        try {
+            localStorage.setItem(NEWS_SCOPE_KEY, value);
+        } catch {
+            /* storage unavailable */
+        }
+
+    }
+
+    if (value === "funds") {
+
+        resetNewsSelect("#market-news-index");
+        resetNewsSelect("#history-index");
+
+    } else if (value === "indices") {
+
+        resetNewsSelect("#market-news-fund");
+        resetNewsSelect("#history-fund");
+
+    }
+
+    // Re-list the articles for the new scope
+    if (state.news.initialized) {
+
+        updateNewsFilters();
+
+    }
+
+    refreshNewsHistory();
+
+}
+
+function initializeNewsScope() {
+
+    let saved = "all";
+
+    try {
+        saved = localStorage.getItem(NEWS_SCOPE_KEY) ?? "all";
+    } catch {
+        /* storage unavailable */
+    }
+
+    applyNewsScope(saved, { save: false });
+
+    qsa("button[data-news-scope]").forEach(
+        button => {
+
+            button.addEventListener(
+                "click",
+                () => applyNewsScope(button.dataset.newsScope)
+            );
+
+        }
+    );
+
+}
+
+
+/* ============================================================
+   NEWS ↔ INDEX LINKS
+   ============================================================ */
+
+function renderNewsIndexOptions() {
+
+    if (!indexLinker) {
+
+        return;
+
+    }
+
+
+    const options =
+        indexLinker.indices
+            .map(
+                record => `
+                    <option value="${escapeAttribute(record.fundIdentifier ?? "")}">
+                        ${escapeHtml(record.fundName ?? "")}${
+                            record.fundCode && record.fundCode !== record.fundName
+                                ? ` (${escapeHtml(record.fundCode)})`
+                                : ""
+                        }
+                    </option>
+                `
+            )
+            .join("");
+
+
+    ["#market-news-index", "#history-index"].forEach(
+        selector => {
+
+            const select =
+                qs(selector);
+
+
+            if (!select) {
+
+                return;
+
+            }
+
+
+            const current =
+                select.value;
+
+
+            select.innerHTML =
+                `<option value="ALL">All indices</option>` +
+                options;
+
+
+            select.value =
+                [...select.options].some(
+                    option =>
+                        option.value === current
+                )
+                    ? current
+                    : "ALL";
+
+        }
+    );
+
+}
+
+
+function initializeNewsIndexLinks(records) {
+
+    if (!Array.isArray(records) || !records.length) {
+
+        return;
+
+    }
+
+
+    try {
+
+        indexLinker =
+            createIndexLinker(records);
+
+    } catch (error) {
+
+        console.warn(
+            "ELG FMS: news index links failed.",
+            error
+        );
+
+        indexLinker = null;
+
+        return;
+
+    }
+
+
+    setNewsIndexLinker(indexLinker);
+
+    renderNewsIndexOptions();
+
+
+    if (state.news.initialized) {
+
+        renderNewsDynamicOptions();
+
+        renderNewsSummary();
+
+        renderMarketNews();
+
+    }
+
+
+    refreshNewsHistory();
 
 }
 
@@ -3938,6 +4454,49 @@ async function initializeApplication() {
     initializeNavToggle();
 
     initializeSettings();
+
+    // Prudential Funds / Indices selector on Market Performance and
+    // Monitoring (remembered per page). Redraw the comparison charts
+    // when their section is shown.
+    try {
+        initializeDatasetTabs(() => {
+            try {
+                refreshFundCompare();
+            } catch (error) {
+                console.warn("ELG FMS: chart redraw failed.", error);
+            }
+        });
+    } catch (error) {
+        console.warn("ELG FMS: Funds / Indices selector failed.", error);
+    }
+
+    // Calculator page: PRUShield Premium / PruCredit$ (remembered)
+    try {
+        initializeCalculatorSwitch();
+    } catch (error) {
+        console.warn("ELG FMS: calculator switch failed.", error);
+    }
+
+    // Market Performance: Losers hidden on every load until asked for
+    try {
+        initializeLosersToggles();
+    } catch (error) {
+        console.warn("ELG FMS: losers toggle failed.", error);
+    }
+
+    // Market News: Funds & Indices / Funds only / Indices only
+    try {
+        initializeNewsScope();
+    } catch (error) {
+        console.warn("ELG FMS: news scope failed.", error);
+    }
+
+    // PRUShield premium calculator (static premium table, no data load)
+    try {
+        initializePruShield();
+    } catch (error) {
+        console.warn("ELG FMS: PRUShield calculator failed.", error);
+    }
 
     /*
      * Filter dropdowns (Market News, Fund Explorer, Monitoring):
