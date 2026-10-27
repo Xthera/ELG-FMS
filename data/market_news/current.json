@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-27T09:30:17+08:00",
+  "generatedAtSgt": "2026-10-27T17:51:10+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,102 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "446b40c33563fe9040f845841f1aeca47e7e29207e67932f48d60f83b2934515",
+      "source": "CNBC",
+      "title": "Oil prices seesaw amid renewed diplomatic efforts to end Mideast conflict",
+      "publishedAtSgt": "2026-10-27T17:09:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices inched higher Tuesday, reversing earlier losses driven by renewed diplomatic efforts to end the U.S.-Iran war and hopes of a de-escalation in the wider regional conflict that has seen Tehran-backed Houthis target Saudi Arabia. Prospects of a diplomatic breakthrough have helped temper fears of further disruptions to global energy supplies, putting downward pressure on crude prices.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "id": "5305b77b80a87d75ec0b35f16e4535570d4d93bc424c113938b5390d50af9fe1",
+      "source": "CNBC",
+      "title": "Nvidia to invest $3 billion in Meta as tech giants deepen AI partnership",
+      "publishedAtSgt": "2026-10-27T17:07:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Nvidia has said it will invest $3 billion in Meta after the social media and AI giant announced plans to raise $95 billion to support its investments in artificial intelligence infrastructure. Nvidia announced its investment on Tuesday, adding that Meta would expand Vera Rubin and Vera CPU deployment, and that the two companies would deepen their partnership on Muse, the social media giant's AI agent that launched last month.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "id": "0455a862c3cf72242e2f3790095696260d4fffcfa63f5e623128dfb32ec87b18",
+      "source": "CNBC",
+      "title": "HSBC shares slump on revenue miss, lender announces share buyback of up to $1 billion",
+      "publishedAtSgt": "2026-10-27T16:28:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Earlier, shares in Hong Kong dropped 2.95% following the earnings release, which saw the bank approve a third interim dividend of 10 cents per share. The bank's net interest income rose to $9.3 billion in the third quarter, supported by deposit growth and reinvestment of its \"structural hedge at higher yields.\" Meanwhile, operating expenses decreased 12% year on year to $8.8 billion, largely due to non-recurrence of legal provisions recorded a year earlier.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "id": "0a9f9e38ea8f496b156ed88b38e64e33790aa3e1a5d338ef9add29a07b8d056f",
+      "source": "CNBC",
+      "title": "Opinion: UK bond investors want spending cuts. John Healey’s first Budget may disappoint",
+      "publishedAtSgt": "2026-10-27T15:34:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/uk-budget-2026-john-healey-bond-market.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The build-up to her annual budgets was scarred by weeks of speculation about which taxes she would raise and, even though some of those increases never materialized, the damage to business and investor confidence was almost as great as if they had been imposed. Other likely giveaways include targeted support for poorer households with energy bills and a higher tax-free allowance for low-income pensioners.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
+    {
+      "id": "b5cbd30e6177e358a8ad9c05f33e3fd31f3aeeaced1e2f919872b7cb0400205e",
+      "source": "CNBC",
+      "title": "The 'stablecoin sandwich': Why speeding up payments isn't so simple, according to Mastercard",
+      "publishedAtSgt": "2026-10-27T15:16:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/mastcard-stablecoin-bvnk-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stablecoins could offer faster and more efficient payments, but realizing their full potential requires further development of the infrastructure supporting them, according to Mastercard. dollar, could be attractive for certain remittance corridors and less commonly traded currency pairs, Matthew Driver, executive vice president of services for Asia Pacific at Mastercard, told CNBC in an interview.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
+    {
+      "id": "e11e65c9cf97f783cc7e9d30ec1a573c83f2c772eb435ad18c5fc8fcdc06290e",
+      "source": "CNBC",
+      "title": "China industrial profits post strongest growth in three months as tech boom widens economic divide",
+      "publishedAtSgt": "2026-10-27T11:34:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Earnings growth in high-tech sectors, such as AI and robotics, has been outperforming profits in consumer-related industries, including clothing, autos and furniture, underscoring the increasingly bifurcated momentum in the economy. NBS Chief Statistician Yu Weining attributed earnings growth mostly to surging profits in electronics and advanced-technology manufacturing sectors.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
     {
       "id": "96377ada943f5ce1af05e9b58671a3d56749bd2f93a2e0fd0dfaa32e5ce58321",
       "source": "CNBC",
@@ -38,6 +134,21 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
+    {
+      "id": "5efe73b12b7bf0db7d85e95b619187864e94d2e9dd573d40d7a66deed390dc25",
+      "source": "CNBC",
+      "title": "Anthropic's IPO puts power in the hands of founders, giving everyday shareholders little voice",
+      "publishedAtSgt": "2026-10-27T08:15:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-founder-voting-control.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "Prospective Anthropic investors better buckle up, because the AI company's seven co-founders are firmly in the driver's seat. The arrangement will also limit the power and influence of institutional and retail investors, who will have to put their trust in a small band of artificial intelligence engineers and researchers as the company marches toward a trillion-dollar-plus market cap.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
     },
     {
       "id": "5dbb383cb99ae3020e483297374869b8af66330971de0ce61668857f7637475e",
@@ -1477,117 +1588,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-21T08:41:47+08:00"
-    },
-    {
-      "id": "2aedec4eeff29d2d932e53bc228550c8cdd35e0739356151bcb0cf61937afbfc",
-      "source": "CNBC",
-      "title": "Capital One's strong quarter and progressing Discover integration are rewarded on Wall Street",
-      "publishedAtSgt": "2026-10-21T07:34:14+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/20/capital-one-strong-quarter-and-progressing-discover-integration-are-rewarded.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "Higher expenses weighing on profits were part of the reason we sold a small amount of shares this afternoon, a trade that looks ill-timed given Capital One's positive after-hours reaction. Credit risk is always an issue when oil prices spike; the bank's performance in the quarter was a clear positive. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T08:41:47+08:00"
-    },
-    {
-      "id": "4af13d1ca2b230a747f4a5edd5d7cd80e9f42fc2061370958f214968e3db257d",
-      "source": "CNBC",
-      "title": "Obsessed with CoreWeave and the AI trade? You're missing out on some great stocks",
-      "publishedAtSgt": "2026-10-21T05:17:47+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/20/obsessed-with-the-ai-trade-youre-missing-out-on-some-great-stocks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Good news like a reversal in oil prices after a big spike, or a robust bond market driven by a frozen housing market, as mortgage rates are too high for most to afford a house. Or, in terms of \"you haven't missed it yet,\" check out the reaction in GE Aerospace's stock to its 49% order growth. Tuesday's earnings show there's a cohort of the market that can thrive outside of the AI and data-center trade.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-21T08:41:48+08:00"
-    },
-    {
-      "id": "e0883bd89c44e62fe12623cfea2313c6b8e70a930b89290de91343adf12d516a",
-      "source": "CNBC",
-      "title": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares",
-      "publishedAtSgt": "2026-10-21T04:23:58+08:00",
-      "url": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "United Airlines is slashing its profit forecast for the year as fuel costs continue to bite, but the carrier said passengers keep booking. United said Tuesday that it expects to earn between 50 cents and $1.50 a share on an adjusted basis in the fourth quarter, well below the $1.76 a share Wall Street analysts expected. At the high end of that range, it would bring United's 2026 adjusted earnings to no more than $7.22 per share.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-10-21T06:20:24+08:00"
-    },
-    {
-      "id": "c240be6aade98945aeb8b5b49b603bb84332afb9975558f2397ffdde8a9a8015",
-      "source": "CNBC",
-      "title": "We're booking big profits in an AI stock and trimming a credit-exposed bank",
-      "publishedAtSgt": "2026-10-21T04:00:22+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/20/were-booking-big-profits-in-an-ai-stock-and-trimming-a-credit-exposed-bank.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Selling 40 shares of Broadcom at roughly $335 each; reducing the stake in Jim Cramer's Charitable Trust to 120 shares and decreasing AVGO's weighting in the portfolio to 1% from 1.36% Selling 75 shares of Capital One Financial at roughly $201; reducing the Trust's stake to 600 shares and decreasing COF's portfolio weighting to 3.1% from about 3.45% We're trimming a small amount of our AI exposure following the group's modest rebound over the past two sessions.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-21T06:20:25+08:00"
-    },
-    {
-      "id": "bdbbccd6f38e5a366d16a84b8acb6b1841a438a2eeb2c1e2068ab2a40b14745e",
-      "source": "CNBC",
-      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-      "publishedAtSgt": "2026-10-21T01:50:11+08:00",
-      "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Housing data deteriorated further in September, according to separate reports Tuesday, adding to an already complicated policy landscape for the central bank as it contemplates its next move on interest rates. Fed officials have said they are tracking the inflationary effects of the robust investment in artificial intelligence, which is driving up the cost of chips and electronics.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T02:00:33+08:00"
-    },
-    {
-      "id": "1e35c47c058b4188a7f27d5eb16b67359fc38a9c2561eebf9603e09ef85f43c0",
-      "source": "CNBC",
-      "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
-      "publishedAtSgt": "2026-10-21T01:49:38+08:00",
-      "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 72,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Trump in July used Section 338 of the Tariff Act of 1930 to slap those steep tariffs on Canadian hockey sticks, wine, honey, wigs, and other products in response to alleged trade discrimination by Ottawa. It was the first time the 96-year-old law had ever been used to impose a tariff. It says that the law permits tariff action \"only upon finding 'as a fact'\" that a foreign country is unequally imposing unreasonable charges or trade limitations on U.S.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T02:00:33+08:00"
-    },
-    {
-      "id": "b87b6b025e9f13b443e4a3bdf267b4e98746582134048d35f0c7e97dab1d12ec",
-      "source": "CNBC",
-      "title": "What options traders expect from SpaceX earnings after the bell",
-      "publishedAtSgt": "2026-10-21T00:34:36+08:00",
-      "url": "https://www.cnbc.com/2026/10/20/spacex-reports-after-the-bell-heres-what-options-traders-expect-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The company delivered four astronauts to the International Space Station in record time, expanded its mobile network spectrum, is reportedly eyeing a $40 billion debt deal to buy Nvidia chips, and CEO Elon Musk said he plans to give shares to every kid in America next year. Traders think all that means more gains for the stock after it reports earnings after the bell Tuesday.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T02:00:34+08:00"
     }
   ]
 }

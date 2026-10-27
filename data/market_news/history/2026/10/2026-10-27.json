@@ -5,6 +5,102 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "446b40c33563fe9040f845841f1aeca47e7e29207e67932f48d60f83b2934515",
+      "source": "CNBC",
+      "title": "Oil prices seesaw amid renewed diplomatic efforts to end Mideast conflict",
+      "publishedAtSgt": "2026-10-27T17:09:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices inched higher Tuesday, reversing earlier losses driven by renewed diplomatic efforts to end the U.S.-Iran war and hopes of a de-escalation in the wider regional conflict that has seen Tehran-backed Houthis target Saudi Arabia. Prospects of a diplomatic breakthrough have helped temper fears of further disruptions to global energy supplies, putting downward pressure on crude prices.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "id": "5305b77b80a87d75ec0b35f16e4535570d4d93bc424c113938b5390d50af9fe1",
+      "source": "CNBC",
+      "title": "Nvidia to invest $3 billion in Meta as tech giants deepen AI partnership",
+      "publishedAtSgt": "2026-10-27T17:07:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Nvidia has said it will invest $3 billion in Meta after the social media and AI giant announced plans to raise $95 billion to support its investments in artificial intelligence infrastructure. Nvidia announced its investment on Tuesday, adding that Meta would expand Vera Rubin and Vera CPU deployment, and that the two companies would deepen their partnership on Muse, the social media giant's AI agent that launched last month.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "id": "0455a862c3cf72242e2f3790095696260d4fffcfa63f5e623128dfb32ec87b18",
+      "source": "CNBC",
+      "title": "HSBC shares slump on revenue miss, lender announces share buyback of up to $1 billion",
+      "publishedAtSgt": "2026-10-27T16:28:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Earlier, shares in Hong Kong dropped 2.95% following the earnings release, which saw the bank approve a third interim dividend of 10 cents per share. The bank's net interest income rose to $9.3 billion in the third quarter, supported by deposit growth and reinvestment of its \"structural hedge at higher yields.\" Meanwhile, operating expenses decreased 12% year on year to $8.8 billion, largely due to non-recurrence of legal provisions recorded a year earlier.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "id": "0a9f9e38ea8f496b156ed88b38e64e33790aa3e1a5d338ef9add29a07b8d056f",
+      "source": "CNBC",
+      "title": "Opinion: UK bond investors want spending cuts. John Healey’s first Budget may disappoint",
+      "publishedAtSgt": "2026-10-27T15:34:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/uk-budget-2026-john-healey-bond-market.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The build-up to her annual budgets was scarred by weeks of speculation about which taxes she would raise and, even though some of those increases never materialized, the damage to business and investor confidence was almost as great as if they had been imposed. Other likely giveaways include targeted support for poorer households with energy bills and a higher tax-free allowance for low-income pensioners.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
+    {
+      "id": "b5cbd30e6177e358a8ad9c05f33e3fd31f3aeeaced1e2f919872b7cb0400205e",
+      "source": "CNBC",
+      "title": "The 'stablecoin sandwich': Why speeding up payments isn't so simple, according to Mastercard",
+      "publishedAtSgt": "2026-10-27T15:16:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/mastcard-stablecoin-bvnk-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stablecoins could offer faster and more efficient payments, but realizing their full potential requires further development of the infrastructure supporting them, according to Mastercard. dollar, could be attractive for certain remittance corridors and less commonly traded currency pairs, Matthew Driver, executive vice president of services for Asia Pacific at Mastercard, told CNBC in an interview.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
+    {
+      "id": "e11e65c9cf97f783cc7e9d30ec1a573c83f2c772eb435ad18c5fc8fcdc06290e",
+      "source": "CNBC",
+      "title": "China industrial profits post strongest growth in three months as tech boom widens economic divide",
+      "publishedAtSgt": "2026-10-27T11:34:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Earnings growth in high-tech sectors, such as AI and robotics, has been outperforming profits in consumer-related industries, including clothing, autos and furniture, underscoring the increasingly bifurcated momentum in the economy. NBS Chief Statistician Yu Weining attributed earnings growth mostly to surging profits in electronics and advanced-technology manufacturing sectors.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
+    {
       "id": "96377ada943f5ce1af05e9b58671a3d56749bd2f93a2e0fd0dfaa32e5ce58321",
       "source": "CNBC",
       "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
@@ -35,6 +131,21 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
+    {
+      "id": "5efe73b12b7bf0db7d85e95b619187864e94d2e9dd573d40d7a66deed390dc25",
+      "source": "CNBC",
+      "title": "Anthropic's IPO puts power in the hands of founders, giving everyday shareholders little voice",
+      "publishedAtSgt": "2026-10-27T08:15:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-founder-voting-control.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "Prospective Anthropic investors better buckle up, because the AI company's seven co-founders are firmly in the driver's seat. The arrangement will also limit the power and influence of institutional and retail investors, who will have to put their trust in a small band of artificial intelligence engineers and researchers as the company marches toward a trillion-dollar-plus market cap.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
     },
     {
       "id": "5dbb383cb99ae3020e483297374869b8af66330971de0ce61668857f7637475e",
@@ -115,6 +226,6 @@
       "collectedAtSgt": "2026-10-27T05:02:52+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-27T09:30:17+08:00"
+  "articleCount": 14,
+  "updatedAtSgt": "2026-10-27T17:51:10+08:00"
 }
