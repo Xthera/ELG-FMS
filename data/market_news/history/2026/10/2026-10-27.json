@@ -5,6 +5,54 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "96377ada943f5ce1af05e9b58671a3d56749bd2f93a2e0fd0dfaa32e5ce58321",
+      "source": "CNBC",
+      "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
+      "publishedAtSgt": "2026-10-27T09:24:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "For Moscow, the route offers an opportunity to redirect energy exports toward Asia as Western sanctions constrain its access to European markets, said industry watchers whom CNBC spoke to. On the other hand, it provides Beijing another trade artery that could reduce reliance on traditional maritime chokepoints.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
+    {
+      "id": "018808fad7b698e33b4065b97374829591ad11148253d66cf93e7ccba797b2b3",
+      "source": "CNBC",
+      "title": "Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey",
+      "publishedAtSgt": "2026-10-27T08:17:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Japan's core inflation, excluding fresh foods, for September rose 2.1% from a year earlier, reaching its highest this year as a weak yen raises import costs and elevated energy costs feed through to higher prices, even as government subsidies absorb rising costs of energy for consumers.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
+    {
+      "id": "5dbb383cb99ae3020e483297374869b8af66330971de0ce61668857f7637475e",
+      "source": "CNBC",
+      "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+      "publishedAtSgt": "2026-10-27T06:50:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic's IPO filing on Monday puts the Claude creator in position to pursue what could be the largest initial stock offering in history. Meanwhile, the stock market is showing signs of jitters on the AI trade. David Trainer, CEO of financial research firm New Constructs, wrote in a report last month that the AI boom has been built on the view that cheap credit and access to the capital markets will be \"readily available.\" \"If AI liquidity dries up, and there are clear signs it is, we see...",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
+    {
       "id": "be7f15c9bafa4cb88b36caddba43450fd1a1f5f238e8e4d11630e65e5c632b7b",
       "source": "CNBC",
       "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
@@ -67,6 +115,6 @@
       "collectedAtSgt": "2026-10-27T05:02:52+08:00"
     }
   ],
-  "articleCount": 4,
-  "updatedAtSgt": "2026-10-27T05:02:53+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-27T09:30:17+08:00"
 }
