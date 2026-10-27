@@ -1,10 +1,197 @@
 {
-  "generatedAtSgt": "2026-10-27T09:45:54.713862+08:00",
+  "generatedAtSgt": "2026-10-27T18:06:56.647112+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 231,
+  "articleCount": 238,
   "analyses": [
+    {
+      "articleId": "446b40c33563fe9040f845841f1aeca47e7e29207e67932f48d60f83b2934515",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Oil prices saw-sawed as renewed diplomatic efforts to end the U.S.-Iran war and regional conflicts countered fears of supply disruptions from Houthi attacks on Saudi Arabia, initially driving losses before prices inched slightly higher.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "USA",
+        "Iran",
+        "Saudi Arabia"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Volatile oil prices impact energy sector equities, commodity portfolios, and broader inflation expectations, requiring investors in energy and cyclical assets to monitor geopolitical headlines closely.",
+      "reasoning": "Classified as MARKET due to direct reporting on oil price movements driven by geopolitical events affecting global energy supplies, highly relevant for portfolio risk management.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil prices seesaw amid renewed diplomatic efforts to end Mideast conflict",
+      "publishedAtSgt": "2026-10-27T17:09:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "articleId": "5305b77b80a87d75ec0b35f16e4535570d4d93bc424c113938b5390d50af9fe1",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia is investing $3 billion in Meta following Meta's announcement to raise $95 billion for AI infrastructure. The partnership includes expanding Vera Rubin and Vera CPU deployment and collaborating further on Meta's Muse AI agent.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence",
+        "Semiconductors"
+      ],
+      "investorImpact": "The significant investment and deepening partnership between two major technology giants highlight robust capital expenditure and demand trends within the artificial intelligence infrastructure and semiconductor sectors, offering positive sentiment for tech-heavy equities.",
+      "reasoning": "The article is classified as MARKET because it details a major capital investment and strategic partnership between two multi-billion-dollar tech leaders, significantly impacting market sentiment and sector performance. It is relevant for fund monitoring due to its implications for technology sector holdings.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia to invest $3 billion in Meta as tech giants deepen AI partnership",
+      "publishedAtSgt": "2026-10-27T17:07:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "articleId": "0455a862c3cf72242e2f3790095696260d4fffcfa63f5e623128dfb32ec87b18",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "HSBC shares dropped in Hong Kong following a revenue miss for the third quarter, despite the lender announcing a share buyback of up to $1 billion and approving a third interim dividend of 10 cents per share. The bank reported an increase in net interest income to $9.3 billion and a 12% decrease in operating expenses year-on-year.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Hong Kong",
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Investors in HSBC face downward share price pressure due to the revenue miss, though offset somewhat by capital return initiatives including the share buyback and dividend announcement.",
+      "reasoning": "The article details quarterly earnings results, revenue miss, and share price reaction for a major global financial institution, making it relevant for market monitoring and sector analysis.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "HSBC shares slump on revenue miss, lender announces share buyback of up to $1 billion",
+      "publishedAtSgt": "2026-10-27T16:28:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "articleId": "0a9f9e38ea8f496b156ed88b38e64e33790aa3e1a5d338ef9add29a07b8d056f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "UK bond investors are seeking spending cuts ahead of John Healey's first Budget, but expectations for tax raises, business and investor confidence damage, and targeted household support suggest potential disappointment for the market.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "United Kingdom"
+      ],
+      "sectors": [
+        "Government",
+        "Financials"
+      ],
+      "investorImpact": "UK gilt and equity investors face potential volatility as budget expectations around spending cuts and tax measures may not align with market desires, impacting business and investor confidence.",
+      "reasoning": "Classified as MARKET due to direct focus on UK bond investors and budget expectations impacting market sentiment and asset classes. Significance is HIGH given potential sovereign bond and macroeconomic policy implications.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Opinion: UK bond investors want spending cuts. John Healey’s first Budget may disappoint",
+      "publishedAtSgt": "2026-10-27T15:34:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/uk-budget-2026-john-healey-bond-market.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
+    {
+      "articleId": "b5cbd30e6177e358a8ad9c05f33e3fd31f3aeeaced1e2f919872b7cb0400205e",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Mastercard highlights that while stablecoins offer potential for faster and more efficient payments, particularly in remittances and less commonly traded currency pairs, fully realizing this potential requires further development of the underlying infrastructure.",
+      "assetClasses": [
+        "Cryptocurrency",
+        "Digital Assets",
+        "Currencies"
+      ],
+      "geographies": [
+        "Global",
+        "Asia Pacific"
+      ],
+      "sectors": [
+        "Financials",
+        "Fintech",
+        "Payments"
+      ],
+      "investorImpact": "Investors in fintech and digital asset infrastructure should note that traditional financial giants like Mastercard view stablecoin integration as a multi-step process reliant on infrastructure maturation, which may pace the timeline for widespread commercial adoption.",
+      "reasoning": "The article discusses the intersection of traditional payment networks and stablecoins, categorized under TECHNOLOGY due to its focus on payment infrastructure development, with a neutral and balanced assessment of stablecoin potential.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The 'stablecoin sandwich': Why speeding up payments isn't so simple, according to Mastercard",
+      "publishedAtSgt": "2026-10-27T15:16:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/mastcard-stablecoin-bvnk-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
+    {
+      "articleId": "e11e65c9cf97f783cc7e9d30ec1a573c83f2c772eb435ad18c5fc8fcdc06290e",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "China's industrial profits posted their strongest growth in three months, driven largely by a surge in high-tech sectors like AI and advanced manufacturing, while consumer-related industries lagged, highlighting a bifurcated economic recovery.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Industrial",
+        "Consumer Discretionary"
+      ],
+      "investorImpact": "Investors should note the divergence between outperforming high-tech manufacturing and lagging consumer-related sectors in China, guiding sector-specific allocations.",
+      "reasoning": "Classified as ECONOMIC because it discusses macroeconomic industrial profits and sector divides in China. The sentiment is MIXED due to strong tech growth contrasting with weak consumer industries. It is relevant for fund monitoring as it provides insights into regional manufacturing trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China industrial profits post strongest growth in three months as tech boom widens economic divide",
+      "publishedAtSgt": "2026-10-27T11:34:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
     {
       "articleId": "96377ada943f5ce1af05e9b58671a3d56749bd2f93a2e0fd0dfaa32e5ce58321",
       "relevant": true,
@@ -68,6 +255,37 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
+    {
+      "articleId": "5efe73b12b7bf0db7d85e95b619187864e94d2e9dd573d40d7a66deed390dc25",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Anthropic's upcoming IPO structure places heavy voting control in the hands of its seven co-founders, limiting the influence of institutional and retail investors as the AI company targets a massive valuation.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors must weigh the high growth potential of a major AI firm against reduced governance rights and limited voting power.",
+      "reasoning": "Classified as MARKET because it covers IPO governance structures and investor rights for a major tech company. It is important for funds investing in primary offerings or tech equities, though neutral in immediate financial impact.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic's IPO puts power in the hands of founders, giving everyday shareholders little voice",
+      "publishedAtSgt": "2026-10-27T08:15:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-founder-voting-control.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 100,
+      "collectorRelevanceReason": "financial_market_legal_story",
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
     },
     {
       "articleId": "5dbb383cb99ae3020e483297374869b8af66330971de0ce61668857f7637475e",
