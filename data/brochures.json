@@ -1,10 +1,10 @@
 {
- "generatedAtUtc": "2026-10-25T18:07:25+00:00",
+ "generatedAtUtc": "2026-10-27T02:18:06+00:00",
  "source": "https://www.prudential.com.sg/en/products/",
  "productCount": 41,
  "brochureCount": 81,
- "downloadedCount": 79,
- "downloadedBytes": 212984028,
+ "downloadedCount": 61,
+ "downloadedBytes": 141272113,
  "products": [
   {
    "id": "care-secure",
@@ -83,16 +83,16 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/phc360/PRUHospital-Care360_Brochure-EN.pdf",
-     "file": "Brochure/pruhospital-care360-EN.pdf",
-     "bytes": 18427471
+     "file": null,
+     "bytes": null
     },
     {
      "kind": "brochure",
      "label": "Brochure",
      "lang": "CN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/phc360/PRUHospital-Care360_Brochure-CHN.pdf",
-     "file": "Brochure/pruhospital-care360-CN.pdf",
-     "bytes": 20890174
+     "file": null,
+     "bytes": null
     }
    ]
   },
@@ -173,8 +173,8 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prupersonal-accident/prupersonal-accident-eBrochure-english.pdf",
-     "file": "Brochure/prupersonal-accident-EN.pdf",
-     "bytes": 707695
+     "file": null,
+     "bytes": null
     },
     {
      "kind": "brochure",
@@ -344,8 +344,8 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prumum/prumum_eBrochure_english.pdf",
-     "file": "Brochure/prumum-EN.pdf",
-     "bytes": 637510
+     "file": null,
+     "bytes": null
     },
     {
      "kind": "brochure",
@@ -434,8 +434,8 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prulady/prulady-eBrochure-EN.pdf",
-     "file": "Brochure/prulady-EN.pdf",
-     "bytes": 673077
+     "file": null,
+     "bytes": null
     },
     {
      "kind": "brochure",
@@ -1133,8 +1133,8 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruindex-lifetime-income/pruindex-lifetime-income_brochure_en.pdf",
-     "file": "Brochure/pruindex-lifetime-income-EN.pdf",
-     "bytes": 4594057
+     "file": null,
+     "bytes": null
     },
     {
      "kind": "brochure",
@@ -1279,16 +1279,16 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruindex-income-boost/PRUIndex-Income-Boost_Brochure_EN.pdf",
-     "file": "Brochure/pruindex-incomeboost-EN.pdf",
-     "bytes": 2407464
+     "file": null,
+     "bytes": null
     },
     {
      "kind": "brochure",
      "label": "Brochure",
      "lang": "CN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruindex-income-boost/PRUIndex-Income-Boost_Brochure_CHN.pdf",
-     "file": "Brochure/pruindex-incomeboost-CN.pdf",
-     "bytes": 4353368
+     "file": null,
+     "bytes": null
     }
    ]
   },
@@ -1324,8 +1324,8 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-income/pruwealth-income-ebrochure-eng.pdf",
-     "file": "Brochure/pruwealth-income-EN.pdf",
-     "bytes": 1319335
+     "file": null,
+     "bytes": null
     },
     {
      "kind": "brochure",
@@ -1380,16 +1380,16 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-plus-sgd/pruwealth-plus-sgd-ebrochure-eng.pdf",
-     "file": "Brochure/pruwealth-plus-sgd-EN.pdf",
-     "bytes": 1087721
+     "file": null,
+     "bytes": null
     },
     {
      "kind": "brochure",
      "label": "Brochure",
      "lang": "CN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-plus-sgd/pruwealth-plus-sgd-ebrochure-chn.pdf",
-     "file": "Brochure/pruwealth-plus-sgd-CN.pdf",
-     "bytes": 1173562
+     "file": null,
+     "bytes": null
     }
    ]
   },
@@ -1481,8 +1481,8 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-cash/PRUActive-Cash-Brochure_AD.pdf",
-     "file": "Brochure/pruactive-cash-EN.pdf",
-     "bytes": 940397
+     "file": null,
+     "bytes": null
     },
     {
      "kind": "brochure",
@@ -1582,16 +1582,16 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-usd/pruwealth_usd_ebrochure_english.pdf",
-     "file": "Brochure/pruwealth-usd-EN.pdf",
-     "bytes": 1121386
+     "file": null,
+     "bytes": null
     },
     {
      "kind": "brochure",
      "label": "Brochure",
      "lang": "CN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-usd/pruwealth_usd_ebrochure_chinese.pdf",
-     "file": "Brochure/pruwealth-usd-CN.pdf",
-     "bytes": 995586
+     "file": null,
+     "bytes": null
     }
    ]
   },
@@ -1773,8 +1773,8 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-assure-series/ebrochure-en.pdf",
-     "file": "Brochure/pruvantage-assure-series-EN.pdf",
-     "bytes": 2386400
+     "file": null,
+     "bytes": null
     }
    ]
   },
@@ -1818,8 +1818,8 @@
      "label": "Brochure",
      "lang": "CN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-wealth-ii/PRUVantage-Wealth-II-Brochure-CN.pdf",
-     "file": "Brochure/pruvantage-wealth-ii-CN.pdf",
-     "bytes": 3349441
+     "file": null,
+     "bytes": null
     }
    ]
   },
@@ -1855,16 +1855,16 @@
      "label": "Brochure",
      "lang": "EN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-prosper/PRUVantage_20Prosper_Brochure_EN.pdf",
-     "file": "Brochure/pruvantage-prosper-EN.pdf",
-     "bytes": 3194231
+     "file": null,
+     "bytes": null
     },
     {
      "kind": "brochure",
      "label": "Brochure",
      "lang": "CN",
      "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-prosper/PRUVantage_20Prosper_Brochure_CH.pdf",
-     "file": "Brochure/pruvantage-prosper-CN.pdf",
-     "bytes": 3453040
+     "file": null,
+     "bytes": null
     }
    ]
   },
