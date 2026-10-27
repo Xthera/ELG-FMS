@@ -13,6 +13,10 @@
      Market analysis market-news-analysis.yml
                      -> runs when a market refresh finishes
                         (no clock time of its own)
+     Index closes    fetch_indices.yml      cron "30 10,22 * * *"
+                     -> twice daily, 06:30 and 18:30 SGT
+     Brochures       fetch_brochures.yml    cron "17 1 * * 1" + even-week gate
+                     -> every 2 weeks, Monday 09:17 SGT
 
    GitHub often starts scheduled runs 5–30 minutes late, so a
    countdown reaching zero means "due", not "done".
@@ -35,6 +39,15 @@ const UPDATE_JOBS = [
         stampOf: raw => raw?.generatedAtUtc ?? null
     },
     {
+        key: "indices",
+        name: "Index closes",
+        detail: "Closing levels of 48 market indices",
+        scheduleText: "Twice daily, 06:30 and 18:30 SGT",
+        utcSlots: [[22, 30], [10, 30]],
+        source: "data/indices.json",
+        stampOf: raw => raw?.generatedAtUtc ?? null
+    },
+    {
         key: "news",
         name: "Market refresh",
         detail: "News collected from CNBC",
@@ -52,6 +65,18 @@ const UPDATE_JOBS = [
         approximate: true,
         source: "data/market_news/analysis/current.json",
         stampOf: raw => raw?.generatedAtSgt ?? null
+    },
+    {
+        key: "brochures",
+        name: "Brochures",
+        detail: "Prudential product brochures (Annex)",
+        scheduleText: "Every 2 weeks, Monday 09:17 SGT",
+        utcSlots: [[1, 17]],
+        // Runs every Monday, but only does the work in even ISO weeks
+        runsOn: day => day.getUTCDay() === 1 && isoWeek(day) % 2 === 0,
+        windowDays: 16,
+        source: "data/brochures.json",
+        stampOf: raw => raw?.generatedAtUtc ?? null
     }
 ];
 
@@ -78,12 +103,29 @@ function parseDate(value) {
     return Number.isNaN(date.getTime()) ? null : date;
 }
 
+/* ISO week number of a UTC date (same as GitHub's `date -u +%V`). */
+function isoWeek(date) {
+    const day = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+    const weekday = day.getUTCDay() || 7;
+
+    day.setUTCDate(day.getUTCDate() + 4 - weekday);
+
+    const yearStart = new Date(Date.UTC(day.getUTCFullYear(), 0, 1));
+
+    return Math.ceil(((day - yearStart) / 86400000 + 1) / 7);
+}
+
 /* All scheduled run times (UTC) between two dates. */
 function slotTimes(job, from, to) {
     const times = [];
     const day = new Date(Date.UTC(from.getUTCFullYear(), from.getUTCMonth(), from.getUTCDate() - 1));
 
     while (day <= to) {
+        if (job.runsOn && !job.runsOn(day)) {
+            day.setUTCDate(day.getUTCDate() + 1);
+            continue;
+        }
+
         for (const [hour, minute] of job.utcSlots) {
             const time = new Date(day);
 
@@ -99,8 +141,9 @@ function slotTimes(job, from, to) {
 }
 
 function previousAndNext(job, now) {
-    const from = new Date(now.getTime() - 2 * 86400000);
-    const to = new Date(now.getTime() + 2 * 86400000);
+    const span = (job.windowDays ?? 2) * 86400000;
+    const from = new Date(now.getTime() - span);
+    const to = new Date(now.getTime() + span);
     const times = slotTimes(job, from, to);
 
     let previous = null;
@@ -120,9 +163,12 @@ function pad(number) {
 
 function formatCountdown(ms) {
     const total = Math.max(0, Math.floor(ms / 1000));
-    const hours = Math.floor(total / 3600);
+    const days = Math.floor(total / 86400);
+    const hours = Math.floor((total % 86400) / 3600);
     const minutes = Math.floor((total % 3600) / 60);
     const seconds = total % 60;
+
+    if (days > 0) return `${days}d ${hours}h ${pad(minutes)}m`;
 
     return hours > 0
         ? `${hours}h ${pad(minutes)}m ${pad(seconds)}s`
@@ -133,6 +179,13 @@ function formatAgo(ms) {
     const minutes = Math.max(0, Math.round(ms / 60000));
 
     if (minutes < 60) return `${minutes} min`;
+
+    if (minutes >= 1440) {
+        const days = Math.floor(minutes / 1440);
+        const hours = Math.floor((minutes % 1440) / 60);
+
+        return hours ? `${days}d ${hours}h` : `${days}d`;
+    }
 
     const hours = Math.floor(minutes / 60);
     const rest = minutes % 60;
