@@ -36,8 +36,11 @@ const history = {
     days: [],             // [{ date, analyses }]
     selectedDay: "ALL",
     selectedFund: "ALL",
+    selectedIndex: "ALL",
+    scope: "all",          // "all" | "funds" | "indices"
     cache: new Map(),
     getLinker: () => null,
+    getIndexLinker: () => null,
     requestToken: 0
 };
 
@@ -245,6 +248,8 @@ function renderArticles() {
 
     const linker = history.getLinker();
     const fund = history.selectedFund;
+    const indexLinker = history.getIndexLinker();
+    const index = indexLinker ? history.selectedIndex : "ALL";
 
     const days = history.selectedDay === "ALL"
         ? history.days
@@ -260,13 +265,37 @@ function renderArticles() {
 
                 const links = linker ? linker.linkArticle(article) : [];
 
+                // Funds only / Indices only: skip news not linked to one
+                if (history.scope === "funds" && links.length === 0) {
+                    return "";
+                }
+
+                if (
+                    history.scope === "indices" &&
+                    !(indexLinker && indexLinker.linkArticle(article).length > 0)
+                ) {
+                    return "";
+                }
+
                 if (fund !== "ALL" && !links.some(link => link.fundId === fund)) {
+                    return "";
+                }
+
+                if (
+                    index !== "ALL" &&
+                    !indexLinker.linkArticle(article).some(link => link.indexId === index)
+                ) {
                     return "";
                 }
 
                 shown += 1;
 
-                return renderNewsCard(article, links, fund !== "ALL" ? fund : null);
+                return renderNewsCard(
+                    article,
+                    links,
+                    fund !== "ALL" ? fund : null,
+                    index !== "ALL" ? index : null
+                );
             })
             .join("");
 
@@ -280,15 +309,23 @@ function renderArticles() {
         `;
     }).join("");
 
-    status.textContent = fund !== "ALL"
-        ? `${shown} of ${total} archived articles linked to this fund`
+    const target =
+        fund !== "ALL" && index !== "ALL" ? "this fund and index"
+        : fund !== "ALL" ? "this fund"
+        : index !== "ALL" ? "this index"
+        : history.scope === "funds" ? "a fund"
+        : history.scope === "indices" ? "an index"
+        : "";
+
+    status.textContent = target
+        ? `${shown} of ${total} archived articles linked to ${target}`
         : `${total} archived articles`;
 
     list.innerHTML = sections || `
         <div class="empty-news-state">
             <div class="empty-news-icon">◈</div>
-            <h3>No archived news linked to this fund</h3>
-            <p>Try another day, another month, or All funds.</p>
+            <h3>No archived news linked to ${target || "this filter"}</h3>
+            <p>Try another day, another month, or All ${index !== "ALL" && fund === "ALL" ? "indices" : "funds"}.</p>
         </div>
     `;
 }
@@ -355,6 +392,12 @@ function bindEvents() {
 
         renderArticles();
     });
+
+    qs("#history-index")?.addEventListener("change", event => {
+        history.selectedIndex = event.target.value || "ALL";
+
+        renderArticles();
+    });
 }
 
 
@@ -368,9 +411,11 @@ function bindEvents() {
  * @param {object}   options
  * @param {string}   options.startDate  ISO date the current window starts
  * @param {Function} options.getLinker  returns the fund linker (or null)
+ * @param {Function} [options.getIndexLinker] returns the index linker (or null)
  */
-function openNewsHistory({ startDate, getLinker }) {
+function openNewsHistory({ startDate, getLinker, getIndexLinker }) {
     history.getLinker = getLinker ?? history.getLinker;
+    history.getIndexLinker = getIndexLinker ?? history.getIndexLinker;
 
     if (history.initialized) {
         renderArticles();
@@ -411,7 +456,17 @@ function refreshNewsHistory() {
 }
 
 
+/**
+ * "all" | "funds" | "indices" — Funds only / Indices only list
+ * just the articles linked to a fund / an index.
+ */
+function setNewsHistoryScope(scope) {
+    history.scope = ["funds", "indices"].includes(scope) ? scope : "all";
+}
+
+
 export {
     openNewsHistory,
-    refreshNewsHistory
+    refreshNewsHistory,
+    setNewsHistoryScope
 };
