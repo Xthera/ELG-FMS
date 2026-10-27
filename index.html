@@ -239,7 +239,7 @@
                         Market Performance
                     </span>
 
-                    <span class="nav-link-short" aria-hidden="true">Market</span>
+                    <span class="nav-link-short" aria-hidden="true">Performance</span>
 
                 </button>
 
@@ -330,27 +330,6 @@
 
                 <button
                     type="button"
-                    title="Plan Calculator"
-                    class="nav-link"
-                    data-view-target="calculator"
-                    aria-current="false"
-                >
-
-                    <span class="nav-link-icon">
-                        ⊞
-                    </span>
-
-                    <span class="nav-link-label">
-                        Plan Calculator
-                    </span>
-
-                    <span class="nav-link-short" aria-hidden="true">Calc</span>
-
-                </button>
-
-
-                <button
-                    type="button"
                     title="Settings"
                     class="nav-link nav-link-bottom"
                     data-view-target="settings"
@@ -411,8 +390,8 @@
                         </h1>
 
                         <p class="page-description">
-                            Actual BID performance across the full
-                            Prudential Singapore fund universe.
+                            Actual BID performance across the Prudential Singapore
+                            fund universe, alongside major market indices.
                         </p>
 
                     </div>
@@ -420,7 +399,7 @@
 
                     <div class="page-header-side">
 
-                        <div class="page-header-meta">
+                        <div class="page-header-meta" data-header-for="funds">
 
                         <span class="meta-label">
                             Latest BID observation
@@ -435,9 +414,34 @@
 
                     </div>
 
+                        <div class="page-header-meta" data-header-for="indices" hidden>
+
+                        <span class="meta-label">
+                            Latest index close
+                        </span>
+
+                        <strong
+                            id="index-latest-close-date"
+                            class="meta-value"
+                        >
+                            —
+                        </strong>
+
+                    </div>
+
                     </div>
 
                 </div>
+
+
+                <div class="market-blocks" data-market-blocks="performance">
+
+                <div class="explorer-dataset market-dataset" role="tablist" aria-label="Show Prudential Funds or Indices">
+                    <button type="button" class="explorer-dataset-tab active" data-market-dataset="funds" role="tab" aria-selected="true">Prudential Funds</button>
+                    <button type="button" class="explorer-dataset-tab" data-market-dataset="indices" role="tab" aria-selected="false">Indices</button>
+                </div>
+
+                <section class="market-block" data-market-block="funds" aria-label="Prudential Funds">
 
 
                 <!-- FUND COMPARISON CHART -->
@@ -895,22 +899,29 @@
 
                             <div>
 
-                                <div class="card-eyebrow">
-                                    TOP 10
-                                </div>
-
                                 <h2
                                     id="winners-title"
                                     class="card-title"
                                 >
-                                    Winners
+                                    Top 10 Performer
                                 </h2>
 
                             </div>
 
-                            <span class="card-indicator positive">
-                                ▲
-                            </span>
+                            <div class="card-header-actions">
+
+                                <button
+                                    type="button"
+                                    class="losers-toggle"
+                                    data-losers-toggle
+                                    aria-expanded="false"
+                                >Show Lower 10</button>
+
+                                <span class="card-indicator positive">
+                                    ▲
+                                </span>
+
+                            </div>
 
                         </div>
 
@@ -982,21 +993,19 @@
                     <section
                         class="performance-card"
                         aria-labelledby="losers-title"
+                        data-losers-card
+                        hidden
                     >
 
                         <div class="card-header">
 
                             <div>
 
-                                <div class="card-eyebrow">
-                                    BOTTOM 10
-                                </div>
-
                                 <h2
                                     id="losers-title"
                                     class="card-title"
                                 >
-                                    Losers
+                                    Lower 10 Performer
                                 </h2>
 
                             </div>
@@ -1071,6 +1080,656 @@
 
                 </div>
 
+                </section>
+
+
+                <section class="market-block" data-market-block="indices" aria-label="Indices" hidden>
+
+
+                <p id="index-unavailable" class="news-summary-bar market-block-note" hidden>Index data isn't available yet. It appears after the “Fetch Indices” workflow has run on GitHub.</p>
+
+                <!-- INDEX COMPARISON CHART -->
+
+                <section
+                    class="performance-card compare-card"
+                    aria-labelledby="index-compare-title"
+                >
+
+                    <div class="card-header compare-header">
+
+                        <div>
+
+                            <div class="card-eyebrow">
+                                COMPARE INDICES
+                            </div>
+
+                            <h2
+                                id="index-compare-title"
+                                class="card-title"
+                            >
+                                Price performance
+                            </h2>
+
+                            <div
+                                id="index-compare-range-label"
+                                class="compare-range-label"
+                            ></div>
+
+                        </div>
+
+
+                        <div
+                            class="compare-range-selector"
+                            role="tablist"
+                            aria-label="Comparison range"
+                        >
+
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-index-compare-range="1M"
+                                title="1 month"
+                                role="tab"
+                                aria-selected="false"
+                            >1M</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-index-compare-range="3M"
+                                title="3 months"
+                                role="tab"
+                                aria-selected="false"
+                            >3M</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-index-compare-range="6M"
+                                title="6 months"
+                                role="tab"
+                                aria-selected="false"
+                            >6M</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-index-compare-range="1Y"
+                                title="1 year"
+                                role="tab"
+                                aria-selected="false"
+                            >1Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-index-compare-range="3Y"
+                                title="3 years"
+                                role="tab"
+                                aria-selected="false"
+                            >3Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-index-compare-range="5Y"
+                                title="5 years"
+                                role="tab"
+                                aria-selected="false"
+                            >5Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-index-compare-range="10Y"
+                                title="10 years"
+                                role="tab"
+                                aria-selected="false"
+                            >10Y</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-index-compare-range="SI"
+                                title="Since inception"
+                                role="tab"
+                                aria-selected="false"
+                            >SI</button>
+                            <button
+                                type="button"
+                                class="compare-range-tab"
+                                data-index-compare-range="CUSTOM"
+                                title="Choose your own dates"
+                                role="tab"
+                                aria-selected="false"
+                            >Custom</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="index-compare-custom"
+                        class="fund-chart-custom compare-custom"
+                        hidden
+                    >
+                        <label>
+                            <span>From</span>
+                            <input id="index-compare-custom-from" type="date">
+                        </label>
+                        <label>
+                            <span>To</span>
+                            <input id="index-compare-custom-to" type="date">
+                        </label>
+                        <span id="index-compare-custom-error" class="fund-chart-error" role="alert"></span>
+                    </div>
+
+
+                    <div class="compare-toolbar">
+
+                        <div class="compare-picker">
+
+                            <input
+                                id="index-compare-search"
+                                type="search"
+                                autocomplete="off"
+                                placeholder="Add an index to compare…"
+                                aria-label="Search indices to add to the comparison"
+                                aria-controls="index-compare-suggestions"
+                                aria-expanded="false"
+                                role="combobox"
+                            >
+
+                            <ul
+                                id="index-compare-suggestions"
+                                class="compare-suggestions"
+                                role="listbox"
+                                hidden
+                            ></ul>
+
+                        </div>
+
+                        <span
+                            id="index-compare-count"
+                            class="compare-count"
+                        ></span>
+
+                    </div>
+
+
+                    <div
+                        id="index-compare-canvas-wrap"
+                        class="compare-chart-wrap"
+                    >
+
+                        <canvas
+                            id="index-compare-chart"
+                            role="img"
+                            aria-label="Rebased performance of the selected indices. The table below lists each index's change over the range."
+                        ></canvas>
+
+                    </div>
+
+
+                    <div
+                        id="index-compare-empty"
+                        class="compare-empty"
+                        hidden
+                    >
+                        Add an index above to start comparing.
+                    </div>
+
+
+                    <div class="table-wrap">
+
+                        <table class="data-table compare-table">
+
+                            <colgroup>
+                                <col class="compare-col-fund">
+                                <col class="compare-col-code">
+                                <col class="compare-col-start">
+                                <col class="compare-col-change">
+                                <col class="compare-col-bid">
+                                <col class="compare-col-remove">
+                            </colgroup>
+
+                            <thead>
+
+                                <tr>
+                                    <th scope="col">Index</th>
+                                    <th scope="col">Code</th>
+                                    <th scope="col">Start</th>
+                                    <th scope="col">Change</th>
+                                    <th scope="col" title="Index level at the end of the selected range">End level</th>
+                                    <th scope="col"><span class="sr-only">Remove</span></th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody id="index-compare-table-body"></tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+
+                <!-- PERIOD TOOLBAR -->
+
+                <div class="period-toolbar">
+
+                <!-- PERFORMANCE PERIOD SELECTOR -->
+
+                <div
+                    class="period-selector period-selector-compact"
+                    role="tablist"
+                    aria-label="Index performance period"
+                >
+
+                    <button
+                        type="button"
+                        class="period-tab"
+                        data-index-period="DD"
+                        title="Day over Day"
+                        role="tab"
+                        aria-selected="false"
+                    >
+
+                        <span class="period-tab-code">
+                            D-D
+                        </span>
+
+                        <span class="period-tab-description">
+                            Day over Day
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="period-tab"
+                        data-index-period="WW"
+                        title="Week over Week"
+                        role="tab"
+                        aria-selected="false"
+                    >
+
+                        <span class="period-tab-code">
+                            W-W
+                        </span>
+
+                        <span class="period-tab-description">
+                            Week over Week
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="period-tab active"
+                        data-index-period="MM"
+                        title="Month over Month"
+                        role="tab"
+                        aria-selected="true"
+                    >
+
+                        <span class="period-tab-code">
+                            M-M
+                        </span>
+
+                        <span class="period-tab-description">
+                            Month over Month
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="period-tab"
+                        data-index-period="YY"
+                        title="Year over Year"
+                        role="tab"
+                        aria-selected="false"
+                    >
+
+                        <span class="period-tab-code">
+                            Y-Y
+                        </span>
+
+                        <span class="period-tab-description">
+                            Year over Year
+                        </span>
+
+                    </button>
+
+
+                <button
+                    type="button"
+                    class="period-tab"
+                    data-index-period="SI"
+                    title="Since Inception"
+                    role="tab"
+                    aria-selected="false"
+                >
+
+                    <span class="period-tab-code">
+                        S-I
+                    </span>
+
+                    <span class="period-tab-description">
+                        Since Inception
+                    </span>
+
+                </button>
+
+                </div>
+
+                </div>
+
+
+                <!-- SELECTED PERIOD SUMMARY -->
+
+                <section
+                    class="performance-summary"
+                    aria-label="Index performance summary"
+                >
+
+
+                    <div class="summary-card">
+
+                        <div class="summary-card-label">
+                            Indices
+                        </div>
+
+                        <div
+                            id="index-eligible-count"
+                            class="summary-card-value"
+                        >
+                            —
+                        </div>
+
+                        <div
+                            id="index-eligible-meta"
+                            class="summary-card-meta"
+                        >
+                            Loading…
+                        </div>
+
+                    </div>
+
+
+                    <div class="summary-card">
+
+                        <div class="summary-card-label">
+                            Strongest performer
+                        </div>
+
+                        <div
+                            id="index-top-winner-return"
+                            class="summary-card-value return-positive"
+                        >
+                            —
+                        </div>
+
+                        <div
+                            id="index-top-winner-name"
+                            class="summary-card-meta summary-card-name"
+                        >
+                            —
+                        </div>
+
+                    </div>
+
+
+                    <div class="summary-card">
+
+                        <div class="summary-card-label">
+                            Weakest performer
+                        </div>
+
+                        <div
+                            id="index-top-loser-return"
+                            class="summary-card-value return-negative"
+                        >
+                            —
+                        </div>
+
+                        <div
+                            id="index-top-loser-name"
+                            class="summary-card-meta summary-card-name"
+                        >
+                            —
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- PERFORMANCE AS-OF INFORMATION -->
+
+                <div class="performance-context">
+
+                    <span
+                        id="index-as-of"
+                    >
+                        Latest close: —
+                    </span>
+
+                    <span class="context-separator">
+                        •
+                    </span>
+
+                    <span
+                        id="index-target-date"
+                    >
+                        Comparison target: —
+                    </span>
+
+                </div>
+
+
+                <!-- PERFORMANCE TABLES -->
+
+                <div class="performance-grid">
+
+
+                    <!-- WINNERS -->
+
+                    <section
+                        class="performance-card"
+                        aria-labelledby="index-winners-title"
+                    >
+
+                        <div class="card-header">
+
+                            <div>
+
+                                <h2
+                                    id="index-winners-title"
+                                    class="card-title"
+                                >
+                                    Top 10 Performer
+                                </h2>
+
+                            </div>
+
+                            <div class="card-header-actions">
+
+                                <button
+                                    type="button"
+                                    class="losers-toggle"
+                                    data-losers-toggle
+                                    aria-expanded="false"
+                                >Show Lower 10</button>
+
+                                <span class="card-indicator positive">
+                                    ▲
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="table-wrap">
+
+                            <table
+                                class="data-table performance-table"
+                            >
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th
+                                            scope="col"
+                                            class="rank-column"
+                                        >
+                                            #
+                                        </th>
+
+                                        <th scope="col">
+                                            Index
+                                        </th>
+
+                                        <th scope="col">
+                                            Code
+                                        </th>
+
+                                        <th scope="col">
+                                            Return
+                                        </th>
+
+                                        <th scope="col">
+                                            Level
+                                        </th>
+
+                                    </tr>
+
+                                </thead>
+
+
+                                <tbody
+                                    id="index-winners-table-body"
+                                >
+
+                                    <tr>
+
+                                        <td
+                                            colspan="5"
+                                            class="loading-state"
+                                        >
+                                            Loading indices…
+                                        </td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </section>
+
+
+                    <!-- LOSERS -->
+
+                    <section
+                        class="performance-card"
+                        aria-labelledby="index-losers-title"
+                        data-losers-card
+                        hidden
+                    >
+
+                        <div class="card-header">
+
+                            <div>
+
+                                <h2
+                                    id="index-losers-title"
+                                    class="card-title"
+                                >
+                                    Lower 10 Performer
+                                </h2>
+
+                            </div>
+
+                            <span class="card-indicator negative">
+                                ▼
+                            </span>
+
+                        </div>
+
+
+                        <div class="table-wrap">
+
+                            <table
+                                class="data-table performance-table"
+                            >
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th
+                                            scope="col"
+                                            class="rank-column"
+                                        >
+                                            #
+                                        </th>
+
+                                        <th scope="col">
+                                            Index
+                                        </th>
+
+                                        <th scope="col">
+                                            Code
+                                        </th>
+
+                                        <th scope="col">
+                                            Return
+                                        </th>
+
+                                        <th scope="col">
+                                            Level
+                                        </th>
+
+                                    </tr>
+
+                                </thead>
+
+
+                                <tbody
+                                    id="index-losers-table-body"
+                                >
+
+                                    <tr>
+
+                                        <td
+                                            colspan="5"
+                                            class="loading-state"
+                                        >
+                                            Loading indices…
+                                        </td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <p id="index-source-note" class="fund-source-note market-block-note"></p>
+
+                </section>
+
+                </div>
+
             </section>
 
 
@@ -1128,6 +1787,15 @@
 
                     </div>
 
+                </div>
+
+
+                <!-- NEWS SCOPE: what the analysis links to -->
+
+                <div class="explorer-dataset news-scope" role="tablist" aria-label="Show funds, indices or both">
+                    <button type="button" class="explorer-dataset-tab active" data-news-scope="all" role="tab" aria-selected="true">All</button>
+                    <button type="button" class="explorer-dataset-tab" data-news-scope="funds" role="tab" aria-selected="false">Funds only</button>
+                    <button type="button" class="explorer-dataset-tab" data-news-scope="indices" role="tab" aria-selected="false">Indices only</button>
                 </div>
 
 
@@ -1371,6 +2039,28 @@
 
                                     <option value="ALL">
                                         All funds
+                                    </option>
+
+                                </select>
+
+                            </label>
+
+
+                            <label
+                                class="filter-control filter-control-fund filter-control-index"
+                            >
+
+                                <span>
+                                    Index
+                                </span>
+
+                                <select
+                                    id="market-news-index"
+                                    multiple
+                                >
+
+                                    <option value="ALL">
+                                        All indices
                                     </option>
 
                                 </select>
@@ -1678,6 +2368,21 @@
 
                         </label>
 
+
+                        <label class="filter-control filter-control-fund filter-control-index">
+
+                            <span>
+                                Index
+                            </span>
+
+                            <select id="history-index">
+                                <option value="ALL">
+                                    All indices
+                                </option>
+                            </select>
+
+                        </label>
+
                     </div>
 
 
@@ -1734,7 +2439,7 @@
 
                         <p class="page-description">
                             Explore the complete Prudential fund
-                            universe and individual fund details.
+                            universe, or major market indices.
                         </p>
 
                     </div>
@@ -1763,6 +2468,14 @@
                 </div>
 
 
+                <!-- DATA SET: PRUDENTIAL FUNDS / INDICES -->
+
+                <div class="explorer-dataset" role="tablist" aria-label="What to explore">
+                    <button type="button" class="explorer-dataset-tab active" data-explorer-dataset="funds" role="tab" aria-selected="true">Prudential Funds</button>
+                    <button type="button" class="explorer-dataset-tab" data-explorer-dataset="indices" role="tab" aria-selected="false">Indices</button>
+                </div>
+
+
                 <!-- FILTERS -->
 
                 <div class="explorer-toolbar">
@@ -1780,7 +2493,7 @@
                             >
                         </div>
 
-                        <div class="news-search explorer-holding-picker">
+                        <div class="news-search explorer-holding-picker" data-funds-only>
                             <label for="explorer-holding" class="sr-only">Find funds holding a company</label>
                             <input
                                 id="explorer-holding"
@@ -1800,34 +2513,34 @@
                     <div class="explorer-filter-group">
 
                         <label class="filter-control">
-                            <span>Asset class</span>
+                            <span data-explorer-asset-label>Asset class</span>
                             <select id="explorer-asset" data-explorer-filter multiple>
                                 <option value="ALL">All asset classes</option>
                             </select>
                         </label>
 
-                        <label class="filter-control">
+                        <label class="filter-control" data-funds-only>
                             <span>Risk level</span>
                             <select id="explorer-risk" data-explorer-filter multiple>
                                 <option value="ALL">All risk levels</option>
                             </select>
                         </label>
 
-                        <label class="filter-control">
+                        <label class="filter-control" data-funds-only>
                             <span>Geography</span>
                             <select id="explorer-geography" data-explorer-filter multiple>
                                 <option value="ALL">All geographies</option>
                             </select>
                         </label>
 
-                        <label class="filter-control">
+                        <label class="filter-control" data-funds-only>
                             <span>Sector</span>
                             <select id="explorer-sector" data-explorer-filter multiple>
                                 <option value="ALL">All sectors</option>
                             </select>
                         </label>
 
-                        <label class="filter-control">
+                        <label class="filter-control" data-funds-only>
                             <span>Dividend</span>
                             <select id="explorer-dividend" data-explorer-filter multiple>
                                 <option value="ALL">All funds</option>
@@ -1836,7 +2549,7 @@
                             </select>
                         </label>
 
-                        <label class="filter-control" data-payment-filter hidden>
+                        <label class="filter-control" data-payment-filter data-funds-only hidden>
                             <span>Payment mode</span>
                             <select id="explorer-payment" data-explorer-filter multiple>
                                 <option value="ALL">All payment modes</option>
@@ -1859,11 +2572,11 @@
                             <option value="ytd:desc">YTD (best first)</option>
                             <option value="m1:desc">1M (best first)</option>
                             <option value="y1:desc">1Y (best first)</option>
-                            <option value="y3:desc">3Y (best first)</option>
+                            <option value="y3:desc">3Y p.a. (best first)</option>
                             <option value="ytd:asc">YTD (worst first)</option>
                             <option value="y1:asc">1Y (worst first)</option>
-                            <option value="risk:asc">Risk (low to high)</option>
-                            <option value="bid:desc">BID price (high to low)</option>
+                            <option value="risk:asc" data-funds-only>Risk (low to high)</option>
+                            <option value="bid:desc">Price / level (high to low)</option>
                         </select>
                     </label>
 
@@ -1889,15 +2602,15 @@
 
                             <thead>
                                 <tr>
-                                    <th scope="col" data-explorer-sort="name" tabindex="0" aria-sort="ascending">Fund <span class="sort-arrow"></span></th>
+                                    <th scope="col" data-explorer-sort="name" tabindex="0" aria-sort="ascending"><span data-explorer-name-head>Fund</span> <span class="sort-arrow"></span></th>
                                     <th scope="col" class="explorer-payment-head">Payment mode</th>
-                                    <th scope="col" data-explorer-sort="asset" tabindex="0">Asset class <span class="sort-arrow"></span></th>
-                                    <th scope="col" data-explorer-sort="risk" tabindex="0">Risk <span class="sort-arrow"></span></th>
-                                    <th scope="col" data-explorer-sort="bid" tabindex="0">BID price <span class="sort-arrow"></span></th>
+                                    <th scope="col" data-explorer-sort="asset" tabindex="0"><span data-explorer-asset-head>Asset class</span> <span class="sort-arrow"></span></th>
+                                    <th scope="col" data-explorer-sort="risk" tabindex="0" class="explorer-risk-head">Risk <span class="sort-arrow"></span></th>
+                                    <th scope="col" data-explorer-sort="bid" tabindex="0"><span data-explorer-bid-head>BID price</span> <span class="sort-arrow"></span></th>
                                     <th scope="col" data-explorer-sort="ytd" tabindex="0">YTD <span class="sort-arrow"></span></th>
                                     <th scope="col" data-explorer-sort="m1" tabindex="0">1M <span class="sort-arrow"></span></th>
                                     <th scope="col" data-explorer-sort="y1" tabindex="0">1Y <span class="sort-arrow"></span></th>
-                                    <th scope="col" data-explorer-sort="y3" tabindex="0">3Y <span class="sort-arrow"></span></th>
+                                    <th scope="col" data-explorer-sort="y3" tabindex="0" title="Annualised 3-year return (per annum)">3Y p.a. <span class="sort-arrow"></span></th>
                                 </tr>
                             </thead>
 
@@ -1913,9 +2626,9 @@
 
                 </section>
 
-                <p class="fund-source-note explorer-note">
-                    Returns are Prudential's published cumulative figures as at
-                    each fund's valuation date. Click a fund for its full profile.
+                <p class="fund-source-note explorer-note" data-explorer-note>
+                    Returns are Prudential's published figures as at each fund's valuation date:
+                    up to 1 year cumulative, longer periods annualised (p.a.). Click a fund for its full profile.
                 </p>
 
             </section>
@@ -1961,6 +2674,16 @@
                 <p id="monitoring-loading" class="news-summary-bar">Loading price history…</p>
 
 
+                <div class="market-blocks" data-market-blocks="monitoring">
+
+                <div class="explorer-dataset market-dataset" role="tablist" aria-label="Show Prudential Funds or Indices">
+                    <button type="button" class="explorer-dataset-tab active" data-market-dataset="funds" role="tab" aria-selected="true">Prudential Funds</button>
+                    <button type="button" class="explorer-dataset-tab" data-market-dataset="indices" role="tab" aria-selected="false">Indices</button>
+                </div>
+
+                <section class="market-block" data-market-block="funds" data-monitor-block="funds" aria-label="Prudential Funds">
+
+
                 <!-- WATCHLIST -->
 
                 <section class="performance-card monitor-card" aria-labelledby="watchlist-title">
@@ -1970,6 +2693,17 @@
                             <div class="card-eyebrow">MY FUNDS</div>
                             <h2 id="watchlist-title" class="card-title">Watchlist &amp; alerts</h2>
                             <div id="watchlist-summary" class="compare-range-label"></div>
+                        </div>
+
+                        <div class="compare-range-selector watchlist-range-selector" role="group" aria-label="Change periods to show (choose one or more)">
+                            <button type="button" class="compare-range-tab" data-watch-range="1D" title="1 day" aria-pressed="false">1D</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="1W" title="1 week" aria-pressed="false">1W</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="1M" title="1 month" aria-pressed="false">1M</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="3M" title="3 months" aria-pressed="false">3M</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="6M" title="6 months" aria-pressed="false">6M</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="1Y" title="1 year" aria-pressed="false">1Y</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="3Y" title="3 years" aria-pressed="false">3Y</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="5Y" title="5 years" aria-pressed="false">5Y</button>
                         </div>
                     </div>
 
@@ -1989,13 +2723,13 @@
                     <div class="table-wrap">
                         <table class="data-table monitor-table">
                             <thead>
-                                <tr>
+                                <tr id="watchlist-head-row">
                                     <th scope="col"><span class="sr-only">Watching</span></th>
                                     <th scope="col">Fund</th>
                                     <th scope="col">Latest BID</th>
-                                    <th scope="col">1D</th>
-                                    <th scope="col">1W</th>
-                                    <th scope="col">1M</th>
+                                    <th scope="col" class="monitor-range-cell">1D</th>
+                                    <th scope="col" class="monitor-range-cell">1W</th>
+                                    <th scope="col" class="monitor-range-cell">1M</th>
                                     <th scope="col">From 52W high</th>
                                     <th scope="col">Alerts</th>
                                 </tr>
@@ -2089,6 +2823,109 @@
                     </p>
 
                 </section>
+
+                </section>
+
+
+                <section class="market-block" data-market-block="indices" data-monitor-block="indices" aria-label="Indices" hidden>
+
+
+                <p class="news-summary-bar market-block-note" data-index-unavailable hidden>Index data isn't available yet. It appears after the “Fetch Indices” workflow has run on GitHub.</p>
+
+                <!-- INDEX WATCHLIST -->
+
+                <section class="performance-card monitor-card" aria-labelledby="index-watchlist-title">
+
+                    <div class="card-header">
+                        <div>
+                            <div class="card-eyebrow">MY INDICES</div>
+                            <h2 id="index-watchlist-title" class="card-title">Watchlist &amp; alerts</h2>
+                            <div id="index-watchlist-summary" class="compare-range-label"></div>
+                        </div>
+
+                        <div class="compare-range-selector watchlist-range-selector" role="group" aria-label="Change periods to show (choose one or more)">
+                            <button type="button" class="compare-range-tab" data-watch-range="1D" title="1 day" aria-pressed="false">1D</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="1W" title="1 week" aria-pressed="false">1W</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="1M" title="1 month" aria-pressed="false">1M</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="3M" title="3 months" aria-pressed="false">3M</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="6M" title="6 months" aria-pressed="false">6M</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="1Y" title="1 year" aria-pressed="false">1Y</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="3Y" title="3 years" aria-pressed="false">3Y</button>
+                            <button type="button" class="compare-range-tab" data-watch-range="5Y" title="5 years" aria-pressed="false">5Y</button>
+                        </div>
+                    </div>
+
+                    <div class="compare-toolbar">
+                        <div class="compare-picker watchlist-picker">
+                            <input
+                                id="index-watchlist-search"
+                                type="search"
+                                autocomplete="off"
+                                placeholder="Add an index to your watchlist…"
+                                aria-label="Search indices to watch"
+                            >
+                            <ul id="index-watchlist-suggestions" class="compare-suggestions" role="listbox" hidden></ul>
+                        </div>
+                    </div>
+
+                    <div class="table-wrap">
+                        <table class="data-table monitor-table">
+                            <thead>
+                                <tr id="index-watchlist-head-row">
+                                    <th scope="col"><span class="sr-only">Watching</span></th>
+                                    <th scope="col">Index</th>
+                                    <th scope="col">Latest close</th>
+                                    <th scope="col" class="monitor-range-cell">1D</th>
+                                    <th scope="col" class="monitor-range-cell">1W</th>
+                                    <th scope="col" class="monitor-range-cell">1M</th>
+                                    <th scope="col">From 52W high</th>
+                                    <th scope="col">Alerts</th>
+                                </tr>
+                            </thead>
+                            <tbody id="index-watchlist-body"></tbody>
+                        </table>
+                    </div>
+
+                    <p class="fund-source-note monitor-note monitor-shared-rules">Alerts use the same alert rules as Prudential Funds; change them under “Alert rules” in the funds watchlist.</p>
+
+                </section>
+
+
+                <!-- INDEX UNUSUAL MOVES -->
+
+                <section class="performance-card monitor-card" aria-labelledby="index-unusual-title">
+
+                    <div class="card-header">
+                        <div>
+                            <div class="card-eyebrow">ALL INDICES</div>
+                            <h2 id="index-unusual-title" class="card-title">Unusual moves</h2>
+                            <div id="index-unusual-asof" class="compare-range-label"></div>
+                        </div>
+
+                        <label class="filter-control monitor-sensitivity">
+                            <span>Flag moves bigger than</span>
+                            <select id="index-unusual-sensitivity">
+                                <option value="2">2× usual</option>
+                                <option value="2.5">2.5× usual</option>
+                                <option value="3">3× usual</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div id="index-unusual-hidden-bar" class="unusual-hidden-bar" hidden></div>
+
+                    <div id="index-unusual-lists" class="monitor-lists"></div>
+
+                    <p class="fund-source-note monitor-note">
+                        "Usual" move = how much the index typically changes from one close to the next
+                        over the past 12 months. Based on daily closing levels. Click any index for its profile.
+                    </p>
+
+                </section>
+
+                </section>
+
+                </div>
 
             </section>
 
@@ -2285,6 +3122,31 @@
 
                             <button id="report-booster-add" type="button" class="news-clear-filters report-booster-add" hidden>+ Add another booster</button>
 
+                            <p class="settings-help report-step-hint" data-step-hint="5">Choose No to continue, or Yes and fill in each booster's date, amount and fund allocation (total 100%).</p>
+
+                        </fieldset>
+
+                        <!-- STEP 6 -->
+                        <fieldset class="report-group report-step" data-report-step="6" hidden>
+                            <legend><span class="report-step-no">6</span>Fund switching</legend>
+
+                            <p class="settings-help report-booster-question">Switch units from one fund to another during the period?</p>
+
+                            <div id="report-switch-choice" class="report-payment-options report-booster-choice" role="radiogroup" aria-label="Fund switching">
+                                <button type="button" class="report-payment-option" role="radio" aria-checked="false" data-report-switching="no">
+                                    <span class="report-payment-name">No</span>
+                                    <span class="report-payment-desc">Keep the funds as chosen</span>
+                                </button>
+                                <button type="button" class="report-payment-option" role="radio" aria-checked="false" data-report-switching="yes">
+                                    <span class="report-payment-name">Yes</span>
+                                    <span class="report-payment-desc">Add one or more switches</span>
+                                </button>
+                            </div>
+
+                            <div id="report-switch-list" class="report-booster-list" hidden></div>
+
+                            <button id="report-switch-add" type="button" class="news-clear-filters report-booster-add" hidden>+ Add another switch</button>
+
                             <div id="report-dividend-choice" class="report-dividend-choice" hidden>
                                 <p class="settings-help report-booster-question">Some chosen funds pay dividends. How should the report treat them?</p>
 
@@ -2300,7 +3162,7 @@
                                 </div>
                             </div>
 
-                            <p class="settings-help report-step-hint" data-step-hint="5">Choose No to continue, or Yes and fill in each booster's date, amount and fund allocation (total 100%).</p>
+                            <p class="settings-help report-step-hint" data-step-hint="6">Choose No to continue, or Yes and fill in each switch's date, the fund and % of units to switch out, and the fund(s) to switch into (total 100%). Switches use the BID price on the switch date, with no switching charge.</p>
 
                             <p id="report-error" class="report-error" role="alert" hidden></p>
 
@@ -2339,36 +3201,217 @@
 
 
             <!-- =================================================
-                 SETTINGS VIEW
+                 PRUSHIELD PREMIUM CALCULATOR VIEW
             ================================================== -->
 
             <section
-                id="calculator-view"
+                id="prushield-view"
                 class="page-view"
-                data-view-panel="calculator"
-                aria-labelledby="calculator-page-title"
+                data-view-panel="prushield"
+                aria-labelledby="prushield-page-title"
                 hidden
             >
+
+                <!-- Which calculator (remembered per user) -->
+                <div class="explorer-dataset calc-switch" role="tablist" aria-label="Choose a calculator">
+                    <button type="button" class="explorer-dataset-tab active" data-calc="prushield" role="tab" aria-selected="true">PRUShield Premium</button>
+                    <button type="button" class="explorer-dataset-tab" data-calc="prucredits" role="tab" aria-selected="false">PruCredit$</button>
+                    <button type="button" class="explorer-dataset-tab" data-calc="plan" role="tab" aria-selected="false">Plan Calculator</button>
+                </div>
+
+                <div class="calc-block" data-calc-block="prushield">
 
                 <div class="page-header">
 
                     <div class="page-header-main">
 
                         <div class="eyebrow">
-                            PRUVANTAGE ASSURE II · PRUVANTAGE WEALTH III
+                            PREMIUM TABLE EFFECTIVE 1 MAY 2026 · INCL. 9% GST
                         </div>
 
                         <h1
-                            id="calculator-page-title"
+                            id="prushield-page-title"
                             class="page-title"
                         >
-                            Plan Calculator
+                            PRUShield Premium Calculator
                         </h1>
+
+                        <p class="page-description">
+                            Choose the residency status, age next birthday (or date of birth), base plan and rider to see the yearly premium and how much can be paid from MediSave.
+                        </p>
 
                     </div>
 
                 </div>
 
+
+                <div class="shield-grid">
+
+                    <section class="performance-card shield-card" aria-labelledby="shield-form-title">
+
+                        <div class="card-header">
+                            <div>
+                                <div class="card-eyebrow">LIFE ASSURED</div>
+                                <h2 id="shield-form-title" class="card-title">Plan details</h2>
+                            </div>
+                        </div>
+
+                        <form id="shield-form" class="shield-form" autocomplete="off" onsubmit="return false">
+
+                            <label class="report-field shield-field">
+                                <span>Residency / pass holder</span>
+                                <select id="shield-pass">
+                                    <option value="sc">Singapore Citizen</option>
+                                    <option value="pr">Singapore Permanent Resident</option>
+                                    <option value="t1">Foreigner – eligible valid pass holder (Type 1)</option>
+                                    <option value="t2">Foreigner – dependant of a Singapore Citizen / PR (Type 2)</option>
+                                </select>
+                                <em id="shield-pass-hint" class="settings-help shield-hint"></em>
+                            </label>
+
+                            <div class="report-field shield-field shield-age-field">
+                                <span id="shield-age-label">Age</span>
+
+                                <div class="explorer-dataset shield-age-mode" role="tablist" aria-labelledby="shield-age-label">
+                                    <button type="button" class="explorer-dataset-tab active" data-age-mode="anb" role="tab" aria-selected="true">Age next birthday</button>
+                                    <button type="button" class="explorer-dataset-tab" data-age-mode="dob" role="tab" aria-selected="false">Date of birth</button>
+                                </div>
+
+                                <!-- Type the age, or pick it from the list (▾) -->
+                                <div class="shield-combo" id="shield-anb-box">
+                                    <input
+                                        id="shield-anb"
+                                        class="shield-input"
+                                        type="text"
+                                        inputmode="numeric"
+                                        autocomplete="off"
+                                        value="35"
+                                        role="combobox"
+                                        aria-label="Age next birthday"
+                                        aria-autocomplete="list"
+                                        aria-expanded="false"
+                                        aria-controls="shield-anb-list"
+                                    >
+                                    <button type="button" class="shield-combo-toggle" id="shield-anb-toggle" aria-label="Choose age next birthday from the list" tabindex="-1">▾</button>
+                                    <ul class="shield-combo-list" id="shield-anb-list" role="listbox" aria-label="Age next birthday" hidden></ul>
+                                </div>
+
+                                <input
+                                    id="shield-dob"
+                                    class="shield-input"
+                                    type="date"
+                                    aria-label="Date of birth"
+                                    hidden
+                                >
+
+                                <input id="shield-age" type="hidden" value="35">
+
+                                <em id="shield-age-hint" class="settings-help shield-hint">Age next birthday = current age + 1. Type it, or pick from the list.</em>
+                            </div>
+
+                            <label class="report-field shield-field">
+                                <span>Base plan</span>
+                                <select id="shield-plan"></select>
+                            </label>
+
+                            <label class="report-field shield-field">
+                                <span>Rider</span>
+                                <select id="shield-rider"></select>
+                            </label>
+
+                            <div id="shield-reward-wrap" class="shield-toggle">
+                                <input type="checkbox" id="shield-reward" checked>
+                                <label for="shield-reward" id="shield-reward-label">Apply PRUWell Reward on rider</label>
+                            </div>
+
+                            <div id="shield-notes" class="shield-notes"></div>
+
+                        </form>
+
+                    </section>
+
+
+                    <aside class="performance-card shield-card shield-summary" aria-live="polite" aria-labelledby="shield-summary-title">
+
+                        <div class="card-header">
+                            <div>
+                                <div class="card-eyebrow">PREMIUM</div>
+                                <h2 id="shield-summary-title" class="card-title">Total annual premium</h2>
+                            </div>
+                        </div>
+
+                        <div class="shield-summary-body">
+
+                            <div class="shield-total">
+                                <strong id="shield-total">S$0.00</strong>
+                                <span id="shield-context"></span>
+                            </div>
+
+                            <div class="table-wrap">
+                                <table class="shield-table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Component</th>
+                                            <th scope="col" class="shield-num">S$ / year</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="shield-rows"></tbody>
+                                </table>
+                            </div>
+
+                            <div class="shield-split">
+                                <span class="shield-split-title">How it is paid</span>
+                                <div class="shield-bar" aria-hidden="true">
+                                    <span id="shield-bar-ms" class="shield-bar-ms"></span>
+                                    <span id="shield-bar-cash" class="shield-bar-cash"></span>
+                                </div>
+                                <div class="shield-legend">
+                                    <span><i class="shield-dot shield-dot-ms"></i>MediSave <b id="shield-ms-amt"></b></span>
+                                    <span><i class="shield-dot shield-dot-cash"></i>Cash <b id="shield-cash-amt"></b></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </aside>
+
+                </div>
+
+
+                <div class="fund-source-note shield-footnote">
+                    <p>Unofficial calculator built from the PRUShield premium table for new applications with cover start date, and renewals with renewal date, from 1 May 2026. Premiums are for standard lives (no pre-existing conditions). MediShield Life premiums shown are before any government subsidies, rebates or additional premiums.</p>
+                    <p>Rider availability by base plan follows the rider names (PRUExtra Premier / Preferred riders with PRUShield Premier; PRUExtra Plus riders with PRUShield Plus). Confirm with the official illustration before advising a client.</p>
+                </div>
+
+
+                </div>
+
+
+                <!-- PLAN CALCULATOR (PRUVantage Assure II / Wealth III) -->
+                <div class="calc-block" data-calc-block="plan" hidden>
+
+                    <div class="page-header">
+
+                        <div class="page-header-main">
+
+                            <div class="eyebrow">
+                                PRUVANTAGE ASSURE II · PRUVANTAGE WEALTH III
+                            </div>
+
+                            <h1
+                                id="calculator-page-title"
+                                class="page-title"
+                            >
+                                Plan Calculator
+                            </h1>
+
+                            <p class="page-description">
+                                Project a PRUVantage Assure II or PRUVantage Wealth III policy's account values, including Investment Booster and dividends.
+                            </p>
+
+                        </div>
+
+                    </div>
 
                 <section class="performance-card report-card calc-card calc-setup-card" aria-label="Plan setup">
 
@@ -2605,8 +3648,230 @@
 
                 </dialog>
 
+                </div>
+
+
+                <!-- PRUCREDIT$ CALCULATOR (external page, shown inside) -->
+                <div class="calc-block" data-calc-block="prucredits" hidden>
+
+                    <div class="page-header">
+
+                        <div class="page-header-main">
+
+                            <div class="eyebrow">
+                                PRODUCTION · PRUCREDIT$
+                            </div>
+
+                            <h1 class="page-title">
+                                PruCredit$ Calculator
+                            </h1>
+
+                            <p class="page-description">
+                                Add screenshots or photos of your premiums (or type them in) and calculate your PruCredit$ production.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="pc" data-prucredits>
+
+                        <div class="explorer-dataset pc-tabs" role="tablist" aria-label="PruCredit$ view">
+                            <button type="button" class="explorer-dataset-tab active" data-pc-view="calc" role="tab" aria-selected="true">Calculator</button>
+                            <button type="button" class="explorer-dataset-tab" data-pc-view="ref" role="tab" aria-selected="false">Multiplier reference</button>
+                        </div>
+
+                        <!-- CALCULATOR -->
+                        <div data-pc-panel="calc">
+
+                            <div class="pc-top">
+
+                                <section class="performance-card pc-add" aria-labelledby="pc-add-title">
+
+                                    <div class="card-header">
+                                        <div>
+                                            <div class="card-eyebrow">STEP 01</div>
+                                            <h2 id="pc-add-title" class="card-title">Add your premiums</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="pc-add-body">
+
+                                        <div class="pc-drop" data-pc-drop aria-label="Add screenshots">
+                                            <strong>Drop screenshots here</strong>
+                                            <span>PNG, JPG, WEBP · read in your browser, nothing is uploaded</span>
+                                            <div class="pc-buttons pc-drop-buttons">
+                                                <button type="button" class="annex-doc" data-pc-choose>Choose screenshots</button>
+                                                <button type="button" class="annex-doc" data-pc-photo>Take a photo</button>
+                                            </div>
+                                            <span class="pc-drop-tip">Or copy a screenshot and press Ctrl+V / ⌘V anywhere on this page.</span>
+                                        </div>
+
+                                        <input type="file" accept="image/*" multiple hidden data-pc-file>
+                                        <input type="file" accept="image/*" capture="environment" hidden data-pc-camera>
+
+                                        <div class="pc-buttons">
+                                            <button type="button" class="annex-doc" data-pc-manual>＋ Add manually</button>
+                                            <button type="button" class="annex-doc" data-pc-example>Try an example</button>
+                                        </div>
+
+
+                                        <p class="pc-message" data-pc-message aria-live="polite"></p>
+
+                                    </div>
+
+                                </section>
+
+                                <section class="performance-card pc-summary" aria-labelledby="pc-summary-title">
+
+                                    <div class="card-header">
+                                        <div>
+                                            <div class="card-eyebrow">PRODUCTION ESTIMATE</div>
+                                            <h2 id="pc-summary-title" class="card-title">Total PruCredit$</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="pc-summary-body">
+                                        <div class="pc-total"><strong data-pc-total>0.00</strong><span>PruCredit$</span></div>
+                                        <div class="pc-summary-row"><span>Eligible premium base</span><strong data-pc-base>S$0.00</strong></div>
+                                        <div class="pc-summary-row"><span>Items included</span><strong data-pc-count>0 / 0</strong></div>
+                                        <p class="pc-summary-note" data-pc-summary-note></p>
+                                        <div class="pc-buttons">
+                                            <button type="button" class="pc-link-button" data-pc-clear hidden>Clear all</button>
+                                        </div>
+                                    </div>
+
+                                </section>
+
+                            </div>
+
+                            <div class="pc-policies" data-pc-policies></div>
+
+                            <!-- Shown once at least one plan has been added -->
+                            <div class="pc-download-bar" data-pc-download-bar hidden>
+                                <button type="button" class="annex-doc" data-pc-download>Download breakdown</button>
+                            </div>
+
+                            <div class="fund-source-note shield-footnote">
+                                <p><strong>How it's worked out.</strong> Regular premiums are annualised (monthly × 12, quarterly × 4, half-yearly × 2) and multiplied by the plan's or rider's multiplier. Single premiums and lump sums count at 10% of the premium before the multiplier. For any other production rule, choose “Other eligible base” and enter the eligible base yourself. PRUActive Family Care needs the premium term: 8-year and 9-year terms count at 80% and 90% of the annual premium, 10 years and above at 100%.</p>
+                                <p>Multipliers: PRUCredits Multiplier Table (July 2026), plus OAI 012/26 (PRUActive Protect II, 2 Sep 2026) and OAI 014/26 (PRUActive Family Care, 7 Oct 2026). The list isn't exhaustive; for unlisted rates ask your BDM or check the product's OneAgency Instruction, which takes precedence if rates differ. Screenshots are read on your device with an open-source text reader; check every amount before relying on the total.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- MULTIPLIER REFERENCE -->
+                        <div data-pc-panel="ref" hidden>
+                            <label class="news-search annex-search pc-search">
+                                <span class="sr-only">Find a product multiplier</span>
+                                <input type="search" placeholder="Find a product multiplier…" autocomplete="off" data-pc-search>
+                            </label>
+                            <div data-pc-reference></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </section>
 
+
+            <!-- =================================================
+                 ANNEX VIEW — Prudential product brochures
+                 (data/brochures.json, refreshed every 2 weeks
+                 by the "Fetch Brochures" workflow)
+            ================================================== -->
+
+            <section
+                id="annex-view"
+                class="page-view"
+                data-view-panel="annex"
+                aria-labelledby="annex-page-title"
+                hidden
+            >
+
+                <div class="page-header">
+
+                    <div class="page-header-main">
+
+                        <div class="eyebrow">
+                            ANNEX · PRUDENTIAL SINGAPORE
+                        </div>
+
+                        <h1
+                            id="annex-page-title"
+                            class="page-title"
+                        >
+                            Product Brochures
+                        </h1>
+
+                        <p class="page-description">
+                            Every Prudential product brochure in one place. Tap a brochure to read it right here. Updated automatically every 2 weeks.
+                        </p>
+
+                    </div>
+
+                    <div class="page-header-meta">
+
+                        <span class="meta-label">
+                            Last updated
+                        </span>
+
+                        <strong
+                            id="annex-updated"
+                            class="meta-value"
+                        >
+                            —
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="annex-toolbar">
+
+                    <label class="news-search annex-search">
+                        <span class="sr-only">Search brochures</span>
+                        <input
+                            id="annex-search"
+                            type="search"
+                            placeholder="Search products or documents..."
+                            autocomplete="off"
+                        >
+                    </label>
+
+                    <div
+                        id="annex-groups"
+                        class="annex-groups"
+                        role="tablist"
+                        aria-label="Product type"
+                    ></div>
+
+                </div>
+
+                <p
+                    id="annex-status"
+                    class="annex-status"
+                    aria-live="polite"
+                >
+                    Loading brochures…
+                </p>
+
+                <div
+                    id="annex-list"
+                    class="annex-list"
+                ></div>
+
+                <p class="annex-note">
+                    Brochures (English and Chinese) are downloaded from prudential.com.sg/en/products into the Brochure folder every 2 weeks and open in a popup. Each update replaces the whole folder, so old versions and products Prudential removes drop off.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 SETTINGS VIEW
+            ================================================== -->
 
             <section
                 id="settings-view"
@@ -2638,6 +3903,34 @@
                     </div>
 
                 </div>
+
+
+                <section class="performance-card settings-card" aria-labelledby="settings-guide-title">
+
+                    <div class="card-header">
+                        <div>
+                            <div class="card-eyebrow">HELP</div>
+                            <h2 id="settings-guide-title" class="card-title">User guide</h2>
+                        </div>
+                    </div>
+
+                    <div class="settings-body">
+
+                        <div class="settings-row settings-guide">
+
+                            <p class="settings-help">
+                                How to use every page of ELG FMS, with screenshots.
+                            </p>
+
+                            <div class="settings-guide-actions">
+                                <button type="button" class="annex-doc settings-guide-open" data-user-guide-open>Open user guide</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
 
 
                 <section class="performance-card settings-card" aria-labelledby="settings-display-title">
@@ -2866,16 +4159,43 @@
                     ELG FMS
                 </div>
 
-                <div class="footer-source">
-                    Prudential Singapore fund data
-                </div>
-
-                <div
+                <button
+                    type="button"
                     id="app-version"
                     class="footer-version"
+                    aria-label="Version V2.0.0 – view changelog"
+                    title="View changelog"
                 >
-                    v1.1.0
-                </div>
+                    V2.0.0
+                </button>
+
+                <button
+                    type="button"
+                    class="footer-feedback footer-annex footer-calculator"
+                    data-view-target="prushield"
+                    aria-label="Calculator: PRUShield premium calculator"
+                >
+                    Calculator
+                </button>
+
+                <button
+                    type="button"
+                    class="footer-feedback footer-annex"
+                    data-view-target="annex"
+                    aria-label="Annex: Prudential product brochures"
+                >
+                    Annex
+                </button>
+
+                <a
+                    class="footer-feedback"
+                    href="https://forms.gle/D32K3GtkUt3U26qA8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Feedback (opens a Google Form in a new tab)"
+                >
+                    Feedback
+                </a>
 
             </div>
 
@@ -2892,6 +4212,16 @@
     <script
         type="module"
         src="js/app.js"
+    ></script>
+
+    <script
+        type="module"
+        src="js/changelog.js"
+    ></script>
+
+    <script
+        type="module"
+        src="js/user-guide.js"
     ></script>
 
 </body>
