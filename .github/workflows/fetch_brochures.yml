@@ -1,0 +1,127 @@
+name: Fetch Brochures
+
+on:
+  # ============================================================
+  # EVERY 2 WEEKS - MONDAY 9:17 AM SINGAPORE TIME
+  #
+  # GitHub's schedule can't say "every 2 weeks", so this runs
+  # every Monday (01:17 UTC = 09:17 SGT) and the first step skips
+  # odd-numbered weeks. Run it any time from the Actions tab.
+  # ============================================================
+  schedule:
+    - cron: "17 1 * * 1"
+
+  # Manual run from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-brochures
+  cancel-in-progress: false
+
+jobs:
+
+  fetch-brochures:
+
+    name: Fetch Prudential brochures -> Commit
+
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 20
+
+    steps:
+
+      - name: Every 2 weeks only
+        id: fortnight
+        run: |
+          WEEK=$(date -u +%V)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ $((10#$WEEK % 2)) -ne 0 ]; then
+            echo "Week $WEEK: skipped (runs on even weeks)."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout repository
+        if: steps.fortnight.outputs.run == 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Set up Python
+        if: steps.fortnight.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        if: steps.fortnight.outputs.run == 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests==2.32.5
+
+      - name: Fetch brochures
+        if: steps.fortnight.outputs.run == 'true'
+        run: |
+          set -e
+          python -u scripts/fetch_brochures.py
+          # Keep a copy: the commit step resets to the newest main
+          cp data/brochures.json "$RUNNER_TEMP/brochures.json"
+          rm -rf "$RUNNER_TEMP/Brochure"
+          cp -r Brochure "$RUNNER_TEMP/Brochure"
+
+      # ========================================================
+      # COMMIT ONLY data/brochures.json AND THE Brochure/ FOLDER
+      #
+      # The folder is replaced as a whole: brochures that are no
+      # longer on Prudential's site are deleted from the repo.
+      #
+      # Other workflows may push at the same time, so: fetch
+      # newest main, put our file on top, commit, push; retry if
+      # another push won the race.
+      # ========================================================
+      - name: Commit and push data/brochures.json + Brochure/
+        if: steps.fortnight.outputs.run == 'true'
+        run: |
+          set -e
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          ATTEMPT=1
+          MAX_ATTEMPTS=5
+
+          while [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; do
+            echo "Publish attempt $ATTEMPT / $MAX_ATTEMPTS"
+
+            git fetch origin main
+            git reset --hard origin/main
+
+            mkdir -p data
+            cp "$RUNNER_TEMP/brochures.json" data/brochures.json
+            rm -rf Brochure
+            cp -r "$RUNNER_TEMP/Brochure" Brochure
+            git add -A data/brochures.json Brochure
+
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+
+            git commit -m "Update brochures (Annex)"
+
+            if git push origin HEAD:main; then
+              echo "Pushed."
+              exit 0
+            fi
+
+            echo "Push rejected (another workflow pushed first); retrying..."
+            ATTEMPT=$((ATTEMPT + 1))
+            sleep $((ATTEMPT * 5))
+          done
+
+          echo "Could not push after $MAX_ATTEMPTS attempts."
+          exit 1

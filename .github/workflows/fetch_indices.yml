@@ -1,0 +1,103 @@
+name: Fetch Indices
+
+on:
+  # ============================================================
+  # DAILY RUN - 6:30 AM SINGAPORE TIME, TUESDAY TO SATURDAY
+  #
+  # 22:30 UTC = 06:30 SGT the next day. By then Asian, European
+  # and US markets have all closed for the previous trading day.
+  # ============================================================
+  schedule:
+    - cron: "30 22 * * *"
+
+  # Manual run from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-indices
+  cancel-in-progress: false
+
+jobs:
+
+  fetch-indices:
+
+    name: Fetch index closes -> Commit
+
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 20
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests==2.32.5 openpyxl==3.1.5
+
+      - name: Fetch indices
+        run: |
+          set -e
+          test -f "Indices.xlsx"
+          python -u scripts/fetch_indices.py
+          # Keep a copy: the commit step resets to the newest main
+          cp data/indices.json "$RUNNER_TEMP/indices.json"
+
+      # ========================================================
+      # COMMIT ONLY data/indices.json
+      #
+      # Other workflows (funds data, market news) may push at the
+      # same time, so: fetch newest main, put our file on top,
+      # commit, push; retry if another push won the race.
+      # ========================================================
+      - name: Commit and push data/indices.json
+        run: |
+          set -e
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          ATTEMPT=1
+          MAX_ATTEMPTS=5
+
+          while [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; do
+            echo "Publish attempt $ATTEMPT / $MAX_ATTEMPTS"
+
+            git fetch origin main
+            git reset --hard origin/main
+
+            cp "$RUNNER_TEMP/indices.json" data/indices.json
+            git add data/indices.json
+
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+
+            git commit -m "Update indices data"
+
+            if git push origin HEAD:main; then
+              echo "Pushed."
+              exit 0
+            fi
+
+            echo "Push rejected (another workflow pushed first); retrying..."
+            ATTEMPT=$((ATTEMPT + 1))
+            sleep $((ATTEMPT * 5))
+          done
+
+          echo "Could not push after $MAX_ATTEMPTS attempts."
+          exit 1
