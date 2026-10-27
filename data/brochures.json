@@ -1,0 +1,1958 @@
+{
+ "generatedAtUtc": "2026-10-25T18:07:25+00:00",
+ "source": "https://www.prudential.com.sg/en/products/",
+ "productCount": 41,
+ "brochureCount": 81,
+ "downloadedCount": 79,
+ "downloadedBytes": 212984028,
+ "products": [
+  {
+   "id": "care-secure",
+   "name": "Care Secure (CareShield Life Supplement)",
+   "group": "Health",
+   "groups": [
+    "Health"
+   ],
+   "categories": [
+    "Medical Insurance"
+   ],
+   "tags": [
+    "Medical Insurance"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Medical Insurance",
+     "order": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "description": "Supplement your CareShield Life plan with enhanced long-term coverage against moderate and severe disabilities.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/health/medical/care-secure/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/caresecure/Prudential_Income_Care_Secure_-Product_Brochure-Eng.pdf",
+     "file": "Brochure/care-secure-EN.pdf",
+     "bytes": 451774
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/caresecure/Income_Prudential_Care_Secure_-Product_Brochure-CN.pdf",
+     "file": "Brochure/care-secure-CN.pdf",
+     "bytes": 553988
+    }
+   ]
+  },
+  {
+   "id": "pruhospital-care360",
+   "name": "PRUHospital Care360",
+   "group": "Health",
+   "groups": [
+    "Health"
+   ],
+   "categories": [
+    "Medical Insurance"
+   ],
+   "tags": [
+    "Medical Insurance"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Medical Insurance",
+     "order": [
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "description": "Affordable care that keeps you going during hospitalisation, because life doesn't wait.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/health/medical/pruhospital-care360/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/phc360/PRUHospital-Care360_Brochure-EN.pdf",
+     "file": "Brochure/pruhospital-care360-EN.pdf",
+     "bytes": 18427471
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/phc360/PRUHospital-Care360_Brochure-CHN.pdf",
+     "file": "Brochure/pruhospital-care360-CN.pdf",
+     "bytes": 20890174
+    }
+   ]
+  },
+  {
+   "id": "prushield",
+   "name": "PRUShield and PRUExtra",
+   "group": "Health",
+   "groups": [
+    "Health"
+   ],
+   "categories": [
+    "Medical Insurance"
+   ],
+   "tags": [
+    "Medical Insurance"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Medical Insurance",
+     "order": [
+      0,
+      0,
+      2
+     ]
+    }
+   ],
+   "description": "Comprehensive health insurance coverage to suit your budget and needs.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/health/medical/prushield/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prushield/prushield-eBrochure-english.pdf",
+     "file": "Brochure/prushield-EN.pdf",
+     "bytes": 4779624
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prushield/prushield-eBrochure-chinese.pdf",
+     "file": "Brochure/prushield-CN.pdf",
+     "bytes": 10469580
+    }
+   ]
+  },
+  {
+   "id": "prupersonal-accident",
+   "name": "PRUPersonal Accident",
+   "group": "Health",
+   "groups": [
+    "Health"
+   ],
+   "categories": [
+    "Accident"
+   ],
+   "tags": [
+    "Accident"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Accident",
+     "order": [
+      0,
+      1,
+      0
+     ]
+    }
+   ],
+   "description": "Personal accident insurance to cover minor mishaps or unexpected injuries even when you’re overseas.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/health/accident/prupersonal-accident/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prupersonal-accident/prupersonal-accident-eBrochure-english.pdf",
+     "file": "Brochure/prupersonal-accident-EN.pdf",
+     "bytes": 707695
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prupersonal-accident/prupersonal-accident-eBrochure-chinese.pdf",
+     "file": "Brochure/prupersonal-accident-CN.pdf",
+     "bytes": 913715
+    }
+   ]
+  },
+  {
+   "id": "pruactive-family-care",
+   "name": "PRUActive Family Care",
+   "group": "Health",
+   "groups": [
+    "Health",
+    "Life"
+   ],
+   "categories": [
+    "Critical Illness",
+    "Whole Life"
+   ],
+   "tags": [
+    "Critical Illness",
+    "Whole Life"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Critical Illness",
+     "order": [
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "group": "Life",
+     "category": "Whole Life",
+     "order": [
+      1,
+      0,
+      0
+     ]
+    }
+   ],
+   "description": "One plan that stands behind your ageing parent's care, your child's future, and your own financial security.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/whole-life/pruactive-family-care/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-family-care/pruactive-family-care-brochure-en.pdf",
+     "file": "Brochure/pruactive-family-care-EN.pdf",
+     "bytes": 2736951
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-family-care/pruactive-family-care-brochure-ch.pdf",
+     "file": "Brochure/pruactive-family-care-CN.pdf",
+     "bytes": 4083135
+    }
+   ]
+  },
+  {
+   "id": "pruvital-cover",
+   "name": "PRUVital Cover",
+   "group": "Health",
+   "groups": [
+    "Health",
+    "Life"
+   ],
+   "categories": [
+    "Critical Illness",
+    "Term Life"
+   ],
+   "tags": [
+    "Critical Illness",
+    "Term Life"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Critical Illness",
+     "order": [
+      0,
+      2,
+      1
+     ]
+    },
+    {
+     "group": "Life",
+     "category": "Term Life",
+     "order": [
+      1,
+      1,
+      2
+     ]
+    }
+   ],
+   "description": "A term insurance plan that provides coverage even for existing conditions for Type 2 diabetes, high cholesterol, high blood pressure and high body mass index.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/term-life/pruvital-cover/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvital-cover/PRUVital-Cover-eBrochure-ENG-Final.pdf",
+     "file": "Brochure/pruvital-cover-EN.pdf",
+     "bytes": 2123725
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvital-cover/PRUVital-Cover-eBrochure-CHN-Final.pdf",
+     "file": "Brochure/pruvital-cover-CN.pdf",
+     "bytes": 2192393
+    }
+   ]
+  },
+  {
+   "id": "prumum",
+   "name": "PRUMum",
+   "group": "Health",
+   "groups": [
+    "Health",
+    "Life"
+   ],
+   "categories": [
+    "Critical Illness",
+    "Maternity"
+   ],
+   "tags": [
+    "Critical Illness",
+    "Maternity"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Critical Illness",
+     "order": [
+      0,
+      2,
+      2
+     ]
+    },
+    {
+     "group": "Life",
+     "category": "Maternity",
+     "order": [
+      1,
+      2,
+      0
+     ]
+    }
+   ],
+   "description": "A standalone maternity insurance plan that protects you from as early as week 13 of pregnancy through to the start of motherhood.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/maternity/prumum/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prumum/prumum_eBrochure_english.pdf",
+     "file": "Brochure/prumum-EN.pdf",
+     "bytes": 637510
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prumum/prumum_eBrochure_chinese.pdf",
+     "file": "Brochure/prumum-CN.pdf",
+     "bytes": 731616
+    }
+   ]
+  },
+  {
+   "id": "pruman",
+   "name": "PRUMan",
+   "group": "Health",
+   "groups": [
+    "Health"
+   ],
+   "categories": [
+    "Critical Illness"
+   ],
+   "tags": [
+    "Critical Illness"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Critical Illness",
+     "order": [
+      0,
+      2,
+      3
+     ]
+    }
+   ],
+   "description": "A unique health insurance plan tailored for men against male-specific critical illnesses.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/health/critical-illness/pruman/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruman/pruman-eBrochure-EN.pdf",
+     "file": "Brochure/pruman-EN.pdf",
+     "bytes": 679056
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruman/pruman-eBrochure-CH.pdf",
+     "file": "Brochure/pruman-CN.pdf",
+     "bytes": 836907
+    }
+   ]
+  },
+  {
+   "id": "prulady",
+   "name": "PRULady",
+   "group": "Health",
+   "groups": [
+    "Health"
+   ],
+   "categories": [
+    "Critical Illness"
+   ],
+   "tags": [
+    "Critical Illness"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Critical Illness",
+     "order": [
+      0,
+      2,
+      4
+     ]
+    }
+   ],
+   "description": "A unique health insurance plan tailored for women against female-specific critical illnesses.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/health/critical-illness/prulady/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prulady/prulady-eBrochure-EN.pdf",
+     "file": "Brochure/prulady-EN.pdf",
+     "bytes": 673077
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prulady/prulady-eBrochure-CH.pdf",
+     "file": "Brochure/prulady-CN.pdf",
+     "bytes": 852796
+    }
+   ]
+  },
+  {
+   "id": "pruearly-stage-crisis-cover",
+   "name": "PRUEarly Stage Crisis Cover",
+   "group": "Health",
+   "groups": [
+    "Health"
+   ],
+   "categories": [
+    "Critical Illness"
+   ],
+   "tags": [
+    "Critical Illness"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Critical Illness",
+     "order": [
+      0,
+      2,
+      5
+     ]
+    }
+   ],
+   "description": "An early stage critical illness insurance plan that offers financial support right from the early stages of selected critical illnesses.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/health/critical-illness/pruearly-stage-crisis-cover/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruearly-stage-crisis/PRUEarly-Stage-Crisis-eBrochure-ENG-Final.pdf",
+     "file": "Brochure/pruearly-stage-crisis-cover-EN.pdf",
+     "bytes": 2453484
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruearly-stage-crisis/PRUEarly-Stage-Crisis-eBrochure-CHN-Final.pdf",
+     "file": "Brochure/pruearly-stage-crisis-cover-CN.pdf",
+     "bytes": 2554795
+    }
+   ]
+  },
+  {
+   "id": "prucancer-360",
+   "name": "PRUCancer 360",
+   "group": "Health",
+   "groups": [
+    "Health"
+   ],
+   "categories": [
+    "Critical Illness"
+   ],
+   "tags": [
+    "Critical Illness"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Critical Illness",
+     "order": [
+      0,
+      2,
+      6
+     ]
+    }
+   ],
+   "description": "An affordable cancer insurance plan that provides multi-stage coverage against all cancers.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/health/critical-illness/prucancer-360/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prucancer-360/PRUCancer360-Brochures-EN.pdf",
+     "file": "Brochure/prucancer-360-EN.pdf",
+     "bytes": 2554951
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prucancer-360/PRUCancer360-Brochures-CHN.pdf",
+     "file": "Brochure/prucancer-360-CN.pdf",
+     "bytes": 3108557
+    }
+   ]
+  },
+  {
+   "id": "pruactive-crisis-guard",
+   "name": "PRUActive Crisis Guard",
+   "group": "Health",
+   "groups": [
+    "Health"
+   ],
+   "categories": [
+    "Critical Illness"
+   ],
+   "tags": [
+    "Critical Illness"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Critical Illness",
+     "order": [
+      0,
+      2,
+      7
+     ]
+    }
+   ],
+   "description": "Be covered against health crises that require serious treatments.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/health/critical-illness/pruactive-crisis-guard/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-crisis-guard/PRUActive-Crisis-Guard-Brochure-ENG.pdf",
+     "file": "Brochure/pruactive-crisis-guard-EN.pdf",
+     "bytes": 2519149
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-crisis-guard/PRUActive-Crisis-Guard-Brochure-CHN.pdf",
+     "file": "Brochure/pruactive-crisis-guard-CN.pdf",
+     "bytes": 5013451
+    }
+   ]
+  },
+  {
+   "id": "pruactive-protect",
+   "name": "PRUActive Protect",
+   "group": "Health",
+   "groups": [
+    "Health"
+   ],
+   "categories": [
+    "Critical Illness"
+   ],
+   "tags": [
+    "Critical Illness"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Critical Illness",
+     "order": [
+      0,
+      2,
+      8
+     ]
+    }
+   ],
+   "description": "A customisable critical illness insurance plan that can be built as you grow, providing coverage against recurring early stage critical illnesses and more.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/health/critical-illness/pruactive-protect/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-protect/PRUActive-Protect-Brochure-en.pdf",
+     "file": "Brochure/pruactive-protect-EN.pdf",
+     "bytes": 3799312
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-protect/PRUActive-Protect-Brochure-Ch.pdf",
+     "file": "Brochure/pruactive-protect-CN.pdf",
+     "bytes": 2464172
+    }
+   ]
+  },
+  {
+   "id": "pruactive-life-v",
+   "name": "PRUActive Life V",
+   "group": "Health",
+   "groups": [
+    "Health",
+    "Life"
+   ],
+   "categories": [
+    "Critical Illness",
+    "Whole Life"
+   ],
+   "tags": [
+    "Critical Illness",
+    "Whole Life"
+   ],
+   "placements": [
+    {
+     "group": "Health",
+     "category": "Critical Illness",
+     "order": [
+      0,
+      2,
+      9
+     ]
+    },
+    {
+     "group": "Life",
+     "category": "Whole Life",
+     "order": [
+      1,
+      0,
+      1
+     ]
+    }
+   ],
+   "description": "A lifelong promise of protection – strengthened by multiplied coverage and comprehensive critical illness protection",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/whole-life/pruactive-life-v/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-life-v/PRUActive-Life-V-Brochure-EN.pdf",
+     "file": "Brochure/pruactive-life-v-EN.pdf",
+     "bytes": 5844409
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-life-v/PRUActive-Life-V-Brochure-CN.pdf",
+     "file": "Brochure/pruactive-life-v-CN.pdf",
+     "bytes": 7168079
+    }
+   ]
+  },
+  {
+   "id": "direct-pruprotect-life-ii",
+   "name": "DIRECT - PRUProtect Life II",
+   "group": "Life",
+   "groups": [
+    "Life"
+   ],
+   "categories": [
+    "Whole Life"
+   ],
+   "tags": [
+    "Whole Life"
+   ],
+   "placements": [
+    {
+     "group": "Life",
+     "category": "Whole Life",
+     "order": [
+      1,
+      0,
+      3
+     ]
+    }
+   ],
+   "description": "A whole life insurance plan that offers financial protection in the event of death, terminal illness and permanent disability.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/whole-life/direct-pruprotect-life-ii/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/direct-pruprotect-life-ii/PRUProtectLifeII_ENBrochure_AD.pdf",
+     "file": "Brochure/direct-pruprotect-life-ii-EN.pdf",
+     "bytes": 989637
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/direct-pruprotect-life-ii/PRUProtect-Life-II_Brochure_CHI_Final.pdf",
+     "file": "Brochure/direct-pruprotect-life-ii-CN.pdf",
+     "bytes": 1039723
+    }
+   ]
+  },
+  {
+   "id": "pruactive-linkguard",
+   "name": "PRUActive LinkGuard",
+   "group": "Life",
+   "groups": [
+    "Life",
+    "Wealth"
+   ],
+   "categories": [
+    "Investments",
+    "Whole Life"
+   ],
+   "tags": [
+    "Whole Life",
+    "Investments"
+   ],
+   "placements": [
+    {
+     "group": "Life",
+     "category": "Whole Life",
+     "order": [
+      1,
+      0,
+      4
+     ]
+    },
+    {
+     "group": "Wealth",
+     "category": "Investments",
+     "order": [
+      2,
+      2,
+      2
+     ]
+    }
+   ],
+   "description": "An affordable and flexible investment-linked whole life insurance plan that gives you double coverage against unexpected events.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/whole-life/pruactive-linkguard/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-linkguard/PRUActive-LinkGuard_brochure_en.pdf",
+     "file": "Brochure/pruactive-linkguard-EN.pdf",
+     "bytes": 2781555
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-linkguard/PRUActive-LinkGuard_brochure_chn.pdf",
+     "file": "Brochure/pruactive-linkguard-CN.pdf",
+     "bytes": 6045330
+    }
+   ]
+  },
+  {
+   "id": "direct-pruprotect-term-5",
+   "name": "DIRECT - PRUProtect Term 5",
+   "group": "Life",
+   "groups": [
+    "Life"
+   ],
+   "categories": [
+    "Term Life"
+   ],
+   "tags": [
+    "Term Life"
+   ],
+   "placements": [
+    {
+     "group": "Life",
+     "category": "Term Life",
+     "order": [
+      1,
+      1,
+      0
+     ]
+    }
+   ],
+   "description": "A 5-year renewable term insurance plan that protects you and your loved ones based on your protection needs should the unforeseen happen.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/term-life/direct-pruprotect-term-5/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/prudential/pdf/ebrochures/pruprotect_term_and_pruprotect_term_5_eBrochure.pdf",
+     "file": "Brochure/direct-pruprotect-term-5-EN.pdf",
+     "bytes": 592178
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/prudential/pdf/ebrochures/pruprotect_term_and_pruprotect_term_5_eBrochure_CH.pdf",
+     "file": "Brochure/direct-pruprotect-term-5-CN.pdf",
+     "bytes": 805202
+    }
+   ]
+  },
+  {
+   "id": "direct-pruprotect-term",
+   "name": "DIRECT - PRUProtect Term",
+   "group": "Life",
+   "groups": [
+    "Life"
+   ],
+   "categories": [
+    "Term Life"
+   ],
+   "tags": [
+    "Term Life"
+   ],
+   "placements": [
+    {
+     "group": "Life",
+     "category": "Term Life",
+     "order": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "description": "A term insurance plan tailored to protect you and your loved ones based on your protection needs.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/term-life/direct-pruprotect-term/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/prudential/pdf/ebrochures/pruprotect_term_and_pruprotect_term_5_eBrochure.pdf",
+     "file": "Brochure/direct-pruprotect-term-5-EN.pdf",
+     "bytes": 592178
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/prudential/pdf/ebrochures/pruprotect_term_and_pruprotect_term_5_eBrochure_CH.pdf",
+     "file": "Brochure/direct-pruprotect-term-5-CN.pdf",
+     "bytes": 805202
+    }
+   ]
+  },
+  {
+   "id": "pruactive-term",
+   "name": "PRUActive Term",
+   "group": "Life",
+   "groups": [
+    "Life"
+   ],
+   "categories": [
+    "Term Life"
+   ],
+   "tags": [
+    "Term Life"
+   ],
+   "placements": [
+    {
+     "group": "Life",
+     "category": "Term Life",
+     "order": [
+      1,
+      1,
+      3
+     ]
+    }
+   ],
+   "description": "A unique and customisable term insurance plan designed to keep up with your changing needs.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/term-life/pruactive-term/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-term/pruactive_term_eBrochure_english.pdf",
+     "file": "Brochure/pruactive-term-EN.pdf",
+     "bytes": 1144699
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-term/pruactive_term_eBrochure_chinese.pdf",
+     "file": "Brochure/pruactive-term-CN.pdf",
+     "bytes": 1031493
+    }
+   ]
+  },
+  {
+   "id": "prufirst-promise",
+   "name": "PRUFirst Promise",
+   "group": "Life",
+   "groups": [
+    "Life"
+   ],
+   "categories": [
+    "Maternity"
+   ],
+   "tags": [
+    "Maternity"
+   ],
+   "placements": [
+    {
+     "group": "Life",
+     "category": "Maternity",
+     "order": [
+      1,
+      2,
+      1
+     ]
+    }
+   ],
+   "description": "A bundled maternity insurance plan that protects both mum and baby from as early as week 13 of pregnancy, providing baby with a gift of protection from day one and beyond.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/maternity/prufirst-promise/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prufirst-promise-life-protection/prufirst-promise_ebrochure_english.pdf",
+     "file": "Brochure/prufirst-promise-EN.pdf",
+     "bytes": 730058
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prufirst-promise-life-protection/prufirst-promise_ebrochure_chinese.pdf",
+     "file": "Brochure/prufirst-promise-CN.pdf",
+     "bytes": 909203
+    }
+   ]
+  },
+  {
+   "id": "pfg2",
+   "name": "PRUFirst Gift II",
+   "group": "Life",
+   "groups": [
+    "Life"
+   ],
+   "categories": [
+    "Maternity"
+   ],
+   "tags": [
+    "Maternity"
+   ],
+   "placements": [
+    {
+     "group": "Life",
+     "category": "Maternity",
+     "order": [
+      1,
+      2,
+      2
+     ]
+    }
+   ],
+   "description": "A bundled maternity insurance plan comprising of PRUMum and PRUActive LinkGuard to protect mum and baby from pregnancy up to childbirth and beyond.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/maternity/pfg2/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pfg2/prufirst-gift-ii-brochure-en.pdf",
+     "file": "Brochure/pfg2-EN.pdf",
+     "bytes": 709575
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pfg2/prufirst-gift-ii-brochure-cn.pdf",
+     "file": "Brochure/pfg2-CN.pdf",
+     "bytes": 886491
+    }
+   ]
+  },
+  {
+   "id": "prumortgage",
+   "name": "PRUMortgage",
+   "group": "Life",
+   "groups": [
+    "Life"
+   ],
+   "categories": [
+    "Mortgage"
+   ],
+   "tags": [
+    "Mortgage"
+   ],
+   "placements": [
+    {
+     "group": "Life",
+     "category": "Mortgage",
+     "order": [
+      1,
+      3,
+      0
+     ]
+    }
+   ],
+   "description": "Helps you take care of outstanding mortgage payments if you or your spouse were to pass on.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/life/mortgage/prumortgage/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prumortgage/prumortgage-eBrochure-english.pdf",
+     "file": "Brochure/prumortgage-EN.pdf",
+     "bytes": 1229980
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prumortgage/prumortgage-eBrochure-chinese.pdf",
+     "file": "Brochure/prumortgage-CN.pdf",
+     "bytes": 1288128
+    }
+   ]
+  },
+  {
+   "id": "pruassure-income-promo",
+   "name": "PRUAssure Income (USD)",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Savings"
+   ],
+   "tags": [
+    "Savings"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Savings",
+     "order": [
+      2,
+      0,
+      0
+     ]
+    }
+   ],
+   "description": "Enjoy guaranteed income of 5.0% p.a. for 9 years, with your capital returned at maturity.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/savings/pruassure-income-promo/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruassure-income-promo/pruassure-income-usd-brochure-en.pdf",
+     "file": "Brochure/pruassure-income-promo-EN.pdf",
+     "bytes": 2008720
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruassure-income-promo/pruassure-income-usd-brochure-ch.pdf",
+     "file": "Brochure/pruassure-income-promo-CN.pdf",
+     "bytes": 2291452
+    }
+   ]
+  },
+  {
+   "id": "pruindex-lifetime-income",
+   "name": "PRUIndex Lifetime Income",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Savings"
+   ],
+   "tags": [
+    "Savings"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Savings",
+     "order": [
+      2,
+      0,
+      1
+     ]
+    }
+   ],
+   "description": "Build monthly income you can count on - powered by growth potential and guaranteed payouts.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/savings/pruindex-lifetime-income/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruindex-lifetime-income/pruindex-lifetime-income_brochure_en.pdf",
+     "file": "Brochure/pruindex-lifetime-income-EN.pdf",
+     "bytes": 4594057
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruindex-lifetime-income/pruindex-lifetime-income_brochure_chn.pdf",
+     "file": "Brochure/pruindex-lifetime-income-CN.pdf",
+     "bytes": 4339959
+    }
+   ]
+  },
+  {
+   "id": "pruwealth-income-ii-usd",
+   "name": "PRUWealth Income II (USD)",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Savings"
+   ],
+   "tags": [
+    "Savings"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Savings",
+     "order": [
+      2,
+      0,
+      2
+     ]
+    }
+   ],
+   "description": "Cultivate income from your wealth, while building lasting wealth for generations.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/savings/pruwealth-income-ii-usd/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-income-ii-usd/pruwealth-income-ii-usd-ebrochure-eng.pdf",
+     "file": "Brochure/pruwealth-income-ii-usd-EN.pdf",
+     "bytes": 5166879
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-income-ii-usd/pruwealth-income-ii-usd-ebrochure-chn.pdf",
+     "file": "Brochure/pruwealth-income-ii-usd-CN.pdf",
+     "bytes": 4053175
+    }
+   ]
+  },
+  {
+   "id": "pruapex-multigen-wealth",
+   "name": "PRUApex MultiGen Wealth",
+   "group": "Wealth",
+   "groups": [
+    "Wealth",
+    "Legacy Planning"
+   ],
+   "categories": [
+    "Savings"
+   ],
+   "tags": [
+    "Savings",
+    "Legacy Planning"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Savings",
+     "order": [
+      2,
+      0,
+      3
+     ]
+    },
+    {
+     "group": "Legacy Planning",
+     "category": "Legacy Planning",
+     "order": [
+      3,
+      0,
+      0
+     ]
+    }
+   ],
+   "description": "A perpetual wealth solution crafted to endure - growing today and across generations.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/savings/pruapex-multigen-wealth/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruapex-multigen-wealth/pruapex-multigen-wealth-brochure-en.pdf",
+     "file": "Brochure/pruapex-multigen-wealth-EN.pdf",
+     "bytes": 1786889
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruapex-multigen-wealth/pruapex-multigen-wealth-brochure-chn.pdf",
+     "file": "Brochure/pruapex-multigen-wealth-CN.pdf",
+     "bytes": 5738117
+    }
+   ]
+  },
+  {
+   "id": "pruindex-incomeboost",
+   "name": "PRUIndex Income Boost",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Savings"
+   ],
+   "tags": [
+    "Savings"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Savings",
+     "order": [
+      2,
+      0,
+      4
+     ]
+    }
+   ],
+   "description": "Harness Index growth to generate income while safeguarding your savings from market downturns.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/savings/pruindex-incomeboost/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruindex-income-boost/PRUIndex-Income-Boost_Brochure_EN.pdf",
+     "file": "Brochure/pruindex-incomeboost-EN.pdf",
+     "bytes": 2407464
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruindex-income-boost/PRUIndex-Income-Boost_Brochure_CHN.pdf",
+     "file": "Brochure/pruindex-incomeboost-CN.pdf",
+     "bytes": 4353368
+    }
+   ]
+  },
+  {
+   "id": "pruwealth-income",
+   "name": "PRUWealth Income",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Savings"
+   ],
+   "tags": [
+    "Savings"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Savings",
+     "order": [
+      2,
+      0,
+      5
+     ]
+    }
+   ],
+   "description": "Live your aspirations without compromise. Enjoy a lifetime of monthly income from second year onwards.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/savings/pruwealth-income/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-income/pruwealth-income-ebrochure-eng.pdf",
+     "file": "Brochure/pruwealth-income-EN.pdf",
+     "bytes": 1319335
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-income/pruwealth-income-ebrochure-chn.pdf",
+     "file": "Brochure/pruwealth-income-CN.pdf",
+     "bytes": 1401771
+    }
+   ]
+  },
+  {
+   "id": "pruwealth-plus-sgd",
+   "name": "PRUWealth Plus (SGD)",
+   "group": "Wealth",
+   "groups": [
+    "Wealth",
+    "SRS"
+   ],
+   "categories": [
+    "Savings"
+   ],
+   "tags": [
+    "Savings",
+    "SRS"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Savings",
+     "order": [
+      2,
+      0,
+      6
+     ]
+    },
+    {
+     "group": "SRS",
+     "category": "SRS",
+     "order": [
+      4,
+      0,
+      2
+     ]
+    }
+   ],
+   "description": "Grow your savings to meet your family‘s needs with a flexible plan that protects you from uncertainties.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/savings/pruwealth-plus-sgd/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-plus-sgd/pruwealth-plus-sgd-ebrochure-eng.pdf",
+     "file": "Brochure/pruwealth-plus-sgd-EN.pdf",
+     "bytes": 1087721
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-plus-sgd/pruwealth-plus-sgd-ebrochure-chn.pdf",
+     "file": "Brochure/pruwealth-plus-sgd-CN.pdf",
+     "bytes": 1173562
+    }
+   ]
+  },
+  {
+   "id": "pruactive-saver-iii",
+   "name": "PRUActive Saver III",
+   "group": "Wealth",
+   "groups": [
+    "Wealth",
+    "SRS"
+   ],
+   "categories": [
+    "Savings"
+   ],
+   "tags": [
+    "Savings",
+    "SRS"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Savings",
+     "order": [
+      2,
+      0,
+      7
+     ]
+    },
+    {
+     "group": "SRS",
+     "category": "SRS",
+     "order": [
+      4,
+      0,
+      0
+     ]
+    }
+   ],
+   "description": "A customisable insurance savings plan that helps you save for any key milestones in life.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/savings/pruactive-saver-iii/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-saver-iii/PRUActive_20Saver_20III_20SGD_ENG.pdf",
+     "file": "Brochure/pruactive-saver-iii-EN.pdf",
+     "bytes": 561604
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-saver-iii/PRUActive_20Saver_20III_20SGD_CHN.pdf",
+     "file": "Brochure/pruactive-saver-iii-CN.pdf",
+     "bytes": 640377
+    }
+   ]
+  },
+  {
+   "id": "pruactive-cash",
+   "name": "PRUActive Cash",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Savings"
+   ],
+   "tags": [
+    "Savings"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Savings",
+     "order": [
+      2,
+      0,
+      8
+     ]
+    }
+   ],
+   "description": "Say Yes to an insurance savings plan with yearly cash benefit, that gives you the flexibility and structure to meet today’s needs, with tomorrow’s dreams in mind.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/savings/pruactive-cash/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-cash/PRUActive-Cash-Brochure_AD.pdf",
+     "file": "Brochure/pruactive-cash-EN.pdf",
+     "bytes": 940397
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-cash/PRUActive-Cash-Brochure_CN.pdf",
+     "file": "Brochure/pruactive-cash-CN.pdf",
+     "bytes": 1027194
+    }
+   ]
+  },
+  {
+   "id": "prulifetime-income-plus",
+   "name": "PRULifetime Income Plus",
+   "group": "Wealth",
+   "groups": [
+    "Wealth",
+    "Legacy Planning"
+   ],
+   "categories": [
+    "Savings"
+   ],
+   "tags": [
+    "Savings",
+    "Legacy Planning"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Savings",
+     "order": [
+      2,
+      0,
+      9
+     ]
+    },
+    {
+     "group": "Legacy Planning",
+     "category": "Legacy Planning",
+     "order": [
+      3,
+      0,
+      1
+     ]
+    }
+   ],
+   "description": "Fuel your passions with a lifetime of income",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/savings/prulifetime-income-plus/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prulifetime-income-plus/prulifetime-income-plus-english.pdf",
+     "file": "Brochure/prulifetime-income-plus-EN.pdf",
+     "bytes": 2029510
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prulifetime-income-plus/prulifetime-income-plus-chinese.pdf",
+     "file": "Brochure/prulifetime-income-plus-CN.pdf",
+     "bytes": 2109642
+    }
+   ]
+  },
+  {
+   "id": "pruwealth-usd",
+   "name": "PRUWealth (USD)",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Savings"
+   ],
+   "tags": [
+    "Savings"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Savings",
+     "order": [
+      2,
+      0,
+      10
+     ]
+    }
+   ],
+   "description": "An insurance savings plan denominated in USD that grows and diversifies your wealth.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/savings/pruwealth-usd/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-usd/pruwealth_usd_ebrochure_english.pdf",
+     "file": "Brochure/pruwealth-usd-EN.pdf",
+     "bytes": 1121386
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruwealth-usd/pruwealth_usd_ebrochure_chinese.pdf",
+     "file": "Brochure/pruwealth-usd-CN.pdf",
+     "bytes": 995586
+    }
+   ]
+  },
+  {
+   "id": "pruactive-retirement-ii",
+   "name": "PRUActive Retirement II",
+   "group": "Wealth",
+   "groups": [
+    "Wealth",
+    "SRS"
+   ],
+   "categories": [
+    "Retirement"
+   ],
+   "tags": [
+    "Retirement",
+    "SRS"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Retirement",
+     "order": [
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "group": "SRS",
+     "category": "SRS",
+     "order": [
+      4,
+      0,
+      1
+     ]
+    }
+   ],
+   "description": "A first-of-its-kind highly customisable retirement plan designed to weather market volatility, providing you with a steady cumulative retirement income.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/retirement/pruactive-retirement-ii/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-retirement-ii/PRUActive%20Retirement%20II_eBrochure_ENG_AD.pdf",
+     "file": "Brochure/pruactive-retirement-ii-EN.pdf",
+     "bytes": 704640
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruactive-retirement-ii/PRUActive-Retirement-II_eBrochure_CHI.pdf",
+     "file": "Brochure/pruactive-retirement-ii-CN.pdf",
+     "bytes": 777403
+    }
+   ]
+  },
+  {
+   "id": "pruvantage-wealth-iii",
+   "name": "PRUVantage Wealth III (SGD)",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Investments"
+   ],
+   "tags": [
+    "Investments"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Investments",
+     "order": [
+      2,
+      2,
+      0
+     ]
+    }
+   ],
+   "description": "The wealth plan that stays on course.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/investments/pruvantage-wealth-iii/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-wealth-iii/pruvantage-wealth-iii-brochure-en.pdf",
+     "file": "Brochure/pruvantage-wealth-iii-EN.pdf",
+     "bytes": 3922761
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-wealth-iii/pruvantage-wealth-iii-brochure-ch.pdf",
+     "file": "Brochure/pruvantage-wealth-iii-CN.pdf",
+     "bytes": 1663195
+    }
+   ]
+  },
+  {
+   "id": "prulink-investgrowth",
+   "name": "PRULink InvestGrowth",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Investments"
+   ],
+   "tags": [
+    "Investments"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Investments",
+     "order": [
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "description": "An investment-linked plan that provides all-round flexibility and lets you build wealth your way.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/investments/prulink-investgrowth/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prulinkinvestgrowth/PRULink-InvestGrowth_Brochure.pdf",
+     "file": "Brochure/prulink-investgrowth-EN.pdf",
+     "bytes": 934855
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/prulinkinvestgrowth/PRULink-InvestGrowth_Brochure_CH.pdf",
+     "file": "Brochure/prulink-investgrowth-CN.pdf",
+     "bytes": 1165562
+    }
+   ]
+  },
+  {
+   "id": "pruvantage-assure-series",
+   "name": "PRUVantage Assure Series",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Investments"
+   ],
+   "tags": [
+    "Investments"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Investments",
+     "order": [
+      2,
+      2,
+      3
+     ]
+    }
+   ],
+   "description": "A flexible investment-linked plan that protects and grows your wealth so that you can keep up with changing times.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/investments/pruvantage-assure-series/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-assure-series/ebrochure-en.pdf",
+     "file": "Brochure/pruvantage-assure-series-EN.pdf",
+     "bytes": 2386400
+    }
+   ]
+  },
+  {
+   "id": "pruvantage-wealth-ii",
+   "name": "PRUVantage Wealth II (USD)",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Investments"
+   ],
+   "tags": [
+    "Investments"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Investments",
+     "order": [
+      2,
+      2,
+      4
+     ]
+    }
+   ],
+   "description": "A resolute investment-linked plan made to grow, gain and give your wealth, for you and your loved ones.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/investments/pruvantage-wealth-ii/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-wealth-ii/PRUVantage-Wealth-II-Brochure-EN.pdf",
+     "file": "Brochure/pruvantage-wealth-ii-EN.pdf",
+     "bytes": 3926642
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-wealth-ii/PRUVantage-Wealth-II-Brochure-CN.pdf",
+     "file": "Brochure/pruvantage-wealth-ii-CN.pdf",
+     "bytes": 3349441
+    }
+   ]
+  },
+  {
+   "id": "pruvantage-prosper",
+   "name": "PRUVantage Prosper",
+   "group": "Wealth",
+   "groups": [
+    "Wealth"
+   ],
+   "categories": [
+    "Investments"
+   ],
+   "tags": [
+    "Investments"
+   ],
+   "placements": [
+    {
+     "group": "Wealth",
+     "category": "Investments",
+     "order": [
+      2,
+      2,
+      5
+     ]
+    }
+   ],
+   "description": "A Whole of Life Investment- Linked Plan that nurtures wealth to yield a lasting bloom.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/wealth/investments/pruvantage-prosper/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-prosper/PRUVantage_20Prosper_Brochure_EN.pdf",
+     "file": "Brochure/pruvantage-prosper-EN.pdf",
+     "bytes": 3194231
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-prosper/PRUVantage_20Prosper_Brochure_CH.pdf",
+     "file": "Brochure/pruvantage-prosper-CN.pdf",
+     "bytes": 3453040
+    }
+   ]
+  },
+  {
+   "id": "prulife-vantage-achiever-prime-series",
+   "name": "PRULife Vantage Achiever Prime Series",
+   "group": "Legacy Planning",
+   "groups": [
+    "Legacy Planning"
+   ],
+   "categories": [],
+   "tags": [
+    "Legacy Planning"
+   ],
+   "placements": [
+    {
+     "group": "Legacy Planning",
+     "category": "Legacy Planning",
+     "order": [
+      3,
+      0,
+      2
+     ]
+    }
+   ],
+   "description": "A whole life protection plan with flexible premium term feature that multiplies the sum assured up to age 85 or 100 to provide financial security throughout your lifetime.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/legacy-planning/prulife-vantage-achiever-prime-series/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-achiever-prime-series/PRULife-Vantage-Achiever-Prime-Series-Brochure-EN.pdf",
+     "file": "Brochure/prulife-vantage-achiever-prime-series-EN.pdf",
+     "bytes": 743026
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruvantage-achiever-prime-series/PRULife-Vantage-Achiever-Prime-Series-Brochure-CN.pdf",
+     "file": "Brochure/prulife-vantage-achiever-prime-series-CN.pdf",
+     "bytes": 1064828
+    }
+   ]
+  },
+  {
+   "id": "pruapex-legacy-index-ii",
+   "name": "PRUApex Legacy Index II",
+   "group": "Legacy Planning",
+   "groups": [
+    "Legacy Planning"
+   ],
+   "categories": [],
+   "tags": [
+    "Legacy Planning"
+   ],
+   "placements": [
+    {
+     "group": "Legacy Planning",
+     "category": "Legacy Planning",
+     "order": [
+      3,
+      0,
+      3
+     ]
+    }
+   ],
+   "description": "A bespoke Indexed Universal Life plan - where every detail intricately layers into a legacy that grows and endures.",
+   "pageUrl": "https://www.prudential.com.sg/en/products/legacy-planning/pruapex-legacy-index-ii/",
+   "documents": [
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "EN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruapex-legacy-index/pruapex-legacy-index-ii-brochure-en.pdf",
+     "file": "Brochure/pruapex-legacy-index-ii-EN.pdf",
+     "bytes": 2108944
+    },
+    {
+     "kind": "brochure",
+     "label": "Brochure",
+     "lang": "CN",
+     "url": "https://www.prudential.com.sg/content/dam/prudential-aem-lbu/pacs/en/project/prudential/pdf/ebrochures/pruapex-legacy-index/pruapex-legacy-index-ii-brochure-chn.pdf",
+     "file": "Brochure/pruapex-legacy-index-ii-CN.pdf",
+     "bytes": 2036097
+    }
+   ]
+  }
+ ]
+}
