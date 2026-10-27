@@ -154,6 +154,25 @@ percentage is the published weight: it is removed from the name
 and used as weightPercent / weightText.
 
 
+FAILED FUNDS
+============
+
+A fund that fails this run (Prudential metadata, holdings or BID
+history) no longer stops the build:
+
+    - successful funds are published with this run's data;
+    - a failed fund keeps its last good record from the previous
+      data/funds.json and data/bid_history.json, with
+      updateStatus.status = "stale" and the reasons;
+    - a failed fund with no earlier good data is left out;
+    - when only the holdings failed, the fund's details and prices are
+      still published, with holdings from the last good run (or none);
+    - failures are listed in the log and the GitHub Actions run
+      summary, and in funds.json summary.failedFunds.
+
+ALLOW_UNRESOLVED=1 publishes the partial records instead (old option).
+
+
 OUTPUT
 ======
 
@@ -2589,6 +2608,252 @@ def build_identity(
 # MAIN BUILD
 # =============================================================================
 
+# =============================================================================
+# FAILED FUNDS: SKIP, KEEP LAST GOOD DATA, REPORT
+# =============================================================================
+#
+# A fund that fails any part of this run (Prudential metadata, holdings or
+# BID history) does not stop the build. Instead:
+#
+#   - funds that succeeded are published with this run's data;
+#   - a failed fund keeps its record from the last successful run
+#     (data/funds.json + data/bid_history.json before this run), marked
+#     with updateStatus.status = "stale";
+#   - a failed fund that has never succeeded is left out;
+#   - when only the holdings failed, details and prices are still updated,
+#     with holdings from the last good run (or published without holdings);
+#   - every failure is listed in the log and in the GitHub Actions run
+#     summary.
+#
+# ALLOW_UNRESOLVED=1 keeps the old behaviour of publishing the partial
+# record of a failed fund instead.
+
+ROW_MESSAGE_PATTERN = re.compile(r"^Row (\d+): (.*)$")
+
+
+def friendly_utc(value: str | None) -> str:
+    """'2026-10-06T17:07:52+00:00' -> '06 Oct 2026' (or 'an earlier run')."""
+
+    try:
+        return datetime.fromisoformat(str(value)).strftime("%d %b %Y")
+    except (TypeError, ValueError):
+        return "an earlier run"
+
+
+def failures_by_row(messages: list[str]) -> dict[int, list[str]]:
+    """Group 'Row N: reason' messages by Excel row."""
+
+    grouped: dict[int, list[str]] = {}
+
+    for message in messages:
+        match = ROW_MESSAGE_PATTERN.match(message)
+
+        if match:
+            grouped.setdefault(int(match.group(1)), []).append(match.group(2))
+
+    return grouped
+
+
+def load_previous_output(path: Path) -> dict:
+    """The last published output, or an empty structure if unavailable."""
+
+    try:
+        data = load_json(path)
+    except Exception as error:
+        print(f"Previous output not available ({path.name}): {error}")
+        return {}
+
+    return data if isinstance(data, dict) else {}
+
+
+def previous_index(previous: dict) -> dict[str, dict]:
+    """Index last-run records by Prudential URL and PruAccess name."""
+
+    index: dict[str, dict] = {}
+
+    for record in previous.get("funds") or []:
+        if not isinstance(record, dict):
+            continue
+
+        for key in (
+            clean_text(record.get("prudentialUrl")),
+            "name:" + normalize_key(record.get("pruAccessName")),
+        ):
+            if key and key != "name:":
+                index.setdefault(key, record)
+
+    return index
+
+
+def find_previous(index: dict[str, dict], excel: dict) -> dict | None:
+    return (
+        index.get(clean_text(excel.get("prudentialUrl")))
+        or index.get("name:" + normalize_key(excel.get("pruAccessName")))
+    )
+
+
+def apply_failure_policy(
+    excel_funds: dict[int, dict],
+    fund_records: list[dict],
+    bid_records: list[dict],
+    unresolved_messages: list[str],
+    generated_at: str,
+) -> tuple[list[dict], list[dict], list[dict]]:
+    """
+    Keep successful funds, replace failed funds with their last good
+    record (or leave them out), and return the failure report rows.
+    """
+
+    failed = failures_by_row(unresolved_messages)
+
+    previous_funds = load_previous_output(FUNDS_OUT)
+    previous_bids = load_previous_output(BID_OUT)
+    previous_fund_index = previous_index(previous_funds)
+    previous_bid_index = previous_index(previous_bids)
+    previous_generated = clean_text(previous_funds.get("generatedAtUtc")) or None
+
+    kept_funds: list[dict] = []
+    kept_bids: list[dict] = []
+    report: list[dict] = []
+
+    bids_by_row = {record.get("excelRow"): record for record in bid_records}
+
+    for record in fund_records:
+        row = record.get("excelRow")
+        bid_record = bids_by_row.get(row)
+        reasons = failed.get(row)
+
+        if not reasons:
+            status = {"status": "updated", "lastSuccessfulUpdateUtc": generated_at}
+
+            kept_funds.append({**record, "updateStatus": status})
+
+            if bid_record is not None:
+                kept_bids.append({**bid_record, "updateStatus": status})
+
+            continue
+
+        excel = excel_funds.get(row, {})
+        name = record.get("fundName") or excel.get("pruAccessName") or excel.get("prudentialUrl")
+        old_fund = find_previous(previous_fund_index, excel)
+        old_bid = find_previous(previous_bid_index, excel)
+
+        holdings_only = all(reason.startswith("holdings unresolved") for reason in reasons)
+
+        if holdings_only and bid_record is not None:
+            # Only the holdings failed: details and prices are fresh, so
+            # publish them. Holdings come from the last good run when there
+            # is one; otherwise the fund is published without holdings
+            # (shown as "not available" on the site) and tried again next run.
+            old_holdings = (old_fund or {}).get("topHoldings") or {}
+            reuse = old_holdings.get("status") in ("published", "no_holdings_section")
+            status = {
+                "status": "updated",
+                "lastSuccessfulUpdateUtc": generated_at,
+                "reasons": reasons,
+            }
+
+            if reuse:
+                new_record = {**record, "topHoldings": old_holdings}
+                status["holdingsFromEarlierRun"] = True
+                action = "Updated; holdings kept from the last good run"
+                outcome = "updated_holdings_kept"
+            else:
+                new_record = record
+                status["holdingsMissing"] = True
+                action = "Published without holdings (tried again next run)"
+                outcome = "updated_no_holdings"
+
+            kept_funds.append({**new_record, "updateStatus": status})
+            kept_bids.append({**bid_record, "updateStatus": status})
+
+        elif old_fund is not None and old_bid is not None:
+            old_status = old_fund.get("updateStatus") or {}
+            last_good = old_status.get("lastSuccessfulUpdateUtc") or previous_generated
+            status = {
+                "status": "stale",
+                "lastSuccessfulUpdateUtc": last_good,
+                "failedUpdateUtc": generated_at,
+                "reasons": reasons,
+            }
+
+            kept_funds.append({**old_fund, "excelRow": row, "updateStatus": status})
+            kept_bids.append({**old_bid, "excelRow": row, "updateStatus": status})
+
+            action = f"Kept last good data from {friendly_utc(last_good)}"
+            outcome = "kept_last_good"
+        else:
+            action = "Left out (no earlier successful data)"
+            outcome = "left_out"
+
+        report.append({
+            "excelRow": row,
+            "fund": name,
+            "reasons": reasons,
+            "action": action,
+            "outcome": outcome,
+        })
+
+    return kept_funds, kept_bids, report
+
+
+def write_failure_report(
+    report: list[dict],
+    published: int,
+    total: int,
+) -> None:
+    """Print the failure report and add it to the GitHub run summary."""
+
+    updated = published - sum(1 for item in report if item["outcome"] == "kept_last_good")
+
+    print()
+    print("=" * 72)
+    print("FAILED FUNDS (skipped, build continues)")
+    print("=" * 72)
+
+    for item in report:
+        print(f" - Row {item['excelRow']}: {item['fund']}")
+
+        for reason in item["reasons"]:
+            print(f"     reason: {reason}")
+
+        print(f"     action: {item['action']}")
+
+    lines = [
+        "## Funds data build",
+        "",
+        f"- Funds in Funds Links.xlsm: **{total}**",
+        f"- Updated this run: **{updated}**",
+        f"- With a failure: **{len(report)}**",
+        f"- Published in total: **{published}**",
+        "",
+    ]
+
+    if report:
+        lines += [
+            "### Failed funds",
+            "",
+            "| Row | Fund | Reason | What happened |",
+            "| --- | --- | --- | --- |",
+        ]
+
+        for item in report:
+            reason = "<br>".join(r.replace("|", "\\|") for r in item["reasons"])
+            fund = str(item["fund"]).replace("|", "\\|")
+            lines.append(f"| {item['excelRow']} | {fund} | {reason} | {item['action']} |")
+    else:
+        lines.append("All funds updated successfully.")
+
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+
+    if summary_path:
+        try:
+            with open(summary_path, "a", encoding="utf-8") as handle:
+                handle.write("\n".join(lines) + "\n")
+        except OSError as error:
+            print(f"Could not write the GitHub run summary: {error}")
+
+
 def main() -> int:
 
     print(
@@ -3043,8 +3308,10 @@ def main() -> int:
     )
 
     # -----------------------------------------------------------------------
-    # UNRESOLVED GATE
+    # FAILED FUNDS
     # -----------------------------------------------------------------------
+
+    failure_report: list[dict] = []
 
     if unresolved_messages:
 
@@ -3066,26 +3333,38 @@ def main() -> int:
                 f" - {message}"
             )
 
-        if not ALLOW_UNRESOLVED:
+    if ALLOW_UNRESOLVED:
 
+        # Old behaviour: publish failed funds with their partial data.
+        if unresolved_messages:
             print()
-            print(
-                "BUILD FAILED."
-            )
+            print("ALLOW_UNRESOLVED is set: publishing partial records.")
 
-            print(
-                "Unresolved fund data exists."
-            )
+    else:
 
-            print(
-                "Set ALLOW_UNRESOLVED=1 "
-                "to publish unresolved records."
-            )
+        # Successful funds are saved; failed funds keep their last good
+        # data (or are left out) and are reported.
+        fund_records, bid_records, failure_report = apply_failure_policy(
+            excel_funds,
+            fund_records,
+            bid_records,
+            unresolved_messages,
+            generated_at,
+        )
 
-            # IMPORTANT:
-            # Do not overwrite the existing published JSON when the
-            # build fails.
-            return 1
+    write_failure_report(
+        failure_report,
+        len(fund_records),
+        len(excel_funds),
+    )
+
+    if not fund_records:
+
+        print()
+        print("BUILD FAILED: no fund could be published.")
+        print("The existing published JSON is left unchanged.")
+
+        return 1
 
     # -----------------------------------------------------------------------
     # OUTPUT ENVELOPES
@@ -3177,6 +3456,23 @@ def main() -> int:
                     unresolved_messages
                 )
             ),
+            "failedFundCount": len(failure_report),
+            "staleFunds": [
+                item["fund"]
+                for item in failure_report
+                if item["outcome"] == "kept_last_good"
+            ],
+            "skippedFunds": [
+                item["fund"]
+                for item in failure_report
+                if item["outcome"] == "left_out"
+            ],
+            "fundsWithoutHoldings": [
+                item["fund"]
+                for item in failure_report
+                if item["outcome"] == "updated_no_holdings"
+            ],
+            "failedFunds": failure_report,
         },
         "funds": fund_records,
     }
