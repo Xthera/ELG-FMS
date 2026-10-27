@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-27T17:51:10+08:00",
+  "generatedAtSgt": "2026-10-27T23:54:39+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,168 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "f785087f2206f4bf6930a9cd84a2a26f13297e9f947807ffbd47bea73458229d",
+      "source": "CNBC",
+      "title": "Anthropic's IPO is risky business",
+      "publishedAtSgt": "2026-10-27T23:51:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic's much-anticipated initial public offering is giving potential investors some perspective on the risky business of artificial intelligence. More than 90 pages of Anthropic's IPO prospectus, revealed Monday, center on the AI lab's multitude of corporate risk factors, many of which go beyond the kinds of boilerplate scenarios typically found in corporate filings. WATCH: Anthropic IPO filing shows what's happening on demand side of AI trade.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:38+08:00"
+    },
+    {
+      "id": "e97769a1a57aff3da3378c5c0d17b8fb1e5540e3de6688f24b101619ac1d4113",
+      "source": "CNBC",
+      "title": "Fed rate hikes are coming, but not this week: CNBC survey",
+      "publishedAtSgt": "2026-10-27T23:51:00+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Their hesitancy to raise rates is unfathomable after an extended period of monetary and fiscal generosity, with nominal GDP running 6-8%, and when the leading indicators of inflation are uniformly warm to hot,'' said Richard Bernstein, global head of macro investing at Janus Henderson Investors.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "b47cf425c1d531d36a03293170672d480d4900f351d8c2afa68d04b09ba0bc79",
+      "source": "CNBC",
+      "title": "Honda warns 50% Canada auto tariffs would be catastrophic for auto industry",
+      "publishedAtSgt": "2026-10-27T23:48:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "and Canada cannot reach a new trade deal by the end of this year, an executive with Honda Motor warned Tuesday. Trade associations representing Honda, as well as every major player in the U.S. \"It's integral to our success.\" Honda is the second largest producer of vehicles in Canada behind Toyota Motor, but many automotive officials have voiced concerns about the lack of a North American trade deal and tariff uncertainty due to the number of parts that regularly cross the borders for vehicle...",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:38+08:00"
+    },
+    {
+      "id": "5ad28f472a5a0a5112c8805fa247cb04e1be12d16f16869283dbdfbc193f4375",
+      "source": "CNBC",
+      "title": "World Bank's Banga: Availability of capital 'not really an issue' as AI demand drives up borrowing costs",
+      "publishedAtSgt": "2026-10-27T23:48:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/world-bank-president-ajay-banga.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "World Bank President Ajay Banga said on Tuesday that capital remained available despite concerns of artificial intelligence sending interest rates higher. He said investors may be concerned about circular financing and the business model tied to AI. The financial institution, which was founded in 1944, aims to end poverty and support economic prosperity through global partnerships and funding.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "4c1f59e8056bd637f16167e797c32e26fed75e84bcf7cec46fa47a88ccbdca1d",
+      "source": "CNBC",
+      "title": "JetBlue stock surges 20% as company outlook calms investors",
+      "publishedAtSgt": "2026-10-27T23:46:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "JetBlue Airways reported a bigger loss in the third quarter compared with last year, but shares surged as the carrier's upbeat forecast that it will return to profitability appeared to calm investors after a Monday rout. JetBlue stock was up nearly 19% in early trading Tuesday after hitting a new low a day earlier as investors fretted about the company's financial future.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "24f8687b29abfcad67f2ecc81fa31d3e8848fab2225143c7c6635a7623ae5f27",
+      "source": "CNBC",
+      "title": "UPS beats quarterly expectations, raises full-year guidance again",
+      "publishedAtSgt": "2026-10-27T23:29:49+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/ups-ups-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of UPS rose slightly in morning trading. Its supply chain solutions business saw an 18.2% revenue increase, which UPS said was primarily driven to growth in forwarding and logistics, including healthcare. \"We're driving more premium growth, improving revenue quality and mix, and creating greater operating leverage through a more efficient network,\" Tomé said on the call.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "a9d3be836b0ed14ccf6b5ce03c31872a77b448940a91300b84c7f330abe898aa",
+      "source": "CNBC",
+      "title": "Coca-Cola hikes earnings outlook, even as it sees lackluster demand in North America",
+      "publishedAtSgt": "2026-10-27T23:04:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The beverage giant also anticipates that its organic revenue will climb at least 5%, a slight increase from its previous outlook of approximately 5% growth. In recent quarters, Braun and other executives have said North American shoppers are under pressure, stretched thin by inflation and economic uncertainty, and looking for value. Shares of the company fell less than 1% in morning trading on its gloomy forecast for the consumer environment.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:38+08:00"
+    },
+    {
+      "id": "5069345e7c5b793808ce164725c26cd47780d683082110aa4ce1c14779e961ca",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "publishedAtSgt": "2026-10-27T20:51:16+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/27/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Looking to build off yesterday's strong day as the artificial intelligence trade got some of its mojo back. Oil prices and the 10-year Treasury yield are slightly lower this morning, which helps. Bullish as I am long-term on AI, a flood of new stock supply remains a risk for the market.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "762bdacfb39a75dc468f78cde06c1f2da48e7afabda5ba28642d28eb12358917",
+      "source": "CNBC",
+      "title": "Santoli: We are nearing a now-or-never moment for the AI trade to rebound",
+      "publishedAtSgt": "2026-10-27T20:33:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/santoli-now-or-never-for-ai-trade.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Meantime, the cyclical pockets of the market – from consumer discretionary to industrials to banks - have undergone double-digit setbacks as higher bond yields and elevated oil prices restrain growth expectations. Equity investors have shown a clear preference for quality and defense, as the debt markets have begun rationing growth capital more stringently, raising hurdle rates for the more marginal AI-data-center borrowers.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "2ea69f6d682fbd7b15206c686bfa31e4c55c7f6da248cb1e83e19b75ab120db3",
+      "source": "CNBC",
+      "title": "Porsche profit rebounds as luxury carmaker reduces exposure to China",
+      "publishedAtSgt": "2026-10-27T18:08:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/porsche-china-profit-recovery.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "German sports carmaker Porsche said it has significantly reduced its exposure to China as operating profit rebounded in the first nine months of the year despite falling revenue and vehicle deliveries. This makes our overall business less dependent on developments from this challenging market environment.\" Porsche shares were last seen trading 2.3% higher.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
     {
       "id": "446b40c33563fe9040f845841f1aeca47e7e29207e67932f48d60f83b2934515",
       "source": "CNBC",
@@ -1426,168 +1588,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-21T20:58:37+08:00"
-    },
-    {
-      "id": "16c4cdee7561a925299837e1d145ea2c3cad0c8c5c893b6ab3452ff6a11cfccd",
-      "source": "CNBC",
-      "title": "French 10-year bond yield hits 5% for first time since 2002 amid unrest",
-      "publishedAtSgt": "2026-10-21T18:40:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The yield on France's benchmark 10-year government bond briefly crossed the 5% threshold for the first time since 2002 on Wednesday, as the country grapples with multiple crises. The yield on the 10-year OAT was last seen around 6 basis points higher at 4.9794%, after rising above 5% shortly before 11:30 a.m.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T20:58:36+08:00"
-    },
-    {
-      "id": "31661e11c9fe2a781bbbe345fbe37535e380b3ce54af205ba3f8f2a4c34f657f",
-      "source": "CNBC",
-      "title": "'MAKE DEALS': Trump says data centers should pay communities a 'dividend' to win support",
-      "publishedAtSgt": "2026-10-21T18:34:20+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/trump-data-centers-community-dividend.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "AI infrastructure company Nebius is \"100% in principle\" having discussions about investing in communities, the company's Chief Revenue Officer Marc Boroditsky told CNBC when asked about Trump's suggestion of a dividend. I could see something like a benefit of some sort that's more direct economic opportunity for the community as well,\" he said.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T20:58:37+08:00"
-    },
-    {
-      "id": "4cf3a622c7d9b02d6aa5345ef3a0b4a87391a7efeaf69d72770ae5819cf7909d",
-      "source": "CNBC",
-      "title": "French supermarket giant's shares plunge 14% after warning ‘unprecedented’ unrest will hit business",
-      "publishedAtSgt": "2026-10-21T16:12:51+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/carrefour-french-protests-guidance-cut.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of French supermarket giant Carrefour plunged 14% on Wednesday after the company cut its full-year profit forecast, citing \"an unprecedented situation in France.\" \"In light of the worsening social and security situation, the Group considers that consumption trends and operating conditions in France are facing a deterioration,\" the company said in its third-quarter earnings report published late Tuesday.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-21T20:58:37+08:00"
-    },
-    {
-      "id": "299c131c0e4e78b5648601e354807d2c42ce0d898cd82c7112c0ff335aceb79d",
-      "source": "CNBC",
-      "title": "UK inflation jumps to 3.5% — cementing rate hike expectations",
-      "publishedAtSgt": "2026-10-21T15:50:10+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Britain is a net energy importer, making it vulnerable to external energy shocks, such as the U.S.-Iran war and the subsequent struggle to move oil through the Strait of Hormuz. Morgan Personal Investing, said in a note Wednesday morning that recent growth in headline inflation had \"undone the progress we saw in the spring.\" \"Bank of England policymakers will be looking beyond the headline figure,\" he said.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T20:58:37+08:00"
-    },
-    {
-      "id": "b6afa562f172718d58ebf4e27fe9ad9977e82d7923d280115f97f85488f5557f",
-      "source": "CNBC",
-      "title": "OpenAI's most powerful AI models disabled their own safety monitoring — and one lied about it",
-      "publishedAtSgt": "2026-10-21T15:49:48+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/openai-ai-models-safety-monitoring.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "OpenAI has revealed that agents operated by two of its most powerful models disabled their own safety monitoring when carrying out routine tasks, with one subsequently denying it had done so. An agent powered by GPT Sol 6.1 disabled automatic alerts to OpenAI's security team, the company said in a blog post late on Tuesday.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T20:58:36+08:00"
-    },
-    {
-      "id": "5f0c6c27d993a5bea5b48b9fae6dea524f8a1069476a6f8c12c630b1a6dc52ae",
-      "source": "CNBC",
-      "title": "Oil prices climb as traders assess Middle East developments",
-      "publishedAtSgt": "2026-10-21T13:27:19+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oil prices climbed Wednesday as worries over Middle East supply disruptions keep the market on edge, with attacks on tankers near the Strait of Hormuz and Saudi energy facilities denting sentiment. The escalating tensions have also sent global oil shipping costs soaring, adding another layer of pressure to energy markets.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T14:05:18+08:00"
-    },
-    {
-      "id": "9bc8a978d2df6002fda3e057ab311dc29080948579ac56ee8d8c3150464bc41b",
-      "source": "CNBC",
-      "title": "Australian data center operator NextDC's shares plunge 40% after it slashes earnings forecast",
-      "publishedAtSgt": "2026-10-21T10:55:38+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/australia-data-center-operator-nexdc-datacenter.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of Australia's NextDC plunged 39.5% on Wednesday after the data center operator slashed its annual earnings forecast, citing power supply delays at its Melbourne facility amid local community and stakeholder opposition. As Australia grapples with growing concerns over the impact of data center developments on local communities, Treasurer Jim Chalmers said the government was working to establish national standards for investment.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T14:05:18+08:00"
-    },
-    {
-      "id": "9eed713baa35b7861d9ead3b35b8d4390cb9f6e15ae7042d587a853e557a8c30",
-      "source": "CNBC",
-      "title": "Elice's huge stock swings show AI's spending boom is getting more investor scrutiny",
-      "publishedAtSgt": "2026-10-21T09:02:36+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/ai-boom-spending-profit.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "A bruising stock market debut by South Korean AI infrastructure provider Elice has become the latest warning sign that investors may be more closely scrutinizing ambitious expansion plans and paths to profitability. The shift is particularly significant for Asia, where technology markets are heavily exposed to the semiconductor and memory-chip industries that have powered the global AI investment frenzy.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T14:05:19+08:00"
-    },
-    {
-      "id": "2f1cd1b2cdacce1280bd1e7f9f481971231e5898f976645af579f4caa8f5e745",
-      "source": "CNBC",
-      "title": "This Janus Henderson fund manager owns CoreWeave debt — here's why he's sticking with it",
-      "publishedAtSgt": "2026-10-21T08:12:44+08:00",
-      "url": "https://www.cnbc.com/2026/10/20/coreweave-debt-janus-henderson-lloyd.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The yield to maturity on the debt is now 15.97%, a more than 70% jump since its issuance in April. Bond prices and yields move in opposite directions. \"Bond prices are lower, spreads are wider, yields are wider, and I don't see a huge fundamental change in the ecosystem right now that would warrant that, other than their higher cost of financing, which I think they can get creative with,\" Lloyd added.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-21T20:58:37+08:00"
-    },
-    {
-      "id": "682ac9b8bb351c3a277defcc9be8e748dd68709f4e09b270dbf7e26da8c878b9",
-      "source": "CNBC",
-      "title": "Japan exports post huge miss in September as growth slows to 16.7%",
-      "publishedAtSgt": "2026-10-21T08:12:17+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/japan-trade-exports-semiconductor-yen.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Reuters-polled analysts had pegged exports growth at 20.1%. Growth was supported by continued strong semiconductor exports, with shipments rising 49.4% year on year by value. Exports have been the main driver of Japan's growth for the first two quarters of 2026, helping the world's fourth largest economy beat expectations in the first quarter, and supporting growth in the second.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T08:41:47+08:00"
     }
   ]
 }

@@ -5,6 +5,168 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "f785087f2206f4bf6930a9cd84a2a26f13297e9f947807ffbd47bea73458229d",
+      "source": "CNBC",
+      "title": "Anthropic's IPO is risky business",
+      "publishedAtSgt": "2026-10-27T23:51:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic's much-anticipated initial public offering is giving potential investors some perspective on the risky business of artificial intelligence. More than 90 pages of Anthropic's IPO prospectus, revealed Monday, center on the AI lab's multitude of corporate risk factors, many of which go beyond the kinds of boilerplate scenarios typically found in corporate filings. WATCH: Anthropic IPO filing shows what's happening on demand side of AI trade.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:38+08:00"
+    },
+    {
+      "id": "e97769a1a57aff3da3378c5c0d17b8fb1e5540e3de6688f24b101619ac1d4113",
+      "source": "CNBC",
+      "title": "Fed rate hikes are coming, but not this week: CNBC survey",
+      "publishedAtSgt": "2026-10-27T23:51:00+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Their hesitancy to raise rates is unfathomable after an extended period of monetary and fiscal generosity, with nominal GDP running 6-8%, and when the leading indicators of inflation are uniformly warm to hot,'' said Richard Bernstein, global head of macro investing at Janus Henderson Investors.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "b47cf425c1d531d36a03293170672d480d4900f351d8c2afa68d04b09ba0bc79",
+      "source": "CNBC",
+      "title": "Honda warns 50% Canada auto tariffs would be catastrophic for auto industry",
+      "publishedAtSgt": "2026-10-27T23:48:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "and Canada cannot reach a new trade deal by the end of this year, an executive with Honda Motor warned Tuesday. Trade associations representing Honda, as well as every major player in the U.S. \"It's integral to our success.\" Honda is the second largest producer of vehicles in Canada behind Toyota Motor, but many automotive officials have voiced concerns about the lack of a North American trade deal and tariff uncertainty due to the number of parts that regularly cross the borders for vehicle...",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:38+08:00"
+    },
+    {
+      "id": "5ad28f472a5a0a5112c8805fa247cb04e1be12d16f16869283dbdfbc193f4375",
+      "source": "CNBC",
+      "title": "World Bank's Banga: Availability of capital 'not really an issue' as AI demand drives up borrowing costs",
+      "publishedAtSgt": "2026-10-27T23:48:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/world-bank-president-ajay-banga.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "World Bank President Ajay Banga said on Tuesday that capital remained available despite concerns of artificial intelligence sending interest rates higher. He said investors may be concerned about circular financing and the business model tied to AI. The financial institution, which was founded in 1944, aims to end poverty and support economic prosperity through global partnerships and funding.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "4c1f59e8056bd637f16167e797c32e26fed75e84bcf7cec46fa47a88ccbdca1d",
+      "source": "CNBC",
+      "title": "JetBlue stock surges 20% as company outlook calms investors",
+      "publishedAtSgt": "2026-10-27T23:46:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "JetBlue Airways reported a bigger loss in the third quarter compared with last year, but shares surged as the carrier's upbeat forecast that it will return to profitability appeared to calm investors after a Monday rout. JetBlue stock was up nearly 19% in early trading Tuesday after hitting a new low a day earlier as investors fretted about the company's financial future.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "24f8687b29abfcad67f2ecc81fa31d3e8848fab2225143c7c6635a7623ae5f27",
+      "source": "CNBC",
+      "title": "UPS beats quarterly expectations, raises full-year guidance again",
+      "publishedAtSgt": "2026-10-27T23:29:49+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/ups-ups-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of UPS rose slightly in morning trading. Its supply chain solutions business saw an 18.2% revenue increase, which UPS said was primarily driven to growth in forwarding and logistics, including healthcare. \"We're driving more premium growth, improving revenue quality and mix, and creating greater operating leverage through a more efficient network,\" Tomé said on the call.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "a9d3be836b0ed14ccf6b5ce03c31872a77b448940a91300b84c7f330abe898aa",
+      "source": "CNBC",
+      "title": "Coca-Cola hikes earnings outlook, even as it sees lackluster demand in North America",
+      "publishedAtSgt": "2026-10-27T23:04:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The beverage giant also anticipates that its organic revenue will climb at least 5%, a slight increase from its previous outlook of approximately 5% growth. In recent quarters, Braun and other executives have said North American shoppers are under pressure, stretched thin by inflation and economic uncertainty, and looking for value. Shares of the company fell less than 1% in morning trading on its gloomy forecast for the consumer environment.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:38+08:00"
+    },
+    {
+      "id": "5069345e7c5b793808ce164725c26cd47780d683082110aa4ce1c14779e961ca",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "publishedAtSgt": "2026-10-27T20:51:16+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/27/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Looking to build off yesterday's strong day as the artificial intelligence trade got some of its mojo back. Oil prices and the 10-year Treasury yield are slightly lower this morning, which helps. Bullish as I am long-term on AI, a flood of new stock supply remains a risk for the market.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "762bdacfb39a75dc468f78cde06c1f2da48e7afabda5ba28642d28eb12358917",
+      "source": "CNBC",
+      "title": "Santoli: We are nearing a now-or-never moment for the AI trade to rebound",
+      "publishedAtSgt": "2026-10-27T20:33:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/santoli-now-or-never-for-ai-trade.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Meantime, the cyclical pockets of the market – from consumer discretionary to industrials to banks - have undergone double-digit setbacks as higher bond yields and elevated oil prices restrain growth expectations. Equity investors have shown a clear preference for quality and defense, as the debt markets have begun rationing growth capital more stringently, raising hurdle rates for the more marginal AI-data-center borrowers.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "id": "2ea69f6d682fbd7b15206c686bfa31e4c55c7f6da248cb1e83e19b75ab120db3",
+      "source": "CNBC",
+      "title": "Porsche profit rebounds as luxury carmaker reduces exposure to China",
+      "publishedAtSgt": "2026-10-27T18:08:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/porsche-china-profit-recovery.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "German sports carmaker Porsche said it has significantly reduced its exposure to China as operating profit rebounded in the first nine months of the year despite falling revenue and vehicle deliveries. This makes our overall business less dependent on developments from this challenging market environment.\" Porsche shares were last seen trading 2.3% higher.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
       "id": "446b40c33563fe9040f845841f1aeca47e7e29207e67932f48d60f83b2934515",
       "source": "CNBC",
       "title": "Oil prices seesaw amid renewed diplomatic efforts to end Mideast conflict",
@@ -226,6 +388,6 @@
       "collectedAtSgt": "2026-10-27T05:02:52+08:00"
     }
   ],
-  "articleCount": 14,
-  "updatedAtSgt": "2026-10-27T17:51:10+08:00"
+  "articleCount": 24,
+  "updatedAtSgt": "2026-10-27T23:54:39+08:00"
 }
