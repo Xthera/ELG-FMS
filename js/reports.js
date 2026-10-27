@@ -44,6 +44,8 @@ const report = {
     booster: null,         // investment booster: null | "no" | "yes"
     dividendMode: "cash",  // dividends: "cash" (paid out) | "reinvest"
     boosters: [],          // [{ date, amount, selected: [{ id, weight }] }]
+    switching: null,       // fund switching: null | "no" | "yes"
+    switches: [],          // [{ date, fromId, portion, selected: [{ id, weight }] }]
     charts: [],
     lastResult: null
 };
@@ -445,30 +447,96 @@ function calculate(input) {
         return holdings.get(id);
     };
 
+    // Fund switches, in date order (several on one day: as entered)
+    const switches = (input.switches ?? [])
+        .map((item, order) => ({ ...item, order }))
+        .sort((a, b) => a.date.localeCompare(b.date) || a.order - b.order);
+
+    const purchaseBids = new Map();
+
     for (const item of report.selected) {
         const entry = holding(item.id);
 
         entry.weight = item.weight;
         entry.boosterOnly = false;
 
-        const weight = item.weight / 100;
+        // BID prices entered by the user (optional):
+        //  end BID      -> the fund is valued at this price on the end date
+        //  purchase BID -> the first (lump-sum) purchase is bought at it
+        const endBid = Number(item.endBid);
+        const purchaseBid = Number(item.purchaseBid);
 
-        investDates.forEach((date, index) => {
-            const amount = (index === 0 ? lumpSum + topUp : topUp) * weight;
+        if (endBid > 0) {
+            entry.obs = [
+                ...entry.obs.filter(observation => observation.date < end),
+                { date: end, bidPrice: endBid, manual: true }
+            ];
+            entry.endBidManual = true;
+        }
 
-            if (amount <= 0) return;
+        if (purchaseBid > 0) purchaseBids.set(item.id, purchaseBid);
+    }
+
+    // Allocation of each premium / top-up. A switch of 100% of a fund
+    // also redirects that fund's share of later top-ups to the funds
+    // switched into (same split).
+    const baseAllocation = new Map(report.selected.map(item => [item.id, item.weight / 100]));
+
+    const allocationOn = date => {
+        const allocation = new Map(baseAllocation);
+
+        for (const item of switches) {
+            if (item.date > date) break;
+            if (Number(item.portion) < 100) continue;
+
+            const share = allocation.get(item.fromId) ?? 0;
+
+            if (!(share > 0)) continue;
+
+            allocation.set(item.fromId, 0);
+
+            for (const target of item.selected) {
+                allocation.set(target.id, (allocation.get(target.id) ?? 0) + share * (Number(target.weight) / 100));
+            }
+        }
+
+        return allocation;
+    };
+
+    investDates.forEach((date, index) => {
+        const total = index === 0 ? lumpSum + topUp : topUp;
+
+        if (!(total > 0)) return;
+
+        for (const [id, share] of allocationOn(date)) {
+            const amount = total * share;
+
+            if (!(amount > 0)) continue;
+
+            const entry = holding(id);
+
+            if (entry.boosterOnly) entry.switchedIn = true;
 
             const price = priceOnOrAfter(entry.obs, date);
+
+            if (index === 0 && purchaseBids.has(id)) {
+                const bid = purchaseBids.get(id);
+                const buyDate = price && price.date <= end ? price.date : date;
+
+                entry.purchases.push({ date: buyDate, amount, units: amount / bid, bid, manual: true });
+                entry.purchaseBidManual = true;
+                continue;
+            }
 
             if (!price || price.date > end) {
                 // No BID price yet for this date (after the latest price)
                 skipped.push({ date, amount });
-                return;
+                continue;
             }
 
             entry.purchases.push({ date: price.date, amount, units: amount / price.bidPrice, bid: price.bidPrice });
-        });
-    }
+        }
+    });
 
     // Investment boosters: one-off amounts on their own date and split
     for (const booster of input.boosters ?? []) {
@@ -489,13 +557,117 @@ function calculate(input) {
         }
     }
 
+    // Switch targets need a holding too
+    for (const item of switches) {
+        for (const target of item.selected) {
+            const entry = holding(target.id);
+
+            if (entry.boosterOnly) entry.switchedIn = true;
+        }
+    }
+
     const funds = [...holdings.values()].map(entry => ({
         ...entry,
         purchases: entry.purchases.sort((x, y) => x.date.localeCompare(y.date))
     }));
 
+    const dividendMode = input.dividendMode === "reinvest" ? "reinvest" : "cash";
+
+    /*
+     * Fund switches, one by one in date order: units are sold at the
+     * BID on (or after) the switch date and the proceeds buy the new
+     * funds at their BID on that day. Units held include dividends
+     * reinvested up to then. The cost moves with the units, so the
+     * total invested doesn't change.
+     */
+    const switchLog = [];
+    const fundOf = id => funds.find(entry => entry.id === id);
+
+    for (const item of switches) {
+        const from = fundOf(item.fromId);
+        const portion = Math.min(100, Math.max(0, Number(item.portion) || 0)) / 100;
+        const log = { ...item, executed: false };
+
+        switchLog.push(log);
+
+        if (!from || !(portion > 0)) continue;
+
+        // BID entered for the switch (optional), else the published one
+        const published = priceOnOrAfter(from.obs, item.date);
+        const sell = item.sellBid > 0
+            ? { date: published && published.date <= end ? published.date : item.date, bidPrice: item.sellBid, manual: true }
+            : published;
+
+        if (!sell || sell.date > end) {
+            log.reason = "no price yet";
+            continue;
+        }
+
+        // Units held on the switch day, with dividends reinvested so far
+        const trial = funds.map(entry => ({ ...entry, purchases: entry.purchases.map(p => ({ ...p })) }));
+
+        applyDividends(trial, dividendMode, sell.date);
+
+        const held = trial.find(entry => entry.id === from.id).purchases
+            .filter(p => p.date <= sell.date)
+            .reduce((sum, p) => sum + p.units, 0);
+
+        if (!(held > 1e-9)) {
+            log.reason = "no units held";
+            continue;
+        }
+
+        const units = held * portion;
+        const value = units * sell.bidPrice;
+        const cost = from.purchases
+            .filter(p => p.date <= sell.date)
+            .reduce((sum, p) => sum + p.amount, 0) * portion;
+
+        const buys = [];
+
+        for (const target of item.selected) {
+            const to = fundOf(target.id);
+            const share = Number(target.weight) / 100;
+            const buy = !to ? null
+                : target.buyBid > 0
+                    ? { date: sell.date, bidPrice: target.buyBid, manual: true }
+                    : priceOnOrAfter(to.obs, sell.date);
+
+            if (!to || !(share > 0) || !buy || buy.date > end) continue;
+
+            buys.push({ to, share, buy });
+        }
+
+        const shares = buys.reduce((sum, b) => sum + b.share, 0);
+
+        if (!buys.length || !(shares > 0)) {
+            log.reason = "no price for the new fund";
+            continue;
+        }
+
+        from.purchases.push({ date: sell.date, amount: -cost, units: -units, bid: sell.bidPrice, switchOut: true, flowValue: value });
+
+        log.executed = true;
+        log.sellDate = sell.date;
+        log.sellBid = sell.bidPrice;
+        log.sellManual = !!sell.manual;
+        log.units = units;
+        log.value = value;
+        log.into = [];
+
+        for (const { to, share, buy } of buys) {
+            const part = share / shares;
+            const boughtUnits = (value * part) / buy.bidPrice;
+
+            to.purchases.push({ date: buy.date, amount: cost * part, units: boughtUnits, bid: buy.bidPrice, switchIn: true, flowValue: value * part, manual: !!buy.manual });
+            log.into.push({ id: to.id, value: value * part, units: boughtUnits, bid: buy.bidPrice, date: buy.date, manual: !!buy.manual });
+        }
+
+        for (const entry of funds) entry.purchases.sort((x, y) => x.date.localeCompare(y.date));
+    }
+
     // Dividends: paid out as cash, or reinvested into more units
-    applyDividends(funds, input.dividendMode === "reinvest" ? "reinvest" : "cash", end);
+    applyDividends(funds, dividendMode, end);
 
     // All price dates in the period, across the chosen funds
     const dateSet = new Set();
@@ -547,6 +719,8 @@ function calculate(input) {
         const dividendCash = paid.filter(d => !d.reinvested).reduce((sum, d) => sum + d.cash, 0);
         const dividendTotal = paid.reduce((sum, d) => sum + d.cash, 0);
         const reinvestedUnits = fund.purchases.filter(p => p.reinvest).reduce((sum, p) => sum + p.units, 0);
+        const switchedOut = fund.purchases.filter(p => p.switchOut);
+        const switchedIn = fund.purchases.filter(p => p.switchIn);
         const gain = value + dividendCash - invested;
 
         return {
@@ -556,20 +730,27 @@ function calculate(input) {
             boosterInvested,
             startBid: fund.purchases[0]?.bid ?? null,
             startDate: fund.purchases[0]?.date ?? null,
+            startBidManual: !!fund.purchases[0]?.manual,
             endBid: endPrice?.bidPrice ?? null,
             endDate: endPrice?.date ?? null,
-            averageCost: units - reinvestedUnits > 0 ? invested / (units - reinvestedUnits) : null,
+            endBidManual: !!endPrice?.manual,
+            averageCost: units - reinvestedUnits > 1e-9 && invested > 0 ? invested / (units - reinvestedUnits) : null,
+            switchedOutValue: switchedOut.reduce((sum, p) => sum + p.flowValue, 0),
+            switchedInValue: switchedIn.reduce((sum, p) => sum + p.flowValue, 0),
+            fullySwitchedOut: switchedOut.length > 0 && units <= 1e-9,
             value,
             dividendCash,
             dividendTotal,
             dividendPayouts: paid,
             reinvestedUnits,
-            buys: fund.purchases.filter(p => !p.reinvest).length,
+            buys: fund.purchases.filter(p => !p.reinvest && !p.switchIn && !p.switchOut).length,
             gain,
             gainPct: invested ? (gain / invested) * 100 : null,
             annualised: fund.series.length && yearsBetween(fund.series[0].date, endDate) >= 1
                 ? xirr([
-                    ...fund.purchases.filter(p => p.amount > 0).map(p => ({ date: p.date, amount: -p.amount })),
+                    ...fund.purchases.filter(p => p.amount > 0 && !p.switchIn).map(p => ({ date: p.date, amount: -p.amount })),
+                    ...fund.purchases.filter(p => p.switchIn).map(p => ({ date: p.date, amount: -p.flowValue })),
+                    ...fund.purchases.filter(p => p.switchOut).map(p => ({ date: p.date, amount: p.flowValue })),
                     ...paid.filter(d => !d.reinvested).map(d => ({ date: d.exDate, amount: d.cash })),
                     { date: endDate, amount: value }
                 ].sort((a, b) => a.date.localeCompare(b.date)))
@@ -590,6 +771,7 @@ function calculate(input) {
     for (const fund of perFund) {
         for (const purchase of fund.purchases) {
             if (!(purchase.amount > 0)) continue;   // reinvested dividends are not new money
+            if (purchase.switchIn || purchase.switchOut) continue;   // switches move money, they don't add it
 
             contributionDates.add(purchase.date);
             flowMap.set(purchase.date, (flowMap.get(purchase.date) ?? 0) - purchase.amount);
@@ -632,6 +814,9 @@ function calculate(input) {
         yearRows,
         requestedEnd: end,
         priceDateBeforeEnd: endDate < end,
+        manualBids: perFund.some(fund => fund.startBidManual || fund.endBidManual) ||
+            switchLog.some(item => item.executed && (item.sellManual || item.into.some(into => into.manual))),
+        switches: switchLog,
         boosters: input.boosters ?? [],
         boosterTotal: (input.boosters ?? []).reduce((sum, booster) => sum + booster.amount, 0),
         skippedAmount: skipped.reduce((sum, item) => sum + item.amount, 0),
@@ -657,11 +842,16 @@ function renderSelected() {
             .map((item, index) => {
                 const fund = report.fundById.get(item.id);
 
+                const edited = Number(item.purchaseBid) > 0 || Number(item.endBid) > 0;
+
                 return `
                     <tr>
                         <td>
                             <div class="fund-name">${escapeHtml(fund?.fundName ?? item.id)}</div>
                             <div class="fund-meta">${escapeHtml(fund?.fundCode ?? "")} · ${escapeHtml(currencyOf(item.id))}</div>
+                            <button type="button" class="report-bid-toggle${edited ? " is-edited" : ""}" data-report-bid-toggle="${index}" aria-expanded="${item.bidOpen ? "true" : "false"}">
+                                ${edited ? "BID price changed" : "Change BID price"} ${item.bidOpen ? "▴" : "▾"}
+                            </button>
                         </td>
                         <td class="report-weight-cell">
                             <input type="number" min="5" max="100" step="5" value="${item.weight}" data-report-weight="${index}" aria-label="Allocation % for ${escapeHtml(fund?.fundName ?? item.id)}">
@@ -671,6 +861,25 @@ function renderSelected() {
                             <button type="button" class="compare-remove" data-report-remove="${index}" aria-label="Remove ${escapeHtml(fund?.fundName ?? item.id)}" title="Remove">×</button>
                         </td>
                     </tr>
+                    ${item.bidOpen ? `
+                        <tr class="report-bid-row">
+                            <td colspan="3">
+                                <div class="report-bid-fields">
+                                    <label class="report-bid-field">
+                                        <span>Purchase BID</span>
+                                        <input type="text" inputmode="decimal" value="${escapeHtml(item.purchaseBid ?? "")}" data-report-bid="${index}" data-bid-kind="purchaseBid" aria-label="Purchase BID price for ${escapeHtml(fund?.fundName ?? item.id)}">
+                                        <em data-report-bid-hint="purchaseBid-${index}"></em>
+                                    </label>
+                                    <label class="report-bid-field">
+                                        <span>End-date BID</span>
+                                        <input type="text" inputmode="decimal" value="${escapeHtml(item.endBid ?? "")}" data-report-bid="${index}" data-bid-kind="endBid" aria-label="End-date BID price for ${escapeHtml(fund?.fundName ?? item.id)}">
+                                        <em data-report-bid-hint="endBid-${index}"></em>
+                                    </label>
+                                    <button type="button" class="pc-link-button" data-report-bid-clear="${index}">Use published prices</button>
+                                </div>
+                            </td>
+                        </tr>
+                    ` : ""}
                 `;
             })
             .join("");
@@ -685,7 +894,40 @@ function renderSelected() {
     }
 
     syncDateLimits();
+    updateBidHints();
     updateSteps();
+}
+
+/*
+ * Under each "Change BID price" box: the published price it replaces
+ * (for the current start / end dates). Empty box = published price.
+ */
+function updateBidHints() {
+    const start = qs("#report-start")?.value ?? "";
+    const end = qs("#report-end")?.value ?? "";
+
+    report.selected.forEach((item, index) => {
+        const obs = observationsFor(item.id);
+
+        const purchaseHint = qs(`[data-report-bid-hint="purchaseBid-${index}"]`);
+        if (purchaseHint) {
+            const price = start ? priceOnOrAfter(obs, start) : null;
+            purchaseHint.textContent = price
+                ? `Published: ${price.bidPrice.toFixed(5)} on ${formatDate(price.date)}. Used for the initial investment only.`
+                : "Used for the initial investment only.";
+        }
+
+        const endHint = qs(`[data-report-bid-hint="endBid-${index}"]`);
+        if (endHint) {
+            const price = end ? priceOnOrBefore(obs, end) : null;
+            endHint.textContent = price
+                ? `Published: ${price.bidPrice.toFixed(5)} on ${formatDate(price.date)}. Values the fund on ${end ? formatDate(end) : "the end date"}.`
+                : "Values the fund on the end date.";
+        }
+
+        qs(`[data-report-bid="${index}"][data-bid-kind="purchaseBid"]`)?.setAttribute("placeholder", "Published price");
+        qs(`[data-report-bid="${index}"][data-bid-kind="endBid"]`)?.setAttribute("placeholder", "Published price");
+    });
 }
 
 function syncDateLimits() {
@@ -900,6 +1142,16 @@ function stepDone(step) {
         return report.boosters.every((booster, index) => !boosterProblem(booster, index, input));
     }
 
+    if (step === 6) {
+        if (!stepDone(5)) return false;
+        if (report.switching === "no") return true;
+        if (report.switching !== "yes" || !report.switches.length) return false;
+
+        const input = readInput();
+
+        return report.switches.every((item, index) => !switchProblem(item, index, input));
+    }
+
     return false;
 }
 
@@ -908,7 +1160,8 @@ function updateSteps() {
         2: stepDone(1),
         3: stepDone(2),
         4: stepDone(3),
-        5: stepDone(4)
+        5: stepDone(4),
+        6: stepDone(5)
     };
 
     for (const [step, visible] of Object.entries(show)) {
@@ -917,7 +1170,7 @@ function updateSteps() {
         if (section) section.hidden = !visible;
     }
 
-    for (const step of [1, 2, 3, 4, 5]) {
+    for (const step of [1, 2, 3, 4, 5, 6]) {
         qs(`[data-report-step="${step}"]`)?.classList.toggle("is-done", stepDone(step));
     }
 
@@ -926,7 +1179,7 @@ function updateSteps() {
     // Generate is only clickable once every step is complete
     const generate = qs("#report-form .report-generate[type=submit]");
 
-    if (generate) generate.disabled = !stepDone(5);
+    if (generate) generate.disabled = !stepDone(6);
 
     report.boosters.forEach((_, index) => refreshBoosterStatus(index));
 
@@ -988,8 +1241,13 @@ function setPaymentMode(mode) {
         booster.selected = booster.selected.filter(item => acceptsPayment(item.id, mode));
     }
 
+    for (const item of report.switches) {
+        item.selected = item.selected.filter(target => acceptsPayment(target.id, mode));
+    }
+
     renderPaymentOptions();
     renderBoosters();
+    renderSwitches();
 
     if (removed.length && report.selected.length) {
         splitEqually();
@@ -1168,6 +1426,8 @@ function refreshBoosterStatus(index) {
 }
 
 function renderBoosters() {
+    if (report.switching === "yes") queueMicrotask(renderSwitches);
+
     const list = qs("#report-booster-list");
     const add = qs("#report-booster-add");
     const yes = report.booster === "yes";
@@ -1275,7 +1535,8 @@ function renderDividendChoice() {
 
     const ids = [
         ...report.selected.map(item => item.id),
-        ...(report.booster === "yes" ? report.boosters.flatMap(booster => booster.selected.map(item => item.id)) : [])
+        ...(report.booster === "yes" ? report.boosters.flatMap(booster => booster.selected.map(item => item.id)) : []),
+        ...(report.switching === "yes" ? report.switches.flatMap(item => item.selected.map(target => target.id)) : [])
     ];
 
     box.hidden = !ids.some(fundPaysDividends);
@@ -1448,6 +1709,506 @@ function bindBoosterEvents() {
     });
 }
 
+/* ============================================================
+   FUND SWITCHING (step 6)
+   Each switch: a date, the fund switched out of, how much of its
+   units (%), and the fund(s) switched into (5% steps, total 100%).
+   A 100% switch also sends that fund's later top-ups to the new
+   fund(s). There can be several switches.
+   ============================================================ */
+
+function newSwitch() {
+    return { date: "", fromId: "", portion: "100", sellBid: "", selected: [] };
+}
+
+/* Published BID used for a switch (grey hint in the BID boxes) */
+function publishedBid(id, date, side = "after") {
+    if (!id || !date) return "Published price";
+
+    const obs = observationsFor(id);
+    const price = side === "after" ? priceOnOrAfter(obs, date) : priceOnOrBefore(obs, date);
+
+    return price ? `${price.bidPrice.toFixed(5)} (published ${formatDate(price.date)})` : "Published price";
+}
+
+/* Funds that can be switched out of on a date: the main portfolio,
+   boosters bought by then, and funds switched into earlier */
+function switchSources(index) {
+    const item = report.switches[index];
+    const date = item?.date || "9999-12-31";
+    const ids = [];
+    const add = id => { if (id && !ids.includes(id)) ids.push(id); };
+
+    report.selected.forEach(fund => add(fund.id));
+
+    if (report.booster === "yes") {
+        report.boosters
+            .filter(booster => booster.date && booster.date <= date)
+            .forEach(booster => booster.selected.forEach(fund => add(fund.id)));
+    }
+
+    report.switches.forEach((other, otherIndex) => {
+        if (otherIndex === index || !other.date) return;
+        if (other.date < date || (other.date === date && otherIndex < index)) {
+            other.selected.forEach(fund => add(fund.id));
+        }
+    });
+
+    return ids;
+}
+
+function switchSum(item) {
+    return item.selected.reduce((acc, target) => acc + (Number(target.weight) || 0), 0);
+}
+
+function switchProblem(item, index, input) {
+    const label = `Switch ${index + 1}`;
+    const code = id => report.fundById.get(id)?.fundCode ?? id;
+
+    if (!item.date) return `${label}: choose a date.`;
+
+    if (input?.start && item.date < input.start) return `${label}: the date must be on or after the start date (${formatDate(input.start)}).`;
+
+    if (input?.end && item.date > input.end) return `${label}: the date must be on or before the end date (${formatDate(input.end)}).`;
+
+    if (!item.fromId) return `${label}: choose the fund to switch out of.`;
+
+    if (!switchSources(index).includes(item.fromId)) {
+        return `${label}: ${code(item.fromId)} isn't held on ${formatDate(item.date)}. Choose another fund or date.`;
+    }
+
+    const portion = Number(item.portion);
+
+    if (!(portion > 0 && portion <= 100)) return `${label}: the units to switch must be from 1% to 100%.`;
+
+    if (!item.selected.length) return `${label}: add the fund(s) to switch into.`;
+
+    if (item.selected.some(target => target.id === item.fromId)) return `${label}: a fund can't be switched into itself.`;
+
+    if (item.selected.some(target => !(Number(target.weight) > 0) || Number(target.weight) % ALLOCATION_STEP !== 0)) {
+        return `${label}: the split must be in steps of ${ALLOCATION_STEP}%.`;
+    }
+
+    const sum = switchSum(item);
+
+    if (Math.abs(sum - 100) >= 0.01) return `${label}: the split adds up to ${Math.round(sum * 100) / 100}%. It needs to total 100%.`;
+
+    if (String(item.sellBid ?? "").trim() && !(Number(item.sellBid) > 0)) {
+        return `${label}: the switch-out BID must be a price above 0, or left empty to use the published price.`;
+    }
+
+    for (const target of item.selected) {
+        if (String(target.buyBid ?? "").trim() && !(Number(target.buyBid) > 0)) {
+            return `${label}: the BID for ${code(target.id)} must be a price above 0, or left empty to use the published price.`;
+        }
+
+        if (!acceptsPayment(target.id)) return `${label}: ${code(target.id)} doesn't accept ${report.paymentMode}.`;
+
+        const obs = observationsFor(target.id);
+
+        if (!obs.length) return `${label}: no price history for ${code(target.id)}.`;
+
+        if (obs[0].date > item.date) return `${label}: ${code(target.id)} prices begin on ${formatDate(obs[0].date)}, after the switch date.`;
+    }
+
+    return null;
+}
+
+function switchRows(item, index) {
+    if (!item.selected.length) {
+        return `<tr><td colspan="4" class="report-empty">Add the fund(s) to switch into (up to ${MAX_FUNDS}).</td></tr>`;
+    }
+
+    return item.selected
+        .map((target, slot) => {
+            const fund = report.fundById.get(target.id);
+            const name = escapeHtml(fund?.fundName ?? target.id);
+
+            return `
+                <tr>
+                    <td>
+                        <div class="fund-name">${name}</div>
+                        <div class="fund-meta">${escapeHtml(fund?.fundCode ?? "")} · ${escapeHtml(currencyOf(target.id))}</div>
+                    </td>
+                    <td class="report-weight-cell">
+                        <input type="number" min="5" max="100" step="5" value="${target.weight}" data-switch-weight="${index}:${slot}" aria-label="Switch ${index + 1} split % for ${name}">
+                        <span>%</span>
+                    </td>
+                    <td class="report-switch-bid-cell">
+                        <input type="text" inputmode="decimal" placeholder="${escapeHtml(publishedBid(target.id, item.date, "after"))}" value="${escapeHtml(target.buyBid ?? "")}" data-switch-buy-bid="${index}:${slot}" aria-label="Switch ${index + 1} BID price for ${name}">
+                    </td>
+                    <td class="report-remove-cell">
+                        <button type="button" class="compare-remove" data-switch-fund-remove="${index}:${slot}" aria-label="Remove ${name} from switch ${index + 1}" title="Remove">×</button>
+                    </td>
+                </tr>
+            `;
+        })
+        .join("");
+}
+
+function switchMarkup(item, index) {
+    const start = qs("#report-start")?.value ?? "";
+    const end = qs("#report-end")?.value ?? "";
+    const sources = switchSources(index);
+
+    const options = [`<option value="">Choose a fund…</option>`]
+        .concat(sources.map(id => {
+            const fund = report.fundById.get(id);
+            return `<option value="${escapeHtml(id)}" ${id === item.fromId ? "selected" : ""}>${escapeHtml(fund?.fundName ?? id)} (${escapeHtml(fund?.fundCode ?? "")})</option>`;
+        }))
+        .join("");
+
+    return `
+        <div class="report-booster report-switch" data-switch="${index}">
+            <div class="report-booster-head">
+                <strong>Switch ${index + 1}</strong>
+                <button type="button" class="compare-remove" data-switch-remove="${index}" aria-label="Remove switch ${index + 1}" title="Remove switch">×</button>
+            </div>
+
+            <div class="report-grid report-switch-grid">
+                <label class="report-field">
+                    <span>Date</span>
+                    <input type="date" data-switch-field="date" data-switch-index="${index}" value="${escapeHtml(item.date)}"${start ? ` min="${start}"` : ""}${end ? ` max="${end}"` : ""}>
+                </label>
+
+                <label class="report-field report-switch-from">
+                    <span>Switch out of</span>
+                    <select data-switch-field="fromId" data-switch-index="${index}">${options}</select>
+                </label>
+
+                <label class="report-field">
+                    <span>Units to switch</span>
+                    <span class="report-weight-cell report-switch-portion">
+                        <input type="number" min="1" max="100" step="5" inputmode="decimal" data-switch-field="portion" data-switch-index="${index}" value="${escapeHtml(item.portion)}">
+                        <span>%</span>
+                    </span>
+                </label>
+
+                <label class="report-field">
+                    <span>Switch-out BID</span>
+                    <input type="text" inputmode="decimal" placeholder="${escapeHtml(publishedBid(item.fromId, item.date, "after"))}" data-switch-field="sellBid" data-switch-index="${index}" value="${escapeHtml(item.sellBid ?? "")}">
+                </label>
+            </div>
+
+            <p class="settings-help report-switch-bid-note">BID prices: leave empty to use the published price shown in grey, or type the actual price.</p>
+
+            <p class="settings-help report-switch-help">Switch into:${Number(item.portion) >= 100 ? " later top-ups for the fund switched out also go to these funds." : ""}</p>
+
+            <div class="report-picker-row">
+                <div class="compare-picker report-picker">
+                    <input type="search" autocomplete="off" placeholder="Add a fund to switch into…" aria-label="Search funds to switch into (switch ${index + 1})" data-switch-search="${index}">
+                    <ul class="compare-suggestions" role="listbox" data-switch-suggestions="${index}" hidden></ul>
+                </div>
+
+                <button type="button" class="news-clear-filters" data-switch-split="${index}">Split equally</button>
+
+                <span class="report-total" data-switch-total="${index}">Total 0%</span>
+            </div>
+
+            <div class="table-wrap">
+                <table class="data-table report-funds-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Fund</th>
+                            <th scope="col">Split</th>
+                            <th scope="col" class="report-switch-bid-head">BID price</th>
+                            <th scope="col"><span class="sr-only">Remove</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>${switchRows(item, index)}</tbody>
+                </table>
+            </div>
+
+            <p class="settings-help report-booster-status" data-switch-status="${index}"></p>
+        </div>
+    `;
+}
+
+function refreshSwitchStatus(index) {
+    const item = report.switches[index];
+
+    if (!item) return;
+
+    const sum = switchSum(item);
+    const total = qs(`[data-switch-total="${index}"]`);
+
+    if (total) {
+        total.textContent = `Total ${Math.round(sum * 100) / 100}%`;
+        total.classList.toggle("is-ok", Math.abs(sum - 100) < 0.01);
+        total.classList.toggle("is-off", item.selected.length > 0 && Math.abs(sum - 100) >= 0.01);
+    }
+
+    const status = qs(`[data-switch-status="${index}"]`);
+
+    if (status) {
+        const problem = switchProblem(item, index, readInput());
+
+        status.textContent = problem ? problem.replace(/^Switch \d+: /, "To do: ") : "Switch ready.";
+        status.classList.toggle("is-ok", !problem);
+    }
+}
+
+function renderSwitches() {
+    const list = qs("#report-switch-list");
+    const add = qs("#report-switch-add");
+    const yes = report.switching === "yes";
+
+    document.querySelectorAll("[data-report-switching]").forEach(button => {
+        const active = button.dataset.reportSwitching === report.switching;
+
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-checked", String(active));
+    });
+
+    if (list) {
+        list.hidden = !yes;
+        list.innerHTML = yes ? report.switches.map(switchMarkup).join("") : "";
+    }
+
+    if (add) add.hidden = !yes;
+
+    updateSteps();
+
+    if (yes) report.switches.forEach((_, index) => refreshSwitchStatus(index));
+}
+
+function splitSwitch(item) {
+    const n = item.selected.length;
+
+    if (!n) return;
+
+    const steps = 100 / ALLOCATION_STEP;
+    const base = Math.floor(steps / n);
+    let remainder = steps - base * n;
+
+    item.selected = item.selected.map(target => {
+        const extra = remainder > 0 ? 1 : 0;
+
+        remainder -= extra;
+
+        return { ...target, weight: (base + extra) * ALLOCATION_STEP };
+    });
+}
+
+function renderSwitchSuggestions(index) {
+    const item = report.switches[index];
+    const input = qs(`[data-switch-search="${index}"]`);
+    const list = qs(`[data-switch-suggestions="${index}"]`);
+
+    if (!item || !input || !list) return;
+
+    const query = input.value.trim().toLowerCase();
+    const chosen = new Set([...item.selected.map(target => target.id), item.fromId]);
+
+    const matches = item.selected.length >= MAX_FUNDS ? [] : report.funds.filter(fund => {
+        const id = fundId(fund);
+
+        if (chosen.has(id) || !observationsFor(id).length || !acceptsPayment(id)) return false;
+        if (!query) return true;
+
+        return (
+            String(fund.fundName ?? "").toLowerCase().includes(query) ||
+            String(fund.fundCode ?? "").toLowerCase().includes(query)
+        );
+    });
+
+    list.innerHTML = matches.length
+        ? matches
+            .map(fund => `
+                <li class="compare-suggestion" role="option" data-switch-add-fund="${index}:${escapeHtml(fundId(fund))}">
+                    <span class="compare-suggestion-name">${escapeHtml(fund.fundName ?? "")}</span>
+                    <span class="compare-suggestion-code">${escapeHtml(fund.fundCode ?? "")} · ${escapeHtml(currencyOf(fundId(fund)))}</span>
+                </li>
+            `)
+            .join("")
+        : `<li class="compare-suggestion-empty">${item.selected.length >= MAX_FUNDS ? `Maximum ${MAX_FUNDS} funds` : `No matching funds that accept ${escapeHtml(report.paymentMode ?? "this payment mode")}`}</li>`;
+
+    list.hidden = false;
+    placeDropdown(list);
+}
+
+function bindSwitchEvents() {
+    qs("#report-switch-choice")?.addEventListener("click", event => {
+        const option = event.target.closest("[data-report-switching]");
+
+        if (!option) return;
+
+        report.switching = option.dataset.reportSwitching;
+
+        if (report.switching === "yes" && !report.switches.length) report.switches.push(newSwitch());
+
+        renderSwitches();
+    });
+
+    qs("#report-switch-add")?.addEventListener("click", () => {
+        report.switches.push(newSwitch());
+        renderSwitches();
+
+        qs(`[data-switch="${report.switches.length - 1}"] [data-switch-field="date"]`)?.focus();
+    });
+
+    const list = qs("#report-switch-list");
+
+    if (!list) return;
+
+    const pair = value => {
+        const [index, rest] = String(value).split(/:(.*)/s);
+
+        return [Number(index), rest];
+    };
+
+    list.addEventListener("input", event => {
+        const field = event.target.closest("[data-switch-field]");
+
+        if (field) {
+            const index = Number(field.dataset.switchIndex);
+            const item = report.switches[index];
+
+            if (item) item[field.dataset.switchField] = field.value;
+
+            refreshSwitchStatus(index);
+            updateSteps();
+            return;
+        }
+
+        const weight = event.target.closest("[data-switch-weight]");
+
+        if (weight) {
+            const [index, slot] = pair(weight.dataset.switchWeight);
+            const target = report.switches[index]?.selected[Number(slot)];
+
+            if (target) target.weight = Math.max(0, Number(weight.value) || 0);
+
+            refreshSwitchStatus(index);
+            updateSteps();
+            return;
+        }
+
+        const buyBid = event.target.closest("[data-switch-buy-bid]");
+
+        if (buyBid) {
+            const [index, slot] = pair(buyBid.dataset.switchBuyBid);
+            const target = report.switches[index]?.selected[Number(slot)];
+
+            if (target) target.buyBid = buyBid.value.trim();
+
+            refreshSwitchStatus(index);
+            updateSteps();
+            return;
+        }
+
+        const search = event.target.closest("[data-switch-search]");
+
+        if (search) renderSwitchSuggestions(Number(search.dataset.switchSearch));
+    });
+
+    list.addEventListener("change", event => {
+        const field = event.target.closest("[data-switch-field]");
+
+        // Date / fund / % changed: redraw (the fund list depends on the date)
+        if (field && field.dataset.switchField === "sellBid") return;
+
+        if (field) {
+            const item = report.switches[Number(field.dataset.switchIndex)];
+
+            if (item) {
+                item[field.dataset.switchField] = field.value;
+
+                if (field.dataset.switchField === "fromId") {
+                    item.selected = item.selected.filter(target => target.id !== field.value);
+                }
+            }
+
+            renderSwitches();
+            return;
+        }
+
+        const weight = event.target.closest("[data-switch-weight]");
+
+        if (!weight) return;
+
+        const [index, slot] = pair(weight.dataset.switchWeight);
+        const target = report.switches[index]?.selected[Number(slot)];
+
+        if (target) target.weight = roundToStep(weight.value);
+
+        renderSwitches();
+    });
+
+    list.addEventListener("focusin", event => {
+        const search = event.target.closest("[data-switch-search]");
+
+        if (search) renderSwitchSuggestions(Number(search.dataset.switchSearch));
+    });
+
+    list.addEventListener("focusout", event => {
+        const search = event.target.closest("[data-switch-search]");
+
+        if (!search) return;
+
+        setTimeout(() => {
+            const suggestions = qs(`[data-switch-suggestions="${search.dataset.switchSearch}"]`);
+
+            if (suggestions) suggestions.hidden = true;
+        }, 150);
+    });
+
+    list.addEventListener("keydown", event => {
+        if (event.key === "Escape" && event.target.closest("[data-switch-search]")) {
+            const suggestions = qs(`[data-switch-suggestions="${event.target.dataset.switchSearch}"]`);
+
+            if (suggestions) suggestions.hidden = true;
+        }
+    });
+
+    list.addEventListener("mousedown", event => {
+        const option = event.target.closest("[data-switch-add-fund]");
+
+        if (!option) return;
+
+        event.preventDefault();
+
+        const [index, id] = pair(option.dataset.switchAddFund);
+        const item = report.switches[index];
+
+        if (!item || item.selected.some(target => target.id === id) || item.selected.length >= MAX_FUNDS) return;
+
+        item.selected.push({ id, weight: 0 });
+        splitSwitch(item);
+        renderSwitches();
+    });
+
+    list.addEventListener("click", event => {
+        const remove = event.target.closest("[data-switch-remove]");
+
+        if (remove) {
+            report.switches.splice(Number(remove.dataset.switchRemove), 1);
+            renderSwitches();
+            return;
+        }
+
+        const removeFund = event.target.closest("[data-switch-fund-remove]");
+
+        if (removeFund) {
+            const [index, slot] = pair(removeFund.dataset.switchFundRemove);
+
+            report.switches[index]?.selected.splice(Number(slot), 1);
+            renderSwitches();
+            return;
+        }
+
+        const split = event.target.closest("[data-switch-split]");
+
+        if (split) {
+            const item = report.switches[Number(split.dataset.switchSplit)];
+
+            if (item) splitSwitch(item);
+
+            renderSwitches();
+        }
+    });
+}
+
 function readInput() {
     const number = selector => {
         const value = Number(String(qs(selector)?.value ?? "").replace(/[^0-9.]/g, ""));
@@ -1474,6 +2235,20 @@ function readInput() {
                 date: booster.date,
                 amount: Number(booster.amount) || 0,
                 selected: booster.selected.map(item => ({ id: item.id, weight: Number(item.weight) || 0 }))
+            }))
+            : [],
+        switchingChoice: report.switching,
+        switches: report.switching === "yes"
+            ? report.switches.map(item => ({
+                date: item.date,
+                fromId: item.fromId,
+                portion: Number(item.portion) || 0,
+                sellBid: Number(item.sellBid) > 0 ? Number(item.sellBid) : null,
+                selected: item.selected.map(target => ({
+                    id: target.id,
+                    weight: Number(target.weight) || 0,
+                    buyBid: Number(target.buyBid) > 0 ? Number(target.buyBid) : null
+                }))
             }))
             : []
     };
@@ -1502,9 +2277,20 @@ function validate(input) {
 
     if (report.selected.some(item => !(Number(item.weight) > 0))) return "Every fund needs an allocation above 0%. Remove funds you don't want.";
 
+    for (const item of report.selected) {
+        for (const [key, label] of [["purchaseBid", "purchase BID"], ["endBid", "end-date BID"]]) {
+            const text = String(item[key] ?? "").trim();
+            if (text && !(Number(text) > 0)) {
+                const name = report.fundById.get(item.id)?.fundName ?? item.id;
+                return `The ${label} for ${name} must be a price above 0, or left empty to use the published price.`;
+            }
+        }
+    }
+
     const currencies = new Set([
         ...report.selected.map(item => currencyOf(item.id)),
-        ...input.boosters.flatMap(booster => booster.selected.map(item => currencyOf(item.id)))
+        ...input.boosters.flatMap(booster => booster.selected.map(item => currencyOf(item.id))),
+        ...input.switches.flatMap(item => item.selected.map(target => currencyOf(target.id)))
     ]);
 
     if (currencies.size > 1) return `The chosen funds are in different currencies (${[...currencies].join(" and ")}). Pick funds in one currency for a report.`;
@@ -1543,6 +2329,18 @@ function validate(input) {
         }
     }
 
+    if (input.switchingChoice !== "yes" && input.switchingChoice !== "no") return "Choose whether to add a fund switch (step 6).";
+
+    if (input.switchingChoice === "yes") {
+        if (!report.switches.length) return "Add a fund switch, or choose No in step 6.";
+
+        for (const [index, item] of report.switches.entries()) {
+            const problem = switchProblem(item, index, input);
+
+            if (problem) return problem;
+        }
+    }
+
     return null;
 }
 
@@ -1566,6 +2364,17 @@ function renderReport(result) {
 
     const mainFunds = perFund.filter(fund => !fund.boosterOnly);
     const boosterCount = result.boosters.length;
+    const switchesDone = (result.switches ?? []).filter(item => item.executed);
+    const switchesSkipped = (result.switches ?? []).filter(item => !item.executed);
+
+    // Allocation column: main funds show their %, others how they were bought
+    const allocationText = fund => {
+        const out = fund.fullySwitchedOut ? `<div class="rpt-muted">switched out</div>` : "";
+        if (!fund.boosterOnly) return `${fund.weight}%${out}`;
+        if (fund.switchedIn && fund.boosterInvested > 0) return `Switch &amp; booster${out}`;
+        if (fund.switchedIn) return `Switched in${out}`;
+        return `Booster only${out}`;
+    };
 
     const planText = [
         input.lumpSum > 0 ? `${m(input.lumpSum)} invested on ${formatDate(result.firstDate)}` : "",
@@ -1684,12 +2493,18 @@ function renderReport(result) {
                 <section class="rpt-section">
                     <h3>This holding</h3>
                     <div class="rpt-facts-grid">
-                        <div><span>Allocation</span><strong>${fund.boosterOnly ? "Booster only" : `${fund.weight}%`}</strong></div>
-                        <div><span>First purchase</span><strong>${escapeHtml(formatDate(fund.startDate))}</strong><em>at BID ${fund.startBid === null ? "—" : fund.startBid.toFixed(5)}</em></div>
+                        <div><span>Allocation</span><strong>${allocationText(fund)}</strong></div>
+                        <div><span>First purchase</span><strong>${escapeHtml(formatDate(fund.startDate))}</strong><em>at BID ${fund.startBid === null ? "—" : fund.startBid.toFixed(5)}${fund.startBidManual ? " (entered)" : ""}</em></div>
                         <div><span>Purchases</span><strong>${purchases}</strong>${boosterBuys ? `<em>${boosterBuys} from boosters</em>` : ""}</div>
                         <div><span>Average cost</span><strong>${fund.averageCost === null ? "—" : fund.averageCost.toFixed(5)}</strong></div>
-                        <div><span>BID on ${escapeHtml(formatDate(fund.endDate ?? result.endDate))}</span><strong>${fund.endBid === null ? "—" : fund.endBid.toFixed(5)}</strong></div>
+                        <div><span>BID on ${escapeHtml(formatDate(fund.endDate ?? result.endDate))}</span><strong>${fund.endBid === null ? "—" : fund.endBid.toFixed(5)}</strong>${fund.endBidManual ? "<em>entered</em>" : ""}</div>
                         <div><span>Payment modes</span><strong>${escapeHtml((Array.isArray(details.paymentModes) ? details.paymentModes : []).join(", ") || "—")}</strong></div>
+                        ${switchesDone.filter(item => item.fromId === fund.id).map(item => `
+                            <div><span>Switched out ${escapeHtml(formatDate(item.sellDate))}</span><strong>${m(item.value)}</strong><em>${Number(item.portion) >= 100 ? "all units" : `${Number(item.portion)}% of units`} into ${item.into.map(into => escapeHtml(code(into.id))).join(" + ")}</em></div>
+                        `).join("")}
+                        ${switchesDone.flatMap(item => item.into.filter(into => into.id === fund.id).map(into => `
+                            <div><span>Switched in ${escapeHtml(formatDate(into.date))}</span><strong>${m(into.value)}</strong><em>from ${escapeHtml(code(item.fromId))} at BID ${into.bid.toFixed(5)}${into.manual ? " (entered)" : ""}</em></div>
+                        `)).join("")}
                     </div>
                 </section>
 
@@ -1799,10 +2614,35 @@ function renderReport(result) {
             </section>
         ` : ""}
 
+        ${result.manualBids ? `
+            <section class="rpt-note">
+                <strong>BID prices entered:</strong>
+                ${[
+                    ...result.perFund.filter(fund => fund.startBidManual || fund.endBidManual).map(fund => {
+                        const parts = [];
+                        if (fund.startBidManual) parts.push(`initial purchase at ${fund.startBid.toFixed(5)}`);
+                        if (fund.endBidManual) parts.push(`valued at ${fund.endBid.toFixed(5)} on ${escapeHtml(formatDate(fund.endDate))}`);
+                        return `${escapeHtml(fund.fund?.fundCode || fund.fund?.fundName || fund.id)} (${parts.join("; ")})`;
+                    }),
+                    ...switchesDone.filter(item => item.sellManual || item.into.some(into => into.manual)).map(item => {
+                        const parts = [];
+                        if (item.sellManual) parts.push(`${escapeHtml(code(item.fromId))} out at ${item.sellBid.toFixed(5)}`);
+                        item.into.filter(into => into.manual).forEach(into => parts.push(`${escapeHtml(code(into.id))} in at ${into.bid.toFixed(5)}`));
+                        return `switch on ${escapeHtml(formatDate(item.sellDate))} (${parts.join("; ")})`;
+                    })
+                ].join(", ")}.
+                These were entered by the adviser instead of the published BID price; all other prices are as published.
+            </section>
+        ` : ""}
+
         <section class="rpt-plan">
             <strong>Investment plan:</strong> ${escapeHtml(planText)}, paid by <strong>${escapeHtml(PAYMENT_LABELS[input.paymentMode] ?? input.paymentMode ?? "—")}</strong>, across ${mainFunds.length} fund${mainFunds.length === 1 ? "" : "s"}
             (${mainFunds.map(fund => `${escapeHtml(fund.fund?.fundCode ?? "")} ${fund.weight}%`).join(", ")})${boosterCount ? `,
-            plus ${boosterCount} investment booster${boosterCount === 1 ? "" : "s"} totalling ${m(result.boosterTotal)}` : ""}.
+            plus ${boosterCount} investment booster${boosterCount === 1 ? "" : "s"} totalling ${m(result.boosterTotal)}` : ""}${switchesDone.length ? `,
+            with ${switchesDone.length} fund switch${switchesDone.length === 1 ? "" : "es"}` : ""}.
+            ${switchesDone.length ? `<span class="rpt-plan-switches"><strong>Switches carried out:</strong> ${switchesDone.map(item =>
+                `${escapeHtml(formatDate(item.sellDate))}: ${Number(item.portion) >= 100 ? "all" : `${Number(item.portion)}%`} of ${escapeHtml(code(item.fromId))} (${m(item.value)}) into ${item.into.map(into => escapeHtml(code(into.id))).join(" + ")}`
+            ).join("; ")}.</span>` : ""}
             ${showDiv ? `Dividends are <strong>${divCash ? "paid out as cash" : "reinvested"}</strong>.` : ""}
         </section>
 
@@ -1868,6 +2708,42 @@ function renderReport(result) {
             </div>
         </section>
 
+        ${switchesDone.length || switchesSkipped.length ? `
+            <section class="rpt-section">
+                <h3>Fund switches</h3>
+                <table class="rpt-table rpt-table-switches">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Switched out of</th>
+                            <th>Units switched</th>
+                            <th>Value</th>
+                            <th>Switched into</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${switchesDone.map(item => `
+                            <tr>
+                                <td>${escapeHtml(formatDate(item.sellDate))}</td>
+                                <td><strong>${escapeHtml(code(item.fromId))}</strong><div class="rpt-muted">${Number(item.portion) >= 100 ? "all units" : `${Number(item.portion)}% of units`} at BID ${item.sellBid.toFixed(5)}${item.sellManual ? " (entered)" : ""}</div></td>
+                                <td>${item.units.toLocaleString("en-SG", { minimumFractionDigits: 4, maximumFractionDigits: 4 })}</td>
+                                <td>${m(item.value)}</td>
+                                <td>${item.into.map(into => `<div><strong>${escapeHtml(code(into.id))}</strong> ${m(into.value)}<div class="rpt-muted">${into.units.toLocaleString("en-SG", { minimumFractionDigits: 4, maximumFractionDigits: 4 })} units at BID ${into.bid.toFixed(5)}${into.manual ? " (entered)" : ""}</div></div>`).join("")}</td>
+                            </tr>
+                        `).join("")}
+                        ${switchesSkipped.map(item => `
+                            <tr>
+                                <td>${escapeHtml(formatDate(item.date))}</td>
+                                <td><strong>${escapeHtml(code(item.fromId))}</strong></td>
+                                <td colspan="3" class="rpt-muted">Not made: ${escapeHtml(item.reason === "no units held" ? "no units of this fund were held on that date" : item.reason === "no price yet" ? "no BID price is available yet for that date" : "no BID price for the new fund on that date")}.</td>
+                            </tr>
+                        `).join("")}
+                    </tbody>
+                </table>
+                ${switchesDone.some(item => Number(item.portion) >= 100) ? `<p class="rpt-muted rpt-switch-note">After a switch of all units, that fund's share of later top-ups goes to the fund(s) switched into.</p>` : ""}
+            </section>
+        ` : ""}
+
         <section class="rpt-section">
             <h3>Portfolio breakdown</h3>
             <table class="rpt-table${showDiv ? " rpt-table-wide" : ""}">
@@ -1892,11 +2768,11 @@ function renderReport(result) {
                                 <strong>${escapeHtml(fund.fund?.fundName ?? fund.id)}</strong>
                                 <div class="rpt-muted">${escapeHtml(fund.fund?.fundCode ?? "")}</div>
                             </td>
-                            <td>${fund.boosterOnly ? "Booster only" : `${fund.weight}%`}</td>
+                            <td>${allocationText(fund)}</td>
                             <td>${m(fund.invested)}${fund.boosterInvested > 0 ? `<div class="rpt-muted">incl. ${m(fund.boosterInvested)} booster</div>` : ""}</td>
                             <td>${fund.units.toLocaleString("en-SG", { minimumFractionDigits: 4, maximumFractionDigits: 4 })}</td>
                             <td>${fund.averageCost === null ? "—" : fund.averageCost.toFixed(5)}</td>
-                            <td>${fund.endBid === null ? "—" : fund.endBid.toFixed(5)}</td>
+                            <td>${fund.endBid === null ? "—" : fund.endBid.toFixed(5)}${fund.endBidManual ? `<div class="rpt-muted">entered</div>` : ""}</td>
                             <td>${m(fund.value)}</td>
                             ${showDiv ? `<td>${fund.dividendPayouts.length ? `${m(divCash ? fund.dividendCash : fund.dividendTotal)}<div class="rpt-muted">${divCash ? "cash" : "reinvested"}</div>` : "—"}</td>` : ""}
                             <td class="${tone(fund.gain)}">${m(fund.gain)}<div class="rpt-muted">${percent(fund.gainPct)}</div></td>
@@ -1968,7 +2844,7 @@ function renderReport(result) {
                             <span><b>Asset class:</b> ${escapeHtml(details.assetClass ?? "—")}${details.assetSubClass ? ` (${escapeHtml(details.assetSubClass)})` : ""}</span>
                             <span><b>Risk:</b> ${escapeHtml(details.riskClassification ?? "—")}</span>
                             <span><b>Currency:</b> ${escapeHtml(currencyOf(fund.id))}</span>
-                            <span><b>First purchase:</b> ${escapeHtml(formatDate(fund.startDate))} at BID ${fund.startBid === null ? "—" : fund.startBid.toFixed(5)}</span>
+                            <span><b>First purchase:</b> ${escapeHtml(formatDate(fund.startDate))} at BID ${fund.startBid === null ? "—" : fund.startBid.toFixed(5)}${fund.startBidManual ? " (entered)" : ""}</span>
                         </div>
                         ${details.fundObjective ? `<p>${escapeHtml(String(details.fundObjective).replace(/\s+/g, " ").trim())}</p>` : ""}
                     </div>
@@ -1978,9 +2854,9 @@ function renderReport(result) {
 
         <footer class="rpt-disclaimer">
             <strong>Important notes.</strong>
-            This is a historical illustration based on actual published BID prices of the funds between the dates shown.
+            This is a historical illustration based on actual published BID prices of the funds between the dates shown${result.manualBids ? ", except the BID prices marked as entered, which were provided by the adviser" : ""}.
             Units are assumed to be bought at the BID price on the first pricing day on or after each investment date, with no
-            sales charge, fees or taxes deducted. ${showDiv
+            sales charge, fees or taxes deducted.${switchesDone.length ? " Fund switches are made at the BID prices on the first pricing day on or after the switch date, with no switching charge; the amount invested moves with the units switched." : ""} ${showDiv
                 ? (divCash
                     ? "Dividends are worked out from each fund's published dividend history (units held before the ex-dividend date x the declared rate) and treated as paid out in cash on the ex-dividend date; they are added to the gain / loss."
                     : "Dividends are worked out from each fund's published dividend history (units held before the ex-dividend date x the declared rate) and reinvested at the BID price on or after the ex-dividend date.")
@@ -2200,6 +3076,7 @@ function bindEvents() {
     }
 
     bindBoosterEvents();
+    bindSwitchEvents();
 
     qs("#report-dividend-choice")?.addEventListener("click", event => {
         const option = event.target.closest("[data-report-dividend]");
@@ -2220,6 +3097,7 @@ function bindEvents() {
     for (const selector of ["#report-start", "#report-end"]) {
         qs(selector)?.addEventListener("change", () => {
             if (report.booster === "yes") renderBoosters();
+            if (report.switching === "yes") renderSwitches();
         });
     }
 
@@ -2246,6 +3124,24 @@ function bindEvents() {
         renderSelected();
     });
 
+    // Typing a BID price: keep the value (no re-render, so the box keeps focus)
+    body?.addEventListener("input", event => {
+        const field = event.target.closest("[data-report-bid]");
+
+        if (!field) return;
+
+        const item = report.selected[Number(field.dataset.reportBid)];
+        item[field.dataset.bidKind] = field.value.trim();
+
+        const row = field.closest("tr")?.previousElementSibling;
+        const toggle = row?.querySelector("[data-report-bid-toggle]");
+        if (toggle) {
+            const edited = Number(item.purchaseBid) > 0 || Number(item.endBid) > 0;
+            toggle.classList.toggle("is-edited", edited);
+            toggle.firstChild.textContent = `${edited ? "BID price changed" : "Change BID price"} `;
+        }
+    });
+
     body?.addEventListener("input", event => {
         const field = event.target.closest("[data-report-weight]");
 
@@ -2266,6 +3162,25 @@ function bindEvents() {
     });
 
     body?.addEventListener("click", event => {
+        const toggle = event.target.closest("[data-report-bid-toggle]");
+
+        if (toggle) {
+            const item = report.selected[Number(toggle.dataset.reportBidToggle)];
+            item.bidOpen = !item.bidOpen;
+            renderSelected();
+            return;
+        }
+
+        const clear = event.target.closest("[data-report-bid-clear]");
+
+        if (clear) {
+            const item = report.selected[Number(clear.dataset.reportBidClear)];
+            item.purchaseBid = "";
+            item.endBid = "";
+            renderSelected();
+            return;
+        }
+
         const remove = event.target.closest("[data-report-remove]");
 
         if (!remove) return;
@@ -2275,6 +3190,11 @@ function bindEvents() {
     });
 
     qs("#report-split")?.addEventListener("click", splitEqually);
+
+    ["#report-start", "#report-end"].forEach(selector => {
+        qs(selector)?.addEventListener("change", updateBidHints);
+        qs(selector)?.addEventListener("input", updateBidHints);
+    });
 
     // Top-up frequency follows the regular top-up amount:
     // empty / 0 -> "No top-ups"; an amount -> Monthly (if it was "No top-ups").
@@ -2426,6 +3346,8 @@ function resetReport() {
     report.requestedStart = null;
     report.booster = null;
     report.boosters = [];
+    report.switching = null;
+    report.switches = [];
     report.dividendMode = "cash";
     report.lastResult = null;
 
@@ -2463,6 +3385,7 @@ function resetReport() {
 
     renderPaymentOptions();
     renderBoosters();
+    renderSwitches();
     renderSelected();
 }
 
