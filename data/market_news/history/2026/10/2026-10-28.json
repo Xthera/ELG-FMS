@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "ec519b89d968b2b6839b6b8d586621230e908ec2946b401ba798a575a28c88b6",
+      "source": "CNBC",
+      "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
+      "publishedAtSgt": "2026-10-28T04:42:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Consumer sentiment is largely unchanged in the sense that, wherever you are on the income scale, you're looking for value, and I think our system here has done a good job interpreting that.\" The company increased its full-year forecast and now expects its comparable earnings per share to grow at least 11%, up from a prior forecast of growth between 9% and 10%. Royal Caribbean shares closed up more than 5% on Tuesday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:22+08:00"
+    },
+    {
+      "id": "d24d8549cf749a83afd425b7b4c8d504696415f082ca2b73ffaf1234dd1f1b22",
+      "source": "CNBC",
+      "title": "Robinhood shares fall 5% as crypto slump weighs on profits, offsetting gains in new businesses",
+      "publishedAtSgt": "2026-10-28T04:39:49+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Robinhood shares fell in after-hours trading as investors digested a mixed third-quarter report in which transaction-based revenue missed Wall Street expectations despite growth in options trading and prediction markets. Additionally, options revenue grew 31% to $399 million and equities revenue rose 41% to $121 million.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:22+08:00"
+    },
+    {
+      "id": "3b5c05f83b0f9d3be0ff198e2fdb4fd652690e874c0d3faa0909405362a4c17f",
+      "source": "CNBC",
+      "title": "Walmart says AI training is boosting confidence with the technology among its 2.1 million associates",
+      "publishedAtSgt": "2026-10-28T04:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/walmart-ai-training-workers.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "As enterprise AI investment continues to grow, companies of all sizes are trying to figure out how employees feel about the technology in the workplace. What it found, based on more than 1.7 million survey responses, is that while workers have different levels of familiarity and comfort with AI, training and experience with the technology matters. \"The people-led and tech-powered piece has been around for a while.\" Many workers across the economy say they are afraid of AI replacing their jobs.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:23+08:00"
+    },
+    {
+      "id": "617d82e01cee71e2abf9fa16b9f658d07aa6673ad234fd142a59165cf4def388",
+      "source": "CNBC",
+      "title": "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
+      "publishedAtSgt": "2026-10-28T03:51:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "Oracle on Tuesday announced an expanded collaboration with OpenAI that brings the artificial intelligence lab's ChatGPT and Codex into the software maker's applications to make databases more actionable. Oracle also said Tuesday that it is making different hardware accessible on its cloud infrastructure, including Google's tensor processing unit AI chips and OpenAI's Jalapeño chip.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:24+08:00"
+    },
+    {
+      "id": "12b88b2fd8eaf343a2ac042cac636c8ec589135fb96fb8768d8c86a0701e93be",
+      "source": "CNBC",
+      "title": "Boeing shares slide on a disappointing cash flow update. Why this dip is buyable",
+      "publishedAtSgt": "2026-10-28T03:21:20+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/27/boeing-shares-slide-on-a-disappointing-cash-flow-update-why-this-dip-is-buyable-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The silver lining is that management took its medicine and reset investor expectations now, so the stock can mount a rebound once the dust settles. Shares of Boeing are down 10% Tuesday, on pace for their worst day since the April 2025 tariff panic . But markets are forward-looking beasts, and Boeing letting investors down on the cash-flow ramp in the coming years is, understandably, causing many investors to dump the stock Tuesday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:23+08:00"
+    },
+    {
+      "id": "d431568fac33a53ad0685c03f26d54b546680f169cba452732d0d4062ff33f3b",
+      "source": "CNBC",
+      "title": "Margin debt growth slows sharply as stock market warning signs build",
+      "publishedAtSgt": "2026-10-28T02:53:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/margin-debt-growth-cools-after-2026-surge-may-signal-market-top.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The pace at which investors are borrowing money to invest in stocks has cooled substantially, raising concern that the stock market may be due for a fall. Recent FINRA data shows the annual growth in margin debt fell to 31.4% in September from 53.7% in May, Bank of America technical strategist Paul Ciana pointed out in a Friday note. Tesla investor Hy Luu, for example, refinanced his home to raise $30,000 to pay down margin debt during the stock's 2022 decline.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:22+08:00"
+    },
+    {
+      "id": "18261b307051b6d86fa838da9f517d317d2e7c05767af72460fe33858e1a3cbc",
+      "source": "CNBC",
+      "title": "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split",
+      "publishedAtSgt": "2026-10-28T01:26:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The IPO is also pushing investors firmly into uncharted territory as they work to value the first pure-play artificial intelligence company to go public at a time of rising interest rates and growing concerns about the size of the AI buildout. \"And I think this is a really exciting opportunity for retail investors to get a piece and to get to participate in this transformation outside of buying chip stocks.\" For many investors focused on business fundamentals, Anthropic is a tough sell.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:22+08:00"
+    }
+  ],
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-28T04:44:24+08:00"
+}

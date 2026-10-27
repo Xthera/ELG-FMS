@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-27T23:54:39+08:00",
+  "generatedAtSgt": "2026-10-28T04:44:28+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,115 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "ec519b89d968b2b6839b6b8d586621230e908ec2946b401ba798a575a28c88b6",
+      "source": "CNBC",
+      "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
+      "publishedAtSgt": "2026-10-28T04:42:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Consumer sentiment is largely unchanged in the sense that, wherever you are on the income scale, you're looking for value, and I think our system here has done a good job interpreting that.\" The company increased its full-year forecast and now expects its comparable earnings per share to grow at least 11%, up from a prior forecast of growth between 9% and 10%. Royal Caribbean shares closed up more than 5% on Tuesday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:22+08:00"
+    },
+    {
+      "id": "d24d8549cf749a83afd425b7b4c8d504696415f082ca2b73ffaf1234dd1f1b22",
+      "source": "CNBC",
+      "title": "Robinhood shares fall 5% as crypto slump weighs on profits, offsetting gains in new businesses",
+      "publishedAtSgt": "2026-10-28T04:39:49+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Robinhood shares fell in after-hours trading as investors digested a mixed third-quarter report in which transaction-based revenue missed Wall Street expectations despite growth in options trading and prediction markets. Additionally, options revenue grew 31% to $399 million and equities revenue rose 41% to $121 million.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:22+08:00"
+    },
+    {
+      "id": "3b5c05f83b0f9d3be0ff198e2fdb4fd652690e874c0d3faa0909405362a4c17f",
+      "source": "CNBC",
+      "title": "Walmart says AI training is boosting confidence with the technology among its 2.1 million associates",
+      "publishedAtSgt": "2026-10-28T04:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/walmart-ai-training-workers.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "As enterprise AI investment continues to grow, companies of all sizes are trying to figure out how employees feel about the technology in the workplace. What it found, based on more than 1.7 million survey responses, is that while workers have different levels of familiarity and comfort with AI, training and experience with the technology matters. \"The people-led and tech-powered piece has been around for a while.\" Many workers across the economy say they are afraid of AI replacing their jobs.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:23+08:00"
+    },
+    {
+      "id": "617d82e01cee71e2abf9fa16b9f658d07aa6673ad234fd142a59165cf4def388",
+      "source": "CNBC",
+      "title": "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
+      "publishedAtSgt": "2026-10-28T03:51:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "Oracle on Tuesday announced an expanded collaboration with OpenAI that brings the artificial intelligence lab's ChatGPT and Codex into the software maker's applications to make databases more actionable. Oracle also said Tuesday that it is making different hardware accessible on its cloud infrastructure, including Google's tensor processing unit AI chips and OpenAI's Jalapeño chip.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:24+08:00"
+    },
+    {
+      "id": "12b88b2fd8eaf343a2ac042cac636c8ec589135fb96fb8768d8c86a0701e93be",
+      "source": "CNBC",
+      "title": "Boeing shares slide on a disappointing cash flow update. Why this dip is buyable",
+      "publishedAtSgt": "2026-10-28T03:21:20+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/27/boeing-shares-slide-on-a-disappointing-cash-flow-update-why-this-dip-is-buyable-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The silver lining is that management took its medicine and reset investor expectations now, so the stock can mount a rebound once the dust settles. Shares of Boeing are down 10% Tuesday, on pace for their worst day since the April 2025 tariff panic . But markets are forward-looking beasts, and Boeing letting investors down on the cash-flow ramp in the coming years is, understandably, causing many investors to dump the stock Tuesday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:23+08:00"
+    },
+    {
+      "id": "d431568fac33a53ad0685c03f26d54b546680f169cba452732d0d4062ff33f3b",
+      "source": "CNBC",
+      "title": "Margin debt growth slows sharply as stock market warning signs build",
+      "publishedAtSgt": "2026-10-28T02:53:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/margin-debt-growth-cools-after-2026-surge-may-signal-market-top.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The pace at which investors are borrowing money to invest in stocks has cooled substantially, raising concern that the stock market may be due for a fall. Recent FINRA data shows the annual growth in margin debt fell to 31.4% in September from 53.7% in May, Bank of America technical strategist Paul Ciana pointed out in a Friday note. Tesla investor Hy Luu, for example, refinanced his home to raise $30,000 to pay down margin debt during the stock's 2022 decline.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:22+08:00"
+    },
+    {
+      "id": "18261b307051b6d86fa838da9f517d317d2e7c05767af72460fe33858e1a3cbc",
+      "source": "CNBC",
+      "title": "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split",
+      "publishedAtSgt": "2026-10-28T01:26:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The IPO is also pushing investors firmly into uncharted territory as they work to value the first pure-play artificial intelligence company to go public at a time of rising interest rates and growing concerns about the size of the AI buildout. \"And I think this is a really exciting opportunity for retail investors to get a piece and to get to participate in this transformation outside of buying chip stocks.\" For many investors focused on business fundamentals, Anthropic is a tough sell.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-28T04:44:22+08:00"
+    },
     {
       "id": "f785087f2206f4bf6930a9cd84a2a26f13297e9f947807ffbd47bea73458229d",
       "source": "CNBC",
@@ -1476,118 +1585,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-22T02:06:09+08:00"
-    },
-    {
-      "id": "00da237515666fddd0ba6ca497d5d3b6dcda9fcaeb35e6fb460d3e296be1291d",
-      "source": "CNBC",
-      "title": "Meta and Tesla bulls get confidence boost after SpaceX earnings",
-      "publishedAtSgt": "2026-10-22T00:35:48+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/meta-tesla-options-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Options trading in both stocks leaned bullish after the open Wednesday, with Meta options looking particularly one-sided as traders bought more calls than puts and more put trades likely initiated by sellers than buyers. Meta options have generally been bullish since the stock's March low, when the put/call ratio of open contracts plunged to 0.5, meaning two calls open for every one put contract, and that hasn't budged much since, Barchart data show.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-22T02:06:07+08:00"
-    },
-    {
-      "id": "a966d341678b7ed0707e439da55608cbd0bb3d25d526015f5441f63b8975426f",
-      "source": "CNBC",
-      "title": "Tesla earnings loom after Musk calls SpaceX merger a 'good idea'",
-      "publishedAtSgt": "2026-10-22T00:01:25+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Musk pointed to the company's potential to cooperate on AI software, chip design, Terafab and robotics. Tesla is already using Grok AI technology, developed by SpaceX, to power AI assistants in customer cars, and to help control the company's Optimus humanoid robots now in development. Tesla CFO Vaibhav Taneja told investors on the company's last earnings call in July that automotive margins had been challenged this year by rising interest rates and energy costs.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-22T02:06:07+08:00"
-    },
-    {
-      "id": "cd8f5e9168916fb622acfc26ae580b6be71dbaf65cfe7eee37b4db5b699a8ee5",
-      "source": "CNBC",
-      "title": "A $50 sports bet costs a young investor hundreds later. Here's how",
-      "publishedAtSgt": "2026-10-21T23:16:20+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/sports-betting-young-investors-compounding.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "retail investors that Betterment published in August, 52% of Gen Z investors this past year took money they had set aside for investing and put it toward sports betting instead. stocks, according to the UBS Global Investment Returns Yearbook. After inflation, that works out to be about 0.5% a year for bills and 6.6% for stocks.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-22T02:06:14+08:00"
-    },
-    {
-      "id": "9198c20b0f078264274daf7a9340c41af3aa679b8727d16f51d90797957189e9",
-      "source": "CNBC",
-      "title": "Futures orbit around SpaceX as Tesla merger talk cheers investors",
-      "publishedAtSgt": "2026-10-21T20:44:19+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/futures-orbit-around-spacex-as-tesla-merger-talk-cheers-investors.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "SpaceX shares are spiking in premarket trade after Elon Musk unveiled a special committee had been put in place to merge the rocket group with Tesla, in a move he called a \"good idea.\" Musk also said he represents a \"conflicted party,\" meaning he will not be included in the discussions.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-21T20:58:38+08:00"
-    },
-    {
-      "id": "088e87590b3377a7d42125016fbe3e3be091e8e5897c1bc90dd701132aec49aa",
-      "source": "CNBC",
-      "title": "Treasury yields steady as investors await jobless claims, mortgage data",
-      "publishedAtSgt": "2026-10-21T20:44:10+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/bonds-us-treasurys-yields.html",
-      "category": "MARKET",
-      "relevanceScore": 93,
-      "relevanceReason": "strong_market_title",
-      "summary": "economic picture ahead of next week's Federal Reserve interest rate decision. 28, traders are weighing up how domestic economic data and global geopolitical developments are shaping the outlook for inflation and interest rates. That's as fresh missile strikes on tankers in the Strait of Hormuz and Saudi energy facilities sparked renewed concerns over oil supplies.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T20:58:38+08:00"
-    },
-    {
-      "id": "46656e05aa4fb2fffcca686b8c4494dfed50bb4a96e988ac54464e988673ef4b",
-      "source": "CNBC",
-      "title": "SpaceX up 8% in premarket after earnings beat and Musk hints at Tesla tie-up",
-      "publishedAtSgt": "2026-10-21T20:23:13+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "SpaceX jumped in premarket trading on Wednesday after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger. The space company, which made its debut on the Nasdaq in the biggest IPO ever in June, reported third-quarter revenue on Tuesday of $14.6 billion, up 161% from the previous year, and beating LSEG consensus estimates of $12.72 billion.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T20:58:36+08:00"
-    },
-    {
-      "id": "f16e6b421bfa3732e525093f3d1137891adaa90b7da084f8f6fd36c082bf8e7a",
-      "source": "CNBC",
-      "title": "Investors are questioning neoclouds' business model but Nebius says AI computing prices are rising",
-      "publishedAtSgt": "2026-10-21T20:21:07+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/nebius-ai-computing-nvidia-gpu-prices.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "BERLIN — Nebius is seeing AI computing prices rise more than expected, a top executive told CNBC on Wednesday, offering a bullish view as neocloud firms' business model comes under increasing scrutiny. \"There's tremendous demand and a lot of it is because the underlying model capabilities have gotten so much more advanced that people are just creating so much more value out of the compute infrastructure.\" The comments come amid an investor debate over how quickly Nvidia's GPUs lose their...",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-21T20:58:37+08:00"
     }
   ]
 }
