@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-VGrat FMS - FETCH INDICES
+ELG FMS - FETCH INDICES
 
 Reads the index list from "Indices.xlsx" (sheet "Indices") and writes
 data/indices.json with each index's daily closing levels and returns.
@@ -192,6 +192,17 @@ def fetch_yahoo(symbol: str) -> tuple[list[tuple[str, float]], dict]:
 
         day = datetime.fromtimestamp(stamp + offset, tz=timezone.utc).date()
         by_date[iso(day)] = round(float(close), 2)
+
+    # The market may still be open (the index updates twice a day, so a
+    # run can land mid-session). Yahoo then returns today's live price as
+    # if it were a close; leave today out until the session has ended.
+    regular = (meta.get("currentTradingPeriod") or {}).get("regular") or {}
+    session_start = regular.get("start")
+    session_end = regular.get("end")
+
+    if session_start and session_end and int(session_start) <= time.time() < int(session_end):
+        today = iso(datetime.fromtimestamp(int(session_start) + offset, tz=timezone.utc).date())
+        by_date.pop(today, None)
 
     observations = sorted(by_date.items())
 
