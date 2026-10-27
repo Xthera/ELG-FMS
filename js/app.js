@@ -3897,7 +3897,7 @@ function renderNewsFundOptions() {
    ============================================================ */
 
 /* ============================================================
-   CALCULATOR PAGE — PRUSHIELD PREMIUM / PRUCREDIT$
+   CALCULATOR PAGE — PLAN CALCULATOR / PRUSHIELD PREMIUM / PRUCREDIT$
    The choice is remembered per user. PruCredit$ is the dashboard's
    own calculator (js/prucredits.js).
    ============================================================ */
@@ -3907,7 +3907,7 @@ const CALCULATOR_KEY = "vgrat-fms-calculator";
 function showCalculator(name, { save = true } = {}) {
 
     const value =
-        ["prucredits", "plan"].includes(name) ? name : "prushield";
+        ["prushield", "prucredits"].includes(name) ? name : "plan";
 
     qsa("[data-calc]").forEach(
         button => {
@@ -3941,10 +3941,10 @@ function showCalculator(name, { save = true } = {}) {
 
 function initializeCalculatorSwitch() {
 
-    let saved = "prushield";
+    let saved = "plan";
 
     try {
-        saved = localStorage.getItem(CALCULATOR_KEY) ?? "prushield";
+        saved = localStorage.getItem(CALCULATOR_KEY) ?? "plan";
     } catch {
         /* storage unavailable */
     }
@@ -3957,7 +3957,7 @@ function initializeCalculatorSwitch() {
     );
 
     // Don't load the external page until the Calculator page is opened
-    if (saved === "prucredits" || saved === "plan") {
+    if (saved === "prushield" || saved === "prucredits") {
         qsa("[data-calc]").forEach(button => {
             const active = button.dataset.calc === saved;
             button.classList.toggle("active", active);
