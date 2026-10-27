@@ -26,6 +26,20 @@ import {
  */
 const registry = new Map();
 
+/* Index linker (set once indices.json has loaded). */
+let indexLinker = null;
+
+/* "all" | "funds" | "indices" — which links the popup shows */
+let newsScope = "all";
+
+function setNewsScope(scope) {
+    newsScope = ["funds", "indices"].includes(scope) ? scope : "all";
+}
+
+function setNewsIndexLinker(linker) {
+    indexLinker = linker ?? null;
+}
+
 let dialogBound = false;
 
 
@@ -109,10 +123,10 @@ function section(label, text, extraClass = "") {
  * @param {Array}  links          from createFundLinker().linkArticle
  * @param {string|string[]} [selectedFund] fund id(s) currently filtered on
  */
-function renderNewsCard(article, links = [], selectedFund = null) {
+function renderNewsCard(article, links = [], selectedFund = null, selectedIndex = null) {
     const key = articleKey(article);
 
-    registry.set(key, { article, links, selectedFund });
+    registry.set(key, { article, links, selectedFund, selectedIndex });
 
     return `
         <button
@@ -213,6 +227,50 @@ function renderLinkedFunds(links, selectedFund) {
     `;
 }
 
+function isPicked(selected, id) {
+    return Array.isArray(selected) ? selected.includes(id) : id === selected;
+}
+
+function renderLinkedIndices(links, selectedIndex) {
+    if (!indexLinker) {
+        return "";
+    }
+
+    if (!links.length) {
+        return `
+            <section class="news-popup-section">
+                <h3 class="news-popup-label">Indices that may be affected</h3>
+                <p class="news-popup-muted">No index linked to this article.</p>
+            </section>
+        `;
+    }
+
+    return `
+        <details class="news-popup-funds news-popup-indices">
+            <summary>
+                <span class="news-popup-label">Indices that may be affected (${links.length})</span>
+            </summary>
+
+            <ul class="news-linked-funds">
+                ${links.map(link => `
+                    <li class="${isPicked(selectedIndex, link.indexId) ? "is-selected" : ""}">
+                        <span class="news-linked-code">${escapeHtml(link.code)}</span>
+                        <span class="news-linked-name">${escapeHtml(link.name)}</span>
+                        <span class="news-linked-reason">${escapeHtml(link.reasons.join(" · "))}</span>
+                    </li>
+                `).join("")}
+            </ul>
+
+            <p class="news-link-note">
+                Linked where the index's market matches the article's
+                geographies (an exact market first, then its wider region),
+                for news that touches equities. "Global" articles link the
+                global index only. An indication, not a forecast.
+            </p>
+        </details>
+    `;
+}
+
 function openArticle(key) {
     const entry = registry.get(key);
 
@@ -220,7 +278,9 @@ function openArticle(key) {
         return;
     }
 
-    const { article, links, selectedFund } = entry;
+    const { article, links, selectedFund, selectedIndex } = entry;
+
+    const indexLinks = indexLinker ? indexLinker.linkArticle(article) : [];
 
     const dialog = ensureDialog();
 
@@ -270,7 +330,9 @@ function openArticle(key) {
                     ${tagGroup("Sectors", article.sectors)}
                 </div>
 
-                ${renderLinkedFunds(links, selectedFund)}
+                ${newsScope !== "indices" ? renderLinkedFunds(links, selectedFund) : ""}
+
+                ${newsScope !== "funds" ? renderLinkedIndices(indexLinks, selectedIndex) : ""}
 
             </div>
 
@@ -312,5 +374,7 @@ if (typeof document !== "undefined") {
 
 export {
     renderNewsCard,
-    openArticle
+    openArticle,
+    setNewsIndexLinker,
+    setNewsScope
 };
