@@ -361,7 +361,7 @@ html[data-variant="sepia"] {
 
     object-fit: contain;
 
-    /* ELG logo is black; shown white on the dark theme */
+    /* ELG logo is black; shown white on the dark themes */
     filter: invert(1);
 }
 
@@ -943,6 +943,49 @@ html[data-theme="light"] .brand-mark img {
     gap: 12px;
 }
 
+
+/* Losers are hidden until the user asks (not remembered:
+   every page load starts with Winners only, full width). */
+.performance-grid.losers-hidden {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.performance-card[data-losers-card][hidden] {
+    display: none;
+}
+
+.card-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.losers-toggle {
+    height: 27px;
+
+    padding: 0 12px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 999px;
+
+    background: transparent;
+    color: var(--text-secondary);
+
+    font: inherit;
+    font-size: calc(12px * var(--font-scale, 1));
+    font-weight: 650;
+
+    white-space: nowrap;
+
+    cursor: pointer;
+}
+
+.losers-toggle:hover,
+.losers-toggle[aria-expanded="true"] {
+    border-color: var(--negative);
+
+    color: var(--text-primary);
+}
 
 /* ============================================================
    FUND COMPARISON CHART
@@ -3179,6 +3222,11 @@ summary:focus-visible {
     margin-bottom: 10px;
 }
 
+/* Fund + Index filters sit together on the right */
+.history-toolbar > .filter-control-fund:not(.filter-control-index) {
+    margin-left: auto;
+}
+
 .history-month-nav {
     display: inline-flex;
     align-items: center;
@@ -3309,6 +3357,10 @@ summary:focus-visible {
     .history-toolbar {
         flex-direction: column;
         align-items: stretch;
+    }
+
+    .history-toolbar > .filter-control-fund:not(.filter-control-index) {
+        margin-left: 0;
     }
 
     .news-linked-funds li {
@@ -3727,9 +3779,10 @@ body.has-news-dialog {
 .market-news-current .news-filter-group {
     display: grid;
 
-    /* 8 slots: six filters + Fund (two slots) */
+    /* 12 slots: six filters (two slots each) on the first row,
+       Fund + Index (six slots each) on the second */
     grid-template-columns:
-        repeat(8, minmax(0, 1fr));
+        repeat(12, minmax(0, 1fr));
 
     align-items: end;
 
@@ -3742,8 +3795,12 @@ body.has-news-dialog {
     max-width: none;
 }
 
-.market-news-current .news-filter-group .filter-control-fund {
+.market-news-current .news-filter-group .filter-control {
     grid-column: span 2;
+}
+
+.market-news-current .news-filter-group .filter-control-fund {
+    grid-column: span 6;
 }
 
 .market-news-current .news-summary-bar {
@@ -3763,6 +3820,14 @@ body.has-news-dialog {
     .market-news-current .news-filter-group {
         grid-template-columns:
             repeat(4, minmax(0, 1fr));
+    }
+
+    .market-news-current .news-filter-group .filter-control {
+        grid-column: span 1;
+    }
+
+    .market-news-current .news-filter-group .filter-control-fund {
+        grid-column: span 2;
     }
 
 }
@@ -3807,6 +3872,14 @@ body.has-news-dialog {
     .market-news-current .news-filter-group {
         grid-template-columns:
             repeat(2, minmax(0, 1fr));
+    }
+
+    .market-news-current .news-filter-group .filter-control {
+        grid-column: span 1;
+    }
+
+    .market-news-current .news-filter-group .filter-control-fund {
+        grid-column: span 2;
     }
 
 }
@@ -4864,20 +4937,22 @@ html[data-theme="light"] .summary-card-value.return-negative::before {
 }
 
 .monitor-table {
-    min-width: 900px;
+    /* wider with each period column shown */
+    min-width: calc(560px + var(--monitor-range-count, 3) * 78px);
 
     margin-top: 12px;
 }
 
-/* Latest BID, 1D, 1W, 1M, From 52W high and Alerts sit centred
+/* Latest BID, period change, From 52W high and Alerts sit centred
    under their headings */
 .monitor-table th:nth-child(n + 3),
 .monitor-table td:nth-child(n + 3) {
     text-align: center;
 }
 
-.monitor-table th:nth-child(n + 3):nth-child(-n + 7),
-.monitor-table td:nth-child(n + 3):nth-child(-n + 7) {
+.monitor-table .bid-cell,
+.monitor-table .monitor-range-cell,
+.monitor-table .monitor-high-cell {
     white-space: nowrap;
 }
 
@@ -7778,7 +7853,7 @@ html[data-theme="light"] .palette-swatch {
         padding: 0 4px;
 
         display: grid;
-        grid-template-columns: repeat(7, minmax(0, 1fr));
+        grid-template-columns: repeat(6, minmax(0, 1fr));
         align-items: stretch;
 
         gap: 0;
@@ -8631,6 +8706,2301 @@ html[data-theme="light"] .palette-swatch {
     width: 22%;
 }
 
+/* Footer: Feedback button, right of the version number */
+.footer-feedback {
+    flex-shrink: 0;
+
+    display: inline-flex;
+    align-items: center;
+
+    height: calc(24px * var(--font-scale, 1));
+    padding: 0 10px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 999px;
+
+    color: var(--text-secondary);
+    text-decoration: none;
+
+    font-size: calc(11px * var(--font-scale, 1));
+    font-weight: 700;
+    line-height: 1;
+}
+
+.footer-feedback:hover,
+.footer-feedback:focus-visible {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+/* Fund popup — dividend history: date above rate, all text kept inside its box */
+.fund-dividends {
+    grid-template-columns: repeat(auto-fill, minmax(min(140px, 100%), 1fr));
+}
+
+.fund-dividend {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2px;
+
+    min-width: 0;
+    overflow: hidden;
+}
+
+.fund-dividend span,
+.fund-dividend strong {
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+.fund-dividend span {
+    color: var(--text-muted);
+    font-size: calc(11px * var(--font-scale, 1));
+}
+
+.fund-dividend strong {
+    font-size: calc(13px * var(--font-scale, 1));
+}
+
+
+/* Watchlist: change period tabs (1D to 5Y) in the card header */
+.monitor-card .card-header .watchlist-range-selector {
+    flex: 0 0 auto;
+    margin-left: auto;
+}
+
+.monitor-range-cell .fund-meta {
+    margin-top: 4px;
+    font-size: calc(10.5px * var(--font-scale, 1));
+}
+
+.monitor-table th.monitor-range-cell,
+.monitor-table td.monitor-range-cell {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+@media (max-width: 699px) {
+    .monitor-card .card-header {
+        flex-wrap: wrap;
+    }
+
+    .monitor-card .card-header .watchlist-range-selector {
+        flex: 1 1 100%;
+        margin-left: 0;
+    }
+
+    /* Phone cards: one period -> it and From high share the row;
+       several -> they flow four to a row */
+    .monitor-table[data-range-count="1"] .monitor-range-cell,
+    .monitor-table[data-range-count="1"] .monitor-high-cell {
+        grid-column: span 2;
+    }
+
+    .monitor-table .monitor-range-cell .fund-meta {
+        font-size: calc(10.5px * var(--font-scale, 1));
+    }
+}
+
+/* Fund Explorer: fund whose latest data update failed (last good data shown) */
+.explorer-stale-tag {
+    color: #d4a017;
+    font-weight: 650;
+}
+
+.news-badge.explorer-stale-badge {
+    border-color: rgba(212, 160, 23, 0.45);
+    background: rgba(212, 160, 23, 0.12);
+    color: #d4a017;
+}
+
+html[data-theme="light"] .explorer-stale-tag,
+html[data-theme="light"] .news-badge.explorer-stale-badge {
+    color: #8a6400;
+}
+
+/* ============================================================
+   PRUDENTIAL FUNDS / INDICES
+   Market Performance and Monitoring show one data set at a time,
+   picked with the same selector as the Fund Explorer.
+   ============================================================ */
+
+.market-block {
+    min-width: 0;
+}
+
+.market-block[hidden] {
+    display: none;
+}
+
+.market-block-note {
+    margin: 0 0 12px;
+}
+
+.market-block-note[hidden],
+[data-funds-only][hidden] {
+    display: none !important;
+}
+
+#index-source-note {
+    margin-top: 10px;
+}
+
+.monitor-shared-rules {
+    margin: 4px 16px 14px;
+}
+
+
+/* Fund Explorer: Prudential Funds / Indices selector */
+.explorer-dataset {
+    display: inline-flex;
+    gap: 3px;
+
+    margin-bottom: 14px;
+    padding: 3px;
+
+    border: 1px solid var(--border-subtle);
+    border-radius: 999px;
+
+    background: var(--bg-page);
+}
+
+.explorer-dataset-tab {
+    padding: 7px 16px;
+
+    border: 0;
+    border-radius: 999px;
+
+    background: transparent;
+    color: var(--text-muted);
+
+    font: inherit;
+    font-size: calc(13px * var(--font-scale, 1));
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+/* Market News scope: hide the filter that doesn't apply */
+.news-scope {
+    display: flex;
+    width: max-content;
+    max-width: 100%;
+}
+
+.news-scope .explorer-dataset-tab {
+    white-space: nowrap;
+}
+
+@media (max-width: 699px) {
+    .news-scope {
+        width: 100%;
+    }
+}
+
+#market-news-view[data-news-scope="funds"] .filter-control-index,
+#market-news-view[data-news-scope="indices"] .filter-control-fund:not(.filter-control-index) {
+    display: none;
+}
+
+/* Indices-only: Index takes the Fund slot on the second row */
+#market-news-view[data-news-scope="indices"] .history-toolbar > .filter-control-index {
+    margin-left: auto;
+}
+
+@media (max-width: 699px) and (pointer: coarse), (max-height: 500px) and (max-width: 1000px) and (pointer: coarse) {
+    #market-news-view[data-news-scope="indices"] .history-toolbar > .filter-control-index {
+        margin-left: 0;
+    }
+}
+
+.explorer-dataset-tab:hover {
+    color: var(--text-primary);
+}
+
+.explorer-dataset-tab.active {
+    background: var(--accent);
+    color: var(--bg-surface);
+}
+
+/* Indices have no payment modes or risk levels */
+#fund-explorer-view[data-dataset="indices"] .explorer-payment-head,
+#fund-explorer-view[data-dataset="indices"] .explorer-payment-cell,
+#fund-explorer-view[data-dataset="indices"] .explorer-risk-head,
+#fund-explorer-view[data-dataset="indices"] .explorer-risk-cell {
+    display: none;
+}
+
+@media (max-width: 699px) {
+    .explorer-dataset {
+        display: flex;
+    }
+
+    .explorer-dataset-tab {
+        flex: 1 1 0;
+    }
+}
+
+
+/* ============================================================
+   PRUSHIELD PREMIUM CALCULATOR
+   Form on the left, premium summary (sticky) on the right;
+   one column on narrower screens.
+   ============================================================ */
+
+.shield-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 420px);
+    gap: 14px;
+    align-items: start;
+}
+
+.shield-card {
+    margin-bottom: 0;
+}
+
+.shield-form {
+    display: grid;
+    gap: 16px;
+
+    padding: 4px 16px 18px;
+}
+
+.shield-field select {
+    width: 100%;
+    height: 37px;
+
+    padding: 0 10px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 6px;
+
+    background: var(--bg-input);
+    color: var(--text-primary);
+
+    font: inherit;
+    font-size: calc(13px * var(--font-scale, 1));
+}
+
+.shield-field .vselect {
+    width: 100%;
+}
+
+.shield-hint {
+    margin: 0;
+
+    font-style: normal;
+}
+
+.shield-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--text-secondary);
+
+    font-size: calc(13px * var(--font-scale, 1));
+}
+
+.shield-toggle[hidden] {
+    display: none;
+}
+
+.shield-toggle input {
+    width: 18px;
+    height: 18px;
+
+    accent-color: var(--accent);
+}
+
+.shield-notes {
+    display: grid;
+    gap: 8px;
+}
+
+.shield-notes:empty {
+    display: none;
+}
+
+.shield-note {
+    padding: 8px 10px;
+
+    border-radius: 6px;
+
+    font-size: calc(12.5px * var(--font-scale, 1));
+}
+
+.shield-note.is-warn {
+    background: var(--warning-soft);
+    color: var(--warning);
+}
+
+.shield-note.is-info {
+    background: var(--info-soft);
+    color: var(--info);
+}
+
+.shield-summary {
+    position: sticky;
+    top: 16px;
+}
+
+.shield-summary-body {
+    display: grid;
+    gap: 16px;
+
+    padding: 4px 16px 18px;
+}
+
+.shield-total {
+    display: grid;
+    gap: 2px;
+}
+
+.shield-total strong {
+    color: var(--text-primary);
+
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: calc(30px * var(--font-scale, 1));
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+}
+
+.shield-total span {
+    color: var(--text-muted);
+
+    font-size: calc(12.5px * var(--font-scale, 1));
+}
+
+.shield-table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    font-size: calc(13px * var(--font-scale, 1));
+}
+
+.shield-table th,
+.shield-table td {
+    padding: 8px 0;
+
+    border-bottom: 1px solid var(--border-subtle);
+
+    color: var(--text-primary);
+
+    text-align: left;
+    vertical-align: top;
+}
+
+.shield-table th {
+    color: var(--text-muted);
+
+    font-size: calc(10px * var(--font-scale, 1));
+    font-weight: 750;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.shield-table .shield-num {
+    padding-left: 12px;
+
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.shield-sub {
+    display: block;
+
+    margin-top: 2px;
+
+    color: var(--text-muted);
+
+    font-size: calc(11.5px * var(--font-scale, 1));
+}
+
+.shield-table .shield-sum td {
+    border-bottom: 0;
+
+    font-weight: 700;
+}
+
+.shield-split {
+    display: grid;
+    gap: 8px;
+}
+
+.shield-split-title {
+    color: var(--text-muted);
+
+    font-size: calc(10px * var(--font-scale, 1));
+    font-weight: 750;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.shield-bar {
+    display: flex;
+
+    height: 10px;
+
+    overflow: hidden;
+
+    border-radius: 5px;
+
+    background: var(--border-subtle);
+}
+
+.shield-bar span {
+    display: block;
+
+    height: 100%;
+
+    transition: width 200ms ease;
+}
+
+.shield-bar-ms,
+.shield-dot-ms {
+    background: var(--info);
+}
+
+.shield-bar-cash,
+.shield-dot-cash {
+    background: var(--warning);
+}
+
+.shield-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px 12px;
+
+    color: var(--text-secondary);
+
+    font-size: calc(12.5px * var(--font-scale, 1));
+}
+
+.shield-legend b {
+    margin-left: 4px;
+
+    color: var(--text-primary);
+
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+}
+
+.shield-dot {
+    display: inline-block;
+
+    width: 9px;
+    height: 9px;
+
+    margin-right: 6px;
+
+    border-radius: 50%;
+
+    vertical-align: middle;
+}
+
+.shield-footnote {
+    display: grid;
+    gap: 6px;
+
+    max-width: 90ch;
+
+    margin-top: 14px;
+}
+
+.shield-footnote p {
+    margin: 0;
+}
+
+@media (max-width: 960px) {
+    .shield-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .shield-summary {
+        position: static;
+    }
+}
+
+/* "p.a." marker on annualised (longer than 1 year) column headings */
+.monitor-pa {
+    font-size: 0.85em;
+    font-weight: 600;
+    opacity: 0.75;
+    text-transform: none;
+}
+
+/* Page header fact shown only for the selected data set */
+.page-header-meta[hidden] {
+    display: none !important;
+}
+
+
+/* ============================================================
+   ANNEX — PRUDENTIAL PRODUCT BROCHURES
+   ============================================================ */
+
+/* Footer: Annex sits just left of Feedback */
+.footer-annex {
+    margin-right: 6px;
+
+    background: transparent;
+
+    font-family: inherit;
+
+    cursor: pointer;
+}
+
+.footer-annex.active {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.annex-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 10px;
+}
+
+.annex-search {
+    flex: 1 1 260px;
+}
+
+.annex-groups {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 6px;
+}
+
+.annex-chip {
+    height: 32px;
+
+    padding: 0 12px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 999px;
+
+    background: transparent;
+    color: var(--text-secondary);
+
+    font: inherit;
+    font-size: calc(12px * var(--font-scale, 1));
+    font-weight: 650;
+
+    white-space: nowrap;
+
+    cursor: pointer;
+}
+
+.annex-chip:hover {
+    color: var(--text-primary);
+}
+
+.annex-chip.active {
+    border-color: var(--accent);
+
+    background: var(--accent);
+    color: var(--bg-surface);
+}
+
+.annex-chip-count {
+    margin-left: 4px;
+
+    opacity: 0.75;
+
+    font-weight: 500;
+}
+
+.annex-status {
+    margin: 0 0 12px;
+
+    color: var(--text-muted);
+
+    font-size: calc(12px * var(--font-scale, 1));
+}
+
+.annex-status.is-warning {
+    color: var(--warning);
+}
+
+.annex-group + .annex-group {
+    margin-top: 22px;
+}
+
+.annex-group-title {
+    margin: 0 0 10px;
+
+    color: var(--text-muted);
+
+    font-size: calc(11px * var(--font-scale, 1));
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.annex-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+
+    gap: 10px;
+}
+
+.annex-card {
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+
+    min-width: 0;
+
+    padding: 14px;
+
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+
+    background: var(--bg-surface);
+}
+
+.annex-card-name {
+    margin: 0;
+
+    color: var(--text-primary);
+
+    font-size: calc(14px * var(--font-scale, 1));
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.annex-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 4px;
+}
+
+.annex-card-desc {
+    margin: 0;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    color: var(--text-secondary);
+
+    font-size: calc(12px * var(--font-scale, 1));
+    line-height: 1.45;
+}
+
+.annex-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 6px;
+
+    margin-top: auto;
+    padding-top: 4px;
+}
+
+.annex-doc {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 5px;
+
+    height: 30px;
+
+    padding: 0 11px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 6px;
+
+    color: var(--text-primary);
+    text-decoration: none;
+
+    font-size: calc(12px * var(--font-scale, 1));
+    font-weight: 650;
+
+    white-space: nowrap;
+}
+
+.annex-doc:hover,
+.annex-doc:focus-visible {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.annex-doc.is-primary {
+    border-color: var(--accent);
+
+    background: var(--accent-soft);
+}
+
+.annex-doc-page {
+    border-style: dashed;
+
+    color: var(--text-secondary);
+}
+
+.annex-more {
+    font-size: calc(12px * var(--font-scale, 1));
+}
+
+.annex-more > summary {
+    color: var(--text-secondary);
+
+    cursor: pointer;
+}
+
+.annex-more ul {
+    margin: 6px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.annex-more li + li {
+    margin-top: 4px;
+}
+
+.annex-more a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.annex-more a:hover {
+    text-decoration: underline;
+}
+
+.annex-empty {
+    padding: 28px 16px;
+
+    border: 1px dashed var(--border-medium);
+    border-radius: 8px;
+
+    color: var(--text-muted);
+    text-align: center;
+}
+
+.annex-note {
+    margin: 18px 0 0;
+
+    color: var(--text-faint);
+
+    font-size: calc(11px * var(--font-scale, 1));
+    line-height: 1.5;
+}
+
+@media (max-width: 699px) {
+    .annex-groups {
+        flex-wrap: nowrap;
+
+        overflow-x: auto;
+
+        width: 100%;
+        padding-bottom: 2px;
+    }
+}
+
+/* Annex: buttons that open a PDF in the popup */
+button.annex-doc {
+    background: transparent;
+
+    font-family: inherit;
+
+    cursor: pointer;
+}
+
+button.annex-doc.is-primary {
+    background: var(--accent-soft);
+}
+
+.annex-more-link {
+    padding: 0;
+
+    border: 0;
+
+    background: none;
+    color: var(--accent);
+
+    font: inherit;
+    text-align: left;
+
+    cursor: pointer;
+}
+
+.annex-more-link:hover {
+    text-decoration: underline;
+}
+
+/* Annex PDF popup */
+.annex-pdf-dialog {
+    width: min(1100px, calc(100vw - 48px));
+    height: calc(100vh - 48px);
+    max-height: none;
+}
+
+.annex-pdf {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.annex-pdf-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 12px;
+
+    padding: 12px 14px 12px 20px;
+
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.annex-pdf-heading {
+    min-width: 0;
+}
+
+.annex-pdf-label {
+    color: var(--text-muted);
+
+    font-size: calc(11px * var(--font-scale, 1));
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.annex-pdf-title {
+    margin: 2px 0 0;
+
+    overflow: hidden;
+
+    color: var(--text-primary);
+
+    font-size: calc(16px * var(--font-scale, 1));
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.annex-pdf-actions {
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+
+    gap: 6px;
+}
+
+.annex-pdf-button {
+    display: inline-flex;
+    align-items: center;
+
+    height: 30px;
+
+    padding: 0 11px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 6px;
+
+    background: transparent;
+    color: var(--text-secondary);
+    text-decoration: none;
+
+    font: inherit;
+    font-size: calc(12px * var(--font-scale, 1));
+    font-weight: 650;
+
+    white-space: nowrap;
+
+    cursor: pointer;
+}
+
+.annex-pdf-button:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.annex-pdf-body {
+    position: relative;
+
+    flex: 1;
+    min-height: 0;
+
+    background: #e9edf1;
+}
+
+.annex-pdf-frame {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    border: 0;
+}
+
+.annex-pdf-loading {
+    position: absolute;
+    inset: 0;
+
+    display: grid;
+    place-items: center;
+
+    color: #4a5866;
+
+    font-size: calc(13px * var(--font-scale, 1));
+
+    pointer-events: none;
+}
+
+.annex-pdf-loading[hidden] {
+    display: none;
+}
+
+@media (max-width: 699px) {
+    .annex-pdf-dialog {
+        width: 100vw;
+        max-width: 100vw;
+        height: 100dvh;
+
+        border-radius: 0;
+    }
+
+    .annex-pdf-header {
+        padding: 10px 8px 10px 14px;
+    }
+
+    .annex-pdf-button[data-annex-pdf-reload] {
+        display: none;
+    }
+}
+
+/* Annex PDF popup: saved brochure drawn page by page (PDF.js) */
+.annex-pdf-pages {
+    position: absolute;
+    inset: 0;
+
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 12px;
+}
+
+.annex-pdf-page {
+    position: relative;
+
+    flex-shrink: 0;
+
+    max-width: none;
+
+    background: #ffffff;
+
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.annex-pdf-page canvas {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+}
+
+.annex-pdf-frame[hidden] {
+    display: none;
+}
+
+.annex-pdf-zoom {
+    display: flex;
+
+    gap: 4px;
+}
+
+.annex-pdf-zoom .annex-pdf-button {
+    min-width: 30px;
+
+    justify-content: center;
+
+    padding: 0 8px;
+}
+
+.annex-pdf-button[hidden] {
+    display: none;
+}
+
+/* Zoom only for saved brochures; Reload only for the online viewer */
+.annex-pdf-dialog.is-online [data-annex-zoom-group],
+.annex-pdf-dialog:not(.is-online) [data-annex-pdf-reload] {
+    display: none;
+}
+
+/* Pages wider than the popup when zoomed in: scroll sideways */
+.annex-pdf-pages:has(.annex-pdf-page[style*="width"]) {
+    align-items: safe center;
+}
+
+@media (max-width: 699px) {
+    .annex-pdf-pages {
+        padding: 8px;
+        gap: 8px;
+    }
+
+    [data-annex-pdf-open] {
+        display: none;
+    }
+}
+
+/* Annex: Prudential's sub-categories (Medical Insurance, Whole Life ...) */
+.annex-subgroup-title {
+    margin: 14px 0 8px;
+
+    color: var(--text-secondary);
+
+    font-size: calc(13px * var(--font-scale, 1));
+    font-weight: 700;
+}
+
+.annex-group-title + .annex-subgroup-title {
+    margin-top: 0;
+}
+
+.annex-subgroup-title + .annex-grid + .annex-subgroup-title {
+    margin-top: 18px;
+}
+
+/* Annex: no default highlight; brochure + product page buttons get a
+   thicker border than the card so they stand out */
+.annex-card .annex-doc,
+.annex-card button.annex-doc,
+.annex-card button.annex-doc.is-primary {
+    border-width: 2px;
+    border-color: var(--text-muted);
+
+    background: transparent;
+}
+
+.annex-card .annex-doc:hover,
+.annex-card .annex-doc:focus-visible {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+/* Annex: the plan name opens Prudential's product page */
+.annex-card-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.annex-card-link::after {
+    content: " ↗";
+
+    color: var(--text-muted);
+
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.annex-card-link:hover,
+.annex-card-link:focus-visible {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+/* Online viewer: Download already opens Prudential's file, so hide Open */
+.annex-pdf-dialog.is-online [data-annex-pdf-open] {
+    display: none;
+}
+
+/* Download stays visible on phones */
+.annex-pdf-button[data-annex-pdf-download] {
+    font-weight: 700;
+}
+
+/* Annex: category labels under the plan name - clear in every theme
+   and colour palette (text in the main text colour on a tint of the
+   palette colour, framed in the palette colour) */
+.annex-card .annex-tag {
+    padding: 3px 8px;
+
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+
+    background: var(--accent-soft);
+    color: var(--text-primary);
+
+    font-size: calc(11px * var(--font-scale, 1));
+    font-weight: 650;
+    line-height: 1.3;
+}
+
+/* Phones: Calculator + Annex + Feedback need the footer's room, so the
+   "Prudential Singapore fund data" note is hidden there */
+@media (max-width: 699px) {
+    .footer-source {
+        display: none;
+    }
+}
+
+/* Calculator page: PRUShield Premium / PruCredit$ */
+.calc-switch {
+    margin-bottom: 16px;
+}
+
+.calc-block[hidden] {
+    display: none;
+}
+
+
+
+/* ============================================================
+   PRUCREDIT$ CALCULATOR
+   ============================================================ */
+
+.pc-tabs {
+    margin-bottom: 14px;
+}
+
+.pc [hidden] {
+    display: none !important;
+}
+
+.pc-top {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 360px);
+    gap: 14px;
+    align-items: start;
+
+    margin-bottom: 14px;
+}
+
+.pc-add-body,
+.pc-summary-body {
+    display: grid;
+    gap: 12px;
+
+    padding: 4px 16px 18px;
+}
+
+.pc-drop {
+    display: grid;
+    justify-items: center;
+    gap: 4px;
+
+    padding: 26px 16px;
+
+    border: 2px dashed var(--border-medium);
+    border-radius: 8px;
+
+    color: var(--text-secondary);
+    text-align: center;
+
+    font-size: calc(12px * var(--font-scale, 1));
+
+    cursor: pointer;
+}
+
+.pc-drop strong {
+    color: var(--text-primary);
+
+    font-size: calc(15px * var(--font-scale, 1));
+}
+
+.pc-drop:hover,
+.pc-drop:focus-visible,
+.pc-drop.is-over {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+}
+
+.pc-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.pc .annex-doc {
+    border-width: 2px;
+    border-color: var(--text-muted);
+
+    background: transparent;
+    color: var(--text-primary);
+
+    font-family: inherit;
+
+    cursor: pointer;
+}
+
+.pc .annex-doc:hover,
+.pc .annex-doc:focus-visible {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.pc .annex-doc:disabled {
+    opacity: 0.45;
+
+    cursor: default;
+}
+
+.pc-text-box {
+    display: grid;
+    gap: 8px;
+    justify-items: start;
+}
+
+.pc-text-box textarea {
+    width: 100%;
+
+    padding: 10px 12px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 6px;
+
+    background: var(--bg-input);
+    color: var(--text-primary);
+
+    font: inherit;
+    font-size: calc(13px * var(--font-scale, 1));
+
+    resize: vertical;
+}
+
+.pc-message {
+    margin: 0;
+
+    color: var(--text-secondary);
+
+    font-size: calc(12.5px * var(--font-scale, 1));
+}
+
+.pc-message:empty {
+    display: none;
+}
+
+.pc-summary {
+    position: sticky;
+    top: 16px;
+}
+
+.pc-total {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.pc-total strong {
+    color: var(--text-primary);
+
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: calc(30px * var(--font-scale, 1));
+}
+
+.pc-total span,
+.pc-summary-row span {
+    color: var(--text-muted);
+
+    font-size: calc(12px * var(--font-scale, 1));
+}
+
+.pc-summary-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    padding-top: 8px;
+
+    border-top: 1px solid var(--border-subtle);
+}
+
+.pc-summary-row strong {
+    color: var(--text-primary);
+
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.pc-summary-note {
+    margin: 0;
+
+    color: var(--text-secondary);
+
+    font-size: calc(12px * var(--font-scale, 1));
+}
+
+.pc-link-button {
+    padding: 0;
+
+    border: 0;
+
+    background: none;
+    color: var(--accent);
+
+    font: inherit;
+    font-size: calc(12.5px * var(--font-scale, 1));
+    font-weight: 650;
+
+    cursor: pointer;
+}
+
+.pc-link-button:hover {
+    text-decoration: underline;
+}
+
+.pc-policies {
+    display: grid;
+    gap: 12px;
+}
+
+.pc-empty {
+    margin: 0;
+    padding: 26px 16px;
+
+    border: 1px dashed var(--border-medium);
+    border-radius: 8px;
+
+    color: var(--text-muted);
+    text-align: center;
+}
+
+.pc-policy {
+    margin-bottom: 0;
+}
+
+.pc-policy-header {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pc-policy-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.pc-status {
+    margin: 0 16px 10px;
+    padding: 8px 10px;
+
+    border-radius: 6px;
+
+    background: var(--warning-soft);
+    color: var(--warning);
+
+    font-size: calc(12.5px * var(--font-scale, 1));
+}
+
+.pc-items {
+    display: grid;
+}
+
+.pc-item {
+    display: grid;
+    grid-template-columns: minmax(0, 2.4fr) minmax(0, 0.9fr) minmax(0, 1.1fr) minmax(0, 1.2fr) auto;
+    gap: 10px;
+    align-items: end;
+
+    padding: 12px 16px;
+
+    border-top: 1px solid var(--border-subtle);
+}
+
+.pc-item:has(.pc-field-term) {
+    grid-template-columns: minmax(0, 2.2fr) minmax(0, 0.9fr) minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1.1fr) auto;
+}
+
+.pc-item.is-incomplete {
+    background: var(--warning-soft);
+}
+
+.pc-field {
+    display: grid;
+    gap: 4px;
+
+    min-width: 0;
+}
+
+.pc-field > span {
+    color: var(--text-muted);
+
+    font-size: calc(10.5px * var(--font-scale, 1));
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.pc-field select,
+.pc-field input {
+    width: 100%;
+    height: 37px;
+
+    padding: 0 10px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 6px;
+
+    background: var(--bg-input);
+    color: var(--text-primary);
+
+    font: inherit;
+    font-size: calc(13px * var(--font-scale, 1));
+}
+
+.pc-field-inline select {
+    min-width: 170px;
+}
+
+.pc-item-result {
+    display: grid;
+    justify-items: end;
+    gap: 1px;
+
+    text-align: right;
+}
+
+.pc-item-multiplier {
+    color: var(--text-muted);
+
+    font-size: calc(11px * var(--font-scale, 1));
+    font-weight: 700;
+}
+
+.pc-item-result strong {
+    color: var(--text-primary);
+
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: calc(15px * var(--font-scale, 1));
+}
+
+.pc-item-result small {
+    color: var(--text-secondary);
+
+    font-size: calc(11px * var(--font-scale, 1));
+}
+
+.pc-item.is-incomplete .pc-item-result small {
+    color: var(--warning);
+    font-weight: 650;
+}
+
+.pc-remove {
+    width: 30px;
+    height: 37px;
+
+    border: 0;
+    border-radius: 6px;
+
+    background: transparent;
+    color: var(--text-muted);
+
+    font-size: calc(20px * var(--font-scale, 1));
+
+    cursor: pointer;
+}
+
+.pc-remove:hover {
+    background: var(--bg-surface-hover);
+    color: var(--negative);
+}
+
+.pc-policy-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px 16px;
+
+    border-top: 1px solid var(--border-subtle);
+
+    color: var(--text-secondary);
+
+    font-size: calc(12.5px * var(--font-scale, 1));
+}
+
+.pc-policy-footer strong {
+    color: var(--text-primary);
+
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.pc-search {
+    display: block;
+
+    margin-bottom: 14px;
+}
+
+.pc-ref-group {
+    margin-top: 18px;
+}
+
+.pc-ref-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+    gap: 8px;
+}
+
+.pc-ref-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+
+    padding: 10px 14px;
+
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+
+    background: var(--bg-surface);
+}
+
+.pc-ref-name {
+    color: var(--text-primary);
+
+    font-size: calc(13px * var(--font-scale, 1));
+    font-weight: 650;
+}
+
+.pc-ref-source {
+    color: var(--text-muted);
+
+    font-size: calc(11px * var(--font-scale, 1));
+}
+
+.pc-ref-multiplier {
+    flex-shrink: 0;
+
+    color: var(--accent);
+
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: calc(16px * var(--font-scale, 1));
+}
+
+@media (max-width: 1100px) {
+    .pc-top {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .pc-summary {
+        position: static;
+    }
+
+    /* Plan / rider on its own line, premium + frequency side by side,
+       premium term and the result below; × in the top-right corner */
+    .pc-item,
+    .pc-item:has(.pc-field-term) {
+        position: relative;
+
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+        padding-right: 44px;
+    }
+
+    .pc-field-product,
+    .pc-field-term,
+    .pc-item-result {
+        grid-column: 1 / -1;
+    }
+
+    .pc-item-result {
+        justify-items: start;
+
+        text-align: left;
+    }
+
+    .pc-remove {
+        position: absolute;
+        top: 28px;
+        right: 8px;
+    }
+}
+
+/* PRUShield: age typed in, or worked out from the date of birth */
+.shield-age-field {
+    display: grid;
+    gap: 6px;
+}
+
+.shield-age-mode {
+    display: flex;
+    width: max-content;
+    max-width: 100%;
+
+    margin: 0;
+}
+
+.shield-age-mode .explorer-dataset-tab {
+    padding: 6px 14px;
+
+    font-size: calc(12px * var(--font-scale, 1));
+    white-space: nowrap;
+}
+
+.shield-input {
+    width: 100%;
+    height: 37px;
+
+    padding: 0 10px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 6px;
+
+    background: var(--bg-input);
+    color: var(--text-primary);
+
+    font: inherit;
+    font-size: calc(13px * var(--font-scale, 1));
+
+    color-scheme: light dark;
+}
+
+.shield-input:focus {
+    border-color: var(--accent);
+    outline: none;
+
+    box-shadow: 0 0 0 2px var(--accent-soft);
+}
+
+.shield-input[hidden] {
+    display: none;
+}
+
+.shield-hint.is-error {
+    color: var(--warning);
+}
+
+@media (max-width: 699px) {
+    .shield-age-mode {
+        width: 100%;
+    }
+}
+
+/* PRUShield: age next birthday - type it, or pick from the list (▾) */
+.shield-combo {
+    position: relative;
+}
+
+.shield-combo[hidden] {
+    display: none;
+}
+
+.shield-combo .shield-input {
+    padding-right: 40px;
+}
+
+.shield-combo-toggle {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+
+    width: 36px;
+    height: 35px;
+
+    border: 0;
+    border-left: 1px solid var(--border-subtle);
+    border-radius: 0 5px 5px 0;
+
+    background: transparent;
+    color: var(--text-muted);
+
+    font-size: calc(13px * var(--font-scale, 1));
+
+    cursor: pointer;
+}
+
+.shield-combo-toggle:hover {
+    background: var(--bg-surface-hover);
+    color: var(--text-primary);
+}
+
+.shield-combo-list {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    z-index: 50;
+
+    max-height: 260px;
+    overflow-y: auto;
+
+    margin: 0;
+    padding: 4px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 8px;
+
+    background: var(--bg-surface);
+    box-shadow: var(--shadow-medium);
+
+    list-style: none;
+}
+
+.shield-combo-list[hidden] {
+    display: none;
+}
+
+.shield-combo-list li {
+    padding: 7px 10px;
+
+    border-radius: 5px;
+
+    color: var(--text-primary);
+
+    font-size: calc(13px * var(--font-scale, 1));
+
+    cursor: pointer;
+}
+
+.shield-combo-list li:hover,
+.shield-combo-list li.is-active {
+    background: var(--accent-soft);
+}
+
+.shield-combo-list li[aria-selected="true"] {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+/* The age list floats over the form instead of being cut off by the card */
+.shield-card:has(.shield-combo) {
+    overflow: visible;
+}
+
+.shield-combo-list.opens-up {
+    top: auto;
+    bottom: calc(100% + 4px);
+}
+
+/* PruCredit$: screenshot buttons sit inside the drop box */
+.pc-drop {
+    gap: 8px;
+
+    padding: 22px 16px;
+}
+
+.pc-drop-buttons {
+    justify-content: center;
+
+    margin-top: 6px;
+}
+
+.pc-drop-tip {
+    color: var(--text-muted);
+
+    font-size: calc(11.5px * var(--font-scale, 1));
+}
+
+@media (pointer: coarse) {
+    .pc-drop-tip {
+        display: none;
+    }
+}
+
+/* PruCredit$: box to paste into when the browser blocks clipboard access */
+.pc .pc-paste-zone {
+    display: block;
+
+    width: min(100%, 320px);
+    min-height: 44px;
+
+    padding: 11px 12px;
+
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+
+    background: var(--bg-input);
+    color: transparent;
+
+    caret-color: var(--accent);
+    font-size: calc(13px * var(--font-scale, 1));
+    text-align: center;
+
+    overflow: hidden;
+    outline: none;
+
+    cursor: text;
+}
+
+.pc .pc-paste-zone[hidden] {
+    display: none !important;
+}
+
+.pc-paste-zone:empty::before {
+    content: attr(data-placeholder);
+
+    color: var(--text-secondary);
+}
+
+/* PruCredit$: Download breakdown at the bottom, once a plan is added */
+.pc-download-bar {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 12px;
+}
+
+/* Report Generation: change a fund's BID price (purchase / end date) */
+.report-bid-toggle {
+    margin-top: 4px;
+    padding: 0;
+
+    border: 0;
+
+    background: none;
+    color: var(--accent);
+
+    font: inherit;
+    font-size: calc(11.5px * var(--font-scale, 1));
+    font-weight: 650;
+
+    cursor: pointer;
+}
+
+.report-bid-toggle:hover {
+    text-decoration: underline;
+}
+
+.report-bid-toggle.is-edited {
+    color: var(--warning);
+}
+
+.report-bid-row > td {
+    padding-top: 0;
+
+    background: var(--bg-surface-raised);
+}
+
+.report-bid-fields {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) auto;
+    gap: 10px 14px;
+    align-items: start;
+
+    padding: 10px 0 4px;
+}
+
+.report-bid-field {
+    display: grid;
+    gap: 4px;
+
+    min-width: 0;
+}
+
+.report-bid-field > span {
+    color: var(--text-muted);
+
+    font-size: calc(10.5px * var(--font-scale, 1));
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.report-bid-field input {
+    width: 100%;
+    height: 34px;
+
+    padding: 0 10px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 6px;
+
+    background: var(--bg-input);
+    color: var(--text-primary);
+
+    font: inherit;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: calc(13px * var(--font-scale, 1));
+}
+
+.report-bid-field input:focus {
+    border-color: var(--accent);
+    outline: none;
+}
+
+.report-bid-field em {
+    color: var(--text-secondary);
+
+    font-size: calc(11px * var(--font-scale, 1));
+    font-style: normal;
+    line-height: 1.35;
+}
+
+.report-bid-fields .pc-link-button {
+    align-self: center;
+
+    margin-top: 14px;
+
+    white-space: nowrap;
+}
+
+@media (max-width: 699px) {
+    .report-bid-fields {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .report-bid-fields .pc-link-button {
+        justify-self: start;
+
+        margin-top: 0;
+    }
+}
+
+/* Report Generation: fund switching (step 6) */
+.report-switch-grid {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.8fr) minmax(0, 0.7fr);
+}
+
+.report-switch-from select {
+    width: 100%;
+}
+
+.report-switch-portion {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.report-switch-portion input {
+    width: 100%;
+}
+
+.report-switch-help {
+    margin: 10px 0 6px;
+}
+
+@media (max-width: 699px) {
+    .report-switch-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+.report-switch-from select {
+    height: 37px;
+
+    padding: 0 10px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 6px;
+
+    background: var(--bg-input);
+    color: var(--text-primary);
+
+    font: inherit;
+    font-size: calc(13px * var(--font-scale, 1));
+}
+
+.report-switch-from select:focus {
+    border-color: var(--accent);
+    outline: none;
+
+    box-shadow: 0 0 0 2px var(--accent-soft);
+}
+
+/* Generate report: clear gap (and a divider) below the last options */
+.report-step .report-actions {
+    margin-top: 20px;
+    padding-top: 16px;
+
+    border-top: 1px solid var(--border-subtle);
+}
+
+.report-step .report-error:not([hidden]) {
+    margin-top: 16px;
+}
+
+/* Fund switching: BID price boxes (empty = published price) */
+.report-switch-grid {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.7fr) minmax(0, 0.6fr) minmax(0, 0.9fr);
+}
+
+.report-switch-bid-note {
+    margin: 8px 0 0;
+}
+
+.report-switch-bid-cell input {
+    width: 100%;
+    min-width: 110px;
+    height: 32px;
+
+    padding: 0 8px;
+
+    border: 1px solid var(--border-medium);
+    border-radius: 6px;
+
+    background: var(--bg-input);
+    color: var(--text-primary);
+
+    font: inherit;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: calc(12px * var(--font-scale, 1));
+}
+
+.report-switch-bid-cell input::placeholder,
+.report-switch-grid input::placeholder {
+    color: var(--text-faint);
+    font-size: calc(11.5px * var(--font-scale, 1));
+}
+
+.rpt-plan-switches {
+    display: block;
+
+    margin-top: 6px;
+}
+
+@media (max-width: 699px) {
+    .report-switch-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+/* Footer: version sits right after "ELG FMS"; buttons on the right */
+.site-footer .footer-version,
+.site-footer .footer-inner .footer-version {
+    margin-left: 0;
+}
+
+.site-footer .footer-calculator {
+    margin-left: auto;
+}
+
+
+/* ============================================================
+   CHANGELOG (footer version number -> popup)
+   ============================================================ */
+
+button.footer-version {
+    padding: 2px 6px;
+    margin-right: -6px;
+
+    border: 0;
+    border-radius: var(--radius-small);
+
+    background: transparent;
+    color: var(--text-muted);
+
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+
+    cursor: pointer;
+}
+
+button.footer-version:hover {
+    background: var(--bg-surface-hover);
+    color: var(--accent);
+}
+
+.changelog-dialog {
+    width: min(640px, calc(100% - 32px));
+}
+
+.changelog {
+    max-height: min(86vh, 900px);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.changelog-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 12px;
+
+    padding: 16px 20px 14px;
+
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.changelog-eyebrow {
+    color: var(--text-muted);
+
+    font-size: calc(11px * var(--font-scale, 1));
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.changelog-title {
+    margin: 2px 0 0;
+
+    color: var(--text-primary);
+
+    font-size: calc(20px * var(--font-scale, 1));
+    font-weight: 700;
+}
+
+.changelog-body {
+    flex: 1;
+
+    padding: 4px 20px 20px;
+
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+.changelog-status {
+    margin: 18px 0;
+
+    color: var(--text-muted);
+}
+
+.changelog-version {
+    padding: 16px 0 6px;
+}
+
+.changelog-version + .changelog-version {
+    border-top: 1px solid var(--border-subtle);
+}
+
+.changelog-version-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+.changelog-version-number {
+    margin: 0;
+
+    color: var(--text-primary);
+
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: calc(17px * var(--font-scale, 1));
+    font-weight: 700;
+}
+
+.changelog-badge {
+    padding: 2px 8px;
+
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+
+    background: var(--accent-soft);
+    color: var(--text-primary);
+
+    font-size: calc(11px * var(--font-scale, 1));
+    font-weight: 600;
+}
+
+.changelog-date {
+    margin-left: auto;
+
+    color: var(--text-muted);
+
+    font-size: calc(12px * var(--font-scale, 1));
+}
+
+.changelog-summary {
+    margin: 8px 0 0;
+
+    color: var(--text-secondary);
+
+    line-height: 1.5;
+}
+
+.changelog-section {
+    margin-top: 14px;
+}
+
+.changelog-section-title {
+    display: inline-block;
+
+    margin: 0 0 6px;
+    padding: 1px 8px;
+
+    border-left: 3px solid var(--info);
+    border-radius: 3px;
+
+    background: var(--info-soft);
+    color: var(--text-primary);
+
+    font-size: calc(12px * var(--font-scale, 1));
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.changelog-section-title[data-kind="new"] {
+    border-left-color: var(--positive);
+    background: var(--positive-soft);
+}
+
+.changelog-section-title[data-kind="improved"],
+.changelog-section-title[data-kind="changed"] {
+    border-left-color: var(--warning);
+    background: var(--warning-soft);
+}
+
+.changelog-section-title[data-kind="removed"],
+.changelog-section-title[data-kind="fixed"] {
+    border-left-color: var(--negative);
+    background: var(--negative-soft);
+}
+
+.changelog-list {
+    margin: 0;
+    padding-left: 20px;
+
+    color: var(--text-secondary);
+
+    line-height: 1.55;
+}
+
+.changelog-list li + li {
+    margin-top: 5px;
+}
+
+.changelog-list li::marker {
+    color: var(--text-faint);
+}
+
+
+/* ============================================================
+   USER GUIDE (Settings > Help)
+   ============================================================ */
+
+.settings-guide-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 14px;
+
+    margin-top: 12px;
+}
+
+.settings-guide-open {
+    border-width: 2px;
+    border-color: var(--accent);
+
+    font-weight: 600;
+}
+
+
+/* The user guide popup has no Download button */
+.annex-pdf-button[hidden] {
+    display: none;
+}
+
 /* ============================================================
    PLAN CALCULATOR (PRUVantage Assure II / Wealth III)
    ============================================================ */
@@ -9441,4 +11811,3 @@ html[data-theme="light"] .palette-swatch {
     .calc-welcome-table td:first-child {
         min-width: 0;
     }
-}
