@@ -64,9 +64,17 @@ const RISK_ORDER = {
     "Higher Risk": 4
 };
 
+const DATASET_KEY = "vgrat-fms-explorer-dataset";
+
 const explorer = {
     initialized: false,
     historyIndex: null,          // set when bid_history.json arrives
+    indexHistory: null,          // set when data/indices.json arrives
+    dataset: "funds",            // "funds" (Prudential Funds) | "indices"
+    sets: {
+        funds: { records: [], rows: [], generatedAtUtc: null, loaded: false },
+        indices: { records: [], rows: [], generatedAtUtc: null, loaded: false, source: "" }
+    },
     chart: {
         fundId: null,
         range: "1Y",
@@ -112,6 +120,32 @@ function isBlank(value) {
     const text = String(value ?? "").trim();
     return !text || text === "-" || text === "—";
 }
+
+/* Returns over periods longer than 1 year are shown annualised
+   (p.a.); 1 year and shorter stay cumulative. Years = calendar
+   days / 365.25, with a few days' slack so a 1-year range that
+   spans a leap day still counts as 1 year. */
+const ANNUALISE_ABOVE_YEARS = 1.02;
+
+function yearsBetweenIso(fromIso, toIso) {
+    const from = Date.parse(`${fromIso}T00:00:00Z`);
+    const to = Date.parse(`${toIso}T00:00:00Z`);
+
+    return Number.isFinite(from) && Number.isFinite(to) ? (to - from) / (365.25 * 86400000) : 0;
+}
+
+function periodReturn(fromValue, toValue, fromIso, toIso) {
+    if (!(fromValue > 0) || !Number.isFinite(toValue)) return { value: null, annualised: false };
+
+    const years = yearsBetweenIso(fromIso, toIso);
+
+    if (years > ANNUALISE_ABOVE_YEARS) {
+        return { value: (Math.pow(toValue / fromValue, 1 / years) - 1) * 100, annualised: true };
+    }
+
+    return { value: (toValue / fromValue - 1) * 100, annualised: false };
+}
+
 
 /* "4.14%" -> 4.14 ; "-" -> null */
 function parsePercent(value) {
@@ -182,6 +216,15 @@ function cleanGeo(value) {
    ROW MODEL
    ============================================================ */
 
+/* "2026-10-06T17:07:52+00:00" -> "06 Oct 2026" */
+function staleDate(iso) {
+    const date = new Date(iso);
+
+    if (!iso || Number.isNaN(date.getTime())) return "an earlier update";
+
+    return date.toLocaleDateString("en-GB", { day: "2-digit", month: "short", year: "numeric", timeZone: "Asia/Singapore" });
+}
+
 function buildRow(fund) {
     const details = fund.fund ?? {};
     const research = fund.research ?? {};
@@ -196,6 +239,7 @@ function buildRow(fund) {
     return {
         id: fundId(fund),
         fund,
+        isIndex: Boolean(fund?.isIndex),
         name: fund.fundName ?? "",
         code: fund.fundCode ?? "",
         paymentModes: Array.isArray(details.paymentModes) ? details.paymentModes.filter(Boolean) : [],
@@ -208,8 +252,12 @@ function buildRow(fund) {
         ytd: parsePercent(details.cumulativeYtd),
         m1: parsePercent(details.cumulative1m),
         y1: parsePercent(details.cumulative1y),
-        y3: parsePercent(details.cumulative3y),
+        // 3Y column = annualised 3-year return (p.a.)
+        y3: parsePercent(details.annualised3y),
         hasDividend: Boolean(details.hasDividend),
+        // Set by the data build when this fund failed to update and its
+        // last good data is shown instead
+        staleSince: fund?.updateStatus?.status === "stale" ? staleDate(fund.updateStatus.lastSuccessfulUpdateUtc) : null,
         geographies,
         sectors,
         holdings,
@@ -285,7 +333,7 @@ function renderFilterOptions() {
     fillSelect(
         "#explorer-asset",
         [...assetCounts.keys()].sort(),
-        `All asset classes (${assetRows.length})`,
+        `All ${explorer.dataset === "indices" ? "regions" : "asset classes"} (${assetRows.length})`,
         label(assetCounts)
     );
 
@@ -585,8 +633,8 @@ function renderTable() {
 
     if (count) {
         count.textContent = active
-            ? `${rows.length} of ${explorer.rows.length} funds`
-            : `${explorer.rows.length} funds`;
+            ? `${rows.length} of ${explorer.rows.length} ${datasetNoun()}`
+            : `${explorer.rows.length} ${datasetNoun()}`;
     }
 
     if (clear) clear.hidden = !active;
@@ -631,7 +679,7 @@ function renderTable() {
     if (!rows.length) {
         body.innerHTML = `
             <tr>
-                <td colspan="9" class="empty-state">No funds match these filters.</td>
+                <td colspan="9" class="empty-state">${explorer.dataset === "indices" && !explorer.sets.indices.loaded ? "Index data isn't available yet. It appears after the “Fetch Indices” workflow has run on GitHub." : `No ${datasetNoun()} match these filters.`}</td>
             </tr>
         `;
         return;
@@ -657,7 +705,7 @@ function renderTable() {
                             <div class="explorer-fund-text">
                                 <div class="fund-name">${escapeHtml(row.name)}</div>
                                 <div class="fund-meta">
-                                    ${escapeHtml(row.code)}${row.hasDividend ? ` · <span class="explorer-dividend-tag">Dividend</span>` : ""}
+                                    ${escapeHtml(row.code)}${row.hasDividend ? ` · <span class="explorer-dividend-tag">Dividend</span>` : ""}${row.staleSince ? ` · <span class="explorer-stale-tag" title="This fund could not be updated in the latest data run">Not updated since ${escapeHtml(row.staleSince)}</span>` : ""}
                                 </div>
                                 ${holdingNote}
                             </div>
@@ -666,11 +714,11 @@ function renderTable() {
                     <td class="explorer-payment-cell" data-label="Payment mode">${row.paymentModes.length ? `<div class="payment-chips">${paymentChips(row.paymentModes)}</div>` : "—"}</td>
                     <td class="explorer-asset-cell">${escapeHtml(row.assetClass)}</td>
                     <td class="explorer-risk-cell"><span class="risk-pill risk-${row.riskOrder}">${escapeHtml(row.risk)}</span></td>
-                    <td class="bid-cell" data-label="BID price">${row.bid !== null ? row.bid.toFixed(4) : "—"}</td>
+                    <td class="bid-cell" data-label="${row.isIndex ? "Level" : "BID price"}">${row.bid !== null ? (row.isIndex ? row.bid.toLocaleString("en-SG", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : row.bid.toFixed(4)) : "—"}</td>
                     ${cell(row.ytd, "YTD")}
                     ${cell(row.m1, "1M")}
                     ${cell(row.y1, "1Y")}
-                    ${cell(row.y3, "3Y")}
+                    ${cell(row.y3, "3Y p.a.")}
                 </tr>
             `;
         })
@@ -759,7 +807,7 @@ function fact(label, value) {
     `;
 }
 
-function returnsTable(details) {
+function returnsTable(details, isIndex = false) {
     /*
      * One row: short periods are cumulative, long periods
      * (3Y and longer) are annualised (per annum).
@@ -773,7 +821,7 @@ function returnsTable(details) {
         ["3Y", details.annualised3y, true],
         ["5Y", details.annualised5y, true],
         ["10Y", details.annualised10y, true],
-        ["Since launch", details.annualisedSinceLaunch, true]
+        [isIndex ? "Since start" : "Since launch", details.annualisedSinceLaunch, true]
     ];
 
     const cells = returns
@@ -798,7 +846,7 @@ function returnsTable(details) {
         </section>
 
         <p class="fund-source-note">
-            YTD to 1Y are cumulative; 3Y, 5Y, 10Y and Since launch are annualised (p.a.).
+            ${isIndex ? "Price returns from daily closes (no dividends). " : ""}YTD to 1Y are cumulative; 3Y, 5Y, 10Y and ${isIndex ? "Since start (the first close on record)" : "Since launch"} are annualised (p.a.).
         </p>
     `;
 }
@@ -810,7 +858,9 @@ function holdingsSection(fund, holdings) {
         return `
             <section class="news-popup-section">
                 <h3 class="news-popup-label">Top holdings</h3>
-                <p class="news-popup-muted">The factsheet does not publish a holdings list for this fund.</p>
+                <p class="news-popup-muted">${top.status === "unresolved"
+                    ? "Holdings not available yet: they could not be read from the factsheet and will be tried again in the next data update."
+                    : "The factsheet does not publish a holdings list for this fund."}</p>
             </section>
         `;
     }
@@ -926,7 +976,6 @@ function dividendSection(details) {
     }
 
     const period = payoutPeriod(history);
-    const latest = [...history].sort((a, b) => String(b.exDate).localeCompare(String(a.exDate)))[0];
     const usualMonths = period.label === "Monthly"
         ? "every month"
         : period.months.length && period.label !== "Irregular"
@@ -942,11 +991,6 @@ function dividendSection(details) {
                     <span>Payout frequency</span>
                     <strong>${escapeHtml(period.label)}</strong>
                     ${usualMonths ? `<em>${period.label === "Monthly" ? "Paid every month" : `Usually ${escapeHtml(usualMonths)}`}</em>` : period.label === "Not enough history" ? `<em>Only one payout on record</em>` : ""}
-                </div>
-                <div class="fund-payout-item">
-                    <span>Last payout</span>
-                    <strong>${escapeHtml(formatIsoDate(latest?.exDate))}</strong>
-                    <em>${escapeHtml(formatRate(latest?.rate, unit))}</em>
                 </div>
             </div>
 
@@ -1044,7 +1088,7 @@ function chartSectionHtml() {
 
             <div class="fund-chart-header">
                 <div class="fund-section-heading">
-                    <h3 class="news-popup-label">BID price</h3>
+                    <h3 class="news-popup-label">${explorer.chart.isIndex ? "Index level" : "BID price"}</h3>
                     <span id="fund-chart-summary" class="fund-heading-date"></span>
                 </div>
 
@@ -1069,7 +1113,7 @@ function chartSectionHtml() {
                 <canvas
                     id="${PROFILE_CHART_ID}"
                     role="img"
-                    aria-label="BID price history for this fund"
+                    aria-label="${explorer.chart.isIndex ? "Closing level history for this index" : "BID price history for this fund"}"
                 ></canvas>
             </div>
 
@@ -1118,13 +1162,15 @@ function renderProfileChart() {
 
     if (custom) custom.hidden = range !== "CUSTOM";
 
-    if (!explorer.historyIndex) {
+    const source = explorer.chart.isIndex ? explorer.indexHistory : explorer.historyIndex;
+
+    if (!source) {
         destroyChart(PROFILE_CHART_ID);
         setChartStatus("Loading price history…");
         return;
     }
 
-    const observations = explorer.historyIndex.get(fundId) ?? [];
+    const observations = source.get(fundId) ?? [];
 
     if (!observations.length) {
         destroyChart(PROFILE_CHART_ID);
@@ -1198,14 +1244,15 @@ function renderProfileChart() {
 
     const firstPoint = points[0];
     const lastPoint = points[points.length - 1];
-    const change = ((lastPoint.bidPrice - firstPoint.bidPrice) / firstPoint.bidPrice) * 100;
+    // Longer than 1 year: annualised (p.a.)
+    const change = periodReturn(firstPoint.bidPrice, lastPoint.bidPrice, firstPoint.date, lastPoint.date);
 
     const summary = qs("#fund-chart-summary");
 
     if (summary) {
         summary.innerHTML = `
             ${escapeHtml(formatIsoDate(firstPoint.date))} – ${escapeHtml(formatIsoDate(lastPoint.date))}
-            · <span class="${returnClass(change)}">${escapeHtml(formatPercent(change))}</span>
+            · <span class="${returnClass(change.value)}">${escapeHtml(formatPercent(change.value))}${change.annualised ? " p.a." : ""}</span>
         `;
     }
 
@@ -1256,7 +1303,7 @@ function renderProfileChart() {
 
             datasets: [
                 {
-                    label: "BID price",
+                    label: explorer.chart.isIndex ? "Index level" : "BID price",
                     data: points.map(point => point.bidPrice),
                     borderColor: lineColor,
                     backgroundColor: lineColor,
@@ -1295,11 +1342,11 @@ function renderProfileChart() {
                         title: items => formatIsoDate(items[0]?.label),
                         label: item => {
                             const value = Number(item.raw);
-                            const fromStart = ((value - firstPoint.bidPrice) / firstPoint.bidPrice) * 100;
+                            const fromStart = periodReturn(firstPoint.bidPrice, value, firstPoint.date, item.label);
 
                             return [
-                                `BID ${value.toFixed(5)}`,
-                                `${formatPercent(fromStart)} since ${formatIsoDate(firstPoint.date)}`
+                                explorer.chart.isIndex ? `Level ${value.toFixed(2)}` : `BID ${value.toFixed(5)}`,
+                                `${formatPercent(fromStart.value)}${fromStart.annualised ? " p.a." : ""} since ${formatIsoDate(firstPoint.date)}`
                             ];
                         }
                     }
@@ -1366,7 +1413,9 @@ function bindChartControls(dialog) {
 }
 
 function openProfile(id) {
-    const row = explorer.rows.find(item => item.id === id);
+    const row = explorer.rows.find(item => item.id === id) ??
+        explorer.sets.funds.rows.find(item => item.id === id) ??
+        explorer.sets.indices.rows.find(item => item.id === id);
 
     if (!row) return;
 
@@ -1374,6 +1423,7 @@ function openProfile(id) {
 
     // New fund: reset the custom range, keep the chosen preset.
     explorer.chart.fundId = id;
+    explorer.chart.isIndex = row.isIndex;
     explorer.chart.from = null;
     explorer.chart.to = null;
 
@@ -1410,14 +1460,17 @@ function openProfile(id) {
             <div class="fund-popup-badge-row">
 
                 <div class="news-card-badges news-popup-badges">
-                    <span class="news-badge news-category">${escapeHtml(row.assetClass)}</span>
-                    <span class="risk-pill risk-${row.riskOrder}">${escapeHtml(row.risk)}</span>
+                    <span class="news-badge news-category">${escapeHtml(row.isIndex ? "Market index" : row.assetClass)}</span>
+                    ${row.isIndex ? (row.assetClass && row.assetClass !== "—" ? `<span class="news-badge">${escapeHtml(row.assetClass)}</span>` : "") : `<span class="risk-pill risk-${row.riskOrder}">${escapeHtml(row.risk)}</span>`}
                     ${row.hasDividend ? `<span class="news-badge explorer-dividend-badge">Pays dividend</span>` : ""}
+                    ${row.staleSince ? `<span class="news-badge explorer-stale-badge" title="This fund could not be updated in the latest data run">Not updated since ${escapeHtml(row.staleSince)}</span>` : ""}
                 </div>
 
                 ${details.valuationDate ? `
                     <span class="fund-published-date">
-                        Published by Prudential as at ${escapeHtml(details.valuationDate)}
+                        ${row.isIndex
+                            ? `Close as at ${escapeHtml(details.valuationDate)}${fund.indexSource ? ` · ${escapeHtml(fund.indexSource)}` : ""}`
+                            : `Published by Prudential as at ${escapeHtml(details.valuationDate)}`}
                     </span>
                 ` : ""}
 
@@ -1426,8 +1479,10 @@ function openProfile(id) {
             <div class="news-popup-body">
 
                 <div class="fund-facts">
-                    ${fact("BID price", details.bidPrice)}
+                    ${fact(row.isIndex ? "Index level" : "BID price", details.bidPrice)}
                     ${fact("Offer price", details.offerPrice)}
+                    ${row.isIndex ? fact("Symbol", fund.indexSymbol) : ""}
+                    ${row.isIndex ? fact("Exchange", fund.indexExchange) : ""}
                     ${row.paymentModes.length ? `
                         <div class="fund-fact">
                             <span class="fund-fact-label">Payment mode</span>
@@ -1442,16 +1497,16 @@ function openProfile(id) {
 
                         return fact("Payout frequency", period.label === "Not enough history" ? "One payout on record" : `${period.label}${months}`);
                     })() : ""}
-                    ${fact("Valuation date", details.valuationDate)}
-                    ${fact("Inception", details.inceptionDate)}
-                    ${fact("Sub-class", details.assetSubClass)}
-                    ${fact("Geography", row.geographies.join(", "))}
+                    ${fact(row.isIndex ? "Close date" : "Valuation date", details.valuationDate)}
+                    ${fact(row.isIndex ? "Data from" : "Inception", details.inceptionDate)}
+                    ${row.isIndex ? fact("Currency", details.fundCurrency) : fact("Sub-class", details.assetSubClass)}
+                    ${row.isIndex ? "" : fact("Geography", row.geographies.join(", "))}
                     ${fact("Sector", row.sectors.join(", "))}
                 </div>
 
                 ${!isBlank(details.fundObjective) ? `
                     <section class="news-popup-section">
-                        <h3 class="news-popup-label">Objective</h3>
+                        <h3 class="news-popup-label">${row.isIndex ? "About this index" : "Objective"}</h3>
                         <p>${escapeHtml(details.fundObjective)}</p>
                     </section>
                 ` : ""}
@@ -1463,15 +1518,15 @@ function openProfile(id) {
                     </section>
                 ` : ""}
 
-                ${returnsTable(details)}
+                ${returnsTable(details, row.isIndex)}
 
                 ${chartSectionHtml()}
 
-                ${holdingsSection(fund, row.holdings)}
+                ${row.isIndex ? "" : holdingsSection(fund, row.holdings)}
 
-                ${dividendSection(details)}
+                ${row.isIndex ? "" : dividendSection(details)}
 
-                ${documentsSection(fund)}
+                ${row.isIndex ? "" : documentsSection(fund)}
 
             </div>
 
@@ -1647,28 +1702,153 @@ function renderUpdated(generatedAtUtc) {
                 .filter(Boolean)
         )];
 
+        const what = explorer.dataset === "indices" ? "Closes" : "Prices";
+
         valuation.textContent = dates.length === 1
-            ? `Prices as at ${dates[0]}`
+            ? `${what} as at ${dates[0]}`
             : dates.length
-                ? `Prices as at ${dates.sort().pop()} (latest)`
+                ? `${what} as at ${dates.sort().pop()} (latest)`
                 : "";
     }
 }
 
+function datasetNoun() {
+    return explorer.dataset === "indices" ? "indices" : "funds";
+}
+
+/* Clear every filter (switching between funds and indices) */
+function resetFilters() {
+    explorer.filters = {
+        search: "",
+        holding: "",
+        assetClass: [],
+        risk: [],
+        geography: [],
+        sector: [],
+        dividend: [],
+        payment: []
+    };
+
+    document.querySelectorAll("[data-explorer-filter]").forEach(control => {
+        if (control.tagName === "SELECT") {
+            [...control.options].forEach(option => { option.selected = false; });
+        } else {
+            control.value = "";
+        }
+    });
+}
+
+/* Show the chosen data set: "funds" (Prudential Funds) or "indices" */
+function applyDataset() {
+    const set = explorer.sets[explorer.dataset];
+    const indices = explorer.dataset === "indices";
+
+    explorer.funds = set.records;
+    explorer.rows = set.rows;
+
+    const view = document.getElementById("fund-explorer-view");
+
+    if (view) view.dataset.dataset = explorer.dataset;
+
+    document.querySelectorAll("[data-explorer-dataset]").forEach(button => {
+        const active = button.dataset.explorerDataset === explorer.dataset;
+
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-selected", String(active));
+    });
+
+    const text = (selector, value) => {
+        const element = qs(selector);
+
+        if (element) element.textContent = value;
+    };
+
+    text("[data-explorer-asset-label]", indices ? "Region" : "Asset class");
+    text("[data-explorer-asset-head]", indices ? "Region" : "Asset class");
+    text("[data-explorer-bid-head]", indices ? "Level" : "BID price");
+    text("[data-explorer-name-head]", indices ? "Index" : "Fund");
+    text("[data-explorer-note]", indices
+        ? "Returns are worked out from each index's daily closing levels (price only, no dividends): up to 1 year cumulative, longer periods annualised (p.a.). Click an index for its full profile."
+        : "Returns are Prudential's published figures as at each fund's valuation date: up to 1 year cumulative, longer periods annualised (p.a.). Click a fund for its full profile.");
+
+    // Filters and sort choices that only apply to Prudential funds
+    document.querySelectorAll("#fund-explorer-view [data-funds-only]").forEach(element => {
+        element.hidden = indices;
+    });
+
+    const search = qs("#explorer-search");
+
+    if (search) search.placeholder = indices ? "Search index name or code…" : "Search fund name or code…";
+
+    resetFilters();
+    renderUpdated(set.generatedAtUtc);
+    renderTable();
+}
+
+function setDataset(dataset) {
+    if (!["funds", "indices"].includes(dataset)) return;
+
+    explorer.dataset = dataset;
+
+    try {
+        localStorage.setItem(DATASET_KEY, dataset);
+    } catch {
+        // ignore
+    }
+
+    applyDataset();
+}
+
+function bindDatasetSelector() {
+    let saved = null;
+
+    try {
+        saved = localStorage.getItem(DATASET_KEY);
+    } catch {
+        saved = null;
+    }
+
+    if (saved === "indices") explorer.dataset = "indices";
+
+    document.querySelectorAll("[data-explorer-dataset]").forEach(button => {
+        button.addEventListener("click", () => setDataset(button.dataset.explorerDataset));
+    });
+}
+
 function initializeFundExplorer({ funds, generatedAtUtc = null }) {
-    explorer.funds = Array.isArray(funds) ? funds : [];
-    explorer.rows = explorer.funds.map(buildRow).filter(row => row.id);
+    const set = explorer.sets.funds;
 
-    renderFilterOptions();
-
-    renderUpdated(generatedAtUtc);
+    set.records = Array.isArray(funds) ? funds : [];
+    set.rows = set.records.map(buildRow).filter(row => row.id);
+    set.generatedAtUtc = generatedAtUtc;
+    set.loaded = true;
 
     if (!explorer.initialized) {
+        bindDatasetSelector();
         bindEvents();
         explorer.initialized = true;
     }
 
-    renderTable();
+    if (explorer.dataset === "funds" || !explorer.rows.length) applyDataset();
+}
+
+/**
+ * Called once data/indices.json has loaded (or failed to load:
+ * records = []). Index records have the same shape as funds.
+ */
+function setExplorerIndices({ records = [], historyIndex = null, generatedAtUtc = null, loaded = false } = {}) {
+    const set = explorer.sets.indices;
+
+    set.records = records;
+    set.rows = records.map(buildRow).filter(row => row.id);
+    set.generatedAtUtc = generatedAtUtc;
+    set.loaded = loaded;
+
+    explorer.indexHistory = historyIndex;
+
+    if (explorer.dataset === "indices" && explorer.initialized) applyDataset();
+
+    renderProfileChart();
 }
 
 /**
@@ -1688,6 +1868,7 @@ function refreshFundExplorerChart() {
 
 export {
     initializeFundExplorer,
+    setExplorerIndices,
     setFundExplorerHistory,
     refreshFundExplorerChart,
     openProfile as openFundProfile
