@@ -8,28 +8,28 @@
         {
           "title": "New",
           "items": [
-            "Market indices: 48 market indices are now tracked alongside Prudential funds, with closing levels updated every day at 6:30 am Singapore time.",
-            "Market Performance: switch between Prudential Funds and Indices, compare indices on their own chart, and see the Top 10 and Lower 10 performers for each.",
-            "Fund Explorer: switch between Prudential Funds and Indices. Each index has its own profile with a closing-level chart and returns.",
-            "Monitoring: separate watchlists, alerts and unusual-move lists for indices.",
-            "Market News: shows the indices each story may affect, filters by index, and can show all news, funds only or indices only.",
+            "Market indices: 48 market indices are now tracked alongside Prudential funds, with closing levels updated twice a day, at 6:30 am and 6:30 pm Singapore time.",
+            "Market Performance: Switch between Prudential Funds and Indices, compare indices on their own chart, and see the Top 10 and Lower 10 performers for each.",
+            "Fund Explorer: Switch between Prudential Funds and Indices. Each index has its own profile with a closing-level chart and returns.",
+            "Monitoring: Separate watchlists, alerts and unusual-move lists for indices.",
+            "Market News: Shows the indices each story may affect, filters by index, and can show all news, funds only or indices only.",
             "Annex (footer): Prudential product brochures in English and Chinese, grouped the way Prudential sorts them. Plans can sit in several categories and carry any number of tags. Brochures open in a popup with zoom and download, and the plan name opens its product page. The list refreshes every 2 weeks.",
-            "Calculator (footer): a PRUShield premium calculator. Age next birthday can be picked from a list, typed in, or worked out from a date of birth.",
-            "Feedback (footer): opens a Google Form for sending feedback or reporting issues.",
-            "Calculator: a PruCredit$ calculator. Add plans by typing, pasting, dropping a screenshot or taking a photo (a screen capture on computers, the camera on phones and tablets). It includes a multiplier reference and a breakdown you can download once a plan is added.",
-            "Calculator: the Plan Calculator for PRUVantage Assure II and PRUVantage Wealth III is now a tab on the Calculator page, alongside PRUShield Premium and PruCredit$.",
+            "Calculator (footer): A PRUShield premium calculator. Age next birthday can be picked from a list, typed in, or worked out from a date of birth.",
+            "Feedback (footer): Opens a Google Form for sending feedback or reporting issues.",
+            "Calculator: A PruCredit$ calculator. Add plans by typing, pasting, dropping a screenshot or taking a photo (a screen capture on computers, the camera on phones and tablets). It includes a multiplier reference and a breakdown you can download once a plan is added.",
+            "Calculator: The Plan Calculator for PRUVantage Assure II and PRUVantage Wealth III is now the first tab on the Calculator page, followed by PRUShield Premium and PruCredit$.",
             "Report Generation, step 6 – Fund switching: switch a percentage of units between funds. A 100% switch also redirects future top-ups. Generated reports list the switches carried out.",
             "Report Generation: BID prices can be changed for purchases, end dates and switches. Published prices are used unless you change them, and any you enter are noted in the report.",
-            "Changelog: click the version number in the footer to see what changed.",
+            "Changelog: Click the version number in the footer to see what changed.",
             "User guide: Settings > Help opens a guide to every page, with screenshots, in a popup you can zoom."
           ]
         },
         {
           "title": "Improved",
           "items": [
-            "Monitoring: choose one or more change periods for the watchlist, from 1 day to 5 years. 1M, 3M and 6M are shown by default for funds and indices.",
+            "Monitoring: Choose one or more change periods for the watchlist, from 1 day to 5 years. 1M, 3M and 6M are shown by default for funds and indices.",
             "Returns over periods longer than 1 year are shown annualised (p.a.) in Fund Explorer and Monitoring.",
-            "Data updates: if one fund fails to update, the rest still update. The failed fund keeps its last good data and is marked “Not updated since …”.",
+            "Data updates: If one fund fails to update, the rest still update. The failed fund keeps its last good data and is marked “Not updated since …”.",
             "Lower 10 performers stay hidden until you open them, and hide again on refresh.",
             "Clearer tag contrast in every theme and colour palette."
           ]
