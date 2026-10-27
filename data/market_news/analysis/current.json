@@ -1,10 +1,102 @@
 {
-  "generatedAtSgt": "2026-10-27T05:18:33.354034+08:00",
+  "generatedAtSgt": "2026-10-27T09:45:54.713862+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 228,
+  "articleCount": 231,
   "analyses": [
+    {
+      "articleId": "96377ada943f5ce1af05e9b58671a3d56749bd2f93a2e0fd0dfaa32e5ce58321",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "China and Russia are expanding their grip on Arctic trade routes, offering Moscow a way to redirect energy exports to Asia amidst Western sanctions, while giving Beijing a new trade artery that bypasses traditional maritime chokepoints.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "China",
+        "Russia",
+        "Europe"
+      ],
+      "sectors": [
+        "Energy",
+        "Shipping",
+        "Transportation"
+      ],
+      "investorImpact": "Shifts in Arctic trade and energy transport routes could impact long-term shipping logistics and the flow of Russian energy exports to Asian markets, affecting relevant transportation and energy sectors.",
+      "reasoning": "The article details significant geopolitical shifts in Arctic trade routes and energy redirection involving major global economies, which carries medium importance for supply chain and energy sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
+      "publishedAtSgt": "2026-10-27T09:24:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
+    {
+      "articleId": "018808fad7b698e33b4065b97374829591ad11148253d66cf93e7ccba797b2b3",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "A CNBC survey indicates the Bank of Japan is expected to hold interest rates steady this week while maintaining a hawkish stance, amid core inflation rising 2.1% in September driven by a weak yen and higher energy costs.",
+      "assetClasses": [
+        "Currencies",
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Financials",
+        "Energy"
+      ],
+      "investorImpact": "Investors with exposure to Japanese markets should monitor the Bank of Japan's upcoming policy announcement and hawkish messaging, which heavily impacts the yen, import costs, and local bond and equity valuations.",
+      "reasoning": "The article provides crucial central bank policy expectations and inflation metrics for Japan, directly impacting monetary policy direction and currency markets, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey",
+      "publishedAtSgt": "2026-10-27T08:17:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
+    {
+      "articleId": "5dbb383cb99ae3020e483297374869b8af66330971de0ce61668857f7637475e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Anthropic's IPO filing positions the AI company for potentially the largest initial stock offering in history, while broader stock market jitters emerge regarding the sustainability of the AI trade and capital market liquidity.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "The potential massive IPO could reshape liquidity and valuations across the tech sector, while any underperformance or drying up of AI capital market funding could trigger a broader technology stock reset.",
+      "reasoning": "The article is classified as MARKET because it discusses a major upcoming IPO and broader stock market sentiment toward the AI sector. It is important to fund monitoring due to potential sector-wide valuation impacts.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+      "publishedAtSgt": "2026-10-27T06:50:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
     {
       "articleId": "be7f15c9bafa4cb88b36caddba43450fd1a1f5f238e8e4d11630e65e5c632b7b",
       "relevant": true,
