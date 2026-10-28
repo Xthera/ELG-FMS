@@ -1,10 +1,98 @@
 {
-  "generatedAtSgt": "2026-10-28T18:53:45.083466+08:00",
+  "generatedAtSgt": "2026-10-29T03:09:45.781816+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 240,
+  "articleCount": 215,
   "analyses": [
+    {
+      "articleId": "54214e8a4bc9f6a7ccde872a82530b2f77236383d340102bc5a253446aa01ba0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Oracle shares jumped 10% after issuing a revenue forecast of $225 billion for fiscal 2030, implying 35% average annual growth, alongside plans to limit additional fundraising to $20 billion over that period.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Software"
+      ],
+      "investorImpact": "The significant upward revision in long-term revenue guidance and disciplined fundraising targets point to strong growth prospects, boosting investor confidence and driving a sharp increase in Oracle's share price.",
+      "reasoning": "The article details a major corporate financial announcement by a prominent technology company that resulted in a significant stock price movement, making it highly relevant for market monitoring and equity analysis.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oracle stock pops 10% on forecast for 35% average revenue growth through 2030",
+      "publishedAtSgt": "2026-10-29T02:52:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:48+08:00"
+    },
+    {
+      "articleId": "c9b8b83e4d5bd9130bb929314897a7e8da0e87ee90b008b9393975cdfa9299de",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "The Federal Open Market Committee decided to keep the overnight funds rate steady in a range between 3.75% and 4%, maintaining the level set following a previous quarter-percentage-point increase in September, amid ongoing discussions regarding inflation concerns and political context.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Cash"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors should note that interest rates remain steady at 3.75%-4%, which affects borrowing costs, yield expectations, and valuation models across equity and fixed income markets.",
+      "reasoning": "The decision by the Federal Reserve to hold interest rates steady is a primary macroeconomic indicator carrying high relevance for financial markets, interest rate expectations, and general fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Fed holds rates steady despite concerns over inflation",
+      "publishedAtSgt": "2026-10-29T02:50:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-29T02:53:53+08:00"
+    },
+    {
+      "articleId": "04742b5bd1f3d2eba2657985a27183fb4f188025b3ca4aa96d0538b0144654d5",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "An investing club is adding a new high-profile AI-related play, specifically focusing on SpaceX, to its watch list. The article highlights SpaceX's segments including Space, Connectivity (Starlink), and Super Intelligence (AI), along with its payload capacity, lunar economy goals, and revenue generation from commercial launches and government contracts.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Aerospace and Defense"
+      ],
+      "investorImpact": "Investors gain insights into emerging high-profile AI and space sector investment opportunities, particularly regarding commercial space companies expanding into AI and lunar infrastructure.",
+      "reasoning": "Classified as MARKET due to its focus on stock watch lists and investment opportunities in the space and AI sectors, carrying positive sentiment and moderate importance for growth portfolios.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "We're adding a new, high-profile AI play to our Bullpen stocks to watch list",
+      "publishedAtSgt": "2026-10-29T02:33:53+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/28/were-adding-a-new-high-profile-ai-stock-to-our-bullpen.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:51+08:00"
+    },
     {
       "articleId": "77c70fbb30118064130682915faf9d0126fcf8f01866971caea963494ec92d3f",
       "relevant": true,
@@ -6441,863 +6529,6 @@
       "collectorRelevanceScore": 94,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-16T01:48:31+08:00"
-    },
-    {
-      "articleId": "44e6a95cbea8149492e23cbe45e2d691fe868e7a660acdf3cb8085b2fc6db89b",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Wall Street estimates for the Federal Reserve's preferred inflation indicator point to an acceleration following a hot PPI report. Core prices excluding food, energy, and trade services rose 0.5%, showing broad-based inflation pressures that suggest the Fed's work on monetary policy is not yet done.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income",
-        "Commodities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "A hot producer price index and accelerating inflation expectations raise the likelihood of further Federal Reserve rate hikes or prolonged high interest rates, creating headwinds for equity valuations and fixed income portfolios.",
-      "reasoning": "Classified as ECONOMIC because it deals with macro inflation metrics and Federal Reserve policy. The sentiment is NEGATIVE due to persistent and broader-than-expected inflation pressures. Importance is HIGH because it directly influences monetary policy expectations and market-wide asset pricing.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Economists: Hot PPI shows Fed's work is not done",
-      "publishedAtSgt": "2026-10-15T23:37:59+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-10-16T01:48:42+08:00"
-    },
-    {
-      "articleId": "dafe015441373594e6137dee58b3ede9a775d7af10d9114a318167e93514eedc",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "AWS and Anthropic are racing to deploy specialized AI engineers to help businesses implement AI, addressing market concerns over the sustainability of AI spending amid recent short-term stock losses across top AI and memory-themed companies like Dell, CoreWeave, AMD, and Micron.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Investors should monitor how the execution of AI deployment by major players like AWS and Anthropic impacts the broader technology sector and sentiment regarding sustainable AI infrastructure spending.",
-      "reasoning": "Classified as TECHNOLOGY due to its focus on AI deployment and engineering, with a NEGATIVE sentiment driven by short-term losses in AI and memory stocks amid skepticism over AI monetization economics. High importance as it touches core tech sector valuation trends.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "AWS, Anthropic race to deploy army of specialized engineers key to proving AI spending will pay off",
-      "publishedAtSgt": "2026-10-15T22:10:14+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/aws-anthropic-racing-to-deploy-army-of-specialized-ai-engineers.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 82,
-      "collectorRelevanceReason": "technology_business_or_infrastructure",
-      "collectedAtSgt": "2026-10-16T01:48:45+08:00"
-    },
-    {
-      "articleId": "66ba9ddc25b30b31287d6707e9a269a2497e5a916d09317036cf69bc8d18abc7",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEUTRAL",
-      "importance": "MEDIUM",
-      "summary": "The U.S. Treasury dismissed a warning from the IMF regarding mounting federal debt and questioned the accuracy of IMF forecasting during the annual meetings in Bangkok.",
-      "assetClasses": [
-        "Fixed Income",
-        "Currencies"
-      ],
-      "geographies": [
-        "United States",
-        "Global"
-      ],
-      "sectors": [
-        "Government"
-      ],
-      "investorImpact": "The public dispute between the U.S. Treasury and the IMF highlights ongoing concerns regarding U.S. federal debt sustainability, which can influence Treasury yields, sovereign risk sentiment, and foreign exchange markets.",
-      "reasoning": "Classified as ECONOMIC because it deals with macroeconomic policy, sovereign debt sustainability, and international fiscal commentary. It is important for monitoring macroeconomic conditions and U.S. government debt dynamics.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
-      "publishedAtSgt": "2026-10-15T21:42:32+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 57,
-      "collectorRelevanceReason": "supporting_market_description",
-      "collectedAtSgt": "2026-10-16T01:48:43+08:00"
-    },
-    {
-      "articleId": "49788193abc01aa7a8386cc8a3b0b5d39fcee6e7559eb256f8c04316d931b33b",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Memory chip stocks are experiencing a significant sell-off due to broader market turmoil, concerns regarding China, and potential oversupply issues projected for 2029.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global",
-        "China"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Investors holding memory chip stocks or broad technology sector exposures may experience heightened volatility and downside pressure, requiring a review of sector allocations and risk parameters.",
-      "reasoning": "The article is classified under MARKET with a NEGATIVE sentiment due to the severe sell-off and headwinds facing memory chip stocks, highlighting crucial supply-demand dynamics and geopolitical risks relevant for fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries",
-      "publishedAtSgt": "2026-10-15T20:15:09+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T20:41:46+08:00"
-    },
-    {
-      "articleId": "6e6a66440053b84de16980acb033f574e05e89c93adf0235e351cb5a257d9e41",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Analysis highlights that a $2 trillion deficit, 5% Treasury yields, rising oil and diesel prices, and potential central bank rate hikes present significant challenges for the US economy, while artificial intelligence remains a key potential source of future growth.",
-      "assetClasses": [
-        "Fixed Income",
-        "Commodities",
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Energy",
-        "Technology"
-      ],
-      "investorImpact": "High Treasury yields and growing fiscal deficits create upward pressure on borrowing costs and impact asset valuations across fixed income and equities, while energy price volatility adds inflationary concerns.",
-      "reasoning": "Classified as ECONOMIC due to the core focus on fiscal deficits, Treasury yields, and macroeconomic pressures. It is highly important for fund monitoring as it touches on foundational asset pricing conditions like interest rates and bond yields.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-      "publishedAtSgt": "2026-10-15T20:11:15+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T20:41:46+08:00"
-    },
-    {
-      "articleId": "43fc7f51eb474ef9147b3e7296399433cc30f42c817987daa5fd47628375c967",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Cboe Global Markets is extending trading hours for options on two-dozen stocks and a handful of ETFs, reflecting growing investor demand and adoption of derivatives.",
-      "assetClasses": [
-        "Equities",
-        "Options",
-        "ETFs"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "Extended options trading hours provide investors with greater flexibility and risk management capabilities outside of regular market sessions.",
-      "reasoning": "The article is classified under MARKET as it details structural changes in exchange-traded options hours, offering a positive development for market liquidity and accessibility.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Cboe to expand options trading hours for major stocks and ETFs",
-      "publishedAtSgt": "2026-10-15T20:01:59+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/cboe-stock-etf-options-extended-hours.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T20:41:46+08:00"
-    },
-    {
-      "articleId": "6a4bff1db775990f0d6e508f59bed5639641476b6c7863dc916c46ee2162317e",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "President Volodymyr Zelenskyy announced that Ukraine will resume attacks on Russian energy infrastructure after Moscow failed to uphold a proposed energy ceasefire deal, shattering hopes of a truce.",
-      "assetClasses": [
-        "Commodities",
-        "Equities"
-      ],
-      "geographies": [
-        "Ukraine",
-        "Russia",
-        "United States"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil & Gas"
-      ],
-      "investorImpact": "The resumption of strikes on Russian refineries poses upside risks to global energy prices, particularly crude oil and refined products, and increases volatility in energy sector equities.",
-      "reasoning": "The article details an escalation in the Russia-Ukraine conflict directly impacting global energy supply chains and geopolitical stability, making it highly relevant for market and fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an 'energy ceasefire'",
-      "publishedAtSgt": "2026-10-15T18:13:25+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
-    },
-    {
-      "articleId": "c9dacdadd84bc96065c5673eff0b75d7ca3f4678f1d89971da4b1701698c3e51",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "France's central bank governor asserts that the country can slash its budget deficit to 3% within three years despite political turmoil. Market concerns over political instability have weighed on French bond markets amid global inflationary pressures.",
-      "assetClasses": [
-        "Bonds",
-        "Sovereign Debt"
-      ],
-      "geographies": [
-        "France",
-        "Europe"
-      ],
-      "sectors": [
-        "Government",
-        "Financial"
-      ],
-      "investorImpact": "Investors with exposure to French sovereign debt and European bond markets should monitor fiscal policy developments and political stability in France, as deficit reduction efforts impact bond yields and market confidence.",
-      "reasoning": "The article discusses national fiscal policy, budget deficits, and bond market pressures in France, which are critical for macroeconomic and sovereign fixed-income monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "France is ‘putting the house in order’ and can slash deficit to 3% in three years, central bank governor tells CNBC",
-      "publishedAtSgt": "2026-10-15T18:05:53+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/france-budget-deficit-moulin-protests.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
-    },
-    {
-      "articleId": "591ec878ea3550db15035eabfbc2a93c102f35df202509f5a8798cae73e6aae4",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "China's Commerce Ministry indicated that the country will continue approving rare earth export licenses to Europe regardless of whether its trade deal with the U.S. is extended past January, mitigating supply chain concerns for European industries.",
-      "assetClasses": [
-        "Equities",
-        "Commodities"
-      ],
-      "geographies": [
-        "China",
-        "Europe",
-        "United States"
-      ],
-      "sectors": [
-        "Mining",
-        "Technology",
-        "Manufacturing",
-        "Automotive"
-      ],
-      "investorImpact": "The assurance from China helps stabilize supply chain expectations for European technology, manufacturing, and automotive sectors dependent on rare earth elements, reducing geopolitical risk premiums for these industries.",
-      "reasoning": "Classified as GEOPOLITICAL because it addresses trade policies and export licenses between major global economies. It is relevant to fund monitoring as rare earth supply stability directly impacts manufacturing and tech sector costs.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
-      "publishedAtSgt": "2026-10-15T17:02:31+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 72,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
-    },
-    {
-      "articleId": "3a7db32055e63ac61809a6c9419bd217f2e5849a5e4563917de9626407634bbc",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Shares of IDBI Bank dropped over 7% following the Indian government's announcement of a $5.5 billion majority stake sale to Canada's Fairfax Financial Holdings, pending regulatory approval from the Reserve Bank of India.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "India",
-        "Canada"
-      ],
-      "sectors": [
-        "Financials",
-        "Banking"
-      ],
-      "investorImpact": "Investors in IDBI Bank face short-term downside volatility due to the 7% share price drop, while foreign investors monitor cross-border M&A and FDI approvals in the Indian banking sector.",
-      "reasoning": "The article details a major financial transaction involving a significant cross-border acquisition and a notable stock price reaction, making it highly relevant for market and sector monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "India’s IDBI Bank falls 7% as government announces $5.5 billion stake sale to Canada's Fairfax",
-      "publishedAtSgt": "2026-10-15T14:12:04+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/india-canada-fairfax-idbi-fdi.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T20:41:47+08:00"
-    },
-    {
-      "articleId": "74547fa4e855d2427775c0205c04ce6fc3abd83d6f70e605eacd7d1d1a162cc4",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "TSMC reported a record third-quarter profit that beat estimates, driven by sustained global demand for AI chips and continued strong monthly sales growth.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global",
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Signals robust ongoing demand for artificial intelligence infrastructure and advanced semiconductors, bolstering investor confidence in the tech sector and semiconductor supply chain.",
-      "reasoning": "Classified as MARKET due to corporate earnings and beating financial estimates, with HIGH importance because TSMC is a bellwether for the global semiconductor and AI industries.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
-      "publishedAtSgt": "2026-10-15T13:37:31+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T13:56:10+08:00"
-    },
-    {
-      "articleId": "2045032568fd58b88d2db048b816bc2a9d4c4c6cde97b4fd4e426f4ca4ad9bb5",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "SK Hynix shares plunged 10% amid a broader Asia tech rout driven by concerns over potential Federal Reserve interest rate hikes, AI funding worries, and intensifying competition, mirroring Wall Street losses.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Asia",
-        "South Korea",
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Investors holding technology or semiconductor equities, particularly in Asia and South Korea, face heightened volatility and downside risk as macroeconomic rate concerns and AI funding worries weigh heavily on sector valuations.",
-      "reasoning": "The article details a significant 10% plunge in a major semiconductor stock and a broader tech sell-off driven by macro and sector-specific fears, making it highly relevant for market and fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
-      "publishedAtSgt": "2026-10-15T13:19:09+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 93,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
-    },
-    {
-      "articleId": "4faa9099521042e5a566082160b5dde07751aa814733419a63a8b7e0101d4a91",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "Oil prices declined as investors weighed potential supply disruptions from Strait of Hormuz shipping attacks against the International Energy Agency's monthly report, which highlighted persistent diesel constraints and risks to Saudi oil supply recovery.",
-      "assetClasses": [
-        "Commodities",
-        "Energy"
-      ],
-      "geographies": [
-        "Middle East",
-        "Saudi Arabia"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil and Gas"
-      ],
-      "investorImpact": "The decline in oil prices affects energy sector equities and commodities portfolios, while ongoing geopolitical risks in the Middle East suggest continued volatility for oil and diesel markets.",
-      "reasoning": "Classified as MARKET due to direct coverage of oil price movements driven by supply concerns and IEA data. It is relevant for monitoring commodity markets and energy sector exposure.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Oil falls as investors assess Mideast tensions, International Energy Agency's report",
-      "publishedAtSgt": "2026-10-15T12:09:18+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/oil-prices-today-brent-wti.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
-    },
-    {
-      "articleId": "9cd1fde61f06c27a9f385f9061f4196223d97e6876640a5c6528714b357c17a5",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "Anthropic reported a third-quarter revenue of $16.8 billion and stated it is cash-flow positive as it prepares for an upcoming initial public offering in November.",
-      "assetClasses": [
-        "Equities",
-        "Private Equity"
-      ],
-      "geographies": [
-        "Global",
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Artificial Intelligence"
-      ],
-      "investorImpact": "The massive revenue figures and positive cash flow signal robust growth in the artificial intelligence sector, potentially creating strong investor appetite ahead of the anticipated IPO and lifting sentiment for tech equities.",
-      "reasoning": "Classified as MARKET due to the major IPO preparation and strong financial reporting by a prominent AI firm. It is important for monitoring tech sector valuations and market liquidity.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
-      "publishedAtSgt": "2026-10-15T11:48:58+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
-    },
-    {
-      "articleId": "ec3a7807afa95dc24b132dd1b289d06e2e4c0f6400d739fe068331561fe35f5e",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "Meta- and Google-backed Jio Platforms, India's largest telecom operator, is planning to raise up to $3.2 billion through a historic initial public offering in India by selling 270 million shares.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "India"
-      ],
-      "sectors": [
-        "Telecommunications",
-        "Technology"
-      ],
-      "investorImpact": "The historic IPO of Jio Platforms provides significant investment and liquidity opportunities in the Indian telecommunications and technology sectors, drawing major attention from global investors and tech giants like Meta and Google.",
-      "reasoning": "The article details a record-breaking market event involving major tech-backed companies, making it highly relevant for market and fund monitoring within emerging markets and technology sectors.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Meta- and Google-backed Jio Platforms to raise up to $3.2 billion in historic IPO in India",
-      "publishedAtSgt": "2026-10-15T09:56:53+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/jio-ipo-meta-google-ambani-musk.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 95,
-      "collectorRelevanceReason": "business_market_event",
-      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
-    },
-    {
-      "articleId": "620a6c4ac4c6666f2b5854b468ce8581d181bde1247d5b8d284a89ddfc4ba35b",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "A Singapore ship sinks amid rising risks in the Strait of Hormuz, while high energy prices drive U.S. September consumer inflation to 3.7% year-on-year, exceeding expectations. G20 finance ministers and central bank governors prepare to meet in Bangkok.",
-      "assetClasses": [
-        "Commodities",
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States",
-        "Singapore",
-        "Global"
-      ],
-      "sectors": [
-        "Energy",
-        "Shipping",
-        "Transportation"
-      ],
-      "investorImpact": "Rising geopolitical risks in the Strait of Hormuz combined with elevated energy prices driving hotter-than-expected inflation present upside risks to interest rates and downward pressure on equity markets.",
-      "reasoning": "The article is classified as GEOPOLITICAL due to shipping risks in Hormuz and economic due to U.S. inflation data, carrying negative sentiment and high importance because of macroeconomic impacts on energy and inflation.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "CNBC Daily Open: A Singapore ship goes down as Hormuz risks rise",
-      "publishedAtSgt": "2026-10-15T09:35:53+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/cnbc-daily-open-a-singapore-ship-goes-down-as-hormuz-risks-rise.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-15T13:56:11+08:00"
-    },
-    {
-      "articleId": "418a7f7fc89a3174a58c336e99fa8137a5a052cb8e40f22dc8720ab71f878e76",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "Jio Platforms, backed by billionaire Mukesh Ambani, is preparing for a record IPO facing a valuation reality check and investor pushback amid a spat with Elon Musk's Starlink. Investors are questioning its positioning as a tech business, while the company transitions from subscriber growth to tariff-driven earnings.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "India"
-      ],
-      "sectors": [
-        "Telecommunications",
-        "Technology"
-      ],
-      "investorImpact": "Investors face valuation scrutiny regarding Jio Platforms' upcoming record IPO, as easy subscriber gains are exhausted and future growth relies on tariff hikes and tech positioning.",
-      "reasoning": "The article details significant market events concerning a major IPO and valuation pushback in emerging markets, making it highly relevant for market and fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Inside India newsletter: Billionaire Ambani’s mega-IPO faces a valuation reality check amid Musk spat",
-      "publishedAtSgt": "2026-10-15T08:30:13+08:00",
-      "url": "https://www.cnbc.com/2026/10/15/india-starlink-musk-jio-ambani-ipo.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T08:33:50+08:00"
-    },
-    {
-      "articleId": "9b0603bd942fe74821cce728845dd1577c2b2aa6bca1ee09db874f9943828759",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "Jim Cramer explains that despite strong third-quarter earnings from major banks, all six major bank stocks fell due to investor concerns over persistent inflation, rising interest rates, and wobbly capital markets.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials",
-        "Banking"
-      ],
-      "investorImpact": "Investors should note that macroeconomic headwinds such as inflation and rising interest rates can override strong fundamental earnings, resulting in negative stock price reactions across the financial sector.",
-      "reasoning": "The article is classified as MARKET because it discusses stock price reactions to earnings and macroeconomic sentiment. It is NEGATIVE due to falling stock prices across major banks despite strong results, and MEDIUM importance as it highlights broader market sentiment regarding inflation and rates.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Jim Cramer explains why even strong bank earnings couldn't save their stocks",
-      "publishedAtSgt": "2026-10-15T06:48:06+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/cramer-big-bank-earnings-stock-reaction.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 93,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T08:33:50+08:00"
-    },
-    {
-      "articleId": "71f9e596fa0253e7b2197084189e81cbfa538901311bf17c9785bdfbd49e8cb0",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "CoreWeave shares and bonds suffered significant declines as surging bond yields near 15% reflect growing investor anxiety over excessive corporate borrowing to fund the artificial intelligence infrastructure build-out.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "Global",
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Financials"
-      ],
-      "investorImpact": "Investors should monitor escalating borrowing costs and shifting sentiment toward AI-related debt issuance, which could pressure valuations across the technology sector and tighten funding conditions for high-growth infrastructure providers.",
-      "reasoning": "The article highlights direct market distress in both equities and debt instruments for an AI-focused company amid spiking yields, signaling a broader sentiment shift regarding technology sector leverage that is critical for market and risk monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
-      "publishedAtSgt": "2026-10-15T04:12:14+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 94,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T04:13:36+08:00"
-    },
-    {
-      "articleId": "51bd4a796cfda1ff03bccb42903be9c65772029de54e0e8fcbbeacb7c7216fe3",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Dell shares dropped 11% and triggered a broader data center sell-off following Barclays downgrades of Dell, HPE, and NetApp due to concerns over enterprise AI timing and monetization.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Hardware",
-        "Data Center"
-      ],
-      "investorImpact": "Investors holding data center and hardware equities face heightened volatility and repricing risk as market sentiment shifts from enthusiastic AI infrastructure spending to scrutiny over enterprise AI return on investment timelines.",
-      "reasoning": "The article is classified as TECHNOLOGY and sentiment as NEGATIVE because a major sell-off in data center equipment makers occurred following analysts downgrading key tech firms over enterprise AI timing concerns. It is highly important for monitoring tech sector valuations and risk sentiment.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Dell stock plunges 11%, leading data center sell-off on concerns about 'enterprise AI timing'",
-      "publishedAtSgt": "2026-10-15T04:06:38+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 81,
-      "collectorRelevanceReason": "technology_business_or_infrastructure",
-      "collectedAtSgt": "2026-10-15T04:13:39+08:00"
-    },
-    {
-      "articleId": "7d1c4d5106c15d6e7e607c5a9cbc4554da0a721e2e276ad1bc4e4f674761453d",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Bank of America hired 1,000 external contractors to patch software vulnerabilities exposed by advanced AI models such as Anthropic's Mythos, resulting in temporary spending increases and contributing to an 8% slump in the bank's shares.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials",
-        "Technology"
-      ],
-      "investorImpact": "Investors face concerns regarding the operational costs and cybersecurity risks associated with securing legacy systems against advanced AI models, impacting bank stock valuations.",
-      "reasoning": "The article details significant operational costs and a sharp stock price reaction for a major financial institution due to AI-exposed vulnerabilities, making it crucial for market and financial sector monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
-      "publishedAtSgt": "2026-10-15T04:06:28+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T04:13:41+08:00"
-    },
-    {
-      "articleId": "a4795e88a95cb106b56ebbc3caece48ea6d62bcfbfec4fd64b69bc47030198d8",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Iran has escalated strikes on commercial shipping in the Strait of Hormuz, sinking a container ship and attacking over 20 vessels this month in an effort to choke off crude oil exports.",
-      "assetClasses": [
-        "Commodities",
-        "Equities",
-        "Energy"
-      ],
-      "geographies": [
-        "Middle East",
-        "Iran",
-        "Persian Gulf",
-        "Gulf of Oman",
-        "Strait of Hormuz"
-      ],
-      "sectors": [
-        "Energy",
-        "Shipping",
-        "Transportation"
-      ],
-      "investorImpact": "The escalation of attacks in a critical trade choke point like the Strait of Hormuz poses severe upside risks to global energy prices and shipping insurance costs, potentially impacting broad equity markets and energy sector equities.",
-      "reasoning": "Classified as GEOPOLITICAL due to military attacks on commercial shipping in a vital chokepoint. The potential disruption to global crude oil supplies makes it highly significant for fund monitoring, warranting a HIGH importance rating and a NEGATIVE sentiment.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
-      "publishedAtSgt": "2026-10-15T03:22:00+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 72,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-15T04:13:38+08:00"
-    },
-    {
-      "articleId": "dcd9c7593ea49f363f6f0d412fbce97784cc614f73005cc7fb7270918712241c",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Neocloud stocks and shares of GPU-as-a-service providers plunged as debt yields for Nvidia-backed CoreWeave reached new highs, prompting traders to aggressively buy put options.",
-      "assetClasses": [
-        "Equities",
-        "Options"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology",
-        "Cloud Computing"
-      ],
-      "investorImpact": "Investors with exposure to AI infrastructure, neocloud providers, and semiconductor-adjacent businesses face heightened volatility and downside risk as sentiment and financing costs worsen.",
-      "reasoning": "Classified as MARKET due to direct stock and options market activity driven by financial stress in a major AI infrastructure player. Importance is HIGH given the systemic implications for the broader artificial intelligence trade.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
-      "publishedAtSgt": "2026-10-15T03:03:44+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/coreweave-put-options-ai-trade.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T04:13:41+08:00"
-    },
-    {
-      "articleId": "4cd6410d895cc5b0f24f259a05a4bbcd1a2da4b41792b460177854bdb6e06907",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "The U.S. Treasury Department's Office of the Comptroller of the Currency reported that some of the largest U.S. banks allowed political and social preferences to influence decisions regarding who received banking services, rather than relying strictly on financial risk.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials",
-        "Banking"
-      ],
-      "investorImpact": "Regulatory scrutiny regarding banking practices and potential political influences on services could introduce compliance pressures and reputation risks for major financial institutions, impacting banking sector sentiment.",
-      "reasoning": "The article highlights regulatory findings from the OCC concerning major U.S. banks and political influence in banking services, which falls under market and regulatory oversight for the financial sector.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Treasury says largest U.S. banks let politics influence who received banking services",
-      "publishedAtSgt": "2026-10-15T02:51:42+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/treasury-banks-debanking-trump-reputation-risk.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T04:13:40+08:00"
-    },
-    {
-      "articleId": "7730ef90e26af97497c2061a2d760dbc16e371730ae960d5288875c49e8abc4c",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "AI infrastructure stocks have tumbled amid a market sell-off, driven partly by rising market expectations for a Federal Reserve interest rate hike and shifting odds for upcoming central bank meetings, while upcoming financials from AI labs remain a focal point for easing pressure on chip stocks.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Investors holding AI infrastructure and semiconductor stocks face downward pressure due to rising rate hike expectations and market volatility, though upcoming financial reports from key AI labs could offer a catalyst for recovery.",
-      "reasoning": "The article discusses a market sell-off in AI infrastructure stocks driven by macroeconomic factors like rising rate hike odds. It is classified as MARKET and is relevant for fund monitoring as it impacts technology sector valuations.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "AI infrastructure stocks tumble. Here's a few reasons for the sell-off",
-      "publishedAtSgt": "2026-10-15T02:41:11+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/14/ai-infrastructure-stocks-tumble-heres-a-few-reasons-for-the-sell-off-.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T04:13:41+08:00"
-    },
-    {
-      "articleId": "8841ae13cf38ef529ec672a60b90cd5c557b158b56096194a807225de29cbf9e",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Persistent high inflation in the U.S. has negatively impacted consumer economic outlook, influencing household budgeting and upcoming midterm elections while potentially reducing the effectiveness of Federal Reserve monetary policy tools.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Consumer Goods",
-        "Financials"
-      ],
-      "investorImpact": "Persistent inflation expectations can complicate Federal Reserve monetary policy, impacting interest rate trajectories and creating volatility across equity and fixed income markets.",
-      "reasoning": "The article discusses persistent high inflation becoming entrenched in the U.S. economy and its negative implications for monetary policy and consumer sentiment, warranting an ECONOMIC category, NEGATIVE sentiment, and HIGH importance.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "How high inflation became a 'fact of life' in the U.S.",
-      "publishedAtSgt": "2026-10-15T01:20:23+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-10-15T04:13:37+08:00"
-    },
-    {
-      "articleId": "8767e0a2f81d2540dcf5333eecd21c06203178de2debd712c2b76d9c276b9469",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Fannie Mae has sharply raised its mortgage rate forecast for 2027 following a hotter-than-expected inflation report. Rising bond yields, driven by higher oil prices and global economic concerns, are pushing mortgage rates up as they loosely follow the 10-year Treasury yield.",
-      "assetClasses": [
-        "Fixed Income",
-        "Real Estate"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Real Estate",
-        "Financials"
-      ],
-      "investorImpact": "Higher mortgage rate forecasts for 2027 indicate prolonged elevated borrowing costs, which could suppress housing market activity, depress real estate valuations, and impact fixed income investments sensitive to Treasury yields.",
-      "reasoning": "The article is classified as ECONOMIC due to its focus on inflation, mortgage forecasts, and Treasury yields. It is important and relevant for fund monitoring because elevated long-term borrowing costs affect real estate and fixed income asset classes.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Fannie Mae sharply raises mortgage rate forecast for 2027",
-      "publishedAtSgt": "2026-10-15T01:08:07+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-15T04:13:40+08:00"
-    },
-    {
-      "articleId": "49cc3177db20b36a0c6a02b41b27d5359ad8b12397a70a4de1b5b149983c720b",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "BlackRock CEO Larry Fink warned that halting data center construction could trigger an economic slowdown or recession due to the heavy reliance of the current economy on AI infrastructure capital expenditures.",
-      "assetClasses": [
-        "Equities",
-        "Infrastructure"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology",
-        "Energy",
-        "Real Estate"
-      ],
-      "investorImpact": "Investors heavily exposed to AI infrastructure, tech capex, and energy grid buildout must monitor regulatory or moratorium risks, as halting data center projects could negatively impact growth across related sectors and the broader economy.",
-      "reasoning": "The article addresses macro-economic risks tied to technology infrastructure investments, making it vital for economic and fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "BlackRock's Larry Fink warns a data center moratorium could trigger a recession",
-      "publishedAtSgt": "2026-10-15T00:27:12+08:00",
-      "url": "https://www.cnbc.com/2026/10/14/blackrocks-fink-warns-data-center-moratorium-could-spark-a-recession.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 81,
-      "collectorRelevanceReason": "technology_business_or_infrastructure",
-      "collectedAtSgt": "2026-10-15T04:13:41+08:00"
     }
   ]
 }
