@@ -5,6 +5,84 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "6c3439bf72125d08ce64d9088f72bcd55b50d04c5102340a56b97d5142637a52",
+      "source": "CNBC",
+      "title": "The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget",
+      "publishedAtSgt": "2026-10-28T23:39:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The U.K.'s finance minister John Healey delivered his first fiscal budget on Wednesday, announcing funding for defense, AI initiatives and measures designed to ease cost-of-living pressures. \"Nowhere is the necessary role for the state clearer than in artificial intelligence,\" he said, as he announced hundreds of millions of pounds in funding for AI security and sovereignty.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:57+08:00"
+    },
+    {
+      "id": "d1a1b9d596cf74ccb77b158d1657018b1d998752128c0af2a395482128a37484",
+      "source": "CNBC",
+      "title": "Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain",
+      "publishedAtSgt": "2026-10-28T22:35:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A group of investors led by Nelson Peltz's Trian Fund Management has offered $1.4 billion to buy Wendy's, according to a regulatory filing Wednesday. In addition to Trian, it includes investment firms BlueFive Capital and Sixth Street Partners, plus Flynn Group, one of Wendy's largest franchisees. Wendy's shares spiked about 15% in morning trading following the offer.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:57+08:00"
+    },
+    {
+      "id": "b14846b3f8fbbc6f87436becbf418283e60497e1446165c84699d5accd1f7c46",
+      "source": "CNBC",
+      "title": "New Zealand dollar tanks after central bank defies markets' near-certainty it would hike rates",
+      "publishedAtSgt": "2026-10-28T20:52:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/new-zealand-dollar-rbnz-rates.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The New Zealand dollar fell sharply on Wednesday, as markets reacted to an unanticipated interest rate decision from the country's central bank. The central bank's MPC said Wednesday it was aiming to return inflation to 2% over the medium term, while \"discounting temporary disturbances in inflation and avoiding unnecessary instability in the economy.\" Bets on a rate hike at the RBNZ's final meeting of the year fell drastically on Wednesday.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:58+08:00"
+    },
+    {
+      "id": "eddd47c0af7c92d104809ab5b352696c04ca04276d05bdcd5a801ed75699c0db",
+      "source": "CNBC",
+      "title": "Traders are betting big against this restaurant giant into earnings",
+      "publishedAtSgt": "2026-10-28T20:04:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/traders-are-betting-big-against-chipotle-into-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "There are a lot of big earnings after today's close, including Microsoft, Google, T-Mobile and Ford. 6 expiry that they had likely sold, while simultaneously selling the same number of 22.5-strike puts expiring mid-December, arguably on the margin an indication of weakening confidence as CMG's nears the trader's first strike and forces a roll down in price and out in time to give room for the stock to slip further.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:57+08:00"
+    },
+    {
+      "id": "b22003c51a69e3d674d14d0f0d5c681f5f6dad1e1c6937e3b46a4eea4cf7f4e4",
+      "source": "CNBC",
+      "title": "Investors brace for a hawkish hold and tech on tap",
+      "publishedAtSgt": "2026-10-28T18:54:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/investors-brace-for-a-hawkish-hold-and-tech-on-tap.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Inflation is the common denominator, with policymakers citing the AI-driven demand boom as pushing up prices alongside energy. - Why it matters: This could provide another boost for chip stocks, like Micron. - Sector dynamics: The chip stocks drove the rally on Wall Street on Tuesday, after an announcement from Broadcom that a group of banks would provide $63 billion in financing to buy the company's chips and networking solutions to be leased to Anthropic.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:58+08:00"
+    },
+    {
       "id": "77c70fbb30118064130682915faf9d0126fcf8f01866971caea963494ec92d3f",
       "source": "CNBC",
       "title": "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
@@ -290,6 +368,6 @@
       "collectedAtSgt": "2026-10-28T04:44:22+08:00"
     }
   ],
-  "articleCount": 18,
-  "updatedAtSgt": "2026-10-28T18:37:54+08:00"
+  "articleCount": 23,
+  "updatedAtSgt": "2026-10-29T02:53:58+08:00"
 }

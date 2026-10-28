@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "54214e8a4bc9f6a7ccde872a82530b2f77236383d340102bc5a253446aa01ba0",
+      "source": "CNBC",
+      "title": "Oracle stock pops 10% on forecast for 35% average revenue growth through 2030",
+      "publishedAtSgt": "2026-10-29T02:52:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oracle shares jumped on Wednesday after the software company issued a revenue forecast of $225 billion for fiscal 2030, implying 35% average annual growth, and said it will limit additional fundraising over that stretch to $20 billion. Analysts polled by LSEG expected growth of 8% in fiscal 2027, followed by significant acceleration over the next two years.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:48+08:00"
+    },
+    {
+      "id": "c9b8b83e4d5bd9130bb929314897a7e8da0e87ee90b008b9393975cdfa9299de",
+      "source": "CNBC",
+      "title": "Fed holds rates steady despite concerns over inflation",
+      "publishedAtSgt": "2026-10-29T02:50:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "In a widely expected decision, the Federal Open Market Committee kept the overnight funds rate in a range between 3.75%-4%, where it has been since the central bank approved a quarter percentage-point increase in September. Fed officials consider political independence to be a cornerstone of the central bank, but some observers have speculated that officials won't want to raise rates this close to an election.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:53+08:00"
+    },
+    {
+      "id": "04742b5bd1f3d2eba2657985a27183fb4f188025b3ca4aa96d0538b0144654d5",
+      "source": "CNBC",
+      "title": "We're adding a new, high-profile AI play to our Bullpen stocks to watch list",
+      "publishedAtSgt": "2026-10-29T02:33:53+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/28/were-adding-a-new-high-profile-ai-stock-to-our-bullpen.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "SPCX mountain 2026-06-11 SpaceX stock performance since mid-June IPO Space has three distinct segments: Space (rockets and satellites), Connectivity (Starlink), and SI (Super Intelligence), which was previously called AI. One is increasing launch payload capacity, while the other is to \"establish the lunar economy, including cargo transport, manufacturing, and energy production on the moon.\" The Starship spacecraft generates sales through commercial launches and government contracts.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:51+08:00"
+    },
+    {
+      "id": "25ab205ccda5838a9cf946b11bf0a28bc588a26cf4f08b8f26938b3a6db10dca",
+      "source": "CNBC",
+      "title": "Anthropic IPO filing warns some risks may be uninsurable. AI coverage will be issue for every company",
+      "publishedAtSgt": "2026-10-29T02:32:45+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/anthropic-ipo-ai-risks-insurance.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic's IPO filing includes many words covering many risks, from IP theft to security incidents, data loss, climate change, rogue agents and all the way to an existential crisis for humanity. Is it even possible to provide a policy for all of the ways that AI could go wrong? It's just a technology through which existing familiar categories of harms and losses might manifest,\" said Kim, who noted that trying to separate out AI into its own insurance category could be very tedious.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:52+08:00"
+    },
+    {
+      "id": "bb9f6f2f52034c2461271c4a7a2f0c0965edb86e22dbf32767f5dcbe04287d4c",
+      "source": "CNBC",
+      "title": "Looking for yield? This could be one of the best times in recent market history to buy corporate bonds",
+      "publishedAtSgt": "2026-10-29T02:01:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/buy-bonds-yields.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "With the 10-year Treasury yield still flirting around 5% and the Federal Reserve holding rates steady at its FOMC meeting on Wednesday, fixed income experts say the environment for highly rated investment-grade corporates is attractive — some have called it a \"generational opportunity.\" Leading the market are hyperscalers including Alphabet, Amazon, Meta and Microsoft, companies that have been aggressively issuing debt for artificial intelligence projects, including buying chips and building...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:50+08:00"
+    },
+    {
+      "id": "03faf7bb9063a6aec845891415e6ef9ed1153aa2d56b75a20451cf19b406444c",
+      "source": "CNBC",
+      "title": "Watch Live: Options traders break down a massive Alphabet trade into earnings",
+      "publishedAtSgt": "2026-10-29T01:56:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/alphabet-microsoft-report-after-the-bell-what-options-trader-see.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The trade target a move higher to $365, a 13% jump from its current price. The trade is a bet the in the near term, the worst is behind Alphabet, which has seen its shares fall nearly 20% from its all time highs reached back in May. 300-strike puts at $2.15 per contract for a total debit of $2.5M This is a trade that looks to take advantage of high near-term volatility in Alphabet's shorter dated puts.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:49+08:00"
+    },
+    {
+      "id": "a893148db6cc220382734b5f4462ea7724b8ddf89647e7bfb8261ce9fbe35234",
+      "source": "CNBC",
+      "title": "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
+      "publishedAtSgt": "2026-10-29T01:39:43+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/trump-tariffs-corruption-raskin.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Raskin, the ranking member of the House Judiciary Committee and the former top Democrat on the House oversight committee, highlighted three such tariff carve-outs — for Brazilian meat, diamonds and smartphones — that he says \"make little to no sense\" under the criteria set by the Trump administration.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:48+08:00"
+    },
+    {
+      "id": "66e895d2b8ac7649be9239db0d42816cf671fe96d04221fde79d4817d8be849d",
+      "source": "CNBC",
+      "title": "Alphabet set to report Q3 earnings after the bell as shaky AI trade looks for signs of strength",
+      "publishedAtSgt": "2026-10-29T00:33:22+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Still, the report arrives at a skittish moment on Wall Street, with investors growing more concerned about the costs tied to the artificial intelligence buildout. As Google continues to open its wallet to fuel expansion, it's getting rewarded with revenue growth in its cloud division, home to its AI offerings. \"Google continues to be well-positioned across AI,\" analysts at Citizens – who recommend buying the stock – wrote in a report last week.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:50+08:00"
+    },
+    {
+      "id": "f14f64d82750941adca9ebf3b7f39c85f10db399a2573f2d241b033a3d2d3df2",
+      "source": "CNBC",
+      "title": "Microsoft earnings will land after the close",
+      "publishedAtSgt": "2026-10-29T00:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Analysts polled by StreetAccount are expecting $32.32 billion, which would represent growth of more than 44%. The software giant has been working to become a bigger force in artificial intelligence through infrastructure expansion and product enhancements, while continuing to produce free cash flow, unlike its fellow hyperscalers. As of Tuesday's close, Microsoft shares were up almost 10% year to date, trailing the S&P 500 index, which has gained about 13% over the same period.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:49+08:00"
+    },
+    {
+      "id": "daea075c4c9420567757dc1f526582cdf7a72a5e87ba5d35f351184087efde98",
+      "source": "CNBC",
+      "title": "Ford Motor is set to report earnings after the bell. Here's what Wall Street expects",
+      "publishedAtSgt": "2026-10-29T00:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "DETROIT — Ford Motor is set to announce third-quarter earnings after the markets close Wednesday. A main focus for investors will be Ford's F-Series pickup trucks, including its crucial F-150. The automaker has been recovering from supplier issues that affected truck production for much of the past year, but experienced a disruption in F-150 manufacturing due to a separate, unrelated supplier problem toward the end of September.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T02:53:50+08:00"
+    }
+  ],
+  "articleCount": 10,
+  "updatedAtSgt": "2026-10-29T02:53:53+08:00"
+}
