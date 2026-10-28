@@ -5,6 +5,71 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "e5eb6460b816e9c63a9f51206b3f9f9d4c7049c972ad0deee527fe3c305cbcf2",
+      "source": "CNBC",
+      "title": "SK Hynix announces over $25 billion in dividends and buyback as third-quarter profit beats estimates",
+      "publishedAtSgt": "2026-10-28T09:25:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "In the earnings call, SK Hynix CEO Kwak Noh-Jung cited financial market volatility and a correction in semiconductor stocks as the main reasons to halt its review of potential pre-IPO fundraising and IPO options for its U.S. The company had said it would continue to assess investment timing, scale and financing options to support Solidigm's growth and enhance shareholder value.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
+    {
+      "id": "255d54c1288873fa9bd3b7166326f41eafa27c92ccdc5e74d50a09767481557d",
+      "source": "CNBC",
+      "title": "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks",
+      "publishedAtSgt": "2026-10-28T08:14:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/india-us-stocks-retail-access.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Groww, an Indian investment platform that accounts for more than 29% of the country's 46 million active investors across stock brokerages, rolled out the U.S. Foreign investors are fleeing the country's markets, with a record $32.5 billion in outflows in direct equities since January, as per data from Indian depository NSDL, pressuring the stock market.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
+    {
+      "id": "e01139188be74fc55d1417518ecc758efcfca5ed485680cf49e3f26eb0b81cff",
+      "source": "CNBC",
+      "title": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
+      "publishedAtSgt": "2026-10-28T06:24:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer warned Tuesday that investors may be getting ahead of themselves by declaring the artificial intelligence trade back on track. AI-related stocks rallied for a second straight session, fueled by renewed enthusiasm for chipmakers after a group of banks and Blackstone announced $63 billion in financing for Anthropic to purchase Broadcom's computing hardware.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
+    {
+      "id": "58f64a175759cca87f94312fe8817ad9a78a81aa209290a7347672527a124722",
+      "source": "CNBC",
+      "title": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
+      "publishedAtSgt": "2026-10-28T06:18:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/trump-putin-zelenskyy-russia-ukraine-diesel.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "may allow more diesel fuel from Russia onto the global market depending on Moscow's behavior, Energy Secretary Chris Wright told CNBC in an interview Tuesday. sanctions against Russian diesel exports earlier this month as \"an incentive\" for Moscow to end the war in Ukraine. Kyiv has pounded Russian refineries this year in an effort to cut the revenue the Kremlin collects from energy exports and curtail Moscow's ability to wage war.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
+    {
       "id": "ec519b89d968b2b6839b6b8d586621230e908ec2946b401ba798a575a28c88b6",
       "source": "CNBC",
       "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
@@ -114,6 +179,6 @@
       "collectedAtSgt": "2026-10-28T04:44:22+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-28T04:44:24+08:00"
+  "articleCount": 11,
+  "updatedAtSgt": "2026-10-28T09:26:08+08:00"
 }

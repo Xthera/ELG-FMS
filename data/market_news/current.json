@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-28T04:44:28+08:00",
+  "generatedAtSgt": "2026-10-28T09:26:08+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,71 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "e5eb6460b816e9c63a9f51206b3f9f9d4c7049c972ad0deee527fe3c305cbcf2",
+      "source": "CNBC",
+      "title": "SK Hynix announces over $25 billion in dividends and buyback as third-quarter profit beats estimates",
+      "publishedAtSgt": "2026-10-28T09:25:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "In the earnings call, SK Hynix CEO Kwak Noh-Jung cited financial market volatility and a correction in semiconductor stocks as the main reasons to halt its review of potential pre-IPO fundraising and IPO options for its U.S. The company had said it would continue to assess investment timing, scale and financing options to support Solidigm's growth and enhance shareholder value.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
+    {
+      "id": "255d54c1288873fa9bd3b7166326f41eafa27c92ccdc5e74d50a09767481557d",
+      "source": "CNBC",
+      "title": "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks",
+      "publishedAtSgt": "2026-10-28T08:14:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/india-us-stocks-retail-access.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Groww, an Indian investment platform that accounts for more than 29% of the country's 46 million active investors across stock brokerages, rolled out the U.S. Foreign investors are fleeing the country's markets, with a record $32.5 billion in outflows in direct equities since January, as per data from Indian depository NSDL, pressuring the stock market.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
+    {
+      "id": "e01139188be74fc55d1417518ecc758efcfca5ed485680cf49e3f26eb0b81cff",
+      "source": "CNBC",
+      "title": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
+      "publishedAtSgt": "2026-10-28T06:24:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer warned Tuesday that investors may be getting ahead of themselves by declaring the artificial intelligence trade back on track. AI-related stocks rallied for a second straight session, fueled by renewed enthusiasm for chipmakers after a group of banks and Blackstone announced $63 billion in financing for Anthropic to purchase Broadcom's computing hardware.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
+    {
+      "id": "58f64a175759cca87f94312fe8817ad9a78a81aa209290a7347672527a124722",
+      "source": "CNBC",
+      "title": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
+      "publishedAtSgt": "2026-10-28T06:18:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/trump-putin-zelenskyy-russia-ukraine-diesel.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "may allow more diesel fuel from Russia onto the global market depending on Moscow's behavior, Energy Secretary Chris Wright told CNBC in an interview Tuesday. sanctions against Russian diesel exports earlier this month as \"an incentive\" for Moscow to end the war in Ukraine. Kyiv has pounded Russian refineries this year in an effort to cut the revenue the Kremlin collects from energy exports and curtail Moscow's ability to wage war.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
     {
       "id": "ec519b89d968b2b6839b6b8d586621230e908ec2946b401ba798a575a28c88b6",
       "source": "CNBC",
@@ -1524,67 +1589,6 @@
         "business"
       ],
       "collectedAtSgt": "2026-10-22T06:24:01+08:00"
-    },
-    {
-      "id": "88feb9c813dfc6ecb258e39a570166437858833aba49c9def29bcf004d25853d",
-      "source": "CNBC",
-      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
-      "publishedAtSgt": "2026-10-22T03:54:16+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Investors may be wary of the volatility hitting parts of the bond market right now, but they have an \"historic\" opportunity to grab attractive yields in high-quality credit, Rick Rieder, BlackRock's chief investment officer for global fixed income, told CNBC in an exclusive interview.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
-    },
-    {
-      "id": "5e4e54f4d7098c991076423f259f23783a674c6337443b7a7e2f348b983fedf1",
-      "source": "CNBC",
-      "title": "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound",
-      "publishedAtSgt": "2026-10-22T03:47:38+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Wednesday's action marked a strong rebound in the AI infrastructure trade, with technology stocks and industrials tied to the data center buildout leading the market higher. CEO Elon Musk indicated on the SpaceX earnings call that power, cooling, and electrical equipment are the limiting factors in getting more gigawatts of compute online, which had investors feeling better about the outlooks for stocks like GE Vernova , Eaton , and Vertiv .",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-22T06:24:02+08:00"
-    },
-    {
-      "id": "111ddd8881b0a238a0b1bf2b4110b856606b5849041e75c66e063545ebe25feb",
-      "source": "CNBC",
-      "title": "Expanding AI trade is turning safety stocks into a 'Texas hedge'",
-      "publishedAtSgt": "2026-10-22T01:14:14+08:00",
-      "url": "https://www.cnbc.com/2026/10/21/expanding-ai-trade-is-turning-safety-stocks-into-a-texas-hedge.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Investors are bailing on higher-volatility growth stocks and running toward the shelter of perceived safety sectors like utilities and consumer staples. As valuation multiples across capital-intensive AI infrastructure plays — such as specialized data center hosting providers CoreWeave (CRWV) and Iren Ltd (IREN) — take on water in the form of massive debt loads due to aggressive capex buildouts, investors may want to take a portion of their equity exposure into more protected water.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-22T02:06:08+08:00"
-    },
-    {
-      "id": "dd31afe1ca54ce954d1719b09db219e8b221fe836acc88f267a7c9386195d506",
-      "source": "CNBC",
-      "title": "Meta stock advances ahead of after-the-bell earnings. What we're looking for",
-      "publishedAtSgt": "2026-10-22T00:47:59+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/21/meta-stock-advances-ahead-of-after-the-bell-earnings-what-were-looking-for.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of the rocket and AI company surged nearly 11%. We wanted to lock in more profits and shield ourselves from potential further declines as AI stocks on credit concerns. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-22T02:06:09+08:00"
     }
   ]
 }
