@@ -5,6 +5,114 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "1ff90cd183fc18c054a731f434be822c9c11d5ae46b6296b006e35e65ca99ab2",
+      "source": "CNBC",
+      "title": "Jim Cramer sees major implications from SK Hynix's home-run quarter",
+      "publishedAtSgt": "2026-10-29T07:00:27+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/cramer-sk-hynix-ai-chip-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "CNBC's Jim Cramer said Wednesday that SK Hynix's blockbuster earnings proved artificial intelligence stocks can still rally in a market that has grown increasingly skeptical of the massive data center build-out. The rally stood out at a time when even strong earnings haven't been enough to lift some AI-related stocks, as investors question whether the enormous spending on data centers will pay off.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-29T07:15:39+08:00"
+    },
+    {
+      "id": "5f853042979c1c1f2a069c6a336405a9a43ef7323711a712ca3448d33feb743b",
+      "source": "CNBC",
+      "title": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
+      "publishedAtSgt": "2026-10-29T06:27:00+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/fedex-fdx-sept-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "FedEx on Wednesday reported quarterly earnings that beat Wall Street expectations on the top and bottom lines and raised its full-year outlook for its newly realigned fiscal year. Shares of the company fell slightly in extended trading. FedEx also said it's revising its 2026 revenue growth expectation to a roughly 12% year-over-year increase, up from previous guidance of an 11% increase.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-29T07:15:39+08:00"
+    },
+    {
+      "id": "097af80691731aaf70ba7e84031d17c54066a4189097d2a868b8787bc408ce83",
+      "source": "CNBC",
+      "title": "Chipotle shares rise 7% after CEO says same-store sales growth will continue",
+      "publishedAtSgt": "2026-10-29T06:12:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/chipotle-mexican-grill-cmg-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of the company rose 7% in extended trading. \"Broader consumer and industry headwinds may continue, but initiatives across our recipe for growth strategy are building and giving us more tools to win in any environment,\" Boatwright said on the company's earnings conference call.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T07:15:39+08:00"
+    },
+    {
+      "id": "6d097427e4762fbd2b4d9f0abd9ae32b8df704ddb2871fba1214bea71095b7a0",
+      "source": "CNBC",
+      "title": "Anthropic’s public benefit structure creates unusual risks for IPO investors",
+      "publishedAtSgt": "2026-10-29T05:48:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/anthropic-pbc-what-its-structure-means-for-investors-.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic's structure as a public benefit corporation (PBC) raises critical questions for investors ahead of the AI lab's blockbuster IPO. Anthropic aims to go public at a valuation of $1.5 trillion or more, making it the first major frontier lab to test public markets' appetite for AI – at a potentially rich valuation. The industrial structure of the AI sector is not settled, moreover, so investors should be prepared for further changes as the technology progresses.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-29T07:15:40+08:00"
+    },
+    {
+      "id": "3c87e44da9ddc718ef61fd0de5a3bfc12ff1eb7d77d447db294d5fe452366f47",
+      "source": "CNBC",
+      "title": "CoreWeave and other neocloud stocks drop after Microsoft capex comes in below expectations",
+      "publishedAtSgt": "2026-10-29T05:14:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/neocloud-stocks-drop-after-microsoft-revises-capex-down.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of neoclouds like CoreWeave and Nebius dropped in extended trading as Microsoft's lower-than-expected capital expenditures figure points to infrastructure partners taking longer to deliver data center capacity. Microsoft is particularly reliant on neoclouds for capacity as it pours money into its artificial intelligence infrastructure.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-29T07:15:40+08:00"
+    },
+    {
+      "id": "b60c5f0c7b93c02788d5f04bea171a2a19f522f442cc7552997a3a7f2c91fc9e",
+      "source": "CNBC",
+      "title": "Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'",
+      "publishedAtSgt": "2026-10-29T03:53:50+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "You just upgraded the economy right here,\" he said, referring to Fed Chairman Kevin Warsh's comments about a strong macroeconomic environment during the central bank's post-decision news conference. The commodity index is rising in a bull market, and I don't understand why the Fed is so reluctant to move.\" His comments come after the central bank decided to leave interest rates unchanged at its October meeting.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-29T07:15:38+08:00"
+    },
+    {
+      "id": "0383b43910a9f490f7b85b41c3aafb3827ad025e923a45808cf1f6a098d14433",
+      "source": "CNBC",
+      "title": "Fed chairman talks tough on inflation — plus, what's behind Micron's big rally",
+      "publishedAtSgt": "2026-10-29T03:17:35+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/28/fed-chairman-talks-tough-on-inflation-plus-whats-behind-microns-big-rally.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "During his post-meeting news conference, Fed Chairman Kevin Warsh reiterated that 2% — nothing higher — is the central bank's target rate on inflation. Shares of the South Korean company that trade in the United States are up more than 12.5%. On the economic data side of things, Thursday morning brings the September PCE price index and the first read on third-quarter GDP.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-29T07:15:39+08:00"
+    },
+    {
       "id": "54214e8a4bc9f6a7ccde872a82530b2f77236383d340102bc5a253446aa01ba0",
       "source": "CNBC",
       "title": "Oracle stock pops 10% on forecast for 35% average revenue growth through 2030",
@@ -167,6 +275,6 @@
       "collectedAtSgt": "2026-10-29T02:53:50+08:00"
     }
   ],
-  "articleCount": 10,
-  "updatedAtSgt": "2026-10-29T02:53:53+08:00"
+  "articleCount": 17,
+  "updatedAtSgt": "2026-10-29T07:15:40+08:00"
 }
