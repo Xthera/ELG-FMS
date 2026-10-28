@@ -1,10 +1,342 @@
 {
-  "generatedAtSgt": "2026-10-28T05:00:26.062346+08:00",
+  "generatedAtSgt": "2026-10-28T18:53:45.083466+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 228,
+  "articleCount": 240,
   "analyses": [
+    {
+      "articleId": "77c70fbb30118064130682915faf9d0126fcf8f01866971caea963494ec92d3f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Oil prices climbed due to supply worries following Houthi attacks on Saudi Arabia's largest refinery and ongoing tensions regarding potential military actions involving Iran.",
+      "assetClasses": [
+        "Commodities"
+      ],
+      "geographies": [
+        "Middle East",
+        "Saudi Arabia",
+        "Iran"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Supply disruption fears in the Middle East drive up oil prices, increasing input costs for energy-dependent sectors and creating volatility in commodity markets.",
+      "reasoning": "The article details geopolitical supply shocks directly impacting commodity prices, making it vital for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
+      "publishedAtSgt": "2026-10-28T17:54:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "articleId": "fc77bdd394f6dd92b488911c20f4e0e82ba233ee53f87ca93d05ecb375f581f0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "UBS reported a 27% jump in third-quarter pretax profits to $3.59 billion, driven by surging wealth inflows. The bank's CET1 capital ratio rose to 14.7%, and the integration of Credit Suisse is on track to complete by year-end with cumulative cost savings reaching $13.7 billion.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "Switzerland",
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Strong earnings and successful execution of the Credit Suisse integration support positive sentiment for UBS and the broader European banking sector, reflecting robust solvency and wealth management inflows.",
+      "reasoning": "The article details significant positive financial results for a major global systemically important financial institution, providing key insights into banking sector health, wealth management trends, and merger execution.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "UBS pretax profits jump 27% in third quarter to $3.59 billion as wealth inflows surge",
+      "publishedAtSgt": "2026-10-28T17:42:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/ubs-earnings-third-quarter.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "articleId": "585422d575ac4c191d2b36bd4098597f546ac93068d7344e4745e66e6e884000",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "Bond yields ticked higher early Wednesday, with the 10-year Treasury note yield surpassing 5.01%, as investors awaited the Federal Reserve's upcoming monetary policy decision.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Rising Treasury yields impact borrowing costs across the economy, including mortgages and corporate debt, influencing asset valuations and fixed income portfolio performance ahead of the Fed's rate decision.",
+      "reasoning": "The article covers critical macroeconomic fixed-income movements directly tied to upcoming Federal Reserve policy decisions, making it highly relevant for market monitoring and investment strategy.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury yields tick higher ahead of Federal Reserve interest rate decision",
+      "publishedAtSgt": "2026-10-28T17:22:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "articleId": "a0f650c8d8683311a06d3127bcc88b5ce8508f2496ca348a828f40b6ee6b5f64",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Israeli bonds and the shekel fell following an election that left Benjamin Netanyahu and other contenders far short of majorities. The Tel Aviv 35 stock index dropped 2.7%, while government bond yields rose across maturities.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Currencies"
+      ],
+      "geographies": [
+        "Israel"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "Investors with exposure to Israeli assets face increased volatility and downside pressure due to political deadlock following the election.",
+      "reasoning": "The article details direct market reactions, including declining equity indices, falling currency values, and rising bond yields resulting from political instability in Israel, making it highly relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Israeli bonds, shekel fall as election leaves Netanyahu and others far short of majorities",
+      "publishedAtSgt": "2026-10-28T17:12:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "articleId": "21d648bb7812b5a5669b3229b1ce8920c6c8d1f3bd7395aaee149d898f9c7755",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Jio Platforms' shares surged 21.5% on their trading debut following a record-breaking initial public offering backed by strong retail and institutional demand, with future index inclusions anticipated.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Technology",
+        "Telecommunications"
+      ],
+      "investorImpact": "The successful debut and subsequent surge of a major IPO like Jio Platforms signals robust investor appetite in the Indian market, potentially boosting confidence for future large-scale technology and telecommunications offerings.",
+      "reasoning": "Classified as MARKET due to the major stock market debut and IPO performance. The sentiment is POSITIVE given the 21.5% share price surge on day one, and it is important for tracking regional equity market health and investor sentiment in India.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
+      "publishedAtSgt": "2026-10-28T15:48:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/jio-ipo-india-listing-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "articleId": "52bb7b9195e571b4f5ccda5085dcbfe49f0ad82dacbd8f7f5b9cfcf590f0a55b",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "President Donald Trump joked about the purchasing power of a proposed $5,000 direct payment amid growing affordability concerns and midterms. Economists warn that such payments could exacerbate inflation pressures.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Retail"
+      ],
+      "investorImpact": "Discussions around fiscal stimulus and inflation risks can impact Treasury yields and consumer sentiment, affecting sectors exposed to consumer spending.",
+      "reasoning": "Classified as ECONOMIC because it discusses fiscal proposals and inflation concerns. Sentiment is NEGATIVE due to warnings about exacerbating inflation and strained affordability. Importance is MEDIUM as it addresses macroeconomic policy discussions.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump jokes $5,000 would buy 'a hamburger and maybe a small dessert' at Mar-a-Lago as cost of living looms over midterms",
+      "publishedAtSgt": "2026-10-28T12:29:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/trump-jokes-5000-cash-would-buy-hamburger-and-dessert-at-mar-a-lago.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "articleId": "b830841b70873cf2e866ebaf20f6b7607fb6a6bcb11546c421572a12ffb79a40",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Shares of Chinese toymaker Pop Mart extended declines following a sharp drop in third-quarter revenue, raising questions about whether the frenzy surrounding Labubu and other collectible toys can sustain the company's rapid growth.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Consumer Goods",
+        "Retail"
+      ],
+      "investorImpact": "Investors holding Pop Mart or exposed to trendy consumer goods sectors should monitor demand sustainability and overseas market performance, as declining sales signal potential valuation risks.",
+      "reasoning": "The article details a significant market decline and revenue drop for a notable public consumer goods company, making it relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Labubu-maker Pop Mart's shares extend declines as third-quarter sales plunge",
+      "publishedAtSgt": "2026-10-28T10:57:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/labubu-pop-mart-third-quarter-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "articleId": "e5eb6460b816e9c63a9f51206b3f9f9d4c7049c972ad0deee527fe3c305cbcf2",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "SK Hynix announced over $25 billion in dividends and share buybacks alongside a third-quarter profit that beat estimates. The company's CEO also cited market volatility and semiconductor stock corrections as reasons to halt its review of potential pre-IPO fundraising and IPO options for its U.S. unit.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "South Korea",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The massive shareholder returns signal strong financial health and confidence, positively impacting equity sentiment for the company, while the halt on U.S. unit IPO plans reflects caution regarding current semiconductor market volatility.",
+      "reasoning": "Classified as MARKET due to strong earnings and significant shareholder return announcements, which directly impact equity valuations and investor sentiment in the technology and semiconductor sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SK Hynix announces over $25 billion in dividends and buyback as third-quarter profit beats estimates",
+      "publishedAtSgt": "2026-10-28T09:25:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
+    {
+      "articleId": "255d54c1288873fa9bd3b7166326f41eafa27c92ccdc5e74d50a09767481557d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Indian investment platforms such as Groww are rolling out direct access to U.S. stocks, driving retail interest in companies like Nvidia, SpaceX, and Apple, while the broader Indian stock market faces record foreign equity outflows.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India",
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "Highlights shifting retail investment flows in India towards U.S. equities amidst domestic market pressures from foreign capital outflows, offering insights into cross-border retail participation trends.",
+      "reasoning": "Classified as MARKET due to retail platform expansion into U.S. equities and foreign capital outflow dynamics in India. Sentiment is MIXED as strong retail demand for specific global tech names contrasts with broad domestic market pressure from foreign capital flight.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks",
+      "publishedAtSgt": "2026-10-28T08:14:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/india-us-stocks-retail-access.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
+    {
+      "articleId": "e01139188be74fc55d1417518ecc758efcfca5ed485680cf49e3f26eb0b81cff",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer warns investors against prematurely declaring the AI trade back on track following a recent rally driven by a $63 billion financing deal for Anthropic to buy Broadcom hardware.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors",
+        "Financials"
+      ],
+      "investorImpact": "Investors should exercise caution regarding recent AI-related stock rallies and carefully evaluate financing structures and risks before increasing exposure.",
+      "reasoning": "Classified as MARKET because it discusses market reactions, valuations, and stock rallies driven by sector-specific financing. Sentiment is negative due to Cramer's warnings against the rally. Fund monitoring relevance is true as it impacts technology sector allocation strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
+      "publishedAtSgt": "2026-10-28T06:24:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
+    {
+      "articleId": "58f64a175759cca87f94312fe8817ad9a78a81aa209290a7347672527a124722",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Energy Secretary Chris Wright stated in an interview that the Trump administration may permit more Russian diesel onto the global market depending on Moscow's behavior regarding the war in Ukraine.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Russia",
+        "Ukraine",
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Potential easing of Russian diesel sanctions could increase global fuel supplies and exert downward pressure on energy prices, impacting oil and gas sector margins and commodity trading.",
+      "reasoning": "The article discusses potential shifts in U.S. sanctions and energy policy regarding Russian diesel exports, which directly affect global energy markets and geopolitical risk pricing. It is categorized as GEOPOLITICAL with MEDIUM importance due to its potential impact on commodity prices.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
+      "publishedAtSgt": "2026-10-28T06:18:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/trump-putin-zelenskyy-russia-ukraine-diesel.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
+    },
     {
       "articleId": "ec519b89d968b2b6839b6b8d586621230e908ec2946b401ba798a575a28c88b6",
       "relevant": true,
@@ -479,6 +811,36 @@
       "collectorCategory": "GEOPOLITICAL",
       "collectorRelevanceScore": 71,
       "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "articleId": "2ea69f6d682fbd7b15206c686bfa31e4c55c7f6da248cb1e83e19b75ab120db3",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Porsche reported a rebound in operating profit for the first nine months of the year, driven by reduced exposure to the challenging Chinese market, even as revenue and vehicle deliveries declined. Porsche shares rose 2.3% following the announcement.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Germany",
+        "China"
+      ],
+      "sectors": [
+        "Automotive",
+        "Luxury Goods"
+      ],
+      "investorImpact": "Investors can view Porsche's strategic reduction of exposure to China as a successful risk-mitigation measure that protects profitability amidst localized downturns, supporting positive near-term stock performance.",
+      "reasoning": "The article is classified as MARKET because it details Porsche's profit rebound and share price reaction following strategic geographic rebalancing away from China. It is relevant for fund monitoring due to its insights into luxury automotive sector dynamics and risk management in emerging markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Porsche profit rebounds as luxury carmaker reduces exposure to China",
+      "publishedAtSgt": "2026-10-27T18:08:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/porsche-china-profit-recovery.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-27T23:54:39+08:00"
     },
     {
