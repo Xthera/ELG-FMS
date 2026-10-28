@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-10-27T21:26:19+00:00",
+  "generatedAtUtc": "2026-10-28T11:30:07+00:00",
   "source": "Funds Links.xlsm",
   "fundCount": 67,
   "research": {
@@ -224,25 +224,49 @@
     },
     "researchMatched": 67,
     "researchMissing": 0,
-    "prudentialMatched": 67,
-    "prudentialMissing": 0,
+    "prudentialMatched": 65,
+    "prudentialMissing": 2,
     "dividendFunds": 19,
-    "paymentModeFunds": 67,
+    "paymentModeFunds": 65,
     "paymentModeCounts": {
-      "SRS": 56,
-      "Cash": 67,
-      "CPF-OA": 14,
+      "SRS": 54,
+      "Cash": 65,
+      "CPF-OA": 13,
       "CPF-SA": 5
     },
-    "bidHistoryFunds": 67,
-    "bidHistoryUnresolved": 0,
-    "totalBidObservations": 152246,
-    "unresolvedCount": 0,
-    "failedFundCount": 0,
-    "staleFunds": [],
+    "bidHistoryFunds": 65,
+    "bidHistoryUnresolved": 2,
+    "totalBidObservations": 140445,
+    "unresolvedCount": 4,
+    "failedFundCount": 2,
+    "staleFunds": [
+      "PRULink America Fund",
+      "PRULink Asian Equity Fund"
+    ],
     "skippedFunds": [],
     "fundsWithoutHoldings": [],
-    "failedFunds": []
+    "failedFunds": [
+      {
+        "excelRow": 7,
+        "fund": "PRULink America Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 27 Oct 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 10,
+        "fund": "PRULink Asian Equity Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 27 Oct 2026",
+        "outcome": "kept_last_good"
+      }
+    ]
   },
   "funds": [
     {
@@ -336,7 +360,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -418,7 +442,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -512,7 +536,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -600,7 +624,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -731,7 +755,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -861,8 +885,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00",
+        "failedUpdateUtc": "2026-10-28T11:30:07+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -991,7 +1020,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -1115,7 +1144,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -1244,8 +1273,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00",
+        "failedUpdateUtc": "2026-10-28T11:30:07+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -1375,7 +1409,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -1598,7 +1632,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -1730,7 +1764,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -1965,7 +1999,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -2094,7 +2128,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -2365,7 +2399,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -2489,7 +2523,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -2619,7 +2653,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -2842,7 +2876,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -3065,7 +3099,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -3195,7 +3229,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -3326,7 +3360,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -3456,7 +3490,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -3542,7 +3576,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -3674,7 +3708,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -3760,7 +3794,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -3890,7 +3924,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -4029,7 +4063,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -4359,7 +4393,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -4428,7 +4462,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -4559,7 +4593,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -4819,7 +4853,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -4948,7 +4982,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -5072,7 +5106,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -5202,7 +5236,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -5331,7 +5365,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -5461,7 +5495,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -5591,7 +5625,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -5721,7 +5755,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -5851,7 +5885,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -5983,7 +6017,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -6238,7 +6272,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -6368,7 +6402,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -6591,7 +6625,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -6814,7 +6848,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -6944,7 +6978,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -7074,7 +7108,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -7204,7 +7238,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -7466,7 +7500,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -7584,7 +7618,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -7715,7 +7749,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -7844,7 +7878,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -7975,7 +8009,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -8105,7 +8139,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -8236,7 +8270,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -8368,7 +8402,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -8498,7 +8532,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -8628,7 +8662,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -8760,7 +8794,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -8995,7 +9029,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -9126,7 +9160,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -9270,7 +9304,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -9414,7 +9448,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -9740,7 +9774,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -10014,7 +10048,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -10083,7 +10117,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -10152,7 +10186,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     },
     {
@@ -10221,7 +10255,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-10-27T21:26:19+00:00"
+        "lastSuccessfulUpdateUtc": "2026-10-28T11:30:07+00:00"
       }
     }
   ]
