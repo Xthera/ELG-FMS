@@ -1,10 +1,216 @@
 {
-  "generatedAtSgt": "2026-10-29T03:09:45.781816+08:00",
+  "generatedAtSgt": "2026-10-29T07:31:36.344444+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 215,
+  "articleCount": 234,
   "analyses": [
+    {
+      "articleId": "1ff90cd183fc18c054a731f434be822c9c11d5ae46b6296b006e35e65ca99ab2",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "CNBC's Jim Cramer highlighted SK Hynix's strong quarterly earnings as proof that artificial intelligence stocks can still achieve strong rallies despite investor skepticism regarding heavy data center spending.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The article demonstrates that strong fundamental earnings in the semiconductor sector can still drive positive sentiment and counteract skepticism regarding AI data center capital expenditures.",
+      "reasoning": "The article is classified as MARKET because it discusses market reactions and analyst commentary regarding AI and semiconductor stocks following corporate earnings. Sentiment is POSITIVE due to the blockbuster earnings report supporting AI rallies. It is fund monitoring relevant as it provides insight into AI sector sentiment and stock performance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer sees major implications from SK Hynix's home-run quarter",
+      "publishedAtSgt": "2026-10-29T07:00:27+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/cramer-sk-hynix-ai-chip-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-29T07:15:39+08:00"
+    },
+    {
+      "articleId": "5f853042979c1c1f2a069c6a336405a9a43ef7323711a712ca3448d33feb743b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "FedEx reported quarterly earnings that beat Wall Street expectations on both top and bottom lines and raised its full-year outlook, increasing its 2026 revenue growth expectation to roughly 12% year-over-year.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Industrials",
+        "Transportation",
+        "Logistics"
+      ],
+      "investorImpact": "The positive earnings beat and raised outlook signal robust operational performance in the logistics sector, which can influence investor sentiment regarding broader economic consumer demand and industrial activity.",
+      "reasoning": "The article details corporate earnings and guidance updates from a major logistics bellwether, making it highly relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
+      "publishedAtSgt": "2026-10-29T06:27:00+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/fedex-fdx-sept-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T07:15:39+08:00"
+    },
+    {
+      "articleId": "097af80691731aaf70ba7e84031d17c54066a4189097d2a868b8787bc408ce83",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Chipotle shares rose 7% in extended trading following the CEO's statement that same-store sales growth will continue, supported by the company's growth strategy initiatives despite broader consumer headwinds.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Restaurants"
+      ],
+      "investorImpact": "The positive earnings outlook and strong same-store sales growth projection signal resilience in the restaurant sector, boosting investor confidence and driving up share prices.",
+      "reasoning": "Classified as MARKET because it reports on share price movements and executive statements during corporate earnings. It is relevant for fund monitoring as it highlights sector-specific resilience and market reaction to earnings.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Chipotle shares rise 7% after CEO says same-store sales growth will continue",
+      "publishedAtSgt": "2026-10-29T06:12:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/chipotle-mexican-grill-cmg-q3-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T07:15:39+08:00"
+    },
+    {
+      "articleId": "6d097427e4762fbd2b4d9f0abd9ae32b8df704ddb2871fba1214bea71095b7a0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "Anthropic's structure as a public benefit corporation (PBC) creates unusual risks and raises critical questions for investors ahead of the AI lab's anticipated blockbuster IPO targeting a valuation of $1.5 trillion or more.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors eyeing upcoming mega-cap AI IPOs must weigh unique public benefit corporation structural mandates against traditional profit-maximizing goals, potentially influencing valuation multiples and corporate governance expectations.",
+      "reasoning": "The article is classified under MARKET because it directly addresses public market appetite, IPO valuation expectations, and investor risk considerations for a major upcoming tech offering. It is important due to the massive scale of the anticipated IPO and its precedent-setting nature for frontier AI labs entering the public markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic’s public benefit structure creates unusual risks for IPO investors",
+      "publishedAtSgt": "2026-10-29T05:48:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/anthropic-pbc-what-its-structure-means-for-investors-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T07:15:40+08:00"
+    },
+    {
+      "articleId": "3c87e44da9ddc718ef61fd0de5a3bfc12ff1eb7d77d447db294d5fe452366f47",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Shares of neocloud providers such as CoreWeave and Nebius dropped in extended trading following Microsoft's capital expenditures coming in below expectations, signaling potential delays in data center capacity delivery.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Cloud Computing"
+      ],
+      "investorImpact": "Investors in neocloud providers and AI infrastructure should note that lower capital expenditure guidance or delayed capacity delivery from major tech buyers like Microsoft can create near-term downside volatility for sector equities.",
+      "reasoning": "The article is classified under MARKET as it covers the stock price reaction of neocloud companies to major tech capital expenditure figures. It is relevant for fund monitoring due to its implications for AI infrastructure and cloud computing investments.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CoreWeave and other neocloud stocks drop after Microsoft capex comes in below expectations",
+      "publishedAtSgt": "2026-10-29T05:14:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/neocloud-stocks-drop-after-microsoft-revises-capex-down.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T07:15:40+08:00"
+    },
+    {
+      "articleId": "b60c5f0c7b93c02788d5f04bea171a2a19f522f442cc7552997a3a7f2c91fc9e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Prominent bond investor Jeff Gundlach questioned the Federal Reserve's decision to pause interest rate cuts following the October meeting, pointing to strong macroeconomic indicators and a rising commodity bull market as reasons for the central bank to continue moving.",
+      "assetClasses": [
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors should monitor commentary from high-profile bond managers regarding Federal Reserve policy expectations, as shifting views on interest rate trajectories can influence fixed income and commodity market positioning.",
+      "reasoning": "The article captures expert commentary on Federal Reserve policy decisions and macroeconomic conditions, making it relevant for market monitoring and sentiment tracking in fixed income and commodities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'",
+      "publishedAtSgt": "2026-10-29T03:53:50+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T07:15:38+08:00"
+    },
+    {
+      "articleId": "0383b43910a9f490f7b85b41c3aafb3827ad025e923a45808cf1f6a098d14433",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Fed Chairman Kevin Warsh reiterated a strict 2% inflation target during a post-meeting news conference, while Micron shares rallied over 12.5% in the U.S. Additionally, upcoming economic data releases include the September PCE price index and the initial third-quarter GDP report.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States",
+        "South Korea"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Fed rhetoric on maintaining a firm 2% inflation target alongside upcoming GDP and PCE data creates a cautious environment for equities and interest-rate-sensitive assets, while specific stock rallies like Micron highlight sector-specific opportunities.",
+      "reasoning": "The article combines central bank monetary policy commentary on inflation with key upcoming macroeconomic data releases and major corporate stock movements, making it highly relevant for economic and market surveillance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Fed chairman talks tough on inflation — plus, what's behind Micron's big rally",
+      "publishedAtSgt": "2026-10-29T03:17:35+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/28/fed-chairman-talks-tough-on-inflation-plus-whats-behind-microns-big-rally.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-29T07:15:39+08:00"
+    },
     {
       "articleId": "54214e8a4bc9f6a7ccde872a82530b2f77236383d340102bc5a253446aa01ba0",
       "relevant": true,
@@ -92,6 +298,363 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-29T02:53:51+08:00"
+    },
+    {
+      "articleId": "25ab205ccda5838a9cf946b11bf0a28bc588a26cf4f08b8f26938b3a6db10dca",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Anthropic's IPO filing warns that certain AI-related risks may be uninsurable, highlighting ongoing industry-wide concerns regarding how insurers will underwrite complex technological perils such as IP theft, data loss, security incidents, and autonomous agent failures.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors should note that insuring emerging artificial intelligence risks remains a systemic hurdle for tech companies going public, which could impact valuation multiples and insurance costs across the technology sector.",
+      "reasoning": "Classified as MARKET because it discusses an IPO filing and corporate risk disclosures affecting market perception of AI companies. Importance is MEDIUM due to its broader sector-wide implications for insurance and tech risk management.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic IPO filing warns some risks may be uninsurable. AI coverage will be issue for every company",
+      "publishedAtSgt": "2026-10-29T02:32:45+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/anthropic-ipo-ai-risks-insurance.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:52+08:00"
+    },
+    {
+      "articleId": "bb9f6f2f52034c2461271c4a7a2f0c0965edb86e22dbf32767f5dcbe04287d4c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Fixed income experts highlight an attractive environment for buying corporate bonds, driven by 10-year Treasury yields around 5%, stable Federal Reserve rates, and heavy debt issuance from hyperscalers like Alphabet, Amazon, Meta, and Microsoft for AI projects.",
+      "assetClasses": [
+        "Fixed Income",
+        "Corporate Bonds",
+        "Treasuries"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors seeking yield are presented with a potentially generational opportunity in investment-grade corporate bonds and high yields from major technology companies issuing debt for AI initiatives.",
+      "reasoning": "The article provides timely insight into fixed income markets, interest rates, and corporate debt issuance by major tech companies, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Looking for yield? This could be one of the best times in recent market history to buy corporate bonds",
+      "publishedAtSgt": "2026-10-29T02:01:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/buy-bonds-yields.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:50+08:00"
+    },
+    {
+      "articleId": "03faf7bb9063a6aec845891415e6ef9ed1153aa2d56b75a20451cf19b406444c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Options traders have broken down a massive Alphabet trade ahead of earnings, targeting a move higher to $365 alongside shorter-dated puts to capitalize on near-term high volatility.",
+      "assetClasses": [
+        "Equities",
+        "Options"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors monitoring options flow can gauge market sentiment and volatility expectations ahead of Alphabet's earnings release, providing insight into potential near-term price swings.",
+      "reasoning": "Classified as MARKET because it details specific options trading activity and volatility strategies around Alphabet's upcoming earnings. Sentiment is MIXED as traders are positioning for a potential rebound while simultaneously hedging via puts to manage high near-term volatility. Fund monitoring relevance is true due to its focus on major tech stock options activity.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Watch Live: Options traders break down a massive Alphabet trade into earnings",
+      "publishedAtSgt": "2026-10-29T01:56:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/alphabet-microsoft-report-after-the-bell-what-options-trader-see.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:49+08:00"
+    },
+    {
+      "articleId": "a893148db6cc220382734b5f4462ea7724b8ddf89647e7bfb8261ce9fbe35234",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Representative Raskin is demanding donor records while accusing Trump of using tariffs as a tool for corruption, pointing to specific questionable carve-outs for Brazilian meat, diamonds, and smartphones.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "Brazil"
+      ],
+      "sectors": [
+        "Technology",
+        "Consumer Goods",
+        "Retail"
+      ],
+      "investorImpact": "Potential political scrutiny and investigations into tariff exemptions could introduce regulatory and policy uncertainty for companies operating in the technology, diamond, and meat import sectors.",
+      "reasoning": "Classified as GEOPOLITICAL due to the political investigations and allegations concerning trade and tariff policies, which may impact regulatory sentiment for specific industries.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
+      "publishedAtSgt": "2026-10-29T01:39:43+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/trump-tariffs-corruption-raskin.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-29T02:53:48+08:00"
+    },
+    {
+      "articleId": "66e895d2b8ac7649be9239db0d42816cf671fe96d04221fde79d4817d8be849d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Alphabet is set to report its Q3 earnings amid investor concerns over high costs related to the artificial intelligence buildout, though cloud division revenue growth continues to provide some reassurance.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Investors are closely monitoring Alphabet's earnings for signs of return on investment regarding heavy AI expenditures, which could impact broader sentiment toward the technology sector.",
+      "reasoning": "Classified as MARKET due to its focus on major corporate earnings and investor sentiment regarding AI capital expenditures. It is important for fund monitoring as it concerns a major mega-cap technology stock that influences broader market direction.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Alphabet set to report Q3 earnings after the bell as shaky AI trade looks for signs of strength",
+      "publishedAtSgt": "2026-10-29T00:33:22+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:50+08:00"
+    },
+    {
+      "articleId": "f14f64d82750941adca9ebf3b7f39c85f10db399a2573f2d241b033a3d2d3df2",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "Microsoft is set to report its earnings after the market close, with analysts expecting $32.32 billion in a specific metric and focusing on the company's artificial intelligence expansion, free cash flow generation, and its year-to-date stock performance trailing the S&P 500.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Software"
+      ],
+      "investorImpact": "Microsoft earnings reports are major market events that can drive sentiment and price action in the broader technology sector and equity markets due to the company's size, influence, and heavy investments in artificial intelligence.",
+      "reasoning": "The article discusses upcoming corporate earnings for a mega-cap technology company, making it highly relevant for market monitoring and investment analysis.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Microsoft earnings will land after the close",
+      "publishedAtSgt": "2026-10-29T00:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:49+08:00"
+    },
+    {
+      "articleId": "daea075c4c9420567757dc1f526582cdf7a72a5e87ba5d35f351184087efde98",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Ford Motor is scheduled to report its third-quarter earnings after the market close. Investors will closely watch the performance and production status of its F-Series pickup trucks, particularly following recent supplier disruptions affecting the F-150.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Automotive"
+      ],
+      "investorImpact": "Investors in Ford Motor and the broader automotive sector should monitor the earnings report and management commentary regarding supply chain recovery and truck production volumes to gauge near-term profitability.",
+      "reasoning": "The article previews a major corporate earnings report for a prominent automotive company, which is directly relevant to market performance and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Ford Motor is set to report earnings after the bell. Here's what Wall Street expects",
+      "publishedAtSgt": "2026-10-29T00:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:50+08:00"
+    },
+    {
+      "articleId": "6c3439bf72125d08ce64d9088f72bcd55b50d04c5102340a56b97d5142637a52",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "The U.K.'s finance minister delivered a high-stakes fiscal budget featuring energy bill cuts, taxes on banks, defense spending increases, and funding for AI security and sovereignty.",
+      "assetClasses": [
+        "Equities",
+        "Government Bonds",
+        "Currencies"
+      ],
+      "geographies": [
+        "United Kingdom"
+      ],
+      "sectors": [
+        "Banking",
+        "Defense",
+        "Technology"
+      ],
+      "investorImpact": "Investors in U.K. banks face increased taxation, while those in defense and AI sectors benefit from new state funding. Fiscal measures may also impact U.K. gilt yields and sterling.",
+      "reasoning": "The U.K. budget directly affects multiple sectors through taxation and government spending changes, making it highly significant for macroeconomic and sector-specific asset allocation.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget",
+      "publishedAtSgt": "2026-10-28T23:39:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:57+08:00"
+    },
+    {
+      "articleId": "d1a1b9d596cf74ccb77b158d1657018b1d998752128c0af2a395482128a37484",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Nelson Peltz's Trian Fund Management, alongside other investment firms and a major franchisee, has offered $1.4 billion to acquire Wendy's, causing Wendy's shares to surge about 15% in morning trading.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Restaurants"
+      ],
+      "investorImpact": "Investors holding Wendy's shares see immediate positive gains with the 15% jump following the buyout offer, signaling potential M&A activity interest in the restaurant sector.",
+      "reasoning": "Classified as MARKET due to corporate buyout news driving significant stock price movement. It is relevant for fund monitoring as it highlights M&A activity within the consumer discretionary sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain",
+      "publishedAtSgt": "2026-10-28T22:35:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:57+08:00"
+    },
+    {
+      "articleId": "b14846b3f8fbbc6f87436becbf418283e60497e1446165c84699d5accd1f7c46",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "The New Zealand dollar dropped significantly after the Reserve Bank of New Zealand kept rates unchanged, defying market expectations of a rate hike. Bets on a rate hike at the final meeting of the year also decreased sharply.",
+      "assetClasses": [
+        "Currencies",
+        "Forex"
+      ],
+      "geographies": [
+        "New Zealand"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Investors holding the New Zealand dollar experienced immediate depreciation losses due to the unexpected monetary policy decision, requiring forex traders and institutional asset managers to reassess New Zealand interest rate trajectories.",
+      "reasoning": "Classified as MARKET because it details sudden foreign exchange price action driven by an unexpected central bank interest rate decision, impacting currency valuations and interest rate expectations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "New Zealand dollar tanks after central bank defies markets' near-certainty it would hike rates",
+      "publishedAtSgt": "2026-10-28T20:52:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/new-zealand-dollar-rbnz-rates.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:58+08:00"
+    },
+    {
+      "articleId": "eddd47c0af7c92d104809ab5b352696c04ca04276d05bdcd5a801ed75699c0db",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Traders are placing bearish bets against a major restaurant giant ahead of its upcoming earnings report, with options activity indicating weakening investor confidence and positioning for further potential downside.",
+      "assetClasses": [
+        "Equities",
+        "Options"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Restaurants"
+      ],
+      "investorImpact": "Investors holding positions in the targeted restaurant stock or related consumer discretionary equities should monitor upcoming earnings closely, as options market positioning suggests heightened volatility and downward pressure.",
+      "reasoning": "The article details specific options trading activity and bearish sentiment heading into corporate earnings, making it relevant for equity market monitoring and short-term sentiment analysis.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Traders are betting big against this restaurant giant into earnings",
+      "publishedAtSgt": "2026-10-28T20:04:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/traders-are-betting-big-against-chipotle-into-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:57+08:00"
+    },
+    {
+      "articleId": "b22003c51a69e3d674d14d0f0d5c681f5f6dad1e1c6937e3b46a4eea4cf7f4e4",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Investors are preparing for a hawkish rate hold while monitoring tech sector catalysts. Inflation remains driven by AI-demand and energy costs, boosting chip stocks following Broadcom's $63 billion financing announcement to support chip and networking purchases for Anthropic.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The massive financing deal for AI chips and networking infrastructure highlights continued strong demand and capital deployment in the technology sector, offering potential upside for chipmakers while keeping investors alert to inflation and monetary policy stances.",
+      "reasoning": "The article covers major market drivers including monetary policy expectations and tech sector financing activity, making it highly relevant for market intelligence and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Investors brace for a hawkish hold and tech on tap",
+      "publishedAtSgt": "2026-10-28T18:54:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/investors-brace-for-a-hawkish-hold-and-tech-on-tap.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T02:53:58+08:00"
     },
     {
       "articleId": "77c70fbb30118064130682915faf9d0126fcf8f01866971caea963494ec92d3f",
