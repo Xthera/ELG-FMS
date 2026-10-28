@@ -5,6 +5,117 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "77c70fbb30118064130682915faf9d0126fcf8f01866971caea963494ec92d3f",
+      "source": "CNBC",
+      "title": "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
+      "publishedAtSgt": "2026-10-28T17:54:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices climbed Wednesday as investors weighed the prospect of a prolonged and widening Middle East conflict after Tehran-backed Houthis attacked Saudi Arabia's largest refinery. His remarks followed earlier comments that he was weighing whether to reach a deal with Tehran or pursue further military action, keeping investors on edge over the possibility of renewed strikes.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "id": "fc77bdd394f6dd92b488911c20f4e0e82ba233ee53f87ca93d05ecb375f581f0",
+      "source": "CNBC",
+      "title": "UBS pretax profits jump 27% in third quarter to $3.59 billion as wealth inflows surge",
+      "publishedAtSgt": "2026-10-28T17:42:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/ubs-earnings-third-quarter.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Zurich-headquartered lender's common equity tier (CET) 1 capital ratio — a measure of a bank's solvency — reached 14.7% during the period, up from 14.4% the previous quarter. In its third-quarter earnings statement Wednesday, the bank said the integration of Credit Suisse is \"firmly on track\" to be completed by year-end, delivering a total of $13.7 billion in cumulative cost savings, above earlier expectations of $13.5 billion. The bank is seen as systemically important to the Swiss economy.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "id": "585422d575ac4c191d2b36bd4098597f546ac93068d7344e4745e66e6e884000",
+      "source": "CNBC",
+      "title": "Treasury yields tick higher ahead of Federal Reserve interest rate decision",
+      "publishedAtSgt": "2026-10-28T17:22:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bond yields moved higher early Wednesday as investors awaited the Federal Reserve's latest monetary policy decision, due later in the session. The 10-year Treasury note yield — the main benchmark for mortgages, auto loans and credit card debt — was more than 2 basis points higher at 5.0134%.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "id": "a0f650c8d8683311a06d3127bcc88b5ce8508f2496ca348a828f40b6ee6b5f64",
+      "source": "CNBC",
+      "title": "Israeli bonds, shekel fall as election leaves Netanyahu and others far short of majorities",
+      "publishedAtSgt": "2026-10-28T17:12:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "dollar while the Tel Aviv 35 stock index traded 2.7% lower. The yield on the 2-year bond added 6 basis points, while the benchmark 10-year government bond's yield rose by 4 basis points. Longer-maturity 30-year bond yields gained 2 basis points.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "id": "21d648bb7812b5a5669b3229b1ce8920c6c8d1f3bd7395aaee149d898f9c7755",
+      "source": "CNBC",
+      "title": "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
+      "publishedAtSgt": "2026-10-28T15:48:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/jio-ipo-india-listing-.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Jio Platforms' shares rose 21.5% on their trading debut Wednesday after a record initial public offering that was lapped up by retail as well as institutional investors. He added that some of the investors who acquired a stake in Jio around 2021 may want to exit in around six months, by which time the stock will likely be included in the MSCI index and the Nifty 50.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "id": "52bb7b9195e571b4f5ccda5085dcbfe49f0ad82dacbd8f7f5b9cfcf590f0a55b",
+      "source": "CNBC",
+      "title": "Trump jokes $5,000 would buy 'a hamburger and maybe a small dessert' at Mar-a-Lago as cost of living looms over midterms",
+      "publishedAtSgt": "2026-10-28T12:29:20+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/trump-jokes-5000-cash-would-buy-hamburger-and-dessert-at-mar-a-lago.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "President Donald Trump joked that the $5,000 payments he's promised U.S. Some economists have warned that the one-time direct payment would do little to ease affordability pressures, and could exacerbate inflation at a time when many Americans are already feeling strained. The president has also in the past made similar promises of delivering cash payments to Americans, which did not materialize.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
+      "id": "b830841b70873cf2e866ebaf20f6b7607fb6a6bcb11546c421572a12ffb79a40",
+      "source": "CNBC",
+      "title": "Labubu-maker Pop Mart's shares extend declines as third-quarter sales plunge",
+      "publishedAtSgt": "2026-10-28T10:57:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/28/labubu-pop-mart-third-quarter-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Chinese toymaker Pop Mart, known for its popular Labubu dolls, added to their more than 30% decline so far this year, following a sharp decline in third-quarter revenue. Shares were last down under 2%, paring losses after declining more than 6% in early trading Wednesday. The steep sales decline raises questions about whether the frenzy surrounding Labubu and other collectible toys can sustain the company's rapid growth, particularly in overseas markets.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
+    },
+    {
       "id": "e5eb6460b816e9c63a9f51206b3f9f9d4c7049c972ad0deee527fe3c305cbcf2",
       "source": "CNBC",
       "title": "SK Hynix announces over $25 billion in dividends and buyback as third-quarter profit beats estimates",
@@ -179,6 +290,6 @@
       "collectedAtSgt": "2026-10-28T04:44:22+08:00"
     }
   ],
-  "articleCount": 11,
-  "updatedAtSgt": "2026-10-28T09:26:08+08:00"
+  "articleCount": 18,
+  "updatedAtSgt": "2026-10-28T18:37:54+08:00"
 }
