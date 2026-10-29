@@ -1,10 +1,157 @@
 {
-  "generatedAtSgt": "2026-10-29T07:31:36.344444+08:00",
+  "generatedAtSgt": "2026-10-29T15:25:44.399618+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 234,
+  "articleCount": 239,
   "analyses": [
+    {
+      "articleId": "ce4536b28d7c9572df5e504f1a73d412701b3718a5620f1d409af272775ec089",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Tencent and Visa are deepening their partnership in cross-border payments and AI-powered commerce following a regulatory green light, combining Tencent's AI capabilities with Visa's global network to enhance China's payments market.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China",
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "The partnership highlights growth opportunities in cross-border digital commerce and fintech collaboration in China, positively impacting the participating financial and technology giants.",
+      "reasoning": "Classified as MARKET due to major corporate developments involving cross-border payments and strategic partnerships between large enterprises. Sentiment is POSITIVE given the regulatory approval and expansion of services. Fund monitoring is relevant due to the implications for fintech and cross-border commerce sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Tencent, Visa deepen payments push in China after regulatory green light",
+      "publishedAtSgt": "2026-10-29T15:01:50+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/tencent-visa-citi-mastercard-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T15:10:02+08:00"
+    },
+    {
+      "articleId": "8829a4793c8f47ec4131add6720dbaa985b53057f6f5ab8d609fa78c7bd07deb",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Samsung Electronics reported record third-quarter profits driven by strong demand for AI-related memory chips, with its semiconductor business generating significant revenue and operating profit. Despite these record results, Samsung's share price slid as high expectations from the broader AI trade led investors to view record profits as the baseline rather than a catalyst for celebration.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "South Korea"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors in the technology and semiconductor sectors should note that even record-breaking earnings may result in share price declines if expectations are already extremely high due to the AI trade.",
+      "reasoning": "The article discusses major market movements and earnings for a prominent global technology company, categorizing it under MARKET with a mixed sentiment due to record profits contrasting with falling share prices.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Samsung Electronics shares slid despite record profit in the third-quarter",
+      "publishedAtSgt": "2026-10-29T14:53:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T15:10:02+08:00"
+    },
+    {
+      "articleId": "9e353b5f3e5312982756aca7230a44764c4cb0d91242b8c7c94384a8d09f629c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Meta- and Google-backed Jio Platforms successfully listed at a premium of over 25% to its IPO price, achieving a market capitalization of 13.05 trillion rupees ($137.1 billion) and becoming the second most valued Indian firm.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Technology",
+        "Telecommunications"
+      ],
+      "investorImpact": "The successful high-premium IPO and massive market valuation of Jio Platforms signal strong investor appetite for Indian technology and telecommunications assets, potentially boosting broader market sentiment for regional IPOs.",
+      "reasoning": "The article details a major market event regarding a high-profile initial public offering in India with significant valuation milestones, making it relevant for market and investment monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Billionaire Ambani cries tears of joy as Jio Platforms becomes the second most valued Indian firm",
+      "publishedAtSgt": "2026-10-29T12:55:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/ambani-billionaire-jio-ipo-india.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-29T15:10:02+08:00"
+    },
+    {
+      "articleId": "c9cfd61c7dfcb8d09c8366f5d281efb83c785f3f92cee74ae4048046517fc6fe",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "China's technology stocks on the STAR Market are experiencing a sell-off as investors question whether the domestic artificial intelligence boom can deliver sufficient profits to justify high valuations.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors with exposure to Chinese equities or high-tech sectors face increased volatility and downside risk as market sentiment shifts toward questioning AI profitability and lofty valuations.",
+      "reasoning": "Classified as MARKET due to the focus on stock sell-offs and valuation concerns in China's tech sector. Sentiment is NEGATIVE reflecting the loss of luster and selling pressure. Importance is MEDIUM as it impacts regional tech portfolios without signaling a broader global systemic crisis.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China’s tech darlings are losing their shine. Here’s what’s behind the sell-off",
+      "publishedAtSgt": "2026-10-29T10:14:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/china-tech-stocks-selloff.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 58,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-29T15:10:02+08:00"
+    },
+    {
+      "articleId": "e4ae919022bf65b9c5fa251da5d7c9eb894a42142c62c724897be975b61f7410",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Alphabet's earnings disappointed investors across nearly every category, overshadowing positive AI updates regarding Gemini 4 Argon and Carbon, and leading analysts to reevaluate their position on Alphabet stock.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "The widespread earnings misses from a major mega-cap technology stock like Alphabet could put downward pressure on tech sector valuations and prompt a reassessment of AI-driven growth expectations.",
+      "reasoning": "Classified as MARKET because it discusses specific stock earnings performance and market reaction for a major company. The sentiment is NEGATIVE due to widespread disappointments in the earnings report, and importance is HIGH given Alphabet's market weight.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Our next steps for Alphabet stock after earnings disappoint at nearly every turn",
+      "publishedAtSgt": "2026-10-29T09:11:10+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/28/our-next-steps-for-alphabet-stock-after-earnings-disappoint-at-nearly-every-turn.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T15:10:02+08:00"
+    },
     {
       "articleId": "1ff90cd183fc18c054a731f434be822c9c11d5ae46b6296b006e35e65ca99ab2",
       "relevant": true,
