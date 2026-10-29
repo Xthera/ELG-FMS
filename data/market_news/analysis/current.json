@@ -1,10 +1,98 @@
 {
-  "generatedAtSgt": "2026-10-29T15:25:44.399618+08:00",
+  "generatedAtSgt": "2026-10-29T22:41:39.532067+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 239,
+  "articleCount": 242,
   "analyses": [
+    {
+      "articleId": "a43e8631f6101f7a25d2035bcfb1f1a506232a0b4e021975d62621e24fb988b9",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "The European Central Bank voted to hold interest rates steady at 2.5% in line with market expectations, even as euro zone inflation reached a three-year high. The Governing Council noted upside risks to inflation from rising energy prices and downside risks to growth, while underlying inflation and wages remain broadly stable.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities",
+        "Currencies"
+      ],
+      "geographies": [
+        "Europe"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "The decision to hold rates steady provides short-term stability for European equity and fixed income markets, though ongoing inflation risks and energy price volatility signal potential future policy adjustments.",
+      "reasoning": "The article reports on a major central bank policy decision regarding interest rates and inflation trends, making it highly relevant for economic and monetary policy tracking.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "European Central Bank keeps key interest rate on hold at 2.5%",
+      "publishedAtSgt": "2026-10-29T22:18:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
+    },
+    {
+      "articleId": "8f86c7ddc7ff2daa7964197839aebb5b532f724c27e85b05bd604a16bda9ab9f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Steve Eisman of \"The Big Short\" fame notes that the artificial intelligence trade is approaching a tipping point, adopting a more conservative portfolio stance while acknowledging that shorting AI is difficult due to its deep integration with the broader equity market and economy.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should note market sentiment shifting toward a more cautious stance on the AI trade, highlighting risks of over-concentration and the difficulty of decoupling tech sector valuations from the broader market.",
+      "reasoning": "The article discusses high-profile investor commentary regarding market positioning on the AI trade and broader tech sector integration, making it relevant for market sentiment tracking.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'",
+      "publishedAtSgt": "2026-10-29T22:15:43+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/steve-eisman-gets-more-conservative-with-portfolio-as-ai-trade-nears-tipping-point.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
+    },
+    {
+      "articleId": "b59d9aaaa0d7f6c96b34aba68c375f54643d6ec04a3f48f70c323d698188aa10",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Third-quarter U.S. GDP increased by a better-than-expected 3.4%, while September inflation accelerated, leading central bank officials to evaluate incoming data before making their next moves amid geopolitical risks and high energy costs.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Broad Economy"
+      ],
+      "investorImpact": "Strong GDP growth alongside accelerating inflation provides mixed signals for interest rate trajectories, impacting valuations across equities and fixed income assets.",
+      "reasoning": "The article reports key macroeconomic indicators including U.S. GDP growth and accelerating inflation, which are crucial for monetary policy expectations and market performance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+      "publishedAtSgt": "2026-10-29T22:11:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 102,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
+    },
     {
       "articleId": "ce4536b28d7c9572df5e504f1a73d412701b3718a5620f1d409af272775ec089",
       "relevant": true,
