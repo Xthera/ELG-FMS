@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-29T15:10:02+08:00",
+  "generatedAtSgt": "2026-10-29T22:25:08+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,273 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "a43e8631f6101f7a25d2035bcfb1f1a506232a0b4e021975d62621e24fb988b9",
+      "source": "CNBC",
+      "title": "European Central Bank keeps key interest rate on hold at 2.5%",
+      "publishedAtSgt": "2026-10-29T22:18:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "The European Central Bank voted to hold interest rates steady on Thursday, meeting market expectations, despite euro zone inflation rising to a three-year high. In a statement, the institution's Governing Council said rising energy prices posed upside risks to the inflation outlook and downside risks to growth, but that underlying inflation and wages were so far broadly stable.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
+    },
+    {
+      "id": "8f86c7ddc7ff2daa7964197839aebb5b532f724c27e85b05bd604a16bda9ab9f",
+      "source": "CNBC",
+      "title": "Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'",
+      "publishedAtSgt": "2026-10-29T22:15:43+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/steve-eisman-gets-more-conservative-with-portfolio-as-ai-trade-nears-tipping-point.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Steve Eisman of \"The Big Short\" fame thinks the artificial intelligence trade is near a \"tipping point,\" but he's not ready to outright bet against it yet. Yet, Eisman said he was scared to make a definitive bet against the AI trade because of how intertwined it is with the market as a whole, calling it \"impossible\" for the technology sector to be siloed away from the broader equity market and the rest of the economy.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
+    },
+    {
+      "id": "b59d9aaaa0d7f6c96b34aba68c375f54643d6ec04a3f48f70c323d698188aa10",
+      "source": "CNBC",
+      "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+      "publishedAtSgt": "2026-10-29T22:11:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Despite elevated inflation readings, central bank officials insist they can afford to evaluate incoming data before deciding on their next move. \"Net, net, economic growth is powering ahead despite the uncertainty of geopolitical risks and the damage posed to many sectors of the economy by higher energy costs,\" said Chris Rupkey, chief economist at Fwdbonds.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
+    },
+    {
+      "id": "d992499700cf0497e1bed3c9e3c22ed9abc077f836a8cfbddab3f787d0177822",
+      "source": "CNBC",
+      "title": "Open enrollment is a chance to get this ‘sneaky-good’ investment account that can be ‘better than a Roth’",
+      "publishedAtSgt": "2026-10-29T22:00:01+08:00",
+      "url": "https://www.cnbc.com/make-it/2026/10/29/hsa-retirement-investing.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "HSAs are \"sneaky-good and very underrated\" investment tools, says John Bell, a certified financial planner and founder of Free State Financial Planning. For those who are eligible, he generally puts maxing out an employer-sponsored HSA near the top of his saving priorities, just behind getting the full employer match in a 401(k), and ahead of funding a Roth IRA or taxable brokerage account.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:07+08:00"
+    },
+    {
+      "id": "39cd9cfa385863a82d7b2fc6b23eb310a07db4c36460938f184a1630364a9df6",
+      "source": "CNBC",
+      "title": "Oil prices fall as renewed U.S.-Iran peace efforts ease supply fears",
+      "publishedAtSgt": "2026-10-29T21:52:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/oil-price-today-wti-brent.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices declined Thursday as prospects of renewed peace negotiations eased fears of supply disruptions stemming from escalating tensions in the Middle East. Still, investors are also weighing concerns over the prospect of Houthi attacks and the possibility of U.S. He said inflationary pressures concentrated in energy justified a more patient approach from the Federal Reserve, particularly as underlying inflation remained relatively subdued.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:08+08:00"
+    },
+    {
+      "id": "499429c2c836ae7b3e9f8cbe5105d841f9022b7d3f446645fdb3245fc4353881",
+      "source": "CNBC",
+      "title": "President of the European Central Bank Christine Lagarde to step down. Here's who is tipped to replace her",
+      "publishedAtSgt": "2026-10-29T21:50:58+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "European Central Bank President Christine Lagarde will step down on Feb. Lagarde has led the central bank since July 2019, steering its responses to the Covid-19 pandemic, the Russia-Ukraine war and a series of energy price shocks that sent inflation in the European Union above 11% in 2022 and spurred the end of the post-Financial Crisis era of negative interest rates.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
+    },
+    {
+      "id": "8506bba00be341b95bb07397aa51c3200b548cf28f14488649a40628f97fd923",
+      "source": "CNBC",
+      "title": "Alphabet falls 13%, putting it on course for its biggest ever post-earnings drop",
+      "publishedAtSgt": "2026-10-29T21:46:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Alphabet shares were down sharply following the opening bell on Thursday while Microsoft traded largely flat as investors focused on the tech giants' latest spending and free cash flow numbers in their third-quarter earnings. The earnings report comes as investors scrutinize AI spending plans of tech companies and are focusing on the returns on those investments.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:07+08:00"
+    },
+    {
+      "id": "4c4a43e2122c9420b4c89c93f91d05e68aff6b8039523948afaf55d82572bb6e",
+      "source": "CNBC",
+      "title": "Banks and healthcare firms are outbidding tech for software talent, major recruiter says",
+      "publishedAtSgt": "2026-10-29T21:29:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/ai-jobs-software-engineers-tech-layoffs.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Banks, healthcare companies and other non-tech employers are outbidding tech firms for software engineers as demand for AI skills rises and layoffs reshape the talent market, according to new research by recruitment giant Randstad. Healthcare and life sciences firms are paying up to 17% more for software engineers than tech companies, while banking is offering 13% more, per the research, which surveyed 1,100 business and technology decision-makers in 11 countries, including the U.S., U.K.,...",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:07+08:00"
+    },
+    {
+      "id": "e19c9cbeb5f08d94057be5bac8cf43d9fb06b36c8776b24134ca3f955abf6478",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+      "publishedAtSgt": "2026-10-29T21:13:08+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/29/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Also this morning, bond yields are down as new inflation data, out before-the-bell, basically matched expectations but remained well above the Federal Reserve's 2% target. Marvell shares down 11.5% this morning on reports that the chip and networking company is in advanced talks to buy optical and laser provider Lumentum . Another standout quarter from Club stock Eli Lilly thanks to Mounjaro and Zepbound, sending shares up 4% this morning to what would be a new all-time high.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
+    },
+    {
+      "id": "fb1144f10659352581d9f01b9c104266143a447aee7decbfd8932eb3a8ab9b36",
+      "source": "CNBC",
+      "title": "AI build-out hits snag as Google and Microsoft put off raising capex forecasts",
+      "publishedAtSgt": "2026-10-29T20:10:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of neoclouds CoreWeave, Nebius and IREN all dropped after the reports, as did Oracle, which is one of the biggest spenders on AI infrastructure. Despite the third-quarter capex shortfall, investors cheered Microsoft's report on Wednesday as the company beat earnings and revenue estimates, driven by 48% sales growth in its Azure cloud business.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
+    },
+    {
+      "id": "6a27cd47a5ec5ba9136d0d14bde0f2f7cc71edbece2e04e76c578e555d0fb3e0",
+      "source": "CNBC",
+      "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
+      "publishedAtSgt": "2026-10-29T20:09:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "At the same time, Google said search query growth on the platform was the strongest it's been in five years. Google has spent much of the past year telling investors that it needs to pour money into AI infrastructure and services to meet unending demand from consumers and businesses. \"Investors will now worry that the miss in Search, YouTube and Subscription, leading to a profit miss, are an indication that AI has finally come for Google,\" Luria wrote in an email.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
+    },
+    {
+      "id": "84776faa2babe4df74478ed1c39a087e0b23750ad150d11f10a8cb36f3b5a219",
+      "source": "CNBC",
+      "title": "Kalshi valuation jumps to $40 billion in latest funding round",
+      "publishedAtSgt": "2026-10-29T20:05:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/kalshi-40-billion-valuation-funding-round.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "That valuation comes after it completed its previous funding round in May, where it was valued at $22 billion. Since the previous funding round, the company has seen continued growth in its prediction markets. It wants to use the new funds to develop leveraged event contracts, perpetual futures tied to individual stocks and markets to trade on the price of compute.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
+    },
+    {
+      "id": "51e7d846cc9c5da7bad2329031fca35c3c6f65fbe68071d38552e019fe01e35d",
+      "source": "CNBC",
+      "title": "Warren urges DOJ criminal probe of Bank of America over anti-money-laundering violations",
+      "publishedAtSgt": "2026-10-29T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/warren-bank-of-america-criminal-probe.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Elizabeth Warren is calling on the Justice Department to open a criminal investigation into Bank of America and its executives after the banking giant admitted it willfully violated federal anti-money-laundering laws, according to a letter first shared with CNBC. The Massachusetts Democrat and ranking member of the Senate banking committee called the more than $1.2 billion in penalties imposed on the bank Oct.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
+    },
+    {
+      "id": "31859c37563e6555d874c7b7dbd2616252c9a901bf50b00e562333b9ce8c13ee",
+      "source": "CNBC",
+      "title": "Alphabet drags on Nasdaq futures as the stock faces a record post-earnings loss",
+      "publishedAtSgt": "2026-10-29T19:41:06+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/alphabet-nasdaq-futures-record-post-earnings-loss.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "There is more pain in certain parts of the AI trade. AI chat and agents are eating into Google's Search in a way investors cannot ignore, while a lighter capex number from Microsoft has sent neoclouds back into the red. Bigger picture, CNBC has calculated that the \"Magnificent Seven\" doesn't trade as a monolith anymore, challenging investors to be more discerning when picking through the market's biggest stocks rather than viewing them as a single trade.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:07+08:00"
+    },
+    {
+      "id": "7776220b878127a8257502d3488736378bbf20ccf09c5e92c5a6b5b3047284c6",
+      "source": "CNBC",
+      "title": "Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength",
+      "publishedAtSgt": "2026-10-29T19:24:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Merck on Thursday topped third-quarter estimates and hiked its adjusted profit outlook, as its immunotherapy Keytruda, including a newer injectable form of the drug, showed stronger-than-expected sales. Merck is also positioning the new form of the drug, Keytruda Qlex, as a cornerstone of its growth strategy. Beyond Keytruda, Merck's newer products also showed strong growth.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
+    },
+    {
+      "id": "ce6c52c8c7d904875275878b13b314534293c8e2a96f04364cf36755a0e18d04",
+      "source": "CNBC",
+      "title": "It's a 'socialist' bank — and North Dakota Republicans love it",
+      "publishedAtSgt": "2026-10-29T18:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The bank also engages in other areas where the state's privately owned banks don't already compete, including offering direct student loans at a low interest rate for North Dakotans hoping to attend college. \"But the fact that we know what it is now and that it's developed over the 107 years, it is a wonderful tool for institutions.\" An example of the bank's investment activity — and one progressives might do differently — is found in McLean County.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
+    },
+    {
+      "id": "0fd0bd6277c30af458528f1f9da6a35ffeb1ad1e20932d4aab0519742916f0c0",
+      "source": "CNBC",
+      "title": "Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high",
+      "publishedAtSgt": "2026-10-29T17:36:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/shell-earnings-oil-q3.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shell's London-listed shares were up around 3% in morning trade, hitting an all-time high. The reduction in net debt was impressive given Shell completed a $16.4 billion acquisition of Canadian energy firm ARC to allow it to increase production, Maurizio Carulli, equity research analyst for global energy and materials at Quilter Cheviot Investment Management, told CNBC on Thursday.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T22:25:07+08:00"
+    },
     {
       "id": "ce4536b28d7c9572df5e504f1a73d412701b3718a5620f1d409af272775ec089",
       "source": "CNBC",
@@ -1325,271 +1592,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-26T01:04:46+08:00"
-    },
-    {
-      "id": "7a854a17ddfd46876dd85f1b260f37ff27d470cadf934495e80cd516fd9998bc",
-      "source": "CNBC",
-      "title": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
-      "publishedAtSgt": "2026-10-25T20:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Wonder's next pitch to investors could be on an IPO road show, assuming that the window for companies across industries to go public reopens in the coming months. In recent years, investors have grown less tolerant of startups pursuing growth at all costs, according to Avery Marquez, director of investment strategies at Renaissance Capital. To sway investors, unprofitable companies have to show they are taking steps toward profitability — or that the growth will continue long after the IPO.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-10-25T20:36:16+08:00"
-    },
-    {
-      "id": "132b26e1bf27fa2d0e348866cea646eb5eccd0b79d4fe91438c56418930f5ffa",
-      "source": "CNBC",
-      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
-      "publishedAtSgt": "2026-10-25T02:56:29+08:00",
-      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Moderna gave investors a scare as its stock plunged on Thursday. Analysts say a new biotech cycle is underway, fueled by clinical trial results, M&A activity, and promising technologies such as genomics, mRNA — and AI. On the AI front, companies are using the technology for more efficient drug discovery, says Shreefāl Mehta, president of Guidant BioTherapeutics.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-25T20:36:16+08:00"
-    },
-    {
-      "id": "f2ae5a4294f4e9637d77457cb7b95bd83cf1df5c406902be4cc25cd1bac1fb53",
-      "source": "CNBC",
-      "title": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
-      "publishedAtSgt": "2026-10-25T00:14:00+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The Nasdaq only posted a slight loss as investors returned to beaten-down chip stocks and bought up cyber stocks. AI funding fears deepen The AI trade remained volatile last week as investors weighed strong demand against growing concerns about how companies will finance the massive infrastructure buildout.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-25T00:38:37+08:00"
-    },
-    {
-      "id": "6a271ff09c351091754409d20a11419bf8dfb72315769b912166c5f0fb759668",
-      "source": "CNBC",
-      "title": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
-      "publishedAtSgt": "2026-10-24T23:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Retail investors who are trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds, according to Elm Wealth's Victor Haghani. \"I'm not sure that investors are that much more sophisticated than they were 30 years ago,\" the firm's founder and chief investment officer told CNBC's \"ETF Edge\" this week.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
-    },
-    {
-      "id": "e60cbf16084c0088e1c3e31d6dc3519661e6536fb3ca3e46bbfc19b273f0d6b8",
-      "source": "CNBC",
-      "title": "Berkshire shares shake the Buffett blues with new all-time highs",
-      "publishedAtSgt": "2026-10-24T20:48:32+08:00",
-      "url": "https://www.cnbc.com/2026/10/24/berkshire-record-high-without-buffett.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Investors have been rotating out of high-flying tech and AI stocks in recent weeks amid growing concerns their massive spending on computing infrastructure won't produce the sustained profits they envision. CEO Greg Abel has said providing energy to the growing number of AI data centers is a \"significant opportunity for Berkshire and Berkshire Hathaway Energy\" as long as rates don't rise for its other customers.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
-    },
-    {
-      "id": "e50ec86be72c30bf5d713b84846f368a46dd24e37340d886f6f7fb51900bf153",
-      "source": "CNBC",
-      "title": "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
-      "publishedAtSgt": "2026-10-24T18:58:30+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "With the U.S. midterm elections looming, Americans are nearly as gloomy about the economy as they were when the nation was emerging from the pandemic.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-25T00:38:43+08:00"
-    },
-    {
-      "id": "676f9758cf949191b92a9d838368093ffa56eb6d887679ee03e3d1ad91b61b0b",
-      "source": "CNBC",
-      "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
-      "publishedAtSgt": "2026-10-24T14:23:02+08:00",
-      "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "That could help settle nerves and restore investor confidence, Durré added, noting that recent pressure on French sovereign debt has been driven primarily by tactical portfolio reallocations, with traditional buy-and-hold investors \"still sitting on the sidelines.\" The yield on benchmark 10-year French government bonds, known as OATs, climbed 11 basis points Thursday to its highest level since 2002. \"We had expected French GDP growth of just 0.3% in 2026 and 0.6% in 2027.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-24T20:02:49+08:00"
-    },
-    {
-      "id": "3f434b88bf545f94e98b790c48219a91d030bede8e7a2423b76967d6dc63f1cf",
-      "source": "CNBC",
-      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
-      "publishedAtSgt": "2026-10-24T06:49:42+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Investors were anticipating Moody's rating decision as France, the second-largest economy in the euro zone, grappled with protests and a sharp surge in bond yields. This week, the nation's 10-year bond yield surpassed 5% for the first time since 2002. Currently, France's deficit-to-GDP ratio is at roughly 5.5% of its GDP, sharply above the 3% limit for member nations in the European Union.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-24T08:45:33+08:00"
-    },
-    {
-      "id": "ea6625d87d15c023c63b5efd50894eb44c0686d31055c87f9771f0296e08d935",
-      "source": "CNBC",
-      "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
-      "publishedAtSgt": "2026-10-24T05:49:08+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "It's been a rocky week for the AI infrastructure trade. However, skeptics are getting more vocal in their concerns that returns on AI investment won't justify the capital expenditures. John Williams, who leads the derivatives practice at law firm Milbank LLP, says investors are seeking numerous ways beyond buying CDS to hedge their bets with respect to the AI trade.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-24T06:14:41+08:00"
-    },
-    {
-      "id": "0ab95f08ae80238bd577eeade9de3e671226a781627b226e0759bfa2e806ca01",
-      "source": "CNBC",
-      "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
-      "publishedAtSgt": "2026-10-24T05:26:59+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Susan Collins, R-Maine, took credit for pushing the Trump administration to issue tariff exemptions on several categories of Canadian imports she says are \"crucial\" for her state's industries. \"This administration will continue to use every available tool to restore reciprocity in our bilateral trade relationships and safeguard the economic prosperity and national security of the American people.\" Collins has previously touted her efforts to push back on the president's protectionist trade...",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-24T06:14:40+08:00"
-    },
-    {
-      "id": "311f80f730c8cbc630fe1c0fcd6eadef264347a8812c378d1c2c80df8f505c5f",
-      "source": "CNBC",
-      "title": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
-      "publishedAtSgt": "2026-10-24T03:53:13+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "President Donald Trump has signed an executive order that aims to reduce mortgage costs as rising interest rates and inflation make homeownership less affordable. mortgage insurers, an industry trade organization, said: \"We commend the President's focus on lowering costs for future homeowners, and the private mortgage insurance industry is proud to already be delivering on that goal.\" Typically, the cost of PMI can be 0.2% to 2% of the loan annually, but varies based on your down payment size,...",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-24T06:14:41+08:00"
-    },
-    {
-      "id": "ed02e0632454d3bd59246b105ea4e23a5944f918ae664568589fbd51dbe2574e",
-      "source": "CNBC",
-      "title": "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
-      "publishedAtSgt": "2026-10-24T03:25:18+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/meta-shares-rough-week-mike-khouw-is-buying.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "But concerns about its AI buildout expenses wiped $135 billion from its market cap in just four sessions, or put another way, roughly the value on and entire Uber. Meta's personal AI agent is designed to be more of an active digital assistant than a conventional conversational chatbot.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-24T06:14:41+08:00"
-    },
-    {
-      "id": "c30ee4c3577e9318a8f295fb8f0cc1bbcc39c84de271a58c6f6e89962c0d212a",
-      "source": "CNBC",
-      "title": "Investors are starting to find opportunities in the battered bond market",
-      "publishedAtSgt": "2026-10-24T01:40:31+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/investors-are-starting-to-find-opportunities-in-the-battered-bond-market.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The investment strategist noted in his weekly money-flow summary that the \"secular contrarian [trade] would be adding bonds,\" drawing a parallel to similar long-run negative returns for stocks and commodities that later proved to be good entry points Despite the negative returns and soaring yields this year, investors are putting money into fixed income and government debt in particular.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-24T01:53:52+08:00"
-    },
-    {
-      "id": "31533249e4ed9f0e73bc49b26ab0f5f97867cb6168c643570976a06c6892a383",
-      "source": "CNBC",
-      "title": "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
-      "publishedAtSgt": "2026-10-24T01:25:29+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "exporter Cheniere Energy to buy 4 million metric tons of liquefied natural gas (LNG) annually through 2054. The gas that Doha will buy is less than 1% of the global LNG trade of more than 400 milion metric tons. But \"in terms of an individual deal, this is about as big as you see in the U.S,\" said Alex Munton, director of global gas and LNG at Rapidan Energy in Houston.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-24T01:53:52+08:00"
-    },
-    {
-      "id": "511e83921b9254aac3d07a3ed6caab10550f5fbc07df17f06591fc98360ea5f2",
-      "source": "CNBC",
-      "title": "What we want to see when this data center stock reports earnings next week",
-      "publishedAtSgt": "2026-10-24T00:15:59+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/23/what-we-want-to-see-when-this-data-center-stock-reports-earnings-next-week.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Stocks are mostly lower Friday, with the Dow leading the declines as the selling broadens out beyond just the AI trade. Jeff said that Meta is at the center of a growing concern among investors — \"how is the AI buildout going to get funded?\" Wall Street is increasingly worried about how the social media giant will finance its AI ambitions, which include expansion of its hit new AI agent Muse, as free cash flow turned negative for the first time since the company's 2012 initial public offering.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-24T01:53:52+08:00"
-    },
-    {
-      "id": "9ea3263795563a50497e12e0d31c9156ac1c57ac5c17c444ce362249dcba3a6b",
-      "source": "CNBC",
-      "title": "AI agents could disrupt bank deposits. Why Wall Street may be overreacting",
-      "publishedAtSgt": "2026-10-23T23:00:49+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/23/ai-agents-could-disrupt-bank-deposits-why-wall-street-may-be-overreacting.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Would you trust an AI agent with your bank account information and let it move your money without asking you first? The debate has taken center stage during the latest bank earnings season, with executives pushing back on the notion that AI agents could fundamentally change how consumers manage their money. For investors, rising deposit costs or slowing deposit growth would be warning signs that AI agents are beginning to disrupt the industry.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-24T01:53:57+08:00"
-    },
-    {
-      "id": "1d15d42c8a19df55a402f6822f5e005599b9082c12e524d2fc9c90ef8cd35917",
-      "source": "CNBC",
-      "title": "Restaurant earnings will test whether owning more brands pays off",
-      "publishedAtSgt": "2026-10-23T21:55:46+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/darden-brinker-qsr-stocks-restaurant-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Restaurant stocks have split sharply this year. Shares of Brinker International, Darden Restaurants and Restaurant Brands International are up roughly 32%, 18% and 12%, respectively, year to date. Starbucks and Cheesecake Factory have been restaurant-stock standouts this year, showing how a clear brand identity and investment can drive outperformance when execution and customer demand click.",
-      "feeds": [
-        "latest",
-        "business",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-24T01:53:57+08:00"
     }
   ]
 }
