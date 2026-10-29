@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-29T22:25:08+08:00",
+  "generatedAtSgt": "2026-10-30T05:11:27+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,166 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "61dd16247e0c2378ef03fceb018c0407f154d61c393dcdcc115546d8f9f1e226",
+      "source": "CNBC",
+      "title": "Amazon AWS posts 39% revenue growth as cloud rivals also accelerate",
+      "publishedAtSgt": "2026-10-30T05:06:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amazon's cloud-computing unit reported more rapid third-quarter growth than analysts had projected. Growth in the second quarter came in at about 37%. The AWS growth rate was the highest since the fourth quarter of 2021.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:22+08:00"
+    },
+    {
+      "id": "d198cedcb6c2a4af564ba56b3085115bbf51b16a1a69d664a71ee6cd09b76855",
+      "source": "CNBC",
+      "title": "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
+      "publishedAtSgt": "2026-10-30T05:03:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amazon shares plunged more than 7% in extended trading Thursday after the company reported earnings and revenue for the third quarter that fell short of Wall Street's expectations. Tech's hyperscalers have been on a blistering spending run to meet the surge in demand for artificial intelligence infrastructure, but signs have begun to emerge that the capex splurge is moderating.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:20+08:00"
+    },
+    {
+      "id": "b73b0090c8df8f055a5bf9190288946a0bb05cadb3df0e6ec04cc555b0a95a26",
+      "source": "CNBC",
+      "title": "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
+      "publishedAtSgt": "2026-10-30T04:35:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company's shares dropped over 15% after its numbers were released. A previous Google search update designed to surface \"authentic\" content from internet forums helped Reddit grow its user base over the past few years, but the search giant's continued push on AI overviews and related chatting features has negatively impacted referral traffic.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:20+08:00"
+    },
+    {
+      "id": "687d36f776c761ee536270b862ce75f2782e2b7c52a5415a392637d4dd816f9e",
+      "source": "CNBC",
+      "title": "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
+      "publishedAtSgt": "2026-10-30T04:35:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Rivian Automotive beat Wall Street's third-quarter earnings expectations as it ramped up production of its new R2 entry-level SUV that the company has promised investors will lead the company to profitability. $1.99 billion expected Shares of Rivian were up roughly 5% during afterhours trading Thursday, after hitting a new 52-week low of $11.38 earlier in the day.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:20+08:00"
+    },
+    {
+      "id": "92b48cb18d13e07d51045fcd42810a44257a90f8f5120176f5b201ce6294aa30",
+      "source": "CNBC",
+      "title": "Norwegian shares surge 13% on earnings beat, guidance raise",
+      "publishedAtSgt": "2026-10-30T04:14:15+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/norwegian-earnings-guidance-shares.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Norwegian Cruise Line Holdings surged 13% Thursday after the company posted better-than-expected third-quarter earnings and raised its outlook for the full year. The cruise line reported third-quarter revenue of $2.95 billion, topping Wall Street expectations of $2.88 billion, according to analyst estimates from LSEG. Net income for the period was $491 million, or $1.07 per share.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:21+08:00"
+    },
+    {
+      "id": "26edef9c9bb86f211013868c1a901b6d021774fcb8bcf649c5ca6e37b8947838",
+      "source": "CNBC",
+      "title": "Aon CEO warns AI data center insurance risks could threaten financing",
+      "publishedAtSgt": "2026-10-30T04:12:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/aon-ai-data-center-insurance-financing.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The race to build artificial intelligence infrastructure is creating enormous new risks that could threaten financing for the data centers powering the artificial intelligence boom, according to Aon CEO Greg Case. The warnings come as technology companies accelerate spending on data centers, electricity generation and other infrastructure needed to support AI.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:22+08:00"
+    },
+    {
+      "id": "0019daecd2c63dddf83a58c000923633e0026262da3b0f1bed12d232d86d45ab",
+      "source": "CNBC",
+      "title": "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
+      "publishedAtSgt": "2026-10-30T04:02:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "ServiceNow shares sank 27% on Thursday and recorded their worst day on record after the enterprise software company's third-quarter results underwhelmed, reigniting artificial intelligence disruption concerns. The results did little to overturn recent \"SaaSpocalypse\" fears, or concerns that new AI capabilities will upend traditional software business models.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:20+08:00"
+    },
+    {
+      "id": "4eb9f819281da7d74d7b10d5f40d944effca964c5c56456f8baa9cee71c5239d",
+      "source": "CNBC",
+      "title": "Jim Cramer: Why investors are punishing Alphabet and giving Microsoft a pass",
+      "publishedAtSgt": "2026-10-30T03:30:33+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/29/jim-cramer-why-investors-are-punishing-alphabet-and-giving-microsoft-a-pass.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "For Jim, the key differentiator is Microsoft's ability to keep spending in check while pursuing its artificial intelligence ambitions and delivering strong growth. The company also saw a sequential deceleration in Google Search revenue growth, fueling concerns about AI disruption for its longtime cash cow. Microsoft shares had fallen more than 25% in the first six months of the year amid concerns that the company could be left behind in the AI race.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:21+08:00"
+    },
+    {
+      "id": "1c9b2bfc08abfd9012cc8b50983094d47b2cf4e9afe2c4ed89eec7ef92efc3bc",
+      "source": "CNBC",
+      "title": "Big Oil earnings are set to surge. Why investors may want to be cautious",
+      "publishedAtSgt": "2026-10-30T02:13:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/big-oil-earnings-are-set-to-surge-why-investors-may-want-to-be-cautious.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "I'll also be meeting privately with some of the biggest power players in energy and having great conversations with country and company leaders about oil, gas, commodities, Hormuz, and more - all ahead of what some fear may be another round of hits on Iran or Iranian energy infrastructure. The next few days are critical for energy investors.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:21+08:00"
+    },
+    {
+      "id": "2c50fec30fe44a002685ef2e280775fe131426243820932d4ecf2124b71d146d",
+      "source": "CNBC",
+      "title": "Some investors have midterm election jitters. Here’s what history shows about stocks",
+      "publishedAtSgt": "2026-10-30T01:27:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/midterm-elections-stock-market-history.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "3 midterms' potential impact on the stock market, according to Morgan Stanley Wealth Management's latest quarterly retail investor pulse survey, conducted Oct. Across 19 midterm cycles from 1950 through 2022, economic growth accelerated in nine cycles, slowed in nine and remained the same in one, according to an Oct. These gains mean some investors whose portfolios started the period with, say, an intentional 80% stock and 20% bond allocation may now have more stocks than they intended.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:21+08:00"
+    },
     {
       "id": "a43e8631f6101f7a25d2035bcfb1f1a506232a0b4e021975d62621e24fb988b9",
       "source": "CNBC",
@@ -1433,165 +1593,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-26T22:20:04+08:00"
-    },
-    {
-      "id": "e5ca5a5c70a8a1b17d105b709020c24088fbb0c037535dde22fad1eba97d775d",
-      "source": "CNBC",
-      "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'",
-      "publishedAtSgt": "2026-10-26T21:43:14+08:00",
-      "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of major neocloud stocks fell on Monday after Elon Musk said that more than 200 companies in the sector could collapse. Nebius and CoreWeave dropped around 4%, adding pressure to a sector already facing investor concerns about debt-fueled expansion and whether the large AI infrastructure buildout will generate returns.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
-    },
-    {
-      "id": "3a7255fd82ce421c9c4642c964df159afca50802a4f866f3e3fb5e05dbdc2554",
-      "source": "CNBC",
-      "title": "Apollo to buy nearly 10% stake in Abu Dhabi-backed alternative asset manager Mubadala Capital",
-      "publishedAtSgt": "2026-10-26T21:09:26+08:00",
-      "url": "https://www.cnbc.com/2026/10/26/apollo-mubadala-capital-stake.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Investing giant Apollo Global Management is finalizing a deal to buy nearly a 10% stake in Mubadala Capital, the alternative asset manager subsidiary of Abu Dhabi's sovereign wealth fund, Mubadala Investment Co., according to people familiar with the matter who spoke on condition of anonymity.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
-    },
-    {
-      "id": "631327277cb5226e3c9c1e9bf59172a8b44d703f1be72a3d11b5400fadf992fd",
-      "source": "CNBC",
-      "title": "Cracking AI trade has Wall Street looking for a hedge. An ex-Citadel quant may have the answer",
-      "publishedAtSgt": "2026-10-26T20:08:13+08:00",
-      "url": "https://www.cnbc.com/2026/10/26/gpu-futures-ai-hedge-hyperbolic.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "As CoreWeave shares plummet, taking much of the AI complex with it, investors face a simple question: what's the best way to hedge AI risk? It's a 50-person financial technology startup building a spot marketplace for tradable GPU computing power, a tool that would allow traders to hedge against a decline in AI demand. The platform allows investors to buy and sell GPU clusters, the units that power AI compute.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
-    },
-    {
-      "id": "2b8b94da330af17311dde355a7f7a8fd23af0b263af0df0d7967ed1187ea2c8e",
-      "source": "CNBC",
-      "title": "A shock in Brazil sends stocks plunging, while neoclouds take another hit",
-      "publishedAtSgt": "2026-10-26T18:39:46+08:00",
-      "url": "https://www.cnbc.com/2026/10/26/brazil-stocks-neoclouds-selloff.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "- Stocks in freefall: U.S.-listed shares of Brazilian stocks also fell premarket, with Petrobras down over 20%, banking group Itaú Unibanco down almost 30% and brewer Ambev off 19%. - Exclusive: IEA Executive Director Fatih Birol told CNBC the organization stands \"ready to act again\" and support markets following its recent release of oil stocks, while adding he does not expect energy markets to return to pre-war levels in 2027.",
-      "feeds": [
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
-    },
-    {
-      "id": "9562eefa366f0f20578617cfda45f022ca2699746bd5f61f92a965705cd9ccb9",
-      "source": "CNBC",
-      "title": "Defense tech investment boom sparks bubble warning as private equity pours in",
-      "publishedAtSgt": "2026-10-26T14:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Private equity firms are pouring billions into defense technology as rising military spending and geopolitical tensions fuel an investment boom. Traditional buyout investors are increasingly backing younger, high-growth firms in the sector, according to PitchBook data, with private equity growth investments in defense reaching $4 billion in the first nine months of 2026, up from $500 million in 2024.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-26T14:19:03+08:00"
-    },
-    {
-      "id": "cb667eea29a2b997b6aa63ab3ae207e61fde8cf84623c077d7394828162a7897",
-      "source": "CNBC",
-      "title": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
-      "publishedAtSgt": "2026-10-26T13:18:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "crude oil fell over 2% on Monday as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could eventually erode demand. Speaking to CNBC, Michael Alfaro, chief investment officer at Gallo Partners, estimated that geopolitical uncertainty had already added roughly $20 a barrel to oil prices.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-26T14:19:03+08:00"
-    },
-    {
-      "id": "a259c723643d2887630605fdc0247c69fa524602662a3b569d1c4bf9adb186df",
-      "source": "CNBC",
-      "title": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
-      "publishedAtSgt": "2026-10-26T12:56:16+08:00",
-      "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The country's prime minister said the planned investments would focus on artificial intelligence, new technologies and data centers, according to the report. The planned investment comes as Malaysia seeks to become an \"AI nation\" by 2030, with the government launching a national AI action plan earlier this year to strengthen the country's AI capabilities and infrastructure. Microsoft also announced a $2.2 billion investment in cloud and AI infrastructure and other digital initiatives.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-26T14:19:04+08:00"
-    },
-    {
-      "id": "cfeb9f03fb4bfd22668434ce3a793952056f9c73b321656ecfc1fa32e3188f11",
-      "source": "CNBC",
-      "title": "More pain may be coming for the AI trade. Why I’m not giving up on it",
-      "publishedAtSgt": "2026-10-26T05:13:50+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/25/jim-cramer-ai-trade-nvidia-coreweave.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "I am talking about the collapse in every aspect of the artificial intelligence trade. It never seemed to matter until CoreWeave's stock began a sickening K2-like fall, with its high-yield debt being the culprit. Who wants to be the last one still funding these data center projects, a dastardly term that encompasses a significant share of economic growth and the stock market?",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-26T05:50:39+08:00"
-    },
-    {
-      "id": "1cfe53d1ea6392b5e1a4290aec1d17b799eadfa9b1b828566fefb7c3cc554b13",
-      "source": "CNBC",
-      "title": "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
-      "publishedAtSgt": "2026-10-26T00:42:42+08:00",
-      "url": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
-      "category": "MARKET",
-      "relevanceScore": 100,
-      "relevanceReason": "financial_market_legal_story",
-      "summary": "DETROIT — Audi's CEO defended the carmaker's plans for a new $4 billion plant in Georgia on Sunday, calling it a business decision aimed at growing sales and reducing exposure to U.S. The plant, set to be Audi's first in the U.S., was announced Saturday by President Donald Trump during a rally in Georgia, near where the Volkswagen-owned luxury brand plans to build the new SUV-producing facility. tariffs cost Audi 1.2 billion euros ($1.4 billion), as it imports all its vehicles for the U.S.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-26T01:04:43+08:00"
-    },
-    {
-      "id": "e4f35cad0fad1260f0b5ccf4306dbce6ce932781dab094aec8d18d89f3e5500d",
-      "source": "CNBC",
-      "title": "Here are 4 big things we're watching in the stock market this week",
-      "publishedAtSgt": "2026-10-25T22:58:26+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/25/here-are-4-big-things-were-watching-in-the-stock-market-this-week.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The jam-packed week arrives at a critical moment for Wall Street, as the engine of the full-year bull market — the artificial intelligence trade — continues to leak fluid . And the headlines out of the Middle East still paint an ugly picture, keeping elevated oil prices front and center for equity investors.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-26T01:04:46+08:00"
     }
   ]
 }

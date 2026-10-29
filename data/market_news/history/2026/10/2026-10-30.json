@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-30",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "61dd16247e0c2378ef03fceb018c0407f154d61c393dcdcc115546d8f9f1e226",
+      "source": "CNBC",
+      "title": "Amazon AWS posts 39% revenue growth as cloud rivals also accelerate",
+      "publishedAtSgt": "2026-10-30T05:06:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amazon's cloud-computing unit reported more rapid third-quarter growth than analysts had projected. Growth in the second quarter came in at about 37%. The AWS growth rate was the highest since the fourth quarter of 2021.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:22+08:00"
+    },
+    {
+      "id": "d198cedcb6c2a4af564ba56b3085115bbf51b16a1a69d664a71ee6cd09b76855",
+      "source": "CNBC",
+      "title": "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
+      "publishedAtSgt": "2026-10-30T05:03:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amazon shares plunged more than 7% in extended trading Thursday after the company reported earnings and revenue for the third quarter that fell short of Wall Street's expectations. Tech's hyperscalers have been on a blistering spending run to meet the surge in demand for artificial intelligence infrastructure, but signs have begun to emerge that the capex splurge is moderating.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:20+08:00"
+    },
+    {
+      "id": "b73b0090c8df8f055a5bf9190288946a0bb05cadb3df0e6ec04cc555b0a95a26",
+      "source": "CNBC",
+      "title": "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
+      "publishedAtSgt": "2026-10-30T04:35:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company's shares dropped over 15% after its numbers were released. A previous Google search update designed to surface \"authentic\" content from internet forums helped Reddit grow its user base over the past few years, but the search giant's continued push on AI overviews and related chatting features has negatively impacted referral traffic.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:20+08:00"
+    },
+    {
+      "id": "687d36f776c761ee536270b862ce75f2782e2b7c52a5415a392637d4dd816f9e",
+      "source": "CNBC",
+      "title": "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
+      "publishedAtSgt": "2026-10-30T04:35:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Rivian Automotive beat Wall Street's third-quarter earnings expectations as it ramped up production of its new R2 entry-level SUV that the company has promised investors will lead the company to profitability. $1.99 billion expected Shares of Rivian were up roughly 5% during afterhours trading Thursday, after hitting a new 52-week low of $11.38 earlier in the day.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:20+08:00"
+    },
+    {
+      "id": "92b48cb18d13e07d51045fcd42810a44257a90f8f5120176f5b201ce6294aa30",
+      "source": "CNBC",
+      "title": "Norwegian shares surge 13% on earnings beat, guidance raise",
+      "publishedAtSgt": "2026-10-30T04:14:15+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/norwegian-earnings-guidance-shares.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Norwegian Cruise Line Holdings surged 13% Thursday after the company posted better-than-expected third-quarter earnings and raised its outlook for the full year. The cruise line reported third-quarter revenue of $2.95 billion, topping Wall Street expectations of $2.88 billion, according to analyst estimates from LSEG. Net income for the period was $491 million, or $1.07 per share.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:21+08:00"
+    },
+    {
+      "id": "26edef9c9bb86f211013868c1a901b6d021774fcb8bcf649c5ca6e37b8947838",
+      "source": "CNBC",
+      "title": "Aon CEO warns AI data center insurance risks could threaten financing",
+      "publishedAtSgt": "2026-10-30T04:12:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/aon-ai-data-center-insurance-financing.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The race to build artificial intelligence infrastructure is creating enormous new risks that could threaten financing for the data centers powering the artificial intelligence boom, according to Aon CEO Greg Case. The warnings come as technology companies accelerate spending on data centers, electricity generation and other infrastructure needed to support AI.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:22+08:00"
+    },
+    {
+      "id": "0019daecd2c63dddf83a58c000923633e0026262da3b0f1bed12d232d86d45ab",
+      "source": "CNBC",
+      "title": "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
+      "publishedAtSgt": "2026-10-30T04:02:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "ServiceNow shares sank 27% on Thursday and recorded their worst day on record after the enterprise software company's third-quarter results underwhelmed, reigniting artificial intelligence disruption concerns. The results did little to overturn recent \"SaaSpocalypse\" fears, or concerns that new AI capabilities will upend traditional software business models.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:20+08:00"
+    },
+    {
+      "id": "4eb9f819281da7d74d7b10d5f40d944effca964c5c56456f8baa9cee71c5239d",
+      "source": "CNBC",
+      "title": "Jim Cramer: Why investors are punishing Alphabet and giving Microsoft a pass",
+      "publishedAtSgt": "2026-10-30T03:30:33+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/29/jim-cramer-why-investors-are-punishing-alphabet-and-giving-microsoft-a-pass.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "For Jim, the key differentiator is Microsoft's ability to keep spending in check while pursuing its artificial intelligence ambitions and delivering strong growth. The company also saw a sequential deceleration in Google Search revenue growth, fueling concerns about AI disruption for its longtime cash cow. Microsoft shares had fallen more than 25% in the first six months of the year amid concerns that the company could be left behind in the AI race.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:21+08:00"
+    },
+    {
+      "id": "1c9b2bfc08abfd9012cc8b50983094d47b2cf4e9afe2c4ed89eec7ef92efc3bc",
+      "source": "CNBC",
+      "title": "Big Oil earnings are set to surge. Why investors may want to be cautious",
+      "publishedAtSgt": "2026-10-30T02:13:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/big-oil-earnings-are-set-to-surge-why-investors-may-want-to-be-cautious.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "I'll also be meeting privately with some of the biggest power players in energy and having great conversations with country and company leaders about oil, gas, commodities, Hormuz, and more - all ahead of what some fear may be another round of hits on Iran or Iranian energy infrastructure. The next few days are critical for energy investors.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:21+08:00"
+    },
+    {
+      "id": "2c50fec30fe44a002685ef2e280775fe131426243820932d4ecf2124b71d146d",
+      "source": "CNBC",
+      "title": "Some investors have midterm election jitters. Here’s what history shows about stocks",
+      "publishedAtSgt": "2026-10-30T01:27:10+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/midterm-elections-stock-market-history.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "3 midterms' potential impact on the stock market, according to Morgan Stanley Wealth Management's latest quarterly retail investor pulse survey, conducted Oct. Across 19 midterm cycles from 1950 through 2022, economic growth accelerated in nine cycles, slowed in nine and remained the same in one, according to an Oct. These gains mean some investors whose portfolios started the period with, say, an intentional 80% stock and 20% bond allocation may now have more stocks than they intended.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-30T05:11:21+08:00"
+    }
+  ],
+  "articleCount": 10,
+  "updatedAtSgt": "2026-10-30T05:11:22+08:00"
+}
