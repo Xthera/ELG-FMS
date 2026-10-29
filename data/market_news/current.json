@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-29T07:15:40+08:00",
+  "generatedAtSgt": "2026-10-29T15:10:02+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,86 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "ce4536b28d7c9572df5e504f1a73d412701b3718a5620f1d409af272775ec089",
+      "source": "CNBC",
+      "title": "Tencent, Visa deepen payments push in China after regulatory green light",
+      "publishedAtSgt": "2026-10-29T15:01:50+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/tencent-visa-citi-mastercard-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Tencent and Visa are expanding their partnership in cross-border payments and AI-powered commerce, the companies said Thursday, deepening their push into China’s payments market. Dowson Tong, Tencent's senior executive vice president and CEO of its Cloud and Smart Industries Group, said the partnership would combine Tencent's AI capabilities with Visa's global network to improve cross-border payments.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T15:10:02+08:00"
+    },
+    {
+      "id": "8829a4793c8f47ec4131add6720dbaa985b53057f6f5ab8d609fa78c7bd07deb",
+      "source": "CNBC",
+      "title": "Samsung Electronics shares slid despite record profit in the third-quarter",
+      "publishedAtSgt": "2026-10-29T14:53:19+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Its semiconductor business reported 147.1 trillion won in revenue and 106.5 trillion won in operating profit, driven by strong demand for AI-related memory chips. \"Investors have been so spoilt by the AI trade that a record result is now treated as the bare minimum rather than a reason to celebrate,\" Gilbert said, adding that Samsung's chip business accounted for nearly all of its operating profit in the third quarter, highlighting its growing reliance on memory chips.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T15:10:02+08:00"
+    },
+    {
+      "id": "9e353b5f3e5312982756aca7230a44764c4cb0d91242b8c7c94384a8d09f629c",
+      "source": "CNBC",
+      "title": "Billionaire Ambani cries tears of joy as Jio Platforms becomes the second most valued Indian firm",
+      "publishedAtSgt": "2026-10-29T12:55:17+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/ambani-billionaire-jio-ipo-india.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "The Meta- and Google-backed company listed on Wednesday at a premium of over 25% to its IPO price, leading to a market capitalization of 13.05 trillion rupees ($137.1 billion). Ahead of the listing, the patriarch of the Ambani family teared up as his three children shared the journey of building Jio and vowed to create value for investors over the next 50 years.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T15:10:02+08:00"
+    },
+    {
+      "id": "c9cfd61c7dfcb8d09c8366f5d281efb83c785f3f92cee74ae4048046517fc6fe",
+      "source": "CNBC",
+      "title": "China’s tech darlings are losing their shine. Here’s what’s behind the sell-off",
+      "publishedAtSgt": "2026-10-29T10:14:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/china-tech-stocks-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 58,
+      "relevanceReason": "supporting_market_description",
+      "summary": "China's technology stocks are losing their luster as investors question whether the country's artificial intelligence boom can deliver profits strong enough to justify lofty valuations. The index tracks 50 of the largest and most liquid companies on Shanghai's technology-focused STAR Market — home to semiconductor, artificial intelligence and other high-tech firms.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-29T15:10:02+08:00"
+    },
+    {
+      "id": "e4ae919022bf65b9c5fa251da5d7c9eb894a42142c62c724897be975b61f7410",
+      "source": "CNBC",
+      "title": "Our next steps for Alphabet stock after earnings disappoint at nearly every turn",
+      "publishedAtSgt": "2026-10-29T09:11:10+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/28/our-next-steps-for-alphabet-stock-after-earnings-disappoint-at-nearly-every-turn.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Alphabet CEO Sundar Pichai said on the call, \"With Gemini 4 Argon and now Carbon, which we announced today, we are excited to be leading at the frontier.\" While those numbers are supportive of the broader AI trade, they were certainly not enough for us to argue that investors should overlook the misses pretty much everywhere else.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-29T15:10:02+08:00"
+    },
     {
       "id": "1ff90cd183fc18c054a731f434be822c9c11d5ae46b6296b006e35e65ca99ab2",
       "source": "CNBC",
@@ -1510,83 +1590,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-24T01:53:57+08:00"
-    },
-    {
-      "id": "a38967a991cafb3b1c3e8857dac05f1096d01764ed81137275f9fb93d3717646",
-      "source": "CNBC",
-      "title": "Higher interest rates have made family offices pickier about investing in real estate",
-      "publishedAtSgt": "2026-10-23T20:15:03+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/high-interest-rates-raise-the-bar-for-real-estate-deals.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "A version of this article appeared in CNBC's Inside Wealth newsletter, a weekly guide to the high-net-worth investor and consumer. Higher interest rates have made family offices more selective about investing in real estate, with many focusing on highly discounted properties and assets with strong pricing power, chief investment officers told CNBC. \"I would tend to think of data centers as being a more of a technology investment than a real estate investment,\" he said.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
-    },
-    {
-      "id": "593cae8800cbb0d212baf78b30835aa9f6fadb9c32d9c0339ba2a1dcc96373ef",
-      "source": "CNBC",
-      "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
-      "publishedAtSgt": "2026-10-23T20:12:18+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Investors ran for cover this week as artificial intelligence fears hit stocks, driving the 10-year Treasury below 5%. The benchmark yield stayed below 5% on Friday, after falling beneath that level Thursday for the first time in a month as investors continued to express misgivings over the massive debt being taken on by technology companies to finance their build out of AI networks.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-23T20:39:57+08:00"
-    },
-    {
-      "id": "a95c75965758cff2c07078bb6504b9e05c647f5f8316fca8af79a92e950007ea",
-      "source": "CNBC",
-      "title": "U.S. oil rises above $100, Brent at five-month high as Iran says it’s prepared for warfare",
-      "publishedAtSgt": "2026-10-23T19:51:59+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Crude oil futures ticked higher on Friday, with global benchmark Brent crude hovering at a five-month high. ET, front-month Brent crude oil futures were 1.1% higher at $114.49 per barrel. West Texas Intermediate crude futures were up 1.6% to trade at $101.04 a barrel.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
-    },
-    {
-      "id": "9a5e07893a9828d30dc6b4574d8ec99fa086988357b65566ec578c9d1a4b33ea",
-      "source": "CNBC",
-      "title": "Russia and Ukraine trade fresh strikes despite renewed push for U.S.-brokered peace talks",
-      "publishedAtSgt": "2026-10-23T19:16:30+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/russia-ukraine-strikes-peace-talks.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Russia and Ukraine continued trading intense strikes on civilian and energy infrastructure overnight, less than a day after the parties signalled that peace negotiations were moving forward in U.S.-brokered talks. Russia unleashed a major attack on Ukraine's energy facilities, knocking out electricity for over 500,000 after strikes on energy facilities in the Zhytomyr, Volyn, Mykolaiv, Poltava, Khmelnytskyi and Rivne regions, Ukraine's Energy Ministry said Friday.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
-    },
-    {
-      "id": "e1a27a4da44ba920b0089577fb88588a0555a47703586270f548ddbbf007bef5",
-      "source": "CNBC",
-      "title": "Safe haven search is on Friday as investors keep rotating",
-      "publishedAtSgt": "2026-10-23T19:05:13+08:00",
-      "url": "https://www.cnbc.com/2026/10/23/safe-haven-search-is-on-friday-as-investors-keep-rotating.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Here are five key things investors need to know to start the trading day: It's been a whiplash week for technology stocks, but Thursday's sell-off spooked investors enough to seek refuge in safe havens. - Analysis: market participants told CNBC it's the first time in a while that Treasurys are being seen as a safe haven, citing the concern over AI-related bond issuance. Japanese core inflation hit its highest level this year, which could prompt the Bank of Japan to consider another rate hike.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
     }
   ]
 }
