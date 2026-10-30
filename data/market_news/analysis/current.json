@@ -1,10 +1,126 @@
 {
-  "generatedAtSgt": "2026-10-31T02:54:58.575918+08:00",
+  "generatedAtSgt": "2026-10-31T07:16:02.641885+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 251,
+  "articleCount": 255,
   "analyses": [
+    {
+      "articleId": "7d095a8dc895fea57e325a489beff8c3b3af0e7b2df8174677819f82a7dc4764",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "CNBC's Jim Cramer advises investors to diversify away from the struggling AI trade into consumer staples stocks, highlighting companies like Kimberly-Clark and Procter & Gamble for their recent gains, attractive valuations, and dividend yields.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Staples"
+      ],
+      "investorImpact": "Investors rotating out of high-flying technology and AI trades may find defensive opportunities in consumer staples, particularly companies with solid dividend yields and lower valuations.",
+      "reasoning": "The article provides actionable market commentary regarding sector rotation into consumer staples, making it relevant for portfolio diversification strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
+      "publishedAtSgt": "2026-10-31T06:52:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
+    {
+      "articleId": "2cfd56acc914ddde217c8cd736987be67b66884353ec5e61165f591ec74e2fb4",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "S&P Global Ratings has revised Meta's outlook downward due to cash flow concerns and heavy AI capital expenditures. Despite beating revenue estimates, Meta shares dropped 7% following the announcement.",
+      "assetClasses": [
+        "Equities",
+        "Credit"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Investors holding Meta equity experienced a 7% sell-off following credit outlook concerns and high AI spending, highlighting market sensitivity to heavy capital expenditure versus cash flow generation.",
+      "reasoning": "Classified as MARKET and NEGATIVE because S&P's outlook revision and the subsequent 7% drop in Meta shares directly impact equity and credit market sentiment regarding big tech capex spending.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+      "publishedAtSgt": "2026-10-31T06:42:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
+    {
+      "articleId": "7b45471800956f0b1535b67e9d8eb2a67394822061627dafd06f64b221655d17",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Stocks experienced a turbulent week due to concerns over the artificial intelligence trade and technology shares, alongside impending midterms and upcoming tech earnings. Jim Cramer warned that political opposition to AI facilities could delay construction and impact infrastructure spending growth, while noting potential in pharmaceutical stocks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Pharmaceuticals"
+      ],
+      "investorImpact": "Investors should prepare for ongoing market volatility driven by upcoming technology earnings, macroeconomic data like the jobs report, and political developments affecting AI infrastructure.",
+      "reasoning": "The article provides market commentary and highlights sentiment shifts in tech and pharmaceutical sectors, making it useful for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
+      "publishedAtSgt": "2026-10-31T06:17:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
+    {
+      "articleId": "99de5f14798396ba6d81405b9ed5c780a4e671693fa92377fac856d09d856b7b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Stocks closed sharply lower at the end of October, driven by a severe sell-off in technology and AI-related shares. Despite strong cloud fundamentals reported by companies like Amazon and Microsoft, investor pressure weighed heavily on the sector while defensive stocks outperformed.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Cloud Computing"
+      ],
+      "investorImpact": "Investors face heightened volatility in tech and AI-related shares, prompting a rotation into defensive stocks despite strong underlying fundamentals in major cloud providers.",
+      "reasoning": "The article provides crucial market commentary on a broad sectoral sell-off and rotation into defensives at month-end, making it highly relevant for portfolio risk monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
+      "publishedAtSgt": "2026-10-31T02:55:44+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
     {
       "articleId": "953e398e33f495f99f9dfafd27d416000416578e86ed22ad6053c244de540ee0",
       "relevant": true,
