@@ -1,10 +1,342 @@
 {
-  "generatedAtSgt": "2026-10-30T05:27:19.879064+08:00",
+  "generatedAtSgt": "2026-10-30T19:10:05.560715+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 238,
+  "articleCount": 255,
   "analyses": [
+    {
+      "articleId": "f6a7012309d3ff79bd1708913a1076f00a12c192126bace86a26a359ea023695",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Intel reported a double miss on both earnings per share and revenue despite AWS seeing its fastest growth in five years. Intel's CFO noted that the PC slowdown is expected to continue through at least the first half of next year. Prior to the report, Intel's stock had risen about 150% for the year, but dropped roughly 23% in October due to growing concerns about the size and profitability of the artificial intelligence buildout.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors in technology and semiconductor sectors face heightened volatility and concerns over slowing PC demand and AI capital expenditure returns, which may pressure tech valuations.",
+      "reasoning": "Classified under TECHNOLOGY due to its primary focus on Intel's earnings, AWS growth, and broader AI buildout concerns. Sentiment is negative given the earnings miss and slowing PC outlook, with high importance for tech equity portfolios.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Tech scare trade hits Nasdaq futures while crypto reels from its biggest-ever hack",
+      "publishedAtSgt": "2026-10-30T18:36:55+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/tech-trade-nasdaq-futures-crypto-hack.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-30T18:54:08+08:00"
+    },
+    {
+      "articleId": "5cdb273489d96dbc15be2e03361d84aab315aeefad1adaa74ac047871b044f50",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Chevron beat earnings expectations driven by soaring refining profits from high diesel fuel prices. Refineries ran at 98% capacity, and oil and gas production profits rose about 70% to $5.7 billion. Chevron shares rose about 2% in premarket trading.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Energy"
+      ],
+      "investorImpact": "Strong earnings and high refining profits are positive catalysts for Chevron and the broader energy sector, supporting equity valuations and investor sentiment in oil and gas producers.",
+      "reasoning": "The article reports strong quarterly financial results for a major energy company driven by robust refining margins and production profits, which is highly relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Chevron beats earnings expectations as refining profits soar on high diesel fuel prices",
+      "publishedAtSgt": "2026-10-30T18:21:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
+    },
+    {
+      "articleId": "96622bc181767d61513b5583802144f6baa0a03ae65a8f32f1e737b00d55d849",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Amazon and Intel shares dropped significantly in premarket trading following disappointing quarterly earnings, dragging down Nasdaq futures and causing a broader sell-off in chip stocks globally. Investor concerns are centered on the heavy and potentially unprofitable AI spending by major tech firms.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "US",
+        "Europe"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors face heightened volatility and downward pressure in tech and semiconductor equities as market sentiment sours on high AI capital expenditures without immediate payoff.",
+      "reasoning": "Classified as MARKET and high importance due to major stock plunges for index heavyweights like Amazon and Intel, alongside contagion across global chipmakers and index futures, directly impacting portfolio equity valuations and sector sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Amazon falls 7%, Intel plunges 25% in premarket trading, as pressure mounts after earnings",
+      "publishedAtSgt": "2026-10-30T17:16:27+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
+    },
+    {
+      "articleId": "08f59351064ab17dc18806391dec848c3a49d37e27b7469242f9056646e5f6bf",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "BP reported that its third-quarter profit nearly quadrupled to $8.5 billion, driven by surging refining margins and volatile energy markets.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "The strong earnings performance and high refining margins signal robust profitability for major integrated energy companies, which can influence sector sentiment, dividend distributions, and share price performance.",
+      "reasoning": "The article details strong corporate earnings from a major global energy company driven by industry-wide market conditions, making it highly relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "BP’s third-quarter profit nearly quadruples to $8.5 billion as refining margins surge",
+      "publishedAtSgt": "2026-10-30T17:00:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/bp-earnings-oil-q3.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
+    },
+    {
+      "articleId": "332edba92aa87a9b99ad2b3efeaf43ab5e0952d696c370f18b2a07b30fafd2cb",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "An Indian artificial intelligence infrastructure firm, AM Intelligence based in Hyderabad, is reportedly seeking to raise up to $3 billion through debt including bond issues and bank loans to purchase Nvidia's next-generation Rubin graphics processing units.",
+      "assetClasses": [
+        "Equities",
+        "Debt"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence",
+        "Semiconductors"
+      ],
+      "investorImpact": "Highlights robust enterprise and infrastructure demand for high-end AI hardware outside of traditional Western markets, benefiting major semiconductor suppliers like Nvidia and expanding capital markets activity through major debt issuances in emerging markets.",
+      "reasoning": "The article is classified under TECHNOLOGY and MARKET dynamics because it details a significant capital-raising event for AI infrastructure and hardware acquisition, reflecting strong ongoing demand in the semiconductor sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Indian AI infrastructure firm reportedly seeks to raise $3 billion of debt to buy Nvidia's next-generation chips",
+      "publishedAtSgt": "2026-10-30T16:19:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/nvidia-india-ai-chips-computing.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-10-30T18:54:08+08:00"
+    },
+    {
+      "articleId": "1a0a2a125ec72012c341a537e08a3ada0accf4e9e98f51d820a235e33b3da604",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The UK Maritime Trade Operations agency reported explosive devices being attached to a tanker near Oman in the Strait of Hormuz, a vital energy waterway where traffic has plummeted since the war started in late February.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Iran",
+        "Oman",
+        "Middle East",
+        "Global"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas",
+        "Transportation"
+      ],
+      "investorImpact": "Escalating conflict in the Strait of Hormuz poses severe risks to global energy supplies and oil shipping routes, which could drive up crude oil prices and increase energy sector volatility.",
+      "reasoning": "The article details military and geopolitical conflict in a critical oil transit chokepoint, directly impacting energy markets and supply chain stability.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
+      "publishedAtSgt": "2026-10-30T15:12:49+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
+    },
+    {
+      "articleId": "ff0a20fe3ba477b3b4199fc76fab9db265fb16a48e3e345fdd76f0648cc065af",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "The Bank of Japan held its benchmark interest rates steady at 1.25% while officially declaring that underlying inflation is now consistent with its 2% target for the first time since 2013.",
+      "assetClasses": [
+        "Currencies",
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "The holding of interest rates at 1.25% alongside the validation of the 2% inflation target signals stable monetary conditions in Japan, impacting Japanese Yen valuations and domestic fixed income or equity allocations.",
+      "reasoning": "Classified as ECONOMIC because it concerns central bank policy decisions and national inflation metrics. It is of HIGH importance due to its implications for global currency markets and Japanese monetary policy normalization.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
+      "publishedAtSgt": "2026-10-30T12:19:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
+    },
+    {
+      "articleId": "22272d4783f3d675e430cd47836cd3aaf32ad6c14c9439e0ec3a6651ffc36294",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "Microsoft plans to raise $25 billion in debt to fund general corporate purposes, including working capital, capital expenditures, stock repurchases, acquisitions, and debt repayment, joining other tech giants in tapping the bond market for AI infrastructure.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Cloud Computing"
+      ],
+      "investorImpact": "Massive debt issuances by mega-cap technology firms like Microsoft for AI infrastructure impact corporate bond market supply and reflect the massive capital expenditure cycles required for artificial intelligence expansion.",
+      "reasoning": "Classified as MARKET because it covers a major corporate debt offering by a mega-cap company for capital expenditures and AI buildout, which has broad market and fixed income implications.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+      "publishedAtSgt": "2026-10-30T08:38:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-10-30T09:59:13+08:00"
+    },
+    {
+      "articleId": "f351f6d4e13f58cd284ab247578d3c5ade134a35011ed58e9b250be924e5f38d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "FedEx Freight delivered a quarterly beat, causing shares to rise about 3% in extended trading following a period of struggles related to spin-off adjustments and elevated fuel prices.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Transportation",
+        "Industrials"
+      ],
+      "investorImpact": "The quarterly beat and positive share price reaction provide short-term relief for investors holding the spun-off stock, though industry-wide pressures like elevated fuel prices remain.",
+      "reasoning": "The article discusses quarterly earnings performance and share price movement for a specific freight company, making it relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "FedEx Freight delivers a much-needed quarterly beat. Where we stand on shares now",
+      "publishedAtSgt": "2026-10-30T08:29:50+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/29/fedex-freight-delivers-a-much-needed-quarterly-beat-where-we-stand-on-shares-now.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-30T09:59:13+08:00"
+    },
+    {
+      "articleId": "e8d9781e5c3712773e56534e32d9d42b3ff20c148baae95e4ac38d78cdeba685",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Stocks fell on Thursday, ending a three-day winning streak amid corporate earnings digest. Jim Cramer noted that Wall Street is improperly punishing certain tech stocks alongside disappointing peers due to guilt by association, creating potential buying opportunities.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should look past broad sector sell-offs driven by guilt-by-association earnings reactions to identify fundamentally strong tech companies that may be mispriced.",
+      "reasoning": "Classified as MARKET due to discussion of stock market moves and investor sentiment regarding earnings. Sentiment is MIXED as stocks fell overall, but commentary highlights underlying buying opportunities. Fund monitoring relevance is true as it offers equity market perspective.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer says Wall Street is punishing the wrong tech stocks",
+      "publishedAtSgt": "2026-10-30T07:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/jim-cramer-earnings-guilt-by-association.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-30T09:59:13+08:00"
+    },
+    {
+      "articleId": "925e230537e23712a265ea6870668300c79bc5bf3e1bb82125ab0132dda74176",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Coinbase reported a 66% surge in net income for the third quarter, driven largely by investment gains in its cryptocurrency portfolio amid a resurgence in the digital asset market.",
+      "assetClasses": [
+        "Cryptocurrency",
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "Highlights the direct correlation between digital asset market recoveries and corporate profitability for crypto exchange platforms, signaling positive momentum for sector-related equities.",
+      "reasoning": "Classified as MARKET due to corporate earnings and digital asset market performance. Sentiment is POSITIVE based on the 66% net income surge. Significance is MEDIUM as it reflects the health of the crypto exchange sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains",
+      "publishedAtSgt": "2026-10-30T05:38:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
+    },
     {
       "articleId": "61dd16247e0c2378ef03fceb018c0407f154d61c393dcdcc115546d8f9f1e226",
       "relevant": true,
@@ -569,6 +901,183 @@
       "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
       "publishedAtSgt": "2026-10-29T21:13:08+08:00",
       "url": "https://www.cnbc.com/investingclub/2026/10/29/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
+    },
+    {
+      "articleId": "fb1144f10659352581d9f01b9c104266143a447aee7decbfd8932eb3a8ab9b36",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "The artificial intelligence build-out faced a hurdle as Google and Microsoft refrained from raising their capital expenditure forecasts, leading to a drop in shares of neoclouds and infrastructure spenders like Oracle, though Microsoft's overall earnings beat expectations driven by strong Azure cloud growth.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Cloud Computing"
+      ],
+      "investorImpact": "Investors should note that while AI infrastructure spending growth may face short-term pauses or adjustments from major tech players, cloud revenue drivers like Azure remain robust, creating nuanced trading conditions for tech equities and related infrastructure providers.",
+      "reasoning": "Classified as MARKET due to direct stock price reactions and corporate capex strategy impacts on major technology and cloud infrastructure firms. Significance is HIGH because it addresses sentiment shifts around the massive AI capital expenditure cycle.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI build-out hits snag as Google and Microsoft put off raising capex forecasts",
+      "publishedAtSgt": "2026-10-29T20:10:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
+    },
+    {
+      "articleId": "6a27cd47a5ec5ba9136d0d14bde0f2f7cc71edbece2e04e76c578e555d0fb3e0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Alphabet's earnings miss reflects concerns that artificial intelligence is negatively impacting core search, YouTube, and subscription revenue, despite strong search query growth.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Investors may become increasingly concerned about the monetization and margin pressure that heavy AI capital expenditures and shifting search dynamics place on major technology companies like Alphabet.",
+      "reasoning": "Classified as MARKET due to direct earnings and stock performance implications, with NEGATIVE sentiment driven by the profit miss and fears of AI disruption to traditional search revenue models.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
+      "publishedAtSgt": "2026-10-29T20:09:47+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
+    },
+    {
+      "articleId": "84776faa2babe4df74478ed1c39a087e0b23750ad150d11f10a8cb36f3b5a219",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Prediction market platform Kalshi saw its valuation jump to $40 billion in its latest funding round, up from $22 billion in May. The company plans to use the new capital to develop leveraged event contracts, perpetual futures tied to individual stocks, and markets to trade compute prices.",
+      "assetClasses": [
+        "Private Equity",
+        "Derivatives"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "FinTech"
+      ],
+      "investorImpact": "The massive valuation growth highlights strong investor appetite and rapid expansion in the prediction markets and alternative derivatives sector, creating potential new avenues for leveraged trading and event-based hedging.",
+      "reasoning": "The article details a significant private market funding round and valuation surge for a prominent FinTech and prediction market player, which is highly relevant for market intelligence and venture/growth monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Kalshi valuation jumps to $40 billion in latest funding round",
+      "publishedAtSgt": "2026-10-29T20:05:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/kalshi-40-billion-valuation-funding-round.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
+    },
+    {
+      "articleId": "51e7d846cc9c5da7bad2329031fca35c3c6f65fbe68071d38552e019fe01e35d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Senator Elizabeth Warren has urged the Department of Justice to launch a criminal investigation into Bank of America and its executives following the bank's admission of willfully violating federal anti-money-laundering laws and facing over $1.2 billion in penalties.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "The call for a criminal probe introduces regulatory and legal overhang for Bank of America, potentially weighing on its stock and raising compliance cost concerns across the broader banking sector.",
+      "reasoning": "Classified as MARKET due to direct implications for a major financial institution and potential regulatory fallout for the banking sector, with a NEGATIVE sentiment due to criminal probe calls.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Warren urges DOJ criminal probe of Bank of America over anti-money-laundering violations",
+      "publishedAtSgt": "2026-10-29T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/warren-bank-of-america-criminal-probe.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
+    },
+    {
+      "articleId": "31859c37563e6555d874c7b7dbd2616252c9a901bf50b00e562333b9ce8c13ee",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Alphabet shares are facing a record post-earnings loss, dragging down Nasdaq futures due to competitive pressures from AI chat and agents on Google's Search. Additionally, a lighter capex number from Microsoft has weighed on neocloud stocks, illustrating that the Magnificent Seven no longer trade as a monolith.",
+      "assetClasses": [
+        "Equities",
+        "Futures"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Investors face increased divergence within mega-cap tech stocks, requiring a more discerning approach to the AI trade as monolithic sector momentum breaks down.",
+      "reasoning": "The article highlights significant market impact from major tech earnings and changing sector dynamics, directly affecting index futures and large-cap equity valuations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Alphabet drags on Nasdaq futures as the stock faces a record post-earnings loss",
+      "publishedAtSgt": "2026-10-29T19:41:06+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/alphabet-nasdaq-futures-record-post-earnings-loss.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T22:25:07+08:00"
+    },
+    {
+      "articleId": "7776220b878127a8257502d3488736378bbf20ccf09c5e92c5a6b5b3047284c6",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Merck surpassed third-quarter earnings estimates and raised its adjusted profit outlook, driven by strong sales of its flagship immunotherapy drug Keytruda and its newer injectable formulation, Keytruda Qlex, alongside growth in other newer products.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Pharmaceuticals"
+      ],
+      "investorImpact": "The positive earnings beat and raised full-year profit outlook highlight robust fundamentals for Merck and signal strong performance in the pharmaceutical sector, potentially lifting investor sentiment toward healthcare equities.",
+      "reasoning": "The article reports strong quarterly financial results and an upgraded profit outlook for a major pharmaceutical company, making it highly relevant for market monitoring and healthcare sector analysis.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength",
+      "publishedAtSgt": "2026-10-29T19:24:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html",
       "collectorCategory": "MARKET",
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
