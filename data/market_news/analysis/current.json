@@ -1,10 +1,218 @@
 {
-  "generatedAtSgt": "2026-10-30T19:10:05.560715+08:00",
+  "generatedAtSgt": "2026-10-31T02:54:58.575918+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 255,
+  "articleCount": 251,
   "analyses": [
+    {
+      "articleId": "953e398e33f495f99f9dfafd27d416000416578e86ed22ad6053c244de540ee0",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Amid war between Israel and Iran, Tehran launched attacks on commercial shipping in the Strait of Hormuz, causing a massive initial drop in crude oil exports from 16 million barrels per day down to 1.8 million barrels per day before tankers began defying the escalation to keep oil flowing.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Iran",
+        "Middle East",
+        "Strait of Hormuz",
+        "Israel"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas",
+        "Transportation"
+      ],
+      "investorImpact": "Significant disruption to the Strait of Hormuz directly threatens global crude oil supply chains, posing risks of volatile energy prices and higher transportation costs for energy and shipping sectors.",
+      "reasoning": "Classified as GEOPOLITICAL because it covers military conflict and shipping attacks in a critical global oil chokepoint. It is important and relevant for fund monitoring due to its direct and immediate impact on global energy markets and commodity pricing.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+      "publishedAtSgt": "2026-10-31T02:28:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 72,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-31T02:38:49+08:00"
+    },
+    {
+      "articleId": "9f37876b6f97acb3efe6dbeba5c90d4b30d8182f2ef988c401e2fa116704634d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Market professionals are voicing concerns over the artificial intelligence trade following a rough week for tech sector data points, leading to discussions about taking profits, while options signals show nuanced sentiment regarding big tech versus commercial AI prospects.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should reassess their exposure to AI-related mega-cap technology stocks and consider whether taking profits is appropriate given rising volatility and changing market sentiment.",
+      "reasoning": "The article discusses significant market reactions and profit-taking considerations within the major AI sector, directly impacting equity portfolios and asset allocation strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The AI investing story had a rough week. It may be time to take profits while you still can",
+      "publishedAtSgt": "2026-10-31T01:22:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/ai-stocks-selloff-ai-spending-returns.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T02:38:51+08:00"
+    },
+    {
+      "articleId": "652929bc8e1563796f0438b6af6bf78d5d63d53c557d2ad19943e7d212b6c94e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "The Treasury Department has announced a new Series I bond rate of 5.51% for the next six months through April 2027, following a period where rates fluctuated amid changing inflation trends.",
+      "assetClasses": [
+        "Fixed Income",
+        "Government Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Government"
+      ],
+      "investorImpact": "The updated Series I bond rate provides investors with a risk-free yield benchmark for short-term allocation decisions, potentially attracting capital back into government-backed inflation-protected assets as rates adjust.",
+      "reasoning": "The article announces a major sovereign yield rate change directly relevant to fixed income investors and macroeconomic interest rate tracking, justifying a MARKET category and MEDIUM importance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+      "publishedAtSgt": "2026-10-31T01:15:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T02:38:48+08:00"
+    },
+    {
+      "articleId": "ad5bcc0da6d54b002668c499d66eef56a3b5fa7d7a7379b3e05ca2f64dfc6d15",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "LOW",
+      "summary": "Jim Cramer discusses three stocks to buy, highlights Starbucks for higher growth, and explains why he is holding onto Intel despite a stock price plunge.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Technology"
+      ],
+      "investorImpact": "Retail investor commentary on specific stocks like Starbucks and Intel may influence short-term retail sentiment, but has limited impact on institutional portfolio strategy.",
+      "reasoning": "The article is classified as MARKET since it discusses specific stock picks and market commentary from a media personality, but its overall importance is low for systematic fund monitoring.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Jim Cramer reveals 3 stocks to buy — plus, why he is not selling the Intel plunge",
+      "publishedAtSgt": "2026-10-30T23:49:19+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/30/cramer-sees-3-stocks-to-buy-not-selling-the-intel-plunge.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
+    {
+      "articleId": "6f77506e805db363800f3908f6f02dc92167c059fbb1ba21815669bbabcddbb2",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "Elon Musk and Mark Zuckerberg followed a directive from President Trump to rebrand artificial intelligence as 'super intelligence' in corporate earnings calls and divisions, while other tech leaders did not.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "The rebranding of AI terminology by certain tech executives is primarily a political and public relations move and has negligible direct impact on the underlying fundamentals, valuations, or financial performance of the affected tech companies.",
+      "reasoning": "The article discusses corporate terminology changes following political directives. While it touches on major tech companies, it does not provide material financial, operational, or market-moving data relevant to fund management, making its fund monitoring relevance low.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
+      "publishedAtSgt": "2026-10-30T23:14:27+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
+    {
+      "articleId": "b749a345234f458a6787007d433615e99737e8bd33f7bb58a2ccdf1e98a92b0c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "The Swiss National Bank reported a bumper third-quarter profit of 19.1 billion Swiss francs ($23.3 billion), driven by gains on gold and foreign currency holdings, lifting its year-to-date profit to 44.2 billion francs.",
+      "assetClasses": [
+        "Currencies",
+        "Commodities"
+      ],
+      "geographies": [
+        "Switzerland"
+      ],
+      "sectors": [
+        "Financials",
+        "Central Banking"
+      ],
+      "investorImpact": "The strong financial performance of the Swiss National Bank highlights the positive valuation impacts on gold and foreign asset reserves, signaling robust central bank health and potential government payouts.",
+      "reasoning": "Classified as MARKET due to the reporting of financial results and investment gains by a major central bank. Significance is medium as it reflects broad asset performance in gold and foreign currencies without directly altering monetary policy.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Swiss central bank posts bumper $23 billion profit thanks to gold, foreign assets",
+      "publishedAtSgt": "2026-10-30T23:07:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/swiss-national-bank-q3-profit-gold-foreign-asset.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
+    {
+      "articleId": "76a141301a533aec2404356b7e10d1011100d164c2faf925cd5437d7a59ed25c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "Anthropic's IPO prospectus filing reveals significant details about founder equity holdings, an anticipated valuation exceeding $1 trillion, and projected fluctuations in operating margins driven by substantial incremental compute expenses.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors monitoring the AI sector and upcoming mega-cap tech IPOs must assess Anthropic's cost structure, specifically compute expenses and margin fluctuations, alongside insider equity distribution.",
+      "reasoning": "The article discusses major market implications of an upcoming high-profile IPO in the artificial intelligence sector, directly impacting market sentiment, technology sector valuations, and venture capital benchmarks.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The big questions remaining after Anthropic’s blockbuster IPO prospectus",
+      "publishedAtSgt": "2026-10-30T20:27:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
     {
       "articleId": "f6a7012309d3ff79bd1708913a1076f00a12c192126bace86a26a359ea023695",
       "relevant": true,
@@ -1082,6 +1290,69 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-10-29T22:25:06+08:00"
+    },
+    {
+      "articleId": "ce6c52c8c7d904875275878b13b314534293c8e2a96f04364cf36755a0e18d04",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "An examination of the Bank of North Dakota, a state-owned financial institution operating for over a century that provides services such as low-interest student loans and local investments where private banks do not compete.",
+      "assetClasses": [
+        "Fixed Income",
+        "Loans"
+      ],
+      "geographies": [
+        "United States",
+        "North Dakota"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "The article discusses a unique state-owned banking model that offers localized lending and low-interest student loans, but it has limited broad market or systemic investor impact beyond localized banking policy.",
+      "reasoning": "Classified as ECONOMIC because it discusses state-level banking structures and public financial institutions, but rated LOW importance and false for fund monitoring relevance as it is a niche feature on a long-standing state bank with no direct actionable market impact.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "It's a 'socialist' bank — and North Dakota Republicans love it",
+      "publishedAtSgt": "2026-10-29T18:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
+    },
+    {
+      "articleId": "0fd0bd6277c30af458528f1f9da6a35ffeb1ad1e20932d4aab0519742916f0c0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Shell nearly doubled its quarterly profit year-on-year as refining margins soared to record highs. Its London-listed shares rose about 3% to hit an all-time high, while net debt was reduced despite completing a $16.4 billion acquisition of Canadian energy firm ARC.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "Global",
+        "Canada",
+        "United Kingdom"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Strong earnings and record refining margins support positive sentiment for Shell and the broader energy sector, driving equity valuations higher and highlighting robust cash generation despite major acquisitions.",
+      "reasoning": "The article details significant positive earnings performance and strategic financial management by a major global energy company, making it highly relevant for market monitoring and sector analysis.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high",
+      "publishedAtSgt": "2026-10-29T17:36:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/shell-earnings-oil-q3.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-29T22:25:07+08:00"
     },
     {
       "articleId": "ce4536b28d7c9572df5e504f1a73d412701b3718a5620f1d409af272775ec089",
@@ -7315,408 +7586,6 @@
       "collectorRelevanceScore": 71,
       "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
       "collectedAtSgt": "2026-10-18T05:29:36+08:00"
-    },
-    {
-      "articleId": "b58b29eb11a0fbb4cf9d508a12734702edee2dba9d4ba31d0c81b197cc872ac1",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "The stock market experienced turbulence due to plunging AI stocks and hotter-than-expected inflation data. Rising inflation and oil prices threaten to increase borrowing costs, complicating AI infrastructure investments and driving the need for portfolio diversification.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors",
-        "Energy"
-      ],
-      "investorImpact": "Investors face headwinds from sliding AI equities and sticky inflation, necessitating a shift toward portfolio diversification and careful assessment of borrowing costs impacting capital-intensive tech projects.",
-      "reasoning": "Classified as MARKET due to direct commentary on stock market sell-offs, AI sector declines, and inflation impacts on asset pricing. Sentiment is negative given the plunge in AI stocks and inflationary pressures.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
-      "publishedAtSgt": "2026-10-17T23:42:34+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-10-18T00:28:17+08:00"
-    },
-    {
-      "articleId": "4116a132df5a597f067b3c2ada5ab883fd19b24269e94f8d52e2e76436aa972b",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEUTRAL",
-      "importance": "MEDIUM",
-      "summary": "Investors are encouraged to reconsider traditional bond allocations and incorporate managed futures strategies, historically found in hedge funds, to better counterbalance stock volatility driven by debt and artificial intelligence market concerns.",
-      "assetClasses": [
-        "Bonds",
-        "Alternatives",
-        "Managed Futures",
-        "Equities"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Financials",
-        "Hedge Funds",
-        "Asset Management"
-      ],
-      "investorImpact": "Investors seeking portfolio diversification away from traditional fixed income may find alternative strategies like managed futures useful for hedging against equity volatility and rising debt concerns.",
-      "reasoning": "The article discusses asset allocation shifts from bonds to alternative strategies like managed futures to hedge against portfolio volatility, making it relevant for market strategy and fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
-      "publishedAtSgt": "2026-10-17T23:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/17/dead-money-for-a-decade-hedge-fund-approach-that-may-trump-bonds.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-18T00:28:17+08:00"
-    },
-    {
-      "articleId": "70ca792725ca83e6393101854868850201c248fc9b17e8df7339e2ecb2c2ef85",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Institutional and individual investors are increasingly purchasing U.S. timberland as a long-term alternative real asset investment, driven by trends including individuals priced out of the housing market seeking equity building methods.",
-      "assetClasses": [
-        "Real Estate",
-        "Alternative Investments",
-        "Commodities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Real Estate",
-        "Timber and Forestry"
-      ],
-      "investorImpact": "Provides alternative real asset exposure and inflation hedging opportunities for institutional and individual portfolios, reflecting growing demand for non-traditional real estate investments.",
-      "reasoning": "Classified as MARKET because it discusses emerging trends in asset allocation and investor demand for timberland. It is relevant for fund monitoring as it highlights alternative real asset trends.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Investors are buying up vast tracts of timberland across U.S. in one of market's longest-term bets",
-      "publishedAtSgt": "2026-10-17T21:47:59+08:00",
-      "url": "https://www.cnbc.com/2026/10/17/timberland-investing-returns-risk.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-18T00:28:17+08:00"
-    },
-    {
-      "articleId": "7cf62bb6a58e9c76d5b3d810d3a9fffa48190f6683bec99bde8db7880e93be89",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Berkshire Hathaway shares bucked a broader market sell-off and rallied to their highest level since Warren Buffett announced plans to step down as CEO, supported by a rotation of investors moving out of high-flying AI and tech stocks into traditional economy names.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials",
-        "Conglomerates"
-      ],
-      "investorImpact": "Investors may note a broader market sector rotation away from technology and AI into traditional value and old economy stocks, highlighting Berkshire Hathaway as a beneficiary of this shift.",
-      "reasoning": "Classified as MARKET due to the discussion of stock price movements and sector rotation. Sentiment is POSITIVE because Berkshire shares rallied amidst a market sell-off. Importance is MEDIUM as it highlights a notable market trend affecting a major conglomerate.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Berkshire shares buck market sell-off, rally to highest since Buffett said he would step down as CEO",
-      "publishedAtSgt": "2026-10-17T20:46:21+08:00",
-      "url": "https://www.cnbc.com/2026/10/17/berkshire-rally-to-highest-since-buffett-announcement.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-18T00:28:16+08:00"
-    },
-    {
-      "articleId": "0c6abbda7fa2f4fc7e57541a2c7e15786d0d7ce7b2935f7a261b53a33aac7fa3",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEUTRAL",
-      "importance": "HIGH",
-      "summary": "President Trump waived broad new Russia sanctions and tariffs mandated by the Graham Act, citing national interest, which otherwise would have targeted Russia's economy and imposed secondary tariffs on countries like China and India purchasing Russian energy.",
-      "assetClasses": [
-        "Commodities",
-        "Equities",
-        "Foreign Exchange"
-      ],
-      "geographies": [
-        "United States",
-        "Russia",
-        "China",
-        "India"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil and Gas"
-      ],
-      "investorImpact": "The waiver averts severe potential secondary tariffs and supply disruptions for major energy importers like China and India, reducing immediate upside pressure on global crude prices and lowering geopolitical trade tensions for multinational equities.",
-      "reasoning": "The decision directly impacts international trade policies, geopolitical relations, and global energy markets by staying punitive tariffs and sanctions, making it highly relevant for geopolitical and macroeconomic risk monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Trump waives broad new Russia sanctions and tariffs under Graham Act, citing national interest",
-      "publishedAtSgt": "2026-10-17T18:20:44+08:00",
-      "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 72,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-17T19:39:20+08:00"
-    },
-    {
-      "articleId": "98e99f82e68aca65256e2a9b2d1ddd3af2a95d24b6c05c33582e0ad64cbdc4c7",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "The article discusses recent pressures on corporate credit quality and funding costs amid persistent above-target inflation and growing investor concern over heavy AI-related capital expenditures, highlighting developments in the corporate bond and credit markets.",
-      "assetClasses": [
-        "Corporate Bonds",
-        "Equities",
-        "Credit"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Financials"
-      ],
-      "investorImpact": "Investors should monitor rising corporate debt costs and credit market signals, as pressures on credit quality could impact valuations across both equity and fixed-income portfolios exposed to the AI infrastructure buildout.",
-      "reasoning": "The article is classified under MARKET as it covers corporate debt markets, funding costs, and credit quality concerns impacting tech investments. Sentiment is negative due to wobbly AI trades and rising funding costs, and it is relevant for fund monitoring as it addresses macro-credit conditions affecting tech sector valuations.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Why did CoreWeave stock get crushed this week? Look to this corner of the debt market for clues",
-      "publishedAtSgt": "2026-10-17T04:33:55+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/16/coreweave-credit-default-swaps.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 59,
-      "collectorRelevanceReason": "supporting_market_description",
-      "collectedAtSgt": "2026-10-17T06:06:59+08:00"
-    },
-    {
-      "articleId": "cf8fdc7d21098f3ab1bbb97f97ffad790cfcf15df8c515dd2f91554e9a9c763f",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Crude oil prices surged to touch $110 as geopolitical tensions escalated significantly, with Iran intensifying attacks in the Strait of Hormuz, Houthi militants targeting Saudi Arabia, Aramco facilities coming under attack, and Ukraine continuing strikes on Russian refineries.",
-      "assetClasses": [
-        "Commodities",
-        "Energy"
-      ],
-      "geographies": [
-        "Middle East",
-        "Iran",
-        "Saudi Arabia",
-        "Ukraine",
-        "Russia"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil and Gas"
-      ],
-      "investorImpact": "The spike in oil prices toward $110 driven by supply disruptions and security threats in key energy corridors will increase inflationary pressures, elevate operational costs for transport and manufacturing sectors, and cause volatility in energy-related equities.",
-      "reasoning": "The article details major geopolitical escalations directly disrupting global energy supply chains and pushing crude oil prices sharply higher, making it critical for market and fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
-      "publishedAtSgt": "2026-10-17T04:02:21+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-17T06:06:58+08:00"
-    },
-    {
-      "articleId": "89307a9783831aab94a8368c8245321448198ccaefcba12ec7b3efb6ab7e850c",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "Research shows that inflation-adjusted debt payments for Americans have risen nearly 15% over a three-year period, growing about eight times faster than household incomes, which grew less than 2%, leaving less room for spending or savings.",
-      "assetClasses": [
-        "Fixed Income",
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Consumer Discretionary",
-        "Financials"
-      ],
-      "investorImpact": "Rising debt service burdens relative to stagnant real income growth signal potential headwinds for consumer spending, impacting consumer discretionary sectors and potentially altering credit risk profiles for financial institutions.",
-      "reasoning": "The article is classified under ECONOMIC because it discusses macro-level consumer debt trends and real wage growth. Sentiment is NEGATIVE due to debt payments growing much faster than income. Importance is MEDIUM as it highlights consumer health pressures relevant to retail and credit markets.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Debt is eating up a bigger chunk of your raise, research shows",
-      "publishedAtSgt": "2026-10-17T03:47:46+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-17T06:06:59+08:00"
-    },
-    {
-      "articleId": "579fba566a81b66d264096610bafdf3f4dd0c52fabf331a8776cae500e5f9687",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "CoreWeave experienced significant stock volatility with a 27.5% drop followed by a 17% rebound, driven by CEO comments regarding the company's aspiration to achieve investment-grade status to borrow unlimited sums alongside anticipated massive future debt.",
-      "assetClasses": [
-        "Equities",
-        "Debt"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology",
-        "Financials"
-      ],
-      "investorImpact": "Investors face heightened volatility and credit risks regarding high-growth tech companies relying heavily on substantial future debt financing.",
-      "reasoning": "Classified under MARKET due to the equity price volatility and debt-related investor concerns. Importance is HIGH because of the massive scale of anticipated debt and significant market swings affecting investor sentiment.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
-      "publishedAtSgt": "2026-10-17T02:24:35+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-10-17T06:06:58+08:00"
-    },
-    {
-      "articleId": "d6fbc59bfaeff5fd3dc85952112477fc70988f98bab90c610e8bfca9843fdeec",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "Prediction market odds for a Tesla-SpaceX merger by early 2027 have risen above 50% following Tesla's Roadster showcase utilizing SpaceX technology. Analysts suggest a potential AI vertical integration involving autonomous driving and AI assets, while Evercore ISI raised its SpaceX price target.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Automotive",
-        "Technology",
-        "Aerospace"
-      ],
-      "investorImpact": "Investors in Tesla and SpaceX face potential significant structural changes if merger speculation materializes, impacting valuations across automotive, aerospace, and AI sectors.",
-      "reasoning": "Classified as MARKET due to the direct impact of prediction market odds, analyst price target adjustments, and potential corporate consolidation between major tech and automotive entities.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
-      "publishedAtSgt": "2026-10-17T01:02:40+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-17T01:28:04+08:00"
-    },
-    {
-      "articleId": "cce5b2c53bf7952170945044a92f75fb2ddfd78c2fefd60c0d7b3aee3d215fb7",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "Director of National Intelligence Jay Clayton stated that foreign espionage attempts, such as the OpenAI Saudi national bugging case, highlight threats to U.S. leadership in artificial intelligence and amplify cybersecurity risks to critical infrastructure.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States",
-        "Saudi Arabia"
-      ],
-      "sectors": [
-        "Technology",
-        "Cybersecurity",
-        "Defense"
-      ],
-      "investorImpact": "Investors in artificial intelligence and technology sectors should monitor rising geopolitical and cybersecurity risks, which could lead to tighter regulatory scrutiny and potential restrictions on international talent or partnerships.",
-      "reasoning": "Classified as GEOPOLITICAL due to national security concerns and foreign espionage risks affecting U.S. AI leadership, impacting fund monitoring regarding tech sector regulations and cybersecurity.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
-      "publishedAtSgt": "2026-10-17T00:27:44+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 52,
-      "collectorRelevanceReason": "supporting_technology_description",
-      "collectedAtSgt": "2026-10-17T01:28:04+08:00"
-    },
-    {
-      "articleId": "2444de55f0acc74028a6656931e7c562f2e1d45f53f507fbff4303c3d46fd1c2",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Charles Schwab reported a significant $60.7 billion figure related to tax-aware long/short strategies utilized by wealthy investors, coinciding with a 14% quarter-over-quarter increase in margin loan balances to $187.9 billion during its quarterly earnings release.",
-      "assetClasses": [
-        "Equities",
-        "Loans"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "Highlights strong demand and capital inflows into tax-aware investment strategies and margin loan usage among wealthy investors, offering insights into wealth management trends and brokerage activity.",
-      "reasoning": "Classified as MARKET because it discusses earnings details, margin loan growth, and investment strategy trends from a major brokerage firm affecting wealthy investors.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
-      "publishedAtSgt": "2026-10-17T00:21:14+08:00",
-      "url": "https://www.cnbc.com/2026/10/16/tax-strategies-capital-gains-wealthy-investors-schwab.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-17T01:28:04+08:00"
-    },
-    {
-      "articleId": "aefb38e0415a42fedf14dd31ebe49da7e207224135e7867fcc3ed4a9f46fe285",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "Stocks are mixed amid an ongoing market rotation out of AI names and into defensive sectors, with upcoming earnings reports from Capital One and Meta anticipated next week.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Financials",
-        "Defensives"
-      ],
-      "investorImpact": "Investors should monitor the ongoing market rotation from growth and AI stocks into defensives, while preparing for upcoming earnings reports from major firms like Capital One and Meta.",
-      "reasoning": "The article discusses current stock market conditions, sector rotation trends, and upcoming earnings previews, making it relevant for market and sector monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "What we want to see when Capital One and Meta report earnings next week",
-      "publishedAtSgt": "2026-10-17T00:06:29+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/16/what-we-want-to-see-when-capital-one-and-meta-report-earnings-next-week-.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-17T01:28:05+08:00"
     }
   ]
 }
