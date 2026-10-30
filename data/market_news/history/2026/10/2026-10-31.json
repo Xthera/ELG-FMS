@@ -5,6 +5,68 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "7d095a8dc895fea57e325a489beff8c3b3af0e7b2df8174677819f82a7dc4764",
+      "source": "CNBC",
+      "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
+      "publishedAtSgt": "2026-10-31T06:52:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors looking to diversify beyond the struggling artificial intelligence trade should consider consumer staples stocks, CNBC's Jim Cramer said Friday. Kimberly-Clark shares gained nearly 11% in October, but the stock still trades at less than 15 times earnings, with a 4.7% dividend yield. Shares of Procter & Gamble rallied 11% in October, though Cramer prefers Kimberly-Clark's lower valuation and higher dividend yield.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
+    {
+      "id": "2cfd56acc914ddde217c8cd736987be67b66884353ec5e61165f591ec74e2fb4",
+      "source": "CNBC",
+      "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+      "publishedAtSgt": "2026-10-31T06:42:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Meta's outlook has been revised downward by S&P Global Ratings on concerns surrounding cash flow and AI spending. Anything below BBB falls into the junk bond category. Investors sent Meta shares down 7% following the report despite a revenue beat.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
+    {
+      "id": "7b45471800956f0b1535b67e9d8eb2a67394822061627dafd06f64b221655d17",
+      "source": "CNBC",
+      "title": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
+      "publishedAtSgt": "2026-10-31T06:17:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks endured a turbulent week as renewed concerns about the artificial intelligence trade weighed on technology shares. He warned that growing political opposition to the facilities could delay construction and hurt companies whose growth depends heavily on AI infrastructure spending. Cramer said both could benefit from renewed investor enthusiasm for pharmaceutical stocks.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
+    {
+      "id": "99de5f14798396ba6d81405b9ed5c780a4e671693fa92377fac856d09d856b7b",
+      "source": "CNBC",
+      "title": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
+      "publishedAtSgt": "2026-10-31T02:55:44+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks are sharply lower on the last trading day of a rough month of October, with tech stocks under severe pressure as the market continues to push back on AI-related names. The declines in Amazon and Microsoft were less warranted as Amazon CEO Andy Jassy outlined a bullish multiyear outlook for Amazon Web Services, with operating margins at their highest in company history — and Microsoft showed that Azure cloud revenue growth continued to accelerate even as the company didn't spend all its...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
+    {
       "id": "953e398e33f495f99f9dfafd27d416000416578e86ed22ad6053c244de540ee0",
       "source": "CNBC",
       "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
@@ -51,6 +113,6 @@
       "collectedAtSgt": "2026-10-31T02:38:48+08:00"
     }
   ],
-  "articleCount": 3,
-  "updatedAtSgt": "2026-10-31T02:38:51+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-10-31T07:00:26+08:00"
 }
