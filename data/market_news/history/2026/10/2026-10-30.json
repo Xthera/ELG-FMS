@@ -5,6 +5,117 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "f6a7012309d3ff79bd1708913a1076f00a12c192126bace86a26a359ea023695",
+      "source": "CNBC",
+      "title": "Tech scare trade hits Nasdaq futures while crypto reels from its biggest-ever hack",
+      "publishedAtSgt": "2026-10-30T18:36:55+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/tech-trade-nasdaq-futures-crypto-hack.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "A double miss on both EPS and revenue overshadowed the fastest growth for AWS in five years. - The executive view: Intel CFO David Zisner said \"we see the PC slowdown continuing at least through the first half of next year.\" - The backdrop: Intel's stock has been on an upward tear, up about 150% so far this year prior to the earnings report, although it's down roughly 23% in October over growing concern over the size of the artificial intelligence buildout.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-30T18:54:08+08:00"
+    },
+    {
+      "id": "5cdb273489d96dbc15be2e03361d84aab315aeefad1adaa74ac047871b044f50",
+      "source": "CNBC",
+      "title": "Chevron beats earnings expectations as refining profits soar on high diesel fuel prices",
+      "publishedAtSgt": "2026-10-30T18:21:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Chevron shares are up about 2% in premarket trading. refineries processed record amounts of crude oil at just above 1 million barrels per day, as the facilities ran at 98% capacity. $61.6 billion expected Profits from Chevron's oil and gas production rose about 70% to $5.7 billion compared to $3.3 billion in the year-ago period.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
+    },
+    {
+      "id": "96622bc181767d61513b5583802144f6baa0a03ae65a8f32f1e737b00d55d849",
+      "source": "CNBC",
+      "title": "Amazon falls 7%, Intel plunges 25% in premarket trading, as pressure mounts after earnings",
+      "publishedAtSgt": "2026-10-30T17:16:27+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amazon and Intel shares were down in premarket trading on Friday after they reported September quarter numbers that disappointed investors, dragging Nasdaq futures down 2% and capping off a week of rough tech earnings. Chip stocks including Micron, Nvidia and Arm were lower in premarket trade in the U.S., while major European semiconductor names, including ASML, saw sharp declines. Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
+    },
+    {
+      "id": "08f59351064ab17dc18806391dec848c3a49d37e27b7469242f9056646e5f6bf",
+      "source": "CNBC",
+      "title": "BP’s third-quarter profit nearly quadruples to $8.5 billion as refining margins surge",
+      "publishedAtSgt": "2026-10-30T17:00:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/bp-earnings-oil-q3.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil major BP smashed third-quarter expectations on Friday, as volatile energy markets and high refining margins saw profits nearly quadruple year-on-year. \"These are dynamic times with volatility and disruption to trade flows continuing to define energy markets,\" BP CEO Meg O'Neill said in a statement.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
+    },
+    {
+      "id": "332edba92aa87a9b99ad2b3efeaf43ab5e0952d696c370f18b2a07b30fafd2cb",
+      "source": "CNBC",
+      "title": "Indian AI infrastructure firm reportedly seeks to raise $3 billion of debt to buy Nvidia's next-generation chips",
+      "publishedAtSgt": "2026-10-30T16:19:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/nvidia-india-ai-chips-computing.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "An artificial intelligence infrastructure firm in India is reportedly seeking to raise debt to fund the purchase of Nvidia's Rubin graphics processing units. AM Intelligence, a Hyderabad-based company, is planning to raise up to $3 billion through bond issues and bank loans to purchase Nvidia Corp's next-generation chips, Bloomberg reported on Friday.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T18:54:08+08:00"
+    },
+    {
+      "id": "1a0a2a125ec72012c341a537e08a3ada0accf4e9e98f51d820a235e33b3da604",
+      "source": "CNBC",
+      "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
+      "publishedAtSgt": "2026-10-30T15:12:49+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The UK Maritime Trade Operations agency reported a small boat attaching two explosive devices to a tanker about 25 nautical miles northeast of Khasab, Oman. The vital waterway carried about one-fifth of the world's energy supplies, and has seen traffic plummet to single-digit daily passings since the war started in late February.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
+    },
+    {
+      "id": "ff0a20fe3ba477b3b4199fc76fab9db265fb16a48e3e345fdd76f0648cc065af",
+      "source": "CNBC",
+      "title": "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
+      "publishedAtSgt": "2026-10-30T12:19:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The Bank of Japan declared that underlying inflation in the country was \"generally consistent\" with its target of 2%, the first time it has made that assessment since adopting the target in 2013. Before this, the BOJ used to say that underlying inflation has been \"approaching 2 percent.\" This comes as the central bank expectedly held rates at 1.25%, still at its highest level since 1995.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
+    },
+    {
       "id": "22272d4783f3d675e430cd47836cd3aaf32ad6c14c9439e0ec3a6651ffc36294",
       "source": "CNBC",
       "title": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
@@ -50,6 +161,21 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-30T09:59:13+08:00"
+    },
+    {
+      "id": "925e230537e23712a265ea6870668300c79bc5bf3e1bb82125ab0132dda74176",
+      "source": "CNBC",
+      "title": "Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains",
+      "publishedAtSgt": "2026-10-30T05:38:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Net income at the San Francisco-based platform surged thanks to the value of its volatile cryptocurrency investment portfolio, which can swing wildly even when the composition of the underlying holdings are little changed. The third quarter value of Coinbase's crypto investment portfolio climbed due to a resurgence in the digital asset market.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-30T18:54:07+08:00"
     },
     {
       "id": "61dd16247e0c2378ef03fceb018c0407f154d61c393dcdcc115546d8f9f1e226",
@@ -212,6 +338,6 @@
       "collectedAtSgt": "2026-10-30T05:11:21+08:00"
     }
   ],
-  "articleCount": 13,
-  "updatedAtSgt": "2026-10-30T09:59:13+08:00"
+  "articleCount": 21,
+  "updatedAtSgt": "2026-10-30T18:54:08+08:00"
 }
