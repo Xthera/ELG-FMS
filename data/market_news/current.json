@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-30T05:11:27+08:00",
+  "generatedAtSgt": "2026-10-30T09:59:13+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,53 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "22272d4783f3d675e430cd47836cd3aaf32ad6c14c9439e0ec3a6651ffc36294",
+      "source": "CNBC",
+      "title": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+      "publishedAtSgt": "2026-10-30T08:38:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "\"Microsoft intends to use the net proceeds from the offering for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt,\" according to a statement. Amazon and Alphabet have engaged the bond market to support infrastructure projects this year, and AI-focused cloud CoreWeave has also relied on the debt market to broaden its data center footprint.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T09:59:13+08:00"
+    },
+    {
+      "id": "f351f6d4e13f58cd284ab247578d3c5ade134a35011ed58e9b250be924e5f38d",
+      "source": "CNBC",
+      "title": "FedEx Freight delivers a much-needed quarterly beat. Where we stand on shares now",
+      "publishedAtSgt": "2026-10-30T08:29:50+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/29/fedex-freight-delivers-a-much-needed-quarterly-beat-where-we-stand-on-shares-now.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bottom line Shares rose about 3% in extended trading, a welcome market reaction considering how badly the stock has struggled. Anytime a stock is spun off, there can be an adjustment period as investors who received shares due to ownership in its former parent decide to dump it. Plus, elevated fuel prices have weighed on stocks across the transportation industry, complicating matters for FDXF shares.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T09:59:13+08:00"
+    },
+    {
+      "id": "e8d9781e5c3712773e56534e32d9d42b3ff20c148baae95e4ac38d78cdeba685",
+      "source": "CNBC",
+      "title": "Jim Cramer says Wall Street is punishing the wrong tech stocks",
+      "publishedAtSgt": "2026-10-30T07:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/jim-cramer-earnings-guilt-by-association.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks fell Thursday, snapping a three-day winning streak as investors digested a fresh wave of corporate earnings. Cramer argued that investors are too quick to sell stocks alongside peers that are disappointing, overlooking key differences between businesses and creating potential buying opportunities.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-30T09:59:13+08:00"
+    },
     {
       "id": "61dd16247e0c2378ef03fceb018c0407f154d61c393dcdcc115546d8f9f1e226",
       "source": "CNBC",
@@ -1545,54 +1592,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-27T05:02:56+08:00"
-    },
-    {
-      "id": "96865b3288d9003bb2f8538ace15a674e3d289066b30981439dd7739179639f0",
-      "source": "CNBC",
-      "title": "Brazilian stocks rocked as Lula wins presidential election, Bolsonaro reportedly refuses to concede",
-      "publishedAtSgt": "2026-10-26T22:09:38+08:00",
-      "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Brazilian stocks plunged following the unexpected victory, unwinding some of the rally from the first-round result three weeks earlier. ET, while trading on Brazil's stock exchange was halted by an automatic circuit breaker. \"The fiscal side has always been Brazil's Achilles heel, and a 7-8% budget deficit and 70% net debt-to-GDP ratio leave Brazil vulnerable in a global bond sell-off,\" Chris Turner, ING's head of EMEA and Latam research, said in a note.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
-    },
-    {
-      "id": "f69c8a2ea1e8aacc06d2a95db4bdcc57540d9f6afb41bc74db3d2ef8a8594254",
-      "source": "CNBC",
-      "title": "Meta announces $95 billion stock offering to fund AI expansion",
-      "publishedAtSgt": "2026-10-26T22:05:36+08:00",
-      "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Meta said Monday it is planning to raise a total of $95 billion to support its investments in artificial intelligence infrastructure and superintelligence. It plans to balance funding for these investments through a mix of operating cash flow, investment-grade debt, partnerships and equity capital. The decision to raise more money \"reflects the eye-watering levels of investment required to keep up in the AI arms race,\" Ben Wood, senior partner at CCS Insight, told CNBC.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-26T22:20:03+08:00"
-    },
-    {
-      "id": "78333aba42d03b2ffbc2a3932fb592e415f3ad0cce1e7f7ed00ebf184a80d41d",
-      "source": "CNBC",
-      "title": "Mortgage rates above 7% are the 'new normal'—here's why",
-      "publishedAtSgt": "2026-10-26T22:00:01+08:00",
-      "url": "https://www.cnbc.com/make-it/2026/10/26/mortgage-rates-above-7percent-are-the-new-normalheres-why.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "When inflation remains elevated, investors generally demand higher yields on long-term bonds to compensate for the declining purchasing power of the money they'll eventually be repaid. Inflation, as measured by the Fed's preferred PCE price index, hasn't been below the central bank's 2% target since February 2021.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
     }
   ]
 }

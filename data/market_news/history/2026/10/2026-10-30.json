@@ -5,6 +5,53 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "22272d4783f3d675e430cd47836cd3aaf32ad6c14c9439e0ec3a6651ffc36294",
+      "source": "CNBC",
+      "title": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+      "publishedAtSgt": "2026-10-30T08:38:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "\"Microsoft intends to use the net proceeds from the offering for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt,\" according to a statement. Amazon and Alphabet have engaged the bond market to support infrastructure projects this year, and AI-focused cloud CoreWeave has also relied on the debt market to broaden its data center footprint.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T09:59:13+08:00"
+    },
+    {
+      "id": "f351f6d4e13f58cd284ab247578d3c5ade134a35011ed58e9b250be924e5f38d",
+      "source": "CNBC",
+      "title": "FedEx Freight delivers a much-needed quarterly beat. Where we stand on shares now",
+      "publishedAtSgt": "2026-10-30T08:29:50+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/29/fedex-freight-delivers-a-much-needed-quarterly-beat-where-we-stand-on-shares-now.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bottom line Shares rose about 3% in extended trading, a welcome market reaction considering how badly the stock has struggled. Anytime a stock is spun off, there can be an adjustment period as investors who received shares due to ownership in its former parent decide to dump it. Plus, elevated fuel prices have weighed on stocks across the transportation industry, complicating matters for FDXF shares.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-30T09:59:13+08:00"
+    },
+    {
+      "id": "e8d9781e5c3712773e56534e32d9d42b3ff20c148baae95e4ac38d78cdeba685",
+      "source": "CNBC",
+      "title": "Jim Cramer says Wall Street is punishing the wrong tech stocks",
+      "publishedAtSgt": "2026-10-30T07:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/29/jim-cramer-earnings-guilt-by-association.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks fell Thursday, snapping a three-day winning streak as investors digested a fresh wave of corporate earnings. Cramer argued that investors are too quick to sell stocks alongside peers that are disappointing, overlooking key differences between businesses and creating potential buying opportunities.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-30T09:59:13+08:00"
+    },
+    {
       "id": "61dd16247e0c2378ef03fceb018c0407f154d61c393dcdcc115546d8f9f1e226",
       "source": "CNBC",
       "title": "Amazon AWS posts 39% revenue growth as cloud rivals also accelerate",
@@ -165,6 +212,6 @@
       "collectedAtSgt": "2026-10-30T05:11:21+08:00"
     }
   ],
-  "articleCount": 10,
-  "updatedAtSgt": "2026-10-30T05:11:22+08:00"
+  "articleCount": 13,
+  "updatedAtSgt": "2026-10-30T09:59:13+08:00"
 }
