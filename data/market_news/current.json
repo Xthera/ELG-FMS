@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-30T18:54:08+08:00",
+  "generatedAtSgt": "2026-10-31T02:38:56+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,116 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "953e398e33f495f99f9dfafd27d416000416578e86ed22ad6053c244de540ee0",
+      "source": "CNBC",
+      "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+      "publishedAtSgt": "2026-10-31T02:28:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "and Israel going to war with Iran, Tehran responded with a wave of attacks on commercial ships in the Strait of Hormuz to cut off one of the world's main sources of crude oil. Iran's campaign was initially successful, with crude exports plunging nearly 90% to 1.8 million barrels a day in March compared with 16 million bpd in February, according to data provided by Kpler.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:49+08:00"
+    },
+    {
+      "id": "9f37876b6f97acb3efe6dbeba5c90d4b30d8182f2ef988c401e2fa116704634d",
+      "source": "CNBC",
+      "title": "The AI investing story had a rough week. It may be time to take profits while you still can",
+      "publishedAtSgt": "2026-10-31T01:22:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/ai-stocks-selloff-ai-spending-returns.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Market professionals are sounding worried about the artificial intelligence trade after a big week of data points in the technology sector. Like traders, technology investors were also sounding down about the AI trade on Friday. There's another interesting signal coming from options, Davitt noted: While investors may be getting cold feet about the big tech companies associated with the AI trade writ large, they may also be gaining confidence about the commercial prospects of AI technology...",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:51+08:00"
+    },
+    {
+      "id": "652929bc8e1563796f0438b6af6bf78d5d63d53c557d2ad19943e7d212b6c94e",
+      "source": "CNBC",
+      "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+      "publishedAtSgt": "2026-10-31T01:15:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amid the post-pandemic inflation peak, the I bond rate hit a record high of 9.62% in May 2022, and investors poured millions into the government-backed, nearly risk-free asset. As inflation cooled and I bond rates fell, many short-term investors redeemed I bonds. But investors could return as inflation pushes I bond rates back up, experts say.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:48+08:00"
+    },
+    {
+      "id": "ad5bcc0da6d54b002668c499d66eef56a3b5fa7d7a7379b3e05ca2f64dfc6d15",
+      "source": "CNBC",
+      "title": "Jim Cramer reveals 3 stocks to buy — plus, why he is not selling the Intel plunge",
+      "publishedAtSgt": "2026-10-30T23:49:19+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/30/cramer-sees-3-stocks-to-buy-not-selling-the-intel-plunge.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Starbucks is the kind of stock that fits what we need right now, which is higher growth,\" Jim said. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
+    {
+      "id": "6f77506e805db363800f3908f6f02dc92167c059fbb1ba21815669bbabcddbb2",
+      "source": "CNBC",
+      "title": "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
+      "publishedAtSgt": "2026-10-30T23:14:27+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "At the time, he was working to ensure the growth of AI in the U.S. The president this week announced on Truth Social that he's banning the use of the terms \"AI\" and \"artificial intelligence\" in \"all relevant documents\" and \"everything else.\" SpaceX and Tesla adhered to Trump's wishes on earnings calls last week after Musk, earlier in October, changed the name of his rocket company's AI division to SpaceXSI.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
+    {
+      "id": "b749a345234f458a6787007d433615e99737e8bd33f7bb58a2ccdf1e98a92b0c",
+      "source": "CNBC",
+      "title": "Swiss central bank posts bumper $23 billion profit thanks to gold, foreign assets",
+      "publishedAtSgt": "2026-10-30T23:07:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/swiss-national-bank-q3-profit-gold-foreign-asset.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Swiss National Bank said Friday that it made a profit of 19.1 billion Swiss francs ($23.3 billion) on its investments in the third quarter, driven by its gold and foreign currency holdings. It brought the central bank's year-to-date profit up to 44.2 billion francs, the equivalent of around $53.8 billion, raising the prospect of a payout to Swiss federal and local governments at the end of the year.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
+    {
+      "id": "76a141301a533aec2404356b7e10d1011100d164c2faf925cd5437d7a59ed25c",
+      "source": "CNBC",
+      "title": "The big questions remaining after Anthropic’s blockbuster IPO prospectus",
+      "publishedAtSgt": "2026-10-30T20:27:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The filing also revealed that CEO Dario Amodei and his six co-founders each own over 200 million shares, which could be worth billions if Anthropic hits the over $1 trillion valuation it's expected to. It also says that operating margin and adjusted operating margin are expected to \"fluctuate over time, particularly in periods when substantial incremental compute is delivered to us and we incur the associated expenses.\" \"Investors can see compute falling as a share of revenue, but not how much...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
     {
       "id": "f6a7012309d3ff79bd1708913a1076f00a12c192126bace86a26a359ea023695",
       "source": "CNBC",
@@ -1481,118 +1591,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-27T23:54:39+08:00"
-    },
-    {
-      "id": "446b40c33563fe9040f845841f1aeca47e7e29207e67932f48d60f83b2934515",
-      "source": "CNBC",
-      "title": "Oil prices seesaw amid renewed diplomatic efforts to end Mideast conflict",
-      "publishedAtSgt": "2026-10-27T17:09:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oil prices inched higher Tuesday, reversing earlier losses driven by renewed diplomatic efforts to end the U.S.-Iran war and hopes of a de-escalation in the wider regional conflict that has seen Tehran-backed Houthis target Saudi Arabia. Prospects of a diplomatic breakthrough have helped temper fears of further disruptions to global energy supplies, putting downward pressure on crude prices.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
-    },
-    {
-      "id": "5305b77b80a87d75ec0b35f16e4535570d4d93bc424c113938b5390d50af9fe1",
-      "source": "CNBC",
-      "title": "Nvidia to invest $3 billion in Meta as tech giants deepen AI partnership",
-      "publishedAtSgt": "2026-10-27T17:07:41+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "Nvidia has said it will invest $3 billion in Meta after the social media and AI giant announced plans to raise $95 billion to support its investments in artificial intelligence infrastructure. Nvidia announced its investment on Tuesday, adding that Meta would expand Vera Rubin and Vera CPU deployment, and that the two companies would deepen their partnership on Muse, the social media giant's AI agent that launched last month.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
-    },
-    {
-      "id": "0455a862c3cf72242e2f3790095696260d4fffcfa63f5e623128dfb32ec87b18",
-      "source": "CNBC",
-      "title": "HSBC shares slump on revenue miss, lender announces share buyback of up to $1 billion",
-      "publishedAtSgt": "2026-10-27T16:28:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Earlier, shares in Hong Kong dropped 2.95% following the earnings release, which saw the bank approve a third interim dividend of 10 cents per share. The bank's net interest income rose to $9.3 billion in the third quarter, supported by deposit growth and reinvestment of its \"structural hedge at higher yields.\" Meanwhile, operating expenses decreased 12% year on year to $8.8 billion, largely due to non-recurrence of legal provisions recorded a year earlier.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
-    },
-    {
-      "id": "0a9f9e38ea8f496b156ed88b38e64e33790aa3e1a5d338ef9add29a07b8d056f",
-      "source": "CNBC",
-      "title": "Opinion: UK bond investors want spending cuts. John Healey’s first Budget may disappoint",
-      "publishedAtSgt": "2026-10-27T15:34:34+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/uk-budget-2026-john-healey-bond-market.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The build-up to her annual budgets was scarred by weeks of speculation about which taxes she would raise and, even though some of those increases never materialized, the damage to business and investor confidence was almost as great as if they had been imposed. Other likely giveaways include targeted support for poorer households with energy bills and a higher tax-free allowance for low-income pensioners.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
-    },
-    {
-      "id": "b5cbd30e6177e358a8ad9c05f33e3fd31f3aeeaced1e2f919872b7cb0400205e",
-      "source": "CNBC",
-      "title": "The 'stablecoin sandwich': Why speeding up payments isn't so simple, according to Mastercard",
-      "publishedAtSgt": "2026-10-27T15:16:35+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/mastcard-stablecoin-bvnk-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Stablecoins could offer faster and more efficient payments, but realizing their full potential requires further development of the infrastructure supporting them, according to Mastercard. dollar, could be attractive for certain remittance corridors and less commonly traded currency pairs, Matthew Driver, executive vice president of services for Asia Pacific at Mastercard, told CNBC in an interview.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
-    },
-    {
-      "id": "e11e65c9cf97f783cc7e9d30ec1a573c83f2c772eb435ad18c5fc8fcdc06290e",
-      "source": "CNBC",
-      "title": "China industrial profits post strongest growth in three months as tech boom widens economic divide",
-      "publishedAtSgt": "2026-10-27T11:34:08+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Earnings growth in high-tech sectors, such as AI and robotics, has been outperforming profits in consumer-related industries, including clothing, autos and furniture, underscoring the increasingly bifurcated momentum in the economy. NBS Chief Statistician Yu Weining attributed earnings growth mostly to surging profits in electronics and advanced-technology manufacturing sectors.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
-    },
-    {
-      "id": "96377ada943f5ce1af05e9b58671a3d56749bd2f93a2e0fd0dfaa32e5ce58321",
-      "source": "CNBC",
-      "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
-      "publishedAtSgt": "2026-10-27T09:24:28+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "For Moscow, the route offers an opportunity to redirect energy exports toward Asia as Western sanctions constrain its access to European markets, said industry watchers whom CNBC spoke to. On the other hand, it provides Beijing another trade artery that could reduce reliance on traditional maritime chokepoints.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-27T09:30:17+08:00"
     }
   ]
 }

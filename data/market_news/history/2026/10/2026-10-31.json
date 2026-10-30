@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-31",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "953e398e33f495f99f9dfafd27d416000416578e86ed22ad6053c244de540ee0",
+      "source": "CNBC",
+      "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+      "publishedAtSgt": "2026-10-31T02:28:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "and Israel going to war with Iran, Tehran responded with a wave of attacks on commercial ships in the Strait of Hormuz to cut off one of the world's main sources of crude oil. Iran's campaign was initially successful, with crude exports plunging nearly 90% to 1.8 million barrels a day in March compared with 16 million bpd in February, according to data provided by Kpler.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:49+08:00"
+    },
+    {
+      "id": "9f37876b6f97acb3efe6dbeba5c90d4b30d8182f2ef988c401e2fa116704634d",
+      "source": "CNBC",
+      "title": "The AI investing story had a rough week. It may be time to take profits while you still can",
+      "publishedAtSgt": "2026-10-31T01:22:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/ai-stocks-selloff-ai-spending-returns.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Market professionals are sounding worried about the artificial intelligence trade after a big week of data points in the technology sector. Like traders, technology investors were also sounding down about the AI trade on Friday. There's another interesting signal coming from options, Davitt noted: While investors may be getting cold feet about the big tech companies associated with the AI trade writ large, they may also be gaining confidence about the commercial prospects of AI technology...",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:51+08:00"
+    },
+    {
+      "id": "652929bc8e1563796f0438b6af6bf78d5d63d53c557d2ad19943e7d212b6c94e",
+      "source": "CNBC",
+      "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+      "publishedAtSgt": "2026-10-31T01:15:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amid the post-pandemic inflation peak, the I bond rate hit a record high of 9.62% in May 2022, and investors poured millions into the government-backed, nearly risk-free asset. As inflation cooled and I bond rates fell, many short-term investors redeemed I bonds. But investors could return as inflation pushes I bond rates back up, experts say.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:48+08:00"
+    }
+  ],
+  "articleCount": 3,
+  "updatedAtSgt": "2026-10-31T02:38:51+08:00"
+}

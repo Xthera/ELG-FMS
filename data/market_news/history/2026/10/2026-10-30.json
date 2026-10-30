@@ -5,6 +5,70 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "ad5bcc0da6d54b002668c499d66eef56a3b5fa7d7a7379b3e05ca2f64dfc6d15",
+      "source": "CNBC",
+      "title": "Jim Cramer reveals 3 stocks to buy — plus, why he is not selling the Intel plunge",
+      "publishedAtSgt": "2026-10-30T23:49:19+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/30/cramer-sees-3-stocks-to-buy-not-selling-the-intel-plunge.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Starbucks is the kind of stock that fits what we need right now, which is higher growth,\" Jim said. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
+    {
+      "id": "6f77506e805db363800f3908f6f02dc92167c059fbb1ba21815669bbabcddbb2",
+      "source": "CNBC",
+      "title": "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
+      "publishedAtSgt": "2026-10-30T23:14:27+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "At the time, he was working to ensure the growth of AI in the U.S. The president this week announced on Truth Social that he's banning the use of the terms \"AI\" and \"artificial intelligence\" in \"all relevant documents\" and \"everything else.\" SpaceX and Tesla adhered to Trump's wishes on earnings calls last week after Musk, earlier in October, changed the name of his rocket company's AI division to SpaceXSI.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
+    {
+      "id": "b749a345234f458a6787007d433615e99737e8bd33f7bb58a2ccdf1e98a92b0c",
+      "source": "CNBC",
+      "title": "Swiss central bank posts bumper $23 billion profit thanks to gold, foreign assets",
+      "publishedAtSgt": "2026-10-30T23:07:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/swiss-national-bank-q3-profit-gold-foreign-asset.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Swiss National Bank said Friday that it made a profit of 19.1 billion Swiss francs ($23.3 billion) on its investments in the third quarter, driven by its gold and foreign currency holdings. It brought the central bank's year-to-date profit up to 44.2 billion francs, the equivalent of around $53.8 billion, raising the prospect of a payout to Swiss federal and local governments at the end of the year.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
+    {
+      "id": "76a141301a533aec2404356b7e10d1011100d164c2faf925cd5437d7a59ed25c",
+      "source": "CNBC",
+      "title": "The big questions remaining after Anthropic’s blockbuster IPO prospectus",
+      "publishedAtSgt": "2026-10-30T20:27:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The filing also revealed that CEO Dario Amodei and his six co-founders each own over 200 million shares, which could be worth billions if Anthropic hits the over $1 trillion valuation it's expected to. It also says that operating margin and adjusted operating margin are expected to \"fluctuate over time, particularly in periods when substantial incremental compute is delivered to us and we incur the associated expenses.\" \"Investors can see compute falling as a share of revenue, but not how much...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-31T02:38:56+08:00"
+    },
+    {
       "id": "f6a7012309d3ff79bd1708913a1076f00a12c192126bace86a26a359ea023695",
       "source": "CNBC",
       "title": "Tech scare trade hits Nasdaq futures while crypto reels from its biggest-ever hack",
@@ -338,6 +402,6 @@
       "collectedAtSgt": "2026-10-30T05:11:21+08:00"
     }
   ],
-  "articleCount": 21,
-  "updatedAtSgt": "2026-10-30T18:54:08+08:00"
+  "articleCount": 25,
+  "updatedAtSgt": "2026-10-31T02:38:56+08:00"
 }
