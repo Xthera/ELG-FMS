@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "bca48cc959ed5d87cad7f013169471ee012157259fc39c2c7b4635080958ca6f",
+      "source": "CNBC",
+      "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+      "publishedAtSgt": "2026-10-31T14:00:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "President Donald Trump scolded Big Oil in August, saying ExxonMobil and Chevron were making \"too much money based on a shortage,\" as profits surged in the wake of the U.S.-Israeli war with Iran. Corporate results published this week laid out the windfall oil majors are continuing to get from tight fuel supplies and elevated refining margins amid global conflict.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-31T15:01:54+08:00"
+    },
+    {
       "id": "7d095a8dc895fea57e325a489beff8c3b3af0e7b2df8174677819f82a7dc4764",
       "source": "CNBC",
       "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
@@ -113,6 +129,6 @@
       "collectedAtSgt": "2026-10-31T02:38:48+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-10-31T07:00:26+08:00"
+  "articleCount": 8,
+  "updatedAtSgt": "2026-10-31T15:01:54+08:00"
 }

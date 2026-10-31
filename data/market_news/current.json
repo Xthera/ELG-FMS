@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-31T07:00:26+08:00",
+  "generatedAtSgt": "2026-10-31T15:01:54+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "bca48cc959ed5d87cad7f013169471ee012157259fc39c2c7b4635080958ca6f",
+      "source": "CNBC",
+      "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+      "publishedAtSgt": "2026-10-31T14:00:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "President Donald Trump scolded Big Oil in August, saying ExxonMobil and Chevron were making \"too much money based on a shortage,\" as profits surged in the wake of the U.S.-Israeli war with Iran. Corporate results published this week laid out the windfall oil majors are continuing to get from tight fuel supplies and elevated refining margins amid global conflict.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-10-31T15:01:54+08:00"
+    },
     {
       "id": "7d095a8dc895fea57e325a489beff8c3b3af0e7b2df8174677819f82a7dc4764",
       "source": "CNBC",
@@ -1570,23 +1586,6 @@
       "summary": "JetBlue Airways reported a bigger loss in the third quarter compared with last year, but shares surged as the carrier's upbeat forecast that it will return to profitability appeared to calm investors after a Monday rout. JetBlue stock was up nearly 19% in early trading Tuesday after hitting a new low a day earlier as investors fretted about the company's financial future.",
       "feeds": [
         "business"
-      ],
-      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
-    },
-    {
-      "id": "24f8687b29abfcad67f2ecc81fa31d3e8848fab2225143c7c6635a7623ae5f27",
-      "source": "CNBC",
-      "title": "UPS beats quarterly expectations, raises full-year guidance again",
-      "publishedAtSgt": "2026-10-27T23:29:49+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/ups-ups-q3-2026-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of UPS rose slightly in morning trading. Its supply chain solutions business saw an 18.2% revenue increase, which UPS said was primarily driven to growth in forwarding and logistics, including healthcare. \"We're driving more premium growth, improving revenue quality and mix, and creating greater operating leverage through a more efficient network,\" Tomé said on the call.",
-      "feeds": [
-        "latest",
-        "business",
-        "world"
       ],
       "collectedAtSgt": "2026-10-27T23:54:39+08:00"
     }
