@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-01",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "de3c341ab1495273bea2517135f9adcba2d266e6ac2087324877a25f5c44b476",
+      "source": "CNBC",
+      "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+      "publishedAtSgt": "2026-11-01T03:56:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "OpenAI is seeking to raise up to $20 billion in a new funding round, CNBC confirmed on Saturday, paring back its earlier target of up to $30 billion. News that the ChatGPT developer slashed its funding round follows a week when investors asked whether big tech firms' spending on AI, especially to build out data centers and snap up GPUs, will deliver adequate returns.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-01T04:00:51+08:00"
+    },
+    {
+      "id": "a9a3a834e4675db8c1ef89c50122f496dc12b3b924311a28bc4701bac3191e7e",
+      "source": "CNBC",
+      "title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+      "publishedAtSgt": "2026-11-01T02:56:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "SpaceX's AI division, SpaceXAI, lost its bid to dismiss an NAACP lawsuit, which is proceeding in federal court in Mississippi, according to a judge's opinion released late Friday. The lawsuit claims that the AI division of CEO Elon Musk's aerospace and defense tech conglomerate violated the Clean Air Act by using gas-fired combustion turbines to power its massive AI data centers in Greater Memphis.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-01T04:00:50+08:00"
+    }
+  ],
+  "articleCount": 2,
+  "updatedAtSgt": "2026-11-01T04:00:51+08:00"
+}

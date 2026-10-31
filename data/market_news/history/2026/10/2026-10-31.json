@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "6713151a9d9f66c5b28a5b0bd9ef0157cf5be4010cfc8d330f33542ff9863990",
+      "source": "CNBC",
+      "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+      "publishedAtSgt": "2026-10-31T23:37:11+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Wall Street's enthusiasm for artificial intelligence stocks proved short-lived. Semiconductor stocks staged a sharp rebound before renewed concerns about the AI trade sent shares tumbling. The prospect of higher rates only exacerbated investor worries that tech companies may be borrowing too much in the race to keep building out AI.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-01T04:00:56+08:00"
+    },
+    {
       "id": "684738bb69fde9ddc1162f83ff5d6fe5e60587d47df59cfbd91e96d5a2e44e45",
       "source": "CNBC",
       "title": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
@@ -161,6 +177,6 @@
       "collectedAtSgt": "2026-10-31T02:38:48+08:00"
     }
   ],
-  "articleCount": 10,
-  "updatedAtSgt": "2026-10-31T21:40:56+08:00"
+  "articleCount": 11,
+  "updatedAtSgt": "2026-11-01T04:00:56+08:00"
 }

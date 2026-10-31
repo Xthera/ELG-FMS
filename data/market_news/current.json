@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-10-31T21:40:56+08:00",
+  "generatedAtSgt": "2026-11-01T04:00:56+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,53 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "de3c341ab1495273bea2517135f9adcba2d266e6ac2087324877a25f5c44b476",
+      "source": "CNBC",
+      "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+      "publishedAtSgt": "2026-11-01T03:56:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "OpenAI is seeking to raise up to $20 billion in a new funding round, CNBC confirmed on Saturday, paring back its earlier target of up to $30 billion. News that the ChatGPT developer slashed its funding round follows a week when investors asked whether big tech firms' spending on AI, especially to build out data centers and snap up GPUs, will deliver adequate returns.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-01T04:00:51+08:00"
+    },
+    {
+      "id": "a9a3a834e4675db8c1ef89c50122f496dc12b3b924311a28bc4701bac3191e7e",
+      "source": "CNBC",
+      "title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+      "publishedAtSgt": "2026-11-01T02:56:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "SpaceX's AI division, SpaceXAI, lost its bid to dismiss an NAACP lawsuit, which is proceeding in federal court in Mississippi, according to a judge's opinion released late Friday. The lawsuit claims that the AI division of CEO Elon Musk's aerospace and defense tech conglomerate violated the Clean Air Act by using gas-fired combustion turbines to power its massive AI data centers in Greater Memphis.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-01T04:00:50+08:00"
+    },
+    {
+      "id": "6713151a9d9f66c5b28a5b0bd9ef0157cf5be4010cfc8d330f33542ff9863990",
+      "source": "CNBC",
+      "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+      "publishedAtSgt": "2026-10-31T23:37:11+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Wall Street's enthusiasm for artificial intelligence stocks proved short-lived. Semiconductor stocks staged a sharp rebound before renewed concerns about the AI trade sent shares tumbling. The prospect of higher rates only exacerbated investor worries that tech companies may be borrowing too much in the race to keep building out AI.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-01T04:00:56+08:00"
+    },
     {
       "id": "684738bb69fde9ddc1162f83ff5d6fe5e60587d47df59cfbd91e96d5a2e44e45",
       "source": "CNBC",
@@ -1539,55 +1586,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-28T04:44:22+08:00"
-    },
-    {
-      "id": "f785087f2206f4bf6930a9cd84a2a26f13297e9f947807ffbd47bea73458229d",
-      "source": "CNBC",
-      "title": "Anthropic's IPO is risky business",
-      "publishedAtSgt": "2026-10-27T23:51:41+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Anthropic's much-anticipated initial public offering is giving potential investors some perspective on the risky business of artificial intelligence. More than 90 pages of Anthropic's IPO prospectus, revealed Monday, center on the AI lab's multitude of corporate risk factors, many of which go beyond the kinds of boilerplate scenarios typically found in corporate filings. WATCH: Anthropic IPO filing shows what's happening on demand side of AI trade.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-27T23:54:38+08:00"
-    },
-    {
-      "id": "e97769a1a57aff3da3378c5c0d17b8fb1e5540e3de6688f24b101619ac1d4113",
-      "source": "CNBC",
-      "title": "Fed rate hikes are coming, but not this week: CNBC survey",
-      "publishedAtSgt": "2026-10-27T23:51:00+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "\"Their hesitancy to raise rates is unfathomable after an extended period of monetary and fiscal generosity, with nominal GDP running 6-8%, and when the leading indicators of inflation are uniformly warm to hot,'' said Richard Bernstein, global head of macro investing at Janus Henderson Investors.",
-      "feeds": [
-        "economy"
-      ],
-      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
-    },
-    {
-      "id": "b47cf425c1d531d36a03293170672d480d4900f351d8c2afa68d04b09ba0bc79",
-      "source": "CNBC",
-      "title": "Honda warns 50% Canada auto tariffs would be catastrophic for auto industry",
-      "publishedAtSgt": "2026-10-27T23:48:32+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "and Canada cannot reach a new trade deal by the end of this year, an executive with Honda Motor warned Tuesday. Trade associations representing Honda, as well as every major player in the U.S. \"It's integral to our success.\" Honda is the second largest producer of vehicles in Canada behind Toyota Motor, but many automotive officials have voiced concerns about the lack of a North American trade deal and tariff uncertainty due to the number of parts that regularly cross the borders for vehicle...",
-      "feeds": [
-        "latest",
-        "business",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-27T23:54:38+08:00"
     }
   ]
 }
