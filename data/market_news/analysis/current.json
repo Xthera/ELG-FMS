@@ -1,10 +1,41 @@
 {
-  "generatedAtSgt": "2026-10-31T07:16:02.641885+08:00",
+  "generatedAtSgt": "2026-10-31T15:17:32.008730+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 255,
+  "articleCount": 256,
   "analyses": [
+    {
+      "articleId": "bca48cc959ed5d87cad7f013169471ee012157259fc39c2c7b4635080958ca6f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "President Donald Trump previously criticized Big Oil over excess profits amid shortages, and recent corporate results show oil majors like ExxonMobil and Chevron continuing to reap windfalls from tight fuel supplies and elevated refining margins driven by the U.S.-Israeli war with Iran.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States",
+        "Middle East"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "High refining margins and tight fuel supplies driven by geopolitical conflict provide significant earnings boosts for major oil companies, impacting energy sector valuations and profitability.",
+      "reasoning": "The article is classified as MARKET because it discusses corporate earnings and windfall profits driven by refining margins and fuel supplies. It is important due to the direct impact on energy sector equities and commodities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+      "publishedAtSgt": "2026-10-31T14:00:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T15:01:54+08:00"
+    },
     {
       "articleId": "7d095a8dc895fea57e325a489beff8c3b3af0e7b2df8174677819f82a7dc4764",
       "relevant": true,
