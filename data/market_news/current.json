@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-01T15:37:06+08:00",
+  "generatedAtSgt": "2026-11-02T00:49:49+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,68 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "4432c4c69316f0ad97cc5360b8337c5b4d27ddc1f7c86bb9b65a26268222381a",
+      "source": "CNBC",
+      "title": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
+      "publishedAtSgt": "2026-11-02T00:34:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "Bernie Sanders calling for bot legislation in response to the headlines — come on the heels of JPMorgan Chase CEO Jamie Dimon saying the bank currently blocks external AI agents from operating on behalf of retail customers, citing security risks. Abbott said that Accenture research found that 65% of consumers are open to using a GPT-like financial assistant through a Gen AI platform or digital wallet, and 71% would welcome an AI assistant embedded within their primary bank's mobile app.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-02T00:49:43+08:00"
+    },
+    {
+      "id": "662fd8411d58685695d94e49217592848501d1d317d457cb339afab537821e37",
+      "source": "CNBC",
+      "title": "Everything changed for the oil, AI and bond trades over the past month",
+      "publishedAtSgt": "2026-11-01T23:58:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Oil and treasury yields had this amazing correlation and in October it just stopped,\" Rosenberg said on the most recent CNBC \"ETF Edge.\" The relationship between oil and bond yields was featured in Federal Reserve Chair Kevin Warsh's FOMC press conference on Wednesday, with Warsh noting how oil futures have continued to rise, a factor the central bank must consider in its fight against inflation.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-02T00:49:49+08:00"
+    },
+    {
+      "id": "18c2e38c1b84a0a6e9c038e709f3d177a5619d08f6e807f76584316cfa7c21df",
+      "source": "CNBC",
+      "title": "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
+      "publishedAtSgt": "2026-11-01T20:33:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/01/top-analysts-are-bullish-on-these-3-stocks-for-the-long-haul.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Further, worries about elevated artificial intelligence spending are weighing on investor sentiment. Investors looking beyond the short-term noise and focusing on long-term returns can track top Wall Street analysts to pick the right stocks, backed by strong research. Ikeda called Datadog and Atlassian his top picks, saying that companies that can show that AI is a tailwind to growth could see their valuation rerate, even at premium multiples.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-02T00:49:49+08:00"
+    },
+    {
+      "id": "820fe11600770cbe059082162f4f9777dcae8dbba51d4548b3d3f61ca8dae488",
+      "source": "CNBC",
+      "title": "The midterm election could reshape the muni bond market. Here’s what investors need to know",
+      "publishedAtSgt": "2026-11-01T20:30:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/01/election-municipal-bonds.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "There is an array of initiatives on ballots around the nation that could change tax laws and add to bond supply. Taxes matter to muni investors since the income received is free of federal tax, as well as state tax if the holder lives in the state where the bond is issued. Investors will likely seek shelter in the muni market, which would send bond prices higher, he noted.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-02T00:49:49+08:00"
+    },
     {
       "id": "1a18520f8bb4841d499bd89e8532ac61fb298b7bfc99de54e64abd096210c5fc",
       "source": "CNBC",
@@ -1522,69 +1584,6 @@
       "feeds": [
         "latest",
         "technology"
-      ],
-      "collectedAtSgt": "2026-10-28T04:44:22+08:00"
-    },
-    {
-      "id": "3b5c05f83b0f9d3be0ff198e2fdb4fd652690e874c0d3faa0909405362a4c17f",
-      "source": "CNBC",
-      "title": "Walmart says AI training is boosting confidence with the technology among its 2.1 million associates",
-      "publishedAtSgt": "2026-10-28T04:30:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/walmart-ai-training-workers.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 52,
-      "relevanceReason": "supporting_technology_description",
-      "summary": "As enterprise AI investment continues to grow, companies of all sizes are trying to figure out how employees feel about the technology in the workplace. What it found, based on more than 1.7 million survey responses, is that while workers have different levels of familiarity and comfort with AI, training and experience with the technology matters. \"The people-led and tech-powered piece has been around for a while.\" Many workers across the economy say they are afraid of AI replacing their jobs.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-28T04:44:23+08:00"
-    },
-    {
-      "id": "617d82e01cee71e2abf9fa16b9f658d07aa6673ad234fd142a59165cf4def388",
-      "source": "CNBC",
-      "title": "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
-      "publishedAtSgt": "2026-10-28T03:51:41+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 52,
-      "relevanceReason": "supporting_technology_description",
-      "summary": "Oracle on Tuesday announced an expanded collaboration with OpenAI that brings the artificial intelligence lab's ChatGPT and Codex into the software maker's applications to make databases more actionable. Oracle also said Tuesday that it is making different hardware accessible on its cloud infrastructure, including Google's tensor processing unit AI chips and OpenAI's Jalapeño chip.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-28T04:44:24+08:00"
-    },
-    {
-      "id": "12b88b2fd8eaf343a2ac042cac636c8ec589135fb96fb8768d8c86a0701e93be",
-      "source": "CNBC",
-      "title": "Boeing shares slide on a disappointing cash flow update. Why this dip is buyable",
-      "publishedAtSgt": "2026-10-28T03:21:20+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/27/boeing-shares-slide-on-a-disappointing-cash-flow-update-why-this-dip-is-buyable-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The silver lining is that management took its medicine and reset investor expectations now, so the stock can mount a rebound once the dust settles. Shares of Boeing are down 10% Tuesday, on pace for their worst day since the April 2025 tariff panic . But markets are forward-looking beasts, and Boeing letting investors down on the cash-flow ramp in the coming years is, understandably, causing many investors to dump the stock Tuesday.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-28T04:44:23+08:00"
-    },
-    {
-      "id": "d431568fac33a53ad0685c03f26d54b546680f169cba452732d0d4062ff33f3b",
-      "source": "CNBC",
-      "title": "Margin debt growth slows sharply as stock market warning signs build",
-      "publishedAtSgt": "2026-10-28T02:53:18+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/margin-debt-growth-cools-after-2026-surge-may-signal-market-top.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The pace at which investors are borrowing money to invest in stocks has cooled substantially, raising concern that the stock market may be due for a fall. Recent FINRA data shows the annual growth in margin debt fell to 31.4% in September from 53.7% in May, Bank of America technical strategist Paul Ciana pointed out in a Friday note. Tesla investor Hy Luu, for example, refinanced his home to raise $30,000 to pay down margin debt during the stock's 2022 decline.",
-      "feeds": [
-        "latest",
-        "world"
       ],
       "collectedAtSgt": "2026-10-28T04:44:22+08:00"
     }
