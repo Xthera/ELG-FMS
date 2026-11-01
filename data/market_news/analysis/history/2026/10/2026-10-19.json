@@ -1,0 +1,437 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 14,
+  "analyses": [
+    {
+      "articleId": "0571037ee1f7ab8feed0dabf6fd17639a50b2bffb5ae83c8b982b2f5e2603c2d",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Treasury yields moved higher on Monday, with the benchmark yield rising to 5.448%, as investors assessed the domestic inflation and interest rate backdrop alongside geopolitical developments and declining energy prices.",
+      "assetClasses": [
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States",
+        "Russia"
+      ],
+      "sectors": [
+        "Energy",
+        "Financials"
+      ],
+      "investorImpact": "Higher Treasury yields can increase borrowing costs and impact equity valuations, while falling energy prices affect commodity portfolios and inflation expectations.",
+      "reasoning": "The article discusses macroeconomic indicators such as Treasury yields and inflation, which are core inputs for fixed income and broader investment portfolio monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury yields move higher as investors assess U.S. inflation backdrop",
+      "publishedAtSgt": "2026-10-19T21:52:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-19T22:43:41+08:00"
+    },
+    {
+      "articleId": "47c48995556b634578e0e6e9dc3f1b739b5d79ebdbce3ba60c26c5b463fd346c",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Google is betting that a massive AI data center can help finance a cleaner and more reliable power grid, countering public skepticism regarding the environmental and household energy cost impacts of data centers.",
+      "assetClasses": [
+        "Equities",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Utilities",
+        "Energy"
+      ],
+      "investorImpact": "Investors in tech and utilities should note the growing tension between rapid AI data center expansion and local power grid capacity, which can influence regulatory hurdles and capital expenditure returns.",
+      "reasoning": "The article discusses the intersection of AI data center growth and energy grid infrastructure development, making it relevant for technology and utility sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
+      "publishedAtSgt": "2026-10-19T21:36:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 82,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "articleId": "025cb7bc3a680546e54accc6985c3a0f938f0146215e45f7a4fefdde7d9a8112",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "French unrest and growing debt crisis fears have caused Paris-listed stocks, bonds, and the euro to fall. The OAT-Bund spread has widened to its highest level since the European Sovereign Debt Crisis, driven by weak growth, a high deficit-to-GDP ratio, and mounting concerns over fiscal consolidation.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Currencies"
+      ],
+      "geographies": [
+        "France",
+        "Germany",
+        "Europe"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "Investors with exposure to French sovereign debt, European equities, and the euro face increased volatility and drawdown risks as debt-servicing costs rise and political unrest threatens fiscal stability.",
+      "reasoning": "The article highlights severe market stress in European assets caused by political unrest and widening sovereign debt spreads, making it critically important for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
+      "publishedAtSgt": "2026-10-19T20:59:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "articleId": "9418b4b4886dc1bc8a0472e51024dd313f51fac448d2ab54fd8ca3dfbf8378cc",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "JPMorgan Chase deploys its first $5 billion toward defense investments through a security and resiliency initiative, outpacing expectations due to abundant opportunities in emerging defense, manufacturing, and supply chain firms driven by geopolitical conflicts.",
+      "assetClasses": [
+        "Private Equity",
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States",
+        "Ukraine",
+        "Middle East",
+        "China"
+      ],
+      "sectors": [
+        "Defense",
+        "Manufacturing",
+        "Supply Chain",
+        "Financials"
+      ],
+      "investorImpact": "Highlights robust capital allocation toward defense and supply chain resiliency sectors, creating potential growth and financing opportunities in emerging industrial and defense technologies.",
+      "reasoning": "Classified as MARKET because it details major capital deployment by a leading financial institution into defense and industrial sectors responding to global geopolitical demand.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+      "publishedAtSgt": "2026-10-19T20:34:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "articleId": "f45cbc143abd9a2d8769854a729ddd70dcea9967cc6828e6a5700fcb71492457",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Investors are stepping in to buy technology stocks on Monday despite lingering fears of an AI trade sell-off. While analysts like Dan Ives view the recent drawdown as a golden buying opportunity, others like BTIG advise using any rebound in semiconductor stocks to reduce exposure.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors face conflicting signals on whether to buy the dip in AI and technology stocks or use rebounds to reduce exposure, impacting portfolio risk management in the tech sector.",
+      "reasoning": "The article addresses prominent market divergence regarding AI sector valuations and trading strategies, making it highly relevant for market monitoring and sentiment analysis.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Investors are buying on Monday despite fear the AI trade nightmare scenario is far from over",
+      "publishedAtSgt": "2026-10-19T20:00:15+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/stocks-buying-opportunity-ai-selloff.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "articleId": "f7eac8d31ea081ad22703e678393ed0534b240cffa8cdb05e0461bacae784ff6",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Credit stress is threatening the AI bull market as highlighted by recent weakness in CoreWeave's equity and debt, putting pressure on fragile sentiment across high-yield and weaker investment-grade names like Oracle.",
+      "assetClasses": [
+        "Equities",
+        "Debt",
+        "High Yield",
+        "Investment Grade"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Financial"
+      ],
+      "investorImpact": "Investors in AI-related high-yield and weaker investment-grade debt must monitor credit spreads and default risks as sentiment softens across the sector.",
+      "reasoning": "The article discusses credit stress and market sentiment affecting AI-related companies in the debt and equity markets, which is critical for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Credit stress is threatening to unwind the AI bull. All eyes are on Oracle to hold the line",
+      "publishedAtSgt": "2026-10-19T19:57:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/oracle-debt-faces-an-ai-stress-test-why-some-investors-arent-worried-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-19T22:43:40+08:00"
+    },
+    {
+      "articleId": "76228aa5b964e763451dc99ad7371c28738559dd684c25b50aed9c4e2295631d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Japanese Prime Minister Takaichi defended her administration against criticisms regarding a weak yen and rising interest rates. She stated that the government will build a strong economy to boost confidence in the currency, noted that export competitiveness benefits from currency depreciation, and mentioned intentions to appropriately control government bond issuance amidst rising yields as the central bank normalizes monetary policy.",
+      "assetClasses": [
+        "Currencies",
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Government",
+        "Exports"
+      ],
+      "investorImpact": "Investors with exposure to Japanese equities, Japanese Government Bonds (JGBs), and the yen should closely monitor these developments as policy signals regarding bond issuance and currency valuation directly impact yields and forex volatility.",
+      "reasoning": "The article is classified as MARKET because it directly addresses currency valuation, government bond yields, and central bank policy normalisation in Japan. It is important for fund monitoring given its implications for macroeconomic stability and asset pricing in the region.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
+      "publishedAtSgt": "2026-10-19T13:29:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/takaichi-weak-yen-jgb-yields.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T14:16:08+08:00"
+    },
+    {
+      "articleId": "43907f7900bde95df40044d4a0c6cee9e7a9b7d766006c96f4764d52f543c9e4",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "China's third-quarter economic growth quickened to 4.5% year-over-year driven by surging exports and technological goods demand, offsetting domestic property sector slumps and weak consumer demand. The nine-month average of 4.6% sits within Beijing's official target range.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Foreign Exchange"
+      ],
+      "geographies": [
+        "China",
+        "Global"
+      ],
+      "sectors": [
+        "Exports",
+        "Manufacturing",
+        "Real Estate",
+        "Consumer Goods"
+      ],
+      "investorImpact": "Investors gain insight into China's diverging economic drivers, where external trade strength supports manufacturing and exports while domestic consumption and the real estate market remain weak. This impacts sentiment toward Chinese equities, global supply chains, and commodities demand.",
+      "reasoning": "The article reports official macroeconomic data for China meeting Beijing targets through export strength despite domestic headwinds, making it highly relevant for economic and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
+      "publishedAtSgt": "2026-10-19T12:36:39+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 102,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-19T14:16:08+08:00"
+    },
+    {
+      "articleId": "d4992a01c6b946dc67f3fda56f8a518ab791e0019583d3e71df2b50cae73481e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Indonesia's benchmark stock index plunged over 5% to a six-year low due to fears of an MSCI downgrade, compounding massive foreign investor outflows totaling $5.1 billion for the year.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Indonesia"
+      ],
+      "sectors": [
+        "Broad Market"
+      ],
+      "investorImpact": "Significant foreign capital flight and tumbling valuations pose major risks for portfolios with exposure to Indonesian equities, with potential index downgrades threatening further passive outflows.",
+      "reasoning": "The article details a major market crash and severe foreign capital withdrawal in a key emerging market economy driven by downgrade fears, making it highly relevant for market risk monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Indonesian stocks plunge to six-year low as MSCI downgrade fears mount",
+      "publishedAtSgt": "2026-10-19T11:00:33+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/indonesian-stocks-msci-downgrade-fears-mount.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T14:16:08+08:00"
+    },
+    {
+      "articleId": "edc82688c7286f5101cabe56b395adde616a363c0332f9b9ddcd1b711f05bf3f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Shares of ChangXin Memory Technologies (CXMT) fell 6.5% despite the company forecasting a sharp profit turnaround for the first nine months of 2026, driven by strong AI-related DRAM demand and higher prices.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors in Chinese technology and memory chipmakers may view the share price drop despite positive earnings guidance as a sign of profit-taking or valuation concerns, indicating potential volatility in the semiconductor sector.",
+      "reasoning": "The article discusses a notable stock market movement for a major semiconductor company, categorizing it under MARKET due to share price reaction and financial outlook.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China's CXMT sees shares drop over 6% as investors look past chipmaker's profit turnaround",
+      "publishedAtSgt": "2026-10-19T09:56:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T14:16:08+08:00"
+    },
+    {
+      "articleId": "e23e7de3a96952522fcd2191d6aadbc348e128be899ceb0747e315d52017ccf9",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Anthropic announced plans to commit 5% of its shares to a new public benefit fund intended to address AI job disruption, with potential future share additions based on company valuation growth.",
+      "assetClasses": [
+        "Equity",
+        "Private Equity"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The creation of a public benefit fund involving significant equity shares highlights structural governance trends within leading private artificial intelligence firms, which could influence future corporate governance standards and equity valuations for investors exposed to the AI sector.",
+      "reasoning": "The article is classified under TECHNOLOGY as it involves a major artificial intelligence company restructuring equity for social and public benefit purposes. It is moderately important for monitoring governance and valuation trends in the private AI market.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
+      "publishedAtSgt": "2026-10-19T07:36:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    },
+    {
+      "articleId": "d0f742a2c86bc499c37918911baf899ff6bccea6341d5447b0aa7f38e3d5b80c",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Brent crude prices hover near $109 per barrel following resumed energy strikes by Ukraine on Russian oil facilities and increased attacks on oil tankers in the Middle East, threatening global oil supplies.",
+      "assetClasses": [
+        "Commodities"
+      ],
+      "geographies": [
+        "Ukraine",
+        "Russia",
+        "Middle East",
+        "Persian Gulf"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Sustained high oil prices near $109 per barrel increase input costs across transportation and manufacturing sectors while boosting energy sector revenues, presenting inflationary risks for global markets.",
+      "reasoning": "The article is classified as GEOPOLITICAL due to military conflicts affecting key energy supply routes and infrastructure. It carries high importance and negative sentiment for broader equity markets due to inflationary oil price pressures.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Brent crude hovers near $109 a barrel as Ukraine resumes energy strikes, tankers attacked in Middle East",
+      "publishedAtSgt": "2026-10-19T07:10:45+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    },
+    {
+      "articleId": "0780cc93167e9e579b319a89449848c6b231d21ac845832a6141ddc189ef2d29",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "India's Finance Minister blames easy exits and excess liquidity for equity market underperformance, with benchmark indexes slipping nearly 12% since January despite resilient economic growth, while markets with AI champions like Taiwan and Korea attract strong investment flows.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India",
+        "Taiwan",
+        "Korea"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "Investors rotating out of Indian equities in favor of AI-heavy markets like Taiwan and Korea may face continued underperformance in Indian benchmarks, requiring strategic allocation adjustments.",
+      "reasoning": "Classified as MARKET due to discussion of equity market performance and capital flows. Sentiment is NEGATIVE due to underperformance and easy exits driving declines. Importance is MEDIUM as it addresses broader regional equity allocation trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance",
+      "publishedAtSgt": "2026-10-19T07:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    },
+    {
+      "articleId": "3af82153a44c7f7987297a2e01a103011fb5d05cd296f9b680a391813325fd00",
+      "relevant": false,
+      "category": "REJECT",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "An promotional and instructional article regarding Jim Cramer's CNBC Investing Club trade alerts and portfolio management rules.",
+      "assetClasses": [],
+      "geographies": [],
+      "sectors": [],
+      "investorImpact": "The article contains no substantive market data, macroeconomic updates, or actionable financial intelligence, offering only promotional subscription details.",
+      "reasoning": "The text merely details the operating rules and promotional structure of a personal investment club, lacking any significant informational content for institutional fund monitoring.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Why I am taking the other side of the trade that crushed the market Friday",
+      "publishedAtSgt": "2026-10-19T06:23:08+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/18/jim-cramer-why-i-am-taking-the-other-side-of-the-trade-that-crushed-the-market-friday.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-19T08:13:42+08:00"
+    }
+  ]
+}
