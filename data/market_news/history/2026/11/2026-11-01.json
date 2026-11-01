@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "1a18520f8bb4841d499bd89e8532ac61fb298b7bfc99de54e64abd096210c5fc",
+      "source": "CNBC",
+      "title": "Companies promised AI gains— here's how the payoff showed up in earnings",
+      "publishedAtSgt": "2026-11-01T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Some companies are beginning to report financial benefits from artificial intelligence investments, as interest in the technology shifts from hype to measurable returns in the latest quarter. Corporate AI investment has surged as companies look to boost efficiency and become more profitable, reaching $581.7 billion in 2025, up 130% from the previous year, according to the Stanford HAI 2026 AI Index report.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-01T15:37:06+08:00"
+    },
+    {
       "id": "de3c341ab1495273bea2517135f9adcba2d266e6ac2087324877a25f5c44b476",
       "source": "CNBC",
       "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
@@ -36,6 +52,6 @@
       "collectedAtSgt": "2026-11-01T04:00:50+08:00"
     }
   ],
-  "articleCount": 2,
-  "updatedAtSgt": "2026-11-01T04:00:51+08:00"
+  "articleCount": 3,
+  "updatedAtSgt": "2026-11-01T15:37:06+08:00"
 }

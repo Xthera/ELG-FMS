@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-01T09:14:53+08:00",
+  "generatedAtSgt": "2026-11-01T15:37:06+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "1a18520f8bb4841d499bd89e8532ac61fb298b7bfc99de54e64abd096210c5fc",
+      "source": "CNBC",
+      "title": "Companies promised AI gains— here's how the payoff showed up in earnings",
+      "publishedAtSgt": "2026-11-01T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Some companies are beginning to report financial benefits from artificial intelligence investments, as interest in the technology shifts from hype to measurable returns in the latest quarter. Corporate AI investment has surged as companies look to boost efficiency and become more profitable, reaching $581.7 billion in 2025, up 130% from the previous year, according to the Stanford HAI 2026 AI Index report.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-01T15:37:06+08:00"
+    },
     {
       "id": "de3c341ab1495273bea2517135f9adcba2d266e6ac2087324877a25f5c44b476",
       "source": "CNBC",
@@ -1569,21 +1585,6 @@
       "feeds": [
         "latest",
         "world"
-      ],
-      "collectedAtSgt": "2026-10-28T04:44:22+08:00"
-    },
-    {
-      "id": "18261b307051b6d86fa838da9f517d317d2e7c05767af72460fe33858e1a3cbc",
-      "source": "CNBC",
-      "title": "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split",
-      "publishedAtSgt": "2026-10-28T01:26:34+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The IPO is also pushing investors firmly into uncharted territory as they work to value the first pure-play artificial intelligence company to go public at a time of rising interest rates and growing concerns about the size of the AI buildout. \"And I think this is a really exciting opportunity for retail investors to get a piece and to get to participate in this transformation outside of buying chip stocks.\" For many investors focused on business fundamentals, Anthropic is a tough sell.",
-      "feeds": [
-        "latest"
       ],
       "collectedAtSgt": "2026-10-28T04:44:22+08:00"
     }
