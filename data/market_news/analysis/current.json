@@ -1,10 +1,39 @@
 {
-  "generatedAtSgt": "2026-11-01T04:16:27.395255+08:00",
+  "generatedAtSgt": "2026-11-01T15:52:35.948866+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 255,
+  "articleCount": 256,
   "analyses": [
+    {
+      "articleId": "1a18520f8bb4841d499bd89e8532ac61fb298b7bfc99de54e64abd096210c5fc",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Companies are starting to report measurable financial returns and profitability gains from artificial intelligence investments, marking a shift from pure hype to actual earnings impact following a surge in AI spending to $581.7 billion in 2025.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Information Technology"
+      ],
+      "investorImpact": "Investors can begin to evaluate tangible financial payoffs from massive corporate AI capital expenditures, helping distinguish between companies generating actual revenue or cost-efficiency gains and those merely spending on hype.",
+      "reasoning": "Classified as TECHNOLOGY because it focuses on AI integration and corporate adoption trends. Sentiment is POSITIVE due to reported financial benefits and payoff validation. Importance is HIGH given the systemic scale of corporate AI investments and their direct influence on corporate earnings.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Companies promised AI gains— here's how the payoff showed up in earnings",
+      "publishedAtSgt": "2026-11-01T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-01T15:37:06+08:00"
+    },
     {
       "articleId": "de3c341ab1495273bea2517135f9adcba2d266e6ac2087324877a25f5c44b476",
       "relevant": true,
