@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-02T00:49:49+08:00",
+  "generatedAtSgt": "2026-11-02T06:52:27+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,21 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "94aa1c0f2a12d853603972464d8b0280814c7d271770172d1b7fac00018b86ac",
+      "source": "CNBC",
+      "title": "Here are 3 big things we're watching in the stock market in the week ahead",
+      "publishedAtSgt": "2026-11-02T02:12:05+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But the elections across the country cannot be ignored , given the implications for the AI buildout trade if anti-data-center politicians rack up big victories. If tensions are ratcheted up, that could spell bad news for oil prices, bond yields and future inflation — all potential headwinds for equities. Can possible weakness in consumer electronics be fully offset by strength in AI chip manufacturing?",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-02T06:52:27+08:00"
+    },
     {
       "id": "4432c4c69316f0ad97cc5360b8337c5b4d27ddc1f7c86bb9b65a26268222381a",
       "source": "CNBC",
@@ -1568,22 +1583,6 @@
       "summary": "\"Consumer sentiment is largely unchanged in the sense that, wherever you are on the income scale, you're looking for value, and I think our system here has done a good job interpreting that.\" The company increased its full-year forecast and now expects its comparable earnings per share to grow at least 11%, up from a prior forecast of growth between 9% and 10%. Royal Caribbean shares closed up more than 5% on Tuesday.",
       "feeds": [
         "latest"
-      ],
-      "collectedAtSgt": "2026-10-28T04:44:22+08:00"
-    },
-    {
-      "id": "d24d8549cf749a83afd425b7b4c8d504696415f082ca2b73ffaf1234dd1f1b22",
-      "source": "CNBC",
-      "title": "Robinhood shares fall 5% as crypto slump weighs on profits, offsetting gains in new businesses",
-      "publishedAtSgt": "2026-10-28T04:39:49+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Robinhood shares fell in after-hours trading as investors digested a mixed third-quarter report in which transaction-based revenue missed Wall Street expectations despite growth in options trading and prediction markets. Additionally, options revenue grew 31% to $399 million and equities revenue rose 41% to $121 million.",
-      "feeds": [
-        "latest",
-        "technology"
       ],
       "collectedAtSgt": "2026-10-28T04:44:22+08:00"
     }

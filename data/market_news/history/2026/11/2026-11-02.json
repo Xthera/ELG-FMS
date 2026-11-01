@@ -5,6 +5,21 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "94aa1c0f2a12d853603972464d8b0280814c7d271770172d1b7fac00018b86ac",
+      "source": "CNBC",
+      "title": "Here are 3 big things we're watching in the stock market in the week ahead",
+      "publishedAtSgt": "2026-11-02T02:12:05+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But the elections across the country cannot be ignored , given the implications for the AI buildout trade if anti-data-center politicians rack up big victories. If tensions are ratcheted up, that could spell bad news for oil prices, bond yields and future inflation — all potential headwinds for equities. Can possible weakness in consumer electronics be fully offset by strength in AI chip manufacturing?",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-02T06:52:27+08:00"
+    },
+    {
       "id": "4432c4c69316f0ad97cc5360b8337c5b4d27ddc1f7c86bb9b65a26268222381a",
       "source": "CNBC",
       "title": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
@@ -20,6 +35,6 @@
       "collectedAtSgt": "2026-11-02T00:49:43+08:00"
     }
   ],
-  "articleCount": 1,
-  "updatedAtSgt": "2026-11-02T00:49:43+08:00"
+  "articleCount": 2,
+  "updatedAtSgt": "2026-11-02T06:52:27+08:00"
 }
