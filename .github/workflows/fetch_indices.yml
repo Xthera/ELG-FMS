@@ -2,16 +2,13 @@ name: Fetch Indices
 
 on:
   # ============================================================
-  # TWICE A DAY, 12 HOURS APART - 6:30 AM AND 6:30 PM SINGAPORE
+  # DAILY RUN - 6:30 AM SINGAPORE TIME, TUESDAY TO SATURDAY
   #
-  # 22:30 UTC = 06:30 SGT: US and European markets have closed
-  #                        for the previous trading day.
-  # 10:30 UTC = 18:30 SGT: Asian markets have closed for today.
-  # A market still trading at run time keeps its previous close
-  # (today's live price is not saved as a close).
+  # 22:30 UTC = 06:30 SGT the next day. By then Asian, European
+  # and US markets have all closed for the previous trading day.
   # ============================================================
   schedule:
-    - cron: "30 10,22 * * *"
+    - cron: "30 22 * * *"
 
   # Manual run from the Actions tab
   workflow_dispatch:
@@ -29,7 +26,7 @@ jobs:
 
     name: Fetch index closes -> Commit
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     timeout-minutes: 20
 
