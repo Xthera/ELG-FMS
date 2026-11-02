@@ -47,7 +47,7 @@ jobs:
 
     name: Holdings pipeline -> PruAccess -> Build -> Commit
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     timeout-minutes: 180
 
