@@ -9,7 +9,7 @@ permissions:
 jobs:
   prudential-holdings-pipeline:
     name: Baseline → Recovery 1 → Recovery 2 → Recovery 3
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
 
