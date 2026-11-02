@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-03",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "288529f4027f8bde85680b52cbf151a57bd86df922765b0a6c7d559865252d1d",
+      "source": "CNBC",
+      "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+      "publishedAtSgt": "2026-11-03T04:19:25+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Crude oil prices fell sharply Monday as the presidents of the U.S. and Iran signalled they are open to a diplomatic solution to the conflict that has disrupted energy markets for eight months. But the oil market had priced in the risk of a major military escalation after the elections, gaining more than 10% in October.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:38+08:00"
+    },
+    {
+      "id": "988fba8db53a9b64adaabeb31c7680285b85a95d2f7e0b27468b83cca9660cb0",
+      "source": "CNBC",
+      "title": "2 of our banks are at the heart of this week's biggest tech deals",
+      "publishedAtSgt": "2026-11-03T03:15:55+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/02/2-of-our-banks-are-at-the-heart-of-this-weeks-biggest-tech-deals.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks got a nice boost from a roughly 8% drop in oil prices and a decline of about 4 basis points in the 10-year Treasury yield . Still, the fall in oil and bond yields is helping many different parts of our portfolio, including our banks, Boeing (which we nibbled some on earlier), Home Depot , and our two transportation stocks FedEx and FedEx Freight . Away from M & A, there's been a number of stock and bond offerings to fund the AI buildout announced in recent days.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:38+08:00"
+    },
+    {
+      "id": "a0b8f43d89fe46352a35e0b0088dfae78455bb699dc518b8bfc3119c6dfc7bdd",
+      "source": "CNBC",
+      "title": "Defense, healthcare, crypto and AI: How the midterm election could affect stocks",
+      "publishedAtSgt": "2026-11-03T02:59:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "For investors, the midterm election could reshape which businesses preserve their advantages in Washington, particularly in industries such as defense, healthcare, banking and artificial intelligence. Jamie Raskin, D-Md., has separately sought records involving tariff exclusions, including communications involving Apple's former CEO, Tim Cook, as Democrats investigate whether Trump used trade policy to reward political allies and donors. AI may be the messiest political trade of all.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:38+08:00"
+    },
+    {
+      "id": "bbf3adf3989e273776af275f7333b2bcb8cfa8bb792a7893b6dabec3b9b2b273",
+      "source": "CNBC",
+      "title": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
+      "publishedAtSgt": "2026-11-03T02:16:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/options-traders-are-getting-anxious-on-palantir-and-apple-ahead-of-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It's not just the neoclouds and hyperscalers that investors are anxious about. The two stocks have been on trajectories that are distinct from the broader AI trade – with Apple, in particular, trading almost inversely to the Nasdaq 100 Index – but that's not stopping speculators from betting on a reversal in their shares after earnings. Apple stock is up 25% this year and currently trading with a negative 0.65 correlation with the Nasdaq 100, ThinkOrSwim data show.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:37+08:00"
+    },
+    {
+      "id": "6009d2caaa470f183e3fa47df26dff375e991f248c1a2a4b2d45fc7aa74f610b",
+      "source": "CNBC",
+      "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+      "publishedAtSgt": "2026-11-03T02:09:26+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oracle filed plans on Monday to issue new stock and more debt to finance its artificial intelligence buildout. Stock and bonds in Oracle, co-founded by former CEO Larry Ellison, have been under pressure amid growing investor concerns about the massive amount of debt being taken on to fund AI infrastructure. The yield on its investment-grade 4.95% bond due in 2031 is currently 7.267%.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:39+08:00"
+    },
+    {
+      "id": "770164f51bf572ffe6c947172a38a5b7554c23f569e5e71eddd46eb67f7488e1",
+      "source": "CNBC",
+      "title": "Stock market after midterm elections: What S&P 500 history shows",
+      "publishedAtSgt": "2026-11-03T01:57:35+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "As long as the AI wave is still moving and the economy keeps growing, \"this bull market is probably still alive and well,\" Detrick says. \"Seasonality isn't destiny, and worries around Iran, AI and France won't mysteriously vanish,\" said Jim Reid, Deutsche Bank's global head of macro and thematic research, in a note. But this is still an AI-driven market, with geopolitics, the Fed, and bond market very much in charge.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:37+08:00"
+    },
+    {
+      "id": "1be12049fb35318e3b53ef5ac1c02a00ad00a8eba5f3c4985a622148dad8b778",
+      "source": "CNBC",
+      "title": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
+      "publishedAtSgt": "2026-11-03T01:52:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic reported updated financials as part of an amended Form S-1 filing with the Securities and Exchange Commission on Monday, giving investors a more comprehensive look into the state of its business. The artificial intelligence company said it generated $33.24 billion in revenue for the nine months ended Sept.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:37+08:00"
+    },
+    {
+      "id": "ceae27c07980a07485361f836f2f9d18122d166ee3505c3a24d8d62bc983d306",
+      "source": "CNBC",
+      "title": "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
+      "publishedAtSgt": "2026-11-03T01:04:34+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A big drop in crude prices, on hopes of a diplomatic solution to the Middle East conflict, is giving support to oil-related stocks, such as Boeing . Despite our fundamental reasons for sticking with Boeing, the stock's linkage to oil prices this year must be acknowledged. With Apple shares having a nice run since August, portfolio director Jeff Marks noted the stock's valuation has been extended.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:39+08:00"
+    }
+  ],
+  "articleCount": 8,
+  "updatedAtSgt": "2026-11-03T04:23:39+08:00"
+}

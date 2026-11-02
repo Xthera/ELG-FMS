@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-02T15:42:57+08:00",
+  "generatedAtSgt": "2026-11-03T04:23:45+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,178 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "288529f4027f8bde85680b52cbf151a57bd86df922765b0a6c7d559865252d1d",
+      "source": "CNBC",
+      "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+      "publishedAtSgt": "2026-11-03T04:19:25+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Crude oil prices fell sharply Monday as the presidents of the U.S. and Iran signalled they are open to a diplomatic solution to the conflict that has disrupted energy markets for eight months. But the oil market had priced in the risk of a major military escalation after the elections, gaining more than 10% in October.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:38+08:00"
+    },
+    {
+      "id": "988fba8db53a9b64adaabeb31c7680285b85a95d2f7e0b27468b83cca9660cb0",
+      "source": "CNBC",
+      "title": "2 of our banks are at the heart of this week's biggest tech deals",
+      "publishedAtSgt": "2026-11-03T03:15:55+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/02/2-of-our-banks-are-at-the-heart-of-this-weeks-biggest-tech-deals.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks got a nice boost from a roughly 8% drop in oil prices and a decline of about 4 basis points in the 10-year Treasury yield . Still, the fall in oil and bond yields is helping many different parts of our portfolio, including our banks, Boeing (which we nibbled some on earlier), Home Depot , and our two transportation stocks FedEx and FedEx Freight . Away from M & A, there's been a number of stock and bond offerings to fund the AI buildout announced in recent days.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:38+08:00"
+    },
+    {
+      "id": "a0b8f43d89fe46352a35e0b0088dfae78455bb699dc518b8bfc3119c6dfc7bdd",
+      "source": "CNBC",
+      "title": "Defense, healthcare, crypto and AI: How the midterm election could affect stocks",
+      "publishedAtSgt": "2026-11-03T02:59:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "For investors, the midterm election could reshape which businesses preserve their advantages in Washington, particularly in industries such as defense, healthcare, banking and artificial intelligence. Jamie Raskin, D-Md., has separately sought records involving tariff exclusions, including communications involving Apple's former CEO, Tim Cook, as Democrats investigate whether Trump used trade policy to reward political allies and donors. AI may be the messiest political trade of all.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:38+08:00"
+    },
+    {
+      "id": "bbf3adf3989e273776af275f7333b2bcb8cfa8bb792a7893b6dabec3b9b2b273",
+      "source": "CNBC",
+      "title": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
+      "publishedAtSgt": "2026-11-03T02:16:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/options-traders-are-getting-anxious-on-palantir-and-apple-ahead-of-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It's not just the neoclouds and hyperscalers that investors are anxious about. The two stocks have been on trajectories that are distinct from the broader AI trade – with Apple, in particular, trading almost inversely to the Nasdaq 100 Index – but that's not stopping speculators from betting on a reversal in their shares after earnings. Apple stock is up 25% this year and currently trading with a negative 0.65 correlation with the Nasdaq 100, ThinkOrSwim data show.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:37+08:00"
+    },
+    {
+      "id": "6009d2caaa470f183e3fa47df26dff375e991f248c1a2a4b2d45fc7aa74f610b",
+      "source": "CNBC",
+      "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+      "publishedAtSgt": "2026-11-03T02:09:26+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oracle filed plans on Monday to issue new stock and more debt to finance its artificial intelligence buildout. Stock and bonds in Oracle, co-founded by former CEO Larry Ellison, have been under pressure amid growing investor concerns about the massive amount of debt being taken on to fund AI infrastructure. The yield on its investment-grade 4.95% bond due in 2031 is currently 7.267%.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:39+08:00"
+    },
+    {
+      "id": "770164f51bf572ffe6c947172a38a5b7554c23f569e5e71eddd46eb67f7488e1",
+      "source": "CNBC",
+      "title": "Stock market after midterm elections: What S&P 500 history shows",
+      "publishedAtSgt": "2026-11-03T01:57:35+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "As long as the AI wave is still moving and the economy keeps growing, \"this bull market is probably still alive and well,\" Detrick says. \"Seasonality isn't destiny, and worries around Iran, AI and France won't mysteriously vanish,\" said Jim Reid, Deutsche Bank's global head of macro and thematic research, in a note. But this is still an AI-driven market, with geopolitics, the Fed, and bond market very much in charge.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:37+08:00"
+    },
+    {
+      "id": "1be12049fb35318e3b53ef5ac1c02a00ad00a8eba5f3c4985a622148dad8b778",
+      "source": "CNBC",
+      "title": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
+      "publishedAtSgt": "2026-11-03T01:52:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic reported updated financials as part of an amended Form S-1 filing with the Securities and Exchange Commission on Monday, giving investors a more comprehensive look into the state of its business. The artificial intelligence company said it generated $33.24 billion in revenue for the nine months ended Sept.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:37+08:00"
+    },
+    {
+      "id": "ceae27c07980a07485361f836f2f9d18122d166ee3505c3a24d8d62bc983d306",
+      "source": "CNBC",
+      "title": "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
+      "publishedAtSgt": "2026-11-03T01:04:34+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A big drop in crude prices, on hopes of a diplomatic solution to the Middle East conflict, is giving support to oil-related stocks, such as Boeing . Despite our fundamental reasons for sticking with Boeing, the stock's linkage to oil prices this year must be acknowledged. With Apple shares having a nice run since August, portfolio director Jeff Marks noted the stock's valuation has been extended.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:39+08:00"
+    },
+    {
+      "id": "80c3f05c30ee3ca2f472c5088b553f7ecee01a5d669e9e01b8421288ecf3a317",
+      "source": "CNBC",
+      "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
+      "publishedAtSgt": "2026-11-02T23:30:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks wrapped their worst week since June on Friday, but a group of the most sophisticated options analysts agree the reaction in the options market was oddly calm. For that size of a decline in stocks, the 2.2-point move in VIX was \"relatively muted,\" according to SpotGamma's Brent Kochuba, whose analysis suggests VIX should have jumped closer to 2.6 points, based on a study of 126 selloffs since 2018.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
+    },
+    {
+      "id": "0589bf2071cb82eb4f96c116d5b5286fdeba7815874aa0c0cb04a54a5de3a800",
+      "source": "CNBC",
+      "title": "Crude prices slide as investors brace for a big week",
+      "publishedAtSgt": "2026-11-02T20:57:06+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/crude-prices-crater-investors-brace-for-big-week.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices are at the center of the price action, with both Brent and WTI falling over 4% in early trade. But we would prefer to do it peacefully.\" - Analysis: Goldman Sachs has raised its price forecast for oil for December to $105 per barrel for Brent and $94 per barrel for WTI crude, citing \"high disruption risk.\" The investment bank is pricing in a 1mb/d global supply disruption allowance through 2027.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
+    },
+    {
+      "id": "7bf947dafc3cd43e753fb51668eecd50b2c8a1bf1b69deb311a3ec783e94495d",
+      "source": "CNBC",
+      "title": "OpenAI deepens Abu Dhabi foothold as Sam Altman inks deals spanning energy, government and investment",
+      "publishedAtSgt": "2026-11-02T19:02:08+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "OpenAI has signed deals across energy, investment and government sectors in the United Arab Emirates as the AI lab works to secure funding from investors in the region as part of a $20 billion round. OpenAI and Anthropic have turned to Middle East investors as they've looked for ever-larger pools of capital to fund growth. Sovereign investor Mubadala, Inception42 and OpenAI signed an agreement to apply advanced AI capabilities to investment analysis.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
+    },
     {
       "id": "309b81fa1db0c83bbf627ec7776092bd3e780619dbc5bd4131b8d28605640905",
       "source": "CNBC",
@@ -1412,182 +1584,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-29T02:53:57+08:00"
-    },
-    {
-      "id": "b22003c51a69e3d674d14d0f0d5c681f5f6dad1e1c6937e3b46a4eea4cf7f4e4",
-      "source": "CNBC",
-      "title": "Investors brace for a hawkish hold and tech on tap",
-      "publishedAtSgt": "2026-10-28T18:54:29+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/investors-brace-for-a-hawkish-hold-and-tech-on-tap.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Inflation is the common denominator, with policymakers citing the AI-driven demand boom as pushing up prices alongside energy. - Why it matters: This could provide another boost for chip stocks, like Micron. - Sector dynamics: The chip stocks drove the rally on Wall Street on Tuesday, after an announcement from Broadcom that a group of banks would provide $63 billion in financing to buy the company's chips and networking solutions to be leased to Anthropic.",
-      "feeds": [
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-29T02:53:58+08:00"
-    },
-    {
-      "id": "77c70fbb30118064130682915faf9d0126fcf8f01866971caea963494ec92d3f",
-      "source": "CNBC",
-      "title": "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
-      "publishedAtSgt": "2026-10-28T17:54:59+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oil prices climbed Wednesday as investors weighed the prospect of a prolonged and widening Middle East conflict after Tehran-backed Houthis attacked Saudi Arabia's largest refinery. His remarks followed earlier comments that he was weighing whether to reach a deal with Tehran or pursue further military action, keeping investors on edge over the possibility of renewed strikes.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
-    },
-    {
-      "id": "fc77bdd394f6dd92b488911c20f4e0e82ba233ee53f87ca93d05ecb375f581f0",
-      "source": "CNBC",
-      "title": "UBS pretax profits jump 27% in third quarter to $3.59 billion as wealth inflows surge",
-      "publishedAtSgt": "2026-10-28T17:42:03+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/ubs-earnings-third-quarter.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The Zurich-headquartered lender's common equity tier (CET) 1 capital ratio — a measure of a bank's solvency — reached 14.7% during the period, up from 14.4% the previous quarter. In its third-quarter earnings statement Wednesday, the bank said the integration of Credit Suisse is \"firmly on track\" to be completed by year-end, delivering a total of $13.7 billion in cumulative cost savings, above earlier expectations of $13.5 billion. The bank is seen as systemically important to the Swiss economy.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
-    },
-    {
-      "id": "585422d575ac4c191d2b36bd4098597f546ac93068d7344e4745e66e6e884000",
-      "source": "CNBC",
-      "title": "Treasury yields tick higher ahead of Federal Reserve interest rate decision",
-      "publishedAtSgt": "2026-10-28T17:22:26+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html",
-      "category": "MARKET",
-      "relevanceScore": 93,
-      "relevanceReason": "strong_market_title",
-      "summary": "Bond yields moved higher early Wednesday as investors awaited the Federal Reserve's latest monetary policy decision, due later in the session. The 10-year Treasury note yield — the main benchmark for mortgages, auto loans and credit card debt — was more than 2 basis points higher at 5.0134%.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
-    },
-    {
-      "id": "a0f650c8d8683311a06d3127bcc88b5ce8508f2496ca348a828f40b6ee6b5f64",
-      "source": "CNBC",
-      "title": "Israeli bonds, shekel fall as election leaves Netanyahu and others far short of majorities",
-      "publishedAtSgt": "2026-10-28T17:12:02+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "dollar while the Tel Aviv 35 stock index traded 2.7% lower. The yield on the 2-year bond added 6 basis points, while the benchmark 10-year government bond's yield rose by 4 basis points. Longer-maturity 30-year bond yields gained 2 basis points.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
-    },
-    {
-      "id": "21d648bb7812b5a5669b3229b1ce8920c6c8d1f3bd7395aaee149d898f9c7755",
-      "source": "CNBC",
-      "title": "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
-      "publishedAtSgt": "2026-10-28T15:48:35+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/jio-ipo-india-listing-.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Jio Platforms' shares rose 21.5% on their trading debut Wednesday after a record initial public offering that was lapped up by retail as well as institutional investors. He added that some of the investors who acquired a stake in Jio around 2021 may want to exit in around six months, by which time the stock will likely be included in the MSCI index and the Nifty 50.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
-    },
-    {
-      "id": "52bb7b9195e571b4f5ccda5085dcbfe49f0ad82dacbd8f7f5b9cfcf590f0a55b",
-      "source": "CNBC",
-      "title": "Trump jokes $5,000 would buy 'a hamburger and maybe a small dessert' at Mar-a-Lago as cost of living looms over midterms",
-      "publishedAtSgt": "2026-10-28T12:29:20+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/trump-jokes-5000-cash-would-buy-hamburger-and-dessert-at-mar-a-lago.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "President Donald Trump joked that the $5,000 payments he's promised U.S. Some economists have warned that the one-time direct payment would do little to ease affordability pressures, and could exacerbate inflation at a time when many Americans are already feeling strained. The president has also in the past made similar promises of delivering cash payments to Americans, which did not materialize.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
-    },
-    {
-      "id": "b830841b70873cf2e866ebaf20f6b7607fb6a6bcb11546c421572a12ffb79a40",
-      "source": "CNBC",
-      "title": "Labubu-maker Pop Mart's shares extend declines as third-quarter sales plunge",
-      "publishedAtSgt": "2026-10-28T10:57:36+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/labubu-pop-mart-third-quarter-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of Chinese toymaker Pop Mart, known for its popular Labubu dolls, added to their more than 30% decline so far this year, following a sharp decline in third-quarter revenue. Shares were last down under 2%, paring losses after declining more than 6% in early trading Wednesday. The steep sales decline raises questions about whether the frenzy surrounding Labubu and other collectible toys can sustain the company's rapid growth, particularly in overseas markets.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-28T18:37:54+08:00"
-    },
-    {
-      "id": "e5eb6460b816e9c63a9f51206b3f9f9d4c7049c972ad0deee527fe3c305cbcf2",
-      "source": "CNBC",
-      "title": "SK Hynix announces over $25 billion in dividends and buyback as third-quarter profit beats estimates",
-      "publishedAtSgt": "2026-10-28T09:25:18+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "In the earnings call, SK Hynix CEO Kwak Noh-Jung cited financial market volatility and a correction in semiconductor stocks as the main reasons to halt its review of potential pre-IPO fundraising and IPO options for its U.S. The company had said it would continue to assess investment timing, scale and financing options to support Solidigm's growth and enhance shareholder value.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
-    },
-    {
-      "id": "255d54c1288873fa9bd3b7166326f41eafa27c92ccdc5e74d50a09767481557d",
-      "source": "CNBC",
-      "title": "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks",
-      "publishedAtSgt": "2026-10-28T08:14:24+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/india-us-stocks-retail-access.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Groww, an Indian investment platform that accounts for more than 29% of the country's 46 million active investors across stock brokerages, rolled out the U.S. Foreign investors are fleeing the country's markets, with a record $32.5 billion in outflows in direct equities since January, as per data from Indian depository NSDL, pressuring the stock market.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
-    },
-    {
-      "id": "e01139188be74fc55d1417518ecc758efcfca5ed485680cf49e3f26eb0b81cff",
-      "source": "CNBC",
-      "title": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
-      "publishedAtSgt": "2026-10-28T06:24:19+08:00",
-      "url": "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "CNBC's Jim Cramer warned Tuesday that investors may be getting ahead of themselves by declaring the artificial intelligence trade back on track. AI-related stocks rallied for a second straight session, fueled by renewed enthusiasm for chipmakers after a group of banks and Blackstone announced $63 billion in financing for Anthropic to purchase Broadcom's computing hardware.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-28T09:26:08+08:00"
     }
   ]
 }

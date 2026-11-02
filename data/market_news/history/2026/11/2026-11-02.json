@@ -5,6 +5,53 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "80c3f05c30ee3ca2f472c5088b553f7ecee01a5d669e9e01b8421288ecf3a317",
+      "source": "CNBC",
+      "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
+      "publishedAtSgt": "2026-11-02T23:30:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks wrapped their worst week since June on Friday, but a group of the most sophisticated options analysts agree the reaction in the options market was oddly calm. For that size of a decline in stocks, the 2.2-point move in VIX was \"relatively muted,\" according to SpotGamma's Brent Kochuba, whose analysis suggests VIX should have jumped closer to 2.6 points, based on a study of 126 selloffs since 2018.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
+    },
+    {
+      "id": "0589bf2071cb82eb4f96c116d5b5286fdeba7815874aa0c0cb04a54a5de3a800",
+      "source": "CNBC",
+      "title": "Crude prices slide as investors brace for a big week",
+      "publishedAtSgt": "2026-11-02T20:57:06+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/crude-prices-crater-investors-brace-for-big-week.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices are at the center of the price action, with both Brent and WTI falling over 4% in early trade. But we would prefer to do it peacefully.\" - Analysis: Goldman Sachs has raised its price forecast for oil for December to $105 per barrel for Brent and $94 per barrel for WTI crude, citing \"high disruption risk.\" The investment bank is pricing in a 1mb/d global supply disruption allowance through 2027.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
+    },
+    {
+      "id": "7bf947dafc3cd43e753fb51668eecd50b2c8a1bf1b69deb311a3ec783e94495d",
+      "source": "CNBC",
+      "title": "OpenAI deepens Abu Dhabi foothold as Sam Altman inks deals spanning energy, government and investment",
+      "publishedAtSgt": "2026-11-02T19:02:08+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "OpenAI has signed deals across energy, investment and government sectors in the United Arab Emirates as the AI lab works to secure funding from investors in the region as part of a $20 billion round. OpenAI and Anthropic have turned to Middle East investors as they've looked for ever-larger pools of capital to fund growth. Sovereign investor Mubadala, Inception42 and OpenAI signed an agreement to apply advanced AI capabilities to investment analysis.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
+    },
+    {
       "id": "309b81fa1db0c83bbf627ec7776092bd3e780619dbc5bd4131b8d28605640905",
       "source": "CNBC",
       "title": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
@@ -69,6 +116,6 @@
       "collectedAtSgt": "2026-11-02T00:49:43+08:00"
     }
   ],
-  "articleCount": 4,
-  "updatedAtSgt": "2026-11-02T15:42:57+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-11-03T04:23:45+08:00"
 }
