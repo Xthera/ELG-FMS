@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-03T11:29:37+08:00",
+  "generatedAtSgt": "2026-11-03T19:59:03+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,139 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "d1654b2181ec73ded1dc07a0841cc9b1e8d726b1a61126dba3a58b9e9f608579",
+      "source": "CNBC",
+      "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
+      "publishedAtSgt": "2026-11-03T19:54:28+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "As far as certain stocks to watch, a big Democratic win on Tuesday night — especially in the Texas governor race — could add fuel to an AI stock sell-off on the notion that more data center restrictions would gain momentum nationally. A blue wave might pressure defense shares, while boosting health care stocks, analysts and investors said.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "bc8df80f2c03ff59b60240e69eb5e30acb5aed0856e675cbb693a5878a973ca2",
+      "source": "CNBC",
+      "title": "Apple shares slide after weak margin outlook; Palantir slumps 8% after earnings",
+      "publishedAtSgt": "2026-11-03T18:34:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Apple and Palantir shares fell in premarket trading Tuesday after both announced earnings after the bell on Monday. The iPhone maker reported better-than-expected revenue in its fourth-quarter earnings, but fell short of estimates on iPad sales and issued a margin forecast that disappointed investors. Investors will \"no doubt be looking for evidence in subsequent quarters that 11% growth in U.S.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "735a29243a96d9ab2bf5e8a8d737b05dfde10c17fd7807486e25bee65d902f7e",
+      "source": "CNBC",
+      "title": "Oil prices climb after U.S. strikes Iran's Qeshm Island",
+      "publishedAtSgt": "2026-11-03T17:58:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "and Iranian presidents signaled they are open to a diplomatic solution to the Iran war, which saw oil prices sell off over 7% on Monday. High oil prices have contributed substantially to inflation and high gasoline prices in the U.S., which have become a cause of concern for Trump ahead of the midterm elections. Higher rates generally crimp growth and raise costs for consumers, but help to bring down inflation.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "ec5d2d612a0b6884a9da617884ccb1e02975dfd99abe3846598f4be8c58c25a9",
+      "source": "CNBC",
+      "title": "A little-known biotech’s high-stakes cancer bet just paid off and its shares doubled",
+      "publishedAtSgt": "2026-11-03T17:35:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/genmab-cancer-drugs-petosemtamab.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Danish biotech Genmab has seen its shares double in three months after a string of major cancer drug trial successes, giving fresh momentum to its push to take greater control of the medicines it develops and sells. Shares in the roughly $35 billion company surged 48% last week, including a 29% jump in a single session after strong results for petosemtamab, its experimental head and neck cancer treatment.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "a3d99a35fdf3dd2a6847e2d0f36bc5adb43bd846501901e05e0ca841da3c3ec3",
+      "source": "CNBC",
+      "title": "Brookfield plans for a $27 billion AI data center at UK power station",
+      "publishedAtSgt": "2026-11-03T17:30:35+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Brookfield is targeting a massive artificial intelligence data center in the north of England, as Europe scrambles to develop infrastructure to support the rollout of AI amid high energy and land costs. Energy company Drax Group said Tuesday it has signed an agreement with Brookfield and the asset manager's neocloud platform Radiant to jointly develop an AI data center on the Drax Power Station estate in North Yorkshire.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "6e0dd0348f2dea185f838b4b9f43a37d8b6bf27855017d4dcd939402a20bcf5a",
+      "source": "CNBC",
+      "title": "Aramco's profit rises as refining margins strengthen amid Iran war",
+      "publishedAtSgt": "2026-11-03T15:24:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/saudi-aramcos-third-quarter-middle-east-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Saudi oil giant posted adjusted net income of $31.2 billion for the quarter, up from $28.6 billion a year earlier. Aramco's downstream business, which processes crude oil into fuels and other products, posted adjusted earnings before interest and taxes of $10.3 billion, up 234% from a year earlier, driven by stronger refining margins.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "48483a1ae5af7ccffb61790a14c767bc4081d6dd187a4fd1c1a30206c867ff1d",
+      "source": "CNBC",
+      "title": "Blackstone president calls for more equity to fund AI buildout as debt risks mount",
+      "publishedAtSgt": "2026-11-03T14:46:36+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/equity-ai-debt-blackstone-pimco-financing.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 80,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The artificial intelligence infrastructure buildout will need more equity financing as lenders become increasingly exposed to the companies driving the buildout, Blackstone President Jon Gray said Tuesday. Speaking at the Hong Kong Monetary Authority’s Global Financial Leaders’ Investment Summit, Gray said the scale of capital required for AI is creating concentration risks for debt investors, both across the sector and at individual companies.",
+      "feeds": [
+        "latest",
+        "finance",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "2f5ecd1781753920d7c56cdf44d59d1b4050e66fb2b86a42a6bf3563cda9ff1c",
+      "source": "CNBC",
+      "title": "Australia hikes rates to 18-year high to fight inflation",
+      "publishedAtSgt": "2026-11-03T11:46:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Australia's central bank raised its benchmark cash rate by 25 basis points to 4.85% on Tuesday, the highest level since November 2008. The central bank also said inflation is now expected to \"remain elevated through much of 2027,\" and not expected to fall back into its 2%-3% target range till late 2027, three quarters later than previously forecast.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
     {
       "id": "591c4e2fb8fc21ab937993e1819fe4041e443249707aff6b76f579639951ce15",
       "source": "CNBC",
@@ -1452,134 +1585,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-10-29T07:15:39+08:00"
-    },
-    {
-      "id": "54214e8a4bc9f6a7ccde872a82530b2f77236383d340102bc5a253446aa01ba0",
-      "source": "CNBC",
-      "title": "Oracle stock pops 10% on forecast for 35% average revenue growth through 2030",
-      "publishedAtSgt": "2026-10-29T02:52:11+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oracle shares jumped on Wednesday after the software company issued a revenue forecast of $225 billion for fiscal 2030, implying 35% average annual growth, and said it will limit additional fundraising over that stretch to $20 billion. Analysts polled by LSEG expected growth of 8% in fiscal 2027, followed by significant acceleration over the next two years.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-29T02:53:48+08:00"
-    },
-    {
-      "id": "c9b8b83e4d5bd9130bb929314897a7e8da0e87ee90b008b9393975cdfa9299de",
-      "source": "CNBC",
-      "title": "Fed holds rates steady despite concerns over inflation",
-      "publishedAtSgt": "2026-10-29T02:50:51+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "In a widely expected decision, the Federal Open Market Committee kept the overnight funds rate in a range between 3.75%-4%, where it has been since the central bank approved a quarter percentage-point increase in September. Fed officials consider political independence to be a cornerstone of the central bank, but some observers have speculated that officials won't want to raise rates this close to an election.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-29T02:53:53+08:00"
-    },
-    {
-      "id": "04742b5bd1f3d2eba2657985a27183fb4f188025b3ca4aa96d0538b0144654d5",
-      "source": "CNBC",
-      "title": "We're adding a new, high-profile AI play to our Bullpen stocks to watch list",
-      "publishedAtSgt": "2026-10-29T02:33:53+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/28/were-adding-a-new-high-profile-ai-stock-to-our-bullpen.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "SPCX mountain 2026-06-11 SpaceX stock performance since mid-June IPO Space has three distinct segments: Space (rockets and satellites), Connectivity (Starlink), and SI (Super Intelligence), which was previously called AI. One is increasing launch payload capacity, while the other is to \"establish the lunar economy, including cargo transport, manufacturing, and energy production on the moon.\" The Starship spacecraft generates sales through commercial launches and government contracts.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-29T02:53:51+08:00"
-    },
-    {
-      "id": "25ab205ccda5838a9cf946b11bf0a28bc588a26cf4f08b8f26938b3a6db10dca",
-      "source": "CNBC",
-      "title": "Anthropic IPO filing warns some risks may be uninsurable. AI coverage will be issue for every company",
-      "publishedAtSgt": "2026-10-29T02:32:45+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/anthropic-ipo-ai-risks-insurance.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Anthropic's IPO filing includes many words covering many risks, from IP theft to security incidents, data loss, climate change, rogue agents and all the way to an existential crisis for humanity. Is it even possible to provide a policy for all of the ways that AI could go wrong? It's just a technology through which existing familiar categories of harms and losses might manifest,\" said Kim, who noted that trying to separate out AI into its own insurance category could be very tedious.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-29T02:53:52+08:00"
-    },
-    {
-      "id": "bb9f6f2f52034c2461271c4a7a2f0c0965edb86e22dbf32767f5dcbe04287d4c",
-      "source": "CNBC",
-      "title": "Looking for yield? This could be one of the best times in recent market history to buy corporate bonds",
-      "publishedAtSgt": "2026-10-29T02:01:20+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/buy-bonds-yields.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "With the 10-year Treasury yield still flirting around 5% and the Federal Reserve holding rates steady at its FOMC meeting on Wednesday, fixed income experts say the environment for highly rated investment-grade corporates is attractive — some have called it a \"generational opportunity.\" Leading the market are hyperscalers including Alphabet, Amazon, Meta and Microsoft, companies that have been aggressively issuing debt for artificial intelligence projects, including buying chips and building...",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-29T02:53:50+08:00"
-    },
-    {
-      "id": "03faf7bb9063a6aec845891415e6ef9ed1153aa2d56b75a20451cf19b406444c",
-      "source": "CNBC",
-      "title": "Watch Live: Options traders break down a massive Alphabet trade into earnings",
-      "publishedAtSgt": "2026-10-29T01:56:10+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/alphabet-microsoft-report-after-the-bell-what-options-trader-see.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The trade target a move higher to $365, a 13% jump from its current price. The trade is a bet the in the near term, the worst is behind Alphabet, which has seen its shares fall nearly 20% from its all time highs reached back in May. 300-strike puts at $2.15 per contract for a total debit of $2.5M This is a trade that looks to take advantage of high near-term volatility in Alphabet's shorter dated puts.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-29T02:53:49+08:00"
-    },
-    {
-      "id": "a893148db6cc220382734b5f4462ea7724b8ddf89647e7bfb8261ce9fbe35234",
-      "source": "CNBC",
-      "title": "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
-      "publishedAtSgt": "2026-10-29T01:39:43+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/trump-tariffs-corruption-raskin.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Raskin, the ranking member of the House Judiciary Committee and the former top Democrat on the House oversight committee, highlighted three such tariff carve-outs — for Brazilian meat, diamonds and smartphones — that he says \"make little to no sense\" under the criteria set by the Trump administration.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-29T02:53:48+08:00"
-    },
-    {
-      "id": "66e895d2b8ac7649be9239db0d42816cf671fe96d04221fde79d4817d8be849d",
-      "source": "CNBC",
-      "title": "Alphabet set to report Q3 earnings after the bell as shaky AI trade looks for signs of strength",
-      "publishedAtSgt": "2026-10-29T00:33:22+08:00",
-      "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Still, the report arrives at a skittish moment on Wall Street, with investors growing more concerned about the costs tied to the artificial intelligence buildout. As Google continues to open its wallet to fuel expansion, it's getting rewarded with revenue growth in its cloud division, home to its AI offerings. \"Google continues to be well-positioned across AI,\" analysts at Citizens – who recommend buying the stock – wrote in a report last week.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-29T02:53:50+08:00"
     }
   ]
 }

@@ -5,6 +5,139 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "d1654b2181ec73ded1dc07a0841cc9b1e8d726b1a61126dba3a58b9e9f608579",
+      "source": "CNBC",
+      "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
+      "publishedAtSgt": "2026-11-03T19:54:28+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "As far as certain stocks to watch, a big Democratic win on Tuesday night — especially in the Texas governor race — could add fuel to an AI stock sell-off on the notion that more data center restrictions would gain momentum nationally. A blue wave might pressure defense shares, while boosting health care stocks, analysts and investors said.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "bc8df80f2c03ff59b60240e69eb5e30acb5aed0856e675cbb693a5878a973ca2",
+      "source": "CNBC",
+      "title": "Apple shares slide after weak margin outlook; Palantir slumps 8% after earnings",
+      "publishedAtSgt": "2026-11-03T18:34:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Apple and Palantir shares fell in premarket trading Tuesday after both announced earnings after the bell on Monday. The iPhone maker reported better-than-expected revenue in its fourth-quarter earnings, but fell short of estimates on iPad sales and issued a margin forecast that disappointed investors. Investors will \"no doubt be looking for evidence in subsequent quarters that 11% growth in U.S.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "735a29243a96d9ab2bf5e8a8d737b05dfde10c17fd7807486e25bee65d902f7e",
+      "source": "CNBC",
+      "title": "Oil prices climb after U.S. strikes Iran's Qeshm Island",
+      "publishedAtSgt": "2026-11-03T17:58:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "and Iranian presidents signaled they are open to a diplomatic solution to the Iran war, which saw oil prices sell off over 7% on Monday. High oil prices have contributed substantially to inflation and high gasoline prices in the U.S., which have become a cause of concern for Trump ahead of the midterm elections. Higher rates generally crimp growth and raise costs for consumers, but help to bring down inflation.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "ec5d2d612a0b6884a9da617884ccb1e02975dfd99abe3846598f4be8c58c25a9",
+      "source": "CNBC",
+      "title": "A little-known biotech’s high-stakes cancer bet just paid off and its shares doubled",
+      "publishedAtSgt": "2026-11-03T17:35:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/genmab-cancer-drugs-petosemtamab.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Danish biotech Genmab has seen its shares double in three months after a string of major cancer drug trial successes, giving fresh momentum to its push to take greater control of the medicines it develops and sells. Shares in the roughly $35 billion company surged 48% last week, including a 29% jump in a single session after strong results for petosemtamab, its experimental head and neck cancer treatment.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "a3d99a35fdf3dd2a6847e2d0f36bc5adb43bd846501901e05e0ca841da3c3ec3",
+      "source": "CNBC",
+      "title": "Brookfield plans for a $27 billion AI data center at UK power station",
+      "publishedAtSgt": "2026-11-03T17:30:35+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Brookfield is targeting a massive artificial intelligence data center in the north of England, as Europe scrambles to develop infrastructure to support the rollout of AI amid high energy and land costs. Energy company Drax Group said Tuesday it has signed an agreement with Brookfield and the asset manager's neocloud platform Radiant to jointly develop an AI data center on the Drax Power Station estate in North Yorkshire.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "6e0dd0348f2dea185f838b4b9f43a37d8b6bf27855017d4dcd939402a20bcf5a",
+      "source": "CNBC",
+      "title": "Aramco's profit rises as refining margins strengthen amid Iran war",
+      "publishedAtSgt": "2026-11-03T15:24:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/saudi-aramcos-third-quarter-middle-east-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Saudi oil giant posted adjusted net income of $31.2 billion for the quarter, up from $28.6 billion a year earlier. Aramco's downstream business, which processes crude oil into fuels and other products, posted adjusted earnings before interest and taxes of $10.3 billion, up 234% from a year earlier, driven by stronger refining margins.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "48483a1ae5af7ccffb61790a14c767bc4081d6dd187a4fd1c1a30206c867ff1d",
+      "source": "CNBC",
+      "title": "Blackstone president calls for more equity to fund AI buildout as debt risks mount",
+      "publishedAtSgt": "2026-11-03T14:46:36+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/equity-ai-debt-blackstone-pimco-financing.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 80,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The artificial intelligence infrastructure buildout will need more equity financing as lenders become increasingly exposed to the companies driving the buildout, Blackstone President Jon Gray said Tuesday. Speaking at the Hong Kong Monetary Authority’s Global Financial Leaders’ Investment Summit, Gray said the scale of capital required for AI is creating concentration risks for debt investors, both across the sector and at individual companies.",
+      "feeds": [
+        "latest",
+        "finance",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "id": "2f5ecd1781753920d7c56cdf44d59d1b4050e66fb2b86a42a6bf3563cda9ff1c",
+      "source": "CNBC",
+      "title": "Australia hikes rates to 18-year high to fight inflation",
+      "publishedAtSgt": "2026-11-03T11:46:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Australia's central bank raised its benchmark cash rate by 25 basis points to 4.85% on Tuesday, the highest level since November 2008. The central bank also said inflation is now expected to \"remain elevated through much of 2027,\" and not expected to fall back into its 2%-3% target range till late 2027, three quarters later than previously forecast.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
       "id": "591c4e2fb8fc21ab937993e1819fe4041e443249707aff6b76f579639951ce15",
       "source": "CNBC",
       "title": "Apple's quarter is not perfect. But with enough to like, we raised our price target",
@@ -222,6 +355,6 @@
       "collectedAtSgt": "2026-11-03T04:23:39+08:00"
     }
   ],
-  "articleCount": 14,
-  "updatedAtSgt": "2026-11-03T11:29:37+08:00"
+  "articleCount": 22,
+  "updatedAtSgt": "2026-11-03T19:59:03+08:00"
 }
