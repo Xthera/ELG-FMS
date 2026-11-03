@@ -1,10 +1,430 @@
 {
-  "generatedAtSgt": "2026-11-03T04:40:43.770740+08:00",
+  "generatedAtSgt": "2026-11-03T20:14:58.769148+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 238,
+  "articleCount": 252,
   "analyses": [
+    {
+      "articleId": "d1654b2181ec73ded1dc07a0841cc9b1e8d726b1a61126dba3a58b9e9f608579",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Midterm election outcomes, particularly a Democratic sweep and potential wins in governor races such as Texas, could trigger volatility in the stock market. Analysts indicate it may exacerbate an AI stock sell-off due to anticipated data center restrictions, pressure defense shares, and potentially boost healthcare stocks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "Texas"
+      ],
+      "sectors": [
+        "Technology",
+        "Defense",
+        "Healthcare"
+      ],
+      "investorImpact": "Investors holding positions in AI-related technology, defense, and healthcare sectors should monitor midterm election results closely, as political shifts could lead to regulatory pressures or tailwinds affecting sector-specific valuations.",
+      "reasoning": "The article is classified under MARKET as it discusses the potential impact of US midterm elections on stock prices across various sectors. Sentiment is MIXED since some sectors face downward pressure while others could benefit. It is relevant for fund monitoring as political changes can induce sector-specific volatility.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
+      "publishedAtSgt": "2026-11-03T19:54:28+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "articleId": "bc8df80f2c03ff59b60240e69eb5e30acb5aed0856e675cbb693a5878a973ca2",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Apple and Palantir shares declined in premarket trading after reporting earnings. Apple reported strong overall Q4 revenue but missed estimates on iPad sales and issued a disappointing margin forecast. Palantir shares slumped 8% following its earnings report.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors in Apple and Palantir face downward pressure on share prices due to disappointing margins and earnings reactions, signaling caution for tech sector valuations.",
+      "reasoning": "Classified as MARKET and HIGH importance because it details significant premarket stock declines for major technology bellwethers following earnings and forward guidance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Apple shares slide after weak margin outlook; Palantir slumps 8% after earnings",
+      "publishedAtSgt": "2026-11-03T18:34:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "articleId": "735a29243a96d9ab2bf5e8a8d737b05dfde10c17fd7807486e25bee65d902f7e",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Oil prices climbed following a U.S. strike on Iran's Qeshm Island, interrupting a recent sell-off driven by signals of openness to a diplomatic solution. High oil prices remain a significant driver of U.S. inflation and gasoline costs, presenting economic and political pressures.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "United States",
+        "Iran"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "The escalation in geopolitical tensions directly impacts oil prices and energy sector valuations, which in turn affect broader inflation metrics and monetary policy expectations.",
+      "reasoning": "Classified as GEOPOLITICAL due to military strikes involving the U.S. and Iran, carrying high importance for energy markets and macro inflation monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil prices climb after U.S. strikes Iran's Qeshm Island",
+      "publishedAtSgt": "2026-11-03T17:58:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "articleId": "ec5d2d612a0b6884a9da617884ccb1e02975dfd99abe3846598f4be8c58c25a9",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Danish biotech Genmab experienced a doubling of its share price over three months, driven by successful clinical trials for its cancer treatment petosemtamab, highlighting strong momentum in the biotech sector.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "Denmark"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Biotechnology"
+      ],
+      "investorImpact": "Demonstrates the high-growth potential and volatility inherent in individual biotech stocks driven by clinical trial outcomes, offering positive sentiment for specialized healthcare strategies.",
+      "reasoning": "Classified as MARKET due to direct impact on company valuation and stock performance following clinical trial results. Sentiment is POSITIVE due to soaring share prices, and importance is MEDIUM as it is a single-company event rather than a macroeconomic shift.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "A little-known biotech’s high-stakes cancer bet just paid off and its shares doubled",
+      "publishedAtSgt": "2026-11-03T17:35:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/genmab-cancer-drugs-petosemtamab.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "articleId": "a3d99a35fdf3dd2a6847e2d0f36bc5adb43bd846501901e05e0ca841da3c3ec3",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Brookfield and its neocloud platform Radiant have signed an agreement with Drax Group to jointly develop a $27 billion artificial intelligence data center at the Drax Power Station estate in North Yorkshire, addressing Europe's growing need for AI infrastructure supported by reliable energy.",
+      "assetClasses": [
+        "Private Equity",
+        "Infrastructure",
+        "Real Estate"
+      ],
+      "geographies": [
+        "United Kingdom",
+        "Europe"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy",
+        "Data Centers"
+      ],
+      "investorImpact": "This massive infrastructure investment highlights significant capital deployment into AI-enabling physical assets, particularly the intersection of data center development and power generation, offering potential growth opportunities for infrastructure funds and energy-adjacent sectors.",
+      "reasoning": "The article is classified as TECHNOLOGY due to its focus on a major AI data center development. It is important and fund-monitoring relevant because it outlines a multi-billion-dollar infrastructure project combining asset management, AI cloud platforms, and energy supply.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Brookfield plans for a $27 billion AI data center at UK power station",
+      "publishedAtSgt": "2026-11-03T17:30:35+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "articleId": "6e0dd0348f2dea185f838b4b9f43a37d8b6bf27855017d4dcd939402a20bcf5a",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Saudi Aramco posted an adjusted net income of $31.2 billion for the quarter, up from $28.6 billion a year earlier, driven by stronger refining margins in its downstream business amid geopolitical tensions.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "Saudi Arabia",
+        "Middle East"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Stronger refining margins and higher profits for a major energy producer indicate robust cash flows and stability in the energy sector, offering positive sentiment for energy equities and broader commodity markets.",
+      "reasoning": "The article reports quarterly earnings and operational performance for a globally significant energy company influenced by geopolitical conditions, making it critical for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Aramco's profit rises as refining margins strengthen amid Iran war",
+      "publishedAtSgt": "2026-11-03T15:24:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/saudi-aramcos-third-quarter-middle-east-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "articleId": "48483a1ae5af7ccffb61790a14c767bc4081d6dd187a4fd1c1a30206c867ff1d",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "Blackstone President Jon Gray stated at a summit that the artificial intelligence infrastructure buildout requires more equity financing because debt risks and concentration limits are mounting for lenders exposed to the sector.",
+      "assetClasses": [
+        "Equity",
+        "Debt"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors should note that reliance on debt for AI infrastructure may face headwinds due to concentration risk, shifting more funding requirements toward equity markets.",
+      "reasoning": "The article addresses systemic financing risks in AI infrastructure, directly impacting technology and capital markets, making it highly relevant for investment monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Blackstone president calls for more equity to fund AI buildout as debt risks mount",
+      "publishedAtSgt": "2026-11-03T14:46:36+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/equity-ai-debt-blackstone-pimco-financing.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 80,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "articleId": "2f5ecd1781753920d7c56cdf44d59d1b4050e66fb2b86a42a6bf3563cda9ff1c",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Australia's central bank raised its benchmark cash rate by 25 basis points to 4.85% on Tuesday, the highest level since November 2008. The central bank also noted that inflation is expected to remain elevated through much of 2027 and not return to the 2%-3% target range until late 2027.",
+      "assetClasses": [
+        "Fixed Income",
+        "Currencies",
+        "Equities"
+      ],
+      "geographies": [
+        "Australia"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Higher interest rates increase borrowing costs for consumers and businesses, potentially weighing on equity valuations and domestic economic growth while increasing yields on fixed income assets.",
+      "reasoning": "The article details a significant central bank rate hike to an 18-year high and persistent inflation forecasts, which directly impacts monetary policy expectations, currency strength, and asset pricing in Australia.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Australia hikes rates to 18-year high to fight inflation",
+      "publishedAtSgt": "2026-11-03T11:46:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
+    },
+    {
+      "articleId": "591c4e2fb8fc21ab937993e1819fe4041e443249707aff6b76f579639951ce15",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Apple shares fell following its quarterly report, which beat expectations overall but featured mixed guidance driven by slowing services revenue growth and high memory costs impacting margins. Despite this, analysts raised their price target.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors face mixed signals as Apple demonstrates strong overall quarterly results counterbalanced by margin pressures from memory costs and decelerating services growth, leading to short-term share price weakness despite long-term confidence.",
+      "reasoning": "Classified as MARKET due to direct stock performance and price target adjustments following quarterly earnings. Sentiment is MIXED as strong results are offset by margin headwinds and mixed guidance, making it important for fund monitoring of major tech holdings.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Apple's quarter is not perfect. But with enough to like, we raised our price target",
+      "publishedAtSgt": "2026-11-03T08:55:36+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/02/apples-quarter-is-not-perfect-but-with-enough-to-like-we-raised-our-price-target.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-03T11:29:37+08:00"
+    },
+    {
+      "articleId": "17a16327d0bf4b1b2a67cdfcc521630217021cbeb6bc58b20ff059785974c3c2",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "LOW",
+      "summary": "CNBC commentator Jim Cramer highlighted six fashion and apparel stocks as attractive investment alternatives outside of the AI trade, noting reasonable valuations around 14 times earnings, dividend yields near 3%, and growth potential.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Apparel"
+      ],
+      "investorImpact": "Provides potential stock ideas for sector diversification away from technology and AI-heavy portfolios, appealing to value and dividend-seeking investors.",
+      "reasoning": "Classified as MARKET since it discusses specific equity sector alternatives and stock picks by a market commentator, but importance is LOW as it relies on television commentary rather than systemic macroeconomic data.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Jim Cramer says these six fashion stocks are buys beyond the AI trade",
+      "publishedAtSgt": "2026-11-03T07:54:27+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/jim-cramer-fashion-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-03T11:29:36+08:00"
+    },
+    {
+      "articleId": "969de932010359e3592c4a15668d774852c7e87997e12c98faf686117412fc12",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer highlighted that lower oil prices and falling Treasury yields are driving a broader stock market rally, prompting investors to look beyond tech stocks and revisit previously overlooked earnings reports.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Technology",
+        "Consumer Discretionary"
+      ],
+      "investorImpact": "Declining oil prices and Treasury yields create a supportive macro backdrop for broader equity market rallies, enabling rotation out of mega-cap tech into other sectors like consumer discretionary.",
+      "reasoning": "Classified as MARKET because it discusses broad equity market movements and sector rotations driven by macroeconomic factors like oil prices and yields. Sentiment is POSITIVE due to the stock market boost and rally mentioned. Fund monitoring is relevant as macro conditions impact sector allocation strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer says lower oil prices are giving stocks a boost. Can it last?",
+      "publishedAtSgt": "2026-11-03T07:36:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/jim-cramer-oil-yields-non-tech-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-03T11:29:37+08:00"
+    },
+    {
+      "articleId": "7c00a47c59e37b41788037887ba18f466f296738cbc5cca13c6b654e9717aae1",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Palantir reported booming U.S. commercial revenue growth, topping government revenue for the first time as businesses increasingly adopt its artificial intelligence tools.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Software"
+      ],
+      "investorImpact": "Demonstrates strong commercial adoption of AI software, which could influence valuations and investor sentiment across the software and AI sectors.",
+      "reasoning": "The article highlights significant financial and operational milestones for a major market participant in the AI software sector, impacting market expectations and equity valuations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
+      "publishedAtSgt": "2026-11-03T06:53:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-03T11:29:36+08:00"
+    },
+    {
+      "articleId": "b8d29d836913174a058f66f848abafb4e0d3830371b807d48972f86785ef33a4",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Kimberly-Clark has completed its acquisition of Tylenol maker Kenvue. Following recent strong stock performance and a dividend yield of 4.73%, income-focused investors are advised by Jim to wait for market weakness before acquiring additional shares.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Consumer Staples",
+        "Healthcare"
+      ],
+      "investorImpact": "Income-focused investors should note Kimberly-Clark's high dividend yield and recent corporate acquisition, while considering waiting for potential share price pullbacks before buying.",
+      "reasoning": "The article details a major corporate M&A transaction involving Kimberly-Clark and Kenvue, alongside portfolio strategy advice for dividend investors, making it relevant for market and equity fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Kimberly-Clark closes its acquisition of Tylenol maker Kenvue. What to expect next",
+      "publishedAtSgt": "2026-11-03T05:35:06+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/02/kimberly-clark-closes-its-acquisition-of-tylenol-maker-kenvue-what-to-expect-next.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-03T11:29:36+08:00"
+    },
+    {
+      "articleId": "a1da9cbf2de6d0ecacf3d3da5d32b0d352ff88bc55d23b018f13e10e0441a0e6",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Series I savings bonds now offer a composite interest rate of 5.51%, driven by a variable rate of 4.08% and a fixed rate of 1.40%, the highest fixed rate since 2006. This appeals to conservative or longer-term investors seeking inflation protection.",
+      "assetClasses": [
+        "Fixed Income",
+        "Government Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Government"
+      ],
+      "investorImpact": "Investors can lock in a 1.40% fixed return for the life of the bond alongside current inflation adjustments, making I bonds an attractive option for conservative portfolios and emergency cash allocations.",
+      "reasoning": "The article is classified as MARKET because it details updated interest rates and yields for government-backed savings instruments, which directly impacts fixed-income investment strategies and retail asset allocation.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "I bonds now pay 5.51% — but there are trade-offs. What to know before buying",
+      "publishedAtSgt": "2026-11-03T04:57:50+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/i-bonds-rate.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-03T11:29:37+08:00"
+    },
     {
       "articleId": "288529f4027f8bde85680b52cbf151a57bd86df922765b0a6c7d559865252d1d",
       "relevant": true,
