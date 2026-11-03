@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "359ea0e6470a503bd38ce344ac592bfcac3d515350d46310faf585fb3bef744d",
+      "source": "CNBC",
+      "title": "Election Day: Here is the No. 1 issue we're watching as a signal for stocks",
+      "publishedAtSgt": "2026-11-04T03:29:41+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/03/election-day-here-is-the-no-1-issue-were-watching-as-a-signal-for-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The rotation back into chip stocks comes after Apple shares fell about 2% after providing a disappointing gross margin outlook due to the rising cost of memory chips, which are made by Micron . The recent trend has been for bond prices to rally in a flight to safety when AI stocks sell off. With chip stocks and other AI names rebounding, we're seeing the reverse, with bond prices falling and yields rising.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:28+08:00"
+    },
+    {
+      "id": "8621bf70cd22e87fa1218e33701f8503680480a0298dd05f39b1a6b5f819f82f",
+      "source": "CNBC",
+      "title": "Options traders are betting heavily on these stocks ahead of election results",
+      "publishedAtSgt": "2026-11-04T03:22:30+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/options-traders-are-betting-heavily-on-these-stocks-ahead-of-election-results.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "With prediction markets pricing in a big victory for Democrats in Tuesday's midterm elections, traders are leaning into a group of stocks that investors often categorize as beneficiaries of left-wing leadership. Options trading in clean-energy stocks, particularly solar companies, surged on Tuesday, despite a five-month sell-off in the group that's left most of the companies in the industry group down on the year.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:26+08:00"
+    },
+    {
+      "id": "1413442fedb31c278a9c883903340f3599a50b02d65e0b9b993933436e275f7c",
+      "source": "CNBC",
+      "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
+      "publishedAtSgt": "2026-11-04T03:15:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Openings rose in manufacturing (54,000) as well as state and local government (108,000) and professional and business services (106,000). \"It's an encouraging sign that despite all the headwinds right now with high diesel and gas prices and ongoing inflation problems, companies are slowly increasing their hiring.\" Hires rose on the month, up 131,000 to 5.4 million, while layoffs and discharges fell by 127,000 to 1.64 million, the lowest since March 2025.",
+      "feeds": [
+        "latest",
+        "economy"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:27+08:00"
+    },
+    {
+      "id": "1dc0ff47c4715687c6fe075d75e297df3210cc1dc93a6bb9cf98c88444cbaca0",
+      "source": "CNBC",
+      "title": "Sullivan: What the 2026 midterms could mean for energy investors",
+      "publishedAtSgt": "2026-11-04T03:03:06+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/2026-midterms-energy-investors.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Don't expect huge near-term moves in energy stocks off the results of the midterms. As far as power-hungry utility stocks go, Bank of America agrees with my election take above - mostly. Higher prices mean many big-cap oil and gas stocks keep going higher.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:26+08:00"
+    },
+    {
+      "id": "4bd38fff42b315e9ff9fdbbfd95f23f47c7570bf94096dc8c76002db8c8d4f23",
+      "source": "CNBC",
+      "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
+      "publishedAtSgt": "2026-11-04T02:52:06+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Ferrari said Tuesday that the guidance improvements were a result of stronger-than-expected customer personalizations, lower than anticipated currency headwinds and a second place finish in the Formula 1 championship. However, he said shares may be \"under slight pressure given some were hoping for a bigger guidance raise, but expect it to get better once folks realize these results are healthy.\" Ferrari's U.S.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:28+08:00"
+    },
+    {
+      "id": "fbfd6362eaf69d8ded0f2c40900596de3447233d0a7e2d3f32201a54716baebb",
+      "source": "CNBC",
+      "title": "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
+      "publishedAtSgt": "2026-11-04T02:33:49+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "Meta is seeking to raise between $20 billion and $25 billion in a bond sale on Tuesday as the company ramps up its spending on artificial intelligence infrastructure along with AI models and services. Final pricing for the bond sale should come Tuesday afternoon, the sources said. Meta previously raised $25 billion in an April bond sale, and said last week that it plans to raise $95 billion in an effort to fund its AI initiatives.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:26+08:00"
+    },
+    {
+      "id": "516ce8effc445d394a50b1f0987e7fc68c458bd1e76ddd2e255ea17557003133",
+      "source": "CNBC",
+      "title": "Shopify falls 7% after Q3 revenue and merchandise volume miss estimates",
+      "publishedAtSgt": "2026-11-04T00:53:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/shopify-q3-2026-earnings-gmv.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of e-commerce platform Shopify fell 7% on Tuesday after the company missed estimates on subscription gross profit and gross merchandise volume. Shopify said it sees revenue growth in the \"low thirties\" range year over year for the fourth quarter, versus LSEG estimates of 32.1%.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:28+08:00"
+    },
+    {
+      "id": "85932471386709edf112ef74288b8a198b25253c6cda6ab40ff4fa69d1947943",
+      "source": "CNBC",
+      "title": "Bill Ackman warns of 'casino' stock market as speculative trading grows",
+      "publishedAtSgt": "2026-11-04T00:23:26+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/bill-ackman-casino-stock-market.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Every number of days, I feel like markets are broken,\" Ackman said on CNBC's \"Squawk Box.\" \"Stocks trade at prices that make no sense to me. \"I don't think that's inherently good for the economy, for society, and it's leading to these massive moves in stocks.\" The founder of Pershing Square Capital Management said those same dislocations in the market have given the hedge fund the opportunity to snag big bargains.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:27+08:00"
+    }
+  ],
+  "articleCount": 8,
+  "updatedAtSgt": "2026-11-04T04:09:28+08:00"
+}

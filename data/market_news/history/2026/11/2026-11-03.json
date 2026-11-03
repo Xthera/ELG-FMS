@@ -5,6 +5,85 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "915c6e84415b3fba595ab49fdb9bb2c9d254933bb3f0960d8c9eaf39760e1906",
+      "source": "CNBC",
+      "title": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
+      "publishedAtSgt": "2026-11-03T23:19:14+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Yum Brands on Tuesday reported earnings that beat expectations, but a cyclospora outbreak linked to iceberg lettuce at Taco Bell weighed on the company's same-store sales growth. However, Yum said Taco Bell, which the company considers a \"growth engine\" for its business, has since rebounded. has been outpacing the [quick-service restaurant] industry on same-store sales growth,\" Yum CEO Chris Turner said in a statement.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:44+08:00"
+    },
+    {
+      "id": "1fb1a7d97702a46c0ad6092726a9ba2bf4fe21b2722844cda22e6338d14141dc",
+      "source": "CNBC",
+      "title": "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
+      "publishedAtSgt": "2026-11-03T22:38:03+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "John Ternus' first earnings report as Apple CEO was going fine until it was time to issue a forecast for the company's gross margin, one of the key metrics followed by investors. \"This includes primarily the impact of higher memory costs, as well as some costs related to the ramp of Siri AI,\" Parekh said. Apple shares slid 3% in morning trading on Tuesday.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:43+08:00"
+    },
+    {
+      "id": "94f6add9df93c831d3cba648296c9245531b04bfcbb4e564c4af9d76d8afa7c0",
+      "source": "CNBC",
+      "title": "Versant earnings beat expectations as digital platforms drive growth",
+      "publishedAtSgt": "2026-11-03T22:17:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/versant-vsnt-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Versant Media on Tuesday reported quarterly earnings and revenue that beat expectations and reaffirmed its full-year 2026 guidance, citing strength across its portfolio and growth in its platforms revenue. Versant said Fandango saw \"significant growth\" in ticketing revenue in the third quarter, notching its highest level since the pandemic. The company also launched MS NOW's direct-to-consumer product and Fandango's on-demand product as new growth drivers.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:43+08:00"
+    },
+    {
+      "id": "a30b517e2fa9506fe9ad71126c701561f71ce517eadc5e2179c63d48c94adf1c",
+      "source": "CNBC",
+      "title": "Santoli: AI bull market almost surely needs tech stocks to recover to keep advancing",
+      "publishedAtSgt": "2026-11-03T21:01:23+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/santoli-ai-bull-market-needs-tech-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The market action is winning some plaudits for the way non-tech stocks have held up better, many groups benefiting from the \"quality\" rotation while abandoned consumer cyclicals get a reprieve from easing oil prices and the slide in the 10-year Treasury yield back below 5%. AI-stock setbacks also mute inflation momentum and the equity wealth effect, meaning fewer Federal Reserve rate hikes are anticipated now versus a month ago.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:44+08:00"
+    },
+    {
+      "id": "a772c387e961bc1822efc099c6bbb5676b354a8c7d38da03c0403502914c78db",
+      "source": "CNBC",
+      "title": "New national home listing database is taking on Compass in the battle for control of real estate information",
+      "publishedAtSgt": "2026-11-03T21:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/national-home-listing-database-battles-compass-in-real-estate-info-war.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A version of this article first appeared in the CNBC Property Play newsletter with Diana Olick. Property Play covers new and evolving opportunities for the real estate investor, from individuals to venture capitalists, private equity funds, family offices, institutional investors and large public companies. Pareja said the four founders are going to make the investment into the infrastructure and the technology.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-04T04:09:43+08:00"
+    },
+    {
       "id": "d1654b2181ec73ded1dc07a0841cc9b1e8d726b1a61126dba3a58b9e9f608579",
       "source": "CNBC",
       "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
@@ -355,6 +434,6 @@
       "collectedAtSgt": "2026-11-03T04:23:39+08:00"
     }
   ],
-  "articleCount": 22,
-  "updatedAtSgt": "2026-11-03T19:59:03+08:00"
+  "articleCount": 27,
+  "updatedAtSgt": "2026-11-04T04:09:44+08:00"
 }
