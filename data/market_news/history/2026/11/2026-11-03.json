@@ -5,6 +5,98 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "591c4e2fb8fc21ab937993e1819fe4041e443249707aff6b76f579639951ce15",
+      "source": "CNBC",
+      "title": "Apple's quarter is not perfect. But with enough to like, we raised our price target",
+      "publishedAtSgt": "2026-11-03T08:55:36+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/02/apples-quarter-is-not-perfect-but-with-enough-to-like-we-raised-our-price-target.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Apple shares fell Monday evening after the iPhone maker delivered a better-than-expected quarter but offered mixed guidance due to a slowdown in services revenue growth and high memory costs eating into margins. Bottom line We remain \"own it, don't trade it\" on Apple stock. During an October in which tech stocks were hammered by concerns over AI funding, Apple stood out, hitting a new all-time high late in the month.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-03T11:29:37+08:00"
+    },
+    {
+      "id": "17a16327d0bf4b1b2a67cdfcc521630217021cbeb6bc58b20ff059785974c3c2",
+      "source": "CNBC",
+      "title": "Jim Cramer says these six fashion stocks are buys beyond the AI trade",
+      "publishedAtSgt": "2026-11-03T07:54:27+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/jim-cramer-fashion-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer highlighted six fashion and apparel stocks on Monday for investors looking for alternatives to the struggling AI trade. Shares trade at roughly 14 times earnings and offer a dividend yield near 3%. The women's fashion brand initially struggled after its IPO in late July, but Cramer said it \"has great growth, it's profitable, and it has a differentiated shopping experience with a technology kicker.\" Cramer highlighted the stock in late September; shares surged more than 31% in...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-03T11:29:36+08:00"
+    },
+    {
+      "id": "969de932010359e3592c4a15668d774852c7e87997e12c98faf686117412fc12",
+      "source": "CNBC",
+      "title": "Jim Cramer says lower oil prices are giving stocks a boost. Can it last?",
+      "publishedAtSgt": "2026-11-03T07:36:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/jim-cramer-oil-yields-non-tech-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer said that lower oil prices and Treasury yields are fueling a broader stock market rally. Cramer said the improved market backdrop has prompted investors to revisit strong earnings reports they initially overlooked and accelerated the shift toward growth opportunities beyond tech. which sent interest rates lower and caused a host of stocks to soar.\" Cramer pointed to Amazon, up 2% Monday, as an example of how falling rates can change investors' perceptions of a stock.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-03T11:29:37+08:00"
+    },
+    {
+      "id": "7c00a47c59e37b41788037887ba18f466f296738cbc5cca13c6b654e9717aae1",
+      "source": "CNBC",
+      "title": "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
+      "publishedAtSgt": "2026-11-03T06:53:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "commercial revenue topping government for the first time as businesses adopt more of the company's artificial intelligence tools. \"I don't believe anyone's had consistent results like this in the history of software AI, ever,\" CEO Alex Karp told CNBC's Seema Mody in an interview, adding that the business is succeeding without salespeople.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-03T11:29:36+08:00"
+    },
+    {
+      "id": "b8d29d836913174a058f66f848abafb4e0d3830371b807d48972f86785ef33a4",
+      "source": "CNBC",
+      "title": "Kimberly-Clark closes its acquisition of Tylenol maker Kenvue. What to expect next",
+      "publishedAtSgt": "2026-11-03T05:35:06+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/02/kimberly-clark-closes-its-acquisition-of-tylenol-maker-kenvue-what-to-expect-next.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "With the stock's strong performance of late, Jim said on Monday's Morning Meeting he would wait for weakness before looking to buy more shares. Based on Monday's close, the stock has a dividend yield of 4.73%. That commitment is particularly important for income-focused investors who have long viewed Kimberly-Clark as a reliable dividend-paying stock.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-03T11:29:36+08:00"
+    },
+    {
+      "id": "a1da9cbf2de6d0ecacf3d3da5d32b0d352ff88bc55d23b018f13e10e0441a0e6",
+      "source": "CNBC",
+      "title": "I bonds now pay 5.51% — but there are trade-offs. What to know before buying",
+      "publishedAtSgt": "2026-11-03T04:57:50+08:00",
+      "url": "https://www.cnbc.com/2026/11/02/i-bonds-rate.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amid rising inflation, the variable part of I bond interest rose to 4.08%, while the fixed part increased to 1.40%, the highest since 2006. Meanwhile, the I bond's 1.4% fixed rate stays the same for as long as you own it, which could appeal to longer-term investors, he said. \"I always say [I bonds are] a secondary emergency fund,\" said David Enna, founder of Tipswatch.com, a website that tracks Treasury inflation-protected securities, or TIPS, and I bond rates.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-03T11:29:37+08:00"
+    },
+    {
       "id": "288529f4027f8bde85680b52cbf151a57bd86df922765b0a6c7d559865252d1d",
       "source": "CNBC",
       "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
@@ -130,6 +222,6 @@
       "collectedAtSgt": "2026-11-03T04:23:39+08:00"
     }
   ],
-  "articleCount": 8,
-  "updatedAtSgt": "2026-11-03T04:23:39+08:00"
+  "articleCount": 14,
+  "updatedAtSgt": "2026-11-03T11:29:37+08:00"
 }

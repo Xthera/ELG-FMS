@@ -227,6 +227,21 @@
       "collectedAtSgt": "2026-10-22T14:09:09+08:00"
     },
     {
+      "id": "09e91e341b3934404b8610f2217456705c87fe61c30f59a75c437e2cf676da18",
+      "source": "CNBC",
+      "title": "AI and jobs: The hot new topic for central bankers",
+      "publishedAtSgt": "2026-10-22T07:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/ai-and-jobs-why-central-bankers-are-paying-attention.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "High-level gatherings this month in Asia, including the International Monetary Fund-World Bank Annual Meetings in Bangkok last week and the Bund Summit this week in Shanghai, reflected growing scrutiny on the tech, especially as competition for capital sends many government bond yields to multi-decade highs. He said the central bank would evaluate the impact of the technology, improve financial support for the AI industry and promote its application in finance.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-03T11:29:37+08:00"
+    },
+    {
       "id": "23bafda12193920beb9425329042130070e5fd13dd1435308f59c3cac9d5d46e",
       "source": "CNBC",
       "title": "CoreWeave’s market confidence erodes as bond yields spike and stock sinks",
@@ -353,6 +368,6 @@
       "collectedAtSgt": "2026-10-22T02:06:07+08:00"
     }
   ],
-  "articleCount": 22,
-  "updatedAtSgt": "2026-10-23T02:01:28+08:00"
+  "articleCount": 23,
+  "updatedAtSgt": "2026-11-03T11:29:37+08:00"
 }
