@@ -30,6 +30,14 @@ protection), so when a plain request fails the source is fetched again
 with a headless Chromium browser (Playwright): it opens the provider's
 page and downloads the data from inside it, as a visitor's browser does.
 
+MANUAL FILES (data/manual/)
+If a source keeps refusing GitHub, its levels can be added by hand: save
+the provider's own export into data/manual/ with the index code at the
+start of the file name, e.g. data/manual/SPXFCSGD.xls (S&P page ->
+Performance chart -> 10Y -> Export). .xls, .xlsx and .csv are read; any
+row with a date and a positive number is a level. Every run merges these
+files in, so the history keeps them even after the file is deleted.
+
 A source that fails keeps its saved history and is marked "stale"; one
 that has never worked is listed under "failures" with the reason. The
 script exits with an error only if nothing could be saved at all.
@@ -57,6 +65,7 @@ from openpyxl import load_workbook
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_FILE = ROOT / "data" / "income_boost_indices.json"
+MANUAL_DIR = ROOT / "data" / "manual"
 
 RETRIES = 3
 TIMEOUT = 60
@@ -163,7 +172,7 @@ def to_date(value) -> date | None:
         return value
     if isinstance(value, str):
         text = value.strip()
-        for fmt in ("%Y-%m-%d", "%d/%m/%Y", "%m/%d/%Y", "%d-%b-%Y", "%d %b %Y", "%Y%m%d"):
+        for fmt in ("%Y-%m-%d", "%m/%d/%Y", "%d/%m/%Y", "%d-%b-%Y", "%d %b %Y", "%b %d, %Y", "%B %d, %Y", "%d-%b-%y", "%Y%m%d"):
             try:
                 return datetime.strptime(text, fmt).date()
             except ValueError:
@@ -197,13 +206,16 @@ class HeadlessBrowser:
         self._browser = None
         self._context = None
 
-    def open(self, url: str):
+    def open(self, url: str, warm_up: str | None = None):
         if self._context is None:
             from playwright.sync_api import sync_playwright
 
             self._playwright = sync_playwright().start()
+            # A visible window (under xvfb on GitHub) is harder for bot
+            # protection to tell from a real visitor than headless mode
             self._browser = self._playwright.chromium.launch(
-                args=["--disable-blink-features=AutomationControlled"]
+                headless=not os.environ.get("DISPLAY"),
+                args=["--disable-blink-features=AutomationControlled"],
             )
             self._context = self._browser.new_context(
                 user_agent=HEADERS["User-Agent"],
@@ -215,6 +227,12 @@ class HeadlessBrowser:
             )
 
         page = self._context.new_page()
+
+        if warm_up:
+            # Arrive the way a visitor does: the site's home page first
+            page.goto(warm_up, wait_until="domcontentloaded", timeout=90_000)
+            page.wait_for_timeout(3_000)
+
         response = page.goto(url, wait_until="domcontentloaded", timeout=90_000)
 
         if response is not None and response.status >= 400:
@@ -319,7 +337,7 @@ def fetch_sp() -> dict[str, float]:
         return parse_sp(get(SP_DATA, params=SP_PARAMS, headers={"Referer": SP_PAGE}, retries=2).json())
 
     def browser():
-        page = BROWSER.open(SP_PAGE)
+        page = BROWSER.open(SP_PAGE, warm_up="https://www.spglobal.com/spdji/en/")
         try:
             url = requests.Request("GET", SP_DATA, params=SP_PARAMS).prepare().url
             return parse_sp(json.loads(BROWSER.fetch_text(page, url)))
@@ -374,6 +392,81 @@ def fetch_ubs() -> dict[str, float]:
             page.close()
 
     return with_browser_fallback(plain, browser)
+
+
+def rows_to_levels(rows) -> dict[str, float]:
+    """Any row: the first date cell and the first positive number after it."""
+    levels = {}
+    for row in rows:
+        day = None
+        for cell in row:
+            if day is None:
+                day = to_date(cell)
+                continue
+            level = to_level(cell)
+            if level:
+                levels[day.isoformat()] = level
+                break
+    return levels
+
+
+def read_manual(code: str) -> tuple[dict[str, float], list[str]]:
+    levels, used = {}, []
+
+    if not MANUAL_DIR.exists():
+        return levels, used
+
+    for path in sorted(MANUAL_DIR.iterdir()):
+        if not path.is_file() or not path.name.upper().startswith(code):
+            continue
+
+        data = path.read_bytes()
+        found = {}
+
+        try:
+            if path.suffix.lower() == ".csv":
+                import csv
+                found = rows_to_levels(csv.reader(io.StringIO(data.decode("utf-8-sig", errors="ignore"))))
+            elif data[:2] == b"PK":                                  # .xlsx
+                book = load_workbook(io.BytesIO(data), read_only=True, data_only=True)
+                found = rows_to_levels(row for sheet in book.worksheets for row in sheet.iter_rows(values_only=True))
+            elif data[:8] == bytes.fromhex("D0CF11E0A1B11AE1"):       # old .xls
+                import xlrd
+                book = xlrd.open_workbook(file_contents=data)
+                rows = []
+                for sheet in book.sheets():
+                    for r in range(sheet.nrows):
+                        row = []
+                        for cell in sheet.row(r):
+                            if cell.ctype == xlrd.XL_CELL_DATE:
+                                row.append(xlrd.xldate.xldate_as_datetime(cell.value, book.datemode))
+                            else:
+                                row.append(cell.value)
+                        rows.append(row)
+                found = rows_to_levels(rows)
+            else:                                                     # .xls that is really an HTML table
+                text = data.decode("utf-8", errors="ignore")
+                rows = [
+                    [re.sub(r"<[^>]+>", "", cell).strip() for cell in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, flags=re.S | re.I)]
+                    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", text, flags=re.S | re.I)
+                ]
+                found = rows_to_levels(rows)
+        except Exception as error:
+            print(f"WARNING: could not read {path.name}: {error}")
+            continue
+
+        if found:
+            levels.update(found)
+            used.append(f"{path.name} ({len(found)})")
+        else:
+            print(f"WARNING: no dated levels found in {path.name}")
+
+    return levels, used
+
+
+def table_text(text: str) -> str:
+    """Safe inside a GitHub summary table cell."""
+    return " ".join(str(text).replace("|", "/").replace("<", "&lt;").replace(">", "&gt;").split())[:400]
 
 
 FETCHERS = {
@@ -434,6 +527,12 @@ def main() -> int:
         saved_levels = {day: float(level) for day, level in previous.get("observations", [])}
         status = previous.get("updateStatus", {})
 
+        manual, manual_files = read_manual(code)
+        manual_note = ""
+        if manual:
+            saved_levels, _ = merge(saved_levels, manual)
+            manual_note = f" Includes data/manual: {', '.join(manual_files)}."
+
         print(f"{code:<9} ", end="", flush=True)
 
         try:
@@ -448,7 +547,7 @@ def main() -> int:
                 "status": "ok",
                 "lastAttemptUtc": now,
                 "lastSuccessUtc": now,
-                "message": note or f"{len(fetched)} levels from source, {added} new.",
+                "message": (note or f"{len(fetched)} levels from source, {added} new.") + manual_note,
             }
             print(f"ok  {len(fetched)} from source, {added} new, {len(levels)} saved")
 
@@ -458,13 +557,13 @@ def main() -> int:
                 **status,
                 "status": "stale" if levels else "missing",
                 "lastAttemptUtc": now,
-                "message": f"Fetch failed: {error}",
+                "message": f"Fetch failed: {error}" + manual_note,
             }
             print(f"FAILED  {error}  (kept {len(levels)} saved levels)")
 
         if not levels:
             failures[code] = {"name": config["name"], **status}
-            summary.append(f"| {code} | missing | 0 | - | {status['message']} |")
+            summary.append(f"| {code} | missing | 0 | - | {table_text(status['message'])} |")
             continue
 
         observations = [[day, round(level, 6)] for day, level in levels.items()]
@@ -481,7 +580,7 @@ def main() -> int:
         })
         published += 1
         summary.append(
-            f"| {code} | {status['status']} | {len(observations)} | {latest_day} | {status['message']} |"
+            f"| {code} | {status['status']} | {len(observations)} | {latest_day} | {table_text(status['message'])} |"
         )
 
     BROWSER.close()
