@@ -11811,3 +11811,117 @@ button.footer-version:hover {
     .calc-welcome-table td:first-child {
         min-width: 0;
     }
+}   /* closes the phone @media block above (was left open) */
+
+
+/* ============================================================
+   PRUINDEX INCOME BOOST CALCULATOR (js/income-boost.js)
+   ============================================================ */
+
+.ib-card {
+    margin-top: 16px;
+}
+
+.ib-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    align-items: start;
+}
+
+.ib-choice.report-payment-options {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+}
+
+.ib-grid[hidden],
+.ib-card[hidden],
+.ib-setup[hidden] {
+    display: none;
+}
+
+.ib-setup {
+    display: grid;
+    gap: 16px;
+}
+
+/* Income Boost chosen: hide the PRUVantage fields, keep the plan choice */
+.calc-setup-card.is-income-boost .report-form > :not(:first-child):not(#ib-setup) {
+    display: none;
+}
+
+.ib-basis-switch {
+    margin-bottom: 12px;
+}
+
+.ib-results {
+    padding-top: 16px;
+}
+
+.ib-basis {
+    margin: 0 0 12px;
+}
+
+.ib-data-status {
+    margin: 12px 0 0;
+    line-height: 1.6;
+}
+
+.ib-status {
+    display: inline-block;
+
+    margin-right: 6px;
+    padding: 1px 8px;
+
+    border-radius: 999px;
+
+    font-size: calc(11px * var(--font-scale, 1));
+    font-weight: 700;
+}
+
+.ib-status.is-ok {
+    background: var(--positive-soft);
+    color: var(--positive);
+}
+
+.ib-status.is-warn {
+    background: var(--warning-soft);
+    color: var(--warning);
+}
+
+.ib-table td.is-positive {
+    color: var(--positive);
+}
+
+.ib-table td.is-negative {
+    color: var(--negative);
+}
+
+.ib-table tr.ib-projected td {
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.ib-details {
+    margin-top: 16px;
+}
+
+.ib-details summary {
+    cursor: pointer;
+}
+
+.ib-footnote {
+    margin: 14px 0 0;
+    line-height: 1.5;
+}
+
+.ib-chart-wrap {
+    position: relative;
+    height: 300px;
+    margin-top: 8px;
+}
+
+@media (max-width: 720px) {
+    .ib-tiles {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
