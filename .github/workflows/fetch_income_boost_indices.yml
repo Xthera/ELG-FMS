@@ -46,7 +46,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests==2.32.5 openpyxl==3.1.5 playwright==1.55.0
+          pip install requests==2.32.5 openpyxl==3.1.5 xlrd==2.0.1 playwright==1.55.0
 
       # UBS and S&P refuse plain requests from GitHub's servers, so the
       # script falls back to a headless Chromium for them
@@ -58,7 +58,8 @@ jobs:
       - name: Fetch index levels
         run: |
           set -e
-          python -u scripts/fetch_income_boost_indices.py
+          # xvfb gives Chromium a virtual screen, so it can run with a window
+          xvfb-run -a python -u scripts/fetch_income_boost_indices.py
           cp data/income_boost_indices.json "$RUNNER_TEMP/income_boost_indices.json"
 
       # ========================================================
