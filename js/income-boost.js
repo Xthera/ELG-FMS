@@ -466,7 +466,9 @@ function renderDataStatus() {
         return;
     }
     if (!series) {
-        box.innerHTML = `<span class="ib-status is-warn">No history for ${escapeHtml(info.label)} yet</span>`;
+        const failure = data.failures?.[state.index];
+        box.innerHTML = `<span class="ib-status is-warn">No history for ${escapeHtml(info.label)} yet</span>`
+            + (failure ? ` The last update couldn't fetch it (${escapeHtml(formatDate(String(failure.lastAttemptUtc ?? "").slice(0, 10)))}): ${escapeHtml(failure.message ?? "")}` : "");
         return;
     }
     const status = series.updateStatus?.status ?? "ok";
