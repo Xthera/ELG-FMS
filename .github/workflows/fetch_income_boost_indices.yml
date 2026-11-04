@@ -46,7 +46,13 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests==2.32.5 openpyxl==3.1.5
+          pip install requests==2.32.5 openpyxl==3.1.5 playwright==1.55.0
+
+      # UBS and S&P refuse plain requests from GitHub's servers, so the
+      # script falls back to a headless Chromium for them
+      - name: Install Playwright Chromium
+        run: |
+          python -m playwright install --with-deps chromium
 
       # The script merges into the saved file, so history only grows
       - name: Fetch index levels
