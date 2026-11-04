@@ -467,13 +467,21 @@ function renderDataStatus() {
     }
     if (!series) {
         const failure = data.failures?.[state.index];
-        box.innerHTML = `<span class="ib-status is-warn">No history for ${escapeHtml(info.label)} yet</span>`
-            + (failure ? ` The last update couldn't fetch it (${escapeHtml(formatDate(String(failure.lastAttemptUtc ?? "").slice(0, 10)))}): ${escapeHtml(failure.message ?? "")}` : "");
+        const blocked = /HTTP 403/.test(failure?.message ?? "");
+        const reason = blocked
+            ? "The index provider's website doesn't allow automatic downloads, so this history is added by hand: save the provider's 10Y Export into data/manual (see data/manual/README.txt)."
+            : failure
+                ? `The last update couldn't fetch it (${formatDate(String(failure.lastAttemptUtc ?? "").slice(0, 10))}).`
+                : "It will appear after the next index update.";
+        box.innerHTML = `<span class="ib-status is-warn">No history for ${escapeHtml(info.label)} yet</span> `
+            + `<span${failure ? ` title="${escapeHtml(failure.message ?? "")}"` : ""}>${escapeHtml(reason)} Illustration rates work as normal.</span>`;
         return;
     }
     const status = series.updateStatus?.status ?? "ok";
+    // S&P blocks automatic updates; its levels come from data/manual
+    const fromManual = status !== "ok" && /data\/manual/.test(series.updateStatus?.message ?? "");
     box.innerHTML = `
-        <span class="ib-status ${status === "ok" ? "is-ok" : "is-warn"}">${status === "ok" ? "Up to date" : "Last update failed – showing saved history"}</span>
+        <span class="ib-status ${status === "ok" || fromManual ? "is-ok" : "is-warn"}">${status === "ok" ? "Up to date" : fromManual ? "From your manual export" : "Last update failed – showing saved history"}</span>
         <strong>${escapeHtml(info.fullName)}</strong> ·
         ${Number(series.latestLevel).toLocaleString("en-SG", { maximumFractionDigits: 3 })} on ${formatDate(series.latestDate)} ·
         history ${formatDate(series.firstDate)} – ${formatDate(series.latestDate)} (${series.observationCount.toLocaleString("en-SG")} days) ·
