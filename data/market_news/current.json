@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-04T04:09:44+08:00",
+  "generatedAtSgt": "2026-11-04T10:23:19+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,105 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "f40950bd9da82421ddead917772c3965848dccd6ff309f014017a0edcfedba22",
+      "source": "CNBC",
+      "title": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
+      "publishedAtSgt": "2026-11-04T07:58:09+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer said Tuesday that a new group of technology stocks may be emerging as market leaders. That was evident during Tuesday's session as gains from Broadcom and Micron supported the major averages — a sign that investors may be shifting toward a different set of tech winners.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T10:23:18+08:00"
+    },
+    {
+      "id": "ff6898d20cc28b0ba27fadae9a5e35e297e890e8374626ef3947431b888dbbea",
+      "source": "CNBC",
+      "title": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
+      "publishedAtSgt": "2026-11-04T07:04:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "CEO Lisa Su said on the earnings call that she expects server revenue to double year over year in 2027 and data center AI growth to accelerate even faster than the company had projected 90 days ago. After years spent chasing Nvidia in the market for artificial intelligence graphics processing units, or GPUs, AMD's central processing units, or CPUs, are experiencing a major resurgence with the rise of agentic AI apps like Meta's Muse.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T10:23:18+08:00"
+    },
+    {
+      "id": "5379cf8784dc440a26c4b04b6269ce42d02338924e6f9542b9ee5e02986a441b",
+      "source": "CNBC",
+      "title": "JetBlue raises bag fees for third time in a year as fuel costs bite",
+      "publishedAtSgt": "2026-11-04T06:26:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "JetBlue Airways has raised the price of checking a bag for many customers for the third time in less than a year as high fuel costs continue to eat into the industry's profits. Checking a first bag for travelers booked in economy will now be $50, up from $45, if purchased more than 24 hours before departure during a nonpeak travel period. If it's paid within 24 hours of departure, the fee will be $60.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T10:23:18+08:00"
+    },
+    {
+      "id": "6469a50960ae82e8164a17eaf14002b7bbf71274f9ecfa8078fc340f63485951",
+      "source": "CNBC",
+      "title": "Eaton's strong quarter should mark a bottom for shares of the AI buildout winner",
+      "publishedAtSgt": "2026-11-04T04:46:59+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/03/eatons-strong-quarter-should-mark-a-bottom-for-shares-of-the-ai-buildout-winner.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Eaton delivered an excellent quarter on Tuesday, giving shares of the artificial intelligence buildout winner a much-needed jolt. The results and outlook demonstrated why we've stuck with the stock despite a turbulent period for the AI trade. Bottom line The electrical equipment supplier turned in a very strong quarter that should help solidify a bottom in the stock — assuming we don't see a renewed, broad-based rejection of the AI trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-04T10:23:19+08:00"
+    },
+    {
+      "id": "ca53b59c8420835b138247ee51346bd23c0ba852a0389db922d3e7f649d414f0",
+      "source": "CNBC",
+      "title": "AMD has been crushed into earnings. Here’s one way to trade it",
+      "publishedAtSgt": "2026-11-04T04:40:51+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/amd-has-been-crushed-into-earnings-heres-one-way-to-trade-it.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The stock has been caught in the swings of the AI debate all year, but this most recent leg lower was triggered by a wave of disappointing tech earnings. AMD's stock reactions have been mixed in recent quarters, sensitive to guidance and high investor expectations. That may make direction hard to call, but options let investors build a trade that doesn't have to pick a side.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T10:23:18+08:00"
+    },
+    {
+      "id": "8e443346c2494b194bc307f77c148e2cbe0842cee2f2db70643813a6df93935c",
+      "source": "CNBC",
+      "title": "Binance breach puts custody at center of crypto infrastructure trade",
+      "publishedAtSgt": "2026-11-04T04:13:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Office of the Comptroller of the Currency granted it approval to operate as a trust bank. Repeated security breaches could encourage investors to move assets toward independent custody while continuing to trade on CEXs,\" the firm's analyst Felix Stratmann said in a note Monday,\" referring to centralized cryptocurrency exchanges.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T10:23:18+08:00"
+    },
     {
       "id": "359ea0e6470a503bd38ce344ac592bfcac3d515350d46310faf585fb3bef744d",
       "source": "CNBC",
@@ -1495,99 +1594,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-10-29T22:25:06+08:00"
-    },
-    {
-      "id": "6a27cd47a5ec5ba9136d0d14bde0f2f7cc71edbece2e04e76c578e555d0fb3e0",
-      "source": "CNBC",
-      "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
-      "publishedAtSgt": "2026-10-29T20:09:47+08:00",
-      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "At the same time, Google said search query growth on the platform was the strongest it's been in five years. Google has spent much of the past year telling investors that it needs to pour money into AI infrastructure and services to meet unending demand from consumers and businesses. \"Investors will now worry that the miss in Search, YouTube and Subscription, leading to a profit miss, are an indication that AI has finally come for Google,\" Luria wrote in an email.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
-    },
-    {
-      "id": "84776faa2babe4df74478ed1c39a087e0b23750ad150d11f10a8cb36f3b5a219",
-      "source": "CNBC",
-      "title": "Kalshi valuation jumps to $40 billion in latest funding round",
-      "publishedAtSgt": "2026-10-29T20:05:18+08:00",
-      "url": "https://www.cnbc.com/2026/10/29/kalshi-40-billion-valuation-funding-round.html",
-      "category": "MARKET",
-      "relevanceScore": 95,
-      "relevanceReason": "business_market_event",
-      "summary": "That valuation comes after it completed its previous funding round in May, where it was valued at $22 billion. Since the previous funding round, the company has seen continued growth in its prediction markets. It wants to use the new funds to develop leveraged event contracts, perpetual futures tied to individual stocks and markets to trade on the price of compute.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
-    },
-    {
-      "id": "51e7d846cc9c5da7bad2329031fca35c3c6f65fbe68071d38552e019fe01e35d",
-      "source": "CNBC",
-      "title": "Warren urges DOJ criminal probe of Bank of America over anti-money-laundering violations",
-      "publishedAtSgt": "2026-10-29T20:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/29/warren-bank-of-america-criminal-probe.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Elizabeth Warren is calling on the Justice Department to open a criminal investigation into Bank of America and its executives after the banking giant admitted it willfully violated federal anti-money-laundering laws, according to a letter first shared with CNBC. The Massachusetts Democrat and ranking member of the Senate banking committee called the more than $1.2 billion in penalties imposed on the bank Oct.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
-    },
-    {
-      "id": "31859c37563e6555d874c7b7dbd2616252c9a901bf50b00e562333b9ce8c13ee",
-      "source": "CNBC",
-      "title": "Alphabet drags on Nasdaq futures as the stock faces a record post-earnings loss",
-      "publishedAtSgt": "2026-10-29T19:41:06+08:00",
-      "url": "https://www.cnbc.com/2026/10/29/alphabet-nasdaq-futures-record-post-earnings-loss.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "There is more pain in certain parts of the AI trade. AI chat and agents are eating into Google's Search in a way investors cannot ignore, while a lighter capex number from Microsoft has sent neoclouds back into the red. Bigger picture, CNBC has calculated that the \"Magnificent Seven\" doesn't trade as a monolith anymore, challenging investors to be more discerning when picking through the market's biggest stocks rather than viewing them as a single trade.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-29T22:25:07+08:00"
-    },
-    {
-      "id": "7776220b878127a8257502d3488736378bbf20ccf09c5e92c5a6b5b3047284c6",
-      "source": "CNBC",
-      "title": "Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength",
-      "publishedAtSgt": "2026-10-29T19:24:38+08:00",
-      "url": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Merck on Thursday topped third-quarter estimates and hiked its adjusted profit outlook, as its immunotherapy Keytruda, including a newer injectable form of the drug, showed stronger-than-expected sales. Merck is also positioning the new form of the drug, Keytruda Qlex, as a cornerstone of its growth strategy. Beyond Keytruda, Merck's newer products also showed strong growth.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
-    },
-    {
-      "id": "ce6c52c8c7d904875275878b13b314534293c8e2a96f04364cf36755a0e18d04",
-      "source": "CNBC",
-      "title": "It's a 'socialist' bank — and North Dakota Republicans love it",
-      "publishedAtSgt": "2026-10-29T18:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The bank also engages in other areas where the state's privately owned banks don't already compete, including offering direct student loans at a low interest rate for North Dakotans hoping to attend college. \"But the fact that we know what it is now and that it's developed over the 107 years, it is a wonderful tool for institutions.\" An example of the bank's investment activity — and one progressives might do differently — is found in McLean County.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
     }
   ]
 }
