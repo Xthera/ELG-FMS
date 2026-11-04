@@ -1,0 +1,100 @@
+name: Fetch Income Boost Indices
+
+on:
+  # ============================================================
+  # DAILY RUN - 7:10 AM SINGAPORE TIME
+  #
+  # 23:10 UTC = 07:10 SGT the next day, after the US close that
+  # all three indices are calculated on.
+  # ============================================================
+  schedule:
+    - cron: "10 23 * * *"
+
+  # Manual run from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-income-boost-indices
+  cancel-in-progress: false
+
+jobs:
+
+  fetch-income-boost-indices:
+
+    name: Fetch UBS / S&P / Barclays levels -> Commit
+
+    runs-on: ubuntu-24.04
+
+    timeout-minutes: 20
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests==2.32.5 openpyxl==3.1.5
+
+      # The script merges into the saved file, so history only grows
+      - name: Fetch index levels
+        run: |
+          set -e
+          python -u scripts/fetch_income_boost_indices.py
+          cp data/income_boost_indices.json "$RUNNER_TEMP/income_boost_indices.json"
+
+      # ========================================================
+      # COMMIT ONLY data/income_boost_indices.json
+      # Other workflows may push at the same time: fetch newest
+      # main, put our file on top, commit, push; retry on a race.
+      # ========================================================
+      - name: Commit and push data/income_boost_indices.json
+        run: |
+          set -e
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          ATTEMPT=1
+          MAX_ATTEMPTS=5
+
+          while [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; do
+            echo "Publish attempt $ATTEMPT / $MAX_ATTEMPTS"
+
+            git fetch origin main
+            git reset --hard origin/main
+
+            cp "$RUNNER_TEMP/income_boost_indices.json" data/income_boost_indices.json
+            git add data/income_boost_indices.json
+
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+
+            git commit -m "Update Income Boost indices data"
+
+            if git push origin HEAD:main; then
+              echo "Pushed."
+              exit 0
+            fi
+
+            echo "Push rejected (another workflow pushed first); retrying..."
+            ATTEMPT=$((ATTEMPT + 1))
+            sleep $((ATTEMPT * 5))
+          done
+
+          echo "Could not push after $MAX_ATTEMPTS attempts."
+          exit 1
