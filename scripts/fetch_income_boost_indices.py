@@ -38,6 +38,12 @@ Performance chart -> 10Y -> Export). .xls, .xlsx and .csv are read; any
 row with a date and a positive number is a level. Every run merges these
 files in, so the history keeps them even after the file is deleted.
 
+EXPORT MODE (used by the self-hosted runner on the office computer)
+    python scripts/fetch_income_boost_indices.py --export-manual SPXFCSGD
+fetches just that index and writes data/manual/SPXFCSGD-auto.csv, which
+the normal daily run then merges like any manual file. S&P blocks
+GitHub's servers but not an ordinary internet connection.
+
 A source that fails keeps its saved history and is marked "stale"; one
 that has never worked is listed under "failures" with the reason. The
 script exits with an error only if nothing could be saved at all.
@@ -410,6 +416,75 @@ def rows_to_levels(rows) -> dict[str, float]:
     return levels
 
 
+MONTH_LABEL = re.compile(r"^[A-Z][a-z]{2}-\d{4}$")          # e.g. Oct-2016
+EXTRA_CLOSURES = {date(2025, 1, 9)}                          # US market closed (national day of mourning)
+
+
+def us_trading_days(start: date, end: date) -> list[date]:
+    import holidays
+    closed = holidays.financial_holidays("NYSE", years=range(start.year, end.year + 1))
+    days, day = [], start
+    while day <= end:
+        if day.weekday() < 5 and day not in closed and day not in EXTRA_CLOSURES:
+            days.append(day)
+        day = date.fromordinal(day.toordinal() + 1)
+    return days
+
+
+def dated_month_rows(rows: list) -> tuple[dict[str, float], str]:
+    """
+    S&P's chart export labels each daily row with its month only
+    ("Oct-2016"), plus an "As of:" date. Rows are consecutive index
+    trading days, so each month's rows are matched to that month's US
+    trading days: exact whenever the counts agree; the first month is
+    aligned to its end, the last month to the As of date; a month with
+    days missing from the file is placed in order (approximate, noted).
+    """
+    as_of = None
+    labelled = []
+    for row in rows:
+        cells = [c for c in row if c not in (None, "")]
+        if len(cells) >= 2 and isinstance(cells[0], str) and cells[0].strip().lower().startswith("as of"):
+            as_of = to_date(str(cells[1]).strip())
+        if len(row) >= 2 and isinstance(row[0], str) and MONTH_LABEL.match(row[0].strip()) and to_level(row[1]):
+            labelled.append((row[0].strip(), float(row[1])))
+
+    if not labelled:
+        return {}, ""
+
+    months: dict[str, list[float]] = {}
+    for label, level in labelled:
+        months.setdefault(label, []).append(level)
+
+    labels = list(months)
+    first_month = datetime.strptime(labels[0], "%b-%Y").date()
+    last_month = datetime.strptime(labels[-1], "%b-%Y").date()
+    end = as_of or date(last_month.year + (last_month.month == 12), last_month.month % 12 + 1, 1)
+    calendar: dict[str, list[date]] = {}
+    for day in us_trading_days(first_month, end):
+        calendar.setdefault(day.strftime("%b-%Y"), []).append(day)
+
+    levels, approximate = {}, []
+    for index, label in enumerate(labels):
+        values, days = months[label], calendar.get(label, [])
+        if index == len(labels) - 1 and as_of:
+            days = [d for d in days if d <= as_of]
+        if len(values) == len(days):
+            pairs = zip(days, values)
+        elif index == 0:                                   # partial first month: its last days
+            pairs = zip(days[-len(values):], values)
+        elif index == len(labels) - 1:                     # partial last month: up to As of
+            pairs = zip(days[-len(values):], values)
+        else:                                              # days missing in the file
+            approximate.append(f"{label} ({len(values)} of {len(days)} days)")
+            pairs = zip(days[:len(values)], values)
+        for day, value in pairs:
+            levels[day.isoformat()] = value
+
+    note = f" Dates rebuilt from month labels; approximate for {', '.join(approximate)}." if approximate else " Dates rebuilt from month labels."
+    return levels, note
+
+
 def read_manual(code: str) -> tuple[dict[str, float], list[str]]:
     levels, used = {}, []
 
@@ -443,6 +518,11 @@ def read_manual(code: str) -> tuple[dict[str, float], list[str]]:
                             else:
                                 row.append(cell.value)
                         rows.append(row)
+                found, month_note = dated_month_rows(rows)
+                if found:
+                    used.append(f"{path.name} ({len(found)}){month_note}")
+                    levels.update(found)
+                    continue
                 found = rows_to_levels(rows)
             else:                                                     # .xls that is really an HTML table
                 text = data.decode("utf-8", errors="ignore")
@@ -531,7 +611,7 @@ def main() -> int:
         manual_note = ""
         if manual:
             saved_levels, _ = merge(saved_levels, manual)
-            manual_note = f" Includes data/manual: {', '.join(manual_files)}."
+            manual_note = " Includes data/manual: " + "; ".join(item.rstrip(".") for item in manual_files) + "."
 
         print(f"{code:<9} ", end="", flush=True)
 
@@ -620,5 +700,30 @@ def main() -> int:
     return 0
 
 
+def export_manual(code: str) -> int:
+    if code not in FETCHERS:
+        print(f"ERROR: unknown index code {code!r}; use one of {', '.join(FETCHERS)}")
+        return 1
+
+    try:
+        levels = FETCHERS[code]()
+    finally:
+        BROWSER.close()
+
+    if len(levels) < MIN_POINTS:
+        print(f"ERROR: only {len(levels)} levels returned for {code}")
+        return 1
+
+    MANUAL_DIR.mkdir(parents=True, exist_ok=True)
+    target = MANUAL_DIR / f"{code}-auto.csv"
+    rows = "".join(f"{day},{level}\n" for day, level in sorted(levels.items()))
+    target.write_text("Date,Level\n" + rows, encoding="utf-8")
+    first, last = min(levels), max(levels)
+    print(f"Wrote {target.relative_to(ROOT)}: {len(levels)} levels, {first} to {last}")
+    return 0
+
+
 if __name__ == "__main__":
+    if len(sys.argv) == 3 and sys.argv[1] == "--export-manual":
+        sys.exit(export_manual(sys.argv[2].upper()))
     sys.exit(main())
