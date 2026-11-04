@@ -1,0 +1,680 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 22,
+  "analyses": [
+    {
+      "articleId": "6fc1935dc4ae88d18c0603911daa44a3d37d6d7241d6a902d55d66a9a77ff263",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "The article discusses under-the-radar stocks to play the energy trade amid jumping oil prices, while noting that Iran's currency is losing value and investors are nervous about energy stocks given ongoing economic and inflation pressures.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "Global",
+        "Iran"
+      ],
+      "sectors": [
+        "Energy"
+      ],
+      "investorImpact": "Investors in the energy sector should monitor rising oil prices and geopolitical risks affecting regions like Iran, as currency weakness and inflation could drive volatility in energy equities.",
+      "reasoning": "Classified as MARKET due to its focus on energy trading strategies and oil price movements, with mixed sentiment reflecting both opportunities in under-the-radar stocks and underlying economic anxieties.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
+      "publishedAtSgt": "2026-10-22T23:16:05+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/under-the-radar-stocks-to-play-the-next-leg-of-the-energy-trade-with-oil-prices-jumping-again.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T02:01:28+08:00"
+    },
+    {
+      "articleId": "ea82f01942bbe12d6b4430e8362183f1763661aa491fb5f2b351de10067ade4c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "France is facing rising debt servicing payments and widening bond yield spreads against Germany amid ongoing protests, sparking concerns over public finances and potential European Central Bank intervention.",
+      "assetClasses": [
+        "Bonds",
+        "Equities",
+        "Currencies"
+      ],
+      "geographies": [
+        "France",
+        "Germany",
+        "Europe"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "Investors holding French sovereign debt or European assets face heightened volatility and widening yield spreads, raising risk premiums for French assets.",
+      "reasoning": "The article details direct pressures on European sovereign bond markets and public finances, making it highly relevant for market risk assessment and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "France protests: Macron condemns 'stupid' comments from Trump, others as bond market pressure builds",
+      "publishedAtSgt": "2026-10-22T20:52:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/macron-trump-france-protests.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "articleId": "1e5230c909862caf88b58f0f8c09f85cd97951bcef0992a54efc29a29975bc65",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Comcast beat earnings expectations for the quarter as media revenue successfully offset weakness in its connectivity segment, while the company continues to refocus on its mobile business and strategic separation plans.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Communication Services",
+        "Media",
+        "Telecommunications"
+      ],
+      "investorImpact": "The better-than-expected earnings offer reassurance regarding Comcast's ability to offset connectivity headwinds with media revenue, supporting investor confidence in its ongoing strategic shifts.",
+      "reasoning": "Classified as MARKET because it details quarterly earnings results and operational performance for a major public corporation, which is relevant for portfolio monitoring and equity sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Comcast beats earnings expectations as media revenue offsets weakness in connectivity",
+      "publishedAtSgt": "2026-10-22T20:17:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/comcast-cmcsa-earnings-q3-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "articleId": "11c5c7c21958973fc947a8f45376fff31eca764dbb4df8f42d57fa72890cf4a5",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Procter & Gamble reported an earnings beat with a 4% rise in sales, boosted by its laundry and home products segments. The company also saw a 2.4% volume growth, marking a strong start to its new fiscal year after a previous year of sluggish volume performance.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Staples"
+      ],
+      "investorImpact": "The positive earnings beat and volume growth signal healthy consumer demand and effective operational execution for a major consumer staples bellwether, supporting premarket share price gains and positive sector sentiment.",
+      "reasoning": "Classified as MARKET because it covers corporate earnings and financial performance metrics for a major publicly traded company. It is significant for monitoring consumer staples equity valuations and market health.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
+      "publishedAtSgt": "2026-10-22T20:01:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/procter-gamble-pg-q1-2027-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "articleId": "3baa3b5c17f08c3db09310c18491cff93369fae448eb36d28ae34abfcabe5300",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Stock futures are declining as selling pressure returns to the technology and chip sectors. Despite better-than-expected third-quarter results and a sales beat, Tesla shares are falling in premarket trading.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Consumer Discretionary"
+      ],
+      "investorImpact": "Investors in tech stocks and Chinese equities face downward pressure and negative sentiment, signaling potential volatility and near-term weakness in growth portfolios.",
+      "reasoning": "The article details broad market movements including declining futures, pressure on tech/chip stocks, and a bear market in Chinese stocks, making it relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Sellers are back in tech, while bear market grips Chinese stocks",
+      "publishedAtSgt": "2026-10-22T19:50:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/sellers-are-back-in-tech-while-bear-market-grips-chinese-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "articleId": "1e77f950c933ae65e86184468afde75b6ef59bfe20de81781989183b1c23092e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Recent disputes between the White House and Elon Musk over Starlink service suspensions in Ukraine highlight business and operational risks for SpaceX partners, potentially opening opportunities for competitors like Blue Origin to capture market share by offering greater certainty.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "Ukraine",
+        "United States"
+      ],
+      "sectors": [
+        "Aerospace & Defense",
+        "Telecommunications",
+        "Technology"
+      ],
+      "investorImpact": "The perceived unreliability of a monopoly service provider creates opening opportunities for competitors offering certainty, altering competitive dynamics in the satellite and aerospace sectors.",
+      "reasoning": "The article discusses the market implications of service disruptions for a major private space technology provider and how competitors might capitalize on reliability issues.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Ukraine Starlink slowdown raises business risks for Elon Musk partners",
+      "publishedAtSgt": "2026-10-22T18:43:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/ukraine-starlink-slowdown-musk-business-risk.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "articleId": "d3d45183d6ebae106b1fa86d7b77f747aebf7bf463fbe88ad30e195dbb8cab8b",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Tariffs and trade tensions with Canada are heavily impacting Maine's economy, where over 40 percent of exports go to Canada, compounding rising costs for goods and home heating oil.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States",
+        "Canada",
+        "Maine"
+      ],
+      "sectors": [
+        "Energy",
+        "Exports",
+        "Trade"
+      ],
+      "investorImpact": "Highlights localized economic vulnerabilities and margin pressures for businesses dependent on U.S.-Canada cross-border trade, as well as consumer cost burdens.",
+      "reasoning": "Classified as Geopolitical due to the focus on tariffs, international trade friction with Canada, and regional political impacts. It is relevant to fund monitoring because trade policy changes create direct cost pressures for regional exporters and consumers.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump’s tariffs loom over Maine Senate race between Collins and Jackson",
+      "publishedAtSgt": "2026-10-22T18:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/maine-senate-election-trump-tariffs.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "articleId": "8d6d2c946708f9c302fc14b5d446b17f54c6c027a38183b4534adc92dc7a125d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Norway's sovereign wealth fund, the world's largest, reported a $30 billion loss in the third quarter due to rising interest rates and bond market turbulence impacting its fixed income holdings.",
+      "assetClasses": [
+        "Bonds",
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "Norway",
+        "Global"
+      ],
+      "sectors": [
+        "Wealth Management",
+        "Financial Services"
+      ],
+      "investorImpact": "Highlights how rising interest rates and bond market volatility are negatively impacting major institutional portfolios, signaling broader valuation pressures across fixed income assets.",
+      "reasoning": "Classified as MARKET due to the direct reporting of financial losses by the world's largest sovereign wealth fund caused by bond market turbulence. Significance is HIGH because it reflects major institutional asset valuation impacts from macro interest rate trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "World's largest wealth fund posts $30 billion loss after bond market turbulence",
+      "publishedAtSgt": "2026-10-22T17:25:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/norges-bank-nbim-wealth-fund-q3-results.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T21:00:21+08:00"
+    },
+    {
+      "articleId": "dbbe73854e83910002467c9943b137fb921add37a059350c69b916b01d103bfe",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Oil prices rose due to escalating Middle East tensions involving the U.S., Israel, and Iran, though market experts note consumers are currently less vulnerable to energy shocks than in past decades.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "Middle East",
+        "USA",
+        "Iran",
+        "Israel"
+      ],
+      "sectors": [
+        "Energy"
+      ],
+      "investorImpact": "Rising oil prices due to geopolitical tensions can create short-term volatility in equity markets and energy sectors, though broader economic fallout may be mitigated by lower consumer vulnerability.",
+      "reasoning": "The article is classified under MARKET as it directly covers oil price movements driven by geopolitical tensions in the Middle East. It is of high importance due to the systemic nature of energy shocks on global asset classes.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
+      "publishedAtSgt": "2026-10-22T13:18:24+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
+      "articleId": "93da5cc09308ee00b171983f71b2f256cae5b6e0b7b66a8ae54cb1f3f2d1a883",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "China's stock market entered bear territory as the CSI 300 index extended a 10-week rout, pressured by slowing economic growth, a multiyear property sector slowdown, and weak consumer demand.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Financials",
+        "Consumer Discretionary"
+      ],
+      "investorImpact": "Investors with exposure to Chinese equities face continued downside risks and prolonged weakness, prompting potential portfolio reallocation away from the region.",
+      "reasoning": "The article details a major equity index entering a bear market in the world's second-largest economy, directly impacting global market sentiment and asset allocation strategies, making it highly relevant for fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China's stock market sinks into bear territory as CSI 300 extends 10-week rout",
+      "publishedAtSgt": "2026-10-22T12:02:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/chinas-stock-market-csi-300-bear-market.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
+      "articleId": "03cc2d99eb81becf06a65ac7d9ed582ed104aaa69df6dd638eb6ad04b37d8b26",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Sovereign wealth funds have increased their investments in China and Hong Kong by 190% following a previous downturn, driven by opportunities in technology, biotechnology, consumer goods, advanced manufacturing, and strategic partnerships in sectors like nickel processing and battery manufacturing.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "China",
+        "Hong Kong",
+        "Indonesia"
+      ],
+      "sectors": [
+        "Technology",
+        "Biotechnology",
+        "Consumer Goods",
+        "Advanced Manufacturing",
+        "Mining and Metals"
+      ],
+      "investorImpact": "The significant surge in sovereign wealth fund capital targeting China and Hong Kong indicates a potential market shift and renewed appetite for Asian equities and growth sectors, offering lucrative entry points for institutional investors looking past geopolitical tensions.",
+      "reasoning": "The article is classified under MARKET with a POSITIVE sentiment and HIGH importance because a 190% surge in sovereign wealth fund investments signifies a major macro-allocations shift toward Chinese markets, which is highly relevant for fund monitoring and portfolio positioning.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Sovereign wealth funds' China and Hong Kong investments surge 190% after a bruising slump",
+      "publishedAtSgt": "2026-10-22T10:20:50+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/sovereign-wealth-funds-china-hong-kong.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
+      "articleId": "c26f419d479193dd0c62d3c310a927875cff2b81bd7173e3e03cda553fe4b0c2",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "South Korea's central bank held its policy rate steady at 3% following calls to boost housing supply, while maintaining a restrictive monetary stance to combat elevated inflation.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities",
+        "Real Estate"
+      ],
+      "geographies": [
+        "South Korea"
+      ],
+      "sectors": [
+        "Banking",
+        "Real Estate"
+      ],
+      "investorImpact": "The steady interest rate and restrictive monetary stance signal ongoing borrowing costs for corporations and consumers in South Korea, affecting real estate and domestic equities.",
+      "reasoning": "The article details a central bank policy decision and monetary stance in South Korea, which directly impacts fixed income and local market conditions.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Bank of Korea holds rates after President Lee calls for boosting housing supply",
+      "publishedAtSgt": "2026-10-22T10:18:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/bok-rate-decision-seoul-property.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
+      "articleId": "92ac0eb0ca0e9d4f3aab5330aac9958142e845b7286a103dbc7fd38a70ec0897",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Critical web security flaws in PHP have sparked global concern, prompting responses from major tech companies like Google, OpenAI, and Amazon. Google utilized its cybersecurity unit Wiz and Gemini AI to find vulnerabilities, assess flaws, test attacks, and verify patches, while OpenAI researchers used AI models to uncover vulnerabilities.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Cybersecurity"
+      ],
+      "investorImpact": "Highlights the dual role of artificial intelligence in cybersecurity—both as a tool for uncovering critical software vulnerabilities and as a defense mechanism—affecting major tech giants and software infrastructure providers.",
+      "reasoning": "Classified under technology as it details critical web security vulnerabilities and the application of AI models by Google and OpenAI to detect and mitigate threats, which is relevant for monitoring the tech sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
+      "publishedAtSgt": "2026-10-22T09:05:15+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 53,
+      "collectorRelevanceReason": "supporting_technology_description",
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
+      "articleId": "f044bb32ef1dbb0a6851b41314541701459095b2cf1fb284bf25c1bbe3e88430",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "India's data center market is addressing concerns regarding water and power usage, while Jio Platforms' upcoming IPO attracts massive anchor investor interest totaling over $26 billion from global asset managers like BlackRock.",
+      "assetClasses": [
+        "Equities",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Technology",
+        "Telecommunications"
+      ],
+      "investorImpact": "The massive oversubscription of Jio's IPO anchor quota highlights strong global investor appetite for Indian telecom and technology infrastructure, indicating robust capital flows into the region.",
+      "reasoning": "Classified as TECHNOLOGY and MARKET due to the discussion of data center expansion and high-demand IPO activity involving major global institutional investors in India.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Inside India newsletter: Asia’s hottest data center market aims to quell concerns over water and power use",
+      "publishedAtSgt": "2026-10-22T08:07:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/india-data-center-google-amazon.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-22T14:09:09+08:00"
+    },
+    {
+      "articleId": "23bafda12193920beb9425329042130070e5fd13dd1435308f59c3cac9d5d46e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "CoreWeave is experiencing declining market confidence among equity and bond investors, driven by spiking interest rates and escalating concerns over the costs of artificial intelligence infrastructure buildouts.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Cloud Computing",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors holding debt-heavy artificial intelligence infrastructure and neocloud assets face heightened volatility and repricing risk as borrowing costs rise and market sentiment deteriorates.",
+      "reasoning": "The article highlights significant market stress in a prominent artificial intelligence infrastructure player amid rising bond yields, impacting both equity and credit portfolios.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CoreWeave’s market confidence erodes as bond yields spike and stock sinks",
+      "publishedAtSgt": "2026-10-22T05:12:29+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "articleId": "0df70e331533d5588eacc41dcbfce6aa618d3e6e122baf9d1073579a0f6f9f38",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Southwest Airlines lowered its 2026 profit forecast due to higher fuel costs, becoming the third major U.S. airline to do so this month, though CEO Bob Jordan noted that travel demand remains steady despite higher fares.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Airlines",
+        "Transportation"
+      ],
+      "investorImpact": "Investors in the airline sector should monitor margin pressures stemming from rising fuel prices, which could negatively impact earnings across major carriers despite resilient consumer demand.",
+      "reasoning": "The article details a major corporate earnings guidance cut by Southwest Airlines due to rising fuel expenses, which has direct implications for airline sector equities and broader market sentiment regarding operating costs.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+      "publishedAtSgt": "2026-10-22T05:07:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "articleId": "88feb9c813dfc6ecb258e39a570166437858833aba49c9def29bcf004d25853d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "BlackRock's global fixed income CIO Rick Rieder states that investors have a historic opportunity to secure attractive yields in high-quality bonds despite current market volatility.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors can capitalize on historic yield opportunities in high-quality credit despite bond market volatility.",
+      "reasoning": "The article provides expert commentary from a major institutional investor highlighting significant market opportunities in high-quality fixed income assets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+      "publishedAtSgt": "2026-10-22T03:54:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T06:24:01+08:00"
+    },
+    {
+      "articleId": "5e4e54f4d7098c991076423f259f23783a674c6337443b7a7e2f348b983fedf1",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Wednesday's market action marked a strong rebound in the AI infrastructure trade, led by technology and industrial stocks tied to data center buildouts. Comments from SpaceX CEO Elon Musk regarding power, cooling, and electrical equipment as limiting factors for compute capacity boosted sentiment for related stocks such as GE Vernova, Eaton, and Vertiv.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Industrials"
+      ],
+      "investorImpact": "Investors in AI infrastructure, power equipment, and cooling solutions benefit from reinforced confidence in secular demand drivers despite supply chain bottlenecks.",
+      "reasoning": "The article highlights significant market movements and sectoral rebounds driven by AI infrastructure trends and supply chain insights, making it relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound",
+      "publishedAtSgt": "2026-10-22T03:47:38+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T06:24:02+08:00"
+    },
+    {
+      "articleId": "111ddd8881b0a238a0b1bf2b4110b856606b5849041e75c66e063545ebe25feb",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Investors are rotating out of high-volatility AI growth and infrastructure stocks burdened by massive debt and capital expenditures, shifting towards traditional safety sectors like utilities and consumer staples, though this strategy may carry unexpected correlations termed a Texas hedge.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Utilities",
+        "Consumer Staples",
+        "Technology"
+      ],
+      "investorImpact": "Investors are reallocating capital away from aggressive AI infrastructure plays facing high debt loads and moving into perceived defensive havens, signaling changing risk appetite and sector rotation dynamics.",
+      "reasoning": "The article discusses capital rotation trends between high-growth AI infrastructure plays and defensive sectors, directly impacting equity portfolio positioning and risk management.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Expanding AI trade is turning safety stocks into a 'Texas hedge'",
+      "publishedAtSgt": "2026-10-22T01:14:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/expanding-ai-trade-is-turning-safety-stocks-into-a-texas-hedge.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T02:06:08+08:00"
+    },
+    {
+      "articleId": "dd31afe1ca54ce954d1719b09db219e8b221fe836acc88f267a7c9386195d506",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Meta stock advanced ahead of its after-the-bell earnings report, while related AI and rocket stock shares surged nearly 11% amid credit concerns prompting profit-taking.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Investors monitoring large-cap tech and AI stocks should note the pre-earnings momentum and profit-taking activities driven by credit concerns.",
+      "reasoning": "Classified as MARKET due to focus on stock price movements ahead of earnings and portfolio profit-taking strategies, with medium importance given the relevance to tech sector sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta stock advances ahead of after-the-bell earnings. What we're looking for",
+      "publishedAtSgt": "2026-10-22T00:47:59+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/21/meta-stock-advances-ahead-of-after-the-bell-earnings-what-were-looking-for.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T02:06:09+08:00"
+    },
+    {
+      "articleId": "00da237515666fddd0ba6ca497d5d3b6dcda9fcaeb35e6fb460d3e296be1291d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Options trading for Meta and Tesla leaned bullish following SpaceX earnings, with Meta seeing strong call buying and sustained bullish positioning since its March low based on Barchart data.",
+      "assetClasses": [
+        "Equities",
+        "Options"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Consumer Discretionary"
+      ],
+      "investorImpact": "Investors can gauge ongoing market sentiment and options positioning for major mega-cap stocks like Meta and Tesla, helping inform sentiment-driven strategies.",
+      "reasoning": "Classified as MARKET because it details options trading behavior and investor sentiment for specific large-cap equities. Sentiment is POSITIVE due to bullish call buying, and importance is MEDIUM given its relevance to equity options traders.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta and Tesla bulls get confidence boost after SpaceX earnings",
+      "publishedAtSgt": "2026-10-22T00:35:48+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/meta-tesla-options-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T02:06:07+08:00"
+    },
+    {
+      "articleId": "a966d341678b7ed0707e439da55608cbd0bb3d25d526015f5441f63b8975426f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Tesla earnings are looming as CEO Elon Musk raises the prospect of a potential SpaceX merger, citing cooperation potentials in AI software, chip design, Terafab, and robotics. Tesla already utilizes Grok AI technology from SpaceX for vehicle assistants and Optimus humanoid robots, though automotive margins have faced ongoing headwinds from rising interest rates and energy costs.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Automotive",
+        "Technology"
+      ],
+      "investorImpact": "Investors are weighing the growth potential of AI and robotics synergies against near-term margin pressures from higher interest rates and energy costs impacting automotive earnings.",
+      "reasoning": "The article discusses major corporate developments and earnings previews for a large-cap stock, touching on market sentiment, AI integration, and macroeconomic pressures like interest rates, making it highly relevant for equity market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Tesla earnings loom after Musk calls SpaceX merger a 'good idea'",
+      "publishedAtSgt": "2026-10-22T00:01:25+08:00",
+      "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-22T02:06:07+08:00"
+    }
+  ]
+}
