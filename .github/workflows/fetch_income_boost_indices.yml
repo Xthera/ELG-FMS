@@ -46,7 +46,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests==2.32.5 openpyxl==3.1.5 xlrd==2.0.1 playwright==1.55.0
+          pip install requests==2.32.5 openpyxl==3.1.5 xlrd==2.0.1 holidays==0.62 playwright==1.55.0
 
       # UBS and S&P refuse plain requests from GitHub's servers, so the
       # script falls back to a headless Chromium for them
