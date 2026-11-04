@@ -5,6 +5,23 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "a8329b901857f92352b43727ea819ef4d1ba6121faf072d8e6d3798a81456da3",
+      "source": "CNBC",
+      "title": "Blood banks targeted in latest European fridge cyberattacks",
+      "publishedAtSgt": "2026-11-04T22:15:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/blood-bank-fridges-cyberattacks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "French blood banks were on Monday affected by the recent wave of cybersecurity attacks on European refrigeration systems, the French Blood Establishment confirmed on Wednesday. The organization said that while it wasn't the direct target of the attack, cold storage units operated by external providers containing the EFS' blood products were compromised across three of its sites, with hackers cranking up temperatures.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-05T04:27:01+08:00"
+    },
+    {
       "id": "c1baeddf24865f04231555c888cc66a84c4678845f8d2e5aab2cd56c6e59dbc7",
       "source": "CNBC",
       "title": "McDonald's earnings beat, but traffic to chain's U.S. restaurants falls",
@@ -313,6 +330,6 @@
       "collectedAtSgt": "2026-11-04T04:09:27+08:00"
     }
   ],
-  "articleCount": 19,
-  "updatedAtSgt": "2026-11-04T20:13:25+08:00"
+  "articleCount": 20,
+  "updatedAtSgt": "2026-11-05T04:27:01+08:00"
 }

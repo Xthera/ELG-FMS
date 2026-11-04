@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "cdd217684c8786287a2bdb15aded5d2a5f3bd6b988e0466a7d3b0ae6273e7d24",
+      "source": "CNBC",
+      "title": "New Flutter CEO bets on FanDuel promotions to win customers as profits suffer",
+      "publishedAtSgt": "2026-11-05T03:53:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/flutter-fanduel-promotions-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company's stock is down more than 60% year to date. average monthly players up 12%, including 24% growth in iGaming. For now, he said, the priority is organic growth and paying down debt.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-05T04:26:56+08:00"
+    },
+    {
+      "id": "f91e4bc1ec0da1f21536b45d6762ea998b44c2adfcce4004438ac263a53a526f",
+      "source": "CNBC",
+      "title": "Voters rebuff data centers in every ballot measure except one during the 2026 midterms",
+      "publishedAtSgt": "2026-11-05T03:51:18+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "OpenAI announced in August that it secured 8 gigawatts of computing capacity at the PORTS-Pike Technology Campus in Ohio, the largest planned AI data center campus in the world. SoftBank is a major investor in OpenAI, and the two companies announced plans to invest $1 billion in SB Energy earlier this year.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-05T04:26:56+08:00"
+    },
+    {
+      "id": "ead0f5a344d1b7d1dccb7ef2bdb6b2561429c744a1b592f3abefa5f0bc2053a4",
+      "source": "CNBC",
+      "title": "Hyperscalers and Apple surge after election results remove investor uncertainty",
+      "publishedAtSgt": "2026-11-05T03:37:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Tuesday's results remove uncertainty in the market, David Kelly, chief global strategist at JPMorgan Asset Management, said on \"Squawk on the Street.\" He said the divided government would lead to \"moderation in growth, moderation in inflation, less uncertainty, and I think that's all helping the stock market move up today.\" However, some stocks, particularly those tied to Trump advisor Elon Musk as well as the AI data center buildout, fell on Wednesday.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-05T04:26:55+08:00"
+    },
+    {
+      "id": "baa582bf8260f23623a3fb4bf2bb2f1904c4a6acd980aab304988fd9bdaaac1a",
+      "source": "CNBC",
+      "title": "A massive trade just happened in a leading mortgage lender: Watch Options Action Live",
+      "publishedAtSgt": "2026-11-05T03:08:15+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/a-massive-trade-just-happened-in-a-leading-mortgage-lender-watch-options-action-live.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Crude oil prices fell as WTI traded below $90 and energy stocks dropped 5.6% for the biggest decline in the S&P 500. With the drop in crude oil, a handful of inflation and interest-rate related trades got some bullish attention. Opposite the drop in crude oil was a rally in solar energy companies, extending recent gains and extending unusual options activity that preceded the midterms.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-05T04:26:56+08:00"
+    },
+    {
+      "id": "9d965a0f4afdb9cbad87187ad027021347e41c814e5ca92c68ef83e0b13d8e7f",
+      "source": "CNBC",
+      "title": "CVS to split off drugstore business in major breakup of healthcare giant; shares fall 10%",
+      "publishedAtSgt": "2026-11-05T02:35:35+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of CVS fell more than 12% on Wednesday. CVS shares have jumped roughly 70% since Joyner took the helm in October 2024, bringing the company's market value to $117 billion. Existing CVS shareholders will own stock in both companies after the split.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-05T04:26:56+08:00"
+    },
+    {
+      "id": "05ddf3897daad7800286c1ab936a8c1661db2bcfa720a05271fa4c924fb7d9cd",
+      "source": "CNBC",
+      "title": "Uber beats on revenue, CEO tells CNBC the company is 'investing significantly' to add drivers",
+      "publishedAtSgt": "2026-11-05T01:04:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/uber-stock-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of the ride-hailing service rose more than 7% on Wednesday. The company reported net income of $512 million, down 92% from a year earlier, when the company had a $4.9 billion benefit from a tax valuation release. Uber's revenue beat was due to growth in its freight division.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-05T04:26:57+08:00"
+    },
+    {
+      "id": "77908b5068db0cef171cd0dadad253bc0e635c07784058179a66bc54d1c03e77",
+      "source": "CNBC",
+      "title": "Jim Cramer says this bank stock is a buy after its post-election pullback",
+      "publishedAtSgt": "2026-11-05T00:54:39+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/04/cramer-says-this-bank-stock-is-a-buy-after-its-post-election-pullback.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Jim said that investors are betting that Democratic control of both the House and Senate could slow the AI data center buildout — terrible for the neoclouds but potentially a benefit to the well-established hyperscalers, because the result will force them to curb capital spending and let cash flow catch up.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-05T04:26:57+08:00"
+    }
+  ],
+  "articleCount": 7,
+  "updatedAtSgt": "2026-11-05T04:26:57+08:00"
+}
