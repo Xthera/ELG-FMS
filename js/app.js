@@ -101,6 +101,10 @@ import {
 } from "./prucredits.js";
 
 import {
+    initializeIncomeBoostPlan
+} from "./income-boost.js";
+
+import {
     enhanceSelects
 } from "./custom-select.js";
 
@@ -4475,6 +4479,13 @@ async function initializeApplication() {
         initializeCalculatorSwitch();
     } catch (error) {
         console.warn("ELG FMS: calculator switch failed.", error);
+    }
+
+    // Plan Calculator: PRUIndex Income Boost as a third plan choice
+    try {
+        initializeIncomeBoostPlan();
+    } catch (error) {
+        console.warn("ELG FMS: Income Boost calculator failed.", error);
     }
 
     // Market Performance: Losers hidden on every load until asked for
