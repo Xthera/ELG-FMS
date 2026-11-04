@@ -50,13 +50,13 @@ const INDEXES = [
 // it is scaled from the 5-pay figures and marked as an estimate.
 const SCENARIOS = {
     current: {
-        label: "Illustration at 4.25% (rate of return 3.60%)",
+        label: "Illustration at 4.25% (rate of return 3.6%)",
         rate: 0.036,
         accumulation: 0.025,
         bonus: { 5: 0.065, 10: 0.055 }
     },
     lower: {
-        label: "Illustration at 3.00% (rate of return 2.60%)",
+        label: "Illustration at 3.00% (rate of return 2.6%)",
         rate: 0.026,
         accumulation: 0.0125,
         bonus: { 5: 0.035, 10: 0.03 },
@@ -89,7 +89,6 @@ let initialized = false;
 let active = false;          // Income Boost is the chosen plan
 let data = null;
 let dataError = null;
-let chart = null;
 
 
 /* ------------------------------------------------------------
@@ -107,25 +106,35 @@ function escapeHtml(value) {
         .replaceAll('"', "&quot;");
 }
 
+// Same money format as the PVA / PVW Plan Calculator (js/plan-calculator.js):
+// whole dollars "S$25,000"; with digits = 2, cents only when the amount
+// isn't a whole dollar ("S$9.58", "S$75"); "—" when there is no value.
 function money(value, digits = 0) {
-    if (!Number.isFinite(value)) {
-        return "–";
+    if (value === null || value === undefined || !Number.isFinite(value)) {
+        return "—";
     }
-    return "$" + value.toLocaleString("en-SG", {
-        minimumFractionDigits: digits,
-        maximumFractionDigits: digits
-    });
+    const sign = value < 0 ? "−" : "";
+    const abs = Math.abs(value);
+    if (digits > 0 && Math.abs(abs - Math.round(abs)) > 0.004) {
+        return `${sign}S$${abs.toLocaleString("en-SG", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+    }
+    return `${sign}S$${Math.round(abs).toLocaleString("en-SG")}`;
 }
 
+// Same as the Plan Calculator: trailing zeros trimmed (3.60 -> 3.6%, 59.00 -> 59%)
 function pct(value, digits = 2) {
-    return Number.isFinite(value) ? (value * 100).toFixed(digits) + "%" : "–";
+    if (!Number.isFinite(value)) {
+        return "—";
+    }
+    const text = (value * 100).toFixed(digits);
+    return `${digits > 0 ? text.replace(/\.?0+$/, "") : text}%`;
 }
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function formatDate(iso) {
     if (!iso) {
-        return "–";
+        return "—";
     }
     const [y, m, d] = iso.split("-").map(Number);
     return `${d} ${MONTHS[m - 1]} ${y}`;
@@ -541,212 +550,338 @@ function tile(label, value, note = "") {
     return `<div class="calc-tile"><span>${label}</span><strong>${value}</strong>${note ? `<em>${note}</em>` : ""}</div>`;
 }
 
-function renderResults() {
-    const box = qs("#ib-results");
+/* ------------------------------------------------------------
+   form state: like PVA/PVW, the projection is only worked out when
+   Generate is clicked; until the form is complete the button stays
+   disabled and "Before you generate" lists what's missing
+------------------------------------------------------------- */
+
+function renderValidation() {
     const list = problems();
+    const missing = qs("#ib-missing");
+    const generate = qs("#ib-generate");
 
-    if (list.length) {
-        box.innerHTML = `<div class="calc-problems">Can't calculate yet:<ul>${list.map(p => `<li>${escapeHtml(p)}</li>`).join("")}</ul></div>`;
-        destroyChart();
-        return;
+    if (missing) {
+        missing.hidden = !list.length;
+        missing.innerHTML = list.length
+            ? `<strong>Before you generate:</strong><ul>${list.map(text => `<li>${escapeHtml(text)}</li>`).join("")}</ul>`
+            : "";
     }
-
-    const result = project(state, rateSource());
-    const info = indexInfo(state.index);
-    const isHistory = state.basis === "history";
-    const actualMonths = result.months.filter(row => row.source === "actual");
-
-    const basisText = isHistory
-        ? `Historical replay: first segment created ${formatDate(fifteenth(state.start))}, ${info.label}, participation rate ${pct(state.pr, 0)}. ${actualMonths.length} of 168 non-guaranteed payouts use actual index returns; the rest use ${pct(state.rate)}.`
-        : `${SCENARIOS[state.scenario]?.label ?? `Custom rate of return ${pct(state.rate)}`} applied to every segment.`;
-
-    // Monthly cash benefit by policy year band
-    const bands = [];
-    for (let y = 1; y <= 15; y += 1) {
-        const rows = result.months.filter(row => row.m > (y - 1) * 12 && row.m <= y * 12);
-        const amounts = rows.map(row => row.cash);
-        bands.push({ y, min: Math.min(...amounts), max: Math.max(...amounts), f: rows[rows.length - 1].factor });
+    if (generate) {
+        generate.disabled = list.length > 0;
     }
-
-    const yearRows = result.years.map(row => `
-        <tr>
-            <td>${row.year}</td>
-            <td>${money(row.paid)}</td>
-            <td>${money(bands[row.year - 1].min, 2)}${bands[row.year - 1].max - bands[row.year - 1].min > 0.005 ? ` – ${money(bands[row.year - 1].max, 2)}` : ""}</td>
-            <td>${money(row.guaranteed)}</td>
-            <td>${money(row.nonGuaranteed)}</td>
-            <td>${money(row.cumulative)}</td>
-            ${state.option === "accumulate" ? `<td>${money(row.accumulated)}</td>` : ""}
-            <td>${money(row.death)}</td>
-            <td>${row.maturity == null ? "" : money(row.maturity)}</td>
-        </tr>`).join("");
-
-    const segmentTable = isHistory ? `
-        <details class="ib-details" open>
-            <summary class="calc-section-title">Segment by segment (${actualMonths.length} matured)</summary>
-            <div class="calc-table-wrap">
-                <table class="data-table calc-table ib-table">
-                    <thead><tr>
-                        <th>Payout month</th><th>Segment created</th><th>Matures</th>
-                        <th>Level at start</th><th>Level at maturity</th><th>Index return</th>
-                        <th>Rate of return</th><th>Factor</th><th>Monthly cash benefit</th><th></th>
-                    </tr></thead>
-                    <tbody>
-                    ${result.months.filter(row => row.m >= 13).map(row => {
-                        const seg = row.segment;
-                        const actual = row.source === "actual";
-                        return `<tr class="${actual ? "" : "ib-projected"}">
-                            <td>${row.m} · ${formatMonth(seg.matures)}</td>
-                            <td>${formatDate(seg.created)}</td>
-                            <td>${formatDate(seg.matures)}</td>
-                            <td>${actual ? seg.startLevel.toFixed(3) : ""}</td>
-                            <td>${actual ? seg.endLevel.toFixed(3) : ""}</td>
-                            <td class="${actual ? (seg.indexReturn < 0 ? "is-negative" : "is-positive") : ""}">${actual ? pct(seg.indexReturn) : ""}</td>
-                            <td>${pct(row.rate)}</td>
-                            <td>${row.factor.toFixed(1)}</td>
-                            <td>${money(row.cash, 2)}</td>
-                            <td>${actual ? "Actual" : "Assumed"}</td>
-                        </tr>`;
-                    }).join("")}
-                    </tbody>
-                </table>
-            </div>
-        </details>` : "";
-
-    box.innerHTML = `
-        <p class="settings-help ib-basis">${escapeHtml(basisText)}</p>
-
-        <div class="calc-tiles ib-tiles">
-            ${tile("Total premiums", money(result.totalPremiums), `${money(state.premium)} a year for ${state.term} years`)}
-            ${tile("Monthly cash benefit, months 1–12", money(result.months[0].cash, 2), "Guaranteed")}
-            ${isHistory
-                ? tile("Monthly cash benefit, month 180", money(result.months[POLICY_MONTHS - 1].cash, 2), result.months[POLICY_MONTHS - 1].source === "actual" ? "Actual index return" : `Assumed ${pct(state.rate)}`)
-                : tile(`Monthly cash benefit from month ${state.term === 5 ? 61 : 121}`, money(result.months[POLICY_MONTHS - 1].cash, 2), "Factor 1.0 until maturity")}
-            ${tile("Total cash benefit", money(result.totalCash), `${money(result.totalGuaranteedCash)} guaranteed`)}
-            ${tile(state.option === "accumulate" ? "Accumulated cash benefit at maturity" : "Maturity value", money(state.option === "accumulate" ? result.accumulatedCash : result.maturityBase + result.maturityBonus), state.option === "accumulate" ? `at ${pct(state.accumulation)} a year (non-guaranteed)` : `${money(result.maturityBase)} guaranteed + ${money(result.maturityBonus)} bonus`)}
-            ${tile("Total benefit at maturity", money(result.totalBenefit), `${pct(result.totalBenefit / result.totalPremiums, 0)} of premiums · yield ${pct(result.irr)} a year`)}
-        </div>
-
-        <h3 class="calc-section-title">Year by year</h3>
-        <div class="calc-table-wrap">
-            <table class="data-table calc-table ib-table">
-                <thead><tr>
-                    <th>End of year</th><th>Premiums paid</th><th>Monthly cash benefit</th>
-                    <th>Guaranteed cash</th><th>Non-guaranteed cash</th><th>Total cash to date</th>
-                    ${state.option === "accumulate" ? "<th>Accumulated value</th>" : ""}
-                    <th>Death benefit</th><th>Maturity value</th>
-                </tr></thead>
-                <tbody>${yearRows}</tbody>
-            </table>
-        </div>
-
-        ${segmentTable}
-
-        <p class="settings-help ib-footnote">
-            Death benefit shown is 101% of premiums paid${state.option === "accumulate" ? " plus accumulated cash benefit" : ""} (105% if accidental: ${money(result.years[14].accidentalDeath)} at year 15); the policy pays the higher of this and 101% of the surrender value, which isn't shown because the pack doesn't give surrender values.
-            Only the first 12 months of cash benefit and 102% of Face Value at maturity are guaranteed.
-            ${isHistory ? "Actual segment participation rates are declared by Prudential each month; this replay uses one rate for every segment. Past performance is not indicative of future performance." : ""}
-        </p>`;
-
-    renderBacktest();
-}
-
-function destroyChart() {
-    if (chart) {
-        chart.destroy();
-        chart = null;
-    }
-}
-
-function renderBacktest() {
-    const card = qs("#ib-backtest");
-    if (!active) {
-        card.hidden = true;
-        return;
-    }
-    const series = seriesFor(state.index);
-    const info = indexInfo(state.index);
-    const pr = state.basis === "history" ? state.pr : info.avgPr;
-    const segments = allSegments(series, pr);
-
-    if (!segments.length) {
-        card.hidden = true;
-        destroyChart();
-        return;
-    }
-    card.hidden = false;
-
-    const rates = segments.map(s => s.rate).sort((a, b) => a - b);
-    const average = rates.reduce((s, r) => s + r, 0) / rates.length;
-    const median = rates[Math.floor(rates.length / 2)];
-    const zero = rates.filter(r => r === 0).length;
-    const recent = segments.slice(-60);
-    const recentAverage = recent.reduce((s, r) => s + r.rate, 0) / recent.length;
-
-    qs("#ib-backtest-summary").innerHTML = `
-        <div class="calc-tiles ib-tiles">
-            ${tile("Segments in saved history", segments.length.toLocaleString("en-SG"), `${formatMonth(segments[0].created)} – ${formatMonth(segments[segments.length - 1].created)}`)}
-            ${tile("Average rate of return", pct(average), `at ${pct(pr, 0)} participation · median ${pct(median)}`)}
-            ${tile("Last 60 segments", pct(recentAverage), "average rate of return")}
-            ${tile("Segments paying nothing", `${zero} (${pct(zero / segments.length, 0)})`, "index fell over the 12 months")}
-            ${tile("Best segment", pct(rates[rates.length - 1]), "rate of return")}
-            ${tile("Illustration rates", "2.60% / 3.60%", "for comparison")}
-        </div>`;
-
-    if (typeof window.Chart !== "function") {
-        return;
-    }
-    destroyChart();
-    const css = getComputedStyle(document.documentElement);
-    const accent = css.getPropertyValue("--accent").trim() || "#4f8cff";
-    const muted = css.getPropertyValue("--text-muted").trim() || "#888";
-    const grid = css.getPropertyValue("--border-subtle").trim() || "rgba(128,128,128,0.2)";
-
-    chart = new window.Chart(qs("#ib-chart"), {
-        type: "line",
-        data: {
-            labels: segments.map(s => formatMonth(s.created)),
-            datasets: [
-                {
-                    label: "Index return (12 months)",
-                    data: segments.map(s => +(s.indexReturn * 100).toFixed(2)),
-                    borderColor: muted,
-                    borderWidth: 1,
-                    pointRadius: 0,
-                    tension: 0.2
-                },
-                {
-                    label: `Rate of return at ${pct(pr, 0)} participation`,
-                    data: segments.map(s => +(s.rate * 100).toFixed(2)),
-                    borderColor: accent,
-                    backgroundColor: accent + "33",
-                    borderWidth: 2,
-                    pointRadius: 0,
-                    fill: true,
-                    tension: 0.2
-                }
-            ]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            interaction: { mode: "index", intersect: false },
-            plugins: {
-                legend: { labels: { color: muted } },
-                tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)}%` } }
-            },
-            scales: {
-                x: { ticks: { color: muted, maxTicksLimit: 10 }, grid: { color: grid } },
-                y: { ticks: { color: muted, callback: v => v + "%" }, grid: { color: grid } }
-            }
-        }
-    });
 }
 
 function render() {
     renderForm();
     renderDataStatus();
-    renderResults();
+    renderValidation();
+}
+
+
+/* ------------------------------------------------------------
+   Projected values popup (shared with PVA/PVW: #calc-results-dialog)
+------------------------------------------------------------- */
+
+const charts = {};
+
+function destroyCharts() {
+    for (const key of Object.keys(charts)) {
+        charts[key]?.destroy();
+        delete charts[key];
+    }
+}
+
+function cssVar(name, fallback) {
+    return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || fallback;
+}
+
+// The scenarios shown side by side in the Policy illustration table
+function scenarioList() {
+    if (state.basis === "history") {
+        return [{
+            key: "history",
+            head: `Historical replay · first segment ${formatDate(fifteenth(state.start))} · participation ${pct(state.pr, 0)}`,
+            inputs: { ...state },
+            rateFor: rateSource()
+        }];
+    }
+    if (state.scenario === "custom") {
+        return [{
+            key: "custom",
+            head: `At rate of return of ${pct(state.rate)} a year`,
+            inputs: { ...state },
+            rateFor: () => ({ rate: state.rate, source: "assumed" })
+        }];
+    }
+    return [
+        ["lower", "3.00%"],
+        ["current", "4.25%"]
+    ].map(([key, illustrated]) => {
+        const scenario = SCENARIOS[key];
+        return {
+            key,
+            head: `At ${illustrated} illustrated investment return (rate of return ${pct(scenario.rate)})`,
+            inputs: { ...state, rate: scenario.rate, bonus: scenario.bonus[state.term], accumulation: scenario.accumulation },
+            rateFor: () => ({ rate: scenario.rate, source: "assumed" })
+        };
+    });
+}
+
+function generate() {
+    const out = qs("#calc-results");
+    const dialog = qs("#calc-results-dialog");
+
+    if (!out || problems().length) {
+        renderValidation();
+        return;
+    }
+
+    const info = indexInfo(state.index);
+    const isHistory = state.basis === "history";
+    const accumulate = state.option === "accumulate";
+    const scenarios = scenarioList().map(item => ({ ...item, result: project(item.inputs, item.rateFor) }));
+    const main = scenarios.find(item => item.key === state.scenario) ?? scenarios[scenarios.length - 1];
+    const r = main.result;
+    const actual = r.months.filter(row => row.source === "actual").length;
+    const fullFrom = state.term === 5 ? 61 : 121;
+
+    const scenarioHead = scenarios.map(item => `<th colspan="3" class="calc-scenario-head">${escapeHtml(item.head)}</th>`).join("");
+    const scenarioCols = scenarios.map(() => `
+        <th>Monthly cash benefit<div class="calc-th-note">in the year's last month</div></th>
+        <th>${accumulate ? "Accumulated cash benefit" : "Cash benefit paid to date"}</th>
+        <th>Maturity value<div class="calc-th-note">${accumulate ? "incl. accumulated cash benefit" : "102% of Face Value + bonus"}</div></th>
+    `).join("");
+
+    const segmentRows = isHistory ? r.months.filter(row => row.m >= 13).map(row => {
+        const seg = row.segment;
+        const isActual = row.source === "actual";
+        return `<tr class="${isActual ? "" : "ib-projected"}">
+            <td>Month ${row.m} · ${formatMonth(seg.matures)}</td>
+            <td>${formatDate(seg.created)}</td>
+            <td>${formatDate(seg.matures)}</td>
+            <td>${isActual ? seg.startLevel.toFixed(3) : "—"}</td>
+            <td>${isActual ? seg.endLevel.toFixed(3) : "—"}</td>
+            <td class="${isActual ? (seg.indexReturn < 0 ? "is-negative" : "is-positive") : ""}">${isActual ? pct(seg.indexReturn) : "—"}</td>
+            <td>${pct(row.rate)}</td>
+            <td>${row.factor.toFixed(1)}</td>
+            <td>${money(row.cash, 2)}</td>
+            <td>${isActual ? "Actual" : "Assumed"}</td>
+        </tr>`;
+    }).join("") : "";
+
+    const segments = allSegments(seriesFor(state.index), isHistory ? state.pr : info.avgPr);
+    const backtest = segments.length ? (() => {
+        const rates = segments.map(s => s.rate).sort((a, b) => a - b);
+        const average = rates.reduce((sum, value) => sum + value, 0) / rates.length;
+        const zero = rates.filter(value => value === 0).length;
+        const recent = segments.slice(-60);
+        const recentAverage = recent.reduce((sum, s) => sum + s.rate, 0) / recent.length;
+        const pr = isHistory ? state.pr : info.avgPr;
+        return `
+        <details class="calc-details" ${isHistory ? "open" : ""}>
+            <summary>Every 12-month segment in the saved ${escapeHtml(info.label)} history (at ${pct(pr, 0)} participation)</summary>
+            <div class="calc-tiles">
+                ${tile("Segments in saved history", segments.length.toLocaleString("en-SG"), `${formatMonth(segments[0].created)} – ${formatMonth(segments[segments.length - 1].created)}`)}
+                ${tile("Average rate of return", pct(average), `median ${pct(rates[Math.floor(rates.length / 2)])}`)}
+                ${tile("Last 60 segments", pct(recentAverage), "average rate of return")}
+                ${tile("Segments paying nothing", `${zero} (${pct(zero / segments.length, 0)})`, "index fell over the 12 months")}
+                ${tile("Best segment", pct(rates[rates.length - 1]), "rate of return")}
+                ${tile("Illustration rates", "2.6% / 3.6%", "for comparison")}
+            </div>
+            <div class="calc-chart-card">
+                <div class="calc-chart-wrap"><canvas id="ib-backtest-chart" role="img" aria-label="Index return and rate of return for every 12-month segment"></canvas></div>
+            </div>
+        </details>`;
+    })() : "";
+
+    out.innerHTML = `
+        <div class="calc-tiles">
+            ${tile("Total premiums", money(r.totalPremiums), `${money(state.premium)} a year for ${state.term} years · Face Value ${money(r.fv)}`)}
+            ${tile("Monthly cash benefit, months 1–12", money(r.months[0].cash, 2), "Guaranteed")}
+            ${isHistory
+                ? tile("Monthly cash benefit, month 180", money(r.months[POLICY_MONTHS - 1].cash, 2), `${actual} of 168 payouts use actual index returns`)
+                : tile(`Monthly cash benefit from month ${fullFrom}`, money(r.months[POLICY_MONTHS - 1].cash, 2), `at ${pct(main.inputs.rate)} rate of return`)}
+            ${tile(accumulate ? "Accumulated cash benefit" : "Total cash benefit", money(accumulate ? r.accumulatedCash : r.totalCash), `${money(r.totalGuaranteedCash)} guaranteed${accumulate ? ` · ${pct(main.inputs.accumulation)} interest` : ""}`)}
+            ${tile("Maturity value", money(r.maturityBase + r.maturityBonus), `${money(r.maturityBase)} guaranteed + ${money(r.maturityBonus)} bonus`)}
+            ${tile("Total benefit at maturity", money(r.totalBenefit), `${pct(r.totalBenefit / r.totalPremiums, 0)} of premiums · yield ${pct(r.irr)} a year`)}
+        </div>
+
+        <h3 class="calc-section-title">Projection chart</h3>
+        <div class="calc-chart-card">
+            <div class="calc-chart-wrap">
+                <canvas id="ib-projection-chart" role="img" aria-label="Cash benefit paid each policy year; the same figures are in the policy illustration table below"></canvas>
+            </div>
+        </div>
+
+        <h3 class="calc-section-title">Policy illustration</h3>
+        <div class="table-wrap calc-table-wrap">
+            <table class="data-table calc-table">
+                <thead>
+                    <tr>
+                        <th rowspan="2">End of Policy Year</th>
+                        <th rowspan="2">Premiums paid to date</th>
+                        <th rowspan="2">Guaranteed death benefit<div class="calc-th-note">101% of premiums paid</div></th>
+                        ${scenarioHead}
+                    </tr>
+                    <tr>${scenarioCols}</tr>
+                </thead>
+                <tbody>
+                    ${r.years.map((row, i) => `
+                        <tr class="${row.year === state.term ? "calc-row-term" : ""}">
+                            <td>Policy Year ${row.year}</td>
+                            <td>${money(row.paid)}</td>
+                            <td>${money(1.01 * row.paid)}</td>
+                            ${scenarios.map(item => {
+                                const y = item.result.years[i];
+                                return `
+                                    <td>${money(y.monthly ?? item.result.months[row.year * 12 - 1].cash, 2)}</td>
+                                    <td>${money(accumulate ? y.accumulated : y.cumulative)}</td>
+                                    <td>${y.maturity == null ? "—" : `<strong>${money(y.maturity)}</strong>`}</td>`;
+                            }).join("")}
+                        </tr>`).join("")}
+                </tbody>
+            </table>
+        </div>
+
+        <details class="calc-details">
+            <summary>Cash benefit by year (${escapeHtml(main.head.replace(/^At /, "at "))})</summary>
+            <div class="table-wrap calc-table-wrap">
+                <table class="data-table calc-table">
+                    <thead><tr>
+                        <th>End of Policy Year</th><th>Factor</th><th>Guaranteed cash benefit</th><th>Non-guaranteed cash benefit</th><th>Paid in the year</th><th>Paid to date</th>${accumulate ? "<th>Accumulated value</th>" : ""}
+                    </tr></thead>
+                    <tbody>
+                        ${r.years.map(row => `
+                            <tr>
+                                <td>Policy Year ${row.year}</td>
+                                <td>${r.months[row.year * 12 - 1].factor.toFixed(1)}</td>
+                                <td>${row.guaranteed ? money(row.guaranteed) : "—"}</td>
+                                <td>${row.nonGuaranteed ? money(row.nonGuaranteed) : "—"}</td>
+                                <td>${money(row.guaranteed + row.nonGuaranteed)}</td>
+                                <td>${money(row.cumulative)}</td>
+                                ${accumulate ? `<td>${money(row.accumulated)}</td>` : ""}
+                            </tr>`).join("")}
+                    </tbody>
+                </table>
+            </div>
+        </details>
+
+        ${isHistory ? `
+        <details class="calc-details" open>
+            <summary>Segment by segment (${actual} of 168 matured in the saved history)</summary>
+            <div class="table-wrap calc-table-wrap">
+                <table class="data-table calc-table ib-table">
+                    <thead><tr>
+                        <th>Payout</th><th>Segment created</th><th>Matures</th><th>Level at start</th><th>Level at maturity</th>
+                        <th>Index return</th><th>Rate of return</th><th>Factor</th><th>Monthly cash benefit</th><th></th>
+                    </tr></thead>
+                    <tbody>${segmentRows}</tbody>
+                </table>
+            </div>
+        </details>` : ""}
+
+        ${backtest}
+
+        <div class="calc-notes">
+            <strong>How this is worked out.</strong>
+            PRUIndex Income Boost (Series 1) rules from the product information pack (2 September 2025). Face Value is the total premiums payable (${money(r.fv)}).
+            Months 1–12 pay a guaranteed 2.3% × ${firstFactor(state.term).toFixed(1)} × Face Value a year. From month 13, each month pays that segment's 12-month index return × participation rate (never below 0%) × Face Value × factor ÷ 12;
+            the factor starts at ${firstFactor(state.term).toFixed(1)} and rises by ${firstFactor(state.term).toFixed(1)} each policy year until it reaches 1.0 from month ${fullFrom}.
+            ${isHistory
+                ? `Historical replay uses the saved ${escapeHtml(info.fullName)} levels on the 15th of each month (previous trading day if needed) with one participation rate for every segment; segments that haven't matured yet use ${pct(state.rate)}. Actual participation rates are declared by Prudential each month, and past performance is not indicative of future performance.`
+                : "The illustration rates are the Policy Illustration's rates of return; they are the same for every index."}
+            At maturity the policy pays 102% of Face Value plus a non-guaranteed maturity bonus${accumulate ? ", plus the accumulated cash benefit, which earns non-guaranteed interest from the month each payment is made" : ""}.
+            The death benefit shown is 101% of premiums paid (105% for accidental death)${accumulate ? " plus accumulated cash benefit" : ""}; the policy pays the higher of this and 101% of the surrender value, which isn't shown because the pack doesn't give surrender values.
+            The yield assumes premiums at the start of each policy year. These are illustrations only; only the first 12 months of cash benefit and 102% of Face Value at maturity are guaranteed.
+        </div>`;
+
+    const title = qs("#calc-results-title");
+    const subtitle = qs("#calc-results-subtitle");
+    if (title) {
+        title.textContent = "Projected values";
+    }
+    if (subtitle) {
+        subtitle.textContent = `PRUIndex Income Boost · ${money(state.premium)} yearly for ${state.term} years · ${info.label} · ${accumulate ? "Accumulate" : "Pay out"}`;
+    }
+
+    if (dialog && !dialog.open) {
+        dialog.showModal?.();
+    }
+    out.closest(".calc-dialog-body")?.scrollTo(0, 0);
+
+    // Draw after the popup is open so the charts can size themselves
+    drawCharts(main, segments, isHistory ? state.pr : info.avgPr);
+}
+
+function drawCharts(main, segments, pr) {
+    destroyCharts();
+    if (typeof window.Chart !== "function") {
+        return;
+    }
+
+    const muted = cssVar("--text-muted", "#8b98a5");
+    const grid = cssVar("--border-subtle", "rgba(255,255,255,0.08)");
+    const accent = cssVar("--accent", "#8fb6d9");
+    const guaranteed = cssVar("--series-3", "#199e70");
+    const nonGuaranteed = cssVar("--series-4", "#c98500");
+    const compact = value => Math.abs(value) >= 1e6 ? `S$${(value / 1e6).toFixed(1)}m` : Math.abs(value) >= 1e3 ? `S$${Math.round(value / 1e3)}k` : `S$${Math.round(value)}`;
+    const years = main.result.years;
+
+    const projection = qs("#ib-projection-chart");
+    if (projection) {
+        charts.projection = new window.Chart(projection, {
+            data: {
+                labels: years.map(row => `Year ${row.year}`),
+                datasets: [
+                    { type: "bar", label: "Guaranteed cash benefit", data: years.map(row => +row.guaranteed.toFixed(2)), backgroundColor: guaranteed, stack: "cash", yAxisID: "y" },
+                    { type: "bar", label: "Non-guaranteed cash benefit", data: years.map(row => +row.nonGuaranteed.toFixed(2)), backgroundColor: nonGuaranteed, stack: "cash", yAxisID: "y" },
+                    { type: "line", label: main.inputs.option === "accumulate" ? "Accumulated cash benefit" : "Cash benefit paid to date", data: years.map(row => +(main.inputs.option === "accumulate" ? row.accumulated : row.cumulative).toFixed(2)), borderColor: accent, backgroundColor: accent, pointRadius: 2, tension: 0.2, yAxisID: "y1" }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: { mode: "index", intersect: false },
+                plugins: {
+                    legend: { labels: { color: muted } },
+                    tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${money(ctx.parsed.y, 2)}` } }
+                },
+                scales: {
+                    x: { stacked: true, ticks: { color: muted }, grid: { color: grid } },
+                    y: { stacked: true, beginAtZero: true, title: { display: true, text: "Paid in the year", color: muted }, ticks: { color: muted, callback: compact }, grid: { color: grid } },
+                    y1: { position: "right", beginAtZero: true, title: { display: true, text: "To date", color: muted }, ticks: { color: muted, callback: compact }, grid: { drawOnChartArea: false } }
+                }
+            }
+        });
+    }
+
+    const backtest = qs("#ib-backtest-chart");
+    if (backtest && segments.length) {
+        charts.backtest = new window.Chart(backtest, {
+            type: "line",
+            data: {
+                labels: segments.map(s => formatMonth(s.created)),
+                datasets: [
+                    { label: "Index return (12 months)", data: segments.map(s => +(s.indexReturn * 100).toFixed(2)), borderColor: muted, borderWidth: 1, pointRadius: 0, tension: 0.2 },
+                    { label: `Rate of return at ${pct(pr, 0)} participation`, data: segments.map(s => +(s.rate * 100).toFixed(2)), borderColor: accent, backgroundColor: accent + "33", borderWidth: 2, pointRadius: 0, fill: true, tension: 0.2 }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: { mode: "index", intersect: false },
+                plugins: {
+                    legend: { labels: { color: muted } },
+                    tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)}%` } }
+                },
+                scales: {
+                    x: { ticks: { color: muted, maxTicksLimit: 10 }, grid: { color: grid } },
+                    y: { ticks: { color: muted, callback: v => v + "%" }, grid: { color: grid } }
+                }
+            }
+        });
+    }
 }
 
 
@@ -809,6 +944,8 @@ function bind() {
     });
 
     ["#ib-premium", "#ib-pr", "#ib-start"].forEach(id => qs(id).addEventListener("input", update));
+
+    qs("#ib-generate")?.addEventListener("click", generate);
 }
 
 function update() {
@@ -867,10 +1004,6 @@ function showIncomeBoost(on) {
 
     card?.classList.toggle("is-income-boost", on);
     qs("#ib-setup").hidden = !on;
-    qs("#ib-results-card").hidden = !on;
-    if (!on) {
-        qs("#ib-backtest").hidden = true;
-    }
 
     ibButton?.classList.toggle("active", on);
     ibButton?.setAttribute("aria-checked", String(on));
@@ -889,6 +1022,8 @@ function showIncomeBoost(on) {
         });
         initializeIncomeBoost();
         render();
+    } else {
+        destroyCharts();
     }
 }
 
