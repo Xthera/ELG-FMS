@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-04T10:23:19+08:00",
+  "generatedAtSgt": "2026-11-04T20:13:25+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,87 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "c1baeddf24865f04231555c888cc66a84c4678845f8d2e5aab2cd56c6e59dbc7",
+      "source": "CNBC",
+      "title": "McDonald's earnings beat, but traffic to chain's U.S. restaurants falls",
+      "publishedAtSgt": "2026-11-04T20:07:30+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "At the company's investor day in September, executives said that same-store sales in July and August were slightly negative but they expected September to return to same-store sales growth. Shares of the company rose more than 2% in premarket trading. McDonald's international developmental licensed markets business, which includes Japan and China, reported same-store sales growth of 4.2%.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-04T20:13:24+08:00"
+    },
+    {
+      "id": "58f24ee155574bd5bf7625870c0ad02dd6cb3038abd380fde5d02b5a952f81bd",
+      "source": "CNBC",
+      "title": "SpaceX, Tesla fall over 4% on Democrats' big win; AI stocks mixed",
+      "publishedAtSgt": "2026-11-04T19:35:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Artificial intelligence stocks came under pressure overnight as Democrats — seen as proponents of data center moratoriums — won big in midterm elections in key data center hubs. He added that the election in Texas was the \"biggest worry\" of the night for tech investors and the AI trade because that's where around 25%-30% of data center gigawatts and capacity will come from.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
+    },
+    {
+      "id": "1d152ff72d643778cb9449cd5d6d09a81458d7cd2f3f99db4a6047dbd6606bb2",
+      "source": "CNBC",
+      "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+      "publishedAtSgt": "2026-11-04T18:47:30+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "All euro zone countries saw inflation hold above the European Central Bank's 2% target. The European Central Bank kept its key interest rate at 2.5% last month, following a hike of 25 basis points in September. Robert Mertens, global capital markets senior analyst at Validus Risk Management, cautioned that \"ongoing turmoil in the French bond market is placing constraints on ECB policy\" and the bank's capacity to get inflation under control.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
+    },
+    {
+      "id": "960f7e23889787948adee6dd15be7f1caa3538bbad7efb336b996ffe1400b9a0",
+      "source": "CNBC",
+      "title": "Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook",
+      "publishedAtSgt": "2026-11-04T18:40:51+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Novo posted quarterly earnings ahead of expectations early Wednesday as sales of its Wegovy pill blew past estimates amid continued GLP-1 volume growth globally, sending shares up as much as 6% in early trading. The company updated its outlook to now see adjusted revenue and operating profit growth between negative 2% and 2% at constant exchange rates. The stock fell nearly 8% in one session in September after Novo failed to reassure investors with its post-Wegovy growth strategy.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
+    },
+    {
+      "id": "4891ac8b8e5a32e2a75d855e913dc568851d28ebe8fbcf2167b913b0e090a117",
+      "source": "CNBC",
+      "title": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
+      "publishedAtSgt": "2026-11-04T18:02:00+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "category": "MARKET",
+      "relevanceScore": 94,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields moved lower on Wednesday as investors sought shelter from a sell-off in equity futures sparked by potential big victories from Democrats in the U.S. The 30-year bond yield slid 3 basis points to 5.29%, and the shorter-term 2-year note yield was broadly flat at 4.6101%. AI-related shares, which have led the bull market, paced the overnight decline on fears that Democrats would slow the data center buildout.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
+    },
     {
       "id": "f40950bd9da82421ddead917772c3965848dccd6ff309f014017a0edcfedba22",
       "source": "CNBC",
@@ -1515,85 +1596,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-10-29T22:25:08+08:00"
-    },
-    {
-      "id": "499429c2c836ae7b3e9f8cbe5105d841f9022b7d3f446645fdb3245fc4353881",
-      "source": "CNBC",
-      "title": "President of the European Central Bank Christine Lagarde to step down. Here's who is tipped to replace her",
-      "publishedAtSgt": "2026-10-29T21:50:58+08:00",
-      "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "European Central Bank President Christine Lagarde will step down on Feb. Lagarde has led the central bank since July 2019, steering its responses to the Covid-19 pandemic, the Russia-Ukraine war and a series of energy price shocks that sent inflation in the European Union above 11% in 2022 and spurred the end of the post-Financial Crisis era of negative interest rates.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-29T22:25:05+08:00"
-    },
-    {
-      "id": "8506bba00be341b95bb07397aa51c3200b548cf28f14488649a40628f97fd923",
-      "source": "CNBC",
-      "title": "Alphabet falls 13%, putting it on course for its biggest ever post-earnings drop",
-      "publishedAtSgt": "2026-10-29T21:46:52+08:00",
-      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Alphabet shares were down sharply following the opening bell on Thursday while Microsoft traded largely flat as investors focused on the tech giants' latest spending and free cash flow numbers in their third-quarter earnings. The earnings report comes as investors scrutinize AI spending plans of tech companies and are focusing on the returns on those investments.",
-      "feeds": [
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-29T22:25:07+08:00"
-    },
-    {
-      "id": "4c4a43e2122c9420b4c89c93f91d05e68aff6b8039523948afaf55d82572bb6e",
-      "source": "CNBC",
-      "title": "Banks and healthcare firms are outbidding tech for software talent, major recruiter says",
-      "publishedAtSgt": "2026-10-29T21:29:18+08:00",
-      "url": "https://www.cnbc.com/2026/10/29/ai-jobs-software-engineers-tech-layoffs.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Banks, healthcare companies and other non-tech employers are outbidding tech firms for software engineers as demand for AI skills rises and layoffs reshape the talent market, according to new research by recruitment giant Randstad. Healthcare and life sciences firms are paying up to 17% more for software engineers than tech companies, while banking is offering 13% more, per the research, which surveyed 1,100 business and technology decision-makers in 11 countries, including the U.S., U.K.,...",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-29T22:25:07+08:00"
-    },
-    {
-      "id": "e19c9cbeb5f08d94057be5bac8cf43d9fb06b36c8776b24134ca3f955abf6478",
-      "source": "CNBC",
-      "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
-      "publishedAtSgt": "2026-10-29T21:13:08+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/29/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Also this morning, bond yields are down as new inflation data, out before-the-bell, basically matched expectations but remained well above the Federal Reserve's 2% target. Marvell shares down 11.5% this morning on reports that the chip and networking company is in advanced talks to buy optical and laser provider Lumentum . Another standout quarter from Club stock Eli Lilly thanks to Mounjaro and Zepbound, sending shares up 4% this morning to what would be a new all-time high.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
-    },
-    {
-      "id": "fb1144f10659352581d9f01b9c104266143a447aee7decbfd8932eb3a8ab9b36",
-      "source": "CNBC",
-      "title": "AI build-out hits snag as Google and Microsoft put off raising capex forecasts",
-      "publishedAtSgt": "2026-10-29T20:10:29+08:00",
-      "url": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of neoclouds CoreWeave, Nebius and IREN all dropped after the reports, as did Oracle, which is one of the biggest spenders on AI infrastructure. Despite the third-quarter capex shortfall, investors cheered Microsoft's report on Wednesday as the company beat earnings and revenue estimates, driven by 48% sales growth in its Azure cloud business.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-10-29T22:25:06+08:00"
     }
   ]
 }

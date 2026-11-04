@@ -5,6 +5,87 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "c1baeddf24865f04231555c888cc66a84c4678845f8d2e5aab2cd56c6e59dbc7",
+      "source": "CNBC",
+      "title": "McDonald's earnings beat, but traffic to chain's U.S. restaurants falls",
+      "publishedAtSgt": "2026-11-04T20:07:30+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "At the company's investor day in September, executives said that same-store sales in July and August were slightly negative but they expected September to return to same-store sales growth. Shares of the company rose more than 2% in premarket trading. McDonald's international developmental licensed markets business, which includes Japan and China, reported same-store sales growth of 4.2%.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-04T20:13:24+08:00"
+    },
+    {
+      "id": "58f24ee155574bd5bf7625870c0ad02dd6cb3038abd380fde5d02b5a952f81bd",
+      "source": "CNBC",
+      "title": "SpaceX, Tesla fall over 4% on Democrats' big win; AI stocks mixed",
+      "publishedAtSgt": "2026-11-04T19:35:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Artificial intelligence stocks came under pressure overnight as Democrats — seen as proponents of data center moratoriums — won big in midterm elections in key data center hubs. He added that the election in Texas was the \"biggest worry\" of the night for tech investors and the AI trade because that's where around 25%-30% of data center gigawatts and capacity will come from.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
+    },
+    {
+      "id": "1d152ff72d643778cb9449cd5d6d09a81458d7cd2f3f99db4a6047dbd6606bb2",
+      "source": "CNBC",
+      "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+      "publishedAtSgt": "2026-11-04T18:47:30+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "All euro zone countries saw inflation hold above the European Central Bank's 2% target. The European Central Bank kept its key interest rate at 2.5% last month, following a hike of 25 basis points in September. Robert Mertens, global capital markets senior analyst at Validus Risk Management, cautioned that \"ongoing turmoil in the French bond market is placing constraints on ECB policy\" and the bank's capacity to get inflation under control.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
+    },
+    {
+      "id": "960f7e23889787948adee6dd15be7f1caa3538bbad7efb336b996ffe1400b9a0",
+      "source": "CNBC",
+      "title": "Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook",
+      "publishedAtSgt": "2026-11-04T18:40:51+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Novo posted quarterly earnings ahead of expectations early Wednesday as sales of its Wegovy pill blew past estimates amid continued GLP-1 volume growth globally, sending shares up as much as 6% in early trading. The company updated its outlook to now see adjusted revenue and operating profit growth between negative 2% and 2% at constant exchange rates. The stock fell nearly 8% in one session in September after Novo failed to reassure investors with its post-Wegovy growth strategy.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
+    },
+    {
+      "id": "4891ac8b8e5a32e2a75d855e913dc568851d28ebe8fbcf2167b913b0e090a117",
+      "source": "CNBC",
+      "title": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
+      "publishedAtSgt": "2026-11-04T18:02:00+08:00",
+      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "category": "MARKET",
+      "relevanceScore": 94,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields moved lower on Wednesday as investors sought shelter from a sell-off in equity futures sparked by potential big victories from Democrats in the U.S. The 30-year bond yield slid 3 basis points to 5.29%, and the shorter-term 2-year note yield was broadly flat at 4.6101%. AI-related shares, which have led the bull market, paced the overnight decline on fears that Democrats would slow the data center buildout.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
+    },
+    {
       "id": "f40950bd9da82421ddead917772c3965848dccd6ff309f014017a0edcfedba22",
       "source": "CNBC",
       "title": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
@@ -232,6 +313,6 @@
       "collectedAtSgt": "2026-11-04T04:09:27+08:00"
     }
   ],
-  "articleCount": 14,
-  "updatedAtSgt": "2026-11-04T10:23:19+08:00"
+  "articleCount": 19,
+  "updatedAtSgt": "2026-11-04T20:13:25+08:00"
 }
