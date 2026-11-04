@@ -3395,7 +3395,7 @@
                         <div class="page-header-main">
 
                             <div class="eyebrow">
-                                PRUVANTAGE ASSURE II · PRUVANTAGE WEALTH III
+                                PRUVANTAGE ASSURE II · PRUVANTAGE WEALTH III · PRUINDEX INCOME BOOST
                             </div>
 
                             <h1
@@ -3405,7 +3405,7 @@
                                 Plan Calculator
                             </h1>
 
-                            <p class="page-description">
+                            <p id="calc-page-description" class="page-description">
                                 Project a PRUVantage Assure II or PRUVantage Wealth III policy's account values, including Investment Booster and dividends.
                             </p>
 
@@ -3427,8 +3427,103 @@
                                 <button type="button" class="report-payment-option" role="radio" aria-checked="false" data-calc-plan="PVW">
                                     <span class="report-payment-name">PRUVantage Wealth III (SGD)</span>
                                 </button>
+                                <button type="button" class="report-payment-option" role="radio" aria-checked="false" data-ib-plan>
+                                    <span class="report-payment-name">PRUIndex Income Boost</span>
+                                </button>
                             </div>
                         </fieldset>
+
+                        <!-- PRUINDEX INCOME BOOST (js/income-boost.js): shown instead of the fields below -->
+                        <div id="ib-setup" class="ib-setup" hidden>
+
+                            <fieldset class="report-group calc-group">
+                                <legend>Premium &amp; Index</legend>
+
+                                <div class="report-grid calc-grid ib-grid">
+                                    <div class="report-field">
+                                        <span>Premium term</span>
+                                        <div class="report-payment-options ib-choice" role="radiogroup" aria-label="Premium term">
+                                            <button type="button" class="report-payment-option active" role="radio" aria-checked="true" data-ib-term="5"><span class="report-payment-name">5 years</span></button>
+                                            <button type="button" class="report-payment-option" role="radio" aria-checked="false" data-ib-term="10"><span class="report-payment-name">10 years</span></button>
+                                        </div>
+                                    </div>
+
+                                    <label class="report-field">
+                                        <span>Annual premium (S$)</span>
+                                        <input id="ib-premium" type="number" min="0" step="10" inputmode="decimal">
+                                        <small id="ib-premium-note" class="calc-field-note"></small>
+                                    </label>
+
+                                    <label class="filter-control report-field">
+                                        <span>Index</span>
+                                        <select id="ib-index"></select>
+                                    </label>
+
+                                    <div class="report-field">
+                                        <span>Cash benefit</span>
+                                        <div class="report-payment-options ib-choice" role="radiogroup" aria-label="Cash benefit option">
+                                            <button type="button" class="report-payment-option active" role="radio" aria-checked="true" data-ib-option="payout"><span class="report-payment-name">Pay out</span></button>
+                                            <button type="button" class="report-payment-option" role="radio" aria-checked="false" data-ib-option="accumulate"><span class="report-payment-name">Accumulate</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="report-group calc-group">
+                                <legend>Projection</legend>
+
+                                <div class="explorer-dataset ib-basis-switch" role="tablist" aria-label="Projection basis">
+                                    <button type="button" class="explorer-dataset-tab active" data-ib-basis="illustration" role="tab" aria-selected="true">Illustration rates</button>
+                                    <button type="button" class="explorer-dataset-tab" data-ib-basis="history" role="tab" aria-selected="false">Historical replay</button>
+                                </div>
+
+                                <div class="report-grid calc-grid ib-grid">
+                                    <label class="filter-control report-field">
+                                        <span>Scenario</span>
+                                        <select id="ib-scenario">
+                                            <option value="current">Illustration at 4.25% (rate of return 3.60%)</option>
+                                            <option value="lower">Illustration at 3.00% (rate of return 2.60%)</option>
+                                            <option value="custom">Custom</option>
+                                        </select>
+                                    </label>
+
+                                    <label class="report-field">
+                                        <span id="ib-rate-label">Rate of return (%)</span>
+                                        <input id="ib-rate" type="number" min="0" step="0.05" inputmode="decimal">
+                                        <small class="calc-field-note">Index return × participation rate, never below 0%.</small>
+                                    </label>
+
+                                    <label class="report-field">
+                                        <span>Maturity bonus (% of Face Value)</span>
+                                        <input id="ib-bonus" type="number" min="0" step="0.1" inputmode="decimal">
+                                        <small id="ib-bonus-note" class="calc-field-note"></small>
+                                    </label>
+
+                                    <label class="report-field">
+                                        <span>Accumulation interest (% a year)</span>
+                                        <input id="ib-acc" type="number" min="0" step="0.05" inputmode="decimal">
+                                        <small class="calc-field-note">Used with Accumulate. Non-guaranteed; currently 2.50%.</small>
+                                    </label>
+                                </div>
+
+                                <div id="ib-history" class="report-grid calc-grid ib-grid" hidden>
+                                    <label class="report-field">
+                                        <span>First segment created (15th of)</span>
+                                        <input id="ib-start" type="month">
+                                        <small class="calc-field-note">Payouts from month 13 use each segment's actual 12-month index return.</small>
+                                    </label>
+
+                                    <label class="report-field">
+                                        <span>Participation rate (%)</span>
+                                        <input id="ib-pr" type="number" min="0" step="1" inputmode="decimal">
+                                        <small id="ib-pr-note" class="calc-field-note"></small>
+                                    </label>
+                                </div>
+
+                                <p id="ib-data-status" class="settings-help ib-data-status"></p>
+                            </fieldset>
+
+                        </div>
 
                         <fieldset class="report-group calc-group">
                             <legend>Life Assured &amp; Premium</legend>
@@ -3627,6 +3722,21 @@
                     </div>
 
                 </section>
+
+
+                <!-- PRUINDEX INCOME BOOST results (shown when it is the chosen plan) -->
+                <section id="ib-results-card" class="performance-card report-card calc-card ib-card" aria-label="Income Boost results" hidden>
+                        <div id="ib-results" class="calc-results ib-results"></div>
+                    </section>
+
+                    <section id="ib-backtest" class="performance-card report-card calc-card ib-card" aria-labelledby="ib-backtest-title" hidden>
+                        <div class="calc-results">
+                            <h3 id="ib-backtest-title" class="calc-section-title">Every 12-month segment in the saved history</h3>
+                            <p class="settings-help">What each monthly segment would have paid since the index history starts. The history grows every day as new closing levels are saved.</p>
+                            <div id="ib-backtest-summary"></div>
+                            <div class="ib-chart-wrap"><canvas id="ib-chart" aria-label="Index return and rate of return for each segment"></canvas></div>
+                        </div>
+                    </section>
 
 
                 <!-- Projected values popup (opens on Generate) -->
