@@ -25,7 +25,13 @@ merges what the sources return today into what is already saved.
     factor), the older saved levels are rescaled to the new base so the
     series stays continuous.
 
-A source that fails keeps its saved history and is marked "stale"; the
+UBS and S&P refuse plain scripted requests from cloud servers (bot
+protection), so when a plain request fails the source is fetched again
+with a headless Chromium browser (Playwright): it opens the provider's
+page and downloads the data from inside it, as a visitor's browser does.
+
+A source that fails keeps its saved history and is marked "stale"; one
+that has never worked is listed under "failures" with the reason. The
 script exits with an error only if nothing could be saved at all.
 These are the providers' unofficial website data, so a source may stop
 working if a provider changes its site.
@@ -33,6 +39,7 @@ working if a provider changes its site.
 
 from __future__ import annotations
 
+import base64
 import io
 import json
 import os
@@ -119,10 +126,10 @@ INDICES = [
 # helpers
 # ---------------------------------------------------------------------------
 
-def get(url: str, params: dict | None = None, headers: dict | None = None) -> requests.Response:
+def get(url: str, params: dict | None = None, headers: dict | None = None, retries: int = RETRIES) -> requests.Response:
     last_error = None
 
-    for attempt in range(1, RETRIES + 1):
+    for attempt in range(1, retries + 1):
         try:
             response = requests.get(
                 url,
@@ -134,11 +141,13 @@ def get(url: str, params: dict | None = None, headers: dict | None = None) -> re
             if response.status_code == 200:
                 return response
 
-            last_error = RuntimeError(f"HTTP {response.status_code}")
+            sample = " ".join(response.text[:120].split())
+            last_error = RuntimeError(f"HTTP {response.status_code} ({sample})")
         except requests.RequestException as error:
             last_error = error
 
-        time.sleep(3 * attempt)
+        if attempt < retries:
+            time.sleep(3 * attempt)
 
     raise RuntimeError(f"{url}: {last_error}")
 
@@ -180,6 +189,91 @@ def to_level(value) -> float | None:
 # sources - each returns {iso_date: level}
 # ---------------------------------------------------------------------------
 
+class HeadlessBrowser:
+    """One Chromium for the whole run, started only if a source needs it."""
+
+    def __init__(self) -> None:
+        self._playwright = None
+        self._browser = None
+        self._context = None
+
+    def open(self, url: str):
+        if self._context is None:
+            from playwright.sync_api import sync_playwright
+
+            self._playwright = sync_playwright().start()
+            self._browser = self._playwright.chromium.launch(
+                args=["--disable-blink-features=AutomationControlled"]
+            )
+            self._context = self._browser.new_context(
+                user_agent=HEADERS["User-Agent"],
+                locale="en-US",
+                viewport={"width": 1366, "height": 900},
+            )
+            self._context.add_init_script(
+                "Object.defineProperty(navigator, 'webdriver', { get: () => undefined })"
+            )
+
+        page = self._context.new_page()
+        response = page.goto(url, wait_until="domcontentloaded", timeout=90_000)
+
+        if response is not None and response.status >= 400:
+            raise RuntimeError(f"browser got HTTP {response.status} for {url}")
+
+        page.wait_for_timeout(4_000)   # let the site's own scripts settle
+        return page
+
+    def fetch_text(self, page, url: str) -> str:
+        return page.evaluate(
+            """async url => {
+                const r = await fetch(url, { credentials: "include" });
+                if (!r.ok) throw new Error("HTTP " + r.status);
+                return await r.text();
+            }""",
+            url,
+        )
+
+    def fetch_bytes(self, page, url: str) -> bytes:
+        encoded = page.evaluate(
+            """async url => {
+                const r = await fetch(url, { credentials: "include" });
+                if (!r.ok) throw new Error("HTTP " + r.status);
+                const bytes = new Uint8Array(await r.arrayBuffer());
+                let text = "";
+                for (let i = 0; i < bytes.length; i += 0x8000) {
+                    text += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+                }
+                return btoa(text);
+            }""",
+            url,
+        )
+        return base64.b64decode(encoded)
+
+    def close(self) -> None:
+        for item in (self._context, self._browser):
+            try:
+                if item is not None:
+                    item.close()
+            except Exception:
+                pass
+        if self._playwright is not None:
+            self._playwright.stop()
+
+
+BROWSER = HeadlessBrowser()
+
+
+def with_browser_fallback(plain, browser) -> dict[str, float]:
+    try:
+        return plain()
+    except Exception as plain_error:
+        print(f"plain request refused ({plain_error}); trying headless browser ... ", end="", flush=True)
+        try:
+            return browser()
+        except Exception as browser_error:
+            raise RuntimeError(f"{plain_error} | headless browser: {browser_error}") from browser_error
+
+
 def fetch_barclays() -> dict[str, float]:
     payload = get(BARCLAYS_DATA).json()
     rows = payload["BXIISC6S"]["indexData"]
@@ -191,20 +285,20 @@ def fetch_barclays() -> dict[str, float]:
     }
 
 
-def fetch_sp() -> dict[str, float]:
-    params = {
-        "indexId": SP_INDEX_ID,
-        "language_id": "1",
-        "getchildindex": "true",
-        "returntype": "T-",
-        "currencycode": "SGD",
-        "currencyChangeFlag": "false",
-        "hybridIndexes": "",
-        "period": "all",
-    }
-    payload = get(SP_DATA, params=params, headers={"Referer": SP_PAGE}).json()
-    rows = payload["indexLevelsHolder"]["indexLevels"]
+SP_PARAMS = {
+    "indexId": SP_INDEX_ID,
+    "language_id": "1",
+    "getchildindex": "true",
+    "returntype": "T-",
+    "currencycode": "SGD",
+    "currencyChangeFlag": "false",
+    "hybridIndexes": "",
+    "period": "all",
+}
 
+
+def parse_sp(payload: dict) -> dict[str, float]:
+    rows = payload["indexLevelsHolder"]["indexLevels"]
     levels = {}
 
     for row in rows:
@@ -220,36 +314,66 @@ def fetch_sp() -> dict[str, float]:
     return levels
 
 
-def fetch_ubs() -> dict[str, float]:
-    page = get(UBS_PAGE).text
+def fetch_sp() -> dict[str, float]:
+    def plain():
+        return parse_sp(get(SP_DATA, params=SP_PARAMS, headers={"Referer": SP_PAGE}, retries=2).json())
 
+    def browser():
+        page = BROWSER.open(SP_PAGE)
+        try:
+            url = requests.Request("GET", SP_DATA, params=SP_PARAMS).prepare().url
+            return parse_sp(json.loads(BROWSER.fetch_text(page, url)))
+        finally:
+            page.close()
+
+    return with_browser_fallback(plain, browser)
+
+
+def ubs_link(page_html: str) -> str:
     # The SGD file's name changes with each refresh, e.g.
     # ubsmsts-index-level-2026-aug26.xlsx
-    links = re.findall(r'href="([^"]*ubsmsts-index-level[^"]*\.xlsx)"', page, flags=re.I)
+    links = re.findall(r'href="([^"]*ubsmsts-index-level[^"]*\.xlsx)"', page_html, flags=re.I)
 
     if not links:
         raise RuntimeError("SGD index level file not found on the UBS page")
 
-    workbook_bytes = get(urljoin(UBS_PAGE, links[0])).content
-    workbook = load_workbook(io.BytesIO(workbook_bytes), read_only=True, data_only=True)
+    return urljoin(UBS_PAGE, links[0])
 
+
+def parse_ubs(workbook_bytes: bytes) -> dict[str, float]:
+    workbook = load_workbook(io.BytesIO(workbook_bytes), read_only=True, data_only=True)
     levels = {}
 
-    # Layout-agnostic: in every row, the first date cell and the first
-    # positive number after it are the date and the index level.
-    for sheet in workbook.worksheets:
-        for row in sheet.iter_rows(values_only=True):
-            day = None
-            for cell in row:
-                if day is None:
-                    day = to_date(cell)
-                    continue
-                level = to_level(cell)
-                if level:
-                    levels[day.isoformat()] = level
-                    break
+    # First sheet: column A date, column B UBSMSTS level (header row first).
+    # Layout-agnostic: the first date cell and the first positive number
+    # after it are the date and the level.
+    for row in workbook.worksheets[0].iter_rows(values_only=True):
+        day = None
+        for cell in row:
+            if day is None:
+                day = to_date(cell)
+                continue
+            level = to_level(cell)
+            if level:
+                levels[day.isoformat()] = level
+                break
 
     return levels
+
+
+def fetch_ubs() -> dict[str, float]:
+    def plain():
+        link = ubs_link(get(UBS_PAGE, retries=2).text)
+        return parse_ubs(get(link, retries=2).content)
+
+    def browser():
+        page = BROWSER.open(UBS_PAGE)
+        try:
+            return parse_ubs(BROWSER.fetch_bytes(page, ubs_link(page.content())))
+        finally:
+            page.close()
+
+    return with_browser_fallback(plain, browser)
 
 
 FETCHERS = {
@@ -301,6 +425,7 @@ def main() -> int:
     saved_records = load_saved()
     output = []
     summary = []
+    failures = {}
     published = 0
 
     for config in INDICES:
@@ -338,6 +463,7 @@ def main() -> int:
             print(f"FAILED  {error}  (kept {len(levels)} saved levels)")
 
         if not levels:
+            failures[code] = {"name": config["name"], **status}
             summary.append(f"| {code} | missing | 0 | - | {status['message']} |")
             continue
 
@@ -358,6 +484,8 @@ def main() -> int:
             f"| {code} | {status['status']} | {len(observations)} | {latest_day} | {status['message']} |"
         )
 
+    BROWSER.close()
+
     if not published:
         print("ERROR: no index could be saved.")
         return 1
@@ -374,6 +502,7 @@ def main() -> int:
                     "History is accumulated: dates a source no longer returns are kept."
                 ),
                 "indexCount": len(output),
+                "failures": failures,
                 "indices": output,
             },
             separators=(",", ":"),
