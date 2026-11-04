@@ -3481,8 +3481,8 @@
                                     <label class="filter-control report-field">
                                         <span>Scenario</span>
                                         <select id="ib-scenario">
-                                            <option value="current">Illustration at 4.25% (rate of return 3.60%)</option>
-                                            <option value="lower">Illustration at 3.00% (rate of return 2.60%)</option>
+                                            <option value="current">Illustration at 4.25% (rate of return 3.6%)</option>
+                                            <option value="lower">Illustration at 3.00% (rate of return 2.6%)</option>
                                             <option value="custom">Custom</option>
                                         </select>
                                     </label>
@@ -3522,6 +3522,13 @@
 
                                 <p id="ib-data-status" class="settings-help ib-data-status"></p>
                             </fieldset>
+
+                            <div id="ib-missing" class="calc-missing" hidden></div>
+
+                            <div class="report-actions calc-actions">
+                                <button id="ib-generate" type="button" class="report-generate" disabled>Generate</button>
+                                <span class="settings-help">Fill in every field, then click Generate to see the projected values.</span>
+                            </div>
 
                         </div>
 
@@ -3722,21 +3729,6 @@
                     </div>
 
                 </section>
-
-
-                <!-- PRUINDEX INCOME BOOST results (shown when it is the chosen plan) -->
-                <section id="ib-results-card" class="performance-card report-card calc-card ib-card" aria-label="Income Boost results" hidden>
-                        <div id="ib-results" class="calc-results ib-results"></div>
-                    </section>
-
-                    <section id="ib-backtest" class="performance-card report-card calc-card ib-card" aria-labelledby="ib-backtest-title" hidden>
-                        <div class="calc-results">
-                            <h3 id="ib-backtest-title" class="calc-section-title">Every 12-month segment in the saved history</h3>
-                            <p class="settings-help">What each monthly segment would have paid since the index history starts. The history grows every day as new closing levels are saved.</p>
-                            <div id="ib-backtest-summary"></div>
-                            <div class="ib-chart-wrap"><canvas id="ib-chart" aria-label="Index return and rate of return for each segment"></canvas></div>
-                        </div>
-                    </section>
 
 
                 <!-- Projected values popup (opens on Generate) -->
