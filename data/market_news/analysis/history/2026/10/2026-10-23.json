@@ -1,0 +1,618 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 20,
+  "analyses": [
+    {
+      "articleId": "9ea3263795563a50497e12e0d31c9156ac1c57ac5c17c444ce362249dcba3a6b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Bank earnings season highlights debate over whether AI agents could disrupt bank deposits and change how consumers manage money, with executives pushing back against the notion while investors watch for rising deposit costs or slowing growth.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "Investors should monitor deposit costs and deposit growth as potential leading indicators of disruption from AI agents within the banking sector, though current executive pushback suggests fears may be exaggerated.",
+      "reasoning": "The article discusses the market implications of AI agents on bank deposits during earnings season, bridging technology and financial market sentiment, making it relevant for fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI agents could disrupt bank deposits. Why Wall Street may be overreacting",
+      "publishedAtSgt": "2026-10-23T23:00:49+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/23/ai-agents-could-disrupt-bank-deposits-why-wall-street-may-be-overreacting.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-24T01:53:57+08:00"
+    },
+    {
+      "articleId": "1d15d42c8a19df55a402f6822f5e005599b9082c12e524d2fc9c90ef8cd35917",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Restaurant stocks are showing a sharp performance split this year. While companies like Brinker International, Darden Restaurants, Restaurant Brands International, Starbucks, and Cheesecake Factory are seeing gains driven by brand identity and strong execution, earnings results will test whether holding multiple brands is an effective strategy.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Restaurants"
+      ],
+      "investorImpact": "Investors can use upcoming restaurant earnings to evaluate multi-brand strategies and the effectiveness of brand identity and execution in driving outperformance within the consumer discretionary sector.",
+      "reasoning": "The article discusses the divergence in performance among restaurant stocks and sets up earnings as a test for multi-brand strategies, making it relevant for sector-level market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Restaurant earnings will test whether owning more brands pays off",
+      "publishedAtSgt": "2026-10-23T21:55:46+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/darden-brinker-qsr-stocks-restaurant-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-24T01:53:57+08:00"
+    },
+    {
+      "articleId": "a38967a991cafb3b1c3e8857dac05f1096d01764ed81137275f9fb93d3717646",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Higher interest rates have prompted family offices to become more selective with real estate investments, focusing on heavily discounted properties and assets possessing strong pricing power.",
+      "assetClasses": [
+        "Real Estate"
+      ],
+      "geographies": [],
+      "sectors": [
+        "Real Estate"
+      ],
+      "investorImpact": "Investors and family offices face a higher bar for real estate deployment, shifting focus toward deeply discounted assets and those with pricing power, altering capital allocation strategies in the current interest rate environment.",
+      "reasoning": "The article discusses high-level investment behavior shifts among family offices due to macroeconomic interest rate conditions, directly impacting real estate markets and asset allocation strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Higher interest rates have made family offices pickier about investing in real estate",
+      "publishedAtSgt": "2026-10-23T20:15:03+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/high-interest-rates-raise-the-bar-for-real-estate-deals.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "articleId": "593cae8800cbb0d212baf78b30835aa9f6fadb9c32d9c0339ba2a1dcc96373ef",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The 10-year U.S. Treasury yield dropped back below 5% as investors sought safety amid growing artificial intelligence fears and concerns over high debt levels taken on by tech companies for AI infrastructure.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "The drop in Treasury yields reflects a flight to safety as equity investors react to AI-related risks and heavy corporate debt, signaling potential volatility across tech and fixed-income portfolios.",
+      "reasoning": "Classified as MARKET due to direct reporting on Treasury yield movements and equity market reactions to AI sector concerns. It is highly significant for tracking macro sentiment shifts.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
+      "publishedAtSgt": "2026-10-23T20:12:18+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T20:39:57+08:00"
+    },
+    {
+      "articleId": "a95c75965758cff2c07078bb6504b9e05c647f5f8316fca8af79a92e950007ea",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Crude oil futures rose, with Brent crude hitting a five-month high at $114.49 per barrel and West Texas Intermediate climbing above $100 to $101.04 a barrel, driven by geopolitical tensions as Iran stated it is prepared for warfare.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "U.S.",
+        "Iran",
+        "Global"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Higher oil prices increase inflationary pressures and energy costs, negatively impacting broader market equities and consumer discretionary sectors while potentially benefiting energy sector producers.",
+      "reasoning": "The article details a significant rise in global oil benchmarks above key psychological thresholds driven by geopolitical threats, which directly affects macroeconomic inflation expectations and energy market allocations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "U.S. oil rises above $100, Brent at five-month high as Iran says it’s prepared for warfare",
+      "publishedAtSgt": "2026-10-23T19:51:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "articleId": "9a5e07893a9828d30dc6b4574d8ec99fa086988357b65566ec578c9d1a4b33ea",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Russia and Ukraine exchanged intensive strikes targeting energy infrastructure overnight, disrupting power for over 500,000 consumers across multiple regions, shortly after signaling potential progress in U.S.-brokered peace talks.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "Russia",
+        "Ukraine",
+        "United States",
+        "Europe"
+      ],
+      "sectors": [
+        "Energy",
+        "Utilities"
+      ],
+      "investorImpact": "Heightened conflict and attacks on energy infrastructure can drive volatility in global energy prices and create operational risks for European utility markets.",
+      "reasoning": "Classified as GEOPOLITICAL due to the ongoing military conflict between Russia and Ukraine. It is relevant for fund monitoring because of potential knock-on effects on energy commodities and European energy security.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Russia and Ukraine trade fresh strikes despite renewed push for U.S.-brokered peace talks",
+      "publishedAtSgt": "2026-10-23T19:16:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/russia-ukraine-strikes-peace-talks.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "articleId": "e1a27a4da44ba920b0089577fb88588a0555a47703586270f548ddbbf007bef5",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Following a sell-off in technology stocks, investors are seeking refuge in safe havens, with Treasurys seeing renewed demand despite concerns over AI-related bond issuance. Meanwhile, Japanese core inflation reached its highest level this year, signaling a potential rate hike by the Bank of Japan.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Government Bonds"
+      ],
+      "geographies": [
+        "United States",
+        "Japan"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors are rotating out of tech equities and into safe-haven assets due to market volatility and sell-offs, while changing macroeconomic conditions in Japan highlight potential interest rate shifts.",
+      "reasoning": "The article discusses ongoing market rotation, safe-haven demand, treasury reactions to AI-related issuance, and central bank policy considerations, making it relevant for market monitoring and asset allocation strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Safe haven search is on Friday as investors keep rotating",
+      "publishedAtSgt": "2026-10-23T19:05:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/safe-haven-search-is-on-friday-as-investors-keep-rotating.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "articleId": "44e3a28226cce953ae62492e5b79085f6faa97ce241d5f8e63139e2f21c9f379",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Elon Musk addressed potential merger chatter between Tesla and SpaceX by stating he had already said everything necessary, while Tesla executives declined to take questions on the matter during an earnings call.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Automotive",
+        "Technology",
+        "Aerospace"
+      ],
+      "investorImpact": "The lack of clarity or refusal by management to address potential merger chatter creates uncertainty for shareholders, potentially impacting Tesla stock volatility.",
+      "reasoning": "Classified as MARKET because it covers market chatter and investor relations regarding a potential high-profile corporate merger between Tesla and SpaceX, though management's avoidance of the topic leaves the situation neutral for now.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage",
+      "publishedAtSgt": "2026-10-23T19:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/spacex-tesla-merger-chatter-takes-center-stage-after-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T20:39:58+08:00"
+    },
+    {
+      "articleId": "0f7ead726aaf2290ab4932357695093afef9f18a2066e6bc94370332670ea32b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "SK Hynix shares rebounded following an initial drop after the company scrapped its planned IPO for subsidiary Solidigm due to financial market volatility and a broader correction in semiconductor stocks, easing investor concerns.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "South Korea",
+        "Asia-Pacific"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The decision to scrap the Solidigm IPO removes a potential overhang on SK Hynix shares, though broader semiconductor stock correction and market volatility remain key watchpoints for investors.",
+      "reasoning": "Classified as MARKET because it details stock price movements and corporate actions in response to market volatility. Sentiment is POSITIVE due to the share price rebound and removal of IPO concerns. Importance is MEDIUM as it impacts specific regional tech equities and semiconductor sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SK Hynix shares rebound after initial drop on scrapped Solidigm IPO plans",
+      "publishedAtSgt": "2026-10-23T13:01:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
+      "articleId": "8b7723429373ce1e440a91c37369b0815cc848ba3988a63d0832162588c9f33b",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Wealthy Chinese individuals are shifting offshore funds into U.S. banks to evade Beijing's newly expanded retroactive taxes and tighter controls on offshore wealth, leading to the unwinding of trusts and liquidation of shares in traditional Asian financial hubs like Singapore and Hong Kong.",
+      "assetClasses": [
+        "Equities",
+        "Cash",
+        "Private Wealth"
+      ],
+      "geographies": [
+        "China",
+        "United States",
+        "Singapore",
+        "Hong Kong"
+      ],
+      "sectors": [
+        "Banking",
+        "Financial Services"
+      ],
+      "investorImpact": "The cross-border capital reallocation highlights shifting wealth management flows, potentially increasing deposits in U.S. banks while disrupting traditional Asian wealth hubs like Singapore and Hong Kong as trusts are unwound and shares are sold.",
+      "reasoning": "Classified as Geopolitical/Market due to Beijing's tax policy changes driving significant cross-border capital flows from Asian financial centers into U.S. banking institutions, indicating important shifts in offshore wealth management.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens",
+      "publishedAtSgt": "2026-10-23T12:55:59+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/wealthy-chinese-tax-offshore-trusts-capital-control-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
+      "articleId": "12f22e284adfb9e12c8e29cb5fb35659193db207b0743c8210785973c28cda1e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Markets faced pressure as renewed concerns over heavy artificial intelligence spending emerged alongside surging oil prices due to geopolitical tensions, leading investors to shift capital from equities into the bond market.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy"
+      ],
+      "investorImpact": "Investors face heightened volatility as AI spending concerns weigh on tech valuations while rising oil prices fuel inflation fears, potentially influencing Federal Reserve rate decisions and driving capital toward safe-haven bonds.",
+      "reasoning": "The article addresses crucial cross-market dynamics including AI spending fears, energy-driven inflation concerns, and capital rotation into fixed income, making it highly relevant for market-wide risk monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CNBC Daily Open: AI spending fears haunt markets before Halloween",
+      "publishedAtSgt": "2026-10-23T09:42:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/cnbc-daily-open-ai-spending-elon-musk-bill-ackman-jensen-huang.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-23T14:04:29+08:00"
+    },
+    {
+      "articleId": "e6710837ea2996e23f032b68f98339966bbcd68899201e5e9e2abdfde34a0378",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Japan's core inflation surged to 2.1% in September, its highest level for the year, while the Bank of Japan's preferred 'core-core' gauge came in at 2.4%. This increase raises expectations for potential further interest rate hikes by the Bank of Japan as it normalizes monetary policy.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Currencies"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Rising inflation in Japan increases the probability of further monetary tightening and rate hikes by the Bank of Japan, which can impact Japanese bond yields, equity valuations, and the strength of the yen.",
+      "reasoning": "The article details key macroeconomic data (core inflation reaching a yearly high) that directly influences monetary policy decisions by the Bank of Japan, making it highly relevant for economic monitoring and asset allocation strategies involving Japanese markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Japan core inflation in September surges to its highest this year at 2.1%",
+      "publishedAtSgt": "2026-10-23T08:55:11+08:00",
+      "url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
+      "articleId": "4edaf33a37651b4b3ffe433cfb4327e7a2b258f31a4e8a4f2974e11fb65bd99b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "SpaceX recorded a $561 million investment gain from its stake in The Boring Co. during the third quarter, while The Boring Co. raised $3 billion at a $23 billion valuation with UAE backing. Additionally, SpaceX purchased $151 million worth of Tesla Megapack energy storage systems.",
+      "assetClasses": [
+        "Private Equity",
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "United Arab Emirates"
+      ],
+      "sectors": [
+        "Aerospace",
+        "Infrastructure",
+        "Energy"
+      ],
+      "investorImpact": "Highlights significant valuation milestones and capital raising activities within Elon Musk's private corporate ecosystem, indicating strong institutional and sovereign backing for infrastructure and aerospace ventures.",
+      "reasoning": "The article details major private market transactions, valuation updates, and inter-company investments involving prominent private and public entities (SpaceX, The Boring Co., Tesla), making it relevant for market monitoring of private equity and tech sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SpaceX records $561 million investment gain from stake in Elon Musk's Boring Co.",
+      "publishedAtSgt": "2026-10-23T08:46:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/spacex-records-561-million-investment-gain-from-stake-in-boring-co.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
+      "articleId": "ed202b4a19923558a7eed2fb17d185135736c8b97ce93ccd06780f4485baf661",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Moderna shares plunged up to 25% after a premature leak of partial data regarding its cancer vaccine developed with Merck, though full data released later showed positive results exceeding Wall Street expectations.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Biotechnology",
+        "Pharmaceuticals"
+      ],
+      "investorImpact": "Investors holding positions in Moderna or Merck experienced extreme intraday volatility and sharp sell-offs due to data leakage before full clinical disclosures were made.",
+      "reasoning": "Classified as MARKET due to the severe share price reaction and volatility caused by a data leak. Sentiment is NEGATIVE regarding the immediate stock performance despite positive underlying clinical results.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Moderna shares plunge after cancer vaccine data leaks — despite positive results",
+      "publishedAtSgt": "2026-10-23T05:52:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
+    {
+      "articleId": "9c08b3d188937077b05bebfe98397f7b92a34320750297aee9efddd493a73524",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "OpenAI is reportedly closing in on a funding round of up to $30 billion, pushing its valuation to $1.25 trillion, with backing led by UAE investors ahead of a potential IPO.",
+      "assetClasses": [
+        "Private Equity",
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "United Arab Emirates"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "This massive late-stage funding round signals continued robust investor appetite and staggering private market valuations for leading artificial intelligence firms, potentially setting benchmarks for tech sector valuations and upcoming IPO pipelines.",
+      "reasoning": "Classified as MARKET due to the massive capital raise and valuation milestone for a major private company. It is highly important given the sheer size of the $30 billion round and $1.25 trillion valuation, and highly relevant for fund monitoring as a bellwether for the AI sector and private equity markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+      "publishedAtSgt": "2026-10-23T04:41:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
+    {
+      "articleId": "cbec97e8b1689fa7eea83da286cf914a421328972e81c6a2dd031fce51499d09",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Meta shares dropped 7% after strong quarterly results were overshadowed by artificial intelligence spending concerns and plans to create new Class C non-voting shares to fund AI infrastructure.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Investors in Meta face short-term volatility and dilution or governance concerns due to new non-voting shares, weighed against the long-term potential of its aggressive AI infrastructure investments.",
+      "reasoning": "Classified as MARKET due to the post-earnings sell-off and equity structure changes of a major large-cap technology company. Sentiment is mixed because strong earnings are offset by heavy AI spending concerns and new share issuance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here’s why",
+      "publishedAtSgt": "2026-10-23T04:11:55+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/22/meta-stock-why-were-staying-bullish-after-the-post-earnings-sell-off.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T06:22:31+08:00"
+    },
+    {
+      "articleId": "a892518e74a59d235d0c056272649847134d58d20b50f6cf5e088abd7d986219",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Treasury yields fell sharply, pushing the 10-year yield below 5% to its lowest level in nearly a month as investors sought safe havens during a stock market sell-off driven by concerns over artificial intelligence trade and rising oil prices.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy"
+      ],
+      "investorImpact": "Investors experienced heightened volatility and shifts toward safe-haven assets, with bond yields dropping as equity markets faced a steep sell-off due to AI trade and oil price anxieties.",
+      "reasoning": "The article is classified as MARKET and HIGH importance because significant moves in the 10-year Treasury yield directly impact broad asset valuation, borrowing costs, and cross-asset risk sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "10-year Treasury yield tumbles below 5% to lowest level in nearly a month",
+      "publishedAtSgt": "2026-10-23T04:05:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T14:04:28+08:00"
+    },
+    {
+      "articleId": "e2ab2dac81c2a9296bccda6529635e907044653efe3a3600553ac3e03e34753c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Credit markets are facing growing stress from heavily indebted governments like France and the massive financing needs of AI data center projects, with investors demanding higher compensation for borrowing risks.",
+      "assetClasses": [
+        "Bonds",
+        "Equities"
+      ],
+      "geographies": [
+        "France",
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Government",
+        "Infrastructure"
+      ],
+      "investorImpact": "Investors face heightened risks and volatility in credit and bond markets as borrowing costs rise for both heavily indebted sovereigns and capital-intensive artificial intelligence infrastructure projects.",
+      "reasoning": "The article highlights major stress points in global credit markets regarding public debt and AI financing, which directly impacts fixed income and technology sector valuations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI debt and French bonds face a stress test — why it may not be over",
+      "publishedAtSgt": "2026-10-23T02:13:37+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/ai-debt-and-french-bonds-stress-test.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-23T06:22:30+08:00"
+    },
+    {
+      "articleId": "704c10189eeda17f75f762da12e930d1f912c2f6d478e8120296601179cf986c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Pershing Square CEO Bill Ackman stated that 2027 will be an amazing year for stocks as current headwinds such as geopolitical conflicts, elevated inflation, and high interest rates ease, potentially bringing down energy prices.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors can use this perspective on medium-term macroeconomic trends to gauge future market conditions, specifically anticipating relief in inflation and energy prices as geopolitical overhangs resolve.",
+      "reasoning": "The article discusses macro market forecasts by a prominent investor, influencing market sentiment regarding equities and economic conditions for the upcoming years. It is relevant for long-term fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
+      "publishedAtSgt": "2026-10-23T01:53:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/22/bill-ackman-talks-meta-and-markets-with-cnbc.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-10-23T02:01:23+08:00"
+    },
+    {
+      "articleId": "f26a634003a25736af653f168147dd2e0f127116c399c65a603b41cf8b86d706",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer's Charitable Trust is increasing its position in GEV, raising its portfolio weighting following a dip in AI-related infrastructure stocks due to investor concerns about the capital funding the data center buildout.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Industrials",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors face headwinds regarding AI infrastructure valuations and capital source sustainability, though dips present selective buying opportunities for specific data center stocks.",
+      "reasoning": "Classified as TECHNOLOGY due to its focus on data center builds and AI infrastructure. Sentiment is MIXED as broad sector weakness creates buying opportunities despite capital funding concerns.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "We're dipping back into the AI trade with our first data center buy in weeks",
+      "publishedAtSgt": "2026-10-23T01:28:19+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/22/were-dipping-back-into-the-data-center-trade-with-small-buy.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-23T02:01:24+08:00"
+    }
+  ]
+}
