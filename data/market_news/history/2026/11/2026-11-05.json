@@ -5,6 +5,151 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "cfd0558291c06f1191b3e2def2bba8785ec0abfcab6d129713745d02b235641a",
+      "source": "CNBC",
+      "title": "NextDC shares surge 43% after Goodman, Digital Realty stake purchases",
+      "publishedAtSgt": "2026-11-05T08:24:57+08:00",
+      "url": "https://www.cnbc.com/2026/11/05/nextdc-goodman-group-digital-realty-data-centers-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Australian data center operator NextDC surged more than 42% Thursday after Goodman Group and U.S.-listed data center operator Digital Realty moved to acquire stakes of up to 9.9% in the company. In a regulatory filing on the same day, NextDC said the two companies conducted an aftermarket bookbuild Wednesday, seeking shares at A$9.50 apiece. Goodman and Digital Realty told investors they had no current intention of making a takeover bid, but reserved the right to do so.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-05T10:30:30+08:00"
+    },
+    {
+      "id": "33611218d4ede2613567b8ba31c07cf2198a455891e87b88ddf87e291b09351b",
+      "source": "CNBC",
+      "title": "Snap shares fall over 10% on third-quarter revenue miss",
+      "publishedAtSgt": "2026-11-05T08:14:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/snap-q3-earnings-report-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Snap shares sank over 10% when the Snapchat parent missed on revenue and daily active users in its third-quarter earnings report Wednesday. Snap executives said in an investor letter that the company plans for globally monthly active users to become its \"primary audience metric\" starting in its first quarter for 2027.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-05T10:30:30+08:00"
+    },
+    {
+      "id": "b8a3f2a704d10b8b30ef4752893bcf7debfaeba56c2fe0bfb03bcf1215bc42ad",
+      "source": "CNBC",
+      "title": "Inside India newsletter: India weighs a tax cut to win over foreign investors. Will it work?",
+      "publishedAtSgt": "2026-11-05T08:04:36+08:00",
+      "url": "https://www.cnbc.com/2026/11/05/india-tax-foreign-investors-nifty.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bhartia highlighted that foreign investors put in about 570 billion rupees ($6 billion) into Indian equities in September of 2024, and a month later pulled out 940 billion rupees to chase cheaper Chinese stocks. Multiple risks are weighing down Indian markets right now, including strained ties with the U.S., higher energy prices, a depreciating currency and uncertainty over the impact of artificial intelligence.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-05T10:30:29+08:00"
+    },
+    {
+      "id": "02c50df6753d61f1ec97b796ad470132f63c925e2d46f2d2a155569fa3ac0ebd",
+      "source": "CNBC",
+      "title": "Qualcomm stock drops 7% on weak earnings forecast as memory shortage weighs on smartphone sales",
+      "publishedAtSgt": "2026-11-05T07:38:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Most of Qualcomm's chip sales come from system-on-chips and modems for smartphones. Still, handset chip sales during the quarter fell 26% to $5.14 billion, trailing a StreetAccount estimate of $5.21 billion. Qualcomm said it's starting to see sequential growth in the category, and that Android shipments in China have bottomed, even though the company predicts the handset market will be flat in 2027.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-05T10:30:30+08:00"
+    },
+    {
+      "id": "5889db13bfecf21becb334cc67c30edf312dfa3ad49e66f2e6a17ae8b5f10e5b",
+      "source": "CNBC",
+      "title": "A 'demand decade' ahead for energy? BP, Baker Hughes CEOs weigh the investment outlook",
+      "publishedAtSgt": "2026-11-05T07:23:03+08:00",
+      "url": "https://www.cnbc.com/2026/11/05/energy-leaders-investment-outlook.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Rising energy demand is creating new investment opportunities even as geopolitical risks and uncertain oil prices challenge the industry. Baker Hughes CEO Lorenzo Simonelli is optimistic about the longer-term outlook, pointing to AI, population growth and developing nations as factors supporting continued energy demand growth.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-05T10:30:30+08:00"
+    },
+    {
+      "id": "172ba24a9d0a1e3817dd04256335521c2432f4d7b037fb164d79b3351af1ed99",
+      "source": "CNBC",
+      "title": "Jim Cramer warns investors may be reading too much into Wall Street's post-election rally",
+      "publishedAtSgt": "2026-11-05T07:18:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/cramer-midterms-ai-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Because that sums up what I saw throughout today's session and it's not the stuff I want to base investment decisions on, even as it's terrific for a one-day trade for the ages.\" Apple shares hit an all-time high Wednesday as investors bet that a slowdown in data center construction could ease memory chip prices, which have been pressuring the company's margins.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-05T10:30:30+08:00"
+    },
+    {
+      "id": "f78e41b3c4daff716d2e8b5494f3109a3bbc04af31bd2f04f1368dc31f691f5d",
+      "source": "CNBC",
+      "title": "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
+      "publishedAtSgt": "2026-11-05T07:02:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/figma-fig-q3-earnings-report-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Figma shares tumbled 7% in extended trading after the company reported third-quarter results and guidance that surpassed Wall Street's predictions. Earlier this year, investors became concerned that artificial intelligence models could pose a competitive risk to Figma. Across much of software, AI panic has largely subsided as incumbents have posted persistent growth.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-05T10:30:30+08:00"
+    },
+    {
+      "id": "a049da21e2d61a30bb1e49f6d242c59fd578f14edb654ac01f3c7e545d65f724",
+      "source": "CNBC",
+      "title": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+      "publishedAtSgt": "2026-11-05T05:47:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/elf-beauty-elf-q2-2027-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The beauty company said it saw its 31st consecutive quarter of net sales growth, attributing the streak to strong performance across its portfolio. \"Every one of our brands contributed strong growth this quarter.\" Amin added that E.l.f. also saw significant growth in its international channels, with business up 165%.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-05T10:30:31+08:00"
+    },
+    {
+      "id": "8aec230ae2cf5e0acb38f7ab63bde21ba70f9ffb0c9c7011c2541921efe743fb",
+      "source": "CNBC",
+      "title": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
+      "publishedAtSgt": "2026-11-05T04:14:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Crude oil prices tumbled Wednesday after Vice President JD Vance blamed the war against Iran for Republican midterm election reversals. \"The elections are leading the market to conclude that Trump might now be inclined to make a deal,\" said Andy Lipow, president of Lipow Oil Associates. The Democrats may try to restrict funding for the war, Lipow said.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-05T10:30:30+08:00"
+    },
+    {
       "id": "cdd217684c8786287a2bdb15aded5d2a5f3bd6b988e0466a7d3b0ae6273e7d24",
       "source": "CNBC",
       "title": "New Flutter CEO bets on FanDuel promotions to win customers as profits suffer",
@@ -116,6 +261,6 @@
       "collectedAtSgt": "2026-11-05T04:26:57+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-11-05T04:26:57+08:00"
+  "articleCount": 16,
+  "updatedAtSgt": "2026-11-05T10:30:31+08:00"
 }
