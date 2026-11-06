@@ -5,6 +5,39 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "1652ed0620d78bf00322c586c899314ac0ee9244d3e44a67fd91ab2aa5da1c6b",
+      "source": "CNBC",
+      "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+      "publishedAtSgt": "2026-11-06T09:41:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory as renewed concerns over artificial intelligence spending rattled investor sentiment. In Japan, semiconductor-related stocks also fell, with chip-testing equipment maker Advantest plunging 12.2%, while Tokyo Electron slid 7.3%. Technology investment giant SoftBank Group tumbled 11.6%.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T10:30:35+08:00"
+    },
+    {
+      "id": "ebafab5a6c0178925fb45e422acae4a2dc468c43fde7ad075391bfd042ea72ed",
+      "source": "CNBC",
+      "title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+      "publishedAtSgt": "2026-11-06T07:25:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Following a 26% post-election plunge in its stock price, neocloud IREN said in its earnings report on Thursday that over $4 billion in annual recurring revenue projected to land in 2026 has been pushed out to at least January. Shares of IREN rose in extended trading, but that comes after a 55% drop over the past month. The company is being closely watched by investors as the AI trade shows signs of unwinding, particularly following the Democratic sweep in Tuesday's midterm elections.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-06T10:30:35+08:00"
+    },
+    {
       "id": "d4135d3601d966ccc5645175595c7813a9545b31151f063ca3306b33427c249f",
       "source": "CNBC",
       "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
@@ -121,6 +154,6 @@
       "collectedAtSgt": "2026-11-06T04:41:40+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-11-06T04:41:41+08:00"
+  "articleCount": 9,
+  "updatedAtSgt": "2026-11-06T10:30:35+08:00"
 }
