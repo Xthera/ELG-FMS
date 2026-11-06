@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-11-05T22:44:41+00:00",
+  "generatedAtUtc": "2026-11-06T12:54:49+00:00",
   "source": "Funds Links.xlsm",
   "fundCount": 67,
   "research": {
@@ -229,8 +229,8 @@
     "dividendFunds": 19,
     "paymentModeFunds": 67,
     "paymentModeCounts": {
-      "Cash": 67,
       "SRS": 56,
+      "Cash": 67,
       "CPF-OA": 14,
       "CPF-SA": 5
     },
@@ -336,7 +336,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -418,7 +418,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -512,7 +512,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -600,7 +600,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -731,7 +731,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -862,7 +862,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -878,9 +878,9 @@
         "assetClass": "Equity",
         "assetSubClass": "US",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.2770",
+        "bidPrice": "$1.2587",
         "offerPrice": "-",
-        "valuationDate": "04/11/2026",
+        "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "6.65%",
         "cumulative1m": "4.37%",
@@ -991,7 +991,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -1115,7 +1115,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -1245,7 +1245,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -1375,7 +1375,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -1598,7 +1598,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -1730,7 +1730,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -1965,7 +1965,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -1981,9 +1981,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.3050",
+        "bidPrice": "$1.3020",
         "offerPrice": "-",
-        "valuationDate": "04/11/2026",
+        "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "6.14%",
         "cumulative1m": "-5.03%",
@@ -2094,7 +2094,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -2132,11 +2132,15 @@
         "fundObjective": "The investment objective of the PRULink Asian Income Fund is to maximise income by investing primarily in equity and equity-related securities of companies, which are incorporated, listed in or have their areas of primary activity in Asia Pacific ex-Japan Region. The Fund may also invest in depository receipts including American Depository Receipt (\"ADRs\") and Global Depository Receipt (\"GDRs\"), debt securities convertible into common shares, preference shares and warrants.",
         "investmentManager": "Eastspring Investments (Singapore) Limited",
         "hasDividend": true,
-        "dividendRate": "20260930=2.50&20260331=2.50&20250930=2&20250401=2&20240930=2&20240328=2&20230928=2&20230331=2&20221003=2&20220331=2&20211001=2&20210405=2&20201001=2&20200401=2.37&20191001=2.37&20190401=2.37&20181001=2.37&20180402=2.37&20171002=2.37&20170403=2.37&20161003=2.37&20160401=2.37&20151001=2.5&20150401=2.5&20141001=2.5&20140401=2.1&20131001=2.1&20130401=2.1&20121001=2.1&20120402=2.1&20111003=2&20110403=2&20101001=2.05&20100401=2&20091001=2",
+        "dividendRate": "20261015=1.75&20260930=2.50&20260331=2.50&20250930=2&20250401=2&20240930=2&20240328=2&20230928=2&20230331=2&20221003=2&20220331=2&20211001=2&20210405=2&20201001=2&20200401=2.37&20191001=2.37&20190401=2.37&20181001=2.37&20180402=2.37&20171002=2.37&20170403=2.37&20161003=2.37&20160401=2.37&20151001=2.5&20150401=2.5&20141001=2.5&20140401=2.1&20131001=2.1&20130401=2.1&20121001=2.1&20120402=2.1&20111003=2&20110403=2&20101001=2.05&20100401=2&20091001=2",
         "dividendUnit": "% of the value of the units (based on the bid price)",
         "dividendUnitSource": "prudential-api:dividendUnit",
         "dividendUnitEvidence": "dividendUnit=% of the value of the units (based on the bid price)",
         "dividendHistory": [
+          {
+            "exDate": "2026-10-15",
+            "rate": 1.75
+          },
           {
             "exDate": "2026-09-30",
             "rate": 2.5
@@ -2365,7 +2369,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -2489,7 +2493,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -2619,7 +2623,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -2842,7 +2846,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -3065,7 +3069,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -3195,7 +3199,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -3326,7 +3330,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -3342,9 +3346,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9778",
+        "bidPrice": "$0.9849",
         "offerPrice": "-",
-        "valuationDate": "04/11/2026",
+        "valuationDate": "05/11/2026",
         "inceptionDate": "28-Dec-2022",
         "cumulativeYtd": "-5.46%",
         "cumulative1m": "-2.24%",
@@ -3456,7 +3460,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -3546,7 +3550,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -3678,7 +3682,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -3768,7 +3772,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -3898,7 +3902,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -4037,7 +4041,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -4371,7 +4375,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -4440,7 +4444,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -4571,7 +4575,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -4831,7 +4835,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -4847,9 +4851,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.5470",
+        "bidPrice": "$1.5474",
         "offerPrice": "-",
-        "valuationDate": "04/11/2026",
+        "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "13.88%",
         "cumulative1m": "8.77%",
@@ -4960,7 +4964,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -5084,7 +5088,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -5214,7 +5218,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -5230,9 +5234,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Global",
         "riskClassification": "Low to Medium Risk",
-        "bidPrice": "$1.1611",
+        "bidPrice": "$1.1642",
         "offerPrice": "-",
-        "valuationDate": "04/11/2026",
+        "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "-1.23%",
         "cumulative1m": "2.31%",
@@ -5343,7 +5347,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -5473,7 +5477,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -5603,7 +5607,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -5733,7 +5737,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -5863,7 +5867,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -5995,7 +5999,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -6250,7 +6254,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -6380,7 +6384,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -6603,7 +6607,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -6826,7 +6830,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -6956,7 +6960,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -7086,7 +7090,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -7216,7 +7220,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -7482,7 +7486,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -7600,7 +7604,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -7731,7 +7735,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -7747,9 +7751,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Greater China",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.4717",
+        "bidPrice": "$1.4645",
         "offerPrice": "-",
-        "valuationDate": "04/11/2026",
+        "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "3.47%",
         "cumulative1m": "-10.37%",
@@ -7860,7 +7864,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -7991,7 +7995,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -8121,7 +8125,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -8252,7 +8256,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -8384,7 +8388,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -8514,7 +8518,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -8644,7 +8648,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -8776,7 +8780,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -9011,7 +9015,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -9142,7 +9146,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -9286,7 +9290,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -9302,9 +9306,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.0296",
+        "bidPrice": "$1.0195",
         "offerPrice": "-",
-        "valuationDate": "04/11/2026",
+        "valuationDate": "05/11/2026",
         "inceptionDate": "18-Aug-2025",
         "cumulativeYtd": "4.34%",
         "cumulative1m": "-0.52%",
@@ -9430,7 +9434,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -9756,7 +9760,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -9772,9 +9776,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "US",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.1224",
+        "bidPrice": "$1.1111",
         "offerPrice": "-",
-        "valuationDate": "04/11/2026",
+        "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "3.96%",
         "cumulative1m": "-0.98%",
@@ -10030,7 +10034,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -10099,7 +10103,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -10168,7 +10172,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     },
     {
@@ -10237,7 +10241,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-05T22:44:41+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-06T12:54:49+00:00"
       }
     }
   ]
