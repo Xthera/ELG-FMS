@@ -5,6 +5,51 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "2a1377e6b2588cb471628f296103a18929472bc718b53903d17e58aef825cddc",
+      "source": "CNBC",
+      "title": "Anthropic IPO announcement odds drop on Kalshi following midterms and AI sell-off",
+      "publishedAtSgt": "2026-11-06T23:55:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/anthropic-ipo-kalshi-post-midterms-ai-sell-off.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Odds that Anthropic will announce a public offering fell in recent days on Kalshi as AI-related stocks slid after Democrats won control of Congress and several key governorships. The AI company confidentially filed its IPO prospectus with the Securities and Exchange Commission back in June. The repricing on Kalshi came as investors grew concerned that Democratic victories across both chambers could slow data center construction, making the bet on AI less attractive.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:31+08:00"
+    },
+    {
+      "id": "b4a55e226ad8539bf7f81c984e5cafeb6142579a04bdcdce71bd6ce1ef8adb3d",
+      "source": "CNBC",
+      "title": "Family offices boost startup investments in October, backing women's health and caregivers",
+      "publishedAtSgt": "2026-11-06T22:16:28+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/family-offices-boost-startup-investments-in-october.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A version of this article appeared in CNBC's Inside Wealth newsletter, a weekly guide to the high-net-worth investor and consumer. Her investment and philanthropy firm seeks to address health equity and other complex challenges like the energy transition. BioStack, which raised $9.5 million in seed funding, analyzes patient records across different institutions to create training datasets for artificial intelligence healthcare models.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:31+08:00"
+    },
+    {
+      "id": "750eadbf370a25ff34dbfaf31ce9a7143e3eb27cc643f335bc4cb3436163c0ce",
+      "source": "CNBC",
+      "title": "Market sell-off hits hard: Advisors say 'stay the course with an eye on buying'",
+      "publishedAtSgt": "2026-11-06T21:56:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/market-sell-off-hits-hard-advisors-say-stay-the-course-with-an-eye-on-buying-.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Top financial advisors aren't urging clients to change their portfolios after Thursday's sharp market sell-off, even as retail investors were heavy sellers of individual stocks. Retail investors sold individual stocks Thursday as technology stocks tumbled, and the Dow gave back its post-midterm election gains.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:31+08:00"
+    },
+    {
       "id": "cecf2cb38177397f84a642eb0a79da316bc694371fae17f1cbef91a3ef7cb82c",
       "source": "CNBC",
       "title": "AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'",
@@ -297,6 +342,6 @@
       "collectedAtSgt": "2026-11-06T04:41:40+08:00"
     }
   ],
-  "articleCount": 18,
-  "updatedAtSgt": "2026-11-06T20:10:46+08:00"
+  "articleCount": 21,
+  "updatedAtSgt": "2026-11-07T03:58:31+08:00"
 }

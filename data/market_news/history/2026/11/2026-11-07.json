@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-07",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "67b31ec58dc11e48db271d18decd7fe0d7e08bc98a0799a13660c426b39a4ff0",
+      "source": "CNBC",
+      "title": "OpenAI bugging suspect Alfozan pleads not guilty",
+      "publishedAtSgt": "2026-11-07T03:54:04+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "The Saudi national charged with planting a listening device in the headquarters of OpenAI while he worked there pleaded not guilty on Friday during an appearance in San Francisco federal court. Abdulrahman Alfozan, 35, was sent back to jail after the brief hearing. Alfozan has been held without bail since his arrest on a criminal complaint in early October.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
+    },
+    {
+      "id": "c03fe9808b99a055ed5581d9cb8e6ca28cfca407801c0ad27257a137e5288478",
+      "source": "CNBC",
+      "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
+      "publishedAtSgt": "2026-11-07T03:49:09+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Americans who lose their jobs these days are facing a harsh new problem: It's getting harder to find another one quickly. What's more, workers who are unemployed for extended periods risk falling into a self-perpetuating cycle, researchers at the Federal Reserve Bank of Richmond wrote earlier this year. American Express said last month that it was slashing head count by 5% as it reorients around artificial intelligence.",
+      "feeds": [
+        "latest",
+        "economy"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:23+08:00"
+    },
+    {
+      "id": "4dd7e13cca843ccaf1367c64a99a2b45f9649119e7b10269df92e13558e2ece9",
+      "source": "CNBC",
+      "title": "Watch the Annual Meeting: Cramer on the fate of the AI buildout and stocks to buy now",
+      "publishedAtSgt": "2026-11-07T03:36:12+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "After the most consequential midterm elections in years, in which Democrats flipped both houses of Congress and won several key gubernatorial races, the stock market has been swinging wildly as investors try to make sense of what's next. \"I will also be more sanguine if the giant Anthropic deal comes public and it can show people how valuable compute can be.\" Portfolio highlights When talking with portfolio director Jeff Marks, Jim started with Apple and reiterated his \"own it, don't trade it\"...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:25+08:00"
+    },
+    {
+      "id": "155c1ece4cc5d708c39ad72868673bf0fbaac27078b80577c3576144937b83d3",
+      "source": "CNBC",
+      "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+      "publishedAtSgt": "2026-11-07T03:05:00+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "San Francisco Federal Reserve President Mary Daly said Friday she expects the central bank will need to raise interest rates further, but joined her fellow policymakers in saying the pace and timing remain uncertain. \"This has been high for too long, almost six years, and we're really starting to feel the burden of that spread everywhere.\" The policymaker said she's not concerned generally about economic growth but worried about the persistence of inflation.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
+    },
+    {
+      "id": "b80a2694d0d0a3b48bb3c8044d42c7a28385b60fcfa2f0f327a0167a7e0454f1",
+      "source": "CNBC",
+      "title": "Data center double-down: Hassett says blue wave won't stop AI build-out",
+      "publishedAtSgt": "2026-11-07T02:54:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/data-centers-ai-elections-hassett.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "National Economic Council Director Kevin Hassett said Friday he expects data center growth to continue as projected, despite the blue-wave election that saw voters overwhelmingly favor limiting the tech infrastructure buildout. Hassett, on CNBC's \"Squawk on the Street,\" acknowledged the dozens of measures on states' midterm ballots seeking to constrain data centers, a crucial part of President Donald Trump's push to win the global artificial intelligence race.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:23+08:00"
+    },
+    {
+      "id": "d9ee3f677868f0245de81891528d8dad46b5c5c73fa0afb228b7052f41ec1e2d",
+      "source": "CNBC",
+      "title": "OpenAI, Arm and Qualcomm executives react to post-midterm AI sell-off",
+      "publishedAtSgt": "2026-11-07T02:35:08+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "In response to a Democratic sweep of Congress as well as a sizeable number of state governorships and legislatures in the midterm election Tuesday night, stocks initially rallied Wednesday, posting their best day in more than 18 months as President Trump accepted the blowout results with little fanfare.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:26+08:00"
+    },
+    {
+      "id": "3d0049b589002ce2673a7a8fcb69ddb6180694088890bc9141c66dff6c9aca37",
+      "source": "CNBC",
+      "title": "AI crush is powering one stock to sky-high valuations",
+      "publishedAtSgt": "2026-11-07T02:15:44+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/ai-crush-is-powering-one-stock-to-sky-high-valuations.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Information technology, semiconductors, and traditional energy sectors experienced immediate headwinds following the election. Traditional oil and gas majors sank, while solar and green energy stocks surged, driven by expectations that a Democratic Congress will resume pushing subsidies for them.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
+    },
+    {
+      "id": "ecc6362fa32ed0555f6b67d96e371c1ff26f02c689d2aa8867648a1dae3de096",
+      "source": "CNBC",
+      "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+      "publishedAtSgt": "2026-11-07T01:24:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Investors have turned skeptical on the AI trade of late due to a combination of higher borrowing costs, concerns about soaring debt and public backlash toward the industry. The Nasdaq on Thursday suffered its steepest drop in 19 months, led by a plunge in shares of the chipmakers and neocloud companies most closely tied to the AI buildout.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:27+08:00"
+    },
+    {
+      "id": "d80241b176cb119abe8a7fa67a95033917f1daa9535ce786c08679d72ea78061",
+      "source": "CNBC",
+      "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+      "publishedAtSgt": "2026-11-07T01:09:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Debt markets are sending a message to AI data center builders: we're hiking the interest rate on your credit card and may put some new curbs on your credit limit. The yield on its 2032 bond with a 9.625% coupon has climbed above 16%. Debt and equities are now moving more in sync, he added, \"so we'll have to see if credit goes any further.\" Investors are demanding more compensation to insure against default among even companies with the strongest balance sheets and credit ratings, including...",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
+    },
+    {
+      "id": "e9050178724393c2030349becd68452cf0e2f4f21f3cb0f7383082eee6db92a7",
+      "source": "CNBC",
+      "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+      "publishedAtSgt": "2026-11-07T00:06:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "\"Payrolls growth surprised firmly to the upside, unemployment fell back to 4.1%, and job creation remains broad-based, pointing to an economy that is still absorbing labor comfortably rather than one beginning to buckle under tighter financial conditions.\" The breadth of job growth also was strong, contrary to a trend in which healthcare had accounted for the bulk of gains. Other areas seeing notable growth included transportation and warehousing (25,000) and manufacturing (19,000).",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
+    }
+  ],
+  "articleCount": 10,
+  "updatedAtSgt": "2026-11-07T03:58:27+08:00"
+}

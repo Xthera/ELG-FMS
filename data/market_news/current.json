@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-06T20:10:46+08:00",
+  "generatedAtSgt": "2026-11-07T03:58:31+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,208 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "67b31ec58dc11e48db271d18decd7fe0d7e08bc98a0799a13660c426b39a4ff0",
+      "source": "CNBC",
+      "title": "OpenAI bugging suspect Alfozan pleads not guilty",
+      "publishedAtSgt": "2026-11-07T03:54:04+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "The Saudi national charged with planting a listening device in the headquarters of OpenAI while he worked there pleaded not guilty on Friday during an appearance in San Francisco federal court. Abdulrahman Alfozan, 35, was sent back to jail after the brief hearing. Alfozan has been held without bail since his arrest on a criminal complaint in early October.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
+    },
+    {
+      "id": "c03fe9808b99a055ed5581d9cb8e6ca28cfca407801c0ad27257a137e5288478",
+      "source": "CNBC",
+      "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
+      "publishedAtSgt": "2026-11-07T03:49:09+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Americans who lose their jobs these days are facing a harsh new problem: It's getting harder to find another one quickly. What's more, workers who are unemployed for extended periods risk falling into a self-perpetuating cycle, researchers at the Federal Reserve Bank of Richmond wrote earlier this year. American Express said last month that it was slashing head count by 5% as it reorients around artificial intelligence.",
+      "feeds": [
+        "latest",
+        "economy"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:23+08:00"
+    },
+    {
+      "id": "4dd7e13cca843ccaf1367c64a99a2b45f9649119e7b10269df92e13558e2ece9",
+      "source": "CNBC",
+      "title": "Watch the Annual Meeting: Cramer on the fate of the AI buildout and stocks to buy now",
+      "publishedAtSgt": "2026-11-07T03:36:12+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "After the most consequential midterm elections in years, in which Democrats flipped both houses of Congress and won several key gubernatorial races, the stock market has been swinging wildly as investors try to make sense of what's next. \"I will also be more sanguine if the giant Anthropic deal comes public and it can show people how valuable compute can be.\" Portfolio highlights When talking with portfolio director Jeff Marks, Jim started with Apple and reiterated his \"own it, don't trade it\"...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:25+08:00"
+    },
+    {
+      "id": "155c1ece4cc5d708c39ad72868673bf0fbaac27078b80577c3576144937b83d3",
+      "source": "CNBC",
+      "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+      "publishedAtSgt": "2026-11-07T03:05:00+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "San Francisco Federal Reserve President Mary Daly said Friday she expects the central bank will need to raise interest rates further, but joined her fellow policymakers in saying the pace and timing remain uncertain. \"This has been high for too long, almost six years, and we're really starting to feel the burden of that spread everywhere.\" The policymaker said she's not concerned generally about economic growth but worried about the persistence of inflation.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
+    },
+    {
+      "id": "b80a2694d0d0a3b48bb3c8044d42c7a28385b60fcfa2f0f327a0167a7e0454f1",
+      "source": "CNBC",
+      "title": "Data center double-down: Hassett says blue wave won't stop AI build-out",
+      "publishedAtSgt": "2026-11-07T02:54:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/data-centers-ai-elections-hassett.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "National Economic Council Director Kevin Hassett said Friday he expects data center growth to continue as projected, despite the blue-wave election that saw voters overwhelmingly favor limiting the tech infrastructure buildout. Hassett, on CNBC's \"Squawk on the Street,\" acknowledged the dozens of measures on states' midterm ballots seeking to constrain data centers, a crucial part of President Donald Trump's push to win the global artificial intelligence race.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:23+08:00"
+    },
+    {
+      "id": "d9ee3f677868f0245de81891528d8dad46b5c5c73fa0afb228b7052f41ec1e2d",
+      "source": "CNBC",
+      "title": "OpenAI, Arm and Qualcomm executives react to post-midterm AI sell-off",
+      "publishedAtSgt": "2026-11-07T02:35:08+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "In response to a Democratic sweep of Congress as well as a sizeable number of state governorships and legislatures in the midterm election Tuesday night, stocks initially rallied Wednesday, posting their best day in more than 18 months as President Trump accepted the blowout results with little fanfare.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:26+08:00"
+    },
+    {
+      "id": "3d0049b589002ce2673a7a8fcb69ddb6180694088890bc9141c66dff6c9aca37",
+      "source": "CNBC",
+      "title": "AI crush is powering one stock to sky-high valuations",
+      "publishedAtSgt": "2026-11-07T02:15:44+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/ai-crush-is-powering-one-stock-to-sky-high-valuations.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Information technology, semiconductors, and traditional energy sectors experienced immediate headwinds following the election. Traditional oil and gas majors sank, while solar and green energy stocks surged, driven by expectations that a Democratic Congress will resume pushing subsidies for them.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
+    },
+    {
+      "id": "ecc6362fa32ed0555f6b67d96e371c1ff26f02c689d2aa8867648a1dae3de096",
+      "source": "CNBC",
+      "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+      "publishedAtSgt": "2026-11-07T01:24:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Investors have turned skeptical on the AI trade of late due to a combination of higher borrowing costs, concerns about soaring debt and public backlash toward the industry. The Nasdaq on Thursday suffered its steepest drop in 19 months, led by a plunge in shares of the chipmakers and neocloud companies most closely tied to the AI buildout.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:27+08:00"
+    },
+    {
+      "id": "d80241b176cb119abe8a7fa67a95033917f1daa9535ce786c08679d72ea78061",
+      "source": "CNBC",
+      "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+      "publishedAtSgt": "2026-11-07T01:09:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Debt markets are sending a message to AI data center builders: we're hiking the interest rate on your credit card and may put some new curbs on your credit limit. The yield on its 2032 bond with a 9.625% coupon has climbed above 16%. Debt and equities are now moving more in sync, he added, \"so we'll have to see if credit goes any further.\" Investors are demanding more compensation to insure against default among even companies with the strongest balance sheets and credit ratings, including...",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
+    },
+    {
+      "id": "e9050178724393c2030349becd68452cf0e2f4f21f3cb0f7383082eee6db92a7",
+      "source": "CNBC",
+      "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+      "publishedAtSgt": "2026-11-07T00:06:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "\"Payrolls growth surprised firmly to the upside, unemployment fell back to 4.1%, and job creation remains broad-based, pointing to an economy that is still absorbing labor comfortably rather than one beginning to buckle under tighter financial conditions.\" The breadth of job growth also was strong, contrary to a trend in which healthcare had accounted for the bulk of gains. Other areas seeing notable growth included transportation and warehousing (25,000) and manufacturing (19,000).",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
+    },
+    {
+      "id": "2a1377e6b2588cb471628f296103a18929472bc718b53903d17e58aef825cddc",
+      "source": "CNBC",
+      "title": "Anthropic IPO announcement odds drop on Kalshi following midterms and AI sell-off",
+      "publishedAtSgt": "2026-11-06T23:55:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/anthropic-ipo-kalshi-post-midterms-ai-sell-off.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Odds that Anthropic will announce a public offering fell in recent days on Kalshi as AI-related stocks slid after Democrats won control of Congress and several key governorships. The AI company confidentially filed its IPO prospectus with the Securities and Exchange Commission back in June. The repricing on Kalshi came as investors grew concerned that Democratic victories across both chambers could slow data center construction, making the bet on AI less attractive.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:31+08:00"
+    },
+    {
+      "id": "b4a55e226ad8539bf7f81c984e5cafeb6142579a04bdcdce71bd6ce1ef8adb3d",
+      "source": "CNBC",
+      "title": "Family offices boost startup investments in October, backing women's health and caregivers",
+      "publishedAtSgt": "2026-11-06T22:16:28+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/family-offices-boost-startup-investments-in-october.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A version of this article appeared in CNBC's Inside Wealth newsletter, a weekly guide to the high-net-worth investor and consumer. Her investment and philanthropy firm seeks to address health equity and other complex challenges like the energy transition. BioStack, which raised $9.5 million in seed funding, analyzes patient records across different institutions to create training datasets for artificial intelligence healthcare models.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:31+08:00"
+    },
+    {
+      "id": "750eadbf370a25ff34dbfaf31ce9a7143e3eb27cc643f335bc4cb3436163c0ce",
+      "source": "CNBC",
+      "title": "Market sell-off hits hard: Advisors say 'stay the course with an eye on buying'",
+      "publishedAtSgt": "2026-11-06T21:56:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/market-sell-off-hits-hard-advisors-say-stay-the-course-with-an-eye-on-buying-.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Top financial advisors aren't urging clients to change their portfolios after Thursday's sharp market sell-off, even as retail investors were heavy sellers of individual stocks. Retail investors sold individual stocks Thursday as technology stocks tumbled, and the Dow gave back its post-midterm election gains.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T03:58:31+08:00"
+    },
     {
       "id": "cecf2cb38177397f84a642eb0a79da316bc694371fae17f1cbef91a3ef7cb82c",
       "source": "CNBC",
@@ -1406,211 +1608,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-03T04:23:37+08:00"
-    },
-    {
-      "id": "6009d2caaa470f183e3fa47df26dff375e991f248c1a2a4b2d45fc7aa74f610b",
-      "source": "CNBC",
-      "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
-      "publishedAtSgt": "2026-11-03T02:09:26+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oracle filed plans on Monday to issue new stock and more debt to finance its artificial intelligence buildout. Stock and bonds in Oracle, co-founded by former CEO Larry Ellison, have been under pressure amid growing investor concerns about the massive amount of debt being taken on to fund AI infrastructure. The yield on its investment-grade 4.95% bond due in 2031 is currently 7.267%.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-03T04:23:39+08:00"
-    },
-    {
-      "id": "770164f51bf572ffe6c947172a38a5b7554c23f569e5e71eddd46eb67f7488e1",
-      "source": "CNBC",
-      "title": "Stock market after midterm elections: What S&P 500 history shows",
-      "publishedAtSgt": "2026-11-03T01:57:35+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "As long as the AI wave is still moving and the economy keeps growing, \"this bull market is probably still alive and well,\" Detrick says. \"Seasonality isn't destiny, and worries around Iran, AI and France won't mysteriously vanish,\" said Jim Reid, Deutsche Bank's global head of macro and thematic research, in a note. But this is still an AI-driven market, with geopolitics, the Fed, and bond market very much in charge.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T04:23:37+08:00"
-    },
-    {
-      "id": "1be12049fb35318e3b53ef5ac1c02a00ad00a8eba5f3c4985a622148dad8b778",
-      "source": "CNBC",
-      "title": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
-      "publishedAtSgt": "2026-11-03T01:52:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Anthropic reported updated financials as part of an amended Form S-1 filing with the Securities and Exchange Commission on Monday, giving investors a more comprehensive look into the state of its business. The artificial intelligence company said it generated $33.24 billion in revenue for the nine months ended Sept.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T04:23:37+08:00"
-    },
-    {
-      "id": "ceae27c07980a07485361f836f2f9d18122d166ee3505c3a24d8d62bc983d306",
-      "source": "CNBC",
-      "title": "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
-      "publishedAtSgt": "2026-11-03T01:04:34+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "A big drop in crude prices, on hopes of a diplomatic solution to the Middle East conflict, is giving support to oil-related stocks, such as Boeing . Despite our fundamental reasons for sticking with Boeing, the stock's linkage to oil prices this year must be acknowledged. With Apple shares having a nice run since August, portfolio director Jeff Marks noted the stock's valuation has been extended.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-03T04:23:39+08:00"
-    },
-    {
-      "id": "80c3f05c30ee3ca2f472c5088b553f7ecee01a5d669e9e01b8421288ecf3a317",
-      "source": "CNBC",
-      "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
-      "publishedAtSgt": "2026-11-02T23:30:41+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Stocks wrapped their worst week since June on Friday, but a group of the most sophisticated options analysts agree the reaction in the options market was oddly calm. For that size of a decline in stocks, the 2.2-point move in VIX was \"relatively muted,\" according to SpotGamma's Brent Kochuba, whose analysis suggests VIX should have jumped closer to 2.6 points, based on a study of 126 selloffs since 2018.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
-    },
-    {
-      "id": "0589bf2071cb82eb4f96c116d5b5286fdeba7815874aa0c0cb04a54a5de3a800",
-      "source": "CNBC",
-      "title": "Crude prices slide as investors brace for a big week",
-      "publishedAtSgt": "2026-11-02T20:57:06+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/crude-prices-crater-investors-brace-for-big-week.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oil prices are at the center of the price action, with both Brent and WTI falling over 4% in early trade. But we would prefer to do it peacefully.\" - Analysis: Goldman Sachs has raised its price forecast for oil for December to $105 per barrel for Brent and $94 per barrel for WTI crude, citing \"high disruption risk.\" The investment bank is pricing in a 1mb/d global supply disruption allowance through 2027.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
-    },
-    {
-      "id": "7bf947dafc3cd43e753fb51668eecd50b2c8a1bf1b69deb311a3ec783e94495d",
-      "source": "CNBC",
-      "title": "OpenAI deepens Abu Dhabi foothold as Sam Altman inks deals spanning energy, government and investment",
-      "publishedAtSgt": "2026-11-02T19:02:08+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "OpenAI has signed deals across energy, investment and government sectors in the United Arab Emirates as the AI lab works to secure funding from investors in the region as part of a $20 billion round. OpenAI and Anthropic have turned to Middle East investors as they've looked for ever-larger pools of capital to fund growth. Sovereign investor Mubadala, Inception42 and OpenAI signed an agreement to apply advanced AI capabilities to investment analysis.",
-      "feeds": [
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
-    },
-    {
-      "id": "309b81fa1db0c83bbf627ec7776092bd3e780619dbc5bd4131b8d28605640905",
-      "source": "CNBC",
-      "title": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
-      "publishedAtSgt": "2026-11-02T14:02:03+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 52,
-      "relevanceReason": "supporting_technology_description",
-      "summary": "South Korean President Lee Jae Myung unveiled the country's largest ever budget on Monday, pledging to \"boldly invest in AI and future growth engines.\" Speaking to the National Assembly on Monday, Lee said total spending for 2027 would rise 12.8% to 820.9 trillion won ($610.14 billion), including 21.3 trillion won for semiconductors, physical AI and AI data centers — nearly double the 2026 level.",
-      "feeds": [
-        "latest",
-        "economy",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-02T15:42:56+08:00"
-    },
-    {
-      "id": "cfc2e7a3c17d30096b9c369fb87b50db507d76c70468d9d140a30c848bc1be38",
-      "source": "CNBC",
-      "title": "Canada-India $5.5 billion bank takeover attracts opposition from workers, politicians",
-      "publishedAtSgt": "2026-11-02T12:09:34+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/canada-india-bank-takeover-protest-workers.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "It is demanding that the government \"cancel the privatization process\" and instead focus on strengthening the bank while protecting public investment and employees' interests. \"The IDBI Bank is now poised for its next phase of growth,\" the finance minister said. The government has previously said that the next phase of growth will be driven by a strategic investor.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-02T15:42:57+08:00"
-    },
-    {
-      "id": "94aa1c0f2a12d853603972464d8b0280814c7d271770172d1b7fac00018b86ac",
-      "source": "CNBC",
-      "title": "Here are 3 big things we're watching in the stock market in the week ahead",
-      "publishedAtSgt": "2026-11-02T02:12:05+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "But the elections across the country cannot be ignored , given the implications for the AI buildout trade if anti-data-center politicians rack up big victories. If tensions are ratcheted up, that could spell bad news for oil prices, bond yields and future inflation — all potential headwinds for equities. Can possible weakness in consumer electronics be fully offset by strength in AI chip manufacturing?",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-02T06:52:27+08:00"
-    },
-    {
-      "id": "4432c4c69316f0ad97cc5360b8337c5b4d27ddc1f7c86bb9b65a26268222381a",
-      "source": "CNBC",
-      "title": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
-      "publishedAtSgt": "2026-11-02T00:34:43+08:00",
-      "url": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 52,
-      "relevanceReason": "supporting_technology_description",
-      "summary": "Bernie Sanders calling for bot legislation in response to the headlines — come on the heels of JPMorgan Chase CEO Jamie Dimon saying the bank currently blocks external AI agents from operating on behalf of retail customers, citing security risks. Abbott said that Accenture research found that 65% of consumers are open to using a GPT-like financial assistant through a Gen AI platform or digital wallet, and 71% would welcome an AI assistant embedded within their primary bank's mobile app.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-02T00:49:43+08:00"
-    },
-    {
-      "id": "662fd8411d58685695d94e49217592848501d1d317d457cb339afab537821e37",
-      "source": "CNBC",
-      "title": "Everything changed for the oil, AI and bond trades over the past month",
-      "publishedAtSgt": "2026-11-01T23:58:24+08:00",
-      "url": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "\"Oil and treasury yields had this amazing correlation and in October it just stopped,\" Rosenberg said on the most recent CNBC \"ETF Edge.\" The relationship between oil and bond yields was featured in Federal Reserve Chair Kevin Warsh's FOMC press conference on Wednesday, with Warsh noting how oil futures have continued to rise, a factor the central bank must consider in its fight against inflation.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-02T00:49:49+08:00"
-    },
-    {
-      "id": "18c2e38c1b84a0a6e9c038e709f3d177a5619d08f6e807f76584316cfa7c21df",
-      "source": "CNBC",
-      "title": "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
-      "publishedAtSgt": "2026-11-01T20:33:53+08:00",
-      "url": "https://www.cnbc.com/2026/11/01/top-analysts-are-bullish-on-these-3-stocks-for-the-long-haul.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Further, worries about elevated artificial intelligence spending are weighing on investor sentiment. Investors looking beyond the short-term noise and focusing on long-term returns can track top Wall Street analysts to pick the right stocks, backed by strong research. Ikeda called Datadog and Atlassian his top picks, saying that companies that can show that AI is a tailwind to growth could see their valuation rerate, even at premium multiples.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-02T00:49:49+08:00"
     }
   ]
 }
