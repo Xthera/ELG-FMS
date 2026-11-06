@@ -1,10 +1,222 @@
 {
-  "generatedAtSgt": "2026-11-06T04:57:22.697243+08:00",
+  "generatedAtSgt": "2026-11-06T20:26:30.372845+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 220,
+  "articleCount": 227,
   "analyses": [
+    {
+      "articleId": "cecf2cb38177397f84a642eb0a79da316bc694371fae17f1cbef91a3ef7cb82c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Tech and AI stocks experienced significant market volatility and a sell-off following the US midterm elections, driven by investor concerns over potential tech regulation from a Democrat-controlled Congress and the high costs of data center buildouts.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors holding tech and AI-related equities face increased volatility and downside risks stemming from regulatory uncertainties following the US midterm elections and capital-intensive infrastructure demands.",
+      "reasoning": "The article is classified as MARKET due to the immediate sell-off and volatility in tech equities following the US midterm elections. Sentiment is NEGATIVE as stocks were hammered, and importance is HIGH because it affects major sectors and market indexes.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'",
+      "publishedAtSgt": "2026-11-06T20:04:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
+      "articleId": "4d42bd5651f18f67504248b2014a6e8414e33ca7d051eb2778f80095a57b9bb7",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Moderna beat Q3 revenue and earnings estimates and raised its full-year 2026 revenue growth outlook to 15% to 25%, driven by newer vaccines gaining traction. However, its stock fell after trial data leaked on social media ahead of a European medical conference presentation.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Biotechnology"
+      ],
+      "investorImpact": "The strong financial results and raised outlook indicate robust commercial traction for Moderna's newer product pipeline, though information leakage and subsequent stock sell-off highlight volatility risks for investors holding the stock.",
+      "reasoning": "The article details significant financial earnings, guidance changes, and market reaction for a major biotech company, making it highly relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Moderna raises 2026 outlook as CEO says newer vaccines are gaining traction",
+      "publishedAtSgt": "2026-11-06T19:56:04+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/moderna-mrna-earnings-q3-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
+    },
+    {
+      "articleId": "1aeccbe49f750191e5d8294be429d2c4706ef26682eda5c535332334b9cb5dd0",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "ING is reportedly seeking buyers for $500 million of data center loans as concerns grow over soaring AI build-out debt and potentially disappointing returns. This perceived risk triggered a sell-off in AI-related stocks, causing the Nasdaq Composite Index to drop 5.5% into correction territory.",
+      "assetClasses": [
+        "Equities",
+        "Debt",
+        "Loans"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors face heightened volatility and repricing risks in AI infrastructure debt and technology equities as market sentiment shifts toward skepticism regarding AI capital expenditure returns.",
+      "reasoning": "The article is highly relevant to technology and market intelligence, directly tying AI infrastructure financing risks to a major market correction and demonstrating contagion into equity markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI debt concerns grow as ING reportedly seeks buyers for $500 million of data center loans",
+      "publishedAtSgt": "2026-11-06T19:24:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
+    },
+    {
+      "articleId": "59668c59ac7095e2afe166e9c34e282ae4e3c3fa211b5f9cb4419a13f36fc398",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "The U.S. midterms election results could potentially curb global interest rate hikes next year, while market watchers assess the uncertain path of oil prices and potential resolutions to the Middle East conflict following the Iran war impacts on the election.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States",
+        "Middle East"
+      ],
+      "sectors": [
+        "Energy",
+        "Financials"
+      ],
+      "investorImpact": "Investors must re-evaluate interest rate trajectories and oil price volatility following election outcomes, which could influence monetary policy and energy sector valuations globally.",
+      "reasoning": "The article directly addresses macroeconomic shifts, interest rate outlooks, and geopolitical impacts on markets following election results, making it critical for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Democrat sweep gives markets a reason to rethink path of interest rates",
+      "publishedAtSgt": "2026-11-06T18:22:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
+    },
+    {
+      "articleId": "42a612961716741d3db5ba6710396efc22611fd364e603b4943bc30252dfd4a0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Oil prices fell on Friday and headed for a sharp weekly decline, reversing earlier gains, as markets digested midterm election outcomes and weighed potential military escalation risks involving Iran, which analysts suggest could push oil benchmarks above $100 a barrel.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Global",
+        "USA",
+        "Iran"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Investors in energy assets and broader equity portfolios must monitor geopolitical tensions in the Middle East and fluctuating oil benchmarks, as renewed conflict could drive oil prices past $100 per barrel and impact inflation expectations.",
+      "reasoning": "The article discusses significant near-term volatility and weekly declines in oil markets driven by geopolitical risks and post-election sentiment, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil prices set for sharp weekly fall after midterm elections as investors weigh Iran conflict risk",
+      "publishedAtSgt": "2026-11-06T18:00:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
+      "articleId": "e5f56d3f49a53451dc4838d2d6c5698c6208b3c1a88c2e8845a7f15a62f15220",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Equinix is shifting toward smaller facilities amid growing regulatory scrutiny and construction restrictions on U.S. data center developments tied to artificial intelligence infrastructure buildouts. Meanwhile, enterprise demand for hybrid cloud and digital infrastructure remains strong, though restrictions risk raising supply chain costs.",
+      "assetClasses": [
+        "Equities",
+        "Real Estate"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Real Estate",
+        "Infrastructure"
+      ],
+      "investorImpact": "Investors in data center real estate and AI infrastructure supply chains should monitor regulatory headwinds that could increase construction costs and alter expansion strategies toward smaller facilities.",
+      "reasoning": "The article highlights regulatory scrutiny and structural shifts in data center construction for AI infrastructure, making it relevant for technology and infrastructure sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Equinix points to smaller facilities as scrutiny of U.S. data center construction grows",
+      "publishedAtSgt": "2026-11-06T15:23:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/equinix-us-data-center-growth-asia.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
+      "articleId": "02ef28359d0edd06bb810a1888250a130adec613dc032d5efa0da86b8482d9c4",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "India's stock market is attracting attention as a potential safe-haven hedge amid a broader global sell-off in the artificial intelligence trade, drawing renewed interest from foreign investors who were previously underweight due to high valuations and other factors.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors looking to diversify away from concentrated global AI trades may find tactical opportunities in Indian equities as capital shifts during broader market sell-offs.",
+      "reasoning": "The article discusses macroeconomic capital flows and sector rotation into Indian equities as a hedge against global AI market corrections, making it relevant for portfolio positioning and market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "India as an AI hedge? The country's stocks could see robust inflows as markets globally tank",
+      "publishedAtSgt": "2026-11-06T14:02:36+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/india-ai-tech-hedge-nifty50.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
     {
       "articleId": "d4135d3601d966ccc5645175595c7813a9545b31151f063ca3306b33427c249f",
       "relevant": true,
