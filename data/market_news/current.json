@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-06T10:30:35+08:00",
+  "generatedAtSgt": "2026-11-06T20:10:46+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,134 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "cecf2cb38177397f84a642eb0a79da316bc694371fae17f1cbef91a3ef7cb82c",
+      "source": "CNBC",
+      "title": "AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'",
+      "publishedAtSgt": "2026-11-06T20:04:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Since the landmark results came in, tech and AI stocks have been jolted by market volatility. \"The tumble in tech stocks that took hold in the immediate aftermath of the US midterm elections resumed as investors contemplated what a Democrat-controlled Congress may mean for tech regulation and the overall AI boom,\" wrote Kyle Rodda, senior financial market analyst at Capital.com in a note on Thursday after the bell.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
+      "id": "4d42bd5651f18f67504248b2014a6e8414e33ca7d051eb2778f80095a57b9bb7",
+      "source": "CNBC",
+      "title": "Moderna raises 2026 outlook as CEO says newer vaccines are gaining traction",
+      "publishedAtSgt": "2026-11-06T19:56:04+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/moderna-mrna-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Moderna on Friday smashed third-quarter revenue and earnings estimates and hiked its outlook for full-year sales growth, as some of its newer products gain momentum. The biotech company now expects 2026 revenue growth of 15% to 25%, up from its previous guidance of up to 10%. Despite the positive results, investors battered Moderna's stock after part of the data was leaked on social media just days before trial investigators were set to present it at a European medical conference.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
+    },
+    {
+      "id": "1aeccbe49f750191e5d8294be429d2c4706ef26682eda5c535332334b9cb5dd0",
+      "source": "CNBC",
+      "title": "AI debt concerns grow as ING reportedly seeks buyers for $500 million of data center loans",
+      "publishedAtSgt": "2026-11-06T19:24:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The ING sale comes as fears grow over soaring debt tied to the AI build-out — and potentially disappointing returns among investors. The perceived risk of a construction slowdown sent AI-related stocks into free fall on Thursday, with the tech-heavy Nasdaq Composite Index closing the session down 5.5% — its worst day since April 2025 — and into correction territory.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
+    },
+    {
+      "id": "59668c59ac7095e2afe166e9c34e282ae4e3c3fa211b5f9cb4419a13f36fc398",
+      "source": "CNBC",
+      "title": "Democrat sweep gives markets a reason to rethink path of interest rates",
+      "publishedAtSgt": "2026-11-06T18:22:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "midterms has the potential to curb interest rate hikes globally next year, according to market watchers — but the uncertain path of oil prices, U.S. Dan Coatsworth, head of markets at AJ Bell, said there had been \"an admission from the Republican camp that the Iran war cost them a clean sweep in the election, which the market has taken to indicate that a swift resolution to the Middle East conflict could help them save face.\" \"Trump might relish the opportunity to take all the credit if an end...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
+    },
+    {
+      "id": "42a612961716741d3db5ba6710396efc22611fd364e603b4943bc30252dfd4a0",
+      "source": "CNBC",
+      "title": "Oil prices set for sharp weekly fall after midterm elections as investors weigh Iran conflict risk",
+      "publishedAtSgt": "2026-11-06T18:00:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices fell on Friday, reversing earlier gains, as investors weighed the risk of renewed military escalation between the U.S. Bob McNally, Rapidan Energy Group founder and president, told CNBC's \"Squawk Box Asia\" that he sees an 80% probability of military fighting resuming, forecasting that both oil benchmarks could climb above $100 a barrel.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
+      "id": "e5f56d3f49a53451dc4838d2d6c5698c6208b3c1a88c2e8845a7f15a62f15220",
+      "source": "CNBC",
+      "title": "Equinix points to smaller facilities as scrutiny of U.S. data center construction grows",
+      "publishedAtSgt": "2026-11-06T15:23:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/equinix-us-data-center-growth-asia.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "construction restrictions as regulators scrutinize the rapid buildout of artificial intelligence infrastructure. Adaggra said growth was driven by demand from large enterprises, including Fortune 500 companies, as businesses invest in hybrid and multi-cloud infrastructure, network connectivity and access to digital infrastructure. Potential restrictions on data center development could also raise costs across the AI infrastructure supply chain, according to Russell Investments.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
+      "id": "02ef28359d0edd06bb810a1888250a130adec613dc032d5efa0da86b8482d9c4",
+      "source": "CNBC",
+      "title": "India as an AI hedge? The country's stocks could see robust inflows as markets globally tank",
+      "publishedAtSgt": "2026-11-06T14:02:36+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/india-ai-tech-hedge-nifty50.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Indian stock market is emerging as an attractive hedge as investors seek refuge from a brutal sell-off in the artificial intelligence trade, making it a strong contender for global capital. As sentiment around AI sours, foreign investors, who have been underweight on the Indian market for nearly two years due to high valuations, subdued earnings growth and lack of local AI tech champions, could start returning.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
+      "id": "54a0f7f90cd9cda94295604254552c01008e09a296980acd7fd9d9c58153a93c",
+      "source": "CNBC",
+      "title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
+      "publishedAtSgt": "2026-11-06T13:27:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "is likely to resume military action against Iran in the coming days, a move that could send oil prices sharply higher, according to Bob McNally, CEO of geopolitical and energy analysis firm Rapidan Energy Group. Oil prices had spiked above the $100 mark ahead of the midterm elections as investors weighed uncertainty surrounding the Iran conflict and the risk of further U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
     {
       "id": "1652ed0620d78bf00322c586c899314ac0ee9244d3e44a67fd91ab2aa5da1c6b",
       "source": "CNBC",
@@ -73,6 +201,21 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-06T04:41:40+08:00"
+    },
+    {
+      "id": "255b901a35f1f79b414c1494cd30b99b8357c04d0acf6987adf47bd7456dbc09",
+      "source": "CNBC",
+      "title": "CNBC's experts on whether the AI trade is ending and what investors should do next",
+      "publishedAtSgt": "2026-11-06T03:19:31+08:00",
+      "url": "https://www.cnbc.com/2026/11/05/cnbcs-experts-on-whether-the-ai-trade-is-ending-and-what-investors-should-do-next.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amid a powerful rout in tech stocks, investors told CNBC on Thursday that something may be fundamentally breaking in the AI trade following the big success of Democrats in Tuesday's midterm elections and the threat they try to slow the data center buildout. \"The entire economy and the consumer and earnings growth are all levered to that buildout.\" The selling Thursday spilled over to non-AI stocks with the Dow Jones Industrial average down more than 1,600 points.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
     },
     {
       "id": "b5c83995c5f208b574bb2c93709a430aaee2a29b8600b0cf21dbfb1d6f07dd1e",
@@ -1468,148 +1611,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-02T00:49:49+08:00"
-    },
-    {
-      "id": "820fe11600770cbe059082162f4f9777dcae8dbba51d4548b3d3f61ca8dae488",
-      "source": "CNBC",
-      "title": "The midterm election could reshape the muni bond market. Here’s what investors need to know",
-      "publishedAtSgt": "2026-11-01T20:30:48+08:00",
-      "url": "https://www.cnbc.com/2026/11/01/election-municipal-bonds.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "There is an array of initiatives on ballots around the nation that could change tax laws and add to bond supply. Taxes matter to muni investors since the income received is free of federal tax, as well as state tax if the holder lives in the state where the bond is issued. Investors will likely seek shelter in the muni market, which would send bond prices higher, he noted.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-02T00:49:49+08:00"
-    },
-    {
-      "id": "1a18520f8bb4841d499bd89e8532ac61fb298b7bfc99de54e64abd096210c5fc",
-      "source": "CNBC",
-      "title": "Companies promised AI gains— here's how the payoff showed up in earnings",
-      "publishedAtSgt": "2026-11-01T14:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Some companies are beginning to report financial benefits from artificial intelligence investments, as interest in the technology shifts from hype to measurable returns in the latest quarter. Corporate AI investment has surged as companies look to boost efficiency and become more profitable, reaching $581.7 billion in 2025, up 130% from the previous year, according to the Stanford HAI 2026 AI Index report.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-01T15:37:06+08:00"
-    },
-    {
-      "id": "de3c341ab1495273bea2517135f9adcba2d266e6ac2087324877a25f5c44b476",
-      "source": "CNBC",
-      "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
-      "publishedAtSgt": "2026-11-01T03:56:23+08:00",
-      "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
-      "category": "MARKET",
-      "relevanceScore": 95,
-      "relevanceReason": "business_market_event",
-      "summary": "OpenAI is seeking to raise up to $20 billion in a new funding round, CNBC confirmed on Saturday, paring back its earlier target of up to $30 billion. News that the ChatGPT developer slashed its funding round follows a week when investors asked whether big tech firms' spending on AI, especially to build out data centers and snap up GPUs, will deliver adequate returns.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-01T04:00:51+08:00"
-    },
-    {
-      "id": "a9a3a834e4675db8c1ef89c50122f496dc12b3b924311a28bc4701bac3191e7e",
-      "source": "CNBC",
-      "title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
-      "publishedAtSgt": "2026-11-01T02:56:37+08:00",
-      "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "SpaceX's AI division, SpaceXAI, lost its bid to dismiss an NAACP lawsuit, which is proceeding in federal court in Mississippi, according to a judge's opinion released late Friday. The lawsuit claims that the AI division of CEO Elon Musk's aerospace and defense tech conglomerate violated the Clean Air Act by using gas-fired combustion turbines to power its massive AI data centers in Greater Memphis.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-01T04:00:50+08:00"
-    },
-    {
-      "id": "6713151a9d9f66c5b28a5b0bd9ef0157cf5be4010cfc8d330f33542ff9863990",
-      "source": "CNBC",
-      "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
-      "publishedAtSgt": "2026-10-31T23:37:11+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Wall Street's enthusiasm for artificial intelligence stocks proved short-lived. Semiconductor stocks staged a sharp rebound before renewed concerns about the AI trade sent shares tumbling. The prospect of higher rates only exacerbated investor worries that tech companies may be borrowing too much in the race to keep building out AI.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-01T04:00:56+08:00"
-    },
-    {
-      "id": "684738bb69fde9ddc1162f83ff5d6fe5e60587d47df59cfbd91e96d5a2e44e45",
-      "source": "CNBC",
-      "title": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
-      "publishedAtSgt": "2026-10-31T20:49:58+08:00",
-      "url": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "President Donald Trump promised voters angry about inflation that he would slash gas prices below $2 a gallon within his first year in office. \"My plan will cut energy prices in half or more than that within 12 months of taking office,\" Trump said in a speech to the New York Economic Club in September 2024 during his re-election campaign.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-31T21:40:56+08:00"
-    },
-    {
-      "id": "f6fcedb0f9fc4bffff983ea9ce4fedd6435c5e600eeda44db9cfd5b54ca3353c",
-      "source": "CNBC",
-      "title": "Binance’s $6.3 billion hack raises questions about crypto wallet safety",
-      "publishedAtSgt": "2026-10-31T20:47:08+08:00",
-      "url": "https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html",
-      "category": "MARKET",
-      "relevanceScore": 95,
-      "relevanceReason": "business_market_event",
-      "summary": "Experts whom CNBC interviewed said the security incidents on the crypto exchanges aren't surprising, especially in light of recent artificial intelligence hacking incidents. \"I think you should be very wary of leaving any significant amount of funds in an exchange… there are no built-in protections for when these inevitable hacks take place.\" For instance, banking customers can rely on the Federal Deposit Insurance Corporation to insure deposits up to $250,000 per depositor, per insured bank,...",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-31T21:40:56+08:00"
-    },
-    {
-      "id": "bca48cc959ed5d87cad7f013169471ee012157259fc39c2c7b4635080958ca6f",
-      "source": "CNBC",
-      "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
-      "publishedAtSgt": "2026-10-31T14:00:02+08:00",
-      "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "President Donald Trump scolded Big Oil in August, saying ExxonMobil and Chevron were making \"too much money based on a shortage,\" as profits surged in the wake of the U.S.-Israeli war with Iran. Corporate results published this week laid out the windfall oil majors are continuing to get from tight fuel supplies and elevated refining margins amid global conflict.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-10-31T15:01:54+08:00"
-    },
-    {
-      "id": "7d095a8dc895fea57e325a489beff8c3b3af0e7b2df8174677819f82a7dc4764",
-      "source": "CNBC",
-      "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
-      "publishedAtSgt": "2026-10-31T06:52:04+08:00",
-      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Investors looking to diversify beyond the struggling artificial intelligence trade should consider consumer staples stocks, CNBC's Jim Cramer said Friday. Kimberly-Clark shares gained nearly 11% in October, but the stock still trades at less than 15 times earnings, with a 4.7% dividend yield. Shares of Procter & Gamble rallied 11% in October, though Cramer prefers Kimberly-Clark's lower valuation and higher dividend yield.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
     }
   ]
 }

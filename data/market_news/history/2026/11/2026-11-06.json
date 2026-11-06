@@ -5,6 +5,134 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "cecf2cb38177397f84a642eb0a79da316bc694371fae17f1cbef91a3ef7cb82c",
+      "source": "CNBC",
+      "title": "AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'",
+      "publishedAtSgt": "2026-11-06T20:04:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Since the landmark results came in, tech and AI stocks have been jolted by market volatility. \"The tumble in tech stocks that took hold in the immediate aftermath of the US midterm elections resumed as investors contemplated what a Democrat-controlled Congress may mean for tech regulation and the overall AI boom,\" wrote Kyle Rodda, senior financial market analyst at Capital.com in a note on Thursday after the bell.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
+      "id": "4d42bd5651f18f67504248b2014a6e8414e33ca7d051eb2778f80095a57b9bb7",
+      "source": "CNBC",
+      "title": "Moderna raises 2026 outlook as CEO says newer vaccines are gaining traction",
+      "publishedAtSgt": "2026-11-06T19:56:04+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/moderna-mrna-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Moderna on Friday smashed third-quarter revenue and earnings estimates and hiked its outlook for full-year sales growth, as some of its newer products gain momentum. The biotech company now expects 2026 revenue growth of 15% to 25%, up from its previous guidance of up to 10%. Despite the positive results, investors battered Moderna's stock after part of the data was leaked on social media just days before trial investigators were set to present it at a European medical conference.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
+    },
+    {
+      "id": "1aeccbe49f750191e5d8294be429d2c4706ef26682eda5c535332334b9cb5dd0",
+      "source": "CNBC",
+      "title": "AI debt concerns grow as ING reportedly seeks buyers for $500 million of data center loans",
+      "publishedAtSgt": "2026-11-06T19:24:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The ING sale comes as fears grow over soaring debt tied to the AI build-out — and potentially disappointing returns among investors. The perceived risk of a construction slowdown sent AI-related stocks into free fall on Thursday, with the tech-heavy Nasdaq Composite Index closing the session down 5.5% — its worst day since April 2025 — and into correction territory.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
+    },
+    {
+      "id": "59668c59ac7095e2afe166e9c34e282ae4e3c3fa211b5f9cb4419a13f36fc398",
+      "source": "CNBC",
+      "title": "Democrat sweep gives markets a reason to rethink path of interest rates",
+      "publishedAtSgt": "2026-11-06T18:22:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "midterms has the potential to curb interest rate hikes globally next year, according to market watchers — but the uncertain path of oil prices, U.S. Dan Coatsworth, head of markets at AJ Bell, said there had been \"an admission from the Republican camp that the Iran war cost them a clean sweep in the election, which the market has taken to indicate that a swift resolution to the Middle East conflict could help them save face.\" \"Trump might relish the opportunity to take all the credit if an end...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
+    },
+    {
+      "id": "42a612961716741d3db5ba6710396efc22611fd364e603b4943bc30252dfd4a0",
+      "source": "CNBC",
+      "title": "Oil prices set for sharp weekly fall after midterm elections as investors weigh Iran conflict risk",
+      "publishedAtSgt": "2026-11-06T18:00:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Oil prices fell on Friday, reversing earlier gains, as investors weighed the risk of renewed military escalation between the U.S. Bob McNally, Rapidan Energy Group founder and president, told CNBC's \"Squawk Box Asia\" that he sees an 80% probability of military fighting resuming, forecasting that both oil benchmarks could climb above $100 a barrel.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
+      "id": "e5f56d3f49a53451dc4838d2d6c5698c6208b3c1a88c2e8845a7f15a62f15220",
+      "source": "CNBC",
+      "title": "Equinix points to smaller facilities as scrutiny of U.S. data center construction grows",
+      "publishedAtSgt": "2026-11-06T15:23:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/equinix-us-data-center-growth-asia.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "construction restrictions as regulators scrutinize the rapid buildout of artificial intelligence infrastructure. Adaggra said growth was driven by demand from large enterprises, including Fortune 500 companies, as businesses invest in hybrid and multi-cloud infrastructure, network connectivity and access to digital infrastructure. Potential restrictions on data center development could also raise costs across the AI infrastructure supply chain, according to Russell Investments.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
+      "id": "02ef28359d0edd06bb810a1888250a130adec613dc032d5efa0da86b8482d9c4",
+      "source": "CNBC",
+      "title": "India as an AI hedge? The country's stocks could see robust inflows as markets globally tank",
+      "publishedAtSgt": "2026-11-06T14:02:36+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/india-ai-tech-hedge-nifty50.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Indian stock market is emerging as an attractive hedge as investors seek refuge from a brutal sell-off in the artificial intelligence trade, making it a strong contender for global capital. As sentiment around AI sours, foreign investors, who have been underweight on the Indian market for nearly two years due to high valuations, subdued earnings growth and lack of local AI tech champions, could start returning.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
+      "id": "54a0f7f90cd9cda94295604254552c01008e09a296980acd7fd9d9c58153a93c",
+      "source": "CNBC",
+      "title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
+      "publishedAtSgt": "2026-11-06T13:27:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "is likely to resume military action against Iran in the coming days, a move that could send oil prices sharply higher, according to Bob McNally, CEO of geopolitical and energy analysis firm Rapidan Energy Group. Oil prices had spiked above the $100 mark ahead of the midterm elections as investors weighed uncertainty surrounding the Iran conflict and the risk of further U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
+    },
+    {
       "id": "1652ed0620d78bf00322c586c899314ac0ee9244d3e44a67fd91ab2aa5da1c6b",
       "source": "CNBC",
       "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
@@ -70,6 +198,21 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-06T04:41:40+08:00"
+    },
+    {
+      "id": "255b901a35f1f79b414c1494cd30b99b8357c04d0acf6987adf47bd7456dbc09",
+      "source": "CNBC",
+      "title": "CNBC's experts on whether the AI trade is ending and what investors should do next",
+      "publishedAtSgt": "2026-11-06T03:19:31+08:00",
+      "url": "https://www.cnbc.com/2026/11/05/cnbcs-experts-on-whether-the-ai-trade-is-ending-and-what-investors-should-do-next.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Amid a powerful rout in tech stocks, investors told CNBC on Thursday that something may be fundamentally breaking in the AI trade following the big success of Democrats in Tuesday's midterm elections and the threat they try to slow the data center buildout. \"The entire economy and the consumer and earnings growth are all levered to that buildout.\" The selling Thursday spilled over to non-AI stocks with the Dow Jones Industrial average down more than 1,600 points.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
     },
     {
       "id": "b5c83995c5f208b574bb2c93709a430aaee2a29b8600b0cf21dbfb1d6f07dd1e",
@@ -154,6 +297,6 @@
       "collectedAtSgt": "2026-11-06T04:41:40+08:00"
     }
   ],
-  "articleCount": 9,
-  "updatedAtSgt": "2026-11-06T10:30:35+08:00"
+  "articleCount": 18,
+  "updatedAtSgt": "2026-11-06T20:10:46+08:00"
 }
