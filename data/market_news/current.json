@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-08T02:04:08+08:00",
+  "generatedAtSgt": "2026-11-08T06:47:27+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -71,6 +71,21 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-08T02:04:08+08:00"
+    },
+    {
+      "id": "702e8084643c8e077601ae90721bf8234b185e5008af93beede6568c5d2f6e85",
+      "source": "CNBC",
+      "title": "Berkshire shares surge as Wall Street swoons amid AI fears",
+      "publishedAtSgt": "2026-11-07T22:06:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "You can sign up here to receive it every Friday evening in your inbox.) Berkshire Hathaway shares roared past the S&P 500 index this week as investors moved money away from slumping tech stocks and moved into what appears to be the relative safety of a traditional conglomerate with relatively little exposure to artificial intelligence amid fears massive spending on data centers won't pay off.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-08T06:47:27+08:00"
     },
     {
       "id": "ca36a7c4e2163f815dae3935bb2c65298a7a79453cd3c38b66062d93d409c832",
@@ -1593,24 +1608,6 @@
       "summary": "The Saudi oil giant posted adjusted net income of $31.2 billion for the quarter, up from $28.6 billion a year earlier. Aramco's downstream business, which processes crude oil into fuels and other products, posted adjusted earnings before interest and taxes of $10.3 billion, up 234% from a year earlier, driven by stronger refining margins.",
       "feeds": [
         "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
-    },
-    {
-      "id": "48483a1ae5af7ccffb61790a14c767bc4081d6dd187a4fd1c1a30206c867ff1d",
-      "source": "CNBC",
-      "title": "Blackstone president calls for more equity to fund AI buildout as debt risks mount",
-      "publishedAtSgt": "2026-11-03T14:46:36+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/equity-ai-debt-blackstone-pimco-financing.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 80,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "The artificial intelligence infrastructure buildout will need more equity financing as lenders become increasingly exposed to the companies driving the buildout, Blackstone President Jon Gray said Tuesday. Speaking at the Hong Kong Monetary Authority’s Global Financial Leaders’ Investment Summit, Gray said the scale of capital required for AI is creating concentration risks for debt investors, both across the sector and at individual companies.",
-      "feeds": [
-        "latest",
-        "finance",
-        "technology",
         "world"
       ],
       "collectedAtSgt": "2026-11-03T19:59:03+08:00"

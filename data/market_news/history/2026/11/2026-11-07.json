@@ -37,6 +37,21 @@
       "collectedAtSgt": "2026-11-08T02:04:08+08:00"
     },
     {
+      "id": "702e8084643c8e077601ae90721bf8234b185e5008af93beede6568c5d2f6e85",
+      "source": "CNBC",
+      "title": "Berkshire shares surge as Wall Street swoons amid AI fears",
+      "publishedAtSgt": "2026-11-07T22:06:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "You can sign up here to receive it every Friday evening in your inbox.) Berkshire Hathaway shares roared past the S&P 500 index this week as investors moved money away from slumping tech stocks and moved into what appears to be the relative safety of a traditional conglomerate with relatively little exposure to artificial intelligence amid fears massive spending on data centers won't pay off.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-08T06:47:27+08:00"
+    },
+    {
       "id": "ca36a7c4e2163f815dae3935bb2c65298a7a79453cd3c38b66062d93d409c832",
       "source": "CNBC",
       "title": "Democrat shaping AI policy bought chip stocks despite backing congressional trading ban",
@@ -306,6 +321,6 @@
       "collectedAtSgt": "2026-11-07T03:58:24+08:00"
     }
   ],
-  "articleCount": 19,
-  "updatedAtSgt": "2026-11-08T02:04:08+08:00"
+  "articleCount": 20,
+  "updatedAtSgt": "2026-11-08T06:47:27+08:00"
 }
