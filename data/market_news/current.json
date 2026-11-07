@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-07T03:58:31+08:00",
+  "generatedAtSgt": "2026-11-07T09:58:16+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,53 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "88be2a7741ae2c0dcc8719ab1c70f23a43b5af6e551c01e7bfee0101126686f0",
+      "source": "CNBC",
+      "title": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
+      "publishedAtSgt": "2026-11-07T07:13:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CNBC's Jim Cramer on Friday said that next week's earnings from leading neoclouds could test investor confidence in the battered data center trade. Stocks rebounded to end a turbulent election week, which saw investors dumping companies tied to the artificial intelligence infrastructure build-out after Democrats flipped the House and Senate and some key gubernatorial seats.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-07T09:58:16+08:00"
+    },
+    {
+      "id": "b7c01bc9d1d40a1e0b691ee3b33693a8f3ca41bf1fc8035e01b57f23d883f40d",
+      "source": "CNBC",
+      "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+      "publishedAtSgt": "2026-11-07T05:07:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The artificial intelligence company had been looking toward a $2 trillion valuation in its IPO up until recently, but stakeholders told CNBC that even $1.5 trillion is now in doubt, with one investor calling that number a \"stretch.\" Anthropic declined to comment. Bearishness on the AI trade was on the rise before the election. With the latest market turmoil, one investor said $1 trillion to $1.25 trillion is a more likely valuation target, although that could change with market conditions.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-07T09:58:16+08:00"
+    },
+    {
+      "id": "4b105f5ea24db16f335d125b3b0f38af09af574297375e3746b9fa93d61243d6",
+      "source": "CNBC",
+      "title": "Here's a rapid-fire update on all 31 of our stocks, including 2 to buy now",
+      "publishedAtSgt": "2026-11-07T04:36:03+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/06/heres-a-rapid-fire-update-on-our-31-stocks-including-2-to-buy-now.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But, as mentioned with Eaton, we're weighing whether to reduce exposure to AI industrials as investors sour on the broader data center trade. Goldman is also a lead underwriter on Anthropic's planned IPO, which could be another potential catalyst if the offering helps restore confidence in the AI trade. Shares look cheap, and CEO Charlie Scharf has straightened out the company and invested in building out an investment bank and other fee-based businesses.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-07T09:58:16+08:00"
+    },
     {
       "id": "67b31ec58dc11e48db271d18decd7fe0d7e08bc98a0799a13660c426b39a4ff0",
       "source": "CNBC",
@@ -1562,52 +1609,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-03T04:23:38+08:00"
-    },
-    {
-      "id": "988fba8db53a9b64adaabeb31c7680285b85a95d2f7e0b27468b83cca9660cb0",
-      "source": "CNBC",
-      "title": "2 of our banks are at the heart of this week's biggest tech deals",
-      "publishedAtSgt": "2026-11-03T03:15:55+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/02/2-of-our-banks-are-at-the-heart-of-this-weeks-biggest-tech-deals.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Stocks got a nice boost from a roughly 8% drop in oil prices and a decline of about 4 basis points in the 10-year Treasury yield . Still, the fall in oil and bond yields is helping many different parts of our portfolio, including our banks, Boeing (which we nibbled some on earlier), Home Depot , and our two transportation stocks FedEx and FedEx Freight . Away from M & A, there's been a number of stock and bond offerings to fund the AI buildout announced in recent days.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-03T04:23:38+08:00"
-    },
-    {
-      "id": "a0b8f43d89fe46352a35e0b0088dfae78455bb699dc518b8bfc3119c6dfc7bdd",
-      "source": "CNBC",
-      "title": "Defense, healthcare, crypto and AI: How the midterm election could affect stocks",
-      "publishedAtSgt": "2026-11-03T02:59:48+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "For investors, the midterm election could reshape which businesses preserve their advantages in Washington, particularly in industries such as defense, healthcare, banking and artificial intelligence. Jamie Raskin, D-Md., has separately sought records involving tariff exclusions, including communications involving Apple's former CEO, Tim Cook, as Democrats investigate whether Trump used trade policy to reward political allies and donors. AI may be the messiest political trade of all.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T04:23:38+08:00"
-    },
-    {
-      "id": "bbf3adf3989e273776af275f7333b2bcb8cfa8bb792a7893b6dabec3b9b2b273",
-      "source": "CNBC",
-      "title": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
-      "publishedAtSgt": "2026-11-03T02:16:02+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/options-traders-are-getting-anxious-on-palantir-and-apple-ahead-of-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "It's not just the neoclouds and hyperscalers that investors are anxious about. The two stocks have been on trajectories that are distinct from the broader AI trade – with Apple, in particular, trading almost inversely to the Nasdaq 100 Index – but that's not stopping speculators from betting on a reversal in their shares after earnings. Apple stock is up 25% this year and currently trading with a negative 0.65 correlation with the Nasdaq 100, ThinkOrSwim data show.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-03T04:23:37+08:00"
     }
   ]
 }
