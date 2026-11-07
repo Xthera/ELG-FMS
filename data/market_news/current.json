@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-07T09:58:16+08:00",
+  "generatedAtSgt": "2026-11-07T19:07:32+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "0fda9c5f2279e24d80d20f5a40e85d313356f05ae0fc460db8d9fffd4b76aac6",
+      "source": "CNBC",
+      "title": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
+      "publishedAtSgt": "2026-11-07T15:37:36+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_geopolitical_economic_description",
+      "summary": "President Donald Trump told reporters Friday that the U.S. carried out \"minor strikes\" on Iran, amid reports that two missiles struck Qeshm Island near the Strait of Hormuz. The island lies off Iran's southern coast, near the Strait of Hormuz, the vital artery for oil and gas that has become a flashpoint in the war.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-07T19:07:32+08:00"
+    },
     {
       "id": "88be2a7741ae2c0dcc8719ab1c70f23a43b5af6e551c01e7bfee0101126686f0",
       "source": "CNBC",
@@ -1593,22 +1609,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-03T11:29:37+08:00"
-    },
-    {
-      "id": "288529f4027f8bde85680b52cbf151a57bd86df922765b0a6c7d559865252d1d",
-      "source": "CNBC",
-      "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
-      "publishedAtSgt": "2026-11-03T04:19:25+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Crude oil prices fell sharply Monday as the presidents of the U.S. and Iran signalled they are open to a diplomatic solution to the conflict that has disrupted energy markets for eight months. But the oil market had priced in the risk of a major military escalation after the elections, gaining more than 10% in October.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T04:23:38+08:00"
     }
   ]
 }
