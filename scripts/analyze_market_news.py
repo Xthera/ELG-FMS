@@ -35,8 +35,13 @@ Analyzer behaviour:
     - Exactly one article per Gemini request
     - Newest article first
     - No batching
-    - No retries
-    - Stop immediately on ANY failure
+    - Gemini temporarily unavailable (HTTP 500/502/503/504, timeout,
+      network error): the same request is retried up to 3 times after
+      20 s, 60 s and 120 s (or Gemini's Retry-After). If it is still
+      unavailable, the run stops WITHOUT failing: the articles left are
+      analysed by the next scheduled run.
+    - HTTP 429 (quota / rate limit) and every other failure: stop
+      immediately, no retry
     - Save every successful article immediately
     - Previously saved successes remain on disk after a later failure
     - Collector current.json is never modified
@@ -70,6 +75,7 @@ from __future__ import annotations
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -104,6 +110,11 @@ GEMINI_URL = (
 ROLLING_DAYS = 14
 
 REQUEST_TIMEOUT_SECONDS = 120
+
+# Gemini "temporarily unavailable" answers: retried with these waits
+TRANSIENT_HTTP_CODES = {500, 502, 503, 504}
+RETRY_WAITS_SECONDS = (20, 60, 120)
+MAX_RETRY_AFTER_SECONDS = 300
 
 
 # ============================================================
@@ -167,6 +178,10 @@ def separator() -> None:
 # ============================================================
 # EXCEPTIONS
 # ============================================================
+
+class GeminiUnavailable(Exception):
+    """Gemini stayed temporarily unavailable after every retry."""
+
 
 class AnalysisError(Exception):
     """Expected analyzer failure."""
@@ -1090,6 +1105,99 @@ def extract_response_text(
     return "".join(texts).strip()
 
 
+def retry_after_seconds(headers: Any) -> Optional[int]:
+    try:
+        value = int(str(headers.get("Retry-After", "")).strip())
+    except (AttributeError, ValueError):
+        return None
+    return value if 0 < value <= MAX_RETRY_AFTER_SECONDS else None
+
+
+def send_gemini_request(
+    request: urllib.request.Request,
+) -> Tuple[bytes, int]:
+    """
+    One Gemini request. A temporary outage (HTTP 500/502/503/504,
+    timeout, network error) is retried after RETRY_WAITS_SECONDS;
+    if it lasts through every retry, GeminiUnavailable is raised.
+    HTTP 429 and every other error stop immediately (AnalysisError).
+    """
+
+    attempts = len(RETRY_WAITS_SECONDS) + 1
+
+    for attempt in range(1, attempts + 1):
+
+        log(
+            "Sending Gemini request..."
+            if attempt == 1
+            else f"Sending Gemini request (retry {attempt - 1}/{attempts - 1})..."
+        )
+
+        problem = None
+        wait = None
+
+        try:
+            with urllib.request.urlopen(
+                request,
+                timeout=REQUEST_TIMEOUT_SECONDS,
+            ) as response:
+
+                return response.read(), response.status
+
+        except urllib.error.HTTPError as exc:
+
+            try:
+                body = exc.read().decode(
+                    "utf-8",
+                    errors="replace",
+                )
+            except Exception:
+                body = ""
+
+            if exc.code == 429:
+                raise AnalysisError(
+                    "Gemini API returned HTTP 429 "
+                    "(rate limit / quota limit). "
+                    "Stopping immediately; no retry."
+                )
+
+            if exc.code not in TRANSIENT_HTTP_CODES:
+                raise AnalysisError(
+                    f"Gemini API returned HTTP {exc.code}. "
+                    f"Response: {body[:2000]}"
+                )
+
+            problem = (
+                f"HTTP {exc.code}"
+                + (" (service unavailable / overloaded)" if exc.code == 503 else "")
+            )
+            wait = retry_after_seconds(exc.headers)
+
+        except urllib.error.URLError as exc:
+            problem = f"network error: {exc.reason}"
+
+        except TimeoutError:
+            problem = "request timed out"
+
+        except Exception as exc:
+            raise AnalysisError(
+                f"Unexpected Gemini request error: {exc}. "
+                "Stopping immediately; no retry."
+            ) from exc
+
+        if attempt == attempts:
+            raise GeminiUnavailable(
+                f"Gemini is temporarily unavailable ({problem}) "
+                f"after {attempts} attempts."
+            )
+
+        wait = wait or RETRY_WAITS_SECONDS[attempt - 1]
+        log(f"Gemini temporarily unavailable ({problem}). Waiting {wait}s before retrying...")
+        time.sleep(wait)
+
+    raise AssertionError("unreachable")
+
+
 def call_gemini(
     article: Dict[str, Any],
 ) -> Dict[str, Any]:
@@ -1215,64 +1323,7 @@ def call_gemini(
         method="POST",
     )
 
-    log("Sending Gemini request...")
-
-    try:
-        with urllib.request.urlopen(
-            request,
-            timeout=REQUEST_TIMEOUT_SECONDS,
-        ) as response:
-
-            raw = response.read()
-
-            status = response.status
-
-    except urllib.error.HTTPError as exc:
-
-        try:
-            body = exc.read().decode(
-                "utf-8",
-                errors="replace",
-            )
-        except Exception:
-            body = ""
-
-        if exc.code == 429:
-            raise AnalysisError(
-                "Gemini API returned HTTP 429 "
-                "(rate limit / quota limit). "
-                "Stopping immediately; no retry."
-            )
-
-        if exc.code == 503:
-            raise AnalysisError(
-                "Gemini API returned HTTP 503 "
-                "(service unavailable). "
-                "Stopping immediately; no retry."
-            )
-
-        raise AnalysisError(
-            f"Gemini API returned HTTP {exc.code}. "
-            f"Response: {body[:2000]}"
-        )
-
-    except urllib.error.URLError as exc:
-        raise AnalysisError(
-            f"Gemini API network error: {exc.reason}. "
-            "Stopping immediately; no retry."
-        ) from exc
-
-    except TimeoutError as exc:
-        raise AnalysisError(
-            "Gemini API request timed out. "
-            "Stopping immediately; no retry."
-        ) from exc
-
-    except Exception as exc:
-        raise AnalysisError(
-            f"Unexpected Gemini request error: {exc}. "
-            "Stopping immediately; no retry."
-        ) from exc
+    raw, status = send_gemini_request(request)
 
     if status != 200:
         raise AnalysisError(
@@ -1524,8 +1575,11 @@ def main() -> int:
     log(
         "Mode: sequential / 1 article per request / newest first"
     )
-    log("Retry: DISABLED")
-    log("Failure behaviour: STOP IMMEDIATELY")
+    log(
+        "Retry: only when Gemini is temporarily unavailable "
+        f"(HTTP 500/502/503/504, timeout, network) - waits {', '.join(str(w) + 's' for w in RETRY_WAITS_SECONDS)}"
+    )
+    log("Failure behaviour: STOP IMMEDIATELY (429 and all other errors)")
     log(
         f"Rolling window: {ROLLING_DAYS} publication days"
     )
@@ -1829,6 +1883,32 @@ def main() -> int:
         log(
             "All successful results were saved immediately."
         )
+
+        return 0
+
+    except GeminiUnavailable as exc:
+
+        separator()
+        log("ANALYZER PAUSED - GEMINI TEMPORARILY UNAVAILABLE")
+        separator()
+
+        log(str(exc))
+        log(
+            "Not a failure: the remaining articles will be analysed "
+            "by the next scheduled run."
+        )
+        log(
+            "Previously successful analyses remain saved on disk."
+        )
+        separator()
+
+        # Yellow warning on the GitHub run instead of a red failure
+        if os.environ.get("GITHUB_ACTIONS"):
+            print(
+                f"::warning title=Gemini temporarily unavailable::{exc} "
+                "Remaining articles will be analysed by the next run.",
+                flush=True,
+            )
 
         return 0
 
