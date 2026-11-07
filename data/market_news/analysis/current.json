@@ -1,9 +1,9 @@
 {
-  "generatedAtSgt": "2026-11-08T02:19:46.824371+08:00",
+  "generatedAtSgt": "2026-11-08T07:02:56.962937+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 263,
+  "articleCount": 264,
   "analyses": [
     {
       "articleId": "33e825706b6a17ec89a148f6f9b0f4a061eaaecaf2648b68813e445ca86c8253",
@@ -126,6 +126,36 @@
       "collectorRelevanceScore": 71,
       "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
       "collectedAtSgt": "2026-11-08T02:04:08+08:00"
+    },
+    {
+      "articleId": "702e8084643c8e077601ae90721bf8234b185e5008af93beede6568c5d2f6e85",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Berkshire Hathaway shares outperformed the S&P 500 as investors rotated out of slumping tech stocks and into the safety of traditional conglomerates amid growing concerns over AI data center spending.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology",
+        "Conglomerates"
+      ],
+      "investorImpact": "Highlights capital rotation from technology equities into defensive, traditional conglomerates as investors hedge against potential overspending risks in artificial intelligence infrastructure.",
+      "reasoning": "The article details a significant market sector rotation impacting major equity valuations, relevant for monitoring broad market sentiment and risk aversion shifts.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Berkshire shares surge as Wall Street swoons amid AI fears",
+      "publishedAtSgt": "2026-11-07T22:06:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-08T06:47:27+08:00"
     },
     {
       "articleId": "ca36a7c4e2163f815dae3935bb2c65298a7a79453cd3c38b66062d93d409c832",
