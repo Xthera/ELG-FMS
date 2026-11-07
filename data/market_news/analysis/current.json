@@ -1,10 +1,218 @@
 {
-  "generatedAtSgt": "2026-11-08T00:23:09.827286+08:00",
+  "generatedAtSgt": "2026-11-08T02:19:46.824371+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 260,
+  "articleCount": 263,
   "analyses": [
+    {
+      "articleId": "33e825706b6a17ec89a148f6f9b0f4a061eaaecaf2648b68813e445ca86c8253",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Meta's chief strategy officer, Dave Wehner, is departing to join the AI startup Fireworks as its chief financial officer.",
+      "assetClasses": [
+        "Private Equity",
+        "Venture Capital"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Highlights continued executive talent migration from large-cap tech incumbents to early-stage, high-valuation AI infrastructure startups, signaling strong private market momentum in the AI sector.",
+      "reasoning": "Classified as TECHNOLOGY due to the executive move involving Meta and an AI startup. Sentiment is neutral as it reflects routine corporate leadership change despite highlighting broader AI industry trends. Importance is medium given the seniority of the executive moving into the high-growth AI infrastructure space.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO",
+      "publishedAtSgt": "2026-11-08T01:51:16+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 82,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-08T02:04:03+08:00"
+    },
+    {
+      "articleId": "234ca19577c6588f25b17004042e4ea0eafa86fd61e5dfe84d823e6175e6a53d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Healthcare stocks face an uncertain outlook and potential momentum struggles as Democrats prepare to take over Congress, though subsectors like medical device stocks near multi-year lows may present selective long opportunities.",
+      "assetClasses": [
+        "Equities",
+        "ETFs"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Medical Devices"
+      ],
+      "investorImpact": "Investors holding healthcare stocks or sector ETFs need to exercise subsector selectivity amid political shifts following midterm election outcomes.",
+      "reasoning": "Classified as MARKET because it discusses sector performance and investment outlook in relation to political changes. Sentiment is MIXED as it highlights headwinds for general healthcare stocks alongside potential opportunities in medical devices.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Why the prognosis for healthcare stocks is uncertain ahead of Congress’ new makeup",
+      "publishedAtSgt": "2026-11-08T00:02:33+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-08T02:04:03+08:00"
+    },
+    {
+      "articleId": "427bec213e9d76816ab2fa0db8ab921a23c4590564c0cb2c4bcae93fbbd5f1d3",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Berkshire Hathaway doubled its share buybacks to $9.6 billion in the third quarter while reporting an earnings decline. Its railroad, energy, and manufacturing segments saw year-over-year earnings growth, and the stock outperformed amid a rotation out of technology.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Conglomerates",
+        "Energy",
+        "Industrials"
+      ],
+      "investorImpact": "Investors should note Berkshire Hathaway's strong capital allocation strategy via increased buybacks despite lower earnings, reflecting confidence from management amidst broader tech stock rotation.",
+      "reasoning": "The article details quarterly financial earnings, capital allocation, and market performance for a major conglomerate, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+      "publishedAtSgt": "2026-11-07T23:23:46+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-08T02:04:07+08:00"
+    },
+    {
+      "articleId": "4862df6de4b157cc710eb21e696a08193ed5d89b589a3b997447a370c257d618",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Following a midterm election blue wave rebuke of Trump, renewable energy investing remains active among public and private infrastructure and clean tech funders, despite crude oil prices surging and leading energy commodities in 2026.",
+      "assetClasses": [
+        "Equities",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Renewable Energy"
+      ],
+      "investorImpact": "Investors in the renewable energy and infrastructure sectors should monitor shifting political landscapes and the balancing effects of surging crude oil prices against ongoing public and private funding for clean tech innovation.",
+      "reasoning": "Classified as Geopolitical due to its focus on midterm election results and their policy implications for the energy sector. It holds medium importance as it highlights resilient investment trends in renewable infrastructure amidst shifting political dynamics.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "What midterm election blue wave rebuke of Trump means for renewable energy",
+      "publishedAtSgt": "2026-11-07T22:33:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/midterm-election-blue-wave-trump-renewable-energy.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
+    },
+    {
+      "articleId": "ca36a7c4e2163f815dae3935bb2c65298a7a79453cd3c38b66062d93d409c832",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "Representative Josh Gottheimer disclosed new purchases of AI-linked stocks, including Advanced Micro Devices and Applied Materials, despite previously backing a congressional trading ban.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The article highlights political scrutiny surrounding congressional stock trading in AI-related equities, but has negligible direct financial impact on market fundamentals or semiconductor assets.",
+      "reasoning": "Classified under TECHNOLOGY due to focus on AI policy and semiconductor companies, with LOW importance as it concerns political ethics rather than fundamental tech sector shifts.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Democrat shaping AI policy bought chip stocks despite backing congressional trading ban",
+      "publishedAtSgt": "2026-11-07T21:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/josh-gottheimer-ai-stocks-congress-trading-ban.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
+    },
+    {
+      "articleId": "d657c0488cabdca26f369af79c843f4f9a749cb0fe2080b63cac29915b8013c1",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Anthropic is preparing for a major IPO on the Nasdaq targeted for mid-November, aiming for a valuation between $1 trillion and $1.5 trillion, which is lower than the previously floated $2 trillion target amid backlash against AI data centers following the midterms.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "The IPO represents a major liquidity and valuation benchmark for the artificial intelligence sector, though the reduced valuation target signals growing market caution and regulatory/public pushback regarding AI data center expansion.",
+      "reasoning": "Classified as MARKET due to the high-profile IPO and valuation adjustments of a major AI firm. Sentiment is mixed because a multi-trillion-dollar scale IPO is exceptionally large, yet the lowered valuation and political/social backlash against data centers highlight headwinds for the tech sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
+      "publishedAtSgt": "2026-11-07T21:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-08T02:04:07+08:00"
+    },
+    {
+      "articleId": "f5e1cdf5c5ecb4d3687ef400ccbaa4e7a386726d31a00b02e16467737ad2e834",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Snap recently settled a lawsuit over teenage psychological distress, and Google faces a new lawsuit alleging its Gemini AI chatbot caused a child's psychological crisis. These events highlight mounting legal risks for major tech companies regarding child safety and the integration of AI in educational settings.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Mounting lawsuits regarding child safety and AI integration in schools introduce regulatory, legal, and reputational risks for major technology firms, potentially impacting equity valuations and leading to stricter compliance oversight.",
+      "reasoning": "The article details regulatory and legal challenges confronting major tech companies due to child safety concerns and AI deployments in schools, directly impacting the technology sector and relevant equity holdings.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
+      "publishedAtSgt": "2026-11-07T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
+    },
     {
       "articleId": "0fda9c5f2279e24d80d20f5a40e85d313356f05ae0fc460db8d9fffd4b76aac6",
       "relevant": true,
@@ -7692,130 +7900,6 @@
       "collectorRelevanceScore": 100,
       "collectorRelevanceReason": "financial_market_legal_story",
       "collectedAtSgt": "2026-10-26T01:04:43+08:00"
-    },
-    {
-      "articleId": "e4f35cad0fad1260f0b5ccf4306dbce6ce932781dab094aec8d18d89f3e5500d",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "An upcoming jam-packed week for Wall Street as the artificial intelligence trade continues to face pressure and Middle East headlines keep oil prices elevated.",
-      "assetClasses": [
-        "Equities",
-        "Commodities"
-      ],
-      "geographies": [
-        "Global",
-        "Middle East",
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Energy"
-      ],
-      "investorImpact": "Investors must monitor pressures on the AI trade and elevated oil prices driven by geopolitical tensions, which impact broad equity market volatility.",
-      "reasoning": "The article highlights major market-moving themes including tech sector performance and energy price dynamics, making it highly relevant for portfolio risk assessment.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Here are 4 big things we're watching in the stock market this week",
-      "publishedAtSgt": "2026-10-25T22:58:26+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/25/here-are-4-big-things-were-watching-in-the-stock-market-this-week.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-26T01:04:46+08:00"
-    },
-    {
-      "articleId": "7a854a17ddfd46876dd85f1b260f37ff27d470cadf934495e80cd516fd9998bc",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEUTRAL",
-      "importance": "MEDIUM",
-      "summary": "Marc Lore's Wonder is betting on Texas, automation, and user-built restaurants while considering an IPO, pending a reopening of the IPO window. Unprofitable startups must now demonstrate clear paths to profitability or sustained future growth to win over investor sentiment.",
-      "assetClasses": [
-        "Equities",
-        "Private Equity"
-      ],
-      "geographies": [
-        "United States",
-        "Texas"
-      ],
-      "sectors": [
-        "Consumer Discretionary",
-        "Technology",
-        "Food and Beverage"
-      ],
-      "investorImpact": "Investors monitoring pre-IPO or late-stage growth companies must assess whether unprofitable startups can exhibit strong paths to profitability and automation efficiencies, particularly as market windows for initial public offerings fluctuate.",
-      "reasoning": "Classified as MARKET due to discussion surrounding IPO market conditions and investor demands for profitability among startups. Sentiment is neutral as it describes ongoing strategic moves and broader market requirements rather than a definitive financial report.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
-      "publishedAtSgt": "2026-10-25T20:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-25T20:36:16+08:00"
-    },
-    {
-      "articleId": "132b26e1bf27fa2d0e348866cea646eb5eccd0b79d4fe91438c56418930f5ffa",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "Biotech stocks are surging amid a new drug innovation boom driven by clinical trial results, M&A activity, genomics, mRNA, and AI-driven drug discovery, despite some volatility such as Moderna's recent stock plunge.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Biotechnology",
-        "Technology"
-      ],
-      "investorImpact": "Investors can capitalize on the new biotech innovation cycle by understanding the growth drivers like AI and genomics, while navigating the inherent volatility of individual stocks like Moderna.",
-      "reasoning": "The article discusses a broader market and sector trend in biotech, combining positive sector momentum with individual stock volatility, making it relevant for sector allocation and market monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
-      "publishedAtSgt": "2026-10-25T02:56:29+08:00",
-      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-25T20:36:16+08:00"
-    },
-    {
-      "articleId": "f2ae5a4294f4e9637d77457cb7b95bd83cf1df5c406902be4cc25cd1bac1fb53",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "Wall Street experienced volatility as investors weighed robust demand against growing fears regarding how companies will finance the massive AI infrastructure buildout, though chip and cyber stocks saw buying interest.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors",
-        "Cybersecurity"
-      ],
-      "investorImpact": "Investors must carefully assess technology holdings and financing structures for AI infrastructure, as funding concerns drive market volatility despite underlying demand.",
-      "reasoning": "The article is classified as MARKET because it discusses Wall Street reactions and portfolio adjustments in response to AI funding concerns. It is important due to widespread implications for tech sector valuations.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
-      "publishedAtSgt": "2026-10-25T00:14:00+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-10-25T00:38:37+08:00"
     }
   ]
 }
