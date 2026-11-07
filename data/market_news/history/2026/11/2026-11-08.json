@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-08",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "33e825706b6a17ec89a148f6f9b0f4a061eaaecaf2648b68813e445ca86c8253",
+      "source": "CNBC",
+      "title": "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO",
+      "publishedAtSgt": "2026-11-08T01:51:16+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Dave Wehner, Meta's chief strategy officer, is leaving the company for four-year-old AI startup Fireworks. At Fireworks — an AI inference and model-training platform focused on open models that was valued at $17.5 billion during a Series D fundraising round in July — Wehner will assume the CFO role, he announced on X on Friday.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:03+08:00"
+    },
+    {
+      "id": "234ca19577c6588f25b17004042e4ea0eafa86fd61e5dfe84d823e6175e6a53d",
+      "source": "CNBC",
+      "title": "Why the prognosis for healthcare stocks is uncertain ahead of Congress’ new makeup",
+      "publishedAtSgt": "2026-11-08T00:02:33+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Healthcare stocks may struggle to gain momentum as Democrats prepare to take over Congress. For investors who are long on healthcare, Holz said each subsector should be treated differently. \"But if you do, then you probably want to be long some of these medical device stocks that are at or near multi-year lows.\" The State Street Health Care Select ETF ended virtually flat this week.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:03+08:00"
+    }
+  ],
+  "articleCount": 2,
+  "updatedAtSgt": "2026-11-08T02:04:03+08:00"
+}

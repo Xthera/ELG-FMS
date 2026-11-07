@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-07T19:07:32+08:00",
+  "generatedAtSgt": "2026-11-08T02:04:08+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,120 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "33e825706b6a17ec89a148f6f9b0f4a061eaaecaf2648b68813e445ca86c8253",
+      "source": "CNBC",
+      "title": "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO",
+      "publishedAtSgt": "2026-11-08T01:51:16+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Dave Wehner, Meta's chief strategy officer, is leaving the company for four-year-old AI startup Fireworks. At Fireworks — an AI inference and model-training platform focused on open models that was valued at $17.5 billion during a Series D fundraising round in July — Wehner will assume the CFO role, he announced on X on Friday.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:03+08:00"
+    },
+    {
+      "id": "234ca19577c6588f25b17004042e4ea0eafa86fd61e5dfe84d823e6175e6a53d",
+      "source": "CNBC",
+      "title": "Why the prognosis for healthcare stocks is uncertain ahead of Congress’ new makeup",
+      "publishedAtSgt": "2026-11-08T00:02:33+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Healthcare stocks may struggle to gain momentum as Democrats prepare to take over Congress. For investors who are long on healthcare, Holz said each subsector should be treated differently. \"But if you do, then you probably want to be long some of these medical device stocks that are at or near multi-year lows.\" The State Street Health Care Select ETF ended virtually flat this week.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:03+08:00"
+    },
+    {
+      "id": "427bec213e9d76816ab2fa0db8ab921a23c4590564c0cb2c4bcae93fbbd5f1d3",
+      "source": "CNBC",
+      "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+      "publishedAtSgt": "2026-11-07T23:23:46+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Greg Abel-led conglomerate bought back $9.6 billion worth of Berkshire stock. Berkshire's railroad, energy and manufacturing businesses all saw earnings grow year over year. Despite the earnings pullback, Berkshire stock has outperformed recently amid a massive rotation out of technology stocks.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:07+08:00"
+    },
+    {
+      "id": "4862df6de4b157cc710eb21e696a08193ed5d89b589a3b997447a370c257d618",
+      "source": "CNBC",
+      "title": "What midterm election blue wave rebuke of Trump means for renewable energy",
+      "publishedAtSgt": "2026-11-07T22:33:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/midterm-election-blue-wave-trump-renewable-energy.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "But renewable energy investing remains alive and well, notably among public and private funders of infrastructure projects and clean technology innovation. While it might be hard to focus on the potential in the renewable energy sector in 2026 with energy commodities leading all sectors of the market as crude oil prices surged, some of the factors Lai cites should be on the radar of investors beyond the impact investing space.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
+    },
+    {
+      "id": "ca36a7c4e2163f815dae3935bb2c65298a7a79453cd3c38b66062d93d409c832",
+      "source": "CNBC",
+      "title": "Democrat shaping AI policy bought chip stocks despite backing congressional trading ban",
+      "publishedAtSgt": "2026-11-07T21:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/josh-gottheimer-ai-stocks-congress-trading-ban.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Josh Gottheimer, a Democrat helping write his party's artificial intelligence agenda, has disclosed new purchases of AI-linked stocks — just months after voting to ban lawmakers and their families from buying individual shares. The AI purchases are just a small slice of Gottheimer's sprawling investment portfolio. Advanced Micro Devices competes with Nvidia in AI chips, while Applied Materials supplies semiconductor manufacturing equipment.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
+    },
+    {
+      "id": "d657c0488cabdca26f369af79c843f4f9a749cb0fe2080b63cac29915b8013c1",
+      "source": "CNBC",
+      "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
+      "publishedAtSgt": "2026-11-07T21:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The AI company is gearing up for a potentially historic IPO, likely targeting mid-November for its Nasdaq debut. CNBC reported on Friday that Anthropic investors see the company aiming for a valuation of $1 trillion to $1.5 trillion, down from a target of $2 trillion that had been floated in recent months.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:07+08:00"
+    },
+    {
+      "id": "f5e1cdf5c5ecb4d3687ef400ccbaa4e7a386726d31a00b02e16467737ad2e834",
+      "source": "CNBC",
+      "title": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
+      "publishedAtSgt": "2026-11-07T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Snap confidentially settled a case claiming that its technology caused severe psychological distress to two teenage users. And Google was sued this week by the parents of a child who allegedly suffered a psychological crisis after chatting with the Gemini AI chatbot in Google Classroom. Concern is intensifying as artificial intelligence companies pursue trillion-dollar valuations, and established internet giants pour money into developing advanced AI models while pushing them into the classroom.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
+    },
     {
       "id": "0fda9c5f2279e24d80d20f5a40e85d313356f05ae0fc460db8d9fffd4b76aac6",
       "source": "CNBC",
@@ -1500,115 +1614,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-03T19:59:03+08:00"
-    },
-    {
-      "id": "2f5ecd1781753920d7c56cdf44d59d1b4050e66fb2b86a42a6bf3563cda9ff1c",
-      "source": "CNBC",
-      "title": "Australia hikes rates to 18-year high to fight inflation",
-      "publishedAtSgt": "2026-11-03T11:46:20+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Australia's central bank raised its benchmark cash rate by 25 basis points to 4.85% on Tuesday, the highest level since November 2008. The central bank also said inflation is now expected to \"remain elevated through much of 2027,\" and not expected to fall back into its 2%-3% target range till late 2027, three quarters later than previously forecast.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
-    },
-    {
-      "id": "591c4e2fb8fc21ab937993e1819fe4041e443249707aff6b76f579639951ce15",
-      "source": "CNBC",
-      "title": "Apple's quarter is not perfect. But with enough to like, we raised our price target",
-      "publishedAtSgt": "2026-11-03T08:55:36+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/02/apples-quarter-is-not-perfect-but-with-enough-to-like-we-raised-our-price-target.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Apple shares fell Monday evening after the iPhone maker delivered a better-than-expected quarter but offered mixed guidance due to a slowdown in services revenue growth and high memory costs eating into margins. Bottom line We remain \"own it, don't trade it\" on Apple stock. During an October in which tech stocks were hammered by concerns over AI funding, Apple stood out, hitting a new all-time high late in the month.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-03T11:29:37+08:00"
-    },
-    {
-      "id": "17a16327d0bf4b1b2a67cdfcc521630217021cbeb6bc58b20ff059785974c3c2",
-      "source": "CNBC",
-      "title": "Jim Cramer says these six fashion stocks are buys beyond the AI trade",
-      "publishedAtSgt": "2026-11-03T07:54:27+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/jim-cramer-fashion-stocks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "CNBC's Jim Cramer highlighted six fashion and apparel stocks on Monday for investors looking for alternatives to the struggling AI trade. Shares trade at roughly 14 times earnings and offer a dividend yield near 3%. The women's fashion brand initially struggled after its IPO in late July, but Cramer said it \"has great growth, it's profitable, and it has a differentiated shopping experience with a technology kicker.\" Cramer highlighted the stock in late September; shares surged more than 31% in...",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-03T11:29:36+08:00"
-    },
-    {
-      "id": "969de932010359e3592c4a15668d774852c7e87997e12c98faf686117412fc12",
-      "source": "CNBC",
-      "title": "Jim Cramer says lower oil prices are giving stocks a boost. Can it last?",
-      "publishedAtSgt": "2026-11-03T07:36:53+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/jim-cramer-oil-yields-non-tech-stocks.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "CNBC's Jim Cramer said that lower oil prices and Treasury yields are fueling a broader stock market rally. Cramer said the improved market backdrop has prompted investors to revisit strong earnings reports they initially overlooked and accelerated the shift toward growth opportunities beyond tech. which sent interest rates lower and caused a host of stocks to soar.\" Cramer pointed to Amazon, up 2% Monday, as an example of how falling rates can change investors' perceptions of a stock.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-03T11:29:37+08:00"
-    },
-    {
-      "id": "7c00a47c59e37b41788037887ba18f466f296738cbc5cca13c6b654e9717aae1",
-      "source": "CNBC",
-      "title": "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
-      "publishedAtSgt": "2026-11-03T06:53:20+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "commercial revenue topping government for the first time as businesses adopt more of the company's artificial intelligence tools. \"I don't believe anyone's had consistent results like this in the history of software AI, ever,\" CEO Alex Karp told CNBC's Seema Mody in an interview, adding that the business is succeeding without salespeople.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T11:29:36+08:00"
-    },
-    {
-      "id": "b8d29d836913174a058f66f848abafb4e0d3830371b807d48972f86785ef33a4",
-      "source": "CNBC",
-      "title": "Kimberly-Clark closes its acquisition of Tylenol maker Kenvue. What to expect next",
-      "publishedAtSgt": "2026-11-03T05:35:06+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/02/kimberly-clark-closes-its-acquisition-of-tylenol-maker-kenvue-what-to-expect-next.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "With the stock's strong performance of late, Jim said on Monday's Morning Meeting he would wait for weakness before looking to buy more shares. Based on Monday's close, the stock has a dividend yield of 4.73%. That commitment is particularly important for income-focused investors who have long viewed Kimberly-Clark as a reliable dividend-paying stock.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-03T11:29:36+08:00"
-    },
-    {
-      "id": "a1da9cbf2de6d0ecacf3d3da5d32b0d352ff88bc55d23b018f13e10e0441a0e6",
-      "source": "CNBC",
-      "title": "I bonds now pay 5.51% — but there are trade-offs. What to know before buying",
-      "publishedAtSgt": "2026-11-03T04:57:50+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/i-bonds-rate.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Amid rising inflation, the variable part of I bond interest rose to 4.08%, while the fixed part increased to 1.40%, the highest since 2006. Meanwhile, the I bond's 1.4% fixed rate stays the same for as long as you own it, which could appeal to longer-term investors, he said. \"I always say [I bonds are] a secondary emergency fund,\" said David Enna, founder of Tipswatch.com, a website that tracks Treasury inflation-protected securities, or TIPS, and I bond rates.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-03T11:29:37+08:00"
     }
   ]
 }

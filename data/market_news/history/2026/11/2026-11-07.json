@@ -5,6 +5,87 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "427bec213e9d76816ab2fa0db8ab921a23c4590564c0cb2c4bcae93fbbd5f1d3",
+      "source": "CNBC",
+      "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+      "publishedAtSgt": "2026-11-07T23:23:46+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Greg Abel-led conglomerate bought back $9.6 billion worth of Berkshire stock. Berkshire's railroad, energy and manufacturing businesses all saw earnings grow year over year. Despite the earnings pullback, Berkshire stock has outperformed recently amid a massive rotation out of technology stocks.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:07+08:00"
+    },
+    {
+      "id": "4862df6de4b157cc710eb21e696a08193ed5d89b589a3b997447a370c257d618",
+      "source": "CNBC",
+      "title": "What midterm election blue wave rebuke of Trump means for renewable energy",
+      "publishedAtSgt": "2026-11-07T22:33:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/midterm-election-blue-wave-trump-renewable-energy.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "But renewable energy investing remains alive and well, notably among public and private funders of infrastructure projects and clean technology innovation. While it might be hard to focus on the potential in the renewable energy sector in 2026 with energy commodities leading all sectors of the market as crude oil prices surged, some of the factors Lai cites should be on the radar of investors beyond the impact investing space.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
+    },
+    {
+      "id": "ca36a7c4e2163f815dae3935bb2c65298a7a79453cd3c38b66062d93d409c832",
+      "source": "CNBC",
+      "title": "Democrat shaping AI policy bought chip stocks despite backing congressional trading ban",
+      "publishedAtSgt": "2026-11-07T21:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/josh-gottheimer-ai-stocks-congress-trading-ban.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Josh Gottheimer, a Democrat helping write his party's artificial intelligence agenda, has disclosed new purchases of AI-linked stocks — just months after voting to ban lawmakers and their families from buying individual shares. The AI purchases are just a small slice of Gottheimer's sprawling investment portfolio. Advanced Micro Devices competes with Nvidia in AI chips, while Applied Materials supplies semiconductor manufacturing equipment.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
+    },
+    {
+      "id": "d657c0488cabdca26f369af79c843f4f9a749cb0fe2080b63cac29915b8013c1",
+      "source": "CNBC",
+      "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
+      "publishedAtSgt": "2026-11-07T21:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The AI company is gearing up for a potentially historic IPO, likely targeting mid-November for its Nasdaq debut. CNBC reported on Friday that Anthropic investors see the company aiming for a valuation of $1 trillion to $1.5 trillion, down from a target of $2 trillion that had been floated in recent months.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:07+08:00"
+    },
+    {
+      "id": "f5e1cdf5c5ecb4d3687ef400ccbaa4e7a386726d31a00b02e16467737ad2e834",
+      "source": "CNBC",
+      "title": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
+      "publishedAtSgt": "2026-11-07T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Snap confidentially settled a case claiming that its technology caused severe psychological distress to two teenage users. And Google was sued this week by the parents of a child who allegedly suffered a psychological crisis after chatting with the Gemini AI chatbot in Google Classroom. Concern is intensifying as artificial intelligence companies pursue trillion-dollar valuations, and established internet giants pour money into developing advanced AI models while pushing them into the classroom.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
+    },
+    {
       "id": "0fda9c5f2279e24d80d20f5a40e85d313356f05ae0fc460db8d9fffd4b76aac6",
       "source": "CNBC",
       "title": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
@@ -225,6 +306,6 @@
       "collectedAtSgt": "2026-11-07T03:58:24+08:00"
     }
   ],
-  "articleCount": 14,
-  "updatedAtSgt": "2026-11-07T19:07:32+08:00"
+  "articleCount": 19,
+  "updatedAtSgt": "2026-11-08T02:04:08+08:00"
 }
