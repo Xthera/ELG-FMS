@@ -1,10 +1,132 @@
 {
-  "generatedAtSgt": "2026-11-07T04:14:38.831195+08:00",
+  "generatedAtSgt": "2026-11-07T19:23:10.502369+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 230,
+  "articleCount": 236,
   "analyses": [
+    {
+      "articleId": "0fda9c5f2279e24d80d20f5a40e85d313356f05ae0fc460db8d9fffd4b76aac6",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "President Donald Trump confirmed that the U.S. conducted minor strikes on Iran following reports of missiles hitting Qeshm Island near the Strait of Hormuz, a critical trade and energy transit chokepoint.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "Iran",
+        "Middle East"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas",
+        "Defense"
+      ],
+      "investorImpact": "Escalation of geopolitical tensions near the Strait of Hormuz directly threatens global energy supplies, likely causing short-term volatility in oil prices and impacting energy sector equities and risk sentiment.",
+      "reasoning": "Classified as GEOPOLITICAL due to direct military actions involving the U.S. and Iran near a vital energy chokepoint. The sentiment is negative because military strikes increase regional conflict risks, and importance is high due to potential impacts on global oil supply chains.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
+      "publishedAtSgt": "2026-11-07T15:37:36+08:00",
+      "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 52,
+      "collectorRelevanceReason": "supporting_geopolitical_economic_description",
+      "collectedAtSgt": "2026-11-07T19:07:32+08:00"
+    },
+    {
+      "articleId": "88be2a7741ae2c0dcc8719ab1c70f23a43b5af6e551c01e7bfee0101126686f0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer discusses upcoming earnings from neoclouds and AI infrastructure stocks, which face scrutiny following a turbulent election week where investors sold off artificial intelligence infrastructure companies after political shifts in Congress.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors monitoring AI infrastructure and data center stocks should pay attention to upcoming neocloud earnings reports, as they will test market confidence following recent political and sector volatility.",
+      "reasoning": "The article is relevant as it covers market sentiment, upcoming earnings catalysts for AI infrastructure stocks, and the aftermath of political shifts impacting the tech sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
+      "publishedAtSgt": "2026-11-07T07:13:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-07T09:58:16+08:00"
+    },
+    {
+      "articleId": "b7c01bc9d1d40a1e0b691ee3b33693a8f3ca41bf1fc8035e01b57f23d883f40d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Investors are bracing for a lower valuation for AI company Anthropic ahead of its IPO, with stakeholders noting that a $1.5 trillion valuation is a stretch and that a more realistic target may be between $1 trillion and $1.25 trillion due to growing bearishness on the AI trade and recent market turmoil.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors with exposure to the AI sector and private market valuations should re-evaluate their growth assumptions, as sentiment shifts and market turmoil pressure previously high IPO valuation targets for leading AI firms.",
+      "reasoning": "The article is classified under MARKET with NEGATIVE sentiment because it highlights deteriorating valuation expectations for a major AI startup, reflecting broader market skepticism and volatility impacting tech investments.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+      "publishedAtSgt": "2026-11-07T05:07:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-07T09:58:16+08:00"
+    },
+    {
+      "articleId": "4b105f5ea24db16f335d125b3b0f38af09af574297375e3746b9fa93d61243d6",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "An investment club portfolio update highlights considerations to reduce exposure to AI industrials amid cooling sentiment on data center trades, while noting potential catalysts like an upcoming IPO and cheap valuations for specific banking and industrial holdings.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Industrials",
+        "Financials"
+      ],
+      "investorImpact": "Investors may need to reevaluate their exposure to AI industrials and data center-related themes given shifting market sentiment, while specific value opportunities remain in the broader equity portfolio.",
+      "reasoning": "The article provides tactical portfolio commentary on major stock holdings, touching on broader market sentiment trends toward AI infrastructure and financial sector valuations, making it useful for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Here's a rapid-fire update on all 31 of our stocks, including 2 to buy now",
+      "publishedAtSgt": "2026-11-07T04:36:03+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/06/heres-a-rapid-fire-update-on-our-31-stocks-including-2-to-buy-now.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-07T09:58:16+08:00"
+    },
     {
       "articleId": "67b31ec58dc11e48db271d18decd7fe0d7e08bc98a0799a13660c426b39a4ff0",
       "relevant": true,
@@ -672,6 +794,36 @@
       "collectedAtSgt": "2026-11-06T10:30:35+08:00"
     },
     {
+      "articleId": "ebafab5a6c0178925fb45e422acae4a2dc468c43fde7ad075391bfd042ea72ed",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Neocloud company IREN reported that over $4 billion in annualized recurring revenue projected for 2026 is being delayed to at least January due to a customer request, following a significant drop in its stock price and amid broader unwinding in the AI trade.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence",
+        "Cloud Computing"
+      ],
+      "investorImpact": "The delay of substantial expected revenue for an AI-adjacent infrastructure provider highlights growing risks and volatility in the broader artificial intelligence trade, impacting investor sentiment toward high-growth tech equities.",
+      "reasoning": "The article is classified as MARKET due to its direct impact on equity valuations and sector sentiment surrounding the AI trade. It is of high importance because it deals with multi-billion dollar revenue delays and market volatility affecting tech stocks.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+      "publishedAtSgt": "2026-11-06T07:25:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-06T10:30:35+08:00"
+    },
+    {
       "articleId": "d4135d3601d966ccc5645175595c7813a9545b31151f063ca3306b33427c249f",
       "relevant": true,
       "category": "TECHNOLOGY",
@@ -729,6 +881,34 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-11-06T04:41:40+08:00"
+    },
+    {
+      "articleId": "255b901a35f1f79b414c1494cd30b99b8357c04d0acf6987adf47bd7456dbc09",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Tech stocks experienced a major rout, with the Dow Jones Industrial Average dropping over 1,600 points amid concerns that the AI trade may be fundamentally breaking down following Democratic successes in the midterm elections and potential threats to slow data center buildouts.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors face heightened volatility and potential sector-wide repricing as regulatory or political headwinds threaten the artificial intelligence infrastructure buildout that has supported broader market earnings growth.",
+      "reasoning": "The article addresses a severe market-wide sell-off impacting equities broadly, driven by political developments and concerns over the AI trade. This carries high relevance and importance for fund monitoring and market risk assessment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CNBC's experts on whether the AI trade is ending and what investors should do next",
+      "publishedAtSgt": "2026-11-06T03:19:31+08:00",
+      "url": "https://www.cnbc.com/2026/11/05/cnbcs-experts-on-whether-the-ai-trade-is-ending-and-what-investors-should-do-next.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
     },
     {
       "articleId": "cdd217684c8786287a2bdb15aded5d2a5f3bd6b988e0466a7d3b0ae6273e7d24",
