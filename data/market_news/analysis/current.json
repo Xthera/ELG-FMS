@@ -1,10 +1,72 @@
 {
-  "generatedAtSgt": "2026-11-08T15:41:41.645994+08:00",
+  "generatedAtSgt": "2026-11-09T00:57:55.133784+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 264,
+  "articleCount": 266,
   "analyses": [
+    {
+      "articleId": "2feb6918da3357279207902c4e751b920207aa3ad16fd3dfd69668e772df148f",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Democrats are planning to target and end President Trump's tariff regime, specifically focusing on the trade war against Canada as their first priority, and seeking to ensure Congress regains final authority over tariffs.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Currencies"
+      ],
+      "geographies": [
+        "United States",
+        "Canada"
+      ],
+      "sectors": [
+        "International Trade",
+        "Manufacturing",
+        "Cross-Border Commerce"
+      ],
+      "investorImpact": "Potential rollbacks of tariffs could reduce input costs for manufacturers and ease cross-border trade friction between the US and Canada, positively impacting companies exposed to international trade.",
+      "reasoning": "The article discusses legislative efforts by Democrats to dismantle trade tariffs and limit executive trade powers, which carries significant macroeconomic and geopolitical implications for cross-border trade and industrial sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "How Democrats will try to end Trump's tariffs",
+      "publishedAtSgt": "2026-11-08T23:36:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-09T00:42:21+08:00"
+    },
+    {
+      "articleId": "9f06056e01a7c3ac8f6891017f0c7734699ee5b0ec30548d017ef7cca93746ab",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Following Democrats' midterm election wins and voter resistance to data center buildouts, the artificial intelligence trade faces uncertainty and market volatility. Wall Street analysts recommend three dividend-paying stocks to help investors secure consistent income amidst macro and political turbulence.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "Investors facing heightened market volatility and uncertainties regarding the AI trade can look to dividend-paying stocks as a strategy for generating steady income.",
+      "reasoning": "The article discusses portfolio strategy shifts in response to political shifts affecting the AI trade and market volatility, making it relevant for market and investment monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Top Wall Street analysts like these 3 dividend stocks for consistent income",
+      "publishedAtSgt": "2026-11-08T19:47:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/08/top-analysts-like-these-3-dividend-stocks-for-consistent-income.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-09T00:42:21+08:00"
+    },
     {
       "articleId": "33e825706b6a17ec89a148f6f9b0f4a061eaaecaf2648b68813e445ca86c8253",
       "relevant": true,
