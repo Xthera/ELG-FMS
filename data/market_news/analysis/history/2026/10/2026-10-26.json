@@ -1,0 +1,406 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 13,
+  "analyses": [
+    {
+      "articleId": "fc564d579f8668aa703b76c6898a2cd884251be5206440bf163d4ac59056cf1b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "An S&P 500 index excluding AI-related stocks is running neck-and-neck with the traditional index as investors rotate capital into broader market sectors, reflecting a slowdown in momentum for the artificial intelligence trade.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Broad Market"
+      ],
+      "investorImpact": "Investors should note the ongoing rotation away from concentrated AI plays toward the broader market, presenting opportunities for diversification outside of tech enablers.",
+      "reasoning": "The article highlights significant market rotation trends away from AI-heavy portfolios to the broader S&P 500, which is crucial for asset allocation and risk management strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Investors are doing just as well this year by shunning AI. How to invest if the tech trade keeps fizzling",
+      "publishedAtSgt": "2026-10-26T23:39:55+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/sp-500-ex-ai-index-tech-selloff.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T05:02:56+08:00"
+    },
+    {
+      "articleId": "96865b3288d9003bb2f8538ace15a674e3d289066b30981439dd7739179639f0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Brazilian stocks plunged and trading was halted by an automatic circuit breaker following Lula's presidential election victory and reports of Bolsonaro refusing to concede, with analysts highlighting vulnerabilities around Brazil's budget deficit and debt-to-GDP ratio.",
+      "assetClasses": [
+        "Equities",
+        "Bonds"
+      ],
+      "geographies": [
+        "Brazil"
+      ],
+      "sectors": [
+        "Broad Market"
+      ],
+      "investorImpact": "Investors with exposure to Brazilian assets face immediate volatility and downside risk due to political uncertainty and concerns over fiscal deficits and high debt levels.",
+      "reasoning": "Classified as MARKET due to the immediate plunge in Brazilian equities, circuit breaker activation, and direct commentary on fiscal vulnerabilities. Important due to high market impact and political risk.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Brazilian stocks rocked as Lula wins presidential election, Bolsonaro reportedly refuses to concede",
+      "publishedAtSgt": "2026-10-26T22:09:38+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
+      "articleId": "f69c8a2ea1e8aacc06d2a95db4bdcc57540d9f6afb41bc74db3d2ef8a8594254",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Meta announced a plan to raise $95 billion through a mix of operating cash flow, investment-grade debt, partnerships, and equity capital to fund its aggressive artificial intelligence infrastructure expansion and superintelligence initiatives.",
+      "assetClasses": [
+        "Equities",
+        "Debt"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors face potential equity dilution and debt issuance from a major tech giant seeking massive capital for the AI arms race, signaling intense capital expenditure trends across the sector.",
+      "reasoning": "Categorized as TECHNOLOGY due to its direct focus on Meta's AI infrastructure funding. The sentiment is MIXED because aggressive AI investment promises future growth but requires massive capital raises, including equity offerings. Importance is HIGH given the sheer scale of the $95 billion capital raise by a mega-cap tech company.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta announces $95 billion stock offering to fund AI expansion",
+      "publishedAtSgt": "2026-10-26T22:05:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-10-26T22:20:03+08:00"
+    },
+    {
+      "articleId": "78333aba42d03b2ffbc2a3932fb592e415f3ad0cce1e7f7ed00ebf184a80d41d",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Mortgage rates remaining above 7% are characterized as the new normal due to persistently elevated inflation running above the Federal Reserve's 2% target, which forces investors to demand higher long-term bond yields.",
+      "assetClasses": [
+        "Fixed Income",
+        "Real Estate"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Financials"
+      ],
+      "investorImpact": "Sustained high mortgage rates and bond yields impact real estate affordability, borrowing costs, and fixed-income pricing strategies.",
+      "reasoning": "The article discusses macroeconomic inflation trends and bond yields that dictate mortgage rates, making it useful for economic monitoring of fixed income and real estate.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Mortgage rates above 7% are the 'new normal'—here's why",
+      "publishedAtSgt": "2026-10-26T22:00:01+08:00",
+      "url": "https://www.cnbc.com/make-it/2026/10/26/mortgage-rates-above-7percent-are-the-new-normalheres-why.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
+      "articleId": "e5ca5a5c70a8a1b17d105b709020c24088fbb0c037535dde22fad1eba97d775d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Neocloud stocks experienced a decline following comments from Elon Musk warning that over 200 companies in the sector face failure, compounding existing investor concerns over debt-funded expansion and returns on AI infrastructure investments.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Cloud Computing",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors in neocloud and AI infrastructure companies face heightened volatility and downside risk as market sentiment sours regarding the profitability and debt sustainability of these firms.",
+      "reasoning": "The article is classified under MARKET as it directly reports on stock price movements and market sentiment driven by industry commentary regarding the neocloud sector. It is relevant for fund monitoring given potential contagion risks in tech and AI infrastructure portfolios.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'",
+      "publishedAtSgt": "2026-10-26T21:43:14+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
+      "articleId": "3a7255fd82ce421c9c4642c964df159afca50802a4f866f3e3fb5e05dbdc2554",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Investing giant Apollo Global Management is finalizing a deal to acquire nearly a 10% stake in Mubadala Capital, the alternative asset manager subsidiary of Abu Dhabi's sovereign wealth fund, Mubadala Investment Co.",
+      "assetClasses": [
+        "Private Equity",
+        "Alternative Investments"
+      ],
+      "geographies": [
+        "United Arab Emirates",
+        "Abu Dhabi",
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Asset Management"
+      ],
+      "investorImpact": "This strategic acquisition highlights ongoing consolidation and partnership trends within the alternative asset management sector, potentially opening up co-investment and cross-border capital deployment opportunities between global private markets giants and Middle Eastern sovereign wealth.",
+      "reasoning": "The article details a major strategic transaction involving top-tier alternative asset managers, which significantly impacts market dynamics within the private equity and asset management space, making it highly relevant for fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Apollo to buy nearly 10% stake in Abu Dhabi-backed alternative asset manager Mubadala Capital",
+      "publishedAtSgt": "2026-10-26T21:09:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/apollo-mubadala-capital-stake.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
+      "articleId": "631327277cb5226e3c9c1e9bf59172a8b44d703f1be72a3d11b5400fadf992fd",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Amid falling share prices in the AI complex, a fintech startup is developing a spot marketplace for tradable GPU computing power, offering investors a potential hedging tool against declining AI demand.",
+      "assetClasses": [
+        "Equities",
+        "Alternative Investments"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Provides investors and funds with potential new hedging mechanisms against downside risks in artificial intelligence infrastructure and compute demand.",
+      "reasoning": "Classified as MARKET because it addresses hedging strategies and new trading instruments for AI infrastructure demand, which is relevant for portfolio risk management.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cracking AI trade has Wall Street looking for a hedge. An ex-Citadel quant may have the answer",
+      "publishedAtSgt": "2026-10-26T20:08:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/gpu-futures-ai-hedge-hyperbolic.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
+      "articleId": "2b8b94da330af17311dde355a7f7a8fd23af0b263af0df0d7967ed1187ea2c8e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Brazilian stocks suffered a severe sell-off with major firms like Petrobras, Itaú Unibanco, and Ambev plunging significantly. Additionally, IEA Executive Director Fatih Birol stated the organization is ready to support markets and that energy markets are not expected to return to pre-war levels in 2027.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "Brazil",
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Financials",
+        "Consumer Goods"
+      ],
+      "investorImpact": "Significant negative movements in major Brazilian equities present severe volatility risks for emerging market portfolios, while IEA commentary signals persistent energy market pressures affecting commodity and energy sector investments.",
+      "reasoning": "The article reports major market-moving events including a dramatic drop in prominent Brazilian stocks and crucial IEA commentary regarding energy markets, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "A shock in Brazil sends stocks plunging, while neoclouds take another hit",
+      "publishedAtSgt": "2026-10-26T18:39:46+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/brazil-stocks-neoclouds-selloff.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-26T22:20:04+08:00"
+    },
+    {
+      "articleId": "9562eefa366f0f20578617cfda45f022ca2699746bd5f61f92a965705cd9ccb9",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Private equity firms are pouring billions into defense technology amid rising military spending and geopolitical tensions, with growth investments reaching $4 billion in the first nine months of 2026 compared to $500 million in 2024, prompting bubble warnings.",
+      "assetClasses": [
+        "Private Equity",
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Defense",
+        "Technology",
+        "Private Equity"
+      ],
+      "investorImpact": "Investors face significant capital allocation opportunities in defense technology driven by surging private equity interest, but must also account for rising valuation risks and potential bubble dynamics.",
+      "reasoning": "The article details a major market trend involving a surge in private equity investments into defense technology accompanied by bubble warnings, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Defense tech investment boom sparks bubble warning as private equity pours in",
+      "publishedAtSgt": "2026-10-26T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-26T14:19:03+08:00"
+    },
+    {
+      "articleId": "cb667eea29a2b997b6aa63ab3ae207e61fde8cf84623c077d7394828162a7897",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Crude oil prices fell over 2% as traders balanced the risks of attacks on Saudi Arabian energy infrastructure against worries that high prices could erode demand.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Saudi Arabia",
+        "Global"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Investors in the energy sector should monitor oil price volatility and demand destruction risks, which can impact energy stock valuations and broader market inflation expectations.",
+      "reasoning": "The article details a significant 2% drop in oil prices driven by market balancing of geopolitical risks and demand destruction, making it directly relevant for market and commodities monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
+      "publishedAtSgt": "2026-10-26T13:18:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-26T14:19:03+08:00"
+    },
+    {
+      "articleId": "a259c723643d2887630605fdc0247c69fa524602662a3b569d1c4bf9adb186df",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "SoftBank is reportedly planning a $50 billion tech investment in Malaysia, focusing on artificial intelligence, new technologies, and data centers. This aligns with Malaysia's goal to become an AI nation by 2030, following similar major tech investments from companies like Microsoft.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "Malaysia",
+        "Japan"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence",
+        "Data Centers",
+        "Cloud Computing"
+      ],
+      "investorImpact": "The massive capital influx signals strong growth potential for Southeast Asia's technology and data center infrastructure sectors, presenting investment opportunities in regional tech ecosystems.",
+      "reasoning": "Classified as TECHNOLOGY because the core driver is major tech investment in AI and data centers. It is significant due to the sheer size of the planned investment ($50 billion) and its direct impact on Malaysia's tech capabilities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
+      "publishedAtSgt": "2026-10-26T12:56:16+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-26T14:19:04+08:00"
+    },
+    {
+      "articleId": "cfeb9f03fb4bfd22668434ce3a793952056f9c73b321656ecfc1fa32e3188f11",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The article discusses the collapse and challenges facing the artificial intelligence trade, highlighted by a sharp decline in CoreWeave's stock and high-yield debt issues related to data center project funding.",
+      "assetClasses": [
+        "Equities",
+        "High-Yield Debt"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors face heightened risks in the AI and data center sectors as high-yield debt issues and falling valuations threaten the broader equity market's growth driver.",
+      "reasoning": "Classified as MARKET because it addresses equity and debt valuation pressures within a key macroeconomic sector. It is important and fund-monitoring relevant due to systemic risks tied to AI infrastructure financing.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "More pain may be coming for the AI trade. Why I’m not giving up on it",
+      "publishedAtSgt": "2026-10-26T05:13:50+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/25/jim-cramer-ai-trade-nvidia-coreweave.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-26T05:50:39+08:00"
+    },
+    {
+      "articleId": "1cfe53d1ea6392b5e1a4290aec1d17b799eadfa9b1b828566fefb7c3cc554b13",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Audi's CEO defended plans for a $4 billion manufacturing plant in Georgia, aimed at expanding U.S. sales and mitigating significant tariff costs incurred from importing all U.S.-bound vehicles.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "Georgia"
+      ],
+      "sectors": [
+        "Automotive"
+      ],
+      "investorImpact": "The $4 billion investment signals strategic adjustment by Volkswagen-owned Audi to mitigate import tariff pressures through localized U.S. production, which could impact capital expenditure and long-term margins for the automotive sector.",
+      "reasoning": "The article discusses a major corporate capital expenditure and strategic response to trade tariffs by a major global automaker, making it relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
+      "publishedAtSgt": "2026-10-26T00:42:42+08:00",
+      "url": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 100,
+      "collectorRelevanceReason": "financial_market_legal_story",
+      "collectedAtSgt": "2026-10-26T01:04:43+08:00"
+    }
+  ]
+}
