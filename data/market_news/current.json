@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-09T00:42:21+08:00",
+  "generatedAtSgt": "2026-11-09T06:55:32+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,37 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "deb4564b29b81711ddf72b1f2c1db714f3b6c1f2eb161954edba192190cc9294",
+      "source": "CNBC",
+      "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+      "publishedAtSgt": "2026-11-09T05:53:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_geopolitical_economic_description",
+      "summary": "President Donald Trump said he is \"highly unlikely\" to restart open war with Iran, but warned he could still strike the country as Washington tries to reach a deal with Tehran to end the conflict. The now more than eight-month-old war, which stoked inflation and sent oil prices surging, has seen repeated bursts of fighting separated by ceasefires and peace talks for months.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-09T06:55:27+08:00"
+    },
+    {
+      "id": "2651d142100c821cf65cf49ec24e6422d0da9c2d64ac4c6ba865222bd4ef545c",
+      "source": "CNBC",
+      "title": "Here are the 2 big things we're watching in the stock market in the week ahead",
+      "publishedAtSgt": "2026-11-09T01:40:15+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/08/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "There's one question on everybody's mind entering the new trading week: Where are artificial intelligence stocks going next? Even before the election, we've been paying close attention to CoreWeave's bonds and stock as a barometer for souring investor appetite for AI names. \"You either believe [CEO Michael Intrator] and you see the stock go up and you realize that the AI trade is on.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-09T06:55:27+08:00"
+    },
     {
       "id": "2feb6918da3357279207902c4e751b920207aa3ad16fd3dfd69668e772df148f",
       "source": "CNBC",
@@ -1575,38 +1606,6 @@
       "feeds": [
         "latest",
         "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
-    },
-    {
-      "id": "735a29243a96d9ab2bf5e8a8d737b05dfde10c17fd7807486e25bee65d902f7e",
-      "source": "CNBC",
-      "title": "Oil prices climb after U.S. strikes Iran's Qeshm Island",
-      "publishedAtSgt": "2026-11-03T17:58:37+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "and Iranian presidents signaled they are open to a diplomatic solution to the Iran war, which saw oil prices sell off over 7% on Monday. High oil prices have contributed substantially to inflation and high gasoline prices in the U.S., which have become a cause of concern for Trump ahead of the midterm elections. Higher rates generally crimp growth and raise costs for consumers, but help to bring down inflation.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
-    },
-    {
-      "id": "ec5d2d612a0b6884a9da617884ccb1e02975dfd99abe3846598f4be8c58c25a9",
-      "source": "CNBC",
-      "title": "A little-known biotech’s high-stakes cancer bet just paid off and its shares doubled",
-      "publishedAtSgt": "2026-11-03T17:35:47+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/genmab-cancer-drugs-petosemtamab.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Danish biotech Genmab has seen its shares double in three months after a string of major cancer drug trial successes, giving fresh momentum to its push to take greater control of the medicines it develops and sells. Shares in the roughly $35 billion company surged 48% last week, including a 29% jump in a single session after strong results for petosemtamab, its experimental head and neck cancer treatment.",
-      "feeds": [
-        "latest",
         "world"
       ],
       "collectedAtSgt": "2026-11-03T19:59:03+08:00"
