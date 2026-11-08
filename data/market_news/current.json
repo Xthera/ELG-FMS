@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-08T15:26:11+08:00",
+  "generatedAtSgt": "2026-11-09T00:42:21+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,38 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "2feb6918da3357279207902c4e751b920207aa3ad16fd3dfd69668e772df148f",
+      "source": "CNBC",
+      "title": "How Democrats will try to end Trump's tariffs",
+      "publishedAtSgt": "2026-11-08T23:36:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Ending Trump's tariff regime, and especially his trade war against Canada, is something Democrats \"absolutely have to do immediately,\" Sen.-elect Abdul El-Sayed, D-Mich., told MS NOW's \"Morning Joe\" Thursday. \"I'll also continue to work to ensure Congress has the final say on tariffs, so future presidents can't reenact Trump's economically disastrous trade taxes.\" The Wall Street Journal, citing Wyden, reported Thursday that Democrats are eyeing the Canada trade war as the \"first target\" in...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-09T00:42:21+08:00"
+    },
+    {
+      "id": "9f06056e01a7c3ac8f6891017f0c7734699ee5b0ec30548d017ef7cca93746ab",
+      "source": "CNBC",
+      "title": "Top Wall Street analysts like these 3 dividend stocks for consistent income",
+      "publishedAtSgt": "2026-11-08T19:47:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/08/top-analysts-like-these-3-dividend-stocks-for-consistent-income.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Democrats' midterm election win has put the artificial intelligence trade in question, as voters clearly expressed opposition to the rapid buildout of data centers. The stock market could remain volatile amid AI trade concerns, macro uncertainties, and geopolitical tensions. In this scenario, investors can add dividend-paying stocks to their portfolios to earn steady income.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-09T00:42:21+08:00"
+    },
     {
       "id": "33e825706b6a17ec89a148f6f9b0f4a061eaaecaf2648b68813e445ca86c8253",
       "source": "CNBC",
@@ -1573,39 +1605,6 @@
       "relevanceScore": 91,
       "relevanceReason": "strong_market_title",
       "summary": "Danish biotech Genmab has seen its shares double in three months after a string of major cancer drug trial successes, giving fresh momentum to its push to take greater control of the medicines it develops and sells. Shares in the roughly $35 billion company surged 48% last week, including a 29% jump in a single session after strong results for petosemtamab, its experimental head and neck cancer treatment.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
-    },
-    {
-      "id": "a3d99a35fdf3dd2a6847e2d0f36bc5adb43bd846501901e05e0ca841da3c3ec3",
-      "source": "CNBC",
-      "title": "Brookfield plans for a $27 billion AI data center at UK power station",
-      "publishedAtSgt": "2026-11-03T17:30:35+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Brookfield is targeting a massive artificial intelligence data center in the north of England, as Europe scrambles to develop infrastructure to support the rollout of AI amid high energy and land costs. Energy company Drax Group said Tuesday it has signed an agreement with Brookfield and the asset manager's neocloud platform Radiant to jointly develop an AI data center on the Drax Power Station estate in North Yorkshire.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
-    },
-    {
-      "id": "6e0dd0348f2dea185f838b4b9f43a37d8b6bf27855017d4dcd939402a20bcf5a",
-      "source": "CNBC",
-      "title": "Aramco's profit rises as refining margins strengthen amid Iran war",
-      "publishedAtSgt": "2026-11-03T15:24:47+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/saudi-aramcos-third-quarter-middle-east-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The Saudi oil giant posted adjusted net income of $31.2 billion for the quarter, up from $28.6 billion a year earlier. Aramco's downstream business, which processes crude oil into fuels and other products, posted adjusted earnings before interest and taxes of $10.3 billion, up 234% from a year earlier, driven by stronger refining margins.",
       "feeds": [
         "latest",
         "world"
