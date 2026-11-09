@@ -5,6 +5,53 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "4e932f86e76e4fa69d4fb1b7827652a33aad748ef71069374c53d346c5d68fad",
+      "source": "CNBC",
+      "title": "What is Megaspeed? The Nvidia chip buyer in the spotlight after Jensen Huang’s affair",
+      "publishedAtSgt": "2026-11-09T23:57:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The explosion in AI adoption in recent years has fueled its stock and pushed it to a $5 trillion market cap earlier this year. Commerce Department, the Ministry of Investment, Trade and Industry of Malaysia, and Nvidia had found \"no evidence of any violations concerning the illicit transfer of chips or any illegal activities.\" Businesswoman Alice Huang is an \"executive\" at Megaspeed and a \"publicly reported Chinese intelligence asset,\" according to a House Select Committee on China statement on...",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:45+08:00"
+    },
+    {
+      "id": "e7e8d52c2f2a3108eb10b1018c7ff47511ee13e5a98c37a41d89c336d3808857",
+      "source": "CNBC",
+      "title": "We're booking profits in a stock to reduce our data center exposure",
+      "publishedAtSgt": "2026-11-09T21:42:57+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/09/were-booking-profits-in-a-stock-to-reduce-our-data-center-exposure.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Following the trade, Jim Cramer's Charitable Trust will own 175 shares of ETN, decreasing its weighting in the portfolio to 1.6% from 2%. However, we're selling some shares and locking in a sizable 47% gain on stock purchased in December 2023. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:44+08:00"
+    },
+    {
+      "id": "09c1cb9d8a819f50caa96a77b89a2809f63be4761ede7a3e342a7d0b22fc9ef9",
+      "source": "CNBC",
+      "title": "Congress returns with government funding, Pete Hegseth and the debt limit on the agenda",
+      "publishedAtSgt": "2026-11-09T19:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/congress-government-funding-debt-limit-elections.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Congress will need to act quickly to extend government funding, which expires Dec. The most pressing concern lawmakers will face when they return is funding the government. Democrats are unlikely to negotiate a full year of government funding before the new Congress is sworn in, given that they will soon hold commanding majorities in both chambers and can use that to leverage concessions from the White House.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:44+08:00"
+    },
+    {
       "id": "a84453b193e470f3fc44c29dbb4bfa2a39322694d1ce8f2e0928151ce117ccea",
       "source": "CNBC",
       "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
@@ -53,6 +100,6 @@
       "collectedAtSgt": "2026-11-09T06:55:27+08:00"
     }
   ],
-  "articleCount": 3,
-  "updatedAtSgt": "2026-11-09T16:00:40+08:00"
+  "articleCount": 6,
+  "updatedAtSgt": "2026-11-10T04:47:45+08:00"
 }

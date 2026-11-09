@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-10",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "ccf10804cf50343d507ab85faabe6cfa1be5e3eee908318d93127b897f289bba",
+      "source": "CNBC",
+      "title": "Trump administration proposes stricter work-search rules for unemployment benefits",
+      "publishedAtSgt": "2026-11-10T03:59:55+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/trump-unemployment-work-search-rule.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The Labor Department proposed a rule on Monday that would raise the bar for people applying for unemployment insurance by requiring them to prove they've conducted five work-search activities per week in order to qualify for benefits. Currently, only four states require a minimum of five work searches per week, Michele Evermore, the senior director of economic security and worker transitions at the National Employment Law Project, wrote in an email.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
+    },
+    {
+      "id": "d6a37ca92195c7ac918b5053e9dd0304d9da016cd64fc6421e3bbe8bac885350",
+      "source": "CNBC",
+      "title": "Elizabeth Warren set to take over the Senate banking committee. Here's what she plans to do",
+      "publishedAtSgt": "2026-11-10T03:34:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/elizabeth-warren-senate-banking-agenda.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Elizabeth Warren is set to take over the Senate Banking Committee. Among Warren's top issues for the Congress that convenes in January are addressing the cost of living, tightening export controls on advanced artificial intelligence chips to China and promulgating regulations for prediction markets, according to a Warren banking committee aide. The aide said Warren also intends to put constraints on AI chips going to China, while shaping rules for AI at home.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
+    },
+    {
+      "id": "01a88f9060abad7427b25df207aeedaece3b8b5d4b2f365925ea65e49a0425fa",
+      "source": "CNBC",
+      "title": "This beaten-down data center stock could be worth a look, says Mike Khouw",
+      "publishedAtSgt": "2026-11-10T03:23:57+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/this-beaten-down-data-center-stock-could-be-worth-a-look-says-mike-khouw.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "When you have a stock with solid momentum, fundamentals, and positive estimate revisions, but you're hesitant to pay a premium to its historical valuation, outright unhedged equity accumulation isn't always the optimal route. If the stock continues its upward march, the puts expire worthless, and we pocket a high-probability yield that easily beats fixed income.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:37+08:00"
+    },
+    {
+      "id": "afae919e32ef964c9fff84e22f249383209c7fa943f3725ee39a34775924bf52",
+      "source": "CNBC",
+      "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
+      "publishedAtSgt": "2026-11-10T03:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic on Monday released two new artificial intelligence models, Claude Fable 5.2 and Claude Mythos 5.2, as the company readies for a potentially historic IPO that could take place as soon as next week. The launch marks the first time that Anthropic has released so-called \"frontier\" models since its CEO, Dario Amodei, called to slow down the pace of AI development in September.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
+    },
+    {
+      "id": "3e371d5689b2e6eb60849f011796add56827971ee0f77e13059ae28bc0f24a3f",
+      "source": "CNBC",
+      "title": "A massive trade in Nvidia just went off – here are the details",
+      "publishedAtSgt": "2026-11-10T02:37:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/a-massive-trade-in-nvidia-just-went-off-here-are-the-details.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The biggest options trade on Nvidia stock Monday seems to think the controversy swirling around the chip leader and its embattled CEO is creating a buying opportunity. In a trade about an hour after the opening bell that involved more than $100 million in options premium, someone exchanged an existing call spread for a more bullish position that captures the next five months of trading in Nvidia. In other words, it's a higher conviction trade that the chipmaker's stock will soon rebound.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
+    },
+    {
+      "id": "b5983b83584524abc9dd9dcbdf90dc05be028b83d0372646fa84d20cea930f11",
+      "source": "CNBC",
+      "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
+      "publishedAtSgt": "2026-11-10T02:14:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Goldman Sachs CEO David Solomon told CNBC on Monday that financing demand for artificial intelligence infrastructure remains strong despite recent market jitters as investors reassess the risks involving the massive build-out. \"There's still very strong demand for investments in the AI infrastructure build and the technology around the growth of AI,\" Solomon told CNBC's Leslie Picker.",
+      "feeds": [
+        "latest",
+        "business",
+        "finance",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:39+08:00"
+    },
+    {
+      "id": "b6bac63eb6d119773d474a56e1bf596799ac9684380f5283b0d6d68037e4b1b2",
+      "source": "CNBC",
+      "title": "Jim Cramer says this is the stock to buy as data center development slows",
+      "publishedAtSgt": "2026-11-10T01:22:48+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/09/cramer-says-this-is-the-stock-to-buy-as-data-center-development-slows.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "A divide in the artificial intelligence trade has become increasingly apparent since last week's midterm elections , as growing opposition to new projects raises concerns about future infrastructure spending. Meanwhile, semiconductor and neocloud stocks have suffered steep losses, with Micron tumbling 14.1%, Sandisk plunging 21.2% and CoreWeave falling 8.9%, when including Monday's intraday bounce-back rallies.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:40+08:00"
+    }
+  ],
+  "articleCount": 7,
+  "updatedAtSgt": "2026-11-10T04:47:40+08:00"
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-09T16:00:40+08:00",
+  "generatedAtSgt": "2026-11-10T04:47:45+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,165 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "ccf10804cf50343d507ab85faabe6cfa1be5e3eee908318d93127b897f289bba",
+      "source": "CNBC",
+      "title": "Trump administration proposes stricter work-search rules for unemployment benefits",
+      "publishedAtSgt": "2026-11-10T03:59:55+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/trump-unemployment-work-search-rule.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The Labor Department proposed a rule on Monday that would raise the bar for people applying for unemployment insurance by requiring them to prove they've conducted five work-search activities per week in order to qualify for benefits. Currently, only four states require a minimum of five work searches per week, Michele Evermore, the senior director of economic security and worker transitions at the National Employment Law Project, wrote in an email.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
+    },
+    {
+      "id": "d6a37ca92195c7ac918b5053e9dd0304d9da016cd64fc6421e3bbe8bac885350",
+      "source": "CNBC",
+      "title": "Elizabeth Warren set to take over the Senate banking committee. Here's what she plans to do",
+      "publishedAtSgt": "2026-11-10T03:34:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/elizabeth-warren-senate-banking-agenda.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Elizabeth Warren is set to take over the Senate Banking Committee. Among Warren's top issues for the Congress that convenes in January are addressing the cost of living, tightening export controls on advanced artificial intelligence chips to China and promulgating regulations for prediction markets, according to a Warren banking committee aide. The aide said Warren also intends to put constraints on AI chips going to China, while shaping rules for AI at home.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
+    },
+    {
+      "id": "01a88f9060abad7427b25df207aeedaece3b8b5d4b2f365925ea65e49a0425fa",
+      "source": "CNBC",
+      "title": "This beaten-down data center stock could be worth a look, says Mike Khouw",
+      "publishedAtSgt": "2026-11-10T03:23:57+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/this-beaten-down-data-center-stock-could-be-worth-a-look-says-mike-khouw.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "When you have a stock with solid momentum, fundamentals, and positive estimate revisions, but you're hesitant to pay a premium to its historical valuation, outright unhedged equity accumulation isn't always the optimal route. If the stock continues its upward march, the puts expire worthless, and we pocket a high-probability yield that easily beats fixed income.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:37+08:00"
+    },
+    {
+      "id": "afae919e32ef964c9fff84e22f249383209c7fa943f3725ee39a34775924bf52",
+      "source": "CNBC",
+      "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
+      "publishedAtSgt": "2026-11-10T03:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic on Monday released two new artificial intelligence models, Claude Fable 5.2 and Claude Mythos 5.2, as the company readies for a potentially historic IPO that could take place as soon as next week. The launch marks the first time that Anthropic has released so-called \"frontier\" models since its CEO, Dario Amodei, called to slow down the pace of AI development in September.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
+    },
+    {
+      "id": "3e371d5689b2e6eb60849f011796add56827971ee0f77e13059ae28bc0f24a3f",
+      "source": "CNBC",
+      "title": "A massive trade in Nvidia just went off – here are the details",
+      "publishedAtSgt": "2026-11-10T02:37:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/a-massive-trade-in-nvidia-just-went-off-here-are-the-details.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The biggest options trade on Nvidia stock Monday seems to think the controversy swirling around the chip leader and its embattled CEO is creating a buying opportunity. In a trade about an hour after the opening bell that involved more than $100 million in options premium, someone exchanged an existing call spread for a more bullish position that captures the next five months of trading in Nvidia. In other words, it's a higher conviction trade that the chipmaker's stock will soon rebound.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
+    },
+    {
+      "id": "b5983b83584524abc9dd9dcbdf90dc05be028b83d0372646fa84d20cea930f11",
+      "source": "CNBC",
+      "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
+      "publishedAtSgt": "2026-11-10T02:14:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Goldman Sachs CEO David Solomon told CNBC on Monday that financing demand for artificial intelligence infrastructure remains strong despite recent market jitters as investors reassess the risks involving the massive build-out. \"There's still very strong demand for investments in the AI infrastructure build and the technology around the growth of AI,\" Solomon told CNBC's Leslie Picker.",
+      "feeds": [
+        "latest",
+        "business",
+        "finance",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:39+08:00"
+    },
+    {
+      "id": "b6bac63eb6d119773d474a56e1bf596799ac9684380f5283b0d6d68037e4b1b2",
+      "source": "CNBC",
+      "title": "Jim Cramer says this is the stock to buy as data center development slows",
+      "publishedAtSgt": "2026-11-10T01:22:48+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/09/cramer-says-this-is-the-stock-to-buy-as-data-center-development-slows.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "A divide in the artificial intelligence trade has become increasingly apparent since last week's midterm elections , as growing opposition to new projects raises concerns about future infrastructure spending. Meanwhile, semiconductor and neocloud stocks have suffered steep losses, with Micron tumbling 14.1%, Sandisk plunging 21.2% and CoreWeave falling 8.9%, when including Monday's intraday bounce-back rallies.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:40+08:00"
+    },
+    {
+      "id": "4e932f86e76e4fa69d4fb1b7827652a33aad748ef71069374c53d346c5d68fad",
+      "source": "CNBC",
+      "title": "What is Megaspeed? The Nvidia chip buyer in the spotlight after Jensen Huang’s affair",
+      "publishedAtSgt": "2026-11-09T23:57:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The explosion in AI adoption in recent years has fueled its stock and pushed it to a $5 trillion market cap earlier this year. Commerce Department, the Ministry of Investment, Trade and Industry of Malaysia, and Nvidia had found \"no evidence of any violations concerning the illicit transfer of chips or any illegal activities.\" Businesswoman Alice Huang is an \"executive\" at Megaspeed and a \"publicly reported Chinese intelligence asset,\" according to a House Select Committee on China statement on...",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:45+08:00"
+    },
+    {
+      "id": "e7e8d52c2f2a3108eb10b1018c7ff47511ee13e5a98c37a41d89c336d3808857",
+      "source": "CNBC",
+      "title": "We're booking profits in a stock to reduce our data center exposure",
+      "publishedAtSgt": "2026-11-09T21:42:57+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/09/were-booking-profits-in-a-stock-to-reduce-our-data-center-exposure.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Following the trade, Jim Cramer's Charitable Trust will own 175 shares of ETN, decreasing its weighting in the portfolio to 1.6% from 2%. However, we're selling some shares and locking in a sizable 47% gain on stock purchased in December 2023. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:44+08:00"
+    },
+    {
+      "id": "09c1cb9d8a819f50caa96a77b89a2809f63be4761ede7a3e342a7d0b22fc9ef9",
+      "source": "CNBC",
+      "title": "Congress returns with government funding, Pete Hegseth and the debt limit on the agenda",
+      "publishedAtSgt": "2026-11-09T19:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/congress-government-funding-debt-limit-elections.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Congress will need to act quickly to extend government funding, which expires Dec. The most pressing concern lawmakers will face when they return is funding the government. Democrats are unlikely to negotiate a full year of government funding before the new Congress is sworn in, given that they will soon hold commanding majorities in both chambers and can use that to leverage concessions from the White House.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T04:47:44+08:00"
+    },
     {
       "id": "a84453b193e470f3fc44c29dbb4bfa2a39322694d1ce8f2e0928151ce117ccea",
       "source": "CNBC",
@@ -1449,166 +1608,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-04T04:09:26+08:00"
-    },
-    {
-      "id": "4bd38fff42b315e9ff9fdbbfd95f23f47c7570bf94096dc8c76002db8c8d4f23",
-      "source": "CNBC",
-      "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
-      "publishedAtSgt": "2026-11-04T02:52:06+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Ferrari said Tuesday that the guidance improvements were a result of stronger-than-expected customer personalizations, lower than anticipated currency headwinds and a second place finish in the Formula 1 championship. However, he said shares may be \"under slight pressure given some were hoping for a bigger guidance raise, but expect it to get better once folks realize these results are healthy.\" Ferrari's U.S.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:28+08:00"
-    },
-    {
-      "id": "fbfd6362eaf69d8ded0f2c40900596de3447233d0a7e2d3f32201a54716baebb",
-      "source": "CNBC",
-      "title": "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
-      "publishedAtSgt": "2026-11-04T02:33:49+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html",
-      "category": "MARKET",
-      "relevanceScore": 95,
-      "relevanceReason": "business_market_event",
-      "summary": "Meta is seeking to raise between $20 billion and $25 billion in a bond sale on Tuesday as the company ramps up its spending on artificial intelligence infrastructure along with AI models and services. Final pricing for the bond sale should come Tuesday afternoon, the sources said. Meta previously raised $25 billion in an April bond sale, and said last week that it plans to raise $95 billion in an effort to fund its AI initiatives.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:26+08:00"
-    },
-    {
-      "id": "516ce8effc445d394a50b1f0987e7fc68c458bd1e76ddd2e255ea17557003133",
-      "source": "CNBC",
-      "title": "Shopify falls 7% after Q3 revenue and merchandise volume miss estimates",
-      "publishedAtSgt": "2026-11-04T00:53:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/shopify-q3-2026-earnings-gmv.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of e-commerce platform Shopify fell 7% on Tuesday after the company missed estimates on subscription gross profit and gross merchandise volume. Shopify said it sees revenue growth in the \"low thirties\" range year over year for the fourth quarter, versus LSEG estimates of 32.1%.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:28+08:00"
-    },
-    {
-      "id": "85932471386709edf112ef74288b8a198b25253c6cda6ab40ff4fa69d1947943",
-      "source": "CNBC",
-      "title": "Bill Ackman warns of 'casino' stock market as speculative trading grows",
-      "publishedAtSgt": "2026-11-04T00:23:26+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/bill-ackman-casino-stock-market.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "\"Every number of days, I feel like markets are broken,\" Ackman said on CNBC's \"Squawk Box.\" \"Stocks trade at prices that make no sense to me. \"I don't think that's inherently good for the economy, for society, and it's leading to these massive moves in stocks.\" The founder of Pershing Square Capital Management said those same dislocations in the market have given the hedge fund the opportunity to snag big bargains.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:27+08:00"
-    },
-    {
-      "id": "915c6e84415b3fba595ab49fdb9bb2c9d254933bb3f0960d8c9eaf39760e1906",
-      "source": "CNBC",
-      "title": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
-      "publishedAtSgt": "2026-11-03T23:19:14+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Yum Brands on Tuesday reported earnings that beat expectations, but a cyclospora outbreak linked to iceberg lettuce at Taco Bell weighed on the company's same-store sales growth. However, Yum said Taco Bell, which the company considers a \"growth engine\" for its business, has since rebounded. has been outpacing the [quick-service restaurant] industry on same-store sales growth,\" Yum CEO Chris Turner said in a statement.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:44+08:00"
-    },
-    {
-      "id": "1fb1a7d97702a46c0ad6092726a9ba2bf4fe21b2722844cda22e6338d14141dc",
-      "source": "CNBC",
-      "title": "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
-      "publishedAtSgt": "2026-11-03T22:38:03+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "John Ternus' first earnings report as Apple CEO was going fine until it was time to issue a forecast for the company's gross margin, one of the key metrics followed by investors. \"This includes primarily the impact of higher memory costs, as well as some costs related to the ramp of Siri AI,\" Parekh said. Apple shares slid 3% in morning trading on Tuesday.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:43+08:00"
-    },
-    {
-      "id": "94f6add9df93c831d3cba648296c9245531b04bfcbb4e564c4af9d76d8afa7c0",
-      "source": "CNBC",
-      "title": "Versant earnings beat expectations as digital platforms drive growth",
-      "publishedAtSgt": "2026-11-03T22:17:42+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/versant-vsnt-q3-2026-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Versant Media on Tuesday reported quarterly earnings and revenue that beat expectations and reaffirmed its full-year 2026 guidance, citing strength across its portfolio and growth in its platforms revenue. Versant said Fandango saw \"significant growth\" in ticketing revenue in the third quarter, notching its highest level since the pandemic. The company also launched MS NOW's direct-to-consumer product and Fandango's on-demand product as new growth drivers.",
-      "feeds": [
-        "latest",
-        "business",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:43+08:00"
-    },
-    {
-      "id": "a30b517e2fa9506fe9ad71126c701561f71ce517eadc5e2179c63d48c94adf1c",
-      "source": "CNBC",
-      "title": "Santoli: AI bull market almost surely needs tech stocks to recover to keep advancing",
-      "publishedAtSgt": "2026-11-03T21:01:23+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/santoli-ai-bull-market-needs-tech-stocks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The market action is winning some plaudits for the way non-tech stocks have held up better, many groups benefiting from the \"quality\" rotation while abandoned consumer cyclicals get a reprieve from easing oil prices and the slide in the 10-year Treasury yield back below 5%. AI-stock setbacks also mute inflation momentum and the equity wealth effect, meaning fewer Federal Reserve rate hikes are anticipated now versus a month ago.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:44+08:00"
-    },
-    {
-      "id": "a772c387e961bc1822efc099c6bbb5676b354a8c7d38da03c0403502914c78db",
-      "source": "CNBC",
-      "title": "New national home listing database is taking on Compass in the battle for control of real estate information",
-      "publishedAtSgt": "2026-11-03T21:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/national-home-listing-database-battles-compass-in-real-estate-info-war.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "A version of this article first appeared in the CNBC Property Play newsletter with Diana Olick. Property Play covers new and evolving opportunities for the real estate investor, from individuals to venture capitalists, private equity funds, family offices, institutional investors and large public companies. Pareja said the four founders are going to make the investment into the infrastructure and the technology.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:43+08:00"
-    },
-    {
-      "id": "d1654b2181ec73ded1dc07a0841cc9b1e8d726b1a61126dba3a58b9e9f608579",
-      "source": "CNBC",
-      "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
-      "publishedAtSgt": "2026-11-03T19:54:28+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "As far as certain stocks to watch, a big Democratic win on Tuesday night — especially in the Texas governor race — could add fuel to an AI stock sell-off on the notion that more data center restrictions would gain momentum nationally. A blue wave might pressure defense shares, while boosting health care stocks, analysts and investors said.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
     }
   ]
 }
