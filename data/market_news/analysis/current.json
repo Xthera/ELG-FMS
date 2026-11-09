@@ -1,10 +1,42 @@
 {
-  "generatedAtSgt": "2026-11-09T07:11:03.776758+08:00",
+  "generatedAtSgt": "2026-11-09T16:17:54.873327+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 255,
+  "articleCount": 256,
   "analyses": [
+    {
+      "articleId": "a84453b193e470f3fc44c29dbb4bfa2a39322694d1ce8f2e0928151ce117ccea",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "China's wholesale inflation hit its highest level in over four years driven by strong external demand, while consumer inflation slowed to 0.7% in October following two straight months of increases and core inflation eased to 0.8%.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Manufacturing",
+        "Consumer Goods",
+        "Energy"
+      ],
+      "investorImpact": "Investors should monitor the divergence between rising wholesale inflation and slowing consumer inflation in China, as it highlights uneven domestic versus external demand dynamics that could impact corporate profit margins and macroeconomic policy.",
+      "reasoning": "The article reports key macroeconomic data from China showing a multi-year high in wholesale inflation alongside slowing consumer inflation, making it highly relevant for economic monitoring and investment strategy.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+      "publishedAtSgt": "2026-11-09T10:50:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-09T16:00:40+08:00"
+    },
     {
       "articleId": "deb4564b29b81711ddf72b1f2c1db714f3b6c1f2eb161954edba192190cc9294",
       "relevant": true,
