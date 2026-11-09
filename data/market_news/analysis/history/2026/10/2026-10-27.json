@@ -1,0 +1,734 @@
+{
+  "date": "2026-10-27",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 24,
+  "analyses": [
+    {
+      "articleId": "f785087f2206f4bf6930a9cd84a2a26f13297e9f947807ffbd47bea73458229d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Anthropic's IPO prospectus reveals substantial corporate risk factors related to the artificial intelligence sector, prompting potential investors to re-evaluate the risks of the AI trade.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors should exercise caution regarding AI-related equities as the detailed prospectus highlights significant operational and market risks inherent to artificial intelligence labs.",
+      "reasoning": "Classified as MARKET due to its focus on an IPO and associated risk factors. Sentiment is negative because the article emphasizes corporate risk factors, and importance is high given the prominence of Anthropic and the AI sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic's IPO is risky business",
+      "publishedAtSgt": "2026-10-27T23:51:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T23:54:38+08:00"
+    },
+    {
+      "articleId": "e97769a1a57aff3da3378c5c0d17b8fb1e5540e3de6688f24b101619ac1d4113",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "A CNBC survey indicates that while Federal Reserve rate hikes are anticipated in the future, they are not expected during the current week's meeting, despite concerns from some macro experts regarding warm-to-hot inflation indicators and strong nominal GDP growth.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Expectations around Federal Reserve interest rate decisions directly influence borrowing costs, valuation models across asset classes, and overall market volatility. Investors must monitor shifting expectations for future rate hikes, which could impact equities and fixed income portfolios.",
+      "reasoning": "Classified as ECONOMIC because it discusses macroeconomic policy expectations, inflation indicators, and Federal Reserve rate decisions. It is important for fund monitoring as monetary policy shifts impact all major asset classes.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Fed rate hikes are coming, but not this week: CNBC survey",
+      "publishedAtSgt": "2026-10-27T23:51:00+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "articleId": "b47cf425c1d531d36a03293170672d480d4900f351d8c2afa68d04b09ba0bc79",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Honda and other major auto industry representatives warn that a proposed 50% tariff on Canadian autos if a new North American trade deal is not reached by the end of the year would be catastrophic for the industry given deeply integrated cross-border supply chains.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Canada",
+        "United States"
+      ],
+      "sectors": [
+        "Automotive",
+        "Consumer Discretionary"
+      ],
+      "investorImpact": "Investors in automotive manufacturers with cross-border supply chains between the US and Canada face significant regulatory and cost risks, potentially impacting profit margins and equity valuations if tariffs are implemented.",
+      "reasoning": "The article discusses high-stakes trade policy and tariff threats affecting major multinational automakers, making it a critical geopolitical development with direct economic and financial market repercussions for the automotive sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Honda warns 50% Canada auto tariffs would be catastrophic for auto industry",
+      "publishedAtSgt": "2026-10-27T23:48:32+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-27T23:54:38+08:00"
+    },
+    {
+      "articleId": "5ad28f472a5a0a5112c8805fa247cb04e1be12d16f16869283dbdfbc193f4375",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "World Bank President Ajay Banga stated that capital availability is not an issue despite AI demand driving up borrowing costs. However, investors have concerns regarding circular financing and AI-related business models.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors should note that while capital remains accessible, the surge in AI infrastructure demand is exerting upward pressure on borrowing costs and raising valuation and business model concerns.",
+      "reasoning": "The article addresses macroeconomic trends regarding capital availability, borrowing costs, and AI financing risks, making it relevant for economic and market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "World Bank's Banga: Availability of capital 'not really an issue' as AI demand drives up borrowing costs",
+      "publishedAtSgt": "2026-10-27T23:48:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/world-bank-president-ajay-banga.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "articleId": "4c1f59e8056bd637f16167e797c32e26fed75e84bcf7cec46fa47a88ccbdca1d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "JetBlue Airways reported a larger third-quarter loss, but its stock surged approximately 20% after an upbeat profitability forecast helped calm investor concerns following a recent market rout.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Airlines",
+        "Transportation"
+      ],
+      "investorImpact": "The positive forecast and subsequent stock surge provide relief for equity investors holding shares in JetBlue or related airline sectors, mitigating immediate panic over financial viability.",
+      "reasoning": "Classified as MARKET due to the significant stock price movement and earnings/forecast reactions. Sentiment is POSITIVE because of the strong investor relief and stock rally driven by the upbeat outlook.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "JetBlue stock surges 20% as company outlook calms investors",
+      "publishedAtSgt": "2026-10-27T23:46:31+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "articleId": "24f8687b29abfcad67f2ecc81fa31d3e8848fab2225143c7c6635a7623ae5f27",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "UPS beat quarterly earnings expectations and raised its full-year guidance again, driven by strong growth in its supply chain solutions business, forwarding, logistics, and healthcare, alongside improved operating leverage.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Industrials",
+        "Transportation",
+        "Logistics"
+      ],
+      "investorImpact": "The positive earnings beat and raised full-year guidance signal strong operational execution and demand within the logistics sector, supporting investor confidence in UPS and broader transportation equities.",
+      "reasoning": "Classified as MARKET due to corporate earnings and guidance updates. It is relevant for fund monitoring as it provides direct insight into the performance and outlook of a major global logistics bellwether.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "UPS beats quarterly expectations, raises full-year guidance again",
+      "publishedAtSgt": "2026-10-27T23:29:49+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/ups-ups-q3-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "articleId": "a9d3be836b0ed14ccf6b5ce03c31872a77b448940a91300b84c7f330abe898aa",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Coca-Cola raised its full-year earnings outlook and expects organic revenue growth of at least 5%, despite noting lackluster demand and consumer pressure in North America due to inflation and economic uncertainty. Company shares fell less than 1% following the update.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "North America",
+        "Global"
+      ],
+      "sectors": [
+        "Consumer Staples",
+        "Food and Beverage"
+      ],
+      "investorImpact": "Investors should monitor consumer staples for broader signs of stretched consumer spending and inflation pressures in North America, balanced against strong global corporate earnings performance.",
+      "reasoning": "The article details corporate earnings revisions and consumer demand trends from a major global company, providing direct insight into market health, consumer sentiment, and sector performance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Coca-Cola hikes earnings outlook, even as it sees lackluster demand in North America",
+      "publishedAtSgt": "2026-10-27T23:04:36+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T23:54:38+08:00"
+    },
+    {
+      "articleId": "5069345e7c5b793808ce164725c26cd47780d683082110aa4ce1c14779e961ca",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "LOW",
+      "summary": "Jim Cramer outlines top things to watch in the stock market for Tuesday, noting positive momentum in the artificial intelligence trade, slightly lower oil prices and 10-year Treasury yields, while warning that a flood of new stock supply remains a market risk.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy"
+      ],
+      "investorImpact": "Provides general commentary on market drivers like AI momentum, Treasury yields, and oil prices, but offers limited actionable data for institutional portfolio decisions.",
+      "reasoning": "Classified as MARKET and MIXED sentiment because it balances bullish momentum in AI and lower yields against the risk of new stock supply. Assigned LOW importance as it is a general commentary piece rather than a primary market-moving data release.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "publishedAtSgt": "2026-10-27T20:51:16+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/27/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "articleId": "762bdacfb39a75dc468f78cde06c1f2da48e7afabda5ba28642d28eb12358917",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Cyclical market sectors have experienced double-digit setbacks due to higher bond yields and elevated oil prices, while equity investors favor quality and defense. Meanwhile, the AI trade is approaching a critical juncture as debt markets impose stricter capital rationing and higher hurdle rates for marginal AI-data-center borrowers.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Consumer Discretionary",
+        "Industrials",
+        "Financials"
+      ],
+      "investorImpact": "Investors must monitor tightening credit conditions and higher hurdle rates for AI infrastructure projects, alongside sector rotations favoring defensive and high-quality assets amid rising bond yields and oil prices.",
+      "reasoning": "The article discusses broad market movements, sector rotations, and debt market dynamics impacting technology and cyclical equities. It is classified under MARKET sentiment as negative due to growth constraints and capital rationing.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Santoli: We are nearing a now-or-never moment for the AI trade to rebound",
+      "publishedAtSgt": "2026-10-27T20:33:52+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/santoli-now-or-never-for-ai-trade.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "articleId": "2ea69f6d682fbd7b15206c686bfa31e4c55c7f6da248cb1e83e19b75ab120db3",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Porsche reported a rebound in operating profit for the first nine months of the year, driven by reduced exposure to the challenging Chinese market, even as revenue and vehicle deliveries declined. Porsche shares rose 2.3% following the announcement.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Germany",
+        "China"
+      ],
+      "sectors": [
+        "Automotive",
+        "Luxury Goods"
+      ],
+      "investorImpact": "Investors can view Porsche's strategic reduction of exposure to China as a successful risk-mitigation measure that protects profitability amidst localized downturns, supporting positive near-term stock performance.",
+      "reasoning": "The article is classified as MARKET because it details Porsche's profit rebound and share price reaction following strategic geographic rebalancing away from China. It is relevant for fund monitoring due to its insights into luxury automotive sector dynamics and risk management in emerging markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Porsche profit rebounds as luxury carmaker reduces exposure to China",
+      "publishedAtSgt": "2026-10-27T18:08:51+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/porsche-china-profit-recovery.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T23:54:39+08:00"
+    },
+    {
+      "articleId": "446b40c33563fe9040f845841f1aeca47e7e29207e67932f48d60f83b2934515",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Oil prices saw-sawed as renewed diplomatic efforts to end the U.S.-Iran war and regional conflicts countered fears of supply disruptions from Houthi attacks on Saudi Arabia, initially driving losses before prices inched slightly higher.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "USA",
+        "Iran",
+        "Saudi Arabia"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "Volatile oil prices impact energy sector equities, commodity portfolios, and broader inflation expectations, requiring investors in energy and cyclical assets to monitor geopolitical headlines closely.",
+      "reasoning": "Classified as MARKET due to direct reporting on oil price movements driven by geopolitical events affecting global energy supplies, highly relevant for portfolio risk management.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Oil prices seesaw amid renewed diplomatic efforts to end Mideast conflict",
+      "publishedAtSgt": "2026-10-27T17:09:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "articleId": "5305b77b80a87d75ec0b35f16e4535570d4d93bc424c113938b5390d50af9fe1",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia is investing $3 billion in Meta following Meta's announcement to raise $95 billion for AI infrastructure. The partnership includes expanding Vera Rubin and Vera CPU deployment and collaborating further on Meta's Muse AI agent.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence",
+        "Semiconductors"
+      ],
+      "investorImpact": "The significant investment and deepening partnership between two major technology giants highlight robust capital expenditure and demand trends within the artificial intelligence infrastructure and semiconductor sectors, offering positive sentiment for tech-heavy equities.",
+      "reasoning": "The article is classified as MARKET because it details a major capital investment and strategic partnership between two multi-billion-dollar tech leaders, significantly impacting market sentiment and sector performance. It is relevant for fund monitoring due to its implications for technology sector holdings.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia to invest $3 billion in Meta as tech giants deepen AI partnership",
+      "publishedAtSgt": "2026-10-27T17:07:41+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "articleId": "0455a862c3cf72242e2f3790095696260d4fffcfa63f5e623128dfb32ec87b18",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "HSBC shares dropped in Hong Kong following a revenue miss for the third quarter, despite the lender announcing a share buyback of up to $1 billion and approving a third interim dividend of 10 cents per share. The bank reported an increase in net interest income to $9.3 billion and a 12% decrease in operating expenses year-on-year.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Hong Kong",
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Investors in HSBC face downward share price pressure due to the revenue miss, though offset somewhat by capital return initiatives including the share buyback and dividend announcement.",
+      "reasoning": "The article details quarterly earnings results, revenue miss, and share price reaction for a major global financial institution, making it relevant for market monitoring and sector analysis.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "HSBC shares slump on revenue miss, lender announces share buyback of up to $1 billion",
+      "publishedAtSgt": "2026-10-27T16:28:01+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "articleId": "0a9f9e38ea8f496b156ed88b38e64e33790aa3e1a5d338ef9add29a07b8d056f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "UK bond investors are seeking spending cuts ahead of John Healey's first Budget, but expectations for tax raises, business and investor confidence damage, and targeted household support suggest potential disappointment for the market.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "United Kingdom"
+      ],
+      "sectors": [
+        "Government",
+        "Financials"
+      ],
+      "investorImpact": "UK gilt and equity investors face potential volatility as budget expectations around spending cuts and tax measures may not align with market desires, impacting business and investor confidence.",
+      "reasoning": "Classified as MARKET due to direct focus on UK bond investors and budget expectations impacting market sentiment and asset classes. Significance is HIGH given potential sovereign bond and macroeconomic policy implications.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Opinion: UK bond investors want spending cuts. John Healey’s first Budget may disappoint",
+      "publishedAtSgt": "2026-10-27T15:34:34+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/uk-budget-2026-john-healey-bond-market.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
+    {
+      "articleId": "b5cbd30e6177e358a8ad9c05f33e3fd31f3aeeaced1e2f919872b7cb0400205e",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Mastercard highlights that while stablecoins offer potential for faster and more efficient payments, particularly in remittances and less commonly traded currency pairs, fully realizing this potential requires further development of the underlying infrastructure.",
+      "assetClasses": [
+        "Cryptocurrency",
+        "Digital Assets",
+        "Currencies"
+      ],
+      "geographies": [
+        "Global",
+        "Asia Pacific"
+      ],
+      "sectors": [
+        "Financials",
+        "Fintech",
+        "Payments"
+      ],
+      "investorImpact": "Investors in fintech and digital asset infrastructure should note that traditional financial giants like Mastercard view stablecoin integration as a multi-step process reliant on infrastructure maturation, which may pace the timeline for widespread commercial adoption.",
+      "reasoning": "The article discusses the intersection of traditional payment networks and stablecoins, categorized under TECHNOLOGY due to its focus on payment infrastructure development, with a neutral and balanced assessment of stablecoin potential.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The 'stablecoin sandwich': Why speeding up payments isn't so simple, according to Mastercard",
+      "publishedAtSgt": "2026-10-27T15:16:35+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/mastcard-stablecoin-bvnk-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
+    {
+      "articleId": "e11e65c9cf97f783cc7e9d30ec1a573c83f2c772eb435ad18c5fc8fcdc06290e",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "China's industrial profits posted their strongest growth in three months, driven largely by a surge in high-tech sectors like AI and advanced manufacturing, while consumer-related industries lagged, highlighting a bifurcated economic recovery.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Industrial",
+        "Consumer Discretionary"
+      ],
+      "investorImpact": "Investors should note the divergence between outperforming high-tech manufacturing and lagging consumer-related sectors in China, guiding sector-specific allocations.",
+      "reasoning": "Classified as ECONOMIC because it discusses macroeconomic industrial profits and sector divides in China. The sentiment is MIXED due to strong tech growth contrasting with weak consumer industries. It is relevant for fund monitoring as it provides insights into regional manufacturing trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China industrial profits post strongest growth in three months as tech boom widens economic divide",
+      "publishedAtSgt": "2026-10-27T11:34:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T17:51:10+08:00"
+    },
+    {
+      "articleId": "96377ada943f5ce1af05e9b58671a3d56749bd2f93a2e0fd0dfaa32e5ce58321",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "China and Russia are expanding their grip on Arctic trade routes, offering Moscow a way to redirect energy exports to Asia amidst Western sanctions, while giving Beijing a new trade artery that bypasses traditional maritime chokepoints.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "China",
+        "Russia",
+        "Europe"
+      ],
+      "sectors": [
+        "Energy",
+        "Shipping",
+        "Transportation"
+      ],
+      "investorImpact": "Shifts in Arctic trade and energy transport routes could impact long-term shipping logistics and the flow of Russian energy exports to Asian markets, affecting relevant transportation and energy sectors.",
+      "reasoning": "The article details significant geopolitical shifts in Arctic trade routes and energy redirection involving major global economies, which carries medium importance for supply chain and energy sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
+      "publishedAtSgt": "2026-10-27T09:24:28+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
+    {
+      "articleId": "018808fad7b698e33b4065b97374829591ad11148253d66cf93e7ccba797b2b3",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "A CNBC survey indicates the Bank of Japan is expected to hold interest rates steady this week while maintaining a hawkish stance, amid core inflation rising 2.1% in September driven by a weak yen and higher energy costs.",
+      "assetClasses": [
+        "Currencies",
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Financials",
+        "Energy"
+      ],
+      "investorImpact": "Investors with exposure to Japanese markets should monitor the Bank of Japan's upcoming policy announcement and hawkish messaging, which heavily impacts the yen, import costs, and local bond and equity valuations.",
+      "reasoning": "The article provides crucial central bank policy expectations and inflation metrics for Japan, directly impacting monetary policy direction and currency markets, making it highly relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey",
+      "publishedAtSgt": "2026-10-27T08:17:44+08:00",
+      "url": "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
+    {
+      "articleId": "5efe73b12b7bf0db7d85e95b619187864e94d2e9dd573d40d7a66deed390dc25",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Anthropic's upcoming IPO structure places heavy voting control in the hands of its seven co-founders, limiting the influence of institutional and retail investors as the AI company targets a massive valuation.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors must weigh the high growth potential of a major AI firm against reduced governance rights and limited voting power.",
+      "reasoning": "Classified as MARKET because it covers IPO governance structures and investor rights for a major tech company. It is important for funds investing in primary offerings or tech equities, though neutral in immediate financial impact.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic's IPO puts power in the hands of founders, giving everyday shareholders little voice",
+      "publishedAtSgt": "2026-10-27T08:15:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-founder-voting-control.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 100,
+      "collectorRelevanceReason": "financial_market_legal_story",
+      "collectedAtSgt": "2026-10-27T17:51:09+08:00"
+    },
+    {
+      "articleId": "5dbb383cb99ae3020e483297374869b8af66330971de0ce61668857f7637475e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Anthropic's IPO filing positions the AI company for potentially the largest initial stock offering in history, while broader stock market jitters emerge regarding the sustainability of the AI trade and capital market liquidity.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "The potential massive IPO could reshape liquidity and valuations across the tech sector, while any underperformance or drying up of AI capital market funding could trigger a broader technology stock reset.",
+      "reasoning": "The article is classified as MARKET because it discusses a major upcoming IPO and broader stock market sentiment toward the AI sector. It is important to fund monitoring due to potential sector-wide valuation impacts.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+      "publishedAtSgt": "2026-10-27T06:50:07+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T09:30:17+08:00"
+    },
+    {
+      "articleId": "be7f15c9bafa4cb88b36caddba43450fd1a1f5f238e8e4d11630e65e5c632b7b",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Microsoft is offering voluntary buyouts to approximately 60,000 employees as part of an efficiency push to balance massive capital expenditures on artificial intelligence infrastructure and data centers.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Software"
+      ],
+      "investorImpact": "The move highlights the immense capital expenditure pressures AI investments place on major tech companies, forcing them to pursue operational efficiencies and workforce reductions to protect margins while funding data center expansion.",
+      "reasoning": "Classified as TECHNOLOGY due to Microsoft's restructuring driven by AI infrastructure costs. It is important for monitoring tech sector spending efficiency and workforce trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+      "publishedAtSgt": "2026-10-27T04:44:50+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 52,
+      "collectorRelevanceReason": "supporting_technology_description",
+      "collectedAtSgt": "2026-10-27T05:02:51+08:00"
+    },
+    {
+      "articleId": "71f0fc60f31e41734d705e40f71e678d66dab27f596a48a651e03b94e17872da",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "Meta announced plans to raise up to $95 billion across three steps including common shares, preferred shares, and an at-the-market offering, contributing to an ongoing AI funding frenzy involving companies like SpaceX and Anthropic.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Significant capital raising activities by major tech firms like Meta signal ongoing heavy investment in artificial intelligence, impacting equity valuations and funding dynamics in the tech sector.",
+      "reasoning": "Classified as MARKET due to direct implications of massive corporate fundraising for AI infrastructure and stocks, holding high importance for tech equity investors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta, SpaceX, Anthropic stoke the AI funding frenzy. What it means for our stocks",
+      "publishedAtSgt": "2026-10-27T04:26:26+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/26/meta-spacex-anthropic-stoke-the-ai-funding-frenzy-what-it-means-for-our-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T05:02:53+08:00"
+    },
+    {
+      "articleId": "472bf9aff20498f798dbdf60f2c93e1731430632e9d2efa7020da961ae89b735",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Prediction market traders on Kalshi place 95% odds that artificial intelligence giant Anthropic will officially announce an IPO by the end of 2026, with trading potentially beginning as early as November under the Nasdaq ticker 'ANT'.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The potential upcoming IPO of a major artificial intelligence player like Anthropic provides significant signal value for primary equity markets, technology sector sentiment, and venture capital liquidity.",
+      "reasoning": "Classified as MARKET because it details expectations and timing around a major upcoming initial public offering. It is important due to the high profile of Anthropic in the AI sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Prediction market traders say an Anthropic IPO is near-certain this year after company filed with SEC",
+      "publishedAtSgt": "2026-10-27T04:08:57+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/prediction-markets-think-anthropic-ipo-near-certain-in-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T05:02:52+08:00"
+    },
+    {
+      "articleId": "ebdd53cfa51eba600aacc8c02256626b03c22d11f8e7afeb94d0c3a7a1686aa8",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "The Federal Reserve is widely anticipated to hold interest rates steady at its upcoming October meeting despite complications from higher energy costs, with futures markets pricing in less than a 10% chance of a rate hike.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors can expect continued monetary policy stability in the near term, though persistent energy costs and inflation pressures remain factors to watch for household budgets and broader market volatility.",
+      "reasoning": "The article discusses central bank monetary policy expectations, which directly impact interest rates, market sentiment, and asset valuations, making it critical for macroeconomic fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
+      "publishedAtSgt": "2026-10-27T02:51:23+08:00",
+      "url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-27T05:02:52+08:00"
+    }
+  ]
+}
