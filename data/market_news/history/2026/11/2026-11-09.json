@@ -5,6 +5,23 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "a84453b193e470f3fc44c29dbb4bfa2a39322694d1ce8f2e0928151ce117ccea",
+      "source": "CNBC",
+      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+      "publishedAtSgt": "2026-11-09T10:50:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The increase was driven by very strong external demand, Zhang Zhiwei, president and chief economist at Pinpoint Asset Management, told CNBC's \"Squawk Box Asia.\" Consumer inflation in China slowed to 0.7% in October, its first deceleration after two straight months of increases. Core inflation, which strips out food and energy prices, came in at 0.8%, down from the 1% seen in the month before. The Chinese economy has shown some signs of expansion recently.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-09T16:00:40+08:00"
+    },
+    {
       "id": "deb4564b29b81711ddf72b1f2c1db714f3b6c1f2eb161954edba192190cc9294",
       "source": "CNBC",
       "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
@@ -36,6 +53,6 @@
       "collectedAtSgt": "2026-11-09T06:55:27+08:00"
     }
   ],
-  "articleCount": 2,
-  "updatedAtSgt": "2026-11-09T06:55:27+08:00"
+  "articleCount": 3,
+  "updatedAtSgt": "2026-11-09T16:00:40+08:00"
 }

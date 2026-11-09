@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-09T06:55:32+08:00",
+  "generatedAtSgt": "2026-11-09T16:00:40+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,23 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "a84453b193e470f3fc44c29dbb4bfa2a39322694d1ce8f2e0928151ce117ccea",
+      "source": "CNBC",
+      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+      "publishedAtSgt": "2026-11-09T10:50:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The increase was driven by very strong external demand, Zhang Zhiwei, president and chief economist at Pinpoint Asset Management, told CNBC's \"Squawk Box Asia.\" Consumer inflation in China slowed to 0.7% in October, its first deceleration after two straight months of increases. Core inflation, which strips out food and energy prices, came in at 0.8%, down from the 1% seen in the month before. The Chinese economy has shown some signs of expansion recently.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-09T16:00:40+08:00"
+    },
     {
       "id": "deb4564b29b81711ddf72b1f2c1db714f3b6c1f2eb161954edba192190cc9294",
       "source": "CNBC",
@@ -1589,23 +1606,6 @@
       "summary": "As far as certain stocks to watch, a big Democratic win on Tuesday night — especially in the Texas governor race — could add fuel to an AI stock sell-off on the notion that more data center restrictions would gain momentum nationally. A blue wave might pressure defense shares, while boosting health care stocks, analysts and investors said.",
       "feeds": [
         "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-03T19:59:03+08:00"
-    },
-    {
-      "id": "bc8df80f2c03ff59b60240e69eb5e30acb5aed0856e675cbb693a5878a973ca2",
-      "source": "CNBC",
-      "title": "Apple shares slide after weak margin outlook; Palantir slumps 8% after earnings",
-      "publishedAtSgt": "2026-11-03T18:34:38+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Apple and Palantir shares fell in premarket trading Tuesday after both announced earnings after the bell on Monday. The iPhone maker reported better-than-expected revenue in its fourth-quarter earnings, but fell short of estimates on iPad sales and issued a margin forecast that disappointed investors. Investors will \"no doubt be looking for evidence in subsequent quarters that 11% growth in U.S.",
-      "feeds": [
-        "latest",
-        "technology",
         "world"
       ],
       "collectedAtSgt": "2026-11-03T19:59:03+08:00"
