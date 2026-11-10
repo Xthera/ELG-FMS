@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-10T04:47:45+08:00",
+  "generatedAtSgt": "2026-11-10T12:09:29+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,102 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "a9fd34dced3100e9b74ede94d7574f1d666eb683b5860dcc2761b72dd038fe28",
+      "source": "CNBC",
+      "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
+      "publishedAtSgt": "2026-11-10T11:58:46+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Asian technology stocks surged Tuesday, tracking a rebound on Wall Street overnight as a sharp decline in oil prices lifted sentiment while renewed buying in chip names spilled over into Asia, following last week's bruising sell-off. Japan's technology investment giant SoftBank Group surged 13.4%, while chip-testing equipment maker Advantest gained 2.36%.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "f4f3331be0bbee1c42d7f0fa91919c6231d86e9a8c255966b5f7cf422ec08d3c",
+      "source": "CNBC",
+      "title": "China exports, imports soar past expectations in October — surplus narrows sharply",
+      "publishedAtSgt": "2026-11-10T11:56:15+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "China's exports and imports surged more than expected in October, while its surplus shrank sharply, undershooting expectations even as it crossed $1 trillion for the year so far. Goods exports soared by 35.2% last month from a year earlier, according to the official data released Tuesday, exceeding expectations for a 33.5% jump in a Reuters poll, but slowing from the 36.3% growth in September..",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "3f3aad0bac95b9422d010701accbf6ad7adc49a102cf3c6503448a6e974a9063",
+      "source": "CNBC",
+      "title": "Senate advances Trump-backed bipartisan bill to speed critical infrastructure projects",
+      "publishedAtSgt": "2026-11-10T07:54:06+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/senate-infrastructure-bill-data-centers.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "The bill would also force artificial intelligence companies and data center developers to pay their own way for power and grid enhancements. Democrats, meanwhile, want to speed up the buildout of clean energy projects like solar and wind to lower carbon emissions Lawmakers have circled a deal to streamline the nation's complex web of permitting laws for years, but most prior efforts have sputtered.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "6f139af0648a585951f4d130b0a024411a63ce0b8184014c818d0574504a7846",
+      "source": "CNBC",
+      "title": "Jim Cramer says Anthropic's IPO could make or break the AI trade. Here's why",
+      "publishedAtSgt": "2026-11-10T07:30:15+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic's upcoming initial public offering could be a crucial test of investor confidence in the artificial intelligence trade, CNBC's Jim Cramer said on Monday. \"Without it, I don't see how the AI-related stocks can make a real recovery,\" the \"Mad Money\" host said, exactly two weeks after the Claude developer filed its S-1 IPO paperwork. Despite the recent sell-off in AI stocks, Anthropic is reportedly moving ahead with its IPO plans.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "3c6914c32a90b9634df17f5fd90cd027fd5aa1b74c2edf61828e6046f62c7864",
+      "source": "CNBC",
+      "title": "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
+      "publishedAtSgt": "2026-11-10T07:05:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company on Monday also announced a $1.75 billion increase in a delayed draw term loan from Saudi Arabia's Public Investment Fund, the company's largest shareholder. Lucid stock fell roughly 5% in aftermarket trading Monday. We are acting with urgency, strengthening the fundamentals and driving greater discipline, while continuing to invest in the priorities to deliver profitable long-term growth,\" Napoli said in a release.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "7d21b5f214dbc0d8f788bef326fbb8edc6e3dcb4ad0d58b25b050b29df0aac91",
+      "source": "CNBC",
+      "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+      "publishedAtSgt": "2026-11-10T05:03:55+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Though the Fed in October voted to hold its benchmark interest rate in place, markets are pricing in a better than 80% probability that the central bank will raise rates by a quarter percentage point at its next meeting in December, according to CME FedWatch data. Bank of America said it sees tariff impacts fading but that goods prices could be pushed higher because of AI demand.",
+      "feeds": [
+        "latest",
+        "economy"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
     {
       "id": "ccf10804cf50343d507ab85faabe6cfa1be5e3eee908318d93127b897f289bba",
       "source": "CNBC",
@@ -1512,102 +1608,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-04T10:23:19+08:00"
-    },
-    {
-      "id": "ca53b59c8420835b138247ee51346bd23c0ba852a0389db922d3e7f649d414f0",
-      "source": "CNBC",
-      "title": "AMD has been crushed into earnings. Here’s one way to trade it",
-      "publishedAtSgt": "2026-11-04T04:40:51+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/amd-has-been-crushed-into-earnings-heres-one-way-to-trade-it.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The stock has been caught in the swings of the AI debate all year, but this most recent leg lower was triggered by a wave of disappointing tech earnings. AMD's stock reactions have been mixed in recent quarters, sensitive to guidance and high investor expectations. That may make direction hard to call, but options let investors build a trade that doesn't have to pick a side.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T10:23:18+08:00"
-    },
-    {
-      "id": "8e443346c2494b194bc307f77c148e2cbe0842cee2f2db70643813a6df93935c",
-      "source": "CNBC",
-      "title": "Binance breach puts custody at center of crypto infrastructure trade",
-      "publishedAtSgt": "2026-11-04T04:13:37+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Office of the Comptroller of the Currency granted it approval to operate as a trust bank. Repeated security breaches could encourage investors to move assets toward independent custody while continuing to trade on CEXs,\" the firm's analyst Felix Stratmann said in a note Monday,\" referring to centralized cryptocurrency exchanges.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T10:23:18+08:00"
-    },
-    {
-      "id": "359ea0e6470a503bd38ce344ac592bfcac3d515350d46310faf585fb3bef744d",
-      "source": "CNBC",
-      "title": "Election Day: Here is the No. 1 issue we're watching as a signal for stocks",
-      "publishedAtSgt": "2026-11-04T03:29:41+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/03/election-day-here-is-the-no-1-issue-were-watching-as-a-signal-for-stocks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The rotation back into chip stocks comes after Apple shares fell about 2% after providing a disappointing gross margin outlook due to the rising cost of memory chips, which are made by Micron . The recent trend has been for bond prices to rally in a flight to safety when AI stocks sell off. With chip stocks and other AI names rebounding, we're seeing the reverse, with bond prices falling and yields rising.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:28+08:00"
-    },
-    {
-      "id": "8621bf70cd22e87fa1218e33701f8503680480a0298dd05f39b1a6b5f819f82f",
-      "source": "CNBC",
-      "title": "Options traders are betting heavily on these stocks ahead of election results",
-      "publishedAtSgt": "2026-11-04T03:22:30+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/options-traders-are-betting-heavily-on-these-stocks-ahead-of-election-results.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "With prediction markets pricing in a big victory for Democrats in Tuesday's midterm elections, traders are leaning into a group of stocks that investors often categorize as beneficiaries of left-wing leadership. Options trading in clean-energy stocks, particularly solar companies, surged on Tuesday, despite a five-month sell-off in the group that's left most of the companies in the industry group down on the year.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:26+08:00"
-    },
-    {
-      "id": "1413442fedb31c278a9c883903340f3599a50b02d65e0b9b993933436e275f7c",
-      "source": "CNBC",
-      "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
-      "publishedAtSgt": "2026-11-04T03:15:21+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Openings rose in manufacturing (54,000) as well as state and local government (108,000) and professional and business services (106,000). \"It's an encouraging sign that despite all the headwinds right now with high diesel and gas prices and ongoing inflation problems, companies are slowly increasing their hiring.\" Hires rose on the month, up 131,000 to 5.4 million, while layoffs and discharges fell by 127,000 to 1.64 million, the lowest since March 2025.",
-      "feeds": [
-        "latest",
-        "economy"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:27+08:00"
-    },
-    {
-      "id": "1dc0ff47c4715687c6fe075d75e297df3210cc1dc93a6bb9cf98c88444cbaca0",
-      "source": "CNBC",
-      "title": "Sullivan: What the 2026 midterms could mean for energy investors",
-      "publishedAtSgt": "2026-11-04T03:03:06+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/2026-midterms-energy-investors.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Don't expect huge near-term moves in energy stocks off the results of the midterms. As far as power-hungry utility stocks go, Bank of America agrees with my election take above - mostly. Higher prices mean many big-cap oil and gas stocks keep going higher.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T04:09:26+08:00"
     }
   ]
 }

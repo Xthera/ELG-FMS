@@ -5,6 +5,102 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "a9fd34dced3100e9b74ede94d7574f1d666eb683b5860dcc2761b72dd038fe28",
+      "source": "CNBC",
+      "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
+      "publishedAtSgt": "2026-11-10T11:58:46+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Asian technology stocks surged Tuesday, tracking a rebound on Wall Street overnight as a sharp decline in oil prices lifted sentiment while renewed buying in chip names spilled over into Asia, following last week's bruising sell-off. Japan's technology investment giant SoftBank Group surged 13.4%, while chip-testing equipment maker Advantest gained 2.36%.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "f4f3331be0bbee1c42d7f0fa91919c6231d86e9a8c255966b5f7cf422ec08d3c",
+      "source": "CNBC",
+      "title": "China exports, imports soar past expectations in October — surplus narrows sharply",
+      "publishedAtSgt": "2026-11-10T11:56:15+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "China's exports and imports surged more than expected in October, while its surplus shrank sharply, undershooting expectations even as it crossed $1 trillion for the year so far. Goods exports soared by 35.2% last month from a year earlier, according to the official data released Tuesday, exceeding expectations for a 33.5% jump in a Reuters poll, but slowing from the 36.3% growth in September..",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "3f3aad0bac95b9422d010701accbf6ad7adc49a102cf3c6503448a6e974a9063",
+      "source": "CNBC",
+      "title": "Senate advances Trump-backed bipartisan bill to speed critical infrastructure projects",
+      "publishedAtSgt": "2026-11-10T07:54:06+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/senate-infrastructure-bill-data-centers.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 52,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "The bill would also force artificial intelligence companies and data center developers to pay their own way for power and grid enhancements. Democrats, meanwhile, want to speed up the buildout of clean energy projects like solar and wind to lower carbon emissions Lawmakers have circled a deal to streamline the nation's complex web of permitting laws for years, but most prior efforts have sputtered.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "6f139af0648a585951f4d130b0a024411a63ce0b8184014c818d0574504a7846",
+      "source": "CNBC",
+      "title": "Jim Cramer says Anthropic's IPO could make or break the AI trade. Here's why",
+      "publishedAtSgt": "2026-11-10T07:30:15+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic's upcoming initial public offering could be a crucial test of investor confidence in the artificial intelligence trade, CNBC's Jim Cramer said on Monday. \"Without it, I don't see how the AI-related stocks can make a real recovery,\" the \"Mad Money\" host said, exactly two weeks after the Claude developer filed its S-1 IPO paperwork. Despite the recent sell-off in AI stocks, Anthropic is reportedly moving ahead with its IPO plans.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "3c6914c32a90b9634df17f5fd90cd027fd5aa1b74c2edf61828e6046f62c7864",
+      "source": "CNBC",
+      "title": "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
+      "publishedAtSgt": "2026-11-10T07:05:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company on Monday also announced a $1.75 billion increase in a delayed draw term loan from Saudi Arabia's Public Investment Fund, the company's largest shareholder. Lucid stock fell roughly 5% in aftermarket trading Monday. We are acting with urgency, strengthening the fundamentals and driving greater discipline, while continuing to invest in the priorities to deliver profitable long-term growth,\" Napoli said in a release.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "7d21b5f214dbc0d8f788bef326fbb8edc6e3dcb4ad0d58b25b050b29df0aac91",
+      "source": "CNBC",
+      "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+      "publishedAtSgt": "2026-11-10T05:03:55+08:00",
+      "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Though the Fed in October voted to hold its benchmark interest rate in place, markets are pricing in a better than 80% probability that the central bank will raise rates by a quarter percentage point at its next meeting in December, according to CME FedWatch data. Bank of America said it sees tariff impacts fading but that goods prices could be pushed higher because of AI demand.",
+      "feeds": [
+        "latest",
+        "economy"
+      ],
+      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
       "id": "ccf10804cf50343d507ab85faabe6cfa1be5e3eee908318d93127b897f289bba",
       "source": "CNBC",
       "title": "Trump administration proposes stricter work-search rules for unemployment benefits",
@@ -117,6 +213,6 @@
       "collectedAtSgt": "2026-11-10T04:47:40+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-11-10T04:47:40+08:00"
+  "articleCount": 13,
+  "updatedAtSgt": "2026-11-10T12:09:29+08:00"
 }
