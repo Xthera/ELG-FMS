@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-10T12:09:29+08:00",
+  "generatedAtSgt": "2026-11-10T20:43:06+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,85 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "caa42a6337f8b234841e97ac124798cf2be375818fdf20664a0ccf9f9caa4725",
+      "source": "CNBC",
+      "title": "Anthropic sets price range of $70 to $78 in upcoming IPO as AI lab marches toward Nasdaq",
+      "publishedAtSgt": "2026-11-10T20:31:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic said it will offer 825 million shares in its upcoming IPO at a price range between $70 to $78 per share, according to an updated filing on Tuesday, bringing the five-year-old artificial intelligence lab a step closer to a potentially historic Nasdaq debut. Anthropic said it has entered into an agreement with Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia and Taiwan Semiconductor Manufacturing Company to purchase $26 billion of the company's Class N common stock in...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:05+08:00"
+    },
+    {
+      "id": "f8fc943198b40a3a258239dc2785292e3c7cf6c31957df7a38588fbd4a70741e",
+      "source": "CNBC",
+      "title": "Treasury yields edge higher as traders await CPI inflation data, weigh Fed's Waller comments",
+      "publishedAtSgt": "2026-11-10T19:36:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The yield on the 2-year Treasury note, which more closely follows short-term Fed rate decisions, climbed more than 6 basis points to 4.612%. The 30-year Treasury bond yield, which is often impacted by geopolitical developments, was up 2 basis points at 5.275%. The report will come after Fed Governor Christopher Waller said the central bank needs to follow through on an expected rate hike next month to maintain credibility.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:06+08:00"
+    },
+    {
+      "id": "16e07b9586557d3d7866a6b922298f04dedfe1f59c7a8536457e9943436b12f1",
+      "source": "CNBC",
+      "title": "Nvidia stock edges higher as investors weigh potential fallout of CEO's affair with alleged spy",
+      "publishedAtSgt": "2026-11-10T19:28:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia shares were slightly higher in premarket trading Tuesday as investors continued to weigh the potential fallout from CEO Jensen Huang's affair with an alleged Chinese spy. Nvidia shares closed more than 4% lower on Monday, the day after Huang told staff in an email that he had been \"unfaithful\" to his wife and had \"fallen short\" of his responsibilities as CEO.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:05+08:00"
+    },
+    {
+      "id": "e7d79b74896dfc0a494bba3d911a2a6324b90a0ec08c0aefb3587e1502504846",
+      "source": "CNBC",
+      "title": "France blames Iran for supermarket refrigerator cyberattacks, weighs sanctions",
+      "publishedAtSgt": "2026-11-10T17:34:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/iran-fridge-cyberattacks-france.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "France is \"not ruling anything out\" in its response to October's mass cyberattacks on supermarket refrigerators that the country has blamed on Iran, the country's Foreign Minister Jean-Noël Barrot said on Tuesday. The French government summoned Iran's ambassador Tuesday morning after Paris said Monday that the findings of an investigation laid the blame for the hacks on Shahid Kaveh, an affiliate of the cyber unit of the powerful Revolutionary Guard Corps.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:05+08:00"
+    },
+    {
+      "id": "5c4a294c1876f27f4910d707c930585e08d970d2db529d91d36dcba8777c1745",
+      "source": "CNBC",
+      "title": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
+      "publishedAtSgt": "2026-11-10T17:01:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Power is increasingly becoming a key constraint for the AI data center buildout as power grids become overwhelmed with applications from large energy users like data centers. AI data center projects, like the PORTS-Pike Technology Campus in Pike County, Ohio, totaled $9.48 billion as of the end of September. 30, supported by growth in telecommunications and AI computing businesses.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:05+08:00"
+    },
     {
       "id": "a9fd34dced3100e9b74ede94d7574f1d666eb683b5860dcc2761b72dd038fe28",
       "source": "CNBC",
@@ -102,6 +181,21 @@
         "economy"
       ],
       "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "5f1af2f883662e956da85b8bcc6df79043a6e95425104b8a9468b05a38d122aa",
+      "source": "CNBC",
+      "title": "Stocks extend recovery from Thursday's sell-off. Plus, new trial data from Lilly, JJ",
+      "publishedAtSgt": "2026-11-10T04:04:30+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/09/stocks-extend-recovery-from-thursdays-sell-off-plus-new-trial-data-from-lilly-jj-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Other top performers in the portfolio include Qnity Electronics , whose products are crucial to semiconductor manufacturing, memory-chip maker Micron , and Starbucks away from tech. Both of our drug stocks are participating in Monday's market rally, as investors chew over new trial data for key fledgling products.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:05+08:00"
     },
     {
       "id": "ccf10804cf50343d507ab85faabe6cfa1be5e3eee908318d93127b897f289bba",
@@ -1509,105 +1603,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-04T20:13:25+08:00"
-    },
-    {
-      "id": "960f7e23889787948adee6dd15be7f1caa3538bbad7efb336b996ffe1400b9a0",
-      "source": "CNBC",
-      "title": "Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook",
-      "publishedAtSgt": "2026-11-04T18:40:51+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Novo posted quarterly earnings ahead of expectations early Wednesday as sales of its Wegovy pill blew past estimates amid continued GLP-1 volume growth globally, sending shares up as much as 6% in early trading. The company updated its outlook to now see adjusted revenue and operating profit growth between negative 2% and 2% at constant exchange rates. The stock fell nearly 8% in one session in September after Novo failed to reassure investors with its post-Wegovy growth strategy.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
-    },
-    {
-      "id": "4891ac8b8e5a32e2a75d855e913dc568851d28ebe8fbcf2167b913b0e090a117",
-      "source": "CNBC",
-      "title": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
-      "publishedAtSgt": "2026-11-04T18:02:00+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-      "category": "MARKET",
-      "relevanceScore": 94,
-      "relevanceReason": "strong_market_title",
-      "summary": "Treasury yields moved lower on Wednesday as investors sought shelter from a sell-off in equity futures sparked by potential big victories from Democrats in the U.S. The 30-year bond yield slid 3 basis points to 5.29%, and the shorter-term 2-year note yield was broadly flat at 4.6101%. AI-related shares, which have led the bull market, paced the overnight decline on fears that Democrats would slow the data center buildout.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
-    },
-    {
-      "id": "f40950bd9da82421ddead917772c3965848dccd6ff309f014017a0edcfedba22",
-      "source": "CNBC",
-      "title": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
-      "publishedAtSgt": "2026-11-04T07:58:09+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "CNBC's Jim Cramer said Tuesday that a new group of technology stocks may be emerging as market leaders. That was evident during Tuesday's session as gains from Broadcom and Micron supported the major averages — a sign that investors may be shifting toward a different set of tech winners.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T10:23:18+08:00"
-    },
-    {
-      "id": "ff6898d20cc28b0ba27fadae9a5e35e297e890e8374626ef3947431b888dbbea",
-      "source": "CNBC",
-      "title": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
-      "publishedAtSgt": "2026-11-04T07:04:37+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "CEO Lisa Su said on the earnings call that she expects server revenue to double year over year in 2027 and data center AI growth to accelerate even faster than the company had projected 90 days ago. After years spent chasing Nvidia in the market for artificial intelligence graphics processing units, or GPUs, AMD's central processing units, or CPUs, are experiencing a major resurgence with the rise of agentic AI apps like Meta's Muse.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T10:23:18+08:00"
-    },
-    {
-      "id": "5379cf8784dc440a26c4b04b6269ce42d02338924e6f9542b9ee5e02986a441b",
-      "source": "CNBC",
-      "title": "JetBlue raises bag fees for third time in a year as fuel costs bite",
-      "publishedAtSgt": "2026-11-04T06:26:20+08:00",
-      "url": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "JetBlue Airways has raised the price of checking a bag for many customers for the third time in less than a year as high fuel costs continue to eat into the industry's profits. Checking a first bag for travelers booked in economy will now be $50, up from $45, if purchased more than 24 hours before departure during a nonpeak travel period. If it's paid within 24 hours of departure, the fee will be $60.",
-      "feeds": [
-        "latest",
-        "business",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T10:23:18+08:00"
-    },
-    {
-      "id": "6469a50960ae82e8164a17eaf14002b7bbf71274f9ecfa8078fc340f63485951",
-      "source": "CNBC",
-      "title": "Eaton's strong quarter should mark a bottom for shares of the AI buildout winner",
-      "publishedAtSgt": "2026-11-04T04:46:59+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/03/eatons-strong-quarter-should-mark-a-bottom-for-shares-of-the-ai-buildout-winner.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Eaton delivered an excellent quarter on Tuesday, giving shares of the artificial intelligence buildout winner a much-needed jolt. The results and outlook demonstrated why we've stuck with the stock despite a turbulent period for the AI trade. Bottom line The electrical equipment supplier turned in a very strong quarter that should help solidify a bottom in the stock — assuming we don't see a renewed, broad-based rejection of the AI trade.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-04T10:23:19+08:00"
     }
   ]
 }

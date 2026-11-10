@@ -5,6 +5,85 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "caa42a6337f8b234841e97ac124798cf2be375818fdf20664a0ccf9f9caa4725",
+      "source": "CNBC",
+      "title": "Anthropic sets price range of $70 to $78 in upcoming IPO as AI lab marches toward Nasdaq",
+      "publishedAtSgt": "2026-11-10T20:31:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic said it will offer 825 million shares in its upcoming IPO at a price range between $70 to $78 per share, according to an updated filing on Tuesday, bringing the five-year-old artificial intelligence lab a step closer to a potentially historic Nasdaq debut. Anthropic said it has entered into an agreement with Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia and Taiwan Semiconductor Manufacturing Company to purchase $26 billion of the company's Class N common stock in...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:05+08:00"
+    },
+    {
+      "id": "f8fc943198b40a3a258239dc2785292e3c7cf6c31957df7a38588fbd4a70741e",
+      "source": "CNBC",
+      "title": "Treasury yields edge higher as traders await CPI inflation data, weigh Fed's Waller comments",
+      "publishedAtSgt": "2026-11-10T19:36:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "The yield on the 2-year Treasury note, which more closely follows short-term Fed rate decisions, climbed more than 6 basis points to 4.612%. The 30-year Treasury bond yield, which is often impacted by geopolitical developments, was up 2 basis points at 5.275%. The report will come after Fed Governor Christopher Waller said the central bank needs to follow through on an expected rate hike next month to maintain credibility.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:06+08:00"
+    },
+    {
+      "id": "16e07b9586557d3d7866a6b922298f04dedfe1f59c7a8536457e9943436b12f1",
+      "source": "CNBC",
+      "title": "Nvidia stock edges higher as investors weigh potential fallout of CEO's affair with alleged spy",
+      "publishedAtSgt": "2026-11-10T19:28:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia shares were slightly higher in premarket trading Tuesday as investors continued to weigh the potential fallout from CEO Jensen Huang's affair with an alleged Chinese spy. Nvidia shares closed more than 4% lower on Monday, the day after Huang told staff in an email that he had been \"unfaithful\" to his wife and had \"fallen short\" of his responsibilities as CEO.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:05+08:00"
+    },
+    {
+      "id": "e7d79b74896dfc0a494bba3d911a2a6324b90a0ec08c0aefb3587e1502504846",
+      "source": "CNBC",
+      "title": "France blames Iran for supermarket refrigerator cyberattacks, weighs sanctions",
+      "publishedAtSgt": "2026-11-10T17:34:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/iran-fridge-cyberattacks-france.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "France is \"not ruling anything out\" in its response to October's mass cyberattacks on supermarket refrigerators that the country has blamed on Iran, the country's Foreign Minister Jean-Noël Barrot said on Tuesday. The French government summoned Iran's ambassador Tuesday morning after Paris said Monday that the findings of an investigation laid the blame for the hacks on Shahid Kaveh, an affiliate of the cyber unit of the powerful Revolutionary Guard Corps.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:05+08:00"
+    },
+    {
+      "id": "5c4a294c1876f27f4910d707c930585e08d970d2db529d91d36dcba8777c1745",
+      "source": "CNBC",
+      "title": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
+      "publishedAtSgt": "2026-11-10T17:01:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Power is increasingly becoming a key constraint for the AI data center buildout as power grids become overwhelmed with applications from large energy users like data centers. AI data center projects, like the PORTS-Pike Technology Campus in Pike County, Ohio, totaled $9.48 billion as of the end of September. 30, supported by growth in telecommunications and AI computing businesses.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:05+08:00"
+    },
+    {
       "id": "a9fd34dced3100e9b74ede94d7574f1d666eb683b5860dcc2761b72dd038fe28",
       "source": "CNBC",
       "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
@@ -99,6 +178,21 @@
         "economy"
       ],
       "collectedAtSgt": "2026-11-10T12:09:29+08:00"
+    },
+    {
+      "id": "5f1af2f883662e956da85b8bcc6df79043a6e95425104b8a9468b05a38d122aa",
+      "source": "CNBC",
+      "title": "Stocks extend recovery from Thursday's sell-off. Plus, new trial data from Lilly, JJ",
+      "publishedAtSgt": "2026-11-10T04:04:30+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/09/stocks-extend-recovery-from-thursdays-sell-off-plus-new-trial-data-from-lilly-jj-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Other top performers in the portfolio include Qnity Electronics , whose products are crucial to semiconductor manufacturing, memory-chip maker Micron , and Starbucks away from tech. Both of our drug stocks are participating in Monday's market rally, as investors chew over new trial data for key fledgling products.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-10T20:43:05+08:00"
     },
     {
       "id": "ccf10804cf50343d507ab85faabe6cfa1be5e3eee908318d93127b897f289bba",
@@ -213,6 +307,6 @@
       "collectedAtSgt": "2026-11-10T04:47:40+08:00"
     }
   ],
-  "articleCount": 13,
-  "updatedAtSgt": "2026-11-10T12:09:29+08:00"
+  "articleCount": 19,
+  "updatedAtSgt": "2026-11-10T20:43:06+08:00"
 }
