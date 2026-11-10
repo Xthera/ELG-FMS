@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-11-09T13:39:59+00:00",
+  "generatedAtUtc": "2026-11-10T00:57:19+00:00",
   "source": "Funds Links.xlsm",
   "fundCount": 67,
   "research": {
@@ -229,8 +229,8 @@
     "dividendFunds": 19,
     "paymentModeFunds": 67,
     "paymentModeCounts": {
-      "SRS": 56,
       "Cash": 67,
+      "SRS": 56,
       "CPF-OA": 14,
       "CPF-SA": 5
     },
@@ -263,14 +263,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "6.00%",
-        "cumulative1m": "0.61%",
+        "cumulative1m": "1.07%",
         "cumulative3m": "-1.32%",
-        "cumulative6m": "-0.32%",
-        "cumulative1y": "7.11%",
-        "cumulative3y": "35.82%",
-        "cumulative5y": "18.71%",
-        "annualised3y": "10.75%",
-        "annualised5y": "3.49%",
+        "cumulative6m": "0.15%",
+        "cumulative1y": "7.47%",
+        "cumulative3y": "35.07%",
+        "cumulative5y": "18.61%",
+        "annualised3y": "10.58%",
+        "annualised5y": "3.48%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "3.49%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-activeinvest-portfolio-balanced-accumulation.pdf",
@@ -336,7 +336,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -357,14 +357,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "-0.60%",
-        "cumulative1m": "2.67%",
-        "cumulative3m": "-0.40%",
-        "cumulative6m": "-0.49%",
-        "cumulative1y": "-0.38%",
-        "cumulative3y": "13.99%",
-        "cumulative5y": "2.77%",
-        "annualised3y": "4.46%",
-        "annualised5y": "0.55%",
+        "cumulative1m": "2.60%",
+        "cumulative3m": "-0.55%",
+        "cumulative6m": "-0.22%",
+        "cumulative1y": "-0.33%",
+        "cumulative3y": "13.51%",
+        "cumulative5y": "2.71%",
+        "annualised3y": "4.33%",
+        "annualised5y": "0.54%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "0.55%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-activeinvest-portfolio-conservative-accumulation.pdf",
@@ -418,7 +418,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -439,14 +439,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "8.17%",
-        "cumulative1m": "-1.92%",
-        "cumulative3m": "-2.82%",
-        "cumulative6m": "-1.65%",
-        "cumulative1y": "9.25%",
-        "cumulative3y": "43.83%",
-        "cumulative5y": "20.17%",
-        "annualised3y": "12.89%",
-        "annualised5y": "3.74%",
+        "cumulative1m": "-1.04%",
+        "cumulative3m": "-2.71%",
+        "cumulative6m": "-1.29%",
+        "cumulative1y": "9.85%",
+        "cumulative3y": "43.24%",
+        "cumulative5y": "20.24%",
+        "annualised3y": "12.77%",
+        "annualised5y": "3.76%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "3.74%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-activeinvest-portfolio-growth-accumulation.pdf",
@@ -512,7 +512,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -533,14 +533,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "4.16%",
-        "cumulative1m": "3.08%",
-        "cumulative3m": "0.09%",
-        "cumulative6m": "1.13%",
-        "cumulative1y": "5.34%",
-        "cumulative3y": "26.98%",
-        "cumulative5y": "15.58%",
-        "annualised3y": "8.30%",
-        "annualised5y": "2.94%",
+        "cumulative1m": "3.10%",
+        "cumulative3m": "-0.03%",
+        "cumulative6m": "1.69%",
+        "cumulative1y": "5.38%",
+        "cumulative3y": "26.11%",
+        "cumulative5y": "15.47%",
+        "annualised3y": "8.07%",
+        "annualised5y": "2.93%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "2.93%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-activeinvest-portfolio-moderate-accumulation.pdf",
@@ -600,7 +600,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -621,15 +621,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "31-May-2005",
         "cumulativeYtd": "4.73%",
-        "cumulative1m": "-3.41%",
-        "cumulative3m": "-3.45%",
-        "cumulative6m": "-1.53%",
-        "cumulative1y": "4.46%",
-        "cumulative3y": "34.47%",
-        "cumulative5y": "17.41%",
-        "annualised3y": "10.39%",
-        "annualised5y": "3.26%",
-        "annualised10y": "5.78%",
+        "cumulative1m": "-2.42%",
+        "cumulative3m": "-3.98%",
+        "cumulative6m": "-2.08%",
+        "cumulative1y": "5.40%",
+        "cumulative3y": "34.18%",
+        "cumulative5y": "17.46%",
+        "annualised3y": "10.34%",
+        "annualised5y": "3.28%",
+        "annualised10y": "5.77%",
         "annualisedSinceLaunch": "4.10%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-adapt-2035-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_adapt_fund-_1_.pdf",
@@ -731,7 +731,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -752,15 +752,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "31-May-2005",
         "cumulativeYtd": "4.52%",
-        "cumulative1m": "2.04%",
-        "cumulative3m": "-2.15%",
-        "cumulative6m": "0.53%",
-        "cumulative1y": "7.91%",
-        "cumulative3y": "26.54%",
-        "cumulative5y": "26.88%",
-        "annualised3y": "8.17%",
-        "annualised5y": "4.88%",
-        "annualised10y": "6.84%",
+        "cumulative1m": "1.31%",
+        "cumulative3m": "-2.27%",
+        "cumulative6m": "1.73%",
+        "cumulative1y": "8.20%",
+        "cumulative3y": "26.78%",
+        "cumulative5y": "27.48%",
+        "annualised3y": "8.26%",
+        "annualised5y": "4.99%",
+        "annualised10y": "6.38%",
         "annualisedSinceLaunch": "5.58%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-america-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_america_global_equity.pdf",
@@ -862,7 +862,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -883,13 +883,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "5.12%",
-        "cumulative1m": "2.06%",
-        "cumulative3m": "-1.63%",
-        "cumulative6m": "-0.08%",
+        "cumulative1m": "1.63%",
+        "cumulative3m": "-2.13%",
+        "cumulative6m": "0.97%",
         "cumulative1y": "10.10%",
         "cumulative3y": "25.87%",
         "cumulative5y": "-",
-        "annualised3y": "7.98%",
+        "annualised3y": "8.00%",
         "annualised5y": "-",
         "annualised10y": "-",
         "annualisedSinceLaunch": "7.82%",
@@ -991,7 +991,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -1012,15 +1012,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "24-Feb-2003",
         "cumulativeYtd": "5.97%",
-        "cumulative1m": "-4.37%",
-        "cumulative3m": "-4.72%",
-        "cumulative6m": "-4.27%",
-        "cumulative1y": "5.34%",
-        "cumulative3y": "35.83%",
-        "cumulative5y": "12.03%",
-        "annualised3y": "10.76%",
-        "annualised5y": "2.30%",
-        "annualised10y": "3.18%",
+        "cumulative1m": "-3.60%",
+        "cumulative3m": "-4.16%",
+        "cumulative6m": "-4.47%",
+        "cumulative1y": "6.23%",
+        "cumulative3y": "35.97%",
+        "cumulative5y": "11.70%",
+        "annualised3y": "10.83%",
+        "annualised5y": "2.24%",
+        "annualised10y": "3.05%",
         "annualisedSinceLaunch": "4.40%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-american-managed-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_eiut.pdf",
@@ -1115,7 +1115,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -1136,15 +1136,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Nov-1995",
         "cumulativeYtd": "15.14%",
-        "cumulative1m": "-10.44%",
-        "cumulative3m": "-8.37%",
-        "cumulative6m": "-6.76%",
-        "cumulative1y": "14.52%",
-        "cumulative3y": "72.08%",
-        "cumulative5y": "42.57%",
-        "annualised3y": "19.85%",
-        "annualised5y": "7.35%",
-        "annualised10y": "5.81%",
+        "cumulative1m": "-8.46%",
+        "cumulative3m": "-8.17%",
+        "cumulative6m": "-7.10%",
+        "cumulative1y": "15.83%",
+        "cumulative3y": "74.12%",
+        "cumulative5y": "42.22%",
+        "annualised3y": "20.39%",
+        "annualised5y": "7.31%",
+        "annualised10y": "5.89%",
         "annualisedSinceLaunch": "4.20%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-equity-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_direct_managed_funds.pdf",
@@ -1245,7 +1245,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -1266,14 +1266,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-5.79%",
-        "cumulative1m": "1.38%",
-        "cumulative3m": "0.07%",
-        "cumulative6m": "-1.70%",
-        "cumulative1y": "-5.02%",
-        "cumulative3y": "3.74%",
-        "cumulative5y": "-4.56%",
-        "annualised3y": "1.23%",
-        "annualised5y": "-0.93%",
+        "cumulative1m": "1.41%",
+        "cumulative3m": "-0.02%",
+        "cumulative6m": "-1.80%",
+        "cumulative1y": "-4.63%",
+        "cumulative3y": "3.94%",
+        "cumulative5y": "-5.24%",
+        "annualised3y": "1.30%",
+        "annualised5y": "-1.07%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "-2.12%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-fixed-income-fund-accumulation.pdf",
@@ -1375,7 +1375,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -1396,14 +1396,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-5.79%",
-        "cumulative1m": "1.38%",
-        "cumulative3m": "0.07%",
-        "cumulative6m": "-1.70%",
-        "cumulative1y": "-5.02%",
-        "cumulative3y": "3.74%",
-        "cumulative5y": "-4.56%",
-        "annualised3y": "1.23%",
-        "annualised5y": "-0.93%",
+        "cumulative1m": "1.41%",
+        "cumulative3m": "-0.02%",
+        "cumulative6m": "-1.80%",
+        "cumulative1y": "-4.63%",
+        "cumulative3y": "3.94%",
+        "cumulative5y": "-5.24%",
+        "annualised3y": "1.30%",
+        "annualised5y": "-1.07%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "-2.12%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-fixed-income-fund-distribution.pdf",
@@ -1598,7 +1598,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -1619,15 +1619,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "05-Sep-2013",
         "cumulativeYtd": "4.35%",
-        "cumulative1m": "-5.27%",
-        "cumulative3m": "-4.65%",
-        "cumulative6m": "-5.28%",
-        "cumulative1y": "3.81%",
-        "cumulative3y": "28.84%",
-        "cumulative5y": "7.02%",
-        "annualised3y": "8.82%",
-        "annualised5y": "1.37%",
-        "annualised10y": "4.42%",
+        "cumulative1m": "-4.28%",
+        "cumulative3m": "-4.54%",
+        "cumulative6m": "-5.77%",
+        "cumulative1y": "4.50%",
+        "cumulative3y": "29.77%",
+        "cumulative5y": "6.78%",
+        "annualised3y": "9.11%",
+        "annualised5y": "1.32%",
+        "annualised10y": "4.45%",
         "annualisedSinceLaunch": "4.61%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-income-and-growth-fund-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_asian_income_and_growth.pdf",
@@ -1730,7 +1730,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -1751,15 +1751,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "05-Sep-2013",
         "cumulativeYtd": "4.35%",
-        "cumulative1m": "-5.27%",
-        "cumulative3m": "-4.65%",
-        "cumulative6m": "-5.28%",
-        "cumulative1y": "3.81%",
-        "cumulative3y": "28.84%",
-        "cumulative5y": "7.02%",
-        "annualised3y": "8.82%",
-        "annualised5y": "1.37%",
-        "annualised10y": "4.42%",
+        "cumulative1m": "-4.28%",
+        "cumulative3m": "-4.54%",
+        "cumulative6m": "-5.77%",
+        "cumulative1y": "4.50%",
+        "cumulative3y": "29.77%",
+        "cumulative5y": "6.78%",
+        "annualised3y": "9.11%",
+        "annualised5y": "1.32%",
+        "annualised10y": "4.45%",
         "annualisedSinceLaunch": "4.61%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-income-and-growth-fund-distribution.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_asian_income_and_growth.pdf",
@@ -1965,7 +1965,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -1986,13 +1986,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "5.90%",
-        "cumulative1m": "-5.18%",
-        "cumulative3m": "-4.07%",
-        "cumulative6m": "-5.00%",
-        "cumulative1y": "6.31%",
+        "cumulative1m": "-3.98%",
+        "cumulative3m": "-4.08%",
+        "cumulative6m": "-5.56%",
+        "cumulative1y": "6.88%",
         "cumulative3y": "30.20%",
         "cumulative5y": "-",
-        "annualised3y": "9.20%",
+        "annualised3y": "9.23%",
         "annualised5y": "-",
         "annualised10y": "-",
         "annualisedSinceLaunch": "9.02%",
@@ -2094,7 +2094,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -2115,15 +2115,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "15-May-2009",
         "cumulativeYtd": "12.74%",
-        "cumulative1m": "-11.05%",
-        "cumulative3m": "-8.47%",
-        "cumulative6m": "-8.27%",
-        "cumulative1y": "12.75%",
-        "cumulative3y": "66.54%",
-        "cumulative5y": "36.99%",
-        "annualised3y": "18.55%",
-        "annualised5y": "6.50%",
-        "annualised10y": "5.24%",
+        "cumulative1m": "-8.91%",
+        "cumulative3m": "-7.92%",
+        "cumulative6m": "-8.84%",
+        "cumulative1y": "14.11%",
+        "cumulative3y": "68.09%",
+        "cumulative5y": "37.05%",
+        "annualised3y": "18.98%",
+        "annualised5y": "6.52%",
+        "annualised10y": "5.06%",
         "annualisedSinceLaunch": "5.84%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-income-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_asian_income_fund.pdf",
@@ -2369,7 +2369,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -2390,9 +2390,9 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "25-Feb-2026",
         "cumulativeYtd": "-",
-        "cumulative1m": "-6.56%",
-        "cumulative3m": "-6.22%",
-        "cumulative6m": "-4.27%",
+        "cumulative1m": "-4.87%",
+        "cumulative3m": "-5.96%",
+        "cumulative6m": "-4.90%",
         "cumulative1y": "-",
         "cumulative3y": "-",
         "cumulative5y": "-",
@@ -2493,7 +2493,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -2514,14 +2514,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "3.97%",
-        "cumulative1m": "-7.39%",
-        "cumulative3m": "-5.15%",
-        "cumulative6m": "-5.39%",
-        "cumulative1y": "3.49%",
-        "cumulative3y": "34.93%",
-        "cumulative5y": "10.04%",
-        "annualised3y": "10.51%",
-        "annualised5y": "1.93%",
+        "cumulative1m": "-5.69%",
+        "cumulative3m": "-5.11%",
+        "cumulative6m": "-5.95%",
+        "cumulative1y": "4.20%",
+        "cumulative3y": "35.18%",
+        "cumulative5y": "9.33%",
+        "annualised3y": "10.61%",
+        "annualised5y": "1.80%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "1.22%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-multi-asset-income-fund-accumulation.pdf",
@@ -2623,7 +2623,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -2644,14 +2644,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "3.97%",
-        "cumulative1m": "-7.39%",
-        "cumulative3m": "-5.15%",
-        "cumulative6m": "-5.39%",
-        "cumulative1y": "3.49%",
-        "cumulative3y": "34.93%",
-        "cumulative5y": "10.04%",
-        "annualised3y": "10.51%",
-        "annualised5y": "1.93%",
+        "cumulative1m": "-5.69%",
+        "cumulative3m": "-5.11%",
+        "cumulative6m": "-5.95%",
+        "cumulative1y": "4.20%",
+        "cumulative3y": "35.18%",
+        "cumulative5y": "9.33%",
+        "annualised3y": "10.61%",
+        "annualised5y": "1.80%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "1.22%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-multi-asset-income-fund-decumulation.pdf",
@@ -2846,7 +2846,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -2867,14 +2867,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "3.97%",
-        "cumulative1m": "-7.39%",
-        "cumulative3m": "-5.15%",
-        "cumulative6m": "-5.39%",
-        "cumulative1y": "3.49%",
-        "cumulative3y": "34.93%",
-        "cumulative5y": "10.04%",
-        "annualised3y": "10.51%",
-        "annualised5y": "1.93%",
+        "cumulative1m": "-5.69%",
+        "cumulative3m": "-5.11%",
+        "cumulative6m": "-5.95%",
+        "cumulative1y": "4.20%",
+        "cumulative3y": "35.18%",
+        "cumulative5y": "9.33%",
+        "annualised3y": "10.61%",
+        "annualised5y": "1.80%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "1.22%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-multi-asset-income-fund-distribution.pdf",
@@ -3069,7 +3069,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -3090,15 +3090,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "02-Aug-2004",
         "cumulativeYtd": "-7.43%",
-        "cumulative1m": "4.63%",
-        "cumulative3m": "-3.25%",
-        "cumulative6m": "-1.07%",
-        "cumulative1y": "-11.42%",
-        "cumulative3y": "19.11%",
-        "cumulative5y": "-3.52%",
-        "annualised3y": "6.01%",
-        "annualised5y": "-0.71%",
-        "annualised10y": "5.34%",
+        "cumulative1m": "4.89%",
+        "cumulative3m": "-3.03%",
+        "cumulative6m": "-1.37%",
+        "cumulative1y": "-10.81%",
+        "cumulative3y": "20.42%",
+        "cumulative5y": "-3.72%",
+        "annualised3y": "6.41%",
+        "annualised5y": "-0.76%",
+        "annualised10y": "5.22%",
         "annualisedSinceLaunch": "6.93%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-china-india-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_eiut.pdf",
@@ -3199,7 +3199,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -3220,15 +3220,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "31-May-2005",
         "cumulativeYtd": "9.28%",
-        "cumulative1m": "-14.49%",
-        "cumulative3m": "-12.42%",
-        "cumulative6m": "-11.62%",
-        "cumulative1y": "8.57%",
-        "cumulative3y": "51.07%",
-        "cumulative5y": "3.64%",
-        "annualised3y": "14.76%",
-        "annualised5y": "0.72%",
-        "annualised10y": "6.82%",
+        "cumulative1m": "-12.28%",
+        "cumulative3m": "-11.67%",
+        "cumulative6m": "-12.23%",
+        "cumulative1y": "10.26%",
+        "cumulative3y": "51.60%",
+        "cumulative5y": "4.09%",
+        "annualised3y": "14.94%",
+        "annualised5y": "0.81%",
+        "annualised10y": "6.69%",
         "annualisedSinceLaunch": "4.55%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-emerging-markets-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_emerging_markets_fund.pdf",
@@ -3330,7 +3330,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -3351,13 +3351,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "28-Dec-2022",
         "cumulativeYtd": "-4.78%",
-        "cumulative1m": "-1.58%",
-        "cumulative3m": "-3.66%",
-        "cumulative6m": "-1.05%",
-        "cumulative1y": "-6.36%",
-        "cumulative3y": "2.55%",
+        "cumulative1m": "-0.95%",
+        "cumulative3m": "-3.35%",
+        "cumulative6m": "-3.19%",
+        "cumulative1y": "-6.07%",
+        "cumulative3y": "2.20%",
         "cumulative5y": "-",
-        "annualised3y": "0.84%",
+        "annualised3y": "0.73%",
         "annualised5y": "-",
         "annualised10y": "-",
         "annualisedSinceLaunch": "-0.39%",
@@ -3460,7 +3460,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -3481,8 +3481,8 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
-        "cumulative1m": "-3.22%",
-        "cumulative3m": "-4.33%",
+        "cumulative1m": "-3.05%",
+        "cumulative3m": "-4.88%",
         "cumulative6m": "-",
         "cumulative1y": "-",
         "cumulative3y": "-",
@@ -3550,7 +3550,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -3571,15 +3571,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-1999",
         "cumulativeYtd": "-2.65%",
-        "cumulative1m": "1.53%",
-        "cumulative3m": "-1.91%",
-        "cumulative6m": "-1.84%",
-        "cumulative1y": "-3.89%",
-        "cumulative3y": "5.24%",
-        "cumulative5y": "-14.63%",
-        "annualised3y": "1.72%",
-        "annualised5y": "-3.11%",
-        "annualised10y": "-0.77%",
+        "cumulative1m": "1.43%",
+        "cumulative3m": "-1.76%",
+        "cumulative6m": "-1.88%",
+        "cumulative1y": "-3.83%",
+        "cumulative3y": "4.86%",
+        "cumulative5y": "-14.67%",
+        "annualised3y": "1.60%",
+        "annualised5y": "-3.13%",
+        "annualised10y": "-0.73%",
         "annualisedSinceLaunch": "1.59%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-bond-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_direct_managed_funds.pdf",
@@ -3682,7 +3682,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -3703,8 +3703,8 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
-        "cumulative1m": "1.94%",
-        "cumulative3m": "-2.83%",
+        "cumulative1m": "1.71%",
+        "cumulative3m": "-3.05%",
         "cumulative6m": "-",
         "cumulative1y": "-",
         "cumulative3y": "-",
@@ -3772,7 +3772,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -3793,14 +3793,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "21-Sep-2021",
         "cumulativeYtd": "-2.09%",
-        "cumulative1m": "-4.70%",
-        "cumulative3m": "-10.26%",
-        "cumulative6m": "-19.05%",
-        "cumulative1y": "-0.07%",
-        "cumulative3y": "10.45%",
-        "cumulative5y": "-32.15%",
-        "annualised3y": "3.37%",
-        "annualised5y": "-7.46%",
+        "cumulative1m": "-2.22%",
+        "cumulative3m": "-11.50%",
+        "cumulative6m": "-19.32%",
+        "cumulative1y": "0.54%",
+        "cumulative3y": "14.24%",
+        "cumulative5y": "-31.86%",
+        "annualised3y": "4.55%",
+        "annualised5y": "-7.40%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "-5.11%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-climate-change-equity-fund-accumulation.pdf",
@@ -3902,7 +3902,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -3923,10 +3923,10 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "27-Nov-2024",
         "cumulativeYtd": "3.62%",
-        "cumulative1m": "1.76%",
-        "cumulative3m": "-0.29%",
-        "cumulative6m": "2.97%",
-        "cumulative1y": "4.47%",
+        "cumulative1m": "1.93%",
+        "cumulative3m": "-0.32%",
+        "cumulative6m": "3.17%",
+        "cumulative1y": "4.83%",
         "cumulative3y": "-",
         "cumulative5y": "-",
         "annualised3y": "-",
@@ -4041,7 +4041,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -4062,11 +4062,11 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "20-Jul-2022",
         "cumulativeYtd": "-2.35%",
-        "cumulative1m": "-3.04%",
+        "cumulative1m": "-2.26%",
         "cumulative3m": "-4.81%",
-        "cumulative6m": "-6.02%",
-        "cumulative1y": "-1.20%",
-        "cumulative3y": "13.61%",
+        "cumulative6m": "-6.27%",
+        "cumulative1y": "-0.66%",
+        "cumulative3y": "13.58%",
         "cumulative5y": "-",
         "annualised3y": "4.35%",
         "annualised5y": "-",
@@ -4375,7 +4375,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -4396,10 +4396,10 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "14-Feb-2024",
         "cumulativeYtd": "-3.94%",
-        "cumulative1m": "1.90%",
-        "cumulative3m": "-1.37%",
-        "cumulative6m": "-2.84%",
-        "cumulative1y": "-5.18%",
+        "cumulative1m": "2.33%",
+        "cumulative3m": "-1.16%",
+        "cumulative6m": "-2.68%",
+        "cumulative1y": "-5.34%",
         "cumulative3y": "-",
         "cumulative5y": "-",
         "annualised3y": "-",
@@ -4444,7 +4444,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -4465,15 +4465,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-1999",
         "cumulativeYtd": "13.13%",
-        "cumulative1m": "7.41%",
-        "cumulative3m": "3.20%",
-        "cumulative6m": "5.98%",
-        "cumulative1y": "16.97%",
-        "cumulative3y": "59.72%",
-        "cumulative5y": "52.46%",
-        "annualised3y": "16.91%",
-        "annualised5y": "8.80%",
-        "annualised10y": "9.43%",
+        "cumulative1m": "7.18%",
+        "cumulative3m": "3.03%",
+        "cumulative6m": "7.84%",
+        "cumulative1y": "17.02%",
+        "cumulative3y": "57.67%",
+        "cumulative5y": "52.83%",
+        "annualised3y": "16.45%",
+        "annualised5y": "8.87%",
+        "annualised10y": "9.34%",
         "annualisedSinceLaunch": "3.86%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-equity-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_america_global_equity.pdf",
@@ -4575,7 +4575,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -4596,14 +4596,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "02-Jul-2018",
         "cumulativeYtd": "13.13%",
-        "cumulative1m": "7.41%",
-        "cumulative3m": "3.20%",
-        "cumulative6m": "5.98%",
-        "cumulative1y": "16.96%",
-        "cumulative3y": "59.73%",
-        "cumulative5y": "52.45%",
-        "annualised3y": "16.91%",
-        "annualised5y": "8.80%",
+        "cumulative1m": "7.18%",
+        "cumulative3m": "3.03%",
+        "cumulative6m": "7.85%",
+        "cumulative1y": "17.02%",
+        "cumulative3y": "57.66%",
+        "cumulative5y": "52.83%",
+        "annualised3y": "16.45%",
+        "annualised5y": "8.87%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "9.43%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-equity-fund-distribution.pdf",
@@ -4835,7 +4835,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -4856,13 +4856,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "13.91%",
-        "cumulative1m": "7.41%",
-        "cumulative3m": "3.81%",
-        "cumulative6m": "5.26%",
-        "cumulative1y": "19.43%",
+        "cumulative1m": "7.50%",
+        "cumulative3m": "3.18%",
+        "cumulative6m": "7.01%",
+        "cumulative1y": "19.20%",
         "cumulative3y": "54.74%",
         "cumulative5y": "-",
-        "annualised3y": "15.68%",
+        "annualised3y": "15.73%",
         "annualised5y": "-",
         "annualised10y": "-",
         "annualisedSinceLaunch": "15.36%",
@@ -4964,7 +4964,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -4985,10 +4985,10 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "20-May-2024",
         "cumulativeYtd": "-7.22%",
-        "cumulative1m": "-12.45%",
-        "cumulative3m": "-10.50%",
-        "cumulative6m": "-11.86%",
-        "cumulative1y": "-9.52%",
+        "cumulative1m": "-10.75%",
+        "cumulative3m": "-10.08%",
+        "cumulative6m": "-11.67%",
+        "cumulative1y": "-8.09%",
         "cumulative3y": "-",
         "cumulative5y": "-",
         "annualised3y": "-",
@@ -5088,7 +5088,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -5109,13 +5109,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-3.07%",
-        "cumulative1m": "1.95%",
-        "cumulative3m": "-1.07%",
-        "cumulative6m": "-1.63%",
-        "cumulative1y": "-3.31%",
-        "cumulative3y": "7.67%",
-        "cumulative5y": "-5.19%",
-        "annualised3y": "2.50%",
+        "cumulative1m": "1.89%",
+        "cumulative3m": "-1.23%",
+        "cumulative6m": "-1.73%",
+        "cumulative1y": "-3.26%",
+        "cumulative3y": "7.31%",
+        "cumulative5y": "-5.18%",
+        "annualised3y": "2.39%",
         "annualised5y": "-1.06%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "-1.07%",
@@ -5218,7 +5218,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -5239,13 +5239,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "-0.97%",
-        "cumulative1m": "2.22%",
-        "cumulative3m": "-0.33%",
-        "cumulative6m": "-0.39%",
-        "cumulative1y": "-0.78%",
+        "cumulative1m": "2.12%",
+        "cumulative3m": "-0.49%",
+        "cumulative6m": "-0.52%",
+        "cumulative1y": "-0.72%",
         "cumulative3y": "16.42%",
         "cumulative5y": "-",
-        "annualised3y": "5.20%",
+        "annualised3y": "5.22%",
         "annualised5y": "-",
         "annualised10y": "-",
         "annualisedSinceLaunch": "5.10%",
@@ -5347,7 +5347,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -5368,11 +5368,11 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "14-Jun-2023",
         "cumulativeYtd": "1.18%",
-        "cumulative1m": "-6.05%",
-        "cumulative3m": "-5.45%",
-        "cumulative6m": "-4.73%",
-        "cumulative1y": "3.46%",
-        "cumulative3y": "41.13%",
+        "cumulative1m": "-4.82%",
+        "cumulative3m": "-6.20%",
+        "cumulative6m": "-5.12%",
+        "cumulative1y": "4.07%",
+        "cumulative3y": "41.01%",
         "cumulative5y": "-",
         "annualised3y": "12.18%",
         "annualised5y": "-",
@@ -5477,7 +5477,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -5498,14 +5498,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "21-Sep-2021",
         "cumulativeYtd": "6.41%",
-        "cumulative1m": "-5.52%",
-        "cumulative3m": "-7.06%",
-        "cumulative6m": "-1.46%",
-        "cumulative1y": "6.58%",
-        "cumulative3y": "35.36%",
-        "cumulative5y": "-5.66%",
-        "annualised3y": "10.63%",
-        "annualised5y": "-1.16%",
+        "cumulative1m": "-4.86%",
+        "cumulative3m": "-8.60%",
+        "cumulative6m": "-2.18%",
+        "cumulative1y": "6.48%",
+        "cumulative3y": "35.38%",
+        "cumulative5y": "-5.93%",
+        "annualised3y": "10.67%",
+        "annualised5y": "-1.22%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "-0.27%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-impact-esg-equity-fund-accumulation.pdf",
@@ -5607,7 +5607,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -5628,13 +5628,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "14-Jun-2023",
         "cumulativeYtd": "-0.50%",
-        "cumulative1m": "-3.29%",
-        "cumulative3m": "-3.83%",
-        "cumulative6m": "-3.70%",
-        "cumulative1y": "1.02%",
-        "cumulative3y": "25.18%",
+        "cumulative1m": "-2.51%",
+        "cumulative3m": "-4.36%",
+        "cumulative6m": "-3.95%",
+        "cumulative1y": "1.31%",
+        "cumulative3y": "25.06%",
         "cumulative5y": "-",
-        "annualised3y": "7.78%",
+        "annualised3y": "7.77%",
         "annualised5y": "-",
         "annualised10y": "-",
         "annualisedSinceLaunch": "6.16%",
@@ -5737,7 +5737,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -5758,13 +5758,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "21-Sep-2021",
         "cumulativeYtd": "-1.85%",
-        "cumulative1m": "-11.97%",
-        "cumulative3m": "-8.32%",
-        "cumulative6m": "-6.81%",
-        "cumulative1y": "-1.57%",
-        "cumulative3y": "39.49%",
-        "cumulative5y": "-6.85%",
-        "annualised3y": "11.74%",
+        "cumulative1m": "-10.96%",
+        "cumulative3m": "-9.95%",
+        "cumulative6m": "-6.06%",
+        "cumulative1y": "-1.21%",
+        "cumulative3y": "39.97%",
+        "cumulative5y": "-6.82%",
+        "annualised3y": "11.91%",
         "annualised5y": "-1.41%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "-0.60%",
@@ -5867,7 +5867,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -5888,15 +5888,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-1999",
         "cumulativeYtd": "4.46%",
-        "cumulative1m": "-2.55%",
-        "cumulative3m": "-3.03%",
-        "cumulative6m": "0.70%",
-        "cumulative1y": "4.77%",
-        "cumulative3y": "37.55%",
-        "cumulative5y": "20.59%",
-        "annualised3y": "11.22%",
-        "annualised5y": "3.82%",
-        "annualised10y": "6.65%",
+        "cumulative1m": "-2.27%",
+        "cumulative3m": "-3.25%",
+        "cumulative6m": "0.35%",
+        "cumulative1y": "5.78%",
+        "cumulative3y": "36.38%",
+        "cumulative5y": "20.52%",
+        "annualised3y": "10.94%",
+        "annualised5y": "3.81%",
+        "annualised10y": "6.59%",
         "annualisedSinceLaunch": "3.88%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-managed-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_global_managed_fund.pdf",
@@ -5999,7 +5999,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -6020,13 +6020,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "02-Jul-2018",
         "cumulativeYtd": "4.46%",
-        "cumulative1m": "-2.56%",
-        "cumulative3m": "-3.03%",
-        "cumulative6m": "0.70%",
-        "cumulative1y": "4.77%",
-        "cumulative3y": "37.55%",
-        "cumulative5y": "20.62%",
-        "annualised3y": "11.22%",
+        "cumulative1m": "-2.27%",
+        "cumulative3m": "-3.26%",
+        "cumulative6m": "0.35%",
+        "cumulative1y": "5.78%",
+        "cumulative3y": "36.38%",
+        "cumulative5y": "20.55%",
+        "annualised3y": "10.94%",
         "annualised5y": "3.82%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "6.35%",
@@ -6254,7 +6254,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -6275,13 +6275,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "1.51%",
-        "cumulative1m": "-1.76%",
-        "cumulative3m": "-2.09%",
-        "cumulative6m": "-1.52%",
-        "cumulative1y": "3.11%",
-        "cumulative3y": "27.16%",
-        "cumulative5y": "17.01%",
-        "annualised3y": "8.35%",
+        "cumulative1m": "-1.37%",
+        "cumulative3m": "-2.43%",
+        "cumulative6m": "-1.83%",
+        "cumulative1y": "3.50%",
+        "cumulative3y": "26.91%",
+        "cumulative5y": "16.95%",
+        "annualised3y": "8.30%",
         "annualised5y": "3.19%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "3.57%",
@@ -6384,7 +6384,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -6405,13 +6405,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "1.51%",
-        "cumulative1m": "-1.76%",
-        "cumulative3m": "-2.09%",
-        "cumulative6m": "-1.52%",
-        "cumulative1y": "3.11%",
-        "cumulative3y": "27.16%",
-        "cumulative5y": "17.01%",
-        "annualised3y": "8.35%",
+        "cumulative1m": "-1.37%",
+        "cumulative3m": "-2.43%",
+        "cumulative6m": "-1.83%",
+        "cumulative1y": "3.50%",
+        "cumulative3y": "26.91%",
+        "cumulative5y": "16.95%",
+        "annualised3y": "8.30%",
         "annualised5y": "3.19%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "3.57%",
@@ -6607,7 +6607,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -6628,13 +6628,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "1.51%",
-        "cumulative1m": "-1.76%",
-        "cumulative3m": "-2.09%",
-        "cumulative6m": "-1.52%",
-        "cumulative1y": "3.11%",
-        "cumulative3y": "27.16%",
-        "cumulative5y": "17.01%",
-        "annualised3y": "8.35%",
+        "cumulative1m": "-1.37%",
+        "cumulative3m": "-2.43%",
+        "cumulative6m": "-1.83%",
+        "cumulative1y": "3.50%",
+        "cumulative3y": "26.91%",
+        "cumulative5y": "16.95%",
+        "annualised3y": "8.30%",
         "annualised5y": "3.19%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "3.57%",
@@ -6830,7 +6830,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -6852,14 +6852,14 @@
         "inceptionDate": "07-May-2007",
         "cumulativeYtd": "12.18%",
         "cumulative1m": "9.81%",
-        "cumulative3m": "-1.16%",
-        "cumulative6m": "3.68%",
-        "cumulative1y": "12.97%",
-        "cumulative3y": "34.94%",
-        "cumulative5y": "8.43%",
-        "annualised3y": "10.51%",
-        "annualised5y": "1.63%",
-        "annualised10y": "3.61%",
+        "cumulative3m": "-0.58%",
+        "cumulative6m": "2.85%",
+        "cumulative1y": "13.66%",
+        "cumulative3y": "35.92%",
+        "cumulative5y": "8.61%",
+        "annualised3y": "10.81%",
+        "annualised5y": "1.67%",
+        "annualised10y": "3.52%",
         "annualisedSinceLaunch": "0.43%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-property-securities-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_global_property_securities_fund.pdf",
@@ -6960,7 +6960,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -6981,10 +6981,10 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "27-Nov-2023",
         "cumulativeYtd": "1.92%",
-        "cumulative1m": "-0.94%",
-        "cumulative3m": "-2.56%",
-        "cumulative6m": "-0.83%",
-        "cumulative1y": "3.31%",
+        "cumulative1m": "-0.48%",
+        "cumulative3m": "-2.70%",
+        "cumulative6m": "-2.18%",
+        "cumulative1y": "3.74%",
         "cumulative3y": "-",
         "cumulative5y": "-",
         "annualised3y": "-",
@@ -7090,7 +7090,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -7111,10 +7111,10 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "27-Nov-2023",
         "cumulativeYtd": "3.89%",
-        "cumulative1m": "-1.63%",
-        "cumulative3m": "-2.72%",
-        "cumulative6m": "-0.21%",
-        "cumulative1y": "5.40%",
+        "cumulative1m": "-0.95%",
+        "cumulative3m": "-2.90%",
+        "cumulative6m": "-1.81%",
+        "cumulative1y": "6.05%",
         "cumulative3y": "-",
         "cumulative5y": "-",
         "annualised3y": "-",
@@ -7220,7 +7220,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -7241,10 +7241,10 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "27-Nov-2023",
         "cumulativeYtd": "1.25%",
-        "cumulative1m": "1.31%",
-        "cumulative3m": "-1.45%",
-        "cumulative6m": "-0.55%",
-        "cumulative1y": "2.76%",
+        "cumulative1m": "1.46%",
+        "cumulative3m": "-1.62%",
+        "cumulative6m": "-1.13%",
+        "cumulative1y": "2.73%",
         "cumulative3y": "-",
         "cumulative5y": "-",
         "annualised3y": "-",
@@ -7486,7 +7486,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -7507,15 +7507,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "04-May-2001",
         "cumulativeYtd": "8.10%",
-        "cumulative1m": "-18.66%",
-        "cumulative3m": "-13.83%",
-        "cumulative6m": "-7.90%",
-        "cumulative1y": "4.92%",
-        "cumulative3y": "89.29%",
-        "cumulative5y": "64.16%",
-        "annualised3y": "23.73%",
-        "annualised5y": "10.42%",
-        "annualised10y": "17.53%",
+        "cumulative1m": "-16.88%",
+        "cumulative3m": "-13.96%",
+        "cumulative6m": "-9.72%",
+        "cumulative1y": "7.54%",
+        "cumulative3y": "84.93%",
+        "cumulative5y": "65.27%",
+        "annualised3y": "22.84%",
+        "annualised5y": "10.59%",
+        "annualised10y": "16.98%",
         "annualisedSinceLaunch": "6.67%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-technology-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_eiut.pdf",
@@ -7604,7 +7604,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -7625,15 +7625,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "03-Dec-2009",
         "cumulativeYtd": "2.45%",
-        "cumulative1m": "-11.07%",
-        "cumulative3m": "-8.35%",
-        "cumulative6m": "-11.24%",
-        "cumulative1y": "-1.26%",
-        "cumulative3y": "34.05%",
-        "cumulative5y": "-7.60%",
-        "annualised3y": "10.27%",
-        "annualised5y": "-1.57%",
-        "annualised10y": "6.80%",
+        "cumulative1m": "-9.73%",
+        "cumulative3m": "-9.76%",
+        "cumulative6m": "-11.84%",
+        "cumulative1y": "0.86%",
+        "cumulative3y": "35.03%",
+        "cumulative5y": "-7.48%",
+        "annualised3y": "10.57%",
+        "annualised5y": "-1.55%",
+        "annualised10y": "6.71%",
         "annualisedSinceLaunch": "5.59%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-greater-china-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_greaterchina_prulink_emerging_mkt-income_bond.pdf",
@@ -7735,7 +7735,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -7756,13 +7756,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "2.97%",
-        "cumulative1m": "-11.03%",
-        "cumulative3m": "-8.01%",
-        "cumulative6m": "-11.47%",
-        "cumulative1y": "0.67%",
+        "cumulative1m": "-9.46%",
+        "cumulative3m": "-9.69%",
+        "cumulative6m": "-12.15%",
+        "cumulative1y": "2.66%",
         "cumulative3y": "46.45%",
         "cumulative5y": "-",
-        "annualised3y": "13.53%",
+        "annualised3y": "13.59%",
         "annualised5y": "-",
         "annualised10y": "-",
         "annualisedSinceLaunch": "13.30%",
@@ -7864,7 +7864,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -7885,9 +7885,9 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "25-Feb-2026",
         "cumulativeYtd": "-",
-        "cumulative1m": "7.96%",
-        "cumulative3m": "-0.43%",
-        "cumulative6m": "7.68%",
+        "cumulative1m": "9.45%",
+        "cumulative3m": "-0.27%",
+        "cumulative6m": "7.69%",
         "cumulative1y": "-",
         "cumulative3y": "-",
         "cumulative5y": "-",
@@ -7995,7 +7995,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -8016,13 +8016,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "14-Jun-2023",
         "cumulativeYtd": "6.09%",
-        "cumulative1m": "-9.61%",
-        "cumulative3m": "-6.45%",
-        "cumulative6m": "-1.65%",
-        "cumulative1y": "7.22%",
-        "cumulative3y": "64.55%",
+        "cumulative1m": "-9.27%",
+        "cumulative3m": "-6.60%",
+        "cumulative6m": "-2.72%",
+        "cumulative1y": "7.96%",
+        "cumulative3y": "63.59%",
         "cumulative5y": "-",
-        "annualised3y": "18.08%",
+        "annualised3y": "17.90%",
         "annualised5y": "-",
         "annualised10y": "-",
         "annualisedSinceLaunch": "15.42%",
@@ -8125,7 +8125,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -8146,15 +8146,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "04-May-2001",
         "cumulativeYtd": "7.29%",
-        "cumulative1m": "5.21%",
-        "cumulative3m": "0.80%",
-        "cumulative6m": "5.18%",
-        "cumulative1y": "9.37%",
-        "cumulative3y": "43.67%",
+        "cumulative1m": "5.45%",
+        "cumulative3m": "0.13%",
+        "cumulative6m": "5.41%",
+        "cumulative1y": "10.17%",
+        "cumulative3y": "39.46%",
         "cumulative5y": "29.34%",
-        "annualised3y": "12.85%",
-        "annualised5y": "5.28%",
-        "annualised10y": "8.09%",
+        "annualised3y": "11.77%",
+        "annualised5y": "5.29%",
+        "annualised10y": "7.95%",
         "annualisedSinceLaunch": "3.75%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-pan-european-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_eiut.pdf",
@@ -8256,7 +8256,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -8277,15 +8277,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "20-Mar-2012",
         "cumulativeYtd": "0.17%",
-        "cumulative1m": "-3.66%",
-        "cumulative3m": "-5.97%",
-        "cumulative6m": "-1.78%",
-        "cumulative1y": "0.14%",
-        "cumulative3y": "16.14%",
-        "cumulative5y": "12.11%",
-        "annualised3y": "5.12%",
-        "annualised5y": "2.31%",
-        "annualised10y": "2.84%",
+        "cumulative1m": "-1.75%",
+        "cumulative3m": "-6.23%",
+        "cumulative6m": "-1.88%",
+        "cumulative1y": "0.22%",
+        "cumulative3y": "17.25%",
+        "cumulative5y": "11.40%",
+        "annualised3y": "5.47%",
+        "annualised5y": "2.19%",
+        "annualised10y": "2.82%",
         "annualisedSinceLaunch": "2.66%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-asean-managed-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_eiut.pdf",
@@ -8388,7 +8388,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -8409,15 +8409,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "03-Nov-1992",
         "cumulativeYtd": "8.63%",
-        "cumulative1m": "-8.16%",
-        "cumulative3m": "-6.47%",
-        "cumulative6m": "-1.70%",
-        "cumulative1y": "7.79%",
-        "cumulative3y": "53.74%",
-        "cumulative5y": "23.52%",
-        "annualised3y": "15.43%",
-        "annualised5y": "4.32%",
-        "annualised10y": "5.40%",
+        "cumulative1m": "-5.66%",
+        "cumulative3m": "-6.81%",
+        "cumulative6m": "-1.79%",
+        "cumulative1y": "8.59%",
+        "cumulative3y": "54.75%",
+        "cumulative5y": "23.53%",
+        "annualised3y": "15.73%",
+        "annualised5y": "4.33%",
+        "annualised10y": "5.38%",
         "annualisedSinceLaunch": "5.56%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-asian-managed-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_direct_managed_funds.pdf",
@@ -8518,7 +8518,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -8539,14 +8539,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "03-Nov-1995",
         "cumulativeYtd": "0.97%",
-        "cumulative1m": "0.12%",
-        "cumulative3m": "0.29%",
+        "cumulative1m": "0.11%",
+        "cumulative3m": "0.27%",
         "cumulative6m": "0.56%",
-        "cumulative1y": "1.11%",
-        "cumulative3y": "7.25%",
-        "cumulative5y": "12.17%",
+        "cumulative1y": "1.09%",
+        "cumulative3y": "7.21%",
+        "cumulative5y": "12.15%",
         "annualised3y": "2.36%",
-        "annualised5y": "2.32%",
+        "annualised5y": "2.33%",
         "annualised10y": "1.64%",
         "annualisedSinceLaunch": "1.56%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-cash-fund.pdf",
@@ -8648,7 +8648,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -8669,15 +8669,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "08-Apr-2011",
         "cumulativeYtd": "0.61%",
-        "cumulative1m": "2.23%",
-        "cumulative3m": "-0.06%",
-        "cumulative6m": "-0.72%",
-        "cumulative1y": "-1.32%",
-        "cumulative3y": "17.82%",
-        "cumulative5y": "10.47%",
-        "annualised3y": "5.62%",
-        "annualised5y": "2.01%",
-        "annualised10y": "2.60%",
+        "cumulative1m": "2.05%",
+        "cumulative3m": "0.06%",
+        "cumulative6m": "-0.90%",
+        "cumulative1y": "-1.26%",
+        "cumulative3y": "17.31%",
+        "cumulative5y": "10.25%",
+        "annualised3y": "5.49%",
+        "annualised5y": "1.97%",
+        "annualised10y": "2.65%",
         "annualisedSinceLaunch": "3.25%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-dynamic-bond-fund-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_eiut.pdf",
@@ -8780,7 +8780,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -8801,14 +8801,14 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "02-Jul-2018",
         "cumulativeYtd": "0.61%",
-        "cumulative1m": "2.24%",
-        "cumulative3m": "-0.05%",
-        "cumulative6m": "-0.72%",
-        "cumulative1y": "-1.31%",
-        "cumulative3y": "17.83%",
-        "cumulative5y": "10.48%",
-        "annualised3y": "5.63%",
-        "annualised5y": "2.01%",
+        "cumulative1m": "2.05%",
+        "cumulative3m": "0.07%",
+        "cumulative6m": "-0.90%",
+        "cumulative1y": "-1.26%",
+        "cumulative3y": "17.32%",
+        "cumulative5y": "10.26%",
+        "annualised3y": "5.49%",
+        "annualised5y": "1.98%",
         "annualised10y": "-",
         "annualisedSinceLaunch": "2.95%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-dynamic-bond-fund-distribution.pdf",
@@ -9015,7 +9015,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -9036,15 +9036,15 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "30-Jul-2010",
         "cumulativeYtd": "8.94%",
-        "cumulative1m": "-7.74%",
-        "cumulative3m": "-6.72%",
-        "cumulative6m": "3.45%",
-        "cumulative1y": "11.87%",
-        "cumulative3y": "68.49%",
+        "cumulative1m": "-3.07%",
+        "cumulative3m": "-7.51%",
+        "cumulative6m": "3.46%",
+        "cumulative1y": "12.12%",
+        "cumulative3y": "70.52%",
         "cumulative5y": "66.33%",
-        "annualised3y": "19.01%",
-        "annualised5y": "10.71%",
-        "annualised10y": "9.04%",
+        "annualised3y": "19.55%",
+        "annualised5y": "10.74%",
+        "annualised10y": "9.05%",
         "annualisedSinceLaunch": "6.22%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-singapore-growth-fund.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_india_equity_and_prulink_spore_growth.pdf",
@@ -9146,7 +9146,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -9167,10 +9167,10 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "18-Aug-2025",
         "cumulativeYtd": "0.77%",
-        "cumulative1m": "-2.21%",
-        "cumulative3m": "-4.40%",
-        "cumulative6m": "-3.73%",
-        "cumulative1y": "1.89%",
+        "cumulative1m": "-1.89%",
+        "cumulative3m": "-4.76%",
+        "cumulative6m": "-3.68%",
+        "cumulative1y": "2.35%",
         "cumulative3y": "-",
         "cumulative5y": "-",
         "annualised3y": "-",
@@ -9290,7 +9290,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -9311,10 +9311,10 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "18-Aug-2025",
         "cumulativeYtd": "3.31%",
-        "cumulative1m": "-2.05%",
-        "cumulative3m": "-3.78%",
-        "cumulative6m": "-2.43%",
-        "cumulative1y": "4.88%",
+        "cumulative1m": "-1.75%",
+        "cumulative3m": "-4.15%",
+        "cumulative6m": "-2.41%",
+        "cumulative1y": "5.36%",
         "cumulative3y": "-",
         "cumulative5y": "-",
         "annualised3y": "-",
@@ -9434,7 +9434,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -9455,13 +9455,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "21-Sep-2022",
         "cumulativeYtd": "0.68%",
-        "cumulative1m": "-2.90%",
-        "cumulative3m": "-4.34%",
-        "cumulative6m": "-4.36%",
-        "cumulative1y": "0.87%",
-        "cumulative3y": "25.72%",
+        "cumulative1m": "-2.16%",
+        "cumulative3m": "-4.49%",
+        "cumulative6m": "-4.64%",
+        "cumulative1y": "1.76%",
+        "cumulative3y": "25.43%",
         "cumulative5y": "-",
-        "annualised3y": "7.94%",
+        "annualised3y": "7.88%",
         "annualised5y": "-",
         "annualised10y": "-",
         "annualisedSinceLaunch": "7.05%",
@@ -9760,7 +9760,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -9781,13 +9781,13 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "2.92%",
-        "cumulative1m": "-2.66%",
-        "cumulative3m": "-3.66%",
-        "cumulative6m": "-3.05%",
-        "cumulative1y": "3.67%",
-        "cumulative3y": "32.25%",
+        "cumulative1m": "-1.97%",
+        "cumulative3m": "-3.83%",
+        "cumulative6m": "-3.38%",
+        "cumulative1y": "4.58%",
+        "cumulative3y": "31.96%",
         "cumulative5y": "-",
-        "annualised3y": "9.78%",
+        "annualised3y": "9.72%",
         "annualised5y": "-",
         "annualised10y": "-",
         "annualisedSinceLaunch": "9.79%",
@@ -10034,7 +10034,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -10055,8 +10055,8 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
-        "cumulative1m": "-2.97%",
-        "cumulative3m": "-3.83%",
+        "cumulative1m": "-2.80%",
+        "cumulative3m": "-3.89%",
         "cumulative6m": "-",
         "cumulative1y": "-",
         "cumulative3y": "-",
@@ -10103,7 +10103,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -10124,8 +10124,8 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
-        "cumulative1m": "-0.20%",
-        "cumulative3m": "-1.92%",
+        "cumulative1m": "-0.23%",
+        "cumulative3m": "-1.96%",
         "cumulative6m": "-",
         "cumulative1y": "-",
         "cumulative3y": "-",
@@ -10172,7 +10172,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     },
     {
@@ -10193,8 +10193,8 @@
         "valuationDate": "05/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
-        "cumulative1m": "-5.11%",
-        "cumulative3m": "-5.02%",
+        "cumulative1m": "-4.77%",
+        "cumulative3m": "-5.10%",
         "cumulative6m": "-",
         "cumulative1y": "-",
         "cumulative3y": "-",
@@ -10241,7 +10241,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-09T13:39:59+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-10T00:57:19+00:00"
       }
     }
   ]
