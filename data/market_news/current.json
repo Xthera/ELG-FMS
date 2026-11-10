@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-10T20:43:06+08:00",
+  "generatedAtSgt": "2026-11-11T04:29:30+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,178 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "d771376ea7c7feed6dad54ad1a9dea2e47fbddd2579079a3778696eb7b345047",
+      "source": "CNBC",
+      "title": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring",
+      "publishedAtSgt": "2026-11-11T04:02:53+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/10/ge-vernova-sellers-have-it-all-wrong-plus-why-fed-rate-hike-odds-are-soaring.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "could influence sentiment around the AI trade. (See here for a full list of the stocks in Jim Cramer's Charitable Trust.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:23+08:00"
+    },
+    {
+      "id": "cf376d94cf5c3e922ba628798c7c23a74b77969dc662c551809361a2bb66a56b",
+      "source": "CNBC",
+      "title": "Traders bet on a pop for Anthropic's historic IPO",
+      "publishedAtSgt": "2026-11-11T03:51:18+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Pre-IPO perpetuals, contracts that aim to track the price of private companies, trade on decentralized crypto exchanges like Hyperliquid, Coinbase, Binance and OKX to name a few. Hyperliquid's pre-IPO Anthropic perp began trading two weeks ago at $138 before settling into a roughly ten-dollar range between $110 and $120 prior to last week's selloff in tech stocks, as the contract slipped below $94 at one point.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:23+08:00"
+    },
+    {
+      "id": "c1c04e32b938d7986ba32ba76604a2f44bdbd1ee64bf1e7c620380bd6ca05fdc",
+      "source": "CNBC",
+      "title": "Alphabet shares appear to have bottomed. How to play it for a quick rebound",
+      "publishedAtSgt": "2026-11-11T02:15:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/alphabet-shares-appear-to-have-bottomed-how-to-play-it-for-a-quick-rebound.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Ten days after Alphabet shares experienced their worst one-day drubbing in its history, the search, media and AI giant has barely retraced a faction of its nearly $500 billion in lost market capitalization, having rallied just a paltry 1.5%. Alphabet's earnings were the first major crack to appear in the AI trade and foreshadowed a series of volatile events for the complex, including the election and the growing scandal enveloping Nvidia CEO Jensen Huang.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:23+08:00"
+    },
+    {
+      "id": "5cd8e79407335afc52a215d7d119fe1171c0c388c290418f7ab25f2de5971b1e",
+      "source": "CNBC",
+      "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "publishedAtSgt": "2026-11-11T00:47:05+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Costs for goods and services rose more than expected in October, providing fresh warning signs for the Federal Reserve in its fight to lower inflation. At the Fed's October meeting, central bank officials voted 10-2 to keep their benchmark rate in a range between 3.75%-4% while awaiting incoming data.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:25+08:00"
+    },
+    {
+      "id": "0a24ddbefb3b96a944a36bb9766bb53ca27c7631eec69243b10dbc3aececc153",
+      "source": "CNBC",
+      "title": "Here's the inflation breakdown for October 2026 — in one chart",
+      "publishedAtSgt": "2026-11-11T00:36:40+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "central bank raised rates in September amid a recent pickup in inflation, which economists largely attribute to the war in Iran. \"Investors do not need year-over-year figures to see that this was a hot inflation report and that prices are not on a sustainable path back toward the Fed's 2% target,\" Jason Pride, chief of investment strategy and research at Glenmede, a wealth management firm, wrote in an e-mail Tuesday.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:22+08:00"
+    },
+    {
+      "id": "da7f7e1212d76823288ce36a5612515eea97ee302aca7bdd04bcf3b1cf4b48f8",
+      "source": "CNBC",
+      "title": "Anthropic's trillion-dollar IPO is coming, but retail investors could have owned AI stock much earlier",
+      "publishedAtSgt": "2026-11-11T00:30:23+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-shares-invest.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "For many retail investors, the IPO may be the first chance they have to own Anthropic and even that ownership event will be out of reach with limited shares allocated to retail brokerage firms. \"This structure may allow investors to participate at lower minimums than would typically be required for a direct share purchase, while the fund manager handles the complexity of acquisition, ongoing administration, and tax reporting on behalf of investors,\" according to private wealth and alternative...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:24+08:00"
+    },
+    {
+      "id": "8c9a4eb0c6cd9ee71e421b2dea0c9c8a122c16f80d63af91252581667f509ee0",
+      "source": "CNBC",
+      "title": "Bridgepoint sees opportunity in 're-rated' real estate",
+      "publishedAtSgt": "2026-11-11T00:13:27+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/bridgepoint-sees-opportunity-in-re-rated-real-estate.html",
+      "category": "MARKET",
+      "relevanceScore": 58,
+      "relevanceReason": "supporting_market_description",
+      "summary": "While higher interest rates are chasing many investors away from real estate, Bridgepoint Group sees growing opportunity in overlooked corners of the property market, according to company executives. This summer, it announced the acquisition of Kayne Anderson Real Estate, the real-estate investment firm with over $22 billion in assets. He said the firm focuses on high-growth, high-margin businesses that are more resilient to interest rate swings.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:24+08:00"
+    },
+    {
+      "id": "d60343bf22589bad400132c927afe0e1ba04a969f89f06acc0cd1a8c95189234",
+      "source": "CNBC",
+      "title": "Rivian CEO says new R2 SUV, autonomy make 2027 an ‘inflection year’ as EV maker marks five years since IPO",
+      "publishedAtSgt": "2026-11-10T23:11:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/rivian-r2-autonomy-2027-rj-scaringe.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Funding has long been a key debate for Rivian investors,\" Deutsche Bank analyst Edison Yu said in an Oct. Rivian plans to offer more details about its AI and autonomous plans during a second annual investor technology event on Dec. \"We view this as a likely positive catalyst as the event could set a path for AV features driving incremental vehicle demand & higher [software] revenue in 2027, building on 2026 growth,\" TD Cowen analyst Itay Michaeli said in an investor note last week.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:30+08:00"
+    },
+    {
+      "id": "f8856430ef548fd28c1a26e12db65d44b2646e2f98cbcfe39212210289a35213",
+      "source": "CNBC",
+      "title": "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
+      "publishedAtSgt": "2026-11-10T23:01:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/coreweave-earnings-preview-debt-capex.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The market will be closely watching what the neocloud company says about artificial intelligence spending — and how it plans to finance its infrastructure buildout. \"We think outlooks that communicate when and which avenues of funding will be tapped will increase investor confidence.\" CoreWeave stock and bonds have come under pressure as fears deepened about the enormous amount of debt it has taken out to build its data centers.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:30+08:00"
+    },
+    {
+      "id": "a94abcff5380feb557a4887aeea4deebaa4239618002b777df8e815194660af4",
+      "source": "CNBC",
+      "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal",
+      "publishedAtSgt": "2026-11-10T21:19:13+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/chip-stocks-rally-nvidia-scandal.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Did the brutal weeks-long punishment of AI stocks culminate last week and reverse higher Monday after a pileup of adverse headlines? In the past week, American voters resoundingly opposed data-center construction across much of the country and Anthropic lowered its target IPO valuation just before a sex-and-espionage scandal struck the one-man embodiment of the entire AI economy, Nvidia's Jensen Huang.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:30+08:00"
+    },
+    {
+      "id": "413d027ab406b579555544076d8fc752e1d145dfde66d59290138d9baba82419",
+      "source": "CNBC",
+      "title": "Polymarket says annualized revenue has topped $1.8 billion",
+      "publishedAtSgt": "2026-11-10T21:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Polymarket's revenue is being fueled by growth in that U.S. The revenue growth since June also comes after the company began a fresh $1 billion funding round that values Polymarket at $21 billion. Disclosure: CNBC and Kalshi have a commercial relationship that includes customer acquisition and a minority investment.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:30+08:00"
+    },
     {
       "id": "caa42a6337f8b234841e97ac124798cf2be375818fdf20664a0ccf9f9caa4725",
       "source": "CNBC",
@@ -1427,182 +1599,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-05T10:30:30+08:00"
-    },
-    {
-      "id": "cdd217684c8786287a2bdb15aded5d2a5f3bd6b988e0466a7d3b0ae6273e7d24",
-      "source": "CNBC",
-      "title": "New Flutter CEO bets on FanDuel promotions to win customers as profits suffer",
-      "publishedAtSgt": "2026-11-05T03:53:32+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/flutter-fanduel-promotions-q3-2026.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The company's stock is down more than 60% year to date. average monthly players up 12%, including 24% growth in iGaming. For now, he said, the priority is organic growth and paying down debt.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-11-05T04:26:56+08:00"
-    },
-    {
-      "id": "f91e4bc1ec0da1f21536b45d6762ea998b44c2adfcce4004438ac263a53a526f",
-      "source": "CNBC",
-      "title": "Voters rebuff data centers in every ballot measure except one during the 2026 midterms",
-      "publishedAtSgt": "2026-11-05T03:51:18+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "OpenAI announced in August that it secured 8 gigawatts of computing capacity at the PORTS-Pike Technology Campus in Ohio, the largest planned AI data center campus in the world. SoftBank is a major investor in OpenAI, and the two companies announced plans to invest $1 billion in SB Energy earlier this year.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-05T04:26:56+08:00"
-    },
-    {
-      "id": "ead0f5a344d1b7d1dccb7ef2bdb6b2561429c744a1b592f3abefa5f0bc2053a4",
-      "source": "CNBC",
-      "title": "Hyperscalers and Apple surge after election results remove investor uncertainty",
-      "publishedAtSgt": "2026-11-05T03:37:43+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Tuesday's results remove uncertainty in the market, David Kelly, chief global strategist at JPMorgan Asset Management, said on \"Squawk on the Street.\" He said the divided government would lead to \"moderation in growth, moderation in inflation, less uncertainty, and I think that's all helping the stock market move up today.\" However, some stocks, particularly those tied to Trump advisor Elon Musk as well as the AI data center buildout, fell on Wednesday.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-05T04:26:55+08:00"
-    },
-    {
-      "id": "baa582bf8260f23623a3fb4bf2bb2f1904c4a6acd980aab304988fd9bdaaac1a",
-      "source": "CNBC",
-      "title": "A massive trade just happened in a leading mortgage lender: Watch Options Action Live",
-      "publishedAtSgt": "2026-11-05T03:08:15+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/a-massive-trade-just-happened-in-a-leading-mortgage-lender-watch-options-action-live.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Crude oil prices fell as WTI traded below $90 and energy stocks dropped 5.6% for the biggest decline in the S&P 500. With the drop in crude oil, a handful of inflation and interest-rate related trades got some bullish attention. Opposite the drop in crude oil was a rally in solar energy companies, extending recent gains and extending unusual options activity that preceded the midterms.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-05T04:26:56+08:00"
-    },
-    {
-      "id": "9d965a0f4afdb9cbad87187ad027021347e41c814e5ca92c68ef83e0b13d8e7f",
-      "source": "CNBC",
-      "title": "CVS to split off drugstore business in major breakup of healthcare giant; shares fall 10%",
-      "publishedAtSgt": "2026-11-05T02:35:35+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of CVS fell more than 12% on Wednesday. CVS shares have jumped roughly 70% since Joyner took the helm in October 2024, bringing the company's market value to $117 billion. Existing CVS shareholders will own stock in both companies after the split.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-11-05T04:26:56+08:00"
-    },
-    {
-      "id": "05ddf3897daad7800286c1ab936a8c1661db2bcfa720a05271fa4c924fb7d9cd",
-      "source": "CNBC",
-      "title": "Uber beats on revenue, CEO tells CNBC the company is 'investing significantly' to add drivers",
-      "publishedAtSgt": "2026-11-05T01:04:32+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/uber-stock-q3-2026-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of the ride-hailing service rose more than 7% on Wednesday. The company reported net income of $512 million, down 92% from a year earlier, when the company had a $4.9 billion benefit from a tax valuation release. Uber's revenue beat was due to growth in its freight division.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-05T04:26:57+08:00"
-    },
-    {
-      "id": "77908b5068db0cef171cd0dadad253bc0e635c07784058179a66bc54d1c03e77",
-      "source": "CNBC",
-      "title": "Jim Cramer says this bank stock is a buy after its post-election pullback",
-      "publishedAtSgt": "2026-11-05T00:54:39+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/04/cramer-says-this-bank-stock-is-a-buy-after-its-post-election-pullback.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Jim said that investors are betting that Democratic control of both the House and Senate could slow the AI data center buildout — terrible for the neoclouds but potentially a benefit to the well-established hyperscalers, because the result will force them to curb capital spending and let cash flow catch up.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-05T04:26:57+08:00"
-    },
-    {
-      "id": "a8329b901857f92352b43727ea819ef4d1ba6121faf072d8e6d3798a81456da3",
-      "source": "CNBC",
-      "title": "Blood banks targeted in latest European fridge cyberattacks",
-      "publishedAtSgt": "2026-11-04T22:15:32+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/blood-bank-fridges-cyberattacks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "French blood banks were on Monday affected by the recent wave of cybersecurity attacks on European refrigeration systems, the French Blood Establishment confirmed on Wednesday. The organization said that while it wasn't the direct target of the attack, cold storage units operated by external providers containing the EFS' blood products were compromised across three of its sites, with hackers cranking up temperatures.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-05T04:27:01+08:00"
-    },
-    {
-      "id": "c1baeddf24865f04231555c888cc66a84c4678845f8d2e5aab2cd56c6e59dbc7",
-      "source": "CNBC",
-      "title": "McDonald's earnings beat, but traffic to chain's U.S. restaurants falls",
-      "publishedAtSgt": "2026-11-04T20:07:30+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "At the company's investor day in September, executives said that same-store sales in July and August were slightly negative but they expected September to return to same-store sales growth. Shares of the company rose more than 2% in premarket trading. McDonald's international developmental licensed markets business, which includes Japan and China, reported same-store sales growth of 4.2%.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-11-04T20:13:24+08:00"
-    },
-    {
-      "id": "58f24ee155574bd5bf7625870c0ad02dd6cb3038abd380fde5d02b5a952f81bd",
-      "source": "CNBC",
-      "title": "SpaceX, Tesla fall over 4% on Democrats' big win; AI stocks mixed",
-      "publishedAtSgt": "2026-11-04T19:35:52+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Artificial intelligence stocks came under pressure overnight as Democrats — seen as proponents of data center moratoriums — won big in midterm elections in key data center hubs. He added that the election in Texas was the \"biggest worry\" of the night for tech investors and the AI trade because that's where around 25%-30% of data center gigawatts and capacity will come from.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
-    },
-    {
-      "id": "1d152ff72d643778cb9449cd5d6d09a81458d7cd2f3f99db4a6047dbd6606bb2",
-      "source": "CNBC",
-      "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
-      "publishedAtSgt": "2026-11-04T18:47:30+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "All euro zone countries saw inflation hold above the European Central Bank's 2% target. The European Central Bank kept its key interest rate at 2.5% last month, following a hike of 25 basis points in September. Robert Mertens, global capital markets senior analyst at Validus Risk Management, cautioned that \"ongoing turmoil in the French bond market is placing constraints on ECB policy\" and the bank's capacity to get inflation under control.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-04T20:13:25+08:00"
     }
   ]
 }

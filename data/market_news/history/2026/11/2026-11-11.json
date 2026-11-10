@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-11",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "d771376ea7c7feed6dad54ad1a9dea2e47fbddd2579079a3778696eb7b345047",
+      "source": "CNBC",
+      "title": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring",
+      "publishedAtSgt": "2026-11-11T04:02:53+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/10/ge-vernova-sellers-have-it-all-wrong-plus-why-fed-rate-hike-odds-are-soaring.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "could influence sentiment around the AI trade. (See here for a full list of the stocks in Jim Cramer's Charitable Trust.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:23+08:00"
+    },
+    {
+      "id": "cf376d94cf5c3e922ba628798c7c23a74b77969dc662c551809361a2bb66a56b",
+      "source": "CNBC",
+      "title": "Traders bet on a pop for Anthropic's historic IPO",
+      "publishedAtSgt": "2026-11-11T03:51:18+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Pre-IPO perpetuals, contracts that aim to track the price of private companies, trade on decentralized crypto exchanges like Hyperliquid, Coinbase, Binance and OKX to name a few. Hyperliquid's pre-IPO Anthropic perp began trading two weeks ago at $138 before settling into a roughly ten-dollar range between $110 and $120 prior to last week's selloff in tech stocks, as the contract slipped below $94 at one point.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:23+08:00"
+    },
+    {
+      "id": "c1c04e32b938d7986ba32ba76604a2f44bdbd1ee64bf1e7c620380bd6ca05fdc",
+      "source": "CNBC",
+      "title": "Alphabet shares appear to have bottomed. How to play it for a quick rebound",
+      "publishedAtSgt": "2026-11-11T02:15:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/alphabet-shares-appear-to-have-bottomed-how-to-play-it-for-a-quick-rebound.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Ten days after Alphabet shares experienced their worst one-day drubbing in its history, the search, media and AI giant has barely retraced a faction of its nearly $500 billion in lost market capitalization, having rallied just a paltry 1.5%. Alphabet's earnings were the first major crack to appear in the AI trade and foreshadowed a series of volatile events for the complex, including the election and the growing scandal enveloping Nvidia CEO Jensen Huang.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:23+08:00"
+    },
+    {
+      "id": "5cd8e79407335afc52a215d7d119fe1171c0c388c290418f7ab25f2de5971b1e",
+      "source": "CNBC",
+      "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "publishedAtSgt": "2026-11-11T00:47:05+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Costs for goods and services rose more than expected in October, providing fresh warning signs for the Federal Reserve in its fight to lower inflation. At the Fed's October meeting, central bank officials voted 10-2 to keep their benchmark rate in a range between 3.75%-4% while awaiting incoming data.",
+      "feeds": [
+        "economy"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:25+08:00"
+    },
+    {
+      "id": "0a24ddbefb3b96a944a36bb9766bb53ca27c7631eec69243b10dbc3aececc153",
+      "source": "CNBC",
+      "title": "Here's the inflation breakdown for October 2026 — in one chart",
+      "publishedAtSgt": "2026-11-11T00:36:40+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "central bank raised rates in September amid a recent pickup in inflation, which economists largely attribute to the war in Iran. \"Investors do not need year-over-year figures to see that this was a hot inflation report and that prices are not on a sustainable path back toward the Fed's 2% target,\" Jason Pride, chief of investment strategy and research at Glenmede, a wealth management firm, wrote in an e-mail Tuesday.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:22+08:00"
+    },
+    {
+      "id": "da7f7e1212d76823288ce36a5612515eea97ee302aca7bdd04bcf3b1cf4b48f8",
+      "source": "CNBC",
+      "title": "Anthropic's trillion-dollar IPO is coming, but retail investors could have owned AI stock much earlier",
+      "publishedAtSgt": "2026-11-11T00:30:23+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-shares-invest.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "For many retail investors, the IPO may be the first chance they have to own Anthropic and even that ownership event will be out of reach with limited shares allocated to retail brokerage firms. \"This structure may allow investors to participate at lower minimums than would typically be required for a direct share purchase, while the fund manager handles the complexity of acquisition, ongoing administration, and tax reporting on behalf of investors,\" according to private wealth and alternative...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:24+08:00"
+    },
+    {
+      "id": "8c9a4eb0c6cd9ee71e421b2dea0c9c8a122c16f80d63af91252581667f509ee0",
+      "source": "CNBC",
+      "title": "Bridgepoint sees opportunity in 're-rated' real estate",
+      "publishedAtSgt": "2026-11-11T00:13:27+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/bridgepoint-sees-opportunity-in-re-rated-real-estate.html",
+      "category": "MARKET",
+      "relevanceScore": 58,
+      "relevanceReason": "supporting_market_description",
+      "summary": "While higher interest rates are chasing many investors away from real estate, Bridgepoint Group sees growing opportunity in overlooked corners of the property market, according to company executives. This summer, it announced the acquisition of Kayne Anderson Real Estate, the real-estate investment firm with over $22 billion in assets. He said the firm focuses on high-growth, high-margin businesses that are more resilient to interest rate swings.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:24+08:00"
+    }
+  ],
+  "articleCount": 7,
+  "updatedAtSgt": "2026-11-11T04:29:25+08:00"
+}

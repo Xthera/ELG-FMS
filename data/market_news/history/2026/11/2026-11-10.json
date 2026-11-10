@@ -5,6 +5,70 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "d60343bf22589bad400132c927afe0e1ba04a969f89f06acc0cd1a8c95189234",
+      "source": "CNBC",
+      "title": "Rivian CEO says new R2 SUV, autonomy make 2027 an ‘inflection year’ as EV maker marks five years since IPO",
+      "publishedAtSgt": "2026-11-10T23:11:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/rivian-r2-autonomy-2027-rj-scaringe.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Funding has long been a key debate for Rivian investors,\" Deutsche Bank analyst Edison Yu said in an Oct. Rivian plans to offer more details about its AI and autonomous plans during a second annual investor technology event on Dec. \"We view this as a likely positive catalyst as the event could set a path for AV features driving incremental vehicle demand & higher [software] revenue in 2027, building on 2026 growth,\" TD Cowen analyst Itay Michaeli said in an investor note last week.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:30+08:00"
+    },
+    {
+      "id": "f8856430ef548fd28c1a26e12db65d44b2646e2f98cbcfe39212210289a35213",
+      "source": "CNBC",
+      "title": "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
+      "publishedAtSgt": "2026-11-10T23:01:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/coreweave-earnings-preview-debt-capex.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The market will be closely watching what the neocloud company says about artificial intelligence spending — and how it plans to finance its infrastructure buildout. \"We think outlooks that communicate when and which avenues of funding will be tapped will increase investor confidence.\" CoreWeave stock and bonds have come under pressure as fears deepened about the enormous amount of debt it has taken out to build its data centers.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:30+08:00"
+    },
+    {
+      "id": "a94abcff5380feb557a4887aeea4deebaa4239618002b777df8e815194660af4",
+      "source": "CNBC",
+      "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal",
+      "publishedAtSgt": "2026-11-10T21:19:13+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/chip-stocks-rally-nvidia-scandal.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Did the brutal weeks-long punishment of AI stocks culminate last week and reverse higher Monday after a pileup of adverse headlines? In the past week, American voters resoundingly opposed data-center construction across much of the country and Anthropic lowered its target IPO valuation just before a sex-and-espionage scandal struck the one-man embodiment of the entire AI economy, Nvidia's Jensen Huang.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:30+08:00"
+    },
+    {
+      "id": "413d027ab406b579555544076d8fc752e1d145dfde66d59290138d9baba82419",
+      "source": "CNBC",
+      "title": "Polymarket says annualized revenue has topped $1.8 billion",
+      "publishedAtSgt": "2026-11-10T21:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Polymarket's revenue is being fueled by growth in that U.S. The revenue growth since June also comes after the company began a fresh $1 billion funding round that values Polymarket at $21 billion. Disclosure: CNBC and Kalshi have a commercial relationship that includes customer acquisition and a minority investment.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-11T04:29:30+08:00"
+    },
+    {
       "id": "caa42a6337f8b234841e97ac124798cf2be375818fdf20664a0ccf9f9caa4725",
       "source": "CNBC",
       "title": "Anthropic sets price range of $70 to $78 in upcoming IPO as AI lab marches toward Nasdaq",
@@ -307,6 +371,6 @@
       "collectedAtSgt": "2026-11-10T04:47:40+08:00"
     }
   ],
-  "articleCount": 19,
-  "updatedAtSgt": "2026-11-10T20:43:06+08:00"
+  "articleCount": 23,
+  "updatedAtSgt": "2026-11-11T04:29:30+08:00"
 }
