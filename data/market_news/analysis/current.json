@@ -1,10 +1,250 @@
 {
-  "generatedAtSgt": "2026-11-11T04:46:24.363088+08:00",
+  "generatedAtSgt": "2026-11-11T20:12:17.925515+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 242,
+  "articleCount": 250,
   "analyses": [
+    {
+      "articleId": "68a906b944cb787c5dca969f711bf5af9185cf2cb3f5dad00d772886a71a7444",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Nvidia shares rebounded 5% in premarket trading following a two-day decline driven by a company scandal involving CEO Jensen Huang, while analysts at Bank of America outlined various investment outcomes ahead of earnings.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The volatility in Nvidia shares highlights risks surrounding key tech sector leaders and broader AI trade sentiment, directly impacting portfolios heavily weighted in technology equities.",
+      "reasoning": "The article is classified under MARKET due to its focus on Nvidia stock price movements and investor sentiment. Sentiment is MIXED as a share rebound occurs amidst ongoing scrutiny and scandal concerns. It is highly important given Nvidia's central role in the AI market.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia shares rebound 5% as Huang faces scrutiny ahead of earnings",
+      "publishedAtSgt": "2026-11-11T18:56:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-11T19:55:31+08:00"
+    },
+    {
+      "articleId": "bce11db170d8a098883abdbba34284f2ca0f41178cd54bdbf9da8dc0aee26294",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "CoreWeave shares jumped 11% in premarket trading after reporting quarterly earnings that beat estimates and raising its full-year guidance, which helped ease investor concerns regarding a potential AI slowdown.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Positive earnings and raised guidance from a key AI infrastructure player help validate the sustainability of the AI trade and support technology sector valuations.",
+      "reasoning": "The article is classified as MARKET because it reports on a notable stock price movement and earnings beat for CoreWeave. It is relevant to fund monitoring as it provides direct insight into sentiment and demand trends within the artificial intelligence infrastructure sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CoreWeave stock pops 11% after outlook raise eases AI slowdown concerns",
+      "publishedAtSgt": "2026-11-11T18:11:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-11T19:55:31+08:00"
+    },
+    {
+      "articleId": "c06c1085e1a798b998897a16ed67ef4b29c77c98abb586a04c61af03d3c8e803",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Chinese tech and e-commerce giant Alibaba announced that the Hong Kong Stock Exchange will allow the spin-off of its semiconductor subsidiary T-Head, following the September release of its next-generation AI chip, the Zhenwu V900.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China",
+        "Hong Kong"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The potential public listing of T-Head highlights growth and capital-raising opportunities in the Chinese domestic semiconductor sector, particularly for AI chips competing with global giants like Nvidia.",
+      "reasoning": "Classified as TECHNOLOGY as it covers semiconductor development and corporate spin-off plans for an AI chip competitor. It is relevant for fund monitoring given the strategic importance of AI chip developments and Hong Kong listings.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+      "publishedAtSgt": "2026-11-11T15:47:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-11T19:55:32+08:00"
+    },
+    {
+      "articleId": "dedae925a56b51ee8c9d6f7b562db4006b4f307bb20f50c248f9d67a4ddf8f7d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Technology stocks face increased volatility in 2026, prompting investors to rotate into defensive stocks like Walmart while high-growth names like Nvidia trade at lower relative forward earnings multiples. Market observers note equity markets are in a state of alert with shifting sector exposures.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Consumer Staples"
+      ],
+      "investorImpact": "Investors should note the ongoing sector rotation from high-flying technology stocks into defensive plays, presenting both risks for momentum strategies and opportunities for value or stock-picking approaches.",
+      "reasoning": "The article discusses significant shifts in market sentiment and sector allocation patterns, highlighting a pivot to defensive stocks amid technology volatility, making it highly relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Investors pivot to defensive stocks as markets enter a ‘state of alert’",
+      "publishedAtSgt": "2026-11-11T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/tech-selloff-defensive-pivot.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-11T19:55:32+08:00"
+    },
+    {
+      "articleId": "ed570049e35616bf809f8554fa2d6675dc7184730f1d977e453eace1ec2dad60",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Anthropic, the maker of AI chatbot Claude, opened its Australian retail initial public offering on Wednesday, providing individual investors direct access to shares ahead of its planned Nasdaq listing, alongside offerings in Japan, Canada, and parts of Europe.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Australia",
+        "Japan",
+        "Canada",
+        "Europe",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Provides retail investors and funds access to a major AI company's pre-IPO and primary offering shares ahead of its broader Nasdaq listing, highlighting shifting capital access structures in the tech sector.",
+      "reasoning": "Classified as MARKET due to the retail IPO and upcoming Nasdaq listing events. Important because Anthropic is a major player in the artificial intelligence sector, and public market offerings of this scale impact equity markets and tech valuations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
+      "publishedAtSgt": "2026-11-11T09:52:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-11T09:58:01+08:00"
+    },
+    {
+      "articleId": "d3d01b2c7e6a9d4707a10ae054a0c98c033b4fa80d2140625aba7678e660d7d4",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Anthropic's explosive revenue growth supports its $1 trillion-plus valuation as it prepares for what could be a record-breaking IPO, offering 825 million shares at $70 to $78 each, alongside a $26 billion private placement backed by major AI players like Nvidia and Alphabet.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The massive IPO and private placement signal robust institutional and corporate appetite for market-leading AI assets, offering potential benchmark valuations and liquidity events for the broader technology and venture capital sectors.",
+      "reasoning": "Classified as MARKET due to the major IPO filing, valuation metrics, and substantial capital raising activities involving prominent market constituents like Nvidia and Alphabet. Significance is high given the potential record-breaking scale of the offering.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer says Anthropic's explosive growth could justify a record-breaking IPO",
+      "publishedAtSgt": "2026-11-11T07:46:35+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-11T09:58:01+08:00"
+    },
+    {
+      "articleId": "d98dfbf401fe451d77f3be25f7d6d3ddad9340614deae0779efb4b97051309f8",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance, easing concerns about an AI infrastructure slowdown despite broader market volatility and controversy.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The strong earnings and raised guidance from a key AI infrastructure provider offer reassurance to investors regarding ongoing enterprise demand for AI hardware and cloud services, counteracting recent negative sentiment.",
+      "reasoning": "Classified as MARKET due to corporate earnings and market sentiment impact. Sentiment is POSITIVE because revenue beats and guidance hikes alleviate slowdown concerns. Importance is HIGH due to the critical nature of AI infrastructure spending on broader tech valuations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+      "publishedAtSgt": "2026-11-11T07:16:15+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-11T09:58:01+08:00"
+    },
+    {
+      "articleId": "88dc3c6fb62e5f1389fa5d19559318ebdc4d4559a7941aead6c91a5f542cf4d3",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Following midterm elections where voters reacted against rising prices, the White House has vowed to maintain its tariff policies despite warnings from economists and studies showing consumers bear a significant portion of the cost increases.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Goods",
+        "Retail",
+        "Industrials"
+      ],
+      "investorImpact": "Continued tariffs create inflationary pressures and potential supply chain disruptions, impacting retail and consumer goods sectors and influencing broader monetary policy and interest rate outlooks.",
+      "reasoning": "The article is classified as Geopolitical due to the focus on White House trade policy and tariffs, and carries high importance and negative sentiment because of its inflationary implications for consumer prices and broader economic fallout.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+      "publishedAtSgt": "2026-11-11T05:45:46+08:00",
+      "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-11T09:58:01+08:00"
+    },
     {
       "articleId": "d771376ea7c7feed6dad54ad1a9dea2e47fbddd2579079a3778696eb7b345047",
       "relevant": true,
