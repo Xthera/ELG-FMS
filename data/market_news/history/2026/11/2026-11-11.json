@@ -5,6 +5,73 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "68a906b944cb787c5dca969f711bf5af9185cf2cb3f5dad00d772886a71a7444",
+      "source": "CNBC",
+      "title": "Nvidia shares rebound 5% as Huang faces scrutiny ahead of earnings",
+      "publishedAtSgt": "2026-11-11T18:56:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia's stock rose premarket on Wednesday, after falling for two days amid the scandal that has rocked the world's most valuable tech company. In a Tuesday note, Bank of America said it saw three scenarios with differing investment outcomes. It's certainly not good for the AI trade,\" Blank told CNBC's \"Squawk Box Europe\" on Wednesday.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T19:55:31+08:00"
+    },
+    {
+      "id": "bce11db170d8a098883abdbba34284f2ca0f41178cd54bdbf9da8dc0aee26294",
+      "source": "CNBC",
+      "title": "CoreWeave stock pops 11% after outlook raise eases AI slowdown concerns",
+      "publishedAtSgt": "2026-11-11T18:11:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CoreWeave shares jumped 11% in premarket trading Wednesday after the neocloud posted quarterly earnings that beat estimates and raised its guidance for the year. Neoclouds such as CoreWeave, Nebius and IREN have come under scrutiny this month as investors assessed the sustainability of the AI trade.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T19:55:31+08:00"
+    },
+    {
+      "id": "c06c1085e1a798b998897a16ed67ef4b29c77c98abb586a04c61af03d3c8e803",
+      "source": "CNBC",
+      "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+      "publishedAtSgt": "2026-11-11T15:47:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Chinese tech and e-commerce giant Alibaba announced late Tuesday that the Hong Kong Stock Exchange will allow the company to spin off its semiconductor subsidiary T-Head. In late September, Alibaba announced its next-generation AI chip, the Zhenwu V900, that it said delivers three times the performance of its predecessor, the Zhenwu M890 released in May.",
+      "feeds": [
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T19:55:32+08:00"
+    },
+    {
+      "id": "dedae925a56b51ee8c9d6f7b562db4006b4f307bb20f50c248f9d67a4ddf8f7d",
+      "source": "CNBC",
+      "title": "Investors pivot to defensive stocks as markets enter a ‘state of alert’",
+      "publishedAtSgt": "2026-11-11T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/tech-selloff-defensive-pivot.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Technology stocks — a key driver of rallies in recent years — have been notably volatile in 2026. \"Walmart trades on 40x forward earnings, near a record high, while Nvidia trades on 13x, near a record low.\" Russ Mould, investment director at AJ Bell, described equity markets as being \"in a state of alert, judging by how investors are rotating their sector exposures.\" \"Such movement matters, and can help stock pickers with their selections, bearing in mind the old adage that 'a bad stock in a...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T19:55:32+08:00"
+    },
+    {
       "id": "ed570049e35616bf809f8554fa2d6675dc7184730f1d977e453eace1ec2dad60",
       "source": "CNBC",
       "title": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
@@ -179,6 +246,6 @@
       "collectedAtSgt": "2026-11-11T04:29:24+08:00"
     }
   ],
-  "articleCount": 11,
-  "updatedAtSgt": "2026-11-11T09:58:01+08:00"
+  "articleCount": 15,
+  "updatedAtSgt": "2026-11-11T19:55:32+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-11T09:58:01+08:00",
+  "generatedAtSgt": "2026-11-11T19:55:32+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,73 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "68a906b944cb787c5dca969f711bf5af9185cf2cb3f5dad00d772886a71a7444",
+      "source": "CNBC",
+      "title": "Nvidia shares rebound 5% as Huang faces scrutiny ahead of earnings",
+      "publishedAtSgt": "2026-11-11T18:56:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia's stock rose premarket on Wednesday, after falling for two days amid the scandal that has rocked the world's most valuable tech company. In a Tuesday note, Bank of America said it saw three scenarios with differing investment outcomes. It's certainly not good for the AI trade,\" Blank told CNBC's \"Squawk Box Europe\" on Wednesday.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T19:55:31+08:00"
+    },
+    {
+      "id": "bce11db170d8a098883abdbba34284f2ca0f41178cd54bdbf9da8dc0aee26294",
+      "source": "CNBC",
+      "title": "CoreWeave stock pops 11% after outlook raise eases AI slowdown concerns",
+      "publishedAtSgt": "2026-11-11T18:11:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CoreWeave shares jumped 11% in premarket trading Wednesday after the neocloud posted quarterly earnings that beat estimates and raised its guidance for the year. Neoclouds such as CoreWeave, Nebius and IREN have come under scrutiny this month as investors assessed the sustainability of the AI trade.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T19:55:31+08:00"
+    },
+    {
+      "id": "c06c1085e1a798b998897a16ed67ef4b29c77c98abb586a04c61af03d3c8e803",
+      "source": "CNBC",
+      "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+      "publishedAtSgt": "2026-11-11T15:47:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Chinese tech and e-commerce giant Alibaba announced late Tuesday that the Hong Kong Stock Exchange will allow the company to spin off its semiconductor subsidiary T-Head. In late September, Alibaba announced its next-generation AI chip, the Zhenwu V900, that it said delivers three times the performance of its predecessor, the Zhenwu M890 released in May.",
+      "feeds": [
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T19:55:32+08:00"
+    },
+    {
+      "id": "dedae925a56b51ee8c9d6f7b562db4006b4f307bb20f50c248f9d67a4ddf8f7d",
+      "source": "CNBC",
+      "title": "Investors pivot to defensive stocks as markets enter a ‘state of alert’",
+      "publishedAtSgt": "2026-11-11T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/tech-selloff-defensive-pivot.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Technology stocks — a key driver of rallies in recent years — have been notably volatile in 2026. \"Walmart trades on 40x forward earnings, near a record high, while Nvidia trades on 13x, near a record low.\" Russ Mould, investment director at AJ Bell, described equity markets as being \"in a state of alert, judging by how investors are rotating their sector exposures.\" \"Such movement matters, and can help stock pickers with their selections, bearing in mind the old adage that 'a bad stock in a...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-11T19:55:32+08:00"
+    },
     {
       "id": "ed570049e35616bf809f8554fa2d6675dc7184730f1d977e453eace1ec2dad60",
       "source": "CNBC",
@@ -1534,70 +1601,6 @@
       "feeds": [
         "latest",
         "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-05T10:30:30+08:00"
-    },
-    {
-      "id": "33611218d4ede2613567b8ba31c07cf2198a455891e87b88ddf87e291b09351b",
-      "source": "CNBC",
-      "title": "Snap shares fall over 10% on third-quarter revenue miss",
-      "publishedAtSgt": "2026-11-05T08:14:47+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/snap-q3-earnings-report-2026.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Snap shares sank over 10% when the Snapchat parent missed on revenue and daily active users in its third-quarter earnings report Wednesday. Snap executives said in an investor letter that the company plans for globally monthly active users to become its \"primary audience metric\" starting in its first quarter for 2027.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-05T10:30:30+08:00"
-    },
-    {
-      "id": "b8a3f2a704d10b8b30ef4752893bcf7debfaeba56c2fe0bfb03bcf1215bc42ad",
-      "source": "CNBC",
-      "title": "Inside India newsletter: India weighs a tax cut to win over foreign investors. Will it work?",
-      "publishedAtSgt": "2026-11-05T08:04:36+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/india-tax-foreign-investors-nifty.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Bhartia highlighted that foreign investors put in about 570 billion rupees ($6 billion) into Indian equities in September of 2024, and a month later pulled out 940 billion rupees to chase cheaper Chinese stocks. Multiple risks are weighing down Indian markets right now, including strained ties with the U.S., higher energy prices, a depreciating currency and uncertainty over the impact of artificial intelligence.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-05T10:30:29+08:00"
-    },
-    {
-      "id": "02c50df6753d61f1ec97b796ad470132f63c925e2d46f2d2a155569fa3ac0ebd",
-      "source": "CNBC",
-      "title": "Qualcomm stock drops 7% on weak earnings forecast as memory shortage weighs on smartphone sales",
-      "publishedAtSgt": "2026-11-05T07:38:11+08:00",
-      "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Most of Qualcomm's chip sales come from system-on-chips and modems for smartphones. Still, handset chip sales during the quarter fell 26% to $5.14 billion, trailing a StreetAccount estimate of $5.21 billion. Qualcomm said it's starting to see sequential growth in the category, and that Android shipments in China have bottomed, even though the company predicts the handset market will be flat in 2027.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-05T10:30:30+08:00"
-    },
-    {
-      "id": "5889db13bfecf21becb334cc67c30edf312dfa3ad49e66f2e6a17ae8b5f10e5b",
-      "source": "CNBC",
-      "title": "A 'demand decade' ahead for energy? BP, Baker Hughes CEOs weigh the investment outlook",
-      "publishedAtSgt": "2026-11-05T07:23:03+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/energy-leaders-investment-outlook.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Rising energy demand is creating new investment opportunities even as geopolitical risks and uncertain oil prices challenge the industry. Baker Hughes CEO Lorenzo Simonelli is optimistic about the longer-term outlook, pointing to AI, population growth and developing nations as factors supporting continued energy demand growth.",
-      "feeds": [
-        "latest",
         "world"
       ],
       "collectedAtSgt": "2026-11-05T10:30:30+08:00"
