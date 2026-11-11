@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-11T19:55:32+08:00",
+  "generatedAtSgt": "2026-11-12T04:14:08+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,102 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "e469acc58e1e3017cc54f75363120e744089eed096ab8e44a5007023ca841a61",
+      "source": "CNBC",
+      "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+      "publishedAtSgt": "2026-11-12T04:02:12+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "warned Wednesday that President Donald Trump's tariffs are driving up investment costs and discouraging business expansion, as new Federal Reserve research points to more price hikes for American consumers next year. trade law, saying a resolution would help businesses make long-term investment decisions. Speaking on the same panel, France's ambassador, Aurélien Lechevallier, urged greater cooperation on AI and energy rather than continued trade disputes.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T04:14:02+08:00"
+    },
+    {
+      "id": "d7075bb48658109c99c3db6cbc3b672e57c549d4cba65a40a121db0a600179f3",
+      "source": "CNBC",
+      "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
+      "publishedAtSgt": "2026-11-12T03:54:27+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Had payroll tax revenue kept up with GDP, the program could pay full benefits until 2059, according to the research — an additional 25 years beyond the latest projected depletion date of 2034 for the program's combined funds. \"Social Security's finances have weakened not simply because America has grown older, but because the economy has changed, while the program's revenue system has not,\" Richard Johnson, vice president of financial security at the AARP Public Policy Institute, said during a...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-12T04:14:03+08:00"
+    },
+    {
+      "id": "160b57b2079d019d2010e8f378ab0a4cf04cd7506c66e9579986f66ebda5a332",
+      "source": "CNBC",
+      "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
+      "publishedAtSgt": "2026-11-12T03:17:19+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company has made hundreds of billions of dollars in financial commitments to other firms to help the industry grow, earning it the nickname the \"central bank of AI.\" The Federal Reserve and other financial institutions are closely watching the AI buildout to monitor for the possibility that an unexpected event could destabilize the global financial system. 6 peak through Tuesday's close, amid a broader reassessment of the AI trade prompted by Democrats' surprising victory in the Nov.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T04:14:02+08:00"
+    },
+    {
+      "id": "f3247192932c01bf4bdef59689df09b24c1b3754bb6e2d722d03fc42508190b0",
+      "source": "CNBC",
+      "title": "Bouncing Wynn Shares might be primed for the 'wheel strategy'",
+      "publishedAtSgt": "2026-11-12T02:24:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/bouncing-wynn-shares-might-be-primed-for-the-wheel-strategy.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "In the case of Wynn Resorts shares, it might be time to bet two for good. If the stock dips and you are assigned, you acquire shares at a discount. Once assigned, you move to step two: selling covered calls against your new stock position to generate continuous income until the shares are eventually called away, after which you revert back to step one and play again.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-12T04:14:03+08:00"
+    },
+    {
+      "id": "ff4bf36ffc225de1ce8f45044144ff57c36f5faf9f13571be09d49576d1aebef",
+      "source": "CNBC",
+      "title": "JetBlue unveils new first class seats to bring back profits",
+      "publishedAtSgt": "2026-11-12T01:20:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Last month, JetBlue executives sought to calm investors after shares in the airline hit a record low following a report that bondholders had contracted restructuring advisors. normal investor engagement.\" She said the company made it clear to bondholders that JetBlue doesn't need to reorganize. The airline's shares are up more than 40% this month, more than other passenger carriers, as of midday Wednesday, though they are still off about 11% so far this year.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T04:14:04+08:00"
+    },
+    {
+      "id": "1e44e684e2f851d1624f348ac586cc53497becbf1b6cf2f2987e39f965ed9f14",
+      "source": "CNBC",
+      "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+      "publishedAtSgt": "2026-11-12T00:49:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "It's on ordinary consumers' mind.\" Tuesday's inflation report landed at a critical juncture for the central bankers at the Federal Reserve as they considers their next interest rate move — and the moves they may have to make in the months ahead if the numbers continue to come in hot.",
+      "feeds": [
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T04:14:04+08:00"
+    },
     {
       "id": "68a906b944cb787c5dca969f711bf5af9185cf2cb3f5dad00d772886a71a7444",
       "source": "CNBC",
@@ -1505,105 +1601,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-05T20:26:34+08:00"
-    },
-    {
-      "id": "995d4cf71e3ba8f24ccb4462e360ee9e7a9ed7891a164415f0c166fe39608d69",
-      "source": "CNBC",
-      "title": "How the midterms could fuel the K-shaped AI trade",
-      "publishedAtSgt": "2026-11-05T19:01:39+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "BMI warned that a sharp slowdown in data center construction and AI investment could produce a greater-than-expected decline in overall investment, The Business Times reported, citing the firm's post-midterm analysis. Projects planned for 2028 face greater exposure to permitting delays and regulatory uncertainty, investment bank Nomura said in a note Wednesday about the midterm results.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-05T20:26:34+08:00"
-    },
-    {
-      "id": "280a66d21e1fd55de6e807e8db5fa49dd9392b8a014df03243340da8560f67cd",
-      "source": "CNBC",
-      "title": "OpenAI pledges to pay for data center power after election highlights AI concerns",
-      "publishedAtSgt": "2026-11-05T18:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 82,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "OpenAI reaffirmed its promise to pay the full cost of powering data centers as part of a series of commitments the company published Thursday, two days after voters at the polls roundly rejected the rapid expansion of AI. The artificial intelligence company said in its commitments that for data centers it owns and operates, it will solicit community input, publish construction plans and stay away from use of non-disclosure agreements with public officials.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-05T20:26:35+08:00"
-    },
-    {
-      "id": "83f10ed76e912c6f67b0989535548787f113d02267ef0ce7df4a022d610ee660",
-      "source": "CNBC",
-      "title": "Rheinmetall shares plunge 17% after outlook cut as military contracts stall",
-      "publishedAtSgt": "2026-11-05T17:06:40+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/rheinmetall-stock-outlook-sales-germany.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Rheinmetall shares fell over 17% in early trading, bringing year-to-date losses to about 46%. They warned the news could fuel broader investor concerns about traditional defense technology. Rheinmetall said delays to the Boxer contract would also push expected advance payments into 2027, affecting its previous cash conversion target of over 40%, although it still expects positive operating free cash flow this year.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-05T20:26:35+08:00"
-    },
-    {
-      "id": "8c2f38e1119f912dcf477d382a44487f10924bbb170802a828c75ea9dd4f956b",
-      "source": "CNBC",
-      "title": "Inside the chip talent war: Trade secrets and rising Chinese rivals",
-      "publishedAtSgt": "2026-11-05T11:53:18+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/semiconductor-china-korea-talents-rivalry.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Meanwhile, Chinese semiconductor companies have sought to close the technology gap by recruiting experienced overseas engineers with high salaries, stock options, housing and family support, according to Jeongku Choi, a senior analyst at Counterpoint Research. Protecting trade secrets The growing competition is putting greater focus on how semiconductor companies protect the knowledge accumulated by engineers working on complex manufacturing processes.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-05T20:26:35+08:00"
-    },
-    {
-      "id": "2f8dc86e75addd1da596e40465198c0041ffd69b7fc52fc22e8237dbc82e807f",
-      "source": "CNBC",
-      "title": "LIV Golf faces liquidation after BC Partners scraps rescue plan",
-      "publishedAtSgt": "2026-11-05T11:11:58+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/liv-golf-liquidation-bc-partners.html",
-      "category": "MARKET",
-      "relevanceScore": 100,
-      "relevanceReason": "financial_market_legal_story",
-      "summary": "LIV Golf could be headed for liquidation after BC Partners Credit reportedly dropped plans to finance a relaunch of the breakaway league. The investment firm had pledged up to $300 million for a revamped version of LIV, known as LIV 2.0, but withdrew the plan after LIV Golf failed to secure enough player commitments, according to the Associated Press.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-05T20:26:35+08:00"
-    },
-    {
-      "id": "cfd0558291c06f1191b3e2def2bba8785ec0abfcab6d129713745d02b235641a",
-      "source": "CNBC",
-      "title": "NextDC shares surge 43% after Goodman, Digital Realty stake purchases",
-      "publishedAtSgt": "2026-11-05T08:24:57+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/nextdc-goodman-group-digital-realty-data-centers-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of Australian data center operator NextDC surged more than 42% Thursday after Goodman Group and U.S.-listed data center operator Digital Realty moved to acquire stakes of up to 9.9% in the company. In a regulatory filing on the same day, NextDC said the two companies conducted an aftermarket bookbuild Wednesday, seeking shares at A$9.50 apiece. Goodman and Digital Realty told investors they had no current intention of making a takeover bid, but reserved the right to do so.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-05T10:30:30+08:00"
     }
   ]
 }
