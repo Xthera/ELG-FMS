@@ -5,6 +5,103 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "c8ab11309baa65c71062954b49d38cb952b321b6610cd7f547db42b7dc18089f",
+      "source": "CNBC",
+      "title": "Nvidia stock falls 8% as investors await Jensen Huang’s fate",
+      "publishedAtSgt": "2026-11-12T20:05:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Meanwhile, shares of chip stocks Intel, Marvell, Arm and Qualcomm were all trading lower. Richard Reyle, chief investment officer at Questar Capital Partners, said Nvidia's lack of a succession plan makes the stock \"uninvestable.\" \"Nvidia doesn't have that person in place, and so it's going to be either a choice of keeping Jensen and being faced with months and months of being hauled in front of probably congressional boards and things to explain themselves and all kinds of interrogations,\"...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:45+08:00"
+    },
+    {
+      "id": "b1f8ea72f6c7443a2108b17295b3c07db0122e86eabad351da985ef0790d799e",
+      "source": "CNBC",
+      "title": "Nerves around Nvidia as investors await the outcome of Board's crisis CEO meeting",
+      "publishedAtSgt": "2026-11-12T19:06:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The shares are back under pressure as investors await the outcome of a crisis board meeting... Investors are on tenterhooks, with shares sinking around 5% in premarket trading. The world's wealthiest investors are increasingly looking beyond stocks and bonds, pouring money into hedge funds, private equity and infrastructure assets, as market volatility and fears about stubborn inflation spur diversification.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "id": "5281bbccba988445f0288fad25bc733be4b82d627297ad1a1276ae459da9cfba",
+      "source": "CNBC",
+      "title": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
+      "publishedAtSgt": "2026-11-12T17:05:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Ukrainian defense technology company UFORCE has raised $700 million in a funding round valuing it at $6 billion, as investor interest grows in autonomous weapons systems tested on the battlefield in Ukraine. UFORCE, which develops unmanned aerial, maritime, and land systems as well as AI software used to coordinate them, raised $50 million at a valuation of around $1 billion in March.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "id": "9431cb11a32215ef6fe226be158bcee30ae849854767d50c1f7b65839f7b6c4f",
+      "source": "CNBC",
+      "title": "AI is coming for consulting’s billable hours — and its graduate pipeline",
+      "publishedAtSgt": "2026-11-12T16:20:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/ai-consulting-billable-hours-graduate-hiring.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Emiko Caerlewy-Smith, head of investor relations at London-based challenger consultancy Elixirr, argued that firms like hers are better positioned for the AI era. Claire Trachet, a former Deutsche Bank mergers and acquisitions banker turned founder of London-based advisory firm Trachet, told CNBC that AI is helping junior employees do their jobs faster.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "id": "a2aa2d60c1cbf668d60751e69d74828059193d288c940dcf0d89264de1196150",
+      "source": "CNBC",
+      "title": "Treasury yields edge higher as investors await fresh inflation and housing data",
+      "publishedAtSgt": "2026-11-12T15:38:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Treasury yields edged higher Thursday as bond trading resumed after the Veterans Day closure and investors looked ahead to fresh inflation and housing data for clues about the economy and the Federal Reserve's next move. The 2-year Treasury note yield, which is more sensitive to short-term Federal Reserve interest rate decisions, was 5 basis points higher at 4.7800%. The longer-dated 30-year Treasury note yield — which often moves on geopolitical developments — was steady at 5.3503%.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "id": "301dee4484163892eb673e2307cd69bac138216e3e370147bbb931c061a2e93c",
+      "source": "CNBC",
+      "title": "The world's super-rich are piling into alternative investments. Here's why",
+      "publishedAtSgt": "2026-11-12T11:36:44+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/rich-wealth-alternative-assets-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The world's wealthiest investors are increasingly looking beyond stocks and bonds, pouring money into hedge funds, private equity and infrastructure assets, as market volatility and fears about stubborn inflation spur diversification. The shift comes as investors grapple with increasingly concentrated equity markets, geopolitical uncertainty and concerns that stocks and bonds may not provide the same protection against market downturns as they once did, experts said.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:45+08:00"
+    },
+    {
       "id": "cb1e5281748620ca2249ef83d34c50f5e0d8e335955fc6c7781a9ad031d32ef0",
       "source": "CNBC",
       "title": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
@@ -179,6 +276,6 @@
       "collectedAtSgt": "2026-11-12T04:14:04+08:00"
     }
   ],
-  "articleCount": 11,
-  "updatedAtSgt": "2026-11-12T11:04:40+08:00"
+  "articleCount": 17,
+  "updatedAtSgt": "2026-11-12T20:47:46+08:00"
 }

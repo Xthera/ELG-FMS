@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-12T11:04:40+08:00",
+  "generatedAtSgt": "2026-11-12T20:47:46+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,103 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "c8ab11309baa65c71062954b49d38cb952b321b6610cd7f547db42b7dc18089f",
+      "source": "CNBC",
+      "title": "Nvidia stock falls 8% as investors await Jensen Huang’s fate",
+      "publishedAtSgt": "2026-11-12T20:05:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Meanwhile, shares of chip stocks Intel, Marvell, Arm and Qualcomm were all trading lower. Richard Reyle, chief investment officer at Questar Capital Partners, said Nvidia's lack of a succession plan makes the stock \"uninvestable.\" \"Nvidia doesn't have that person in place, and so it's going to be either a choice of keeping Jensen and being faced with months and months of being hauled in front of probably congressional boards and things to explain themselves and all kinds of interrogations,\"...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:45+08:00"
+    },
+    {
+      "id": "b1f8ea72f6c7443a2108b17295b3c07db0122e86eabad351da985ef0790d799e",
+      "source": "CNBC",
+      "title": "Nerves around Nvidia as investors await the outcome of Board's crisis CEO meeting",
+      "publishedAtSgt": "2026-11-12T19:06:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The shares are back under pressure as investors await the outcome of a crisis board meeting... Investors are on tenterhooks, with shares sinking around 5% in premarket trading. The world's wealthiest investors are increasingly looking beyond stocks and bonds, pouring money into hedge funds, private equity and infrastructure assets, as market volatility and fears about stubborn inflation spur diversification.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "id": "5281bbccba988445f0288fad25bc733be4b82d627297ad1a1276ae459da9cfba",
+      "source": "CNBC",
+      "title": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
+      "publishedAtSgt": "2026-11-12T17:05:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Ukrainian defense technology company UFORCE has raised $700 million in a funding round valuing it at $6 billion, as investor interest grows in autonomous weapons systems tested on the battlefield in Ukraine. UFORCE, which develops unmanned aerial, maritime, and land systems as well as AI software used to coordinate them, raised $50 million at a valuation of around $1 billion in March.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "id": "9431cb11a32215ef6fe226be158bcee30ae849854767d50c1f7b65839f7b6c4f",
+      "source": "CNBC",
+      "title": "AI is coming for consulting’s billable hours — and its graduate pipeline",
+      "publishedAtSgt": "2026-11-12T16:20:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/ai-consulting-billable-hours-graduate-hiring.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Emiko Caerlewy-Smith, head of investor relations at London-based challenger consultancy Elixirr, argued that firms like hers are better positioned for the AI era. Claire Trachet, a former Deutsche Bank mergers and acquisitions banker turned founder of London-based advisory firm Trachet, told CNBC that AI is helping junior employees do their jobs faster.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "id": "a2aa2d60c1cbf668d60751e69d74828059193d288c940dcf0d89264de1196150",
+      "source": "CNBC",
+      "title": "Treasury yields edge higher as investors await fresh inflation and housing data",
+      "publishedAtSgt": "2026-11-12T15:38:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Treasury yields edged higher Thursday as bond trading resumed after the Veterans Day closure and investors looked ahead to fresh inflation and housing data for clues about the economy and the Federal Reserve's next move. The 2-year Treasury note yield, which is more sensitive to short-term Federal Reserve interest rate decisions, was 5 basis points higher at 4.7800%. The longer-dated 30-year Treasury note yield — which often moves on geopolitical developments — was steady at 5.3503%.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "id": "301dee4484163892eb673e2307cd69bac138216e3e370147bbb931c061a2e93c",
+      "source": "CNBC",
+      "title": "The world's super-rich are piling into alternative investments. Here's why",
+      "publishedAtSgt": "2026-11-12T11:36:44+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/rich-wealth-alternative-assets-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The world's wealthiest investors are increasingly looking beyond stocks and bonds, pouring money into hedge funds, private equity and infrastructure assets, as market volatility and fears about stubborn inflation spur diversification. The shift comes as investors grapple with increasingly concentrated equity markets, geopolitical uncertainty and concerns that stocks and bonds may not provide the same protection against market downturns as they once did, experts said.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T20:47:45+08:00"
+    },
     {
       "id": "cb1e5281748620ca2249ef83d34c50f5e0d8e335955fc6c7781a9ad031d32ef0",
       "source": "CNBC",
@@ -1499,103 +1596,6 @@
       "summary": "Chipmakers plummeted on Thursday, with Nvidia pushing the Nasdaq toward its worst day in 19 months, after this week's midterm election results raised concerns on Wall Street that the artificial intelligence buildout is poised to slow down. \"The technology is still going to continue on in terms of its development, but if there is a slowdown in the actual development and the buildings and the infrastructure and so forth, that's what stocks are going to trade off,\" said Peter Boockvar, chief...",
       "feeds": [
         "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T04:41:40+08:00"
-    },
-    {
-      "id": "255b901a35f1f79b414c1494cd30b99b8357c04d0acf6987adf47bd7456dbc09",
-      "source": "CNBC",
-      "title": "CNBC's experts on whether the AI trade is ending and what investors should do next",
-      "publishedAtSgt": "2026-11-06T03:19:31+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/cnbcs-experts-on-whether-the-ai-trade-is-ending-and-what-investors-should-do-next.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Amid a powerful rout in tech stocks, investors told CNBC on Thursday that something may be fundamentally breaking in the AI trade following the big success of Democrats in Tuesday's midterm elections and the threat they try to slow the data center buildout. \"The entire economy and the consumer and earnings growth are all levered to that buildout.\" The selling Thursday spilled over to non-AI stocks with the Dow Jones Industrial average down more than 1,600 points.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
-    },
-    {
-      "id": "b5c83995c5f208b574bb2c93709a430aaee2a29b8600b0cf21dbfb1d6f07dd1e",
-      "source": "CNBC",
-      "title": "Trump's energy deals are about to face a wave of investigations by Democrats",
-      "publishedAtSgt": "2026-11-06T03:13:06+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/trump-election-energy-venezuela-critical-mineral-renewable-iran.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Democrats have pressed the White House for months on the legality of its intervention in Venezuela's oil sector and its cancellation of renewable energy projects funded by the Biden administration. Washington seized control of Venezuela's oil exports in January after ousting former President Nicolás Maduro in a military raid. The Pentagon took a stake in an obscure oil company, North American Blue Energy Partners, or NABEP, that is supposed to develop Venezuelan oil reserves.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T04:41:40+08:00"
-    },
-    {
-      "id": "94b1a3b87dfc31ab0b245e689b7ca46c8156c6b1b07adba4108aac2762fa0904",
-      "source": "CNBC",
-      "title": "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard",
-      "publishedAtSgt": "2026-11-06T02:52:21+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/meta-spacex-ai-data-centers-use-millions-of-gallons-of-water-a-day.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Voters made it clear this week that they want to see limits put on data centers for artificial intelligence, passing 40 of 41 proposed ballot measures that would place restrictions on some of the more than 2,000 new facilities planned for communities around the nation. Giant 1-gigawatt AI data centers from the likes of Meta, Google, Amazon and SpaceX can consume up to 10 million gallons of water per day, according to Shaolei Ren, a data center researcher and professor at University of...",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-06T04:41:41+08:00"
-    },
-    {
-      "id": "1260aae0d3b03887a3f5f5d2eaa72949cd8bd2f17774b2e71f392e25478283ac",
-      "source": "CNBC",
-      "title": "Jim Cramer says the AI trade is not going away as Nasdaq enters correction",
-      "publishedAtSgt": "2026-11-06T02:46:23+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/05/cramer-says-the-ai-trade-is-not-going-away-as-nasdaq-enters-correction.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Stocks plunged Thursday, reversing much of the previous session's rally as investors fled technology stocks for more defensive sectors. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-06T04:41:41+08:00"
-    },
-    {
-      "id": "9367ee70ff85a71585103737eafe8f589f6af3745fb71ac86a83800af524c211",
-      "source": "CNBC",
-      "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
-      "publishedAtSgt": "2026-11-06T00:34:33+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Richmond Federal Reserve President Thomas Barkin said Thursday that he expects the central bank will have to raise interest rates further, though he's not sure by how much or at what pace. In a CNBC interview that was part of the Richmond Fed's 2026 CFO Summit, the policymaker expressed concern over inflation and said monetary policy will need to adjust.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T04:41:40+08:00"
-    },
-    {
-      "id": "7d19b9db0f8a0843516453983ea7ca218242993603eb0774a7bdf1e0071f640b",
-      "source": "CNBC",
-      "title": "Marc Lore's Wonder confidentially files for IPO",
-      "publishedAtSgt": "2026-11-06T00:27:10+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/wonder-confidential-ipo-filing.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Wonder has been able to afford such expensive dealmaking thanks to more than $3 billion in venture funding. Wonder's Series D fundraising round earlier this year raised its pre-money valuation to $9 billion. Weak consumer sentiment has weighed on restaurant stocks recently, plus market volatility has resulted in a shaky IPO market for companies across a range of industries.",
-      "feeds": [
-        "latest",
-        "business",
         "technology",
         "world"
       ],
