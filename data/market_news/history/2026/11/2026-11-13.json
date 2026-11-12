@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-13",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "c25a87e60e5841e4f02a69ee4be09f1072939fa95a1afb23b63e32fe1b17ac14",
+      "source": "CNBC",
+      "title": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
+      "publishedAtSgt": "2026-11-13T04:32:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It's a historic level of growth for any business, and particularly notable for a company that spent most of its first few decades as a niche technology provider for video games. That technology eventually turned Nvidia into the most important player in AI and a key American asset for national defense.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T04:51:57+08:00"
+    },
+    {
+      "id": "c7547c239ac4667f67fa88e05857ea748de5ba058d0b4505e06a5e2ac10e5b86",
+      "source": "CNBC",
+      "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+      "publishedAtSgt": "2026-11-13T03:05:25+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Federal Reserve won't vote on a potential interest-rate change at its October 2027 meeting, a departure that is part of a broader initiative from Chairman Kevin Warsh aimed at reducing the central bank's market footprint. According to an announcement Thursday, the rate-setting Federal Open Market Committee will set aside its Oct.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-13T04:51:57+08:00"
+    },
+    {
+      "id": "bb91e0bef0421f10ecea0dd093fa7678678b202ed9f3ab0d683474b3bac273b7",
+      "source": "CNBC",
+      "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+      "publishedAtSgt": "2026-11-13T03:04:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "oil prices rose Thursday, as comments from President Donald Trump stoked worries that an end to the U.S.-Iran war was not in sight. \"While it caps the prompt barrel, it does nothing to cheapen the next one, which is why you can't get bearish here nor can you get really bullish,\" said Currie to CNBC's \"The Exchange.\" On the investing front, Currie said he still favors long-dated oil and the drilling and producer stocks.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-13T04:51:58+08:00"
+    },
+    {
+      "id": "ca00fa851cc8670478f706ddbb37e946c37386685e53f52e5dcdaac3e455103f",
+      "source": "CNBC",
+      "title": "Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook",
+      "publishedAtSgt": "2026-11-13T01:53:31+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nebius shares sank 16% on Thursday as one of the biggest publicly traded neoclouds issued disappointing full-year revenue guidance. The stock move also comes amid the resignation of Nvidia CEO Jensen Huang, after stinging revelations about multiple extramarital affairs, including one with an alleged Chinese spy. That's provided a boost to the companies' stocks, which had suffered steep selloffs in recent weeks on concern about the sustainability of the artificial intelligence buildout.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T04:51:58+08:00"
+    },
+    {
+      "id": "befccb7d17fa5c7519e93dc424c9fa7189b5e1c6939fc70f9b5fcda4ac2a0eb6",
+      "source": "CNBC",
+      "title": "IRS announces 2027 401(k) contribution limits, raises savings cap: What it means for your money",
+      "publishedAtSgt": "2026-11-13T01:23:14+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/401k-contribution-limits-2027.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But investors aged 60 to 63 can instead save an extra $11,750, based on changes enacted via Secure 2.0. IRA catch-up contributions for investors age 50 and older will be $1,100, the same as 2026. The announcement comes one week after the agency released dozens of other inflation adjustments for 2027, including federal income tax brackets, higher capital gains brackets, estate and gift tax exemptions and provisions impacting families, among others.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-13T04:51:58+08:00"
+    }
+  ],
+  "articleCount": 5,
+  "updatedAtSgt": "2026-11-13T04:51:58+08:00"
+}

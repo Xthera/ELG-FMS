@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-12T20:47:46+08:00",
+  "generatedAtSgt": "2026-11-13T04:52:02+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,102 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "c25a87e60e5841e4f02a69ee4be09f1072939fa95a1afb23b63e32fe1b17ac14",
+      "source": "CNBC",
+      "title": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
+      "publishedAtSgt": "2026-11-13T04:32:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "It's a historic level of growth for any business, and particularly notable for a company that spent most of its first few decades as a niche technology provider for video games. That technology eventually turned Nvidia into the most important player in AI and a key American asset for national defense.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T04:51:57+08:00"
+    },
+    {
+      "id": "c7547c239ac4667f67fa88e05857ea748de5ba058d0b4505e06a5e2ac10e5b86",
+      "source": "CNBC",
+      "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+      "publishedAtSgt": "2026-11-13T03:05:25+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Federal Reserve won't vote on a potential interest-rate change at its October 2027 meeting, a departure that is part of a broader initiative from Chairman Kevin Warsh aimed at reducing the central bank's market footprint. According to an announcement Thursday, the rate-setting Federal Open Market Committee will set aside its Oct.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-13T04:51:57+08:00"
+    },
+    {
+      "id": "bb91e0bef0421f10ecea0dd093fa7678678b202ed9f3ab0d683474b3bac273b7",
+      "source": "CNBC",
+      "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+      "publishedAtSgt": "2026-11-13T03:04:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "oil prices rose Thursday, as comments from President Donald Trump stoked worries that an end to the U.S.-Iran war was not in sight. \"While it caps the prompt barrel, it does nothing to cheapen the next one, which is why you can't get bearish here nor can you get really bullish,\" said Currie to CNBC's \"The Exchange.\" On the investing front, Currie said he still favors long-dated oil and the drilling and producer stocks.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-13T04:51:58+08:00"
+    },
+    {
+      "id": "ca00fa851cc8670478f706ddbb37e946c37386685e53f52e5dcdaac3e455103f",
+      "source": "CNBC",
+      "title": "Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook",
+      "publishedAtSgt": "2026-11-13T01:53:31+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nebius shares sank 16% on Thursday as one of the biggest publicly traded neoclouds issued disappointing full-year revenue guidance. The stock move also comes amid the resignation of Nvidia CEO Jensen Huang, after stinging revelations about multiple extramarital affairs, including one with an alleged Chinese spy. That's provided a boost to the companies' stocks, which had suffered steep selloffs in recent weeks on concern about the sustainability of the artificial intelligence buildout.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T04:51:58+08:00"
+    },
+    {
+      "id": "befccb7d17fa5c7519e93dc424c9fa7189b5e1c6939fc70f9b5fcda4ac2a0eb6",
+      "source": "CNBC",
+      "title": "IRS announces 2027 401(k) contribution limits, raises savings cap: What it means for your money",
+      "publishedAtSgt": "2026-11-13T01:23:14+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/401k-contribution-limits-2027.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But investors aged 60 to 63 can instead save an extra $11,750, based on changes enacted via Secure 2.0. IRA catch-up contributions for investors age 50 and older will be $1,100, the same as 2026. The announcement comes one week after the agency released dozens of other inflation adjustments for 2027, including federal income tax brackets, higher capital gains brackets, estate and gift tax exemptions and provisions impacting families, among others.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-13T04:51:58+08:00"
+    },
+    {
+      "id": "b09316d11f16f79eb320404574947ce27e7c9b40230c7489c6cc13c246bdd68a",
+      "source": "CNBC",
+      "title": "Trump trade chief Greer speaks with 'Squawk Box' as tariff threats rise",
+      "publishedAtSgt": "2026-11-12T22:14:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/jamieson-greer-trump-tariffs-election-nvidia.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Trade Representative Jamieson Greer is set to speak with CNBC's \"Squawk Box\" Thursday morning, a week after a blue-wave election in which most voters said President Donald Trump's controversial tariff policies have made the economy worse. The import duties, which have ignited trade wars with multiple U.S. economic partners, will likely be a top target for Democrats once they take majority control of the House and Senate.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-13T04:52:02+08:00"
+    },
     {
       "id": "c8ab11309baa65c71062954b49d38cb952b321b6610cd7f547db42b7dc18089f",
       "source": "CNBC",
@@ -1501,105 +1597,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-06T20:10:46+08:00"
-    },
-    {
-      "id": "02ef28359d0edd06bb810a1888250a130adec613dc032d5efa0da86b8482d9c4",
-      "source": "CNBC",
-      "title": "India as an AI hedge? The country's stocks could see robust inflows as markets globally tank",
-      "publishedAtSgt": "2026-11-06T14:02:36+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/india-ai-tech-hedge-nifty50.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The Indian stock market is emerging as an attractive hedge as investors seek refuge from a brutal sell-off in the artificial intelligence trade, making it a strong contender for global capital. As sentiment around AI sours, foreign investors, who have been underweight on the Indian market for nearly two years due to high valuations, subdued earnings growth and lack of local AI tech champions, could start returning.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
-    },
-    {
-      "id": "54a0f7f90cd9cda94295604254552c01008e09a296980acd7fd9d9c58153a93c",
-      "source": "CNBC",
-      "title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
-      "publishedAtSgt": "2026-11-06T13:27:24+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "is likely to resume military action against Iran in the coming days, a move that could send oil prices sharply higher, according to Bob McNally, CEO of geopolitical and energy analysis firm Rapidan Energy Group. Oil prices had spiked above the $100 mark ahead of the midterm elections as investors weighed uncertainty surrounding the Iran conflict and the risk of further U.S.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
-    },
-    {
-      "id": "1652ed0620d78bf00322c586c899314ac0ee9244d3e44a67fd91ab2aa5da1c6b",
-      "source": "CNBC",
-      "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
-      "publishedAtSgt": "2026-11-06T09:41:32+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory as renewed concerns over artificial intelligence spending rattled investor sentiment. In Japan, semiconductor-related stocks also fell, with chip-testing equipment maker Advantest plunging 12.2%, while Tokyo Electron slid 7.3%. Technology investment giant SoftBank Group tumbled 11.6%.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T10:30:35+08:00"
-    },
-    {
-      "id": "ebafab5a6c0178925fb45e422acae4a2dc468c43fde7ad075391bfd042ea72ed",
-      "source": "CNBC",
-      "title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
-      "publishedAtSgt": "2026-11-06T07:25:02+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Following a 26% post-election plunge in its stock price, neocloud IREN said in its earnings report on Thursday that over $4 billion in annual recurring revenue projected to land in 2026 has been pushed out to at least January. Shares of IREN rose in extended trading, but that comes after a 55% drop over the past month. The company is being closely watched by investors as the AI trade shows signs of unwinding, particularly following the Democratic sweep in Tuesday's midterm elections.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-06T10:30:35+08:00"
-    },
-    {
-      "id": "d4135d3601d966ccc5645175595c7813a9545b31151f063ca3306b33427c249f",
-      "source": "CNBC",
-      "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
-      "publishedAtSgt": "2026-11-06T04:17:16+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Yassamin Ansari, D-Ariz., wrote that pausing AI development needs to be a top priority for the large Democratic majority in the House on Day 1. Greg Casar, D-Texas, the chair of the Congressional Progressive Caucus, amplified the post and said, \"Yes!\" According to the CNBC Voter Poll, 56% of voters said AI and data centers were a crucial or major factor in their decision at the ballot box.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T04:41:40+08:00"
-    },
-    {
-      "id": "0d465c9f204081452658621ea41088375017c5b3f0181fa5b386be4ca1578c8f",
-      "source": "CNBC",
-      "title": "AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025",
-      "publishedAtSgt": "2026-11-06T04:08:49+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Chipmakers plummeted on Thursday, with Nvidia pushing the Nasdaq toward its worst day in 19 months, after this week's midterm election results raised concerns on Wall Street that the artificial intelligence buildout is poised to slow down. \"The technology is still going to continue on in terms of its development, but if there is a slowdown in the actual development and the buildings and the infrastructure and so forth, that's what stocks are going to trade off,\" said Peter Boockvar, chief...",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T04:41:40+08:00"
     }
   ]
 }

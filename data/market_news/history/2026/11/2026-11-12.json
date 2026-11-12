@@ -5,6 +5,21 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "b09316d11f16f79eb320404574947ce27e7c9b40230c7489c6cc13c246bdd68a",
+      "source": "CNBC",
+      "title": "Trump trade chief Greer speaks with 'Squawk Box' as tariff threats rise",
+      "publishedAtSgt": "2026-11-12T22:14:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/jamieson-greer-trump-tariffs-election-nvidia.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Trade Representative Jamieson Greer is set to speak with CNBC's \"Squawk Box\" Thursday morning, a week after a blue-wave election in which most voters said President Donald Trump's controversial tariff policies have made the economy worse. The import duties, which have ignited trade wars with multiple U.S. economic partners, will likely be a top target for Democrats once they take majority control of the House and Senate.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-13T04:52:02+08:00"
+    },
+    {
       "id": "c8ab11309baa65c71062954b49d38cb952b321b6610cd7f547db42b7dc18089f",
       "source": "CNBC",
       "title": "Nvidia stock falls 8% as investors await Jensen Huang’s fate",
@@ -276,6 +291,6 @@
       "collectedAtSgt": "2026-11-12T04:14:04+08:00"
     }
   ],
-  "articleCount": 17,
-  "updatedAtSgt": "2026-11-12T20:47:46+08:00"
+  "articleCount": 18,
+  "updatedAtSgt": "2026-11-13T04:52:02+08:00"
 }
