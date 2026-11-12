@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-11-11T23:27:51+00:00",
+  "generatedAtUtc": "2026-11-12T13:11:10+00:00",
   "source": "Funds Links.xlsm",
   "fundCount": 67,
   "research": {
@@ -229,8 +229,8 @@
     "dividendFunds": 19,
     "paymentModeFunds": 67,
     "paymentModeCounts": {
-      "SRS": 56,
       "Cash": 67,
+      "SRS": 56,
       "CPF-OA": 14,
       "CPF-SA": 5
     },
@@ -258,9 +258,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.1278",
-        "offerPrice": "$1.1872",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$1.1344",
+        "offerPrice": "$1.1941",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "6.01%",
         "cumulative1m": "1.08%",
@@ -336,7 +336,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -352,9 +352,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Lower Risk",
-        "bidPrice": "$0.9715",
-        "offerPrice": "$1.0226",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.9720",
+        "offerPrice": "$1.0231",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "-1.09%",
         "cumulative1m": "2.09%",
@@ -418,7 +418,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -434,9 +434,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.1455",
-        "offerPrice": "$1.2057",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$1.1553",
+        "offerPrice": "$1.2161",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "8.54%",
         "cumulative1m": "-0.70%",
@@ -512,7 +512,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -528,9 +528,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Low to Medium Risk",
-        "bidPrice": "$1.0945",
-        "offerPrice": "$1.1521",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$1.0979",
+        "offerPrice": "$1.1557",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "3.83%",
         "cumulative1m": "2.77%",
@@ -600,7 +600,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -731,7 +731,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -862,7 +862,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -878,9 +878,9 @@
         "assetClass": "Equity",
         "assetSubClass": "US",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.2633",
+        "bidPrice": "$1.2725",
         "offerPrice": "-",
-        "valuationDate": "10/11/2026",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "5.50%",
         "cumulative1m": "2.00%",
@@ -991,7 +991,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -1115,7 +1115,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -1131,9 +1131,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Asia ex-Japan",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$3.4036",
-        "offerPrice": "$3.5827",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$3.4577",
+        "offerPrice": "$3.6397",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "01-Nov-1995",
         "cumulativeYtd": "15.15%",
         "cumulative1m": "-8.46%",
@@ -1245,7 +1245,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -1261,9 +1261,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.8433",
-        "offerPrice": "$0.8877",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.8402",
+        "offerPrice": "$0.8844",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-5.40%",
         "cumulative1m": "1.84%",
@@ -1375,7 +1375,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -1391,9 +1391,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.6600",
-        "offerPrice": "$0.6947",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.6575",
+        "offerPrice": "$0.6921",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-5.40%",
         "cumulative1m": "1.84%",
@@ -1598,7 +1598,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -1730,7 +1730,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -1965,7 +1965,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -1981,9 +1981,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.3024",
+        "bidPrice": "$1.3126",
         "offerPrice": "-",
-        "valuationDate": "10/11/2026",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "5.93%",
         "cumulative1m": "-3.95%",
@@ -2094,7 +2094,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -2369,7 +2369,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -2493,7 +2493,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -2509,9 +2509,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.0195",
-        "offerPrice": "$1.0732",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$1.0262",
+        "offerPrice": "$1.0803",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "4.02%",
         "cumulative1m": "-5.65%",
@@ -2623,7 +2623,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -2639,9 +2639,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.7052",
-        "offerPrice": "$0.7423",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.7098",
+        "offerPrice": "$0.7471",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "4.02%",
         "cumulative1m": "-5.65%",
@@ -2846,7 +2846,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -2862,9 +2862,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.7607",
-        "offerPrice": "$0.8007",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.7657",
+        "offerPrice": "$0.8060",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "4.02%",
         "cumulative1m": "-5.65%",
@@ -3069,7 +3069,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -3199,7 +3199,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -3330,7 +3330,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -3346,9 +3346,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9767",
+        "bidPrice": "$0.9743",
         "offerPrice": "-",
-        "valuationDate": "10/11/2026",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "28-Dec-2022",
         "cumulativeYtd": "-5.57%",
         "cumulative1m": "-1.77%",
@@ -3460,7 +3460,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -3476,9 +3476,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9236",
-        "offerPrice": "$0.9722",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.9317",
+        "offerPrice": "$0.9808",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "-2.27%",
@@ -3550,7 +3550,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -3566,9 +3566,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Global",
         "riskClassification": "Low to Medium Risk",
-        "bidPrice": "$1.4731",
-        "offerPrice": "$1.5506",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$1.4712",
+        "offerPrice": "$1.5486",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "01-Feb-1999",
         "cumulativeYtd": "-2.66%",
         "cumulative1m": "1.42%",
@@ -3682,7 +3682,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -3698,9 +3698,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.8985",
-        "offerPrice": "$0.9458",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.8973",
+        "offerPrice": "$0.9445",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "0.88%",
@@ -3772,7 +3772,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -3788,9 +3788,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.7293",
-        "offerPrice": "$0.7677",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.7371",
+        "offerPrice": "$0.7759",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "21-Sep-2021",
         "cumulativeYtd": "-1.65%",
         "cumulative1m": "-1.78%",
@@ -3902,7 +3902,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -3918,9 +3918,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9259",
-        "offerPrice": "$0.9746",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.9253",
+        "offerPrice": "$0.9740",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "27-Nov-2024",
         "cumulativeYtd": "3.72%",
         "cumulative1m": "2.03%",
@@ -4041,7 +4041,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -4375,7 +4375,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -4391,9 +4391,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global Macro",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9798",
-        "offerPrice": "$1.0313",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.9721",
+        "offerPrice": "$1.0233",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "14-Feb-2024",
         "cumulativeYtd": "-2.98%",
         "cumulative1m": "3.35%",
@@ -4444,7 +4444,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -4575,7 +4575,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -4835,7 +4835,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -4851,9 +4851,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.5350",
+        "bidPrice": "$1.5425",
         "offerPrice": "-",
-        "valuationDate": "10/11/2026",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "13.00%",
         "cumulative1m": "6.63%",
@@ -4964,7 +4964,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -5088,7 +5088,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -5104,9 +5104,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Global",
         "riskClassification": "Low to Medium Risk",
-        "bidPrice": "$0.8883",
-        "offerPrice": "$0.9350",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.8878",
+        "offerPrice": "$0.9345",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-3.59%",
         "cumulative1m": "1.35%",
@@ -5218,7 +5218,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -5234,9 +5234,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Global",
         "riskClassification": "Low to Medium Risk",
-        "bidPrice": "$1.1579",
+        "bidPrice": "$1.1570",
         "offerPrice": "-",
-        "valuationDate": "10/11/2026",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "-1.51%",
         "cumulative1m": "1.57%",
@@ -5347,7 +5347,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -5363,9 +5363,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.3011",
-        "offerPrice": "$1.3696",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$1.3173",
+        "offerPrice": "$1.3867",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "14-Jun-2023",
         "cumulativeYtd": "2.04%",
         "cumulative1m": "-4.01%",
@@ -5477,7 +5477,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -5495,7 +5495,7 @@
         "riskClassification": "Higher Risk",
         "bidPrice": "$0.9635",
         "offerPrice": "$1.0142",
-        "valuationDate": "10/11/2026",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "21-Sep-2021",
         "cumulativeYtd": "9.45%",
         "cumulative1m": "-2.14%",
@@ -5607,7 +5607,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -5623,9 +5623,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.1686",
-        "offerPrice": "$1.2301",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$1.1761",
+        "offerPrice": "$1.2380",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "14-Jun-2023",
         "cumulativeYtd": "-0.09%",
         "cumulative1m": "-2.11%",
@@ -5737,7 +5737,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -5754,8 +5754,8 @@
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
         "bidPrice": "$0.9475",
-        "offerPrice": "$0.9974",
-        "valuationDate": "10/11/2026",
+        "offerPrice": "$0.9973",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "21-Sep-2021",
         "cumulativeYtd": "0.94%",
         "cumulative1m": "-8.43%",
@@ -5867,7 +5867,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -5999,7 +5999,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -6254,7 +6254,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -6270,9 +6270,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.1584",
-        "offerPrice": "$1.2194",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$1.1627",
+        "offerPrice": "$1.2239",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "1.14%",
         "cumulative1m": "-1.73%",
@@ -6384,7 +6384,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -6400,9 +6400,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.8072",
-        "offerPrice": "$0.8497",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.8102",
+        "offerPrice": "$0.8529",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "1.14%",
         "cumulative1m": "-1.73%",
@@ -6607,7 +6607,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -6623,9 +6623,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9018",
-        "offerPrice": "$0.9492",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.9051",
+        "offerPrice": "$0.9527",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "1.14%",
         "cumulative1m": "-1.73%",
@@ -6830,7 +6830,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -6960,7 +6960,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -7090,7 +7090,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -7220,7 +7220,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -7486,7 +7486,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -7604,7 +7604,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -7735,7 +7735,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -7751,9 +7751,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Greater China",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.4575",
+        "bidPrice": "$1.4873",
         "offerPrice": "-",
-        "valuationDate": "10/11/2026",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "2.47%",
         "cumulative1m": "-9.89%",
@@ -7864,7 +7864,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -7995,7 +7995,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -8125,7 +8125,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -8256,7 +8256,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -8388,7 +8388,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -8404,9 +8404,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$5.9898",
-        "offerPrice": "$6.3050",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$6.0546",
+        "offerPrice": "$6.3733",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "03-Nov-1992",
         "cumulativeYtd": "8.82%",
         "cumulative1m": "-5.50%",
@@ -8518,7 +8518,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -8536,7 +8536,7 @@
         "riskClassification": "Lower Risk",
         "bidPrice": "$1.6166",
         "offerPrice": "$1.6166",
-        "valuationDate": "10/11/2026",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "03-Nov-1995",
         "cumulativeYtd": "1.00%",
         "cumulative1m": "0.14%",
@@ -8648,7 +8648,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -8780,7 +8780,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -9015,7 +9015,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -9146,7 +9146,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -9162,9 +9162,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9358",
-        "offerPrice": "$0.9850",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.9365",
+        "offerPrice": "$0.9858",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "18-Aug-2025",
         "cumulativeYtd": "0.72%",
         "cumulative1m": "-1.94%",
@@ -9290,7 +9290,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -9306,9 +9306,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.0192",
+        "bidPrice": "$1.0202",
         "offerPrice": "-",
-        "valuationDate": "10/11/2026",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "18-Aug-2025",
         "cumulativeYtd": "3.28%",
         "cumulative1m": "-1.78%",
@@ -9434,7 +9434,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -9451,8 +9451,8 @@
         "assetSubClass": "US",
         "riskClassification": "Higher Risk",
         "bidPrice": "$0.9541",
-        "offerPrice": "$1.0044",
-        "valuationDate": "10/11/2026",
+        "offerPrice": "$1.0043",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "21-Sep-2022",
         "cumulativeYtd": "0.56%",
         "cumulative1m": "-2.28%",
@@ -9760,7 +9760,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -9778,7 +9778,7 @@
         "riskClassification": "Higher Risk",
         "bidPrice": "$1.1103",
         "offerPrice": "-",
-        "valuationDate": "10/11/2026",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "16-Oct-2023",
         "cumulativeYtd": "2.84%",
         "cumulative1m": "-2.04%",
@@ -10034,7 +10034,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -10050,9 +10050,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9258",
-        "offerPrice": "$0.9745",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.9323",
+        "offerPrice": "$0.9813",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "-1.84%",
@@ -10103,7 +10103,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -10119,9 +10119,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Lower Risk",
-        "bidPrice": "$0.9317",
-        "offerPrice": "$0.9807",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.9340",
+        "offerPrice": "$0.9831",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "-0.16%",
@@ -10172,7 +10172,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     },
     {
@@ -10188,9 +10188,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.9248",
-        "offerPrice": "$0.9735",
-        "valuationDate": "10/11/2026",
+        "bidPrice": "$0.9344",
+        "offerPrice": "$0.9836",
+        "valuationDate": "11/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "-3.20%",
@@ -10241,7 +10241,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-11T23:27:51+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-12T13:11:10+00:00"
       }
     }
   ]
