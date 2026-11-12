@@ -1,10 +1,342 @@
 {
-  "generatedAtSgt": "2026-11-12T04:29:56.952486+08:00",
+  "generatedAtSgt": "2026-11-12T21:07:07.471050+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 217,
+  "articleCount": 228,
   "analyses": [
+    {
+      "articleId": "c8ab11309baa65c71062954b49d38cb952b321b6610cd7f547db42b7dc18089f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia's stock fell 8% amid investor concerns regarding leadership and the lack of a succession plan, dragging down other chip stocks including Intel, Marvell, Arm, and Qualcomm.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors face heightened volatility and risk in semiconductor equities due to management uncertainty and regulatory scrutiny facing major industry leaders like Nvidia.",
+      "reasoning": "The article details a significant market downturn for a major tech stock and sector peers driven by corporate governance and leadership concerns, which is highly relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia stock falls 8% as investors await Jensen Huang’s fate",
+      "publishedAtSgt": "2026-11-12T20:05:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-12T20:47:45+08:00"
+    },
+    {
+      "articleId": "b1f8ea72f6c7443a2108b17295b3c07db0122e86eabad351da985ef0790d799e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia shares are under pressure and sinking around 5% in premarket trading as investors await the outcome of a crisis board meeting. Meanwhile, broader investor trends show wealth moving into hedge funds, private equity, and infrastructure assets amid volatility and inflation fears.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity",
+        "Hedge Funds",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "The sharp premarket drop in a major bellwether stock like Nvidia highlights immediate equity volatility and underscores broader capital shifts into alternatives like private equity and hedge funds.",
+      "reasoning": "Classified as MARKET due to the significant share price movement and investor reaction surrounding Nvidia's crisis board meeting. It is highly relevant for fund monitoring as it touches on both equity volatility and macroeconomic trends in asset diversification.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nerves around Nvidia as investors await the outcome of Board's crisis CEO meeting",
+      "publishedAtSgt": "2026-11-12T19:06:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "articleId": "5281bbccba988445f0288fad25bc733be4b82d627297ad1a1276ae459da9cfba",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Ukrainian defense technology startup UFORCE has reached a $6 billion valuation after raising $700 million in a new funding round, driven by strong investor demand for battle-tested autonomous drones and AI defense software.",
+      "assetClasses": [
+        "Private Equity",
+        "Venture Capital"
+      ],
+      "geographies": [
+        "Ukraine",
+        "Global"
+      ],
+      "sectors": [
+        "Defense",
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Highlights surging venture capital and private equity interest in defense technology and autonomous weapons systems, signaling robust growth and funding opportunities in the defense tech sector.",
+      "reasoning": "The article details a major venture funding round and valuation surge for a defense technology company, making it highly relevant for market and investment monitoring in the tech and defense sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
+      "publishedAtSgt": "2026-11-12T17:05:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "articleId": "9431cb11a32215ef6fe226be158bcee30ae849854767d50c1f7b65839f7b6c4f",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Executives from boutique and challenger advisory firms discuss how artificial intelligence is transforming the consulting industry by accelerating junior employee workflows, threatening traditional billable hours models, and impacting graduate hiring pipelines.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United Kingdom",
+        "Global"
+      ],
+      "sectors": [
+        "Professional Services",
+        "Technology"
+      ],
+      "investorImpact": "Investors in professional services and consulting firms should monitor how AI adoption compresses billable hours and shifts traditional graduate recruitment pipelines, potentially favoring agile challenger firms over legacy giants.",
+      "reasoning": "The article discusses structural changes in the consulting sector driven by AI technology adoption, affecting business models and labor pipelines. Classified as TECHNOLOGY with MIXED sentiment due to efficiency gains offset by pressures on billable hours.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI is coming for consulting’s billable hours — and its graduate pipeline",
+      "publishedAtSgt": "2026-11-12T16:20:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/ai-consulting-billable-hours-graduate-hiring.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "articleId": "a2aa2d60c1cbf668d60751e69d74828059193d288c940dcf0d89264de1196150",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Treasury yields edged higher as bond trading resumed following Veterans Day, with investors anticipating upcoming inflation and housing data to gauge the Federal Reserve's future interest rate path. The 2-year yield rose 5 basis points to 4.7800%, while the 30-year yield held steady at 5.3503%.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "Investors are closely watching upcoming inflation and housing data to assess potential shifts in Federal Reserve monetary policy, which directly impacts bond yields and fixed income valuations.",
+      "reasoning": "The article discusses macroeconomic indicators and Treasury yield movements driven by expectations of upcoming inflation and housing reports, making it relevant for economic monitoring and fixed-income portfolio management.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury yields edge higher as investors await fresh inflation and housing data",
+      "publishedAtSgt": "2026-11-12T15:38:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
+    },
+    {
+      "articleId": "301dee4484163892eb673e2307cd69bac138216e3e370147bbb931c061a2e93c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "The world's wealthiest investors are increasingly diversifying into alternative investments such as private equity, hedge funds, and infrastructure due to market volatility, inflation fears, and concentrated equity markets.",
+      "assetClasses": [
+        "Private Equity",
+        "Hedge Funds",
+        "Infrastructure",
+        "Stocks",
+        "Bonds"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Alternative Investments",
+        "Financial Services"
+      ],
+      "investorImpact": "Highlights a broader market trend of capital reallocation towards alternative assets, signaling shifting sentiment regarding traditional stock and bond portfolios as hedges against inflation and volatility.",
+      "reasoning": "Classified as MARKET because it details capital flows and asset allocation trends among high-net-worth investors shifting toward alternatives. Important for monitoring shifting investor preferences away from traditional equities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The world's super-rich are piling into alternative investments. Here's why",
+      "publishedAtSgt": "2026-11-12T11:36:44+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/rich-wealth-alternative-assets-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-12T20:47:45+08:00"
+    },
+    {
+      "articleId": "cb1e5281748620ca2249ef83d34c50f5e0d8e335955fc6c7781a9ad031d32ef0",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Following political setbacks for U.S. President Trump, optimism has grown regarding a potential U.S.-India trade deal by the end of the year, providing a boost to India after a period marked by high energy prices, trade uncertainty, and heavy foreign investor outflows.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India",
+        "United States"
+      ],
+      "sectors": [
+        "Trade",
+        "Energy"
+      ],
+      "investorImpact": "Potential trade deal progress could help reverse foreign investor outflows from India and reduce tariff pressures, benefiting Indian equities and bilateral trade sectors.",
+      "reasoning": "Classified as GEOPOLITICAL due to its focus on U.S.-India trade negotiations and tariff policies. It is relevant to fund monitoring as potential trade resolutions directly impact emerging market equity flows and macroeconomic sentiment in India.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
+      "publishedAtSgt": "2026-11-12T07:57:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/us-india-trade-tariffs-trump-modi.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-12T11:04:39+08:00"
+    },
+    {
+      "articleId": "54c54361299601824fdc3671e831f15a722d82ff8beaff6d30c6b914e5bddcb9",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer highlights CoreWeave, noting that older H100 chips are contracting at premiums above original costs, demonstrating that AI infrastructure equipment retains its economic value longer than expected and providing a counterpoint to recent pessimism surrounding AI stocks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors with exposure to AI infrastructure and chip stocks may find reassurance that hardware longevity and asset value retention are stronger than previously feared, potentially shifting sentiment positively for the sector.",
+      "reasoning": "The article discusses market perceptions and valuations of AI infrastructure through CoreWeave's commentary on chip longevity, directly impacting technology equity markets and investor sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer says investors need to pay attention to CoreWeave. Here's why",
+      "publishedAtSgt": "2026-11-12T07:41:46+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/jim-cramer-coreweave-earnings-ceo-interview.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
+    },
+    {
+      "articleId": "ddc90088d44c113bb61adf92a06c10a3954c227fa4e14830abd3769e7b9b4163",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer discusses the upcoming Anthropic IPO, highlighting that the frontier AI lab's future spending commitments and exclusions in calculating adjusted operating income could pose challenges to maintaining profitability.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors considering the Anthropic IPO must carefully evaluate how massive spending commitments and adjusted operating income definitions impact long-term profitability.",
+      "reasoning": "Classified as MARKET due to discussion surrounding an upcoming IPO and equity valuation considerations. Sentiment is neutral as it highlights both potential growth opportunities and financial risks.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
+      "publishedAtSgt": "2026-11-12T07:30:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/anthropic-ipo-profit-computing-commitments.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
+    },
+    {
+      "articleId": "8c537c47282b58387de5410ad3b6c2ea22bd34b1bdb7164d614c39c41921fd68",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Members of Congress are calling for Nvidia CEO Jensen Huang to resign and are moving to subpoena him alongside pushing new legislative bills like the AI Overwatch Act, the MATCH Act, and the Chip Security Act to restrict advanced AI chip exports to adversarial nations.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Increased regulatory and political scrutiny on Nvidia and semiconductor leaders creates significant headwinds and compliance risks for tech sector investments, particularly concerning supply chains and export markets in China.",
+      "reasoning": "The article details high-stakes political moves, potential subpoenas, and restrictive legislation targeting a mega-cap technology leader, which directly impacts market sentiment and regulatory environments for the semiconductor sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+      "publishedAtSgt": "2026-11-12T06:46:29+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-12T11:04:39+08:00"
+    },
+    {
+      "articleId": "de28a6fea0aa92795ac25e358a5eab5aa4c3b1e71bd20fad30effef08f21b652",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Costco announced a $4 billion stock buyback plan alongside strong October sales, benefiting from market rotation out of AI trades and into defensive consumer staple stocks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Staples",
+        "Retail"
+      ],
+      "investorImpact": "The announcement of a $4 billion stock buyback plan and strong sales numbers highlights Costco's strong shareholder value return policy and increasing investor preference for defensive sectors amid broader market rotations.",
+      "reasoning": "Classified as MARKET due to corporate capital allocation actions (stock buybacks) and market rotation trends into consumer staples. It is significant for equity portfolios holding retail or defensive sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Costco is giving shareholders a big, early holiday gift. How to make sure you get it",
+      "publishedAtSgt": "2026-11-12T04:59:32+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/11/costco-is-giving-shareholders-a-big-early-holiday-gift-how-to-make-sure-you-get-it.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 100,
+      "collectorRelevanceReason": "financial_market_legal_story",
+      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
+    },
     {
       "articleId": "e469acc58e1e3017cc54f75363120e744089eed096ab8e44a5007023ca841a61",
       "relevant": true,
