@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-12T04:14:08+08:00",
+  "generatedAtSgt": "2026-11-12T11:04:40+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,84 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "cb1e5281748620ca2249ef83d34c50f5e0d8e335955fc6c7781a9ad031d32ef0",
+      "source": "CNBC",
+      "title": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
+      "publishedAtSgt": "2026-11-12T07:57:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/us-india-trade-tariffs-trump-modi.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "After months of being weighed down by high energy prices, trade uncertainty and foreign investor exodus, India has had plenty to celebrate this Diwali. Trump had earlier imposed a 25% tariff on imports from India, along with an additional 25% duty on goods from New Delhi for buying Russian oil.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T11:04:39+08:00"
+    },
+    {
+      "id": "54c54361299601824fdc3671e831f15a722d82ff8beaff6d30c6b914e5bddcb9",
+      "source": "CNBC",
+      "title": "Jim Cramer says investors need to pay attention to CoreWeave. Here's why",
+      "publishedAtSgt": "2026-11-12T07:41:46+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/jim-cramer-coreweave-earnings-ceo-interview.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Intrator said some H100 chips purchased four years ago are now being contracted at premiums of 20% to 50% above its original cost, suggesting the equipment is retaining its economic value longer than many investors anticipated. For Cramer, the comments offered a welcome counterpoint to the recent pessimism surrounding AI infrastructure stocks. But it does have diversified, albeit recently reduced, exposure to the AI boom via chip stocks and names that help run and power data centers.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
+    },
+    {
+      "id": "ddc90088d44c113bb61adf92a06c10a3954c227fa4e14830abd3769e7b9b4163",
+      "source": "CNBC",
+      "title": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
+      "publishedAtSgt": "2026-11-12T07:30:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/anthropic-ipo-profit-computing-commitments.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But CNBC's Jim Cramer warned Wednesday that the frontier AI lab's future spending commitments could make staying profitable a much bigger challenge. In calculating its adjusted operating income, Anthropic excludes stock-based compensation, noncash charitable contributions, and payments tied to a class-action copyright lawsuit settlement, according to its IPO prospectus.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
+    },
+    {
+      "id": "8c537c47282b58387de5410ad3b6c2ea22bd34b1bdb7164d614c39c41921fd68",
+      "source": "CNBC",
+      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+      "publishedAtSgt": "2026-11-12T06:46:29+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Members of Congress are calling on Nvidia CEO Jensen Huang to resign, and momentum is building to subpoena the executive, whose company is a leader in advanced artificial intelligence chips. Those bills include the AI Overwatch Act, the MATCH Act and the Chip Security Act — all of which are aimed at preventing U.S. chip technology from falling into adversarial hands.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T11:04:39+08:00"
+    },
+    {
+      "id": "de28a6fea0aa92795ac25e358a5eab5aa4c3b1e71bd20fad30effef08f21b652",
+      "source": "CNBC",
+      "title": "Costco is giving shareholders a big, early holiday gift. How to make sure you get it",
+      "publishedAtSgt": "2026-11-12T04:59:32+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/11/costco-is-giving-shareholders-a-big-early-holiday-gift-how-to-make-sure-you-get-it.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "Costco also announced a $4 billion stock buyback plan, which is another way to return capital to shareholders because fewer shares outstanding means a higher ownership percentage in the company without having to purchase more stock. COST YTD mountain Costco YTD Earlier this month, after strong October sales, we documented the rise in Costco stock as the market has recently been rotating out of the AI trade and into consumer staple stocks like Costco and other defensive names.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
+    },
     {
       "id": "e469acc58e1e3017cc54f75363120e744089eed096ab8e44a5007023ca841a61",
       "source": "CNBC",
@@ -1522,85 +1600,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-06T04:41:40+08:00"
-    },
-    {
-      "id": "4874222d0f95952dfa274d7fa76abb00d2b8106deea1ee440406e680ee6c829a",
-      "source": "CNBC",
-      "title": "Banks are turning cautious on lending, according to the Fed. What it means for the economy",
-      "publishedAtSgt": "2026-11-05T21:52:38+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/fed-bank-lending-standards-small-business.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "banks are starting to tighten their lending standards amid growing concern over the underlying health of the economy, according to a new Federal Reserve survey. The Fed's latest Senior Loan Officer Opinion Survey on Bank Lending Practices for October, published Nov. Tiffany Wilding, managing director and economist at PIMCO, said small businesses, housing and debt-laden firms face tighter credit and higher borrowing costs as the AI investment boom squeezes other parts of the U.S.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T04:41:46+08:00"
-    },
-    {
-      "id": "9b66cf8b3aa5220c37dbc8225209c22d8be32a0c0cd48081eb58fceb2a845f72",
-      "source": "CNBC",
-      "title": "Markets cool after the monster midterm rally with Musk's stocks under pressure",
-      "publishedAtSgt": "2026-11-05T21:41:10+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/markets-cool-midterm-musk-stocks-under-pressure.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Investors are now assessing the impact of a new Democratic controlled Congress and how that changes the market landscape. A huge boost for stocks came from the plunging oil price. Shares are down over 9% in premarket trading after fourth-quarter smartphone chip sales missed estimates.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-06T04:41:46+08:00"
-    },
-    {
-      "id": "ab87edda16b43c0572ca47288d431f3e3782a5a082c0974876b64d55fec76514",
-      "source": "CNBC",
-      "title": "Wendy's rejects takeover proposal from Nelson Peltz’s Trian",
-      "publishedAtSgt": "2026-11-05T20:26:06+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/wendys-rejects-takeover-proposal.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Wendy's on Thursday said that it is rejecting a $1.4 billion takeover offer from a group of investors led by Nelson Peltz's Trian Fund Management. The group offered $7.35 per share in cash on Oct. In addition to Trian, it included investment firms BlueFive Capital and Sixth Street Partners, plus Flynn Group, one of Wendy's largest franchisees.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-05T20:26:34+08:00"
-    },
-    {
-      "id": "f70fad09a0f3b719cd74bcbfd54ad4048663fcca0667863bc10f39ebf8224d28",
-      "source": "CNBC",
-      "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
-      "publishedAtSgt": "2026-11-05T20:12:37+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "The Bank of England announced its first interest rate hike in over three years on Thursday, as it raised its key rate by 25 basis points to 4%. 2023, and made it the last major central bank to embark on a tightening cycle since the U.S. The dissenting member voted to raise the bank's key interest rate by 50 basis points to 4.25%.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-05T20:26:34+08:00"
-    },
-    {
-      "id": "cd43f5ea9215ebea1469044fbe7307b534fbdc6c2e60ae04ea677bb79277b0b9",
-      "source": "CNBC",
-      "title": "World's largest olive oil company plummets 18% after rivals agree to takeover deal",
-      "publishedAtSgt": "2026-11-05T19:42:28+08:00",
-      "url": "https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of Deoleo, the world's largest olive oil company, plummeted Thursday after two rivals announced plans to acquire the company, a deal that would further consolidate Spain's dominance in the sector. Spanish olive oil firms Dcoop and Acesur will each hold a 50% stake in the company, resulting in a new olive oil giant in the region. However the stock is up around 55% since the beginning of the year as it's benefited from a moderation in olive oil prices that has helped lift U.S.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-05T20:26:34+08:00"
     }
   ]
 }

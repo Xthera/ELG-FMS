@@ -5,6 +5,84 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "cb1e5281748620ca2249ef83d34c50f5e0d8e335955fc6c7781a9ad031d32ef0",
+      "source": "CNBC",
+      "title": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
+      "publishedAtSgt": "2026-11-12T07:57:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/us-india-trade-tariffs-trump-modi.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "After months of being weighed down by high energy prices, trade uncertainty and foreign investor exodus, India has had plenty to celebrate this Diwali. Trump had earlier imposed a 25% tariff on imports from India, along with an additional 25% duty on goods from New Delhi for buying Russian oil.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T11:04:39+08:00"
+    },
+    {
+      "id": "54c54361299601824fdc3671e831f15a722d82ff8beaff6d30c6b914e5bddcb9",
+      "source": "CNBC",
+      "title": "Jim Cramer says investors need to pay attention to CoreWeave. Here's why",
+      "publishedAtSgt": "2026-11-12T07:41:46+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/jim-cramer-coreweave-earnings-ceo-interview.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Intrator said some H100 chips purchased four years ago are now being contracted at premiums of 20% to 50% above its original cost, suggesting the equipment is retaining its economic value longer than many investors anticipated. For Cramer, the comments offered a welcome counterpoint to the recent pessimism surrounding AI infrastructure stocks. But it does have diversified, albeit recently reduced, exposure to the AI boom via chip stocks and names that help run and power data centers.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
+    },
+    {
+      "id": "ddc90088d44c113bb61adf92a06c10a3954c227fa4e14830abd3769e7b9b4163",
+      "source": "CNBC",
+      "title": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
+      "publishedAtSgt": "2026-11-12T07:30:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/anthropic-ipo-profit-computing-commitments.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But CNBC's Jim Cramer warned Wednesday that the frontier AI lab's future spending commitments could make staying profitable a much bigger challenge. In calculating its adjusted operating income, Anthropic excludes stock-based compensation, noncash charitable contributions, and payments tied to a class-action copyright lawsuit settlement, according to its IPO prospectus.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
+    },
+    {
+      "id": "8c537c47282b58387de5410ad3b6c2ea22bd34b1bdb7164d614c39c41921fd68",
+      "source": "CNBC",
+      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+      "publishedAtSgt": "2026-11-12T06:46:29+08:00",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Members of Congress are calling on Nvidia CEO Jensen Huang to resign, and momentum is building to subpoena the executive, whose company is a leader in advanced artificial intelligence chips. Those bills include the AI Overwatch Act, the MATCH Act and the Chip Security Act — all of which are aimed at preventing U.S. chip technology from falling into adversarial hands.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-12T11:04:39+08:00"
+    },
+    {
+      "id": "de28a6fea0aa92795ac25e358a5eab5aa4c3b1e71bd20fad30effef08f21b652",
+      "source": "CNBC",
+      "title": "Costco is giving shareholders a big, early holiday gift. How to make sure you get it",
+      "publishedAtSgt": "2026-11-12T04:59:32+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/11/costco-is-giving-shareholders-a-big-early-holiday-gift-how-to-make-sure-you-get-it.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "Costco also announced a $4 billion stock buyback plan, which is another way to return capital to shareholders because fewer shares outstanding means a higher ownership percentage in the company without having to purchase more stock. COST YTD mountain Costco YTD Earlier this month, after strong October sales, we documented the rise in Costco stock as the market has recently been rotating out of the AI trade and into consumer staple stocks like Costco and other defensive names.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
+    },
+    {
       "id": "e469acc58e1e3017cc54f75363120e744089eed096ab8e44a5007023ca841a61",
       "source": "CNBC",
       "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
@@ -101,6 +179,6 @@
       "collectedAtSgt": "2026-11-12T04:14:04+08:00"
     }
   ],
-  "articleCount": 6,
-  "updatedAtSgt": "2026-11-12T04:14:04+08:00"
+  "articleCount": 11,
+  "updatedAtSgt": "2026-11-12T11:04:40+08:00"
 }
