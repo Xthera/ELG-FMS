@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-11-13T12:51:01+00:00",
+  "generatedAtUtc": "2026-11-13T22:06:03+00:00",
   "source": "Funds Links.xlsm",
   "fundCount": 67,
   "research": {
@@ -224,25 +224,759 @@
     },
     "researchMatched": 67,
     "researchMissing": 0,
-    "prudentialMatched": 67,
-    "prudentialMissing": 0,
-    "dividendFunds": 19,
-    "paymentModeFunds": 67,
-    "paymentModeCounts": {
-      "SRS": 56,
-      "Cash": 67,
-      "CPF-OA": 14,
-      "CPF-SA": 5
-    },
-    "bidHistoryFunds": 67,
-    "bidHistoryUnresolved": 0,
-    "totalBidObservations": 152983,
-    "unresolvedCount": 0,
-    "failedFundCount": 0,
-    "staleFunds": [],
+    "prudentialMatched": 0,
+    "prudentialMissing": 67,
+    "dividendFunds": 0,
+    "paymentModeFunds": 0,
+    "paymentModeCounts": {},
+    "bidHistoryFunds": 0,
+    "bidHistoryUnresolved": 67,
+    "totalBidObservations": 0,
+    "unresolvedCount": 134,
+    "failedFundCount": 67,
+    "staleFunds": [
+      "PRULink ActiveInvest Portfolio - Balanced (Accumulation)",
+      "PRULink ActiveInvest Portfolio - Conservative (Accumulation)",
+      "PRULink ActiveInvest Portfolio - Growth (Accumulation)",
+      "PRULink ActiveInvest Portfolio - Moderate (Accumulation)",
+      "PRULink Adapt 2035 Fund",
+      "PRULink America Fund",
+      "PRULink America Fund (USD) (Accumulation)",
+      "PRULink Asian American Managed Fund",
+      "PRULink Asian Equity Fund",
+      "PRULink Asian Fixed-Income Fund (Accumulation)",
+      "PRULink Asian Fixed-Income Fund (Distribution)",
+      "PRULink Asian Income and Growth Fund (Accumulation)",
+      "PRULink Asian Income and Growth Fund (Distribution)",
+      "PRULink Asian Income and Growth Fund (USD) (Accumulation)",
+      "PRULink Asian Income Fund",
+      "PRULink Asian Low Volatility Equity Fund (Accumulation)",
+      "PRULink Asian Multi-Asset Income Fund (Accumulation)",
+      "PRULink Asian Multi-Asset Income Fund (Decumulation)",
+      "PRULink Asian Multi-Asset Income Fund (Distribution)",
+      "PRULink China-India Fund",
+      "PRULink Emerging Markets Fund",
+      "PRULink FlexGrowth Fund (SGD)",
+      "PRULink Global Balanced Income and Growth Fund (Distribution)",
+      "PRULink Global Bond Fund",
+      "PRULink Global Bond Income Fund (Distribution)",
+      "PRULink Global Climate Change Equity Fund (Accumulation)",
+      "PRULink Global Diversified Income Fund (Distribution)",
+      "PRULink Global Dividend Wealth Fund (Distribution)",
+      "PRULink Global Episode Macro Fund (Accumulation)",
+      "PRULink Global Equity Fund",
+      "PRULink Global Equity Fund (Distribution)",
+      "PRULink Global Equity Fund (USD) (Accumulation)",
+      "PRULink Global Equity Growth (SGD) (Accumulation)",
+      "PRULink Global Fixed-Income Fund (Accumulation)",
+      "PRULink Global Fixed-Income Fund (USD) (Accumulation)",
+      "PRULink Global Growth Fund (Accumulation)",
+      "PRULink Global Impact ESG Equity Fund (Accumulation)",
+      "PRULink Global Income Fund (Accumulation)",
+      "PRULink Global Innovation Equity Fund (Accumulation)",
+      "PRULink Global Managed Fund",
+      "PRULink Global Managed Fund (Distribution)",
+      "PRULink Global Multi-Asset Income Fund (Accumulation)",
+      "PRULink Global Multi-Asset Income Fund (Decumulation)",
+      "PRULink Global Multi-Asset Income Fund (Distribution)",
+      "PRULink Global Property Securities Fund",
+      "PRULink Global Signature CIO Balance Fund (Accumulation)",
+      "PRULink Global Signature CIO Growth Fund (Accumulation)",
+      "PRULink Global Signature CIO Income Fund (Distribution)",
+      "PRULink Global Technology Fund",
+      "PRULink Greater China Fund",
+      "PRULink Greater China Fund (USD) (Accumulation)",
+      "PRULink India Opportunity Equity Fund (Accumulation)",
+      "PRULink Islamic Global Equity Index Fund (Accumulation)",
+      "PRULink Pan European Fund",
+      "PRULink Singapore ASEAN Managed Fund",
+      "PRULink Singapore Asian Managed Fund",
+      "PRULink Singapore Cash Fund",
+      "PRULink Singapore Dynamic Bond Fund (Accumulation)",
+      "PRULink Singapore Dynamic Bond Fund (Distribution)",
+      "PRULink Singapore Growth Fund",
+      "PRULink StrategicInvest Income Fund (Distribution)",
+      "PRULink StrategicInvest Income Fund (USD) (Distribution)",
+      "PRULink US Dividend Wealth Fund (Distribution)",
+      "PRULink US Dividend Wealth Fund (USD) (Distribution)",
+      "PRUPrime CIO Balanced Fund (Accumulation)",
+      "PRUPrime CIO Conservative Fund (Accumulation)",
+      "PRUPrime CIO Growth Fund (Accumulation)"
+    ],
     "skippedFunds": [],
     "fundsWithoutHoldings": [],
-    "failedFunds": []
+    "failedFunds": [
+      {
+        "excelRow": 2,
+        "fund": "PRULink ActiveInvest Portfolio - Balanced (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 3,
+        "fund": "PRULink ActiveInvest Portfolio - Conservative (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 4,
+        "fund": "PRULink ActiveInvest Portfolio - Growth (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 5,
+        "fund": "PRULink ActiveInvest Portfolio - Moderate (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 6,
+        "fund": "PRULink Adapt 2035 Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 7,
+        "fund": "PRULink America Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 8,
+        "fund": "PRULink America Fund (USD) (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 9,
+        "fund": "PRULink Asian American Managed Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 10,
+        "fund": "PRULink Asian Equity Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 11,
+        "fund": "PRULink Asian Fixed-Income Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 12,
+        "fund": "PRULink Asian Fixed-Income Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 13,
+        "fund": "PRULink Asian Income and Growth Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 14,
+        "fund": "PRULink Asian Income and Growth Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 15,
+        "fund": "PRULink Asian Income and Growth Fund (USD) (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 16,
+        "fund": "PRULink Asian Income Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 17,
+        "fund": "PRULink Asian Low Volatility Equity Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 18,
+        "fund": "PRULink Asian Multi-Asset Income Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 19,
+        "fund": "PRULink Asian Multi-Asset Income Fund (Decumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 20,
+        "fund": "PRULink Asian Multi-Asset Income Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 21,
+        "fund": "PRULink China-India Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 22,
+        "fund": "PRULink Emerging Markets Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 23,
+        "fund": "PRULink FlexGrowth Fund (SGD)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 24,
+        "fund": "PRULink Global Balanced Income and Growth Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 25,
+        "fund": "PRULink Global Bond Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 26,
+        "fund": "PRULink Global Bond Income Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 27,
+        "fund": "PRULink Global Climate Change Equity Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 28,
+        "fund": "PRULink Global Diversified Income Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 29,
+        "fund": "PRULink Global Dividend Wealth Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 30,
+        "fund": "PRULink Global Episode Macro Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 31,
+        "fund": "PRULink Global Equity Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 32,
+        "fund": "PRULink Global Equity Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 33,
+        "fund": "PRULink Global Equity Fund (USD) (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 34,
+        "fund": "PRULink Global Equity Growth (SGD) (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 35,
+        "fund": "PRULink Global Fixed-Income Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 36,
+        "fund": "PRULink Global Fixed-Income Fund (USD) (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 37,
+        "fund": "PRULink Global Growth Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 38,
+        "fund": "PRULink Global Impact ESG Equity Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 39,
+        "fund": "PRULink Global Income Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 40,
+        "fund": "PRULink Global Innovation Equity Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 41,
+        "fund": "PRULink Global Managed Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 42,
+        "fund": "PRULink Global Managed Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 43,
+        "fund": "PRULink Global Multi-Asset Income Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 44,
+        "fund": "PRULink Global Multi-Asset Income Fund (Decumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 45,
+        "fund": "PRULink Global Multi-Asset Income Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 46,
+        "fund": "PRULink Global Property Securities Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 47,
+        "fund": "PRULink Global Signature CIO Balance Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 48,
+        "fund": "PRULink Global Signature CIO Growth Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 49,
+        "fund": "PRULink Global Signature CIO Income Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 50,
+        "fund": "PRULink Global Technology Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 51,
+        "fund": "PRULink Greater China Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 52,
+        "fund": "PRULink Greater China Fund (USD) (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 53,
+        "fund": "PRULink India Opportunity Equity Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 54,
+        "fund": "PRULink Islamic Global Equity Index Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 55,
+        "fund": "PRULink Pan European Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 56,
+        "fund": "PRULink Singapore ASEAN Managed Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 57,
+        "fund": "PRULink Singapore Asian Managed Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 58,
+        "fund": "PRULink Singapore Cash Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 59,
+        "fund": "PRULink Singapore Dynamic Bond Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 60,
+        "fund": "PRULink Singapore Dynamic Bond Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 61,
+        "fund": "PRULink Singapore Growth Fund",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 62,
+        "fund": "PRULink StrategicInvest Income Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 63,
+        "fund": "PRULink StrategicInvest Income Fund (USD) (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 64,
+        "fund": "PRULink US Dividend Wealth Fund (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 65,
+        "fund": "PRULink US Dividend Wealth Fund (USD) (Distribution)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 66,
+        "fund": "PRUPrime CIO Balanced Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 67,
+        "fund": "PRUPrime CIO Conservative Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      },
+      {
+        "excelRow": 68,
+        "fund": "PRUPrime CIO Growth Fund (Accumulation)",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ],
+        "action": "Kept last good data from 13 Nov 2026",
+        "outcome": "kept_last_good"
+      }
+    ]
   },
   "funds": [
     {
@@ -335,8 +1069,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -417,8 +1156,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -511,8 +1255,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -599,8 +1348,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -730,8 +1484,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -861,8 +1620,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -990,8 +1754,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -1114,8 +1883,13 @@
         "sourceFile": "output_holdings_recovery_2/funds/9_PRULink_Asian_American_Managed_Fund/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -1244,8 +2018,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -1374,8 +2153,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -1597,8 +2381,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -1729,8 +2518,13 @@
         "sourceFile": "output_holdings_recovery/funds/13_prulink-asian-income-and-growth-fund-accumulation/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -1964,8 +2758,13 @@
         "sourceFile": "output_holdings_recovery/funds/14_prulink-asian-income-and-growth-fund-distribution/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -2093,8 +2892,13 @@
         "sourceFile": "output_holdings_recovery/funds/15_prulink-asian-income-and-growth-fund-usd-accumulation/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -2368,8 +3172,13 @@
         "sourceFile": "output_holdings_recovery/funds/16_prulink-asian-income-fund/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -2492,8 +3301,13 @@
         "sourceFile": "output_holdings_recovery_2/funds/17_PRULink_Asian_Low_Volatility_Equity_Fund_Accumulation/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -2622,8 +3436,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -2845,8 +3664,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -3068,8 +3892,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -3198,8 +4027,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -3329,8 +4163,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -3459,8 +4298,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -3549,8 +4393,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -3681,8 +4530,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -3771,8 +4625,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -3901,8 +4760,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -4040,8 +4904,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -4374,8 +5243,13 @@
         "sourceFile": "output_holdings_recovery/funds/29_prulink-global-dividend-wealth-fund-distribution/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -4443,8 +5317,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -4574,8 +5453,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -4834,8 +5718,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -4963,8 +5852,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -5087,8 +5981,13 @@
         "sourceFile": "output_holdings_recovery_2/funds/34_PRULink_Global_Equity_Growth_SGD_Accumulation/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -5217,8 +6116,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -5346,8 +6250,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -5476,8 +6385,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -5606,8 +6520,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -5736,8 +6655,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -5866,8 +6790,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -5998,8 +6927,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -6253,8 +7187,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -6383,8 +7322,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -6606,8 +7550,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -6829,8 +7778,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -6959,8 +7913,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -7089,8 +8048,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -7219,8 +8183,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -7485,8 +8454,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -7603,8 +8577,13 @@
         "sourceFile": "output_holdings_recovery_2/funds/50_PRULink_Global_Technology_Fund/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -7734,8 +8713,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -7863,8 +8847,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -7994,8 +8983,13 @@
         "sourceFile": "output_holdings_recovery_2/funds/53_PRULink_India_Opportunity_Equity_Fund_Accumulation/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -8124,8 +9118,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -8255,8 +9254,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -8387,8 +9391,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -8517,8 +9526,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -8647,8 +9661,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -8779,8 +9798,13 @@
         "sourceFile": "output_holdings_recovery_3/funds/59_PRULink_Singapore_Dynamic_Bond_Fund_Accumulation/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -9014,8 +10038,13 @@
         "sourceFile": "output_holdings_recovery_3/funds/60_PRULink_Singapore_Dynamic_Bond_Fund_Distribution/top_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -9145,8 +10174,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -9293,8 +10327,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -9441,8 +10480,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -9771,8 +10815,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -10049,8 +11098,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -10118,8 +11172,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -10187,8 +11246,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     },
     {
@@ -10256,8 +11320,13 @@
         "sourceFile": "output_holdings/all_holdings.json"
       },
       "updateStatus": {
-        "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
+        "status": "stale",
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00",
+        "failedUpdateUtc": "2026-11-13T22:06:03+00:00",
+        "reasons": [
+          "Prudential fund metadata missing.",
+          "BID history missing."
+        ]
       }
     }
   ]
