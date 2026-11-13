@@ -1,10 +1,424 @@
 {
-  "generatedAtSgt": "2026-11-13T05:08:54.518553+08:00",
+  "generatedAtSgt": "2026-11-13T20:33:06.817246+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 209,
+  "articleCount": 223,
   "analyses": [
+    {
+      "articleId": "31d6eeed43979cc390aaca332a202d960a63890141790ad4005136178ddc35c2",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "CNBC presents its official 2026 NHL team valuations, highlighting a nearly completed transaction where shareholders are selling a 15% stake in the New York Islanders at a $3 billion valuation. The report underscores the growing wealth generation, long product life cycles, and status as a hedge against risks like AI for major sports leagues.",
+      "assetClasses": [
+        "Private Equity",
+        "Alternative Investments"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Sports",
+        "Media",
+        "Entertainment"
+      ],
+      "investorImpact": "The increasing valuations of sports franchises highlight growing institutional investor interest in professional sports teams as resilient alternative asset classes and hedges against tech-driven market risks.",
+      "reasoning": "Classified as MARKET due to the focus on franchise valuations and equity sales, carrying POSITIVE sentiment given the high $3 billion valuation and strong institutional appeal. It is moderately important for monitoring alternative asset trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "CNBC's Official NHL Team Valuations 2026: How the 32 franchises stack up",
+      "publishedAtSgt": "2026-11-13T19:48:31+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/cnbcs-official-nhl-team-valuations-2026-how-the-32-clubs-stack-up.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "articleId": "02bfb6d604cb7d2e05d67887da7e8eefe5a51f3150fe6fdd77b7a7ce2212c7e6",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The Federal Reserve, which initially expected to cut interest rates this year, instead raised rates by 25 basis points in September due to persistent inflation running above the 2% target.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Higher interest rates and renewed inflation concerns create downward pressure on equity valuations and drive volatility in fixed income markets as borrowing costs remain elevated.",
+      "reasoning": "The article discusses critical monetary policy shifts and inflation dynamics from the Federal Reserve, which directly impacts macroeconomic conditions and asset pricing across markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
+      "publishedAtSgt": "2026-11-13T19:31:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "articleId": "c4b26c28d13532b1e191030dcf92532a65ed179835e6777ef9115d3b5c4d84db",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Commerce Secretary Lutnick has reportedly agreed to testify regarding China chip sales following bipartisan scrutiny and accusations of utilizing loopholes to allow AI chip exports, specifically drawing scrutiny toward Nvidia's export practices.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "USA",
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Increased regulatory and political scrutiny on semiconductor exports to China poses potential compliance risks and policy headwinds for major chipmakers like Nvidia, impacting market sentiment for the technology sector.",
+      "reasoning": "Classified as GEOPOLITICAL due to government policy oversight, congressional scrutiny, and export controls involving U.S.-China trade relations and semiconductor policy. Important for monitoring regulatory risks affecting major tech equities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
+      "publishedAtSgt": "2026-11-13T18:54:40+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "articleId": "c384305df99b302a94f843685dc34f405ada075920963620f087f982ac8f99bc",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Nvidia shares rose slightly in premarket trading following a volatile session triggered by the resignation of CEO Jensen Huang amid reports of personal affairs, as investors continue to assess the leadership transition and stock impact.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The sudden departure of a key executive like Jensen Huang introduces short-term leadership uncertainty and heightened volatility for Nvidia and related semiconductor stocks, prompting investors to closely monitor the transition.",
+      "reasoning": "Classified as MARKET due to the direct impact on Nvidia's stock price and investor sentiment surrounding executive leadership changes. Sentiment is MIXED as shares showed some recovery after an initial sharp drop. Importance is HIGH given Nvidia's heavy weighting in major indexes and the tech sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
+      "publishedAtSgt": "2026-11-13T18:00:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "articleId": "7ed4e019858042939e74dbd3a219f4ce953e1bca764f83947d6290b2c9d250f9",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Canada has threatened legal action against Stellantis regarding a planned sale of an idled assembly plant in Brampton, Ontario, after the carmaker moved to shift production to the U.S. amid escalating trade tensions and tariff pressures from the Trump administration.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Canada",
+        "United States"
+      ],
+      "sectors": [
+        "Automotive"
+      ],
+      "investorImpact": "The ongoing trade disputes and tariff threats from the U.S. create regulatory and operational uncertainty for multinational automakers operating across North America, potentially impacting profit margins and supply chain strategies.",
+      "reasoning": "Classified as GEOPOLITICAL due to the intergovernmental trade tensions and cross-border manufacturing shifts under tariff pressures. It is relevant for fund monitoring as it highlights direct regulatory and legal risks facing the automotive sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "‘We will sue them’: Canada threatens Stellantis as Trump trade war reshapes Jeep production plans",
+      "publishedAtSgt": "2026-11-13T17:45:04+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/canada-stellantis-auto-trump-tariffs-jeep.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 72,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "articleId": "8fe5044c35fcd0147b62b9d740e6d9587574f6d9d91f302d1186497512edc848",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Treasury yields rose as traders strengthened bets on Federal Reserve rate hikes, with the 30-year bond yield up 3 basis points to 5.4602% and the 2-year note yield down 1 basis point to 4.8525%. Meanwhile, oil is heading for its second weekly decline amid energy inflation focus and prospects of U.S. strikes.",
+      "assetClasses": [
+        "Fixed Income",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Energy"
+      ],
+      "investorImpact": "Shifting Treasury yields and Federal Reserve rate expectations impact fixed-income pricing, borrowing costs, and valuation multiples across asset classes.",
+      "reasoning": "Classified as MARKET because it discusses Treasury yield movements and trader sentiment regarding Federal Reserve rate hikes, directly impacting bond and commodity markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury yields rise as traders strengthen Fed rate hike bets",
+      "publishedAtSgt": "2026-11-13T16:50:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "articleId": "a8390a03265202ac4f6035e0029c8ca233837b4ceeabb24a86033c4cd09c232e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Nvidia's leadership crisis and Jensen Huang's departure are prompting market rotation across chip stocks as investors reassess industry dominance, while structural AI spending by major tech companies is projected to grow through 2027 and 2028.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors are rotating away from Nvidia toward competitor chip stocks like AMD and Broadcom, though overall sector tailwinds remain intact due to projected increases in AI spending.",
+      "reasoning": "Classified as MARKET because it details stock rotation and market reaction to leadership changes in a dominant industry player, carrying high importance for tech-heavy equity portfolios.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia’s turmoil is prompting a rotation across chip stocks. Here's what we know",
+      "publishedAtSgt": "2026-11-13T16:27:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "articleId": "a5cef1a4a466aff830c7ba2aed867e7e336c760efbc884a42cf76855c786af5a",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Singapore is facing heightened scrutiny and finding itself in the crosshairs of Washington's export controls on advanced AI chips to China due to its status as a major sales and transit hub, amid growing concerns over chip smuggling and circumvention in Southeast Asia.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Singapore",
+        "China",
+        "United States",
+        "Southeast Asia"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Increased regulatory and compliance risks for semiconductor companies operating in or exporting through Southeast Asia, potentially impacting supply chains and sales channels for advanced AI chips.",
+      "reasoning": "The article details geopolitical and regulatory friction regarding U.S. export controls, semiconductor distribution routes, and potential enforcement tightening in Southeast Asia, which directly impacts technology supply chains and multinational compliance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
+      "publishedAtSgt": "2026-11-13T15:15:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "articleId": "9d94c807f076dbfbbb94ae3490552e0347480633b03d37602cd2250dea5cec93",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "In its updated IPO paperwork, Anthropic announced plans to offer 825 million shares at $70 to $78 each. Jim Cramer highlighted three lingering uncertainties regarding pricing, growth, and the impact of price cuts on revenue despite strong enterprise traction for its AI coding agent, Claude Code.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The IPO represents a significant market event for the technology and artificial intelligence sectors, requiring investors to evaluate valuation risks, pricing strategies, and growth sustainability against high market expectations.",
+      "reasoning": "The article details a major upcoming IPO for a leading AI company, making it highly relevant for market monitoring and equity analysis, with mixed sentiment driven by growth potential versus uncertainties highlighted by analysts.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer has three lingering questions about Anthropic ahead of its historic IPO",
+      "publishedAtSgt": "2026-11-13T07:45:00+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/anthropic-ipo-cramer-pricing-growth-ai-safety.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
+      "articleId": "c10758dd415d1c4bb83ac54e85451c92027afaffdcd6ab5a82071c9bd83b87a5",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia shares experienced high volatility, ending down more than 4% after plunging as much as 14% at morning lows. The stock movement followed commentary regarding CEO Jensen Huang's equity investment portfolio decisions, which include substantial past investments in Intel and CoreWeave.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors holding Nvidia or related technology sector equities face heightened volatility and concerns over strategic equity investments made by company leadership, impacting near-term market sentiment.",
+      "reasoning": "The article details significant intraday share price volatility and market reaction for a major market-cap technology stock, making it highly relevant for market monitoring and equity portfolio management.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cramer says Jensen Huang betrayed Nvidia shareholders. How to pick up the pieces",
+      "publishedAtSgt": "2026-11-13T07:14:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-exit-cramer.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 100,
+      "collectorRelevanceReason": "financial_market_legal_story",
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
+      "articleId": "cc23d49d087a5cad55738639134c419b7615cb38586efdf95a980d503a7f2a03",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Nscale updated its IPO prospectus for the New York Stock Exchange showing widening losses and noting Microsoft as an expected significant customer. The neocloud market is experiencing tumult, compounded by Jensen Huang resigning as Nvidia's CEO.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should exercise caution regarding neocloud and AI infrastructure IPOs given widening losses, market tumult, and leadership disruption at key chip suppliers like Nvidia.",
+      "reasoning": "The article covers a notable IPO filing in the technology and neocloud sector, alongside major executive upheaval at Nvidia, directly impacting market sentiment and tech sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nscale updates IPO prospectus that shows widening loss",
+      "publishedAtSgt": "2026-11-13T07:12:15+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-13T10:39:45+08:00"
+    },
+    {
+      "articleId": "b9b06146060b9f920caa4a1c6409f5f1ba5347daa2259391e3e2fad877277b63",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Cerebras shares surged 17% following better-than-expected quarterly revenue and the announcement of a deal with Microsoft. The AI chip company reported core revenue growth of 70% year-over-year, as it attempts to challenge Nvidia in the artificial intelligence hardware market.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The positive earnings beat and major Microsoft partnership provide a boost of confidence for investors following the stock's slump since its May Nasdaq debut, signaling potential traction against dominant incumbents like Nvidia in the AI chip sector.",
+      "reasoning": "Classified as MARKET due to the direct impact on Cerebras stock performance following earnings and corporate deal announcements. Sentiment is POSITIVE driven by revenue beats and the strategic Microsoft partnership. Fund monitoring relevance is true as it impacts semiconductor and AI sector allocations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+      "publishedAtSgt": "2026-11-13T06:48:26+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
+      "articleId": "a9c264453f09edeab886a193d009625b65e4889fa107f81261d865c98076fad0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Cisco reported better-than-expected fiscal first-quarter results and announced that AI infrastructure revenue is expected to double this fiscal year, causing its shares to rise in extended trading.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Networking"
+      ],
+      "investorImpact": "Investors holding Cisco or technology sector funds will view the strong earnings beat and accelerating AI infrastructure revenue projections as positive indicators for the company's growth and its positioning in the ongoing AI hardware buildout.",
+      "reasoning": "The article is classified as MARKET because it details earnings results and post-earnings stock price movement for a major tech company. Sentiment is POSITIVE due to the earnings beat and doubled AI infrastructure revenue forecast.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+      "publishedAtSgt": "2026-11-13T05:20:35+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
+      "articleId": "5216871911b7a5d80e1ea0a38bca2f21b694ac15dea79122ece6b02c84b51ac8",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Recent drops in Nvidia stock are unlikely to severely impact most mutual fund and ETF investors because their actual exposure to the chipmaker is relatively limited, financial advisors say.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Provides reassurance to diversified ETF and mutual fund investors that individual stock volatility in mega-cap tech like Nvidia has a muted overall portfolio impact due to diversification.",
+      "reasoning": "Classified as MARKET since it discusses stock price movements and ETF/mutual fund investor exposure. Sentiment is neutral as it contextualizes a stock drop with calming expert commentary on portfolio diversification.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Why Nvidia stock drop isn't a big deal for many ETF, mutual fund investors",
+      "publishedAtSgt": "2026-11-13T05:16:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-stock-drop-etf-mutual-fund-investors.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
     {
       "articleId": "c25a87e60e5841e4f02a69ee4be09f1072939fa95a1afb23b63e32fe1b17ac14",
       "relevant": true,
