@@ -5,6 +5,87 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "9d94c807f076dbfbbb94ae3490552e0347480633b03d37602cd2250dea5cec93",
+      "source": "CNBC",
+      "title": "Jim Cramer has three lingering questions about Anthropic ahead of its historic IPO",
+      "publishedAtSgt": "2026-11-13T07:45:00+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/anthropic-ipo-cramer-pricing-growth-ai-safety.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "In its updated IPO paperwork filed Tuesday, the company outlined plans to offer 825 million shares at $70 to $78 apiece. Despite Anthropic's explosive growth and improving profitability, Cramer called out three uncertainties affecting his evaluation of the investment case: - How will Anthropic's price cuts affect revenue? Much of Anthropic's extraordinary growth has been driven by Claude Code, its AI coding agent, which has gained traction among enterprise customers.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
+      "id": "c10758dd415d1c4bb83ac54e85451c92027afaffdcd6ab5a82071c9bd83b87a5",
+      "source": "CNBC",
+      "title": "Cramer says Jensen Huang betrayed Nvidia shareholders. How to pick up the pieces",
+      "publishedAtSgt": "2026-11-13T07:14:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-exit-cramer.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "Shares ended Thursday down more than 4%, but at its lows of the morning, the stock was off over 14%. Under Huang, Nvidia built an extensive equity investment portfolio that included a $5 billion investment in Intel in 2025 and a $2 billion investment in AI cloud provider CoreWeave earlier this year.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
+      "id": "cc23d49d087a5cad55738639134c419b7615cb38586efdf95a980d503a7f2a03",
+      "source": "CNBC",
+      "title": "Nscale updates IPO prospectus that shows widening loss",
+      "publishedAtSgt": "2026-11-13T07:12:15+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company did not specify how much it intends to raise in the public offering on the New York Stock Exchange. The company said in its IPO filing that it expects Microsoft to be a \"significant customer in future periods.\" The neocloud market, which focuses on renting access to chips such as Nvidia graphics processing units to clients, has been in tumult, partly because Jensen Huang resigned as Nvidia's CEO on Thursday, after admitting to being unfaithful to his wife.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T10:39:45+08:00"
+    },
+    {
+      "id": "b9b06146060b9f920caa4a1c6409f5f1ba5347daa2259391e3e2fad877277b63",
+      "source": "CNBC",
+      "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+      "publishedAtSgt": "2026-11-13T06:48:26+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "$214.7 million expected Cerebras' core revenue grew 70% from $135.7 million, compared with 103% growth in the second quarter, according to a statement. The company is trying to challenge Nvidia in the AI chip market. Cerebras shares have slumped by about 47% since the company debuted on Nasdaq in May.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
+      "id": "a9c264453f09edeab886a193d009625b65e4889fa107f81261d865c98076fad0",
+      "source": "CNBC",
+      "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+      "publishedAtSgt": "2026-11-13T05:20:35+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Cisco shares rose in extended trading on Thursday after the maker of networking gear reported better-than-expected fiscal first-quarter results. Cisco is trying to gain a foothold in the artificial intelligence buildout after missing out on the early years of the generative AI boom.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
       "id": "c25a87e60e5841e4f02a69ee4be09f1072939fa95a1afb23b63e32fe1b17ac14",
       "source": "CNBC",
       "title": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
@@ -86,6 +167,6 @@
       "collectedAtSgt": "2026-11-13T04:51:58+08:00"
     }
   ],
-  "articleCount": 5,
-  "updatedAtSgt": "2026-11-13T04:51:58+08:00"
+  "articleCount": 10,
+  "updatedAtSgt": "2026-11-13T10:39:45+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-13T04:52:02+08:00",
+  "generatedAtSgt": "2026-11-13T10:39:45+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,87 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "9d94c807f076dbfbbb94ae3490552e0347480633b03d37602cd2250dea5cec93",
+      "source": "CNBC",
+      "title": "Jim Cramer has three lingering questions about Anthropic ahead of its historic IPO",
+      "publishedAtSgt": "2026-11-13T07:45:00+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/anthropic-ipo-cramer-pricing-growth-ai-safety.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "In its updated IPO paperwork filed Tuesday, the company outlined plans to offer 825 million shares at $70 to $78 apiece. Despite Anthropic's explosive growth and improving profitability, Cramer called out three uncertainties affecting his evaluation of the investment case: - How will Anthropic's price cuts affect revenue? Much of Anthropic's extraordinary growth has been driven by Claude Code, its AI coding agent, which has gained traction among enterprise customers.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
+      "id": "c10758dd415d1c4bb83ac54e85451c92027afaffdcd6ab5a82071c9bd83b87a5",
+      "source": "CNBC",
+      "title": "Cramer says Jensen Huang betrayed Nvidia shareholders. How to pick up the pieces",
+      "publishedAtSgt": "2026-11-13T07:14:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-exit-cramer.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "Shares ended Thursday down more than 4%, but at its lows of the morning, the stock was off over 14%. Under Huang, Nvidia built an extensive equity investment portfolio that included a $5 billion investment in Intel in 2025 and a $2 billion investment in AI cloud provider CoreWeave earlier this year.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
+      "id": "cc23d49d087a5cad55738639134c419b7615cb38586efdf95a980d503a7f2a03",
+      "source": "CNBC",
+      "title": "Nscale updates IPO prospectus that shows widening loss",
+      "publishedAtSgt": "2026-11-13T07:12:15+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company did not specify how much it intends to raise in the public offering on the New York Stock Exchange. The company said in its IPO filing that it expects Microsoft to be a \"significant customer in future periods.\" The neocloud market, which focuses on renting access to chips such as Nvidia graphics processing units to clients, has been in tumult, partly because Jensen Huang resigned as Nvidia's CEO on Thursday, after admitting to being unfaithful to his wife.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T10:39:45+08:00"
+    },
+    {
+      "id": "b9b06146060b9f920caa4a1c6409f5f1ba5347daa2259391e3e2fad877277b63",
+      "source": "CNBC",
+      "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+      "publishedAtSgt": "2026-11-13T06:48:26+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "$214.7 million expected Cerebras' core revenue grew 70% from $135.7 million, compared with 103% growth in the second quarter, according to a statement. The company is trying to challenge Nvidia in the AI chip market. Cerebras shares have slumped by about 47% since the company debuted on Nasdaq in May.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
+      "id": "a9c264453f09edeab886a193d009625b65e4889fa107f81261d865c98076fad0",
+      "source": "CNBC",
+      "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+      "publishedAtSgt": "2026-11-13T05:20:35+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Cisco shares rose in extended trading on Thursday after the maker of networking gear reported better-than-expected fiscal first-quarter results. Cisco is trying to gain a foothold in the artificial intelligence buildout after missing out on the early years of the generative AI boom.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
     {
       "id": "c25a87e60e5841e4f02a69ee4be09f1072939fa95a1afb23b63e32fe1b17ac14",
       "source": "CNBC",
@@ -1512,86 +1593,6 @@
       "relevanceScore": 91,
       "relevanceReason": "strong_market_title",
       "summary": "Since the landmark results came in, tech and AI stocks have been jolted by market volatility. \"The tumble in tech stocks that took hold in the immediate aftermath of the US midterm elections resumed as investors contemplated what a Democrat-controlled Congress may mean for tech regulation and the overall AI boom,\" wrote Kyle Rodda, senior financial market analyst at Capital.com in a note on Thursday after the bell.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
-    },
-    {
-      "id": "4d42bd5651f18f67504248b2014a6e8414e33ca7d051eb2778f80095a57b9bb7",
-      "source": "CNBC",
-      "title": "Moderna raises 2026 outlook as CEO says newer vaccines are gaining traction",
-      "publishedAtSgt": "2026-11-06T19:56:04+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/moderna-mrna-earnings-q3-2026.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Moderna on Friday smashed third-quarter revenue and earnings estimates and hiked its outlook for full-year sales growth, as some of its newer products gain momentum. The biotech company now expects 2026 revenue growth of 15% to 25%, up from its previous guidance of up to 10%. Despite the positive results, investors battered Moderna's stock after part of the data was leaked on social media just days before trial investigators were set to present it at a European medical conference.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
-    },
-    {
-      "id": "1aeccbe49f750191e5d8294be429d2c4706ef26682eda5c535332334b9cb5dd0",
-      "source": "CNBC",
-      "title": "AI debt concerns grow as ING reportedly seeks buyers for $500 million of data center loans",
-      "publishedAtSgt": "2026-11-06T19:24:52+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "The ING sale comes as fears grow over soaring debt tied to the AI build-out — and potentially disappointing returns among investors. The perceived risk of a construction slowdown sent AI-related stocks into free fall on Thursday, with the tech-heavy Nasdaq Composite Index closing the session down 5.5% — its worst day since April 2025 — and into correction territory.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
-    },
-    {
-      "id": "59668c59ac7095e2afe166e9c34e282ae4e3c3fa211b5f9cb4419a13f36fc398",
-      "source": "CNBC",
-      "title": "Democrat sweep gives markets a reason to rethink path of interest rates",
-      "publishedAtSgt": "2026-11-06T18:22:22+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "midterms has the potential to curb interest rate hikes globally next year, according to market watchers — but the uncertain path of oil prices, U.S. Dan Coatsworth, head of markets at AJ Bell, said there had been \"an admission from the Republican camp that the Iran war cost them a clean sweep in the election, which the market has taken to indicate that a swift resolution to the Middle East conflict could help them save face.\" \"Trump might relish the opportunity to take all the credit if an end...",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T20:10:45+08:00"
-    },
-    {
-      "id": "42a612961716741d3db5ba6710396efc22611fd364e603b4943bc30252dfd4a0",
-      "source": "CNBC",
-      "title": "Oil prices set for sharp weekly fall after midterm elections as investors weigh Iran conflict risk",
-      "publishedAtSgt": "2026-11-06T18:00:54+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Oil prices fell on Friday, reversing earlier gains, as investors weighed the risk of renewed military escalation between the U.S. Bob McNally, Rapidan Energy Group founder and president, told CNBC's \"Squawk Box Asia\" that he sees an 80% probability of military fighting resuming, forecasting that both oil benchmarks could climb above $100 a barrel.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-06T20:10:46+08:00"
-    },
-    {
-      "id": "e5f56d3f49a53451dc4838d2d6c5698c6208b3c1a88c2e8845a7f15a62f15220",
-      "source": "CNBC",
-      "title": "Equinix points to smaller facilities as scrutiny of U.S. data center construction grows",
-      "publishedAtSgt": "2026-11-06T15:23:02+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/equinix-us-data-center-growth-asia.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "construction restrictions as regulators scrutinize the rapid buildout of artificial intelligence infrastructure. Adaggra said growth was driven by demand from large enterprises, including Fortune 500 companies, as businesses invest in hybrid and multi-cloud infrastructure, network connectivity and access to digital infrastructure. Potential restrictions on data center development could also raise costs across the AI infrastructure supply chain, according to Russell Investments.",
       "feeds": [
         "latest",
         "world"
