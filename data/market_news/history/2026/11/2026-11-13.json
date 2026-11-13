@@ -5,6 +5,136 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "31d6eeed43979cc390aaca332a202d960a63890141790ad4005136178ddc35c2",
+      "source": "CNBC",
+      "title": "CNBC's Official NHL Team Valuations 2026: How the 32 franchises stack up",
+      "publishedAtSgt": "2026-11-13T19:48:31+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/cnbcs-official-nhl-team-valuations-2026-how-the-32-clubs-stack-up.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Scott Malkin and other shareholders are close to selling a 15% stake in the New York Islanders at a $3 billion valuation. \"Capitalism and technology are creating more wealth and the NHL, like the NFL, NBA and MLB, is an industry with a very long product life cycle, a hedge against risk in AI.\" The NHL's current national media rights deals with Walt Disney and Warner Bros.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "id": "02bfb6d604cb7d2e05d67887da7e8eefe5a51f3150fe6fdd77b7a7ce2212c7e6",
+      "source": "CNBC",
+      "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
+      "publishedAtSgt": "2026-11-13T19:31:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "At the start of the year, the Federal Reserve was sanguine about the American economy. Economists projected the central bank could lower rates. Instead, the Fed was forced to raise rates in September for the first time since 2023, hiking 25 basis points as inflation, which has run above the Fed's 2% target for more than five years, reemerged as its bugbear.",
+      "feeds": [
+        "latest",
+        "economy"
+      ],
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "id": "c4b26c28d13532b1e191030dcf92532a65ed179835e6777ef9115d3b5c4d84db",
+      "source": "CNBC",
+      "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
+      "publishedAtSgt": "2026-11-13T18:54:40+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "There is growing bipartisan scrutiny of the Commerce Department Secretary's approach to chip policy and whether his department was doing enough to restrict the supply of AI chips to China. Lawmakers are also questioning whether the department was overseeing Nvidia's exports thoroughly enough Senator Jim Banks has been particularly scathing, saying Lutnick \"appears to have used loopholes to allow some of these chip sales to occur,\" in an appearance on Fox News on Thursday.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "id": "c384305df99b302a94f843685dc34f405ada075920963620f087f982ac8f99bc",
+      "source": "CNBC",
+      "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
+      "publishedAtSgt": "2026-11-13T18:00:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia shares were slightly higher in premarket trading on Friday as investors navigate the fallout from Jensen Huang's resignation after reports of at least two affairs. It follows a wild day for the stock on Thursday, which dropped sharply before recovering to close just over 4% lower. Shares of Nvidia were 1.8% higher as of 5:00 a.m.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "id": "7ed4e019858042939e74dbd3a219f4ce953e1bca764f83947d6290b2c9d250f9",
+      "source": "CNBC",
+      "title": "‘We will sue them’: Canada threatens Stellantis as Trump trade war reshapes Jeep production plans",
+      "publishedAtSgt": "2026-11-13T17:45:04+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/canada-stellantis-auto-trump-tariffs-jeep.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Canada has threatened to sue auto giant Stellantis over the planned sale of an idled assembly plant in Brampton, Ontario, alleging breaches of a federal funding agreement after the carmaker announced plans to shift production to the U.S. and Canada remain locked in a bitter trade dispute, with Trump repeatedly putting pressure on automakers to move vehicle production south of the border.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "id": "8fe5044c35fcd0147b62b9d740e6d9587574f6d9d91f302d1186497512edc848",
+      "source": "CNBC",
+      "title": "Treasury yields rise as traders strengthen Fed rate hike bets",
+      "publishedAtSgt": "2026-11-13T16:50:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "The longer-dated 30-year Treasury bond yield, which tends to react to geopolitical risks, was 3 basis points higher at 5.4602%. The 2-year Treasury note yield, which is typically more sensitive to short-term Federal Reserve interest rate decisions, was 1 basis point lower at 4.8525%. Energy inflation remains in focus, with oil set for its second weekly decline as the prospects of renewed strikes by the U.S.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "id": "a8390a03265202ac4f6035e0029c8ca233837b4ceeabb24a86033c4cd09c232e",
+      "source": "CNBC",
+      "title": "Nvidia’s turmoil is prompting a rotation across chip stocks. Here's what we know",
+      "publishedAtSgt": "2026-11-13T16:27:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia's leadership crisis is creating an opening for its biggest rivals, as investors bet that Jensen Huang's departure could loosen the AI chip giant's grip on an industry it has long dominated. Franklin noted that major technology companies are projecting higher AI spending in 2027, with further increases possible in 2028, signaling the investment cycle remains structurally intact even as investors reassess which companies stand to benefit.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
+      "id": "a5cef1a4a466aff830c7ba2aed867e7e336c760efbc884a42cf76855c786af5a",
+      "source": "CNBC",
+      "title": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
+      "publishedAtSgt": "2026-11-13T15:15:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Singapore, a hub for billions of dollars' worth of Nvidia sales each year, finds itself increasingly in the crosshairs of Washington's push to stop advanced AI chips from reaching China, as the chipmaker CEO's scandal once again thrusts the city-state into the spotlight. national security official, said that Southeast Asia has become \"a major hub for chip smuggling and export control circumvention,\" importing tens of billions of dollars' worth of AI chips per year.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
+    },
+    {
       "id": "9d94c807f076dbfbbb94ae3490552e0347480633b03d37602cd2250dea5cec93",
       "source": "CNBC",
       "title": "Jim Cramer has three lingering questions about Anthropic ahead of its historic IPO",
@@ -84,6 +214,21 @@
         "technology"
       ],
       "collectedAtSgt": "2026-11-13T10:39:44+08:00"
+    },
+    {
+      "id": "5216871911b7a5d80e1ea0a38bca2f21b694ac15dea79122ece6b02c84b51ac8",
+      "source": "CNBC",
+      "title": "Why Nvidia stock drop isn't a big deal for many ETF, mutual fund investors",
+      "publishedAtSgt": "2026-11-13T05:16:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-stock-drop-etf-mutual-fund-investors.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Many investors therefore hold the chipmaker's stock in their portfolios — and may worry about their exposure. But mutual fund and ETF investors' exposure to Nvidia stock is likely relatively low, data shows — and any big swings in its stock price are likely to have a fairly muted impact on investor portfolios, financial advisors said. Let's look at some of the most popular stock ETFs for some specific examples of why investors likely have limited exposure.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-13T20:16:59+08:00"
     },
     {
       "id": "c25a87e60e5841e4f02a69ee4be09f1072939fa95a1afb23b63e32fe1b17ac14",
@@ -167,6 +312,6 @@
       "collectedAtSgt": "2026-11-13T04:51:58+08:00"
     }
   ],
-  "articleCount": 10,
-  "updatedAtSgt": "2026-11-13T10:39:45+08:00"
+  "articleCount": 19,
+  "updatedAtSgt": "2026-11-13T20:16:59+08:00"
 }
