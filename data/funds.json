@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-11-12T23:03:56+00:00",
+  "generatedAtUtc": "2026-11-13T12:51:01+00:00",
   "source": "Funds Links.xlsm",
   "fundCount": 67,
   "research": {
@@ -229,8 +229,8 @@
     "dividendFunds": 19,
     "paymentModeFunds": 67,
     "paymentModeCounts": {
-      "Cash": 67,
       "SRS": 56,
+      "Cash": 67,
       "CPF-OA": 14,
       "CPF-SA": 5
     },
@@ -336,7 +336,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -418,7 +418,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -512,7 +512,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -600,7 +600,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -731,7 +731,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -862,7 +862,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -991,7 +991,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -1115,7 +1115,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -1245,7 +1245,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -1375,7 +1375,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -1598,7 +1598,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -1730,7 +1730,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -1965,7 +1965,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -2094,7 +2094,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -2369,7 +2369,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -2493,7 +2493,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -2623,7 +2623,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -2846,7 +2846,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -3069,7 +3069,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -3199,7 +3199,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -3330,7 +3330,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -3460,7 +3460,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -3550,7 +3550,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -3682,7 +3682,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -3772,7 +3772,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -3902,7 +3902,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -4041,7 +4041,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -4375,7 +4375,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -4444,7 +4444,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -4575,7 +4575,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -4835,7 +4835,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -4964,7 +4964,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -5088,7 +5088,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -5218,7 +5218,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -5347,7 +5347,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -5477,7 +5477,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -5607,7 +5607,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -5737,7 +5737,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -5867,7 +5867,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -5999,7 +5999,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -6254,7 +6254,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -6384,7 +6384,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -6607,7 +6607,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -6830,7 +6830,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -6960,7 +6960,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -7090,7 +7090,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -7220,7 +7220,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -7486,7 +7486,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -7604,7 +7604,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -7735,7 +7735,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -7864,7 +7864,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -7995,7 +7995,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -8125,7 +8125,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -8256,7 +8256,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -8388,7 +8388,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -8518,7 +8518,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -8648,7 +8648,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -8780,7 +8780,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -9015,7 +9015,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -9146,7 +9146,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -9184,11 +9184,15 @@
         "fundObjective": "The PRULink StrategicInvest Income Fund aims to provide long term capital growth and income by investing in a diversified portfolio of Underlying Funds.",
         "investmentManager": null,
         "hasDividend": true,
-        "dividendRate": "20261015=0.53&20260915=0.51&20260814=0.51&20260715=0.51&20260615=0.51&20260515=0.51&20260415=0.51&20260316=0.51&20260216=0.51&20260115=0.51&20251215=0.51&20251114=0.51&20251015=0.51&20250915=0.51",
+        "dividendRate": "20261113=0.53&20261015=0.53&20260915=0.51&20260814=0.51&20260715=0.51&20260615=0.51&20260515=0.51&20260415=0.51&20260316=0.51&20260216=0.51&20260115=0.51&20251215=0.51&20251114=0.51&20251015=0.51&20250915=0.51",
         "dividendUnit": "cent per unit",
         "dividendUnitSource": "prudential-api:dividendUnit",
         "dividendUnitEvidence": "dividendUnit=cent per unit",
         "dividendHistory": [
+          {
+            "exDate": "2026-11-13",
+            "rate": 0.53
+          },
           {
             "exDate": "2026-10-15",
             "rate": 0.53
@@ -9290,7 +9294,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -9328,11 +9332,15 @@
         "fundObjective": "The PRULink StrategicInvest Income Fund aims to provide long term capital growth and income by investing in a diversified portfolio of Underlying Funds.",
         "investmentManager": null,
         "hasDividend": true,
-        "dividendRate": "20261015=0.60&20260915=0.55&20260814=0.55&20260715=0.55&20260615=0.55&20260515=0.55&20260415=0.55&20260316=0.55&20260216=0.55&20260115=0.55&20251215=0.55&20251114=0.55&20251015=0.55&20250915=0.55",
+        "dividendRate": "20261113=0.60&20261015=0.60&20260915=0.55&20260814=0.55&20260715=0.55&20260615=0.55&20260515=0.55&20260415=0.55&20260316=0.55&20260216=0.55&20260115=0.55&20251215=0.55&20251114=0.55&20251015=0.55&20250915=0.55",
         "dividendUnit": "cent per unit",
         "dividendUnitSource": "prudential-api:dividendUnit",
         "dividendUnitEvidence": "dividendUnit=cent per unit",
         "dividendHistory": [
+          {
+            "exDate": "2026-11-13",
+            "rate": 0.6
+          },
           {
             "exDate": "2026-10-15",
             "rate": 0.6
@@ -9434,7 +9442,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -9472,11 +9480,15 @@
         "fundObjective": "The PRULink US Dividend Wealth Fund aims to provide long term capital growth and income by investing in corporate Debt Securities and Equities of US and/or Canadian equity and bond markets.",
         "investmentManager": "Voya Investment Management Co. LLC",
         "hasDividend": true,
-        "dividendRate": "20261015=0.53&20260915=0.51&20260814=0.51&20260715=0.51&20260615=0.51&20260515=0.51&20260415=0.51&20260316=0.51&20260216=0.51&20260115=0.51&20251215=0.51&20251114=0.51&20251015=0.51&20250915=0.51&20250815=0.51&20250715=0.51&20250616=0.51&20250515=0.51&20250414=0.51&20250314=0.51&20250214=0.51&20250115=0.51&20241213=0.51&20241114=0.51&20241015=0.51&20240913=0.55&20240814=0.55&20240715=0.55&20240614=0.55&20240514=0.55&20240415=0.55&20240314=0.55&20240214=0.55&20240115=0.55&20231214=0.55&20231114=0.55&20231016=0.55&20230914=0.55&20230814=0.55&20230714=0.6&20230614=0.6&20230515=0.6&20230414=0.6&20230314=0.6&20230214=0.6&20230113=0.6&20221214=0.6&20221114=0.6&20221014=0.6",
+        "dividendRate": "20261113=0.53&20261015=0.53&20260915=0.51&20260814=0.51&20260715=0.51&20260615=0.51&20260515=0.51&20260415=0.51&20260316=0.51&20260216=0.51&20260115=0.51&20251215=0.51&20251114=0.51&20251015=0.51&20250915=0.51&20250815=0.51&20250715=0.51&20250616=0.51&20250515=0.51&20250414=0.51&20250314=0.51&20250214=0.51&20250115=0.51&20241213=0.51&20241114=0.51&20241015=0.51&20240913=0.55&20240814=0.55&20240715=0.55&20240614=0.55&20240514=0.55&20240415=0.55&20240314=0.55&20240214=0.55&20240115=0.55&20231214=0.55&20231114=0.55&20231016=0.55&20230914=0.55&20230814=0.55&20230714=0.6&20230614=0.6&20230515=0.6&20230414=0.6&20230314=0.6&20230214=0.6&20230113=0.6&20221214=0.6&20221114=0.6&20221014=0.6",
         "dividendUnit": "cent per unit",
         "dividendUnitSource": "prudential-api:dividendUnit",
         "dividendUnitEvidence": "dividendUnit=cent per unit",
         "dividendHistory": [
+          {
+            "exDate": "2026-11-13",
+            "rate": 0.53
+          },
           {
             "exDate": "2026-10-15",
             "rate": 0.53
@@ -9760,7 +9772,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -9798,11 +9810,15 @@
         "fundObjective": "The PRULink US Dividend Wealth Fund aims to provide long term capital growth and income by investing in corporate Debt Securities and Equities of US and/or Canadian equity and bond markets.",
         "investmentManager": "Voya Investment Management Co. LLC",
         "hasDividend": true,
-        "dividendRate": "20261015=0.60&20260915=0.55&20260814=0.55&20260715=0.55&20260615=0.55&20260515=0.55&20260415=0.55&20260316=0.55&20260216=0.55&20260115=0.55&20251215=0.55&20251114=0.55&20251015=0.55&20250915=0.55&20250815=0.55&20250715=0.55&20250616=0.55&20250515=0.55&20250414=0.55&20250314=0.55&20250214=0.55&20250115=0.55&20241213=0.55&20241114=0.55&20241015=0.55&20240913=0.55&20240814=0.55&20240715=0.55&20240614=0.55&20240514=0.55&20240415=0.55&20240314=0.55&20240214=0.55&20240115=0.55&20231214=0.55&20231114=0.55",
+        "dividendRate": "20261113=0.60&20261015=0.60&20260915=0.55&20260814=0.55&20260715=0.55&20260615=0.55&20260515=0.55&20260415=0.55&20260316=0.55&20260216=0.55&20260115=0.55&20251215=0.55&20251114=0.55&20251015=0.55&20250915=0.55&20250815=0.55&20250715=0.55&20250616=0.55&20250515=0.55&20250414=0.55&20250314=0.55&20250214=0.55&20250115=0.55&20241213=0.55&20241114=0.55&20241015=0.55&20240913=0.55&20240814=0.55&20240715=0.55&20240614=0.55&20240514=0.55&20240415=0.55&20240314=0.55&20240214=0.55&20240115=0.55&20231214=0.55&20231114=0.55",
         "dividendUnit": "cent per unit",
         "dividendUnitSource": "prudential-api:dividendUnit",
         "dividendUnitEvidence": "dividendUnit=cent per unit",
         "dividendHistory": [
+          {
+            "exDate": "2026-11-13",
+            "rate": 0.6
+          },
           {
             "exDate": "2026-10-15",
             "rate": 0.6
@@ -10034,7 +10050,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -10103,7 +10119,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -10172,7 +10188,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     },
     {
@@ -10241,7 +10257,7 @@
       },
       "updateStatus": {
         "status": "updated",
-        "lastSuccessfulUpdateUtc": "2026-11-12T23:03:56+00:00"
+        "lastSuccessfulUpdateUtc": "2026-11-13T12:51:01+00:00"
       }
     }
   ]
