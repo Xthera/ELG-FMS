@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-13T20:16:59+08:00",
+  "generatedAtSgt": "2026-11-14T04:30:23+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,69 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "f470b3855a597b6bda0d29b4f746735e2f79a3ac1fd87f6cdf5748f3a117ee15",
+      "source": "CNBC",
+      "title": "Supreme Court agrees to hear Robinhood challenge to IPO information omission lawsuit",
+      "publishedAtSgt": "2026-11-14T04:00:06+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Court of Appeals that revived a lawsuit by investors against the company and firms involved with the IPO, including Goldman Sachs and J.P. Robinhood's IPO came on the heels of a surge in investor interest during the Covid-19 pandemic of so-called meme stocks, and trading in the crypto asset Dogecoin.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-14T04:30:18+08:00"
+    },
+    {
+      "id": "76736f159d6e7e3da5df19341fc3fa8ff902cfe2717f36b0f921040f40e1e746",
+      "source": "CNBC",
+      "title": "Goldman Sachs looks to cash in on Anthropic's IPO, twice. Here's how and who else wants to",
+      "publishedAtSgt": "2026-11-14T03:45:35+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A successful Anthropic IPO, which by all accounts looks likely, would act as a ballast to the precarious moment in the AI trade, Jim Cramer has said. However, Schorr said the bigger potential windfall for investment banks like Goldman from these high-profile offerings extends \"well north of just the IPO fee.\" The Anthropic deal, which could raise $64.35 billion as of the latest filing, would provide a big payday for the AI company's founders, executives, and employees — giving Goldman the...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-14T04:30:19+08:00"
+    },
+    {
+      "id": "a4a7ae779ef76d923a17b1d97fc9e1a686d27933c9015a1a613668c4b2e94659",
+      "source": "CNBC",
+      "title": "Why the data center slowdown concern is overblown. Two stocks to buy amid the fear",
+      "publishedAtSgt": "2026-11-14T00:54:40+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/data-center-slowdown-utility-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "So says every utility CEO and energy-focused investor we spoke with at the Edison Electric Institute's annual conference in Arizona. The bottom line in this brief foray into the Texas regulatory swamp is to highlight that there are things for investors to consider around the data center/energy world that may not be at the top of the headlines. Goldman Sachs lays it out in a new note late this week: \"The midterm election results pose only modest risks to AI investment, for now.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-14T04:30:19+08:00"
+    },
+    {
+      "id": "c4a9e7a05e12e1e69e0f3cf5822d48863fc934de3f539f8754098d41029898be",
+      "source": "CNBC",
+      "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+      "publishedAtSgt": "2026-11-13T22:22:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Chicago Federal Reserve President Austan Goolsbee expressed concern about the latest inflation data, telling CNBC on Friday that the central bank likely will need to take action. \"I believe that the the central bank has definitely got work to do to continue to reestablish its credibility,\" the policymaker said during an interview on \"Squawk Box.\" His remarks came shortly after the Bureau of Labor Statistics reported that the producer price index, considered a proxy for wholesale prices, posted...",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-14T04:30:23+08:00"
+    },
     {
       "id": "31d6eeed43979cc390aaca332a202d960a63890141790ad4005136178ddc35c2",
       "source": "CNBC",
@@ -1542,68 +1605,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-07T03:58:24+08:00"
-    },
-    {
-      "id": "c03fe9808b99a055ed5581d9cb8e6ca28cfca407801c0ad27257a137e5288478",
-      "source": "CNBC",
-      "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
-      "publishedAtSgt": "2026-11-07T03:49:09+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Americans who lose their jobs these days are facing a harsh new problem: It's getting harder to find another one quickly. What's more, workers who are unemployed for extended periods risk falling into a self-perpetuating cycle, researchers at the Federal Reserve Bank of Richmond wrote earlier this year. American Express said last month that it was slashing head count by 5% as it reorients around artificial intelligence.",
-      "feeds": [
-        "latest",
-        "economy"
-      ],
-      "collectedAtSgt": "2026-11-07T03:58:23+08:00"
-    },
-    {
-      "id": "4dd7e13cca843ccaf1367c64a99a2b45f9649119e7b10269df92e13558e2ece9",
-      "source": "CNBC",
-      "title": "Watch the Annual Meeting: Cramer on the fate of the AI buildout and stocks to buy now",
-      "publishedAtSgt": "2026-11-07T03:36:12+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "After the most consequential midterm elections in years, in which Democrats flipped both houses of Congress and won several key gubernatorial races, the stock market has been swinging wildly as investors try to make sense of what's next. \"I will also be more sanguine if the giant Anthropic deal comes public and it can show people how valuable compute can be.\" Portfolio highlights When talking with portfolio director Jeff Marks, Jim started with Apple and reiterated his \"own it, don't trade it\"...",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-07T03:58:25+08:00"
-    },
-    {
-      "id": "155c1ece4cc5d708c39ad72868673bf0fbaac27078b80577c3576144937b83d3",
-      "source": "CNBC",
-      "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
-      "publishedAtSgt": "2026-11-07T03:05:00+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "San Francisco Federal Reserve President Mary Daly said Friday she expects the central bank will need to raise interest rates further, but joined her fellow policymakers in saying the pace and timing remain uncertain. \"This has been high for too long, almost six years, and we're really starting to feel the burden of that spread everywhere.\" The policymaker said she's not concerned generally about economic growth but worried about the persistence of inflation.",
-      "feeds": [
-        "latest",
-        "finance"
-      ],
-      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
-    },
-    {
-      "id": "b80a2694d0d0a3b48bb3c8044d42c7a28385b60fcfa2f0f327a0167a7e0454f1",
-      "source": "CNBC",
-      "title": "Data center double-down: Hassett says blue wave won't stop AI build-out",
-      "publishedAtSgt": "2026-11-07T02:54:22+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/data-centers-ai-elections-hassett.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "National Economic Council Director Kevin Hassett said Friday he expects data center growth to continue as projected, despite the blue-wave election that saw voters overwhelmingly favor limiting the tech infrastructure buildout. Hassett, on CNBC's \"Squawk on the Street,\" acknowledged the dozens of measures on states' midterm ballots seeking to constrain data centers, a crucial part of President Donald Trump's push to win the global artificial intelligence race.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-07T03:58:23+08:00"
     }
   ]
 }

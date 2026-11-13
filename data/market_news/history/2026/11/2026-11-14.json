@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-14",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "f470b3855a597b6bda0d29b4f746735e2f79a3ac1fd87f6cdf5748f3a117ee15",
+      "source": "CNBC",
+      "title": "Supreme Court agrees to hear Robinhood challenge to IPO information omission lawsuit",
+      "publishedAtSgt": "2026-11-14T04:00:06+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Court of Appeals that revived a lawsuit by investors against the company and firms involved with the IPO, including Goldman Sachs and J.P. Robinhood's IPO came on the heels of a surge in investor interest during the Covid-19 pandemic of so-called meme stocks, and trading in the crypto asset Dogecoin.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-14T04:30:18+08:00"
+    },
+    {
+      "id": "76736f159d6e7e3da5df19341fc3fa8ff902cfe2717f36b0f921040f40e1e746",
+      "source": "CNBC",
+      "title": "Goldman Sachs looks to cash in on Anthropic's IPO, twice. Here's how and who else wants to",
+      "publishedAtSgt": "2026-11-14T03:45:35+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A successful Anthropic IPO, which by all accounts looks likely, would act as a ballast to the precarious moment in the AI trade, Jim Cramer has said. However, Schorr said the bigger potential windfall for investment banks like Goldman from these high-profile offerings extends \"well north of just the IPO fee.\" The Anthropic deal, which could raise $64.35 billion as of the latest filing, would provide a big payday for the AI company's founders, executives, and employees — giving Goldman the...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-14T04:30:19+08:00"
+    },
+    {
+      "id": "a4a7ae779ef76d923a17b1d97fc9e1a686d27933c9015a1a613668c4b2e94659",
+      "source": "CNBC",
+      "title": "Why the data center slowdown concern is overblown. Two stocks to buy amid the fear",
+      "publishedAtSgt": "2026-11-14T00:54:40+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/data-center-slowdown-utility-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "So says every utility CEO and energy-focused investor we spoke with at the Edison Electric Institute's annual conference in Arizona. The bottom line in this brief foray into the Texas regulatory swamp is to highlight that there are things for investors to consider around the data center/energy world that may not be at the top of the headlines. Goldman Sachs lays it out in a new note late this week: \"The midterm election results pose only modest risks to AI investment, for now.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-14T04:30:19+08:00"
+    }
+  ],
+  "articleCount": 3,
+  "updatedAtSgt": "2026-11-14T04:30:19+08:00"
+}

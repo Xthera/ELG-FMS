@@ -5,6 +5,23 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "c4a9e7a05e12e1e69e0f3cf5822d48863fc934de3f539f8754098d41029898be",
+      "source": "CNBC",
+      "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+      "publishedAtSgt": "2026-11-13T22:22:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Chicago Federal Reserve President Austan Goolsbee expressed concern about the latest inflation data, telling CNBC on Friday that the central bank likely will need to take action. \"I believe that the the central bank has definitely got work to do to continue to reestablish its credibility,\" the policymaker said during an interview on \"Squawk Box.\" His remarks came shortly after the Bureau of Labor Statistics reported that the producer price index, considered a proxy for wholesale prices, posted...",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-14T04:30:23+08:00"
+    },
+    {
       "id": "31d6eeed43979cc390aaca332a202d960a63890141790ad4005136178ddc35c2",
       "source": "CNBC",
       "title": "CNBC's Official NHL Team Valuations 2026: How the 32 franchises stack up",
@@ -312,6 +329,6 @@
       "collectedAtSgt": "2026-11-13T04:51:58+08:00"
     }
   ],
-  "articleCount": 19,
-  "updatedAtSgt": "2026-11-13T20:16:59+08:00"
+  "articleCount": 20,
+  "updatedAtSgt": "2026-11-14T04:30:23+08:00"
 }
