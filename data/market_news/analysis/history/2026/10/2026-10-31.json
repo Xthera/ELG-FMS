@@ -1,0 +1,336 @@
+{
+  "date": "2026-10-31",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "articleCount": 11,
+  "analyses": [
+    {
+      "articleId": "6713151a9d9f66c5b28a5b0bd9ef0157cf5be4010cfc8d330f33542ff9863990",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Wall Street experienced a major market reversal as early optimism in artificial intelligence and semiconductor stocks faded due to renewed concerns over the AI trade and the prospect of higher interest rates raising borrowing costs for tech expansion.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors should note heightened volatility in technology and semiconductor sectors, driven by valuation concerns and rising interest rate expectations impacting debt-financed AI capital expenditures.",
+      "reasoning": "The article discusses a significant stock market reversal affecting major equity indices and key sectors like technology, making it highly relevant for market monitoring and investment strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+      "publishedAtSgt": "2026-10-31T23:37:11+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-01T04:00:56+08:00"
+    },
+    {
+      "articleId": "684738bb69fde9ddc1162f83ff5d6fe5e60587d47df59cfbd91e96d5a2e44e45",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Despite President Donald Trump's campaign promises to dramatically cut energy costs and gas prices within his first year in office, gasoline, diesel, and jet fuel prices have instead increased.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Transportation"
+      ],
+      "investorImpact": "Rising fuel prices can contribute to broader inflationary pressures, impacting consumer discretionary spending and increasing operational costs for transportation and logistics sectors.",
+      "reasoning": "Classified as ECONOMIC because it discusses commodity price trends (gasoline, diesel, jet fuel) and their deviation from political economic targets, which is relevant for inflation monitoring and sector performance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
+      "publishedAtSgt": "2026-10-31T20:49:58+08:00",
+      "url": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-31T21:40:56+08:00"
+    },
+    {
+      "articleId": "f6fcedb0f9fc4bffff983ea9ce4fedd6435c5e600eeda44db9cfd5b54ca3353c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "A massive $6.3 billion security breach on Binance highlights ongoing vulnerabilities in crypto wallets and exchanges, prompting experts to warn against leaving significant funds on platforms lacking federal deposit insurance protections.",
+      "assetClasses": [
+        "Cryptocurrency",
+        "Digital Assets"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Cryptocurrency",
+        "Technology"
+      ],
+      "investorImpact": "Investors face heightened counterparty and security risks when holding assets on centralized crypto exchanges, underscoring the need for self-custody or enhanced risk management due to a lack of regulatory deposit protections like FDIC insurance.",
+      "reasoning": "The article addresses a major market security event involving a massive loss on a prominent crypto exchange. It is categorized as MARKET due to direct implications for digital asset trading and custody, carrying a NEGATIVE sentiment and HIGH importance for fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Binance’s $6.3 billion hack raises questions about crypto wallet safety",
+      "publishedAtSgt": "2026-10-31T20:47:08+08:00",
+      "url": "https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-10-31T21:40:56+08:00"
+    },
+    {
+      "articleId": "bca48cc959ed5d87cad7f013169471ee012157259fc39c2c7b4635080958ca6f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "President Donald Trump previously criticized Big Oil over excess profits amid shortages, and recent corporate results show oil majors like ExxonMobil and Chevron continuing to reap windfalls from tight fuel supplies and elevated refining margins driven by the U.S.-Israeli war with Iran.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "United States",
+        "Middle East"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "High refining margins and tight fuel supplies driven by geopolitical conflict provide significant earnings boosts for major oil companies, impacting energy sector valuations and profitability.",
+      "reasoning": "The article is classified as MARKET because it discusses corporate earnings and windfall profits driven by refining margins and fuel supplies. It is important due to the direct impact on energy sector equities and commodities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+      "publishedAtSgt": "2026-10-31T14:00:02+08:00",
+      "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T15:01:54+08:00"
+    },
+    {
+      "articleId": "7d095a8dc895fea57e325a489beff8c3b3af0e7b2df8174677819f82a7dc4764",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "CNBC's Jim Cramer advises investors to diversify away from the struggling AI trade into consumer staples stocks, highlighting companies like Kimberly-Clark and Procter & Gamble for their recent gains, attractive valuations, and dividend yields.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Staples"
+      ],
+      "investorImpact": "Investors rotating out of high-flying technology and AI trades may find defensive opportunities in consumer staples, particularly companies with solid dividend yields and lower valuations.",
+      "reasoning": "The article provides actionable market commentary regarding sector rotation into consumer staples, making it relevant for portfolio diversification strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
+      "publishedAtSgt": "2026-10-31T06:52:04+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
+    {
+      "articleId": "2cfd56acc914ddde217c8cd736987be67b66884353ec5e61165f591ec74e2fb4",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "S&P Global Ratings has revised Meta's outlook downward due to cash flow concerns and heavy AI capital expenditures. Despite beating revenue estimates, Meta shares dropped 7% following the announcement.",
+      "assetClasses": [
+        "Equities",
+        "Credit"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Communication Services"
+      ],
+      "investorImpact": "Investors holding Meta equity experienced a 7% sell-off following credit outlook concerns and high AI spending, highlighting market sensitivity to heavy capital expenditure versus cash flow generation.",
+      "reasoning": "Classified as MARKET and NEGATIVE because S&P's outlook revision and the subsequent 7% drop in Meta shares directly impact equity and credit market sentiment regarding big tech capex spending.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+      "publishedAtSgt": "2026-10-31T06:42:26+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
+    {
+      "articleId": "7b45471800956f0b1535b67e9d8eb2a67394822061627dafd06f64b221655d17",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Stocks experienced a turbulent week due to concerns over the artificial intelligence trade and technology shares, alongside impending midterms and upcoming tech earnings. Jim Cramer warned that political opposition to AI facilities could delay construction and impact infrastructure spending growth, while noting potential in pharmaceutical stocks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Pharmaceuticals"
+      ],
+      "investorImpact": "Investors should prepare for ongoing market volatility driven by upcoming technology earnings, macroeconomic data like the jobs report, and political developments affecting AI infrastructure.",
+      "reasoning": "The article provides market commentary and highlights sentiment shifts in tech and pharmaceutical sectors, making it useful for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
+      "publishedAtSgt": "2026-10-31T06:17:13+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
+    {
+      "articleId": "99de5f14798396ba6d81405b9ed5c780a4e671693fa92377fac856d09d856b7b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Stocks closed sharply lower at the end of October, driven by a severe sell-off in technology and AI-related shares. Despite strong cloud fundamentals reported by companies like Amazon and Microsoft, investor pressure weighed heavily on the sector while defensive stocks outperformed.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Cloud Computing"
+      ],
+      "investorImpact": "Investors face heightened volatility in tech and AI-related shares, prompting a rotation into defensive stocks despite strong underlying fundamentals in major cloud providers.",
+      "reasoning": "The article provides crucial market commentary on a broad sectoral sell-off and rotation into defensives at month-end, making it highly relevant for portfolio risk monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
+      "publishedAtSgt": "2026-10-31T02:55:44+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T07:00:26+08:00"
+    },
+    {
+      "articleId": "953e398e33f495f99f9dfafd27d416000416578e86ed22ad6053c244de540ee0",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Amid war between Israel and Iran, Tehran launched attacks on commercial shipping in the Strait of Hormuz, causing a massive initial drop in crude oil exports from 16 million barrels per day down to 1.8 million barrels per day before tankers began defying the escalation to keep oil flowing.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Iran",
+        "Middle East",
+        "Strait of Hormuz",
+        "Israel"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas",
+        "Transportation"
+      ],
+      "investorImpact": "Significant disruption to the Strait of Hormuz directly threatens global crude oil supply chains, posing risks of volatile energy prices and higher transportation costs for energy and shipping sectors.",
+      "reasoning": "Classified as GEOPOLITICAL because it covers military conflict and shipping attacks in a critical global oil chokepoint. It is important and relevant for fund monitoring due to its direct and immediate impact on global energy markets and commodity pricing.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+      "publishedAtSgt": "2026-10-31T02:28:09+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 72,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-10-31T02:38:49+08:00"
+    },
+    {
+      "articleId": "9f37876b6f97acb3efe6dbeba5c90d4b30d8182f2ef988c401e2fa116704634d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Market professionals are voicing concerns over the artificial intelligence trade following a rough week for tech sector data points, leading to discussions about taking profits, while options signals show nuanced sentiment regarding big tech versus commercial AI prospects.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should reassess their exposure to AI-related mega-cap technology stocks and consider whether taking profits is appropriate given rising volatility and changing market sentiment.",
+      "reasoning": "The article discusses significant market reactions and profit-taking considerations within the major AI sector, directly impacting equity portfolios and asset allocation strategies.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The AI investing story had a rough week. It may be time to take profits while you still can",
+      "publishedAtSgt": "2026-10-31T01:22:30+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/ai-stocks-selloff-ai-spending-returns.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T02:38:51+08:00"
+    },
+    {
+      "articleId": "652929bc8e1563796f0438b6af6bf78d5d63d53c557d2ad19943e7d212b6c94e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "The Treasury Department has announced a new Series I bond rate of 5.51% for the next six months through April 2027, following a period where rates fluctuated amid changing inflation trends.",
+      "assetClasses": [
+        "Fixed Income",
+        "Government Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Government"
+      ],
+      "investorImpact": "The updated Series I bond rate provides investors with a risk-free yield benchmark for short-term allocation decisions, potentially attracting capital back into government-backed inflation-protected assets as rates adjust.",
+      "reasoning": "The article announces a major sovereign yield rate change directly relevant to fixed income investors and macroeconomic interest rate tracking, justifying a MARKET category and MEDIUM importance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+      "publishedAtSgt": "2026-10-31T01:15:53+08:00",
+      "url": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-10-31T02:38:48+08:00"
+    }
+  ]
+}
