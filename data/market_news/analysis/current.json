@@ -1,10 +1,41 @@
 {
-  "generatedAtSgt": "2026-11-14T04:46:09.570467+08:00",
+  "generatedAtSgt": "2026-11-14T19:48:51.043890+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 216,
+  "articleCount": 217,
   "analyses": [
+    {
+      "articleId": "badd428a6717a337d01500b9b2598482569a20b108fbb5809bc39e575d53af65",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "U.S. officials stated that President Donald Trump does not plan to raise allegations of a Chinese intelligence operation involving former Nvidia CEO Jensen Huang during his upcoming meeting with Chinese President Xi Jinping. Additionally, Elon Musk will accompany Trump on the trip to Shenzhen, China, for the APEC summit.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Automotive",
+        "Semiconductors"
+      ],
+      "investorImpact": "The avoidance of raising contentious tech-security issues regarding Nvidia during high-level talks reduces immediate regulatory and geopolitical tail risks for semiconductor equities, while the inclusion of Elon Musk highlights ongoing U.S.-China commercial interactions.",
+      "reasoning": "Classified as GEOPOLITICAL due to its focus on presidential diplomacy and bilateral relations between the U.S. and China, involving high-profile industry executives like Jensen Huang and Elon Musk.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+      "publishedAtSgt": "2026-11-14T09:34:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-14T10:28:20+08:00"
+    },
     {
       "articleId": "f470b3855a597b6bda0d29b4f746735e2f79a3ac1fd87f6cdf5748f3a117ee15",
       "relevant": true,
