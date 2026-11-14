@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-14T19:33:16+08:00",
+  "generatedAtSgt": "2026-11-15T02:45:33+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,85 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "16c0527b91f5403e47e5f65e0acf9100ff061ff9a4c4653abf4b5a9ce9fa3e21",
+      "source": "CNBC",
+      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+      "publishedAtSgt": "2026-11-15T01:46:06+08:00",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Atreides held 1.2 million shares worth nearly $250 million at the end of June. The Singapore-based company is being investigated by the Justice Department for possibly redirecting some of its supply of Nvidia's restricted artificial intelligence chips to China. 10 about whether the Commerce Department is \"properly performing its broader role of preventing China from acquiring advanced AI chips,\" according to the letter.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-15T02:45:29+08:00"
+    },
+    {
+      "id": "7d6f0bed1aaf448c826dd3fff70ed62853145c45ca24c9734fa1ba1ef8fd60fb",
+      "source": "CNBC",
+      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "publishedAtSgt": "2026-11-14T23:50:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The largest technology stocks linked to the artificial intelligence trade could stand to benefit the most from Nvidia's woes and a Democratic-controlled Congress pushing back on data centers, according to investing experts interviewed on CNBC's \"ETF Edge\" earlier this week. Part of his bull case: Other players in the AI trade are positioned to fill Nvidia's chip demand if investors lose trust in the company after a tumultuous week that saw its iconic founder and CEO Jensen Huang resign.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
+    },
+    {
+      "id": "8b1ce5591d9666ec9abf6fbe2dc331e1c3ab3332e525b52b4889a2cadc5d49f3",
+      "source": "CNBC",
+      "title": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
+      "publishedAtSgt": "2026-11-14T23:14:57+08:00",
+      "url": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors are eyeing these lots as the AI build-out increases the demand for heavy equipment. Rent growth, according to Alterra, is most closely tied to infrastructure and energy activity in the area, even more so than data center development specifically. But unlike the local businesses that tend to fill up shallow-bay sites, IOS tenants range from local businesses to those with investment-grade credit ratings, offering investors the potential for both yield and creditworthy tenants.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
+    },
+    {
+      "id": "4e9ad46dc82912eda0b06322e1cf94f409269f0e1048c648c2e3ccc858e85573",
+      "source": "CNBC",
+      "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
+      "publishedAtSgt": "2026-11-14T22:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Funding originates with the federal Low Income Home Energy Assistance Program, or LIHEAP, which is run by the U.S. A component of HEAP is the Energy Crisis Intervention Program, which serves qualifying families who face an energy crisis, such as a potential electric shutoff or an empty oil tank and no financial means to replenish the supply. Congressional lawmakers have called for increased LIHEAP funding this year due to rising energy costs, including heating oil.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
+    },
+    {
+      "id": "ee07ac69c57570b1582a395f956ba02aefc303f1574c27f64e88d01986aa73df",
+      "source": "CNBC",
+      "title": "Juice your growth and save on taxes in this workplace investment account",
+      "publishedAtSgt": "2026-11-14T22:08:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Workers are in the heart of open enrollment season for next year's benefits, and rising healthcare costs are shining a spotlight on an offering that includes a tax-advantaged investment account. \"Get the money deployed, take advantage of the pretax contribution, and allocate the money into a growth portfolio,\" said Mark Stancato, certified financial planner at VIP Wealth Advisors in Decatur, Georgia.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
+    },
     {
       "id": "badd428a6717a337d01500b9b2598482569a20b108fbb5809bc39e575d53af65",
       "source": "CNBC",
@@ -1525,85 +1604,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-08T02:04:07+08:00"
-    },
-    {
-      "id": "f5e1cdf5c5ecb4d3687ef400ccbaa4e7a386726d31a00b02e16467737ad2e834",
-      "source": "CNBC",
-      "title": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
-      "publishedAtSgt": "2026-11-07T20:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Snap confidentially settled a case claiming that its technology caused severe psychological distress to two teenage users. And Google was sued this week by the parents of a child who allegedly suffered a psychological crisis after chatting with the Gemini AI chatbot in Google Classroom. Concern is intensifying as artificial intelligence companies pursue trillion-dollar valuations, and established internet giants pour money into developing advanced AI models while pushing them into the classroom.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
-    },
-    {
-      "id": "0fda9c5f2279e24d80d20f5a40e85d313356f05ae0fc460db8d9fffd4b76aac6",
-      "source": "CNBC",
-      "title": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
-      "publishedAtSgt": "2026-11-07T15:37:36+08:00",
-      "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 52,
-      "relevanceReason": "supporting_geopolitical_economic_description",
-      "summary": "President Donald Trump told reporters Friday that the U.S. carried out \"minor strikes\" on Iran, amid reports that two missiles struck Qeshm Island near the Strait of Hormuz. The island lies off Iran's southern coast, near the Strait of Hormuz, the vital artery for oil and gas that has become a flashpoint in the war.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-07T19:07:32+08:00"
-    },
-    {
-      "id": "88be2a7741ae2c0dcc8719ab1c70f23a43b5af6e551c01e7bfee0101126686f0",
-      "source": "CNBC",
-      "title": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
-      "publishedAtSgt": "2026-11-07T07:13:10+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "CNBC's Jim Cramer on Friday said that next week's earnings from leading neoclouds could test investor confidence in the battered data center trade. Stocks rebounded to end a turbulent election week, which saw investors dumping companies tied to the artificial intelligence infrastructure build-out after Democrats flipped the House and Senate and some key gubernatorial seats.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-07T09:58:16+08:00"
-    },
-    {
-      "id": "b7c01bc9d1d40a1e0b691ee3b33693a8f3ca41bf1fc8035e01b57f23d883f40d",
-      "source": "CNBC",
-      "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
-      "publishedAtSgt": "2026-11-07T05:07:07+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The artificial intelligence company had been looking toward a $2 trillion valuation in its IPO up until recently, but stakeholders told CNBC that even $1.5 trillion is now in doubt, with one investor calling that number a \"stretch.\" Anthropic declined to comment. Bearishness on the AI trade was on the rise before the election. With the latest market turmoil, one investor said $1 trillion to $1.25 trillion is a more likely valuation target, although that could change with market conditions.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-07T09:58:16+08:00"
-    },
-    {
-      "id": "4b105f5ea24db16f335d125b3b0f38af09af574297375e3746b9fa93d61243d6",
-      "source": "CNBC",
-      "title": "Here's a rapid-fire update on all 31 of our stocks, including 2 to buy now",
-      "publishedAtSgt": "2026-11-07T04:36:03+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/06/heres-a-rapid-fire-update-on-our-31-stocks-including-2-to-buy-now.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "But, as mentioned with Eaton, we're weighing whether to reduce exposure to AI industrials as investors sour on the broader data center trade. Goldman is also a lead underwriter on Anthropic's planned IPO, which could be another potential catalyst if the offering helps restore confidence in the AI trade. Shares look cheap, and CEO Charlie Scharf has straightened out the company and invested in building out an investment bank and other fee-based businesses.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-07T09:58:16+08:00"
     }
   ]
 }

@@ -5,6 +5,68 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "7d6f0bed1aaf448c826dd3fff70ed62853145c45ca24c9734fa1ba1ef8fd60fb",
+      "source": "CNBC",
+      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "publishedAtSgt": "2026-11-14T23:50:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The largest technology stocks linked to the artificial intelligence trade could stand to benefit the most from Nvidia's woes and a Democratic-controlled Congress pushing back on data centers, according to investing experts interviewed on CNBC's \"ETF Edge\" earlier this week. Part of his bull case: Other players in the AI trade are positioned to fill Nvidia's chip demand if investors lose trust in the company after a tumultuous week that saw its iconic founder and CEO Jensen Huang resign.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
+    },
+    {
+      "id": "8b1ce5591d9666ec9abf6fbe2dc331e1c3ab3332e525b52b4889a2cadc5d49f3",
+      "source": "CNBC",
+      "title": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
+      "publishedAtSgt": "2026-11-14T23:14:57+08:00",
+      "url": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors are eyeing these lots as the AI build-out increases the demand for heavy equipment. Rent growth, according to Alterra, is most closely tied to infrastructure and energy activity in the area, even more so than data center development specifically. But unlike the local businesses that tend to fill up shallow-bay sites, IOS tenants range from local businesses to those with investment-grade credit ratings, offering investors the potential for both yield and creditworthy tenants.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
+    },
+    {
+      "id": "4e9ad46dc82912eda0b06322e1cf94f409269f0e1048c648c2e3ccc858e85573",
+      "source": "CNBC",
+      "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
+      "publishedAtSgt": "2026-11-14T22:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Funding originates with the federal Low Income Home Energy Assistance Program, or LIHEAP, which is run by the U.S. A component of HEAP is the Energy Crisis Intervention Program, which serves qualifying families who face an energy crisis, such as a potential electric shutoff or an empty oil tank and no financial means to replenish the supply. Congressional lawmakers have called for increased LIHEAP funding this year due to rising energy costs, including heating oil.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
+    },
+    {
+      "id": "ee07ac69c57570b1582a395f956ba02aefc303f1574c27f64e88d01986aa73df",
+      "source": "CNBC",
+      "title": "Juice your growth and save on taxes in this workplace investment account",
+      "publishedAtSgt": "2026-11-14T22:08:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Workers are in the heart of open enrollment season for next year's benefits, and rising healthcare costs are shining a spotlight on an offering that includes a tax-advantaged investment account. \"Get the money deployed, take advantage of the pretax contribution, and allocate the money into a growth portfolio,\" said Mark Stancato, certified financial planner at VIP Wealth Advisors in Decatur, Georgia.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
+    },
+    {
       "id": "badd428a6717a337d01500b9b2598482569a20b108fbb5809bc39e575d53af65",
       "source": "CNBC",
       "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
@@ -67,6 +129,6 @@
       "collectedAtSgt": "2026-11-14T04:30:19+08:00"
     }
   ],
-  "articleCount": 4,
-  "updatedAtSgt": "2026-11-14T10:28:20+08:00"
+  "articleCount": 8,
+  "updatedAtSgt": "2026-11-15T02:45:33+08:00"
 }

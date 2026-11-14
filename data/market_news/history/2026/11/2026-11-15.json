@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-15",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "16c0527b91f5403e47e5f65e0acf9100ff061ff9a4c4653abf4b5a9ce9fa3e21",
+      "source": "CNBC",
+      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+      "publishedAtSgt": "2026-11-15T01:46:06+08:00",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Atreides held 1.2 million shares worth nearly $250 million at the end of June. The Singapore-based company is being investigated by the Justice Department for possibly redirecting some of its supply of Nvidia's restricted artificial intelligence chips to China. 10 about whether the Commerce Department is \"properly performing its broader role of preventing China from acquiring advanced AI chips,\" according to the letter.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-15T02:45:29+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-11-15T02:45:29+08:00"
+}
