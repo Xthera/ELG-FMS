@@ -1,10 +1,39 @@
 {
-  "generatedAtSgt": "2026-11-15T03:01:42.263033+08:00",
+  "generatedAtSgt": "2026-11-15T07:16:08.003084+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 216,
+  "articleCount": 217,
   "analyses": [
+    {
+      "articleId": "790c380671a7c8dc8d4a1d23b56c7864d8e206e3727f14ff2fc8414ef209f327",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia experienced a major C-suite leadership shake-up that sent its shares tumbling nearly 13% for the week, rattling the broader AI trade and creating uncertainty on Wall Street.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The leadership crisis at Nvidia directly impacts semiconductor and technology equity valuations, creating volatility and prompting portfolio adjustments among investors exposed to the AI trade.",
+      "reasoning": "The article details a significant leadership crisis and subsequent stock sell-off in a major market bellwether, directly impacting market sentiment and sector performance, making it highly relevant for investment monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+      "publishedAtSgt": "2026-11-15T02:48:39+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-15T07:00:26+08:00"
+    },
     {
       "articleId": "16c0527b91f5403e47e5f65e0acf9100ff061ff9a4c4653abf4b5a9ce9fa3e21",
       "relevant": true,
