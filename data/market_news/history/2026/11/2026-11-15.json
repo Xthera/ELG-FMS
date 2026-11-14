@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "790c380671a7c8dc8d4a1d23b56c7864d8e206e3727f14ff2fc8414ef209f327",
+      "source": "CNBC",
+      "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+      "publishedAtSgt": "2026-11-15T02:48:39+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Wall Street faced a major test last week as Nvidia's stunning leadership shake-up dominated the headlines and brought more uncertainty to the AI trade. Nvidia's C-suite shake-up Nvidia's leadership crisis sent shares tumbling nearly 13% for all of last week, bucking a broader rebound in semiconductor stocks. The maker of Modelo and Corona offers an inexpensive valuation, a nearly 3% dividend yield, and improving beer sales trends.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-15T07:00:26+08:00"
+    },
+    {
       "id": "16c0527b91f5403e47e5f65e0acf9100ff061ff9a4c4653abf4b5a9ce9fa3e21",
       "source": "CNBC",
       "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
@@ -22,6 +38,6 @@
       "collectedAtSgt": "2026-11-15T02:45:29+08:00"
     }
   ],
-  "articleCount": 1,
-  "updatedAtSgt": "2026-11-15T02:45:29+08:00"
+  "articleCount": 2,
+  "updatedAtSgt": "2026-11-15T07:00:26+08:00"
 }

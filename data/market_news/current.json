@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-15T02:45:33+08:00",
+  "generatedAtSgt": "2026-11-15T07:00:26+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "790c380671a7c8dc8d4a1d23b56c7864d8e206e3727f14ff2fc8414ef209f327",
+      "source": "CNBC",
+      "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+      "publishedAtSgt": "2026-11-15T02:48:39+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Wall Street faced a major test last week as Nvidia's stunning leadership shake-up dominated the headlines and brought more uncertainty to the AI trade. Nvidia's C-suite shake-up Nvidia's leadership crisis sent shares tumbling nearly 13% for all of last week, bucking a broader rebound in semiconductor stocks. The maker of Modelo and Corona offers an inexpensive valuation, a nearly 3% dividend yield, and improving beer sales trends.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-15T07:00:26+08:00"
+    },
     {
       "id": "16c0527b91f5403e47e5f65e0acf9100ff061ff9a4c4653abf4b5a9ce9fa3e21",
       "source": "CNBC",
@@ -1587,23 +1603,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-11-08T02:04:08+08:00"
-    },
-    {
-      "id": "d657c0488cabdca26f369af79c843f4f9a749cb0fe2080b63cac29915b8013c1",
-      "source": "CNBC",
-      "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
-      "publishedAtSgt": "2026-11-07T21:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The AI company is gearing up for a potentially historic IPO, likely targeting mid-November for its Nasdaq debut. CNBC reported on Friday that Anthropic investors see the company aiming for a valuation of $1 trillion to $1.5 trillion, down from a target of $2 trillion that had been floated in recent months.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-08T02:04:07+08:00"
     }
   ]
 }
