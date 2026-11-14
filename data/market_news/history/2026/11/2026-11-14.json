@@ -5,6 +5,22 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "badd428a6717a337d01500b9b2598482569a20b108fbb5809bc39e575d53af65",
+      "source": "CNBC",
+      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+      "publishedAtSgt": "2026-11-14T09:34:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "President Donald Trump is not expected to raise allegations of a Chinese intelligence operation involving former Nvidia CEO Jensen Huang during his upcoming meeting with Chinese President Xi Jinping, senior U.S. Officials also said that Elon Musk, the CEO of Tesla and SpaceX, will accompany Trump on the trip to Shenzhen, China, for the Asia-Pacific Economic Cooperation summit on Nov.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-14T10:28:20+08:00"
+    },
+    {
       "id": "f470b3855a597b6bda0d29b4f746735e2f79a3ac1fd87f6cdf5748f3a117ee15",
       "source": "CNBC",
       "title": "Supreme Court agrees to hear Robinhood challenge to IPO information omission lawsuit",
@@ -51,6 +67,6 @@
       "collectedAtSgt": "2026-11-14T04:30:19+08:00"
     }
   ],
-  "articleCount": 3,
-  "updatedAtSgt": "2026-11-14T04:30:19+08:00"
+  "articleCount": 4,
+  "updatedAtSgt": "2026-11-14T10:28:20+08:00"
 }

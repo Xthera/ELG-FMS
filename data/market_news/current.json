@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-14T04:30:23+08:00",
+  "generatedAtSgt": "2026-11-14T10:28:20+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,22 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "badd428a6717a337d01500b9b2598482569a20b108fbb5809bc39e575d53af65",
+      "source": "CNBC",
+      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+      "publishedAtSgt": "2026-11-14T09:34:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "President Donald Trump is not expected to raise allegations of a Chinese intelligence operation involving former Nvidia CEO Jensen Huang during his upcoming meeting with Chinese President Xi Jinping, senior U.S. Officials also said that Elon Musk, the CEO of Tesla and SpaceX, will accompany Trump on the trip to Shenzhen, China, for the Asia-Pacific Economic Cooperation summit on Nov.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-14T10:28:20+08:00"
+    },
     {
       "id": "f470b3855a597b6bda0d29b4f746735e2f79a3ac1fd87f6cdf5748f3a117ee15",
       "source": "CNBC",
@@ -1588,23 +1604,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-07T09:58:16+08:00"
-    },
-    {
-      "id": "67b31ec58dc11e48db271d18decd7fe0d7e08bc98a0799a13660c426b39a4ff0",
-      "source": "CNBC",
-      "title": "OpenAI bugging suspect Alfozan pleads not guilty",
-      "publishedAtSgt": "2026-11-07T03:54:04+08:00",
-      "url": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 52,
-      "relevanceReason": "supporting_technology_description",
-      "summary": "The Saudi national charged with planting a listening device in the headquarters of OpenAI while he worked there pleaded not guilty on Friday during an appearance in San Francisco federal court. Abdulrahman Alfozan, 35, was sent back to jail after the brief hearing. Alfozan has been held without bail since his arrest on a criminal complaint in early October.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-07T03:58:24+08:00"
     }
   ]
 }
