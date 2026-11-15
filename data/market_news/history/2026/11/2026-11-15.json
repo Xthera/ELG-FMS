@@ -5,6 +5,68 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "9f4f148c7778a2faeb29e5dd8497684c920d6367194a6b8a21afb37cd0e0b754",
+      "source": "CNBC",
+      "title": "3 big things we're watching in the stock market in the week ahead",
+      "publishedAtSgt": "2026-11-15T23:26:20+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Claude chatbot creator is set to go public on the Nasdaq on Thursday in a historic IPO that will test investors' appetite for AI stocks. One saving grace: The economic calendar is fairly light, with retail sales, industrial production, and minutes from the Fed's October meeting as the main releases.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
+    {
+      "id": "86df9fc3792a606843eb6f34bc26a6560dde242ebbcbb205ba21669f950a7ef4",
+      "source": "CNBC",
+      "title": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
+      "publishedAtSgt": "2026-11-15T22:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "\"We've waited too long already, and the consequences are that the gap has grown larger,\" Shai Akabas, vice president of economic policy at the Bipartisan Policy Center, said of Social Security's shortfall. Social Security is a pay-as-you-go system that relies on payroll taxes from workers to help make monthly benefit payments to millions of Americans. Just how far adjusting the taxable maximum would go to help solve Social Security's funding woes depends on how it is applied.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
+    {
+      "id": "1463ee5758f323cba0625ea5392cdcaeeb72d88978e17bdcadb824ac06f03a0f",
+      "source": "CNBC",
+      "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
+      "publishedAtSgt": "2026-11-15T20:49:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Major indexes were volatile this week due to earnings from artificial intelligence companies, key economic releases, and the scandal involving Nvidia former CEO Jensen Huang. While short-term fluctuations could weigh on investor sentiment, it is prudent to maintain a long-term investment horizon. Investors looking for attractive long-term picks can track the ratings of top Wall Street analysts and gain key insights from their in-depth research on the macro and micro factors impacting stocks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
+    {
+      "id": "251f02296f227cddc72124485d5edb2df6c73ab42b38ac176bdcf1e0e1650918",
+      "source": "CNBC",
+      "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+      "publishedAtSgt": "2026-11-15T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Now comes the most important tech IPO in years, and a defining event for the burgeoning but still young artificial intelligence market. Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia and Taiwan Semiconductor Manufacturing Company are collectively investing $26 billion at the IPO price, which is currently expected at $70 to $78 a share. The IPO could yield over $90 billion in proceeds, on top of Anthropic's $132 billion in existing cash, including short-term investments.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
+    {
       "id": "790c380671a7c8dc8d4a1d23b56c7864d8e206e3727f14ff2fc8414ef209f327",
       "source": "CNBC",
       "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
@@ -38,6 +100,6 @@
       "collectedAtSgt": "2026-11-15T02:45:29+08:00"
     }
   ],
-  "articleCount": 2,
-  "updatedAtSgt": "2026-11-15T07:00:26+08:00"
+  "articleCount": 6,
+  "updatedAtSgt": "2026-11-16T01:14:06+08:00"
 }

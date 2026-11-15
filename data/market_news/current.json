@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-15T15:54:17+08:00",
+  "generatedAtSgt": "2026-11-16T01:14:06+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,68 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "9f4f148c7778a2faeb29e5dd8497684c920d6367194a6b8a21afb37cd0e0b754",
+      "source": "CNBC",
+      "title": "3 big things we're watching in the stock market in the week ahead",
+      "publishedAtSgt": "2026-11-15T23:26:20+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The Claude chatbot creator is set to go public on the Nasdaq on Thursday in a historic IPO that will test investors' appetite for AI stocks. One saving grace: The economic calendar is fairly light, with retail sales, industrial production, and minutes from the Fed's October meeting as the main releases.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
+    {
+      "id": "86df9fc3792a606843eb6f34bc26a6560dde242ebbcbb205ba21669f950a7ef4",
+      "source": "CNBC",
+      "title": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
+      "publishedAtSgt": "2026-11-15T22:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "\"We've waited too long already, and the consequences are that the gap has grown larger,\" Shai Akabas, vice president of economic policy at the Bipartisan Policy Center, said of Social Security's shortfall. Social Security is a pay-as-you-go system that relies on payroll taxes from workers to help make monthly benefit payments to millions of Americans. Just how far adjusting the taxable maximum would go to help solve Social Security's funding woes depends on how it is applied.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
+    {
+      "id": "1463ee5758f323cba0625ea5392cdcaeeb72d88978e17bdcadb824ac06f03a0f",
+      "source": "CNBC",
+      "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
+      "publishedAtSgt": "2026-11-15T20:49:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Major indexes were volatile this week due to earnings from artificial intelligence companies, key economic releases, and the scandal involving Nvidia former CEO Jensen Huang. While short-term fluctuations could weigh on investor sentiment, it is prudent to maintain a long-term investment horizon. Investors looking for attractive long-term picks can track the ratings of top Wall Street analysts and gain key insights from their in-depth research on the macro and micro factors impacting stocks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
+    {
+      "id": "251f02296f227cddc72124485d5edb2df6c73ab42b38ac176bdcf1e0e1650918",
+      "source": "CNBC",
+      "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+      "publishedAtSgt": "2026-11-15T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Now comes the most important tech IPO in years, and a defining event for the burgeoning but still young artificial intelligence market. Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia and Taiwan Semiconductor Manufacturing Company are collectively investing $26 billion at the IPO price, which is currently expected at $70 to $78 a share. The IPO could yield over $90 billion in proceeds, on top of Anthropic's $132 billion in existing cash, including short-term investments.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
     {
       "id": "790c380671a7c8dc8d4a1d23b56c7864d8e206e3727f14ff2fc8414ef209f327",
       "source": "CNBC",
@@ -1540,69 +1602,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-08T02:04:03+08:00"
-    },
-    {
-      "id": "427bec213e9d76816ab2fa0db8ab921a23c4590564c0cb2c4bcae93fbbd5f1d3",
-      "source": "CNBC",
-      "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
-      "publishedAtSgt": "2026-11-07T23:23:46+08:00",
-      "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The Greg Abel-led conglomerate bought back $9.6 billion worth of Berkshire stock. Berkshire's railroad, energy and manufacturing businesses all saw earnings grow year over year. Despite the earnings pullback, Berkshire stock has outperformed recently amid a massive rotation out of technology stocks.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-08T02:04:07+08:00"
-    },
-    {
-      "id": "4862df6de4b157cc710eb21e696a08193ed5d89b589a3b997447a370c257d618",
-      "source": "CNBC",
-      "title": "What midterm election blue wave rebuke of Trump means for renewable energy",
-      "publishedAtSgt": "2026-11-07T22:33:32+08:00",
-      "url": "https://www.cnbc.com/2026/11/07/midterm-election-blue-wave-trump-renewable-energy.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "But renewable energy investing remains alive and well, notably among public and private funders of infrastructure projects and clean technology innovation. While it might be hard to focus on the potential in the renewable energy sector in 2026 with energy commodities leading all sectors of the market as crude oil prices surged, some of the factors Lai cites should be on the radar of investors beyond the impact investing space.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
-    },
-    {
-      "id": "702e8084643c8e077601ae90721bf8234b185e5008af93beede6568c5d2f6e85",
-      "source": "CNBC",
-      "title": "Berkshire shares surge as Wall Street swoons amid AI fears",
-      "publishedAtSgt": "2026-11-07T22:06:20+08:00",
-      "url": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "You can sign up here to receive it every Friday evening in your inbox.) Berkshire Hathaway shares roared past the S&P 500 index this week as investors moved money away from slumping tech stocks and moved into what appears to be the relative safety of a traditional conglomerate with relatively little exposure to artificial intelligence amid fears massive spending on data centers won't pay off.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-08T06:47:27+08:00"
-    },
-    {
-      "id": "ca36a7c4e2163f815dae3935bb2c65298a7a79453cd3c38b66062d93d409c832",
-      "source": "CNBC",
-      "title": "Democrat shaping AI policy bought chip stocks despite backing congressional trading ban",
-      "publishedAtSgt": "2026-11-07T21:30:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/07/josh-gottheimer-ai-stocks-congress-trading-ban.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Josh Gottheimer, a Democrat helping write his party's artificial intelligence agenda, has disclosed new purchases of AI-linked stocks — just months after voting to ban lawmakers and their families from buying individual shares. The AI purchases are just a small slice of Gottheimer's sprawling investment portfolio. Advanced Micro Devices competes with Nvidia in AI chips, while Applied Materials supplies semiconductor manufacturing equipment.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-08T02:04:08+08:00"
     }
   ]
 }
