@@ -1,10 +1,123 @@
 {
-  "generatedAtSgt": "2026-11-15T16:09:51.593687+08:00",
+  "generatedAtSgt": "2026-11-16T01:29:37.699033+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 217,
+  "articleCount": 221,
   "analyses": [
+    {
+      "articleId": "9f4f148c7778a2faeb29e5dd8497684c920d6367194a6b8a21afb37cd0e0b754",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "The upcoming Nasdaq IPO of a prominent AI chatbot creator and a light economic calendar featuring retail sales, industrial production, and Fed minutes are the key events for the stock market in the week ahead.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors will closely watch the AI company's IPO as a major test of investor appetite for artificial intelligence stocks, while upcoming economic data and Fed minutes will provide further direction on monetary policy.",
+      "reasoning": "Classified as MARKET and HIGH importance because it outlines major upcoming market catalysts including a historic tech IPO and key macroeconomic data releases.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "3 big things we're watching in the stock market in the week ahead",
+      "publishedAtSgt": "2026-11-15T23:26:20+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
+    {
+      "articleId": "86df9fc3792a606843eb6f34bc26a6560dde242ebbcbb205ba21669f950a7ef4",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Experts discuss potential policy adjustments to address Social Security's funding shortfall, including adjustments to payroll taxes and senior tax breaks following political shifts.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Potential changes to Social Security funding and payroll taxes could impact disposable incomes, consumer spending, and corporate payroll expenses, affecting broad economic conditions and specific sectors.",
+      "reasoning": "The article discusses macro-level fiscal policy and social security funding issues which fall under economic news and have moderate relevance to overall market and consumer trends.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
+      "publishedAtSgt": "2026-11-15T22:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
+    {
+      "articleId": "1463ee5758f323cba0625ea5392cdcaeeb72d88978e17bdcadb824ac06f03a0f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "LOW",
+      "summary": "Major indexes experienced volatility due to AI earnings, economic releases, and a scandal involving Nvidia's former CEO, but analysts recommend maintaining a long-term horizon and tracking top Wall Street analyst ratings for attractive stock picks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Provides general perspective on market volatility driven by AI earnings and macro factors, suggesting a long-term horizon, but lacks specific actionable trade recommendations.",
+      "reasoning": "The article discusses recent market volatility and analyst perspectives on long-term stock investing, categorizing it as MARKET sentiment with mixed drivers (AI earnings/scandal vs. long-term bullish views).",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
+      "publishedAtSgt": "2026-11-15T20:49:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
+    {
+      "articleId": "251f02296f227cddc72124485d5edb2df6c73ab42b38ac176bdcf1e0e1650918",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "Anthropic's upcoming IPO is positioned as a pivotal event for the artificial intelligence sector, featuring $26 billion in collective investments from major tech firms like AMD, Broadcom, Google, Micron, Microsoft, Nvidia, and TSMC at an expected IPO price of $70 to $78 per share, potentially yielding over $90 billion in proceeds.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "The IPO serves as a major litmus test for investor sentiment regarding the artificial intelligence trade, impacting broader technology valuations and capital flows into AI-related equities.",
+      "reasoning": "Classified as MARKET because it details a major initial public offering and its capitalization structure involving key technology heavyweights. It is of high importance due to its potential to dictate sector-wide sentiment and valuation benchmarks for AI investments.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+      "publishedAtSgt": "2026-11-15T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
+    },
     {
       "articleId": "790c380671a7c8dc8d4a1d23b56c7864d8e206e3727f14ff2fc8414ef209f327",
       "relevant": true,
