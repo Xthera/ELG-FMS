@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-16T07:24:10+08:00",
+  "generatedAtSgt": "2026-11-16T16:01:57+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,56 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "4d2e6bd87950fb8450dbefb11db4b66f2bc61215c461aa16f26785663726f75a",
+      "source": "CNBC",
+      "title": "AI is reshaping banking jobs – but its ability to drive profits remains unclear",
+      "publishedAtSgt": "2026-11-16T14:20:55+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/how-ai-is-changing-banking-jobs-hiring-and-revenue.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Banks' third-quarter results have brought their use of artificial intelligence into sharper focus, as lenders automate routine work, reshape hiring and test whether productivity gains can translate into revenue growth. This earnings season, Barclays unveiled layoffs in certain functions where AI is being deployed; while UniCredit and Santander said technology was freeing employees for higher-value work and improving processes.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-16T16:01:54+08:00"
+    },
+    {
+      "id": "ff1eff269bea74f8fa37e3f3c64798c498f080156fb7e5abd11f4c70b25d9faa",
+      "source": "CNBC",
+      "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+      "publishedAtSgt": "2026-11-16T11:53:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "China's economic slowdown worsened in October with retail sales, investment and industrial output all missing economists' estimates, as analysts warn a growing reliance on external demand leaves growth more exposed to shocks abroad. Growth in the world's second-largest economy bounced off three-year lows in the third quarter, expanding 4.5% from a year earlier.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-16T16:01:54+08:00"
+    },
+    {
+      "id": "c12ad96efe47aa6325c56cdf5c9362d2ea9cbea2d3f909734ed81c7274114ac6",
+      "source": "CNBC",
+      "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+      "publishedAtSgt": "2026-11-16T10:56:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Japan's economy unexpectedly contracted in the third quarter, shrinking at an annualized 0.1% compared to the previous quarter, as elevated energy prices weighed on consumption and net exports. A Reuters poll of economists had estimated the economy to grow at 0.3% in the three months to September, while GDP had expanded at 1.4% in the previous quarter.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-16T16:01:54+08:00"
+    },
     {
       "id": "9f4f148c7778a2faeb29e5dd8497684c920d6367194a6b8a21afb37cd0e0b754",
       "source": "CNBC",
@@ -1553,55 +1603,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-09T00:42:21+08:00"
-    },
-    {
-      "id": "9f06056e01a7c3ac8f6891017f0c7734699ee5b0ec30548d017ef7cca93746ab",
-      "source": "CNBC",
-      "title": "Top Wall Street analysts like these 3 dividend stocks for consistent income",
-      "publishedAtSgt": "2026-11-08T19:47:24+08:00",
-      "url": "https://www.cnbc.com/2026/11/08/top-analysts-like-these-3-dividend-stocks-for-consistent-income.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Democrats' midterm election win has put the artificial intelligence trade in question, as voters clearly expressed opposition to the rapid buildout of data centers. The stock market could remain volatile amid AI trade concerns, macro uncertainties, and geopolitical tensions. In this scenario, investors can add dividend-paying stocks to their portfolios to earn steady income.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-09T00:42:21+08:00"
-    },
-    {
-      "id": "33e825706b6a17ec89a148f6f9b0f4a061eaaecaf2648b68813e445ca86c8253",
-      "source": "CNBC",
-      "title": "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO",
-      "publishedAtSgt": "2026-11-08T01:51:16+08:00",
-      "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 82,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Dave Wehner, Meta's chief strategy officer, is leaving the company for four-year-old AI startup Fireworks. At Fireworks — an AI inference and model-training platform focused on open models that was valued at $17.5 billion during a Series D fundraising round in July — Wehner will assume the CFO role, he announced on X on Friday.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-08T02:04:03+08:00"
-    },
-    {
-      "id": "234ca19577c6588f25b17004042e4ea0eafa86fd61e5dfe84d823e6175e6a53d",
-      "source": "CNBC",
-      "title": "Why the prognosis for healthcare stocks is uncertain ahead of Congress’ new makeup",
-      "publishedAtSgt": "2026-11-08T00:02:33+08:00",
-      "url": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Healthcare stocks may struggle to gain momentum as Democrats prepare to take over Congress. For investors who are long on healthcare, Holz said each subsector should be treated differently. \"But if you do, then you probably want to be long some of these medical device stocks that are at or near multi-year lows.\" The State Street Health Care Select ETF ended virtually flat this week.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-08T02:04:03+08:00"
     }
   ]
 }
