@@ -1,10 +1,102 @@
 {
-  "generatedAtSgt": "2026-11-16T07:39:42.532078+08:00",
+  "generatedAtSgt": "2026-11-16T16:17:47.212060+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 221,
+  "articleCount": 217,
   "analyses": [
+    {
+      "articleId": "4d2e6bd87950fb8450dbefb11db4b66f2bc61215c461aa16f26785663726f75a",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Banks' third-quarter results highlight the ongoing integration of artificial intelligence, with lenders automating routine tasks, adjusting hiring practices, and evaluating productivity versus revenue growth. While some major banks like Barclays have announced layoffs tied to AI deployment, others like UniCredit and Santander report that technology is enabling staff to focus on higher-value work and process improvements.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Technology"
+      ],
+      "investorImpact": "Investors must monitor how major banks balance short-term cost savings from AI-driven headcount reductions with the long-term uncertainty of whether these technological investments will successfully translate into sustainable revenue growth.",
+      "reasoning": "The article is classified under MARKET because it discusses third-quarter banking results, cost structures, and operational changes affecting major financial institutions. Sentiment is MIXED as efficiency gains and cost-cutting are offset by unclear revenue impacts and job reductions. Fund monitoring relevance is true as it impacts financial sector equity allocations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI is reshaping banking jobs – but its ability to drive profits remains unclear",
+      "publishedAtSgt": "2026-11-16T14:20:55+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/how-ai-is-changing-banking-jobs-hiring-and-revenue.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-16T16:01:54+08:00"
+    },
+    {
+      "articleId": "ff1eff269bea74f8fa37e3f3c64798c498f080156fb7e5abd11f4c70b25d9faa",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "China's economic slowdown deepened in October as industrial output, retail sales, and investment all missed economist estimates, highlighting increased vulnerability to external shocks.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Foreign Exchange"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Retail",
+        "Industrial"
+      ],
+      "investorImpact": "The weaker-than-expected economic indicators from China signal ongoing growth vulnerabilities in the world's second-largest economy, potentially weighing on global equities, commodities demand, and risk sentiment.",
+      "reasoning": "The article reports critical macroeconomic data misses for China, directly impacting global economic growth outlooks and investor sentiment across multiple asset classes.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+      "publishedAtSgt": "2026-11-16T11:53:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 102,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-16T16:01:54+08:00"
+    },
+    {
+      "articleId": "c12ad96efe47aa6325c56cdf5c9362d2ea9cbea2d3f909734ed81c7274114ac6",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Japan's economy unexpectedly contracted in the third quarter, shrinking at an annualized 0.1% due to elevated energy costs weighing on consumption and net exports, falling short of expectations for 0.3% growth.",
+      "assetClasses": [
+        "Equities",
+        "Currencies",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Energy",
+        "Consumer Discretionary",
+        "Industrials"
+      ],
+      "investorImpact": "The unexpected economic contraction in Japan highlights pressures on consumer spending and corporate net exports from high energy costs, potentially influencing monetary policy decisions and weakening sentiment toward Japanese equities and the yen.",
+      "reasoning": "Classified as ECONOMIC because it reports macroeconomic GDP data and quarterly growth figures for Japan. The sentiment is NEGATIVE due to the unexpected economic contraction and high energy cost pressures. It is relevant for fund monitoring as macroeconomic indicators affect regional asset allocations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+      "publishedAtSgt": "2026-11-16T10:56:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-16T16:01:54+08:00"
+    },
     {
       "articleId": "9f4f148c7778a2faeb29e5dd8497684c920d6367194a6b8a21afb37cd0e0b754",
       "relevant": true,
@@ -6431,218 +6523,6 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-11-03T04:23:39+08:00"
-    },
-    {
-      "articleId": "80c3f05c30ee3ca2f472c5088b553f7ecee01a5d669e9e01b8421288ecf3a317",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "Following the worst week for stocks since June, options analysts note that the VIX fear index reaction was oddly calm and muted compared to historical selloffs, suggesting a disconnect in options pricing relative to the recent market decline.",
-      "assetClasses": [
-        "Equities",
-        "Derivatives"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "Investors should note the muted VIX reaction during a market selloff, which may indicate underlying complacency or a structural shift in options markets that could impact hedging strategies.",
-      "reasoning": "Classified as MARKET due to its focus on equity performance and the VIX fear index. Sentiment is mixed because of a recent stock selloff coupled with an unusually muted volatility response. Fund monitoring relevance is true as it provides insight into market sentiment and options pricing dynamics.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
-      "publishedAtSgt": "2026-11-02T23:30:41+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
-    },
-    {
-      "articleId": "0589bf2071cb82eb4f96c116d5b5286fdeba7815874aa0c0cb04a54a5de3a800",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Crude oil prices, including Brent and WTI, slid over 4% in early trade as investors brace for a significant week. Meanwhile, Goldman Sachs raised its December oil price forecasts to $105 per barrel for Brent and $94 for WTI crude due to high disruption risks.",
-      "assetClasses": [
-        "Commodities",
-        "Energy"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Energy",
-        "Oil and Gas"
-      ],
-      "investorImpact": "The sharp decline in crude prices impacts energy sector equities and commodity portfolios, while Goldman Sachs' upgraded forecasts highlight ongoing supply disruption risks that could lead to future volatility.",
-      "reasoning": "The article discusses a significant market move in crude oil prices coupled with major institutional forecast revisions, making it highly relevant for market and fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Crude prices slide as investors brace for a big week",
-      "publishedAtSgt": "2026-11-02T20:57:06+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/crude-prices-crater-investors-brace-for-big-week.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
-    },
-    {
-      "articleId": "7bf947dafc3cd43e753fb51668eecd50b2c8a1bf1b69deb311a3ec783e94495d",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "OpenAI has signed major deals spanning energy, investment, and government sectors in Abu Dhabi, United Arab Emirates, securing partnerships with sovereign investors like Mubadala and Inception42 as part of its ongoing capital-raising efforts.",
-      "assetClasses": [
-        "Private Equity",
-        "Venture Capital"
-      ],
-      "geographies": [
-        "United Arab Emirates",
-        "Abu Dhabi",
-        "Middle East"
-      ],
-      "sectors": [
-        "Technology",
-        "Artificial Intelligence",
-        "Energy",
-        "Government"
-      ],
-      "investorImpact": "Highlights the growing reliance of major artificial intelligence labs on Middle Eastern sovereign wealth and capital for massive funding rounds, presenting direct investment and strategic partnership opportunities.",
-      "reasoning": "Classified as TECHNOLOGY due to OpenAI's core activities, and HIGH importance because of multi-billion dollar funding scale and cross-border sovereign investments.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "OpenAI deepens Abu Dhabi foothold as Sam Altman inks deals spanning energy, government and investment",
-      "publishedAtSgt": "2026-11-02T19:02:08+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-03T04:23:45+08:00"
-    },
-    {
-      "articleId": "309b81fa1db0c83bbf627ec7776092bd3e780619dbc5bd4131b8d28605640905",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "South Korean President Lee Jae Myung unveiled a record 2027 budget of 820.9 trillion won, significantly increasing spending on artificial intelligence, semiconductors, physical AI, and data centers to nearly double the previous year's level.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "South Korea"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "The massive increase in state funding for AI and semiconductors in South Korea provides a strong tailwind for domestic technology and semiconductor manufacturers, boosting growth expectations in the region's tech sector.",
-      "reasoning": "Classified as TECHNOLOGY due to its focus on AI and semiconductor budget expansion. Sentiment is POSITIVE based on the substantial financial commitment to future growth engines. Importance is MEDIUM as it highlights regional policy support rather than global market-wide shifts.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
-      "publishedAtSgt": "2026-11-02T14:02:03+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 52,
-      "collectorRelevanceReason": "supporting_technology_description",
-      "collectedAtSgt": "2026-11-02T15:42:56+08:00"
-    },
-    {
-      "articleId": "cfc2e7a3c17d30096b9c369fb87b50db507d76c70468d9d140a30c848bc1be38",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "A $5.5 billion bank takeover involving IDBI Bank faces opposition from workers and politicians who are demanding the cancellation of the privatization process and protection of public investment and employees' interests.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "India",
-        "Canada"
-      ],
-      "sectors": [
-        "Financials",
-        "Banking"
-      ],
-      "investorImpact": "The opposition creates regulatory and execution risks for cross-border banking M&A and privatization deals in India, potentially affecting investor sentiment in the financial sector.",
-      "reasoning": "Classified under MARKET due to the $5.5 billion bank takeover and privatization process. Sentiment is negative because of strong opposition from workers and politicians, posing execution risks to the transaction.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Canada-India $5.5 billion bank takeover attracts opposition from workers, politicians",
-      "publishedAtSgt": "2026-11-02T12:09:34+08:00",
-      "url": "https://www.cnbc.com/2026/11/02/canada-india-bank-takeover-protest-workers.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-02T15:42:57+08:00"
-    },
-    {
-      "articleId": "94aa1c0f2a12d853603972464d8b0280814c7d271770172d1b7fac00018b86ac",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "The upcoming week in the stock market focuses on nationwide elections with potential implications for the AI buildout trade, geopolitical tensions affecting oil prices, bond yields, and inflation, and the balance between consumer electronics weakness and AI chip manufacturing strength.",
-      "assetClasses": [
-        "Equities",
-        "Commodities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Energy"
-      ],
-      "investorImpact": "Investors should monitor upcoming election outcomes and geopolitical developments as they could create headwinds for equities, oil prices, bond yields, and inflation.",
-      "reasoning": "Classified as MARKET because it discusses key factors and watch items for the stock market in the upcoming week. Sentiment is MIXED due to competing crosscurrents like AI chip strength versus potential headwinds from elections, geopolitics, and inflation.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Here are 3 big things we're watching in the stock market in the week ahead",
-      "publishedAtSgt": "2026-11-02T02:12:05+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-02T06:52:27+08:00"
-    },
-    {
-      "articleId": "4432c4c69316f0ad97cc5360b8337c5b4d27ddc1f7c86bb9b65a26268222381a",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "JPMorgan Chase currently blocks external AI agents from operating on behalf of retail customers due to security risks, while research indicates high consumer demand for AI financial assistants.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Financials",
-        "Technology"
-      ],
-      "investorImpact": "Highlights the tension between consumer demand for AI agents in banking and institutional security constraints, affecting digital transformation strategies for financial institutions.",
-      "reasoning": "Classified under technology as it discusses the adoption and security challenges of AI bots in banking, relevant to tech and financial sector investments.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
-      "publishedAtSgt": "2026-11-02T00:34:43+08:00",
-      "url": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
-      "collectorCategory": "TECHNOLOGY",
-      "collectorRelevanceScore": 52,
-      "collectorRelevanceReason": "supporting_technology_description",
-      "collectedAtSgt": "2026-11-02T00:49:43+08:00"
     }
   ]
 }
