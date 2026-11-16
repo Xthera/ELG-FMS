@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-17",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "a4b1a8b4e487a241f6717a2cc5a2baf08d4f5ab42b0912c5e4ff4f52f9dc9569",
+      "source": "CNBC",
+      "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+      "publishedAtSgt": "2026-11-17T03:13:25+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Oil prices are falling Monday as shipments through the Strait of Hormuz recover and tensions between Iran and the U.S remain at a stalemate. The International Energy Agency said on Friday it expects global supply to exceed 1.7 million barrels a day in the fourth quarter of 2026, reversing its earlier forecast for a deficit as Middle East exports recover faster than global demand and even as shipping attacks continue.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
+    },
+    {
+      "id": "5fd30ebcc4adb6b3db0bdf84104bc4445c919227a54bc319a63156dfa2ca097c",
+      "source": "CNBC",
+      "title": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
+      "publishedAtSgt": "2026-11-17T03:11:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"I think this is a cornerstone compounder for a long time,\" Gerstner said, noting that his investment would be five times the amount he's ever put into an IPO. \"It's where the trade is going.\" Anthropic is expected to go on Nasdaq on Thursday in a milestone event for the artificial intelligence industry.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:08+08:00"
+    },
+    {
+      "id": "e06a180097d1c403f5c6b247689fc6e871e7431883c4d496c1ae579243e1a0c6",
+      "source": "CNBC",
+      "title": "Prediction market odds for Tesla-SpaceX merger by April 2027 top 60%",
+      "publishedAtSgt": "2026-11-17T03:06:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/prediction-market-odds-for-tesla-spacex-merger-by-april-2027-top-60percent.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "He cited Terafab, the semiconductor project involving Tesla, SpaceX and xAI, as a catalyst. national strategies of independence and leadership in space, energy, manufacturing or semiconductors, in our view, remain highly relevant regardless of which party controls Congress,\" wrote Jefferies analyst Philippe Houchois. Disclosure: CNBC and Kalshi have a commercial relationship that includes customer acquisition and a minority investment.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
+    },
+    {
+      "id": "2226ca370a6aaab7906ef9b9800c55e4193ce033000f1119c2cb8c14f9114fdb",
+      "source": "CNBC",
+      "title": "Market's Nvidia obsession obscuring an opportunity in this name",
+      "publishedAtSgt": "2026-11-17T02:56:49+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Trading back to a market multiple, justified if it establishes above-market EPS growth, suggests ~26% upside, which is also consistent with a sum-of-the-parts analysis that points to an intrinsic valuation of $140 to $160 per share versus the Friday, November 13th closing price of $118.97.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:08+08:00"
+    },
+    {
+      "id": "d8ede03065549458634d686c256d2fab1fa9c315c1fcdf1efe302670b8822567",
+      "source": "CNBC",
+      "title": "Anthropic IPO guide: Everything you need to know",
+      "publishedAtSgt": "2026-11-17T02:27:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic, PBC's CNBC stock page is at www.cnbc.com/quotes/ANT/ Leadup to the IPO: - Anthropic opens Australian retail IPO offering as AI scrutiny intensifies - Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say - Investors brace for lower Anthropic valuation, calling $1.5 trillion a ‘stretch’ - Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1 - Anthropic’s path to the Nasdaq just got a lot bumpier -...",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
+    },
+    {
+      "id": "ccaa04c3d21b089e3620a1d8b667ef7ba1f9240bad7e32f6f036935b808bbd18",
+      "source": "CNBC",
+      "title": "Nvidia stock falls as investors price in fallout from Jensen Huang's resignation",
+      "publishedAtSgt": "2026-11-17T02:21:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-stock-price-jensen-huang.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia's stock continued to slide in the wake of CEO Jensen Huang's resignation, falling around 4% on Monday after the chip giant lost hundreds of billions in market cap last week. Huang cofounded Nvidia in 1993 and led the company through its meteoric rise to becoming the world's most valuable company, with its AI chips underpinning the technology's boom. He also suggested other Nvidia executives should face scrutiny over the chip giant's compliance with U.S.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:11+08:00"
+    },
+    {
+      "id": "2159deb4e92e9cc686c9fc91df3e9f0e7a0afbb1f2e3cbb09454442d68c86fe1",
+      "source": "CNBC",
+      "title": "Bitcoin slides to $62,000 following liquidation cascade, then rebounds slightly",
+      "publishedAtSgt": "2026-11-17T01:52:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/bitcoin-slides-to-62000-following-liquidation-cascade-then-rebounds-slightly.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "Bitcoin fell to its lowest levels since August over the weekend as a wave of forced liquidations accelerated amid broader weakening in market liquidity and risk appetite. On Friday, the dollar index — which has an inverse relationship with bitcoin — reached its highest level since April 2025, following hotter-than-expected inflation earlier this week that increased expectations of further Fed tightening.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
+    },
+    {
+      "id": "968f9d2d48c9c00e46d5994d34ee853b737844f9ac05db99734865ec10633a9d",
+      "source": "CNBC",
+      "title": "Robert Pattinson cast as next James Bond",
+      "publishedAtSgt": "2026-11-17T01:25:51+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Robert Pattinson has been cast as the next James Bond in the upcoming film from director Denis Villeneuve. It will be the 26th James Bond film and the first since Amazon MGM took over the iconic franchise. \"James Bond is one of the most legendary characters in cinema, and to be entrusted with 007 is the honour of a lifetime,\" Pattinson said in a statement.",
+      "feeds": [
+        "latest",
+        "business",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:09+08:00"
+    },
+    {
+      "id": "1dcf9b8b269dec6ef83a79ee54b1217b3b872bdd3fc7f1c31612780d844dd59e",
+      "source": "CNBC",
+      "title": "Nvidia fallout: Commerce targets loophole for China's data center use",
+      "publishedAtSgt": "2026-11-17T01:22:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The Commerce Department on Monday moved to close a loophole that has let Chinese companies lease Nvidia's advanced computing power from data centers in third countries, effectively circumventing controls on sensitive chip technology being exported to China. Share prices of Nvidia and other companies linked to the artificial intelligence trade fell Monday morning after the interim rule was announced, among them chipmakers Micron Technology, Intel and Advanced Micro Devices.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:08+08:00"
+    },
+    {
+      "id": "7eb0414a476ac45cae632e2d5124a922a1bb40d10445bc67b5a357bffe120566",
+      "source": "CNBC",
+      "title": "Cramer: Take some profits in these 2 stocks if you have big gains and do this with the cash",
+      "publishedAtSgt": "2026-11-17T00:59:01+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/16/cramer-take-some-profits-in-these-2-stocks-and-do-this-with-the-cash.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks fell Monday as investors braced for two major tests of the artificial intelligence trade: Nvidia's earnings report Tuesday night and Anthropic's highly anticipated initial public offering later this week. Jim urged investors to trim oversized positions in Nvidia and Apple and redeploy some of those profits into more defensive stocks away from the AI trade.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
+    }
+  ],
+  "articleCount": 10,
+  "updatedAtSgt": "2026-11-17T04:32:11+08:00"
+}

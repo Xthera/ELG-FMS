@@ -5,6 +5,53 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "e05ccc00576b5e2d0ee92c6ecd2c6c3b97f401e452f77cb82f43f608e5484edd",
+      "source": "CNBC",
+      "title": "A major NFT marketplace is shutting down—5 years after the boom, there's a lesson for investors",
+      "publishedAtSgt": "2026-11-16T22:00:01+08:00",
+      "url": "https://www.cnbc.com/make-it/2026/11/16/5-years-after-the-nft-boom-theres-a-lesson-for-investors-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "For investors, it's a cautionary tale about spotting the warning signs before buying into the next craze, financial experts tell CNBC Make It. \"When the buyers stopped coming, there was nothing holding up the price.\" For everyday investors, the NFT bust is a reminder that an asset's popularity doesn't necessarily make it a worthwhile investment. If an investor can't answer those questions, he says, the investment may not belong in the portfolio at all.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:14+08:00"
+    },
+    {
+      "id": "b39a1f98f3466d9c0f7a74107ffe871886f148b65c49410f3c7b9852f5d48281",
+      "source": "CNBC",
+      "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang’s exit",
+      "publishedAtSgt": "2026-11-16T21:42:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "While the company is again expected to show explosive growth as the key infrastructure provider to the artificial intelligence boom, Kress and her team will likely be forced to answer questions on chip sales to China, the risks tied to deals with neoclouds and what comes next under new leadership. Huang resigned Thursday, but Nvidia's legions of customers, partners and investors still rely on the company to continue shipping large quantities of graphics processing units and AI systems.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:14+08:00"
+    },
+    {
+      "id": "f5352bb2614928e84f18096b21c5e58575f0dc6b469d45ad57463e0a9d1c2342",
+      "source": "CNBC",
+      "title": "Nvidia shares under pressure as calls grow for Huang to be reinstated as CEO",
+      "publishedAtSgt": "2026-11-16T21:14:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/morning-squawk-nvidia-share-calls-reinstate-huang-ceo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "There has been a lot of debate over the real versus the perceived value of the \"Jensen premium.\" But today, the bears are back, sending Nvidia shares lower premarket despite speculation that Huang could be pushing to make a return to the AI firm. - IMF warning: IMF Managing Director Kristalina Georgieva says the global economy is \"on the AI leg,\" warning that the overdependence risks the world's financial stability.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:14+08:00"
+    },
+    {
       "id": "4d2e6bd87950fb8450dbefb11db4b66f2bc61215c461aa16f26785663726f75a",
       "source": "CNBC",
       "title": "AI is reshaping banking jobs – but its ability to drive profits remains unclear",
@@ -55,6 +102,6 @@
       "collectedAtSgt": "2026-11-16T16:01:54+08:00"
     }
   ],
-  "articleCount": 3,
-  "updatedAtSgt": "2026-11-16T16:01:54+08:00"
+  "articleCount": 6,
+  "updatedAtSgt": "2026-11-17T04:32:14+08:00"
 }

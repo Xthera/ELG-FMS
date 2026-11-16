@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-16T16:01:57+08:00",
+  "generatedAtSgt": "2026-11-17T04:32:14+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,213 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "a4b1a8b4e487a241f6717a2cc5a2baf08d4f5ab42b0912c5e4ff4f52f9dc9569",
+      "source": "CNBC",
+      "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+      "publishedAtSgt": "2026-11-17T03:13:25+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Oil prices are falling Monday as shipments through the Strait of Hormuz recover and tensions between Iran and the U.S remain at a stalemate. The International Energy Agency said on Friday it expects global supply to exceed 1.7 million barrels a day in the fourth quarter of 2026, reversing its earlier forecast for a deficit as Middle East exports recover faster than global demand and even as shipping attacks continue.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
+    },
+    {
+      "id": "5fd30ebcc4adb6b3db0bdf84104bc4445c919227a54bc319a63156dfa2ca097c",
+      "source": "CNBC",
+      "title": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
+      "publishedAtSgt": "2026-11-17T03:11:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"I think this is a cornerstone compounder for a long time,\" Gerstner said, noting that his investment would be five times the amount he's ever put into an IPO. \"It's where the trade is going.\" Anthropic is expected to go on Nasdaq on Thursday in a milestone event for the artificial intelligence industry.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:08+08:00"
+    },
+    {
+      "id": "e06a180097d1c403f5c6b247689fc6e871e7431883c4d496c1ae579243e1a0c6",
+      "source": "CNBC",
+      "title": "Prediction market odds for Tesla-SpaceX merger by April 2027 top 60%",
+      "publishedAtSgt": "2026-11-17T03:06:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/prediction-market-odds-for-tesla-spacex-merger-by-april-2027-top-60percent.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "He cited Terafab, the semiconductor project involving Tesla, SpaceX and xAI, as a catalyst. national strategies of independence and leadership in space, energy, manufacturing or semiconductors, in our view, remain highly relevant regardless of which party controls Congress,\" wrote Jefferies analyst Philippe Houchois. Disclosure: CNBC and Kalshi have a commercial relationship that includes customer acquisition and a minority investment.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
+    },
+    {
+      "id": "2226ca370a6aaab7906ef9b9800c55e4193ce033000f1119c2cb8c14f9114fdb",
+      "source": "CNBC",
+      "title": "Market's Nvidia obsession obscuring an opportunity in this name",
+      "publishedAtSgt": "2026-11-17T02:56:49+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Trading back to a market multiple, justified if it establishes above-market EPS growth, suggests ~26% upside, which is also consistent with a sum-of-the-parts analysis that points to an intrinsic valuation of $140 to $160 per share versus the Friday, November 13th closing price of $118.97.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:08+08:00"
+    },
+    {
+      "id": "d8ede03065549458634d686c256d2fab1fa9c315c1fcdf1efe302670b8822567",
+      "source": "CNBC",
+      "title": "Anthropic IPO guide: Everything you need to know",
+      "publishedAtSgt": "2026-11-17T02:27:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic, PBC's CNBC stock page is at www.cnbc.com/quotes/ANT/ Leadup to the IPO: - Anthropic opens Australian retail IPO offering as AI scrutiny intensifies - Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say - Investors brace for lower Anthropic valuation, calling $1.5 trillion a ‘stretch’ - Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1 - Anthropic’s path to the Nasdaq just got a lot bumpier -...",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
+    },
+    {
+      "id": "ccaa04c3d21b089e3620a1d8b667ef7ba1f9240bad7e32f6f036935b808bbd18",
+      "source": "CNBC",
+      "title": "Nvidia stock falls as investors price in fallout from Jensen Huang's resignation",
+      "publishedAtSgt": "2026-11-17T02:21:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-stock-price-jensen-huang.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia's stock continued to slide in the wake of CEO Jensen Huang's resignation, falling around 4% on Monday after the chip giant lost hundreds of billions in market cap last week. Huang cofounded Nvidia in 1993 and led the company through its meteoric rise to becoming the world's most valuable company, with its AI chips underpinning the technology's boom. He also suggested other Nvidia executives should face scrutiny over the chip giant's compliance with U.S.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:11+08:00"
+    },
+    {
+      "id": "2159deb4e92e9cc686c9fc91df3e9f0e7a0afbb1f2e3cbb09454442d68c86fe1",
+      "source": "CNBC",
+      "title": "Bitcoin slides to $62,000 following liquidation cascade, then rebounds slightly",
+      "publishedAtSgt": "2026-11-17T01:52:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/bitcoin-slides-to-62000-following-liquidation-cascade-then-rebounds-slightly.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "Bitcoin fell to its lowest levels since August over the weekend as a wave of forced liquidations accelerated amid broader weakening in market liquidity and risk appetite. On Friday, the dollar index — which has an inverse relationship with bitcoin — reached its highest level since April 2025, following hotter-than-expected inflation earlier this week that increased expectations of further Fed tightening.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
+    },
+    {
+      "id": "968f9d2d48c9c00e46d5994d34ee853b737844f9ac05db99734865ec10633a9d",
+      "source": "CNBC",
+      "title": "Robert Pattinson cast as next James Bond",
+      "publishedAtSgt": "2026-11-17T01:25:51+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Robert Pattinson has been cast as the next James Bond in the upcoming film from director Denis Villeneuve. It will be the 26th James Bond film and the first since Amazon MGM took over the iconic franchise. \"James Bond is one of the most legendary characters in cinema, and to be entrusted with 007 is the honour of a lifetime,\" Pattinson said in a statement.",
+      "feeds": [
+        "latest",
+        "business",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:09+08:00"
+    },
+    {
+      "id": "1dcf9b8b269dec6ef83a79ee54b1217b3b872bdd3fc7f1c31612780d844dd59e",
+      "source": "CNBC",
+      "title": "Nvidia fallout: Commerce targets loophole for China's data center use",
+      "publishedAtSgt": "2026-11-17T01:22:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The Commerce Department on Monday moved to close a loophole that has let Chinese companies lease Nvidia's advanced computing power from data centers in third countries, effectively circumventing controls on sensitive chip technology being exported to China. Share prices of Nvidia and other companies linked to the artificial intelligence trade fell Monday morning after the interim rule was announced, among them chipmakers Micron Technology, Intel and Advanced Micro Devices.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:08+08:00"
+    },
+    {
+      "id": "7eb0414a476ac45cae632e2d5124a922a1bb40d10445bc67b5a357bffe120566",
+      "source": "CNBC",
+      "title": "Cramer: Take some profits in these 2 stocks if you have big gains and do this with the cash",
+      "publishedAtSgt": "2026-11-17T00:59:01+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/16/cramer-take-some-profits-in-these-2-stocks-and-do-this-with-the-cash.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Stocks fell Monday as investors braced for two major tests of the artificial intelligence trade: Nvidia's earnings report Tuesday night and Anthropic's highly anticipated initial public offering later this week. Jim urged investors to trim oversized positions in Nvidia and Apple and redeploy some of those profits into more defensive stocks away from the AI trade.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
+    },
+    {
+      "id": "e05ccc00576b5e2d0ee92c6ecd2c6c3b97f401e452f77cb82f43f608e5484edd",
+      "source": "CNBC",
+      "title": "A major NFT marketplace is shutting down—5 years after the boom, there's a lesson for investors",
+      "publishedAtSgt": "2026-11-16T22:00:01+08:00",
+      "url": "https://www.cnbc.com/make-it/2026/11/16/5-years-after-the-nft-boom-theres-a-lesson-for-investors-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "For investors, it's a cautionary tale about spotting the warning signs before buying into the next craze, financial experts tell CNBC Make It. \"When the buyers stopped coming, there was nothing holding up the price.\" For everyday investors, the NFT bust is a reminder that an asset's popularity doesn't necessarily make it a worthwhile investment. If an investor can't answer those questions, he says, the investment may not belong in the portfolio at all.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:14+08:00"
+    },
+    {
+      "id": "b39a1f98f3466d9c0f7a74107ffe871886f148b65c49410f3c7b9852f5d48281",
+      "source": "CNBC",
+      "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang’s exit",
+      "publishedAtSgt": "2026-11-16T21:42:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "While the company is again expected to show explosive growth as the key infrastructure provider to the artificial intelligence boom, Kress and her team will likely be forced to answer questions on chip sales to China, the risks tied to deals with neoclouds and what comes next under new leadership. Huang resigned Thursday, but Nvidia's legions of customers, partners and investors still rely on the company to continue shipping large quantities of graphics processing units and AI systems.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:14+08:00"
+    },
+    {
+      "id": "f5352bb2614928e84f18096b21c5e58575f0dc6b469d45ad57463e0a9d1c2342",
+      "source": "CNBC",
+      "title": "Nvidia shares under pressure as calls grow for Huang to be reinstated as CEO",
+      "publishedAtSgt": "2026-11-16T21:14:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/morning-squawk-nvidia-share-calls-reinstate-huang-ceo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "There has been a lot of debate over the real versus the perceived value of the \"Jensen premium.\" But today, the bears are back, sending Nvidia shares lower premarket despite speculation that Huang could be pushing to make a return to the AI firm. - IMF warning: IMF Managing Director Kristalina Georgieva says the global economy is \"on the AI leg,\" warning that the overdependence risks the world's financial stability.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-17T04:32:14+08:00"
+    },
     {
       "id": "4d2e6bd87950fb8450dbefb11db4b66f2bc61215c461aa16f26785663726f75a",
       "source": "CNBC",
@@ -1395,214 +1602,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-10T04:47:38+08:00"
-    },
-    {
-      "id": "d6a37ca92195c7ac918b5053e9dd0304d9da016cd64fc6421e3bbe8bac885350",
-      "source": "CNBC",
-      "title": "Elizabeth Warren set to take over the Senate banking committee. Here's what she plans to do",
-      "publishedAtSgt": "2026-11-10T03:34:43+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/elizabeth-warren-senate-banking-agenda.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Elizabeth Warren is set to take over the Senate Banking Committee. Among Warren's top issues for the Congress that convenes in January are addressing the cost of living, tightening export controls on advanced artificial intelligence chips to China and promulgating regulations for prediction markets, according to a Warren banking committee aide. The aide said Warren also intends to put constraints on AI chips going to China, while shaping rules for AI at home.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
-    },
-    {
-      "id": "01a88f9060abad7427b25df207aeedaece3b8b5d4b2f365925ea65e49a0425fa",
-      "source": "CNBC",
-      "title": "This beaten-down data center stock could be worth a look, says Mike Khouw",
-      "publishedAtSgt": "2026-11-10T03:23:57+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/this-beaten-down-data-center-stock-could-be-worth-a-look-says-mike-khouw.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "When you have a stock with solid momentum, fundamentals, and positive estimate revisions, but you're hesitant to pay a premium to its historical valuation, outright unhedged equity accumulation isn't always the optimal route. If the stock continues its upward march, the puts expire worthless, and we pocket a high-probability yield that easily beats fixed income.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-10T04:47:37+08:00"
-    },
-    {
-      "id": "afae919e32ef964c9fff84e22f249383209c7fa943f3725ee39a34775924bf52",
-      "source": "CNBC",
-      "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
-      "publishedAtSgt": "2026-11-10T03:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Anthropic on Monday released two new artificial intelligence models, Claude Fable 5.2 and Claude Mythos 5.2, as the company readies for a potentially historic IPO that could take place as soon as next week. The launch marks the first time that Anthropic has released so-called \"frontier\" models since its CEO, Dario Amodei, called to slow down the pace of AI development in September.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
-    },
-    {
-      "id": "3e371d5689b2e6eb60849f011796add56827971ee0f77e13059ae28bc0f24a3f",
-      "source": "CNBC",
-      "title": "A massive trade in Nvidia just went off – here are the details",
-      "publishedAtSgt": "2026-11-10T02:37:59+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/a-massive-trade-in-nvidia-just-went-off-here-are-the-details.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "The biggest options trade on Nvidia stock Monday seems to think the controversy swirling around the chip leader and its embattled CEO is creating a buying opportunity. In a trade about an hour after the opening bell that involved more than $100 million in options premium, someone exchanged an existing call spread for a more bullish position that captures the next five months of trading in Nvidia. In other words, it's a higher conviction trade that the chipmaker's stock will soon rebound.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
-    },
-    {
-      "id": "b5983b83584524abc9dd9dcbdf90dc05be028b83d0372646fa84d20cea930f11",
-      "source": "CNBC",
-      "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
-      "publishedAtSgt": "2026-11-10T02:14:47+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "Goldman Sachs CEO David Solomon told CNBC on Monday that financing demand for artificial intelligence infrastructure remains strong despite recent market jitters as investors reassess the risks involving the massive build-out. \"There's still very strong demand for investments in the AI infrastructure build and the technology around the growth of AI,\" Solomon told CNBC's Leslie Picker.",
-      "feeds": [
-        "latest",
-        "business",
-        "finance",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-10T04:47:39+08:00"
-    },
-    {
-      "id": "b6bac63eb6d119773d474a56e1bf596799ac9684380f5283b0d6d68037e4b1b2",
-      "source": "CNBC",
-      "title": "Jim Cramer says this is the stock to buy as data center development slows",
-      "publishedAtSgt": "2026-11-10T01:22:48+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/09/cramer-says-this-is-the-stock-to-buy-as-data-center-development-slows.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "A divide in the artificial intelligence trade has become increasingly apparent since last week's midterm elections , as growing opposition to new projects raises concerns about future infrastructure spending. Meanwhile, semiconductor and neocloud stocks have suffered steep losses, with Micron tumbling 14.1%, Sandisk plunging 21.2% and CoreWeave falling 8.9%, when including Monday's intraday bounce-back rallies.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-10T04:47:40+08:00"
-    },
-    {
-      "id": "4e932f86e76e4fa69d4fb1b7827652a33aad748ef71069374c53d346c5d68fad",
-      "source": "CNBC",
-      "title": "What is Megaspeed? The Nvidia chip buyer in the spotlight after Jensen Huang’s affair",
-      "publishedAtSgt": "2026-11-09T23:57:38+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "The explosion in AI adoption in recent years has fueled its stock and pushed it to a $5 trillion market cap earlier this year. Commerce Department, the Ministry of Investment, Trade and Industry of Malaysia, and Nvidia had found \"no evidence of any violations concerning the illicit transfer of chips or any illegal activities.\" Businesswoman Alice Huang is an \"executive\" at Megaspeed and a \"publicly reported Chinese intelligence asset,\" according to a House Select Committee on China statement on...",
-      "feeds": [
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-10T04:47:45+08:00"
-    },
-    {
-      "id": "e7e8d52c2f2a3108eb10b1018c7ff47511ee13e5a98c37a41d89c336d3808857",
-      "source": "CNBC",
-      "title": "We're booking profits in a stock to reduce our data center exposure",
-      "publishedAtSgt": "2026-11-09T21:42:57+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/09/were-booking-profits-in-a-stock-to-reduce-our-data-center-exposure.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Following the trade, Jim Cramer's Charitable Trust will own 175 shares of ETN, decreasing its weighting in the portfolio to 1.6% from 2%. However, we're selling some shares and locking in a sizable 47% gain on stock purchased in December 2023. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-10T04:47:44+08:00"
-    },
-    {
-      "id": "09c1cb9d8a819f50caa96a77b89a2809f63be4761ede7a3e342a7d0b22fc9ef9",
-      "source": "CNBC",
-      "title": "Congress returns with government funding, Pete Hegseth and the debt limit on the agenda",
-      "publishedAtSgt": "2026-11-09T19:00:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/congress-government-funding-debt-limit-elections.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Congress will need to act quickly to extend government funding, which expires Dec. The most pressing concern lawmakers will face when they return is funding the government. Democrats are unlikely to negotiate a full year of government funding before the new Congress is sworn in, given that they will soon hold commanding majorities in both chambers and can use that to leverage concessions from the White House.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-10T04:47:44+08:00"
-    },
-    {
-      "id": "a84453b193e470f3fc44c29dbb4bfa2a39322694d1ce8f2e0928151ce117ccea",
-      "source": "CNBC",
-      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
-      "publishedAtSgt": "2026-11-09T10:50:22+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "The increase was driven by very strong external demand, Zhang Zhiwei, president and chief economist at Pinpoint Asset Management, told CNBC's \"Squawk Box Asia.\" Consumer inflation in China slowed to 0.7% in October, its first deceleration after two straight months of increases. Core inflation, which strips out food and energy prices, came in at 0.8%, down from the 1% seen in the month before. The Chinese economy has shown some signs of expansion recently.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-09T16:00:40+08:00"
-    },
-    {
-      "id": "deb4564b29b81711ddf72b1f2c1db714f3b6c1f2eb161954edba192190cc9294",
-      "source": "CNBC",
-      "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
-      "publishedAtSgt": "2026-11-09T05:53:02+08:00",
-      "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 52,
-      "relevanceReason": "supporting_geopolitical_economic_description",
-      "summary": "President Donald Trump said he is \"highly unlikely\" to restart open war with Iran, but warned he could still strike the country as Washington tries to reach a deal with Tehran to end the conflict. The now more than eight-month-old war, which stoked inflation and sent oil prices surging, has seen repeated bursts of fighting separated by ceasefires and peace talks for months.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-09T06:55:27+08:00"
-    },
-    {
-      "id": "2651d142100c821cf65cf49ec24e6422d0da9c2d64ac4c6ba865222bd4ef545c",
-      "source": "CNBC",
-      "title": "Here are the 2 big things we're watching in the stock market in the week ahead",
-      "publishedAtSgt": "2026-11-09T01:40:15+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/08/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "There's one question on everybody's mind entering the new trading week: Where are artificial intelligence stocks going next? Even before the election, we've been paying close attention to CoreWeave's bonds and stock as a barometer for souring investor appetite for AI names. \"You either believe [CEO Michael Intrator] and you see the stock go up and you realize that the AI trade is on.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-09T06:55:27+08:00"
-    },
-    {
-      "id": "2feb6918da3357279207902c4e751b920207aa3ad16fd3dfd69668e772df148f",
-      "source": "CNBC",
-      "title": "How Democrats will try to end Trump's tariffs",
-      "publishedAtSgt": "2026-11-08T23:36:39+08:00",
-      "url": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Ending Trump's tariff regime, and especially his trade war against Canada, is something Democrats \"absolutely have to do immediately,\" Sen.-elect Abdul El-Sayed, D-Mich., told MS NOW's \"Morning Joe\" Thursday. \"I'll also continue to work to ensure Congress has the final say on tariffs, so future presidents can't reenact Trump's economically disastrous trade taxes.\" The Wall Street Journal, citing Wyden, reported Thursday that Democrats are eyeing the Canada trade war as the \"first target\" in...",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-09T00:42:21+08:00"
     }
   ]
 }
