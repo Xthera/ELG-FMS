@@ -5,6 +5,90 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "ca92748e4dce72f904946337bfabbecaea0a8c55f4bcc16ad9b1eb7b2664f635",
+      "source": "CNBC",
+      "title": "Jim Cramer says Costco's hefty special dividend signals ‘more gains ahead’",
+      "publishedAtSgt": "2026-11-17T07:45:03+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/costco-special-dividend-jim-cramer.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "More gains ahead.\" There's also compelling math suggesting that investors should look to reinvest those dividends back into Costco's stock. A $1,000 investment in Costco's stock in November 2011 would have grown to approximately $13,321 through Friday, reflecting a 1,232% gain. But reinvesting all dividends into additional shares would have increased that investment's value to roughly $18,411, representing a 1,741% total return.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T12:32:32+08:00"
+    },
+    {
+      "id": "b48574c3f4de076a6419b024b16a68bbf26569abd5f30c57dcb89da9b4bf854a",
+      "source": "CNBC",
+      "title": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
+      "publishedAtSgt": "2026-11-17T07:23:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Cramer's comments came after another rough day for AI-related stocks in the wake of Jensen Huang's resignation from Nvidia last week. Investors have been worried that Huang's departure as CEO could jeopardize the chipmaker's financial support for the broader AI ecosystem, especially computing providers known as neoclouds. \"I do not think it will cause a tsunami of selling.\" A successful Anthropic IPO later this week could further restore confidence in the AI trade, Cramer argued.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
+    },
+    {
+      "id": "e81a77c181d1743bfbb4e8d1078aa7cdd0fbcbecca3d28547a198576cebdc633",
+      "source": "CNBC",
+      "title": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
+      "publishedAtSgt": "2026-11-17T07:05:12+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Leopold Aschenbrenner's artificial intelligence-themed hedge fund Situational Awareness, which nearly collapsed in July, loaded back up on AI stocks as it returned to the financial markets at the end of the third quarter. Stocked tethered to the AI trade took a hit in the most recent quarter as investors grew concerned about a slowdown in development of the technology.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
+    },
+    {
+      "id": "6ee802f770598e29651b745cc640a0412dd1466f88ae50d329804146742f3925",
+      "source": "CNBC",
+      "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
+      "publishedAtSgt": "2026-11-17T07:01:19+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Berkshire Hathaway made several moves in the stock market during the third quarter, adding to key positions and trimming others. Selling some Bank of America Berkshire also trimmed its holding in Bank of America by nearly 6%, selling more than $1.6 billion worth of stock. At one point in September the 30-year Treasury bond yield surged above 5.6% to its highest level since 2002.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
+    },
+    {
+      "id": "8deee6ab811f69cdf136268ce80428377515b6f9d98221c40bdb578d3242c7a2",
+      "source": "CNBC",
+      "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+      "publishedAtSgt": "2026-11-17T06:14:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The bank said a \"temporary issue related to a software bug in on-premise hardware systems\" was causing some customer transactions to take longer than usual, though it said customers can still access their accounts and funds. Bank said that company was \"not directly impacted. However, clients attempting to send or receive Zelle payments with another financial institution may experience transaction delays.\" Zelle is the peer-to-peer payments system backed by many of the largest U.S.",
+      "feeds": [
+        "latest",
+        "business",
+        "finance",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
+    },
+    {
       "id": "a4b1a8b4e487a241f6717a2cc5a2baf08d4f5ab42b0912c5e4ff4f52f9dc9569",
       "source": "CNBC",
       "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
@@ -165,6 +249,6 @@
       "collectedAtSgt": "2026-11-17T04:32:10+08:00"
     }
   ],
-  "articleCount": 10,
-  "updatedAtSgt": "2026-11-17T04:32:11+08:00"
+  "articleCount": 15,
+  "updatedAtSgt": "2026-11-17T12:32:32+08:00"
 }

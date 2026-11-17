@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-17T04:32:14+08:00",
+  "generatedAtSgt": "2026-11-17T12:32:32+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,90 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "ca92748e4dce72f904946337bfabbecaea0a8c55f4bcc16ad9b1eb7b2664f635",
+      "source": "CNBC",
+      "title": "Jim Cramer says Costco's hefty special dividend signals ‘more gains ahead’",
+      "publishedAtSgt": "2026-11-17T07:45:03+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/costco-special-dividend-jim-cramer.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "More gains ahead.\" There's also compelling math suggesting that investors should look to reinvest those dividends back into Costco's stock. A $1,000 investment in Costco's stock in November 2011 would have grown to approximately $13,321 through Friday, reflecting a 1,232% gain. But reinvesting all dividends into additional shares would have increased that investment's value to roughly $18,411, representing a 1,741% total return.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T12:32:32+08:00"
+    },
+    {
+      "id": "b48574c3f4de076a6419b024b16a68bbf26569abd5f30c57dcb89da9b4bf854a",
+      "source": "CNBC",
+      "title": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
+      "publishedAtSgt": "2026-11-17T07:23:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Cramer's comments came after another rough day for AI-related stocks in the wake of Jensen Huang's resignation from Nvidia last week. Investors have been worried that Huang's departure as CEO could jeopardize the chipmaker's financial support for the broader AI ecosystem, especially computing providers known as neoclouds. \"I do not think it will cause a tsunami of selling.\" A successful Anthropic IPO later this week could further restore confidence in the AI trade, Cramer argued.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
+    },
+    {
+      "id": "e81a77c181d1743bfbb4e8d1078aa7cdd0fbcbecca3d28547a198576cebdc633",
+      "source": "CNBC",
+      "title": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
+      "publishedAtSgt": "2026-11-17T07:05:12+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Leopold Aschenbrenner's artificial intelligence-themed hedge fund Situational Awareness, which nearly collapsed in July, loaded back up on AI stocks as it returned to the financial markets at the end of the third quarter. Stocked tethered to the AI trade took a hit in the most recent quarter as investors grew concerned about a slowdown in development of the technology.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
+    },
+    {
+      "id": "6ee802f770598e29651b745cc640a0412dd1466f88ae50d329804146742f3925",
+      "source": "CNBC",
+      "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
+      "publishedAtSgt": "2026-11-17T07:01:19+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Berkshire Hathaway made several moves in the stock market during the third quarter, adding to key positions and trimming others. Selling some Bank of America Berkshire also trimmed its holding in Bank of America by nearly 6%, selling more than $1.6 billion worth of stock. At one point in September the 30-year Treasury bond yield surged above 5.6% to its highest level since 2002.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
+    },
+    {
+      "id": "8deee6ab811f69cdf136268ce80428377515b6f9d98221c40bdb578d3242c7a2",
+      "source": "CNBC",
+      "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+      "publishedAtSgt": "2026-11-17T06:14:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The bank said a \"temporary issue related to a software bug in on-premise hardware systems\" was causing some customer transactions to take longer than usual, though it said customers can still access their accounts and funds. Bank said that company was \"not directly impacted. However, clients attempting to send or receive Zelle payments with another financial institution may experience transaction delays.\" Zelle is the peer-to-peer payments system backed by many of the largest U.S.",
+      "feeds": [
+        "latest",
+        "business",
+        "finance",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
+    },
     {
       "id": "a4b1a8b4e487a241f6717a2cc5a2baf08d4f5ab42b0912c5e4ff4f52f9dc9569",
       "source": "CNBC",
@@ -1524,84 +1608,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-10T12:09:29+08:00"
-    },
-    {
-      "id": "6f139af0648a585951f4d130b0a024411a63ce0b8184014c818d0574504a7846",
-      "source": "CNBC",
-      "title": "Jim Cramer says Anthropic's IPO could make or break the AI trade. Here's why",
-      "publishedAtSgt": "2026-11-10T07:30:15+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Anthropic's upcoming initial public offering could be a crucial test of investor confidence in the artificial intelligence trade, CNBC's Jim Cramer said on Monday. \"Without it, I don't see how the AI-related stocks can make a real recovery,\" the \"Mad Money\" host said, exactly two weeks after the Claude developer filed its S-1 IPO paperwork. Despite the recent sell-off in AI stocks, Anthropic is reportedly moving ahead with its IPO plans.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
-    },
-    {
-      "id": "3c6914c32a90b9634df17f5fd90cd027fd5aa1b74c2edf61828e6046f62c7864",
-      "source": "CNBC",
-      "title": "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
-      "publishedAtSgt": "2026-11-10T07:05:53+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The company on Monday also announced a $1.75 billion increase in a delayed draw term loan from Saudi Arabia's Public Investment Fund, the company's largest shareholder. Lucid stock fell roughly 5% in aftermarket trading Monday. We are acting with urgency, strengthening the fundamentals and driving greater discipline, while continuing to invest in the priorities to deliver profitable long-term growth,\" Napoli said in a release.",
-      "feeds": [
-        "latest",
-        "business",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
-    },
-    {
-      "id": "7d21b5f214dbc0d8f788bef326fbb8edc6e3dcb4ad0d58b25b050b29df0aac91",
-      "source": "CNBC",
-      "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
-      "publishedAtSgt": "2026-11-10T05:03:55+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Though the Fed in October voted to hold its benchmark interest rate in place, markets are pricing in a better than 80% probability that the central bank will raise rates by a quarter percentage point at its next meeting in December, according to CME FedWatch data. Bank of America said it sees tariff impacts fading but that goods prices could be pushed higher because of AI demand.",
-      "feeds": [
-        "latest",
-        "economy"
-      ],
-      "collectedAtSgt": "2026-11-10T12:09:29+08:00"
-    },
-    {
-      "id": "5f1af2f883662e956da85b8bcc6df79043a6e95425104b8a9468b05a38d122aa",
-      "source": "CNBC",
-      "title": "Stocks extend recovery from Thursday's sell-off. Plus, new trial data from Lilly, JJ",
-      "publishedAtSgt": "2026-11-10T04:04:30+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/09/stocks-extend-recovery-from-thursdays-sell-off-plus-new-trial-data-from-lilly-jj-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Other top performers in the portfolio include Qnity Electronics , whose products are crucial to semiconductor manufacturing, memory-chip maker Micron , and Starbucks away from tech. Both of our drug stocks are participating in Monday's market rally, as investors chew over new trial data for key fledgling products.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-10T20:43:05+08:00"
-    },
-    {
-      "id": "ccf10804cf50343d507ab85faabe6cfa1be5e3eee908318d93127b897f289bba",
-      "source": "CNBC",
-      "title": "Trump administration proposes stricter work-search rules for unemployment benefits",
-      "publishedAtSgt": "2026-11-10T03:59:55+08:00",
-      "url": "https://www.cnbc.com/2026/11/09/trump-unemployment-work-search-rule.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "The Labor Department proposed a rule on Monday that would raise the bar for people applying for unemployment insurance by requiring them to prove they've conducted five work-search activities per week in order to qualify for benefits. Currently, only four states require a minimum of five work searches per week, Michele Evermore, the senior director of economic security and worker transitions at the National Employment Law Project, wrote in an email.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-10T04:47:38+08:00"
     }
   ]
 }
