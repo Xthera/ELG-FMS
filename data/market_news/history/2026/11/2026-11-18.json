@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-18",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "a9180e742d694495026e0244dd65888d6ef282f9ce420aa412f95b56837f1f9e",
+      "source": "CNBC",
+      "title": "Nvidia stock falls ahead of earnings as company reels from Huang resignation",
+      "publishedAtSgt": "2026-11-18T00:49:12+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia shares slipped on Tuesday as former CEO Jensen Huang released his first public statement since his resignation and the company prepares to report earnings after the bell. Nvidia's stock slid 4% on Monday, bringing shares to their lowest close since July 1, 2025. Nvidia's stock slid 4% on Monday, bringing shares to their lowest close since July 1, 2025.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-18T00:55:28+08:00"
+    },
+    {
+      "id": "14b28fd440263c7eaf15889ae0244cc29baa186014149f9a4e16a45ceb42b7c7",
+      "source": "CNBC",
+      "title": "Jensen Huang breaks his silence ahead of Nvidia earnings — plus, 1 stock to buy on weakness",
+      "publishedAtSgt": "2026-11-18T00:42:21+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/17/jensen-huang-breaks-his-silence-ahead-of-nvidia-earnings-plus-1-stock-to-buy.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Jim noted that Home Depot trades inversely bond yields, so when they do come down, the stock can go up. Portfolio director Jeff Marks said that inflation driven by higher oil prices due to the Iran war needs to come down, which would take pressure off bond yields. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-18T00:55:26+08:00"
+    },
+    {
+      "id": "af6ce8d40f270de0fc7fd9bea7dc2bb4f9b194a3688d3bde8d44c4e0a82718fe",
+      "source": "CNBC",
+      "title": "Trump has arrived in Asia. Here’s what he said about Iran and Deutsche Bank",
+      "publishedAtSgt": "2026-11-18T00:39:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "President Donald Trump has arrived for his high-stakes trip to Asia, and took a range of questions on subjects from Iran to Deutsche Bank leaking details about his tax. While Trump was airborne, the Financial Times reported Deutsche Bank had mistakenly leaked details of his taxes in March 2017, during his first presidential term.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-18T00:55:34+08:00"
+    },
+    {
+      "id": "de06e58451d41d1bdf4629af357ab689ce3eccf622c201af2397d0230741e729",
+      "source": "CNBC",
+      "title": "Property Play: Chase Home Lending CEO says he plans to 'go on offense' against non-bank lenders",
+      "publishedAtSgt": "2026-11-18T00:38:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/chase-home-lending-ceo-says-hes-going-on-offense.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Property Play covers new and evolving opportunities for the real estate investor, from individuals to venture capitalists, private equity funds, family offices, institutional investors and large public companies. A hotter-than-expected monthly inflation report, coupled with new headlines from the Iran war, had the average rate on the 30-year fixed mortgage up 33 basis points to 7.5%, according to Mortgage News Daily.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-18T00:55:29+08:00"
+    }
+  ],
+  "articleCount": 4,
+  "updatedAtSgt": "2026-11-18T00:55:34+08:00"
+}
