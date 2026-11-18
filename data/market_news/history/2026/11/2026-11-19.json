@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-19",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "ac424bb09c4b2764cdc01d9916c5ef4ef7fb3a589bcf6bef78292e6a185e73b1",
+      "source": "CNBC",
+      "title": "Anthropic prices IPO at $83 per share, above expected range, source tells CNBC",
+      "publishedAtSgt": "2026-11-19T05:22:04+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic priced its IPO at $83 per share on Wednesday, a person familiar told CNBC, above the expected range, setting the stage for the Claude creator's eagerly awaited Nasdaq listing and a historic moment for the artificial intelligence industry. Anthropic has been racing to maintain an edge over OpenAI and Google in the enterprise market, and it experienced a period of explosive growth in 2026, driven largely by the popularity of its AI coding tool, Claude Code.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:25+08:00"
+    },
+    {
+      "id": "8d2debcbcabf92f409434dd29315d09d5c8c6fcd9648ca72e8b97acf9cd56733",
+      "source": "CNBC",
+      "title": "Nvidia reverses, metals crash ahead of Anthropic IPO",
+      "publishedAtSgt": "2026-11-19T04:10:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-reverses-metals-crash-ahead-of-anthropic-ipo-options-action-live.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Slumping crypto prices, a big Nvidia reversal despite good earnings, and now a sharp drop-off in metals prices from gold to copper — cross-asset selling has traders wondering if Anthropic's incoming IPO is spurring a rotation trade with the aim of freeing up cash to buy stock in the AI giant when it goes public on Thursday. Shares of Nvidia swung from $164 overnight to below $152 during Wednesday's trading session despite smashing analysts' expectations on revenue and guidance.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "148fe291c8b59b9b8be643407378e8129419ca3263ff8bea34f38549bcb85c94",
+      "source": "CNBC",
+      "title": "Why Anthropic's hot IPO is bringing out sellers — plus, a silver lining of the down market",
+      "publishedAtSgt": "2026-11-19T03:46:12+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/18/why-anthropics-hot-ipo-is-bringing-out-sellers-plus-a-down-market-silver-lining.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "While the guidance was impressive and the stock is historically cheap on an earnings basis, the quarter didn't change Jim Cramer's view that investors should take some shares off the table, if they haven't already, as a matter of capital preservation . Some of the pressure over the past few days may be tied to a bit of selling by investors making last-minute room for their Anthropic allocations ahead of Wednesday night's initial public offering (IPO) pricing and Thursday's first trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "bbf414404bc6704ce427213f762e6e5145c24038e100cb35159d08e2f617ff2f",
+      "source": "CNBC",
+      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "publishedAtSgt": "2026-11-19T03:41:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Federal Reserve officials expressed confidence in October that further interest rate increases will be needed to stem inflation, though they decided to hold off while gathering more information, according to meeting minutes released Wednesday. Policymakers put artificial intelligence at the core of their discussions, indicating that demand associated with the technology would be \"a material source of inflation risk.\" More broadly, officials said \"inflation pressures in the economy were broad...",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "bcd1dff2a7aa4752e1a344a177f7f9f381bd64b5e8a9b8bd332e180d341afdd6",
+      "source": "CNBC",
+      "title": "One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO",
+      "publishedAtSgt": "2026-11-19T02:43:26+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/jaan-tallinn-anthropic-ipo-series-a-investment.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "An Estonian tech billionaire famous for his stance that AI could end humanity is expected to be one of the biggest winners in Anthropic's upcoming IPO. Anthropic is set to list on the Nasdaq Thursday under the ticker symbol ANT in what could be the largest IPO of all time, and the first public debut for an AI lab.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "29411bfdf1c9ea99c8e897956613ed9c37d6976fb6ed1f0c444506fdcd5deb90",
+      "source": "CNBC",
+      "title": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
+      "publishedAtSgt": "2026-11-19T02:42:29+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The artificial intelligence laboratory — which will trade on the Nasdaq under ticker symbol ANT — is selling 825 million shares at an expected price range of $70 to $78 per share in the IPO, though sources told CNBC the stock is likely to price above that range. Waiting game To be clear, all the retail investors CNBC spoke with are optimistic on AI as a transformative technology — even the ones sitting out the IPO.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:27+08:00"
+    },
+    {
+      "id": "f324169f9cbf0a18fd231b14584fd66fe36f35478a7f3884b70a0ba95407b981",
+      "source": "CNBC",
+      "title": "Is Apple the safe haven investors think it is? Here's a way to trade it with less risk",
+      "publishedAtSgt": "2026-11-19T02:10:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/is-apple-the-safe-haven-investors-think-it-is-heres-a-way-to-trade-it-with-less-risk.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "For months, Apple has been the undisputed haven of the technology sector. As the industry grappled with the brutal reality of Nvidia's post-Huang future, investors blindly rotated into Apple, comforting themselves with the narrative that the Cupertino giant was uniquely immune to speculative overspending on artificial intelligence.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "8b64b3bf6d7bb9b73d57e66535c864e0d800e33c10fb708ed53ef6e49f060a88",
+      "source": "CNBC",
+      "title": "Jensen Huang has agreed to appear before Senate banking committee, Chairman Scott says",
+      "publishedAtSgt": "2026-11-19T01:50:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The House Energy and Commerce Committee asked interim Nvidia CEO Colette Kress for a briefing no later than Dec. 2 on the company's chip exports and information about the relationship between Jensen Huang and Alice Huang. The panel also asked Lutnick and a top deputy to appear to discuss chip export controls.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "56e30c894360b3d56a9ca5884e815245e35be17bcd3c80222403f6645c0c153b",
+      "source": "CNBC",
+      "title": "Jim Cramer looks at what turned the market lower and where stocks could go next",
+      "publishedAtSgt": "2026-11-19T00:54:42+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/18/cramer-looks-at-what-turned-the-market-lower-where-stocks-could-go-next.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The S & P 500 reversed earlier gains and turned lower Wednesday as investors weighed the negatives of another hawkish warning from a Federal Reserve official against the positives of earnings and Anthropic's IPO. Fed Governor Christopher Waller said the central bank may need to \"shock people\" with a half-point interest rate hike in December to tame inflation.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:27+08:00"
+    }
+  ],
+  "articleCount": 9,
+  "updatedAtSgt": "2026-11-19T05:27:27+08:00"
+}

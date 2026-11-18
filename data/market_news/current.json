@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-18T21:08:10+08:00",
+  "generatedAtSgt": "2026-11-19T05:27:31+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,148 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "ac424bb09c4b2764cdc01d9916c5ef4ef7fb3a589bcf6bef78292e6a185e73b1",
+      "source": "CNBC",
+      "title": "Anthropic prices IPO at $83 per share, above expected range, source tells CNBC",
+      "publishedAtSgt": "2026-11-19T05:22:04+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic priced its IPO at $83 per share on Wednesday, a person familiar told CNBC, above the expected range, setting the stage for the Claude creator's eagerly awaited Nasdaq listing and a historic moment for the artificial intelligence industry. Anthropic has been racing to maintain an edge over OpenAI and Google in the enterprise market, and it experienced a period of explosive growth in 2026, driven largely by the popularity of its AI coding tool, Claude Code.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:25+08:00"
+    },
+    {
+      "id": "8d2debcbcabf92f409434dd29315d09d5c8c6fcd9648ca72e8b97acf9cd56733",
+      "source": "CNBC",
+      "title": "Nvidia reverses, metals crash ahead of Anthropic IPO",
+      "publishedAtSgt": "2026-11-19T04:10:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-reverses-metals-crash-ahead-of-anthropic-ipo-options-action-live.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Slumping crypto prices, a big Nvidia reversal despite good earnings, and now a sharp drop-off in metals prices from gold to copper — cross-asset selling has traders wondering if Anthropic's incoming IPO is spurring a rotation trade with the aim of freeing up cash to buy stock in the AI giant when it goes public on Thursday. Shares of Nvidia swung from $164 overnight to below $152 during Wednesday's trading session despite smashing analysts' expectations on revenue and guidance.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "148fe291c8b59b9b8be643407378e8129419ca3263ff8bea34f38549bcb85c94",
+      "source": "CNBC",
+      "title": "Why Anthropic's hot IPO is bringing out sellers — plus, a silver lining of the down market",
+      "publishedAtSgt": "2026-11-19T03:46:12+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/18/why-anthropics-hot-ipo-is-bringing-out-sellers-plus-a-down-market-silver-lining.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "While the guidance was impressive and the stock is historically cheap on an earnings basis, the quarter didn't change Jim Cramer's view that investors should take some shares off the table, if they haven't already, as a matter of capital preservation . Some of the pressure over the past few days may be tied to a bit of selling by investors making last-minute room for their Anthropic allocations ahead of Wednesday night's initial public offering (IPO) pricing and Thursday's first trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "bbf414404bc6704ce427213f762e6e5145c24038e100cb35159d08e2f617ff2f",
+      "source": "CNBC",
+      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "publishedAtSgt": "2026-11-19T03:41:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Federal Reserve officials expressed confidence in October that further interest rate increases will be needed to stem inflation, though they decided to hold off while gathering more information, according to meeting minutes released Wednesday. Policymakers put artificial intelligence at the core of their discussions, indicating that demand associated with the technology would be \"a material source of inflation risk.\" More broadly, officials said \"inflation pressures in the economy were broad...",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "bcd1dff2a7aa4752e1a344a177f7f9f381bd64b5e8a9b8bd332e180d341afdd6",
+      "source": "CNBC",
+      "title": "One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO",
+      "publishedAtSgt": "2026-11-19T02:43:26+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/jaan-tallinn-anthropic-ipo-series-a-investment.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "An Estonian tech billionaire famous for his stance that AI could end humanity is expected to be one of the biggest winners in Anthropic's upcoming IPO. Anthropic is set to list on the Nasdaq Thursday under the ticker symbol ANT in what could be the largest IPO of all time, and the first public debut for an AI lab.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "29411bfdf1c9ea99c8e897956613ed9c37d6976fb6ed1f0c444506fdcd5deb90",
+      "source": "CNBC",
+      "title": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
+      "publishedAtSgt": "2026-11-19T02:42:29+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The artificial intelligence laboratory — which will trade on the Nasdaq under ticker symbol ANT — is selling 825 million shares at an expected price range of $70 to $78 per share in the IPO, though sources told CNBC the stock is likely to price above that range. Waiting game To be clear, all the retail investors CNBC spoke with are optimistic on AI as a transformative technology — even the ones sitting out the IPO.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:27+08:00"
+    },
+    {
+      "id": "f324169f9cbf0a18fd231b14584fd66fe36f35478a7f3884b70a0ba95407b981",
+      "source": "CNBC",
+      "title": "Is Apple the safe haven investors think it is? Here's a way to trade it with less risk",
+      "publishedAtSgt": "2026-11-19T02:10:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/is-apple-the-safe-haven-investors-think-it-is-heres-a-way-to-trade-it-with-less-risk.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "For months, Apple has been the undisputed haven of the technology sector. As the industry grappled with the brutal reality of Nvidia's post-Huang future, investors blindly rotated into Apple, comforting themselves with the narrative that the Cupertino giant was uniquely immune to speculative overspending on artificial intelligence.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "8b64b3bf6d7bb9b73d57e66535c864e0d800e33c10fb708ed53ef6e49f060a88",
+      "source": "CNBC",
+      "title": "Jensen Huang has agreed to appear before Senate banking committee, Chairman Scott says",
+      "publishedAtSgt": "2026-11-19T01:50:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The House Energy and Commerce Committee asked interim Nvidia CEO Colette Kress for a briefing no later than Dec. 2 on the company's chip exports and information about the relationship between Jensen Huang and Alice Huang. The panel also asked Lutnick and a top deputy to appear to discuss chip export controls.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
+    },
+    {
+      "id": "56e30c894360b3d56a9ca5884e815245e35be17bcd3c80222403f6645c0c153b",
+      "source": "CNBC",
+      "title": "Jim Cramer looks at what turned the market lower and where stocks could go next",
+      "publishedAtSgt": "2026-11-19T00:54:42+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/18/cramer-looks-at-what-turned-the-market-lower-where-stocks-could-go-next.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The S & P 500 reversed earlier gains and turned lower Wednesday as investors weighed the negatives of another hawkish warning from a Federal Reserve official against the positives of earnings and Anthropic's IPO. Fed Governor Christopher Waller said the central bank may need to \"shock people\" with a half-point interest rate hike in December to tame inflation.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:27+08:00"
+    },
     {
       "id": "d2ae9c66625ab06e9dc6e50c889606c506a078aa8f16c40dc9295573bd8e28a3",
       "source": "CNBC",
@@ -149,6 +291,21 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "id": "601723ef295d695cf66bc105e7cec0be1e45e69662c037996459e9eb9e9fcf2b",
+      "source": "CNBC",
+      "title": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+      "publishedAtSgt": "2026-11-18T16:00:05+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "SHENZHEN, China — Chinese President Xi Jinping opened a key Asia-Pacific Economic Cooperation meeting on Wednesday with calls for removing trade and investment barriers. \"We should remove trade and investment barriers,\" Xi said via an official English translation. Xi called for APEC members to deepen coordination in the digital economy and AI, as a way to drive regional economic growth.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:31+08:00"
     },
     {
       "id": "bb9d911c3aa35d4f3d32cd95f5944e60e4c986388396e8e11614abd5a9b910e2",
@@ -1446,164 +1603,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-13T04:51:58+08:00"
-    },
-    {
-      "id": "b09316d11f16f79eb320404574947ce27e7c9b40230c7489c6cc13c246bdd68a",
-      "source": "CNBC",
-      "title": "Trump trade chief Greer speaks with 'Squawk Box' as tariff threats rise",
-      "publishedAtSgt": "2026-11-12T22:14:45+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/jamieson-greer-trump-tariffs-election-nvidia.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 72,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Trade Representative Jamieson Greer is set to speak with CNBC's \"Squawk Box\" Thursday morning, a week after a blue-wave election in which most voters said President Donald Trump's controversial tariff policies have made the economy worse. The import duties, which have ignited trade wars with multiple U.S. economic partners, will likely be a top target for Democrats once they take majority control of the House and Senate.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-13T04:52:02+08:00"
-    },
-    {
-      "id": "c8ab11309baa65c71062954b49d38cb952b321b6610cd7f547db42b7dc18089f",
-      "source": "CNBC",
-      "title": "Nvidia stock falls 8% as investors await Jensen Huang’s fate",
-      "publishedAtSgt": "2026-11-12T20:05:42+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Meanwhile, shares of chip stocks Intel, Marvell, Arm and Qualcomm were all trading lower. Richard Reyle, chief investment officer at Questar Capital Partners, said Nvidia's lack of a succession plan makes the stock \"uninvestable.\" \"Nvidia doesn't have that person in place, and so it's going to be either a choice of keeping Jensen and being faced with months and months of being hauled in front of probably congressional boards and things to explain themselves and all kinds of interrogations,\"...",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-12T20:47:45+08:00"
-    },
-    {
-      "id": "b1f8ea72f6c7443a2108b17295b3c07db0122e86eabad351da985ef0790d799e",
-      "source": "CNBC",
-      "title": "Nerves around Nvidia as investors await the outcome of Board's crisis CEO meeting",
-      "publishedAtSgt": "2026-11-12T19:06:41+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The shares are back under pressure as investors await the outcome of a crisis board meeting... Investors are on tenterhooks, with shares sinking around 5% in premarket trading. The world's wealthiest investors are increasingly looking beyond stocks and bonds, pouring money into hedge funds, private equity and infrastructure assets, as market volatility and fears about stubborn inflation spur diversification.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
-    },
-    {
-      "id": "5281bbccba988445f0288fad25bc733be4b82d627297ad1a1276ae459da9cfba",
-      "source": "CNBC",
-      "title": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
-      "publishedAtSgt": "2026-11-12T17:05:22+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Ukrainian defense technology company UFORCE has raised $700 million in a funding round valuing it at $6 billion, as investor interest grows in autonomous weapons systems tested on the battlefield in Ukraine. UFORCE, which develops unmanned aerial, maritime, and land systems as well as AI software used to coordinate them, raised $50 million at a valuation of around $1 billion in March.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
-    },
-    {
-      "id": "9431cb11a32215ef6fe226be158bcee30ae849854767d50c1f7b65839f7b6c4f",
-      "source": "CNBC",
-      "title": "AI is coming for consulting’s billable hours — and its graduate pipeline",
-      "publishedAtSgt": "2026-11-12T16:20:56+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/ai-consulting-billable-hours-graduate-hiring.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Emiko Caerlewy-Smith, head of investor relations at London-based challenger consultancy Elixirr, argued that firms like hers are better positioned for the AI era. Claire Trachet, a former Deutsche Bank mergers and acquisitions banker turned founder of London-based advisory firm Trachet, told CNBC that AI is helping junior employees do their jobs faster.",
-      "feeds": [
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
-    },
-    {
-      "id": "a2aa2d60c1cbf668d60751e69d74828059193d288c940dcf0d89264de1196150",
-      "source": "CNBC",
-      "title": "Treasury yields edge higher as investors await fresh inflation and housing data",
-      "publishedAtSgt": "2026-11-12T15:38:45+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Treasury yields edged higher Thursday as bond trading resumed after the Veterans Day closure and investors looked ahead to fresh inflation and housing data for clues about the economy and the Federal Reserve's next move. The 2-year Treasury note yield, which is more sensitive to short-term Federal Reserve interest rate decisions, was 5 basis points higher at 4.7800%. The longer-dated 30-year Treasury note yield — which often moves on geopolitical developments — was steady at 5.3503%.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
-    },
-    {
-      "id": "301dee4484163892eb673e2307cd69bac138216e3e370147bbb931c061a2e93c",
-      "source": "CNBC",
-      "title": "The world's super-rich are piling into alternative investments. Here's why",
-      "publishedAtSgt": "2026-11-12T11:36:44+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/rich-wealth-alternative-assets-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The world's wealthiest investors are increasingly looking beyond stocks and bonds, pouring money into hedge funds, private equity and infrastructure assets, as market volatility and fears about stubborn inflation spur diversification. The shift comes as investors grapple with increasingly concentrated equity markets, geopolitical uncertainty and concerns that stocks and bonds may not provide the same protection against market downturns as they once did, experts said.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-12T20:47:45+08:00"
-    },
-    {
-      "id": "cb1e5281748620ca2249ef83d34c50f5e0d8e335955fc6c7781a9ad031d32ef0",
-      "source": "CNBC",
-      "title": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
-      "publishedAtSgt": "2026-11-12T07:57:38+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/us-india-trade-tariffs-trump-modi.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "After months of being weighed down by high energy prices, trade uncertainty and foreign investor exodus, India has had plenty to celebrate this Diwali. Trump had earlier imposed a 25% tariff on imports from India, along with an additional 25% duty on goods from New Delhi for buying Russian oil.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-12T11:04:39+08:00"
-    },
-    {
-      "id": "54c54361299601824fdc3671e831f15a722d82ff8beaff6d30c6b914e5bddcb9",
-      "source": "CNBC",
-      "title": "Jim Cramer says investors need to pay attention to CoreWeave. Here's why",
-      "publishedAtSgt": "2026-11-12T07:41:46+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/jim-cramer-coreweave-earnings-ceo-interview.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Intrator said some H100 chips purchased four years ago are now being contracted at premiums of 20% to 50% above its original cost, suggesting the equipment is retaining its economic value longer than many investors anticipated. For Cramer, the comments offered a welcome counterpoint to the recent pessimism surrounding AI infrastructure stocks. But it does have diversified, albeit recently reduced, exposure to the AI boom via chip stocks and names that help run and power data centers.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
-    },
-    {
-      "id": "ddc90088d44c113bb61adf92a06c10a3954c227fa4e14830abd3769e7b9b4163",
-      "source": "CNBC",
-      "title": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
-      "publishedAtSgt": "2026-11-12T07:30:48+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/anthropic-ipo-profit-computing-commitments.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "But CNBC's Jim Cramer warned Wednesday that the frontier AI lab's future spending commitments could make staying profitable a much bigger challenge. In calculating its adjusted operating income, Anthropic excludes stock-based compensation, noncash charitable contributions, and payments tied to a class-action copyright lawsuit settlement, according to its IPO prospectus.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
     }
   ]
 }

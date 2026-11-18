@@ -148,6 +148,21 @@
       "collectedAtSgt": "2026-11-18T21:08:10+08:00"
     },
     {
+      "id": "601723ef295d695cf66bc105e7cec0be1e45e69662c037996459e9eb9e9fcf2b",
+      "source": "CNBC",
+      "title": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+      "publishedAtSgt": "2026-11-18T16:00:05+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "SHENZHEN, China — Chinese President Xi Jinping opened a key Asia-Pacific Economic Cooperation meeting on Wednesday with calls for removing trade and investment barriers. \"We should remove trade and investment barriers,\" Xi said via an official English translation. Xi called for APEC members to deepen coordination in the digital economy and AI, as a way to drive regional economic growth.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T05:27:31+08:00"
+    },
+    {
       "id": "bb9d911c3aa35d4f3d32cd95f5944e60e4c986388396e8e11614abd5a9b910e2",
       "source": "CNBC",
       "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
@@ -308,6 +323,6 @@
       "collectedAtSgt": "2026-11-18T00:55:29+08:00"
     }
   ],
-  "articleCount": 19,
-  "updatedAtSgt": "2026-11-18T21:08:10+08:00"
+  "articleCount": 20,
+  "updatedAtSgt": "2026-11-19T05:27:31+08:00"
 }
