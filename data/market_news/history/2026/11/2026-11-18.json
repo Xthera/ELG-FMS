@@ -5,6 +5,197 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "d2ae9c66625ab06e9dc6e50c889606c506a078aa8f16c40dc9295573bd8e28a3",
+      "source": "CNBC",
+      "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+      "publishedAtSgt": "2026-11-18T20:58:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Federal Reserve Governor Christopher Waller on Wednesday called for aggressive action against inflation, which he said has been more persistent than he expected. We're collecting the data, analyzing it, having the debate and making a decision.\" The Fed in 2025 approved three rate cuts amid worries over the labor market and the belief that inflation would continue to moderate toward the central bank's 2% goal.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:09+08:00"
+    },
+    {
+      "id": "3d674870596a7d8eeba20c9c5302d54a5fe8b18b85f85014d5196b779e1568a5",
+      "source": "CNBC",
+      "title": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks.",
+      "publishedAtSgt": "2026-11-18T20:34:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/mortgage-demand-turns-lower-as-interest-rates-shoot-back-up-to-the-highest-level-in-three-weeks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The average contract interest rate for 30-year fixed-rate mortgages with conforming loan balances, $832,750 or less, increased last week to 7.35% from 7.21%, with points rising to 0.79 from 0.75, including the origination fee, for loans with a 20% down payment. \"Treasury yields rose last week amid data showing inflation accelerated in October and Fed officials acknowledging that additional rate hikes may be needed in the coming months,\" said Joel Kan, vice president and deputy chief economist...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "id": "0b1fb18abb6348021c96aefe95d09946041e3e416fb9cfd3f6d6b5608bf8e06d",
+      "source": "CNBC",
+      "title": "Target posts best sales growth in five years, raises guidance",
+      "publishedAtSgt": "2026-11-18T20:17:33+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Target on Wednesday reported its best sales growth in over five years and beat Wall Street's revenue expectations, the latest signs of its turnaround strategy taking hold. That growth was boosted by a 5% increase in comparable traffic, Target added. Encouraged by the growth, Target raised its full-year guidance, upping its net sales growth guidance by 1 percentage point to around 6%.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:09+08:00"
+    },
+    {
+      "id": "1cf9d9c2fe90a7072c4bd84e29a3494b0fce5c41ba82fba7b66829190a0adac8",
+      "source": "CNBC",
+      "title": "IEA chief sees no 'credible pathway' back to pre-war normality in the Strait of Hormuz",
+      "publishedAtSgt": "2026-11-18T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "\"Shipping flows through the Strait of Hormuz have been blocked once, with a hugely disruptive effect on oil and gas markets. Confidence in the Strait as a safe and reliable corridor for energy and other goods has been crushed,\" he said. Many IEA members relied on emergency oil stocks, softening the economic disruptions, Birol wrote.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "id": "d17adc7cf416659463d10be8ecece0e274999773b46a43ce627937577da6ab0d",
+      "source": "CNBC",
+      "title": "Lowe's posts strong online sales, raises outlook despite slow housing market",
+      "publishedAtSgt": "2026-11-18T19:47:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CEO Marvin Ellison told CNBC's Becky Quick on Wednesday that the company \"can grow\" despite economic headwinds and a sluggish housing market. In a separate statement, Ellison said the company posted its sixth straight quarter of comparable sales growth. Lowe's also reported a pre-tax benefit of approximately $250 million from tariff refunds during the quarter, which contributed a 34-cent boost to earnings per share.",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:09+08:00"
+    },
+    {
+      "id": "f26d036c58b54aa81b740b0d6ad783cd6c475d27b33c54cc0568357070c0ca91",
+      "source": "CNBC",
+      "title": "Nvidia earnings spark rally in shares and neoclouds despite Huang scandal",
+      "publishedAtSgt": "2026-11-18T18:58:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia stock was up nearly 4% in premarket trading on Wednesday after reporting another earnings beat, as the fallout from CEO Jensen Huang's resignation continues to unfold. The chip giant's stock was 3.69% higher at 5.53 am ET on Wednesday in premarket trading. Nvidia told investors in its earnings commentary that it was \"not assuming any Data Center compute revenue from China in our outlook,\" in keeping with its recent language on the country.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "id": "114a7e1ec7e82f9b79cef29379c9fbb3742114949c01c75862f4c668f704aca2",
+      "source": "CNBC",
+      "title": "China’s military seeks Nvidia’s advanced chips for AI capabilities, commission says",
+      "publishedAtSgt": "2026-11-18T18:45:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "China's People's Liberation Army has been \"actively soliciting\" Nvidia's most advanced semiconductor chips to develop its artificial intelligence-enabled military capabilities, a congressional commission said in a report released Wednesday. \"Although China has made some progress in achieving its goals, it has not yet closed the hardest chokepoints — including the most advanced capabilities in logic fabrication, memory, and semiconductor manufacturing equipment, as well as the Nvidia Compute...",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "id": "6ea2dcc2c492c17ec86501019b4a31ce87e09d4b64c883d18dc103c2277f5b73",
+      "source": "CNBC",
+      "title": "Treasury yields hold steady as investors look ahead to Fed minutes",
+      "publishedAtSgt": "2026-11-18T17:32:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "The benchmark 10-year Treasury yield inched 1 basis point lower to 5.092%, while the long-dated 30-year Treasury yield dipped 1 basis point to 5.443%. Meanwhile, the 2-year Treasury yield was trading relatively flat at 4.791%. retail sales came in stronger than expected on Wednesday, potentially strengthening the case for further interest rate hikes.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "id": "a883b9181c29a0a58259870d01c10a551453e20d8b0cc6415376cd2ba65b288c",
+      "source": "CNBC",
+      "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+      "publishedAtSgt": "2026-11-18T16:09:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "\"Any resulting slowdown in investment would add to the drag from an anticipated cooling in the global AI export cycle,\" she said, potentially knocking 0.2 percentage points off Malaysia's GDP growth forecasts through 2028. Malaysia's investment, trade and industry minister, Johari Abdul Ghani, said Tuesday, \"If you want to be in the game, you have to follow U.S.",
+      "feeds": [
+        "economy",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "id": "bb9d911c3aa35d4f3d32cd95f5944e60e4c986388396e8e11614abd5a9b910e2",
+      "source": "CNBC",
+      "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
+      "publishedAtSgt": "2026-11-18T15:57:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "is a net energy importer, making it vulnerable to external energy shocks such as the one sparked by the disruption of trade through the Strait of Hormuz. Since the U.S.-Iran war began in late February, inflation has risen sharply after a brief dip thanks to an energy price cap that was revised upward in July. risks to energy prices, and so to inflation, are to the upside.\" Markets are currently pricing in around an 80% chance of a rate hike at the Bank of England's final meeting of the year.",
+      "feeds": [
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "id": "e11853ede7d332f1e4309d5f43e935110f5ca1730daeb253a1a5ea7d103003da",
+      "source": "CNBC",
+      "title": "'Who and what comes next': Analysts expect Nvidia investor uncertainty despite earnings beat",
+      "publishedAtSgt": "2026-11-18T14:21:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "equity strategist at Morgan Stanley, told CNBC TV that the results were \"somewhat expected,\" with no major drop-off in Nvidia's business anticipated in the near term and guidance remaining \"pretty constructive.\" Wilson said AI remained a \"desirable investment,\" with no slowdown in spending seen or expected from hyperscalers and some neoclouds — newer cloud providers built around AI computing. However, he added that investment may not continue at the pace investors expected six months ago.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "id": "4f5c94f8054488247cc27e729937c437f5a20d028364daa1a87e9645374f8243",
+      "source": "CNBC",
+      "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
+      "publishedAtSgt": "2026-11-18T11:15:00+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "She said leadership from Nvidia's most important supplier, Taiwan Semiconductor Manufacturing Company, visited company offices this week. \"Customers have expressed their support to the business outlook and helping us through that.\" While Huang was a singular figure in artificial intelligence with a commanding presence across the globe, Nvidia is still at the center of the AI ecosystem.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
       "id": "21121a776a178e23a17ae78d0faa36917765d9bf8afa9557ffa3a3dc20f6eb3c",
       "source": "CNBC",
       "title": "Japan exports in October surge 20.5%, beating estimates on robust chip shipments",
@@ -117,6 +308,6 @@
       "collectedAtSgt": "2026-11-18T00:55:29+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-11-18T09:38:17+08:00"
+  "articleCount": 19,
+  "updatedAtSgt": "2026-11-18T21:08:10+08:00"
 }
