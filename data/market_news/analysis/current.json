@@ -1,10 +1,101 @@
 {
-  "generatedAtSgt": "2026-11-18T01:12:04.145888+08:00",
+  "generatedAtSgt": "2026-11-18T09:54:14.479533+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 185,
+  "articleCount": 201,
   "analyses": [
+    {
+      "articleId": "21121a776a178e23a17ae78d0faa36917765d9bf8afa9557ffa3a3dc20f6eb3c",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Japan's October exports surged 20.5% year-on-year, beating Reuters estimates of 20% and accelerating from September's revised 16.5%, driven by a 49.7% jump in semiconductor equipment shipments. However, a surge in petroleum import values due to the Iran war partially offset the positive economic impact of export growth.",
+      "assetClasses": [
+        "Equities",
+        "Currencies",
+        "Commodities"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors",
+        "Energy"
+      ],
+      "investorImpact": "Strong export data and surging semiconductor equipment shipments are positive for Japanese equities and the technology sector, though rising petroleum import costs due to geopolitical tensions present a mixed picture for the broader economy and trade balance.",
+      "reasoning": "The article is categorized as ECONOMIC due to national trade data releases. Sentiment is MIXED because robust semiconductor-driven export growth is counterbalanced by higher petroleum import costs caused by geopolitical conflict. It is relevant for fund monitoring as it impacts Japanese macroeconomic health and sector-specific outlooks.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Japan exports in October surge 20.5%, beating estimates on robust chip shipments",
+      "publishedAtSgt": "2026-11-18T08:35:31+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-18T09:38:17+08:00"
+    },
+    {
+      "articleId": "a4ba2e18ba4052fb820696faeabd95f4e61db97868b28dc29b6cd91a7db5fe41",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Widespread technological disruptions and system outages have impacted major institutions including banks, air travel, the NSA, and Apple, highlighting the fragility and deep integration of critical IT infrastructure.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials",
+        "Industrials"
+      ],
+      "investorImpact": "Systemic technology outages affecting major financial institutions, transport networks, and tech giants can introduce near-term operational risks, potential regulatory scrutiny, and sentiment pressure on affected equities.",
+      "reasoning": "Classified as TECHNOLOGY due to widespread system failures impacting multiple critical sectors. Sentiment is negative given the disruption to banks, aviation, and tech providers, making it important for fund monitoring regarding operational risk.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
+      "publishedAtSgt": "2026-11-18T06:03:57+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T09:38:17+08:00"
+    },
+    {
+      "articleId": "f478c5bb6212971b26815e72418ed6aa33e1e747b3136682a8d28175e30d3556",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Investors are shifting exposure away from technology stocks that dominated the multi-year AI boom and rotating into stable defensive stocks like healthcare companies, such as Johnson & Johnson, seeking lower volatility.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Healthcare"
+      ],
+      "investorImpact": "Investors should monitor potential sector rotation out of tech and into defensive assets, adjusting portfolio risk and sector allocations accordingly.",
+      "reasoning": "Classified as MARKET because it discusses a generational rotation from tech to defensive equities. It is important for monitoring capital flows and sector rebalancing.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "A generational flight from tech to defensive stocks is underway. How we’re capitalizing",
+      "publishedAtSgt": "2026-11-18T04:31:27+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/17/a-generational-flight-from-tech-to-defensive-stocks-is-underway-how-were-capitalizing.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T09:38:17+08:00"
+    },
     {
       "articleId": "a9180e742d694495026e0244dd65888d6ef282f9ce420aa412f95b56837f1f9e",
       "relevant": true,
@@ -66,6 +157,395 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-11-18T00:55:26+08:00"
+    },
+    {
+      "articleId": "af6ce8d40f270de0fc7fd9bea7dc2bb4f9b194a3688d3bde8d44c4e0a82718fe",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "President Donald Trump has arrived in Asia for a diplomatic trip and addressed various topics including Iran and a past report regarding Deutsche Bank leaking tax details during his first term.",
+      "assetClasses": [
+        "Equities",
+        "Currencies"
+      ],
+      "geographies": [
+        "Asia",
+        "United States",
+        "Iran"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Presidential foreign trips and commentary on geopolitical tensions like Iran can introduce short-term volatility in regional equities and currency markets, though specific policy impacts remain to be seen.",
+      "reasoning": "Classified as Geopolitical due to Trump's diplomatic trip to Asia and statements on Iran. Important for monitoring international relations and political risks affecting global markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump has arrived in Asia. Here’s what he said about Iran and Deutsche Bank",
+      "publishedAtSgt": "2026-11-18T00:39:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:34+08:00"
+    },
+    {
+      "articleId": "de06e58451d41d1bdf4629af357ab689ce3eccf622c201af2397d0230741e729",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Chase Home Lending CEO plans to go on offense against non-bank lenders while the average 30-year fixed mortgage rate rose 33 basis points to 7.5% following a hotter-than-expected inflation report and Iran war headlines.",
+      "assetClasses": [
+        "Real Estate",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Real Estate"
+      ],
+      "investorImpact": "Higher mortgage rates driven by inflation and geopolitical tensions impact borrowing costs, real estate market activity, and competition between traditional banks and non-bank lenders.",
+      "reasoning": "The article discusses significant macroeconomic pressures affecting mortgage rates and lending competition, making it relevant for real estate and financial sector market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Property Play: Chase Home Lending CEO says he plans to 'go on offense' against non-bank lenders",
+      "publishedAtSgt": "2026-11-18T00:38:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/chase-home-lending-ceo-says-hes-going-on-offense.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:29+08:00"
+    },
+    {
+      "articleId": "2b55c9306b7bf632121a98bd4de935d4b7f53b7cdfe9187849fb4c03091a2ed2",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Treasury yields moderated following the release of retail sales data and commentary from Federal Reserve officials, with the 10-year yield hovering near 5.129%.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "Investors monitoring fixed income and macroeconomic trends should take note of shifting Treasury yields as retail sales data and Fed commentary drive market sentiment.",
+      "reasoning": "The article discusses key macroeconomic indicators including Treasury yields, retail sales data, and Federal Reserve commentary, making it directly relevant for economic and fixed income monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury yields moderate as investors parse retail sales data",
+      "publishedAtSgt": "2026-11-17T23:35:58+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/treasury-yields-bonds-inflation.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-18T00:55:57+08:00"
+    },
+    {
+      "articleId": "7467aca34374839beb78ac371fc8f9461a7506b75c7f38cf9e3e4606b96f7f77",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Home Depot named Richard McPhail as its new CEO and beat earnings expectations while reporting strong online comparable sales growth of around 13%. However, shares of the company sank more than 3% following the announcement and quarterly results.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Retail",
+        "Home Improvement"
+      ],
+      "investorImpact": "Investors must weigh the positive earnings beat and leadership transition against the immediate drop in share price, indicating short-term market volatility despite solid operational metrics like online sales growth.",
+      "reasoning": "The article details corporate leadership changes and quarterly financial results for a major retail stock, which directly impacts market sentiment and sector performance.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
+      "publishedAtSgt": "2026-11-17T23:27:51+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:49+08:00"
+    },
+    {
+      "articleId": "22024f66d851078b8dde01418494dbd1d03e333b6804b53910881d271fa08f03",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Renowned investor Steve Eisman stated that AI neocloud stocks are in significant trouble and face severe fallout as Nvidia's virtual vertical holding company structure unwinds.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Cloud Computing"
+      ],
+      "investorImpact": "Investors holding AI neocloud stocks or leveraged data center operators face heightened risk of severe downside and potential capital loss due to structural unwinding and funding pressures.",
+      "reasoning": "The article details a major market warning from a prominent investor regarding specific sub-sectors within AI infrastructure, making it highly relevant for equity portfolios exposed to technology and cloud computing.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Investor Steve Eisman says the AI neocloud stocks are in 'big trouble' from Nvidia fallout",
+      "publishedAtSgt": "2026-11-17T23:22:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/big-short-investor-steve-eisman-to-discuss-nvidia-anthropic-and-ai-bull-on-cnbc.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:51+08:00"
+    },
+    {
+      "articleId": "01aca6fb67f67bdfe189c0b6fd1557dd844322244cb896c8aaf37ee3351db93b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "A hedge fund CEO shares insights and a golden rule regarding when investors should consider selling a stock.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [],
+      "sectors": [],
+      "investorImpact": "Provides general educational guidance on portfolio management and exit strategies rather than actionable market-moving intelligence.",
+      "reasoning": "Classified as MARKET due to its focus on stock selling strategies, but given a LOW importance and false fund monitoring relevance as it is purely educational and contains no specific market data or events.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "7 smart reasons to sell a stock—and my ‘golden rule’ for offloading shares, says hedge fund CEO",
+      "publishedAtSgt": "2026-11-17T23:05:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/when-to-sell-a-stock.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:52+08:00"
+    },
+    {
+      "articleId": "47f9454c9fb40d3dbac946e2a98033c4029aeb2f09c75719c5e2ef87c01d2c56",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Sources report that Anthropic is likely to price its IPO above its current $70 to $78 range, driven by explosive growth in 2026 led by its Claude Code tool, despite facing public market skepticism toward the AI trade and growing antipathy toward AI in the U.S.",
+      "assetClasses": [
+        "Equities",
+        "IPO"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The potential upside pricing for Anthropic's IPO indicates robust institutional or retail demand despite broader market skepticism toward AI, serving as a key sentiment barometer for upcoming tech listings and AI sector valuations.",
+      "reasoning": "The article is classified as MARKET because it directly concerns initial public offering pricing dynamics for a major AI company. Sentiment is MIXED as strong demand allows for higher pricing despite underlying market skepticism and social pushback against AI. It is highly important for tracking tech sector valuations and primary market activity.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+      "publishedAtSgt": "2026-11-17T22:34:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:49+08:00"
+    },
+    {
+      "articleId": "8444fa80ea478edc7097b15db5ec4c5855de279ac87c093f11762e60291f6b7a",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Nike reaffirmed its 2027 financial guidance ahead of its first investor day in nine years and outlined a long-term financial framework targeting approximately $5 billion in incremental revenue growth from fiscal 2027 by fiscal 2031, alongside operating margins of 12% to 14% and adjusted EPS of $3.00 to $3.50.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Apparel & Footwear"
+      ],
+      "investorImpact": "Provides long-term visibility into Nike's financial trajectory, targets, and strategic positioning, allowing equity investors to better assess valuation and growth expectations.",
+      "reasoning": "Classified as MARKET because it details corporate financial guidance, long-term revenue targets, and margin expectations shared by a major global brand during an investor day. It is relevant for fund monitoring as it impacts consumer discretionary sector evaluations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nike lays out financial goals ahead of first investor day in 9 years",
+      "publishedAtSgt": "2026-11-17T22:26:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:50+08:00"
+    },
+    {
+      "articleId": "42d8ef5614785f009809ee84e8958015ef383aa912beede4c2110c3fd82be467",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Deutsche Bank shares fell sharply by 4.7% following a whistleblower leak of approximately 15 million files detailing alleged historic failures in risk management and financial crime controls, including suspicious payments linked to Jeffrey Epstein.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Germany",
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Investors holding Deutsche Bank shares or exposed to European financial institutions face immediate downward price pressure and heightened regulatory scrutiny risks due to compliance failures.",
+      "reasoning": "The article details a major corporate governance and compliance scandal directly impacting a systemically important global bank's stock price, making it highly relevant for market and risk monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Deutsche Bank shares sink as whistleblowers reveal Epstein payments, Trump tax leak, Russia bets",
+      "publishedAtSgt": "2026-11-17T22:24:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/deutsche-bank-leak-epstein-trump.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-11-18T00:55:54+08:00"
+    },
+    {
+      "articleId": "b0fce0cecc19d809e892e0b1e46aee1da68243ab7770d0ec97c01c56629b7c0d",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Isomorphic Labs, an AI drug discovery startup founded by former Google DeepMind chief Demis Hassabis, has raised a $5 billion Series C funding round.",
+      "assetClasses": [
+        "Private Equity",
+        "Venture Capital"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Healthcare",
+        "Biotechnology"
+      ],
+      "investorImpact": "Highlights strong private market appetite and investor confidence in artificial intelligence applications within healthcare and drug discovery.",
+      "reasoning": "The massive $5 billion funding round for a prominent AI drug discovery startup led by a major industry figure represents a significant market and technology event with broad implications for the biotech and venture capital sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Demis Hassabis’ AI company raises $5 billion, months after he left as Google DeepMind CEO",
+      "publishedAtSgt": "2026-11-17T21:58:07+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 95,
+      "collectorRelevanceReason": "business_market_event",
+      "collectedAtSgt": "2026-11-18T00:55:54+08:00"
+    },
+    {
+      "articleId": "4b18f6868af981c82db52f6ab1a07b0f3b731697bb3f38d15218ef611914f5d6",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "St. Louis Federal Reserve President Alberto Musalem stated that the central bank may need four more interest rate hikes in the coming months to help achieve the 2% inflation target by spring 2027.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Currencies"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Expect higher borrowing costs, potential downward pressure on equities due to hawkish monetary policy expectations, and upward pressure on yields.",
+      "reasoning": "The article discusses potential future interest rate hikes by a Federal Reserve official, which directly impacts monetary policy expectations, asset valuations, and market sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+      "publishedAtSgt": "2026-11-17T21:40:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:51+08:00"
+    },
+    {
+      "articleId": "37e9024d486170af52148363f4ca510bf369da162cd1d23db9db527e4e36198f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Anthropic is preparing for its public market debut at a reported valuation of $1.4 trillion, a milestone that could heavily influence the private market AI boom. The IPO comes amid valuation concerns, public opposition to data centers shown in midterm elections, and leadership scandals at Nvidia, compounding risks in the AI sector.",
+      "assetClasses": [
+        "Equities",
+        "Venture Capital"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The IPO serves as a crucial bellwether for AI valuations, venture capital liquidity, and broader technology sector sentiment amidst mounting regulatory, political, and corporate governance risks.",
+      "reasoning": "Classified as MARKET due to its focus on a major upcoming IPO and its systemic implications for AI sector financing and valuations. Sentiment is MIXED given the massive scale of the debut offset by rising regulatory, political, and governance hurdles. Significance is HIGH because it tests the ongoing AI market boom.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic IPO: For hundreds of billions of dollars flowing into AI startups, a big debut is a must",
+      "publishedAtSgt": "2026-11-17T21:35:18+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-ai-venture-capital.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:55+08:00"
+    },
+    {
+      "articleId": "61d3edaf29fa0f3f4e824d4255e1474091b1679b676756a54a71ef6f3e70b854",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Data center policy has become a major battleground in Europe, with investors like Amazon, Microsoft, and Blackstone-backed QTS facing uncertainty as regulatory and policy shifts threaten billions of dollars in potential investments.",
+      "assetClasses": [
+        "REAL ESTATE",
+        "EQUITY",
+        "INFRASTRUCTURE"
+      ],
+      "geographies": [
+        "EUROPE",
+        "SPAIN",
+        "VIRGINIA"
+      ],
+      "sectors": [
+        "TECHNOLOGY",
+        "DATA CENTERS",
+        "REAL ESTATE"
+      ],
+      "investorImpact": "Regulatory shifts and policy uncertainty could delay or reduce billions of dollars in capital expenditure for tech and infrastructure investors in key European data center markets.",
+      "reasoning": "The article is classified as TECHNOLOGY due to its focus on data center infrastructure and major tech investors, and sentiment is negative because policy changes threaten investments.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Data center policy dominated the midterms. The 'Virginia of Europe' is the latest battleground",
+      "publishedAtSgt": "2026-11-17T21:28:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/spain-data-center-decree-election.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-18T00:55:56+08:00"
     },
     {
       "articleId": "a4b1a8b4e487a241f6717a2cc5a2baf08d4f5ab42b0912c5e4ff4f52f9dc9569",
