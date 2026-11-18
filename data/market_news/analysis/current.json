@@ -1,10 +1,375 @@
 {
-  "generatedAtSgt": "2026-11-18T09:54:14.479533+08:00",
+  "generatedAtSgt": "2026-11-18T21:26:22.480775+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 201,
+  "articleCount": 223,
   "analyses": [
+    {
+      "articleId": "d2ae9c66625ab06e9dc6e50c889606c506a078aa8f16c40dc9295573bd8e28a3",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Federal Reserve Governor Christopher Waller stated that the central bank may need to implement a larger half-point rate hike to combat persistent inflation.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Potential half-point rate hikes signal a more aggressive monetary policy tightening stance than previously priced in, which could weigh on equity valuations and drive up bond yields.",
+      "reasoning": "Classified as ECONOMIC because it deals directly with central bank monetary policy and inflation data. The sentiment is negative due to the prospect of a more aggressive rate hike.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+      "publishedAtSgt": "2026-11-18T20:58:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T21:08:09+08:00"
+    },
+    {
+      "articleId": "3d674870596a7d8eeba20c9c5302d54a5fe8b18b85f85014d5196b779e1568a5",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Mortgage demand decreased as 30-year fixed mortgage rates rose to their highest level in three weeks, reaching 7.35%, driven by rising Treasury yields amid accelerating October inflation and potential Federal Reserve rate hikes.",
+      "assetClasses": [
+        "Fixed Income",
+        "Real Estate"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Financials"
+      ],
+      "investorImpact": "Higher mortgage rates and falling demand negatively impact residential real estate activity, mortgage lenders, and related consumer sectors due to reduced borrowing capacity.",
+      "reasoning": "Classified as MARKET due to direct reporting on interest rate movements and mortgage demand shifts driven by macroeconomic data and Fed policy expectations. Important for monitoring real estate and fixed income exposure.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks.",
+      "publishedAtSgt": "2026-11-18T20:34:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/mortgage-demand-turns-lower-as-interest-rates-shoot-back-up-to-the-highest-level-in-three-weeks.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "articleId": "0b1fb18abb6348021c96aefe95d09946041e3e416fb9cfd3f6d6b5608bf8e06d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Target reported its best sales growth in over five years, beating Wall Street revenue expectations and increasing comparable traffic by 5%. Driven by these positive results, the company raised its full-year net sales growth guidance to around 6%.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Retail"
+      ],
+      "investorImpact": "The strong sales performance and raised guidance indicate successful turnaround efforts, which can boost investor confidence in Target and potentially signal positive trends for the broader retail sector.",
+      "reasoning": "Classified as MARKET because it details earnings results and sales guidance upgrades for a major publicly traded retail company, which directly impacts equity markets and sector sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Target posts best sales growth in five years, raises guidance",
+      "publishedAtSgt": "2026-11-18T20:17:33+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T21:08:09+08:00"
+    },
+    {
+      "articleId": "1cf9d9c2fe90a7072c4bd84e29a3494b0fce5c41ba82fba7b66829190a0adac8",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The IEA chief has stated there is no credible pathway back to pre-war normality in the Strait of Hormuz after shipping flows were blocked, crushing confidence in the corridor for energy and other goods.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "Global"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil & Gas",
+        "Transportation"
+      ],
+      "investorImpact": "Ongoing supply chain and shipping disruptions through the Strait of Hormuz pose persistent upside risks to global energy prices and volatility in energy-related sectors.",
+      "reasoning": "Classified as GEOPOLITICAL and HIGH importance due to its direct implications for global energy security, oil and gas flows, and commodity market pricing following disruptions in the Strait of Hormuz.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "IEA chief sees no 'credible pathway' back to pre-war normality in the Strait of Hormuz",
+      "publishedAtSgt": "2026-11-18T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 72,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "articleId": "d17adc7cf416659463d10be8ecece0e274999773b46a43ce627937577da6ab0d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Lowe's reported strong online sales and raised its outlook despite a sluggish housing market, achieving its sixth straight quarter of comparable sales growth alongside a pre-tax benefit from tariff refunds.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Retail"
+      ],
+      "investorImpact": "Investors can view Lowe's ability to raise its outlook and grow comparable sales amidst a sluggish housing market as a positive indicator of resilient consumer discretionary demand and effective corporate execution, further supported by tariff refunds.",
+      "reasoning": "The article details quarterly earnings, sales growth, and outlook updates for a major retail corporation, making it highly relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Lowe's posts strong online sales, raises outlook despite slow housing market",
+      "publishedAtSgt": "2026-11-18T19:47:59+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T21:08:09+08:00"
+    },
+    {
+      "articleId": "f26d036c58b54aa81b740b0d6ad783cd6c475d27b33c54cc0568357070c0ca91",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Nvidia stock rose nearly 4% in premarket trading after reporting another earnings beat, despite ongoing fallout from CEO Jensen Huang's resignation and excluding Data Center compute revenue from China in its outlook.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors should note Nvidia's strong earnings beat and market rally despite executive leadership changes and geopolitical supply/revenue exclusions concerning China, highlighting robust underlying chip demand.",
+      "reasoning": "The article is classified under MARKET with a MIXED sentiment due to positive financial earnings and stock price rally being offset by CEO resignation concerns and China revenue exclusions. It is of HIGH importance for technology sector and equity fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia earnings spark rally in shares and neoclouds despite Huang scandal",
+      "publishedAtSgt": "2026-11-18T18:58:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "articleId": "114a7e1ec7e82f9b79cef29379c9fbb3742114949c01c75862f4c668f704aca2",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "A congressional commission report reveals that China's People's Liberation Army is actively seeking advanced Nvidia semiconductor chips for AI-enabled military capabilities, highlighting ongoing struggles to bypass U.S. export controls.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors",
+        "Defense"
+      ],
+      "investorImpact": "Heightens regulatory scrutiny and geopolitical risk around semiconductor exports, potentially leading to tighter U.S. export controls impacting major chipmakers like Nvidia.",
+      "reasoning": "Classified as GEOPOLITICAL due to national security implications regarding military tech acquisition and export controls, which carries high significance for technology sector regulation and trade relations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China’s military seeks Nvidia’s advanced chips for AI capabilities, commission says",
+      "publishedAtSgt": "2026-11-18T18:45:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 82,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "articleId": "6ea2dcc2c492c17ec86501019b4a31ce87e09d4b64c883d18dc103c2277f5b73",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Treasury yields held steady with the 10-year yield at 5.092% and the 30-year yield at 5.443% as investors awaited the release of Federal Reserve minutes. Stronger-than-expected retail sales raised the prospect of potential further interest rate hikes.",
+      "assetClasses": [
+        "Fixed Income",
+        "Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "Steady Treasury yields amid expectations of Fed minutes and strong retail sales highlight ongoing concerns regarding interest rate trajectories, impacting fixed income valuations and borrowing costs.",
+      "reasoning": "The article discusses key macroeconomic movements in US Treasury yields driven by Fed policy outlooks and retail sales data, making it relevant for market and fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Treasury yields hold steady as investors look ahead to Fed minutes",
+      "publishedAtSgt": "2026-11-18T17:32:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "articleId": "a883b9181c29a0a58259870d01c10a551453e20d8b0cc6415376cd2ba65b288c",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "New U.S. rules put the pipeline of Chinese demand supporting Southeast Asia's data center boom at risk, potentially impacting growth forecasts such as Malaysia's GDP growth through 2028.",
+      "assetClasses": [
+        "Equities",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "Southeast Asia",
+        "Malaysia",
+        "United States",
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Data Centers",
+        "Semiconductors"
+      ],
+      "investorImpact": "New U.S. export rules threaten the growth pipeline of Southeast Asia's data center boom by restricting Chinese demand, potentially reducing regional GDP growth and creating headwinds for tech and infrastructure investments.",
+      "reasoning": "The article is classified under TECHNOLOGY and GEOPOLITICAL impacts, specifically focusing on how U.S. export rules affect regional infrastructure and economic growth tied to data centers and AI demand. It is significant for monitoring regional tech investments.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+      "publishedAtSgt": "2026-11-18T16:09:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "articleId": "bb9d911c3aa35d4f3d32cd95f5944e60e4c986388396e8e11614abd5a9b910e2",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Record diesel prices drive UK inflation to a one-year high of 3.6%, fueled by external energy shocks from Strait of Hormuz trade disruptions following the U.S.-Iran war. Markets are pricing in an 80% chance of a rate hike by the Bank of England.",
+      "assetClasses": [
+        "Fixed Income",
+        "Currencies",
+        "Commodities"
+      ],
+      "geographies": [
+        "United Kingdom"
+      ],
+      "sectors": [
+        "Energy",
+        "Transportation"
+      ],
+      "investorImpact": "Rising inflation driven by energy shocks increases the likelihood of interest rate hikes by the Bank of England, negatively impacting fixed income and putting upward pressure on currency while raising operational costs for energy-sensitive sectors.",
+      "reasoning": "The article is classified under ECONOMIC due to its focus on UK inflation rates and central bank policy expectations. It is HIGH importance because rising inflation and potential rate hikes directly affect macroeconomic indicators and asset valuations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
+      "publishedAtSgt": "2026-11-18T15:57:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "articleId": "e11853ede7d332f1e4309d5f43e935110f5ca1730daeb253a1a5ea7d103003da",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Morgan Stanley equity strategist told CNBC that Nvidia's earnings results were expected with constructive guidance, and AI remains a desirable investment with steady spending from hyperscalers. However, analysts note investor uncertainty regarding future pacing compared to expectations from six months ago.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors face ongoing uncertainty regarding the pace of future AI investments despite solid earnings, which could introduce volatility into tech-heavy equity portfolios.",
+      "reasoning": "Classified as MARKET due to its focus on equity strategist commentary surrounding Nvidia earnings and investor sentiment. Sentiment is MIXED because strong near-term results and steady AI spending are tempered by concerns over the future pace of investment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "'Who and what comes next': Analysts expect Nvidia investor uncertainty despite earnings beat",
+      "publishedAtSgt": "2026-11-18T14:21:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
+    {
+      "articleId": "4f5c94f8054488247cc27e729937c437f5a20d028364daa1a87e9645374f8243",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Colette Kress demonstrated that Nvidia remains central to the AI ecosystem even in the absence of Jensen Huang, highlighting visits from its key supplier Taiwan Semiconductor Manufacturing Company and strong customer support for its business outlook.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "Taiwan",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Reassures investors about Nvidia's operational stability, leadership depth, and robust supply chain and customer relationships in the AI sector.",
+      "reasoning": "Classified as MARKET because it addresses company valuation, market positioning, and leadership continuity for a major tech stock, which is significant for fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
+      "publishedAtSgt": "2026-11-18T11:15:00+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
+    },
     {
       "articleId": "21121a776a178e23a17ae78d0faa36917765d9bf8afa9557ffa3a3dc20f6eb3c",
       "relevant": true,
@@ -546,6 +911,304 @@
       "collectorRelevanceScore": 81,
       "collectorRelevanceReason": "technology_business_or_infrastructure",
       "collectedAtSgt": "2026-11-18T00:55:56+08:00"
+    },
+    {
+      "articleId": "36a0eaef6aec11580ce6bc908544d3363f79e187508ca7a572e6379971897aeb",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia lost $2 trillion in market value following the forced exit of CEO Jensen Huang, causing massive volatility. Options traders are currently pricing in a 7% earnings move, the highest implied move since early 2025.",
+      "assetClasses": [
+        "Equities",
+        "Options"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The massive destruction of market value and elevated options volatility signal heightened risk in major AI-related equities, impacting broader market sentiment and tech sector allocations.",
+      "reasoning": "The article details significant market movement and valuation loss for a major benchmark stock, which directly impacts market-wide sentiment, technology sector performance, and derivatives pricing.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia has lost $2 trillion in value. Here's what options traders expect from earnings",
+      "publishedAtSgt": "2026-11-17T21:16:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-has-lost-2-trillion-in-value-heres-what-options-traders-expect-from-earnings.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:55+08:00"
+    },
+    {
+      "articleId": "91d2278c7ab008b342dacba526357d44a98fcb44e927a68efc3f50e7f1d3c676",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Investors are looking to upcoming catalysts including Nvidia's earnings and Anthropic's IPO to potentially revive the tech sector rally following a recent sell-down in AI-reliant growth stocks and a range-bound S&P 500.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "The upcoming earnings from Nvidia and the Anthropic IPO act as major market catalysts that could dictate near-term sentiment for growth stocks and the broader tech sector, impacting portfolio allocations in AI-related assets.",
+      "reasoning": "Classified as MARKET because it discusses broad market sentiment, tech sector performance, and upcoming catalysts like Nvidia's earnings and Anthropic's IPO that influence equity markets. Sentiment is MIXED as it addresses a messy sell-down in AI stocks alongside potential catalysts for a recovery.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Investors look to Nvidia's earnings and Anthropic's IPO to refresh the tech rally",
+      "publishedAtSgt": "2026-11-17T21:11:40+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-earnings-anthropic-ipo-tech-rally.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:53+08:00"
+    },
+    {
+      "articleId": "4ca892f91652e2a3c73a133d70799e592150e19b3e55851a7b8660b4bf5f95b7",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Oil tankers were struck by mines and projectiles in the Strait of Hormuz amid escalating threats from Iran and the arrival of a third U.S. carrier in the Middle East, while Brent crude futures dropped 0.7% to $91.8 a barrel.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Middle East",
+        "Iran",
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas",
+        "Transportation"
+      ],
+      "investorImpact": "Heightened geopolitical tensions and attacks on tankers in the Strait of Hormuz pose significant supply disruption risks to global oil markets, potentially driving up energy costs and affecting inflation expectations.",
+      "reasoning": "Classified as Geopolitical due to military tensions and vessel attacks in a critical global oil chokepoint, carrying direct implications for energy commodities and macro risk sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Iran escalates threats as third U.S. carrier arrives in Middle East, tanker struck in Hormuz",
+      "publishedAtSgt": "2026-11-17T19:22:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-18T00:55:55+08:00"
+    },
+    {
+      "articleId": "d51d6d145396832abe216582b74157cfc10c3ad997ab689c714bedc2272b1e2e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia's financial chief faces an earnings test after recent stock declines dragged Wall Street lower. Meanwhile, an AI-themed hedge fund reloaded on AI stocks despite near-collapse warnings, and Deutsche Bank shares dropped sharply following leaked documents regarding Donald Trump's tax statements.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States",
+        "Germany"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors face heightened volatility in major technology and banking equities, particularly surrounding Nvidia's earnings test and sentiment shifts in the AI trade, alongside regulatory and headline risks impacting Deutsche Bank.",
+      "reasoning": "The article discusses major market-moving events involving key technology and financial equities like Nvidia and Deutsche Bank, as well as broader sentiment around AI stocks, making it highly relevant for market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia's Kress faces earnings test after stock drags Wall Street into the red",
+      "publishedAtSgt": "2026-11-17T19:04:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/nvidias-kress-faces-earnings-test-after-stock-drags-wall-street-into-the-red.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-18T00:55:56+08:00"
+    },
+    {
+      "articleId": "bc82b7e4fbb3c90d72c2ba6cf0d5f00cc2199db990ef60f63c84c573407f8430",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia has warned chip buyers about legal risks related to Chinese AI access and potential U.S. legislation such as the Remote Access Security Act, following reports that Chinese lab Moonshot AI sought access to Nvidia chips via European data centers.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "China",
+        "Europe"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors in semiconductor and AI-related equities face heightened regulatory and compliance risks as the U.S. increases scrutiny on indirect access to advanced chips by Chinese entities.",
+      "reasoning": "The article highlights significant geopolitical and regulatory pressures impacting the dominant AI chip supplier and its customers, making it crucial for technology sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+      "publishedAtSgt": "2026-11-17T15:07:35+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-18T00:55:53+08:00"
+    },
+    {
+      "articleId": "ca92748e4dce72f904946337bfabbecaea0a8c55f4bcc16ad9b1eb7b2664f635",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "LOW",
+      "summary": "Jim Cramer highlights Costco's hefty special dividend as a signal of further gains and notes that reinvesting dividends historically enhances long-term returns significantly.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Retail"
+      ],
+      "investorImpact": "Provides positive commentary on Costco's equity performance and dividend strategy, supporting continued investor confidence in retail equities.",
+      "reasoning": "Classified as MARKET due to its focus on stock performance, dividends, and market commentary concerning Costco, though it represents general analyst opinion rather than systemic economic data.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Jim Cramer says Costco's hefty special dividend signals ‘more gains ahead’",
+      "publishedAtSgt": "2026-11-17T07:45:03+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/costco-special-dividend-jim-cramer.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-17T12:32:32+08:00"
+    },
+    {
+      "articleId": "b48574c3f4de076a6419b024b16a68bbf26569abd5f30c57dcb89da9b4bf854a",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Jim Cramer downplays concerns that Jensen Huang's resignation as CEO of Nvidia will derail the broader AI trade, noting that an upcoming Anthropic IPO could restore market confidence despite recent volatility in AI-related stocks.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors in AI-related stocks face short-term volatility following Nvidia's leadership change, but broader ecosystem momentum and upcoming IPOs like Anthropic may stabilize sentiment.",
+      "reasoning": "Classified as TECHNOLOGY due to its focus on Nvidia, AI stocks, and neocloud providers. Sentiment is MIXED as it addresses recent selling pressure and fears alongside Cramer's reassuring outlook and upcoming market catalysts.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
+      "publishedAtSgt": "2026-11-17T07:23:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
+    },
+    {
+      "articleId": "e81a77c181d1743bfbb4e8d1078aa7cdd0fbcbecca3d28547a198576cebdc633",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Leopold Aschenbrenner's AI-themed hedge fund Situational Awareness increased its AI stock holdings at the end of the third quarter following a near-collapse in July, right before a broader market rout in AI-tethered stocks due to concerns over development slowdowns.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors monitoring AI-related equities should note the volatility and risks associated with concentrated AI themes, especially as market sentiment shifts due to concerns over technological development slowdowns.",
+      "reasoning": "Classified as MARKET because it details hedge fund positioning and recent sector-wide stock movements in AI. It is important for monitoring market sentiment shifts and risks in technology equities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
+      "publishedAtSgt": "2026-11-17T07:05:12+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
+    },
+    {
+      "articleId": "6ee802f770598e29651b745cc640a0412dd1466f88ae50d329804146742f3925",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Berkshire Hathaway's third-quarter portfolio disclosures reveal that the conglomerate raised its stake in Delta Air Lines while trimming its holdings in Bank of America by nearly 6%, and noted broader macroeconomic movements such as the 30-year Treasury bond yield surging above 5.6%.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Industrials"
+      ],
+      "investorImpact": "Institutional portfolio adjustments by major players like Berkshire Hathaway offer valuable signals regarding sector rotation and risk sentiment, particularly amid shifting Treasury yields.",
+      "reasoning": "Classified as MARKET because it details institutional portfolio moves by Berkshire Hathaway and macroeconomic Treasury yield shifts. Sentiment is MIXED as it involves both buying and selling across different sectors. Important for tracking institutional sentiment and banking/airline exposures.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
+      "publishedAtSgt": "2026-11-17T07:01:19+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
+    },
+    {
+      "articleId": "8deee6ab811f69cdf136268ce80428377515b6f9d98221c40bdb578d3242c7a2",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "JPMorgan Chase experienced a temporary software bug in on-premise hardware systems causing transaction delays, particularly affecting Zelle payments with other financial institutions, though accounts and funds remain accessible.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "The technical issue highlights operational and technology risks in major banking institutions, potentially impacting short-term sentiment for JPMorgan Chase, though customer funds remain secure and accounts accessible.",
+      "reasoning": "Classified as MARKET due to direct impact on a major financial institution's consumer banking operations and payment networks, carrying negative sentiment regarding operational reliability but medium importance as the issue is temporary.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+      "publishedAtSgt": "2026-11-17T06:14:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
     },
     {
       "articleId": "a4b1a8b4e487a241f6717a2cc5a2baf08d4f5ab42b0912c5e4ff4f52f9dc9569",
