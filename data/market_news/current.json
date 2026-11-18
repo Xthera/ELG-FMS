@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-18T00:55:57+08:00",
+  "generatedAtSgt": "2026-11-18T09:38:17+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,55 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "21121a776a178e23a17ae78d0faa36917765d9bf8afa9557ffa3a3dc20f6eb3c",
+      "source": "CNBC",
+      "title": "Japan exports in October surge 20.5%, beating estimates on robust chip shipments",
+      "publishedAtSgt": "2026-11-18T08:35:31+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Exports growth beat expectations of economists polled by Reuters that had pegged it at 20%, and it was sharply higher compared to a revised 16.5% in September. Shipments of semiconductor equipment that have been propping up Tokyo's exports jumped 49.7% by value. Exports have been the main driver of Japan's growth, although a surge in the value of imports of petroleum due to the Iran war has offset some the impact of the exports surge on its economy.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-18T09:38:17+08:00"
+    },
+    {
+      "id": "a4ba2e18ba4052fb820696faeabd95f4e61db97868b28dc29b6cd91a7db5fe41",
+      "source": "CNBC",
+      "title": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
+      "publishedAtSgt": "2026-11-18T06:03:57+08:00",
+      "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"We've looked very closely.\" It's been a tough few days for the technology world after a series of widespread disruptions brought different parts of life to a halt. \"That's a stark reminder of how deeply embedded these services and technologies are in our day-to-day life.\" The disruptions have rattled consumers and led to a steady stream of memes on social media, as people look for a silver lining — or sinister plot — in the string of technology problems.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-18T09:38:17+08:00"
+    },
+    {
+      "id": "f478c5bb6212971b26815e72418ed6aa33e1e747b3136682a8d28175e30d3556",
+      "source": "CNBC",
+      "title": "A generational flight from tech to defensive stocks is underway. How we’re capitalizing",
+      "publishedAtSgt": "2026-11-18T04:31:27+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/17/a-generational-flight-from-tech-to-defensive-stocks-is-underway-how-were-capitalizing.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "After chasing tech stocks for most of the four-year-old AI boom, investors have recently sought to reduce their tech exposure and seek out stocks in companies that offer more stability and less volatility. Healthcare Johnson & Johnson — If there's one stock that perfectly illustrates the market's appetite for defensive stocks, Jim said it is J & J.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-18T09:38:17+08:00"
+    },
     {
       "id": "a9180e742d694495026e0244dd65888d6ef282f9ce420aa412f95b56837f1f9e",
       "source": "CNBC",
@@ -1559,56 +1608,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-11T19:55:32+08:00"
-    },
-    {
-      "id": "ed570049e35616bf809f8554fa2d6675dc7184730f1d977e453eace1ec2dad60",
-      "source": "CNBC",
-      "title": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
-      "publishedAtSgt": "2026-11-11T09:52:56+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Anthropic, the maker of AI chatbot Claude, opened its Australian retail initial public offering on Wednesday, giving individual investors access to shares ahead of the company's planned Nasdaq listing. where retail investors will be able to buy the company's shares directly, alongside Japan, Canada and parts of Europe.",
-      "feeds": [
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-11T09:58:01+08:00"
-    },
-    {
-      "id": "d3d01b2c7e6a9d4707a10ae054a0c98c033b4fa80d2140625aba7678e660d7d4",
-      "source": "CNBC",
-      "title": "Jim Cramer says Anthropic's explosive growth could justify a record-breaking IPO",
-      "publishedAtSgt": "2026-11-11T07:46:35+08:00",
-      "url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Anthropic's stunning revenue growth helps justify its $1 trillion-plus valuation ahead of what could become the largest initial public offering in history, CNBC's Jim Cramer said Tuesday. The Claude developer filed updated IPO paperwork Tuesday outlining plans to offer 825 million shares at $70 to $78 apiece. Throw in a separate $26 billion private placement purchased by leading AI companies including Nvidia and Alphabet, and Anthropic's entire haul could exceed SpaceX's raise from its June IPO.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-11T09:58:01+08:00"
-    },
-    {
-      "id": "d98dfbf401fe451d77f3be25f7d6d3ddad9340614deae0779efb4b97051309f8",
-      "source": "CNBC",
-      "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
-      "publishedAtSgt": "2026-11-11T07:16:15+08:00",
-      "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that demand for artificial intelligence infrastructure remains strong despite concerns of a market slowdown. The earnings announcement lands at a particularly volatile moment for CoreWeave and its neocloud peers, as the market sours on the AI trade and as Nvidia CEO Jensen Huang, the central figure in the global buildout, faces a scandal tied to an affair with an alleged Chinese spy.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-11T09:58:01+08:00"
     }
   ]
 }
