@@ -5,6 +5,21 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "18c8ccea8736f5ef4bf145f5103cede579e66f9894604269301ed62f6afc6cfe",
+      "source": "CNBC",
+      "title": "Anthropic IPO, AI wealth spawn a new, leaner kind of family office",
+      "publishedAtSgt": "2026-11-19T22:57:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-wealth-spawn-a-new-leaner-kind-of-family-office.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A version of this article appeared in CNBC's Inside Wealth newsletter, a weekly guide to the high-net-worth investor and consumer. The Anthropic IPO is expected to mint hundreds of centimillionaires and spur the creation of new investment vehicles to manage these windfalls. Altss' CEO Dawid Siekiera added that the firm expects the launch of a flurry of other personal investment companies, venture funds and investor partnerships.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-20T05:39:51+08:00"
+    },
+    {
       "id": "2d52cd1386723763581a7f19afcfa3cefb9f94f39ea391b881800dc0d871e1f4",
       "source": "CNBC",
       "title": "Anthropic IPO: Investors who flip the stock may face brokerage penalty",
@@ -319,6 +334,6 @@
       "collectedAtSgt": "2026-11-19T05:27:27+08:00"
     }
   ],
-  "articleCount": 20,
-  "updatedAtSgt": "2026-11-19T21:18:10+08:00"
+  "articleCount": 21,
+  "updatedAtSgt": "2026-11-20T05:39:51+08:00"
 }

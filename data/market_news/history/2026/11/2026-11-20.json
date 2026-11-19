@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-20",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "ab78c1ca78969ba5abcfa661bafe7ec7528d18dd68e56c78e12e889f9b41bc8f",
+      "source": "CNBC",
+      "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+      "publishedAtSgt": "2026-11-20T05:00:57+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Palo Alto Networks shares rose 6% on Thursday as businesses boosted spending on cybersecurity products and investors cheered the company's acquisition of a startup that pushes it into securing open-weight artificial intelligence models. Those fears have led more businesses to consolidate platforms, which is fueling growth in areas like firewall and AI security, Palo Alto Networks CEO Nikesh Arora told CNBC's \"Mad Money\" on Wednesday.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-20T05:39:47+08:00"
+    },
+    {
+      "id": "900ceab79cba98c5e1cb8bb8eb71e8936a19038f6cd2190e6263fd1f7c4d9b02",
+      "source": "CNBC",
+      "title": "Congress passes bill to protect older investors from financial fraud",
+      "publishedAtSgt": "2026-11-20T04:36:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/financial-exploitation-prevention-act-older-investors-fraud.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The bill would generally allow mutual fund companies and their transfer agents, which handle shareholder records and transactions, to temporarily delay paying out redemption requests when they suspect an older or otherwise vulnerable investor is being financially exploited. \"This legislation fills an important regulatory gap that can help protect vulnerable investors before assets are lost.\" The measure's congressional approval comes amid growing financial fraud among older Americans.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-20T05:39:46+08:00"
+    },
+    {
+      "id": "9b664f477623ee1fcded722f849e98d0150ea0e8c1d3295e1729c417bc4244ad",
+      "source": "CNBC",
+      "title": "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges",
+      "publishedAtSgt": "2026-11-20T04:33:05+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/acquisition-of-tribe-capital-flags-new-chapter-in-evolution-of-crypto-exchanges.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Payward, the owner of crypto exchange Kraken, is pushing into private markets with its latest acquisition, underscoring a broader shift in cryptocurrencies, from trading-led growth to the buildout of financial infrastructure. \"Joining Payward gives us the opportunity to bring Tribe's investment approach to a global financial platform,\" Jonathan Hsu, another co-founder of Tribe Capital, said in a statement.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-20T05:39:47+08:00"
+    },
+    {
+      "id": "846134e24452e18f77040b0a913006ffc0d0c7ba80d5f25053307e74f3fe6e6f",
+      "source": "CNBC",
+      "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+      "publishedAtSgt": "2026-11-20T03:43:08+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "President Donald Trump's investment accounts bought shares of Nvidia, Palantir and Elon Musk's SpaceX in September, around the time the companies secured major federal contracts and their executives met with the president, according to a newly released financial disclosure. The timing was particularly notable at Palantir, the artificial intelligence software maker whose technology is used by U.S.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-20T05:39:46+08:00"
+    },
+    {
+      "id": "c487be86047834c0555457b938482af2569df51673fc485c839162baa903966c",
+      "source": "CNBC",
+      "title": "Amid recent banking outages, should you start carrying cash again? Top advisors weigh in",
+      "publishedAtSgt": "2026-11-20T03:06:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/banking-outages-emergency-cash.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "currency in favor of credit, debit and digital payments. banks and the peer-to-peer payments network Zelle. As technology outages expose vulnerabilities across parts of the U.S.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-20T05:39:46+08:00"
+    },
+    {
+      "id": "4c58eef840be958354a719668d1648058d64801e019d22fb443576330d7603ff",
+      "source": "CNBC",
+      "title": "Gold's bad year is getting worse. Why its price keeps falling",
+      "publishedAtSgt": "2026-11-20T00:29:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Precious metals investors can be forgiven if they feel like the past year has given them whiplash. Which role it plays depends on the factors dominating the market and the psyche of investors, and right now, it's the currency argument that is bringing the precious metal down.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-20T05:39:47+08:00"
+    }
+  ],
+  "articleCount": 6,
+  "updatedAtSgt": "2026-11-20T05:39:47+08:00"
+}
