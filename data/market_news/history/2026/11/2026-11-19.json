@@ -5,6 +5,99 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "2d52cd1386723763581a7f19afcfa3cefb9f94f39ea391b881800dc0d871e1f4",
+      "source": "CNBC",
+      "title": "Anthropic IPO: Investors who flip the stock may face brokerage penalty",
+      "publishedAtSgt": "2026-11-19T21:05:40+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html",
+      "category": "MARKET",
+      "relevanceScore": 100,
+      "relevanceReason": "financial_market_legal_story",
+      "summary": "Anthropic said in an IPO prospectus that it expected to make shares available to retail investors through various brokerages, including Charles Schwab, Fidelity, Robinhood, SoFi, E*Trade and some of their respective affiliates. These broker-dealers have different \"anti-flipping\" policies meant to discourage investors who purchase IPO shares — including those of Anthropic — from dumping them quickly.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-19T21:18:10+08:00"
+    },
+    {
+      "id": "5e84084c113b2c81aa47ced58ebad572ceacddcef1235b33cae5b30b580b26d7",
+      "source": "CNBC",
+      "title": "Family offices move more money into stocks, hedge AI risk, according to CNBC Family Office Portfolio Tracker",
+      "publishedAtSgt": "2026-11-19T20:46:28+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/family-offices-moved-more-money-into-stocks-but-hedged-ai-risk.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Family offices continued to boost their stock holdings in the third quarter, although they hedged the artificial intelligence trade with a larger bet on financials, according to the CNBC Family Office Portfolio Tracker. The increased allocation to stocks, whether from passive market gains or active buying, shows that family offices aren't pulling back from the market despite growing fears of an AI bubble and weakness in tech stocks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-19T21:18:10+08:00"
+    },
+    {
+      "id": "0bdb467186da0a189988140e494845ba3a2953c8c07bf443831ab484db92cc6d",
+      "source": "CNBC",
+      "title": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
+      "publishedAtSgt": "2026-11-19T20:30:29+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-lifts-nasdaq-futures-and-tech-stocks-ahead-of-its-record-breaking-ipo.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "With around 980 million shares sold, it has raised $81.3 billion, surpassing SpaceX's record IPO back in June. - IPO and beyond: While many investors will want to buy during the IPO, retail investors will get access if they already hold certain mutual funds or ETFs. The highly anticipated offering could present another headwind for the group, by giving investors an attractive alternative to get exposure to the AI trade.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-19T21:18:10+08:00"
+    },
+    {
+      "id": "61a6b96a7100e892b9bf4305fdb5bff20ecd2cc9a03986dce5c75c650cef4824",
+      "source": "CNBC",
+      "title": "Anthropic IPO could create thousands of multimillionaire employees",
+      "publishedAtSgt": "2026-11-19T20:30:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-could-create-thousands-of-multimillionaire-employees.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "A version of this article appeared in CNBC's Inside Wealth newsletter, a weekly guide to the high-net-worth investor and consumer. The average Anthropic employee could be worth over $40 million after the company's IPO today, with over 400 employees likely to be worth over $100 million, according to SEC filings and investors. It will not only be the largest IPO in history by dollar amounts, but it is also shaping up to be one of the most rapid wealth creation events in history.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-19T21:18:10+08:00"
+    },
+    {
+      "id": "49cb0a42b7c4e4eb3a7ad58dd35e2f03ce2e833af8a416c45d0390223454ed10",
+      "source": "CNBC",
+      "title": "Data center electricity use could double by 2030, IEA says",
+      "publishedAtSgt": "2026-11-19T19:34:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The agency says power networks are \"one of the biggest energy investment stories of the next decade.\" The scenario projects that renewable power generation will grow 85% more in the next decade than in the previous one. The IEA said the 2026 energy crisis could accelerate electrification as countries seek to reduce their reliance on imported oil and gas.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T21:18:10+08:00"
+    },
+    {
+      "id": "7b1425c0684501b2b46aa30eba9be87425885fdab1934ff241dd4074bd9cffbf",
+      "source": "CNBC",
+      "title": "Novartis raises blockbuster drug forecasts to $18 billion as it seeks to prove growth can last",
+      "publishedAtSgt": "2026-11-19T17:57:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/novartis-stock-cmd-2026-ceo.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "Pharma major Novartis is becoming more optimistic about some of its biggest growth drugs, even as investors question the company's ability to sustain growth beyond 2031 and offset the financial impact of older drugs' patent expiries. Shares fell 2.4% in mid-morning trading in Switzerland. For investors, the question will be whether those drugs can grow fast enough to offset lost sales as other drugs face competition from cheaper rivals entering the market.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T21:18:10+08:00"
+    },
+    {
       "id": "ff298b405a602a058d74678d68ae0e577d9c9f25e0194168e7223ede548da7fb",
       "source": "CNBC",
       "title": "'Parasite' backer and other South Korean media, gaming and travel stocks rally on China trade deal",
@@ -226,6 +319,6 @@
       "collectedAtSgt": "2026-11-19T05:27:27+08:00"
     }
   ],
-  "articleCount": 14,
-  "updatedAtSgt": "2026-11-19T11:34:02+08:00"
+  "articleCount": 20,
+  "updatedAtSgt": "2026-11-19T21:18:10+08:00"
 }
