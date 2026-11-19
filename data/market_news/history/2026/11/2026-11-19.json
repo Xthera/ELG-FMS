@@ -5,6 +5,85 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "ff298b405a602a058d74678d68ae0e577d9c9f25e0194168e7223ede548da7fb",
+      "source": "CNBC",
+      "title": "'Parasite' backer and other South Korean media, gaming and travel stocks rally on China trade deal",
+      "publishedAtSgt": "2026-11-19T10:54:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/china-south-korea-trade-deal-films-gaming.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "South Korean entertainment, gaming and travel stocks surged Thursday as Seoul and Beijing largely concluded a trade deal, allowing Korean companies greater access to China's vast consumer market. South Korea's gaming stocks Krafton and Shift Up advanced 2.69% and 6.57%, respectively.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T11:34:01+08:00"
+    },
+    {
+      "id": "4597895641cffe4d9dcdfefd97d8b6a0273275f7cc650237df506e40ed02fbc7",
+      "source": "CNBC",
+      "title": "Palo Alto stock surges as all signs point to how important cybersecurity is in the AI age",
+      "publishedAtSgt": "2026-11-19T09:29:06+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/18/palo-alto-surges-as-all-signs-point-to-cybersecurity-need-in-the-ai-age.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "PANW YTD mountain Palo Alto Networks YTD Following the print, in after-hours trading, shares soared 9%, after a regular Wednesday session rally that saw the stock surge nearly 10%. See here for a full list of the stocks.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade. Jim waits 45 minutes after sending a trade alert before buying or selling a stock in his charitable trust's portfolio.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T11:34:02+08:00"
+    },
+    {
+      "id": "ed068a456aa323875d8dc016a1275dc2dfca111925cf6083578bd8b8e5793787",
+      "source": "CNBC",
+      "title": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+      "publishedAtSgt": "2026-11-19T08:07:06+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Palo Alto Networks shares jumped more than 7% after the cybersecurity firm beat Wall Street's fiscal first-quarter estimates and inked a deal for artificial intelligence startup Applied Compute. Fears of AI-powered cyberattacks, heightened by incidents like the Hugging Face breach, are driving demand for cybersecurity vendors like Palo Alto Networks. The startup helps businesses run and customize their own AI models and marks a major investment for Palo Alto beyond cybersecurity.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T11:34:01+08:00"
+    },
+    {
+      "id": "fed881d169742ef5e5207381d1ee7dbe695022f28a3cc432e8c8fe71ae5e3cca",
+      "source": "CNBC",
+      "title": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+      "publishedAtSgt": "2026-11-19T08:01:23+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "As global portfolio managers look to diversify into non-artificial intelligence trades, India, with its strong economic growth and improved corporate earnings, is emerging as a top pick. Foreign investors are returning to Indian equities in record numbers, but the country's accelerating inflation, which last month breached the central bank's comfort level for the first time in two years, could spoil the party.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-19T11:34:01+08:00"
+    },
+    {
+      "id": "a2fe064319058b9d01d7068f997a59524ff26dd8b98cbf6d33aa8500f90b2381",
+      "source": "CNBC",
+      "title": "Jim Cramer says Nvidia has a new problem — and it has nothing to do with earnings",
+      "publishedAtSgt": "2026-11-19T07:46:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-cramer-anthropic-ipo-ceo.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Complicating matters is Anthropic's blockbuster IPO, Cramer said, which is drawing investor enthusiasm further away from the chipmaker. The AI startup's explosive growth and highly anticipated market debut are giving investors another way to capitalize on the artificial intelligence boom, potentially reducing their appetite for Nvidia shares.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-19T11:34:01+08:00"
+    },
+    {
       "id": "ac424bb09c4b2764cdc01d9916c5ef4ef7fb3a589bcf6bef78292e6a185e73b1",
       "source": "CNBC",
       "title": "Anthropic prices IPO at $83 per share, above expected range, source tells CNBC",
@@ -147,6 +226,6 @@
       "collectedAtSgt": "2026-11-19T05:27:27+08:00"
     }
   ],
-  "articleCount": 9,
-  "updatedAtSgt": "2026-11-19T05:27:27+08:00"
+  "articleCount": 14,
+  "updatedAtSgt": "2026-11-19T11:34:02+08:00"
 }
