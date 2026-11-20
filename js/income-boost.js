@@ -18,6 +18,8 @@
    the "Fetch Income Boost Indices" workflow.
    ============================================================ */
 
+import { smoothSwap } from "./plan-swap.js";
+
 const DATA_URL = "data/income_boost_indices.json";
 const POLICY_MONTHS = 180;
 
@@ -1037,7 +1039,7 @@ export function initializeIncomeBoostPlan() {
     choice.addEventListener("click", event => {
         if (event.target.closest("[data-ib-plan]")) {
             if (!active) {
-                showIncomeBoost(true);
+                smoothSwap(qs(".calc-setup-card"), () => showIncomeBoost(true));
             }
             return;
         }
@@ -1045,7 +1047,7 @@ export function initializeIncomeBoostPlan() {
         const plan = event.target.closest("[data-calc-plan]");
 
         if (plan && active) {
-            showIncomeBoost(false);
+            smoothSwap(qs(".calc-setup-card"), () => showIncomeBoost(false));
             // plan-calculator.js ignores a click on the plan it already
             // has, so mark the chosen one here as well
             plan.classList.add("active");

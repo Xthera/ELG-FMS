@@ -32,6 +32,7 @@
 
 import { placeDropdown } from "./dropdown-place.js";
 import { createChart, destroyChart } from "./charts.js";
+import { smoothSwap } from "./plan-swap.js";
 
 const FUNDS_LIST_URL = "PVA PVW Funds List.xlsx";
 const PROMO_URL = "Promotion Reference for PVA PVW/promotion.json";
@@ -2417,9 +2418,11 @@ function bindEvents() {
 
         if (!option || option.dataset.calcPlan === calc.plan) return;
 
-        calc.plan = option.dataset.calcPlan;
-        renderPlanChoice();
-        render();
+        smoothSwap(qs(".calc-setup-card"), () => {
+            calc.plan = option.dataset.calcPlan;
+            renderPlanChoice();
+            render();
+        });
     });
 
     qs("#calc-term")?.addEventListener("change", () => {
