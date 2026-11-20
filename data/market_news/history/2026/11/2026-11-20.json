@@ -5,6 +5,87 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "1729535624ab7a3a3b2c577dd825b00103b08d2418343e1e9547ecdee4bb0e19",
+      "source": "CNBC",
+      "title": "Anthropic defies the odds, holding record IPO despite ‘massively disruptive’ market",
+      "publishedAtSgt": "2026-11-20T20:45:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Between Jensen Huang's shocking exit from chip giant Nvidia, voters rebuke of artificial intelligence in this month's midterm elections, and rising interest rates that threatened to stymie plans for a multitrillion-dollar infrastructure buildout, there seemed to be no way Anthropic could carry out an initial public offering.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
+    },
+    {
+      "id": "c3132180e56e178313d3c446af061d482b7db474dd92283ddf824c7bb09029e4",
+      "source": "CNBC",
+      "title": "Anthropic shares fall 8% in premarket amid AI selloff as Nvidia, AMD shares drop",
+      "publishedAtSgt": "2026-11-20T20:08:50+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic fell 8% on Friday morning after a historic Nasdaq debut, as AI fears continued to fuel a selloff, with Nvidia and AMD lower. Investors had hoped that Anthropic's debut would revitalize the AI trade, which has come under pressure in recent months amid fears over capex spending. The sector has also had to contend with the fallout from Jensen Huang resigning as Nvidia CEO, alongside concerns that AI chip sales to Asia could slump as Washington cracks down on an export-control loophole.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
+    },
+    {
+      "id": "fe1acb282f63208e16a4008f36f99159c2bcb1ae0619a2a72830af7bc49e33fc",
+      "source": "CNBC",
+      "title": "Forget Anthropic: In Europe, the IPO hype is about a blue lagoon",
+      "publishedAtSgt": "2026-11-20T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-iceland-blue-lagoon.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "While investors are fixated on Anthropic's blockbuster stock market debut, a very different IPO is making waves in Europe: Iceland's Blue Lagoon, the operator of one of the world's most famous geothermal spas. raised roughly 14.3 billion Icelandic kronur ($110 million) through the offering, valuing the Icelandic geothermal spa operator at about $787 million, according to the company's investor presentation.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
+    },
+    {
+      "id": "f08b664f31d31f70894871e091ca81e3d199f77eda084e8395a35733fc8e046a",
+      "source": "CNBC",
+      "title": "U.K.-India trade deal faces a stiff test over Scotch whisky import taxes",
+      "publishedAtSgt": "2026-11-20T13:09:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/uk-india-trade-scotch-whisky-tariffs.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "trade deal is facing an early test, as New Delhi resists extending preferential tariffs to bulk Scotch whisky imports. Duty on bulk Scotch whisky imports was expected to be slashed to 75% then gradually to 40% over 10 years as per the trade agreement. However, a Reuters report Thursday said that India now plans to levy a 162.5% duty on these imports, higher than the 150% in place before the trade deal.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
+    },
+    {
+      "id": "d9951f1a646c27f23d805805ace98e3f365658d818945d214d8b1ebc039a1fb4",
+      "source": "CNBC",
+      "title": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+      "publishedAtSgt": "2026-11-20T11:56:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The Senate on Thursday passed a long-sought bill to ease the nation's environmental permitting laws and overhaul electrical transmission regulations, a crucial step toward boosting construction for the energy and technology industries. The American Clean Power Association, a group that represents renewables, said it was \"a clean energy bill that will modernize America's energy systems and lower consumer prices.\" The American Petroleum Institute, which represents the oil and gas industry, called...",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
+    },
+    {
       "id": "4bae03e2ae02abb69294a14bc982ff91ab427563cd56316eed7460f9ec54e38d",
       "source": "CNBC",
       "title": "Anthropic IPO 'exactly what the markets need', but analysts warn of volatility",
@@ -228,6 +309,6 @@
       "collectedAtSgt": "2026-11-20T05:39:47+08:00"
     }
   ],
-  "articleCount": 14,
-  "updatedAtSgt": "2026-11-20T11:23:31+08:00"
+  "articleCount": 19,
+  "updatedAtSgt": "2026-11-20T20:59:24+08:00"
 }
