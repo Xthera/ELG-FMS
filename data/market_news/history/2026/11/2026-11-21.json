@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-21",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "757302a61645a564d2a8046405195f4fde6cffd1924259ff24e77fbae89dc385",
+      "source": "CNBC",
+      "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+      "publishedAtSgt": "2026-11-21T04:47:58+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "CNBC's All-America Economic Survey found that 64% of registered voters opposed an AI data center within 10 miles of their home, while just 13% of respondents said they would support one. International expansion represents a growth opportunity for the top cloud infrastructure providers, which want to serve clients from data centers that are nearby, sometimes to meet regulatory requirements.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:56+08:00"
+    },
+    {
+      "id": "ba8ed8c6cf76627c10ea0f6414f569db89d560fc53ce15f8738f6453202ef409",
+      "source": "CNBC",
+      "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+      "publishedAtSgt": "2026-11-21T03:59:03+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "As stocks continue their tech-driven sell-off, prediction markets traders are seeing a bleaker outlook for the remainder of the year. On Friday, the Nasdaq Composite turned negative for the year as investors continued to dump tech stocks, primarily those with exposure to the artificial intelligence build-out. The Stock Trader's Almanac in a Thursday note broadly agreed that the hopes for a December rally are fading, with the caveat that a \"Santa rally\" could still appear at the end of the year.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:58+08:00"
+    },
+    {
+      "id": "5c3b229b0c22c006d565144f5ba738b078a5ddcecccc32dfc3b758e32f865890",
+      "source": "CNBC",
+      "title": "Jensen Huang to testify publicly before Senate banking panel, Chairman Scott says",
+      "publishedAtSgt": "2026-11-21T03:42:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Former Nvidia CEO Jensen Huang will testify publicly when he appears before the Senate banking panel, a spokesperson for Committee Chair Tim Scott said Friday. The South Carolina Republican confirmed earlier this week that Huang had agreed to appear, but the details of that appearance remained unclear.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:56+08:00"
+    },
+    {
+      "id": "f659026394f75cb7197d3c27282cc57963415ea55b4f61f90ba5a169595fcd0e",
+      "source": "CNBC",
+      "title": "A massive bearish trade just happened in the chip stocks",
+      "publishedAtSgt": "2026-11-21T03:33:31+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "As the S&P 500 entered correction territory and the Nasdaq-100 flirted with bear-market territory, down 19% from highs as of midday Friday, the single biggest options trade of the day was a near $100-million bet that the VanEck Semiconductor ETF (SMH) has a long way more to fall. 17, 2027, according to trading data reviewed by SpotGamma and Volland, options-analytics platforms that both show the trade as a likely opening position, with volume exceeding existing open interest in the contract.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:56+08:00"
+    },
+    {
+      "id": "3debe15309a30f48dd00017e66b7b4e233b76f39f99b6ff3e6bb7c07f2bdb8b7",
+      "source": "CNBC",
+      "title": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks",
+      "publishedAtSgt": "2026-11-21T01:25:19+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-gold-market-hedge.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Coming into 2026, experts said that showing bitcoin could serve as a market hedge rather than a risk-on asset that moves up and down with growth stocks was an important test for the cryptocurrency. Investors are currently in sell everything mode, including tech stocks and gold — the Dow Jones Industrial Average and S&P 500 tumbled into correction territory on Friday, according to CNBC data.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:58+08:00"
+    },
+    {
+      "id": "8e3a0a349a2e81afec0398c7be20e4d14ad67f8523c66d896d63cea7f1ba3b6f",
+      "source": "CNBC",
+      "title": "Data center construction costs soar 13% in 2026",
+      "publishedAtSgt": "2026-11-21T00:52:08+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/data-center-construction-costs-soar-13-percent-in-2026.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Property Play covers new and evolving opportunities for the real estate investor, from individuals to venture capitalists, private equity funds, family offices, institutional investors and large public companies. While there was some stabilization in cost inflation this year, it was not enough to offset the huge growth in not just demand but speed of construction and delivery.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:56+08:00"
+    }
+  ],
+  "articleCount": 6,
+  "updatedAtSgt": "2026-11-21T05:10:58+08:00"
+}

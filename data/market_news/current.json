@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-20T20:59:24+08:00",
+  "generatedAtSgt": "2026-11-21T05:11:03+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,197 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "757302a61645a564d2a8046405195f4fde6cffd1924259ff24e77fbae89dc385",
+      "source": "CNBC",
+      "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+      "publishedAtSgt": "2026-11-21T04:47:58+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "CNBC's All-America Economic Survey found that 64% of registered voters opposed an AI data center within 10 miles of their home, while just 13% of respondents said they would support one. International expansion represents a growth opportunity for the top cloud infrastructure providers, which want to serve clients from data centers that are nearby, sometimes to meet regulatory requirements.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:56+08:00"
+    },
+    {
+      "id": "ba8ed8c6cf76627c10ea0f6414f569db89d560fc53ce15f8738f6453202ef409",
+      "source": "CNBC",
+      "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+      "publishedAtSgt": "2026-11-21T03:59:03+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "As stocks continue their tech-driven sell-off, prediction markets traders are seeing a bleaker outlook for the remainder of the year. On Friday, the Nasdaq Composite turned negative for the year as investors continued to dump tech stocks, primarily those with exposure to the artificial intelligence build-out. The Stock Trader's Almanac in a Thursday note broadly agreed that the hopes for a December rally are fading, with the caveat that a \"Santa rally\" could still appear at the end of the year.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:58+08:00"
+    },
+    {
+      "id": "5c3b229b0c22c006d565144f5ba738b078a5ddcecccc32dfc3b758e32f865890",
+      "source": "CNBC",
+      "title": "Jensen Huang to testify publicly before Senate banking panel, Chairman Scott says",
+      "publishedAtSgt": "2026-11-21T03:42:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Former Nvidia CEO Jensen Huang will testify publicly when he appears before the Senate banking panel, a spokesperson for Committee Chair Tim Scott said Friday. The South Carolina Republican confirmed earlier this week that Huang had agreed to appear, but the details of that appearance remained unclear.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:56+08:00"
+    },
+    {
+      "id": "f659026394f75cb7197d3c27282cc57963415ea55b4f61f90ba5a169595fcd0e",
+      "source": "CNBC",
+      "title": "A massive bearish trade just happened in the chip stocks",
+      "publishedAtSgt": "2026-11-21T03:33:31+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "As the S&P 500 entered correction territory and the Nasdaq-100 flirted with bear-market territory, down 19% from highs as of midday Friday, the single biggest options trade of the day was a near $100-million bet that the VanEck Semiconductor ETF (SMH) has a long way more to fall. 17, 2027, according to trading data reviewed by SpotGamma and Volland, options-analytics platforms that both show the trade as a likely opening position, with volume exceeding existing open interest in the contract.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:56+08:00"
+    },
+    {
+      "id": "3debe15309a30f48dd00017e66b7b4e233b76f39f99b6ff3e6bb7c07f2bdb8b7",
+      "source": "CNBC",
+      "title": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks",
+      "publishedAtSgt": "2026-11-21T01:25:19+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-gold-market-hedge.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Coming into 2026, experts said that showing bitcoin could serve as a market hedge rather than a risk-on asset that moves up and down with growth stocks was an important test for the cryptocurrency. Investors are currently in sell everything mode, including tech stocks and gold — the Dow Jones Industrial Average and S&P 500 tumbled into correction territory on Friday, according to CNBC data.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:58+08:00"
+    },
+    {
+      "id": "8e3a0a349a2e81afec0398c7be20e4d14ad67f8523c66d896d63cea7f1ba3b6f",
+      "source": "CNBC",
+      "title": "Data center construction costs soar 13% in 2026",
+      "publishedAtSgt": "2026-11-21T00:52:08+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/data-center-construction-costs-soar-13-percent-in-2026.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Property Play covers new and evolving opportunities for the real estate investor, from individuals to venture capitalists, private equity funds, family offices, institutional investors and large public companies. While there was some stabilization in cost inflation this year, it was not enough to offset the huge growth in not just demand but speed of construction and delivery.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:10:56+08:00"
+    },
+    {
+      "id": "7a4b937a32992128187eab0d7db60c1693902f7aaab050747b512f2fce80bdba",
+      "source": "CNBC",
+      "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
+      "publishedAtSgt": "2026-11-20T23:12:40+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "As Anthropic shares tumble toward their IPO price of $83, investors are looking for ways to hedge. Unfortunately, they may have to wait until Monday, when options on the AI giant are expected to list. \"Round one of the Anthropic IPO easily goes to the individual investor,\" Sosnoff added.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:03+08:00"
+    },
+    {
+      "id": "7bba747b8e17e57c96b34275bd3b2ab2fecd07bc5e203c20ac1bb3981b5ee4d1",
+      "source": "CNBC",
+      "title": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
+      "publishedAtSgt": "2026-11-20T22:59:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "The artificial intelligence company raised $81.3 billion on Wednesday and netted an additional $12.2 billion through the overallotment, surpassing SpaceX, which held a record IPO in June. Anthropic said it sold an aggregate of 1,127,000,000 shares of its Class A common stock at $83 per share in the offering.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:02+08:00"
+    },
+    {
+      "id": "e73a333d7d053ca8545959fd176d9e9168fa0c0eeea2a882b4861d867bf59e06",
+      "source": "CNBC",
+      "title": "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs — what happens next?",
+      "publishedAtSgt": "2026-11-20T22:34:14+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/bitcoin-pre-ipo-selloff-pattern-anthropic-spacex.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bitcoin has suffered nearly identical sell-offs ahead of two of the biggest public offerings this year, leaving investors wondering if competing demand for investor capital could be weighing on the cryptocurrency and perhaps delaying its recovery. Tech stocks, value stocks, oil, gold, crypto all sold off as traders sold assets to buy shares in the secondary market.\" \"Stores of value function as such over long horizons, but in the short term are still liquidity driven,\" Sheffield said.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:03+08:00"
+    },
+    {
+      "id": "2ca50a3c25fa1f68b2a95267145623ea35059dfc1a38d9bb6afa1708d82646c7",
+      "source": "CNBC",
+      "title": "Some FHA borrowers pay mortgage insurance for a decade or more. There's an industry push to change the rules",
+      "publishedAtSgt": "2026-11-20T21:35:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/fha-mortgage-insurance-cuts-cancellation.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The trade group was one of a handful of organizations that put out statements calling for changes. Existing homeowners are also facing rising costs alongside their mortgages, including property taxes and homeowners insurance amid overall high inflation. Borrowers generally pay both an upfront mortgage insurance premium and an annual premium, which is typically divided into monthly payments.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:03+08:00"
+    },
+    {
+      "id": "3b3179911c1d50421f42164d0cdb456ef98da935b0ea38fa09e86d0bc7f60946",
+      "source": "CNBC",
+      "title": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
+      "publishedAtSgt": "2026-11-20T21:29:50+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "SHENZHEN, China — Even as Asia-Pacific Economic Cooperation leaders gathered for high-profile photos at the summit's close, key issues from Nvidia to Taiwan remained unaddressed. \"Southeast Asia, which is increasingly central to global manufacturing and investment, was overshadowed by major-power diplomacy.\" President Donald Trump did not meet with North Korea's leader Kim Jong Un, despite speculation.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:03+08:00"
+    },
+    {
+      "id": "5c0a1eaeaf994ddd344b8a4c9a408c1ea8eb015c79b4cefcb384a8ced0c000de",
+      "source": "CNBC",
+      "title": "Lagarde says EU funds should take first losses on chip plants, data centers",
+      "publishedAtSgt": "2026-11-20T20:52:15+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/lagarde-eu-data-center-funding.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "European Central Bank President Christine Lagarde said Friday that EU public funds should take the first losses on major chip-plant and data-center projects to help attract private capital. \"In technology, where projects such as chip plants and data centres need European scale, it means public-private partnerships at European level, with public money, including from the EU budget, taking the first losses and drawing in private capital.\" Lagarde has previously warned Europe does not have enough...",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:03+08:00"
+    },
     {
       "id": "1729535624ab7a3a3b2c577dd825b00103b08d2418343e1e9547ecdee4bb0e19",
       "source": "CNBC",
@@ -1405,197 +1596,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-11-17T04:32:10+08:00"
-    },
-    {
-      "id": "968f9d2d48c9c00e46d5994d34ee853b737844f9ac05db99734865ec10633a9d",
-      "source": "CNBC",
-      "title": "Robert Pattinson cast as next James Bond",
-      "publishedAtSgt": "2026-11-17T01:25:51+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Robert Pattinson has been cast as the next James Bond in the upcoming film from director Denis Villeneuve. It will be the 26th James Bond film and the first since Amazon MGM took over the iconic franchise. \"James Bond is one of the most legendary characters in cinema, and to be entrusted with 007 is the honour of a lifetime,\" Pattinson said in a statement.",
-      "feeds": [
-        "latest",
-        "business",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:09+08:00"
-    },
-    {
-      "id": "1dcf9b8b269dec6ef83a79ee54b1217b3b872bdd3fc7f1c31612780d844dd59e",
-      "source": "CNBC",
-      "title": "Nvidia fallout: Commerce targets loophole for China's data center use",
-      "publishedAtSgt": "2026-11-17T01:22:11+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 82,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "The Commerce Department on Monday moved to close a loophole that has let Chinese companies lease Nvidia's advanced computing power from data centers in third countries, effectively circumventing controls on sensitive chip technology being exported to China. Share prices of Nvidia and other companies linked to the artificial intelligence trade fell Monday morning after the interim rule was announced, among them chipmakers Micron Technology, Intel and Advanced Micro Devices.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:08+08:00"
-    },
-    {
-      "id": "7eb0414a476ac45cae632e2d5124a922a1bb40d10445bc67b5a357bffe120566",
-      "source": "CNBC",
-      "title": "Cramer: Take some profits in these 2 stocks if you have big gains and do this with the cash",
-      "publishedAtSgt": "2026-11-17T00:59:01+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/16/cramer-take-some-profits-in-these-2-stocks-and-do-this-with-the-cash.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Stocks fell Monday as investors braced for two major tests of the artificial intelligence trade: Nvidia's earnings report Tuesday night and Anthropic's highly anticipated initial public offering later this week. Jim urged investors to trim oversized positions in Nvidia and Apple and redeploy some of those profits into more defensive stocks away from the AI trade.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
-    },
-    {
-      "id": "e05ccc00576b5e2d0ee92c6ecd2c6c3b97f401e452f77cb82f43f608e5484edd",
-      "source": "CNBC",
-      "title": "A major NFT marketplace is shutting down—5 years after the boom, there's a lesson for investors",
-      "publishedAtSgt": "2026-11-16T22:00:01+08:00",
-      "url": "https://www.cnbc.com/make-it/2026/11/16/5-years-after-the-nft-boom-theres-a-lesson-for-investors-.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "For investors, it's a cautionary tale about spotting the warning signs before buying into the next craze, financial experts tell CNBC Make It. \"When the buyers stopped coming, there was nothing holding up the price.\" For everyday investors, the NFT bust is a reminder that an asset's popularity doesn't necessarily make it a worthwhile investment. If an investor can't answer those questions, he says, the investment may not belong in the portfolio at all.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:14+08:00"
-    },
-    {
-      "id": "b39a1f98f3466d9c0f7a74107ffe871886f148b65c49410f3c7b9852f5d48281",
-      "source": "CNBC",
-      "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang’s exit",
-      "publishedAtSgt": "2026-11-16T21:42:43+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "While the company is again expected to show explosive growth as the key infrastructure provider to the artificial intelligence boom, Kress and her team will likely be forced to answer questions on chip sales to China, the risks tied to deals with neoclouds and what comes next under new leadership. Huang resigned Thursday, but Nvidia's legions of customers, partners and investors still rely on the company to continue shipping large quantities of graphics processing units and AI systems.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:14+08:00"
-    },
-    {
-      "id": "f5352bb2614928e84f18096b21c5e58575f0dc6b469d45ad57463e0a9d1c2342",
-      "source": "CNBC",
-      "title": "Nvidia shares under pressure as calls grow for Huang to be reinstated as CEO",
-      "publishedAtSgt": "2026-11-16T21:14:21+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/morning-squawk-nvidia-share-calls-reinstate-huang-ceo.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "There has been a lot of debate over the real versus the perceived value of the \"Jensen premium.\" But today, the bears are back, sending Nvidia shares lower premarket despite speculation that Huang could be pushing to make a return to the AI firm. - IMF warning: IMF Managing Director Kristalina Georgieva says the global economy is \"on the AI leg,\" warning that the overdependence risks the world's financial stability.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:14+08:00"
-    },
-    {
-      "id": "4d2e6bd87950fb8450dbefb11db4b66f2bc61215c461aa16f26785663726f75a",
-      "source": "CNBC",
-      "title": "AI is reshaping banking jobs – but its ability to drive profits remains unclear",
-      "publishedAtSgt": "2026-11-16T14:20:55+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/how-ai-is-changing-banking-jobs-hiring-and-revenue.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Banks' third-quarter results have brought their use of artificial intelligence into sharper focus, as lenders automate routine work, reshape hiring and test whether productivity gains can translate into revenue growth. This earnings season, Barclays unveiled layoffs in certain functions where AI is being deployed; while UniCredit and Santander said technology was freeing employees for higher-value work and improving processes.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-16T16:01:54+08:00"
-    },
-    {
-      "id": "ff1eff269bea74f8fa37e3f3c64798c498f080156fb7e5abd11f4c70b25d9faa",
-      "source": "CNBC",
-      "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
-      "publishedAtSgt": "2026-11-16T11:53:59+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 102,
-      "relevanceReason": "strong_economic_title",
-      "summary": "China's economic slowdown worsened in October with retail sales, investment and industrial output all missing economists' estimates, as analysts warn a growing reliance on external demand leaves growth more exposed to shocks abroad. Growth in the world's second-largest economy bounced off three-year lows in the third quarter, expanding 4.5% from a year earlier.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-16T16:01:54+08:00"
-    },
-    {
-      "id": "c12ad96efe47aa6325c56cdf5c9362d2ea9cbea2d3f909734ed81c7274114ac6",
-      "source": "CNBC",
-      "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
-      "publishedAtSgt": "2026-11-16T10:56:24+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Japan's economy unexpectedly contracted in the third quarter, shrinking at an annualized 0.1% compared to the previous quarter, as elevated energy prices weighed on consumption and net exports. A Reuters poll of economists had estimated the economy to grow at 0.3% in the three months to September, while GDP had expanded at 1.4% in the previous quarter.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-16T16:01:54+08:00"
-    },
-    {
-      "id": "9f4f148c7778a2faeb29e5dd8497684c920d6367194a6b8a21afb37cd0e0b754",
-      "source": "CNBC",
-      "title": "3 big things we're watching in the stock market in the week ahead",
-      "publishedAtSgt": "2026-11-15T23:26:20+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The Claude chatbot creator is set to go public on the Nasdaq on Thursday in a historic IPO that will test investors' appetite for AI stocks. One saving grace: The economic calendar is fairly light, with retail sales, industrial production, and minutes from the Fed's October meeting as the main releases.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
-    },
-    {
-      "id": "86df9fc3792a606843eb6f34bc26a6560dde242ebbcbb205ba21669f950a7ef4",
-      "source": "CNBC",
-      "title": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
-      "publishedAtSgt": "2026-11-15T22:30:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "\"We've waited too long already, and the consequences are that the gap has grown larger,\" Shai Akabas, vice president of economic policy at the Bipartisan Policy Center, said of Social Security's shortfall. Social Security is a pay-as-you-go system that relies on payroll taxes from workers to help make monthly benefit payments to millions of Americans. Just how far adjusting the taxable maximum would go to help solve Social Security's funding woes depends on how it is applied.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
-    },
-    {
-      "id": "1463ee5758f323cba0625ea5392cdcaeeb72d88978e17bdcadb824ac06f03a0f",
-      "source": "CNBC",
-      "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
-      "publishedAtSgt": "2026-11-15T20:49:07+08:00",
-      "url": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Major indexes were volatile this week due to earnings from artificial intelligence companies, key economic releases, and the scandal involving Nvidia former CEO Jensen Huang. While short-term fluctuations could weigh on investor sentiment, it is prudent to maintain a long-term investment horizon. Investors looking for attractive long-term picks can track the ratings of top Wall Street analysts and gain key insights from their in-depth research on the macro and micro factors impacting stocks.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-16T01:14:06+08:00"
     }
   ]
 }

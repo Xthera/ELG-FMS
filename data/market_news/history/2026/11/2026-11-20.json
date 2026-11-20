@@ -5,6 +5,102 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "7a4b937a32992128187eab0d7db60c1693902f7aaab050747b512f2fce80bdba",
+      "source": "CNBC",
+      "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
+      "publishedAtSgt": "2026-11-20T23:12:40+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "As Anthropic shares tumble toward their IPO price of $83, investors are looking for ways to hedge. Unfortunately, they may have to wait until Monday, when options on the AI giant are expected to list. \"Round one of the Anthropic IPO easily goes to the individual investor,\" Sosnoff added.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:03+08:00"
+    },
+    {
+      "id": "7bba747b8e17e57c96b34275bd3b2ab2fecd07bc5e203c20ac1bb3981b5ee4d1",
+      "source": "CNBC",
+      "title": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
+      "publishedAtSgt": "2026-11-20T22:59:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+      "category": "MARKET",
+      "relevanceScore": 95,
+      "relevanceReason": "business_market_event",
+      "summary": "The artificial intelligence company raised $81.3 billion on Wednesday and netted an additional $12.2 billion through the overallotment, surpassing SpaceX, which held a record IPO in June. Anthropic said it sold an aggregate of 1,127,000,000 shares of its Class A common stock at $83 per share in the offering.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:02+08:00"
+    },
+    {
+      "id": "e73a333d7d053ca8545959fd176d9e9168fa0c0eeea2a882b4861d867bf59e06",
+      "source": "CNBC",
+      "title": "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs — what happens next?",
+      "publishedAtSgt": "2026-11-20T22:34:14+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/bitcoin-pre-ipo-selloff-pattern-anthropic-spacex.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bitcoin has suffered nearly identical sell-offs ahead of two of the biggest public offerings this year, leaving investors wondering if competing demand for investor capital could be weighing on the cryptocurrency and perhaps delaying its recovery. Tech stocks, value stocks, oil, gold, crypto all sold off as traders sold assets to buy shares in the secondary market.\" \"Stores of value function as such over long horizons, but in the short term are still liquidity driven,\" Sheffield said.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:03+08:00"
+    },
+    {
+      "id": "2ca50a3c25fa1f68b2a95267145623ea35059dfc1a38d9bb6afa1708d82646c7",
+      "source": "CNBC",
+      "title": "Some FHA borrowers pay mortgage insurance for a decade or more. There's an industry push to change the rules",
+      "publishedAtSgt": "2026-11-20T21:35:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/fha-mortgage-insurance-cuts-cancellation.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The trade group was one of a handful of organizations that put out statements calling for changes. Existing homeowners are also facing rising costs alongside their mortgages, including property taxes and homeowners insurance amid overall high inflation. Borrowers generally pay both an upfront mortgage insurance premium and an annual premium, which is typically divided into monthly payments.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:03+08:00"
+    },
+    {
+      "id": "3b3179911c1d50421f42164d0cdb456ef98da935b0ea38fa09e86d0bc7f60946",
+      "source": "CNBC",
+      "title": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
+      "publishedAtSgt": "2026-11-20T21:29:50+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "SHENZHEN, China — Even as Asia-Pacific Economic Cooperation leaders gathered for high-profile photos at the summit's close, key issues from Nvidia to Taiwan remained unaddressed. \"Southeast Asia, which is increasingly central to global manufacturing and investment, was overshadowed by major-power diplomacy.\" President Donald Trump did not meet with North Korea's leader Kim Jong Un, despite speculation.",
+      "feeds": [
+        "latest",
+        "finance",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:03+08:00"
+    },
+    {
+      "id": "5c0a1eaeaf994ddd344b8a4c9a408c1ea8eb015c79b4cefcb384a8ced0c000de",
+      "source": "CNBC",
+      "title": "Lagarde says EU funds should take first losses on chip plants, data centers",
+      "publishedAtSgt": "2026-11-20T20:52:15+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/lagarde-eu-data-center-funding.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "European Central Bank President Christine Lagarde said Friday that EU public funds should take the first losses on major chip-plant and data-center projects to help attract private capital. \"In technology, where projects such as chip plants and data centres need European scale, it means public-private partnerships at European level, with public money, including from the EU budget, taking the first losses and drawing in private capital.\" Lagarde has previously warned Europe does not have enough...",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T05:11:03+08:00"
+    },
+    {
       "id": "1729535624ab7a3a3b2c577dd825b00103b08d2418343e1e9547ecdee4bb0e19",
       "source": "CNBC",
       "title": "Anthropic defies the odds, holding record IPO despite ‘massively disruptive’ market",
@@ -309,6 +405,6 @@
       "collectedAtSgt": "2026-11-20T05:39:47+08:00"
     }
   ],
-  "articleCount": 19,
-  "updatedAtSgt": "2026-11-20T20:59:24+08:00"
+  "articleCount": 25,
+  "updatedAtSgt": "2026-11-21T05:11:03+08:00"
 }
