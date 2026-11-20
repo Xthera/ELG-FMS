@@ -1,6 +1,40 @@
 {
   "versions": [
     {
+      "version": "V2.1.0",
+      "date": "2026-11-20",
+      "summary": "Version 2.1.0 Updates: the PRUIndex Income Boost calculator, a new Glass look with smooth animations and animated charts, the Mint theme, settings kept per dashboard, and backup prices when PruAccess is down.",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "Plan Calculator: PRUIndex Income Boost is now the third plan, next to PRUVantage Assure II and PRUVantage Wealth III. Choose a 5- or 10-year premium term, the premium, the index (UBS, S&P 500 or Barclays) and whether cash benefits are paid out or accumulated. Use the illustration rates from the product pack, or Historical replay to see what the plan would have paid using the index's actual past levels. Generate shows the projected values in the same popup and money format as the other plans.",
+            "Income Boost index levels: the levels of the three Income Boost indices are collected every day at 7:10 am Singapore time and build up a longer history over time.",
+            "Glass style: frosted, rounded cards on a soft colour background, a floating side menu, page banners that follow your theme and colour palette, and bigger headline numbers. Settings > Style switches between Glass and Classic (the original flat look).",
+            "Mint theme: a soft green theme with a dark green side menu. Every other theme and colour palette works with both styles.",
+            "Smooth opening: pages, tabs, drop-down menus, sections such as Alert rules and News overview, and pop-up windows now flow in instead of popping up. Tables fade in when you change the period.",
+            "Logo menu: press the logo at the top left to expand the side menu (icons and page names) or shrink it to a narrow column of icons. The three-line menu button is gone, and each dashboard remembers your choice.",
+            "Animated charts: when you add a fund or index, its line draws from the start of the period to the end; a removed one fades away; changing the period redraws every line. The chart in a fund profile draws in the same way.",
+            "Backup prices: when PruAccess (the usual source of BID prices) is down, the latest BID price is taken from Prudential's website instead. These funds are marked “Price from Prudential website” in Fund Explorer, and the full PruAccess history replaces the backup prices once PruAccess is back."
+          ]
+        },
+        {
+          "title": "Improved",
+          "items": [
+            "Settings: style, theme, colour palette and text size are now saved separately for each dashboard, so changing one dashboard no longer changes the others. Your current choices carry over the first time you open it.",
+            "More reliable automatic updates: the market news analysis tries again when the AI service is busy, and data updates that finish at the same time no longer block each other.",
+            "The user guide is updated for this version."
+          ]
+        },
+        {
+          "title": "Fixed",
+          "items": [
+            "Settings > Update schedule: Index closes now shows the actual schedule (daily at 6:30 am), and the Income Boost index update is listed."
+          ]
+        }
+      ]
+    },
+    {
       "version": "V2.0.0",
       "date": "2026-10-26",
       "summary": "Version 2.0.0 Updates: market indices across the site, the Annex and Calculator, fund switching in reports, and more reliable data updates.",
