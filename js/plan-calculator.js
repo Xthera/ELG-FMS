@@ -247,6 +247,7 @@ const PLANS = {
 /* Investment Booster (Lump Sum), both product information packs */
 const BOOSTER_PREMIUM_CHARGE = 0.03;
 const BOOSTER_MIN = { PVA: 1000, PVW: 10000 };
+const DEFAULT_RETURN = 4;          // expected return (% a year) a newly added fund starts with
 const MIN_WITHDRAWAL = 1000;       // partial withdrawal minimum, and minimum left in the policy
 
 const calc = {
@@ -263,6 +264,8 @@ const calc = {
     plan: "PVA",
     accounts: { growth: [], flex: [] },   // [{ code, weight }]; Investment Booster i uses "b<i>"
     boosters: [],                          // Investment Booster rows: [{ age, amount }] as typed
+    returns: {},                           // expected return (% a year) per fund code, as typed
+    returnCodes: "",                       // funds the return boxes were last drawn for
     timer: null
 };
 
@@ -629,7 +632,7 @@ function promotionFor(input, shares) {
    paid-out dividend leaves the policy as cash.
    ============================================================ */
 
-function project(input, grossReturn, promotion) {
+function project(input, promotion) {
     const plan = PLANS[input.plan];
     const [adminRate, adminYears] = plan.admin[input.term];
     const surrender = plan.surrender[input.term] ?? [];
@@ -638,9 +641,13 @@ function project(input, grossReturn, promotion) {
         growth: band(plan.welcome.growth[input.term], input.premium) ?? [0, 0, 0],
         flex: band(plan.welcome.flex[input.term], input.premium) ?? [0, 0, 0]
     };
-    // Fund charges are already reflected in BID prices, so the return
-    // entered is used as is (net of fund charges).
-    const monthly = Math.pow(1 + grossReturn, 1 / 12) * (1 - (input.fundCharge ?? 0) / 12);
+    // Each fund grows at its own expected return. Fund charges are already
+    // reflected in BID prices, so the return entered is used as is.
+    const monthlyFor = code => {
+        const rate = (code && Number.isFinite(input.returns?.[code]) ? input.returns[code] : input.defaultReturn ?? DEFAULT_RETURN) / 100;
+
+        return Math.pow(1 + rate, 1 / 12) * (1 - (input.fundCharge ?? 0) / 12);
+    };
     const rateColumn = (input.sex === "F" ? 2 : 0) + (input.smoker ? 0 : 1);   // MS, MN, FS, FN
     const lifetimePremium = input.premium * input.term;
     const wavCap = Math.max(20000000, 3 * lifetimePremium);
@@ -660,6 +667,7 @@ function project(input, grossReturn, promotion) {
             value: 0,
             units: 0,                                   // units held (BID price kept at today's price)
             price: item.code ? bidPrice(item.code) : null,
+            monthly: monthlyFor(item.code),
             dividend,
             promoRate: item.code && promotion?.applies ? promotionRateFor(item.code, promotion.tier) : 0
         };
@@ -669,7 +677,7 @@ function project(input, grossReturn, promotion) {
     // Charges and the Loyalty Bonus cancel / add units in proportion
     const scale = factor => sleeves.forEach(sleeve => { sleeve.value *= factor; sleeve.units *= factor; });
     // Investment return grows the account value only; units stay the same
-    const grow = factor => sleeves.forEach(sleeve => { sleeve.value *= factor; });
+    const grow = list => list.forEach(sleeve => { sleeve.value *= sleeve.monthly; });
     const buy = (sleeve, amount) => {
         sleeve.value += amount;
 
@@ -691,6 +699,7 @@ function project(input, grossReturn, promotion) {
         value: 0,
         units: 0,
         price: item.code ? bidPrice(item.code) : null,
+        monthly: monthlyFor(item.code),
         dividend: item.code ? dividendInfo(item.code) : null
     }));
     const aiaTotal = () => aia.reduce((sum, sleeve) => sum + sleeve.value, 0);
@@ -806,8 +815,8 @@ function project(input, grossReturn, promotion) {
                 year.assuranceCharge += charge;
             }
 
-            grow(monthly);
-            aia.forEach(sleeve => { sleeve.value *= monthly; });
+            grow(sleeves);
+            grow(aia);
 
             // Dividends at the end of each payout month
             let paidThisMonth = false;
@@ -982,8 +991,6 @@ function readInput() {
     const growthPct = growthAllowed ? Number(qs("#calc-growth")?.value) || 0 : 0;
     const frequency = FREQUENCIES[qs("#calc-frequency")?.value] ? Number(qs("#calc-frequency").value) : 1;
     const regular = Number(qs("#calc-premium")?.value) || 0;
-    const returnText = qs("#calc-return")?.value.trim() ?? "";
-    const returns = returnText === "" ? [] : [Number(returnText)];
     const yearsChoice = qs("#calc-years")?.value ?? "30";
     const dob = qs("#calc-dob")?.value ?? "";
     const startDate = qs("#calc-start")?.value || todayIso();
@@ -1025,7 +1032,7 @@ function readInput() {
             growthStartAge: qs("#calc-div-age")?.value.trim() ? Number(qs("#calc-div-age").value) : null,
             flex: qs("#calc-div-flex")?.value === "payout" ? "payout" : "reinvest"
         },
-        returns,
+        returns: {},
         payFromBooster: Boolean(qs("#calc-booster-pay")?.checked) && calc.boosters.length > 0,
         boosterWithdraw: qs("#calc-booster-withdraw")?.value.trim() ? Number(qs("#calc-booster-withdraw").value) : null,
         years: yearsChoice === "age100" ? Math.max(1, 100 - age + 1) : Number(yearsChoice) || 30,
@@ -1038,6 +1045,15 @@ function readInput() {
             .map(item => ({ code: item.code, account: "booster", boosterIndex: i, share: (Number(item.weight) || 0) / 100 })))
     };
     input.dividends.booster = qs("#calc-div-booster")?.value === "payout" ? "payout" : "reinvest";
+
+    // Expected return per chosen fund (Growth, Flex and Investment Booster funds)
+    input.returnCodes = [...new Set([...input.shares, ...input.boosterShares].map(item => item.code).filter(Boolean))];
+
+    for (const code of input.returnCodes) {
+        const text = String(calc.returns[code] ?? DEFAULT_RETURN).trim();
+
+        input.returns[code] = text === "" ? null : Number(text);
+    }
 
     // No upper age for a booster: show enough years to include the latest one
     if (Number.isInteger(age)) {
@@ -1209,9 +1225,14 @@ function validate(input) {
         }
     }
 
-    if (!input.returns.length) problems.push("Enter the expected return rate.");
-    else if (input.returns.some(value => !Number.isFinite(value) || value < -20 || value > 30)) {
-        problems.push("The expected return rate must be between −20% and 30% a year.");
+    for (const code of input.returnCodes) {
+        const value = input.returns[code];
+
+        if (value === null) {
+            problems.push(`Enter the expected return rate for ${fundName(code)}.`);
+        } else if (!Number.isFinite(value) || value < -20 || value > 30) {
+            problems.push(`The expected return rate for ${fundName(code)} must be between −20% and 30% a year.`);
+        }
     }
 
     return problems;
@@ -1640,6 +1661,7 @@ function render() {
     }
 
     renderWelcome(input, units);
+    renderReturns(input);
     renderDividendOptions(input);
     updateBoosterRows(input);
 
@@ -1664,6 +1686,49 @@ function growthHasDividends(input) {
 }
 
 /* Dividend options, shown only for accounts holding dividend-paying funds */
+/* "4% a year" when every fund uses the same rate, else the range;
+   long form lists each fund's rate */
+function returnSummary(input) {
+    const rates = input.returnCodes.map(code => input.returns[code]);
+    const low = Math.min(...rates);
+    const high = Math.max(...rates);
+    const fmt = value => `${Number(value.toFixed(2))}%`;
+
+    return {
+        mixed: low !== high,
+        short: low === high ? `${fmt(low)} a year` : `${fmt(low)} to ${fmt(high)} a year, by fund`,
+        long: input.returnCodes.map(code => `${fundName(code)} ${fmt(input.returns[code])}`).join(", ")
+    };
+}
+
+/* One expected-return box per chosen fund. Redrawn only when the list of
+   funds changes, so typing in a box never loses its place. */
+function renderReturns(input) {
+    const box = qs("#calc-returns");
+
+    if (!box) return;
+
+    const key = input.returnCodes.join("|");
+
+    if (key !== calc.returnCodes || !box.childElementCount) {
+        calc.returnCodes = key;
+
+        box.innerHTML = input.returnCodes.length
+            ? input.returnCodes.map(code => `
+                <label class="report-field calc-return-row">
+                    <span title="${escapeHtml(fundName(code))}">${escapeHtml(fundName(code))}</span>
+                    <input type="number" step="0.25" inputmode="decimal" data-calc-return="${escapeHtml(code)}" value="${escapeHtml(String(calc.returns[code] ?? DEFAULT_RETURN))}" aria-label="Expected return rate for ${escapeHtml(fundName(code))} (% a year)">
+                </label>`).join("")
+            : `<p class="settings-help calc-returns-empty">Add funds above to set each fund's expected return.</p>`;
+    }
+
+    box.querySelectorAll("[data-calc-return]").forEach(field => {
+        const value = input.returns[field.dataset.calcReturn];
+
+        field.classList.toggle("calc-input-off", value === null || !Number.isFinite(value) || value < -20 || value > 30);
+    });
+}
+
 function renderDividendOptions(input) {
     const hasDividends = account => input.shares.some(item => item.account === account && item.share > 0 && paysDividend(item.code));
     const growthOn = input.growthShare > 0 && hasDividends("growth");
@@ -1932,7 +1997,8 @@ function renderResults() {
     const promotion = promotionFor(input, input.shares);
 
     const plan = PLANS[input.plan];
-    const scenarios = input.returns.map(rate => ({ rate: rate / 100, rows: project(input, rate / 100, promotion) }));
+    const scenarios = [{ rows: project(input, promotion) }];
+    const returnsText = returnSummary(input);
     const base = scenarios[0].rows;
 
     const totalPremium = input.premium * input.term;
@@ -1974,7 +2040,7 @@ function renderResults() {
     const showNet = showPaid || hasBoosters;
     const netOf = r => r.account + r.dividendsPaidTotal + r.cashFromBooster;
     const paidCols = (showGfPaid ? 1 : 0) + (showAiaPaid ? 1 : 0) + (showBothPaid ? 1 : 0) + (showPaid ? 1 : 0) + (showNet ? 1 : 0);
-    const scenarioHead = scenarios.map(s => `<th colspan="${1 + (hasBoosters ? 1 : 0) + paidCols}" class="calc-scenario-head">At expected return rate of ${pct(s.rate)} a year</th>`).join("");
+    const scenarioHead = scenarios.map(s => `<th colspan="${1 + (hasBoosters ? 1 : 0) + paidCols}" class="calc-scenario-head">At expected return ${escapeHtml(returnsText.short)}</th>`).join("");
     const scenarioCols = scenarios.map(() => `
         <th>Account value</th>
         ${hasBoosters ? `<th>Investment Booster</th>` : ""}
@@ -2018,8 +2084,8 @@ function renderResults() {
             </div>
             <div class="calc-tile">
                 <span>Expected return rate</span>
-                <strong>${input.returns[0]}% a year</strong>
-                <em>${hasDividendFunds
+                <strong>${escapeHtml(returnsText.short)}</strong>
+                <em>${returnsText.mixed ? `${escapeHtml(returnsText.long)}. ` : ""}${hasDividendFunds
                     ? `Account value growth, plus dividends over ${base.length} years: ${[
                         reinvestedTotal > 0.5 ? `${money(reinvestedTotal)} reinvested` : "",
                         showGfPaid ? `${money(gfPaidTotal)} paid out from Growth + Flex` : "",
@@ -2082,7 +2148,7 @@ function renderResults() {
         </div>
 
         <details class="calc-details">
-            <summary>Bonuses, charges${hasDividendFunds ? " and dividends" : ""} by year (at ${pct(scenarios[0].rate)})</summary>
+            <summary>Bonuses, charges${hasDividendFunds ? " and dividends" : ""} by year (at ${escapeHtml(returnsText.short)})</summary>
             <div class="table-wrap calc-table-wrap">
                 <table class="data-table calc-table">
                     <thead>
@@ -2127,7 +2193,7 @@ function renderResults() {
             <strong>How this is worked out.</strong>
             ${escapeHtml(plan.name)} rules from the product information pack (${escapeHtml(plan.packDate)}).
             Premiums (${escapeHtml(FREQUENCIES[input.frequency])}) are assumed paid at the start of each payment period, with the Welcome Bonus given on each premium.
-            The expected return grows the account value each month; the BID price is kept at today's price, so every premium,
+            Each fund's expected return grows its value each month (${escapeHtml(returnsText.long)}); the BID price is kept at today's price, so every premium,
             bonus and reinvested dividend buys units at that price. Fund charges are already reflected in the BID price, so no fund
             charge is deducted separately.
             ${hasDividendFunds ? `Dividend-paying funds pay their latest declared dividend per unit at their usual frequency, on the units held. ${dividendNotes(input)}` : ""}
@@ -2144,7 +2210,7 @@ function renderResults() {
     const subtitle = qs("#calc-results-subtitle");
 
     if (subtitle) {
-        subtitle.textContent = `${plan.name} · ${money(input.regular)} ${FREQUENCIES[input.frequency]} for ${input.term} years · age ${input.age} next birthday · ${input.returns[0]}% a year`;
+        subtitle.textContent = `${plan.name} · ${money(input.regular)} ${FREQUENCIES[input.frequency]} for ${input.term} years · age ${input.age} next birthday · ${returnsText.short}`;
     }
 
     if (dialog && !dialog.open) dialog.showModal?.();
@@ -2443,10 +2509,20 @@ function bindEvents() {
         render();
     });
 
-    for (const selector of ["#calc-premium", "#calc-frequency", "#calc-dob", "#calc-sex", "#calc-smoker", "#calc-start", "#calc-return", "#calc-years", "#calc-div-growth", "#calc-div-flex", "#calc-div-age", "#calc-div-booster", "#calc-booster-pay", "#calc-booster-withdraw"]) {
+    for (const selector of ["#calc-premium", "#calc-frequency", "#calc-dob", "#calc-sex", "#calc-smoker", "#calc-start", "#calc-years", "#calc-div-growth", "#calc-div-flex", "#calc-div-age", "#calc-div-booster", "#calc-booster-pay", "#calc-booster-withdraw"]) {
         qs(selector)?.addEventListener("input", schedule);
         qs(selector)?.addEventListener("change", schedule);
     }
+
+    // Expected return boxes (one per fund)
+    qs("#calc-returns")?.addEventListener("input", event => {
+        const field = event.target.closest("[data-calc-return]");
+
+        if (!field) return;
+
+        calc.returns[field.dataset.calcReturn] = field.value;
+        schedule();
+    });
 
     const dialog = qs("#calc-results-dialog");
 
