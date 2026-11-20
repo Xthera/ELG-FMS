@@ -28,24 +28,34 @@
     <!-- Apply the saved text size before the page draws -->
     <script>
         try {
-            var saved = localStorage.getItem("vgrat-fms-font-size");
+            // Settings are kept per dashboard. First visit: start from the
+            // settings that used to be shared by all the dashboards.
+            ["theme", "accent", "font-size", "style"].forEach(function (key) {
+                var own = "elg-fms-" + key, shared = "vgrat-fms-" + key;
+                if (localStorage.getItem(own) === null && localStorage.getItem(shared) !== null) {
+                    localStorage.setItem(own, localStorage.getItem(shared));
+                }
+            });
+            var saved = localStorage.getItem("elg-fms-font-size");
             var named = { small: 0.9, "default": 1, large: 1.15, xlarge: 1.3 };
             var scale = named[saved] || parseFloat(saved);
             if (scale >= 0.8 && scale <= 1.4) {
                 document.documentElement.style.setProperty("--font-scale", String(scale));
             }
-            var theme = localStorage.getItem("vgrat-fms-theme") || "dark";
-            var base = { dark: "dark", dim: "dark", midnight: "dark", light: "light", sepia: "light" };
+            var theme = localStorage.getItem("elg-fms-theme") || "dark";
+            var base = { dark: "dark", dim: "dark", midnight: "dark", light: "light", sepia: "light", mint: "light" };
             if (theme === "auto") {
                 base.auto = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
             }
             if (base[theme]) {
                 document.documentElement.setAttribute("data-theme", base[theme]);
-                if (/^(dim|midnight|sepia)$/.test(theme)) {
+                if (/^(dim|midnight|sepia|mint)$/.test(theme)) {
                     document.documentElement.setAttribute("data-variant", theme);
                 }
             }
-            var accent = localStorage.getItem("vgrat-fms-accent");
+            var style = localStorage.getItem("elg-fms-style");
+            document.documentElement.setAttribute("data-style", style === "classic" ? "classic" : "glass");
+            var accent = localStorage.getItem("elg-fms-accent");
             if (/^(steel|ocean|gold|teal|violet|rose)$/.test(accent || "")) {
                 document.documentElement.setAttribute("data-accent", accent);
             }
@@ -55,6 +65,16 @@
     <link
         rel="stylesheet"
         href="css/style.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/glass.css?v=1"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/motion.css?v=1"
     >
 
     <!--
@@ -4096,6 +4116,37 @@
 
                         <div class="settings-row">
 
+                            <h3 class="settings-label">Style</h3>
+
+                            <p class="settings-help">
+                                Glass: frosted, rounded cards on a soft colour background. Classic: the original flat look. Works with every theme. Saved in this browser.
+                            </p>
+
+                            <div class="settings-options style-options" role="group" aria-label="Style">
+
+                                <button type="button" class="settings-option theme-option" data-style-option="glass" aria-pressed="false">
+                                    <span class="style-preview style-preview-glass" aria-hidden="true"></span>
+                                    <span class="theme-option-text">
+                                        <span class="settings-option-name">◇&nbsp; Glass</span>
+                                        <span class="theme-option-desc">Frosted, rounded</span>
+                                    </span>
+                                </button>
+
+                                <button type="button" class="settings-option theme-option" data-style-option="classic" aria-pressed="false">
+                                    <span class="style-preview" aria-hidden="true"></span>
+                                    <span class="theme-option-text">
+                                        <span class="settings-option-name">▭&nbsp; Classic</span>
+                                        <span class="theme-option-desc">Original flat look</span>
+                                    </span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="settings-row">
+
                             <h3 class="settings-label">Theme</h3>
 
                             <p class="settings-help">
@@ -4149,6 +4200,14 @@
                                     <span class="theme-option-text">
                                         <span class="settings-option-name">❧&nbsp; Sepia</span>
                                         <span class="theme-option-desc">Warm paper</span>
+                                    </span>
+                                </button>
+
+                                <button type="button" class="settings-option theme-option" data-theme-option="mint" aria-pressed="false">
+                                    <span class="theme-preview" aria-hidden="true" style="--p-bg: #e7f0ec; --p-card: #fbfdfc; --p-text: #13261f; --p-line: #c3d6ce;"><span class="theme-preview-card"></span></span>
+                                    <span class="theme-option-text">
+                                        <span class="settings-option-name">❦&nbsp; Mint</span>
+                                        <span class="theme-option-desc">Soft green, dark rail</span>
                                     </span>
                                 </button>
 
@@ -4313,7 +4372,17 @@
 
     <script
         type="module"
+        src="js/motion.js?v=1"
+    ></script>
+
+    <script
+        type="module"
         src="js/app.js"
+    ></script>
+
+    <script
+        type="module"
+        src="js/style-toggle.js?v=1"
     ></script>
 
     <script
