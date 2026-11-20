@@ -240,7 +240,7 @@ const STORAGE_KEYS = {
 
     performancePeriod: "vgrat-fms-performance-period",
 
-    navCollapsed: "vgrat-fms-nav-collapsed",
+    navCollapsed: "elg-fms-nav-collapsed",
 
     fontSize: "elg-fms-font-size"
 
@@ -913,7 +913,7 @@ function applyNavCollapsed(collapsed) {
         const label =
             collapsed
                 ? "Expand menu"
-                : "Minimise menu";
+                : "Shrink menu";
 
         button.setAttribute(
             "aria-expanded",
