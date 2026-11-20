@@ -225,6 +225,18 @@ jobs:
       # The build step handles the final unresolved-fund decision.
 
       # ========================================================
+      # 11b. BACKUP PRICES - PRUDENTIAL WEBSITE
+      #
+      # Reads the latest BID / offer price of every fund from
+      # www.prudential.com.sg. Only used for funds PruAccess could
+      # not update (see scripts/apply_prudential_fallback.py).
+      # ========================================================
+      - name: "Backup prices - Prudential website"
+        continue-on-error: true
+        run: |
+          python -u scripts/fetch_prudential_prices.py
+
+      # ========================================================
       # 12. DISPLAY ALL INTERMEDIATE SUMMARIES
       # ========================================================
       - name: Display pipeline summaries
@@ -235,7 +247,8 @@ jobs:
             output_holdings_recovery/run_summary.json \
             output_holdings_recovery_2/run_summary.json \
             output_holdings_recovery_3/run_summary.json \
-            output_pruaccess/run_summary.json
+            output_pruaccess/run_summary.json \
+            output_prudential_prices/run_summary.json
           do
             echo
             echo "============================================================"
@@ -276,6 +289,12 @@ jobs:
           echo
 
           python -u build_funds_data.py
+
+      # Funds PruAccess could not update get the Prudential website's
+      # latest price (when it has a newer one).
+      - name: Use backup prices where PruAccess failed
+        run: |
+          python -u scripts/apply_prudential_fallback.py
 
       # ========================================================
       # 14. SHOW BUILD OUTPUT
@@ -399,6 +418,7 @@ jobs:
             output_holdings_recovery_2/
             output_holdings_recovery_3/
             output_pruaccess/
+            output_prudential_prices/
             data/
           if-no-files-found: warn
           retention-days: 30
@@ -489,6 +509,7 @@ jobs:
             echo "ALLOW_UNRESOLVED=$ALLOW_UNRESOLVED"
 
             python -u build_funds_data.py
+            python -u scripts/apply_prudential_fallback.py
 
             # ----------------------------------------------------
             # Validate regenerated files.
