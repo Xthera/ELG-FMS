@@ -8820,6 +8820,18 @@ html[data-theme="light"] .news-badge.explorer-stale-badge {
     color: #8a6400;
 }
 
+/* Latest price from the Prudential website (PruAccess down) */
+.explorer-website-tag {
+    color: var(--info);
+    font-weight: 650;
+}
+
+.news-badge.explorer-website-badge {
+    border-color: color-mix(in srgb, var(--info) 45%, transparent);
+    background: var(--info-soft);
+    color: var(--info);
+}
+
 /* ============================================================
    PRUDENTIAL FUNDS / INDICES
    Market Performance and Monitoring show one data set at a time,

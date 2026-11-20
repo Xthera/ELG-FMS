@@ -1,0 +1,56 @@
+/* ============================================================
+   FMS — SMOOTH OPENING (pop-up windows)
+   Works with js/motion.js, which adds .is-closing while a
+   pop-up fades out.
+   ============================================================ */
+
+@keyframes motion-dialog-in {
+    from { opacity: 0; transform: translateY(14px) scale(0.98); }
+    to   { opacity: 1; transform: none; }
+}
+
+@keyframes motion-dialog-out {
+    from { opacity: 1; transform: none; }
+    to   { opacity: 0; transform: translateY(10px) scale(0.985); }
+}
+
+@keyframes motion-fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes motion-fade-out {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+dialog[open] {
+    animation: motion-dialog-in 300ms cubic-bezier(.2, .8, .2, 1);
+}
+
+dialog[open]::backdrop {
+    animation: motion-fade-in 300ms ease-out;
+}
+
+dialog.is-closing {
+    animation: motion-dialog-out 190ms ease-in forwards;
+}
+
+dialog.is-closing::backdrop {
+    animation: motion-fade-out 190ms ease-in forwards;
+}
+
+/* Frosted backdrop in the Glass style */
+html[data-style="glass"] dialog::backdrop {
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    dialog[open],
+    dialog[open]::backdrop,
+    dialog.is-closing,
+    dialog.is-closing::backdrop {
+        animation: none;
+    }
+}

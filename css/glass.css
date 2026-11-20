@@ -1,0 +1,440 @@
+/* ============================================================
+   FMS — GLASS STYLE
+   Frosted, rounded "bento" look layered on top of style.css.
+   Active only when <html data-style="glass"> (Settings > Style),
+   and built from the theme variables, so every theme and colour
+   palette still works.
+   ============================================================ */
+
+/* ---------- Mint theme (light base), the reel's palette ---------- */
+
+html[data-variant="mint"] {
+    --bg-page: #e7f0ec;
+    --bg-header: #eef5f2;
+    --bg-surface: #fbfdfc;
+    --bg-surface-raised: #f3f8f6;
+    --bg-surface-hover: #e9f2ee;
+    --bg-input: #ffffff;
+
+    --border-subtle: #d6e4de;
+    --border-medium: #c3d6ce;
+    --border-strong: #a9c4b9;
+
+    --text-primary: #13261f;
+    --text-secondary: #3d564c;
+    --text-muted: #63796f;
+    --text-faint: #8ea197;
+
+    --shadow-small: 0 2px 10px rgba(20, 60, 45, 0.06);
+    --shadow-medium: 0 12px 34px rgba(20, 60, 45, 0.10);
+}
+
+/* Mint's own green replaces the default (Steel) accent; the other
+   colour palettes still apply on top of Mint */
+html[data-variant="mint"]:not([data-accent]),
+html[data-variant="mint"][data-accent="steel"] {
+    --accent: #1f5f4b;
+    --accent-strong: #154535;
+    --accent-soft: rgba(31, 95, 75, 0.10);
+}
+
+/* ---------- Glass tokens ---------- */
+
+html[data-style="glass"] {
+    --g-radius: 20px;
+    --g-radius-small: 12px;
+    --g-blur: blur(18px) saturate(150%);
+
+    --g-card: color-mix(in srgb, var(--bg-surface) 70%, transparent);
+    --g-card-strong: color-mix(in srgb, var(--bg-surface) 84%, transparent);
+    --g-edge: color-mix(in srgb, var(--border-subtle) 70%, rgba(255, 255, 255, 0.10));
+    --g-shadow: 0 10px 34px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    --g-shadow-hover: 0 16px 42px rgba(0, 0, 0, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.07);
+
+    --g-glow-a: color-mix(in srgb, var(--accent) 22%, transparent);
+    --g-glow-b: rgba(217, 173, 85, 0.13);
+    --g-glow-c: color-mix(in srgb, var(--accent) 12%, transparent);
+
+    --g-banner-from: #0b1d47;
+    --g-banner-to: #17407e;
+    --g-banner-glow: rgba(233, 189, 82, 0.30);
+}
+
+html[data-style="glass"][data-theme="light"] {
+    --g-card: color-mix(in srgb, var(--bg-surface) 66%, transparent);
+    --g-card-strong: color-mix(in srgb, var(--bg-surface) 82%, transparent);
+    --g-edge: rgba(255, 255, 255, 0.75);
+    --g-shadow: 0 10px 30px rgba(30, 50, 70, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    --g-shadow-hover: 0 16px 40px rgba(30, 50, 70, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+
+    --g-glow-a: color-mix(in srgb, var(--accent) 26%, transparent);
+    --g-glow-b: rgba(246, 178, 140, 0.42);
+    --g-glow-c: rgba(150, 214, 192, 0.42);
+}
+
+html[data-style="glass"][data-variant="mint"] {
+    --g-glow-a: rgba(132, 205, 178, 0.45);
+    --g-glow-b: rgba(247, 185, 150, 0.40);
+    --g-glow-c: rgba(255, 255, 255, 0.70);
+
+    --g-banner-from: #173a2f;
+    --g-banner-to: #2b5c4b;
+    --g-banner-glow: rgba(150, 230, 196, 0.25);
+}
+
+html[data-style="glass"][data-variant="midnight"] {
+    --g-glow-a: color-mix(in srgb, var(--accent) 14%, transparent);
+    --g-glow-b: rgba(217, 173, 85, 0.08);
+    --g-shadow: none;
+    --g-shadow-hover: 0 0 0 1px var(--border-medium);
+}
+
+/* ---------- Ambient background ---------- */
+
+html[data-style="glass"] body {
+    background: var(--bg-page);
+}
+
+html[data-style="glass"] body::before {
+    content: "";
+    position: fixed;
+    inset: -10%;
+    z-index: -1;
+    pointer-events: none;
+    background:
+        radial-gradient(38% 42% at 18% 12%, var(--g-glow-a), transparent 70%),
+        radial-gradient(34% 40% at 88% 86%, var(--g-glow-b), transparent 70%),
+        radial-gradient(30% 34% at 70% 20%, var(--g-glow-c), transparent 70%),
+        var(--bg-page);
+}
+
+html[data-style="glass"] .app-shell {
+    position: relative;
+    z-index: 0;
+}
+
+/* ---------- Header and footer: frosted, no hard lines ---------- */
+
+html[data-style="glass"] .site-header,
+html[data-style="glass"] .site-footer {
+    background: color-mix(in srgb, var(--bg-page) 40%, transparent);
+    backdrop-filter: var(--g-blur);
+    -webkit-backdrop-filter: var(--g-blur);
+    border-color: transparent;
+}
+
+html[data-style="glass"] .nav-toggle,
+html[data-style="glass"] .refresh-button {
+    border-radius: 999px;
+    border-color: var(--g-edge);
+    background: var(--g-card);
+}
+
+/* ---------- Side menu: floating rounded rail ---------- */
+
+html[data-style="glass"] .app-body {
+    grid-template-columns:
+        calc(var(--sidebar-width) * var(--font-scale, 1) + 20px) minmax(0, 1fr);
+}
+
+html[data-style="glass"] .main-nav {
+    top: calc(var(--header-height) + 10px);
+    bottom: calc(var(--footer-height, 40px) + 12px);
+    left: 14px;
+
+    border: 1px solid var(--g-edge);
+    border-radius: 24px;
+
+    background: var(--g-card-strong);
+    backdrop-filter: var(--g-blur);
+    -webkit-backdrop-filter: var(--g-blur);
+    box-shadow: var(--g-shadow);
+}
+
+html[data-style="glass"] .nav-link {
+    border-radius: 14px;
+    transition:
+        color 180ms ease,
+        background-color 180ms ease,
+        box-shadow 180ms ease,
+        transform 180ms ease;
+}
+
+html[data-style="glass"] .nav-link:hover {
+    background: var(--accent-soft);
+    color: var(--text-primary);
+}
+
+html[data-style="glass"] .nav-link.active {
+    background: var(--accent);
+    color: var(--bg-surface);
+    box-shadow: 0 6px 18px color-mix(in srgb, var(--accent) 40%, transparent);
+}
+
+html[data-style="glass"] .nav-link.active .nav-link-icon {
+    color: inherit;
+}
+
+html[data-style="glass"] .nav-link.active::after {
+    display: none;
+}
+
+/* Mint: the reel's dark green rail */
+html[data-style="glass"][data-variant="mint"] .main-nav {
+    background: linear-gradient(180deg, #1d4335, #163328);
+    border-color: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 14px 36px rgba(18, 52, 40, 0.28);
+}
+
+html[data-style="glass"][data-variant="mint"] .nav-link {
+    color: rgba(230, 244, 238, 0.72);
+}
+
+html[data-style="glass"][data-variant="mint"] .nav-link:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+}
+
+html[data-style="glass"][data-variant="mint"] .nav-link.active {
+    background: #bfe8d6;
+    color: #12332a;
+    box-shadow: 0 0 0 4px rgba(191, 232, 214, 0.18), 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* ---------- Page header: banner card ---------- */
+
+html[data-style="glass"] .page-header {
+    position: relative;
+    overflow: hidden;
+
+    padding: 26px 30px;
+
+    border: 1px solid var(--g-edge);
+    border-radius: 24px;
+
+    /* Follows the theme and colour palette */
+    background:
+        radial-gradient(55% 140% at 95% 0%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 65%),
+        linear-gradient(120deg,
+            color-mix(in srgb, var(--accent) 16%, var(--bg-surface)),
+            color-mix(in srgb, var(--accent) 6%, var(--bg-surface)));
+    color: var(--text-primary);
+
+    box-shadow: var(--g-shadow);
+}
+
+html[data-style="glass"] .page-header::after {
+    /* soft light sweep */
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(115deg, rgba(255, 255, 255, 0.07), transparent 42%);
+}
+
+html[data-style="glass"] .page-header .eyebrow {
+    color: var(--accent);
+}
+
+html[data-style="glass"] .page-header .page-title,
+html[data-style="glass"] .page-header .meta-value {
+    color: var(--text-primary);
+}
+
+html[data-style="glass"] .page-header .page-description,
+html[data-style="glass"] .page-header .meta-label {
+    color: var(--text-secondary);
+}
+
+html[data-style="glass"] .page-header-meta {
+    border-color: color-mix(in srgb, var(--accent) 30%, var(--border-subtle));
+}
+
+/* Mint keeps the reel's dark green banner */
+html[data-style="glass"][data-variant="mint"] .page-header {
+    border-color: transparent;
+    background:
+        radial-gradient(60% 120% at 92% 0%, var(--g-banner-glow), transparent 60%),
+        linear-gradient(120deg, var(--g-banner-from), var(--g-banner-to));
+    box-shadow: 0 14px 40px rgba(18, 52, 40, 0.25);
+}
+
+html[data-style="glass"][data-variant="mint"] .page-header .eyebrow {
+    color: #bfe8d6;
+}
+
+html[data-style="glass"][data-variant="mint"] .page-header .page-title,
+html[data-style="glass"][data-variant="mint"] .page-header .meta-value {
+    color: #ffffff;
+}
+
+html[data-style="glass"][data-variant="mint"] .page-header .page-description,
+html[data-style="glass"][data-variant="mint"] .page-header .meta-label {
+    color: rgba(235, 245, 240, 0.76);
+}
+
+html[data-style="glass"][data-variant="mint"] .page-header-meta {
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+/* ---------- Cards: frosted glass ---------- */
+
+html[data-style="glass"] .performance-card,
+html[data-style="glass"] .analytics-card,
+html[data-style="glass"] .summary-card,
+html[data-style="glass"] .news-card,
+html[data-style="glass"] .news-overview,
+html[data-style="glass"] .monitor-list-card,
+html[data-style="glass"] .methodology,
+html[data-style="glass"] .placeholder-panel,
+html[data-style="glass"] .empty-news-state,
+html[data-style="glass"] .error-panel {
+    border: 1px solid var(--g-edge);
+    border-radius: var(--g-radius);
+    background: var(--g-card);
+    backdrop-filter: var(--g-blur);
+    -webkit-backdrop-filter: var(--g-blur);
+    box-shadow: var(--g-shadow);
+}
+
+html[data-style="glass"] .card-header {
+    border-color: color-mix(in srgb, var(--border-subtle) 60%, transparent);
+}
+
+/* Small cards lift a little on hover */
+html[data-style="glass"] .summary-card,
+html[data-style="glass"] .news-card {
+    transition:
+        transform 220ms cubic-bezier(.2, .8, .2, 1),
+        box-shadow 220ms ease;
+}
+
+html[data-style="glass"] .summary-card:hover,
+html[data-style="glass"] .news-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--g-shadow-hover);
+}
+
+/* Big, bold numbers */
+html[data-style="glass"] .summary-card {
+    padding: 20px 22px;
+}
+
+html[data-style="glass"] .summary-card-value {
+    font-size: calc(34px * var(--font-scale, 1));
+    font-weight: 760;
+    letter-spacing: -0.03em;
+}
+
+/* ---------- Pills, tabs and inputs ---------- */
+
+html[data-style="glass"] .period-selector,
+html[data-style="glass"] .compare-range-selector,
+html[data-style="glass"] .explorer-dataset,
+html[data-style="glass"] .news-tabs {
+    border-color: var(--g-edge);
+    background: var(--g-card);
+    backdrop-filter: var(--g-blur);
+    -webkit-backdrop-filter: var(--g-blur);
+}
+
+html[data-style="glass"] .period-tab.active,
+html[data-style="glass"] .compare-range-tab.active,
+html[data-style="glass"] .explorer-dataset-tab.active {
+    box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 38%, transparent);
+}
+
+html[data-style="glass"] input[type="text"],
+html[data-style="glass"] input[type="search"],
+html[data-style="glass"] input[type="date"],
+html[data-style="glass"] input:not([type]),
+html[data-style="glass"] select,
+html[data-style="glass"] .custom-select-trigger {
+    border-radius: var(--g-radius-small);
+}
+
+html[data-style="glass"] .footer-annex,
+html[data-style="glass"] .footer-feedback {
+    border-radius: 999px;
+}
+
+/* ---------- Smooth page changes ---------- */
+
+/* Page changes animate through js/motion.js */
+
+@media (prefers-reduced-motion: reduce) {
+    html[data-style="glass"] .summary-card:hover,
+    html[data-style="glass"] .news-card:hover {
+        transform: none;
+    }
+}
+
+/* ---------- Settings: Style picker previews ---------- */
+
+.style-preview {
+    width: 46px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--border-medium);
+    background: var(--bg-page);
+    display: grid;
+    place-items: center;
+}
+
+.style-preview::after {
+    content: "";
+    width: 30px;
+    height: 18px;
+    border-radius: 3px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-medium);
+}
+
+.style-preview-glass {
+    background:
+        radial-gradient(70% 90% at 15% 15%, color-mix(in srgb, var(--accent) 40%, transparent), transparent 70%),
+        radial-gradient(70% 90% at 90% 90%, rgba(240, 180, 140, 0.5), transparent 70%),
+        var(--bg-page);
+}
+
+.style-preview-glass::after {
+    border-radius: 7px;
+    background: color-mix(in srgb, var(--bg-surface) 60%, transparent);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.18);
+}
+
+/* ---------- Phones: keep the bottom tab bar, just frosted ---------- */
+
+@media (max-width: 699px) and (pointer: coarse), (max-height: 500px) and (max-width: 1000px) and (pointer: coarse) {
+
+    html[data-style="glass"] .main-nav,
+    html[data-style="glass"] .app-shell.nav-collapsed .main-nav {
+        top: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: auto;
+        border-radius: 22px 22px 0 0;
+        border-width: 1px 0 0;
+    }
+
+    html[data-style="glass"] .nav-link.active {
+        box-shadow: none;
+    }
+
+    html[data-style="glass"] .page-header {
+        padding: 20px 18px;
+        border-radius: 20px;
+    }
+
+    html[data-style="glass"] .summary-card-value {
+        font-size: calc(28px * var(--font-scale, 1));
+    }
+
+    html[data-style="glass"] .summary-card:hover,
+    html[data-style="glass"] .news-card:hover {
+        transform: none;
+    }
+}
