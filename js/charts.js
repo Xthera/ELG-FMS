@@ -558,8 +558,137 @@ function refreshChartsForTheme() {
     updateChartsForTheme();
 }
 
+
+/* ============================================================
+   LINE MOTION
+   New lines draw from left to right; removed lines fade out.
+   Done with a clip window / transparency over the finished
+   chart, so it stays smooth even with thousands of points.
+   ============================================================ */
+
+const motionReduced = () =>
+    Boolean(window.matchMedia?.("(prefers-reduced-motion: reduce)").matches);
+
+const lineMotionPlugin = {
+    id: "zlLineMotion",
+
+    beforeDatasetDraw(chart, args) {
+        const state = chart.$zlMotion;
+        if (!state) return;
+
+        const ctx = chart.ctx;
+        ctx.save();
+        state.saved = (state.saved ?? 0) + 1;
+
+        if (state.fade?.has(args.index)) {
+            ctx.globalAlpha = state.alpha;
+        }
+
+        if (state.reveal?.has(args.index) && state.progress < 1) {
+            const { left, right, top, bottom } = chart.chartArea;
+            ctx.beginPath();
+            ctx.rect(left - 4, top - 6, (right - left) * state.progress + 4, bottom - top + 12);
+            ctx.clip();
+        }
+    },
+
+    afterDatasetDraw(chart) {
+        const state = chart.$zlMotion;
+        if (state?.saved) {
+            state.saved -= 1;
+            chart.ctx.restore();
+        }
+    },
+
+    afterDatasetsDraw(chart) {
+        // Glowing pen tip at the front of each line being drawn
+        const state = chart.$zlMotion;
+        if (!state?.reveal || state.progress >= 1) return;
+
+        const { left, right } = chart.chartArea;
+        const x = left + (right - left) * state.progress;
+        const ctx = chart.ctx;
+
+        for (const index of state.reveal) {
+            const meta = chart.getDatasetMeta(index);
+            if (!meta || meta.hidden || !meta.data?.length) continue;
+
+            let point = null;
+            for (const element of meta.data) {
+                if (element.skip || !Number.isFinite(element.y)) continue;
+                if (element.x > x) break;
+                point = element;
+            }
+            if (!point) continue;
+
+            const color = chart.data.datasets[index]?.borderColor ?? "#ffffff";
+            ctx.save();
+            ctx.shadowColor = color;
+            ctx.shadowBlur = 10;
+            ctx.fillStyle = color;
+            ctx.beginPath();
+            ctx.arc(point.x, point.y, 3.5, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.restore();
+        }
+    }
+};
+
+function runChartMotion(chart, state, duration, step, done) {
+    if (!chart || motionReduced()) {
+        done?.();
+        return;
+    }
+
+    chart.$zlMotion = state;
+    const started = performance.now();
+
+    const frame = now => {
+        if (!chart.ctx || chart.$zlMotion !== state) return;   // destroyed or replaced
+
+        const t = Math.min(1, (now - started) / duration);
+        step(t);
+        chart.draw();
+
+        if (t < 1) {
+            requestAnimationFrame(frame);
+        } else {
+            chart.$zlMotion = null;
+            done?.();
+        }
+    };
+
+    requestAnimationFrame(frame);
+}
+
+const easeInOut = t => (t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2);
+
+/* Draw the given datasets (indexes) from start to end. */
+function revealChartLines(chart, indexes, duration = 1200) {
+    const reveal = new Set(indexes);
+    if (!chart || !reveal.size) return;
+
+    const state = { reveal, progress: 0 };
+    runChartMotion(chart, state, duration, t => { state.progress = easeInOut(t); });
+}
+
+/* Fade the given datasets (indexes) away, then call done. */
+function fadeChartLines(chart, indexes, done, duration = 320) {
+    const fade = new Set(indexes);
+    if (!chart || !fade.size) {
+        done?.();
+        return;
+    }
+
+    const state = { fade, alpha: 1 };
+    runChartMotion(chart, state, duration, t => { state.alpha = 1 - t; }, done);
+}
+
 export {
     chartRegistry,
+    lineMotionPlugin,
+    revealChartLines,
+    fadeChartLines,
     getFontScale,
     createChart,
     createPerformanceChart,

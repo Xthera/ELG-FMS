@@ -21,7 +21,10 @@ import { placeDropdown } from "./dropdown-place.js";
 import {
     createChart,
     destroyChart,
-    getFontScale
+    getFontScale,
+    lineMotionPlugin,
+    revealChartLines,
+    fadeChartLines
 } from "./charts.js";
 
 
@@ -458,7 +461,39 @@ function createCompare(cfg) {
         }
     };
 
+    /*
+     * Chart motion: a newly added line draws from start to end, a
+     * removed line fades away, and a new period redraws every line.
+     */
+    const lineMotion = { ids: [], period: null, token: 0 };
+
     function renderChart(model) {
+        const ids = model.series.map(item => item.id);
+        const removed = lineMotion.ids
+            .map((id, index) => (ids.includes(id) ? -1 : index))
+            .filter(index => index >= 0);
+        const current = window.Chart?.getChart?.(CANVAS_ID);
+        const token = ++lineMotion.token;
+
+        if (removed.length && current) {
+            fadeChartLines(current, removed, () => {
+                if (token === lineMotion.token) drawChart(model);
+            });
+            return;
+        }
+
+        drawChart(model);
+    }
+
+    function drawChart(model) {
+        const ids = model.series.map(item => item.id);
+        const period = `${compare.range}|${model.startDate ?? ""}|${model.endDate ?? ""}`;
+        const previousIds = lineMotion.ids;
+        const newPeriod = period !== lineMotion.period;
+
+        lineMotion.ids = ids;
+        lineMotion.period = period;
+
         const canvasWrap = qs(`#${cfg.id}-canvas-wrap`);
         const empty = qs(`#${cfg.id}-empty`);
 
@@ -520,12 +555,12 @@ function createCompare(cfg) {
             };
         });
 
-        createChart(CANVAS_ID, {
+        const chart = createChart(CANVAS_ID, {
             type: "line",
 
             data: { labels, datasets },
 
-            plugins: [crosshairPlugin],
+            plugins: [crosshairPlugin, lineMotionPlugin],
 
             options: {
                 responsive: true,
@@ -632,6 +667,13 @@ function createCompare(cfg) {
                 }
             }
         });
+
+        // New period: redraw every line. Otherwise draw only the new ones.
+        const drawIndexes = ids
+            .map((id, index) => (newPeriod || !previousIds.includes(id) ? index : -1))
+            .filter(index => index >= 0);
+
+        revealChartLines(chart, drawIndexes);
     }
 
 

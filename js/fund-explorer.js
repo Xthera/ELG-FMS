@@ -23,7 +23,9 @@ import { placeDropdown } from "./dropdown-place.js";
 import {
     createChart,
     destroyChart,
-    getFontScale
+    getFontScale,
+    lineMotionPlugin,
+    revealChartLines
 } from "./charts.js";
 
 import {
@@ -258,6 +260,13 @@ function buildRow(fund) {
         // Set by the data build when this fund failed to update and its
         // last good data is shown instead
         staleSince: fund?.updateStatus?.status === "stale" ? staleDate(fund.updateStatus.lastSuccessfulUpdateUtc) : null,
+        // PruAccess down: latest BID taken from the Prudential website
+        websitePrice: fund?.updateStatus?.status === "website"
+            ? {
+                asAt: details.valuationDate ?? "",
+                since: staleDate(fund.updateStatus.lastSuccessfulUpdateUtc)
+            }
+            : null,
         geographies,
         sectors,
         holdings,
@@ -705,7 +714,7 @@ function renderTable() {
                             <div class="explorer-fund-text">
                                 <div class="fund-name">${escapeHtml(row.name)}</div>
                                 <div class="fund-meta">
-                                    ${escapeHtml(row.code)}${row.hasDividend ? ` · <span class="explorer-dividend-tag">Dividend</span>` : ""}${row.staleSince ? ` · <span class="explorer-stale-tag" title="This fund could not be updated in the latest data run">Not updated since ${escapeHtml(row.staleSince)}</span>` : ""}
+                                    ${escapeHtml(row.code)}${row.hasDividend ? ` · <span class="explorer-dividend-tag">Dividend</span>` : ""}${row.staleSince ? ` · <span class="explorer-stale-tag" title="This fund could not be updated in the latest data run">Not updated since ${escapeHtml(row.staleSince)}</span>` : ""}${row.websitePrice ? ` · <span class="explorer-website-tag" title="PruAccess (the usual price source) has not updated since ${escapeHtml(row.websitePrice.since)}. The latest BID price${row.websitePrice.asAt ? ` (as at ${escapeHtml(row.websitePrice.asAt)})` : ""} comes from the Prudential website instead.">Price from Prudential website</span>` : ""}
                                 </div>
                                 ${holdingNote}
                             </div>
@@ -787,6 +796,7 @@ function ensureDialog() {
 
         dialog.addEventListener("close", () => {
             document.body.classList.remove("has-news-dialog");
+            lastProfileMotionKey = null;
             destroyChart(PROFILE_CHART_ID);
         });
 
@@ -1144,6 +1154,8 @@ function setChartStatus(message) {
     }
 }
 
+let lastProfileMotionKey = null;
+
 function renderProfileChart() {
     const dialog = document.getElementById("fund-dialog");
 
@@ -1295,7 +1307,7 @@ function renderProfileChart() {
         }
     };
 
-    createChart(PROFILE_CHART_ID, {
+    const profileChart = createChart(PROFILE_CHART_ID, {
         type: "line",
 
         data: {
@@ -1317,7 +1329,7 @@ function renderProfileChart() {
             ]
         },
 
-        plugins: [crosshair],
+        plugins: [crosshair, lineMotionPlugin],
 
         options: {
             responsive: true,
@@ -1388,6 +1400,13 @@ function renderProfileChart() {
             }
         }
     });
+
+    // Draw the line from start to end when a fund or period is opened
+    const motionKey = `${fundId}|${range}|${qs("#fund-chart-from")?.value ?? ""}|${qs("#fund-chart-to")?.value ?? ""}`;
+    if (profileChart && motionKey !== lastProfileMotionKey) {
+        revealChartLines(profileChart, profileChart.data.datasets.map((_, index) => index));
+    }
+    lastProfileMotionKey = motionKey;
 }
 
 function bindChartControls(dialog) {
@@ -1464,6 +1483,7 @@ function openProfile(id) {
                     ${row.isIndex ? (row.assetClass && row.assetClass !== "—" ? `<span class="news-badge">${escapeHtml(row.assetClass)}</span>` : "") : `<span class="risk-pill risk-${row.riskOrder}">${escapeHtml(row.risk)}</span>`}
                     ${row.hasDividend ? `<span class="news-badge explorer-dividend-badge">Pays dividend</span>` : ""}
                     ${row.staleSince ? `<span class="news-badge explorer-stale-badge" title="This fund could not be updated in the latest data run">Not updated since ${escapeHtml(row.staleSince)}</span>` : ""}
+                    ${row.websitePrice ? `<span class="news-badge explorer-website-badge" title="PruAccess (the usual price source) has not updated since ${escapeHtml(row.websitePrice.since)}. The latest BID price comes from the Prudential website instead; earlier prices are from PruAccess.">Price from Prudential website</span>` : ""}
                 </div>
 
                 ${details.valuationDate ? `

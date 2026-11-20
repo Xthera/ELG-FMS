@@ -233,8 +233,8 @@ let indexLinker = null;
 
 const STORAGE_KEYS = {
 
-    theme: "vgrat-fms-theme",
-    accent: "vgrat-fms-accent",
+    theme: "elg-fms-theme",
+    accent: "elg-fms-accent",
 
     view: "vgrat-fms-view",
 
@@ -242,7 +242,7 @@ const STORAGE_KEYS = {
 
     navCollapsed: "vgrat-fms-nav-collapsed",
 
-    fontSize: "vgrat-fms-font-size"
+    fontSize: "elg-fms-font-size"
 
 };
 
@@ -362,6 +362,7 @@ const THEMES = {
     midnight: { base: "dark",  variant: "midnight", label: "Midnight", icon: "●" },
     light:    { base: "light", variant: null,       label: "Light",    icon: "☀" },
     sepia:    { base: "light", variant: "sepia",    label: "Sepia",    icon: "❧" },
+    mint:     { base: "light", variant: "mint",     label: "Mint",     icon: "❦" },
     auto:     { base: null,    variant: null,       label: "Auto",     icon: "◑" }
 };
 
