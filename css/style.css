@@ -12013,3 +12013,62 @@ html[data-style="glass"] .app-body {
         animation: none;
     }
 }
+
+/* Plan Calculator: fields marked hidden stay hidden, even when a
+   layout rule (display: flex / grid) is set on them. */
+.calc-card [hidden] {
+    display: none !important;
+}
+
+/* Plan Calculator: one expected-return box per chosen fund */
+.calc-returns-block {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.calc-returns-title {
+    color: var(--text-muted);
+    font-size: calc(10px * var(--font-scale, 1));
+    font-weight: 750;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.calc-returns {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 10px 14px;
+}
+
+.calc-return-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 88px;
+    align-items: center;
+    gap: 10px;
+}
+
+.calc-return-row > span {
+    overflow: hidden;
+    color: var(--text-primary);
+    font-size: calc(13px * var(--font-scale, 1));
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.calc-return-row input {
+    text-align: right;
+}
+
+.calc-returns-empty {
+    margin: 0;
+}
+
+@media (max-width: 699px) {
+    .calc-returns {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
