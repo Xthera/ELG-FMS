@@ -21,6 +21,7 @@
         {
           "title": "Improved",
           "items": [
+            "Plan Calculator: each chosen fund now has its own expected return rate, and each fund grows at its own rate in the projected values.",
             "Settings: style, theme, colour palette and text size are now saved separately for each dashboard, so changing one dashboard no longer changes the others. Your current choices carry over the first time you open it.",
             "More reliable automatic updates: the market news analysis tries again when the AI service is busy, and data updates that finish at the same time no longer block each other.",
             "The user guide is updated for this version."
@@ -29,7 +30,8 @@
         {
           "title": "Fixed",
           "items": [
-            "Settings > Update schedule: Index closes now shows the actual schedule (daily at 6:30 am), and the Income Boost index update is listed."
+            "Settings > Update schedule: Index closes now shows the actual schedule (daily at 6:30 am), and the Income Boost index update is listed.",
+            "Plan Calculator: Payout starts at age now appears only when a dividend-paying fund's dividends are paid out, and the Investment Booster withdrawal box only when it applies."
           ]
         }
       ]
