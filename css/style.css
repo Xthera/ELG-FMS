@@ -11937,3 +11937,79 @@ button.footer-version:hover {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
+
+
+/* ============================================================
+   MENU EXPANDS AND SHRINKS FROM THE LOGO
+   Pressing the logo switches the side menu between the full
+   menu (icons and names) and the narrow icon column.
+   Phones keep the bottom bar.
+   ============================================================ */
+
+button.brand {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button.brand:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
+
+button.brand .brand-mark {
+    transition: transform 220ms ease;
+}
+
+button.brand:hover .brand-mark {
+    transform: scale(1.06);
+}
+
+button.brand:active .brand-mark {
+    transform: scale(0.94);
+}
+
+.app-body,
+html[data-style="glass"] .app-body {
+    transition: grid-template-columns 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.main-nav {
+    transition: width 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.app-shell:not(.nav-collapsed) .nav-link-label {
+    animation: navLabelIn 260ms ease 120ms both;
+}
+
+@keyframes navLabelIn {
+    from { opacity: 0; transform: translateX(-6px); }
+    to   { opacity: 1; transform: none; }
+}
+
+@media (max-width: 699px) and (pointer: coarse), (max-height: 500px) and (max-width: 1000px) and (pointer: coarse) {
+
+    button.brand {
+        cursor: default;
+    }
+
+    .app-shell:not(.nav-collapsed) .nav-link-label {
+        animation: none;
+    }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .app-body,
+    .main-nav {
+        transition: none;
+    }
+    .app-shell:not(.nav-collapsed) .nav-link-label {
+        animation: none;
+    }
+}
