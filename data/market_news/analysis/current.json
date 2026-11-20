@@ -1,10 +1,399 @@
 {
-  "generatedAtSgt": "2026-11-20T05:56:08.785102+08:00",
+  "generatedAtSgt": "2026-11-20T21:16:46.951047+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 204,
+  "articleCount": 217,
   "analyses": [
+    {
+      "articleId": "1729535624ab7a3a3b2c577dd825b00103b08d2418343e1e9547ecdee4bb0e19",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Anthropic successfully held a record initial public offering despite challenging market conditions, which included Nvidia's CEO Jensen Huang exiting the chip giant, anti-AI voter sentiment in midterm elections, and rising interest rates.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The successful IPO of a major artificial intelligence company amidst turbulent market conditions and political headwinds indicates ongoing robust investor appetite for prime tech assets, signaling potential resilience in the tech IPO window.",
+      "reasoning": "Classified as MARKET due to the primary focus on an initial public offering under difficult macro conditions. Sentiment is POSITIVE because the company managed to pull off a record IPO despite significant headwinds.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic defies the odds, holding record IPO despite ‘massively disruptive’ market",
+      "publishedAtSgt": "2026-11-20T20:45:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
+    },
+    {
+      "articleId": "c3132180e56e178313d3c446af061d482b7db474dd92283ddf824c7bb09029e4",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Anthropic shares fell 8% in premarket trading following a broader AI sector selloff that also impacted Nvidia and AMD. Investors remain concerned about high capital expenditures, export controls, and leadership changes within the semiconductor industry.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "Asia"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The selloff highlights ongoing volatility and mounting investor skepticism regarding AI sector valuations, capital expenditure sustainability, and regulatory headwinds impacting major tech and semiconductor holdings.",
+      "reasoning": "The article is classified as MARKET and HIGH importance due to its direct discussion of a major sector-wide selloff in high-profile AI and semiconductor stocks, which carries significant implications for equity portfolios exposed to technology.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic shares fall 8% in premarket amid AI selloff as Nvidia, AMD shares drop",
+      "publishedAtSgt": "2026-11-20T20:08:50+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
+    },
+    {
+      "articleId": "fe1acb282f63208e16a4008f36f99159c2bcb1ae0619a2a72830af7bc49e33fc",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "LOW",
+      "summary": "Iceland's Blue Lagoon operator raised roughly 14.3 billion Icelandic kronur ($110 million) in an initial public offering, valuing the geothermal spa company at approximately $787 million, contrasting with broader market fixation on tech IPOs like Anthropic.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Iceland",
+        "Europe"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Tourism",
+        "Leisure"
+      ],
+      "investorImpact": "Highlights regional European equity market activity and niche public offerings, offering limited broader market impact but notable for local tourism and leisure sector sentiment.",
+      "reasoning": "Classified as MARKET because it details a specific initial public offering and valuation for a company, though importance is LOW due to its regional scope and niche sector.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Forget Anthropic: In Europe, the IPO hype is about a blue lagoon",
+      "publishedAtSgt": "2026-11-20T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-iceland-blue-lagoon.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
+    },
+    {
+      "articleId": "f08b664f31d31f70894871e091ca81e3d199f77eda084e8395a35733fc8e046a",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "The U.K.-India trade deal faces challenges as New Delhi resists extending preferential tariffs to bulk Scotch whisky imports, planning instead to levy a 162.5% duty which is higher than the pre-deal 150% rate.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "United Kingdom",
+        "India"
+      ],
+      "sectors": [
+        "Consumer Goods",
+        "Beverages"
+      ],
+      "investorImpact": "The trade friction could negatively impact beverage companies and exporters dealing in bulk Scotch whisky in the U.K. and India, signaling potential hurdles in bilateral trade negotiations.",
+      "reasoning": "Classified as GEOPOLITICAL due to trade agreement disputes between the U.K. and India. Sentiment is negative because proposed tariffs are higher than expected and higher than pre-deal levels. Fund monitoring relevance is true as it highlights risks in international trade and consumer goods sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "U.K.-India trade deal faces a stiff test over Scotch whisky import taxes",
+      "publishedAtSgt": "2026-11-20T13:09:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/uk-india-trade-scotch-whisky-tariffs.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
+    },
+    {
+      "articleId": "d9951f1a646c27f23d805805ace98e3f365658d818945d214d8b1ebc039a1fb4",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "The Senate has passed the BAAJA permitting reform bill, which aims to ease environmental permitting laws and overhaul electrical transmission regulations. The legislation is strongly supported by the AI, energy, and technology sectors to boost infrastructure construction and lower consumer prices.",
+      "assetClasses": [
+        "Equities",
+        "Infrastructure",
+        "Energy"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy",
+        "Utilities"
+      ],
+      "investorImpact": "The bill provides regulatory tailwinds for energy, utilities, and technology sectors by streamlining permitting processes, potentially reducing capital expenditure hurdles and accelerating infrastructure projects.",
+      "reasoning": "The legislation directly impacts major sectors relevant to fund monitoring by addressing structural regulatory barriers for energy systems and AI infrastructure.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+      "publishedAtSgt": "2026-11-20T11:56:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
+    },
+    {
+      "articleId": "4bae03e2ae02abb69294a14bc982ff91ab427563cd56316eed7460f9ec54e38d",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Anthropic's highly anticipated IPO is seen by analysts as a potential catalyst to revive market sentiment following recent negativity in the AI sector, though investors are warned against chasing the initial price volatility.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The IPO serves as a key sentiment driver for the broader AI sector and equity markets, offering potential upside while warning of short-term volatility risks.",
+      "reasoning": "Classified as MARKET because it discusses a major IPO and its impact on market sentiment and volatility, making it highly significant for portfolio and equity monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic IPO 'exactly what the markets need', but analysts warn of volatility",
+      "publishedAtSgt": "2026-11-20T10:33:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-stocks-market.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-20T11:23:29+08:00"
+    },
+    {
+      "articleId": "77f2a37b924dc79c8009a9faa51d2136e8025af4d8ca688e76b3be343a57f273",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "SoftBank Group shares plunged over 16%, dragging down Asian technology stocks amid a broader AI sector sell-off following Anthropic's market debut and mounting investor concerns over AI infrastructure returns.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Japan",
+        "Asia"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "The significant sell-off in major tech holdings like SoftBank highlights heightened volatility and shifting sentiment within the artificial intelligence sector, signaling potential valuation risks and retrenchment for tech-heavy portfolios.",
+      "reasoning": "Classified as MARKET due to the sharp equity price drop and sector-wide sell-off. Importance is HIGH because it impacts major technology indices, Asian markets, and high-profile AI investments. Fund monitoring is relevant due to the systemic implications for tech allocations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+      "publishedAtSgt": "2026-11-20T10:14:50+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-20T11:23:30+08:00"
+    },
+    {
+      "articleId": "ae86681885491886aa70010e147bd5cde623fe2e7d13d05b5d4c0e50d4733996",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Japan's core inflation rose to 2.2% in October due to energy subsidy expirations and high energy costs, prompting the government to reintroduce subsidies in December to support consumption and growth.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income",
+        "Currencies"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "sectors": [
+        "Energy",
+        "Consumer Goods"
+      ],
+      "investorImpact": "Rising inflation and consumer pressure can negatively impact domestic consumption and net exports in Japan, potentially influencing Bank of Japan monetary policy and Japanese Yen dynamics.",
+      "reasoning": "Classified as ECONOMIC because it deals with core inflation data and government policy interventions like energy subsidies. It is relevant for fund monitoring as macroeconomic trends in Japan affect local asset classes and currency markets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+      "publishedAtSgt": "2026-11-20T09:49:03+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-20T11:23:29+08:00"
+    },
+    {
+      "articleId": "b0acf6a8ecc5edd0734b287955e34bb15f2c87c832645ca08ed951f4911fdae5",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The anticipated Anthropic IPO failed to revive the tech sector amid choppy trading, an Nvidia espionage scandal, and growing concerns over potential slumps in AI chip sales to Asia due to tightened Washington export controls.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "Asia"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors face heightened volatility and risk in AI-related tech stocks due to regulatory crackdowns, geopolitical export controls, and recent corporate scandals.",
+      "reasoning": "Classified as TECHNOLOGY due to its focus on the AI trade, IPO markets, and semiconductor export controls. Sentiment is negative reflecting slumping tech sentiment and regulatory pressures.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
+      "publishedAtSgt": "2026-11-20T08:00:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-20T11:23:29+08:00"
+    },
+    {
+      "articleId": "ab67e68c49482123f72acbc6ebf29e71987fbf8ccc2156bc39d5535ae94a407a",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Lumentum's CEO defended the planned merger with Marvell following a sharp decline in the stock prices of both companies. The deal aims to combine Marvell's semiconductor and networking technology with Lumentum's optical components for AI data centers, although investor pushback and broader market factors have impacted share prices.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors in Lumentum and Marvell face heightened volatility and concerns regarding the strategic fit and shareholder value of the proposed merger, impacting sector sentiment.",
+      "reasoning": "The article is classified under MARKET as it covers corporate M&A activity, executive defense of a major deal, and significant stock price declines for the involved companies. It is relevant for fund monitoring due to its impact on the technology and semiconductor sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Lumentum CEO defends Marvell deal after stock plunge: 'We've got work to do' with shareholders",
+      "publishedAtSgt": "2026-11-20T07:47:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/lumentum-marvell-deal-ceo-shareholders-cramer.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 100,
+      "collectorRelevanceReason": "financial_market_legal_story",
+      "collectedAtSgt": "2026-11-20T11:23:31+08:00"
+    },
+    {
+      "articleId": "4d08491604a38937502dbf5103d1f9585bbe42a0a92531db98329b0466ba078e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Anthropic completed a record-setting initial public offering, selling 930 million shares at $83 each.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "The record-setting IPO signals strong market appetite for artificial intelligence companies and sets a new benchmark for tech valuations.",
+      "reasoning": "The article details a historic market event involving a major technology company's initial public offering, making it highly relevant for market and investment analysis.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Here's how big Anthropic’s record-setting IPO is: Visualization",
+      "publishedAtSgt": "2026-11-20T07:32:18+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/ant-stock-anthropic-record-setting-ipo.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-20T11:23:30+08:00"
+    },
+    {
+      "articleId": "d63bc27efa5e669aa9c3d1d001b250219673f4966b7c1c5182da5799089d924e",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia's ongoing sell-off, driven by a recent leadership shake-up, is outweighing optimism from Anthropic's stock market debut and negatively impacting the broader artificial intelligence sector, according to Jim Cramer.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors in the artificial intelligence and semiconductor sectors face heightened volatility and downward pressure as Nvidia's sell-off overshadows positive catalysts like Anthropic's debut, signaling potential near-term weakness in tech-heavy portfolios.",
+      "reasoning": "Classified as MARKET because it discusses stock performance, sector-wide sell-offs, and investor sentiment regarding major AI companies. It is important due to Nvidia's status as a bellwether for the entire AI trade.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Cramer says Nvidia’s woes are trumping Anthropic excitement for the rest of the AI trade",
+      "publishedAtSgt": "2026-11-20T07:22:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-anthropic-ipo-ai-trade.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-20T11:23:30+08:00"
+    },
+    {
+      "articleId": "ee2fe0b054c8961a47f0386b38fe6386a5fd728f6abf3dd592bc1ffd6dbaf5b2",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "California Attorney General Rob Bonta issued an investigative subpoena to Nvidia regarding potential violations of U.S. export controls concerning advanced semiconductor chips ending up in China, and potential misleading of investors.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States",
+        "China",
+        "California"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The legal and regulatory scrutiny from the California AG introduces headline risk, potential compliance costs, and regulatory uncertainty for Nvidia and the broader semiconductor sector.",
+      "reasoning": "Classified as TECHNOLOGY and HIGH importance because a subpoena from a state attorney general regarding potential export control violations and investor deception directly impacts a major tech bellwether and presents regulatory risk.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
+      "publishedAtSgt": "2026-11-20T07:21:23+08:00",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-20T11:23:29+08:00"
+    },
     {
       "articleId": "ab78c1ca78969ba5abcfa661bafe7ec7528d18dd68e56c78e12e889f9b41bc8f",
       "relevant": true,
