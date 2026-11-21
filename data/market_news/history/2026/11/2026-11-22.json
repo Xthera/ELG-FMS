@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-22",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "ed23bc2a1ab6a37da3d5475e1d4f41c8ca3cd04b57beeee1cd7e85a4634b804b",
+      "source": "CNBC",
+      "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+      "publishedAtSgt": "2026-11-22T00:40:05+08:00",
+      "url": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Startup investor Ben Narasin is so jazzed about Anthropic's blockbuster IPO that he's planning a party later this month at his Silicon Valley home. Investors and analysts spent the week debating whether Anthropic will trade alongside AI hardware, as it's reliant on advanced chips, memory and data centers, or whether it will stand alone as the first public pure-play AI developer and a company that's achieved unrivaled growth in less than six years of existence.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-22T04:08:13+08:00"
+    }
+  ],
+  "articleCount": 1,
+  "updatedAtSgt": "2026-11-22T04:08:13+08:00"
+}
