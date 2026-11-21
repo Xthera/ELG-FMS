@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-21T05:11:03+08:00",
+  "generatedAtSgt": "2026-11-21T11:15:31+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,23 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "52f1c6badf26d639ca25d6616619c82d87c59b4fbcdd42309829d1fa5c7c44f6",
+      "source": "CNBC",
+      "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
+      "publishedAtSgt": "2026-11-21T06:08:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "policy allowing the sale of Nvidia's powerful H200 AI chips to China remains unchanged following the talks in Shenzhen this week. But the trilateral summit appeared to yield few deliverables on any number of the most pressing global issues related to the countries, including the Ukraine and Iran wars or the ongoing AI race. Bessent told CNBC on Friday that there was a \"robust discussion\" between Trump and Xi on trade policy and AI.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T11:15:31+08:00"
+    },
     {
       "id": "757302a61645a564d2a8046405195f4fde6cffd1924259ff24e77fbae89dc385",
       "source": "CNBC",
@@ -1580,22 +1597,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-11-17T04:32:11+08:00"
-    },
-    {
-      "id": "2159deb4e92e9cc686c9fc91df3e9f0e7a0afbb1f2e3cbb09454442d68c86fe1",
-      "source": "CNBC",
-      "title": "Bitcoin slides to $62,000 following liquidation cascade, then rebounds slightly",
-      "publishedAtSgt": "2026-11-17T01:52:38+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/bitcoin-slides-to-62000-following-liquidation-cascade-then-rebounds-slightly.html",
-      "category": "MARKET",
-      "relevanceScore": 100,
-      "relevanceReason": "financial_market_legal_story",
-      "summary": "Bitcoin fell to its lowest levels since August over the weekend as a wave of forced liquidations accelerated amid broader weakening in market liquidity and risk appetite. On Friday, the dollar index — which has an inverse relationship with bitcoin — reached its highest level since April 2025, following hotter-than-expected inflation earlier this week that increased expectations of further Fed tightening.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
     }
   ]
 }

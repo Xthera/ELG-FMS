@@ -5,6 +5,23 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "52f1c6badf26d639ca25d6616619c82d87c59b4fbcdd42309829d1fa5c7c44f6",
+      "source": "CNBC",
+      "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
+      "publishedAtSgt": "2026-11-21T06:08:41+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "policy allowing the sale of Nvidia's powerful H200 AI chips to China remains unchanged following the talks in Shenzhen this week. But the trilateral summit appeared to yield few deliverables on any number of the most pressing global issues related to the countries, including the Ukraine and Iran wars or the ongoing AI race. Bessent told CNBC on Friday that there was a \"robust discussion\" between Trump and Xi on trade policy and AI.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T11:15:31+08:00"
+    },
+    {
       "id": "757302a61645a564d2a8046405195f4fde6cffd1924259ff24e77fbae89dc385",
       "source": "CNBC",
       "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
@@ -100,6 +117,6 @@
       "collectedAtSgt": "2026-11-21T05:10:56+08:00"
     }
   ],
-  "articleCount": 6,
-  "updatedAtSgt": "2026-11-21T05:10:58+08:00"
+  "articleCount": 7,
+  "updatedAtSgt": "2026-11-21T11:15:31+08:00"
 }
