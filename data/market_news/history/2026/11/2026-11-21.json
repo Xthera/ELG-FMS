@@ -5,6 +5,37 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "a69f2c37b29c331c39dd67b195a7177c3fadc346435f89d6d56ba78503b02cea",
+      "source": "CNBC",
+      "title": "An early breakdown in the polar vortex is threatening already depleted gas stocks",
+      "publishedAtSgt": "2026-11-21T14:00:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/21/polar-vortex-europe-gas-prices.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "An unprecedented early breakdown of the stratospheric polar vortex and a record-breaking El Niño event has put energy traders on alert this winter, with analysts warning the weather and climate phenomena could have an outsized impact on Europe. The International Energy Agency warned earlier this month that low European storage levels and limited storage options in several LNG-importing countries in Asia and South America could intensify the competition for cargoes and put upward pressure on...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T20:43:36+08:00"
+    },
+    {
+      "id": "c6080175c0c2d9170d3808cf2d4787fc913cd16b8e07ccb2e000b29e564939b0",
+      "source": "CNBC",
+      "title": "Why Anthropic's blockbuster IPO couldn't escape the market correction",
+      "publishedAtSgt": "2026-11-21T13:30:09+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But what came within a day is something that investors better get used to: anxiety in the stock market about valuations being assigned to artificial intelligence revenue and business models that should keep Anthropic shares volatile in the period ahead. \"The volatility in the AI trade we've been seeing for the past few months stems from valuations and whether we are in a bubble, and that's been heightened and highlighted by the Anthropic IPO,\" Marquez said on \"ETF Edge\" on Friday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-21T20:43:36+08:00"
+    },
+    {
       "id": "52f1c6badf26d639ca25d6616619c82d87c59b4fbcdd42309829d1fa5c7c44f6",
       "source": "CNBC",
       "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
@@ -117,6 +148,6 @@
       "collectedAtSgt": "2026-11-21T05:10:56+08:00"
     }
   ],
-  "articleCount": 7,
-  "updatedAtSgt": "2026-11-21T11:15:31+08:00"
+  "articleCount": 9,
+  "updatedAtSgt": "2026-11-21T20:43:36+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-21T11:15:31+08:00",
+  "generatedAtSgt": "2026-11-21T20:43:36+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,37 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "a69f2c37b29c331c39dd67b195a7177c3fadc346435f89d6d56ba78503b02cea",
+      "source": "CNBC",
+      "title": "An early breakdown in the polar vortex is threatening already depleted gas stocks",
+      "publishedAtSgt": "2026-11-21T14:00:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/21/polar-vortex-europe-gas-prices.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "An unprecedented early breakdown of the stratospheric polar vortex and a record-breaking El Niño event has put energy traders on alert this winter, with analysts warning the weather and climate phenomena could have an outsized impact on Europe. The International Energy Agency warned earlier this month that low European storage levels and limited storage options in several LNG-importing countries in Asia and South America could intensify the competition for cargoes and put upward pressure on...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-21T20:43:36+08:00"
+    },
+    {
+      "id": "c6080175c0c2d9170d3808cf2d4787fc913cd16b8e07ccb2e000b29e564939b0",
+      "source": "CNBC",
+      "title": "Why Anthropic's blockbuster IPO couldn't escape the market correction",
+      "publishedAtSgt": "2026-11-21T13:30:09+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But what came within a day is something that investors better get used to: anxiety in the stock market about valuations being assigned to artificial intelligence revenue and business models that should keep Anthropic shares volatile in the period ahead. \"The volatility in the AI trade we've been seeing for the past few months stems from valuations and whether we are in a bubble, and that's been heightened and highlighted by the Anthropic IPO,\" Marquez said on \"ETF Edge\" on Friday.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-21T20:43:36+08:00"
+    },
     {
       "id": "52f1c6badf26d639ca25d6616619c82d87c59b4fbcdd42309829d1fa5c7c44f6",
       "source": "CNBC",
@@ -1567,36 +1598,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-17T04:32:08+08:00"
-    },
-    {
-      "id": "d8ede03065549458634d686c256d2fab1fa9c315c1fcdf1efe302670b8822567",
-      "source": "CNBC",
-      "title": "Anthropic IPO guide: Everything you need to know",
-      "publishedAtSgt": "2026-11-17T02:27:56+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Anthropic, PBC's CNBC stock page is at www.cnbc.com/quotes/ANT/ Leadup to the IPO: - Anthropic opens Australian retail IPO offering as AI scrutiny intensifies - Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say - Investors brace for lower Anthropic valuation, calling $1.5 trillion a ‘stretch’ - Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1 - Anthropic’s path to the Nasdaq just got a lot bumpier -...",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
-    },
-    {
-      "id": "ccaa04c3d21b089e3620a1d8b667ef7ba1f9240bad7e32f6f036935b808bbd18",
-      "source": "CNBC",
-      "title": "Nvidia stock falls as investors price in fallout from Jensen Huang's resignation",
-      "publishedAtSgt": "2026-11-17T02:21:41+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/nvidia-stock-price-jensen-huang.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Nvidia's stock continued to slide in the wake of CEO Jensen Huang's resignation, falling around 4% on Monday after the chip giant lost hundreds of billions in market cap last week. Huang cofounded Nvidia in 1993 and led the company through its meteoric rise to becoming the world's most valuable company, with its AI chips underpinning the technology's boom. He also suggested other Nvidia executives should face scrutiny over the chip giant's compliance with U.S.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:11+08:00"
     }
   ]
 }
