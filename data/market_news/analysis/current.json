@@ -1,10 +1,71 @@
 {
-  "generatedAtSgt": "2026-11-21T05:27:02.809331+08:00",
+  "generatedAtSgt": "2026-11-21T20:59:19.530513+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 209,
+  "articleCount": 211,
   "analyses": [
+    {
+      "articleId": "a69f2c37b29c331c39dd67b195a7177c3fadc346435f89d6d56ba78503b02cea",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "An early breakdown of the stratospheric polar vortex combined with a record-breaking El Niño event is threatening depleted European gas stocks, raising concerns of heightened competition for LNG cargoes and upward pressure on energy prices.",
+      "assetClasses": [
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "Europe",
+        "Asia",
+        "South America"
+      ],
+      "sectors": [
+        "Energy",
+        "Utilities"
+      ],
+      "investorImpact": "The weather events and depleted storage levels are expected to drive up energy and gas prices, increasing costs for utilities and potentially heightening volatility across commodity markets.",
+      "reasoning": "The article discusses significant macro-level weather catalysts directly impacting critical energy commodities and inventories, which is highly relevant for market monitoring and energy sector positioning.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "An early breakdown in the polar vortex is threatening already depleted gas stocks",
+      "publishedAtSgt": "2026-11-21T14:00:02+08:00",
+      "url": "https://www.cnbc.com/2026/11/21/polar-vortex-europe-gas-prices.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-21T20:43:36+08:00"
+    },
+    {
+      "articleId": "c6080175c0c2d9170d3808cf2d4787fc913cd16b8e07ccb2e000b29e564939b0",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Anthropic's blockbuster IPO faced headwinds from a broader market correction, highlighting investor anxiety regarding high valuations and potential bubbles in artificial intelligence revenue and business models.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors should expect continued volatility in AI-related stocks as market participants scrutinize high valuations and revenue sustainability following the Anthropic IPO.",
+      "reasoning": "Classified as MARKET because it covers the impact of a major IPO amid a market correction and AI valuation concerns. It is important for fund monitoring as it reflects broader market sentiment shifts regarding AI investments.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Why Anthropic's blockbuster IPO couldn't escape the market correction",
+      "publishedAtSgt": "2026-11-21T13:30:09+08:00",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-21T20:43:36+08:00"
+    },
     {
       "articleId": "757302a61645a564d2a8046405195f4fde6cffd1924259ff24e77fbae89dc385",
       "relevant": true,
