@@ -1,10 +1,70 @@
 {
-  "generatedAtSgt": "2026-11-22T04:23:59.674075+08:00",
+  "generatedAtSgt": "2026-11-22T20:54:48.243275+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 209,
+  "articleCount": 211,
   "analyses": [
+    {
+      "articleId": "ec5f3e18984d5d84956adbb2ffcc72ca1dc62d95bbaf4690b5697dee847f51a7",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Top Wall Street analysts favor specific dividend stocks, such as Devon Energy which reported better-than-expected third-quarter results, for potential share price appreciation and regular income.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Energy"
+      ],
+      "investorImpact": "Investors looking for regular income and stock appreciation can consider top Wall Street analyst-favored dividend stocks in the energy sector, which show strong financial results and growth potential.",
+      "reasoning": "The article highlights specific top-performing dividend stocks favored by Wall Street analysts, providing actionable market insights for equity investors within the energy sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+      "publishedAtSgt": "2026-11-22T20:13:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-22T20:38:46+08:00"
+    },
+    {
+      "articleId": "eca73525028771fe86f39a33ae04703419f14c072ba11fbee3b40cd607d61f0a",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Quantum computing software is being tested for near-term real-world applications in the energy sector, including power grid stabilization and the discovery of better materials for solar cells and hydrogen production, rather than solely focusing on long-term goals like drug discovery.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "United Kingdom",
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Energy",
+        "Clean Energy"
+      ],
+      "investorImpact": "Investors in quantum software and clean energy technologies should note the shifting commercialization timeline toward energy transition use cases, which may accelerate near-term revenue opportunities for specialized firms.",
+      "reasoning": "Classified as TECHNOLOGY due to its focus on quantum computing software advancements and real-world applications. It is relevant for fund monitoring as it highlights emerging commercial use cases in the energy sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
+      "publishedAtSgt": "2026-11-22T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-22T20:38:46+08:00"
+    },
     {
       "articleId": "ed23bc2a1ab6a37da3d5475e1d4f41c8ca3cd04b57beeee1cd7e85a4634b804b",
       "relevant": true,
