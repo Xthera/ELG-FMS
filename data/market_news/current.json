@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-22T10:16:46+08:00",
+  "generatedAtSgt": "2026-11-22T20:38:46+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,38 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "ec5f3e18984d5d84956adbb2ffcc72ca1dc62d95bbaf4690b5697dee847f51a7",
+      "source": "CNBC",
+      "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+      "publishedAtSgt": "2026-11-22T20:13:56+08:00",
+      "url": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors often favor dividend stocks for their regular income and the promise of potential share price appreciation. Devon Energy Devon Energy (DVN), an independent oil and natural gas exploration and production company, reported better-than-expected third-quarter results. Margolin expects COP to sustain an 8% dividend compound annual growth rate through 2029 while repurchasing $6.4 billion of stock annually, and reducing net debt-to-capital to less than 9% by the end of 2028 based on the...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-22T20:38:46+08:00"
+    },
+    {
+      "id": "eca73525028771fe86f39a33ae04703419f14c072ba11fbee3b40cd607d61f0a",
+      "source": "CNBC",
+      "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
+      "publishedAtSgt": "2026-11-22T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "But quantum software, which uses algorithms designed to solve complex problems faster than conventional computers, is already being tested on a more immediate challenge: the energy transition, from keeping power grids stable to finding better materials for solar cells and hydrogen production. Phasecraft, a quantum software company founded in Bristol, England, in 2019, is one of the firms putting the technology to work in energy.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-22T20:38:46+08:00"
+    },
     {
       "id": "ed23bc2a1ab6a37da3d5475e1d4f41c8ca3cd04b57beeee1cd7e85a4634b804b",
       "source": "CNBC",
@@ -1564,39 +1596,6 @@
       "feeds": [
         "latest",
         "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
-    },
-    {
-      "id": "5fd30ebcc4adb6b3db0bdf84104bc4445c919227a54bc319a63156dfa2ca097c",
-      "source": "CNBC",
-      "title": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
-      "publishedAtSgt": "2026-11-17T03:11:41+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "\"I think this is a cornerstone compounder for a long time,\" Gerstner said, noting that his investment would be five times the amount he's ever put into an IPO. \"It's where the trade is going.\" Anthropic is expected to go on Nasdaq on Thursday in a milestone event for the artificial intelligence industry.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:08+08:00"
-    },
-    {
-      "id": "e06a180097d1c403f5c6b247689fc6e871e7431883c4d496c1ae579243e1a0c6",
-      "source": "CNBC",
-      "title": "Prediction market odds for Tesla-SpaceX merger by April 2027 top 60%",
-      "publishedAtSgt": "2026-11-17T03:06:41+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/prediction-market-odds-for-tesla-spacex-merger-by-april-2027-top-60percent.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "He cited Terafab, the semiconductor project involving Tesla, SpaceX and xAI, as a catalyst. national strategies of independence and leadership in space, energy, manufacturing or semiconductors, in our view, remain highly relevant regardless of which party controls Congress,\" wrote Jefferies analyst Philippe Houchois. Disclosure: CNBC and Kalshi have a commercial relationship that includes customer acquisition and a minority investment.",
-      "feeds": [
-        "latest",
         "world"
       ],
       "collectedAtSgt": "2026-11-17T04:32:10+08:00"
