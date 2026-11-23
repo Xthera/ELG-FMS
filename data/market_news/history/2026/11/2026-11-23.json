@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-23",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "919bf1d6e10c41dd4852f70df2d115e5927f9877f53b674d39e423b03b4f2ade",
+      "source": "CNBC",
+      "title": "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
+      "publishedAtSgt": "2026-11-23T22:40:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "is investigating Alice Huang and her former company, Megaspeed, Director of National Intelligence Jay Clayton said, as a report identified one of her associates as a key decision-maker at the Singapore-based company. Treasury Secretary Scott Bessent told CBS on Sunday that the administration was seeking answers from Nvidia about its chip sales to China, including who oversaw compliance and which levels of the company knew about the activity.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    },
+    {
+      "id": "3453f425bf2d40ee3a0be5353414fcfb2d170e123a9087c31b00d8424ba18cc0",
+      "source": "CNBC",
+      "title": "Tech stocks rally after Nvidia board approves Jensen Huang's return as CEO",
+      "publishedAtSgt": "2026-11-23T22:39:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Major tech stocks rebounded across the board Monday, following Friday's steep sell-off when artificial intelligence stocks fell in the Nasdaq's worst week since 2020. Tech stocks remain rocky as investors remain nervous about the valuation of some AI companies and business models. Stocks of Big Tech companies and other stocks related to the AI trade also saw a lift Monday after the Nvidia news.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    },
+    {
+      "id": "2efa60d77e1c02d96f7e0efbe6a50152f043abaea377c7ba9ef50cd16178214c",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+      "publishedAtSgt": "2026-11-23T22:17:05+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/23/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Quite the start to this holiday-shortened week of trading, following such a brutal week for artificial intelligence stocks and the broader market. P & G is probably the wrong stock today, with tech stocks leading the rebound. Sign up for my Top 10 Morning Thoughts on the Market email newsletter for free (See here for a full list of the stocks at Jim Cramer's Charitable Trust.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "1919a1d4a6540dd5a1c761ec4c0cabf629787c9e012942fb549e072e6c07f493",
+      "source": "CNBC",
+      "title": "Tokenized stocks face pushback as NYSE, Nasdaq pivot for a new market",
+      "publishedAtSgt": "2026-11-23T22:07:16+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/tokenized-stocks-face-pushback-as-nyse-nasdaq-pivot-for-a-new-market-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Of the 62 companies whose shares OKXICE first sought to trade, 56 objected to having their shares tokenized and traded on the platform, according to a review of public notices posted between Oct. \"What you're seeing now is the more the companies learn about 24/7 global access, the more receptive they are.\" At launch, tokenized shares of Coinbase, Robinhood, Strategy, Circle, Securitize and BitGo will be available to trade on the platform, OKXICE disclosed in a public notice.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "67d843fb02397704aef278fcb692685855ec95c96a7e4327a87a69a8836e75e4",
+      "source": "CNBC",
+      "title": "Treasury yields jump as stock futures rebound, investors await New York Fed President Williams speech",
+      "publishedAtSgt": "2026-11-23T21:18:14+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields rose on Monday, partially unwinding price action seen at the end of last week, as stock futures pointed to a strong rebound on Wall Street and investors look ahead to comments from John Williams of the New York Fed. The 2-year Treasury note yield, the most sensitive to short-term Federal Reserve interest rate decisions, was up more than 5 basis points at 4.67%.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    },
+    {
+      "id": "be723b9243d0d8cce8fa9d7b4c9758e9e81a5b9453b9fd03a72162a1de4cf150",
+      "source": "CNBC",
+      "title": "More Americans pay this Obama-era investment tax every year — how to avoid it",
+      "publishedAtSgt": "2026-11-23T21:15:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/net-investment-income-tax-niit.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Every year, more Americans pay an extra tax levy on their investment gains — but there's still time to reduce or avoid that bill for 2026, experts say. Net investment income tax, or NIIT, is a 3.8% levy on investment income once earnings exceed $200,000 for single filers or $250,000 for married couples filing jointly.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "52bb90aca41ab5a898008288caa0119dab61391fc18a3d5f4267f6d33dbeb49d",
+      "source": "CNBC",
+      "title": "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims",
+      "publishedAtSgt": "2026-11-23T20:40:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 80,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Lawsuits against Elon Musk's SpaceX are stacking up, with Virginia and Oregon becoming the first states to sue the company over issues with its Grok AI image generator. The complaints also allege that SpaceX has falsely represented its AI apps and social network (Grok and X) as generally safe, which the states see as a violation of Virginia's Consumer Protection Act or Oregon's Unlawful Trade Practices Act.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "f4014968f4133785d9308e7d575e527d1cdc084087777c1edf3049de9f9c4927",
+      "source": "CNBC",
+      "title": "The biggest money-making energy trade looks over. What to buy instead",
+      "publishedAtSgt": "2026-11-23T20:00:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/refinery-stocks-crack-spreads.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The upshot for investors may be that, as the shares come down, analysts see more upside. Energy policies coming from Washington, D.C., can drive — or destroy — investment dollars. Brian Perhaps the big investor story — which is, like most things lately, related to Jensen-gate and Nvidia—is the sizable selloff in many AI, neocloud, and data center power-related stocks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "93b8447ca713e5dacf9551c596f85c56c9e8891ca0020b2105cd8ba065845dd4",
+      "source": "CNBC",
+      "title": "Futures rally after Wall Street's nightmare week",
+      "publishedAtSgt": "2026-11-23T19:10:34+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/futures-rally-after-wall-streets-nightmare-week-.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "stocks looks set to help major markets crawl away from correction territory. Technology stocks sank in overnight trading, with SK Hynix among the biggest losers, weighing on South Korea's Kospi. Meanwhile, chip stocks are also in the green, rebounding from last week's sell-off.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    },
+    {
+      "id": "1cffa7327234c1559efc24d3551a4af3171cf6e06739a2ad425bfe7bd3e081c6",
+      "source": "CNBC",
+      "title": "French biotech rejects short seller’s cancer-risk claims after shares plunge 17%",
+      "publishedAtSgt": "2026-11-23T17:45:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/abivax-scorpion-capital-obefazimod.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "French biotech Abivax's stock has partially recovered after the company responded to short seller Scorpion Capital accusing it of serious scientific and safety shortcomings in its experimental inflammatory bowel disease drug, obefazimod. After the closing bell, Abivax said Scorpion's report contained \"numerous factually inaccurate and misleading statements, assumptions, and conclusions.\" Shares rose 10% in Monday morning trading.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    },
+    {
+      "id": "39d3af6d3d8ec303d736650440f3c0926025d5e7e37405475d5c5f8cc301d722",
+      "source": "CNBC",
+      "title": "Investors gives a thumbs down to Tata Steel-APL Apollo $1.67 billion deal, plunging shares",
+      "publishedAtSgt": "2026-11-23T15:25:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/tata-steel-acquisition-deal-apl-india.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The acquisition will boost Tata Steel's downstream integration to around 53% from 35%, the company said in a stock exchange filing. Investors reacted negatively to the deal, with shares of Tata Steel sliding over 9% on Monday, while APL Apollo's stock crashed more than 19%. While the deal is likely to be positive in the long term, the complex structure and lack of clarity have rattled investors, Deven Choksey, founder and managing director of wealth management firm DRChoksey FinServ, told CNBC.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "24c56025eb65efb7b98c8f1b175997fe7422a99090204744204880e7633b093c",
+      "source": "CNBC",
+      "title": "How Asian countries are looking to prop up markets as AI downturn sinks stocks",
+      "publishedAtSgt": "2026-11-23T14:50:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "South Korean stocks have seen wild swings over 2026 as investors piled into, then fled from its two tech heavyweights, Samsung Electronics and SK Hynix, both critical companies in the AI supply chain. The ministry said that it \"assessed that volatility in domestic and international stock markets has significantly increased recently due to internal and external uncertainties surrounding the global AI and semiconductor industries, as well as U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    }
+  ],
+  "articleCount": 12,
+  "updatedAtSgt": "2026-11-23T22:45:21+08:00"
+}

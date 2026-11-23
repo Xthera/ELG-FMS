@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-23T10:50:57+08:00",
+  "generatedAtSgt": "2026-11-23T22:45:24+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,195 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "919bf1d6e10c41dd4852f70df2d115e5927f9877f53b674d39e423b03b4f2ade",
+      "source": "CNBC",
+      "title": "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
+      "publishedAtSgt": "2026-11-23T22:40:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "is investigating Alice Huang and her former company, Megaspeed, Director of National Intelligence Jay Clayton said, as a report identified one of her associates as a key decision-maker at the Singapore-based company. Treasury Secretary Scott Bessent told CBS on Sunday that the administration was seeking answers from Nvidia about its chip sales to China, including who oversaw compliance and which levels of the company knew about the activity.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    },
+    {
+      "id": "3453f425bf2d40ee3a0be5353414fcfb2d170e123a9087c31b00d8424ba18cc0",
+      "source": "CNBC",
+      "title": "Tech stocks rally after Nvidia board approves Jensen Huang's return as CEO",
+      "publishedAtSgt": "2026-11-23T22:39:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Major tech stocks rebounded across the board Monday, following Friday's steep sell-off when artificial intelligence stocks fell in the Nasdaq's worst week since 2020. Tech stocks remain rocky as investors remain nervous about the valuation of some AI companies and business models. Stocks of Big Tech companies and other stocks related to the AI trade also saw a lift Monday after the Nvidia news.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    },
+    {
+      "id": "2efa60d77e1c02d96f7e0efbe6a50152f043abaea377c7ba9ef50cd16178214c",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+      "publishedAtSgt": "2026-11-23T22:17:05+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/23/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Quite the start to this holiday-shortened week of trading, following such a brutal week for artificial intelligence stocks and the broader market. P & G is probably the wrong stock today, with tech stocks leading the rebound. Sign up for my Top 10 Morning Thoughts on the Market email newsletter for free (See here for a full list of the stocks at Jim Cramer's Charitable Trust.) As a subscriber to the CNBC Investing Club with Jim Cramer, you will receive a trade alert before Jim makes a trade.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "1919a1d4a6540dd5a1c761ec4c0cabf629787c9e012942fb549e072e6c07f493",
+      "source": "CNBC",
+      "title": "Tokenized stocks face pushback as NYSE, Nasdaq pivot for a new market",
+      "publishedAtSgt": "2026-11-23T22:07:16+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/tokenized-stocks-face-pushback-as-nyse-nasdaq-pivot-for-a-new-market-.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Of the 62 companies whose shares OKXICE first sought to trade, 56 objected to having their shares tokenized and traded on the platform, according to a review of public notices posted between Oct. \"What you're seeing now is the more the companies learn about 24/7 global access, the more receptive they are.\" At launch, tokenized shares of Coinbase, Robinhood, Strategy, Circle, Securitize and BitGo will be available to trade on the platform, OKXICE disclosed in a public notice.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "67d843fb02397704aef278fcb692685855ec95c96a7e4327a87a69a8836e75e4",
+      "source": "CNBC",
+      "title": "Treasury yields jump as stock futures rebound, investors await New York Fed President Williams speech",
+      "publishedAtSgt": "2026-11-23T21:18:14+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "Treasury yields rose on Monday, partially unwinding price action seen at the end of last week, as stock futures pointed to a strong rebound on Wall Street and investors look ahead to comments from John Williams of the New York Fed. The 2-year Treasury note yield, the most sensitive to short-term Federal Reserve interest rate decisions, was up more than 5 basis points at 4.67%.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    },
+    {
+      "id": "be723b9243d0d8cce8fa9d7b4c9758e9e81a5b9453b9fd03a72162a1de4cf150",
+      "source": "CNBC",
+      "title": "More Americans pay this Obama-era investment tax every year — how to avoid it",
+      "publishedAtSgt": "2026-11-23T21:15:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/net-investment-income-tax-niit.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Every year, more Americans pay an extra tax levy on their investment gains — but there's still time to reduce or avoid that bill for 2026, experts say. Net investment income tax, or NIIT, is a 3.8% levy on investment income once earnings exceed $200,000 for single filers or $250,000 for married couples filing jointly.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "52bb90aca41ab5a898008288caa0119dab61391fc18a3d5f4267f6d33dbeb49d",
+      "source": "CNBC",
+      "title": "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims",
+      "publishedAtSgt": "2026-11-23T20:40:37+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 80,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Lawsuits against Elon Musk's SpaceX are stacking up, with Virginia and Oregon becoming the first states to sue the company over issues with its Grok AI image generator. The complaints also allege that SpaceX has falsely represented its AI apps and social network (Grok and X) as generally safe, which the states see as a violation of Virginia's Consumer Protection Act or Oregon's Unlawful Trade Practices Act.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "f4014968f4133785d9308e7d575e527d1cdc084087777c1edf3049de9f9c4927",
+      "source": "CNBC",
+      "title": "The biggest money-making energy trade looks over. What to buy instead",
+      "publishedAtSgt": "2026-11-23T20:00:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/refinery-stocks-crack-spreads.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The upshot for investors may be that, as the shares come down, analysts see more upside. Energy policies coming from Washington, D.C., can drive — or destroy — investment dollars. Brian Perhaps the big investor story — which is, like most things lately, related to Jensen-gate and Nvidia—is the sizable selloff in many AI, neocloud, and data center power-related stocks.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "93b8447ca713e5dacf9551c596f85c56c9e8891ca0020b2105cd8ba065845dd4",
+      "source": "CNBC",
+      "title": "Futures rally after Wall Street's nightmare week",
+      "publishedAtSgt": "2026-11-23T19:10:34+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/futures-rally-after-wall-streets-nightmare-week-.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "stocks looks set to help major markets crawl away from correction territory. Technology stocks sank in overnight trading, with SK Hynix among the biggest losers, weighing on South Korea's Kospi. Meanwhile, chip stocks are also in the green, rebounding from last week's sell-off.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    },
+    {
+      "id": "1cffa7327234c1559efc24d3551a4af3171cf6e06739a2ad425bfe7bd3e081c6",
+      "source": "CNBC",
+      "title": "French biotech rejects short seller’s cancer-risk claims after shares plunge 17%",
+      "publishedAtSgt": "2026-11-23T17:45:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/abivax-scorpion-capital-obefazimod.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "French biotech Abivax's stock has partially recovered after the company responded to short seller Scorpion Capital accusing it of serious scientific and safety shortcomings in its experimental inflammatory bowel disease drug, obefazimod. After the closing bell, Abivax said Scorpion's report contained \"numerous factually inaccurate and misleading statements, assumptions, and conclusions.\" Shares rose 10% in Monday morning trading.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    },
+    {
+      "id": "39d3af6d3d8ec303d736650440f3c0926025d5e7e37405475d5c5f8cc301d722",
+      "source": "CNBC",
+      "title": "Investors gives a thumbs down to Tata Steel-APL Apollo $1.67 billion deal, plunging shares",
+      "publishedAtSgt": "2026-11-23T15:25:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/tata-steel-acquisition-deal-apl-india.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The acquisition will boost Tata Steel's downstream integration to around 53% from 35%, the company said in a stock exchange filing. Investors reacted negatively to the deal, with shares of Tata Steel sliding over 9% on Monday, while APL Apollo's stock crashed more than 19%. While the deal is likely to be positive in the long term, the complex structure and lack of clarity have rattled investors, Deven Choksey, founder and managing director of wealth management firm DRChoksey FinServ, told CNBC.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:20+08:00"
+    },
+    {
+      "id": "24c56025eb65efb7b98c8f1b175997fe7422a99090204744204880e7633b093c",
+      "source": "CNBC",
+      "title": "How Asian countries are looking to prop up markets as AI downturn sinks stocks",
+      "publishedAtSgt": "2026-11-23T14:50:48+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "South Korean stocks have seen wild swings over 2026 as investors piled into, then fled from its two tech heavyweights, Samsung Electronics and SK Hynix, both critical companies in the AI supply chain. The ministry said that it \"assessed that volatility in domestic and international stock markets has significantly increased recently due to internal and external uncertainties surrounding the global AI and semiconductor industries, as well as U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-23T22:45:21+08:00"
+    },
     {
       "id": "ec5f3e18984d5d84956adbb2ffcc72ca1dc62d95bbaf4690b5697dee847f51a7",
       "source": "CNBC",
@@ -1404,201 +1593,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-18T00:55:55+08:00"
-    },
-    {
-      "id": "61d3edaf29fa0f3f4e824d4255e1474091b1679b676756a54a71ef6f3e70b854",
-      "source": "CNBC",
-      "title": "Data center policy dominated the midterms. The 'Virginia of Europe' is the latest battleground",
-      "publishedAtSgt": "2026-11-17T21:28:32+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/spain-data-center-decree-election.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "Investors like Amazon, Microsoft and Blackstone-backed QTS are on tenterhooks. It could potentially cost one of Europe's fastest-growing tech regions billions of dollars in investment. The region has attracted investors with fast-track permits, abundant renewable energy and land, and international cable connections.",
-      "feeds": [
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:56+08:00"
-    },
-    {
-      "id": "36a0eaef6aec11580ce6bc908544d3363f79e187508ca7a572e6379971897aeb",
-      "source": "CNBC",
-      "title": "Nvidia has lost $2 trillion in value. Here's what options traders expect from earnings",
-      "publishedAtSgt": "2026-11-17T21:16:43+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/nvidia-has-lost-2-trillion-in-value-heres-what-options-traders-expect-from-earnings.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Jensen Huang's forced exit from Nvidia shocked Wall Street and Washington, wiped $2 trillion off its market value, and raised serious questions about national security and regulation of the AI complex. With volatility in the stock near the highest since April 2025, options traders are now pricing a 7% reaction in the stock after its report, the biggest implied move going into an Nvidia report since February 2025, and well above the median move of 3.2% over the last eight quarters.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:55+08:00"
-    },
-    {
-      "id": "91d2278c7ab008b342dacba526357d44a98fcb44e927a68efc3f50e7f1d3c676",
-      "source": "CNBC",
-      "title": "Investors look to Nvidia's earnings and Anthropic's IPO to refresh the tech rally",
-      "publishedAtSgt": "2026-11-17T21:11:40+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/nvidia-earnings-anthropic-ipo-tech-rally.html",
-      "category": "MARKET",
-      "relevanceScore": 93,
-      "relevanceReason": "strong_market_title",
-      "summary": "There is still room and time for the market to prove that the messy sell-down in AI-reliant growth stocks is simply a painful adjustment phase and the S&P 500's six-month purgatorial range a mid-cycle refresh. Perhaps Nvidia's results on Tuesday clearing the way for the company to restart stock buybacks and the final allocation of Anthropic's IPO shares will refresh the tech bid.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:53+08:00"
-    },
-    {
-      "id": "4ca892f91652e2a3c73a133d70799e592150e19b3e55851a7b8660b4bf5f95b7",
-      "source": "CNBC",
-      "title": "Iran escalates threats as third U.S. carrier arrives in Middle East, tanker struck in Hormuz",
-      "publishedAtSgt": "2026-11-17T19:22:54+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Oil prices inched lower in Asian trading Tuesday, with international benchmark Brent crude futures dropping 0.7% to $91.8 a barrel and U.S. Maritime Trade Operations said a tanker was struck by an unidentified projectile in the Strait of Hormuz and subsequently caught fire. Separately, the Iranian navy said four oil tankers had struck mines and caught fire in the eastern Strait of Hormuz over the previous 24 hours.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:55+08:00"
-    },
-    {
-      "id": "d51d6d145396832abe216582b74157cfc10c3ad997ab689c714bedc2272b1e2e",
-      "source": "CNBC",
-      "title": "Nvidia's Kress faces earnings test after stock drags Wall Street into the red",
-      "publishedAtSgt": "2026-11-17T19:04:17+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/nvidias-kress-faces-earnings-test-after-stock-drags-wall-street-into-the-red.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "He found Leopold Aschenbrenner's artificial intelligence-themed hedge fund loaded back up on AI stocks despite its near-collapse in July. Last month, he told CNBC that he is getting more conservative with his portfolio, saying the AI trade is nearing a \"tipping point.\" Deutsche Bank shares are trading sharply lower, down as much as 6%, after a raft of leaked documents appear to show the German lender accidentally leaked Donald Trump's tax statements.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:56+08:00"
-    },
-    {
-      "id": "bc82b7e4fbb3c90d72c2ba6cf0d5f00cc2199db990ef60f63c84c573407f8430",
-      "source": "CNBC",
-      "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
-      "publishedAtSgt": "2026-11-17T15:07:35+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "The chip giant is facing increasing scrutiny from U.S. Nvidia messaged chip buyers in recent months to caution that the proposed Remote Access Security Act, or RASA, would give the U.S. 5 that Chinese lab Moonshot AI sought access to Nvidia chips through data centers in Europe.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:53+08:00"
-    },
-    {
-      "id": "ca92748e4dce72f904946337bfabbecaea0a8c55f4bcc16ad9b1eb7b2664f635",
-      "source": "CNBC",
-      "title": "Jim Cramer says Costco's hefty special dividend signals ‘more gains ahead’",
-      "publishedAtSgt": "2026-11-17T07:45:03+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/costco-special-dividend-jim-cramer.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "More gains ahead.\" There's also compelling math suggesting that investors should look to reinvest those dividends back into Costco's stock. A $1,000 investment in Costco's stock in November 2011 would have grown to approximately $13,321 through Friday, reflecting a 1,232% gain. But reinvesting all dividends into additional shares would have increased that investment's value to roughly $18,411, representing a 1,741% total return.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-17T12:32:32+08:00"
-    },
-    {
-      "id": "b48574c3f4de076a6419b024b16a68bbf26569abd5f30c57dcb89da9b4bf854a",
-      "source": "CNBC",
-      "title": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
-      "publishedAtSgt": "2026-11-17T07:23:47+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Cramer's comments came after another rough day for AI-related stocks in the wake of Jensen Huang's resignation from Nvidia last week. Investors have been worried that Huang's departure as CEO could jeopardize the chipmaker's financial support for the broader AI ecosystem, especially computing providers known as neoclouds. \"I do not think it will cause a tsunami of selling.\" A successful Anthropic IPO later this week could further restore confidence in the AI trade, Cramer argued.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
-    },
-    {
-      "id": "e81a77c181d1743bfbb4e8d1078aa7cdd0fbcbecca3d28547a198576cebdc633",
-      "source": "CNBC",
-      "title": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
-      "publishedAtSgt": "2026-11-17T07:05:12+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "Leopold Aschenbrenner's artificial intelligence-themed hedge fund Situational Awareness, which nearly collapsed in July, loaded back up on AI stocks as it returned to the financial markets at the end of the third quarter. Stocked tethered to the AI trade took a hit in the most recent quarter as investors grew concerned about a slowdown in development of the technology.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
-    },
-    {
-      "id": "6ee802f770598e29651b745cc640a0412dd1466f88ae50d329804146742f3925",
-      "source": "CNBC",
-      "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
-      "publishedAtSgt": "2026-11-17T07:01:19+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Berkshire Hathaway made several moves in the stock market during the third quarter, adding to key positions and trimming others. Selling some Bank of America Berkshire also trimmed its holding in Bank of America by nearly 6%, selling more than $1.6 billion worth of stock. At one point in September the 30-year Treasury bond yield surged above 5.6% to its highest level since 2002.",
-      "feeds": [
-        "latest",
-        "finance"
-      ],
-      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
-    },
-    {
-      "id": "8deee6ab811f69cdf136268ce80428377515b6f9d98221c40bdb578d3242c7a2",
-      "source": "CNBC",
-      "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
-      "publishedAtSgt": "2026-11-17T06:14:47+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The bank said a \"temporary issue related to a software bug in on-premise hardware systems\" was causing some customer transactions to take longer than usual, though it said customers can still access their accounts and funds. Bank said that company was \"not directly impacted. However, clients attempting to send or receive Zelle payments with another financial institution may experience transaction delays.\" Zelle is the peer-to-peer payments system backed by many of the largest U.S.",
-      "feeds": [
-        "latest",
-        "business",
-        "finance",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-17T12:32:31+08:00"
-    },
-    {
-      "id": "a4b1a8b4e487a241f6717a2cc5a2baf08d4f5ab42b0912c5e4ff4f52f9dc9569",
-      "source": "CNBC",
-      "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
-      "publishedAtSgt": "2026-11-17T03:13:25+08:00",
-      "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Oil prices are falling Monday as shipments through the Strait of Hormuz recover and tensions between Iran and the U.S remain at a stalemate. The International Energy Agency said on Friday it expects global supply to exceed 1.7 million barrels a day in the fourth quarter of 2026, reversing its earlier forecast for a deficit as Middle East exports recover faster than global demand and even as shipping attacks continue.",
-      "feeds": [
-        "latest",
-        "finance",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-17T04:32:10+08:00"
     }
   ]
 }
