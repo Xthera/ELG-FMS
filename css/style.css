@@ -12072,3 +12072,25 @@ html[data-style="glass"] .app-body {
         grid-template-columns: minmax(0, 1fr);
     }
 }
+
+
+/* ============================================================
+   CLICKABLE ROWS: a click always opens, never drags
+   Rows that open a fund / article can't be text-selected, so a
+   click with a tiny mouse movement can't turn into dragging
+   highlighted text (which swallowed the click).
+   ============================================================ */
+
+[data-fund-open],
+[data-monitor-open],
+[data-news-open] {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+[data-fund-open] *,
+[data-monitor-open] *,
+[data-news-open] * {
+    -webkit-user-drag: none;
+}
