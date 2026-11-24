@@ -31,7 +31,8 @@
           "title": "Fixed",
           "items": [
             "Settings > Update schedule: Index closes now shows the actual schedule (daily at 6:30 am), and the Income Boost index update is listed.",
-            "Plan Calculator: Payout starts at age now appears only when a dividend-paying fund's dividends are paid out, and the Investment Booster withdrawal box only when it applies."
+            "Plan Calculator: Payout starts at age now appears only when a dividend-paying fund's dividends are paid out, and the Investment Booster withdrawal box only when it applies.",
+            "Fund lists: clicking a fund now always opens it. Before, a click could be lost if text on the page was highlighted, or if you clicked another fund while the previous one was still closing."
           ]
         }
       ]
