@@ -192,18 +192,40 @@ if (window.HTMLDialogElement) {
     const nativeShowModal = proto.showModal;
     const CLOSE_MS = 190;
 
+    // Finish a fade-out now (used when the page is clicked mid-fade)
+    const finishClose = dialog => {
+        if (!dialog._closing) return;
+        clearTimeout(dialog._closing);
+        dialog._closing = null;
+        dialog.classList.remove("is-closing");
+        nativeClose.call(dialog, dialog._closeValue);
+    };
+
     proto.close = function (returnValue) {
         if (!this.open) return;
         if (reduced()) return nativeClose.call(this, returnValue);
         if (this._closing) return;
 
         this.classList.add("is-closing");
-        this._closing = setTimeout(() => {
-            this._closing = null;
-            this.classList.remove("is-closing");
-            nativeClose.call(this, returnValue);
-        }, CLOSE_MS);
+        this._closeValue = returnValue;
+        this._closing = setTimeout(() => finishClose(this), CLOSE_MS);
     };
+
+    // A click while a popup is fading out goes to what is underneath
+    // (e.g. the next fund in the list) instead of the fading popup.
+    document.addEventListener("click", event => {
+        const dialog = event.target.closest?.("dialog.is-closing");
+
+        if (!dialog || !event.isTrusted) return;
+
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        finishClose(dialog);
+
+        const under = document.elementFromPoint(event.clientX, event.clientY);
+
+        if (under && !under.closest("dialog")) under.click();
+    }, true);
 
     proto.showModal = function () {
         if (this._closing) {

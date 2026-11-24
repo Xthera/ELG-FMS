@@ -621,7 +621,8 @@ function openPdf(url, file, title, label, options = {}) {
 
     document.body.classList.add("has-news-dialog");
 
-    if (!dialog.open) dialog.showModal();
+    // Also re-open a popup that is still fading out after closing
+    if (!dialog.open || dialog.classList.contains("is-closing")) dialog.showModal();
 
     if (file) {
         dialog.classList.remove("is-online");

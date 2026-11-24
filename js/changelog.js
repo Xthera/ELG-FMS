@@ -105,7 +105,8 @@ async function openChangelog() {
 
     body.innerHTML = `<p class="changelog-status">Loading changelog…</p>`;
     document.body.classList.add("has-news-dialog");
-    if (!dialog.open) dialog.showModal();
+    // Also re-open a popup that is still fading out after closing
+    if (!dialog.open || dialog.classList.contains("is-closing")) dialog.showModal();
     body.scrollTop = 0;
 
     try {
