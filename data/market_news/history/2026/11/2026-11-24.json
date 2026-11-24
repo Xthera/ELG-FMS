@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-24",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "c376f193835362992ff37646bdad0064a57c7d8d1c1fddb73f771e2b8d1f8ec2",
+      "source": "CNBC",
+      "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+      "publishedAtSgt": "2026-11-24T10:37:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "has added Singapore-based Megaspeed and six other Southeast Asian companies to its trade blacklist, citing national security and foreign policy concerns. The Commerce Department initiated an investigation into Megaspeed in 2024 for potential export control violations after identifying suspicious activity through its monitoring of potential semiconductor diversion, according to a join statement issued with the Justice Department.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:06+08:00"
+    },
+    {
+      "id": "4ebdd18f1a9088a02c91518f4320b4ab50a603dbb576fe7a6dbb3bcede57d646",
+      "source": "CNBC",
+      "title": "Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits",
+      "publishedAtSgt": "2026-11-24T10:20:36+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Key Nvidia partners and suppliers in Asia saw their shares skyrocket on Tuesday as investors piled back into the tech market, following the reinstatement of Nvidia CEO Jensen Huang by its board. Taipei's stock exchange has a daily price limit of 10% for stocks. \"Jensen's return is particularly welcome for Asian technology stocks, many of which suffered collateral damage from Nvidia's leadership crisis,\" Charu Chanana, Chief Investment Strategist at Saxo said in a note Tuesday morning.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:06+08:00"
+    },
+    {
+      "id": "3879312a290848eb5f216d304a539dc48ca325cd4293cb4ff5c0a8c8bcc8d7f8",
+      "source": "CNBC",
+      "title": "CrowdStrike CEO defends Zscaler acquisition, calls it a 'winning combination'",
+      "publishedAtSgt": "2026-11-24T07:53:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CrowdStrike CEO George Kurtz on Monday defended the cybersecurity company's planned acquisition of Zscaler, arguing the deal will strengthen its security capabilities and create significant growth opportunities despite a sharp sell-off in its shares. The technology, the team, and we think it's a winning combination putting it together with the CrowdStrike platform.\" Shares of CrowdStrike fell roughly 9% Monday after the company announced it would acquire Zscaler in an all-stock deal valued at...",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:06+08:00"
+    },
+    {
+      "id": "64daa43cb542a8fd268acd47e3c9780878e3b2b9da1166c4ece4b15638a8c75b",
+      "source": "CNBC",
+      "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
+      "publishedAtSgt": "2026-11-24T06:43:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors and traders said that while this reflex rally may have more to run, cautiousness is warranted on Nvidia and the AI trade because of the overhang of investigations into the alleged Chinese espionage involving the company and others, as well as the possibility for data center moratoriums as Democrats take control of Congress and key governor posts in January. But he also said there are still considerable risks facing the AI trade.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:06+08:00"
+    },
+    {
+      "id": "ba17c25c386367823e4fee08ba949f5ca56c5e0c50f48628110b7d0af370e902",
+      "source": "CNBC",
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "publishedAtSgt": "2026-11-24T05:02:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "New York Federal Reserve President John Williams said Monday that policymakers have more work to do to bring inflation under control, though he indicated that further action can unfold over time as the economy continues to grow. He also said that while artificial intelligence is pressuring prices, there's \"little evidence\" it will be the source of more persistent inflation.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:06+08:00"
+    },
+    {
+      "id": "b542958b664d96ebd1d39429a905b11c0318c9d58e3e1ddbd3bad7e8b77397b5",
+      "source": "CNBC",
+      "title": "Investors are missing the bigger picture in CrowdStrike's deal to buy Zscaler",
+      "publishedAtSgt": "2026-11-24T04:26:39+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/23/crowdstrikes-zscaler-deal-investors-are-missing-the-bigger-picture.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors are balking at CrowdStrike 's $43.9 billion all-stock acquisition of Zscaler , sending shares down 10%. \"AI safety is multi-dimensional,\" CrowdStrike CEO George Kurtz said during a conference call with analysts and investors. \"We have had several conversations with technology leaders and engineers over the last two weeks against a backdrop of elevated stock volatility,\" they wrote.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:07+08:00"
+    }
+  ],
+  "articleCount": 6,
+  "updatedAtSgt": "2026-11-24T10:56:07+08:00"
+}

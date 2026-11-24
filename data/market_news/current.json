@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-23T22:45:24+08:00",
+  "generatedAtSgt": "2026-11-24T10:56:11+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,103 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "c376f193835362992ff37646bdad0064a57c7d8d1c1fddb73f771e2b8d1f8ec2",
+      "source": "CNBC",
+      "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+      "publishedAtSgt": "2026-11-24T10:37:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "has added Singapore-based Megaspeed and six other Southeast Asian companies to its trade blacklist, citing national security and foreign policy concerns. The Commerce Department initiated an investigation into Megaspeed in 2024 for potential export control violations after identifying suspicious activity through its monitoring of potential semiconductor diversion, according to a join statement issued with the Justice Department.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:06+08:00"
+    },
+    {
+      "id": "4ebdd18f1a9088a02c91518f4320b4ab50a603dbb576fe7a6dbb3bcede57d646",
+      "source": "CNBC",
+      "title": "Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits",
+      "publishedAtSgt": "2026-11-24T10:20:36+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Key Nvidia partners and suppliers in Asia saw their shares skyrocket on Tuesday as investors piled back into the tech market, following the reinstatement of Nvidia CEO Jensen Huang by its board. Taipei's stock exchange has a daily price limit of 10% for stocks. \"Jensen's return is particularly welcome for Asian technology stocks, many of which suffered collateral damage from Nvidia's leadership crisis,\" Charu Chanana, Chief Investment Strategist at Saxo said in a note Tuesday morning.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:06+08:00"
+    },
+    {
+      "id": "3879312a290848eb5f216d304a539dc48ca325cd4293cb4ff5c0a8c8bcc8d7f8",
+      "source": "CNBC",
+      "title": "CrowdStrike CEO defends Zscaler acquisition, calls it a 'winning combination'",
+      "publishedAtSgt": "2026-11-24T07:53:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "CrowdStrike CEO George Kurtz on Monday defended the cybersecurity company's planned acquisition of Zscaler, arguing the deal will strengthen its security capabilities and create significant growth opportunities despite a sharp sell-off in its shares. The technology, the team, and we think it's a winning combination putting it together with the CrowdStrike platform.\" Shares of CrowdStrike fell roughly 9% Monday after the company announced it would acquire Zscaler in an all-stock deal valued at...",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:06+08:00"
+    },
+    {
+      "id": "64daa43cb542a8fd268acd47e3c9780878e3b2b9da1166c4ece4b15638a8c75b",
+      "source": "CNBC",
+      "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
+      "publishedAtSgt": "2026-11-24T06:43:38+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors and traders said that while this reflex rally may have more to run, cautiousness is warranted on Nvidia and the AI trade because of the overhang of investigations into the alleged Chinese espionage involving the company and others, as well as the possibility for data center moratoriums as Democrats take control of Congress and key governor posts in January. But he also said there are still considerable risks facing the AI trade.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:06+08:00"
+    },
+    {
+      "id": "ba17c25c386367823e4fee08ba949f5ca56c5e0c50f48628110b7d0af370e902",
+      "source": "CNBC",
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "publishedAtSgt": "2026-11-24T05:02:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "New York Federal Reserve President John Williams said Monday that policymakers have more work to do to bring inflation under control, though he indicated that further action can unfold over time as the economy continues to grow. He also said that while artificial intelligence is pressuring prices, there's \"little evidence\" it will be the source of more persistent inflation.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:06+08:00"
+    },
+    {
+      "id": "b542958b664d96ebd1d39429a905b11c0318c9d58e3e1ddbd3bad7e8b77397b5",
+      "source": "CNBC",
+      "title": "Investors are missing the bigger picture in CrowdStrike's deal to buy Zscaler",
+      "publishedAtSgt": "2026-11-24T04:26:39+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/23/crowdstrikes-zscaler-deal-investors-are-missing-the-bigger-picture.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Investors are balking at CrowdStrike 's $43.9 billion all-stock acquisition of Zscaler , sending shares down 10%. \"AI safety is multi-dimensional,\" CrowdStrike CEO George Kurtz said during a conference call with analysts and investors. \"We have had several conversations with technology leaders and engineers over the last two weeks against a backdrop of elevated stock volatility,\" they wrote.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-24T10:56:07+08:00"
+    },
     {
       "id": "919bf1d6e10c41dd4852f70df2d115e5927f9877f53b674d39e423b03b4f2ade",
       "source": "CNBC",
@@ -1496,103 +1593,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-18T00:55:52+08:00"
-    },
-    {
-      "id": "47f9454c9fb40d3dbac946e2a98033c4029aeb2f09c75719c5e2ef87c01d2c56",
-      "source": "CNBC",
-      "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
-      "publishedAtSgt": "2026-11-17T22:34:48+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "But Anthropic is facing a public market that's grown increasingly skeptical of the AI trade, as well as mounting and widespread antipathy toward the technology in the U.S. Anthropic is best known for developing a family of AI models called Claude, and it underwent a period of explosive growth in 2026, driven largely by the popularity of its AI coding tool, Claude Code.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:49+08:00"
-    },
-    {
-      "id": "8444fa80ea478edc7097b15db5ec4c5855de279ac87c093f11762e60291f6b7a",
-      "source": "CNBC",
-      "title": "Nike lays out financial goals ahead of first investor day in 9 years",
-      "publishedAtSgt": "2026-11-17T22:26:39+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Nike said Tuesday ahead of its first investor day in nine years that it was reaffirming its 2027 financial guidance. The retailer also laid out a financial framework and said that by the end of fiscal 2031 it's targeting approximately $5 billion in incremental revenue growth from fiscal year 2027, operating margins of 12% to 14% and adjusted earnings per share of $3.00 to $3.50.",
-      "feeds": [
-        "latest",
-        "business"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:50+08:00"
-    },
-    {
-      "id": "42d8ef5614785f009809ee84e8958015ef383aa912beede4c2110c3fd82be467",
-      "source": "CNBC",
-      "title": "Deutsche Bank shares sink as whistleblowers reveal Epstein payments, Trump tax leak, Russia bets",
-      "publishedAtSgt": "2026-11-17T22:24:10+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/deutsche-bank-leak-epstein-trump.html",
-      "category": "MARKET",
-      "relevanceScore": 95,
-      "relevanceReason": "business_market_event",
-      "summary": "Deutsche Bank shares fell sharply in early trading on Tuesday after whistleblowers leaked about 15 million files from the German lender, with media reports revealing alleged historic failures across its risk management and financial crime controls. Shares in Deutsche Bank were 4.7% lower by 9:20 a.m. Deutsche Bank processed $582 million in suspicious payments linked to Jeffrey Epstein, far more than previously known, the FT reported.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:54+08:00"
-    },
-    {
-      "id": "b0fce0cecc19d809e892e0b1e46aee1da68243ab7770d0ec97c01c56629b7c0d",
-      "source": "CNBC",
-      "title": "Demis Hassabis’ AI company raises $5 billion, months after he left as Google DeepMind CEO",
-      "publishedAtSgt": "2026-11-17T21:58:07+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html",
-      "category": "MARKET",
-      "relevanceScore": 95,
-      "relevanceReason": "business_market_event",
-      "summary": "Isomorphic Labs, an artificial intelligence drug discovery startup founded by former Google DeepMind chief Demis Hassabis, has raised a $5 billion Series C, the company said on Tuesday. Isomorphic's round comes three-and-a-half months after Hassabis stepped back as CEO of DeepMind, Google's AI lab, which he co-founded before the Big Tech giant acquired it in 2014.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:54+08:00"
-    },
-    {
-      "id": "4b18f6868af981c82db52f6ab1a07b0f3b731697bb3f38d15218ef611914f5d6",
-      "source": "CNBC",
-      "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
-      "publishedAtSgt": "2026-11-17T21:40:54+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Louis Federal Reserve President Alberto Musalem indicated Tuesday that the central bank may need as many as four rate hikes in coming months, offering one of the most hawkish views yet by a Fed policymaker about the steps needed to quell inflation. \"The economy will likely require several interest rate increases before the spring of 2027 to achieve 2% inflation in a timely manner,\" he said.",
-      "feeds": [
-        "latest",
-        "economy"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:51+08:00"
-    },
-    {
-      "id": "37e9024d486170af52148363f4ca510bf369da162cd1d23db9db527e4e36198f",
-      "source": "CNBC",
-      "title": "Anthropic IPO: For hundreds of billions of dollars flowing into AI startups, a big debut is a must",
-      "publishedAtSgt": "2026-11-17T21:35:18+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-ai-venture-capital.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "With Anthropic set to make its public market debut this week at a reported valuation of $1.4 trillion, the market's reception to the deal and early trading in its shares may set the tone for the next leg in the private market AI boom. In addition to concerns about balance sheet strength and valuation, midterm elections showed widespread public opposition to data centers, and the CEO scandal rocking Nvidia, the \"central bank\" of AI financing, has compounded risks in the sector.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-18T00:55:55+08:00"
     }
   ]
 }
