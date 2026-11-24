@@ -5,6 +5,184 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "30b3f5ec079bfb707e2c3ce734374b315248bb1e294a911cf81fc4d1ca5b499f",
+      "source": "CNBC",
+      "title": "Anthropic stock falls below $83 IPO price, but analysts are still largely positive",
+      "publishedAtSgt": "2026-11-24T22:52:20+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of Anthropic fell 7% on Tuesday, sending the stock below the artificial intelligence company's $83 IPO price. Investors eagerly awaited Anthropic's debut in hopes that the company would revitalize the broader AI trade, which has been volatile in recent weeks over concerns about the feasibility of a multi-trillion-dollar infrastructure buildout.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T22:55:41+08:00"
+    },
+    {
+      "id": "a01c3b45a2e18d1f392a63a8ab4bb783bd1528bb97e99c4cbcb372a7462d42da",
+      "source": "CNBC",
+      "title": "Best Buy reports comparable sales growth of 6.1%, highest in five years",
+      "publishedAtSgt": "2026-11-24T22:51:58+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/best-buy-bby-q3-2027-earnings.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "The consumer electronics retailer reported comparable sales growth of 6.1%, a significant beat over expectations of 2.3%, according to market intelligence platform StreetAccount. The company said that growth was its highest in five years. It reported a domestic comparable sales increase of 6.2% and international comparable sales growth of 4.9%.",
+      "feeds": [
+        "latest",
+        "business",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T22:55:41+08:00"
+    },
+    {
+      "id": "deed420731c7980faf45b2c13c069aebb4570fec49f27e9a03460218db9b591d",
+      "source": "CNBC",
+      "title": "Signal joins United Airlines, banks in limiting AI agents over customer risks",
+      "publishedAtSgt": "2026-11-24T22:46:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/signal-airlines-banks-ai-limit.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Privacy-focused messaging application Signal is tightening protections against artificial intelligence agents that can access information displayed on users' screens, citing concerns over privacy and security. Signal said AI agents built into mobile operating systems, such as Google's Gemini and Apple's Siri with onscreen awareness, can \"scan\" information on users' screens, potentially capturing and storing Signal data outside its control.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T22:55:42+08:00"
+    },
+    {
+      "id": "33b15103b5e2cc889bb0ec441ec470e777a07c705c49bedf658e466f2dadba7f",
+      "source": "CNBC",
+      "title": "Nvidia shares fall over 5% after Huang comeback rally",
+      "publishedAtSgt": "2026-11-24T22:43:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Nvidia shares fell around 6% on Tuesday, paring a massive Monday rally that was sparked by the return of Jensen Huang as CEO. semiconductor stocks also opened lower after posting strong gains Monday. \"We believe reinstatement of CEO Jensen Huang RETURNS Investor CONFIDENCE in the AI trade,\" Mizuho analysts wrote in a note on Monday.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-24T22:55:41+08:00"
+    },
+    {
+      "id": "f3fd6079390c68fb2625f69c6b913339c09bb1831f76919e0a9e23c8a1737777",
+      "source": "CNBC",
+      "title": "Treasury yields tick lower after inflation warning from New York Fed's Williams, investors await 5-year auction",
+      "publishedAtSgt": "2026-11-24T22:38:21+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/treasury-yields-bonds-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Treasury yields inched lower on Tuesday as investors took stock of a speech by John Williams of the New York Fed and looked ahead to a 5-year bond auction due later in the session. The 2-year Treasury note yield, the most sensitive to short-term Federal Reserve interest rate decisions, was lower by less than 1 basis point at 4.662%.",
+      "feeds": [
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T22:55:42+08:00"
+    },
+    {
+      "id": "c8a26e1929c100520e284021268fd476759a64016d5d91d6da2d55685d7a3229",
+      "source": "CNBC",
+      "title": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
+      "publishedAtSgt": "2026-11-24T22:35:05+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Insmed shares rose 14.3% to roughly $170.40 in morning trading, while Sanofi stock rose 8% in Paris. Investors are also calling for sustainable revenue growth as major drugs lose exclusivity. \"Sanofi could offer a far more attractive investment opportunity given the significantly improved growth outlook,\" Barclays said in a note early Tuesday.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T22:55:41+08:00"
+    },
+    {
+      "id": "b03fe9f3b991a4c3b1ef7043e342c12f936d398461b496b93628ec3c0a8e8c0d",
+      "source": "CNBC",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "publishedAtSgt": "2026-11-24T21:53:37+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/24/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The AI ecosystem stocks will retrace a little bit and then come back up. To have a durable recovery in the AI theme, we need to see Anthropic rally; otherwise, OpenAI's ability to IPO next year could be threatened. Club name CrowdStrike was upgraded to buy from hold at Guggenheim, with analysts conceding the stock isn't cheap but arguing its multiple can be \"justified by the likely hyper growth and profit we expect to persist under this team.\" Though the planned Zscaler acquisition is a new...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-24T22:55:42+08:00"
+    },
+    {
+      "id": "e103a89314dae2c25702a82c947724e7a7148ec9f6d60f2fc116b5e47420ef10",
+      "source": "CNBC",
+      "title": "Six key questions raised by Jensen Huang's return to Nvidia",
+      "publishedAtSgt": "2026-11-24T21:31:29+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "11 to retain records related to Nvidia exports of advanced AI chips to China and associated national security concerns. The longer-term question, he said, is whether customer orders and artificial intelligence investment can sustain that pace. Luria told CNBC that concerns about the broader AI trade remain, including the cost of financing data centers, potential overbuilding by neocloud companies and obstacles to building new facilities.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T22:55:41+08:00"
+    },
+    {
+      "id": "2246ecafae5e080c85eb89d160909fea7ac906f27274845ec850ec94315e200c",
+      "source": "CNBC",
+      "title": "Commercial real estate activity falls 14% in October, as interest rates rise",
+      "publishedAtSgt": "2026-11-24T21:17:16+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/commercial-real-estate-activity-falls-14percent-in-october.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Property Play covers new and evolving opportunities for the real estate investor, from individuals to venture capitalists, private equity funds, family offices, institutional investors and large public companies. After settling in the low-to-mid-4% range, the yield on the 10-year Treasury moved above 5% and has been wavering around there with the potential to move even higher due to stubborn inflation. During $100 oil earlier this year, it didn't dip.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T22:55:41+08:00"
+    },
+    {
+      "id": "c954d3ad0aeefbb322c8948fc645e5d936c856a01421b07465a8fafd7661903f",
+      "source": "CNBC",
+      "title": "Some U.S. food banks see demand top pandemic levels",
+      "publishedAtSgt": "2026-11-24T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/us-food-banks-demand-snap.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "economy ground to a halt — and many of the people now seeking food also have jobs. In the Federal Reserve's October Beige Book, the central bank's New York regional branch described a sharp rise in first-time food pantry users. One nonprofit leader told the Federal Reserve Bank of New York that the strain was comparable to the pandemic, \"but without the same philanthropic and government support.\" Data from Plentiful, a technology platform that connects people with food pantries and tracks their...",
+      "feeds": [
+        "latest",
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-24T22:55:42+08:00"
+    },
+    {
+      "id": "7522e88ae688242fa3e207f80004d93223d5dd00b79dee24eb6fe1c7d94ab3f2",
+      "source": "CNBC",
+      "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
+      "publishedAtSgt": "2026-11-24T13:05:08+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "Treasury on Monday announced new sanctions on more than two dozen Iranian exchange houses, front companies and key personnel as part of what it called \"a sweeping effort to disrupt Iran's global shadow banking networks.\" Iran's economy has come under growing pressure as Washington expanded sanctions under its so-called \"Operation Economic Outcast\" since August, aimed at crippling financial networks behind the country's oil revenue.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-24T22:55:42+08:00"
+    },
+    {
       "id": "c376f193835362992ff37646bdad0064a57c7d8d1c1fddb73f771e2b8d1f8ec2",
       "source": "CNBC",
       "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
@@ -102,6 +280,6 @@
       "collectedAtSgt": "2026-11-24T10:56:07+08:00"
     }
   ],
-  "articleCount": 6,
-  "updatedAtSgt": "2026-11-24T10:56:07+08:00"
+  "articleCount": 17,
+  "updatedAtSgt": "2026-11-24T22:55:42+08:00"
 }
