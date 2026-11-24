@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-11-24T03:08:11+00:00",
+  "generatedAtUtc": "2026-11-24T14:56:47+00:00",
   "source": "Funds Links.xlsm",
   "fundCount": 67,
   "research": {
@@ -978,7 +978,7 @@
       }
     ],
     "websiteFallbackFunds": 67,
-    "websiteFallbackUtc": "2026-11-24T03:08:05+00:00"
+    "websiteFallbackUtc": "2026-11-24T14:56:40+00:00"
   },
   "funds": [
     {
@@ -1072,7 +1072,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -1081,7 +1081,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -1163,7 +1163,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -1172,7 +1172,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -1266,7 +1266,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -1275,7 +1275,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -1363,7 +1363,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -1372,7 +1372,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -1503,7 +1503,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -1512,7 +1512,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -1643,7 +1643,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -1652,7 +1652,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -1668,21 +1668,21 @@
         "assetClass": "Equity",
         "assetSubClass": "US",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.2104",
+        "bidPrice": "$1.2182",
         "offerPrice": "-",
-        "valuationDate": "20/11/2026",
+        "valuationDate": "23/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "1.90%",
-        "cumulative1m": "-3.52%",
-        "cumulative3m": "-4.59%",
-        "cumulative6m": "-1.49%",
-        "cumulative1y": "6.55%",
-        "cumulative3y": "22.02%",
+        "cumulativeYtd": "1.09%",
+        "cumulative1m": "-3.79%",
+        "cumulative3m": "-5.64%",
+        "cumulative6m": "-3.01%",
+        "cumulative1y": "4.44%",
+        "cumulative3y": "21.04%",
         "cumulative5y": "-",
-        "annualised3y": "6.87%",
+        "annualised3y": "6.59%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "6.65%",
+        "annualisedSinceLaunch": "6.36%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-america-fund-usd-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_america_global_equity.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_america_fund_012021.pdf",
@@ -1781,16 +1781,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "20/11/2026",
-        "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteValuationDate": "23/11/2026",
+        "websitePriceDate": "2026-11-24",
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -1914,7 +1914,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -1923,7 +1923,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -2053,7 +2053,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -2062,7 +2062,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -2192,7 +2192,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -2201,7 +2201,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -2424,7 +2424,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -2433,7 +2433,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -2565,7 +2565,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -2574,7 +2574,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -2809,7 +2809,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -2818,7 +2818,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -2834,21 +2834,21 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.2457",
+        "bidPrice": "$1.2456",
         "offerPrice": "-",
-        "valuationDate": "20/11/2026",
+        "valuationDate": "23/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "2.93%",
-        "cumulative1m": "-3.20%",
-        "cumulative3m": "-8.26%",
-        "cumulative6m": "-5.97%",
-        "cumulative1y": "4.53%",
-        "cumulative3y": "26.55%",
+        "cumulativeYtd": "1.32%",
+        "cumulative1m": "-4.07%",
+        "cumulative3m": "-10.27%",
+        "cumulative6m": "-9.10%",
+        "cumulative1y": "4.47%",
+        "cumulative3y": "24.57%",
         "cumulative5y": "-",
-        "annualised3y": "8.17%",
+        "annualised3y": "7.62%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "7.91%",
+        "annualisedSinceLaunch": "7.35%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-income-and-growth-fund-usd-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_asian_income_and_growth.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_asian_income_and_growth_012021.pdf",
@@ -2947,16 +2947,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "20/11/2026",
-        "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteValuationDate": "23/11/2026",
+        "websitePriceDate": "2026-11-24",
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -3231,7 +3231,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -3240,7 +3240,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -3364,7 +3364,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -3373,7 +3373,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -3503,7 +3503,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -3512,7 +3512,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -3735,7 +3735,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -3744,7 +3744,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -3967,7 +3967,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -3976,7 +3976,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -4106,7 +4106,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -4115,7 +4115,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -4246,7 +4246,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -4255,7 +4255,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -4273,19 +4273,19 @@
         "riskClassification": "Medium to High Risk",
         "bidPrice": "$0.9433",
         "offerPrice": "-",
-        "valuationDate": "20/11/2026",
+        "valuationDate": "23/11/2026",
         "inceptionDate": "28-Dec-2022",
-        "cumulativeYtd": "-7.64%",
-        "cumulative1m": "-3.00%",
-        "cumulative3m": "-5.90%",
-        "cumulative6m": "-4.34%",
-        "cumulative1y": "-6.91%",
-        "cumulative3y": "-1.64%",
+        "cumulativeYtd": "-8.80%",
+        "cumulative1m": "-4.10%",
+        "cumulative3m": "-6.83%",
+        "cumulative6m": "-7.13%",
+        "cumulative1y": "-7.32%",
+        "cumulative3y": "-3.09%",
         "cumulative5y": "-",
-        "annualised3y": "-0.55%",
+        "annualised3y": "-1.04%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "-1.17%",
+        "annualisedSinceLaunch": "-1.49%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-flexgrowth-fund-sgd.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_flexgrowth_fund_sgd.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_flexgrowth_fund_sgd.pdf",
@@ -4385,16 +4385,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "20/11/2026",
-        "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteValuationDate": "23/11/2026",
+        "websitePriceDate": "2026-11-24",
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -4484,7 +4484,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -4493,7 +4493,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -4625,7 +4625,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -4634,7 +4634,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -4724,7 +4724,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -4733,7 +4733,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -4863,7 +4863,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -4872,7 +4872,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -5011,7 +5011,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -5020,7 +5020,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -5354,7 +5354,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -5363,7 +5363,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -5432,7 +5432,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -5441,7 +5441,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -5572,7 +5572,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -5581,7 +5581,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -5841,7 +5841,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -5850,7 +5850,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -5866,21 +5866,21 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.4800",
+        "bidPrice": "$1.4887",
         "offerPrice": "-",
-        "valuationDate": "20/11/2026",
+        "valuationDate": "23/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "9.78%",
-        "cumulative1m": "0.15%",
-        "cumulative3m": "-0.04%",
-        "cumulative6m": "3.55%",
-        "cumulative1y": "15.82%",
-        "cumulative3y": "49.12%",
+        "cumulativeYtd": "8.95%",
+        "cumulative1m": "-1.26%",
+        "cumulative3m": "-1.28%",
+        "cumulative6m": "2.39%",
+        "cumulative1y": "14.10%",
+        "cumulative3y": "48.00%",
         "cumulative5y": "-",
-        "annualised3y": "14.26%",
+        "annualised3y": "14.00%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "13.79%",
+        "annualisedSinceLaunch": "13.50%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-equity-fund-usd-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_america_global_equity.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_global_equity_fund_012021.pdf",
@@ -5979,16 +5979,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "20/11/2026",
-        "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteValuationDate": "23/11/2026",
+        "websitePriceDate": "2026-11-24",
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -6112,7 +6112,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -6121,7 +6121,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -6251,7 +6251,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -6260,7 +6260,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -6276,21 +6276,21 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Global",
         "riskClassification": "Low to Medium Risk",
-        "bidPrice": "$1.1565",
+        "bidPrice": "$1.1577",
         "offerPrice": "-",
-        "valuationDate": "20/11/2026",
+        "valuationDate": "23/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "-2.04%",
-        "cumulative1m": "0.38%",
-        "cumulative3m": "-1.38%",
+        "cumulativeYtd": "-1.62%",
+        "cumulative1m": "0.49%",
+        "cumulative3m": "-0.85%",
         "cumulative6m": "-0.58%",
-        "cumulative1y": "-1.59%",
-        "cumulative3y": "15.16%",
+        "cumulative1y": "-1.30%",
+        "cumulative3y": "15.65%",
         "cumulative5y": "-",
-        "annualised3y": "4.82%",
+        "annualised3y": "4.98%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "4.67%",
+        "annualisedSinceLaunch": "4.81%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-fixed-income-fund-usd-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_global_fixed_income.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_global_fixed_income.pdf",
@@ -6389,16 +6389,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "20/11/2026",
-        "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteValuationDate": "23/11/2026",
+        "websitePriceDate": "2026-11-24",
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -6528,7 +6528,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -6537,7 +6537,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -6667,7 +6667,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -6676,7 +6676,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -6806,7 +6806,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -6815,7 +6815,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -6945,7 +6945,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -6954,7 +6954,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -7086,7 +7086,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T00:59:11+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -7095,7 +7095,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -7350,7 +7350,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T00:59:11+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -7359,7 +7359,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -7489,7 +7489,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -7498,7 +7498,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -7721,7 +7721,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -7730,7 +7730,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -7953,7 +7953,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -7962,7 +7962,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -8092,7 +8092,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -8101,7 +8101,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -8231,7 +8231,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -8240,7 +8240,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -8370,7 +8370,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -8379,7 +8379,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -8645,7 +8645,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -8654,7 +8654,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -8772,7 +8772,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -8781,7 +8781,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -8912,7 +8912,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -8921,7 +8921,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -8937,21 +8937,21 @@
         "assetClass": "Equity",
         "assetSubClass": "Greater China",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.2805",
+        "bidPrice": "$1.3422",
         "offerPrice": "-",
-        "valuationDate": "20/11/2026",
+        "valuationDate": "23/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "-5.13%",
-        "cumulative1m": "-10.95%",
-        "cumulative3m": "-15.77%",
-        "cumulative6m": "-14.98%",
-        "cumulative1y": "-4.06%",
-        "cumulative3y": "34.93%",
+        "cumulativeYtd": "-9.97%",
+        "cumulative1m": "-12.65%",
+        "cumulative3m": "-21.94%",
+        "cumulative6m": "-19.97%",
+        "cumulative1y": "-5.79%",
+        "cumulative3y": "28.05%",
         "cumulative5y": "-",
-        "annualised3y": "10.48%",
+        "annualised3y": "8.62%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "10.17%",
+        "annualisedSinceLaunch": "8.31%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-greater-china-fund-usd-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_greaterchina_prulink_emerging_mkt-income_bond.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_greater_china_012021.pdf",
@@ -9050,16 +9050,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "20/11/2026",
-        "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteValuationDate": "23/11/2026",
+        "websitePriceDate": "2026-11-24",
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -9190,7 +9190,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -9199,7 +9199,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -9329,7 +9329,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -9338,7 +9338,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -9469,7 +9469,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -9478,7 +9478,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -9610,7 +9610,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -9619,7 +9619,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -9749,7 +9749,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -9758,7 +9758,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -9888,7 +9888,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -9897,7 +9897,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -10029,7 +10029,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -10038,7 +10038,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -10273,7 +10273,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -10282,7 +10282,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -10413,7 +10413,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -10422,7 +10422,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -10570,7 +10570,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -10579,7 +10579,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -10595,21 +10595,21 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9763",
+        "bidPrice": "$0.9844",
         "offerPrice": "-",
-        "valuationDate": "20/11/2026",
+        "valuationDate": "23/11/2026",
         "inceptionDate": "18-Aug-2025",
-        "cumulativeYtd": "0.41%",
-        "cumulative1m": "-3.37%",
-        "cumulative3m": "-6.34%",
-        "cumulative6m": "-4.38%",
-        "cumulative1y": "2.58%",
+        "cumulativeYtd": "-1.07%",
+        "cumulative1m": "-4.65%",
+        "cumulative3m": "-7.98%",
+        "cumulative6m": "-6.60%",
+        "cumulative1y": "1.54%",
         "cumulative3y": "-",
         "cumulative5y": "-",
         "annualised3y": "-",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "3.16%",
+        "annualisedSinceLaunch": "1.94%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-strategicinvest-income-fund-usd-distribution.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib-prulink-strategicinvest-income-fund.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs-prulink-strategicinvest-income-fund.pdf",
@@ -10727,16 +10727,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "20/11/2026",
-        "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteValuationDate": "23/11/2026",
+        "websitePriceDate": "2026-11-24",
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -11066,7 +11066,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -11075,7 +11075,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -11091,21 +11091,21 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "US",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.0713",
+        "bidPrice": "$1.0754",
         "offerPrice": "-",
-        "valuationDate": "20/11/2026",
+        "valuationDate": "23/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "0.93%",
-        "cumulative1m": "-2.75%",
-        "cumulative3m": "-4.88%",
-        "cumulative6m": "-4.30%",
-        "cumulative1y": "2.05%",
-        "cumulative3y": "27.05%",
+        "cumulativeYtd": "-0.77%",
+        "cumulative1m": "-3.97%",
+        "cumulative3m": "-6.51%",
+        "cumulative6m": "-7.13%",
+        "cumulative1y": "2.08%",
+        "cumulative3y": "24.39%",
         "cumulative5y": "-",
-        "annualised3y": "8.32%",
+        "annualised3y": "7.57%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "8.97%",
+        "annualisedSinceLaunch": "8.37%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-us-dividend-wealth-fund-usd-distribution.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_us_dividend_wealth.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_us_dividend_wealth.pdf",
@@ -11353,16 +11353,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "20/11/2026",
-        "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteValuationDate": "23/11/2026",
+        "websitePriceDate": "2026-11-24",
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -11431,7 +11431,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -11440,7 +11440,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -11509,7 +11509,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -11518,7 +11518,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     },
     {
@@ -11587,7 +11587,7 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-24T03:08:11+00:00",
+        "failedUpdateUtc": "2026-11-24T14:56:47+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
@@ -11596,7 +11596,7 @@
         "priceSource": "prudential-website",
         "websiteValuationDate": "20/11/2026",
         "websitePriceDate": "2026-11-23",
-        "websiteFetchedUtc": "2026-11-24T03:08:05+00:00"
+        "websiteFetchedUtc": "2026-11-24T14:56:40+00:00"
       }
     }
   ]
