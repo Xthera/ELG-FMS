@@ -19,7 +19,8 @@
           "items": [
             "User guide: new Financial Calculator section.",
             "Calculators: the Financial tab sits before PRUShield Premium; switching between financial calculators flows smoothly and charts move to new values as you type.",
-            "Investment growth: choose monthly or yearly regular investments (invested at the start or end of each month / year)."
+            "Investment growth: choose monthly or yearly regular investments (invested at the start or end of each month / year).",
+            "Returns: new Regular premiums method — the annualised return (IRR) of a premium paid monthly, quarterly, half-yearly or yearly, from the first and last premium dates, the value now and its date, and payouts received. Lump sum (CAGR) also uses the dates invested and valued instead of years held."
           ]
         }
       ]
