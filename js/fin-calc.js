@@ -34,7 +34,7 @@ const RULES_FILE = "data/finance_rules.json";
 
 // Built-in copy of the reference data, used until data/finance_rules.json
 // (kept up to date by the "Update finance rules" GitHub workflow) loads
-const DEFAULT_RULES = {"cpf":{"interest":{"period":"1 October 2026 to 31 December 2026","oa":2.5,"smra":4.0,"hdbLoan":2.6},"extraInterest":{"below55":{"rate":1.0,"cap":60000,"oaCap":20000}},"contribution":{"effective":"2026-01","bands":[{"label":"35 years & below","maxAge":35,"employer":17,"employee":20},{"label":"Above 35 - 45 years","maxAge":45,"employer":17,"employee":20},{"label":"Above 45 - 50 years","maxAge":50,"employer":17,"employee":20},{"label":"Above 50 - 55 years","maxAge":55,"employer":17,"employee":20},{"label":"Above 55 - 60 years","maxAge":60,"employer":16,"employee":18},{"label":"Above 60 - 65 years","maxAge":65,"employer":12.5,"employee":12.5},{"label":"Above 65 - 70 years","maxAge":70,"employer":9,"employee":7.5},{"label":"Above 70 years","maxAge":999,"employer":7.5,"employee":5}]},"allocation":{"effective":"2026-01","bands":[{"label":"35 years & below","maxAge":35,"oa":0.6217,"sa":0.1621,"ma":0.2162},{"label":"Above 35 - 45 years","maxAge":45,"oa":0.5677,"sa":0.1891,"ma":0.2432},{"label":"Above 45 - 50 years","maxAge":50,"oa":0.5136,"sa":0.2162,"ma":0.2702},{"label":"Above 50 - 55 years","maxAge":55,"oa":0.4055,"sa":0.3108,"ma":0.2837},{"label":"Above 55 - 60 years","maxAge":60,"oa":0.353,"sa":0.3382,"ma":0.3088},{"label":"Above 60 - 65 years","maxAge":65,"oa":0.14,"sa":0.44,"ma":0.42},{"label":"Above 65 - 70 years","maxAge":70,"oa":0.0607,"sa":0.303,"ma":0.6363},{"label":"Above 70 years","maxAge":999,"oa":0.08,"sa":0.08,"ma":0.84}]},"owCeiling":{"effective":"2026-01","value":8000},"annualCeiling":102000,"frsByYear":{"2022":192000,"2023":198800,"2024":205800,"2025":213000,"2026":220400,"2027":228200},"frsGrowth":0.035,"bhs":{"year":2026,"value":79000,"growth":0.046}},"property":{"tdsr":0.55,"msr":0.3,"bankStress":4.0,"hdbFloor":3.0,"variableHaircut":0.7,"ltv":0.75,"ltvLong":0.55,"minCash":0.05,"minCashLong":0.1,"reviewed":"2026-11-25","bsd":{"effective":"15 Feb 2023","bands":[[180000,0.01],[180000,0.02],[640000,0.03],[500000,0.04],[1500000,0.05],[null,0.06]]}},"protection":{"lifeMultiple":9,"ciMultiple":4,"emergencyMonths":[3,6]},"sources":{"cpfOpenData":"https://data.gov.sg/collections/40/view","frs":"https://data.gov.sg/datasets/d_b212dff55c98a4c0b3d3d850bf744ad7/view","cpfInterest":"https://www.cpf.gov.sg/service/article/how-are-cpf-interest-rates-determined","bhs":"https://www.cpf.gov.sg/service/article/what-is-the-basic-healthcare-sum","bsd":"https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/buyer's-stamp-duty-(bsd)","property":"https://www.mas.gov.sg/regulation/explainers/new-private-property-measures"}};
+const DEFAULT_RULES = {"cpf":{"interest":{"period":"1 October 2026 to 31 December 2026","oa":2.5,"smra":4.0,"hdbLoan":2.6},"extraInterest":{"below55":{"rate":1.0,"cap":60000,"oaCap":20000}},"contribution":{"effective":"2026-01","bands":[{"label":"35 years & below","maxAge":35,"employer":17,"employee":20},{"label":"Above 35 - 45 years","maxAge":45,"employer":17,"employee":20},{"label":"Above 45 - 50 years","maxAge":50,"employer":17,"employee":20},{"label":"Above 50 - 55 years","maxAge":55,"employer":17,"employee":20},{"label":"Above 55 - 60 years","maxAge":60,"employer":16,"employee":18},{"label":"Above 60 - 65 years","maxAge":65,"employer":12.5,"employee":12.5},{"label":"Above 65 - 70 years","maxAge":70,"employer":9,"employee":7.5},{"label":"Above 70 years","maxAge":999,"employer":7.5,"employee":5}]},"allocation":{"effective":"2026-01","bands":[{"label":"35 years & below","maxAge":35,"oa":0.6217,"sa":0.1621,"ma":0.2162},{"label":"Above 35 - 45 years","maxAge":45,"oa":0.5677,"sa":0.1891,"ma":0.2432},{"label":"Above 45 - 50 years","maxAge":50,"oa":0.5136,"sa":0.2162,"ma":0.2702},{"label":"Above 50 - 55 years","maxAge":55,"oa":0.4055,"sa":0.3108,"ma":0.2837},{"label":"Above 55 - 60 years","maxAge":60,"oa":0.353,"sa":0.3382,"ma":0.3088},{"label":"Above 60 - 65 years","maxAge":65,"oa":0.14,"sa":0.44,"ma":0.42},{"label":"Above 65 - 70 years","maxAge":70,"oa":0.0607,"sa":0.303,"ma":0.6363},{"label":"Above 70 years","maxAge":999,"oa":0.08,"sa":0.08,"ma":0.84}]},"owCeiling":{"effective":"2026-01","value":8000},"annualCeiling":102000,"frsByYear":{"2022":192000,"2023":198800,"2024":205800,"2025":213000,"2026":220400,"2027":228200},"frsGrowth":0.035,"bhs":{"year":2026,"value":79000,"growth":0.046},"lifePayouts":{"cohortYear":2026,"points":[[50000,490,670],[110200,950,1280],[150000,1250,1670],[220400,1780,2380],[300000,2380,3170],[440800,3440,4580]]}},"property":{"tdsr":0.55,"msr":0.3,"bankStress":4.0,"hdbFloor":3.0,"variableHaircut":0.7,"ltv":0.75,"ltvLong":0.55,"minCash":0.05,"minCashLong":0.1,"reviewed":"2026-11-25","bsd":{"effective":"15 Feb 2023","bands":[[180000,0.01],[180000,0.02],[640000,0.03],[500000,0.04],[1500000,0.05],[null,0.06]]}},"protection":{"lifeMultiple":9,"ciMultiple":4,"emergencyMonths":[3,6]},"sources":{"cpfOpenData":"https://data.gov.sg/collections/40/view","frs":"https://data.gov.sg/datasets/d_b212dff55c98a4c0b3d3d850bf744ad7/view","cpfInterest":"https://www.cpf.gov.sg/service/article/how-are-cpf-interest-rates-determined","bhs":"https://www.cpf.gov.sg/service/article/what-is-the-basic-healthcare-sum","bsd":"https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/buyer's-stamp-duty-(bsd)","property":"https://www.mas.gov.sg/regulation/explainers/new-private-property-measures","lifePayouts":"https://www.cpf.gov.sg/service/article/how-much-cpf-payouts-can-i-get-every-month"}};
 
 let RULES = DEFAULT_RULES;
 let RULES_META = { checkedUtc: null, status: {}, loaded: false };
@@ -1064,17 +1064,49 @@ function computeCpf(v) {
     const year55 = startYear + (55 - v.age);
     const frsYears = Object.keys(C.frsByYear).map(Number).sort((a, b) => a - b);
     const lastFrsYear = frsYears.at(-1);
-    const frs = C.frsByYear[year55] ?? C.frsByYear[lastFrsYear] * Math.pow(1 + C.frsGrowth, Math.max(0, year55 - lastFrsYear));
+    const frsFor = year => C.frsByYear[year] ?? C.frsByYear[lastFrsYear] * Math.pow(1 + C.frsGrowth, Math.max(0, year - lastFrsYear));
+    const frs = frsFor(year55);
     const reach55 = v.to === 55;
+
+    // BRS = half the FRS, ERS = twice the FRS (rules since 2025)
+    const sums = [["Basic Retirement Sum (BRS)", frs / 2], ["Full Retirement Sum (FRS)", frs], ["Enhanced Retirement Sum (ERS)", frs * 2]];
+    const months = (55 - v.age) * 12;
+    const j = smraRate / 1200;
+    const topUpFactor = Math.abs(j) < 1e-12 ? months : (Math.pow(1 + j, months) - 1) / j;
+    const forRa = last.oa + last.sa;   // the RA is formed from the SA first, then the OA
+
+    // CPF LIFE (Standard Plan) estimate: CPF's table for its latest cohort, scaled to the client's cohort
+    const payout = amount => {
+        const table = C.lifePayouts?.points ?? [];
+        if (!table.length) return [NaN, NaN];
+        const scale = frsFor(year55) / frsFor(C.lifePayouts.cohortYear ?? 2026);
+        const x = amount / scale;
+        let lo = table[0], hi = table.at(-1);
+        for (let i = 0; i < table.length - 1; i++) if (x >= table[i][0] && x <= table[i + 1][0]) { lo = table[i]; hi = table[i + 1]; break; }
+        if (x > table.at(-1)[0]) { lo = table.at(-2); hi = table.at(-1); }
+        if (x < table[0][0]) { lo = table[0]; hi = table[1]; }
+        const f = (x - lo[0]) / (hi[0] - lo[0]);
+        return [1, 2].map(k => Math.max(0, (lo[k] + f * (hi[k] - lo[k])) * scale));
+    };
+    const sumRows = sums.map(([name, amount]) => {
+        const gap = amount - forRa;
+        const [p65, p70] = payout(amount);
+        return [name, money(amount), gap > 0 ? money(gap / topUpFactor) : "None needed", `${money(p65)}/mth`, `${money(p70)}/mth`];
+    });
 
     return {
         tiles: [
             { label: `Total CPF at ${last.age}`, value: money(last.total), strong: true },
             { label: "Ordinary Account", value: money(last.oa) },
-            { label: "Special Account", value: money(last.sa), note: reach55 ? `${pct(last.sa / frs, 0)} of the est. FRS` : "" },
+            { label: "Special Account", value: money(last.sa) },
             { label: "MediSave Account", value: money(last.ma) },
-            ...(reach55 ? [{ label: `Est. Full Retirement Sum (${year55})`, value: money(frs), note: last.oa + last.sa >= frs ? "OA + SA could meet it" : `OA + SA short by ${money(frs - last.oa - last.sa)}` }] : [])
+            ...(reach55 ? [{ label: `Full Retirement Sum (${year55})`, value: money(frs), note: `BRS ${money(frs / 2)} · ERS ${money(frs * 2)}${C.frsByYear[year55] ? "" : " (estimated)"}` }] : [])
         ],
+        keyTable: reach55 ? {
+            title: `Retirement sums for turning 55 in ${year55}`,
+            head: ["Retirement sum", "Amount", "Monthly top-up to SA", "CPF LIFE from 65", "From 70"],
+            rows: sumRows
+        } : null,
         chart: {
             stacked: true,
             labels: rows.map(r => String(r.age)),
@@ -1092,11 +1124,13 @@ function computeCpf(v) {
         notes: [
             `Contribution rates from ${monthLabel(C.contribution.effective)} (${Math.round(cpfBand(v.age).total * 100)}% at age ${v.age}), Ordinary Wage ceiling ${money(owCeiling)} a month, ${money(C.annualCeiling)} a year in total. Interest: OA ${plain(oaRate)}%, SA/MA ${plain(smraRate)}% (${C.interest.period || "current quarter"}), extra ${plain(extra.rate)}% on the first ${money(extra.cap)} (OA up to ${money(extra.oaCap)}) paid into the SA.`,
             `MediSave above the Basic Healthcare Sum (${money(C.bhs.value)} in ${bhsYear}, assumed to rise ${pct(C.bhs.growth, 1)} a year) flows to the SA. The Full Retirement Sum after ${lastFrsYear} is assumed to rise ${pct(C.frsGrowth, 1)} a year.`,
-            "Assumes no withdrawals (e.g. housing), no top-ups and that rates stay as today."
+            "Assumes no withdrawals (e.g. housing), no top-ups and that rates stay as today.",
+            ...(reach55 ? [`Retirement sums: ${C.frsByYear[year55] ? `CPF's published FRS for ${year55}` : `estimated from the latest published FRS (${lastFrsYear}), rising ${pct(C.frsGrowth, 1)} a year`}; BRS is half and ERS twice the FRS. Top-up: the monthly cash top-up to the SA from now to 55, earning ${plain(smraRate)}%, to close the gap between OA + SA at 55 and that sum (top-ups are capped at the current FRS). CPF LIFE: Standard Plan estimates from CPF's payout table, scaled to the ${year55} cohort; actual payouts depend on the plan, gender and interest.`] : ["Project to age 55 to see the retirement sums and CPF LIFE estimates."])
         ],
         summary: [
             `Earning ${money(v.salary)} a month (+${plain(v.bonus)} months' bonus, rising ${plain(v.growth)}% a year), CPF could grow from ${money(v.oa + v.sa + v.ma)} to about ${money(last.total)} by age ${last.age}:`,
-            `OA ${money(last.oa)}, SA ${money(last.sa)}, MA ${money(last.ma)}.`
+            `OA ${money(last.oa)}, SA ${money(last.sa)}, MA ${money(last.ma)}.`,
+            ...(reach55 ? [`Retirement sums for ${year55}: ${sums.map(([n, a], i) => `${n.match(/\((\w+)\)/)[1]} ${money(a)} (top-up ${sumRows[i][2]}, CPF LIFE about ${sumRows[i][3]} from 65)`).join("; ")}.`] : [])
         ]
     };
 }
@@ -1559,6 +1593,23 @@ function renderResults() {
             ${tile.note ? `<em>${escapeHtml(tile.note)}</em>` : ""}
         </div>`).join("");
 
+    let keyBox = qs("#fin-key-table");
+    if (!keyBox) {
+        keyBox = document.createElement("div");
+        keyBox.id = "fin-key-table";
+        keyBox.className = "fin-key-table";
+        qs("#fin-tiles").after(keyBox);
+    }
+    if (result.keyTable) {
+        keyBox.hidden = false;
+        keyBox.innerHTML = `<h3 class="fin-key-title">${escapeHtml(result.keyTable.title)}</h3>
+            <div class="calc-table-wrap"><table class="data-table calc-table fin-table"><thead><tr>${result.keyTable.head.map(h => `<th>${escapeHtml(h)}</th>`).join("")}</tr></thead>
+            <tbody>${result.keyTable.rows.map(row => `<tr>${row.map(cell => `<td>${escapeHtml(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    } else {
+        keyBox.hidden = true;
+        keyBox.innerHTML = "";
+    }
+
     const keyValue = qs("#fin-tiles .fin-tile.is-key strong");
     if (keyValue && previousKey && previousKey !== keyValue.textContent && !reducedMotion() && state.lastTool === t.id) {
         keyValue.animate([{ opacity: 0.35, transform: "translateY(3px)" }, { opacity: 1, transform: "none" }], { duration: 260, easing: EASE });
@@ -1623,7 +1674,7 @@ function smoothSwitch(change) {
 
     const parts = [
         ...qs(".fin-input-card").querySelectorAll(".fin-card-head, .fin-field:not([hidden])"),
-        ...qs(".fin-result-card").querySelectorAll(".fin-tile, #fin-chart-wrap:not([hidden]), #fin-table-details:not([hidden]), #fin-notes")
+        ...qs(".fin-result-card").querySelectorAll(".fin-tile, #fin-key-table:not([hidden]), #fin-chart-wrap:not([hidden]), #fin-table-details:not([hidden]), #fin-notes")
     ];
     parts.forEach((part, i) => {
         part.animate(
@@ -1753,6 +1804,7 @@ function printReport() {
 <div class="sub">${state.client ? `Prepared for ${escapeHtml(state.client)} · ` : ""}${escapeHtml(date)} · ${escapeHtml(site)}</div>
 <div class="tiles">${r.tiles.map(t => `<div class="tile${t.strong ? " key" : ""}"><span>${escapeHtml(t.label)}</span><strong>${escapeHtml(t.value)}</strong>${t.note ? `<em>${escapeHtml(t.note)}</em>` : ""}</div>`).join("")}</div>
 <div class="summary">${(r.summary ?? []).map(s => `<p>${escapeHtml(s)}</p>`).join("")}</div>
+${r.keyTable ? `<h2>${escapeHtml(r.keyTable.title)}</h2><table><thead><tr>${r.keyTable.head.map(h => `<th>${escapeHtml(h)}</th>`).join("")}</tr></thead><tbody>${r.keyTable.rows.map(row => `<tr>${row.map(c => `<td>${escapeHtml(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>` : ""}
 ${image ? `<img src="${image}" alt="Chart">` : ""}
 <h2>Assumptions</h2>
 <table><tbody>${inputRows(last).map(([k, v]) => `<tr><td>${escapeHtml(k)}</td><td>${escapeHtml(v)}</td></tr>`).join("")}</tbody></table>
