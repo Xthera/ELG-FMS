@@ -1,10 +1,350 @@
 {
-  "generatedAtSgt": "2026-11-25T18:13:40.117510+08:00",
+  "generatedAtSgt": "2026-11-26T04:14:57.807978+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 207,
+  "articleCount": 200,
   "analyses": [
+    {
+      "articleId": "dfb49d5b293906f1813eccf39e35c3ecc81d61a36335cae39257348e473c8328",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "The Federal Communications Commission has authorized SpaceX to deploy 1 million artificial intelligence computing satellites in low Earth orbit as part of its Starmind constellation, aiming to extend U.S. leadership in AI using solar-powered orbital infrastructure.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Telecommunications",
+        "Aerospace"
+      ],
+      "investorImpact": "The massive approval for orbital AI data centers opens new growth avenues in aerospace infrastructure, satellite communications, and semiconductor deployment for space-based computing, presenting both investment opportunities and risks for traditional terrestrial data center operators.",
+      "reasoning": "The FCC's authorization of 1 million orbital AI satellites is a landmark regulatory decision for space-based technology and artificial intelligence infrastructure. It is categorized as TECHNOLOGY, carries a POSITIVE sentiment for the companies involved, and is designated as HIGH importance due to its scale and strategic implications for the tech and space sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+      "publishedAtSgt": "2026-11-26T03:52:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "articleId": "4474c9c76289b699e58479474bce812023873e4b9cc52c65b14202e386b79619",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Technology stocks fell as excitement over Nvidia CEO Jensen Huang's return faded, renewing concerns over the sustainability of the artificial intelligence trade and growth narrative.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors in technology and AI-related equities face increased volatility and potential downside risk as market sentiment shifts regarding the sustainability of current AI growth valuations.",
+      "reasoning": "Classified as MARKET due to the tech sell-off and sentiment shift around AI stocks, with HIGH importance given Nvidia's central role in the broader market and tech sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
+      "publishedAtSgt": "2026-11-26T03:19:05+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "articleId": "b7eac61e022c37ef2153d9d7a9a36225d720e7ad7b159b99d570516faf9f7aea",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEUTRAL",
+      "importance": "LOW",
+      "summary": "A Saudi national involved in an OpenAI bugging and trade secrets case has been released on a $1 million bond after a federal judge in San Francisco ruled in favor of release despite Department of Justice objections regarding flight risk.",
+      "assetClasses": [
+        "Equity"
+      ],
+      "geographies": [
+        "United States",
+        "Saudi Arabia"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "The legal proceedings and release of the defendant in a trade secrets case involving OpenAI have minimal direct material impact on broader market valuations or investor sentiment, serving primarily as a legal update.",
+      "reasoning": "Classified as Geopolitical/Legal due to the cross-border nature and DOJ involvement surrounding a major artificial intelligence company, but given a low importance and fund monitoring relevance due to the isolated legal nature of the event.",
+      "fundMonitoringRelevant": false,
+      "source": "CNBC",
+      "title": "Saudi national in OpenAI bugging case is out on bond after DOJ tries to block release",
+      "publishedAtSgt": "2026-11-26T03:11:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/openai-bugging-aflozan-bond-release-saudi.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "articleId": "9b94db4a55bd679a2023578b803c138bd355fd6a0ab776da488761e577d30fcb",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Kalshi traders indicate that state-level data center moratoriums are more likely than not, while market commentators discuss ongoing psychological unease and sentiment-driven sell-offs in the artificial intelligence trade.",
+      "assetClasses": [
+        "Equities",
+        "Infrastructure"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Utilities",
+        "Real Estate"
+      ],
+      "investorImpact": "Investors in artificial intelligence infrastructure and data centers face regulatory headwinds from potential state moratoriums, adding to sentiment-driven market volatility.",
+      "reasoning": "Classified as TECHNOLOGY because it discusses data center infrastructure and AI market sentiment. It is relevant to fund monitoring due to potential regulatory risks affecting tech and infrastructure assets.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Kalshi traders say state data center moratoriums are more likely than not",
+      "publishedAtSgt": "2026-11-26T01:36:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/kalshi-traders-say-the-odds-of-states-imposing-data-center-moratoriums-is-more-likely-than-not.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 81,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-26T03:58:25+08:00"
+    },
+    {
+      "articleId": "a848414acb0ee56a6eb4f305de6faae3df4649647485596aebef5adf91a317cf",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Nvidia chip sellers are seeking new buyers for the semiconductor giant's hardware after the Trump administration tightened rules to curb Chinese companies' remote access to advanced AI systems, creating a surge in GPUs for sale on the secondary market.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "USA",
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "The tightening of U.S. curbs on Chinese access to advanced AI chips and remote access creates regulatory headwinds and potential demand disruptions for semiconductor manufacturers like Nvidia, impacting investor sentiment in the technology sector.",
+      "reasoning": "Classified as TECHNOLOGY due to its focus on Nvidia hardware and U.S. chip export curbs. Sentiment is NEGATIVE as restrictions limit market access for advanced AI hardware. Importance is HIGH given the significance of export controls on major semiconductor players.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC",
+      "publishedAtSgt": "2026-11-26T01:28:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 82,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-26T03:58:26+08:00"
+    },
+    {
+      "articleId": "c35038ceab7471532ca282267d29a453250ab2420da3a7322ba3f235ec4ce22f",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Prediction markets indicate that OpenAI's IPO expectations have been pushed later into 2027, with 50-50 odds even by October 2027. CEO Sam Altman previously ruled out a 2026 debut amid growing AI safety questions, despite a confidential IPO filing in June and a massive $1.25 trillion valuation.",
+      "assetClasses": [
+        "Equities",
+        "Private Equity"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors monitoring major tech listings and artificial intelligence valuations should note the delayed timeline for OpenAI's public debut, affecting sector liquidity expectations and private market pricing benchmarks.",
+      "reasoning": "Classified under MARKET because it deals with IPO timelines and market valuation expectations for a prominent private company. The sentiment is NEUTRAL as it reports factual prediction market data and prior statements without a directional bias. Importance is MEDIUM due to the massive valuation of the company involved and its influence on the broader AI sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Prediction markets push OpenAI IPO expectations later into 2027",
+      "publishedAtSgt": "2026-11-26T01:08:03+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T03:58:24+08:00"
+    },
+    {
+      "articleId": "af4cc59315ff7aedf75af4ef085243333ea0f7c5a66ea04e4cd6c4b3c12930a1",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Anthropic's stock has struggled following its IPO, failing to rally even alongside broader gains in the AI trade sparked by news of Jensen Huang's return to Nvidia as CEO, raising concerns among investors regarding the sustainability of the wider AI market momentum.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "investorImpact": "Investors in the AI sector should monitor post-IPO performance trends like Anthropic's as an indicator of broader market sentiment and valuation sustainability beyond single-company catalysts.",
+      "reasoning": "Classified as MARKET due to its focus on stock price performance and investor sentiment regarding the broader artificial intelligence sector following an IPO.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade",
+      "publishedAtSgt": "2026-11-26T00:05:25+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T03:58:24+08:00"
+    },
+    {
+      "articleId": "883019dd449cc337290c9a1b947077a97a621a9c26d72130647ec35995ef0bff",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The U.S. administration has proposed new targeted tariffs on 14 trading partners, including China and the European Union, following trade investigations launched after the Supreme Court struck down previous tariff policies.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Currencies"
+      ],
+      "geographies": [
+        "United States",
+        "China",
+        "European Union"
+      ],
+      "sectors": [
+        "International Trade",
+        "Manufacturing",
+        "Global Commerce"
+      ],
+      "investorImpact": "New tariffs heighten trade tensions, potentially increasing costs for multinational corporations, disrupting global supply chains, and impacting currency valuations and equity market sentiment across affected regions.",
+      "reasoning": "Classified as geopolitical due to sovereign trade policy actions affecting multiple global economies, and carries high importance because new tariffs directly influence international supply chains, corporate margins, and trade relations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+      "publishedAtSgt": "2026-11-26T00:02:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "articleId": "a014a1be731e26caa160cc8923f6c5ee6d494881fe9256c8731ed34e57df6678",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "A group of investors led by U.S. billionaire Todd Boehly, along with the International Development Finance Corporation and UAE-based Catena Investments, have agreed to acquire Lukoil's international oil and gas assets outside of Russia, including refineries and production assets in Bulgaria, Romania, Africa, and the Middle East.",
+      "assetClasses": [
+        "Private Equity",
+        "Commodities",
+        "Energy"
+      ],
+      "geographies": [
+        "United States",
+        "Russia",
+        "Bulgaria",
+        "Romania",
+        "Middle East",
+        "Africa",
+        "United Arab Emirates"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "The acquisition of major international oil and gas assets by a U.S.-led consortium highlights ongoing asset restructuring and divestments involving Russian energy firms, impacting global energy supply chains and cross-border M&A activity.",
+      "reasoning": "Classified as MARKET due to a major private equity-led asset acquisition in the global energy sector, involving cross-border transactions and multiple international parties. It is relevant for fund monitoring given the scale of the energy assets changing hands.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Investors led by U.S. billionaire Todd Boehly to buy Lukoil's oil and gas assets outside Russia, sources say",
+      "publishedAtSgt": "2026-11-26T00:00:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/investors-led-by-todd-boehly-to-buy-lukoil-oil-and-gas-assets-outside-russia.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T03:58:24+08:00"
+    },
+    {
+      "articleId": "f3cf88bc012293e66d6936436e607f6e220ca5ece3dcd26335c8766cc2848bff",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Wealthy investors are increasingly turning to municipal bonds for tax savings and elevated yields that approach long-run stock market returns, while paper losses from falling bond prices offer opportunities to offset capital gains elsewhere in their portfolios.",
+      "assetClasses": [
+        "Fixed Income",
+        "Municipal Bonds"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials",
+        "Government"
+      ],
+      "investorImpact": "High-net-worth investors can capitalize on elevated municipal bond yields for tax-equivalent returns and utilize paper losses to offset capital gains elsewhere, presenting attractive portfolio optimization opportunities.",
+      "reasoning": "The article is classified as MARKET because it discusses investor demand and yield dynamics within the municipal bond market. It is important for wealth management and fixed-income strategies, warranting fundMonitoringRelevant as true.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Wealthy investors seek tax savings from municipal bonds as yields remain elevated",
+      "publishedAtSgt": "2026-11-25T23:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/wealthy-investors-seek-tax-savings-from-municipal-bonds.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 93,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T03:58:30+08:00"
+    },
+    {
+      "articleId": "0b37e6c97179665cf79415ee05c8a7f4c9d57b13cdbfe7a3fa22f55682d1c51f",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The personal consumption expenditures price index, the Federal Reserve's preferred inflation gauge, accelerated to a 3.8% annual inflation rate in October, reinforcing expectations for another interest rate hike in December and raising concerns about monetary policy trajectories for 2027.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "The acceleration in inflation increases the likelihood of further monetary tightening by the Federal Reserve, which can create downward pressure on equity valuations and drive volatility in fixed income markets due to elevated interest rate expectations.",
+      "reasoning": "The article details a critical macroeconomic data release concerning the Federal Reserve's preferred inflation metric, directly impacting monetary policy expectations, market interest rates, and investor sentiment.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+      "publishedAtSgt": "2026-11-25T22:18:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-26T03:58:29+08:00"
+    },
     {
       "articleId": "38910952eb3fe5319f0759cee947e95f7dcd0699a21c0a612876f07f0a842536",
       "relevant": true,
@@ -5649,549 +5989,6 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-11-13T04:51:58+08:00"
-    },
-    {
-      "articleId": "b09316d11f16f79eb320404574947ce27e7c9b40230c7489c6cc13c246bdd68a",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "U.S. Trade Representative Jamieson Greer discusses escalating tariff threats and trade policies following a midterm election where voters expressed concern over economic impacts, setting up potential conflicts with the newly empowered congressional majority.",
-      "assetClasses": [
-        "Equities",
-        "Currencies",
-        "Commodities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "International Trade",
-        "Macroeconomics"
-      ],
-      "investorImpact": "Escalating trade tensions and tariff threats introduce policy uncertainty and potential cost pressures for multinational corporations, impacting equities, supply chains, and foreign exchange markets.",
-      "reasoning": "The article discusses high-level geopolitical and trade policy developments involving the U.S. administration, which directly affect broad macroeconomic conditions and market sentiment.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Trump trade chief Greer speaks with 'Squawk Box' as tariff threats rise",
-      "publishedAtSgt": "2026-11-12T22:14:45+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/jamieson-greer-trump-tariffs-election-nvidia.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 72,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-11-13T04:52:02+08:00"
-    },
-    {
-      "articleId": "c8ab11309baa65c71062954b49d38cb952b321b6610cd7f547db42b7dc18089f",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Nvidia's stock fell 8% amid investor concerns regarding leadership and the lack of a succession plan, dragging down other chip stocks including Intel, Marvell, Arm, and Qualcomm.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Investors face heightened volatility and risk in semiconductor equities due to management uncertainty and regulatory scrutiny facing major industry leaders like Nvidia.",
-      "reasoning": "The article details a significant market downturn for a major tech stock and sector peers driven by corporate governance and leadership concerns, which is highly relevant for market monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Nvidia stock falls 8% as investors await Jensen Huang’s fate",
-      "publishedAtSgt": "2026-11-12T20:05:42+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-12T20:47:45+08:00"
-    },
-    {
-      "articleId": "b1f8ea72f6c7443a2108b17295b3c07db0122e86eabad351da985ef0790d799e",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Nvidia shares are under pressure and sinking around 5% in premarket trading as investors await the outcome of a crisis board meeting. Meanwhile, broader investor trends show wealth moving into hedge funds, private equity, and infrastructure assets amid volatility and inflation fears.",
-      "assetClasses": [
-        "Equities",
-        "Private Equity",
-        "Hedge Funds",
-        "Infrastructure"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology"
-      ],
-      "investorImpact": "The sharp premarket drop in a major bellwether stock like Nvidia highlights immediate equity volatility and underscores broader capital shifts into alternatives like private equity and hedge funds.",
-      "reasoning": "Classified as MARKET due to the significant share price movement and investor reaction surrounding Nvidia's crisis board meeting. It is highly relevant for fund monitoring as it touches on both equity volatility and macroeconomic trends in asset diversification.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Nerves around Nvidia as investors await the outcome of Board's crisis CEO meeting",
-      "publishedAtSgt": "2026-11-12T19:06:41+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
-    },
-    {
-      "articleId": "5281bbccba988445f0288fad25bc733be4b82d627297ad1a1276ae459da9cfba",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "Ukrainian defense technology startup UFORCE has reached a $6 billion valuation after raising $700 million in a new funding round, driven by strong investor demand for battle-tested autonomous drones and AI defense software.",
-      "assetClasses": [
-        "Private Equity",
-        "Venture Capital"
-      ],
-      "geographies": [
-        "Ukraine",
-        "Global"
-      ],
-      "sectors": [
-        "Defense",
-        "Technology",
-        "Artificial Intelligence"
-      ],
-      "investorImpact": "Highlights surging venture capital and private equity interest in defense technology and autonomous weapons systems, signaling robust growth and funding opportunities in the defense tech sector.",
-      "reasoning": "The article details a major venture funding round and valuation surge for a defense technology company, making it highly relevant for market and investment monitoring in the tech and defense sectors.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
-      "publishedAtSgt": "2026-11-12T17:05:22+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 92,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
-    },
-    {
-      "articleId": "9431cb11a32215ef6fe226be158bcee30ae849854767d50c1f7b65839f7b6c4f",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "Executives from boutique and challenger advisory firms discuss how artificial intelligence is transforming the consulting industry by accelerating junior employee workflows, threatening traditional billable hours models, and impacting graduate hiring pipelines.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United Kingdom",
-        "Global"
-      ],
-      "sectors": [
-        "Professional Services",
-        "Technology"
-      ],
-      "investorImpact": "Investors in professional services and consulting firms should monitor how AI adoption compresses billable hours and shifts traditional graduate recruitment pipelines, potentially favoring agile challenger firms over legacy giants.",
-      "reasoning": "The article discusses structural changes in the consulting sector driven by AI technology adoption, affecting business models and labor pipelines. Classified as TECHNOLOGY with MIXED sentiment due to efficiency gains offset by pressures on billable hours.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "AI is coming for consulting’s billable hours — and its graduate pipeline",
-      "publishedAtSgt": "2026-11-12T16:20:56+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/ai-consulting-billable-hours-graduate-hiring.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
-    },
-    {
-      "articleId": "a2aa2d60c1cbf668d60751e69d74828059193d288c940dcf0d89264de1196150",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEUTRAL",
-      "importance": "MEDIUM",
-      "summary": "Treasury yields edged higher as bond trading resumed following Veterans Day, with investors anticipating upcoming inflation and housing data to gauge the Federal Reserve's future interest rate path. The 2-year yield rose 5 basis points to 4.7800%, while the 30-year yield held steady at 5.3503%.",
-      "assetClasses": [
-        "Fixed Income",
-        "Bonds"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials",
-        "Government"
-      ],
-      "investorImpact": "Investors are closely watching upcoming inflation and housing data to assess potential shifts in Federal Reserve monetary policy, which directly impacts bond yields and fixed income valuations.",
-      "reasoning": "The article discusses macroeconomic indicators and Treasury yield movements driven by expectations of upcoming inflation and housing reports, making it relevant for economic monitoring and fixed-income portfolio management.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Treasury yields edge higher as investors await fresh inflation and housing data",
-      "publishedAtSgt": "2026-11-12T15:38:45+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-11-12T20:47:46+08:00"
-    },
-    {
-      "articleId": "301dee4484163892eb673e2307cd69bac138216e3e370147bbb931c061a2e93c",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEUTRAL",
-      "importance": "MEDIUM",
-      "summary": "The world's wealthiest investors are increasingly diversifying into alternative investments such as private equity, hedge funds, and infrastructure due to market volatility, inflation fears, and concentrated equity markets.",
-      "assetClasses": [
-        "Private Equity",
-        "Hedge Funds",
-        "Infrastructure",
-        "Stocks",
-        "Bonds"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Alternative Investments",
-        "Financial Services"
-      ],
-      "investorImpact": "Highlights a broader market trend of capital reallocation towards alternative assets, signaling shifting sentiment regarding traditional stock and bond portfolios as hedges against inflation and volatility.",
-      "reasoning": "Classified as MARKET because it details capital flows and asset allocation trends among high-net-worth investors shifting toward alternatives. Important for monitoring shifting investor preferences away from traditional equities.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "The world's super-rich are piling into alternative investments. Here's why",
-      "publishedAtSgt": "2026-11-12T11:36:44+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/rich-wealth-alternative-assets-.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-12T20:47:45+08:00"
-    },
-    {
-      "articleId": "cb1e5281748620ca2249ef83d34c50f5e0d8e335955fc6c7781a9ad031d32ef0",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Following political setbacks for U.S. President Trump, optimism has grown regarding a potential U.S.-India trade deal by the end of the year, providing a boost to India after a period marked by high energy prices, trade uncertainty, and heavy foreign investor outflows.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "India",
-        "United States"
-      ],
-      "sectors": [
-        "Trade",
-        "Energy"
-      ],
-      "investorImpact": "Potential trade deal progress could help reverse foreign investor outflows from India and reduce tariff pressures, benefiting Indian equities and bilateral trade sectors.",
-      "reasoning": "Classified as GEOPOLITICAL due to its focus on U.S.-India trade negotiations and tariff policies. It is relevant to fund monitoring as potential trade resolutions directly impact emerging market equity flows and macroeconomic sentiment in India.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
-      "publishedAtSgt": "2026-11-12T07:57:38+08:00",
-      "url": "https://www.cnbc.com/2026/11/12/us-india-trade-tariffs-trump-modi.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-11-12T11:04:39+08:00"
-    },
-    {
-      "articleId": "54c54361299601824fdc3671e831f15a722d82ff8beaff6d30c6b914e5bddcb9",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Jim Cramer highlights CoreWeave, noting that older H100 chips are contracting at premiums above original costs, demonstrating that AI infrastructure equipment retains its economic value longer than expected and providing a counterpoint to recent pessimism surrounding AI stocks.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Investors with exposure to AI infrastructure and chip stocks may find reassurance that hardware longevity and asset value retention are stronger than previously feared, potentially shifting sentiment positively for the sector.",
-      "reasoning": "The article discusses market perceptions and valuations of AI infrastructure through CoreWeave's commentary on chip longevity, directly impacting technology equity markets and investor sentiment.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Jim Cramer says investors need to pay attention to CoreWeave. Here's why",
-      "publishedAtSgt": "2026-11-12T07:41:46+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/jim-cramer-coreweave-earnings-ceo-interview.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
-    },
-    {
-      "articleId": "ddc90088d44c113bb61adf92a06c10a3954c227fa4e14830abd3769e7b9b4163",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEUTRAL",
-      "importance": "MEDIUM",
-      "summary": "Jim Cramer discusses the upcoming Anthropic IPO, highlighting that the frontier AI lab's future spending commitments and exclusions in calculating adjusted operating income could pose challenges to maintaining profitability.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Artificial Intelligence"
-      ],
-      "investorImpact": "Investors considering the Anthropic IPO must carefully evaluate how massive spending commitments and adjusted operating income definitions impact long-term profitability.",
-      "reasoning": "Classified as MARKET due to discussion surrounding an upcoming IPO and equity valuation considerations. Sentiment is neutral as it highlights both potential growth opportunities and financial risks.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
-      "publishedAtSgt": "2026-11-12T07:30:48+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/anthropic-ipo-profit-computing-commitments.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
-    },
-    {
-      "articleId": "8c537c47282b58387de5410ad3b6c2ea22bd34b1bdb7164d614c39c41921fd68",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Members of Congress are calling for Nvidia CEO Jensen Huang to resign and are moving to subpoena him alongside pushing new legislative bills like the AI Overwatch Act, the MATCH Act, and the Chip Security Act to restrict advanced AI chip exports to adversarial nations.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States",
-        "China"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Increased regulatory and political scrutiny on Nvidia and semiconductor leaders creates significant headwinds and compliance risks for tech sector investments, particularly concerning supply chains and export markets in China.",
-      "reasoning": "The article details high-stakes political moves, potential subpoenas, and restrictive legislation targeting a mega-cap technology leader, which directly impacts market sentiment and regulatory environments for the semiconductor sector.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
-      "publishedAtSgt": "2026-11-12T06:46:29+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-11-12T11:04:39+08:00"
-    },
-    {
-      "articleId": "de28a6fea0aa92795ac25e358a5eab5aa4c3b1e71bd20fad30effef08f21b652",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Costco announced a $4 billion stock buyback plan alongside strong October sales, benefiting from market rotation out of AI trades and into defensive consumer staple stocks.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Consumer Staples",
-        "Retail"
-      ],
-      "investorImpact": "The announcement of a $4 billion stock buyback plan and strong sales numbers highlights Costco's strong shareholder value return policy and increasing investor preference for defensive sectors amid broader market rotations.",
-      "reasoning": "Classified as MARKET due to corporate capital allocation actions (stock buybacks) and market rotation trends into consumer staples. It is significant for equity portfolios holding retail or defensive sectors.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Costco is giving shareholders a big, early holiday gift. How to make sure you get it",
-      "publishedAtSgt": "2026-11-12T04:59:32+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/11/costco-is-giving-shareholders-a-big-early-holiday-gift-how-to-make-sure-you-get-it.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 100,
-      "collectorRelevanceReason": "financial_market_legal_story",
-      "collectedAtSgt": "2026-11-12T11:04:40+08:00"
-    },
-    {
-      "articleId": "e469acc58e1e3017cc54f75363120e744089eed096ab8e44a5007023ca841a61",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "Canada’s ambassador warned that President Donald Trump's tariffs are increasing investment costs and hindering business expansion, while Federal Reserve research indicates impending price hikes for U.S. consumers next year. Meanwhile, France's ambassador advocated for enhanced cooperation in AI and energy over ongoing trade tensions.",
-      "assetClasses": [
-        "Equities",
-        "Commodities"
-      ],
-      "geographies": [
-        "Canada",
-        "United States",
-        "France"
-      ],
-      "sectors": [
-        "Trade",
-        "Energy",
-        "Technology"
-      ],
-      "investorImpact": "Tariffs and trade disputes increase operational costs and create uncertainty for cross-border investments, potentially impacting profit margins and capital allocation strategies for multinational corporations.",
-      "reasoning": "Classified as GEOPOLITICAL due to its focus on international trade disputes, ambassadorial statements regarding tariffs, and cross-border relations affecting economic stability. It is relevant to fund monitoring because trade policies directly influence inflation, corporate costs, and sector-specific valuations.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
-      "publishedAtSgt": "2026-11-12T04:02:12+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-12T04:14:02+08:00"
-    },
-    {
-      "articleId": "d7075bb48658109c99c3db6cbc3b672e57c549d4cba65a40a121db0a600179f3",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "An AARP report indicates that Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP, extending the depletion date by 25 years beyond the projected 2034 date. The finding highlights that the program's financial strain is due to changes in the economy rather than just an aging population.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials",
-        "Government"
-      ],
-      "investorImpact": "The discussion around Social Security solvency and potential payroll tax adjustments can influence consumer confidence, household savings behavior, and long-term fiscal policy expectations, indirectly impacting retail and financial sectors.",
-      "reasoning": "The article is classified under ECONOMIC as it discusses macroeconomic factors, specifically GDP, payroll tax revenue, and the solvency of a major national entitlement program. Sentiment is MIXED as it highlights structural financial weaknesses while offering a hypothetical long-term extension if payroll dynamics change. Importance is MEDIUM due to its broader policy and consumer implications.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
-      "publishedAtSgt": "2026-11-12T03:54:27+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 102,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-11-12T04:14:03+08:00"
-    },
-    {
-      "articleId": "160b57b2079d019d2010e8f378ab0a4cf04cd7506c66e9579986f66ebda5a332",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "Nvidia's extensive financial commitments to AI firms have drawn scrutiny from central banks and financial institutions monitoring potential systemic risks, coinciding with recent stock pullbacks amid broader reassessments of the AI trade.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "Global"
-      ],
-      "sectors": [
-        "Technology",
-        "Financials"
-      ],
-      "investorImpact": "Investors must weigh Nvidia's dominant role in AI infrastructure against the systemic risks and regulatory scrutiny highlighted by its complex financial web, which could impact tech sector volatility.",
-      "reasoning": "The article discusses systemic financial risks tied to Nvidia's market dominance and AI financing, categorizing it under MARKET with a MIXED sentiment due to growth potential paired with stability concerns.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
-      "publishedAtSgt": "2026-11-12T03:17:19+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-12T04:14:02+08:00"
-    },
-    {
-      "articleId": "f3247192932c01bf4bdef59689df09b24c1b3754bb6e2d722d03fc42508190b0",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEUTRAL",
-      "importance": "LOW",
-      "summary": "An analysis discussing how investors might utilize the 'wheel strategy' (selling cash-secured puts followed by covered calls) on Wynn Resorts shares.",
-      "assetClasses": [
-        "Equities",
-        "Options"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Consumer Discretionary"
-      ],
-      "investorImpact": "Provides retail options strategy ideas for Wynn Resorts stock but has minimal broad impact on institutional fund monitoring.",
-      "reasoning": "Classified as MARKET because it discusses specific stock trading strategies for Wynn Resorts. However, importance is LOW and fund monitoring relevance is false as it is tactical options advice rather than macroeconomic or fundamental corporate news.",
-      "fundMonitoringRelevant": false,
-      "source": "CNBC",
-      "title": "Bouncing Wynn Shares might be primed for the 'wheel strategy'",
-      "publishedAtSgt": "2026-11-12T02:24:53+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/bouncing-wynn-shares-might-be-primed-for-the-wheel-strategy.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-12T04:14:03+08:00"
-    },
-    {
-      "articleId": "ff4bf36ffc225de1ce8f45044144ff57c36f5faf9f13571be09d49576d1aebef",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "MIXED",
-      "importance": "MEDIUM",
-      "summary": "JetBlue unveiled new first class seats to restore profitability and calm investors following a record low in shares driven by reports of bondholders contracting restructuring advisors. Executives clarified that reorganization is unnecessary, and shares have recovered over 40% this month despite being down overall for the year.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Airlines",
-        "Consumer Discretionary"
-      ],
-      "investorImpact": "Investors should note the volatile recovery in JetBlue shares and management's efforts to address restructuring concerns and boost profitability through premium seating offerings.",
-      "reasoning": "The article is classified as MARKET because it discusses stock performance, investor relations, and corporate strategy for a publicly traded airline facing restructuring rumors and subsequent equity recovery.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "JetBlue unveils new first class seats to bring back profits",
-      "publishedAtSgt": "2026-11-12T01:20:41+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-12T04:14:04+08:00"
-    },
-    {
-      "articleId": "1e44e684e2f851d1624f348ac586cc53497becbf1b6cf2f2987e39f965ed9f14",
-      "relevant": true,
-      "category": "ECONOMIC",
-      "sentiment": "NEGATIVE",
-      "importance": "HIGH",
-      "summary": "Federal Reserve official Goolsbee described a recent inflation report as borderline disturbing as the central bank weighs potential further interest rate hikes.",
-      "assetClasses": [
-        "Equities",
-        "Fixed Income"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "Hot inflation readings increase the likelihood of further Federal Reserve interest rate hikes, putting downward pressure on equity valuations and bond prices.",
-      "reasoning": "Classified as ECONOMIC because it directly concerns Federal Reserve policy and inflation data. It is important and fund-monitoring relevant due to its broad implications for monetary policy and asset pricing.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
-      "publishedAtSgt": "2026-11-12T00:49:02+08:00",
-      "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
-      "collectorCategory": "ECONOMIC",
-      "collectorRelevanceScore": 101,
-      "collectorRelevanceReason": "strong_economic_title",
-      "collectedAtSgt": "2026-11-12T04:14:04+08:00"
     }
   ]
 }
