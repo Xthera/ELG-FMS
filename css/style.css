@@ -12429,16 +12429,15 @@ html[data-style="glass"] .app-body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    padding: 0;
 }
 
 .fin-print-frame {
     display: block;
-    width: min(210mm, 100%);
+    width: min(calc(210mm + 32px), 100%);
     height: 80vh;
     border: 0;
-    border-radius: 4px;
-    background: #ffffff;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+    background: transparent;
 }
 
 /* Financial calculator: table shown under the results (e.g. retirement sums) */
