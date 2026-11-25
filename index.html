@@ -28,14 +28,26 @@
     <!-- Apply the saved text size before the page draws -->
     <script>
         try {
-            // Settings are kept per dashboard. First visit: start from the
-            // settings that used to be shared by all the dashboards.
-            ["theme", "accent", "font-size", "style"].forEach(function (key) {
-                var own = "elg-fms-" + key, shared = "vgrat-fms-" + key;
-                if (localStorage.getItem(own) === null && localStorage.getItem(shared) !== null) {
-                    localStorage.setItem(own, localStorage.getItem(shared));
+            // Settings are kept per dashboard. First visit after the split:
+            // copy every setting that used to be shared by the dashboards
+            // (appearance, watchlist, chart funds, alert rules, ...) once.
+            if (localStorage.getItem("elg-fms-own-settings") === null) {
+                var oldKeys = [];
+                for (var i = 0; i < localStorage.length; i++) {
+                    var name = localStorage.key(i);
+                    if (name && name.indexOf("vgrat-fms-") === 0 &&
+                        name.indexOf("vgrat-fms-dataset-") !== 0 && name !== "vgrat-fms-login") {
+                        oldKeys.push(name);
+                    }
                 }
-            });
+                oldKeys.forEach(function (name) {
+                    var own = "elg-fms-" + name.slice("vgrat-fms-".length);
+                    if (localStorage.getItem(own) === null) {
+                        localStorage.setItem(own, localStorage.getItem(name));
+                    }
+                });
+                localStorage.setItem("elg-fms-own-settings", "1");
+            }
             var saved = localStorage.getItem("elg-fms-font-size");
             var named = { small: 0.9, "default": 1, large: 1.15, xlarge: 1.3 };
             var scale = named[saved] || parseFloat(saved);
@@ -64,7 +76,7 @@
 
     <link
         rel="stylesheet"
-        href="css/style.css?v=click1"
+        href="css/style.css?v=fin3"
     >
 
     <link
@@ -3211,6 +3223,7 @@
                     <button type="button" class="explorer-dataset-tab active" data-calc="plan" role="tab" aria-selected="true">Plan Calculator</button>
                     <button type="button" class="explorer-dataset-tab" data-calc="prushield" role="tab" aria-selected="false">PRUShield Premium</button>
                     <button type="button" class="explorer-dataset-tab" data-calc="prucredits" role="tab" aria-selected="false">PruCredit$</button>
+                    <button type="button" class="explorer-dataset-tab" data-calc="finance" role="tab" aria-selected="false">Financial</button>
                 </div>
 
                 <div class="calc-block" data-calc-block="prushield" hidden>
@@ -3868,6 +3881,85 @@
 
                 </div>
 
+                <!-- FINANCIAL CALCULATOR (js/fin-calc.js) -->
+                <div class="calc-block" data-calc-block="finance" hidden>
+
+                    <div class="page-header">
+
+                        <div class="page-header-main">
+
+                            <div class="eyebrow">
+                                SAVINGS · LOANS &amp; PROPERTY · RETIREMENT &amp; CPF · PROTECTION
+                            </div>
+
+                            <h1 class="page-title">
+                                Financial Calculator
+                            </h1>
+
+                            <p class="page-description">
+                                Everyday planning numbers for client conversations, using current Singapore rules. Results update as you type; copy a summary or print a client report.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div id="fin-calc" class="fin-calc">
+
+                        <section class="performance-card report-card calc-card fin-picker-card" aria-label="Choose a calculator">
+                            <div id="fin-picker" class="fin-picker"></div>
+                        </section>
+
+                        <div class="fin-columns">
+
+                            <section class="performance-card report-card calc-card fin-input-card" aria-labelledby="fin-tool-title">
+                                <div class="fin-card-head">
+                                    <div>
+                                        <h2 id="fin-tool-title" class="fin-card-title">Investment growth</h2>
+                                        <p id="fin-tool-blurb" class="fin-card-blurb"></p>
+                                    </div>
+                                    <button type="button" class="fin-link-button" data-fin-reset title="Put this calculator's numbers back to the examples">Reset</button>
+                                </div>
+                                <div id="fin-fields" class="report-grid calc-grid fin-grid"></div>
+                            </section>
+
+                            <section class="performance-card report-card calc-card fin-result-card" aria-label="Results">
+                                <div class="fin-card-head">
+                                    <h2 class="fin-card-title">Results</h2>
+                                    <div class="fin-actions">
+                                        <button type="button" class="fin-action" data-fin-copy title="Copy a short summary to paste into a message">Copy summary</button>
+                                        <button type="button" class="fin-action" data-fin-print title="Open a client report to print or save as PDF">Print / PDF</button>
+                                    </div>
+                                </div>
+
+                                <label class="report-field fin-client">
+                                    <span>Client name (optional, shown on the report)</span>
+                                    <input id="fin-client" type="text" autocomplete="off" maxlength="80">
+                                </label>
+
+                                <div id="fin-problems" class="calc-problems" hidden></div>
+
+                                <div id="fin-result-body">
+                                    <div id="fin-tiles" class="calc-tiles fin-tiles"></div>
+                                    <div id="fin-chart-wrap" class="fin-chart-wrap">
+                                        <canvas id="fin-chart" aria-label="Chart of the results"></canvas>
+                                    </div>
+                                    <details id="fin-table-details" class="calc-details fin-details">
+                                        <summary>Show the figures</summary>
+                                        <div class="calc-table-wrap"><table id="fin-table" class="data-table calc-table fin-table"></table></div>
+                                    </details>
+                                    <div id="fin-notes" class="calc-notes"></div>
+                                    <p class="calc-notes fin-disclaimer">Illustration only, based on the assumptions shown. Returns, rates and rules can change and actual results will differ. Not financial advice.</p>
+                                </div>
+                            </section>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
             </section>
 
 
@@ -4298,10 +4390,10 @@
                     type="button"
                     id="app-version"
                     class="footer-version"
-                    aria-label="Version V2.1.0 – view changelog"
+                    aria-label="Version V2.2.0 – view changelog"
                     title="View changelog"
                 >
-                    V2.1.0
+                    V2.2.0
                 </button>
 
                 <button
