@@ -81,14 +81,15 @@ const TOOLS = [
         id: "growth",
         group: "save",
         name: "Investment growth",
-        blurb: "Grow a lump sum and/or regular monthly investments at an expected return.",
+        blurb: "Grow a lump sum and/or regular monthly or yearly investments at an expected return.",
         fields: [
             { key: "initial", label: "Starting amount", type: "money", value: 10000 },
-            { key: "monthly", label: "Monthly investment", type: "money", value: 500 },
-            { key: "step", label: "Increase monthly investment each year by", type: "percent", value: 0, min: 0, max: 50 },
+            { key: "freq", label: "Regular investment", type: "choice", value: "monthly", options: [["monthly", "Monthly"], ["yearly", "Yearly"]] },
+            { key: "monthly", label: v => v.freq === "yearly" ? "Yearly investment" : "Monthly investment", type: "money", value: 500 },
+            { key: "step", label: v => `Increase ${v.freq === "yearly" ? "yearly" : "monthly"} investment each year by`, type: "percent", value: 0, min: 0, max: 50 },
             { key: "rate", label: "Expected return (% a year)", type: "percent", value: 5, min: -20, max: 30 },
             { key: "years", label: "Years", type: "years", value: 20, min: 1, max: 60 },
-            { key: "timing", label: "Invest at", type: "choice", value: "start", options: [["start", "Start of month"], ["end", "End of month"]] },
+            { key: "timing", label: "Invest at", type: "choice", value: "start", options: v => v.freq === "yearly" ? [["start", "Start of year"], ["end", "End of year"]] : [["start", "Start of month"], ["end", "End of month"]] },
             { key: "inflation", label: "Inflation, for today's dollars (% a year)", type: "percent", value: 2, min: 0, max: 15 }
         ],
         compute: computeGrowth
@@ -370,13 +371,17 @@ function buyersStampDuty(price) {
 function computeGrowth(v) {
     const m = monthlyRate(v.rate);
     const months = Math.round(v.years * 12);
+    const yearly = v.freq === "yearly";
+    const every = yearly ? "a year" : "a month";
     let value = v.initial, paid = v.initial, contribution = v.monthly;
     const rows = [];
 
     for (let month = 1; month <= months; month++) {
-        if (v.timing === "start") { value += contribution; paid += contribution; }
+        // Yearly: invested in the first month (start) or the last month (end) of each year
+        const due = !yearly || (v.timing === "start" ? month % 12 === 1 : month % 12 === 0);
+        if (due && v.timing === "start") { value += contribution; paid += contribution; }
         value *= 1 + m;
-        if (v.timing !== "start") { value += contribution; paid += contribution; }
+        if (due && v.timing !== "start") { value += contribution; paid += contribution; }
 
         if (month % 12 === 0) {
             const year = month / 12;
@@ -406,7 +411,7 @@ function computeGrowth(v) {
             rows: rows.map(r => [r.year, money(r.paid), money(r.value), money(r.growth), money(r.real)])
         },
         summary: [
-            `Starting with ${money(v.initial)} and investing ${money(v.monthly)} a month${v.step ? ` (rising ${plain(v.step)}% a year)` : ""} at ${plain(v.rate)}% a year,`,
+            `Starting with ${money(v.initial)} and investing ${money(v.monthly)} ${every}${v.step ? ` (rising ${plain(v.step)}% a year)` : ""} at ${plain(v.rate)}% a year,`,
             `the investment could grow to ${money(last.value)} in ${v.years} years, from ${money(last.paid)} invested.`,
             `That is about ${money(last.real)} in today's dollars at ${plain(v.inflation)}% inflation.`
         ]
@@ -1187,10 +1192,11 @@ function numericValues(t, raw) {
             const visible = !field.showIf || field.showIf(raw);
             const text = String(value ?? "").trim();
             const number = text === "" ? NaN : Number(text);
-            if (visible && !Number.isFinite(number)) problems.push(`Enter ${field.label.toLowerCase()}.`);
-            else if (visible && field.type === "money" && number < 0) problems.push(`${field.label} can't be negative.`);
-            else if (visible && field.min !== undefined && number < field.min) problems.push(`${field.label}: at least ${field.min}.`);
-            else if (visible && field.max !== undefined && number > field.max) problems.push(`${field.label}: at most ${field.max}.`);
+            const label = labelOf(field, raw);
+            if (visible && !Number.isFinite(number)) problems.push(`Enter ${label.toLowerCase()}.`);
+            else if (visible && field.type === "money" && number < 0) problems.push(`${label} can't be negative.`);
+            else if (visible && field.min !== undefined && number < field.min) problems.push(`${label}: at least ${field.min}.`);
+            else if (visible && field.max !== undefined && number > field.max) problems.push(`${label}: at most ${field.max}.`);
             values[field.key] = Number.isFinite(number) ? number : 0;
         } else {
             values[field.key] = value;
@@ -1216,8 +1222,12 @@ function renderPicker() {
     if (hadFocus) box.querySelector(`[data-fin-tool="${state.tool}"]`)?.focus();
 }
 
+const labelOf = (field, raw) => typeof field.label === "function" ? field.label(raw) : field.label;
+const optionsOf = (field, raw) => typeof field.options === "function" ? field.options(raw) : field.options;
+
 function fieldHtml(field, value, raw) {
     const hidden = field.showIf && !field.showIf(raw) ? " hidden" : "";
+    field = { ...field, label: labelOf(field, raw), options: optionsOf(field, raw) };
     const id = `fin-${field.key}`;
 
     if (field.type === "choice") {
@@ -1290,7 +1300,19 @@ function refreshVisibility() {
     const raw = valuesFor(t);
     for (const field of t.fields) {
         const wrap = qs(`[data-fin-wrap="${field.key}"]`);
-        if (wrap) wrap.hidden = Boolean(field.showIf && !field.showIf(raw));
+        if (!wrap) continue;
+        wrap.hidden = Boolean(field.showIf && !field.showIf(raw));
+        if (typeof field.label === "function") {
+            const label = wrap.querySelector(":scope > span");
+            if (label) label.textContent = field.label(raw);
+        }
+        if (typeof field.options === "function") {
+            const options = field.options(raw);
+            wrap.querySelectorAll("[data-fin-choice]").forEach((button, i) => {
+                const name = button.querySelector(".report-payment-name");
+                if (name && options[i]) name.textContent = options[i][1];
+            });
+        }
     }
 }
 
@@ -1547,8 +1569,8 @@ function inputRows(last) {
             let shown = v;
             if (field.type === "money") shown = money(Number(v));
             else if (field.type === "percent") shown = `${plain(v)}%`;
-            else if (field.type === "choice" || field.type === "select") shown = field.options.find(o => o[0] === v)?.[1] ?? v;
-            return [field.label, shown];
+            else if (field.type === "choice" || field.type === "select") shown = optionsOf(field, last.raw).find(o => o[0] === v)?.[1] ?? v;
+            return [labelOf(field, last.raw), shown];
         });
 }
 
