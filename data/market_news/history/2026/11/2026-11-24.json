@@ -5,6 +5,21 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "c33019bb263dc95d016517e1b2138f8a4ebec25607018c53da2a68db496a8ac8",
+      "source": "CNBC",
+      "title": "Kushner-backed OakNorth secures U.S. bank charter as global digital banks push into America",
+      "publishedAtSgt": "2026-11-24T23:34:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/oaknorth-us-bank-charter.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The U.K.'s OakNorth has secured a federal bank charter, saying it is the first foreign digital bank to do so, as international competitors vie for U.S. The charter clears OakNorth, which is backed by Jared Kushner's private equity firm, to acquire Michigan-based Community Unity Bank, subject to an $80 million capital injection, according to approval documents issued by the Office of the Comptroller of the Currency on Nov.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:40+08:00"
+    },
+    {
       "id": "30b3f5ec079bfb707e2c3ce734374b315248bb1e294a911cf81fc4d1ca5b499f",
       "source": "CNBC",
       "title": "Anthropic stock falls below $83 IPO price, but analysts are still largely positive",
@@ -280,6 +295,6 @@
       "collectedAtSgt": "2026-11-24T10:56:07+08:00"
     }
   ],
-  "articleCount": 17,
-  "updatedAtSgt": "2026-11-24T22:55:42+08:00"
+  "articleCount": 18,
+  "updatedAtSgt": "2026-11-25T08:48:40+08:00"
 }

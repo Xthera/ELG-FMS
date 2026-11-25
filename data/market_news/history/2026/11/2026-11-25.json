@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-25",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "8e4fc310cef964a3199a2b3fc1e5ac3f8f24c6c550acba67d0486f158d1826f4",
+      "source": "CNBC",
+      "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+      "publishedAtSgt": "2026-11-25T06:07:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company's overall sales more than doubled on an annual basis during the third quarter, driven by AI server demand. The company's largest line is its infrastructure solutions group, or ISG, which makes AI servers and systems, often based around AI chips from companies like Nvidia and AMD. \"Every AI order is vetted for access to capital, end customer quality, trade and export compliance and access to land and power,\" Clarke said on an earnings call with analysts.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:36+08:00"
+    },
+    {
+      "id": "7cb7987a013fb79f8811d1b1ca59646cd82322815e5847a5cc9fae732d63d11c",
+      "source": "CNBC",
+      "title": "Saudi national charged in OpenAI bugging to be released on $1 million bond",
+      "publishedAtSgt": "2026-11-25T06:03:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Abdulrahman Alfozan, the Saudi national accused of bugging an OpenAI executive conference room, will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Alfozan was stealing trade secrets, or to support the speculation that he was acting as an unregistered foreign agent for Saudi Arabia.\" The San Francisco U.S.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:36+08:00"
+    },
+    {
+      "id": "c90267599d98b09c445a1bac902d4a36fd186bae11f77bc8f85341e91577b923",
+      "source": "CNBC",
+      "title": "Anthropic shares fall below IPO price. Traders see even more pain",
+      "publishedAtSgt": "2026-11-25T03:47:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/anthropic-options-trading-ipo-price.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic shares are back trading below the IPO price after a 13% sell-off Tuesday and a 1.5% drop Monday, despite a broad rally in most big tech artificial intelligence names. Options volume on the stock is picking up as the shares drop and implied volatility jumps to 96, according to ThinkOrSwim data. Selling in-the-money puts in high-volatility stocks is often a way for traders to get long stock without the capital requirements of buying the underlying equity.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:37+08:00"
+    },
+    {
+      "id": "6fe426036e5dad6e41da7c07565b538e25aa76f014dd061977b6c6e32313de46",
+      "source": "CNBC",
+      "title": "Who qualifies for Costco’s $30-per-share dividend — plus, Meta puts share plan on hold",
+      "publishedAtSgt": "2026-11-25T03:23:59+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/24/who-qualifies-for-costcos-dividend-plus-meta-pauses-share-plan.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Tech stocks and the broader AI trade are facing a wave of selling, with Anthropic's drop below its $83 IPO price contributing to the negative sentiment. As the AI trade fell back, defensive sectors like healthcare and staples outperformed. The shares were intended to give Meta a way to fund its AI infrastructure buildout or make acquisitions without diluting CEO Mark Zuckerberg's voting power.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:37+08:00"
+    },
+    {
+      "id": "b73de41486b9e9895d668982eeba6ba7982e2c816a9558721c74e17869e3837a",
+      "source": "CNBC",
+      "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+      "publishedAtSgt": "2026-11-25T02:34:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Consumers grew significantly more optimistic in November in the wake of the midterm elections, with a growing number of Americans now seeing improvement in the labor market and expecting inflation to cool. While respondents \"continued to express frustration with high prices and rising costs,\" they also \"cited hope for the general economy,\" said Fergus McCormick, the board's senior economist for global indicators.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:36+08:00"
+    }
+  ],
+  "articleCount": 5,
+  "updatedAtSgt": "2026-11-25T08:48:37+08:00"
+}

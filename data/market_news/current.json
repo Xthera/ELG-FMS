@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-24T22:55:42+08:00",
+  "generatedAtSgt": "2026-11-25T08:48:40+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,103 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "8e4fc310cef964a3199a2b3fc1e5ac3f8f24c6c550acba67d0486f158d1826f4",
+      "source": "CNBC",
+      "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+      "publishedAtSgt": "2026-11-25T06:07:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The company's overall sales more than doubled on an annual basis during the third quarter, driven by AI server demand. The company's largest line is its infrastructure solutions group, or ISG, which makes AI servers and systems, often based around AI chips from companies like Nvidia and AMD. \"Every AI order is vetted for access to capital, end customer quality, trade and export compliance and access to land and power,\" Clarke said on an earnings call with analysts.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:36+08:00"
+    },
+    {
+      "id": "7cb7987a013fb79f8811d1b1ca59646cd82322815e5847a5cc9fae732d63d11c",
+      "source": "CNBC",
+      "title": "Saudi national charged in OpenAI bugging to be released on $1 million bond",
+      "publishedAtSgt": "2026-11-25T06:03:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Abdulrahman Alfozan, the Saudi national accused of bugging an OpenAI executive conference room, will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Alfozan was stealing trade secrets, or to support the speculation that he was acting as an unregistered foreign agent for Saudi Arabia.\" The San Francisco U.S.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:36+08:00"
+    },
+    {
+      "id": "c90267599d98b09c445a1bac902d4a36fd186bae11f77bc8f85341e91577b923",
+      "source": "CNBC",
+      "title": "Anthropic shares fall below IPO price. Traders see even more pain",
+      "publishedAtSgt": "2026-11-25T03:47:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/anthropic-options-trading-ipo-price.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic shares are back trading below the IPO price after a 13% sell-off Tuesday and a 1.5% drop Monday, despite a broad rally in most big tech artificial intelligence names. Options volume on the stock is picking up as the shares drop and implied volatility jumps to 96, according to ThinkOrSwim data. Selling in-the-money puts in high-volatility stocks is often a way for traders to get long stock without the capital requirements of buying the underlying equity.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:37+08:00"
+    },
+    {
+      "id": "6fe426036e5dad6e41da7c07565b538e25aa76f014dd061977b6c6e32313de46",
+      "source": "CNBC",
+      "title": "Who qualifies for Costco’s $30-per-share dividend — plus, Meta puts share plan on hold",
+      "publishedAtSgt": "2026-11-25T03:23:59+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/24/who-qualifies-for-costcos-dividend-plus-meta-pauses-share-plan.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Tech stocks and the broader AI trade are facing a wave of selling, with Anthropic's drop below its $83 IPO price contributing to the negative sentiment. As the AI trade fell back, defensive sectors like healthcare and staples outperformed. The shares were intended to give Meta a way to fund its AI infrastructure buildout or make acquisitions without diluting CEO Mark Zuckerberg's voting power.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:37+08:00"
+    },
+    {
+      "id": "b73de41486b9e9895d668982eeba6ba7982e2c816a9558721c74e17869e3837a",
+      "source": "CNBC",
+      "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+      "publishedAtSgt": "2026-11-25T02:34:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 102,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Consumers grew significantly more optimistic in November in the wake of the midterm elections, with a growing number of Americans now seeing improvement in the labor market and expecting inflation to cool. While respondents \"continued to express frustration with high prices and rising costs,\" they also \"cited hope for the general economy,\" said Fergus McCormick, the board's senior economist for global indicators.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:36+08:00"
+    },
+    {
+      "id": "c33019bb263dc95d016517e1b2138f8a4ebec25607018c53da2a68db496a8ac8",
+      "source": "CNBC",
+      "title": "Kushner-backed OakNorth secures U.S. bank charter as global digital banks push into America",
+      "publishedAtSgt": "2026-11-24T23:34:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/24/oaknorth-us-bank-charter.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The U.K.'s OakNorth has secured a federal bank charter, saying it is the first foreign digital bank to do so, as international competitors vie for U.S. The charter clears OakNorth, which is backed by Jared Kushner's private equity firm, to acquire Michigan-based Community Unity Bank, subject to an $80 million capital injection, according to approval documents issued by the Office of the Comptroller of the Currency on Nov.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-25T08:48:40+08:00"
+    },
     {
       "id": "30b3f5ec079bfb707e2c3ce734374b315248bb1e294a911cf81fc4d1ca5b499f",
       "source": "CNBC",
@@ -1497,101 +1594,6 @@
       "relevanceScore": 82,
       "relevanceReason": "technology_business_or_infrastructure",
       "summary": "China's People's Liberation Army has been \"actively soliciting\" Nvidia's most advanced semiconductor chips to develop its artificial intelligence-enabled military capabilities, a congressional commission said in a report released Wednesday. \"Although China has made some progress in achieving its goals, it has not yet closed the hardest chokepoints — including the most advanced capabilities in logic fabrication, memory, and semiconductor manufacturing equipment, as well as the Nvidia Compute...",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
-    },
-    {
-      "id": "6ea2dcc2c492c17ec86501019b4a31ce87e09d4b64c883d18dc103c2277f5b73",
-      "source": "CNBC",
-      "title": "Treasury yields hold steady as investors look ahead to Fed minutes",
-      "publishedAtSgt": "2026-11-18T17:32:43+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html",
-      "category": "MARKET",
-      "relevanceScore": 93,
-      "relevanceReason": "strong_market_title",
-      "summary": "The benchmark 10-year Treasury yield inched 1 basis point lower to 5.092%, while the long-dated 30-year Treasury yield dipped 1 basis point to 5.443%. Meanwhile, the 2-year Treasury yield was trading relatively flat at 4.791%. retail sales came in stronger than expected on Wednesday, potentially strengthening the case for further interest rate hikes.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
-    },
-    {
-      "id": "a883b9181c29a0a58259870d01c10a551453e20d8b0cc6415376cd2ba65b288c",
-      "source": "CNBC",
-      "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
-      "publishedAtSgt": "2026-11-18T16:09:43+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "\"Any resulting slowdown in investment would add to the drag from an anticipated cooling in the global AI export cycle,\" she said, potentially knocking 0.2 percentage points off Malaysia's GDP growth forecasts through 2028. Malaysia's investment, trade and industry minister, Johari Abdul Ghani, said Tuesday, \"If you want to be in the game, you have to follow U.S.",
-      "feeds": [
-        "economy",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
-    },
-    {
-      "id": "601723ef295d695cf66bc105e7cec0be1e45e69662c037996459e9eb9e9fcf2b",
-      "source": "CNBC",
-      "title": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
-      "publishedAtSgt": "2026-11-18T16:00:05+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "SHENZHEN, China — Chinese President Xi Jinping opened a key Asia-Pacific Economic Cooperation meeting on Wednesday with calls for removing trade and investment barriers. \"We should remove trade and investment barriers,\" Xi said via an official English translation. Xi called for APEC members to deepen coordination in the digital economy and AI, as a way to drive regional economic growth.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-19T05:27:31+08:00"
-    },
-    {
-      "id": "bb9d911c3aa35d4f3d32cd95f5944e60e4c986388396e8e11614abd5a9b910e2",
-      "source": "CNBC",
-      "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
-      "publishedAtSgt": "2026-11-18T15:57:37+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "is a net energy importer, making it vulnerable to external energy shocks such as the one sparked by the disruption of trade through the Strait of Hormuz. Since the U.S.-Iran war began in late February, inflation has risen sharply after a brief dip thanks to an energy price cap that was revised upward in July. risks to energy prices, and so to inflation, are to the upside.\" Markets are currently pricing in around an 80% chance of a rate hike at the Bank of England's final meeting of the year.",
-      "feeds": [
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
-    },
-    {
-      "id": "e11853ede7d332f1e4309d5f43e935110f5ca1730daeb253a1a5ea7d103003da",
-      "source": "CNBC",
-      "title": "'Who and what comes next': Analysts expect Nvidia investor uncertainty despite earnings beat",
-      "publishedAtSgt": "2026-11-18T14:21:45+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "equity strategist at Morgan Stanley, told CNBC TV that the results were \"somewhat expected,\" with no major drop-off in Nvidia's business anticipated in the near term and guidance remaining \"pretty constructive.\" Wilson said AI remained a \"desirable investment,\" with no slowdown in spending seen or expected from hyperscalers and some neoclouds — newer cloud providers built around AI computing. However, he added that investment may not continue at the pace investors expected six months ago.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
-    },
-    {
-      "id": "4f5c94f8054488247cc27e729937c437f5a20d028364daa1a87e9645374f8243",
-      "source": "CNBC",
-      "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
-      "publishedAtSgt": "2026-11-18T11:15:00+08:00",
-      "url": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "She said leadership from Nvidia's most important supplier, Taiwan Semiconductor Manufacturing Company, visited company offices this week. \"Customers have expressed their support to the business outlook and helping us through that.\" While Huang was a singular figure in artificial intelligence with a commanding presence across the globe, Nvidia is still at the center of the AI ecosystem.",
       "feeds": [
         "latest",
         "technology"
