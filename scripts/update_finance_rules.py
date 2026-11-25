@@ -14,6 +14,7 @@ Financial Calculator always uses the current Singapore rules.
   CPF OA / SMRA interest and  cpf.gov.sg "How are CPF interest rates
   HDB loan rate (quarterly)   determined?" (rendered in Chromium)
   Basic Healthcare Sum        cpf.gov.sg "What is the Basic Healthcare Sum?"
+  CPF LIFE payout estimates   cpf.gov.sg "How much CPF payouts can I get every month?"
   Buyer's Stamp Duty bands    iras.gov.sg Buyer's Stamp Duty page
 
 Property-loan limits (TDSR 55%, MSR 30%, the 4% stress-test rate, HDB's
@@ -53,6 +54,7 @@ DATASETS = {
 }
 CPF_INTEREST_URL = "https://www.cpf.gov.sg/service/article/how-are-cpf-interest-rates-determined"
 CPF_BHS_URL = "https://www.cpf.gov.sg/service/article/what-is-the-basic-healthcare-sum"
+CPF_PAYOUT_URL = "https://www.cpf.gov.sg/service/article/how-much-cpf-payouts-can-i-get-every-month"
 IRAS_BSD_URL = "https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/buyer's-stamp-duty-(bsd)"
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
@@ -88,6 +90,10 @@ DEFAULTS: dict[str, Any] = {
         "frsByYear": {"2025": 213000, "2026": 220400, "2027": 228200},
         "frsGrowth": 0.035,
         "bhs": {"year": 2026, "value": 79000, "growth": 0.04},
+        # CPF LIFE Standard Plan: savings in the RA at 55 -> monthly payout from 65 / 70
+        "lifePayouts": {"cohortYear": 2026, "points": [
+            [50000, 490, 670], [110200, 950, 1280], [150000, 1250, 1670],
+            [220400, 1780, 2380], [300000, 2380, 3170], [440800, 3440, 4580]]},
     },
     "property": {
         "tdsr": 0.55, "msr": 0.30, "bankStress": 4.0, "hdbFloor": 3.0, "variableHaircut": 0.70,
@@ -101,6 +107,7 @@ DEFAULTS: dict[str, Any] = {
         "frs": "https://data.gov.sg/datasets/d_b212dff55c98a4c0b3d3d850bf744ad7/view",
         "cpfInterest": CPF_INTEREST_URL,
         "bhs": CPF_BHS_URL,
+        "lifePayouts": CPF_PAYOUT_URL,
         "bsd": IRAS_BSD_URL,
         "property": "https://www.mas.gov.sg/regulation/explainers/new-private-property-measures",
     },
@@ -280,6 +287,24 @@ def parse_bhs(text: str) -> dict:
     return {"year": year, "value": value, "growth": growth}
 
 
+def parse_payouts(text: str) -> dict:
+    """CPF LIFE table: '$110,200 (Basic Retirement Sum for members turning 55 in 2026)  $170,100  $950  $1,280'"""
+    points = []
+    for ra55, _ra65, from65, from70 in re.findall(
+            r"^\$([\d,]+)(?: \([^)\n]*\))?\s*\t\s*\$([\d,]+)\s*\t\s*\$([\d,]+)\s*\t\s*\$([\d,]+)\s*$", text, re.M):
+        points.append([number(ra55), number(from65), number(from70)])
+    points.sort()
+    cohort = re.search(r"turning 55 in (\d{4})", text)
+    if len(points) < 4:
+        raise ValueError("payout table not found")
+    for a, b in zip(points, points[1:]):
+        if not (b[1] >= a[1] and b[2] >= a[2]):
+            raise ValueError("payouts don't rise with savings")
+    if not all(100 <= p[1] <= 20000 and p[2] >= p[1] for p in points):
+        raise ValueError("unexpected payout amounts")
+    return {"cohortYear": int(cohort.group(1)) if cohort else datetime.now().year, "points": points}
+
+
 def parse_bsd(text: str) -> dict:
     start = text.find("On or after")
     end = text.find("BSD is rounded down", start)
@@ -327,9 +352,9 @@ def main() -> int:
     attempt("frs", read_frs, lambda v: cpf.__setitem__("frsByYear", v))
 
     try:
-        texts = page_texts({"interest": CPF_INTEREST_URL, "bhs": CPF_BHS_URL, "bsd": IRAS_BSD_URL})
+        texts = page_texts({"interest": CPF_INTEREST_URL, "bhs": CPF_BHS_URL, "payouts": CPF_PAYOUT_URL, "bsd": IRAS_BSD_URL})
     except Exception as error:   # noqa: BLE001
-        texts = {k: error for k in ("interest", "bhs", "bsd")}
+        texts = {k: error for k in ("interest", "bhs", "payouts", "bsd")}
 
     def from_text(key: str, parser):
         def run():
@@ -341,6 +366,7 @@ def main() -> int:
 
     attempt("cpfInterest", from_text("interest", parse_interest), lambda v: cpf.__setitem__("interest", v))
     attempt("bhs", from_text("bhs", parse_bhs), lambda v: cpf.__setitem__("bhs", v))
+    attempt("lifePayouts", from_text("payouts", parse_payouts), lambda v: cpf.__setitem__("lifePayouts", v))
     attempt("bsd", from_text("bsd", parse_bsd), lambda v: rules["property"].__setitem__("bsd", v))
 
     for name, entry in status.items():
