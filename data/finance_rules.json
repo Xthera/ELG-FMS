@@ -1,0 +1,246 @@
+{
+  "cpf": {
+    "interest": {
+      "period": "1 October 2026 to 31 December 2026",
+      "oa": 2.5,
+      "smra": 4.0,
+      "hdbLoan": 2.6
+    },
+    "extraInterest": {
+      "below55": {
+        "rate": 1.0,
+        "cap": 60000,
+        "oaCap": 20000
+      }
+    },
+    "contribution": {
+      "effective": "2026-01",
+      "bands": [
+        {
+          "label": "35 years & below",
+          "maxAge": 35,
+          "employer": 17,
+          "employee": 20
+        },
+        {
+          "label": "Above 35 - 45 years",
+          "maxAge": 45,
+          "employer": 17,
+          "employee": 20
+        },
+        {
+          "label": "Above 45 - 50 years",
+          "maxAge": 50,
+          "employer": 17,
+          "employee": 20
+        },
+        {
+          "label": "Above 50 - 55 years",
+          "maxAge": 55,
+          "employer": 17,
+          "employee": 20
+        },
+        {
+          "label": "Above 55 - 60 years",
+          "maxAge": 60,
+          "employer": 16,
+          "employee": 18
+        },
+        {
+          "label": "Above 60 - 65 years",
+          "maxAge": 65,
+          "employer": 12.5,
+          "employee": 12.5
+        },
+        {
+          "label": "Above 65 - 70 years",
+          "maxAge": 70,
+          "employer": 9,
+          "employee": 7.5
+        },
+        {
+          "label": "Above 70 years",
+          "maxAge": 999,
+          "employer": 7.5,
+          "employee": 5
+        }
+      ]
+    },
+    "allocation": {
+      "effective": "2026-01",
+      "bands": [
+        {
+          "label": "35 years & below",
+          "maxAge": 35,
+          "oa": 0.6217,
+          "sa": 0.1621,
+          "ma": 0.2162
+        },
+        {
+          "label": "Above 35 - 45 years",
+          "maxAge": 45,
+          "oa": 0.5677,
+          "sa": 0.1891,
+          "ma": 0.2432
+        },
+        {
+          "label": "Above 45 - 50 years",
+          "maxAge": 50,
+          "oa": 0.5136,
+          "sa": 0.2162,
+          "ma": 0.2702
+        },
+        {
+          "label": "Above 50 - 55 years",
+          "maxAge": 55,
+          "oa": 0.4055,
+          "sa": 0.3108,
+          "ma": 0.2837
+        },
+        {
+          "label": "Above 55 - 60 years",
+          "maxAge": 60,
+          "oa": 0.353,
+          "sa": 0.3382,
+          "ma": 0.3088
+        },
+        {
+          "label": "Above 60 - 65 years",
+          "maxAge": 65,
+          "oa": 0.14,
+          "sa": 0.44,
+          "ma": 0.42
+        },
+        {
+          "label": "Above 65 - 70 years",
+          "maxAge": 70,
+          "oa": 0.0607,
+          "sa": 0.303,
+          "ma": 0.6363
+        },
+        {
+          "label": "Above 70 years",
+          "maxAge": 999,
+          "oa": 0.08,
+          "sa": 0.08,
+          "ma": 0.84
+        }
+      ]
+    },
+    "owCeiling": {
+      "effective": "2026-01",
+      "value": 8000
+    },
+    "annualCeiling": 102000,
+    "frsByYear": {
+      "2022": 192000,
+      "2023": 198800,
+      "2024": 205800,
+      "2025": 213000,
+      "2026": 220400,
+      "2027": 228200
+    },
+    "frsGrowth": 0.035,
+    "bhs": {
+      "year": 2026,
+      "value": 79000,
+      "growth": 0.046
+    }
+  },
+  "property": {
+    "tdsr": 0.55,
+    "msr": 0.3,
+    "bankStress": 4.0,
+    "hdbFloor": 3.0,
+    "variableHaircut": 0.7,
+    "ltv": 0.75,
+    "ltvLong": 0.55,
+    "minCash": 0.05,
+    "minCashLong": 0.1,
+    "reviewed": "2026-11-25",
+    "bsd": {
+      "effective": "15 Feb 2023",
+      "bands": [
+        [
+          180000,
+          0.01
+        ],
+        [
+          180000,
+          0.02
+        ],
+        [
+          640000,
+          0.03
+        ],
+        [
+          500000,
+          0.04
+        ],
+        [
+          1500000,
+          0.05
+        ],
+        [
+          null,
+          0.06
+        ]
+      ]
+    }
+  },
+  "protection": {
+    "lifeMultiple": 9,
+    "ciMultiple": 4,
+    "emergencyMonths": [
+      3,
+      6
+    ]
+  },
+  "sources": {
+    "cpfOpenData": "https://data.gov.sg/collections/40/view",
+    "frs": "https://data.gov.sg/datasets/d_b212dff55c98a4c0b3d3d850bf744ad7/view",
+    "cpfInterest": "https://www.cpf.gov.sg/service/article/how-are-cpf-interest-rates-determined",
+    "bhs": "https://www.cpf.gov.sg/service/article/what-is-the-basic-healthcare-sum",
+    "bsd": "https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/buyer's-stamp-duty-(bsd)",
+    "property": "https://www.mas.gov.sg/regulation/explainers/new-private-property-measures"
+  },
+  "checkedUtc": "2026-11-25T14:30:00+00:00",
+  "updatedUtc": "2026-11-25T14:30:00+00:00",
+  "status": {
+    "cpfContribution": {
+      "ok": true,
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+    },
+    "cpfAllocation": {
+      "ok": true,
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+    },
+    "cpfOwCeiling": {
+      "ok": true,
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+    },
+    "frs": {
+      "ok": true,
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+    },
+    "cpfInterest": {
+      "ok": true,
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+    },
+    "bhs": {
+      "ok": true,
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+    },
+    "bsd": {
+      "ok": true,
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+    }
+  }
+}
