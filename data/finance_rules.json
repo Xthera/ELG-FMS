@@ -1,7 +1,7 @@
 {
   "cpf": {
     "interest": {
-      "period": "1 October 2026 to 31 December 2026",
+      "period": "1 October 2026 to 31 December 2026",
       "oa": 2.5,
       "smra": 4.0,
       "hdbLoan": 2.6
@@ -19,32 +19,32 @@
         {
           "label": "35 years & below",
           "maxAge": 35,
-          "employer": 17,
-          "employee": 20
+          "employer": 17.0,
+          "employee": 20.0
         },
         {
           "label": "Above 35 - 45 years",
           "maxAge": 45,
-          "employer": 17,
-          "employee": 20
+          "employer": 17.0,
+          "employee": 20.0
         },
         {
           "label": "Above 45 - 50 years",
           "maxAge": 50,
-          "employer": 17,
-          "employee": 20
+          "employer": 17.0,
+          "employee": 20.0
         },
         {
           "label": "Above 50 - 55 years",
           "maxAge": 55,
-          "employer": 17,
-          "employee": 20
+          "employer": 17.0,
+          "employee": 20.0
         },
         {
           "label": "Above 55 - 60 years",
           "maxAge": 60,
-          "employer": 16,
-          "employee": 18
+          "employer": 16.0,
+          "employee": 18.0
         },
         {
           "label": "Above 60 - 65 years",
@@ -55,14 +55,14 @@
         {
           "label": "Above 65 - 70 years",
           "maxAge": 70,
-          "employer": 9,
+          "employer": 9.0,
           "employee": 7.5
         },
         {
           "label": "Above 70 years",
           "maxAge": 999,
           "employer": 7.5,
-          "employee": 5
+          "employee": 5.0
         }
       ]
     },
@@ -129,55 +129,73 @@
     },
     "owCeiling": {
       "effective": "2026-01",
-      "value": 8000
+      "value": 8000.0
     },
     "annualCeiling": 102000,
     "frsByYear": {
-      "2022": 192000,
-      "2023": 198800,
-      "2024": 205800,
-      "2025": 213000,
-      "2026": 220400,
-      "2027": 228200
+      "2003": 80000.0,
+      "2004": 84500.0,
+      "2005": 90000.0,
+      "2006": 94600.0,
+      "2007": 99600.0,
+      "2008": 106000.0,
+      "2009": 117000.0,
+      "2010": 123000.0,
+      "2011": 131000.0,
+      "2012": 139000.0,
+      "2013": 148000.0,
+      "2014": 155000.0,
+      "2015": 161000.0,
+      "2017": 166000.0,
+      "2018": 171000.0,
+      "2019": 176000.0,
+      "2020": 181000.0,
+      "2021": 186000.0,
+      "2022": 192000.0,
+      "2023": 198800.0,
+      "2024": 205800.0,
+      "2025": 213000.0,
+      "2026": 220400.0,
+      "2027": 228200.0
     },
     "frsGrowth": 0.035,
     "bhs": {
       "year": 2026,
-      "value": 79000,
+      "value": 79000.0,
       "growth": 0.046
     },
     "lifePayouts": {
       "cohortYear": 2026,
       "points": [
         [
-          50000,
-          490,
-          670
+          50000.0,
+          490.0,
+          670.0
         ],
         [
-          110200,
-          950,
-          1280
+          110200.0,
+          950.0,
+          1280.0
         ],
         [
-          150000,
-          1250,
-          1670
+          150000.0,
+          1250.0,
+          1670.0
         ],
         [
-          220400,
-          1780,
-          2380
+          220400.0,
+          1780.0,
+          2380.0
         ],
         [
-          300000,
-          2380,
-          3170
+          300000.0,
+          2380.0,
+          3170.0
         ],
         [
-          440800,
-          3440,
-          4580
+          440800.0,
+          3440.0,
+          4580.0
         ]
       ]
     }
@@ -197,23 +215,23 @@
       "effective": "15 Feb 2023",
       "bands": [
         [
-          180000,
+          180000.0,
           0.01
         ],
         [
-          180000,
+          180000.0,
           0.02
         ],
         [
-          640000,
+          640000.0,
           0.03
         ],
         [
-          500000,
+          500000.0,
           0.04
         ],
         [
-          1500000,
+          1500000.0,
           0.05
         ],
         [
@@ -240,48 +258,48 @@
     "property": "https://www.mas.gov.sg/regulation/explainers/new-private-property-measures",
     "lifePayouts": "https://www.cpf.gov.sg/service/article/how-much-cpf-payouts-can-i-get-every-month"
   },
-  "checkedUtc": "2026-11-25T14:30:00+00:00",
-  "updatedUtc": "2026-11-25T14:30:00+00:00",
+  "checkedUtc": "2026-11-25T15:30:39+00:00",
+  "updatedUtc": "2026-11-25T15:30:39+00:00",
   "status": {
     "cpfContribution": {
       "ok": true,
-      "checkedUtc": "2026-11-25T14:30:00+00:00",
-      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+      "checkedUtc": "2026-11-25T15:30:39+00:00",
+      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
     },
     "cpfAllocation": {
       "ok": true,
-      "checkedUtc": "2026-11-25T14:30:00+00:00",
-      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+      "checkedUtc": "2026-11-25T15:30:39+00:00",
+      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
     },
     "cpfOwCeiling": {
       "ok": true,
-      "checkedUtc": "2026-11-25T14:30:00+00:00",
-      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+      "checkedUtc": "2026-11-25T15:30:39+00:00",
+      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
     },
     "frs": {
       "ok": true,
-      "checkedUtc": "2026-11-25T14:30:00+00:00",
-      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+      "checkedUtc": "2026-11-25T15:30:39+00:00",
+      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
     },
     "cpfInterest": {
       "ok": true,
-      "checkedUtc": "2026-11-25T14:30:00+00:00",
-      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+      "checkedUtc": "2026-11-25T15:30:39+00:00",
+      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
     },
     "bhs": {
       "ok": true,
-      "checkedUtc": "2026-11-25T14:30:00+00:00",
-      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
-    },
-    "bsd": {
-      "ok": true,
-      "checkedUtc": "2026-11-25T14:30:00+00:00",
-      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+      "checkedUtc": "2026-11-25T15:30:39+00:00",
+      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
     },
     "lifePayouts": {
       "ok": true,
-      "checkedUtc": "2026-11-25T14:30:00+00:00",
-      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+      "checkedUtc": "2026-11-25T15:30:39+00:00",
+      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
+    },
+    "bsd": {
+      "ok": true,
+      "checkedUtc": "2026-11-25T15:30:39+00:00",
+      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
     }
   }
 }
