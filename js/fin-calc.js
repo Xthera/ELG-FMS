@@ -1784,32 +1784,133 @@ function printReport() {
     const date = new Date().toLocaleDateString("en-SG", { day: "numeric", month: "long", year: "numeric" });
     const site = document.title.split(/\s[—–|-]\s/)[0].trim();
     const r = last.result;
+    const footer = `${last.tool.name}${state.client ? ` · ${state.client}` : ""} · ${date}`;
 
+    const table = (title, head, rows) => `
+<h2 data-keep="next">${escapeHtml(title)}</h2>
+<div data-split="table" data-title="${escapeHtml(title)}"><table><thead><tr>${head.map(h => `<th>${escapeHtml(h)}</th>`).join("")}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(c => `<td>${escapeHtml(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+
+    const fine = [...(r.notes ?? []), rulesFootnote(last.tool.id),
+        "This illustration is based on the assumptions shown and is for discussion only. Returns, rates and rules can change, and actual results will differ. It is not financial advice or a recommendation."].filter(Boolean);
+
+    // Blocks are laid onto A4 pages by the script at the end: a block never
+    // splits (it moves to the next page), headings stay with what follows,
+    // and tables continue onto the next page with their headings repeated.
     const html = `<!doctype html><html><head><meta charset="utf-8"><title>${escapeHtml(last.tool.name)}${state.client ? ` – ${escapeHtml(state.client)}` : ""}</title>
 <style>
-  *{box-sizing:border-box} body{font:13px/1.5 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#1b2430;margin:28px}
-  h1{font-size:22px;margin:0 0 2px} .sub{color:#5b6672;margin-bottom:18px}
-  .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0 16px}
-  .tile{border:1px solid #d5dbe1;border-radius:8px;padding:10px}
-  .tile span{display:block;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#5b6672}
-  .tile strong{display:block;font-size:17px;margin-top:2px} .tile em{display:block;font-style:normal;color:#5b6672;font-size:11px}
+  *{box-sizing:border-box}
+  html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{margin:0;padding:16px 0;background:#525659;font:12.5px/1.5 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#1b2430}
+  #src{position:absolute;left:-10000px;top:0;width:186mm}
+  .page{width:210mm;height:297mm;margin:0 auto 16px;padding:12mm 12mm 8mm;background:#fff;box-shadow:0 6px 24px rgba(0,0,0,.35);display:flex;flex-direction:column}
+  .page-body{flex:1;overflow:hidden;min-height:0}
+  .page-foot{flex:none;padding-top:3mm;border-top:1px solid #e3e7eb;color:#7a8691;font-size:10px;display:flex;justify-content:space-between}
+  h1{font-size:21px;margin:0 0 2px} .sub{color:#5b6672;margin-bottom:14px}
+  .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:0 0 14px}
+  .tile{border:1px solid #d5dbe1;border-radius:8px;padding:9px 10px}
+  .tile span{display:block;font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#5b6672}
+  .tile strong{display:block;font-size:16px;margin-top:2px} .tile em{display:block;font-style:normal;color:#5b6672;font-size:10.5px}
   .tile.key{border-color:#1b6fd1;background:#f2f7fd}
-  h2{font-size:14px;margin:18px 0 6px} table{width:100%;border-collapse:collapse;font-size:12px}
-  th,td{border-bottom:1px solid #e3e7eb;padding:5px 6px;text-align:right} th:first-child,td:first-child{text-align:left}
-  th{background:#f5f7f9} img{width:100%;max-height:300px;object-fit:contain;margin-top:6px}
-  .summary p{margin:4px 0} .fine{color:#6a7480;font-size:11px;margin-top:18px;border-top:1px solid #e3e7eb;padding-top:8px}
-  @media print{body{margin:12mm} .tiles{grid-template-columns:repeat(4,1fr)} tr{break-inside:avoid}}
+  h2{font-size:13.5px;margin:16px 0 6px}
+  table{width:100%;border-collapse:collapse;font-size:11.5px}
+  th,td{border-bottom:1px solid #e3e7eb;padding:4.5px 6px;text-align:right;vertical-align:top} th:first-child,td:first-child{text-align:left}
+  th{background:#f5f7f9;font-weight:650}
+  .cont{color:#5b6672;font-size:11px;font-weight:650;margin:0 0 4px}
+  .chart{margin:6px 0 4px} .chart img{display:block;width:100%;max-height:250px;object-fit:contain}
+  .summary p{margin:0 0 4px}
+  .fine{color:#6a7480;font-size:10.5px;margin:0 0 4px}
+  .fine.first{margin-top:14px;padding-top:8px;border-top:1px solid #e3e7eb}
+  @page{size:A4;margin:0}
+  @media print{body{height:auto!important;overflow:visible!important}}
+  #pages{transform-origin:top left}
+  @media print{body{background:#fff;padding:0}#pages{transform:none!important;margin:0!important;width:auto!important}.page{margin:0;box-shadow:none;break-after:page}.page:last-child{break-after:auto}}
 </style></head><body>
-<h1>${escapeHtml(last.tool.name)}</h1>
-<div class="sub">${state.client ? `Prepared for ${escapeHtml(state.client)} · ` : ""}${escapeHtml(date)} · ${escapeHtml(site)}</div>
+<div id="pages"></div>
+<div id="src">
+<div><h1>${escapeHtml(last.tool.name)}</h1>
+<div class="sub">${state.client ? `Prepared for ${escapeHtml(state.client)} · ` : ""}${escapeHtml(date)} · ${escapeHtml(site)}</div></div>
 <div class="tiles">${r.tiles.map(t => `<div class="tile${t.strong ? " key" : ""}"><span>${escapeHtml(t.label)}</span><strong>${escapeHtml(t.value)}</strong>${t.note ? `<em>${escapeHtml(t.note)}</em>` : ""}</div>`).join("")}</div>
 <div class="summary">${(r.summary ?? []).map(s => `<p>${escapeHtml(s)}</p>`).join("")}</div>
-${r.keyTable ? `<h2>${escapeHtml(r.keyTable.title)}</h2><table><thead><tr>${r.keyTable.head.map(h => `<th>${escapeHtml(h)}</th>`).join("")}</tr></thead><tbody>${r.keyTable.rows.map(row => `<tr>${row.map(c => `<td>${escapeHtml(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>` : ""}
-${image ? `<img src="${image}" alt="Chart">` : ""}
-<h2>Assumptions</h2>
-<table><tbody>${inputRows(last).map(([k, v]) => `<tr><td>${escapeHtml(k)}</td><td>${escapeHtml(v)}</td></tr>`).join("")}</tbody></table>
-${r.table ? `<h2>Details</h2><table><thead><tr>${r.table.head.map(h => `<th>${escapeHtml(h)}</th>`).join("")}</tr></thead><tbody>${r.table.rows.map(row => `<tr>${row.map(c => `<td>${escapeHtml(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>` : ""}
-<div class="fine">${[...(r.notes ?? []), rulesFootnote(last.tool.id)].filter(Boolean).map(n => `<p>${escapeHtml(n)}</p>`).join("")}<p>This illustration is based on the assumptions shown and is for discussion only. Returns, rates and rules can change, and actual results will differ. It is not financial advice or a recommendation.</p></div>
+${r.keyTable ? table(r.keyTable.title, r.keyTable.head, r.keyTable.rows) : ""}
+${image ? `<div class="chart"><img src="${image}" alt="Chart"></div>` : ""}
+${table("Assumptions", ["Assumption", "Value"], inputRows(last))}
+${r.table ? table("Details", r.table.head, r.table.rows) : ""}
+${fine.map((n, i) => `<p class="fine${i === 0 ? " first" : ""}">${escapeHtml(n)}</p>`).join("")}
+</div>
+<script>
+(async () => {
+  const src = document.getElementById("src"), pages = document.getElementById("pages");
+  for (const img of src.querySelectorAll("img")) { try { await img.decode(); } catch (e) {} }
+  const footer = ${JSON.stringify(footer)};
+  let body;
+  const newPage = () => {
+    const page = document.createElement("section"); page.className = "page";
+    body = document.createElement("div"); body.className = "page-body";
+    const foot = document.createElement("div"); foot.className = "page-foot";
+    foot.innerHTML = "<span>&nbsp;</span><span>Page 0 of 0</span>";   // same height as the final footer
+    page.append(body, foot); pages.append(page);
+  };
+  const fits = () => body.scrollHeight <= body.clientHeight + 1;
+  // Move a heading that would be left alone at the bottom of a page
+  const takeHeading = () => {
+    const prev = body.lastElementChild;
+    if (prev && prev.dataset.keep === "next" && body.children.length > 1) { prev.remove(); return [prev]; }
+    return [];
+  };
+  const place = block => {
+    body.append(block);
+    if (fits() || body.children.length === 1) return;
+    block.remove();
+    const carry = takeHeading();
+    newPage(); carry.forEach(c => body.append(c)); body.append(block);
+  };
+  const placeTable = wrap => {
+    const source = wrap.querySelector("table"), head = source.tHead, rows = [...source.tBodies[0].rows];
+    let part = 0, tbody;
+    const start = () => {
+      const box = document.createElement("div"), t = document.createElement("table");
+      if (part > 0) { const c = document.createElement("div"); c.className = "cont"; c.textContent = wrap.dataset.title + " (continued)"; box.append(c); }
+      if (head) t.append(head.cloneNode(true));
+      tbody = document.createElement("tbody"); t.append(tbody); box.append(t); body.append(box);
+    };
+    start();
+    for (const row of rows) {
+      tbody.append(row);
+      if (fits()) continue;
+      row.remove();
+      if (!tbody.rows.length) {
+        // Not even one row fits here: start the table (and its heading) on the next page
+        tbody.closest("div").remove();
+        const carry = takeHeading();
+        newPage(); carry.forEach(c => body.append(c));
+      } else {
+        newPage(); part++;
+      }
+      start(); tbody.append(row);
+    }
+  };
+  newPage();
+  for (const block of [...src.children]) {
+    if (block.dataset.split === "table") placeTable(block); else place(block);
+  }
+  src.remove();
+  const all = [...pages.children];
+  all.forEach((page, i) => { page.querySelector(".page-foot").innerHTML = "<span></span><span></span>"; const [a, b] = page.querySelectorAll(".page-foot span"); a.textContent = footer; b.textContent = "Page " + (i + 1) + " of " + all.length; });
+  // Shrink the A4 pages to fit a narrow preview (screen only; printing is unaffected)
+  const pageWidth = all[0].offsetWidth, gap = 16;
+  const z = Math.min(1, (window.innerWidth - gap) / pageWidth);
+  if (z < 1) {
+    pages.style.width = pageWidth + "px";
+    pages.style.transform = "scale(" + z + ")";
+    pages.style.marginLeft = Math.max(0, (window.innerWidth - pageWidth * z) / 2) + "px";
+  }
+  const height = pages.offsetHeight * z + 32;
+  document.body.style.height = height + "px";
+  document.body.style.overflow = "hidden";
+  if (window.frameElement) window.frameElement.style.height = Math.ceil(height) + "px";
+  document.documentElement.dataset.ready = "1";
+})();
+<\/script>
 </body></html>`;
 
     openPrintPreview(html, `${last.tool.name}${state.client ? ` · ${state.client}` : ""}`);
@@ -1855,7 +1956,7 @@ function printDialog() {
     frame.addEventListener("load", () => {
         try {
             const doc = frame.contentDocument;
-            frame.style.height = `${Math.max(600, doc.documentElement.scrollHeight + 4)}px`;
+            if (!frame.style.height) frame.style.height = `${Math.max(600, doc.documentElement.scrollHeight + 4)}px`;
             doc.addEventListener("keydown", event => { if (event.key === "Escape") dialog.close(); });
         } catch { /* keep the default height */ }
     });
