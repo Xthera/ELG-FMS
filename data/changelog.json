@@ -20,7 +20,8 @@
             "User guide: new Financial Calculator section.",
             "Calculators: the Financial tab sits before PRUShield Premium; switching between financial calculators flows smoothly and charts move to new values as you type.",
             "Investment growth: choose monthly or yearly regular investments (invested at the start or end of each month / year).",
-            "Returns: new Regular premiums method — the annualised return (IRR) of a premium paid monthly, quarterly, half-yearly or yearly, from the first and last premium dates, the value now and its date, and payouts received. Lump sum (CAGR) also uses the dates invested and valued instead of years held."
+            "Returns: new Regular premiums method — the annualised return (IRR) of a premium paid monthly, quarterly, half-yearly or yearly, from the first and last premium dates, the value now and its date, and payouts received. Lump sum (CAGR) also uses the dates invested and valued instead of years held.",
+            "CPF growth to 55: shows the Basic, Full and Enhanced Retirement Sums for the year the client turns 55, the monthly cash top-up to the SA needed to reach each, and the estimated CPF LIFE payout from 65 and 70 (from CPF's payout table, updated automatically)."
           ]
         }
       ]

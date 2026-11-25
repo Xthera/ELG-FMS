@@ -145,6 +145,41 @@
       "year": 2026,
       "value": 79000,
       "growth": 0.046
+    },
+    "lifePayouts": {
+      "cohortYear": 2026,
+      "points": [
+        [
+          50000,
+          490,
+          670
+        ],
+        [
+          110200,
+          950,
+          1280
+        ],
+        [
+          150000,
+          1250,
+          1670
+        ],
+        [
+          220400,
+          1780,
+          2380
+        ],
+        [
+          300000,
+          2380,
+          3170
+        ],
+        [
+          440800,
+          3440,
+          4580
+        ]
+      ]
     }
   },
   "property": {
@@ -202,7 +237,8 @@
     "cpfInterest": "https://www.cpf.gov.sg/service/article/how-are-cpf-interest-rates-determined",
     "bhs": "https://www.cpf.gov.sg/service/article/what-is-the-basic-healthcare-sum",
     "bsd": "https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/buyer's-stamp-duty-(bsd)",
-    "property": "https://www.mas.gov.sg/regulation/explainers/new-private-property-measures"
+    "property": "https://www.mas.gov.sg/regulation/explainers/new-private-property-measures",
+    "lifePayouts": "https://www.cpf.gov.sg/service/article/how-much-cpf-payouts-can-i-get-every-month"
   },
   "checkedUtc": "2026-11-25T14:30:00+00:00",
   "updatedUtc": "2026-11-25T14:30:00+00:00",
@@ -238,6 +274,11 @@
       "lastGoodUtc": "2026-11-25T14:30:00+00:00"
     },
     "bsd": {
+      "ok": true,
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+    },
+    "lifePayouts": {
       "ok": true,
       "checkedUtc": "2026-11-25T14:30:00+00:00",
       "lastGoodUtc": "2026-11-25T14:30:00+00:00"
