@@ -1120,7 +1120,9 @@ const state = {
     client: "",
     last: null,
     initialized: false,
-    timer: 0
+    timer: 0,
+    chartKey: "",
+    lastTool: ""
 };
 
 const qs = (selector, root = document) => root.querySelector(selector);
@@ -1200,6 +1202,7 @@ function numericValues(t, raw) {
 function renderPicker() {
     const box = qs("#fin-picker");
     if (!box) return;
+    const hadFocus = box.contains(document.activeElement);
     box.innerHTML = GROUPS.map(group => `
         <div class="fin-group">
             <span class="fin-group-label">${escapeHtml(group.label)}</span>
@@ -1210,6 +1213,7 @@ function renderPicker() {
                     </button>`).join("")}
             </div>
         </div>`).join("");
+    if (hadFocus) box.querySelector(`[data-fin-tool="${state.tool}"]`)?.focus();
 }
 
 function fieldHtml(field, value, raw) {
@@ -1324,9 +1328,20 @@ function compactMoney(value) {
 
 function drawChart(chart) {
     const wrap = qs("#fin-chart-wrap");
-    destroyChart("fin-chart");
-    if (!chart || !window.Chart) { if (wrap) wrap.hidden = true; return; }
+    if (!chart || !window.Chart) { destroyChart("fin-chart"); state.chartKey = ""; if (wrap) wrap.hidden = true; return; }
     wrap.hidden = false;
+
+    // Same chart, new numbers: move the existing lines / bars smoothly
+    const key = `${state.tool}|${chart.type ?? "line"}|${chart.stacked ? 1 : 0}|${chart.series.map(s => s.label).join("/")}|${document.documentElement.dataset.theme}|${document.documentElement.dataset.accent}|${document.documentElement.dataset.variant}`;
+    const existing = window.Chart.getChart?.("fin-chart");
+    if (existing && key === state.chartKey) {
+        existing.data.labels = chart.labels;
+        chart.series.forEach((s, i) => { if (existing.data.datasets[i]) existing.data.datasets[i].data = s.data; });
+        existing.update(reducedMotion() ? "none" : undefined);
+        return;
+    }
+    state.chartKey = key;
+    destroyChart("fin-chart");
 
     const text = cssVar("--text-primary", "#e6edf3");
     const muted = cssVar("--text-muted", "#8b98a5");
@@ -1360,7 +1375,7 @@ function drawChart(chart) {
         options: {
             responsive: true,
             maintainAspectRatio: false,
-            animation: { duration: 500 },
+            animation: reducedMotion() ? false : { duration: 650, easing: "easeOutCubic" },
             interaction: { mode: "index", intersect: false },
             plugins: {
                 legend: { display: chart.series.length > 1, labels: { color: text, boxWidth: 12, usePointStyle: true } },
@@ -1404,12 +1419,19 @@ function renderResults() {
     problemsBox.hidden = true;
     body.hidden = false;
 
+    const previousKey = qs("#fin-tiles .fin-tile.is-key strong")?.textContent;
     qs("#fin-tiles").innerHTML = result.tiles.map(tile => `
         <div class="calc-tile fin-tile${tile.strong ? " is-key" : ""}${tile.tone ? ` is-${tile.tone}` : ""}">
             <span>${escapeHtml(tile.label)}</span>
             <strong>${escapeHtml(tile.value)}</strong>
             ${tile.note ? `<em>${escapeHtml(tile.note)}</em>` : ""}
         </div>`).join("");
+
+    const keyValue = qs("#fin-tiles .fin-tile.is-key strong");
+    if (keyValue && previousKey && previousKey !== keyValue.textContent && !reducedMotion() && state.lastTool === t.id) {
+        keyValue.animate([{ opacity: 0.35, transform: "translateY(3px)" }, { opacity: 1, transform: "none" }], { duration: 260, easing: EASE });
+    }
+    state.lastTool = t.id;
 
     drawChart(result.chart);
 
@@ -1436,6 +1458,47 @@ function schedule() {
 function setValue(key, value) {
     const t = tool();
     state.values[t.id] = { ...valuesFor(t), [key]: value };
+}
+
+// ------------------------------------------------------------
+// Smooth switching between calculators (follows the dashboard's
+// motion: off when the device asks for reduced motion)
+// ------------------------------------------------------------
+
+const EASE = "cubic-bezier(.2, .8, .2, 1)";
+
+function reducedMotion() {
+    return Boolean(window.matchMedia?.("(prefers-reduced-motion: reduce)").matches);
+}
+
+function smoothSwitch(change) {
+    const cards = [qs(".fin-input-card"), qs(".fin-result-card")].filter(Boolean);
+    if (reducedMotion() || !cards.length || typeof cards[0].animate !== "function") { change(); return; }
+
+    cards.forEach(card => card.getAnimations().forEach(a => a.cancel()));
+    const before = cards.map(card => card.getBoundingClientRect().height);
+    change();
+
+    cards.forEach((card, i) => {
+        const after = card.getBoundingClientRect().height;
+        if (Math.abs(after - before[i]) > 1) {
+            const overflow = card.style.overflow;
+            card.style.overflow = "hidden";
+            const anim = card.animate([{ height: `${before[i]}px` }, { height: `${after}px` }], { duration: 380, easing: EASE });
+            anim.onfinish = anim.oncancel = () => { card.style.overflow = overflow; };
+        }
+    });
+
+    const parts = [
+        ...qs(".fin-input-card").querySelectorAll(".fin-card-head, .fin-field:not([hidden])"),
+        ...qs(".fin-result-card").querySelectorAll(".fin-tile, #fin-chart-wrap:not([hidden]), #fin-table-details:not([hidden]), #fin-notes")
+    ];
+    parts.forEach((part, i) => {
+        part.animate(
+            [{ opacity: 0, transform: "translateY(10px)" }, { opacity: 1, transform: "none" }],
+            { duration: 360, delay: Math.min(i, 12) * 22, easing: EASE, fill: "backwards" }
+        );
+    });
 }
 
 // ------------------------------------------------------------
@@ -1563,14 +1626,67 @@ ${image ? `<img src="${image}" alt="Chart">` : ""}
 <table><tbody>${inputRows(last).map(([k, v]) => `<tr><td>${escapeHtml(k)}</td><td>${escapeHtml(v)}</td></tr>`).join("")}</tbody></table>
 ${r.table ? `<h2>Details</h2><table><thead><tr>${r.table.head.map(h => `<th>${escapeHtml(h)}</th>`).join("")}</tr></thead><tbody>${r.table.rows.map(row => `<tr>${row.map(c => `<td>${escapeHtml(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>` : ""}
 <div class="fine">${[...(r.notes ?? []), rulesFootnote(last.tool.id)].filter(Boolean).map(n => `<p>${escapeHtml(n)}</p>`).join("")}<p>This illustration is based on the assumptions shown and is for discussion only. Returns, rates and rules can change, and actual results will differ. It is not financial advice or a recommendation.</p></div>
-<script>window.addEventListener("load",()=>setTimeout(()=>window.print(),250));<\/script>
 </body></html>`;
 
-    const win = window.open("", "_blank");
-    if (!win) { alert("Please allow pop-ups for this site to print the report."); return; }
-    win.document.open();
-    win.document.write(html);
-    win.document.close();
+    openPrintPreview(html, `${last.tool.name}${state.client ? ` · ${state.client}` : ""}`);
+}
+
+// Preview popup (same look as Report Generation's preview): the report on
+// an A4 page, with Print / Save as PDF and a close button
+function printDialog() {
+    let dialog = qs("#fin-print-dialog");
+    if (dialog) return dialog;
+
+    dialog = document.createElement("dialog");
+    dialog.id = "fin-print-dialog";
+    dialog.className = "report-dialog fin-print-dialog";
+    dialog.setAttribute("aria-labelledby", "fin-print-title");
+    dialog.innerHTML = `
+        <div class="report-toolbar">
+            <div class="report-toolbar-title">
+                <strong id="fin-print-title">Report preview</strong>
+                <span class="settings-help" id="fin-print-sub">A4 · this is how the PDF will look</span>
+            </div>
+            <div class="report-toolbar-actions">
+                <button type="button" class="report-generate" data-fin-print-go>⎙ Print / Save as PDF</button>
+                <button type="button" class="report-close" data-fin-print-close aria-label="Close preview" title="Close">×</button>
+            </div>
+        </div>
+        <div class="report-paper-area fin-print-area">
+            <iframe class="fin-print-frame" title="Report preview"></iframe>
+        </div>`;
+    document.body.append(dialog);
+
+    const frame = dialog.querySelector("iframe");
+    const go = dialog.querySelector("[data-fin-print-go]");
+    go.addEventListener("click", () => {
+        try { frame.contentWindow.focus(); frame.contentWindow.print(); }
+        catch { window.print(); }
+        go.focus();     // so Esc closes the preview afterwards
+    });
+    dialog.querySelector("[data-fin-print-close]").addEventListener("click", () => dialog.close());
+    dialog.addEventListener("click", event => { if (event.target === dialog) dialog.close(); });
+
+    // Grow the page to the report's full length
+    frame.addEventListener("load", () => {
+        try {
+            const doc = frame.contentDocument;
+            frame.style.height = `${Math.max(600, doc.documentElement.scrollHeight + 4)}px`;
+            doc.addEventListener("keydown", event => { if (event.key === "Escape") dialog.close(); });
+        } catch { /* keep the default height */ }
+    });
+    return dialog;
+}
+
+function openPrintPreview(html, subtitle) {
+    const dialog = printDialog();
+    dialog.querySelector("#fin-print-title").textContent = "Report preview";
+    dialog.querySelector("#fin-print-sub").textContent = `A4 · ${subtitle}`;
+    const frame = dialog.querySelector("iframe");
+    frame.style.height = "";
+    frame.srcdoc = html;
+    if (!dialog.open) dialog.showModal();
+    dialog.querySelector(".report-paper-area").scrollTop = 0;
 }
 
 // ------------------------------------------------------------
@@ -1583,10 +1699,13 @@ function bindEvents() {
     root.addEventListener("click", event => {
         const pick = event.target.closest("[data-fin-tool]");
         if (pick) {
+            if (pick.dataset.finTool === state.tool) return;
             state.tool = pick.dataset.finTool;
-            renderPicker();
-            renderForm();
-            renderResults();
+            smoothSwitch(() => {
+                renderPicker();
+                renderForm();
+                renderResults();
+            });
             saveState();
             return;
         }
@@ -1629,8 +1748,10 @@ function bindEvents() {
         if (event.target.closest("[data-fin-print]")) { printReport(); return; }
         if (event.target.closest("[data-fin-reset]")) {
             delete state.values[tool().id];
-            renderForm();
-            renderResults();
+            smoothSwitch(() => {
+                renderForm();
+                renderResults();
+            });
             saveState();
         }
     });
