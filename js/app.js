@@ -53,6 +53,10 @@ import {
 } from "./charts.js";
 
 import {
+    initializeFinanceCalculator
+} from "./fin-calc.js";
+
+import {
     createFundLinker,
     createIndexLinker
 } from "./news-fund-links.js";
@@ -236,9 +240,9 @@ const STORAGE_KEYS = {
     theme: "elg-fms-theme",
     accent: "elg-fms-accent",
 
-    view: "vgrat-fms-view",
+    view: "elg-fms-view",
 
-    performancePeriod: "vgrat-fms-performance-period",
+    performancePeriod: "elg-fms-performance-period",
 
     navCollapsed: "elg-fms-nav-collapsed",
 
@@ -1494,7 +1498,7 @@ function getViewFromHash() {
 
 
 const RESUME_VIEW_KEY =
-    "vgrat-fms-resume-view";
+    "elg-fms-resume-view";
 
 
 /*
@@ -3907,12 +3911,12 @@ function renderNewsFundOptions() {
    own calculator (js/prucredits.js).
    ============================================================ */
 
-const CALCULATOR_KEY = "vgrat-fms-calculator";
+const CALCULATOR_KEY = "elg-fms-calculator";
 
 function showCalculator(name, { save = true } = {}) {
 
     const value =
-        ["prushield", "prucredits"].includes(name) ? name : "plan";
+        ["prushield", "prucredits", "finance"].includes(name) ? name : "plan";
 
     qsa("[data-calc]").forEach(
         button => {
@@ -3931,6 +3935,12 @@ function showCalculator(name, { save = true } = {}) {
     if (value === "prucredits") {
 
         initializePruCredits();
+
+    }
+
+    if (value === "finance") {
+
+        initializeFinanceCalculator();
 
     }
 
@@ -3962,7 +3972,7 @@ function initializeCalculatorSwitch() {
     );
 
     // Don't load the external page until the Calculator page is opened
-    if (saved === "prushield" || saved === "prucredits") {
+    if (saved === "prushield" || saved === "prucredits" || saved === "finance") {
         qsa("[data-calc]").forEach(button => {
             const active = button.dataset.calc === saved;
             button.classList.toggle("active", active);
@@ -3972,6 +3982,8 @@ function initializeCalculatorSwitch() {
             block.hidden = block.dataset.calcBlock !== saved;
         });
     }
+
+    if (saved === "finance") initializeFinanceCalculator();
 
 }
 
@@ -4022,7 +4034,7 @@ function initializeLosersToggles() {
 }
 
 
-const NEWS_SCOPE_KEY = "vgrat-fms-news-scope";
+const NEWS_SCOPE_KEY = "elg-fms-news-scope";
 
 function resetNewsSelect(selector) {
 
