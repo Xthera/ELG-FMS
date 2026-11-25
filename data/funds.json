@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-11-25T00:44:27+00:00",
+  "generatedAtUtc": "2026-11-25T14:17:20+00:00",
   "source": "Funds Links.xlsm",
   "fundCount": 67,
   "research": {
@@ -978,7 +978,7 @@
       }
     ],
     "websiteFallbackFunds": 67,
-    "websiteFallbackUtc": "2026-11-25T00:44:20+00:00"
+    "websiteFallbackUtc": "2026-11-25T14:17:15+00:00"
   },
   "funds": [
     {
@@ -994,9 +994,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.1077",
-        "offerPrice": "$1.1659",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.1074",
+        "offerPrice": "$1.1657",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "4.12%",
         "cumulative1m": "-0.95%",
@@ -1072,16 +1072,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -1097,9 +1097,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Lower Risk",
-        "bidPrice": "$0.9677",
-        "offerPrice": "$1.0187",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.9680",
+        "offerPrice": "$1.0189",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "-1.48%",
         "cumulative1m": "0.44%",
@@ -1163,16 +1163,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -1188,9 +1188,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.1170",
-        "offerPrice": "$1.1757",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.1163",
+        "offerPrice": "$1.1750",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "5.84%",
         "cumulative1m": "-2.05%",
@@ -1266,16 +1266,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -1291,9 +1291,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Low to Medium Risk",
-        "bidPrice": "$1.0823",
-        "offerPrice": "$1.1393",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.0826",
+        "offerPrice": "$1.1395",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "03-Nov-2021",
         "cumulativeYtd": "2.68%",
         "cumulative1m": "0.07%",
@@ -1363,16 +1363,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -1388,9 +1388,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Target Date",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$2.1561",
-        "offerPrice": "$2.2695",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$2.1706",
+        "offerPrice": "$2.2849",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "31-May-2005",
         "cumulativeYtd": "0.38%",
         "cumulative1m": "-4.11%",
@@ -1503,16 +1503,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -1528,9 +1528,9 @@
         "assetClass": "Equity",
         "assetSubClass": "US",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$2.9769",
-        "offerPrice": "$3.1336",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$2.9713",
+        "offerPrice": "$3.1277",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "31-May-2005",
         "cumulativeYtd": "2.35%",
         "cumulative1m": "-2.13%",
@@ -1643,16 +1643,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -1668,21 +1668,21 @@
         "assetClass": "Equity",
         "assetSubClass": "US",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.2182",
+        "bidPrice": "$1.2188",
         "offerPrice": "-",
-        "valuationDate": "23/11/2026",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "1.09%",
-        "cumulative1m": "-3.79%",
-        "cumulative3m": "-5.64%",
-        "cumulative6m": "-3.01%",
-        "cumulative1y": "4.44%",
-        "cumulative3y": "21.04%",
+        "cumulativeYtd": "1.74%",
+        "cumulative1m": "-3.17%",
+        "cumulative3m": "-4.94%",
+        "cumulative6m": "-2.38%",
+        "cumulative1y": "4.87%",
+        "cumulative3y": "21.82%",
         "cumulative5y": "-",
-        "annualised3y": "6.59%",
+        "annualised3y": "6.81%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "6.36%",
+        "annualisedSinceLaunch": "6.56%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-america-fund-usd-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_america_global_equity.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_america_fund_012021.pdf",
@@ -1781,16 +1781,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -1806,9 +1806,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$2.5693",
-        "offerPrice": "$2.7045",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$2.5853",
+        "offerPrice": "$2.7213",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "24-Feb-2003",
         "cumulativeYtd": "3.33%",
         "cumulative1m": "-3.01%",
@@ -1914,16 +1914,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -1939,9 +1939,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Asia ex-Japan",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$3.1274",
-        "offerPrice": "$3.2920",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$3.2259",
+        "offerPrice": "$3.3957",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Nov-1995",
         "cumulativeYtd": "5.80%",
         "cumulative1m": "-7.85%",
@@ -2053,16 +2053,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -2078,9 +2078,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.8351",
-        "offerPrice": "$0.8791",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.8375",
+        "offerPrice": "$0.8816",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-6.32%",
         "cumulative1m": "0.14%",
@@ -2192,16 +2192,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -2217,9 +2217,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.6535",
-        "offerPrice": "$0.6879",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.6554",
+        "offerPrice": "$0.6899",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-6.32%",
         "cumulative1m": "0.14%",
@@ -2424,16 +2424,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -2449,9 +2449,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.6537",
-        "offerPrice": "$1.7407",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.6824",
+        "offerPrice": "$1.7709",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "05-Sep-2013",
         "cumulativeYtd": "0.38%",
         "cumulative1m": "-3.72%",
@@ -2565,16 +2565,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -2590,9 +2590,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.0768",
-        "offerPrice": "$1.1334",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.0954",
+        "offerPrice": "$1.1531",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "05-Sep-2013",
         "cumulativeYtd": "0.38%",
         "cumulative1m": "-3.72%",
@@ -2809,16 +2809,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -2834,21 +2834,21 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.2456",
+        "bidPrice": "$1.2685",
         "offerPrice": "-",
-        "valuationDate": "23/11/2026",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "1.32%",
-        "cumulative1m": "-4.07%",
-        "cumulative3m": "-10.27%",
-        "cumulative6m": "-9.10%",
-        "cumulative1y": "4.47%",
-        "cumulative3y": "24.57%",
+        "cumulativeYtd": "1.31%",
+        "cumulative1m": "-4.08%",
+        "cumulative3m": "-9.24%",
+        "cumulative6m": "-9.11%",
+        "cumulative1y": "3.90%",
+        "cumulative3y": "24.56%",
         "cumulative5y": "-",
-        "annualised3y": "7.62%",
+        "annualised3y": "7.60%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "7.35%",
+        "annualisedSinceLaunch": "7.33%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-asian-income-and-growth-fund-usd-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_asian_income_and_growth.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_asian_income_and_growth_012021.pdf",
@@ -2947,16 +2947,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -2972,9 +2972,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Asia ex-Japan",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.0978",
-        "offerPrice": "$1.1556",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.1141",
+        "offerPrice": "$1.1728",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "15-May-2009",
         "cumulativeYtd": "4.55%",
         "cumulative1m": "-8.90%",
@@ -3231,16 +3231,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -3256,9 +3256,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Asia ex-Japan",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.9016",
-        "offerPrice": "$0.9490",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.9152",
+        "offerPrice": "$0.9633",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "25-Feb-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "-6.28%",
@@ -3364,16 +3364,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -3389,9 +3389,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.9919",
-        "offerPrice": "$1.0441",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.9992",
+        "offerPrice": "$1.0518",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "1.20%",
         "cumulative1m": "-3.66%",
@@ -3503,16 +3503,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -3528,9 +3528,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.6860",
-        "offerPrice": "$0.7221",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.6910",
+        "offerPrice": "$0.7274",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "1.20%",
         "cumulative1m": "-3.66%",
@@ -3735,16 +3735,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -3760,9 +3760,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.7404",
-        "offerPrice": "$0.7793",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.7457",
+        "offerPrice": "$0.7849",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "1.20%",
         "cumulative1m": "-3.66%",
@@ -3967,16 +3967,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -3992,9 +3992,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Asia",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$4.1006",
-        "offerPrice": "$4.3164",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$4.0874",
+        "offerPrice": "$4.3026",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "02-Aug-2004",
         "cumulativeYtd": "-10.04%",
         "cumulative1m": "4.16%",
@@ -4106,16 +4106,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -4131,9 +4131,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Emerging Markets",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$2.4118",
-        "offerPrice": "$2.5387",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$2.3837",
+        "offerPrice": "$2.5091",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "31-May-2005",
         "cumulativeYtd": "6.99%",
         "cumulative1m": "-6.94%",
@@ -4246,16 +4246,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -4271,13 +4271,13 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9433",
+        "bidPrice": "$0.9562",
         "offerPrice": "-",
-        "valuationDate": "23/11/2026",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "28-Dec-2022",
         "cumulativeYtd": "-8.80%",
         "cumulative1m": "-4.10%",
-        "cumulative3m": "-6.83%",
+        "cumulative3m": "-6.88%",
         "cumulative6m": "-7.13%",
         "cumulative1y": "-7.32%",
         "cumulative3y": "-3.09%",
@@ -4285,7 +4285,7 @@
         "annualised3y": "-1.04%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "-1.49%",
+        "annualisedSinceLaunch": "-1.48%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-flexgrowth-fund-sgd.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_flexgrowth_fund_sgd.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_flexgrowth_fund_sgd.pdf",
@@ -4385,16 +4385,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -4410,9 +4410,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.8996",
-        "offerPrice": "$0.9470",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.8981",
+        "offerPrice": "$0.9453",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "-4.08%",
@@ -4484,16 +4484,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -4509,9 +4509,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Global",
         "riskClassification": "Low to Medium Risk",
-        "bidPrice": "$1.4690",
-        "offerPrice": "$1.5463",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.4701",
+        "offerPrice": "$1.5474",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-1999",
         "cumulativeYtd": "-2.93%",
         "cumulative1m": "0.36%",
@@ -4625,16 +4625,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -4650,9 +4650,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.8928",
-        "offerPrice": "$0.9398",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.8919",
+        "offerPrice": "$0.9388",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "-0.97%",
@@ -4724,16 +4724,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -4749,9 +4749,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.6509",
-        "offerPrice": "$0.6851",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.6443",
+        "offerPrice": "$0.6782",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "21-Sep-2021",
         "cumulativeYtd": "-12.22%",
         "cumulative1m": "-7.05%",
@@ -4863,16 +4863,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -4888,9 +4888,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9007",
-        "offerPrice": "$0.9481",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.9070",
+        "offerPrice": "$0.9547",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "27-Nov-2024",
         "cumulativeYtd": "0.89%",
         "cumulative1m": "-0.74%",
@@ -5011,16 +5011,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -5036,9 +5036,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.8140",
-        "offerPrice": "$0.8568",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.8154",
+        "offerPrice": "$0.8583",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "20-Jul-2022",
         "cumulativeYtd": "-6.14%",
         "cumulative1m": "-3.67%",
@@ -5354,16 +5354,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -5379,9 +5379,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global Macro",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9708",
-        "offerPrice": "$1.0219",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.9760",
+        "offerPrice": "$1.0273",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "14-Feb-2024",
         "cumulativeYtd": "-3.87%",
         "cumulative1m": "0.52%",
@@ -5432,16 +5432,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -5457,9 +5457,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$2.6456",
-        "offerPrice": "$2.7848",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$2.6500",
+        "offerPrice": "$2.7895",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-1999",
         "cumulativeYtd": "10.17%",
         "cumulative1m": "0.46%",
@@ -5572,16 +5572,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -5597,9 +5597,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.5650",
-        "offerPrice": "$1.6474",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.5676",
+        "offerPrice": "$1.6501",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "02-Jul-2018",
         "cumulativeYtd": "10.18%",
         "cumulative1m": "0.46%",
@@ -5841,16 +5841,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -5866,21 +5866,21 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.4887",
+        "bidPrice": "$1.4940",
         "offerPrice": "-",
-        "valuationDate": "23/11/2026",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "8.95%",
-        "cumulative1m": "-1.26%",
-        "cumulative3m": "-1.28%",
-        "cumulative6m": "2.39%",
-        "cumulative1y": "14.10%",
-        "cumulative3y": "48.00%",
+        "cumulativeYtd": "9.59%",
+        "cumulative1m": "-0.68%",
+        "cumulative3m": "-0.62%",
+        "cumulative6m": "2.99%",
+        "cumulative1y": "14.70%",
+        "cumulative3y": "48.87%",
         "cumulative5y": "-",
-        "annualised3y": "14.00%",
+        "annualised3y": "14.20%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "13.50%",
+        "annualisedSinceLaunch": "13.68%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-equity-fund-usd-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_america_global_equity.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_global_equity_fund_012021.pdf",
@@ -5979,16 +5979,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -6004,9 +6004,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.1121",
-        "offerPrice": "$1.1706",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.1035",
+        "offerPrice": "$1.1616",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "20-May-2024",
         "cumulativeYtd": "-10.83%",
         "cumulative1m": "-8.39%",
@@ -6112,16 +6112,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -6139,7 +6139,7 @@
         "riskClassification": "Low to Medium Risk",
         "bidPrice": "$0.8876",
         "offerPrice": "$0.9343",
-        "valuationDate": "23/11/2026",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-3.67%",
         "cumulative1m": "0.43%",
@@ -6251,16 +6251,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -6276,21 +6276,21 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Global",
         "riskClassification": "Low to Medium Risk",
-        "bidPrice": "$1.1577",
+        "bidPrice": "$1.1583",
         "offerPrice": "-",
-        "valuationDate": "23/11/2026",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "-1.62%",
-        "cumulative1m": "0.49%",
-        "cumulative3m": "-0.85%",
-        "cumulative6m": "-0.58%",
-        "cumulative1y": "-1.30%",
-        "cumulative3y": "15.65%",
+        "cumulativeYtd": "-1.52%",
+        "cumulative1m": "0.59%",
+        "cumulative3m": "-0.87%",
+        "cumulative6m": "-0.47%",
+        "cumulative1y": "-1.32%",
+        "cumulative3y": "15.77%",
         "cumulative5y": "-",
-        "annualised3y": "4.98%",
+        "annualised3y": "5.01%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "4.81%",
+        "annualisedSinceLaunch": "4.83%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-global-fixed-income-fund-usd-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_global_fixed_income.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_global_fixed_income.pdf",
@@ -6389,16 +6389,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -6414,9 +6414,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.2561",
-        "offerPrice": "$1.3222",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.2451",
+        "offerPrice": "$1.3106",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "14-Jun-2023",
         "cumulativeYtd": "-1.49%",
         "cumulative1m": "-4.58%",
@@ -6528,16 +6528,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -6553,9 +6553,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.9260",
-        "offerPrice": "$0.9747",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.9255",
+        "offerPrice": "$0.9742",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "21-Sep-2021",
         "cumulativeYtd": "5.19%",
         "cumulative1m": "-3.46%",
@@ -6667,16 +6667,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -6692,9 +6692,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.1428",
-        "offerPrice": "$1.2030",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.1374",
+        "offerPrice": "$1.1972",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "14-Jun-2023",
         "cumulativeYtd": "-2.29%",
         "cumulative1m": "-2.66%",
@@ -6806,16 +6806,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -6831,9 +6831,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.8865",
-        "offerPrice": "$0.9332",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.8778",
+        "offerPrice": "$0.9240",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "21-Sep-2021",
         "cumulativeYtd": "-5.56%",
         "cumulative1m": "-8.17%",
@@ -6945,16 +6945,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -6970,9 +6970,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$2.6318",
-        "offerPrice": "$2.7703",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$2.6484",
+        "offerPrice": "$2.7878",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-1999",
         "cumulativeYtd": "0.65%",
         "cumulative1m": "-4.01%",
@@ -7086,16 +7086,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T00:59:11+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -7111,9 +7111,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.1128",
-        "offerPrice": "$1.1714",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.1198",
+        "offerPrice": "$1.1787",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "02-Jul-2018",
         "cumulativeYtd": "0.66%",
         "cumulative1m": "-4.01%",
@@ -7350,16 +7350,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T00:59:11+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -7375,9 +7375,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.1165",
-        "offerPrice": "$1.1752",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.1187",
+        "offerPrice": "$1.1776",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-2.51%",
         "cumulative1m": "-4.12%",
@@ -7489,16 +7489,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -7514,9 +7514,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.7777",
-        "offerPrice": "$0.8187",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.7793",
+        "offerPrice": "$0.8203",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-2.51%",
         "cumulative1m": "-4.12%",
@@ -7721,16 +7721,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -7746,9 +7746,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.8693",
-        "offerPrice": "$0.9151",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.8710",
+        "offerPrice": "$0.9169",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "01-Feb-2021",
         "cumulativeYtd": "-2.51%",
         "cumulative1m": "-4.12%",
@@ -7953,16 +7953,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -7978,9 +7978,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Real Estate Sector",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.9908",
-        "offerPrice": "$1.0429",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.9985",
+        "offerPrice": "$1.0511",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "07-May-2007",
         "cumulativeYtd": "7.67%",
         "cumulative1m": "1.63%",
@@ -8092,16 +8092,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -8117,9 +8117,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.0855",
-        "offerPrice": "$1.1427",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.1047",
+        "offerPrice": "$1.1628",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "27-Nov-2023",
         "cumulativeYtd": "-3.62%",
         "cumulative1m": "-4.91%",
@@ -8231,16 +8231,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -8256,9 +8256,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.1928",
-        "offerPrice": "$1.2556",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.2251",
+        "offerPrice": "$1.2896",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "27-Nov-2023",
         "cumulativeYtd": "-3.88%",
         "cumulative1m": "-6.89%",
@@ -8370,16 +8370,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -8395,9 +8395,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9025",
-        "offerPrice": "$0.9500",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.9109",
+        "offerPrice": "$0.9588",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "27-Nov-2023",
         "cumulativeYtd": "-2.56%",
         "cumulative1m": "-2.67%",
@@ -8645,16 +8645,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -8670,9 +8670,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Technology Sector",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$4.8727",
-        "offerPrice": "$5.1292",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$4.7625",
+        "offerPrice": "$5.0132",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "04-May-2001",
         "cumulativeYtd": "6.91%",
         "cumulative1m": "-7.78%",
@@ -8772,16 +8772,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -8797,9 +8797,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Greater China",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$2.2098",
-        "offerPrice": "$2.3261",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$2.1694",
+        "offerPrice": "$2.2836",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "03-Dec-2009",
         "cumulativeYtd": "-5.10%",
         "cumulative1m": "-7.51%",
@@ -8912,16 +8912,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -8937,21 +8937,21 @@
         "assetClass": "Equity",
         "assetSubClass": "Greater China",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.3422",
+        "bidPrice": "$1.3190",
         "offerPrice": "-",
-        "valuationDate": "23/11/2026",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "-9.97%",
-        "cumulative1m": "-12.65%",
-        "cumulative3m": "-21.94%",
-        "cumulative6m": "-19.97%",
-        "cumulative1y": "-5.79%",
-        "cumulative3y": "28.05%",
+        "cumulativeYtd": "-5.63%",
+        "cumulative1m": "-8.44%",
+        "cumulative3m": "-16.49%",
+        "cumulative6m": "-16.12%",
+        "cumulative1y": "-2.75%",
+        "cumulative3y": "34.22%",
         "cumulative5y": "-",
-        "annualised3y": "8.62%",
+        "annualised3y": "10.31%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "8.31%",
+        "annualisedSinceLaunch": "9.95%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-greater-china-fund-usd-accumulation.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_greaterchina_prulink_emerging_mkt-income_bond.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_greater_china_012021.pdf",
@@ -9050,16 +9050,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -9075,9 +9075,9 @@
         "assetClass": "Equity",
         "assetSubClass": "India",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.0174",
-        "offerPrice": "$1.0709",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.0250",
+        "offerPrice": "$1.0790",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "25-Feb-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "15.38%",
@@ -9190,16 +9190,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -9215,9 +9215,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.5255",
-        "offerPrice": "$1.6058",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.5189",
+        "offerPrice": "$1.5989",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "14-Jun-2023",
         "cumulativeYtd": "4.71%",
         "cumulative1m": "-5.89%",
@@ -9329,16 +9329,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -9354,9 +9354,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Europe",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$2.3197",
-        "offerPrice": "$2.4417",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$2.3257",
+        "offerPrice": "$2.4481",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "04-May-2001",
         "cumulativeYtd": "2.45%",
         "cumulative1m": "-0.82%",
@@ -9469,16 +9469,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -9494,9 +9494,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$1.3605",
-        "offerPrice": "$1.4321",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.3576",
+        "offerPrice": "$1.4290",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "20-Mar-2012",
         "cumulativeYtd": "-2.29%",
         "cumulative1m": "-3.09%",
@@ -9610,16 +9610,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -9635,9 +9635,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Asia",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$5.6895",
-        "offerPrice": "$5.9890",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$5.7378",
+        "offerPrice": "$6.0398",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "03-Nov-1992",
         "cumulativeYtd": "3.37%",
         "cumulative1m": "-6.20%",
@@ -9749,16 +9749,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -9774,9 +9774,9 @@
         "assetClass": "Money Market",
         "assetSubClass": "SGD",
         "riskClassification": "Lower Risk",
-        "bidPrice": "$1.6172",
-        "offerPrice": "$1.6172",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.6173",
+        "offerPrice": "$1.6173",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "03-Nov-1995",
         "cumulativeYtd": "1.04%",
         "cumulative1m": "0.11%",
@@ -9888,16 +9888,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -9913,9 +9913,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Asia",
         "riskClassification": "Low to Medium Risk",
-        "bidPrice": "$1.5493",
-        "offerPrice": "$1.6308",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$1.5512",
+        "offerPrice": "$1.6328",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "08-Apr-2011",
         "cumulativeYtd": "-0.37%",
         "cumulative1m": "0.12%",
@@ -10029,16 +10029,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -10054,9 +10054,9 @@
         "assetClass": "Fixed Income",
         "assetSubClass": "Asia",
         "riskClassification": "Low to Medium Risk",
-        "bidPrice": "$0.8893",
-        "offerPrice": "$0.9361",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.8904",
+        "offerPrice": "$0.9373",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "02-Jul-2018",
         "cumulativeYtd": "-0.37%",
         "cumulative1m": "0.12%",
@@ -10273,16 +10273,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -10298,9 +10298,9 @@
         "assetClass": "Equity",
         "assetSubClass": "Singapore",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$2.3816",
-        "offerPrice": "$2.5069",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$2.3921",
+        "offerPrice": "$2.5180",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "30-Jul-2010",
         "cumulativeYtd": "2.36%",
         "cumulative1m": "-8.18%",
@@ -10413,16 +10413,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -10438,9 +10438,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9032",
-        "offerPrice": "$0.9507",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.9037",
+        "offerPrice": "$0.9513",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "18-Aug-2025",
         "cumulativeYtd": "-2.79%",
         "cumulative1m": "-4.04%",
@@ -10570,16 +10570,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -10595,21 +10595,21 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.9844",
+        "bidPrice": "$0.9853",
         "offerPrice": "-",
-        "valuationDate": "23/11/2026",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "18-Aug-2025",
-        "cumulativeYtd": "-1.07%",
-        "cumulative1m": "-4.65%",
-        "cumulative3m": "-7.98%",
-        "cumulative6m": "-6.60%",
-        "cumulative1y": "1.54%",
+        "cumulativeYtd": "-0.24%",
+        "cumulative1m": "-3.86%",
+        "cumulative3m": "-7.06%",
+        "cumulative6m": "-5.83%",
+        "cumulative1y": "1.89%",
         "cumulative3y": "-",
         "cumulative5y": "-",
         "annualised3y": "-",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "1.94%",
+        "annualisedSinceLaunch": "2.60%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-strategicinvest-income-fund-usd-distribution.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib-prulink-strategicinvest-income-fund.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs-prulink-strategicinvest-income-fund.pdf",
@@ -10727,16 +10727,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -10752,9 +10752,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "US",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.9231",
-        "offerPrice": "$0.9716",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.9196",
+        "offerPrice": "$0.9680",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "21-Sep-2022",
         "cumulativeYtd": "-2.71%",
         "cumulative1m": "-3.85%",
@@ -11066,16 +11066,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -11091,21 +11091,21 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "US",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$1.0754",
+        "bidPrice": "$1.0717",
         "offerPrice": "-",
-        "valuationDate": "23/11/2026",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "16-Oct-2023",
-        "cumulativeYtd": "-0.77%",
-        "cumulative1m": "-3.97%",
-        "cumulative3m": "-6.51%",
-        "cumulative6m": "-7.13%",
-        "cumulative1y": "2.08%",
-        "cumulative3y": "24.39%",
+        "cumulativeYtd": "-0.39%",
+        "cumulative1m": "-3.60%",
+        "cumulative3m": "-5.72%",
+        "cumulative6m": "-6.78%",
+        "cumulative1y": "1.63%",
+        "cumulative3y": "24.79%",
         "cumulative5y": "-",
-        "annualised3y": "7.57%",
+        "annualised3y": "7.67%",
         "annualised5y": "-",
         "annualised10y": "-",
-        "annualisedSinceLaunch": "8.37%",
+        "annualisedSinceLaunch": "8.48%",
         "factsheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/factsheets/prulink-funds/prulink-us-dividend-wealth-fund-usd-distribution.pdf",
         "prospectusUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/fib_prulink_us_dividend_wealth.pdf",
         "productHighlightSheetUrl": "/content/dam/prudential-aem-lbu/pacs/en/media/ilp/fund-documents/phs_prulink_us_dividend_wealth.pdf",
@@ -11353,16 +11353,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -11378,9 +11378,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Medium to High Risk",
-        "bidPrice": "$0.8993",
-        "offerPrice": "$0.9466",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.8984",
+        "offerPrice": "$0.9457",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "-2.78%",
@@ -11431,16 +11431,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -11457,8 +11457,8 @@
         "assetSubClass": "Global",
         "riskClassification": "Lower Risk",
         "bidPrice": "$0.9182",
-        "offerPrice": "$0.9665",
-        "valuationDate": "23/11/2026",
+        "offerPrice": "$0.9666",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "-1.15%",
@@ -11509,16 +11509,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     },
     {
@@ -11534,9 +11534,9 @@
         "assetClass": "Multi-Asset",
         "assetSubClass": "Global",
         "riskClassification": "Higher Risk",
-        "bidPrice": "$0.8878",
-        "offerPrice": "$0.9345",
-        "valuationDate": "23/11/2026",
+        "bidPrice": "$0.8864",
+        "offerPrice": "$0.9330",
+        "valuationDate": "24/11/2026",
         "inceptionDate": "16-Jun-2026",
         "cumulativeYtd": "-",
         "cumulative1m": "-4.20%",
@@ -11587,16 +11587,16 @@
       },
       "updateStatus": {
         "lastSuccessfulUpdateUtc": "2026-11-17T13:51:31+00:00",
-        "failedUpdateUtc": "2026-11-25T00:44:27+00:00",
+        "failedUpdateUtc": "2026-11-25T14:17:20+00:00",
         "reasons": [
           "Prudential fund metadata missing.",
           "BID history missing."
         ],
         "status": "website",
         "priceSource": "prudential-website",
-        "websiteValuationDate": "23/11/2026",
-        "websitePriceDate": "2026-11-24",
-        "websiteFetchedUtc": "2026-11-25T00:44:20+00:00"
+        "websiteValuationDate": "24/11/2026",
+        "websitePriceDate": "2026-11-25",
+        "websiteFetchedUtc": "2026-11-25T14:17:15+00:00"
       }
     }
   ]
