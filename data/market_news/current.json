@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-25T17:53:43+08:00",
+  "generatedAtSgt": "2026-11-26T03:58:30+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,179 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "dfb49d5b293906f1813eccf39e35c3ecc81d61a36335cae39257348e473c8328",
+      "source": "CNBC",
+      "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+      "publishedAtSgt": "2026-11-26T03:52:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The Federal Communications Commission has authorized Elon Musk's SpaceX to put 1 million artificial intelligence computing satellites in orbit, Chairman Brendan Carr announced on Wednesday. Carr said in a post on X, the social network owned by SpaceX, that the company's Starmind constellation, and \"competitor constellations will use solar power to extend America's lead\" in AI.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "id": "4474c9c76289b699e58479474bce812023873e4b9cc52c65b14202e386b79619",
+      "source": "CNBC",
+      "title": "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
+      "publishedAtSgt": "2026-11-26T03:19:05+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Technology stocks fell on Wednesday as excitement over Nvidia CEO Jensen Huang's return faded and failed to calm concerns over the sustainability of the artificial intelligence trade. \"What the market is telling you is that the AI growth narrative has hit a wall and given the centrality of that theme at the economic level, the market is expecting some sort of a macro shock,\" he added.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "id": "b7eac61e022c37ef2153d9d7a9a36225d720e7ad7b159b99d570516faf9f7aea",
+      "source": "CNBC",
+      "title": "Saudi national in OpenAI bugging case is out on bond after DOJ tries to block release",
+      "publishedAtSgt": "2026-11-26T03:11:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/openai-bugging-aflozan-bond-release-saudi.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The confirmation of Alfozan's release came a day after a federal judge in San Francisco said the defendant would be allowed out of jail on a $1 million bond, despite prosecutors' warnings that he posed a serious flight risk. Alfozan was stealing trade secrets, or to support the speculation that he was acting as an unregistered foreign agent for Saudi Arabia.\" In a text message to CNBC after that hearing, Rizk said, \"We are simply grateful that the Court made the right decision to release Mr.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "id": "9b94db4a55bd679a2023578b803c138bd355fd6a0ab776da488761e577d30fcb",
+      "source": "CNBC",
+      "title": "Kalshi traders say state data center moratoriums are more likely than not",
+      "publishedAtSgt": "2026-11-26T01:36:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/kalshi-traders-say-the-odds-of-states-imposing-data-center-moratoriums-is-more-likely-than-not.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Meanwhile, some investors say unease surrounding the artificial intelligence trade is partly an emotional or sentiment-driven reaction. Doug Clinton, founder and CEO of Intelligent Alpha, told CNBC's \"Closing Bell: Overtime\" the AI sell-off is psychological. \"I actually think it is difficult to point to some fundamental data point from here that all of a sudden would make investors okay,\" Clinton said.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:25+08:00"
+    },
+    {
+      "id": "a848414acb0ee56a6eb4f305de6faae3df4649647485596aebef5adf91a317cf",
+      "source": "CNBC",
+      "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC",
+      "publishedAtSgt": "2026-11-26T01:28:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Nvidia chip sellers are seeking new buyers for the semiconductor giant's hardware, three people told CNBC, after the Trump administration tightened rules to curb Chinese companies' remote access to the most advanced artificial-intelligence systems. Jack Duhamel, president of AI infrastructure marketplace GPU Mart, and two people familiar with the matter told CNBC the surge in GPUs for sale was directly attributable to the new rule.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:26+08:00"
+    },
+    {
+      "id": "c35038ceab7471532ca282267d29a453250ab2420da3a7322ba3f235ec4ce22f",
+      "source": "CNBC",
+      "title": "Prediction markets push OpenAI IPO expectations later into 2027",
+      "publishedAtSgt": "2026-11-26T01:08:03+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Even by October 2027, odds are still only 50-50 that the private company — most recently conducting a funding round at a $1.25 trillion valuation — will make its move to the public markets. OpenAI confidentially filed for an IPO in June, but then in an interview with Fortune published in September CEO Sam Altman ruled out a 2026 public markets debut as questions over artificial intelligence safety grew.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:24+08:00"
+    },
+    {
+      "id": "af4cc59315ff7aedf75af4ef085243333ea0f7c5a66ea04e4cd6c4b3c12930a1",
+      "source": "CNBC",
+      "title": "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade",
+      "publishedAtSgt": "2026-11-26T00:05:25+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic shares didn't even rally on Monday, when most stocks in the AI trade ripped higher on news of Jensen Huang's return to Nvidia as CEO. That's the main cloud over the AI trade stemming from Anthropic's stock price struggles. Nevertheless, investors are understandably trying to draw conclusions about the implications because a financially strong Anthropic is not enough on its own to keep the AI trade afloat.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:24+08:00"
+    },
+    {
+      "id": "883019dd449cc337290c9a1b947077a97a621a9c26d72130647ec35995ef0bff",
+      "source": "CNBC",
+      "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+      "publishedAtSgt": "2026-11-26T00:02:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The administration launched those and other trade investigations in March, weeks after the Supreme Court unraveled a major piece of President Donald Trump's tariff-heavy economic policy by striking down his \"liberation day\" duties. The new tariffs are \"targeted,\" not blanket rates, and will vary for each economy, and many will not exceed the rates established in previously reached trade deals, said the official, who spoke on condition of anonymity to discuss the forthcoming duties.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "id": "a014a1be731e26caa160cc8923f6c5ee6d494881fe9256c8731ed34e57df6678",
+      "source": "CNBC",
+      "title": "Investors led by U.S. billionaire Todd Boehly to buy Lukoil's oil and gas assets outside Russia, sources say",
+      "publishedAtSgt": "2026-11-26T00:00:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/investors-led-by-todd-boehly-to-buy-lukoil-oil-and-gas-assets-outside-russia.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "billionaire Todd Boehly's asset management company Eldridge have struck a deal to buy Lukoil's assets outside of Russia, sources confirmed to CNBC. International Development Finance Corporation and Catena Investments, based in the United Arab Emirates, are also parties to the deal, the sources said. The deal transfers Lukoil's international refineries and other production assets in Bulgaria, Romania, Africa and the Middle East to the U.S.-led group, the sources said.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:24+08:00"
+    },
+    {
+      "id": "f3cf88bc012293e66d6936436e607f6e220ca5ece3dcd26335c8766cc2848bff",
+      "source": "CNBC",
+      "title": "Wealthy investors seek tax savings from municipal bonds as yields remain elevated",
+      "publishedAtSgt": "2026-11-25T23:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/wealthy-investors-seek-tax-savings-from-municipal-bonds.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "For top-bracket investors, municipal bonds can offer a twofold benefit: tax-equivalent yields that approach long-run stock-market returns, and losses that may offset gains elsewhere in a portfolio, according to Ran Leshem, BlackRock's head of SMA solutions. \"We are seeing yields that haven't been around for quite a few years, so it's a good opportunity for clients to lock in yields at these higher rates.\" Rising yields earlier this fall pushed bond prices down, leaving some investors with paper...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:30+08:00"
+    },
+    {
+      "id": "0b37e6c97179665cf79415ee05c8a7f4c9d57b13cdbfe7a3fa22f55682d1c51f",
+      "source": "CNBC",
+      "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+      "publishedAtSgt": "2026-11-25T22:18:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Inflation moved further away from the Federal Reserve's target in October, reinforcing expectations that another interest rate hike is in the cards for December and raising questions about how much more work the central bank will have to do in 2027. The personal consumption expenditures price index, the Fed's preferred inflation gauge, showed a seasonally adjusted 3.8% annual inflation rate, in line with the Dow Jones consensus estimate and nearly twice the central bank's goal.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:29+08:00"
+    },
     {
       "id": "38910952eb3fe5319f0759cee947e95f7dcd0699a21c0a612876f07f0a842536",
       "source": "CNBC",
@@ -1430,179 +1603,6 @@
         "technology"
       ],
       "collectedAtSgt": "2026-11-19T11:34:01+08:00"
-    },
-    {
-      "id": "ac424bb09c4b2764cdc01d9916c5ef4ef7fb3a589bcf6bef78292e6a185e73b1",
-      "source": "CNBC",
-      "title": "Anthropic prices IPO at $83 per share, above expected range, source tells CNBC",
-      "publishedAtSgt": "2026-11-19T05:22:04+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Anthropic priced its IPO at $83 per share on Wednesday, a person familiar told CNBC, above the expected range, setting the stage for the Claude creator's eagerly awaited Nasdaq listing and a historic moment for the artificial intelligence industry. Anthropic has been racing to maintain an edge over OpenAI and Google in the enterprise market, and it experienced a period of explosive growth in 2026, driven largely by the popularity of its AI coding tool, Claude Code.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-19T05:27:25+08:00"
-    },
-    {
-      "id": "8d2debcbcabf92f409434dd29315d09d5c8c6fcd9648ca72e8b97acf9cd56733",
-      "source": "CNBC",
-      "title": "Nvidia reverses, metals crash ahead of Anthropic IPO",
-      "publishedAtSgt": "2026-11-19T04:10:07+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/nvidia-reverses-metals-crash-ahead-of-anthropic-ipo-options-action-live.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Slumping crypto prices, a big Nvidia reversal despite good earnings, and now a sharp drop-off in metals prices from gold to copper — cross-asset selling has traders wondering if Anthropic's incoming IPO is spurring a rotation trade with the aim of freeing up cash to buy stock in the AI giant when it goes public on Thursday. Shares of Nvidia swung from $164 overnight to below $152 during Wednesday's trading session despite smashing analysts' expectations on revenue and guidance.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
-    },
-    {
-      "id": "148fe291c8b59b9b8be643407378e8129419ca3263ff8bea34f38549bcb85c94",
-      "source": "CNBC",
-      "title": "Why Anthropic's hot IPO is bringing out sellers — plus, a silver lining of the down market",
-      "publishedAtSgt": "2026-11-19T03:46:12+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/18/why-anthropics-hot-ipo-is-bringing-out-sellers-plus-a-down-market-silver-lining.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "While the guidance was impressive and the stock is historically cheap on an earnings basis, the quarter didn't change Jim Cramer's view that investors should take some shares off the table, if they haven't already, as a matter of capital preservation . Some of the pressure over the past few days may be tied to a bit of selling by investors making last-minute room for their Anthropic allocations ahead of Wednesday night's initial public offering (IPO) pricing and Thursday's first trade.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
-    },
-    {
-      "id": "bbf414404bc6704ce427213f762e6e5145c24038e100cb35159d08e2f617ff2f",
-      "source": "CNBC",
-      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-      "publishedAtSgt": "2026-11-19T03:41:59+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Federal Reserve officials expressed confidence in October that further interest rate increases will be needed to stem inflation, though they decided to hold off while gathering more information, according to meeting minutes released Wednesday. Policymakers put artificial intelligence at the core of their discussions, indicating that demand associated with the technology would be \"a material source of inflation risk.\" More broadly, officials said \"inflation pressures in the economy were broad...",
-      "feeds": [
-        "latest",
-        "finance"
-      ],
-      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
-    },
-    {
-      "id": "bcd1dff2a7aa4752e1a344a177f7f9f381bd64b5e8a9b8bd332e180d341afdd6",
-      "source": "CNBC",
-      "title": "One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO",
-      "publishedAtSgt": "2026-11-19T02:43:26+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/jaan-tallinn-anthropic-ipo-series-a-investment.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "An Estonian tech billionaire famous for his stance that AI could end humanity is expected to be one of the biggest winners in Anthropic's upcoming IPO. Anthropic is set to list on the Nasdaq Thursday under the ticker symbol ANT in what could be the largest IPO of all time, and the first public debut for an AI lab.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
-    },
-    {
-      "id": "29411bfdf1c9ea99c8e897956613ed9c37d6976fb6ed1f0c444506fdcd5deb90",
-      "source": "CNBC",
-      "title": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
-      "publishedAtSgt": "2026-11-19T02:42:29+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "The artificial intelligence laboratory — which will trade on the Nasdaq under ticker symbol ANT — is selling 825 million shares at an expected price range of $70 to $78 per share in the IPO, though sources told CNBC the stock is likely to price above that range. Waiting game To be clear, all the retail investors CNBC spoke with are optimistic on AI as a transformative technology — even the ones sitting out the IPO.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-19T05:27:27+08:00"
-    },
-    {
-      "id": "f324169f9cbf0a18fd231b14584fd66fe36f35478a7f3884b70a0ba95407b981",
-      "source": "CNBC",
-      "title": "Is Apple the safe haven investors think it is? Here's a way to trade it with less risk",
-      "publishedAtSgt": "2026-11-19T02:10:21+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/is-apple-the-safe-haven-investors-think-it-is-heres-a-way-to-trade-it-with-less-risk.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "For months, Apple has been the undisputed haven of the technology sector. As the industry grappled with the brutal reality of Nvidia's post-Huang future, investors blindly rotated into Apple, comforting themselves with the narrative that the Cupertino giant was uniquely immune to speculative overspending on artificial intelligence.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
-    },
-    {
-      "id": "8b64b3bf6d7bb9b73d57e66535c864e0d800e33c10fb708ed53ef6e49f060a88",
-      "source": "CNBC",
-      "title": "Jensen Huang has agreed to appear before Senate banking committee, Chairman Scott says",
-      "publishedAtSgt": "2026-11-19T01:50:37+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The House Energy and Commerce Committee asked interim Nvidia CEO Colette Kress for a briefing no later than Dec. 2 on the company's chip exports and information about the relationship between Jensen Huang and Alice Huang. The panel also asked Lutnick and a top deputy to appear to discuss chip export controls.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-19T05:27:26+08:00"
-    },
-    {
-      "id": "56e30c894360b3d56a9ca5884e815245e35be17bcd3c80222403f6645c0c153b",
-      "source": "CNBC",
-      "title": "Jim Cramer looks at what turned the market lower and where stocks could go next",
-      "publishedAtSgt": "2026-11-19T00:54:42+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/18/cramer-looks-at-what-turned-the-market-lower-where-stocks-could-go-next.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The S & P 500 reversed earlier gains and turned lower Wednesday as investors weighed the negatives of another hawkish warning from a Federal Reserve official against the positives of earnings and Anthropic's IPO. Fed Governor Christopher Waller said the central bank may need to \"shock people\" with a half-point interest rate hike in December to tame inflation.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-19T05:27:27+08:00"
-    },
-    {
-      "id": "d2ae9c66625ab06e9dc6e50c889606c506a078aa8f16c40dc9295573bd8e28a3",
-      "source": "CNBC",
-      "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
-      "publishedAtSgt": "2026-11-18T20:58:59+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
-      "category": "MARKET",
-      "relevanceScore": 93,
-      "relevanceReason": "strong_market_title",
-      "summary": "Federal Reserve Governor Christopher Waller on Wednesday called for aggressive action against inflation, which he said has been more persistent than he expected. We're collecting the data, analyzing it, having the debate and making a decision.\" The Fed in 2025 approved three rate cuts amid worries over the labor market and the belief that inflation would continue to moderate toward the central bank's 2% goal.",
-      "feeds": [
-        "latest",
-        "finance"
-      ],
-      "collectedAtSgt": "2026-11-18T21:08:09+08:00"
-    },
-    {
-      "id": "3d674870596a7d8eeba20c9c5302d54a5fe8b18b85f85014d5196b779e1568a5",
-      "source": "CNBC",
-      "title": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks.",
-      "publishedAtSgt": "2026-11-18T20:34:10+08:00",
-      "url": "https://www.cnbc.com/2026/11/18/mortgage-demand-turns-lower-as-interest-rates-shoot-back-up-to-the-highest-level-in-three-weeks.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The average contract interest rate for 30-year fixed-rate mortgages with conforming loan balances, $832,750 or less, increased last week to 7.35% from 7.21%, with points rising to 0.79 from 0.75, including the origination fee, for loans with a 20% down payment. \"Treasury yields rose last week amid data showing inflation accelerated in October and Fed officials acknowledging that additional rate hikes may be needed in the coming months,\" said Joel Kan, vice president and deputy chief economist...",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-18T21:08:10+08:00"
     }
   ]
 }

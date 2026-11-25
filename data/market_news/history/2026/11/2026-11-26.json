@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-26",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "dfb49d5b293906f1813eccf39e35c3ecc81d61a36335cae39257348e473c8328",
+      "source": "CNBC",
+      "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+      "publishedAtSgt": "2026-11-26T03:52:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "The Federal Communications Commission has authorized Elon Musk's SpaceX to put 1 million artificial intelligence computing satellites in orbit, Chairman Brendan Carr announced on Wednesday. Carr said in a post on X, the social network owned by SpaceX, that the company's Starmind constellation, and \"competitor constellations will use solar power to extend America's lead\" in AI.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "id": "4474c9c76289b699e58479474bce812023873e4b9cc52c65b14202e386b79619",
+      "source": "CNBC",
+      "title": "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
+      "publishedAtSgt": "2026-11-26T03:19:05+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Technology stocks fell on Wednesday as excitement over Nvidia CEO Jensen Huang's return faded and failed to calm concerns over the sustainability of the artificial intelligence trade. \"What the market is telling you is that the AI growth narrative has hit a wall and given the centrality of that theme at the economic level, the market is expecting some sort of a macro shock,\" he added.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "id": "b7eac61e022c37ef2153d9d7a9a36225d720e7ad7b159b99d570516faf9f7aea",
+      "source": "CNBC",
+      "title": "Saudi national in OpenAI bugging case is out on bond after DOJ tries to block release",
+      "publishedAtSgt": "2026-11-26T03:11:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/openai-bugging-aflozan-bond-release-saudi.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "The confirmation of Alfozan's release came a day after a federal judge in San Francisco said the defendant would be allowed out of jail on a $1 million bond, despite prosecutors' warnings that he posed a serious flight risk. Alfozan was stealing trade secrets, or to support the speculation that he was acting as an unregistered foreign agent for Saudi Arabia.\" In a text message to CNBC after that hearing, Rizk said, \"We are simply grateful that the Court made the right decision to release Mr.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "id": "9b94db4a55bd679a2023578b803c138bd355fd6a0ab776da488761e577d30fcb",
+      "source": "CNBC",
+      "title": "Kalshi traders say state data center moratoriums are more likely than not",
+      "publishedAtSgt": "2026-11-26T01:36:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/kalshi-traders-say-the-odds-of-states-imposing-data-center-moratoriums-is-more-likely-than-not.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Meanwhile, some investors say unease surrounding the artificial intelligence trade is partly an emotional or sentiment-driven reaction. Doug Clinton, founder and CEO of Intelligent Alpha, told CNBC's \"Closing Bell: Overtime\" the AI sell-off is psychological. \"I actually think it is difficult to point to some fundamental data point from here that all of a sudden would make investors okay,\" Clinton said.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:25+08:00"
+    },
+    {
+      "id": "a848414acb0ee56a6eb4f305de6faae3df4649647485596aebef5adf91a317cf",
+      "source": "CNBC",
+      "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC",
+      "publishedAtSgt": "2026-11-26T01:28:24+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 82,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Nvidia chip sellers are seeking new buyers for the semiconductor giant's hardware, three people told CNBC, after the Trump administration tightened rules to curb Chinese companies' remote access to the most advanced artificial-intelligence systems. Jack Duhamel, president of AI infrastructure marketplace GPU Mart, and two people familiar with the matter told CNBC the surge in GPUs for sale was directly attributable to the new rule.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:26+08:00"
+    },
+    {
+      "id": "c35038ceab7471532ca282267d29a453250ab2420da3a7322ba3f235ec4ce22f",
+      "source": "CNBC",
+      "title": "Prediction markets push OpenAI IPO expectations later into 2027",
+      "publishedAtSgt": "2026-11-26T01:08:03+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Even by October 2027, odds are still only 50-50 that the private company — most recently conducting a funding round at a $1.25 trillion valuation — will make its move to the public markets. OpenAI confidentially filed for an IPO in June, but then in an interview with Fortune published in September CEO Sam Altman ruled out a 2026 public markets debut as questions over artificial intelligence safety grew.",
+      "feeds": [
+        "latest",
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:24+08:00"
+    },
+    {
+      "id": "af4cc59315ff7aedf75af4ef085243333ea0f7c5a66ea04e4cd6c4b3c12930a1",
+      "source": "CNBC",
+      "title": "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade",
+      "publishedAtSgt": "2026-11-26T00:05:25+08:00",
+      "url": "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Anthropic shares didn't even rally on Monday, when most stocks in the AI trade ripped higher on news of Jensen Huang's return to Nvidia as CEO. That's the main cloud over the AI trade stemming from Anthropic's stock price struggles. Nevertheless, investors are understandably trying to draw conclusions about the implications because a financially strong Anthropic is not enough on its own to keep the AI trade afloat.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:24+08:00"
+    },
+    {
+      "id": "883019dd449cc337290c9a1b947077a97a621a9c26d72130647ec35995ef0bff",
+      "source": "CNBC",
+      "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+      "publishedAtSgt": "2026-11-26T00:02:52+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The administration launched those and other trade investigations in March, weeks after the Supreme Court unraveled a major piece of President Donald Trump's tariff-heavy economic policy by striking down his \"liberation day\" duties. The new tariffs are \"targeted,\" not blanket rates, and will vary for each economy, and many will not exceed the rates established in previously reached trade deals, said the official, who spoke on condition of anonymity to discuss the forthcoming duties.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:23+08:00"
+    },
+    {
+      "id": "a014a1be731e26caa160cc8923f6c5ee6d494881fe9256c8731ed34e57df6678",
+      "source": "CNBC",
+      "title": "Investors led by U.S. billionaire Todd Boehly to buy Lukoil's oil and gas assets outside Russia, sources say",
+      "publishedAtSgt": "2026-11-26T00:00:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/investors-led-by-todd-boehly-to-buy-lukoil-oil-and-gas-assets-outside-russia.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "billionaire Todd Boehly's asset management company Eldridge have struck a deal to buy Lukoil's assets outside of Russia, sources confirmed to CNBC. International Development Finance Corporation and Catena Investments, based in the United Arab Emirates, are also parties to the deal, the sources said. The deal transfers Lukoil's international refineries and other production assets in Bulgaria, Romania, Africa and the Middle East to the U.S.-led group, the sources said.",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:24+08:00"
+    }
+  ],
+  "articleCount": 9,
+  "updatedAtSgt": "2026-11-26T03:58:26+08:00"
+}

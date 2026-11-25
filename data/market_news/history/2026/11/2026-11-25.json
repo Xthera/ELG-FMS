@@ -5,6 +5,38 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "f3cf88bc012293e66d6936436e607f6e220ca5ece3dcd26335c8766cc2848bff",
+      "source": "CNBC",
+      "title": "Wealthy investors seek tax savings from municipal bonds as yields remain elevated",
+      "publishedAtSgt": "2026-11-25T23:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/wealthy-investors-seek-tax-savings-from-municipal-bonds.html",
+      "category": "MARKET",
+      "relevanceScore": 93,
+      "relevanceReason": "strong_market_title",
+      "summary": "For top-bracket investors, municipal bonds can offer a twofold benefit: tax-equivalent yields that approach long-run stock-market returns, and losses that may offset gains elsewhere in a portfolio, according to Ran Leshem, BlackRock's head of SMA solutions. \"We are seeing yields that haven't been around for quite a few years, so it's a good opportunity for clients to lock in yields at these higher rates.\" Rising yields earlier this fall pushed bond prices down, leaving some investors with paper...",
+      "feeds": [
+        "latest"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:30+08:00"
+    },
+    {
+      "id": "0b37e6c97179665cf79415ee05c8a7f4c9d57b13cdbfe7a3fa22f55682d1c51f",
+      "source": "CNBC",
+      "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+      "publishedAtSgt": "2026-11-25T22:18:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Inflation moved further away from the Federal Reserve's target in October, reinforcing expectations that another interest rate hike is in the cards for December and raising questions about how much more work the central bank will have to do in 2027. The personal consumption expenditures price index, the Fed's preferred inflation gauge, showed a seasonally adjusted 3.8% annual inflation rate, in line with the Dow Jones consensus estimate and nearly twice the central bank's goal.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T03:58:29+08:00"
+    },
+    {
       "id": "38910952eb3fe5319f0759cee947e95f7dcd0699a21c0a612876f07f0a842536",
       "source": "CNBC",
       "title": "Tech rout deepens globally; Softbank falls 15%, Nvidia down 4.5% premarket",
@@ -171,6 +203,6 @@
       "collectedAtSgt": "2026-11-25T08:48:36+08:00"
     }
   ],
-  "articleCount": 10,
-  "updatedAtSgt": "2026-11-25T17:53:43+08:00"
+  "articleCount": 12,
+  "updatedAtSgt": "2026-11-26T03:58:30+08:00"
 }
