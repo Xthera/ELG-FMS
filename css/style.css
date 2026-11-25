@@ -12440,3 +12440,35 @@ html[data-style="glass"] .app-body {
     background: #ffffff;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
 }
+
+/* Financial calculator: table shown under the results (e.g. retirement sums) */
+.fin-key-table {
+    margin: 4px 0 16px;
+}
+
+.fin-key-title {
+    margin: 0 0 8px;
+    color: var(--text-primary);
+    font-size: calc(13.5px * var(--font-scale, 1));
+    font-weight: 750;
+}
+
+.fin-key-table .calc-table-wrap {
+    max-height: none;
+}
+
+.fin-key-table td:first-child {
+    font-weight: 650;
+}
+
+.fin-key-table .calc-table th,
+.fin-key-table .calc-table td {
+    white-space: normal;
+    min-width: 0;
+}
+
+.fin-key-table .calc-table {
+    min-width: 0;
+    width: 100%;
+    table-layout: auto;
+}
