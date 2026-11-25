@@ -12423,3 +12423,20 @@ html[data-style="glass"] .app-body {
     border-top: 1px dashed var(--border-subtle);
     color: var(--text-muted);
 }
+
+/* Financial calculator: client report preview */
+.fin-print-area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.fin-print-frame {
+    display: block;
+    width: min(210mm, 100%);
+    height: 80vh;
+    border: 0;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
