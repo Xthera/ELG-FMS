@@ -9,7 +9,7 @@
           "title": "New",
           "items": [
             "Financial Calculator (Calculator > Financial): twelve calculators in four groups. Savings & investing: investment growth, savings goal, returns (CAGR / XIRR). Loans & property: loan repayment, property affordability (TDSR / MSR, LTV, stamp duty), refinancing. Retirement & CPF: retirement needs, how long savings last, CPF growth to 55. Protection & other: protection needs, inflation, dividend income.",
-            "Results, charts and figures update as you type. Copy summary copies a short summary for WhatsApp or email; Print / PDF shows a preview of the client report (client's name, results, chart, assumptions and figures) before you print or save it as PDF.",
+            "Results, charts and figures update as you type. Copy summary copies a short summary for WhatsApp or email; Print / PDF shows a preview of the client report on A4 pages exactly as it will print: sections never get cut across pages, headings stay with their content, long tables continue on the next page with their column headings repeated, and every page is numbered.",
             "Reference data updates itself: CPF contribution and allocation rates, wage ceiling, Full Retirement Sum (data.gov.sg), CPF interest rates, the HDB loan rate and the Basic Healthcare Sum (CPF Board), and Buyer's Stamp Duty (IRAS) are checked every day by a new GitHub workflow. Each calculator shows when its reference data was last checked.",
             "Uses Singapore rules as at November 2026: CPF 2026 contribution, allocation and interest rates, retirement sums, MAS TDSR 55% / MSR 30% with the 4% stress-test rate, HDB loan limits, Buyer's Stamp Duty, and the Basic Financial Planning Guide's 9x / 4x protection guideline."
           ]
