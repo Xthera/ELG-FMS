@@ -18,7 +18,8 @@
           "title": "Improved",
           "items": [
             "User guide: new Financial Calculator section.",
-            "Calculators: the Financial tab sits before PRUShield Premium; switching between financial calculators flows smoothly and charts move to new values as you type."
+            "Calculators: the Financial tab sits before PRUShield Premium; switching between financial calculators flows smoothly and charts move to new values as you type.",
+            "Investment growth: choose monthly or yearly regular investments (invested at the start or end of each month / year)."
           ]
         }
       ]
