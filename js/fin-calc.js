@@ -116,13 +116,21 @@ const TOOLS = [
         id: "returns",
         group: "save",
         name: "Returns (CAGR / XIRR)",
-        blurb: "Work out the annualised return of an investment, from a start and end value, or from every top-up and withdrawal.",
+        blurb: "Work out the annualised return of an investment: a lump sum, regular premiums, or every top-up and withdrawal.",
         fields: [
-            { key: "mode", label: "Method", type: "choice", value: "cagr", options: [["cagr", "Start & end value (CAGR)"], ["irr", "Every cash flow (XIRR)"]] },
+            { key: "mode", label: "Method", type: "choice", value: "cagr", options: [["cagr", "Lump sum (CAGR)"], ["regular", "Regular premiums"], ["irr", "Every cash flow (XIRR)"]] },
+            { key: "premium", label: v => `Premium each ${({ "12": "month", "4": "quarter", "2": "half-year", "1": "year" })[v.payFreq] ?? "period"}`, type: "money", value: 500, showIf: v => v.mode === "regular" },
+            { key: "payFreq", label: "Paid", type: "select", value: "12", options: [["12", "Monthly"], ["4", "Quarterly"], ["2", "Half-yearly"], ["1", "Yearly"]], showIf: v => v.mode === "regular" },
+            { key: "firstDate", label: "First premium paid on", type: "date", value: isoYearsAgo(10), showIf: v => v.mode === "regular" },
+            { key: "lastDate", label: "Last premium paid on", type: "date", value: isoYearsAgo(10, -1), showIf: v => v.mode === "regular" },
+            { key: "regValue", label: "Value now", type: "money", value: 75000, showIf: v => v.mode === "regular" },
+            { key: "regIncome", label: "Dividends / payouts received", type: "money", value: 0, showIf: v => v.mode === "regular" },
+            { key: "regDate", label: "Value as at", type: "date", value: todayIso(), showIf: v => v.mode === "regular" },
             { key: "start", label: "Amount invested", type: "money", value: 10000, showIf: v => v.mode === "cagr" },
             { key: "end", label: "Value now", type: "money", value: 15000, showIf: v => v.mode === "cagr" },
             { key: "income", label: "Dividends / payouts received", type: "money", value: 0, showIf: v => v.mode === "cagr" },
-            { key: "years", label: "Years held", type: "number", value: 5, min: 0.1, max: 80, step: 0.1, showIf: v => v.mode === "cagr" },
+            { key: "startDate", label: "Invested on", type: "date", value: isoYearsAgo(5), showIf: v => v.mode === "cagr" },
+            { key: "endDate", label: "Value as at", type: "date", value: todayIso(), showIf: v => v.mode === "cagr" },
             { key: "flows", label: "Cash flows", type: "flows", value: defaultFlows(), showIf: v => v.mode === "irr" },
             { key: "valueNow", label: "Value now", type: "money", value: 21000, showIf: v => v.mode === "irr" },
             { key: "valueDate", label: "Value as at", type: "date", value: todayIso(), showIf: v => v.mode === "irr" }
@@ -297,6 +305,31 @@ function todayIso() {
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 
+// "YYYY-MM-DD", n years ago (optionally plus some months)
+function isoYearsAgo(years, plusMonths = 0) {
+    const d = new Date();
+    d.setFullYear(d.getFullYear() - years);
+    d.setMonth(d.getMonth() + (plusMonths < 0 ? 12 * years + plusMonths : plusMonths));
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+function parseDate(text) {
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(text ?? ""));
+    if (!m) return null;
+    const d = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+    return Number.isNaN(d.getTime()) ? null : d;
+}
+
+function addMonths(date, months) {
+    const d = new Date(date.getFullYear(), date.getMonth() + months, 1);
+    const last = new Date(d.getFullYear(), d.getMonth() + 1, 0).getDate();
+    d.setDate(Math.min(date.getDate(), last));
+    return d;
+}
+
+const yearsBetween = (a, b) => (b - a) / (365.25 * 86400000);
+const fmtDate = d => d.toLocaleDateString("en-SG", { day: "numeric", month: "short", year: "numeric" });
+
 function defaultFlows() {
     const year = new Date().getFullYear();
     return [
@@ -312,7 +345,7 @@ const money = (value, dp = 0) => {
     return `${sign}S$${Math.abs(value).toLocaleString("en-SG", { minimumFractionDigits: dp, maximumFractionDigits: dp })}`;
 };
 
-const pct = (value, dp = 2) => Number.isFinite(value) ? `${(value * 100).toFixed(dp)}%` : "–";
+const pct = (value, dp = 2) => Number.isFinite(value) ? `${(Math.abs(value) < 0.5 * Math.pow(10, -dp - 2) ? 0 : value * 100).toFixed(dp)}%` : "–";
 
 const plain = value => Number(Number(value).toFixed(2)).toString();
 
@@ -478,8 +511,86 @@ function xirr(flows) {
     return bisect(f, low, high, 300);
 }
 
+function computeRegularReturns(v) {
+    const f = Number(v.payFreq) || 12;
+    const first = parseDate(v.firstDate), last = parseDate(v.lastDate), asAt = parseDate(v.regDate);
+    const problems = [];
+    if (!first) problems.push("Enter the date of the first premium.");
+    if (!last) problems.push("Enter the date of the last premium.");
+    if (!asAt) problems.push("Enter the date of the value now.");
+    if (first && last && last < first) problems.push("The last premium can't be before the first.");
+    if (last && asAt && asAt < last) problems.push("The value date can't be before the last premium.");
+    if (problems.length) return { problems };
+
+    // A premium every 12/f months from the first date up to the last date
+    const dates = [];
+    for (let k = 0; k < 2000; k++) {
+        const d = addMonths(first, k * 12 / f);
+        if (d > last) break;
+        dates.push(d);
+    }
+    if (!dates.length) return { problems: ["No premiums fall between these dates."] };
+
+    const count = dates.length;
+    const paid = v.premium * count;
+    const received = v.regValue + v.regIncome;
+    const held = yearsBetween(first, asAt);
+    let rate = NaN;
+    if (paid > 0 && received > 0) {
+        rate = xirr([...dates.map(d => ({ date: d, amount: -v.premium })), { date: asAt, amount: received }]);
+        if (Math.abs(rate) < 1e-7) rate = 0;
+    }
+    const gain = received - paid;
+    const every = ({ 12: "month", 4: "quarter", 2: "half-year", 1: "year" })[f];
+
+    // Paid to date and the value path at the annualised return, at each anniversary
+    const rows = [];
+    for (let y = 1; ; y++) {
+        let point = addMonths(first, 12 * y);
+        if (point > asAt) point = asAt;
+        const before = dates.filter(d => d < point);
+        const value = Number.isFinite(rate) ? before.reduce((s, d) => s + v.premium * Math.pow(1 + rate, yearsBetween(d, point)), 0) : NaN;
+        rows.push({ label: point === asAt ? fmtDate(asAt) : `Yr ${y}`, date: point, paid: before.length * v.premium, value });
+        if (point === asAt || y > 100) break;
+    }
+
+    return {
+        tiles: [
+            { label: "Annualised return (IRR)", value: Number.isFinite(rate) ? pct(rate) : "–", strong: true, tone: Number.isFinite(rate) && rate < 0 ? "bad" : undefined },
+            { label: "Total premiums paid", value: money(paid), note: `${money(v.premium)} a ${every} × ${count}` },
+            { label: "Value now + payouts", value: money(received), note: `As at ${fmtDate(asAt)}` },
+            { label: "Gain", value: money(gain), note: paid ? `${pct(gain / paid)} of premiums · ${plain(held)} years` : "" }
+        ],
+        chart: Number.isFinite(rate) ? {
+            labels: rows.map(r => r.label),
+            series: [
+                { label: "Value at the annualised return", data: rows.map(r => r.value), color: 1, fill: true },
+                { label: "Premiums paid to date", data: rows.map(r => r.paid), color: "muted", dashed: true }
+            ]
+        } : null,
+        table: {
+            head: ["Date", "Premiums paid to date", "Value at the annualised return"],
+            rows: rows.map(r => [fmtDate(r.date), money(r.paid), money(r.value)])
+        },
+        notes: [
+            `${count} premiums from ${fmtDate(dates[0])} to ${fmtDate(dates.at(-1))}, each on its own date; the value and payouts are counted on ${fmtDate(asAt)}. The IRR is the steady yearly return that turns these premiums into the value now plus payouts.`,
+            ...(Number.isFinite(rate) ? [] : ["The return could not be worked out from these numbers. Check the premium, dates and value."])
+        ],
+        summary: [
+            `Paying ${money(v.premium)} a ${every} from ${fmtDate(dates[0])} to ${fmtDate(dates.at(-1))} (${count} premiums, ${money(paid)} in total), with ${money(v.regValue)} on ${fmtDate(asAt)}${v.regIncome ? ` and ${money(v.regIncome)} of payouts received` : ""},`,
+            `works out to an annualised return (IRR) of ${Number.isFinite(rate) ? pct(rate) : "–"}.`
+        ]
+    };
+}
+
 function computeReturns(v) {
+    if (v.mode === "regular") return computeRegularReturns(v);
+
     if (v.mode === "cagr") {
+        const from = parseDate(v.startDate), to = parseDate(v.endDate);
+        if (!from || !to) return { problems: ["Enter both dates."] };
+        if (to <= from) return { problems: ["The value date must be after the date invested."] };
+        v = { ...v, years: yearsBetween(from, to) };
         const total = v.end + v.income;
         const gain = total - v.start;
         const cagr = v.start > 0 && v.years > 0 && total > 0 ? Math.pow(total / v.start, 1 / v.years) - 1 : NaN;
@@ -493,7 +604,7 @@ function computeReturns(v) {
                 { label: "Annualised return (CAGR)", value: pct(cagr), strong: true },
                 { label: "Total return", value: v.start ? pct(gain / v.start) : "–" },
                 { label: "Gain", value: money(gain) },
-                { label: "Years held", value: plain(v.years) }
+                { label: "Years held", value: plain(v.years), note: `${fmtDate(from)} – ${fmtDate(to)}` }
             ],
             chart: {
                 labels: rows.map(r => `Yr ${r.year}`),
@@ -501,7 +612,7 @@ function computeReturns(v) {
             },
             notes: v.income ? ["Dividends and payouts received are counted as if received at the end."] : [],
             summary: [
-                `${money(v.start)} grew to ${money(v.end)}${v.income ? ` plus ${money(v.income)} of payouts` : ""} over ${plain(v.years)} years:`,
+                `${money(v.start)} invested on ${fmtDate(from)} grew to ${money(v.end)}${v.income ? ` plus ${money(v.income)} of payouts` : ""} by ${fmtDate(to)} (${plain(v.years)} years):`,
                 `a total return of ${v.start ? pct(gain / v.start) : "–"}, or ${pct(cagr)} a year.`
             ]
         };
@@ -523,7 +634,6 @@ function computeReturns(v) {
     const invested = flows.filter(r => r.amount < 0).reduce((s, r) => s - r.amount, 0);
     const received = flows.filter(r => r.amount > 0).reduce((s, r) => s + r.amount, 0);
     const gain = received + v.valueNow - invested;
-    const fmtDate = d => d.toLocaleDateString("en-SG", { day: "numeric", month: "short", year: "numeric" });
 
     return {
         tiles: [
@@ -1827,4 +1937,4 @@ export async function initializeFinanceCalculator() {
 }
 
 // For tests
-export const _test = { setRules: r => { RULES = mergeRules(DEFAULT_RULES, r); }, rulesFootnote, TOOLS, computeGrowth, computeGoal, computeReturns, computeLoan, computeAfford, computeRefi, computeRetire, computeDrawdown, computeCpf, computeProtect, computeInflation, computeDividend, buyersStampDuty, xirr };
+export const _test = { computeRegularReturns, setRules: r => { RULES = mergeRules(DEFAULT_RULES, r); }, rulesFootnote, TOOLS, computeGrowth, computeGoal, computeReturns, computeLoan, computeAfford, computeRefi, computeRetire, computeDrawdown, computeCpf, computeProtect, computeInflation, computeDividend, buyersStampDuty, xirr };
