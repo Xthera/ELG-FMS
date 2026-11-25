@@ -12094,3 +12094,332 @@ html[data-style="glass"] .app-body {
 [data-news-open] * {
     -webkit-user-drag: none;
 }
+
+/* ============================================================
+   FINANCIAL CALCULATOR (Calculators > Financial, js/fin-calc.js)
+   ============================================================ */
+
+.fin-calc {
+    display: grid;
+    gap: 16px;
+}
+
+.fin-picker-card,
+.fin-input-card,
+.fin-result-card {
+    padding: 16px 18px;
+}
+
+.fin-picker {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px 18px;
+}
+
+.fin-group {
+    display: grid;
+    align-content: start;
+    gap: 8px;
+}
+
+.fin-group-label {
+    color: var(--text-muted);
+    font-size: calc(10.5px * var(--font-scale, 1));
+    font-weight: 750;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.fin-tools.report-payment-options {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+    max-width: none;
+}
+
+.fin-tools .report-payment-option {
+    min-height: 0;
+    padding: 9px 12px;
+}
+
+.fin-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: 16px;
+    align-items: start;
+}
+
+.fin-card-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.fin-card-title {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: calc(16px * var(--font-scale, 1));
+    font-weight: 750;
+}
+
+.fin-card-blurb {
+    margin: 4px 0 0;
+    color: var(--text-secondary);
+    font-size: calc(12.5px * var(--font-scale, 1));
+    line-height: 1.5;
+}
+
+.fin-link-button,
+.fin-action {
+    flex: none;
+    padding: 6px 12px;
+    border: 1px solid var(--border-medium);
+    border-radius: 999px;
+    background: var(--bg-surface);
+    color: var(--text-secondary);
+    font: inherit;
+    font-size: calc(12px * var(--font-scale, 1));
+    font-weight: 650;
+    cursor: pointer;
+    transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.fin-link-button:hover,
+.fin-action:hover {
+    border-color: var(--accent);
+    color: var(--accent-strong);
+}
+
+.fin-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 6px;
+}
+
+.fin-grid.report-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 14px;
+}
+
+.fin-field-choice,
+.fin-field-wide {
+    grid-column: 1 / -1;
+}
+
+.fin-field > span {
+    line-height: 1.35;
+}
+
+.fin-choice.report-payment-options {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    max-width: none;
+}
+
+.fin-choice .report-payment-option {
+    min-height: 0;
+    padding: 8px 12px;
+}
+
+.fin-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.fin-input i {
+    position: absolute;
+    color: var(--text-muted);
+    font-style: normal;
+    font-size: calc(12.5px * var(--font-scale, 1));
+    pointer-events: none;
+}
+
+.fin-input.has-prefix i:first-child {
+    left: 10px;
+}
+
+.fin-input.has-suffix i:last-child {
+    right: 10px;
+}
+
+.fin-input.has-prefix input {
+    padding-left: 30px;
+}
+
+.fin-input.has-suffix input {
+    padding-right: 26px;
+}
+
+.fin-flows {
+    display: grid;
+    gap: 6px;
+}
+
+.fin-flow-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.3fr) minmax(0, 1fr) 32px;
+    gap: 6px;
+}
+
+.fin-flow-row input,
+.fin-flow-row select {
+    width: 100%;
+    height: 37px;
+    padding: 0 8px;
+    border: 1px solid var(--border-medium);
+    border-radius: 6px;
+    background: var(--bg-input);
+    color: var(--text-primary);
+    font: inherit;
+}
+
+.fin-flow-remove,
+.fin-flow-add {
+    border: 1px dashed var(--border-medium);
+    border-radius: 6px;
+    background: transparent;
+    color: var(--text-secondary);
+    font: inherit;
+    cursor: pointer;
+}
+
+.fin-flow-remove {
+    height: 37px;
+    font-size: 18px;
+}
+
+.fin-flow-add {
+    justify-self: start;
+    margin-top: 6px;
+    padding: 7px 12px;
+}
+
+.fin-flow-remove:hover,
+.fin-flow-add:hover {
+    border-color: var(--accent);
+    color: var(--accent-strong);
+}
+
+.fin-client {
+    max-width: 360px;
+    margin-bottom: 14px;
+}
+
+.fin-client input {
+    width: 100%;
+}
+
+.fin-tiles.calc-tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.fin-tile.is-key {
+    border-color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 9%, var(--bg-surface));
+}
+
+.fin-tile.is-key strong {
+    font-size: calc(23px * var(--font-scale, 1));
+}
+
+.fin-tile.is-bad strong {
+    color: var(--negative);
+}
+
+.fin-tile.is-good strong {
+    color: var(--positive);
+}
+
+.fin-chart-wrap {
+    position: relative;
+    height: 300px;
+    margin: 4px 0 8px;
+}
+
+.fin-table {
+    min-width: 0;
+    width: 100%;
+}
+
+.fin-disclaimer {
+    margin-top: 6px;
+    font-style: italic;
+}
+
+@media (max-width: 1100px) {
+    .fin-picker {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .fin-columns {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (max-width: 699px) {
+    .fin-picker,
+    .fin-grid.report-grid,
+    .fin-tiles.calc-tiles {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .fin-picker-card,
+    .fin-input-card,
+    .fin-result-card {
+        padding: 14px 12px;
+    }
+
+    .fin-card-head {
+        flex-direction: column;
+    }
+
+    .fin-chart-wrap {
+        height: 240px;
+    }
+
+    .fin-flow-row {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 32px;
+    }
+
+    .fin-flow-row select {
+        grid-column: 1 / -1;
+        grid-row: 2;
+    }
+}
+
+/* Financial calculator: phone fit-and-finish */
+.fin-grid.report-grid {
+    align-items: end;
+}
+
+@media (max-width: 699px) and (pointer: coarse), (max-height: 500px) and (max-width: 1000px) and (pointer: coarse) {
+    /* Four calculator tabs: two rows instead of running off screen */
+    .calc-switch.explorer-dataset {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        border-radius: 18px;
+    }
+
+    .calc-switch .explorer-dataset-tab {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .fin-tools.report-payment-options {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .fin-tools .report-payment-option {
+        padding: 9px 10px;
+    }
+}
+
+/* Financial calculator: where the reference data comes from */
+.fin-rules-note {
+    padding-top: 8px;
+    border-top: 1px dashed var(--border-subtle);
+    color: var(--text-muted);
+}
