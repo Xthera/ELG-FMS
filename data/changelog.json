@@ -8,7 +8,8 @@
         {
           "title": "Improved",
           "items": [
-            "CPF growth to 55: a new “Est. CPF LIFE from 65” result and a “Your projected savings” row show the estimated monthly CPF LIFE payout (Standard Plan) from 65 and from 70, based on the client's own projected Retirement Account at 55 (OA + SA up to the FRS). The amount above the FRS that can be withdrawn is also shown, and the estimate is included in the copied summary and printed report."
+            "CPF growth to 55: a new “Est. CPF LIFE from 65” result and a “Your projected savings” row show the estimated monthly CPF LIFE payout (Standard Plan) from 65 and from 70, based on the client's own projected Retirement Account at 55 (OA + SA up to the FRS). The amount above the FRS that can be withdrawn is also shown, and the estimate is included in the copied summary and printed report.",
+            "CPF growth to 55: “Total CPF” now counts only the Ordinary and Special Accounts, since MediSave is a separate account. The chart shows MediSave on its own instead of stacked on top, and the yearly table's last column is now “OA + SA”."
           ]
         }
       ]
