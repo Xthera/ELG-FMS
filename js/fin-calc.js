@@ -1100,12 +1100,12 @@ function computeCpf(v) {
 
     return {
         tiles: [
-            { label: `Total CPF at ${last.age}`, value: money(last.total), strong: true, note: "OA + SA (MediSave is kept separately)" },
+            { label: `Total CPF at ${last.age}`, value: money(last.total), strong: true },
             { label: "Ordinary Account", value: money(last.oa) },
             { label: "Special Account", value: money(last.sa) },
             { label: "MediSave Account", value: money(last.ma) },
             ...(reach55 ? [{ label: `Full Retirement Sum (${year55})`, value: money(frs), note: `BRS ${money(frs / 2)} · ERS ${money(frs * 2)}${C.frsByYear[year55] ? "" : " (estimated)"}` },
-                { label: "Est. CPF LIFE from 65", value: `${money(own65)}/mth`, strong: true, tone: ownLevel ? "good" : "bad", note: `From 70: ${money(own70)}/mth · RA ${money(ownRa)}${forRa > frs ? ` (${money(forRa - frs)} above FRS can be withdrawn)` : ownLevel ? "" : " (below BRS)"}` }] : [])
+                { label: "Est. CPF LIFE from 65", value: `${money(own65)}/mth`, strong: true, tone: ownLevel ? "good" : "bad", note: `From 70: ${money(own70)}/mth${forRa > frs ? `\n${money(forRa - frs)} above FRS can be withdrawn` : ownLevel ? "" : "\nBelow the BRS"}` }] : [])
         ],
         keyTable: reach55 ? {
             title: `Retirement sums for turning 55 in ${year55}`,
@@ -1701,7 +1701,7 @@ function summaryText() {
     const lines = [
         `${last.tool.name}${state.client ? ` · ${state.client}` : ""} (${date})`,
         "",
-        ...last.result.tiles.map(tile => `• ${tile.label}: ${tile.value}${tile.note ? ` (${tile.note})` : ""}`),
+        ...last.result.tiles.map(tile => `• ${tile.label}: ${tile.value}${tile.note ? ` (${tile.note.replace(/\n/g, "; ")})` : ""}`),
         "",
         ...(last.result.summary ?? []),
         "",
@@ -1815,7 +1815,7 @@ function printReport() {
   .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:0 0 14px}
   .tile{border:1px solid #d5dbe1;border-radius:8px;padding:9px 10px}
   .tile span{display:block;font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#5b6672}
-  .tile strong{display:block;font-size:16px;margin-top:2px} .tile em{display:block;font-style:normal;color:#5b6672;font-size:10.5px}
+  .tile strong{display:block;font-size:16px;margin-top:2px} .tile em{display:block;white-space:pre-line;font-style:normal;color:#5b6672;font-size:10.5px}
   .tile.key{border-color:#1b6fd1;background:#f2f7fd}
   h2{font-size:13.5px;margin:16px 0 6px}
   table{width:100%;border-collapse:collapse;font-size:11.5px}
