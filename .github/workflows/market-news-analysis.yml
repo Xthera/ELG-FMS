@@ -60,12 +60,45 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/market_news/analysis/
-
-          if git diff --cached --quiet; then
-            echo "No analysis changes to commit."
+          if [ ! -d data/market_news/analysis ]; then
+            echo "No analysis folder."
             exit 0
           fi
 
-          git commit -m "Update market news AI analysis"
-          git push
+          # Keep this run's results aside. Only this workflow writes analysis/,
+          # so they can be laid over the newest main if another workflow pushed first.
+          rm -rf "$RUNNER_TEMP/analysis"
+          cp -r data/market_news/analysis "$RUNNER_TEMP/analysis"
+
+          MAX_ATTEMPTS=5
+          ATTEMPT=1
+          while [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; do
+            echo "Publish attempt $ATTEMPT / $MAX_ATTEMPTS"
+
+            git fetch origin main
+            git reset --hard origin/main
+
+            rm -rf data/market_news/analysis
+            mkdir -p data/market_news
+            cp -r "$RUNNER_TEMP/analysis" data/market_news/analysis
+            git add -A data/market_news/analysis/
+
+            if git diff --cached --quiet; then
+              echo "No analysis changes to commit."
+              exit 0
+            fi
+
+            git commit -m "Update market news AI analysis"
+
+            if git push origin HEAD:main; then
+              echo "Pushed."
+              exit 0
+            fi
+
+            echo "Push rejected (another workflow pushed first); retrying..."
+            ATTEMPT=$((ATTEMPT + 1))
+            sleep $((ATTEMPT * 5))
+          done
+
+          echo "Could not push after $MAX_ATTEMPTS attempts."
+          exit 1
