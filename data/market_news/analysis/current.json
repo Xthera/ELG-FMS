@@ -1,10 +1,190 @@
 {
-  "generatedAtSgt": "2026-11-26T04:14:57.807978+08:00",
+  "generatedAtSgt": "2026-11-26T19:05:07.250939+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 200,
+  "articleCount": 206,
   "analyses": [
+    {
+      "articleId": "254ed86608b8cc5247f380f5adbb0eadc37f7c104f6a14b7fbd2a8e9d7a7ef3a",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "HIGH",
+      "summary": "South Korea's central bank has raised benchmark lending rates to a two-year high and upgraded its growth forecast, responding to persistent inflation that remains above its 2% target driven by stronger economic growth.",
+      "assetClasses": [
+        "Fixed Income",
+        "Equities",
+        "Currencies"
+      ],
+      "geographies": [
+        "South Korea"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Higher benchmark rates and upgraded growth forecasts impact borrowing costs, equity valuations, and currency strength in South Korea, affecting regional fixed income and equity portfolios.",
+      "reasoning": "The article details a major central bank policy shift involving interest rate hikes and economic forecast upgrades, which is crucial for economic and market monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years",
+      "publishedAtSgt": "2026-11-26T11:32:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T12:11:11+08:00"
+    },
+    {
+      "articleId": "b70e6ac695c84776d6f1d9b8a676920c21fad9cca1c909434ac0ed1b2db45258",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "South Korean beauty stocks surged as skincare brands dominated Amazon's bestseller rankings ahead of Black Friday. Companies like APR, Kolmar Korea, and Cosmax experienced notable share price gains, defying a broader market sell-off in Seoul.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "South Korea",
+        "Global"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Beauty"
+      ],
+      "investorImpact": "Investors can use this information to gauge the strong international demand and e-commerce momentum for South Korean beauty brands, presenting growth opportunities within consumer discretionary and cosmetic manufacturing equities.",
+      "reasoning": "The article highlights specific market performance and equity gains for K-beauty stocks driven by global e-commerce trends, making it valuable for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "K-beauty stocks rally as Korean brands top Amazon bestseller lists globally ahead of Black Friday",
+      "publishedAtSgt": "2026-11-26T11:09:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/k-beauty-firms-amazon-sales-black-friday.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T12:11:11+08:00"
+    },
+    {
+      "articleId": "42c28e82e7b437d966c5f8c133f9e201173256118ad09b1732b6fe567e40dfee",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "A hedge fund manager at the iConnections Global Alts Asia conference warned that the artificial intelligence boom could trigger a recession through either a collapse in AI investment or widespread technological unemployment.",
+      "assetClasses": [
+        "Equities",
+        "High-Yield Bonds"
+      ],
+      "geographies": [
+        "Global",
+        "Asia"
+      ],
+      "sectors": [
+        "Technology",
+        "Financials"
+      ],
+      "investorImpact": "Investors should re-evaluate risk exposure in AI-heavy equities and high-yield credit as mispriced market risks could lead to sudden corrections from potential AI-led or unemployment-led recessions.",
+      "reasoning": "Classified as MARKET due to discussion on risk mispricing, high-yield bonds, and equity market impacts. Sentiment is NEGATIVE due to recession warnings. Importance is HIGH given potential systemic risks highlighted by institutional fund managers.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Where the market may be mispricing risk most: AI boom, volatility, high-yield bonds",
+      "publishedAtSgt": "2026-11-26T09:34:58+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T12:11:11+08:00"
+    },
+    {
+      "articleId": "a42e1a5402c6f72c3a9848a1dc57c61c3de834919122fcb1af336129283f3699",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "Hedge funds are increasingly targeting everyday retail investors as macroeconomic challenges, geopolitical uncertainty, inflation, and high equity-bond correlation weaken the effectiveness of traditional portfolio diversification.",
+      "assetClasses": [
+        "Alternatives",
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financials",
+        "Asset Management"
+      ],
+      "investorImpact": "The democratization of hedge funds provides retail investors with new avenues for portfolio diversification amid challenging market conditions, while offering alternative asset managers a broader capital base.",
+      "reasoning": "Classified under MARKET as it discusses structural shifts in asset management and fund distribution towards retail investors driven by macroeconomic and market volatility.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Hedge funds are no longer just for the rich. They’re coming for everyday investors",
+      "publishedAtSgt": "2026-11-26T09:10:58+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/hedge-funds-retail-investors.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T12:11:11+08:00"
+    },
+    {
+      "articleId": "3b271d4f51bcc1fc984352102f42ad6804a83fa2320fb5b2e4465fa7e5f7f21f",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "India's economy expanded by 7.8% in the June quarter, beating expectations amidst global challenges, with the auto industry driving strong manufacturing growth, GDP contribution, and employment.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "India"
+      ],
+      "sectors": [
+        "Automotive",
+        "Manufacturing"
+      ],
+      "investorImpact": "The strong macroeconomic performance and record auto sales in India signal robust domestic demand and improving foreign investor sentiment, presenting attractive opportunities for equity investors in emerging markets.",
+      "reasoning": "Classified as ECONOMIC because it focuses on India's GDP growth and macroeconomic indicators alongside sectoral auto performance. It is important for monitoring emerging market growth trends and investment flows.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Inside India newsletter: Roaring economy, foreign investors’ return and now record auto sales",
+      "publishedAtSgt": "2026-11-26T08:12:16+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/india-auto-slaes-economy-suzuki-hyundai-toyota.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T12:11:11+08:00"
+    },
+    {
+      "articleId": "934f4316730631ee1ee16db25b4dea1332fa152cd938549f0e0a770cc6fd0998",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "The article contrasts Alan Greenspan's historical 1990s monetary policy approach—where he held interest rates steady during strong growth due to productivity gains from the internet—with the current economic situation facing potential Fed leader Kevin Warsh, highlighting significant differences in inflation, capital-investment booms, and monetary/fiscal stimulus.",
+      "assetClasses": [
+        "Equities",
+        "Fixed Income"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "investorImpact": "Investors should note the comparison between past productivity-led growth and current economic conditions, as differing fiscal stimulus and inflation profiles suggest central banks may need to maintain tighter monetary policies rather than betting solely on productivity to tame inflation.",
+      "reasoning": "Classified as ECONOMIC because it discusses macroeconomic policy, Federal Reserve interest rate strategy, inflation, and fiscal stimulus. Importance is set to MEDIUM due to its relevance to broader monetary policy trends and historical context for central banking.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike",
+      "publishedAtSgt": "2026-11-26T05:56:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/kevin-warsh-greenspan-fed-rates-ai-inflation.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-26T12:11:12+08:00"
+    },
     {
       "articleId": "dfb49d5b293906f1813eccf39e35c3ecc81d61a36335cae39257348e473c8328",
       "relevant": true,
