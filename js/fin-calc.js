@@ -34,7 +34,7 @@ const RULES_FILE = "data/finance_rules.json";
 
 // Built-in copy of the reference data, used until data/finance_rules.json
 // (kept up to date by the "Update finance rules" GitHub workflow) loads
-const DEFAULT_RULES = {"cpf":{"interest":{"period":"1 October 2026 to 31 December 2026","oa":2.5,"smra":4.0,"hdbLoan":2.6},"extraInterest":{"below55":{"rate":1.0,"cap":60000,"oaCap":20000}},"contribution":{"effective":"2026-01","bands":[{"label":"35 years & below","maxAge":35,"employer":17,"employee":20},{"label":"Above 35 - 45 years","maxAge":45,"employer":17,"employee":20},{"label":"Above 45 - 50 years","maxAge":50,"employer":17,"employee":20},{"label":"Above 50 - 55 years","maxAge":55,"employer":17,"employee":20},{"label":"Above 55 - 60 years","maxAge":60,"employer":16,"employee":18},{"label":"Above 60 - 65 years","maxAge":65,"employer":12.5,"employee":12.5},{"label":"Above 65 - 70 years","maxAge":70,"employer":9,"employee":7.5},{"label":"Above 70 years","maxAge":999,"employer":7.5,"employee":5}]},"allocation":{"effective":"2026-01","bands":[{"label":"35 years & below","maxAge":35,"oa":0.6217,"sa":0.1621,"ma":0.2162},{"label":"Above 35 - 45 years","maxAge":45,"oa":0.5677,"sa":0.1891,"ma":0.2432},{"label":"Above 45 - 50 years","maxAge":50,"oa":0.5136,"sa":0.2162,"ma":0.2702},{"label":"Above 50 - 55 years","maxAge":55,"oa":0.4055,"sa":0.3108,"ma":0.2837},{"label":"Above 55 - 60 years","maxAge":60,"oa":0.353,"sa":0.3382,"ma":0.3088},{"label":"Above 60 - 65 years","maxAge":65,"oa":0.14,"sa":0.44,"ma":0.42},{"label":"Above 65 - 70 years","maxAge":70,"oa":0.0607,"sa":0.303,"ma":0.6363},{"label":"Above 70 years","maxAge":999,"oa":0.08,"sa":0.08,"ma":0.84}]},"owCeiling":{"effective":"2026-01","value":8000},"annualCeiling":102000,"frsByYear":{"2022":192000,"2023":198800,"2024":205800,"2025":213000,"2026":220400,"2027":228200},"frsGrowth":0.035,"bhs":{"year":2026,"value":79000,"growth":0.046},"lifePayouts":{"cohortYear":2026,"points":[[50000,490,670],[110200,950,1280],[150000,1250,1670],[220400,1780,2380],[300000,2380,3170],[440800,3440,4580]]}},"property":{"tdsr":0.55,"msr":0.3,"bankStress":4.0,"hdbFloor":3.0,"variableHaircut":0.7,"ltv":0.75,"ltvLong":0.55,"minCash":0.05,"minCashLong":0.1,"reviewed":"2026-11-25","bsd":{"effective":"15 Feb 2023","bands":[[180000,0.01],[180000,0.02],[640000,0.03],[500000,0.04],[1500000,0.05],[null,0.06]]}},"protection":{"lifeMultiple":9,"ciMultiple":4,"emergencyMonths":[3,6]},"sources":{"cpfOpenData":"https://data.gov.sg/collections/40/view","frs":"https://data.gov.sg/datasets/d_b212dff55c98a4c0b3d3d850bf744ad7/view","cpfInterest":"https://www.cpf.gov.sg/service/article/how-are-cpf-interest-rates-determined","bhs":"https://www.cpf.gov.sg/service/article/what-is-the-basic-healthcare-sum","bsd":"https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/buyer's-stamp-duty-(bsd)","property":"https://www.mas.gov.sg/regulation/explainers/new-private-property-measures","lifePayouts":"https://www.cpf.gov.sg/service/article/how-much-cpf-payouts-can-i-get-every-month"}};
+const DEFAULT_RULES = {"cpf":{"interest":{"period":"1 October 2026 to 31 December 2026","oa":2.5,"smra":4.0,"hdbLoan":2.6},"extraInterest":{"below55":{"rate":1.0,"cap":60000,"oaCap":20000}},"contribution":{"effective":"2026-01","bands":[{"label":"35 years & below","maxAge":35,"employer":17,"employee":20},{"label":"Above 35 - 45 years","maxAge":45,"employer":17,"employee":20},{"label":"Above 45 - 50 years","maxAge":50,"employer":17,"employee":20},{"label":"Above 50 - 55 years","maxAge":55,"employer":17,"employee":20},{"label":"Above 55 - 60 years","maxAge":60,"employer":16,"employee":18},{"label":"Above 60 - 65 years","maxAge":65,"employer":12.5,"employee":12.5},{"label":"Above 65 - 70 years","maxAge":70,"employer":9,"employee":7.5},{"label":"Above 70 years","maxAge":999,"employer":7.5,"employee":5}]},"allocation":{"effective":"2026-01","bands":[{"label":"35 years & below","maxAge":35,"oa":0.6217,"sa":0.1621,"ma":0.2162},{"label":"Above 35 - 45 years","maxAge":45,"oa":0.5677,"sa":0.1891,"ma":0.2432},{"label":"Above 45 - 50 years","maxAge":50,"oa":0.5136,"sa":0.2162,"ma":0.2702},{"label":"Above 50 - 55 years","maxAge":55,"oa":0.4055,"sa":0.3108,"ma":0.2837},{"label":"Above 55 - 60 years","maxAge":60,"oa":0.353,"sa":0.3382,"ma":0.3088},{"label":"Above 60 - 65 years","maxAge":65,"oa":0.14,"sa":0.44,"ma":0.42},{"label":"Above 65 - 70 years","maxAge":70,"oa":0.0607,"sa":0.303,"ma":0.6363},{"label":"Above 70 years","maxAge":999,"oa":0.08,"sa":0.08,"ma":0.84}]},"owCeiling":{"effective":"2026-01","value":8000},"annualCeiling":102000,"frsByYear":{"2022":192000,"2023":198800,"2024":205800,"2025":213000,"2026":220400,"2027":228200},"frsGrowth":0.035,"bhs":{"year":2026,"value":79000,"growth":0.046},"lifePayouts":{"cohortYear":2026,"points":[[50000,490,670],[110200,950,1280],[150000,1250,1670],[220400,1780,2380],[300000,2380,3170],[440800,3440,4580]]}},"property":{"tdsr":0.55,"msr":0.3,"bankStress":4.0,"hdbFloor":3.0,"variableHaircut":0.7,"ltv":0.75,"ltvLong":0.55,"minCash":0.05,"minCashLong":0.1,"reviewed":"2026-11-25","bsd":{"effective":"15 Feb 2023","bands":[[180000,0.01],[180000,0.02],[640000,0.03],[500000,0.04],[1500000,0.05],[null,0.06]]}},"protection":{"lifeMultiple":9,"ciMultiple":4,"emergencyMonths":[3,6]},"sources":{"cpfOpenData":"https://data.gov.sg/collections/40/view","frs":"https://data.gov.sg/datasets/d_b212dff55c98a4c0b3d3d850bf744ad7/view","cpfInterest":"https://www.cpf.gov.sg/service/article/how-are-cpf-interest-rates-determined","bhs":"https://www.cpf.gov.sg/service/article/what-is-the-basic-healthcare-sum","bsd":"https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/buyer's-stamp-duty-(bsd)","property":"https://www.mas.gov.sg/regulation/explainers/new-private-property-measures","lifePayouts":"https://www.cpf.gov.sg/service/article/how-much-cpf-payouts-can-i-get-every-month","taxRates":"https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates","taxRebate":"https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/personal-income-tax-rebate","srs":"https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/special-tax-schemes/srs-contributions","retirementAge":"https://www.mom.gov.sg/employment-practices/retirement"},"tax":{"fromYA":"2024","bands":[[20000,0],[10000,0.02],[10000,0.035],[40000,0.07],[40000,0.115],[40000,0.15],[40000,0.18],[40000,0.19],[40000,0.195],[40000,0.2],[180000,0.22],[500000,0.23],[null,0.24]],"rebates":{"2024":[0.5,200],"2025":[0.6,200]},"reliefCap":80000,"earnedIncome":[[55,1000],[60,6000],[999,8000]],"topUpSelf":8000,"topUpFamily":8000},"srs":{"capLocal":15300,"capForeigner":35700,"taxable":0.5,"penalty":0.05,"ageBefore":63,"ageAfter":64,"years":10,"agePeriods":[{"from":"","age":62},{"from":"2022-07-01","age":63},{"from":"2026-07-01","age":64},{"from":"2029-01-01","age":65}]}};
 
 let RULES = DEFAULT_RULES;
 let RULES_META = { checkedUtc: null, status: {}, loaded: false };
@@ -69,11 +69,33 @@ async function loadRules() {
 // ------------------------------------------------------------
 
 const GROUPS = [
-    { id: "save", label: "Savings & investing" },
-    { id: "loan", label: "Loans & property" },
-    { id: "retire", label: "Retirement & CPF" },
-    { id: "other", label: "Protection & other" }
+    { id: "save", label: "Savings & investing", suite: "finance" },
+    { id: "loan", label: "Loans & property", suite: "finance" },
+    { id: "retire", label: "Retirement & CPF", suite: "finance" },
+    { id: "other", label: "Protection & other", suite: "finance" },
+    { id: "tax", label: "Income tax", suite: "tax" },
+    { id: "srs", label: "Supplementary Retirement Scheme", suite: "tax" }
 ];
+
+// The Financial and Tax / SRS tabs share this calculator; each shows its own groups
+const SUITES = {
+    finance: {
+        eyebrow: "SAVINGS · LOANS & PROPERTY · RETIREMENT & CPF · PROTECTION",
+        title: "Financial Calculator",
+        description: "Everyday planning numbers for client conversations, using current Singapore rules. Results update as you type; copy a summary or print a client report.",
+        disclaimer: "Illustration only, based on the assumptions shown. Returns, rates and rules can change and actual results will differ. Not financial advice.",
+        advice: "financial advice"
+    },
+    tax: {
+        eyebrow: "INCOME TAX · SUPPLEMENTARY RETIREMENT SCHEME",
+        title: "Tax / SRS Calculator",
+        description: "Estimate income tax for Singapore tax residents, the tax saved by SRS contributions and CPF cash top-ups, and the tax when SRS is withdrawn. Uses current IRAS rates.",
+        disclaimer: "Estimates only, for tax residents, based on the assumptions shown. Tax rules and reliefs have conditions and can change; check with IRAS. Not tax or financial advice.",
+        advice: "tax or financial advice"
+    }
+};
+
+const THIS_YEAR = new Date().getFullYear();
 
 const TOOLS = [
 
@@ -293,7 +315,50 @@ const TOOLS = [
             { key: "monthly", label: "Add each month (optional)", type: "money", value: 0 }
         ],
         compute: computeDividend
+    },
+
+    // ---------------- Tax / SRS tab ----------------
+
+    {
+        id: "tax",
+        group: "tax",
+        name: "Income tax estimate",
+        blurb: "Estimate a tax resident's income tax, and how much SRS contributions and CPF cash top-ups save.",
+        fields: [
+            { key: "year", label: "Income earned in", type: "select", value: String(THIS_YEAR), options: () => [THIS_YEAR, THIS_YEAR - 1].map(y => [String(y), `${y} (YA ${y + 1})`]) },
+            { key: "residency", label: "Citizenship", type: "choice", value: "local", options: [["local", "Citizen / PR"], ["foreigner", "Foreigner"]] },
+            { key: "age", label: "Age", type: "years", value: 40, min: 16, max: 100 },
+            { key: "salary", label: "Monthly salary (gross)", type: "money", value: 8000 },
+            { key: "bonus", label: "Bonus (months of salary a year)", type: "number", value: 2, min: 0, max: 24, step: 0.5 },
+            { key: "otherIncome", label: "Other taxable income a year (e.g. rental, freelance)", type: "money", value: 0 },
+            { key: "srs", label: "SRS contribution this year", type: "money", value: 0 },
+            { key: "topSelf", label: "CPF cash top-up for yourself", type: "money", value: 0, showIf: v => v.residency !== "foreigner" },
+            { key: "topFamily", label: "CPF cash top-up for family", type: "money", value: 0, showIf: v => v.residency !== "foreigner" },
+            { key: "otherRelief", label: "Other reliefs (parents, children, spouse, course fees, NSman…)", type: "money", value: 0 }
+        ],
+        compute: computeTax
+    },
+
+    {
+        id: "srs",
+        group: "srs",
+        name: "SRS planner",
+        blurb: "Tax saved by contributing to SRS, the balance at retirement, and the tax paid when it is withdrawn.",
+        fields: [
+            { key: "residency", label: "Citizenship", type: "choice", value: "local", options: [["local", "Citizen / PR"], ["foreigner", "Foreigner"]] },
+            { key: "first", label: "First SRS contribution made", type: "select", value: "later", wide: true, options: () => srsAgeOptions() },
+            { key: "age", label: "Current age", type: "years", value: 40, min: 18, max: 80 },
+            { key: "balance", label: "SRS balance now", type: "money", value: 0 },
+            { key: "yearly", label: "Contribution each year", type: "money", value: 15300 },
+            { key: "income", label: "Chargeable income a year before SRS", type: "money", value: 120000 },
+            { key: "rate", label: "Return on SRS investments (% a year)", type: "percent", value: 4, min: -10, max: 20 },
+            { key: "start", label: "Start withdrawals at age", type: "years", value: 64, min: 40, max: 100 },
+            { key: "spread", label: "Spread withdrawals over (years, up to 10)", type: "years", value: 10, min: 1, max: 10 },
+            { key: "retireIncome", label: "Other taxable income a year in retirement", type: "money", value: 0 }
+        ],
+        compute: computeSrs
     }
+
 ];
 
 // ------------------------------------------------------------
@@ -1218,6 +1283,218 @@ function computeInflation(v) {
     };
 }
 
+// ------------------------------------------------------------
+// Tax / SRS
+// ------------------------------------------------------------
+
+// Resident tax on chargeable income, with the tax in each band
+function taxBands(chargeable) {
+    const out = [];
+    let from = 0;
+    for (const [size, rate] of RULES.tax.bands) {
+        const to = size === null ? Infinity : from + size;
+        const inBand = Math.max(0, Math.min(chargeable, to) - from);
+        out.push({ from, to, rate, inBand, tax: inBand * rate });
+        if (chargeable <= to) break;
+        from = to;
+    }
+    return out;
+}
+const taxOn = chargeable => taxBands(Math.max(0, chargeable)).reduce((s, b) => s + b.tax, 0);
+const topRate = chargeable => taxBands(Math.max(0, chargeable)).filter(b => b.inBand > 0).at(-1)?.rate ?? 0;
+const bandName = b => b.to === Infinity ? `Above ${money(b.from)}` : b.from === 0 ? `First ${money(b.to)}` : `${money(b.from)} – ${money(b.to)}`;
+
+function rebateFor(ya, tax) {
+    const r = RULES.tax.rebates?.[String(ya)];
+    return r ? Math.min(tax * r[0], r[1]) : 0;
+}
+
+function earnedIncomeRelief(age, earned) {
+    const band = RULES.tax.earnedIncome.find(([maxAge]) => age < maxAge) ?? RULES.tax.earnedIncome.at(-1);
+    return Math.min(band[1], Math.max(0, earned));
+}
+
+function computeTax(v) {
+    const T = RULES.tax, C = RULES.cpf;
+    const local = v.residency !== "foreigner";
+    const ya = Number(v.year) + 1;
+    const srsCap = local ? RULES.srs.capLocal : RULES.srs.capForeigner;
+    const topSelf = local ? v.topSelf : 0, topFamily = local ? v.topFamily : 0;
+    const problems = [];
+    if (v.srs > srsCap) problems.push(`SRS contribution: at most ${money(srsCap)} a year for ${local ? "citizens and PRs" : "foreigners"}.`);
+    if (topSelf > T.topUpSelf) problems.push(`CPF top-up for yourself: tax relief is capped at ${money(T.topUpSelf)} a year.`);
+    if (topFamily > T.topUpFamily) problems.push(`CPF top-up for family: tax relief is capped at ${money(T.topUpFamily)} a year.`);
+    if (problems.length) return { problems };
+
+    const salaryYear = v.salary * 12, bonus = v.salary * v.bonus;
+    const employment = salaryYear + bonus;
+    const assessable = employment + v.otherIncome;
+
+    // Employee's own compulsory CPF (citizens / PRs), within the wage ceilings
+    const employeeRate = local ? cpfBand(v.age).employee : 0;
+    const ow = Math.min(v.salary, RULES.cpf.owCeiling.value) * 12;
+    const aw = Math.min(bonus, Math.max(0, C.annualCeiling - ow));
+    const cpfRelief = (ow + aw) * employeeRate;
+    const earned = earnedIncomeRelief(v.age, employment);
+
+    const run = (srs, self, family) => {
+        const items = cpfRelief + earned + srs + self + family + v.otherRelief;
+        const reliefs = Math.min(items, T.reliefCap);
+        const chargeable = Math.max(0, assessable - reliefs);
+        const gross = taxOn(chargeable);
+        const rebate = rebateFor(ya, gross);
+        return { items, reliefs, capped: items > T.reliefCap, chargeable, gross, rebate, payable: gross - rebate };
+    };
+    const now = run(v.srs, topSelf, topFamily);
+    const without = run(0, 0, 0);
+    const room = Math.max(0, srsCap - v.srs);
+    const maxed = run(srsCap, topSelf, topFamily);
+    const saved = without.payable - now.payable;
+    const moreIfMaxed = now.payable - maxed.payable;
+    const effective = assessable > 0 ? now.payable / assessable : 0;
+    const marginal = topRate(now.chargeable);
+
+    const rows = [
+        ["Employment income", money(employment)],
+        ...(v.otherIncome ? [["Other income", money(v.otherIncome)]] : []),
+        ...(local ? [[`Less: CPF relief (own contributions, ${pct(employeeRate, 1)})`, `−${money(cpfRelief)}`]] : []),
+        ["Less: earned income relief", `−${money(earned)}`],
+        ...(v.srs ? [["Less: SRS contribution", `−${money(v.srs)}`]] : []),
+        ...(topSelf ? [["Less: CPF cash top-up (self)", `−${money(topSelf)}`]] : []),
+        ...(topFamily ? [["Less: CPF cash top-up (family)", `−${money(topFamily)}`]] : []),
+        ...(v.otherRelief ? [["Less: other reliefs", `−${money(v.otherRelief)}`]] : []),
+        ...(now.capped ? [[`Add back: reliefs above the ${money(T.reliefCap)} cap`, money(now.items - T.reliefCap)]] : []),
+        ["Chargeable income", money(now.chargeable)],
+        ["Tax on chargeable income", money(now.gross, 2)],
+        ...(now.rebate ? [[`Less: YA ${ya} personal tax rebate`, `−${money(now.rebate, 2)}`]] : []),
+        ["Tax payable", money(now.payable, 2)]
+    ];
+    const bands = taxBands(now.chargeable).filter(b => b.inBand > 0 || b.from === 0);
+
+    return {
+        tiles: [
+            { label: `Tax payable (YA ${ya})`, value: money(now.payable), strong: true, note: `${pct(effective, 1)} of income · top rate ${pct(marginal, 1)}` },
+            { label: "Chargeable income", value: money(now.chargeable), note: now.capped ? `Reliefs capped at ${money(T.reliefCap)}` : `After ${money(now.reliefs)} of reliefs` },
+            { label: "Saved by SRS & CPF top-ups", value: money(saved), tone: saved > 0 ? "good" : undefined, note: saved > 0 ? `${money(v.srs + topSelf + topFamily)} put in` : "None this year" },
+            { label: "SRS room left this year", value: money(room), note: room > 0 ? (moreIfMaxed > 0 ? `Filling it saves about ${money(moreIfMaxed)} more` : "Little or no tax to save") : "SRS limit reached" }
+        ],
+        keyTable: { title: `Tax computation, YA ${ya}`, head: ["Item", "Amount"], rows },
+        chart: {
+            type: "bar",
+            labels: ["No SRS / top-ups", "As entered", ...(room > 0 ? ["SRS maxed"] : [])],
+            series: [{ label: "Tax payable", data: [without.payable, now.payable, ...(room > 0 ? [maxed.payable] : [])], color: 1 }]
+        },
+        table: {
+            head: ["Chargeable income band", "Rate", "Income in band", "Tax"],
+            rows: bands.map(b => [bandName(b), pct(b.rate, 1), money(b.inBand), money(b.tax, 2)])
+        },
+        notes: [
+            `Resident tax rates from YA ${T.fromYA} onwards. ${rebateFor(ya, 1e9) ? `YA ${ya} includes the personal tax rebate of ${pct(T.rebates[String(ya)][0], 0)} of tax, up to ${money(T.rebates[String(ya)][1])}.` : `No personal tax rebate has been announced for YA ${ya}.`}`,
+            `Assumes a tax resident (in Singapore at least 183 days in ${v.year}).${local ? " CPF relief uses the full employee rate; PRs in their first two years pay lower graduated rates." : " Foreigners have no CPF, so no CPF relief or top-up relief."}`,
+            `All reliefs together are capped at ${money(T.reliefCap)} a year. Earned income relief: ${T.earnedIncome.map(([a, amt], i) => `${money(amt)} ${i === 0 ? `below ${a}` : i === T.earnedIncome.length - 1 ? `from ${T.earnedIncome[i - 1][0]}` : `${T.earnedIncome[i - 1][0]}–${a - 1}`}`).join(", ")}. CPF cash top-up relief: up to ${money(T.topUpSelf)} for yourself and ${money(T.topUpFamily)} for family. Each relief has its own conditions; check eligibility with IRAS.`
+        ],
+        summary: [
+            `On ${money(assessable)} of income in ${v.year}, estimated tax for YA ${ya} is ${money(now.payable)} (${pct(effective, 1)} of income; top rate ${pct(marginal, 1)}).`,
+            saved > 0 ? `SRS and CPF top-ups of ${money(v.srs + topSelf + topFamily)} save about ${money(saved)} of tax.` : "",
+            room > 0 && moreIfMaxed > 0 ? `Contributing the remaining ${money(room)} SRS allowance would save about ${money(moreIfMaxed)} more.` : ""
+        ].filter(Boolean)
+    };
+}
+
+// Penalty-free SRS withdrawal age = statutory retirement age when the first contribution was made
+const srsPeriods = () => RULES.srs.agePeriods ?? [{ from: "", age: 62 }, { from: "2022-07-01", age: 63 }, { from: "2026-07-01", age: 64 }];
+const shortDate = iso => new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-SG", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+function srsAgeOptions() {
+    const periods = srsPeriods();
+    const options = periods.map((period, i) => {
+        const next = periods[i + 1];
+        const dayBefore = next ? shortDate(new Date(Date.parse(`${next.from}T00:00:00Z`) - 864e5).toISOString().slice(0, 10)) : "";
+        const range = !period.from ? `Before ${shortDate(next.from)}` : next ? `${shortDate(period.from)} – ${dayBefore}` : `From ${shortDate(period.from)}`;
+        return [period.from || "start", `${range} (withdraw from ${period.age})`];
+    });
+    const now = currentSrsPeriod(), next = periods.find(p => p.from > todayIso());
+    options.push(["later", `Not yet (withdraw from ${now.age}${next ? `; ${next.age} if made from ${shortDate(next.from)}` : ""})`]);
+    return options;
+}
+// The period in force today (a later, announced period isn't in force yet)
+const currentSrsPeriod = () => srsPeriods().filter(p => !p.from || p.from <= todayIso()).at(-1) ?? srsPeriods()[0];
+function srsAgeFor(choice) {
+    const periods = srsPeriods();
+    const legacy = { before: "2022-07-01", after: "2026-07-01" }[choice] ?? choice;   // earlier two-option version
+    if (legacy === "start") return periods[0].age;
+    return (periods.find(p => p.from === legacy) ?? currentSrsPeriod()).age;
+}
+
+function computeSrs(v) {
+    const S = RULES.srs;
+    const local = v.residency !== "foreigner";
+    const cap = local ? S.capLocal : S.capForeigner;
+    const srsAge = srsAgeFor(v.first);
+    const problems = [];
+    if (v.yearly > cap) problems.push(`Contribution each year: at most ${money(cap)} for ${local ? "citizens and PRs" : "foreigners"}.`);
+    if (v.start <= v.age) problems.push("Start withdrawals at an age after the current age.");
+    if (v.start < srsAge) problems.push(`Withdrawals before age ${srsAge} are fully taxed with a ${pct(S.penalty, 0)} penalty; start at ${srsAge} or later.`);
+    if (v.spread > S.years) problems.push(`Withdrawals can be spread over at most ${S.years} years.`);
+    if (problems.length) return { problems };
+
+    const r = v.rate / 100;
+    const rows = [];
+    let balance = v.balance, totalIn = 0, totalSaved = 0;
+    for (let age = v.age; age < v.start; age++) {
+        const saved = taxOn(v.income) - taxOn(Math.max(0, v.income - v.yearly));
+        balance = (balance + v.yearly) * (1 + r);
+        totalIn += v.yearly; totalSaved += saved;
+        rows.push({ age, contribution: v.yearly, saved, withdrawal: 0, tax: 0, balance });
+    }
+    const atStart = balance;
+    // Equal yearly withdrawals at the start of each year, emptying the account
+    const n = Math.round(v.spread);
+    const yearlyOut = n <= 0 ? 0 : Math.abs(r) < 1e-9 ? atStart / n : atStart * r / (1 - Math.pow(1 + r, -n)) / (1 + r);
+    let totalOut = 0, totalTax = 0;
+    for (let i = 0; i < n; i++) {
+        const age = v.start + i;
+        const tax = taxOn(v.retireIncome + yearlyOut * S.taxable) - taxOn(v.retireIncome);
+        balance = Math.max(0, (balance - yearlyOut) * (1 + r));
+        totalOut += yearlyOut; totalTax += tax;
+        rows.push({ age, contribution: 0, saved: 0, withdrawal: yearlyOut, tax, balance });
+    }
+    const net = totalSaved - totalTax;
+    const firstBand = RULES.tax.bands[0][0];
+    const taxFree = Math.max(0, (firstBand - v.retireIncome) / S.taxable);
+    // Taking it all out in one go before the withdrawal age (while still earning)
+    const earlyCost = taxOn(v.income + atStart) - taxOn(v.income) + atStart * S.penalty;
+
+    return {
+        tiles: [
+            { label: "Net tax benefit", value: money(net), strong: true, tone: net >= 0 ? "good" : "bad", note: "Tax saved on contributions, less tax on withdrawals" },
+            { label: "Tax saved on contributions", value: money(totalSaved), note: `${money(totalIn)} contributed over ${Math.max(0, v.start - v.age)} years` },
+            { label: "Tax on withdrawals", value: money(totalTax), note: `${pct(S.taxable, 0)} of each withdrawal is taxable` },
+            { label: `SRS balance at ${v.start}`, value: money(atStart), note: `At ${plain(v.rate)}% a year` },
+            { label: "Yearly withdrawal", value: money(yearlyOut), note: `For ${n} year${n === 1 ? "" : "s"}, ages ${v.start}–${v.start + n - 1}` },
+            { label: "Tax-free each year", value: money(taxFree), note: v.retireIncome > 0 ? `With ${money(v.retireIncome)} of other taxable income` : "With no other taxable income" },
+            { label: `If withdrawn early (before ${srsAge})`, value: money(earlyCost), tone: "bad", note: `Fully taxed plus ${pct(S.penalty, 0)} penalty, in one go while working` }
+        ],
+        chart: {
+            labels: rows.map(row => String(row.age + 1)),
+            series: [{ label: "SRS balance", data: rows.map(row => row.balance), color: 1, fill: true }],
+            xTitle: "Age"
+        },
+        table: {
+            head: ["Age", "Contribution", "Tax saved", "Withdrawal", "Tax on withdrawal", "Balance at year end"],
+            rows: rows.map(row => [row.age, row.contribution ? money(row.contribution) : "–", row.saved ? money(row.saved) : "–", row.withdrawal ? money(row.withdrawal) : "–", row.withdrawal ? money(row.tax) : "–", money(row.balance)])
+        },
+        notes: [
+            `Withdrawal age is fixed by the statutory retirement age when the first contribution is made: ${srsAgeOptions().slice(0, -1).map(o => o[1].replace(" (withdraw from ", ": ").replace(")", "")).join("; ")}. "Not yet" uses the age in force today; a first contribution made after a future increase locks in the higher age. From that age only ${pct(S.taxable, 0)} of each withdrawal is taxable, and withdrawals can be spread over up to ${S.years} years.`,
+            `Tax saved is worked out at today's tax rates on ${money(v.income)} of chargeable income each year; tax on withdrawals uses today's rates with ${money(v.retireIncome)} of other taxable income (CPF LIFE payouts are not taxable). Reliefs in retirement are ignored.`,
+            `SRS limit: ${money(S.capLocal)} a year for citizens and PRs, ${money(S.capForeigner)} for foreigners, within the ${money(RULES.tax.reliefCap)} overall relief cap. Foreigners can also withdraw penalty-free after keeping the account for ${S.years} years.`
+        ],
+        summary: [
+            `Contributing ${money(v.yearly)} a year to SRS from ${v.age} to ${v.start - 1} saves about ${money(totalSaved)} of tax and grows to about ${money(atStart)} at ${plain(v.rate)}% a year.`,
+            `Withdrawn over ${n} year${n === 1 ? "" : "s"} from ${v.start} (${money(yearlyOut)} a year), tax on withdrawals is about ${money(totalTax)}, a net tax benefit of ${money(net)}.`
+        ]
+    };
+}
+
 function computeDividend(v) {
     const f = Number(v.freq) || 4;
     const reinvest = v.reinvest === "reinvest";
@@ -1270,7 +1547,9 @@ function computeDividend(v) {
 // ------------------------------------------------------------
 
 const state = {
+    suite: "finance",
     tool: "growth",
+    tools: { finance: "growth", tax: "tax" },
     values: {},
     client: "",
     last: null,
@@ -1286,7 +1565,11 @@ function loadState() {
     try {
         const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
         if (saved && typeof saved === "object") {
-            if (TOOLS.some(t => t.id === saved.tool)) state.tool = saved.tool;
+            if (TOOLS.some(t => t.id === saved.tool && suiteOf(t) === "finance")) state.tools.finance = saved.tool;
+            for (const [suite, id] of Object.entries(saved.tools ?? {})) {
+                if (TOOLS.some(t => t.id === id && suiteOf(t) === suite)) state.tools[suite] = id;
+            }
+            state.tool = state.tools[state.suite];
             state.values = saved.values ?? {};
             state.client = saved.client ?? "";
         }
@@ -1295,9 +1578,11 @@ function loadState() {
 
 function saveState() {
     try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify({ tool: state.tool, values: state.values, client: state.client }));
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({ tool: state.tools.finance, tools: state.tools, values: state.values, client: state.client }));
     } catch { /* storage unavailable */ }
 }
+
+const suiteOf = t => GROUPS.find(g => g.id === t.group)?.suite ?? "finance";
 
 function tool() {
     return TOOLS.find(t => t.id === state.tool) ?? TOOLS[0];
@@ -1317,7 +1602,7 @@ function valuesFor(t) {
     return values;
 }
 
-const RULE_TOOLS = new Set(["loan", "afford", "cpf", "protect"]);
+const RULE_TOOLS = new Set(["loan", "afford", "cpf", "protect", "tax", "srs"]);
 
 function rulesFootnote(toolId) {
     if (!RULE_TOOLS.has(toolId)) return "";
@@ -1326,7 +1611,9 @@ function rulesFootnote(toolId) {
     const checked = RULES_META.checkedUtc ? `checked ${fmt(RULES_META.checkedUtc)}` : "built-in copy";
     const source = toolId === "afford"
         ? `Stamp duty from IRAS (rates from ${RULES.property.bsd?.effective || "–"}); TDSR / MSR / LTV limits reviewed ${fmt(RULES.property.reviewed)}.`
-        : toolId === "protect"
+        : toolId === "tax" || toolId === "srs"
+            ? `Tax rates (YA ${RULES.tax.fromYA} onwards), personal tax rebates and SRS limits from IRAS.`
+            : toolId === "protect"
             ? "Guideline from the Basic Financial Planning Guide (MoneySense)."
             : `CPF rates from CPF Board and data.gov.sg (interest for ${RULES.cpf.interest.period || "the current quarter"}).`;
     const warning = failed.length ? ` Some sources couldn't be read on the last check, so earlier values are used for: ${failed.map(([k]) => k).join(", ")}.` : "";
@@ -1359,7 +1646,8 @@ function renderPicker() {
     const box = qs("#fin-picker");
     if (!box) return;
     const hadFocus = box.contains(document.activeElement);
-    box.innerHTML = GROUPS.map(group => `
+    box.classList.toggle("is-tax", state.suite === "tax");
+    box.innerHTML = GROUPS.filter(group => group.suite === state.suite).map(group => `
         <div class="fin-group">
             <span class="fin-group-label">${escapeHtml(group.label)}</span>
             <div class="report-payment-options fin-tools" role="radiogroup" aria-label="${escapeHtml(group.label)}">
@@ -1390,7 +1678,7 @@ function fieldHtml(field, value, raw) {
     }
 
     if (field.type === "select") {
-        return `<label class="filter-control report-field fin-field" data-fin-wrap="${field.key}"${hidden}>
+        return `<label class="filter-control report-field fin-field${field.wide ? " fin-field-wide" : ""}" data-fin-wrap="${field.key}"${hidden}>
             <span>${escapeHtml(field.label)}</span>
             <select id="${id}" data-fin-field="${field.key}">
                 ${field.options.map(([v, label]) => `<option value="${escapeHtml(v)}"${v === value ? " selected" : ""}>${escapeHtml(label)}</option>`).join("")}
@@ -1494,7 +1782,7 @@ function withAlpha(color, alpha) {
 function compactMoney(value) {
     const abs = Math.abs(value);
     if (abs >= 1e6) return `S$${(value / 1e6).toFixed(abs >= 1e7 ? 0 : 1)}m`;
-    if (abs >= 1e3) return `S$${Math.round(value / 1e3)}k`;
+    if (abs >= 1e3) return `S$${Number((value / 1e3).toFixed(abs >= 1e4 ? 0 : 1))}k`;   // S$4.5k, not S$5k twice
     return `S$${Math.round(value)}`;
 }
 
@@ -1690,6 +1978,30 @@ function smoothSwitch(change) {
     });
 }
 
+// Financial <-> Tax / SRS: the heading cross-fades, the picker card resizes
+// smoothly to its new groups, and the form and results switch as usual
+function switchSuite(change) {
+    const picker = qs(".fin-picker-card");
+    const heading = [qs("#fin-eyebrow"), qs("#fin-heading"), qs("#fin-description")].filter(Boolean);
+    if (reducedMotion() || !picker || typeof picker.animate !== "function") { change(); return; }
+    picker.getAnimations().forEach(a => a.cancel());
+    const before = picker.getBoundingClientRect().height;
+    smoothSwitch(change);
+    const after = picker.getBoundingClientRect().height;
+    if (Math.abs(after - before) > 1) {
+        const overflow = picker.style.overflow;
+        picker.style.overflow = "hidden";
+        const anim = picker.animate([{ height: `${before}px` }, { height: `${after}px` }], { duration: 380, easing: EASE });
+        anim.onfinish = anim.oncancel = () => { picker.style.overflow = overflow; };
+    }
+    [...heading, ...picker.querySelectorAll(".fin-group"), qs("#fin-disclaimer")].filter(Boolean).forEach((el, i) => {
+        el.animate(
+            [{ opacity: 0, transform: "translateY(8px)" }, { opacity: 1, transform: "none" }],
+            { duration: 340, delay: Math.min(i, 8) * 30, easing: EASE, fill: "backwards" }
+        );
+    });
+}
+
 // ------------------------------------------------------------
 // Sharing: copy a summary, print a client report
 // ------------------------------------------------------------
@@ -1705,7 +2017,7 @@ function summaryText() {
         "",
         ...(last.result.summary ?? []),
         "",
-        "Illustration only, based on the assumptions shown; actual results will differ. Not financial advice."
+        `Illustration only, based on the assumptions shown; actual results will differ. Not ${SUITES[state.suite].advice}.`
     ];
     return lines.join("\n");
 }
@@ -1797,7 +2109,7 @@ function printReport() {
 <div data-split="table" data-title="${escapeHtml(title)}"><table><thead><tr>${head.map(h => `<th>${escapeHtml(h)}</th>`).join("")}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(c => `<td>${escapeHtml(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
 
     const fine = [...(r.notes ?? []), rulesFootnote(last.tool.id),
-        "This illustration is based on the assumptions shown and is for discussion only. Returns, rates and rules can change, and actual results will differ. It is not financial advice or a recommendation."].filter(Boolean);
+        `This illustration is based on the assumptions shown and is for discussion only. Returns, rates and rules can change, and actual results will differ. It is not ${SUITES[state.suite].advice} or a recommendation.`].filter(Boolean);
 
     // Blocks are laid onto A4 pages by the script at the end: a block never
     // splits (it moves to the next page), headings stay with what follows,
@@ -1992,6 +2304,7 @@ function bindEvents() {
         if (pick) {
             if (pick.dataset.finTool === state.tool) return;
             state.tool = pick.dataset.finTool;
+            state.tools[state.suite] = state.tool;
             smoothSwitch(() => {
                 renderPicker();
                 renderForm();
@@ -2081,11 +2394,34 @@ function bindEvents() {
         .observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme", "data-accent", "data-variant", "data-style"] });
 }
 
-export async function initializeFinanceCalculator() {
+function renderSuiteText() {
+    const text = SUITES[state.suite];
+    const set = (selector, value) => { const el = qs(selector); if (el) el.textContent = value; };
+    set("#fin-eyebrow", text.eyebrow);
+    set("#fin-heading", text.title);
+    set("#fin-description", text.description);
+    set("#fin-disclaimer", text.disclaimer);
+    qs("#fin-calc")?.setAttribute("data-suite", state.suite);
+}
+
+export async function initializeFinanceCalculator(suite = "finance") {
     if (!qs("#fin-calc")) return;
-    if (state.initialized) { renderResults(); return; }
+    const wanted = SUITES[suite] ? suite : "finance";
+    if (state.initialized) {
+        if (wanted !== state.suite) {
+            state.suite = wanted;
+            state.tool = state.tools[wanted];
+            switchSuite(() => { renderSuiteText(); renderPicker(); renderForm(); renderResults(); });
+        } else {
+            renderResults();
+        }
+        return;
+    }
     state.initialized = true;
+    state.suite = wanted;
     loadState();
+    state.tool = state.tools[state.suite];
+    renderSuiteText();
     renderPicker();
     renderForm();
     bindEvents();
@@ -2096,4 +2432,4 @@ export async function initializeFinanceCalculator() {
 }
 
 // For tests
-export const _test = { computeRegularReturns, setRules: r => { RULES = mergeRules(DEFAULT_RULES, r); }, rulesFootnote, TOOLS, computeGrowth, computeGoal, computeReturns, computeLoan, computeAfford, computeRefi, computeRetire, computeDrawdown, computeCpf, computeProtect, computeInflation, computeDividend, buyersStampDuty, xirr };
+export const _test = { computeRegularReturns, setRules: r => { RULES = mergeRules(DEFAULT_RULES, r); }, rulesFootnote, TOOLS, computeGrowth, computeGoal, computeReturns, computeLoan, computeAfford, computeRefi, computeRetire, computeDrawdown, computeCpf, computeProtect, computeInflation, computeDividend, computeTax, computeSrs, taxOn, buyersStampDuty, xirr };
