@@ -5,6 +5,104 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "254ed86608b8cc5247f380f5adbb0eadc37f7c104f6a14b7fbd2a8e9d7a7ef3a",
+      "source": "CNBC",
+      "title": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years",
+      "publishedAtSgt": "2026-11-26T11:32:53+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "South Korea's central bank on Thursday hiked benchmark lending rates to their highest in two years, as inflation continues to run above target while a booming economy allows it room to tighten policy. Inflation is expected to remain above its 2% target level for a considerable time, the BOK added in its statement, saying this was due to the pass-through of elevated cost pressures and as demand-side pressures also gradually strengthen, driven by stronger economic growth.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T12:11:11+08:00"
+    },
+    {
+      "id": "b70e6ac695c84776d6f1d9b8a676920c21fad9cca1c909434ac0ed1b2db45258",
+      "source": "CNBC",
+      "title": "K-beauty stocks rally as Korean brands top Amazon bestseller lists globally ahead of Black Friday",
+      "publishedAtSgt": "2026-11-26T11:09:47+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/k-beauty-firms-amazon-sales-black-friday.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "South Korean beauty stocks jumped Thursday as the country's skincare brands dominated Amazon's bestseller rankings ahead of Black Friday. Shares of K-beauty giant APR climbed 3.77%, while cosmetic contracts manufacturers Kolmar Korea and Cosmax gained 5.46% and 2.91%, respectively. APR shares, in particular, have rallied sharply this week, up 28%, defying a broader market sell-off in Seoul markets, with the benchmark Kospi index down 2.65% during the same period.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T12:11:11+08:00"
+    },
+    {
+      "id": "42c28e82e7b437d966c5f8c133f9e201173256118ad09b1732b6fe567e40dfee",
+      "source": "CNBC",
+      "title": "Where the market may be mispricing risk most: AI boom, volatility, high-yield bonds",
+      "publishedAtSgt": "2026-11-26T09:34:58+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "The artificial intelligence boom could lead to a recession, whether through a collapse in AI investment or widespread job losses as the technology advances, a hedge fund manager said. \"I do worry that if we don't have an AI-led recession in a few years, we're going to have an unemployment-led recession,\" Sheru Chowdhry, founder and chief investment officer at DSC Meridian Capital, said during a panel discussion moderated by CNBC's Joanna Ossinger at the iConnections Global Alts Asia conference...",
+      "feeds": [
+        "latest",
+        "finance",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T12:11:11+08:00"
+    },
+    {
+      "id": "a42e1a5402c6f72c3a9848a1dc57c61c3de834919122fcb1af336129283f3699",
+      "source": "CNBC",
+      "title": "Hedge funds are no longer just for the rich. They’re coming for everyday investors",
+      "publishedAtSgt": "2026-11-26T09:10:58+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/hedge-funds-retail-investors.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "\"Heightened geopolitical uncertainty, greater market volatility, inflation concerns, and the higher correlation between equities and bonds have raised questions about the effectiveness of conventional portfolio diversification,\" said Ricky Siao, a hedge fund specialist at Swiss private bank UBP. The investment environment has become more challenging for investors who have historically relied on traditional allocations to equities and fixed income, he added.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T12:11:11+08:00"
+    },
+    {
+      "id": "3b271d4f51bcc1fc984352102f42ad6804a83fa2320fb5b2e4465fa7e5f7f21f",
+      "source": "CNBC",
+      "title": "Inside India newsletter: Roaring economy, foreign investors’ return and now record auto sales",
+      "publishedAtSgt": "2026-11-26T08:12:16+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/india-auto-slaes-economy-suzuki-hyundai-toyota.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Despite 2026 being a challenging year with high global energy prices and supply chain disruptions, the Indian economy has fared surprisingly well. India's economy expanded at 7.8% in the June quarter, beating expectations, even as growth in several major economies cooled. The auto industry contributes 7.1% to the country's gross domestic product, 49% to manufacturing GDP, 15% to goods and services tax collection, and supports 30 million jobs, as per government data.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T12:11:11+08:00"
+    },
+    {
+      "id": "934f4316730631ee1ee16db25b4dea1332fa152cd938549f0e0a770cc6fd0998",
+      "source": "CNBC",
+      "title": "Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike",
+      "publishedAtSgt": "2026-11-26T05:56:43+08:00",
+      "url": "https://www.cnbc.com/2026/11/25/kevin-warsh-greenspan-fed-rates-ai-inflation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Greenspan famously leaned against inflation hawks on his committee in 1995 and 1996, holding the line on interest rates amid strong growth, because he believed in the productivity promise of the internet revolution. Unfortunately, a quick look at the numbers shows just how different the situation is for Warsh when it comes to inflation, the magnitude of the capital-investment boom and the monetary and fiscal stimulus boosting the economy.",
+      "feeds": [
+        "latest",
+        "economy"
+      ],
+      "collectedAtSgt": "2026-11-26T12:11:12+08:00"
+    },
+    {
       "id": "dfb49d5b293906f1813eccf39e35c3ecc81d61a36335cae39257348e473c8328",
       "source": "CNBC",
       "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
@@ -146,6 +244,6 @@
       "collectedAtSgt": "2026-11-26T03:58:24+08:00"
     }
   ],
-  "articleCount": 9,
-  "updatedAtSgt": "2026-11-26T03:58:26+08:00"
+  "articleCount": 15,
+  "updatedAtSgt": "2026-11-26T12:11:12+08:00"
 }
