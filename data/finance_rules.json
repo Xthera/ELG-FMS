@@ -1,7 +1,7 @@
 {
   "cpf": {
     "interest": {
-      "period": "1 October 2026 to 31 December 2026",
+      "period": "1 October 2026 to 31 December 2026",
       "oa": 2.5,
       "smra": 4.0,
       "hdbLoan": 2.6
@@ -19,32 +19,32 @@
         {
           "label": "35 years & below",
           "maxAge": 35,
-          "employer": 17.0,
-          "employee": 20.0
+          "employer": 17,
+          "employee": 20
         },
         {
           "label": "Above 35 - 45 years",
           "maxAge": 45,
-          "employer": 17.0,
-          "employee": 20.0
+          "employer": 17,
+          "employee": 20
         },
         {
           "label": "Above 45 - 50 years",
           "maxAge": 50,
-          "employer": 17.0,
-          "employee": 20.0
+          "employer": 17,
+          "employee": 20
         },
         {
           "label": "Above 50 - 55 years",
           "maxAge": 55,
-          "employer": 17.0,
-          "employee": 20.0
+          "employer": 17,
+          "employee": 20
         },
         {
           "label": "Above 55 - 60 years",
           "maxAge": 60,
-          "employer": 16.0,
-          "employee": 18.0
+          "employer": 16,
+          "employee": 18
         },
         {
           "label": "Above 60 - 65 years",
@@ -55,14 +55,14 @@
         {
           "label": "Above 65 - 70 years",
           "maxAge": 70,
-          "employer": 9.0,
+          "employer": 9,
           "employee": 7.5
         },
         {
           "label": "Above 70 years",
           "maxAge": 999,
           "employer": 7.5,
-          "employee": 5.0
+          "employee": 5
         }
       ]
     },
@@ -129,73 +129,55 @@
     },
     "owCeiling": {
       "effective": "2026-01",
-      "value": 8000.0
+      "value": 8000
     },
     "annualCeiling": 102000,
     "frsByYear": {
-      "2003": 80000.0,
-      "2004": 84500.0,
-      "2005": 90000.0,
-      "2006": 94600.0,
-      "2007": 99600.0,
-      "2008": 106000.0,
-      "2009": 117000.0,
-      "2010": 123000.0,
-      "2011": 131000.0,
-      "2012": 139000.0,
-      "2013": 148000.0,
-      "2014": 155000.0,
-      "2015": 161000.0,
-      "2017": 166000.0,
-      "2018": 171000.0,
-      "2019": 176000.0,
-      "2020": 181000.0,
-      "2021": 186000.0,
-      "2022": 192000.0,
-      "2023": 198800.0,
-      "2024": 205800.0,
-      "2025": 213000.0,
-      "2026": 220400.0,
-      "2027": 228200.0
+      "2022": 192000,
+      "2023": 198800,
+      "2024": 205800,
+      "2025": 213000,
+      "2026": 220400,
+      "2027": 228200
     },
     "frsGrowth": 0.035,
     "bhs": {
       "year": 2026,
-      "value": 79000.0,
+      "value": 79000,
       "growth": 0.046
     },
     "lifePayouts": {
       "cohortYear": 2026,
       "points": [
         [
-          50000.0,
-          490.0,
-          670.0
+          50000,
+          490,
+          670
         ],
         [
-          110200.0,
-          950.0,
-          1280.0
+          110200,
+          950,
+          1280
         ],
         [
-          150000.0,
-          1250.0,
-          1670.0
+          150000,
+          1250,
+          1670
         ],
         [
-          220400.0,
-          1780.0,
-          2380.0
+          220400,
+          1780,
+          2380
         ],
         [
-          300000.0,
-          2380.0,
-          3170.0
+          300000,
+          2380,
+          3170
         ],
         [
-          440800.0,
-          3440.0,
-          4580.0
+          440800,
+          3440,
+          4580
         ]
       ]
     }
@@ -215,23 +197,23 @@
       "effective": "15 Feb 2023",
       "bands": [
         [
-          180000.0,
+          180000,
           0.01
         ],
         [
-          180000.0,
+          180000,
           0.02
         ],
         [
-          640000.0,
+          640000,
           0.03
         ],
         [
-          500000.0,
+          500000,
           0.04
         ],
         [
-          1500000.0,
+          1500000,
           0.05
         ],
         [
@@ -256,50 +238,185 @@
     "bhs": "https://www.cpf.gov.sg/service/article/what-is-the-basic-healthcare-sum",
     "bsd": "https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/buyer's-stamp-duty-(bsd)",
     "property": "https://www.mas.gov.sg/regulation/explainers/new-private-property-measures",
-    "lifePayouts": "https://www.cpf.gov.sg/service/article/how-much-cpf-payouts-can-i-get-every-month"
+    "lifePayouts": "https://www.cpf.gov.sg/service/article/how-much-cpf-payouts-can-i-get-every-month",
+    "taxRates": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates",
+    "taxRebate": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/personal-income-tax-rebate",
+    "srs": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/special-tax-schemes/srs-contributions",
+    "retirementAge": "https://www.mom.gov.sg/employment-practices/retirement"
   },
-  "checkedUtc": "2026-11-25T15:30:39+00:00",
-  "updatedUtc": "2026-11-25T15:30:39+00:00",
+  "checkedUtc": "2026-11-25T14:30:00+00:00",
+  "updatedUtc": "2026-11-25T14:30:00+00:00",
   "status": {
     "cpfContribution": {
       "ok": true,
-      "checkedUtc": "2026-11-25T15:30:39+00:00",
-      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
     },
     "cpfAllocation": {
       "ok": true,
-      "checkedUtc": "2026-11-25T15:30:39+00:00",
-      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
     },
     "cpfOwCeiling": {
       "ok": true,
-      "checkedUtc": "2026-11-25T15:30:39+00:00",
-      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
     },
     "frs": {
       "ok": true,
-      "checkedUtc": "2026-11-25T15:30:39+00:00",
-      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
     },
     "cpfInterest": {
       "ok": true,
-      "checkedUtc": "2026-11-25T15:30:39+00:00",
-      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
     },
     "bhs": {
       "ok": true,
-      "checkedUtc": "2026-11-25T15:30:39+00:00",
-      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
-    },
-    "lifePayouts": {
-      "ok": true,
-      "checkedUtc": "2026-11-25T15:30:39+00:00",
-      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
     },
     "bsd": {
       "ok": true,
-      "checkedUtc": "2026-11-25T15:30:39+00:00",
-      "lastGoodUtc": "2026-11-25T15:30:39+00:00"
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+    },
+    "lifePayouts": {
+      "ok": true,
+      "checkedUtc": "2026-11-25T14:30:00+00:00",
+      "lastGoodUtc": "2026-11-25T14:30:00+00:00"
+    },
+    "taxRates": {
+      "ok": true,
+      "checkedUtc": "2026-11-26T11:40:00+00:00",
+      "lastGoodUtc": "2026-11-26T11:40:00+00:00"
+    },
+    "taxRebate": {
+      "ok": true,
+      "checkedUtc": "2026-11-26T11:40:00+00:00",
+      "lastGoodUtc": "2026-11-26T11:40:00+00:00"
+    },
+    "srsCaps": {
+      "ok": true,
+      "checkedUtc": "2026-11-26T11:40:00+00:00",
+      "lastGoodUtc": "2026-11-26T11:40:00+00:00"
+    },
+    "retirementAge": {
+      "ok": true,
+      "checkedUtc": "2026-11-26T11:50:00+00:00",
+      "lastGoodUtc": "2026-11-26T11:50:00+00:00"
     }
+  },
+  "tax": {
+    "fromYA": "2024",
+    "bands": [
+      [
+        20000,
+        0
+      ],
+      [
+        10000,
+        0.02
+      ],
+      [
+        10000,
+        0.035
+      ],
+      [
+        40000,
+        0.07
+      ],
+      [
+        40000,
+        0.115
+      ],
+      [
+        40000,
+        0.15
+      ],
+      [
+        40000,
+        0.18
+      ],
+      [
+        40000,
+        0.19
+      ],
+      [
+        40000,
+        0.195
+      ],
+      [
+        40000,
+        0.2
+      ],
+      [
+        180000,
+        0.22
+      ],
+      [
+        500000,
+        0.23
+      ],
+      [
+        null,
+        0.24
+      ]
+    ],
+    "rebates": {
+      "2024": [
+        0.5,
+        200
+      ],
+      "2025": [
+        0.6,
+        200
+      ]
+    },
+    "reliefCap": 80000,
+    "earnedIncome": [
+      [
+        55,
+        1000
+      ],
+      [
+        60,
+        6000
+      ],
+      [
+        999,
+        8000
+      ]
+    ],
+    "topUpSelf": 8000,
+    "topUpFamily": 8000
+  },
+  "srs": {
+    "capLocal": 15300,
+    "capForeigner": 35700,
+    "taxable": 0.5,
+    "penalty": 0.05,
+    "ageBefore": 63,
+    "ageAfter": 64,
+    "years": 10,
+    "agePeriods": [
+      {
+        "from": "",
+        "age": 62
+      },
+      {
+        "from": "2022-07-01",
+        "age": 63
+      },
+      {
+        "from": "2026-07-01",
+        "age": 64
+      },
+      {
+        "from": "2029-01-01",
+        "age": 65
+      }
+    ]
   }
 }

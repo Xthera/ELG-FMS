@@ -1,6 +1,29 @@
 {
   "versions": [
     {
+      "version": "V2.3.0",
+      "date": "2026-11-26",
+      "summary": "New Tax / SRS calculator beside the Financial calculator.",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "Tax / SRS tab (Calculator > Tax / SRS), next to Financial, with two tools that share the Financial calculator's results, chart, copy summary and print / PDF report.",
+            "Income tax estimate: a tax resident's income tax for the chosen year (YA), with CPF relief on the employee's own contributions, earned income relief, SRS, CPF cash top-ups (self and family) and other reliefs, the $80,000 relief cap and any personal tax rebate. Shows the tax computation, the tax in each band, how much SRS and top-ups save, and the SRS allowance still unused with the extra tax it would save.",
+            "SRS planner: tax saved each year by contributing, the balance at the withdrawal age (62, 63, 64 or 65, set by when the first contribution was made: before 1 Jul 2022, 1 Jul 2022 – 30 Jun 2026, 1 Jul 2026 – 31 Dec 2028, from 1 Jan 2029, or not yet), equal withdrawals over up to 10 years with 50% taxable, the amount that can be withdrawn tax-free each year, the net tax benefit, and the cost of withdrawing early.",
+            "Tax rates, personal tax rebates and SRS limits are read from IRAS, and announced retirement-age changes (which set the SRS withdrawal age) from MOM, by the daily reference-data update, alongside the CPF and property figures."
+          ]
+        },
+        {
+          "title": "Improved",
+          "items": [
+            "Switching between Financial and Tax / SRS animates like the rest of the calculator: the heading and tool groups fade in, the cards resize smoothly, and the form and results slide in.",
+            "Chart axis labels show S$4.5k instead of rounding to S$5k."
+          ]
+        }
+      ]
+    },
+    {
       "version": "V2.2.1",
       "date": "2026-11-26",
       "summary": "CPF growth to 55 now estimates the client's own CPF LIFE payout.",
