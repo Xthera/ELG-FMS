@@ -1088,6 +1088,10 @@ function computeCpf(v) {
         const f = (x - lo[0]) / (hi[0] - lo[0]);
         return [1, 2].map(k => Math.max(0, (lo[k] + f * (hi[k] - lo[k])) * scale));
     };
+    // The client's own RA at 55: OA + SA up to the FRS (the default amount set aside; the rest can be withdrawn)
+    const ownRa = Math.min(forRa, frs);
+    const [own65, own70] = payout(ownRa);
+    const ownLevel = forRa >= frs * 2 ? "ERS" : forRa >= frs ? "FRS" : forRa >= frs / 2 ? "BRS" : null;
     const sumRows = sums.map(([name, amount]) => {
         const gap = amount - forRa;
         const [p65, p70] = payout(amount);
@@ -1100,12 +1104,13 @@ function computeCpf(v) {
             { label: "Ordinary Account", value: money(last.oa) },
             { label: "Special Account", value: money(last.sa) },
             { label: "MediSave Account", value: money(last.ma) },
-            ...(reach55 ? [{ label: `Full Retirement Sum (${year55})`, value: money(frs), note: `BRS ${money(frs / 2)} · ERS ${money(frs * 2)}${C.frsByYear[year55] ? "" : " (estimated)"}` }] : [])
+            ...(reach55 ? [{ label: `Full Retirement Sum (${year55})`, value: money(frs), note: `BRS ${money(frs / 2)} · ERS ${money(frs * 2)}${C.frsByYear[year55] ? "" : " (estimated)"}` },
+                { label: "Est. CPF LIFE from 65", value: `${money(own65)}/mth`, strong: true, tone: ownLevel ? "good" : "bad", note: `From 70: ${money(own70)}/mth · RA ${money(ownRa)}${forRa > frs ? ` (${money(forRa - frs)} above FRS can be withdrawn)` : ownLevel ? "" : " (below BRS)"}` }] : [])
         ],
         keyTable: reach55 ? {
             title: `Retirement sums for turning 55 in ${year55}`,
             head: ["Retirement sum", "Amount", "Monthly top-up to SA", "CPF LIFE from 65", "From 70"],
-            rows: sumRows
+            rows: [["Your projected savings", money(ownRa), "—", `${money(own65)}/mth`, `${money(own70)}/mth`], ...sumRows]
         } : null,
         chart: {
             stacked: true,
@@ -1125,11 +1130,12 @@ function computeCpf(v) {
             `Contribution rates from ${monthLabel(C.contribution.effective)} (${Math.round(cpfBand(v.age).total * 100)}% at age ${v.age}), Ordinary Wage ceiling ${money(owCeiling)} a month, ${money(C.annualCeiling)} a year in total. Interest: OA ${plain(oaRate)}%, SA/MA ${plain(smraRate)}% (${C.interest.period || "current quarter"}), extra ${plain(extra.rate)}% on the first ${money(extra.cap)} (OA up to ${money(extra.oaCap)}) paid into the SA.`,
             `MediSave above the Basic Healthcare Sum (${money(C.bhs.value)} in ${bhsYear}, assumed to rise ${pct(C.bhs.growth, 1)} a year) flows to the SA. The Full Retirement Sum after ${lastFrsYear} is assumed to rise ${pct(C.frsGrowth, 1)} a year.`,
             "Assumes no withdrawals (e.g. housing), no top-ups and that rates stay as today.",
-            ...(reach55 ? [`Retirement sums: ${C.frsByYear[year55] ? `CPF's published FRS for ${year55}` : `estimated from the latest published FRS (${lastFrsYear}), rising ${pct(C.frsGrowth, 1)} a year`}; BRS is half and ERS twice the FRS. Top-up: the monthly cash top-up to the SA from now to 55, earning ${plain(smraRate)}%, to close the gap between OA + SA at 55 and that sum (top-ups are capped at the current FRS). CPF LIFE: Standard Plan estimates from CPF's payout table, scaled to the ${year55} cohort; actual payouts depend on the plan, gender and interest.`] : ["Project to age 55 to see the retirement sums and CPF LIFE estimates."])
+            ...(reach55 ? [`Retirement sums: ${C.frsByYear[year55] ? `CPF's published FRS for ${year55}` : `estimated from the latest published FRS (${lastFrsYear}), rising ${pct(C.frsGrowth, 1)} a year`}; BRS is half and ERS twice the FRS. Top-up: the monthly cash top-up to the SA from now to 55, earning ${plain(smraRate)}%, to close the gap between OA + SA at 55 and that sum (top-ups are capped at the current FRS). CPF LIFE: Standard Plan estimates from CPF's payout table, scaled to the ${year55} cohort. "Your projected savings" assumes OA + SA at 55 go into the Retirement Account up to the FRS, with nothing set aside for a property pledge and no top-ups after 55. Actual payouts depend on the plan, gender and interest; check with CPF's CPF LIFE Estimator.`] : ["Project to age 55 to see the retirement sums and CPF LIFE estimates."])
         ],
         summary: [
             `Earning ${money(v.salary)} a month (+${plain(v.bonus)} months' bonus, rising ${plain(v.growth)}% a year), CPF could grow from ${money(v.oa + v.sa + v.ma)} to about ${money(last.total)} by age ${last.age}:`,
             `OA ${money(last.oa)}, SA ${money(last.sa)}, MA ${money(last.ma)}.`,
+            ...(reach55 ? [`At 55, about ${money(ownRa)} would go into the Retirement Account, for an estimated CPF LIFE payout of ${money(own65)} a month from 65 (${money(own70)} from 70).`] : []),
             ...(reach55 ? [`Retirement sums for ${year55}: ${sums.map(([n, a], i) => `${n.match(/\((\w+)\)/)[1]} ${money(a)} (top-up ${sumRows[i][2]}, CPF LIFE about ${sumRows[i][3]} from 65)`).join("; ")}.`] : [])
         ]
     };
