@@ -1056,7 +1056,7 @@ function computeCpf(v) {
         oa += oaInt; sa += saInt + extraInt; ma += maInt;
         if (ma > bhs) { sa += ma - bhs; ma = bhs; }
 
-        rows.push({ age: age + 1, year, oa, sa, ma, total: oa + sa + ma, contributed, interest: oaInt + saInt + maInt + extraInt });
+        rows.push({ age: age + 1, year, oa, sa, ma, total: oa + sa, contributed, interest: oaInt + saInt + maInt + extraInt });
         salary *= 1 + v.growth / 100;
     }
 
@@ -1100,7 +1100,7 @@ function computeCpf(v) {
 
     return {
         tiles: [
-            { label: `Total CPF at ${last.age}`, value: money(last.total), strong: true },
+            { label: `Total CPF at ${last.age}`, value: money(last.total), strong: true, note: "OA + SA (MediSave is kept separately)" },
             { label: "Ordinary Account", value: money(last.oa) },
             { label: "Special Account", value: money(last.sa) },
             { label: "MediSave Account", value: money(last.ma) },
@@ -1118,12 +1118,12 @@ function computeCpf(v) {
             series: [
                 { label: "Ordinary Account", data: rows.map(r => r.oa), color: 1, fill: true },
                 { label: "Special Account", data: rows.map(r => r.sa), color: 3, fill: true },
-                { label: "MediSave Account", data: rows.map(r => r.ma), color: 2, fill: true }
+                { label: "MediSave Account (separate)", data: rows.map(r => r.ma), color: 2, fill: true, stack: "ma" }
             ],
             xTitle: "Age"
         },
         table: {
-            head: ["Age", "Year", "Contributions", "Interest", "OA", "SA", "MA", "Total"],
+            head: ["Age", "Year", "Contributions", "Interest", "OA", "SA", "MA", "OA + SA"],
             rows: rows.map(r => [r.age, r.year, money(r.contributed), money(r.interest), money(r.oa), money(r.sa), money(r.ma), money(r.total)])
         },
         notes: [
@@ -1133,7 +1133,7 @@ function computeCpf(v) {
             ...(reach55 ? [`Retirement sums: ${C.frsByYear[year55] ? `CPF's published FRS for ${year55}` : `estimated from the latest published FRS (${lastFrsYear}), rising ${pct(C.frsGrowth, 1)} a year`}; BRS is half and ERS twice the FRS. Top-up: the monthly cash top-up to the SA from now to 55, earning ${plain(smraRate)}%, to close the gap between OA + SA at 55 and that sum (top-ups are capped at the current FRS). CPF LIFE: Standard Plan estimates from CPF's payout table, scaled to the ${year55} cohort. "Your projected savings" assumes OA + SA at 55 go into the Retirement Account up to the FRS, with nothing set aside for a property pledge and no top-ups after 55. Actual payouts depend on the plan, gender and interest; check with CPF's CPF LIFE Estimator.`] : ["Project to age 55 to see the retirement sums and CPF LIFE estimates."])
         ],
         summary: [
-            `Earning ${money(v.salary)} a month (+${plain(v.bonus)} months' bonus, rising ${plain(v.growth)}% a year), CPF could grow from ${money(v.oa + v.sa + v.ma)} to about ${money(last.total)} by age ${last.age}:`,
+            `Earning ${money(v.salary)} a month (+${plain(v.bonus)} months' bonus, rising ${plain(v.growth)}% a year), OA + SA could grow from ${money(v.oa + v.sa)} to about ${money(last.total)} by age ${last.age}, with MediSave kept separately:`,
             `OA ${money(last.oa)}, SA ${money(last.sa)}, MA ${money(last.ma)}.`,
             ...(reach55 ? [`At 55, about ${money(ownRa)} would go into the Retirement Account, for an estimated CPF LIFE payout of ${money(own65)} a month from 65 (${money(own70)} from 70).`] : []),
             ...(reach55 ? [`Retirement sums for ${year55}: ${sums.map(([n, a], i) => `${n.match(/\((\w+)\)/)[1]} ${money(a)} (top-up ${sumRows[i][2]}, CPF LIFE about ${sumRows[i][3]} from 65)`).join("; ")}.`] : [])
@@ -1540,7 +1540,7 @@ function drawChart(chart) {
                     pointRadius: 0,
                     pointHoverRadius: 4,
                     tension: 0.15,
-                    stack: chart.stacked ? "cpf" : undefined
+                    stack: chart.stacked ? (s.stack ?? "cpf") : undefined
                 };
             })
         },
@@ -1761,7 +1761,7 @@ function printChartImage(chart) {
                         backgroundColor: bar ? withAlpha(color, 0.8) : (s.fill ? withAlpha(color, chart.stacked ? 0.35 : 0.12) : color),
                         fill: !bar && s.fill ? (chart.stacked ? "stack" : "origin") : false,
                         borderWidth: 3, borderDash: s.dashed ? [8, 6] : [], borderRadius: bar ? 4 : 0,
-                        pointRadius: 0, tension: 0.15, stack: chart.stacked ? "cpf" : undefined
+                        pointRadius: 0, tension: 0.15, stack: chart.stacked ? (s.stack ?? "cpf") : undefined
                     };
                 })
             },
