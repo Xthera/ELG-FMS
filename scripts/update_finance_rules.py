@@ -56,6 +56,10 @@ CPF_INTEREST_URL = "https://www.cpf.gov.sg/service/article/how-are-cpf-interest-
 CPF_BHS_URL = "https://www.cpf.gov.sg/service/article/what-is-the-basic-healthcare-sum"
 CPF_PAYOUT_URL = "https://www.cpf.gov.sg/service/article/how-much-cpf-payouts-can-i-get-every-month"
 IRAS_BSD_URL = "https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/buyer's-stamp-duty-(bsd)"
+IRAS_TAX_URL = "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates"
+IRAS_REBATE_URL = "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/personal-income-tax-rebate"
+MOM_RETIREMENT_URL = "https://www.mom.gov.sg/employment-practices/retirement"
+IRAS_SRS_URL = "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/special-tax-schemes/srs-contributions"
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
 RECHECK_DAYS = 7
@@ -102,7 +106,24 @@ DEFAULTS: dict[str, Any] = {
         "bsd": {"effective": "15 Feb 2023", "bands": [[180000, 0.01], [180000, 0.02], [640000, 0.03], [500000, 0.04], [1500000, 0.05], [None, 0.06]]},
     },
     "protection": {"lifeMultiple": 9, "ciMultiple": 4, "emergencyMonths": [3, 6]},
+    # Resident income tax (IRAS). Bands: [size of band, rate]; the last band has no upper limit.
+    "tax": {
+        "fromYA": "2024",
+        "bands": [[20000, 0], [10000, 0.02], [10000, 0.035], [40000, 0.07], [40000, 0.115], [40000, 0.15], [40000, 0.18],
+                  [40000, 0.19], [40000, 0.195], [40000, 0.20], [180000, 0.22], [500000, 0.23], [None, 0.24]],
+        "rebates": {"2024": [0.5, 200], "2025": [0.6, 200]},
+        # Reviewed by hand (rarely change): overall relief cap, earned income relief by age, CPF cash top-up relief
+        "reliefCap": 80000, "earnedIncome": [[55, 1000], [60, 6000], [999, 8000]], "topUpSelf": 8000, "topUpFamily": 8000,
+    },
+    "srs": {"capLocal": 15300, "capForeigner": 35700, "taxable": 0.5, "penalty": 0.05, "ageBefore": 63, "ageAfter": 64, "years": 10,
+            # Statutory retirement age by date of first contribution (penalty-free withdrawal age); add a row when it next rises
+            "agePeriods": [{"from": "", "age": 62}, {"from": "2022-07-01", "age": 63}, {"from": "2026-07-01", "age": 64},
+                           {"from": "2029-01-01", "age": 65}]},
     "sources": {
+        "taxRates": IRAS_TAX_URL,
+        "taxRebate": IRAS_REBATE_URL,
+        "srs": IRAS_SRS_URL,
+        "retirementAge": MOM_RETIREMENT_URL,
         "cpfOpenData": "https://data.gov.sg/collections/40/view",
         "frs": "https://data.gov.sg/datasets/d_b212dff55c98a4c0b3d3d850bf744ad7/view",
         "cpfInterest": CPF_INTEREST_URL,
@@ -322,6 +343,84 @@ def parse_bsd(text: str) -> dict:
     return {"effective": effective.group(1).strip() if effective else "", "bands": bands}
 
 
+def parse_tax_bands(text: str) -> dict:
+    """IRAS 'From YA 2024 onwards' table: 'First $20,000 / Next $10,000  0 / 2 ...  In excess of $1,000,000  - 24'"""
+    start = re.search(r"From YA (\d{4}) onwards", text)
+    if not start:
+        raise ValueError("resident tax table not found")
+    end = text.find("Personal Income Tax Rebate", start.end())
+    block = text[start.end(): end if end > 0 else start.end() + 4000]
+    first = re.search(r"First \$([\d,]+)", block)
+    bands: list[list] = [[number(first.group(1)), 0.0]] if first else []
+    for size, rate in re.findall(r"Next \$([\d,]+)\s*(?:0|-)\s*([\d.]+)", block):
+        bands.append([number(size), round(float(rate) / 100, 5)])
+    top = re.search(r"In excess of \$([\d,]+)\s*-\s*([\d.]+)", block)
+    if not top:
+        raise ValueError("top band not found")
+    bands.append([None, round(float(top.group(2)) / 100, 5)])
+    rates = [b[1] for b in bands]
+    total = sum(b[0] for b in bands[:-1])
+    if (len(bands) < 8 or bands[0] != [20000.0, 0.0] or rates != sorted(rates) or not 0.15 <= rates[-1] <= 0.35
+            or abs(total - number(top.group(1))) > 0.5):
+        raise ValueError(f"tax bands look wrong: {bands}")
+    return {"fromYA": start.group(1), "bands": bands}
+
+
+def parse_rebates(text: str) -> dict:
+    """'2025  60% of tax payable, up to $200'"""
+    found = re.findall(r"\b(20\d\d)\s+(\d+(?:\.\d+)?)% of tax payable,? (?:up to|capped at) \$([\d,]+)", text)
+    if not found:
+        raise ValueError("rebate table not found")
+    rebates = {ya: [float(p) / 100, number(cap)] for ya, p, cap in found}
+    if any(not 0 < v[0] <= 1 or not 0 < v[1] <= 5000 for v in rebates.values()):
+        raise ValueError(f"rebates look wrong: {rebates}")
+    return rebates
+
+
+def parse_srs(text: str) -> dict:
+    """'Yearly maximum SRS contributions ... $15,300  $35,700'"""
+    match = re.search(r"Yearly maximum SRS contributions.{0,200}?\$([\d,]+)\s+\$([\d,]+)", text, re.S)
+    if not match:
+        raise ValueError("SRS caps not found")
+    local, foreigner = number(match.group(1)), number(match.group(2))
+    if not (5000 <= local < foreigner <= 100000):
+        raise ValueError(f"SRS caps look wrong: {local}, {foreigner}")
+    return {"capLocal": local, "capForeigner": foreigner}
+
+
+def parse_retirement_ages(text: str, periods: list[dict]) -> list[dict]:
+    """MOM retirement page: 'from 1 July 2026, the minimum retirement age is 64 years' and
+    'The retirement age will be raised to 65 years from 1 January 2029'. New dates are added to the
+    SRS withdrawal-age periods; existing ones are never removed."""
+    def iso(day: str) -> str:
+        return datetime.strptime(day.strip(), "%d %B %Y").strftime("%Y-%m-%d")
+    found: list[tuple[str, int]] = []
+    for day, age in re.findall(r"from (\d{1,2} [A-Z][a-z]+ \d{4}),? the minimum retirement age is (\d{2}) years", text):
+        found.append((iso(day), int(age)))
+    for age, day in re.findall(r"retirement age will be raised to (\d{2}) years from (\d{1,2} [A-Z][a-z]+ \d{4})", text):
+        found.append((iso(day), int(age)))
+    if not found:
+        raise ValueError("retirement age sentences not found")
+    out = [dict(p) for p in periods]
+    for day, age in found:
+        if not (60 <= age <= 75 and "2022-01-01" <= day <= "2045-12-31"):
+            raise ValueError(f"retirement age looks wrong: {age} from {day}")
+        same = next((p for p in out if p["from"] == day), None)
+        if same:
+            same["age"] = age
+        else:
+            same_age = next((p for p in out if p["age"] == age), None)
+            if not same_age:
+                out.append({"from": day, "age": age})
+            elif same_age["from"] > datetime.now(timezone.utc).strftime("%Y-%m-%d"):
+                same_age["from"] = day            # an announced date that was moved
+    out.sort(key=lambda p: p["from"])
+    ages = [p["age"] for p in out]
+    if ages != sorted(ages) or len(set(ages)) != len(ages):
+        raise ValueError(f"retirement ages out of order: {out}")
+    return out
+
+
 # ------------------------------------------------------------
 
 def main() -> int:
@@ -330,6 +429,8 @@ def main() -> int:
     for key, value in DEFAULTS.items():            # new keys added in later versions
         rules.setdefault(key, value)
     rules["cpf"] = {**DEFAULTS["cpf"], **rules.get("cpf", {})}
+    for key in ("tax", "srs", "sources"):
+        rules[key] = {**DEFAULTS[key], **rules.get(key, {})}
     status: dict[str, Any] = {}
     checked = now_utc()
 
@@ -352,9 +453,10 @@ def main() -> int:
     attempt("frs", read_frs, lambda v: cpf.__setitem__("frsByYear", v))
 
     try:
-        texts = page_texts({"interest": CPF_INTEREST_URL, "bhs": CPF_BHS_URL, "payouts": CPF_PAYOUT_URL, "bsd": IRAS_BSD_URL})
+        texts = page_texts({"interest": CPF_INTEREST_URL, "bhs": CPF_BHS_URL, "payouts": CPF_PAYOUT_URL, "bsd": IRAS_BSD_URL,
+                            "tax": IRAS_TAX_URL, "rebate": IRAS_REBATE_URL, "srs": IRAS_SRS_URL, "retirement": MOM_RETIREMENT_URL})
     except Exception as error:   # noqa: BLE001
-        texts = {k: error for k in ("interest", "bhs", "payouts", "bsd")}
+        texts = {k: error for k in ("interest", "bhs", "payouts", "bsd", "tax", "rebate", "srs", "retirement")}
 
     def from_text(key: str, parser):
         def run():
@@ -368,6 +470,11 @@ def main() -> int:
     attempt("bhs", from_text("bhs", parse_bhs), lambda v: cpf.__setitem__("bhs", v))
     attempt("lifePayouts", from_text("payouts", parse_payouts), lambda v: cpf.__setitem__("lifePayouts", v))
     attempt("bsd", from_text("bsd", parse_bsd), lambda v: rules["property"].__setitem__("bsd", v))
+    attempt("taxRates", from_text("tax", parse_tax_bands), lambda v: rules["tax"].update(v))
+    attempt("taxRebate", from_text("rebate", parse_rebates), lambda v: rules["tax"].__setitem__("rebates", v))
+    attempt("srsCaps", from_text("srs", parse_srs), lambda v: rules["srs"].update(v))
+    attempt("retirementAge", from_text("retirement", lambda text: parse_retirement_ages(text, rules["srs"]["agePeriods"])),
+            lambda v: rules["srs"].__setitem__("agePeriods", v))
 
     for name, entry in status.items():
         if entry["ok"]:
