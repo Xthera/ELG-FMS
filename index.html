@@ -76,7 +76,7 @@
 
     <link
         rel="stylesheet"
-        href="css/style.css?v=fin8"
+        href="css/style.css?v=fin9"
     >
 
     <link
@@ -3222,6 +3222,7 @@
                 <div class="explorer-dataset calc-switch" role="tablist" aria-label="Choose a calculator">
                     <button type="button" class="explorer-dataset-tab active" data-calc="plan" role="tab" aria-selected="true">Plan Calculator</button>
                     <button type="button" class="explorer-dataset-tab" data-calc="finance" role="tab" aria-selected="false">Financial</button>
+                    <button type="button" class="explorer-dataset-tab" data-calc="tax" role="tab" aria-selected="false">Tax / SRS</button>
                     <button type="button" class="explorer-dataset-tab" data-calc="prushield" role="tab" aria-selected="false">PRUShield Premium</button>
                     <button type="button" class="explorer-dataset-tab" data-calc="prucredits" role="tab" aria-selected="false">PruCredit$</button>
                 </div>
@@ -3888,15 +3889,15 @@
 
                         <div class="page-header-main">
 
-                            <div class="eyebrow">
+                            <div id="fin-eyebrow" class="eyebrow">
                                 SAVINGS · LOANS &amp; PROPERTY · RETIREMENT &amp; CPF · PROTECTION
                             </div>
 
-                            <h1 class="page-title">
+                            <h1 id="fin-heading" class="page-title">
                                 Financial Calculator
                             </h1>
 
-                            <p class="page-description">
+                            <p id="fin-description" class="page-description">
                                 Everyday planning numbers for client conversations, using current Singapore rules. Results update as you type; copy a summary or print a client report.
                             </p>
 
@@ -3949,7 +3950,7 @@
                                         <div class="calc-table-wrap"><table id="fin-table" class="data-table calc-table fin-table"></table></div>
                                     </details>
                                     <div id="fin-notes" class="calc-notes"></div>
-                                    <p class="calc-notes fin-disclaimer">Illustration only, based on the assumptions shown. Returns, rates and rules can change and actual results will differ. Not financial advice.</p>
+                                    <p id="fin-disclaimer" class="calc-notes fin-disclaimer">Illustration only, based on the assumptions shown. Returns, rates and rules can change and actual results will differ. Not financial advice.</p>
                                 </div>
                             </section>
 
@@ -4390,10 +4391,10 @@
                     type="button"
                     id="app-version"
                     class="footer-version"
-                    aria-label="Version V2.2.1 – view changelog"
+                    aria-label="Version V2.3.0 – view changelog"
                     title="View changelog"
                 >
-                    V2.2.1
+                    V2.3.0
                 </button>
 
                 <button
