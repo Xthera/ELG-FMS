@@ -1,10 +1,327 @@
 {
-  "generatedAtSgt": "2026-11-26T19:05:07.250939+08:00",
+  "generatedAtSgt": "2026-11-26T22:14:58.290858+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 206,
+  "articleCount": 216,
   "analyses": [
+    {
+      "articleId": "5ea344a76f6280bf2b542a5d724470216e3afdf8bd90132d9e560a6fbcc766f9",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "According to a Deutsche Bank analysis of International Trade Centre data, semiconductors have surpassed oil and gas in global export value for the first time due to the artificial intelligence boom. However, this milestone coincides with a period where investors are reassessing AI spending and driving down semiconductor stock prices.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors",
+        "Energy"
+      ],
+      "investorImpact": "Investors must weigh the long-term structural dominance of semiconductors as the new foundational commodity against near-term volatility and downward pressure on semiconductor stock valuations amid shifting AI spending expectations.",
+      "reasoning": "The article highlights a major macro shift in global trade where semiconductors have overtaken oil in export value, connecting geopolitical and economic themes with direct market impacts on technology valuations.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Semiconductor chips are the new oil. Here's why",
+      "publishedAtSgt": "2026-11-26T21:19:25+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-26T21:57:34+08:00"
+    },
+    {
+      "articleId": "620ae6b61d70bcf8e3e6f323e5a17bcce51f38108fa6f399643ffc5b0a32b464",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "The U.S. administration has proposed new tariff hikes targeting over a dozen trading partners, including China, Vietnam, and India, putting pressure on them to finalize trade agreements with Washington while incentivizing accelerated trade talks to secure lower rates.",
+      "assetClasses": [
+        "Equities",
+        "Commodities",
+        "Foreign Exchange"
+      ],
+      "geographies": [
+        "United States",
+        "China",
+        "Vietnam",
+        "India"
+      ],
+      "sectors": [
+        "Trade",
+        "Manufacturing",
+        "Import/Export"
+      ],
+      "investorImpact": "The proposed tariff hikes increase trade friction and supply chain costs, negatively impacting multinational corporations exposed to international trade with China, Vietnam, and India, while potentially accelerating diplomatic trade negotiations.",
+      "reasoning": "Classified as GEOPOLITICAL due to trade policy announcements and tariff threats impacting international relations and global supply chains. High importance because of the direct market and economic implications for major trading nations and import-reliant sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+      "publishedAtSgt": "2026-11-26T20:46:55+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 72,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "articleId": "cfdfcabb5ee3dec59233d00b7ac6a9ebc114c5fff5e04c9062e51790765b3a2a",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Global stocks rallied as investors brushed off U.S. tariffs and tech jitters to bargain hunt, with chip stocks and semiconductor firms like Infineon gaining while analysts warned of potential risks from rising oil prices and geopolitical retaliation.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global",
+        "United States",
+        "Germany"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors",
+        "Energy"
+      ],
+      "investorImpact": "Investors are finding buying opportunities following recent tech sell-offs, though rising oil prices and potential tariff retaliation warrant caution regarding inflation and market volatility.",
+      "reasoning": "Classified as MARKET because it covers global stock market movements, bargain hunting in tech sectors, and investor sentiment regarding tariffs and inflation.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
+      "publishedAtSgt": "2026-11-26T20:22:25+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 92,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "articleId": "bff0f97c46f006cb70906c73d39ba72298802d7546dd3f013301c2ce59d53eb6",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Microdrama apps such as My Drama are scaling up short-form, vertical video content, attracting Hollywood investment including early backing from Fox Entertainment. However, the industry still faces monetization and profitability challenges in translating short-form viewership into sustainable profits.",
+      "assetClasses": [
+        "EQUITY"
+      ],
+      "geographies": [
+        "GLOBAL"
+      ],
+      "sectors": [
+        "COMMUNICATION_SERVICES",
+        "ENTERTAINMENT",
+        "MEDIA"
+      ],
+      "investorImpact": "Investors in media and entertainment sectors should monitor the shifting landscape toward short-form vertical video and Hollywood's increasing participation. While audience engagement is high, monetization uncertainties present mixed financial signals for early-stage and established players alike.",
+      "reasoning": "The article discusses emerging market trends in the entertainment industry regarding microdrama apps and traditional Hollywood investment. It is classified as MARKET due to focus on commercial investments and monetization challenges, with MIXED sentiment reflecting high interest offset by profitability hurdles.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Microdrama apps chase profits as Hollywood moves into short-form, vertical video",
+      "publishedAtSgt": "2026-11-26T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/micro-drama-apps-hollywood-vertical-video.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T21:57:34+08:00"
+    },
+    {
+      "articleId": "ad238784b20c8a198aca29f1a0f9da9deda18b0675a1b4e46593aabefc76e4ed",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "HIGH",
+      "summary": "Switzerland's biggest bank is facing a significant political and regulatory showdown as lawmakers and regulators push for stricter capital requirements and emergency crisis planning, even as its resolvability has improved following the integration of Credit Suisse.",
+      "assetClasses": [
+        "Equities",
+        "Debt"
+      ],
+      "geographies": [
+        "Switzerland",
+        "Europe"
+      ],
+      "sectors": [
+        "Financials",
+        "Banking"
+      ],
+      "investorImpact": "Stricter capital requirements could impact the bank's profitability, dividend capacity, and capital allocation strategies, potentially weighing on equity valuations while bolstering debt security.",
+      "reasoning": "The article discusses major regulatory and capital requirement battles involving a globally systemic financial institution, which carries direct implications for the banking sector and market stability.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Switzerland’s biggest bank set for showdown with lawmakers as capital fight intensifies amid crisis planning",
+      "publishedAtSgt": "2026-11-26T19:17:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/ubs-swiss-capital-rules-finma-crisis-plan.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "articleId": "84b757dcf48149f41479f2ecb47c400c195affc4bcac32c4d5e34b6f3f68e149",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "President Donald Trump and NATO chief Mark Rutte issued a joint statement cautioning Russia against actions that could further expand the Ukraine war, as Russia intensifies attacks on Ukraine's energy infrastructure.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "Russia",
+        "Ukraine",
+        "United States"
+      ],
+      "sectors": [
+        "Energy",
+        "Utilities"
+      ],
+      "investorImpact": "Escalating attacks on energy infrastructure in Ukraine can create supply disruptions and volatility in global energy markets, affecting European utilities and energy prices.",
+      "reasoning": "Classified as GEOPOLITICAL due to high-level diplomatic warnings and military strikes on energy infrastructure. It is relevant for monitoring risks to energy markets and broader geopolitical stability.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Trump, NATO chief caution Russia as attacks on Ukraine’s energy infrastructure intensify",
+      "publishedAtSgt": "2026-11-26T18:45:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "articleId": "9d80dce9a103548250f4299847cd18bc393a5319ad4e225168030c5a218e9fcb",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Norse Atlantic has suspended all flights and warned of a potential bankruptcy filing following an 85% collapse in its share price due to a critical financial situation.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Norway",
+        "Global"
+      ],
+      "sectors": [
+        "Aviation",
+        "Transportation"
+      ],
+      "investorImpact": "Investors holding Norse Atlantic stock face near-total losses following the share price collapse and bankruptcy warning, highlighting ongoing solvency risks in the low-cost aviation sector amid cost pressures.",
+      "reasoning": "The article is classified as MARKET and HIGH importance because an 85% equity collapse and potential bankruptcy filing represent severe corporate distress and market-moving news for the airline sector.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Norse Atlantic suspends all flights, warns it may file for bankruptcy after share price collapse",
+      "publishedAtSgt": "2026-11-26T17:02:30+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "articleId": "18c55efb104bb702d505541c7a6c1b097cb39b9af9ca62071579aa44a7ee2358",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Latin America possesses the copper and energy resources required for the AI infrastructure build-out, but regional growth is constrained by restricted fiscal space, sticky inflation, and high borrowing costs, according to the World Bank.",
+      "assetClasses": [
+        "Commodities",
+        "Equities"
+      ],
+      "geographies": [
+        "Latin America",
+        "Caribbean"
+      ],
+      "sectors": [
+        "Mining",
+        "Energy",
+        "Technology"
+      ],
+      "investorImpact": "Investors eyeing Latin America for AI-related commodity plays such as copper and energy must weigh structural growth drivers against macroeconomic headwinds like high borrowing costs and fiscal constraints.",
+      "reasoning": "The article bridges technology infrastructure needs with Latin American macroeconomic trends and commodity markets, making it relevant for cross-asset and regional economic monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Latin America has the copper and energy the AI build-out needs. Infrastructure is the test",
+      "publishedAtSgt": "2026-11-26T16:59:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/latin-america-copper-energy-ai-investment.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 80,
+      "collectorRelevanceReason": "technology_business_or_infrastructure",
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "articleId": "14b76e206af465ae82987c1a0887c8e43d7623e80a74f9bfac8d6fb406507664",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "According to a Goldman Sachs Alternatives survey, wealthy European investors are turning to alternative asset classes instead of public stocks to gain exposure to artificial intelligence and future tech growth amid public market turbulence, with 47% favoring alternatives compared to 24% in the U.S.",
+      "assetClasses": [
+        "Alternative Investments",
+        "Equities"
+      ],
+      "geographies": [
+        "Europe",
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Artificial Intelligence",
+        "Wealth Management"
+      ],
+      "investorImpact": "Highlights a shift in asset allocation strategies among high-net-worth individuals in Europe toward alternatives for AI exposure, signaling potential capital inflows into private markets and alternative asset managers.",
+      "reasoning": "The article discusses a notable shift in investment preferences among wealthy Europeans toward alternative assets amidst tech selloffs, falling under market trends and capital allocation shifts.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing",
+      "publishedAtSgt": "2026-11-26T15:23:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/wealthy-europeans-alternative-investments-ai.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "articleId": "9ed4d191dc637fc0270d4121fd55fb21764fc107777326bb14003a5da58d78d2",
+      "relevant": true,
+      "category": "GEOPOLITICAL",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "Recent tariff moves by the U.S. indicate a willingness to grant India a competitive trade advantage over rival Asian exporters if New Delhi finalizes a long-pending trade deal, with a proposed 17% tariff tied to an Agreement on Reciprocal Trade.",
+      "assetClasses": [
+        "Equities",
+        "Forex"
+      ],
+      "geographies": [
+        "United States",
+        "India",
+        "Asia"
+      ],
+      "sectors": [
+        "International Trade",
+        "Exports"
+      ],
+      "investorImpact": "Investors with exposure to Indian equities and export-oriented sectors may benefit from potential competitive advantages relative to other Asian exporters if the bilateral trade agreement is finalized.",
+      "reasoning": "The article discusses geopolitical trade negotiations and tariff proposals between the US and India, impacting regional competitiveness and trade flows, making it relevant for macroeconomic and geographic asset allocation.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
+      "publishedAtSgt": "2026-11-26T12:12:18+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html",
+      "collectorCategory": "GEOPOLITICAL",
+      "collectorRelevanceScore": 71,
+      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
     {
       "articleId": "254ed86608b8cc5247f380f5adbb0eadc37f7c104f6a14b7fbd2a8e9d7a7ef3a",
       "relevant": true,
