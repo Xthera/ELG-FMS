@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-26T12:11:12+08:00",
+  "generatedAtSgt": "2026-11-26T21:57:34+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,166 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "5ea344a76f6280bf2b542a5d724470216e3afdf8bd90132d9e560a6fbcc766f9",
+      "source": "CNBC",
+      "title": "Semiconductor chips are the new oil. Here's why",
+      "publishedAtSgt": "2026-11-26T21:19:25+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The artificial intelligence boom has pushed semiconductors past oil and gas in global export value for the first time, according to a Deutsche Bank analysis of International Trade Centre data. Yet the milestone arrives at an awkward moment, just as investors reassess the outlook for artificial intelligence spending and drive down the price of semiconductor stocks. technology stocks, startups and data centers, further helping to finance the AI investment cycle.",
+      "feeds": [
+        "finance"
+      ],
+      "collectedAtSgt": "2026-11-26T21:57:34+08:00"
+    },
+    {
+      "id": "620ae6b61d70bcf8e3e6f323e5a17bcce51f38108fa6f399643ffc5b0a32b464",
+      "source": "CNBC",
+      "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+      "publishedAtSgt": "2026-11-26T20:46:55+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 72,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "The Trump administration has unveiled a fresh tariff salvo on more than a dozen trading partners, with China, Vietnam, and India facing some of the steepest potential rates and mounting pressure to conclude trade deals with Washington. Still, the proposal could give some countries an incentive to speed up trade talks in order to lock in lower tariff rates, analysts said.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "id": "cfdfcabb5ee3dec59233d00b7ac6a9ebc114c5fff5e04c9062e51790765b3a2a",
+      "source": "CNBC",
+      "title": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
+      "publishedAtSgt": "2026-11-26T20:22:25+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "German semiconductor firm Infineon was more than 4% higher in afternoon trading, as chip stocks notched a boost. \"It was notable that investors cast their net wide for opportunities, fishing for bargains in the rubble following the tech sell-off and looking at other sectors in the quest for diversification.\" But Mould warned investors not to be \"too complacent.\" \"Oil prices heading higher is not good for efforts to tame inflation, neither is the prospect of retaliation by countries on the...",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "id": "bff0f97c46f006cb70906c73d39ba72298802d7546dd3f013301c2ce59d53eb6",
+      "source": "CNBC",
+      "title": "Microdrama apps chase profits as Hollywood moves into short-form, vertical video",
+      "publishedAtSgt": "2026-11-26T20:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/micro-drama-apps-hollywood-vertical-video.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Bogdan Nesvit says his mission is simple: \"We are essentially building Disney for the 21st century.\" Nesvit is the co-founder of microseries app My Drama, built around the latest, bite-sized form of storytelling. Fox Entertainment was one of the earliest Hollywood investors in microdramas. Despite the flurry of investment, Hollywood still faces the challenge of how to translate viewing hours into profit, especially for shorter content.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-26T21:57:34+08:00"
+    },
+    {
+      "id": "ad238784b20c8a198aca29f1a0f9da9deda18b0675a1b4e46593aabefc76e4ed",
+      "source": "CNBC",
+      "title": "Switzerland’s biggest bank set for showdown with lawmakers as capital fight intensifies amid crisis planning",
+      "publishedAtSgt": "2026-11-26T19:17:39+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/ubs-swiss-capital-rules-finma-crisis-plan.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "But Switzerland's biggest bank still faces a major fight over sweeping plans that would force it to hold more capital against its foreign subsidiaries. FINMA, the Swiss markets regulator, said Wednesday that UBS's resolvability — or its ability to fail safely, without wreaking havoc on the economy — has improved since it integrated rival Credit Suisse, with progress made in implementing the emergency plan across group-wide resolution planning.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "id": "84b757dcf48149f41479f2ecb47c400c195affc4bcac32c4d5e34b6f3f68e149",
+      "source": "CNBC",
+      "title": "Trump, NATO chief caution Russia as attacks on Ukraine’s energy infrastructure intensify",
+      "publishedAtSgt": "2026-11-26T18:45:45+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "President Donald Trump and NATO chief Mark Rutte issued a joint statement on Thursday urging Russia not to take any actions, intentionally or otherwise, that would further expand the Ukraine war. While some have questioned whether this approach has delivered any tangible benefits, Trump has previously described Rutte as a \"great leader\" and NATO's \"biggest asset.\" Russia has stepped up its attacks on Ukraine's energy infrastructure in recent weeks, with further attacks on the central Ukrainian...",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "id": "9d80dce9a103548250f4299847cd18bc393a5319ad4e225168030c5a218e9fcb",
+      "source": "CNBC",
+      "title": "Norse Atlantic suspends all flights, warns it may file for bankruptcy after share price collapse",
+      "publishedAtSgt": "2026-11-26T17:02:30+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Norse Atlantic suspended all of its flights on Thursday and warned it may have to file for bankruptcy after its stock collapsed on Wednesday following its warning about its \"critical\" financial situation. Oslo-listed shares of Norse closed 85% lower on Wednesday. The agreement concluded at the end of October this year, with IndiGo citing airspace constraints, elevated fuel costs and currency pressures.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "id": "18c55efb104bb702d505541c7a6c1b097cb39b9af9ca62071579aa44a7ee2358",
+      "source": "CNBC",
+      "title": "Latin America has the copper and energy the AI build-out needs. Infrastructure is the test",
+      "publishedAtSgt": "2026-11-26T16:59:11+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/latin-america-copper-energy-ai-investment.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 80,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "\"Ultimately, what drives economic growth is energy,\" he added. The World Bank's Latin America and the Caribbean Economic Update for 2026 projects growth for the region of 2.2%, and highlights the \"restricted fiscal space, sticky inflation and high borrowing costs.\" \"The economic policy and fiscal policy needs to get in line as markets are globally becoming more sensitive to fiscal stories,\" said Costa.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "id": "14b76e206af465ae82987c1a0887c8e43d7623e80a74f9bfac8d6fb406507664",
+      "source": "CNBC",
+      "title": "Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing",
+      "publishedAtSgt": "2026-11-26T15:23:42+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/wealthy-europeans-alternative-investments-ai.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Wealthy Europeans are looking to alternative asset classes to build exposure to artificial intelligence themes amid turbulence in public markets. Goldman Sachs Alternatives' inaugural survey of high-net-worth and ultra-high-net-worth investors found 47% of European respondents saw alternatives as the best way to gain exposure to AI and future tech growth, compared to just 24% of U.S.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
+    {
+      "id": "9ed4d191dc637fc0270d4121fd55fb21764fc107777326bb14003a5da58d78d2",
+      "source": "CNBC",
+      "title": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
+      "publishedAtSgt": "2026-11-26T12:12:18+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html",
+      "category": "GEOPOLITICAL",
+      "relevanceScore": 71,
+      "relevanceReason": "geopolitical_with_direct_economic_impact",
+      "summary": "tariff rates announced Wednesday have signaled that Washington is willing to offer India an edge over its competitors if New Delhi agrees to finalize a long-pending trade deal. The Office of the United States Trade Representative has proposed a tariff of 17% on Indian exports if New Delhi \"were to reach an Agreement on Reciprocal Trade\" with Washington.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-26T21:57:33+08:00"
+    },
     {
       "id": "254ed86608b8cc5247f380f5adbb0eadc37f7c104f6a14b7fbd2a8e9d7a7ef3a",
       "source": "CNBC",
@@ -1451,161 +1611,6 @@
         "latest"
       ],
       "collectedAtSgt": "2026-11-20T05:39:46+08:00"
-    },
-    {
-      "id": "9b664f477623ee1fcded722f849e98d0150ea0e8c1d3295e1729c417bc4244ad",
-      "source": "CNBC",
-      "title": "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges",
-      "publishedAtSgt": "2026-11-20T04:33:05+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/acquisition-of-tribe-capital-flags-new-chapter-in-evolution-of-crypto-exchanges.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Payward, the owner of crypto exchange Kraken, is pushing into private markets with its latest acquisition, underscoring a broader shift in cryptocurrencies, from trading-led growth to the buildout of financial infrastructure. \"Joining Payward gives us the opportunity to bring Tribe's investment approach to a global financial platform,\" Jonathan Hsu, another co-founder of Tribe Capital, said in a statement.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-20T05:39:47+08:00"
-    },
-    {
-      "id": "846134e24452e18f77040b0a913006ffc0d0c7ba80d5f25053307e74f3fe6e6f",
-      "source": "CNBC",
-      "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
-      "publishedAtSgt": "2026-11-20T03:43:08+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "President Donald Trump's investment accounts bought shares of Nvidia, Palantir and Elon Musk's SpaceX in September, around the time the companies secured major federal contracts and their executives met with the president, according to a newly released financial disclosure. The timing was particularly notable at Palantir, the artificial intelligence software maker whose technology is used by U.S.",
-      "feeds": [
-        "latest",
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-20T05:39:46+08:00"
-    },
-    {
-      "id": "c487be86047834c0555457b938482af2569df51673fc485c839162baa903966c",
-      "source": "CNBC",
-      "title": "Amid recent banking outages, should you start carrying cash again? Top advisors weigh in",
-      "publishedAtSgt": "2026-11-20T03:06:56+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/banking-outages-emergency-cash.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "currency in favor of credit, debit and digital payments. banks and the peer-to-peer payments network Zelle. As technology outages expose vulnerabilities across parts of the U.S.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-20T05:39:46+08:00"
-    },
-    {
-      "id": "4c58eef840be958354a719668d1648058d64801e019d22fb443576330d7603ff",
-      "source": "CNBC",
-      "title": "Gold's bad year is getting worse. Why its price keeps falling",
-      "publishedAtSgt": "2026-11-20T00:29:52+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
-      "category": "MARKET",
-      "relevanceScore": 57,
-      "relevanceReason": "supporting_market_description",
-      "summary": "Precious metals investors can be forgiven if they feel like the past year has given them whiplash. Which role it plays depends on the factors dominating the market and the psyche of investors, and right now, it's the currency argument that is bringing the precious metal down.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-20T05:39:47+08:00"
-    },
-    {
-      "id": "18c8ccea8736f5ef4bf145f5103cede579e66f9894604269301ed62f6afc6cfe",
-      "source": "CNBC",
-      "title": "Anthropic IPO, AI wealth spawn a new, leaner kind of family office",
-      "publishedAtSgt": "2026-11-19T22:57:38+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-wealth-spawn-a-new-leaner-kind-of-family-office.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "A version of this article appeared in CNBC's Inside Wealth newsletter, a weekly guide to the high-net-worth investor and consumer. The Anthropic IPO is expected to mint hundreds of centimillionaires and spur the creation of new investment vehicles to manage these windfalls. Altss' CEO Dawid Siekiera added that the firm expects the launch of a flurry of other personal investment companies, venture funds and investor partnerships.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-20T05:39:51+08:00"
-    },
-    {
-      "id": "2d52cd1386723763581a7f19afcfa3cefb9f94f39ea391b881800dc0d871e1f4",
-      "source": "CNBC",
-      "title": "Anthropic IPO: Investors who flip the stock may face brokerage penalty",
-      "publishedAtSgt": "2026-11-19T21:05:40+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html",
-      "category": "MARKET",
-      "relevanceScore": 100,
-      "relevanceReason": "financial_market_legal_story",
-      "summary": "Anthropic said in an IPO prospectus that it expected to make shares available to retail investors through various brokerages, including Charles Schwab, Fidelity, Robinhood, SoFi, E*Trade and some of their respective affiliates. These broker-dealers have different \"anti-flipping\" policies meant to discourage investors who purchase IPO shares — including those of Anthropic — from dumping them quickly.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-19T21:18:10+08:00"
-    },
-    {
-      "id": "5e84084c113b2c81aa47ced58ebad572ceacddcef1235b33cae5b30b580b26d7",
-      "source": "CNBC",
-      "title": "Family offices move more money into stocks, hedge AI risk, according to CNBC Family Office Portfolio Tracker",
-      "publishedAtSgt": "2026-11-19T20:46:28+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/family-offices-moved-more-money-into-stocks-but-hedged-ai-risk.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "Family offices continued to boost their stock holdings in the third quarter, although they hedged the artificial intelligence trade with a larger bet on financials, according to the CNBC Family Office Portfolio Tracker. The increased allocation to stocks, whether from passive market gains or active buying, shows that family offices aren't pulling back from the market despite growing fears of an AI bubble and weakness in tech stocks.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-19T21:18:10+08:00"
-    },
-    {
-      "id": "0bdb467186da0a189988140e494845ba3a2953c8c07bf443831ab484db92cc6d",
-      "source": "CNBC",
-      "title": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
-      "publishedAtSgt": "2026-11-19T20:30:29+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/anthropic-lifts-nasdaq-futures-and-tech-stocks-ahead-of-its-record-breaking-ipo.html",
-      "category": "MARKET",
-      "relevanceScore": 92,
-      "relevanceReason": "strong_market_title",
-      "summary": "With around 980 million shares sold, it has raised $81.3 billion, surpassing SpaceX's record IPO back in June. - IPO and beyond: While many investors will want to buy during the IPO, retail investors will get access if they already hold certain mutual funds or ETFs. The highly anticipated offering could present another headwind for the group, by giving investors an attractive alternative to get exposure to the AI trade.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-19T21:18:10+08:00"
-    },
-    {
-      "id": "61a6b96a7100e892b9bf4305fdb5bff20ecd2cc9a03986dce5c75c650cef4824",
-      "source": "CNBC",
-      "title": "Anthropic IPO could create thousands of multimillionaire employees",
-      "publishedAtSgt": "2026-11-19T20:30:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-could-create-thousands-of-multimillionaire-employees.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "A version of this article appeared in CNBC's Inside Wealth newsletter, a weekly guide to the high-net-worth investor and consumer. The average Anthropic employee could be worth over $40 million after the company's IPO today, with over 400 employees likely to be worth over $100 million, according to SEC filings and investors. It will not only be the largest IPO in history by dollar amounts, but it is also shaping up to be one of the most rapid wealth creation events in history.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-19T21:18:10+08:00"
-    },
-    {
-      "id": "49cb0a42b7c4e4eb3a7ad58dd35e2f03ce2e833af8a416c45d0390223454ed10",
-      "source": "CNBC",
-      "title": "Data center electricity use could double by 2030, IEA says",
-      "publishedAtSgt": "2026-11-19T19:34:24+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "The agency says power networks are \"one of the biggest energy investment stories of the next decade.\" The scenario projects that renewable power generation will grow 85% more in the next decade than in the previous one. The IEA said the 2026 energy crisis could accelerate electrification as countries seek to reduce their reliance on imported oil and gas.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-19T21:18:10+08:00"
     }
   ]
 }
