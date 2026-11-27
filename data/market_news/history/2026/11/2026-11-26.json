@@ -5,6 +5,23 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "d36673b4a2a328c6c3d40ff499a34590bb1722c65cd8f4df3bfc1728454119f2",
+      "source": "CNBC",
+      "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+      "publishedAtSgt": "2026-11-26T23:28:26+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Analysts say de Cos's commentary and actions over more than two decades at Spain's central bank paint him as moderately dovish — inclined to favor lower interest rates to support economic growth — but also as a pragmatist who has been willing to adapt. \"We are now clearly in a higher-inflation regime, with core inflation in the euro area expected to remain above the ECB's target through 2029.\" Kopf added that de Cos was the candidate with the \"strongest technical understanding of monetary...",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T08:37:45+08:00"
+    },
+    {
       "id": "5ea344a76f6280bf2b542a5d724470216e3afdf8bd90132d9e560a6fbcc766f9",
       "source": "CNBC",
       "title": "Semiconductor chips are the new oil. Here's why",
@@ -404,6 +421,6 @@
       "collectedAtSgt": "2026-11-26T03:58:24+08:00"
     }
   ],
-  "articleCount": 25,
-  "updatedAtSgt": "2026-11-26T21:57:34+08:00"
+  "articleCount": 26,
+  "updatedAtSgt": "2026-11-27T08:37:45+08:00"
 }

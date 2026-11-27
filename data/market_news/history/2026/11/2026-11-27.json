@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-27",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "b6aee9a8cbc2bfe17ac935c3d928e4b1829343dd92c3b87a489856f14136cbed",
+      "source": "CNBC",
+      "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+      "publishedAtSgt": "2026-11-27T05:13:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "economy exhibited much stronger growth for the third quarter than initially estimated, showing that real GDP grew at a 4.3% annualized rate. \"I would like to wish a Happy Thanksgiving to even those who issued fake Economic Numbers, just prior to the Election, and corrected them yesterday, three weeks late, showing that the GDP was actually 4.3%, versus 3.4%, A RECORD SETTING ERROR, and one so grave that it should be immediately investigated,\" Trump wrote.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T08:37:40+08:00"
+    },
+    {
+      "id": "d8d2c8ba79367cdaf584c0726ec7d1f2b0a3f6fc51919c5c2af8714169ee4d6d",
+      "source": "CNBC",
+      "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
+      "publishedAtSgt": "2026-11-27T01:04:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Chip sellers communicated the messaging to neoclouds after the announcement, which seeks to close an export controls loophole allowing Chinese companies to rent access to Nvidia's most advanced chips when hosted in data centers overseas, two people familiar with the situation told CNBC. Neocloud stocks have come under renewed pressure lately as investors questioned the sustainability of the AI boom.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T08:37:41+08:00"
+    }
+  ],
+  "articleCount": 2,
+  "updatedAtSgt": "2026-11-27T08:37:41+08:00"
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-26T21:57:34+08:00",
+  "generatedAtSgt": "2026-11-27T08:37:45+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,55 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "b6aee9a8cbc2bfe17ac935c3d928e4b1829343dd92c3b87a489856f14136cbed",
+      "source": "CNBC",
+      "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+      "publishedAtSgt": "2026-11-27T05:13:17+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "economy exhibited much stronger growth for the third quarter than initially estimated, showing that real GDP grew at a 4.3% annualized rate. \"I would like to wish a Happy Thanksgiving to even those who issued fake Economic Numbers, just prior to the Election, and corrected them yesterday, three weeks late, showing that the GDP was actually 4.3%, versus 3.4%, A RECORD SETTING ERROR, and one so grave that it should be immediately investigated,\" Trump wrote.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T08:37:40+08:00"
+    },
+    {
+      "id": "d8d2c8ba79367cdaf584c0726ec7d1f2b0a3f6fc51919c5c2af8714169ee4d6d",
+      "source": "CNBC",
+      "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
+      "publishedAtSgt": "2026-11-27T01:04:54+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 81,
+      "relevanceReason": "technology_business_or_infrastructure",
+      "summary": "Chip sellers communicated the messaging to neoclouds after the announcement, which seeks to close an export controls loophole allowing Chinese companies to rent access to Nvidia's most advanced chips when hosted in data centers overseas, two people familiar with the situation told CNBC. Neocloud stocks have come under renewed pressure lately as investors questioned the sustainability of the AI boom.",
+      "feeds": [
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T08:37:41+08:00"
+    },
+    {
+      "id": "d36673b4a2a328c6c3d40ff499a34590bb1722c65cd8f4df3bfc1728454119f2",
+      "source": "CNBC",
+      "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+      "publishedAtSgt": "2026-11-26T23:28:26+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
+      "category": "MARKET",
+      "relevanceScore": 92,
+      "relevanceReason": "strong_market_title",
+      "summary": "Analysts say de Cos's commentary and actions over more than two decades at Spain's central bank paint him as moderately dovish — inclined to favor lower interest rates to support economic growth — but also as a pragmatist who has been willing to adapt. \"We are now clearly in a higher-inflation regime, with core inflation in the euro area expected to remain above the ECB's target through 2029.\" Kopf added that de Cos was the candidate with the \"strongest technical understanding of monetary...",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T08:37:45+08:00"
+    },
     {
       "id": "5ea344a76f6280bf2b542a5d724470216e3afdf8bd90132d9e560a6fbcc766f9",
       "source": "CNBC",
@@ -1563,54 +1612,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-20T11:23:30+08:00"
-    },
-    {
-      "id": "ee2fe0b054c8961a47f0386b38fe6386a5fd728f6abf3dd592bc1ffd6dbaf5b2",
-      "source": "CNBC",
-      "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
-      "publishedAtSgt": "2026-11-20T07:21:23+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
-      "category": "TECHNOLOGY",
-      "relevanceScore": 81,
-      "relevanceReason": "technology_business_or_infrastructure",
-      "summary": "California Attorney General Rob Bonta issued an investigative subpoena to Nvidia on Thursday as part of a probe of whether the company's advanced semiconductor chips ended up in China in contravention of U.S. \"The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,\" Bonta said in a statement.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-20T11:23:29+08:00"
-    },
-    {
-      "id": "ab78c1ca78969ba5abcfa661bafe7ec7528d18dd68e56c78e12e889f9b41bc8f",
-      "source": "CNBC",
-      "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
-      "publishedAtSgt": "2026-11-20T05:00:57+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Palo Alto Networks shares rose 6% on Thursday as businesses boosted spending on cybersecurity products and investors cheered the company's acquisition of a startup that pushes it into securing open-weight artificial intelligence models. Those fears have led more businesses to consolidate platforms, which is fueling growth in areas like firewall and AI security, Palo Alto Networks CEO Nikesh Arora told CNBC's \"Mad Money\" on Wednesday.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-20T05:39:47+08:00"
-    },
-    {
-      "id": "900ceab79cba98c5e1cb8bb8eb71e8936a19038f6cd2190e6263fd1f7c4d9b02",
-      "source": "CNBC",
-      "title": "Congress passes bill to protect older investors from financial fraud",
-      "publishedAtSgt": "2026-11-20T04:36:48+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/financial-exploitation-prevention-act-older-investors-fraud.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The bill would generally allow mutual fund companies and their transfer agents, which handle shareholder records and transactions, to temporarily delay paying out redemption requests when they suspect an older or otherwise vulnerable investor is being financially exploited. \"This legislation fills an important regulatory gap that can help protect vulnerable investors before assets are lost.\" The measure's congressional approval comes amid growing financial fraud among older Americans.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-20T05:39:46+08:00"
     }
   ]
 }
