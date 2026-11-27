@@ -1,10 +1,101 @@
 {
-  "generatedAtSgt": "2026-11-27T08:53:29.546674+08:00",
+  "generatedAtSgt": "2026-11-27T17:59:10.423992+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 199,
+  "articleCount": 203,
   "analyses": [
+    {
+      "articleId": "3a571f01562eed085661aa8794ba53c12eb023133f95b9076c88494bb283752b",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Private markets are becoming increasingly accessible and important for retail investors, with 77% of surveyed fund distributors planning to offer them. However, liquidity and getting out remain challenging, and only 15% of asset managers provide comprehensive retail investor education.",
+      "assetClasses": [
+        "Private Equity",
+        "Private Debt",
+        "Alternative Investments"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Asset Management"
+      ],
+      "investorImpact": "Investors gain greater access to private market opportunities, but face significant liquidity constraints and a gap in comprehensive education from asset managers.",
+      "reasoning": "The article highlights an important market trend regarding retail participation in private funds, balancing the increased accessibility with liquidity challenges and educational gaps, making it relevant for fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Private markets are more accessible than ever for investors. Getting out is another matter",
+      "publishedAtSgt": "2026-11-27T16:05:09+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/private-markets-retail-investors-liquidity.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
+    },
+    {
+      "articleId": "05690ceef5b308aa2432da272db8c2edfd383cf3a09cf3b18574c4b1d34a2da7",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "MEDIUM",
+      "summary": "SpaceX shares jumped 7.47% on alternative trading platform Blue Ocean ATS following CEO Elon Musk's expansion of a share-donation plan involving Trump Accounts for American children.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Aerospace & Defense"
+      ],
+      "investorImpact": "The jump in alternative trading platform valuation highlights strong retail and speculative interest surrounding SpaceX equity events and executive announcements.",
+      "reasoning": "Classified as MARKET due to direct stock valuation movement on alternative trading platforms. Important for monitoring private equity sentiment and retail reaction to high-profile corporate announcements.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "SpaceX shares jump on alternative trading platform after Musk says he will expand on Trump Account share donations",
+      "publishedAtSgt": "2026-11-27T15:15:13+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
+    },
+    {
+      "articleId": "05f0420aeac13e316069940b116f137feb9506b8f030c379d6ec14055d8a1b6f",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "China's industrial profits are growing again, driven by AI-related manufacturing, exports, and renewable energy demand lifting commodity prices like copper and aluminum, even as domestic household consumption lags.",
+      "assetClasses": [
+        "Equities",
+        "Commodities"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Industrials",
+        "Materials"
+      ],
+      "investorImpact": "Investors should note that while AI-related manufacturing and commodity producers are benefiting from strong structural demand, lagging domestic consumption in China poses uneven risks across sectors, impacting global supply chains and commodity markets.",
+      "reasoning": "The article highlights macroeconomic trends in China regarding industrial profits and the bifurcated economy driven by AI and renewable energy demand, making it relevant for economic and sector-specific fund monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "China’s factories are growing profits again, but the AI boom is picking the winners",
+      "publishedAtSgt": "2026-11-27T14:09:51+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
+    },
     {
       "articleId": "b6aee9a8cbc2bfe17ac935c3d928e4b1829343dd92c3b87a489856f14136cbed",
       "relevant": true,
@@ -96,6 +187,39 @@
       "collectorRelevanceScore": 92,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-11-27T08:37:45+08:00"
+    },
+    {
+      "articleId": "5ad7238d11d28810cf0ad0290fa3f940daf1f85ef059e5575a8774295e4357f8",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "HIGH",
+      "summary": "Iran war disruptions have caused London Metal Exchange available aluminum stocks to decline by 51%, with over 99% of remaining warehouse inventories being of Russian origin which many Western traders refuse to purchase, deepening a severe supply crunch.",
+      "assetClasses": [
+        "Commodities",
+        "Metals"
+      ],
+      "geographies": [
+        "London",
+        "Iran",
+        "Russia"
+      ],
+      "sectors": [
+        "Mining",
+        "Materials",
+        "Industrials"
+      ],
+      "investorImpact": "The severe supply squeeze and dominance of untouchable Russian metal in exchange warehouses will likely drive up aluminum prices and increase volatility, impacting industrial users and commodity-focused investment funds.",
+      "reasoning": "Classified as MARKET due to direct reporting on exchange warehouse inventories and supply crunches. Sentiment is NEGATIVE as available tradeable stocks drop significantly. Importance is HIGH because of the severe market disruption caused by geopolitical conflict impacting global aluminum availability.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The great aluminum squeeze: London supply crunch deepens as warehouse stocks slide",
+      "publishedAtSgt": "2026-11-26T22:09:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/lme-aluminum-squeeze-supply.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
     },
     {
       "articleId": "5ea344a76f6280bf2b542a5d724470216e3afdf8bd90132d9e560a6fbcc766f9",
