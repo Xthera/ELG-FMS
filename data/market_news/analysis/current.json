@@ -1,10 +1,155 @@
 {
-  "generatedAtSgt": "2026-11-27T17:59:10.423992+08:00",
+  "generatedAtSgt": "2026-11-28T03:45:54.354129+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 203,
+  "articleCount": 200,
   "analyses": [
+    {
+      "articleId": "488b01fbc71ed191176a7e2cb5d6d28ba9fac9d62478fe7c0c201a968f2adf9c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "NEGATIVE",
+      "importance": "MEDIUM",
+      "summary": "Budget carrier Norse Atlantic filed for bankruptcy after failing to secure funding amid soaring fuel costs, with shares previously dropping 85%.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Europe"
+      ],
+      "sectors": [
+        "Airlines",
+        "Transportation"
+      ],
+      "investorImpact": "Highlights credit and operational distress risks within the low-cost airline sector due to sustained high fuel costs and liquidity pressures.",
+      "reasoning": "Classified as MARKET due to corporate bankruptcy and equity destruction. Important for monitoring airline and discretionary transport sector risk.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+      "publishedAtSgt": "2026-11-28T02:20:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-28T03:30:07+08:00"
+    },
+    {
+      "articleId": "edd0b258b0b1628353e404eb8700acee2a0ffe4f8d976f7eb087278df2ecc29c",
+      "relevant": true,
+      "category": "TECHNOLOGY",
+      "sentiment": "NEUTRAL",
+      "importance": "MEDIUM",
+      "summary": "AI shopping agents are emerging to make purchases on behalf of users, but major retailers like Amazon and others are introducing blocks that threaten to stunt their growth.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Technology",
+        "Retail",
+        "E-commerce"
+      ],
+      "investorImpact": "Investors in e-commerce and AI technologies should monitor the friction between AI shopping agents and large retailers, as platform access restrictions could impact the adoption and monetization of agentic commerce.",
+      "reasoning": "Classified as TECHNOLOGY as it covers AI shopping agents and retailer responses. Importance is MEDIUM due to emerging trends in agentic commerce that could affect major retail platforms and AI developers. Fund monitoring is relevant because it touches on structural shifts in e-commerce technology.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth",
+      "publishedAtSgt": "2026-11-28T00:43:14+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+      "collectorCategory": "TECHNOLOGY",
+      "collectorRelevanceScore": 54,
+      "collectorRelevanceReason": "supporting_technology_description",
+      "collectedAtSgt": "2026-11-28T03:30:07+08:00"
+    },
+    {
+      "articleId": "8a23bd25f0461dc07bf14da02e30d38589dfd16dd44265e7c2491331f250109c",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "Neocloud stocks have dropped amid investor doubts about the AI boom's sustainability. While Jensen Huang's return as Nvidia CEO sparked an early-week market rally, analysts note it does not fully resolve broader industry concerns regarding potential investment peaks and moderating earnings growth.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Global"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "investorImpact": "Investors should recognize that while leadership news like Jensen Huang's return can trigger short-term market rallies in AI-related equities, fundamental concerns regarding industry investment peaks and moderating earnings growth remain unaddressed.",
+      "reasoning": "The article discusses market sentiment and stock price movements related to the AI sector and Nvidia leadership, making it relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "The Tech Download: Will Jensen Huang’s return be the spark the shaky AI market needs?",
+      "publishedAtSgt": "2026-11-27T20:00:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 57,
+      "collectorRelevanceReason": "supporting_market_description",
+      "collectedAtSgt": "2026-11-28T03:30:12+08:00"
+    },
+    {
+      "articleId": "afa777ba6487778e381672df2e0f1e7456966af617ae3debd50401a281f9931f",
+      "relevant": true,
+      "category": "ECONOMIC",
+      "sentiment": "MIXED",
+      "importance": "MEDIUM",
+      "summary": "High inflation and economic headwinds have made consumers cautious, leading to a hunt for value, yet holiday spending through Black Friday remains robust with total sales expected to top $1 trillion.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "sectors": [
+        "Consumer Discretionary",
+        "Retail"
+      ],
+      "investorImpact": "Highlights resilient consumer demand despite inflationary pressures, signaling positive revenue opportunities for value-oriented retailers during the crucial holiday shopping season.",
+      "reasoning": "Classified as ECONOMIC because it discusses macroeconomic inflation trends affecting consumer behavior and holiday retail performance. Sentiment is MIXED as caution from inflation contrasts with robust spending figures. It is important for monitoring retail and consumer sectors.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+      "publishedAtSgt": "2026-11-27T19:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+      "collectorCategory": "ECONOMIC",
+      "collectorRelevanceScore": 101,
+      "collectorRelevanceReason": "strong_economic_title",
+      "collectedAtSgt": "2026-11-28T03:30:12+08:00"
+    },
+    {
+      "articleId": "92848794f4cf0a923ede59393e5facacb5d6fe6511b3939208d253b633c243de",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Chinese semiconductor stocks surged, notching their biggest single-day gain on record after state media reported that top policymakers pledged to expand the role of state-backed funds in supporting the market.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "China"
+      ],
+      "sectors": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "investorImpact": "Investors with exposure to Chinese equities, particularly in the semiconductor sector, experienced substantial positive returns due to direct state support.",
+      "reasoning": "The article details a record-breaking surge in Chinese chip stocks driven by government policy signals and state-backed fund support, making it highly relevant for market and sector monitoring.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+      "publishedAtSgt": "2026-11-27T18:13:44+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-28T03:30:13+08:00"
+    },
     {
       "articleId": "3a571f01562eed085661aa8794ba53c12eb023133f95b9076c88494bb283752b",
       "relevant": true,
@@ -5874,242 +6019,6 @@
       "collectorRelevanceScore": 91,
       "collectorRelevanceReason": "strong_market_title",
       "collectedAtSgt": "2026-11-15T02:45:29+08:00"
-    },
-    {
-      "articleId": "7d6f0bed1aaf448c826dd3fff70ed62853145c45ca24c9734fa1ba1ef8fd60fb",
-      "relevant": true,
-      "category": "TECHNOLOGY",
-      "sentiment": "MIXED",
-      "importance": "HIGH",
-      "summary": "According to ETF experts, the AI trade and major tech stocks could be reshaped by Nvidia's recent leadership turmoil—including the resignation of CEO Jensen Huang—and potential policy shifts from a Democratic-controlled Congress regarding data centers, creating opportunities for alternative chip and tech players.",
-      "assetClasses": [
-        "Equities",
-        "ETFs"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "investorImpact": "Investors in the AI sector must reassess concentration risk in Nvidia and look at diversification into competing chipmakers and alternative infrastructure plays that could benefit from regulatory and leadership changes.",
-      "reasoning": "The article is classified as TECHNOLOGY due to its focus on Nvidia, chip demand, and the AI trade. Sentiment is MIXED as Nvidia's turmoil is a negative catalyst, but it creates upside opportunities for alternative AI market players. Importance is HIGH given Nvidia's dominant market weighting and systemic importance to tech indexes.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-      "publishedAtSgt": "2026-11-14T23:50:43+08:00",
-      "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
-      "collectorCategory": "GEOPOLITICAL",
-      "collectorRelevanceScore": 71,
-      "collectorRelevanceReason": "geopolitical_with_direct_economic_impact",
-      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
-    },
-    {
-      "articleId": "8b1ce5591d9666ec9abf6fbe2dc331e1c3ab3332e525b52b4889a2cadc5d49f3",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Wall Street and institutional investors are increasingly investing in industrial outdoor storage (IOS) lots across the U.S., driven by rising rents and surging demand for heavy equipment linked to the AI build-out, infrastructure, and energy activity.",
-      "assetClasses": [
-        "Real Estate"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Real Estate",
-        "Infrastructure"
-      ],
-      "investorImpact": "Investors can find yield and creditworthy tenants in the industrial outdoor storage market, which benefits from infrastructure and energy activity tied to broader economic trends like the AI build-out.",
-      "reasoning": "The article discusses a growing commercial real estate investment trend driven by infrastructure and AI-related demand, making it relevant for market and real estate fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
-      "publishedAtSgt": "2026-11-14T23:14:57+08:00",
-      "url": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
-    },
-    {
-      "articleId": "4e9ad46dc82912eda0b06322e1cf94f409269f0e1048c648c2e3ccc858e85573",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEGATIVE",
-      "importance": "MEDIUM",
-      "summary": "Heating oil prices have surged 59% from last winter, severely straining household budgets. Lawmakers are calling for increased federal LIHEAP funding to help qualifying families facing energy crises.",
-      "assetClasses": [
-        "Commodities",
-        "Energy"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Energy",
-        "Utilities"
-      ],
-      "investorImpact": "The significant spike in heating oil prices creates inflationary pressures on consumers and highlights volatility in energy commodity markets, potentially impacting discretionary spending and utility sectors.",
-      "reasoning": "Classified as MARKET due to the direct discussion of heating oil price spikes and their broader economic impact on consumer budgets, making it relevant for energy and commodity market monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
-      "publishedAtSgt": "2026-11-14T22:30:01+08:00",
-      "url": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
-    },
-    {
-      "articleId": "ee07ac69c57570b1582a395f956ba02aefc303f1574c27f64e88d01986aa73df",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "LOW",
-      "summary": "During open enrollment season amid rising healthcare costs, financial experts highlight health savings accounts (HSAs) as tax-advantaged tools for pretax contributions and growth portfolio investments.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Healthcare",
-        "Financial Services"
-      ],
-      "investorImpact": "The article highlights retail investor utilization of tax-advantaged accounts like HSAs for growth portfolios during open enrollment, offering minor tailwinds for wealth management and healthcare financial services.",
-      "reasoning": "Classified as MARKET because it discusses personal finance and investment account strategies during open enrollment. Importance is LOW as it focuses on general consumer financial planning rather than macro market-moving events.",
-      "fundMonitoringRelevant": false,
-      "source": "CNBC",
-      "title": "Juice your growth and save on taxes in this workplace investment account",
-      "publishedAtSgt": "2026-11-14T22:08:17+08:00",
-      "url": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-15T02:45:33+08:00"
-    },
-    {
-      "articleId": "badd428a6717a337d01500b9b2598482569a20b108fbb5809bc39e575d53af65",
-      "relevant": true,
-      "category": "GEOPOLITICAL",
-      "sentiment": "NEUTRAL",
-      "importance": "MEDIUM",
-      "summary": "U.S. officials stated that President Donald Trump does not plan to raise allegations of a Chinese intelligence operation involving former Nvidia CEO Jensen Huang during his upcoming meeting with Chinese President Xi Jinping. Additionally, Elon Musk will accompany Trump on the trip to Shenzhen, China, for the APEC summit.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States",
-        "China"
-      ],
-      "sectors": [
-        "Technology",
-        "Automotive",
-        "Semiconductors"
-      ],
-      "investorImpact": "The avoidance of raising contentious tech-security issues regarding Nvidia during high-level talks reduces immediate regulatory and geopolitical tail risks for semiconductor equities, while the inclusion of Elon Musk highlights ongoing U.S.-China commercial interactions.",
-      "reasoning": "Classified as GEOPOLITICAL due to its focus on presidential diplomacy and bilateral relations between the U.S. and China, involving high-profile industry executives like Jensen Huang and Elon Musk.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-      "publishedAtSgt": "2026-11-14T09:34:11+08:00",
-      "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-14T10:28:20+08:00"
-    },
-    {
-      "articleId": "f470b3855a597b6bda0d29b4f746735e2f79a3ac1fd87f6cdf5748f3a117ee15",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "NEUTRAL",
-      "importance": "MEDIUM",
-      "summary": "The Supreme Court has agreed to hear Robinhood's challenge regarding a revived investor lawsuit over IPO information omissions, which also involves underwriters like Goldman Sachs and J.P. Morgan.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials"
-      ],
-      "investorImpact": "The Supreme Court's review could set important legal precedents regarding IPO disclosures and the liability of underwriters and issuers in securities class-action lawsuits.",
-      "reasoning": "Classified as MARKET due to its focus on securities litigation involving IPO disclosures for a major public fintech company. It is important for market participants tracking legal liabilities in public offerings, making it moderately relevant for fund monitoring.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Supreme Court agrees to hear Robinhood challenge to IPO information omission lawsuit",
-      "publishedAtSgt": "2026-11-14T04:00:06+08:00",
-      "url": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-14T04:30:18+08:00"
-    },
-    {
-      "articleId": "76736f159d6e7e3da5df19341fc3fa8ff902cfe2717f36b0f921040f40e1e746",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "HIGH",
-      "summary": "Goldman Sachs and other investment banks are positioning themselves to capitalize significantly on Anthropic's upcoming IPO, which could raise up to $64.35 billion, extending beyond standard underwriting fees into wealth management and advisory services.",
-      "assetClasses": [
-        "Equities",
-        "Private Equity"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Financials",
-        "Technology"
-      ],
-      "investorImpact": "The anticipated massive IPO of Anthropic serves as a positive market catalyst and ballast for the artificial intelligence investment sector, offering substantial advisory and wealth management revenue opportunities for major investment banks like Goldman Sachs while boosting broader tech sector sentiment.",
-      "reasoning": "Classified as MARKET due to its focus on an upcoming high-profile IPO and investment banking revenue opportunities. Sentiment is POSITIVE given the strong outlook for the AI trade and potential financial windfalls. Importance is HIGH due to the massive scale of the anticipated offering and its systemic importance to the AI sector.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Goldman Sachs looks to cash in on Anthropic's IPO, twice. Here's how and who else wants to",
-      "publishedAtSgt": "2026-11-14T03:45:35+08:00",
-      "url": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-14T04:30:19+08:00"
-    },
-    {
-      "articleId": "a4a7ae779ef76d923a17b1d97fc9e1a686d27933c9015a1a613668c4b2e94659",
-      "relevant": true,
-      "category": "MARKET",
-      "sentiment": "POSITIVE",
-      "importance": "MEDIUM",
-      "summary": "Utility CEOs and energy-focused investors at the Edison Electric Institute conference indicate that concerns over a data center slowdown are overblown, and Goldman Sachs notes that midterm election results pose modest risks to AI investment.",
-      "assetClasses": [
-        "Equities"
-      ],
-      "geographies": [
-        "United States"
-      ],
-      "sectors": [
-        "Utilities",
-        "Technology"
-      ],
-      "investorImpact": "Investors can use insights regarding data center demand and utility involvement to identify buying opportunities in stocks tied to the AI and energy infrastructure boom.",
-      "reasoning": "The article addresses market sentiment around data center growth and utility stocks, providing valuable context for equity investors interested in the AI and energy nexus.",
-      "fundMonitoringRelevant": true,
-      "source": "CNBC",
-      "title": "Why the data center slowdown concern is overblown. Two stocks to buy amid the fear",
-      "publishedAtSgt": "2026-11-14T00:54:40+08:00",
-      "url": "https://www.cnbc.com/2026/11/13/data-center-slowdown-utility-stocks.html",
-      "collectorCategory": "MARKET",
-      "collectorRelevanceScore": 91,
-      "collectorRelevanceReason": "strong_market_title",
-      "collectedAtSgt": "2026-11-14T04:30:19+08:00"
     }
   ]
 }
