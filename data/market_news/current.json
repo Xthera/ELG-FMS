@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-27T08:37:45+08:00",
+  "generatedAtSgt": "2026-11-27T17:43:33+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,56 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "3a571f01562eed085661aa8794ba53c12eb023133f95b9076c88494bb283752b",
+      "source": "CNBC",
+      "title": "Private markets are more accessible than ever for investors. Getting out is another matter",
+      "publishedAtSgt": "2026-11-27T16:05:09+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/private-markets-retail-investors-liquidity.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Retail investors are lining up to back private funds. PwC research has found that 77% of fund distributors surveyed said access to private markets is becoming important or very important to what they plan to offer clients, but just 15% of asset managers said they provide comprehensive education for retail investors.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
+    },
+    {
+      "id": "05690ceef5b308aa2432da272db8c2edfd383cf3a09cf3b18574c4b1d34a2da7",
+      "source": "CNBC",
+      "title": "SpaceX shares jump on alternative trading platform after Musk says he will expand on Trump Account share donations",
+      "publishedAtSgt": "2026-11-27T15:15:13+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of SpaceX jumped 7.47% in overnight trading on Blue Ocean ATS after CEO Elon Musk expanded his SpaceX share-donation plan for U.S. stock exchanges were closed Thursday and are scheduled to close early Friday. The latest pledge follows SpaceX's announcement Wednesday that it would donate one share of its Class A stock to every active Trump Account, tax-advantaged investment accounts for American children, with Musk personally matching the gift.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
+    },
+    {
+      "id": "05f0420aeac13e316069940b116f137feb9506b8f030c379d6ec14055d8a1b6f",
+      "source": "CNBC",
+      "title": "China’s factories are growing profits again, but the AI boom is picking the winners",
+      "publishedAtSgt": "2026-11-27T14:09:51+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while household consumption has been lagging. Commodity producers also saw sharp growth in profits as demand tied to renewable energy and AI pushed up copper and aluminum prices, Yu said.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
+    },
     {
       "id": "b6aee9a8cbc2bfe17ac935c3d928e4b1829343dd92c3b87a489856f14136cbed",
       "source": "CNBC",
@@ -55,6 +105,22 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-27T08:37:45+08:00"
+    },
+    {
+      "id": "5ad7238d11d28810cf0ad0290fa3f940daf1f85ef059e5575a8774295e4357f8",
+      "source": "CNBC",
+      "title": "The great aluminum squeeze: London supply crunch deepens as warehouse stocks slide",
+      "publishedAtSgt": "2026-11-26T22:09:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/lme-aluminum-squeeze-supply.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Iran war disruption has driven the historic London Metal Exchange's warehoused stock of aluminum to levels not seen in decades — forcing it to act. LME-registered warehouses' available aluminum stocks have declined by 51% since the war began in late February, according to a Nov. But now the overwhelming majority of stock in LME warehouses — more than 99% — is of Russian origin — a source many Western traders are unwilling to touch.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
     },
     {
       "id": "5ea344a76f6280bf2b542a5d724470216e3afdf8bd90132d9e560a6fbcc766f9",
@@ -1551,67 +1617,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-20T11:23:29+08:00"
-    },
-    {
-      "id": "b0acf6a8ecc5edd0734b287955e34bb15f2c87c832645ca08ed951f4911fdae5",
-      "source": "CNBC",
-      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
-      "publishedAtSgt": "2026-11-20T08:00:38+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Investors had been looking forward to the Anthropic IPO as a \"clearing event\" — reviving the tech sector after months of choppy trading, the Nvidia espionage scandal, and growing concerns that AI chip sales to Asia are likely to slump as Washington cracks down on potential violations of export controls.",
-      "feeds": [
-        "latest"
-      ],
-      "collectedAtSgt": "2026-11-20T11:23:29+08:00"
-    },
-    {
-      "id": "ab67e68c49482123f72acbc6ebf29e71987fbf8ccc2156bc39d5535ae94a407a",
-      "source": "CNBC",
-      "title": "Lumentum CEO defends Marvell deal after stock plunge: 'We've got work to do' with shareholders",
-      "publishedAtSgt": "2026-11-20T07:47:42+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/lumentum-marvell-deal-ceo-shareholders-cramer.html",
-      "category": "MARKET",
-      "relevanceScore": 100,
-      "relevanceReason": "financial_market_legal_story",
-      "summary": "The merger would combine Marvell's semiconductor and networking technology with Lumentum's optical components as AI data centers increasingly shift from copper wiring to fiber-optic connections to handle faster data transmission. To be sure, the dramatic decline in both Marvell and Lumentum shares isn't entirely due to the investor displeasure with the planned transaction.",
-      "feeds": [
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-20T11:23:31+08:00"
-    },
-    {
-      "id": "4d08491604a38937502dbf5103d1f9585bbe42a0a92531db98329b0466ba078e",
-      "source": "CNBC",
-      "title": "Here's how big Anthropic’s record-setting IPO is: Visualization",
-      "publishedAtSgt": "2026-11-20T07:32:18+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/ant-stock-anthropic-record-setting-ipo.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "The AI company sold 930 million shares at $83 each, the biggest initial public offering on record.",
-      "feeds": [
-        "technology"
-      ],
-      "collectedAtSgt": "2026-11-20T11:23:30+08:00"
-    },
-    {
-      "id": "d63bc27efa5e669aa9c3d1d001b250219673f4966b7c1c5182da5799089d924e",
-      "source": "CNBC",
-      "title": "Cramer says Nvidia’s woes are trumping Anthropic excitement for the rest of the AI trade",
-      "publishedAtSgt": "2026-11-20T07:22:53+08:00",
-      "url": "https://www.cnbc.com/2026/11/19/nvidia-anthropic-ipo-ai-trade.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "Nvidia's deepening sell-off following last week's leadership shake-up is overwhelming the optimism surrounding Anthropic's stock market debut and hurting the rest of the artificial intelligence trade, CNBC's Jim Cramer argued Thursday. As the longtime leader of the AI trade, the chipmaker has helped drive investor enthusiasm for everything from semiconductor manufacturers to data center infrastructure companies.",
-      "feeds": [
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-20T11:23:30+08:00"
     }
   ]
 }

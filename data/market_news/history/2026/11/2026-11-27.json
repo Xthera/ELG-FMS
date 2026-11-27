@@ -5,6 +5,56 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "3a571f01562eed085661aa8794ba53c12eb023133f95b9076c88494bb283752b",
+      "source": "CNBC",
+      "title": "Private markets are more accessible than ever for investors. Getting out is another matter",
+      "publishedAtSgt": "2026-11-27T16:05:09+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/private-markets-retail-investors-liquidity.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Retail investors are lining up to back private funds. PwC research has found that 77% of fund distributors surveyed said access to private markets is becoming important or very important to what they plan to offer clients, but just 15% of asset managers said they provide comprehensive education for retail investors.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
+    },
+    {
+      "id": "05690ceef5b308aa2432da272db8c2edfd383cf3a09cf3b18574c4b1d34a2da7",
+      "source": "CNBC",
+      "title": "SpaceX shares jump on alternative trading platform after Musk says he will expand on Trump Account share donations",
+      "publishedAtSgt": "2026-11-27T15:15:13+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Shares of SpaceX jumped 7.47% in overnight trading on Blue Ocean ATS after CEO Elon Musk expanded his SpaceX share-donation plan for U.S. stock exchanges were closed Thursday and are scheduled to close early Friday. The latest pledge follows SpaceX's announcement Wednesday that it would donate one share of its Class A stock to every active Trump Account, tax-advantaged investment accounts for American children, with Musk personally matching the gift.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
+    },
+    {
+      "id": "05f0420aeac13e316069940b116f137feb9506b8f030c379d6ec14055d8a1b6f",
+      "source": "CNBC",
+      "title": "China’s factories are growing profits again, but the AI boom is picking the winners",
+      "publishedAtSgt": "2026-11-27T14:09:51+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while household consumption has been lagging. Commodity producers also saw sharp growth in profits as demand tied to renewable energy and AI pushed up copper and aluminum prices, Yu said.",
+      "feeds": [
+        "latest",
+        "economy",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
+    },
+    {
       "id": "b6aee9a8cbc2bfe17ac935c3d928e4b1829343dd92c3b87a489856f14136cbed",
       "source": "CNBC",
       "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
@@ -37,6 +87,6 @@
       "collectedAtSgt": "2026-11-27T08:37:41+08:00"
     }
   ],
-  "articleCount": 2,
-  "updatedAtSgt": "2026-11-27T08:37:41+08:00"
+  "articleCount": 5,
+  "updatedAtSgt": "2026-11-27T17:43:33+08:00"
 }

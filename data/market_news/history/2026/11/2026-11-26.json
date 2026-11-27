@@ -22,6 +22,22 @@
       "collectedAtSgt": "2026-11-27T08:37:45+08:00"
     },
     {
+      "id": "5ad7238d11d28810cf0ad0290fa3f940daf1f85ef059e5575a8774295e4357f8",
+      "source": "CNBC",
+      "title": "The great aluminum squeeze: London supply crunch deepens as warehouse stocks slide",
+      "publishedAtSgt": "2026-11-26T22:09:10+08:00",
+      "url": "https://www.cnbc.com/2026/11/26/lme-aluminum-squeeze-supply.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Iran war disruption has driven the historic London Metal Exchange's warehoused stock of aluminum to levels not seen in decades — forcing it to act. LME-registered warehouses' available aluminum stocks have declined by 51% since the war began in late February, according to a Nov. But now the overwhelming majority of stock in LME warehouses — more than 99% — is of Russian origin — a source many Western traders are unwilling to touch.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-27T17:43:33+08:00"
+    },
+    {
       "id": "5ea344a76f6280bf2b542a5d724470216e3afdf8bd90132d9e560a6fbcc766f9",
       "source": "CNBC",
       "title": "Semiconductor chips are the new oil. Here's why",
@@ -421,6 +437,6 @@
       "collectedAtSgt": "2026-11-26T03:58:24+08:00"
     }
   ],
-  "articleCount": 26,
-  "updatedAtSgt": "2026-11-27T08:37:45+08:00"
+  "articleCount": 27,
+  "updatedAtSgt": "2026-11-27T17:43:33+08:00"
 }
