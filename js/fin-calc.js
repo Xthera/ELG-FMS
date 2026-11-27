@@ -1413,7 +1413,7 @@ function srsAgeOptions() {
         return [period.from || "start", `${range} (withdraw from ${period.age})`];
     });
     const now = currentSrsPeriod(), next = periods.find(p => p.from > todayIso());
-    options.push(["later", `Not yet (withdraw from ${now.age}${next ? `; ${next.age} if made from ${shortDate(next.from)}` : ""})`]);
+    options.push(["later", `Not yet (withdraw from ${now.age}${next ? `; ${next.age} from ${shortDate(next.from)}` : ""})`]);
     return options;
 }
 // The period in force today (a later, announced period isn't in force yet)
