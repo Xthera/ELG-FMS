@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-28",
+  "timezone": "Asia/Singapore",
+  "timezoneLabel": "SGT",
+  "source": "CNBC",
+  "articles": [
+    {
+      "id": "488b01fbc71ed191176a7e2cb5d6d28ba9fac9d62478fe7c0c201a968f2adf9c",
+      "source": "CNBC",
+      "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+      "publishedAtSgt": "2026-11-28T02:20:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Budget carrier Norse Atlantic filed for bankruptcy Friday, saying it failed to secure funding after soaring fuel costs strained the company's operations throughout the year. \"Despite extensive efforts, the Company has so far not been able to secure sufficient funding to meet its short-term liquidity needs,\" the firm said in a statement Friday. The company's shares closed 85% lower on Wednesday.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-28T03:30:07+08:00"
+    },
+    {
+      "id": "edd0b258b0b1628353e404eb8700acee2a0ffe4f8d976f7eb087278df2ecc29c",
+      "source": "CNBC",
+      "title": "AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth",
+      "publishedAtSgt": "2026-11-28T00:43:14+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 54,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "So last month, she turned to Meta's Muse personal artificial intelligence agent. Bittner, chief product officer at fintech startup Imprint, gave Muse the greenlight to buy some wipers on her behalf from AutoZone. The interaction encapsulates the current messy and complicated landscape of agentic shopping apps, the AI tools that can make purchases on behalf of users.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-28T03:30:07+08:00"
+    }
+  ],
+  "articleCount": 2,
+  "updatedAtSgt": "2026-11-28T03:30:07+08:00"
+}

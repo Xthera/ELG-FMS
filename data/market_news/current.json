@@ -1,5 +1,5 @@
 {
-  "generatedAtSgt": "2026-11-27T17:43:33+08:00",
+  "generatedAtSgt": "2026-11-28T03:30:13+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
@@ -7,6 +7,85 @@
   "source": "CNBC",
   "articleCount": 100,
   "articles": [
+    {
+      "id": "488b01fbc71ed191176a7e2cb5d6d28ba9fac9d62478fe7c0c201a968f2adf9c",
+      "source": "CNBC",
+      "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+      "publishedAtSgt": "2026-11-28T02:20:32+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Budget carrier Norse Atlantic filed for bankruptcy Friday, saying it failed to secure funding after soaring fuel costs strained the company's operations throughout the year. \"Despite extensive efforts, the Company has so far not been able to secure sufficient funding to meet its short-term liquidity needs,\" the firm said in a statement Friday. The company's shares closed 85% lower on Wednesday.",
+      "feeds": [
+        "latest",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-28T03:30:07+08:00"
+    },
+    {
+      "id": "edd0b258b0b1628353e404eb8700acee2a0ffe4f8d976f7eb087278df2ecc29c",
+      "source": "CNBC",
+      "title": "AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth",
+      "publishedAtSgt": "2026-11-28T00:43:14+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+      "category": "TECHNOLOGY",
+      "relevanceScore": 54,
+      "relevanceReason": "supporting_technology_description",
+      "summary": "So last month, she turned to Meta's Muse personal artificial intelligence agent. Bittner, chief product officer at fintech startup Imprint, gave Muse the greenlight to buy some wipers on her behalf from AutoZone. The interaction encapsulates the current messy and complicated landscape of agentic shopping apps, the AI tools that can make purchases on behalf of users.",
+      "feeds": [
+        "latest",
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-28T03:30:07+08:00"
+    },
+    {
+      "id": "8a23bd25f0461dc07bf14da02e30d38589dfd16dd44265e7c2491331f250109c",
+      "source": "CNBC",
+      "title": "The Tech Download: Will Jensen Huang’s return be the spark the shaky AI market needs?",
+      "publishedAtSgt": "2026-11-27T20:00:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Neoclouds have seen stocks plummet in recent months as investors question the sustainability of the AI boom. \"While Jensen Huang's reinstatement as Nvidia CEO is indubitably a boon for the markets and the overall AI trade, it does not assuage every risk and concern about an industry confronting a potential peak in its investment boom and moderating earnings growth.\" The early week rally was \"largely driven\" by Huang's return, said Violeta Todorova, senior research analyst at Leverage Shares.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-28T03:30:12+08:00"
+    },
+    {
+      "id": "afa777ba6487778e381672df2e0f1e7456966af617ae3debd50401a281f9931f",
+      "source": "CNBC",
+      "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+      "publishedAtSgt": "2026-11-27T19:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Economic headwinds have made consumers more cautious — but new data and reports from retailers are painting a picture of robust holiday spending through Black Friday and beyond. High inflation, fluctuating gas prices and labor uncertainty have dampened consumer sentiment and contributed to a pullback in spending. Holiday sales are expected to top $1 trillion this year, but that growth is boosted by inflation.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-28T03:30:12+08:00"
+    },
+    {
+      "id": "92848794f4cf0a923ede59393e5facacb5d6fe6511b3939208d253b633c243de",
+      "source": "CNBC",
+      "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+      "publishedAtSgt": "2026-11-27T18:13:44+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Chinese stocks rebounded sharply on Friday after a rare intraday state media readout cheered investors as top policymakers pledged to expand the role of state-backed funds in supporting the market. The CSI Semiconductor index of 40 chip stocks climbed by 17.6% in its biggest single-day gain on record, surpassing the prior record of nearly 17% in late 2024, according to Wind Information.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-28T03:30:13+08:00"
+    },
     {
       "id": "3a571f01562eed085661aa8794ba53c12eb023133f95b9076c88494bb283752b",
       "source": "CNBC",
@@ -1533,90 +1612,6 @@
         "world"
       ],
       "collectedAtSgt": "2026-11-20T20:59:24+08:00"
-    },
-    {
-      "id": "f08b664f31d31f70894871e091ca81e3d199f77eda084e8395a35733fc8e046a",
-      "source": "CNBC",
-      "title": "U.K.-India trade deal faces a stiff test over Scotch whisky import taxes",
-      "publishedAtSgt": "2026-11-20T13:09:52+08:00",
-      "url": "https://www.cnbc.com/2026/11/20/uk-india-trade-scotch-whisky-tariffs.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "trade deal is facing an early test, as New Delhi resists extending preferential tariffs to bulk Scotch whisky imports. Duty on bulk Scotch whisky imports was expected to be slashed to 75% then gradually to 40% over 10 years as per the trade agreement. However, a Reuters report Thursday said that India now plans to levy a 162.5% duty on these imports, higher than the 150% in place before the trade deal.",
-      "feeds": [
-        "latest",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
-    },
-    {
-      "id": "d9951f1a646c27f23d805805ace98e3f365658d818945d214d8b1ebc039a1fb4",
-      "source": "CNBC",
-      "title": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
-      "publishedAtSgt": "2026-11-20T11:56:17+08:00",
-      "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
-      "category": "GEOPOLITICAL",
-      "relevanceScore": 71,
-      "relevanceReason": "geopolitical_with_direct_economic_impact",
-      "summary": "The Senate on Thursday passed a long-sought bill to ease the nation's environmental permitting laws and overhaul electrical transmission regulations, a crucial step toward boosting construction for the energy and technology industries. The American Clean Power Association, a group that represents renewables, said it was \"a clean energy bill that will modernize America's energy systems and lower consumer prices.\" The American Petroleum Institute, which represents the oil and gas industry, called...",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-20T20:59:24+08:00"
-    },
-    {
-      "id": "4bae03e2ae02abb69294a14bc982ff91ab427563cd56316eed7460f9ec54e38d",
-      "source": "CNBC",
-      "title": "Anthropic IPO 'exactly what the markets need', but analysts warn of volatility",
-      "publishedAtSgt": "2026-11-20T10:33:39+08:00",
-      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-stocks-market.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "\"Anthropic's IPO is exactly what the markets need to revive overall sentiment,\" said Rebecca Walser, chief investment officer at Walser Wealth Management, adding that markets have been \"depressed with all of the negativity in the AI complex over the past several weeks.\" While the initial pop was not surprising for such a highly anticipated listing, investors should avoid \"chasing the IPO,\" Walser said.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-20T11:23:29+08:00"
-    },
-    {
-      "id": "77f2a37b924dc79c8009a9faa51d2136e8025af4d8ca688e76b3be343a57f273",
-      "source": "CNBC",
-      "title": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
-      "publishedAtSgt": "2026-11-20T10:14:50+08:00",
-      "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
-      "category": "MARKET",
-      "relevanceScore": 91,
-      "relevanceReason": "strong_market_title",
-      "summary": "Shares of Japan's SoftBank Group plunged 16.16% on Friday, leading a broader sell-off in Asian technology stocks following the highly anticipated market debut of artificial intelligence startup Anthropic. The sharp decline underscores growing investor concerns over SoftBank's aggressive bets on artificial intelligence, particularly its exposure to OpenAI, as markets question whether massive investments in AI infrastructure will generate sufficient returns.",
-      "feeds": [
-        "latest",
-        "technology",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-20T11:23:30+08:00"
-    },
-    {
-      "id": "ae86681885491886aa70010e147bd5cde623fe2e7d13d05b5d4c0e50d4733996",
-      "source": "CNBC",
-      "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
-      "publishedAtSgt": "2026-11-20T09:49:03+08:00",
-      "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
-      "category": "ECONOMIC",
-      "relevanceScore": 101,
-      "relevanceReason": "strong_economic_title",
-      "summary": "Core inflation in Japan soared to a fresh high in 2026, coming in at 2.2% in October as higher energy costs and their knock-on effects pushed up prices in the wider economy. Japan has reportedly approved reintroduction of energy subsidies in December to stave off higher imported energy prices as higher prices crimp growth, hitting consumption and net exports.",
-      "feeds": [
-        "latest",
-        "economy",
-        "world"
-      ],
-      "collectedAtSgt": "2026-11-20T11:23:29+08:00"
     }
   ]
 }

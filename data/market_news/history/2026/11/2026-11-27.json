@@ -5,6 +5,53 @@
   "source": "CNBC",
   "articles": [
     {
+      "id": "8a23bd25f0461dc07bf14da02e30d38589dfd16dd44265e7c2491331f250109c",
+      "source": "CNBC",
+      "title": "The Tech Download: Will Jensen Huang’s return be the spark the shaky AI market needs?",
+      "publishedAtSgt": "2026-11-27T20:00:22+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html",
+      "category": "MARKET",
+      "relevanceScore": 57,
+      "relevanceReason": "supporting_market_description",
+      "summary": "Neoclouds have seen stocks plummet in recent months as investors question the sustainability of the AI boom. \"While Jensen Huang's reinstatement as Nvidia CEO is indubitably a boon for the markets and the overall AI trade, it does not assuage every risk and concern about an industry confronting a potential peak in its investment boom and moderating earnings growth.\" The early week rally was \"largely driven\" by Huang's return, said Violeta Todorova, senior research analyst at Leverage Shares.",
+      "feeds": [
+        "latest",
+        "technology",
+        "world"
+      ],
+      "collectedAtSgt": "2026-11-28T03:30:12+08:00"
+    },
+    {
+      "id": "afa777ba6487778e381672df2e0f1e7456966af617ae3debd50401a281f9931f",
+      "source": "CNBC",
+      "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+      "publishedAtSgt": "2026-11-27T19:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+      "category": "ECONOMIC",
+      "relevanceScore": 101,
+      "relevanceReason": "strong_economic_title",
+      "summary": "Economic headwinds have made consumers more cautious — but new data and reports from retailers are painting a picture of robust holiday spending through Black Friday and beyond. High inflation, fluctuating gas prices and labor uncertainty have dampened consumer sentiment and contributed to a pullback in spending. Holiday sales are expected to top $1 trillion this year, but that growth is boosted by inflation.",
+      "feeds": [
+        "business"
+      ],
+      "collectedAtSgt": "2026-11-28T03:30:12+08:00"
+    },
+    {
+      "id": "92848794f4cf0a923ede59393e5facacb5d6fe6511b3939208d253b633c243de",
+      "source": "CNBC",
+      "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+      "publishedAtSgt": "2026-11-27T18:13:44+08:00",
+      "url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
+      "category": "MARKET",
+      "relevanceScore": 91,
+      "relevanceReason": "strong_market_title",
+      "summary": "Chinese stocks rebounded sharply on Friday after a rare intraday state media readout cheered investors as top policymakers pledged to expand the role of state-backed funds in supporting the market. The CSI Semiconductor index of 40 chip stocks climbed by 17.6% in its biggest single-day gain on record, surpassing the prior record of nearly 17% in late 2024, according to Wind Information.",
+      "feeds": [
+        "technology"
+      ],
+      "collectedAtSgt": "2026-11-28T03:30:13+08:00"
+    },
+    {
       "id": "3a571f01562eed085661aa8794ba53c12eb023133f95b9076c88494bb283752b",
       "source": "CNBC",
       "title": "Private markets are more accessible than ever for investors. Getting out is another matter",
@@ -87,6 +134,6 @@
       "collectedAtSgt": "2026-11-27T08:37:41+08:00"
     }
   ],
-  "articleCount": 5,
-  "updatedAtSgt": "2026-11-27T17:43:33+08:00"
+  "articleCount": 8,
+  "updatedAtSgt": "2026-11-28T03:30:13+08:00"
 }
