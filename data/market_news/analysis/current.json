@@ -1,10 +1,40 @@
 {
-  "generatedAtSgt": "2026-11-28T12:12:04.022579+08:00",
+  "generatedAtSgt": "2026-11-28T21:21:15.817276+08:00",
   "timezone": "Asia/Singapore",
   "timezoneLabel": "SGT",
   "windowDays": 14,
-  "articleCount": 200,
+  "articleCount": 201,
   "analyses": [
+    {
+      "articleId": "74e55768efb721453e5781b8a1e74b49f6e6e3e4468b6ffb566983c2c7877111",
+      "relevant": true,
+      "category": "MARKET",
+      "sentiment": "POSITIVE",
+      "importance": "HIGH",
+      "summary": "Dangote Petroleum Refinery and Petrochemicals FZE, founded by Nigerian billionaire Aliko Dangote, is preparing for a blockbuster initial public offering in Lagos to become Africa's biggest public firm.",
+      "assetClasses": [
+        "Equities"
+      ],
+      "geographies": [
+        "Africa",
+        "Nigeria"
+      ],
+      "sectors": [
+        "Energy",
+        "Oil and Gas"
+      ],
+      "investorImpact": "The IPO represents a major liquidity and investment event in African capital markets, potentially offering significant public market exposure to the energy sector in the region.",
+      "reasoning": "Classified as MARKET due to the upcoming blockbuster IPO of a major oil refinery. It is significant for regional market developments and investor opportunities.",
+      "fundMonitoringRelevant": true,
+      "source": "CNBC",
+      "title": "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
+      "publishedAtSgt": "2026-11-28T14:00:01+08:00",
+      "url": "https://www.cnbc.com/2026/11/28/dangote-refinery-oil-ipo-nigeria-africa-energy.html",
+      "collectorCategory": "MARKET",
+      "collectorRelevanceScore": 91,
+      "collectorRelevanceReason": "strong_market_title",
+      "collectedAtSgt": "2026-11-28T21:05:44+08:00"
+    },
     {
       "articleId": "488b01fbc71ed191176a7e2cb5d6d28ba9fac9d62478fe7c0c201a968f2adf9c",
       "relevant": true,
